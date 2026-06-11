@@ -50,7 +50,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           rm -f raw.json
           git rm --quiet --ignore-unmatch yarin_tweets.json
-          git add yarin_tweets_1.json yarin_tweets_2.json
+          git add -A yarin_tweets_1.json yarin_tweets_2.json yarin_tweets_3.json yarin_tweets_4.json
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

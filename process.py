@@ -61,17 +61,45 @@ for t in items:
     })
 
 out.sort(key=lambda x: x["likeCount"] + 2 * x["retweetCount"], reverse=True)
-out = out[:40]
+out = out[:60]
 
-# Paginate into small files so WebFetch returns them verbatim (no summarization
-# of a large blob). PAGE=20 keeps each file well under the size that triggers
-# WebFetch's extraction/summarization step.
-PAGE = 20
-pages = [out[i:i + PAGE] for i in range(0, len(out), PAGE)] or [[]]
+# Paginate into a FIXED number of small files so the digest routine always knows
+# exactly which URLs to fetch, and so WebFetch returns each verbatim (no
+# summarization of a large blob). We balance by *byte size*, not tweet count: a
+# few long tweets can blow a fixed-count page past the ~26KB that triggers
+# WebFetch's extraction/summarization step. Greedy bin-packing (assign each
+# tweet, largest first, to the currently-smallest page) keeps every page well
+# under that threshold. With ~60 tweets across 4 pages this lands ~16KB/page.
+NUM_PAGES = 4
+
+
+def dump(chunk):
+    return json.dumps(chunk, ensure_ascii=False, indent=0)
+
+
+def tweet_bytes(t):
+    return len(dump([t]).encode("utf-8"))
+
+
+pages = [[] for _ in range(NUM_PAGES)]
+sizes = [2] * NUM_PAGES  # account for the "[]" brackets
+for tweet in sorted(out, key=tweet_bytes, reverse=True):
+    target = sizes.index(min(sizes))
+    pages[target].append(tweet)
+    sizes[target] += tweet_bytes(tweet)
+
 for idx, chunk in enumerate(pages, start=1):
     fname = f"yarin_tweets_{idx}.json"
     with open(fname, "w", encoding="utf-8") as f:
-        json.dump(chunk, f, ensure_ascii=False, indent=0)
-    print(f"Wrote {len(chunk)} tweets to {fname}")
+        f.write(dump(chunk))
+    print(f"Wrote {len(chunk)} tweets ({len(dump(chunk).encode('utf-8'))} bytes) to {fname}")
 
-print(f"Total {len(out)} tweets across {len(pages)} page(s) (from {len(items)} raw items)")
+# Remove any stale higher-numbered pages from a previous (larger) run so the
+# commit step and the digest routine never read leftover files.
+idx = NUM_PAGES + 1
+while os.path.exists(f"yarin_tweets_{idx}.json"):
+    os.remove(f"yarin_tweets_{idx}.json")
+    print(f"Removed stale yarin_tweets_{idx}.json")
+    idx += 1
+
+print(f"Total {len(out)} tweets across {NUM_PAGES} page(s) (from {len(items)} raw items)")
