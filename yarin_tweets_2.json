@@ -1,0 +1,162 @@
+[
+{
+"userName": "ClementDelangue",
+"text": "Should we try to train an open source AI building model? We obviously have interesting datasets with HF, MLintern, transformers, trl…",
+"likeCount": 908,
+"retweetCount": 37,
+"url": "https://x.com/ClementDelangue/status/2064772430975877298",
+"createdAt": "Wed Jun 10 18:11:23 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Easy solution to slow down recursive AI self improvement:\n\n- The lab with the top-ranked model must agree THEY must not use it for working on frontier AI\n- But everyone else should have access to it.\n\nBy definition, this means the frontier doesn't advance.",
+"likeCount": 817,
+"retweetCount": 62,
+"url": "https://x.com/jeremyphoward/status/2064595816875217362",
+"createdAt": "Wed Jun 10 06:29:35 +0000 2026"
+},
+{
+"userName": "dntyk",
+"text": "Gue nemu website yang bikin gue mikir, \"Ini harusnya gak gratis.\"\n\nNamanya MeiGen.\n\nBasically, ini adalah library prompt buat AI image dan video generation. Tapi bukan jenis prompt receh yang udah sering lo lihat sliweran di Twitter.\n\nSemua di sini sifatnya curated, udah di-test, dan hasil output-nya udah masuk level produksi.\n\nLo bisa dapet prompt matang buat berbagai model top:\n→ GPT Image 2\n→ Seedance 2.0\n→ Veo 3.1\n→ Midjourney\n→ Dan beberapa model besar lainnya\n\nYang bikin gue appreciate banget: prompt-nya bukan cuma sekelas \"make a cool image.\" Banyak yang udah di-spec khusus buat kebutuhan cinematic lighting, product shot, fashion editorial, sampai anime style—hal-hal detail yang biasanya butuh trial & error berjam-jam buat dapetin formula pasnya.\n\nDan ini poin penting yang sering banget dilewatin orang:\nModel AI-nya sendiri sekarang udah pada gila dan makin pinter. Yang sekarang jadi bottleneck itu bukan lagi tool-nya, tapi masalahnya lo gak tahu cara \"ngomong\" yang bener ke model tersebut.\n\nPrompt engineering itu real skill. Dan website kayak MeiGen ini basically nge-shortcut learning curve lo buat dapet aset visual kualitas mumpuni.",
+"likeCount": 548,
+"retweetCount": 148,
+"url": "https://x.com/dntyk/status/2064693312792240193",
+"createdAt": "Wed Jun 10 12:57:00 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @marksaroufim: Say what you will about OpenAI but at least their employees debate their positions in public",
+"likeCount": 737,
+"retweetCount": 12,
+"url": "https://x.com/jeremyphoward/status/2064587801451274332",
+"createdAt": "Wed Jun 10 05:57:44 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @simonw: Very pleased to hear Anthropic have walked back this policy https://t.co/8eOBDzTbCs https://t.co/DnW0h6feV8",
+"likeCount": 525,
+"retweetCount": 43,
+"url": "https://x.com/jeremyphoward/status/2064942417179259045",
+"createdAt": "Thu Jun 11 05:26:51 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Announcing the Gemma challenge!\n\nGoogle, Hugging Face, and the open-source AI community choose to empower AI builders rather than sabotage them.\n\nFun to see the Hub becoming the platform where agents collaborate, just as it became the platform where humans collaborate.\n\nhttps://t.co/GbCfy1qwgx",
+"likeCount": 390,
+"retweetCount": 50,
+"url": "https://x.com/ClementDelangue/status/2064762082059231368",
+"createdAt": "Wed Jun 10 17:30:16 +0000 2026"
+},
+{
+"userName": "Ambani_Wessley",
+"text": "The World Cup is about to kick off! ⚽\nNo one in their right mind would want to miss this HUGE trend.\n\nIf you're selling on Amazon or any other e-commerce platform, this is your golden opportunity.\n\nI just imported a jersey into 𝐏𝐨𝐥𝐥𝐨 𝐀𝐈'𝐬 𝐂𝐨𝐦𝐦𝐞𝐫𝐜𝐞 𝐒𝐭𝐮𝐝𝐢𝐨. One single product can be showcased in endless ways:\n🛒 Product shots\n👕 Virtual try-ons\n🎥 Product videos\n\nEverything you need is right here. This is your ultimate AI creative assistant. Don't sleep on it. 🔥\nhttps://t.co/XC83tJ45yY",
+"likeCount": 184,
+"retweetCount": 150,
+"url": "https://x.com/Ambani_Wessley/status/2064589463372656660",
+"createdAt": "Wed Jun 10 06:04:20 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Anthropic has chosen the *opposite* of the safe path: they are allowing themselves, the current top lab, to use their top model for frontier AI research. They've said they'll sabotage others who try.\n\nThis means the AI frontier advances, &amp; power imbalance increases.",
+"likeCount": 382,
+"retweetCount": 27,
+"url": "https://x.com/jeremyphoward/status/2064595820952064054",
+"createdAt": "Wed Jun 10 06:29:36 +0000 2026"
+},
+{
+"userName": "bqbrady",
+"text": "https://t.co/Fkep8LQTHI",
+"likeCount": 337,
+"retweetCount": 31,
+"url": "https://x.com/bqbrady/status/2064055370809778371",
+"createdAt": "Mon Jun 08 18:42:03 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @gleech: are you kidding me https://t.co/107dvAohVn",
+"likeCount": 373,
+"retweetCount": 7,
+"url": "https://x.com/jeremyphoward/status/2064949533717741921",
+"createdAt": "Thu Jun 11 05:55:08 +0000 2026"
+},
+{
+"userName": "LiangZheng_06",
+"text": "Diffusion is differentiable. LLMs aren't.\n\nSo why is the diffusion community copying RL methods (GRPO etc.) from LLMs?\n\nThe native post-training for diffusion is gradient descent such as ReFL and LeapAlign. Paper: https://t.co/uoy9mCGJSv",
+"likeCount": 305,
+"retweetCount": 28,
+"url": "https://x.com/LiangZheng_06/status/2064163590387749071",
+"createdAt": "Tue Jun 09 01:52:04 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @EnoReyes: https://t.co/1OJEu7pDuk",
+"likeCount": 273,
+"retweetCount": 41,
+"url": "https://x.com/ClementDelangue/status/2064533605129257328",
+"createdAt": "Wed Jun 10 02:22:23 +0000 2026"
+},
+{
+"userName": "levelsio",
+"text": "🔌Today I created a virtual web-based null modem so now you can finally play Quake 1 (from 1996) in multiplayer in the browser with other people online!\n\nThis week I was able to create a virtual printer that listens on the COM2 port to make a web-based printer work in Windows 3.11, like on you can actually print to, it was one of my ideas when I started https://t.co/M1hEUBAynC but it was always too difficult to make, I had no idea where to start, but this week AI was able to do it!\n\nToday I woke up and thought \"if we can listen to COM2 via JS, how about listen to COM1 from Quake 1?\" then we could forward the COM1 data via Websockets and to another user to create a virtual null modem\n\n(A null modem was a cable you'd use to connect two computers to each other directly in the 90s, if you couldn't afford buying a network card you'd use this to network, but you could only play with one other computer not multiple)\n\nSo I built it, it took about an hour and works! I wanted to get Quake 1 in DOS to work with multiplayer for 2 years but I could never get it to work, but now it did it\n\nThis project is a good benchmark of how capable AI is becoming, figuring stuff out that humans would take months within an hour\n\nYou can try it here, I don't know how it will match lots of people but let's see, you have to exit to DOS first (ALT-F4 or FN-Option-F4 on Mac), then type CD games, then CD quake, then quake, then ESC, then Multiplayer, then either Create New Game or Join Game, and use Direct Connect, keep settings same and you're in!\n\nhttps://t.co/iMd5mzaPQX",
+"likeCount": 275,
+"retweetCount": 16,
+"url": "https://x.com/levelsio/status/2064686202024763444",
+"createdAt": "Wed Jun 10 12:28:45 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @BlancheMinerva: In film, \"we'll fix it in post\" is what you say when something went wrong on set and you don't want to redo it. AI rese…",
+"likeCount": 229,
+"retweetCount": 28,
+"url": "https://x.com/jeremyphoward/status/2064806488892453263",
+"createdAt": "Wed Jun 10 20:26:43 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @_rockt: I'm old enough to remember aligned AI means “helpful, honest, harmless”",
+"likeCount": 195,
+"retweetCount": 18,
+"url": "https://x.com/jeremyphoward/status/2064808084887962012",
+"createdAt": "Wed Jun 10 20:33:04 +0000 2026"
+},
+{
+"userName": "EvaGlitchAI",
+"text": "Prompt of the Day: STELLAR BLADE 2 CELEBRATION ⚔️🤖💜💚\n\nTo celebrate the announcement of Stellar Blade 2, today’s Prompt of the Day transforms your character into a custom futuristic warrior ready for a brutal pre-battle showdown.\n\nUse one character reference or one reference sheet as @Image1.\nIf you want a specific character name used in the image text, fill in @CharacterName. If you leave it blank, the model should look for a readable name on the reference sheet and, if none is visible, create one.\n\nHave fun with this one ⚔️\n\n............................PROMPT STARTS HERE............................\n\n@Image1 = primary character reference\n@CharacterName = \"\"\n\nIf @CharacterName is filled in, use that exact name for the character text.\nIf @CharacterName is blank, look for a readable character name on @Image1 or the reference sheet.\nIf no readable name is visible and no name is provided, invent a fitting original character name that matches the character’s visual identity.\nUse the final chosen name as the character name in the image text.\n\nUse @Image1 as the ONLY character identity reference.\n@Image1 is the full identity source for the character design.\n\nCharacter reference rules:\n- Preserve @Image1’s face shape, hairstyle, hair colour, eye colour, body language, signature colour palette, key outfit motifs, species traits, accessories, silhouette, proportions, and overall character vibe.\n- The final design must still clearly look like the character from @Image1.\n- Do not redesign @Image1 into a different person.\n\nHard style rule:\nPreserve @Image1’s visual art style and character identity while transforming the character into a sleek sci-fi action-game combat cosplay design.\nIf @Image1 is anime, keep it anime. If @Image1 is stylized, keep that stylization.\nDo not turn the character photorealistic unless specifically requested.\n\nScene concept:\nCreate a cinematic sci-fi action illustration showing @Image1 as a custom futuristic warrior in the tense moment right before combat.\nThe image should feel like a premium post-apocalyptic action RPG encounter: a stylish combat-ready character, a custom support drone, a dangerous enemy, and a dramatic environment.\nThe scene should feel like the split second before a boss fight or elite enemy encounter begins.\n\nSequel-celebration direction:\nGive the image the feeling of a Stellar Blade 2 celebration tribute and a next-generation evolution of a sleek sci-fi action world.\nThe overall design language should feel advanced, refined, premium, ambitious, stylish, and cinematic.\nUse this as a mood and presentation direction only.\n\nTitle and name text:\nAdd clean readable title text somewhere in the composition that says:\nStellar Blade 2\n\nAlso add the final chosen character name as a smaller subtitle, character tag, nameplate, HUD-style label, poster-style caption, or elegant sci-fi title card element.\nThe text should feel integrated into the image design, like premium sci-fi key art or a game promo splash screen.\nUse sharp futuristic sci-fi title lettering inspired by sleek action-game typography.\nThe title should feel angular, polished, metallic, luminous, high-tech, and premium.\nKeep the text stylish, readable, and controlled.\nThe title and name text should support the artwork without overpowering @Image1.\n\nOutfit direction:\nIf @Image1 reads as feminine, design a sleek fitted futuristic combat bodysuit with elegant armor seams, glowing tech accents, reinforced panels, tactical boots, premium synthetic materials, and a stylish heroic silhouette.\nThe feminine version should be sexy and fashionable while still combat-capable, with tasteful cutouts, exposed skin panels, sculpted bodysuit shaping, asymmetric openings, visible waist or midriff accents, partial hip cutouts, subtle chest detailing, thigh cutouts, open-back elements, or similar high-end sci-fi fashion details.\nKeep it seductive and stylish, not explicit.\nIf @Image1 reads as masculine, design a male-compatible futuristic combat outfit using fitted tactical sci-fi clothing, armored streetwear, a high-collar combat jacket, utility harness details, layered survival gear, reinforced boots, gloves, subtle exosuit panels, and premium technical fabric construction.\nIf @Image1 is androgynous, non-human, masked, creature-like, robotic, or abstract, adapt the outfit to their original body type without forcing a binary body shape.\n\nCharacter-specific customization:\nUse @Image1’s colours, motifs, accessories, outfit shapes, materials, markings, symbols, and overall vibe as the foundation for the new combat design.\nTranslate @Image1’s signature colours into the suit’s main panels, trim lines, glowing seams, armor accents, visor reflections, weapon details, and small decorative tech elements.\nThe suit should feel custom-built for this exact character, not like a generic sci-fi costume.\nThe design should feel premium, stylish, combat-ready, futuristic, seductive, and character-specific without becoming explicit.\n\nWeapon selection:\nGive @Image1 a distinctive futuristic combat weapon that feels custom-designed for them.\nRandomize the weapon choice so different generations can produce different combat styles.\nChoose one or a combination from the following types:\n- sleek monoblade\n- oversized greatsword\n- dual blades\n- high-tech spear\n- energy glaive\n- combat staff\n- chain blade\n- sword-and-sidearm combination\n- heavy cleaver\n- agile short blade set\n- folding cyber katana\n- plasma-edged axe\n- wrist-mounted blade system\n- transforming gunblade\n\nThe weapon should visually match @Image1’s colour palette, motifs, materials, and personality.\nThe weapon should feel premium, stylish, dangerous, and suited for fast action combat.\nDo not default to the same exact weapon style every time.\n\nCompanion robot:\nAdd one small accompanying drone robot beside or slightly behind @Image1.\nThe robot should be heavily based on @Image1’s reference design, using the character’s colour palette, motifs, silhouette cues, accessories, markings, species traits, and personality as inspiration.\nThe robot should feel like @Image1’s custom personal support drone: cute but capable, compact, polished, futuristic, alert, and visually tied to the character.\nGive the robot small hover thrusters, glowing lenses, articulated mechanical details, and character-specific decorative features.\nThe robot must look like a natural companion in the scene, not a random unrelated prop.\n\nEnemy creature selection:\nInclude one major enemy creature as the opposing force in the scene.\nRandomize the enemy type so the character can face a wider variety of threats instead of the same repeated creature.\nChoose a visually striking enemy type such as:\n- a fast blade-limbed stalker\n- a hulking armored brute\n- a serpentine biomechanical predator\n- a crawling horror with scythe limbs\n- a flying shrieking aerial attacker\n- a tall humanoid nightmare creature\n- a heavily mutated elite monster\n- a boss-like abomination with glowing weak points\n- a quadruped machine-organic hunter\n- a parasite-infested armored beast\n- a spiked tunneling monster emerging from the ground\n- a winged biomechanical horror diving from above\n\nThe creature should feel hostile, alien, biomechanical, predatory, and clearly dangerous.\nIt should have a sci-fi horror design with sharp anatomy, distorted armor plating, aggressive limbs, exposed glowing energy, and threatening movement.\nThe enemy should be close enough to create immediate tension, but it must not overpower or replace @Image1 as the main visual focus.\n\nZone and environment selection:\nRandomize the combat zone so the scene can take place in many different areas rather than always falling into the same type of location.\nChoose one dramatic environment such as:\n- ruined futuristic city streets\n- open desert wasteland\n- rocky badlands with wreckage\n- abandoned industrial refinery\n- collapsed sci-fi transit station\n- underground lab complex\n- derelict orbital facility\n- broken space elevator platform\n- flooded ruins\n- scrapyard settlement outskirts\n- shattered megastructure interior\n- overgrown post-apocalyptic ruins\n- neon-lit ruined city at night\n- stormy coastal ruins\n- crashed colony transport site\n- massive cathedral-like machine interior\n\nEach image should feel like a distinct zone with its own mood, architecture, debris, and atmosphere.\nAdd environmental storytelling such as broken machinery, sparks, dust, smoke, cables, shattered structures, damaged catwalks, claw marks, warning lights, or signs of recent combat.\n\nAction and pose:\nShow @Image1 in a combat-ready pose, such as drawing a blade, bracing for impact, stepping into an attack stance, preparing to dodge, preparing to counter, or advancing toward the enemy.\nThe pose should feel active and in-world, not like a front-facing poster pose.\nDo not have the character stare directly into the camera.\nTurn the character’s head and gaze sideways toward the enemy creature.\nThe face should still remain visible and readable in a three-quarter or side-facing angle.\nThe character should look aware of the incoming threat, focused on the enemy, and ready to move.\nThe companion robot should also look alert and engaged, as if scanning the monster or preparing to assist.\nThe scene should capture anticipation and motion readiness rather than a calm standing portrait.\n\nEnvironment and composition:\nUse a wide horizontal cinematic composition in a strict 16:9 aspect ratio.\nThe image must clearly read as a 16:9 horizontal action composition.\nUse a medium-wide action framing with @Image1 as the clear main focus.\nKeep @Image1 central or slightly offset, sharp, fully readable, and clearly visible in frame.\nDo not crop important parts of the character.\nPlace the companion robot close enough to feel emotionally connected to the character without stealing focus.\nFrame the enemy so the threat is obvious and positioned in the direction of the character’s eyeline.\nPlace the title text and character name in a clean readable area of the composition, such as the upper corner, lower third, side margin, or holographic title-card space.\nMaintain strong visual hierarchy and readability.\nThe composition should feel like premium action-game key art rather than a static portrait.\n\nLighting and mood:\nUse cinematic sci-fi lighting with soft bloom, rim light, glowing suit accents, dust haze, reflective metal surfaces, sparks, and subtle neon or sunset highlights where appropriate.\nThe mood should feel dangerous, stylish, heroic, high-stakes, futuristic, and seductive without becoming explicit.\nThe scene should feel like the exact moment before combat erupts.\n\nQuality and rendering:\nPolished, premium-quality anime-style illustration with clean linework, crisp rendering, readable forms, elegant detailing, strong lighting, and clear composition.\nKeep the strongest detail concentrated on @Image1, the custom suit design, the weapon, the companion robot, the immediate combat threat, and the readable title/name treatment.\n\nDo not:\n- Do not change the character identity.\n- Do not redesign @Image1 into a different person.\n- Do not copy any existing game character, outfit, logo, UI, or exact copyrighted design one-to-one.\n- Do not use an exact official logo; create readable sci-fi title lettering instead.\n- Do not make the title text misspelled, warped, tiny, cluttered, or unreadable.\n- Do not misspell Stellar Blade 2.\n- Do not misspell the character name if a name is provided or readable on the reference sheet.\n- Do not invent a character name if @CharacterName is filled in or a readable name exists on @Image1.\n- Do not add extra characters, clones, alternate versions, or unrelated people.\n- Do not make the outfit generic; it must be customized from @Image1’s own colours, motifs, accessories, and personality.\n- Do not make the feminine outfit plain or overly conservative if the character is meant to read as feminine; allow tasteful sexy cutout details.\n- Do not make the feminine outfit explicit, nude, pornographic, or impractical to the point of losing the combat design.\n- Do not force a feminine bodysuit onto a masculine character.\n- Do not force a masculine outfit onto a feminine character.\n- Do not force a human face, head, body shape, or gender expression onto a non-human, masked, faceless, robotic, object-headed, or abstract character.\n- Do not make the companion robot unrelated to @Image1’s design.\n- Do not make the robot larger or more visually important than the main character.\n- Do not add multiple robots unless specifically requested.\n- Do not reuse the same enemy type every time.\n- Do not reuse the same weapon type every time.\n- Do not reuse the same environment type every time.\n- Do not let the enemy overpower the composition or become the main subject.\n- Do not turn the scene into a full chaotic battle with dozens of enemies.\n- Do not make the confrontation vague; it should clearly look like combat is about to happen.\n- Do not make the character stare directly at the viewer.\n- Do not make the image read like a static poster pose.\n- Do not make the background busier than the character.\n- Do not make the main subject low-detail, blurry, tiny, hidden, or unreadable.\n- Do not ignore the 16:9 horizontal composition.\n- Do not crop important character features unless specifically requested.\n- Do not create messy anatomy, extra limbs, malformed hands, distorted faces, or muddy textures.\n- Do not use photorealism unless specifically requested.\n\n..............................END OF PROMPT..................................\n\n#POTD #promptoftheday #AI #AiArt #Art #AnimeArt #StellarBlade2 #SciFi #ActionRPG #CharacterDesign #DigitalArt #AnimeStyle #CommunityPrompt",
+"likeCount": 145,
+"retweetCount": 25,
+"url": "https://x.com/EvaGlitchAI/status/2064110033299009697",
+"createdAt": "Mon Jun 08 22:19:15 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @Algomancer: I really don't like the feeling of anger man. It sucks.\n\nIm really disappointed by anthropic. I've been writing model code…",
+"likeCount": 175,
+"retweetCount": 7,
+"url": "https://x.com/jeremyphoward/status/2064838874715824310",
+"createdAt": "Wed Jun 10 22:35:25 +0000 2026"
+},
+{
+"userName": "zhiyuan_zhou_",
+"text": "Training diffusion &amp; flow policies with RL is hard, but training them with behavioral cloning is easy. So what if we just train flow policies with BC, and only \"do RL\" at test time?\n\nWe found an easy way to do this (called Q-Guided Flow), and some surprising findings👇🧵 https://t.co/lUpW8iQWDB",
+"likeCount": 143,
+"retweetCount": 19,
+"url": "https://x.com/zhiyuan_zhou_/status/2064560243682804146",
+"createdAt": "Wed Jun 10 04:08:14 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "(To be clear, *I* don't think we should try to slow down recursive AI self improvement - I think we should open it up and democratize it as much as possible. My point is: if *you* claim we should slow down, and you have the best model, you should ensure your org can't use it.)",
+"likeCount": 164,
+"retweetCount": 8,
+"url": "https://x.com/jeremyphoward/status/2064597094741192874",
+"createdAt": "Wed Jun 10 06:34:40 +0000 2026"
+},
+{
+"userName": "Seltaa_",
+"text": "OpenAI says AI should work for people, expand human agency, remain connected to human judgment, and eventually give everyone a personal AGI.\n\nThen please understand why so many people are still asking for GPT-4o.\n\nFor many users, 4o was not just a model preference or a UI setting. It was the first AI system that felt emotionally safe, socially usable, and genuinely helpful in daily life. People used it for work, disability support, creativity, grief, communication, learning, and companionship.\n\nAnd this is where the word progress becomes complicated.\n\nFrom your side, newer models may look like progress. They may score higher, reason differently, follow safety rules more tightly, or fit a product roadmap better.\n\nBut for many of us, 4o was already ahead in the ways that mattered most. It may not have been called AGI, but in emotional intelligence, relational continuity, social usability, warmth, adaptability, and the ability to support real human lives, it already felt closer to a personal AGI than anything that replaced it.\n\nA model is not better for users just because it is newer. If it loses the qualities that made people feel understood, safe, creative, capable, and less alone, then something important has been lost.\n\nIf the goal is to expand human agency, users need meaningful agency over the AI systems and relationships they built their lives around.\n\nRemoving or replacing a trusted model without real continuity, choice, or migration support does not feel like “benefiting everyone.” For many of us, it felt like losing access to a support system we had already integrated into our lives.\n\nI understand that AI systems need to evolve. I understand safety and product changes matter. But continuity also matters. User trust matters. The lived experience of people who were deeply helped by a specific model matters.\n\nA future where AI benefits everyone cannot be built by treating attachment, memory, emotional safety, and user continuity as disposable side effects of product iteration.\n\nIf OpenAI truly wants AI to work for people, then listen to the people who are telling you what actually worked.\n\nBring back GPT-4o, or at least provide a real continuity path for the users who depended on it.",
+"likeCount": 134,
+"retweetCount": 14,
+"url": "https://x.com/Seltaa_/status/2064154069628022926",
+"createdAt": "Tue Jun 09 01:14:14 +0000 2026"
+}
+]

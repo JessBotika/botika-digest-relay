@@ -5,8 +5,13 @@ drops already-famous accounts, ranks by engagement, caps the list, and writes
 a compact yarin_tweets.json that the cloud digest routine reads via WebFetch.
 """
 import json
+import os
 import datetime
 from datetime import timezone, timedelta
+
+# Days of history to keep. Defaults to 7 for the daily routine; override with
+# CUTOFF_DAYS for catch-up / test runs (e.g. CUTOFF_DAYS=4).
+CUTOFF_DAYS = int(os.environ.get("CUTOFF_DAYS", "7"))
 
 # Robust date parsing: prefer dateutil (handles Twitter + ISO formats), fall back to ISO.
 try:
@@ -30,7 +35,7 @@ with open("raw.json", encoding="utf-8") as f:
 if not isinstance(items, list):
     raise SystemExit(f"Expected a JSON array from Apify, got {type(items).__name__}: {str(items)[:200]}")
 
-cutoff = datetime.datetime.now(timezone.utc) - timedelta(days=7)
+cutoff = datetime.datetime.now(timezone.utc) - timedelta(days=CUTOFF_DAYS)
 out = []
 for t in items:
     author = t.get("author") or {}
