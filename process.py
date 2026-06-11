@@ -56,9 +56,17 @@ for t in items:
     })
 
 out.sort(key=lambda x: x["likeCount"] + 2 * x["retweetCount"], reverse=True)
-out = out[:60]
+out = out[:40]
 
-with open("yarin_tweets.json", "w", encoding="utf-8") as f:
-    json.dump(out, f, ensure_ascii=False, indent=0)
+# Paginate into small files so WebFetch returns them verbatim (no summarization
+# of a large blob). PAGE=20 keeps each file well under the size that triggers
+# WebFetch's extraction/summarization step.
+PAGE = 20
+pages = [out[i:i + PAGE] for i in range(0, len(out), PAGE)] or [[]]
+for idx, chunk in enumerate(pages, start=1):
+    fname = f"yarin_tweets_{idx}.json"
+    with open(fname, "w", encoding="utf-8") as f:
+        json.dump(chunk, f, ensure_ascii=False, indent=0)
+    print(f"Wrote {len(chunk)} tweets to {fname}")
 
-print(f"Wrote {len(out)} tweets to yarin_tweets.json (from {len(items)} raw items)")
+print(f"Total {len(out)} tweets across {len(pages)} page(s) (from {len(items)} raw items)")
