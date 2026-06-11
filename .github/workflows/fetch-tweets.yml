@@ -1,0 +1,58 @@
+name: Fetch Yarin tweets
+
+# Runs daily at 08:20 UTC (just after the Apify scraper's ~08:00 UTC run),
+# plus on-demand via the "Run workflow" button.
+on:
+  schedule:
+    - cron: "20 8 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install date parser
+        run: python3 -m pip install --quiet python-dateutil
+
+      - name: Fetch Apify dataset
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          set -euo pipefail
+          HTTP=$(curl -sS -w '%{http_code}' \
+            "https://api.apify.com/v2/actor-tasks/FyoZfuGnWnUAmZbas/runs/last/dataset/items?token=${APIFY_TOKEN}&limit=500&fields=author,text,likeCount,retweetCount,url,createdAt&clean=true&format=json" \
+            -o raw.json)
+          echo "Apify HTTP status: $HTTP"
+          if [ "$HTTP" != "200" ]; then
+            echo "Apify fetch failed with status $HTTP" >&2
+            head -c 500 raw.json >&2 || true
+            exit 1
+          fi
+          echo "raw.json size: $(wc -c < raw.json) bytes"
+
+      - name: Process dataset
+        run: python3 process.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f raw.json
+          git add yarin_tweets.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update Yarin tweets $(date -u +%FT%TZ)"
+            git push
+          fi
