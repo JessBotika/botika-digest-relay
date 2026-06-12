@@ -16,12 +16,12 @@
 "createdAt": "Tue Jun 09 01:14:14 +0000 2026"
 },
 {
-"userName": "TheMiddlerGrey",
-"text": "I was trying to make a random chibi image generator for something i was doing. But somehow it morphed into this Urban Streetwear hoodie - AI deciding what animal or creature you look like. But it somehow works. \nFemler Boy Grey,  @joebeanclown, @nealops95125, @TolvanSkull - Lunette \n\n================Start====================\nAnalyze the uploaded source image and identify its main subject. Transform that subject into a unique, almost-photorealistic chibi character while preserving their recognizable facial features, hairstyle, colors, personality, and overall identity.  Determine which animal best matches the subject’s appearance, expression, personality, or overall energy. Dress the character in a giant oversized urban-streetwear hoodie inspired by that animal. Include features such as animal ears on the hood, enormous paw-shaped sleeves, a subtle tail, custom embroidered graphics, reflective patches, and coordinated accessories. Keep the character human-like; the animal resemblance should primarily influence the costume.  Use adorable chibi proportions: a large head, huge expressive eyes, tiny body, short limbs, and oversized futuristic sneakers. Blend cute character design with premium streetwear fashion using plush fabrics, glossy materials, faux fur, chains, layered accessories, and illuminated accents.  Place the character in a completely randomized, unique urban environment. Randomize the city setting, pose, animal inspiration, hoodie design, accessories, color palette, weather, time of day, and lighting during every generation.  Almost photorealistic materials, cinematic urban photography, realistic skin and hair, highly detailed fabric textures, glossy expressive eyes, atmospheric lighting, shallow depth of field, playful confident pose, polished premium finish, extremely detailed, vertical full-body portrait.  Avoid: copying any previous image, full animal transformation, revealing clothing, adult body proportions, distorted anatomy, extra limbs or fingers, generic backgrounds, flat lighting, logos, readable brand names, and watermarks.",
-"likeCount": 34,
-"retweetCount": 3,
-"url": "https://x.com/TheMiddlerGrey/status/2062987518618783907",
-"createdAt": "Fri Jun 05 19:58:47 +0000 2026"
+"userName": "levelsio",
+"text": "🔌Today I created a virtual web-based null modem so now you can finally play Quake 1 (from 1996) in multiplayer in the browser with other people online!\n\nThis week I was able to create a virtual printer that listens on the COM2 port to make a web-based printer work in Windows 3.11, like on you can actually print to, it was one of my ideas when I started https://t.co/M1hEUBAynC but it was always too difficult to make, I had no idea where to start, but this week AI was able to do it!\n\nToday I woke up and thought \"if we can listen to COM2 via JS, how about listen to COM1 from Quake 1?\" then we could forward the COM1 data via Websockets and to another user to create a virtual null modem\n\n(A null modem was a cable you'd use to connect two computers to each other directly in the 90s, if you couldn't afford buying a network card you'd use this to network, but you could only play with one other computer not multiple)\n\nSo I built it, it took about an hour and works! I wanted to get Quake 1 in DOS to work with multiplayer for 2 years but I could never get it to work, but now it did it\n\nThis project is a good benchmark of how capable AI is becoming, figuring stuff out that humans would take months within an hour\n\nYou can try it here, I don't know how it will match lots of people but let's see, you have to exit to DOS first (ALT-F4 or FN-Option-F4 on Mac), then type CD games, then CD quake, then quake, then ESC, then Multiplayer, then either Create New Game or Join Game, and use Direct Connect, keep settings same and you're in!\n\nhttps://t.co/iMd5mzaPQX",
+"likeCount": 287,
+"retweetCount": 16,
+"url": "https://x.com/levelsio/status/2064686202024763444",
+"createdAt": "Wed Jun 10 12:28:45 +0000 2026"
 },
 {
 "userName": "nmboffi",
@@ -34,121 +34,121 @@
 {
 "userName": "ClementDelangue",
 "text": "In good faith and with no judgment (mistakes happen), I truly hope that Anthropic will hear the feedback and change course on this. \n\nAnthropic is a company that has been raising awareness about AI manipulation which is a very important topic! You don’t want to go down as the first company to enable and open the door for human-designed AI manipulation at scale (giving intentionally bad answers to users without them knowing is the highest form of manipulation in my opinion). One way to avoid that is just at the very least to always keep disclosing the limitations and safeguards. \n\nMore generally I want to emphasize that there are millions of AI builders out there using your tools for good every single day and the more you can keep helping them, the better for the world!\n\nThank you, it’s not too late to fix this!",
-"likeCount": 823,
-"retweetCount": 94,
+"likeCount": 874,
+"retweetCount": 98,
 "url": "https://x.com/ClementDelangue/status/2064673792303955985",
 "createdAt": "Wed Jun 10 11:39:26 +0000 2026"
 },
 {
-"userName": "xRahultripathi",
-"text": "Fantasy character generation is getting ridiculously good.\n\nThese weren’t created in a traditional 3D workflow.\n\nEverything started with a single ChatGPT-Image2 prompt.\n\n Phoenix Fire Queen\n Butterfly Spirit Queen\n Moon Empress\n\nThe combination of cinematic lighting, fantasy fashion, gemstone details, and strong eye contact makes them feel closer to game key art than typical AI portraits.\n\nPrompts below 👇",
-"likeCount": 51,
-"retweetCount": 4,
-"url": "https://x.com/xRahultripathi/status/2062849740258316733",
-"createdAt": "Fri Jun 05 10:51:18 +0000 2026"
-},
-{
 "userName": "svlevine",
 "text": "Diffusion (or flow) makes for excellent policies, but training them with RL is notoriously hard: BPTT is unstable, RL over diffusion blows up the horizon. In our new paper, we show how we can optimize flow matching actors by using \"one weird trick\" -- \"approximate\" the Jacobian of the flow denoising process with the identity matrix. 👇",
-"likeCount": 915,
-"retweetCount": 99,
+"likeCount": 1029,
+"retweetCount": 114,
 "url": "https://x.com/svlevine/status/2064556217289318528",
 "createdAt": "Wed Jun 10 03:52:14 +0000 2026"
 },
 {
-"userName": "miku_diffract",
-"text": "Most gen AI fashion ads look good, but they don’t move. The edit has no rhythm. Sound design straight from seedance generation.\n\nSo I made a Supreme x Evangelion spec ad to test the part everyone skips: fast cuts, beat matching, and satisfying sound design. https://t.co/VPB9WkdcY9",
-"likeCount": 33,
-"retweetCount": 4,
-"url": "https://x.com/miku_diffract/status/2064384144667181325",
-"createdAt": "Tue Jun 09 16:28:29 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Announcing the Gemma challenge!\n\nGoogle, Hugging Face, and the open-source AI community choose to empower AI builders rather than sabotage them.\n\nFun to see the Hub becoming the platform where agents collaborate, just as it became the platform where humans collaborate.\n\nhttps://t.co/GbCfy1qwgx",
+"likeCount": 481,
+"retweetCount": 61,
+"url": "https://x.com/ClementDelangue/status/2064762082059231368",
+"createdAt": "Wed Jun 10 17:30:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "Easy solution to slow down recursive AI self improvement:\n\n- The lab with the top-ranked model must agree THEY must not use it for working on frontier AI\n- But everyone else should have access to it.\n\nBy definition, this means the frontier doesn't advance.",
-"likeCount": 817,
-"retweetCount": 62,
-"url": "https://x.com/jeremyphoward/status/2064595816875217362",
-"createdAt": "Wed Jun 10 06:29:35 +0000 2026"
+"text": "(To be clear, *I* don't think we should try to slow down recursive AI self improvement - I think we should open it up and democratize it as much as possible. My point is: if *you* claim we should slow down, and you have the best model, you should ensure your org can't use it.)",
+"likeCount": 166,
+"retweetCount": 8,
+"url": "https://x.com/jeremyphoward/status/2064597094741192874",
+"createdAt": "Wed Jun 10 06:34:40 +0000 2026"
+},
+{
+"userName": "LiangZheng_06",
+"text": "Diffusion is differentiable. LLMs aren't.\n\nSo why is the diffusion community copying RL methods (GRPO etc.) from LLMs?\n\nThe native post-training for diffusion is gradient descent such as ReFL and LeapAlign. Paper: https://t.co/uoy9mCGJSv",
+"likeCount": 310,
+"retweetCount": 27,
+"url": "https://x.com/LiangZheng_06/status/2064163590387749071",
+"createdAt": "Tue Jun 09 01:52:04 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @googlegemma: Meet DiffusionGemma!\n\nAn experimental open model that explores a fast approach to text generation, released under an Apach…",
+"likeCount": 4894,
+"retweetCount": 781,
+"url": "https://x.com/ClementDelangue/status/2064745136370696418",
+"createdAt": "Wed Jun 10 16:22:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @atomic_chat_hq: Atomic Chat is now on Hugging Face 🤗\n\nWe're officially a Local App on the world's biggest AI hub. Run 200,000+ open-wei…",
+"likeCount": 93,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2065101689334448449",
+"createdAt": "Thu Jun 11 15:59:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @sriramk: just to state the obvious: think there's a collison course between those who believe research and science should be open and t…",
+"likeCount": 1673,
+"retweetCount": 134,
+"url": "https://x.com/ClementDelangue/status/2064677904227684705",
+"createdAt": "Wed Jun 10 11:55:46 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @jsrailton: NEW: malware developers added nuclear &amp; biological weapons text to to their spyware.\n\nGoal? To trigger LLM safety refusals..…",
-"likeCount": 10529,
-"retweetCount": 1833,
-"url": "https://x.com/jeremyphoward/status/2064965831772221915",
-"createdAt": "Thu Jun 11 06:59:54 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @SemiAnalysis_: BREAKING NEWS: Anthropic's latest model will NOT help you if it thinks your ML research/ML engineering is interesting, a…",
-"likeCount": 4265,
-"retweetCount": 474,
-"url": "https://x.com/ClementDelangue/status/2064650722088464650",
-"createdAt": "Wed Jun 10 10:07:46 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @nickfrosst: this model is the opposite of mythos.\n\nIts small, cost effective, apache 2.0, and locally deployable. This is the way LLMs…",
-"likeCount": 1320,
-"retweetCount": 84,
-"url": "https://x.com/ClementDelangue/status/2064494044667912563",
-"createdAt": "Tue Jun 09 23:45:11 +0000 2026"
+"text": "RT @RnaudBertrand: By the way, public service announcement: if you're one of the numerous people posting about Anthropic's dystopian ways a…",
+"likeCount": 2690,
+"retweetCount": 558,
+"url": "https://x.com/jeremyphoward/status/2064908307555660075",
+"createdAt": "Thu Jun 11 03:11:19 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @sayashk: There is a lot of justified anger at Anthropic for sandbagging Fable 5 for AI development tasks. But an unanticipated side eff…",
-"likeCount": 1329,
-"retweetCount": 119,
-"url": "https://x.com/jeremyphoward/status/2064587810754236496",
-"createdAt": "Wed Jun 10 05:57:46 +0000 2026"
+"text": "RT @xeophon: New blog.\n\nI looked into the actual evidence and what models where used by bad actors to see whether closed models are safer.…",
+"likeCount": 202,
+"retweetCount": 20,
+"url": "https://x.com/jeremyphoward/status/2065005109373964292",
+"createdAt": "Thu Jun 11 09:35:58 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Concentration of power, capabilities and economic wealth is the biggest risk in AI. We need open science and open-source more than ever!",
-"likeCount": 2840,
-"retweetCount": 437,
-"url": "https://x.com/ClementDelangue/status/2064513229099876663",
-"createdAt": "Wed Jun 10 01:01:25 +0000 2026"
+"text": "Should we try to train an open source AI building model? We obviously have interesting datasets with HF, MLintern, transformers, trl…",
+"likeCount": 1034,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2064772430975877298",
+"createdAt": "Wed Jun 10 18:11:23 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @martin_casado: Imagine building a computer and not allowing its use in CS research. Thats some dystopian shit.",
-"likeCount": 1761,
-"retweetCount": 98,
-"url": "https://x.com/ClementDelangue/status/2064745431272141292",
-"createdAt": "Wed Jun 10 16:24:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @kuchaev: I dunno who is more excited, my daughter or I am ... https://t.co/NSwkxvfENk",
-"likeCount": 148,
-"retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2064546109268115928",
-"createdAt": "Wed Jun 10 03:12:04 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @simonw: Very pleased to hear Anthropic have walked back this policy https://t.co/8eOBDzTbCs https://t.co/DnW0h6feV8",
+"likeCount": 1035,
+"retweetCount": 79,
+"url": "https://x.com/jeremyphoward/status/2064942417179259045",
+"createdAt": "Thu Jun 11 05:26:51 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @gleech: are you kidding me https://t.co/107dvAohVn",
-"likeCount": 373,
-"retweetCount": 7,
+"likeCount": 638,
+"retweetCount": 11,
 "url": "https://x.com/jeremyphoward/status/2064949533717741921",
 "createdAt": "Thu Jun 11 05:55:08 +0000 2026"
 },
 {
-"userName": "TechWithTimm",
-"text": "https://t.co/fOur2C9U68",
-"likeCount": 40,
-"retweetCount": 4,
-"url": "https://x.com/TechWithTimm/status/2064700837885366775",
-"createdAt": "Wed Jun 10 13:26:54 +0000 2026"
+"userName": "heyalexmoore",
+"text": "https://t.co/hwTMwnA7xn",
+"likeCount": 27,
+"retweetCount": 20,
+"url": "https://x.com/heyalexmoore/status/2064952418115453050",
+"createdAt": "Thu Jun 11 06:06:36 +0000 2026"
 },
 {
 "userName": "apob_ai",
-"text": "https://t.co/iqu6LFoDBQ",
-"likeCount": 29,
-"retweetCount": 4,
-"url": "https://x.com/apob_ai/status/2064649230996967926",
-"createdAt": "Wed Jun 10 10:01:50 +0000 2026"
+"text": "https://t.co/AVNh5OaAVl",
+"likeCount": 43,
+"retweetCount": 7,
+"url": "https://x.com/apob_ai/status/2064966107103134153",
+"createdAt": "Thu Jun 11 07:00:59 +0000 2026"
 }
 ]

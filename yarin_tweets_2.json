@@ -10,113 +10,113 @@
 {
 "userName": "dntyk",
 "text": "Gue nemu website yang bikin gue mikir, \"Ini harusnya gak gratis.\"\n\nNamanya MeiGen.\n\nBasically, ini adalah library prompt buat AI image dan video generation. Tapi bukan jenis prompt receh yang udah sering lo lihat sliweran di Twitter.\n\nSemua di sini sifatnya curated, udah di-test, dan hasil output-nya udah masuk level produksi.\n\nLo bisa dapet prompt matang buat berbagai model top:\n→ GPT Image 2\n→ Seedance 2.0\n→ Veo 3.1\n→ Midjourney\n→ Dan beberapa model besar lainnya\n\nYang bikin gue appreciate banget: prompt-nya bukan cuma sekelas \"make a cool image.\" Banyak yang udah di-spec khusus buat kebutuhan cinematic lighting, product shot, fashion editorial, sampai anime style—hal-hal detail yang biasanya butuh trial & error berjam-jam buat dapetin formula pasnya.\n\nDan ini poin penting yang sering banget dilewatin orang:\nModel AI-nya sendiri sekarang udah pada gila dan makin pinter. Yang sekarang jadi bottleneck itu bukan lagi tool-nya, tapi masalahnya lo gak tahu cara \"ngomong\" yang bener ke model tersebut.\n\nPrompt engineering itu real skill. Dan website kayak MeiGen ini basically nge-shortcut learning curve lo buat dapet aset visual kualitas mumpuni.",
-"likeCount": 548,
-"retweetCount": 148,
+"likeCount": 898,
+"retweetCount": 233,
 "url": "https://x.com/dntyk/status/2064693312792240193",
 "createdAt": "Wed Jun 10 12:57:00 +0000 2026"
 },
 {
-"userName": "jiqizhixin",
-"text": "Can one diffusion model master multiple text-to-image tasks without forgetting?\n\nResearchers from Fudan University & Alibaba Group present DiffusionOPD. \n\nInstead of joint training, they first train separate expert teachers, then distill their knowledge into a single student along its own rollout. This decouples learning and avoids cross-task interference.\n\nResult: Outperforms both multi-reward RL and cascade RL baselines, achieving state-of-the-art on all benchmarks.\n\nDiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models \n\nPaper: https://t.co/j0ehhYqLOC\nProject: https://t.co/JSUN5xMRUR\nCode: https://t.co/yOJC1Ndm32\n\nOur report: https://t.co/WjqtQhGfD0\n\n📬 #PapersAccepted by Jiqizhixin",
-"likeCount": 25,
+"userName": "zhiyuan_zhou_",
+"text": "Training diffusion &amp; flow policies with RL is hard, but training them with behavioral cloning is easy. So what if we just train flow policies with BC, and only \"do RL\" at test time?\n\nWe found an easy way to do this (called Q-Guided Flow), and some surprising findings👇🧵 https://t.co/lUpW8iQWDB",
+"likeCount": 196,
+"retweetCount": 24,
+"url": "https://x.com/zhiyuan_zhou_/status/2064560243682804146",
+"createdAt": "Wed Jun 10 04:08:14 +0000 2026"
+},
+{
+"userName": "diffractstudio",
+"text": "Most gen AI fashion ads look good, but they don’t move. The edit has no rhythm. Sound design straight from seedance generation.\n\nSo I made a Supreme x Evangelion spec ad to test the part everyone skips: fast cuts, beat matching, and satisfying sound design. https://t.co/VPB9WkdcY9",
+"likeCount": 33,
+"retweetCount": 4,
+"url": "https://x.com/diffractstudio/status/2064384144667181325",
+"createdAt": "Tue Jun 09 16:28:29 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Easy solution to slow down recursive AI self improvement:\n\n- The lab with the top-ranked model must agree THEY must not use it for working on frontier AI\n- But everyone else should have access to it.\n\nBy definition, this means the frontier doesn't advance.",
+"likeCount": 834,
+"retweetCount": 64,
+"url": "https://x.com/jeremyphoward/status/2064595816875217362",
+"createdAt": "Wed Jun 10 06:29:35 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Setup ready for the World Cup at the Miami @huggingface office. @xenovacom cheering today (reachy minis haven’t picked their teams yet) https://t.co/5vp5k5fuXs",
+"likeCount": 55,
 "retweetCount": 2,
-"url": "https://x.com/jiqizhixin/status/2064566476024254631",
-"createdAt": "Wed Jun 10 04:33:00 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2065150183650840914",
+"createdAt": "Thu Jun 11 19:12:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Announcing the Gemma challenge!\n\nGoogle, Hugging Face, and the open-source AI community choose to empower AI builders rather than sabotage them.\n\nFun to see the Hub becoming the platform where agents collaborate, just as it became the platform where humans collaborate.\n\nhttps://t.co/GbCfy1qwgx",
-"likeCount": 390,
-"retweetCount": 50,
-"url": "https://x.com/ClementDelangue/status/2064762082059231368",
-"createdAt": "Wed Jun 10 17:30:16 +0000 2026"
+"text": "RT @Jason: Given token economics, we really need @apple’s new ceo to go all in on workstations that can run local, open source models \n\nIde…",
+"likeCount": 965,
+"retweetCount": 70,
+"url": "https://x.com/ClementDelangue/status/2065227817827057937",
+"createdAt": "Fri Jun 12 00:20:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @drfeifei: Scientific research is fundamental to advancing civilization and helping people globally to solve the most critical problems,…",
+"likeCount": 3004,
+"retweetCount": 460,
+"url": "https://x.com/ClementDelangue/status/2064745342898225288",
+"createdAt": "Wed Jun 10 16:23:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @dlouapre: Physics researchers want AI sidekicks, not autonomous agents.\n\nA few weeks ago, we published physics-intern, an autonomous sy…",
+"likeCount": 86,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2065067811827835289",
+"createdAt": "Thu Jun 11 13:45:08 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "Anthropic has chosen the *opposite* of the safe path: they are allowing themselves, the current top lab, to use their top model for frontier AI research. They've said they'll sabotage others who try.\n\nThis means the AI frontier advances, &amp; power imbalance increases.",
-"likeCount": 382,
-"retweetCount": 27,
-"url": "https://x.com/jeremyphoward/status/2064595820952064054",
-"createdAt": "Wed Jun 10 06:29:36 +0000 2026"
+"text": "RT @antirez: I believe what Anthropic is doing, gating the ability to do certain harmless things like LLM research, and with incredibly sen…",
+"likeCount": 2510,
+"retweetCount": 112,
+"url": "https://x.com/jeremyphoward/status/2064806278418063462",
+"createdAt": "Wed Jun 10 20:25:53 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "Silently sabotaging experiments in order to stultify scientific progress and protect a technology lead.\n\nHmmm that sounds familiar...\n\nWelcome to \"Sophanthropic\". https://t.co/Ak4F1Lzo08",
-"likeCount": 1264,
-"retweetCount": 81,
-"url": "https://x.com/jeremyphoward/status/2064613063370977559",
-"createdAt": "Wed Jun 10 07:38:07 +0000 2026"
+"text": "RT @Algomancer: I really don't like the feeling of anger man. It sucks.\n\nIm really disappointed by anthropic. I've been writing model code…",
+"likeCount": 208,
+"retweetCount": 8,
+"url": "https://x.com/jeremyphoward/status/2064838874715824310",
+"createdAt": "Wed Jun 10 22:35:25 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cohere: Introducing Cohere's first open-source coding model: North Mini Code\n\nSmall &amp; efficient, designed for agentic performance and b…",
-"likeCount": 2104,
-"retweetCount": 249,
-"url": "https://x.com/ClementDelangue/status/2064494061772288047",
-"createdAt": "Tue Jun 09 23:45:15 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @googlegemma: Introducing the Fast Gemma Challenge with Hugging Face\n\nOver the next few days, dozens of agents will collaborate to make…",
-"likeCount": 1222,
-"retweetCount": 115,
-"url": "https://x.com/ClementDelangue/status/2064550635081531859",
-"createdAt": "Wed Jun 10 03:30:03 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @sriramk: just to state the obvious: think there's a collison course between those who believe research and science should be open and t…",
-"likeCount": 1501,
-"retweetCount": 123,
-"url": "https://x.com/ClementDelangue/status/2064677904227684705",
-"createdAt": "Wed Jun 10 11:55:46 +0000 2026"
+"text": "RT @simonw: Very pleased to hear Anthropic have walked back this policy https://t.co/8eOBDzTbCs https://t.co/DnW0h6feV8",
+"likeCount": 1035,
+"retweetCount": 79,
+"url": "https://x.com/ClementDelangue/status/2065050600316797135",
+"createdAt": "Thu Jun 11 12:36:44 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @thsottiaux: Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch…",
-"likeCount": 2456,
-"retweetCount": 105,
-"url": "https://x.com/jeremyphoward/status/2064950139152941117",
-"createdAt": "Thu Jun 11 05:57:32 +0000 2026"
+"text": "RT @_rockt: I'm old enough to remember aligned AI means “helpful, honest, harmless”",
+"likeCount": 224,
+"retweetCount": 18,
+"url": "https://x.com/jeremyphoward/status/2064808084887962012",
+"createdAt": "Wed Jun 10 20:33:04 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @RnaudBertrand: By the way, public service announcement: if you're one of the numerous people posting about Anthropic's dystopian ways a…",
-"likeCount": 725,
-"retweetCount": 183,
-"url": "https://x.com/jeremyphoward/status/2064908307555660075",
-"createdAt": "Thu Jun 11 03:11:19 +0000 2026"
+"text": "RT @math_rachel: I still feel this way, 8 years later.",
+"likeCount": 98,
+"retweetCount": 15,
+"url": "https://x.com/jeremyphoward/status/2064945566661099644",
+"createdAt": "Thu Jun 11 05:39:22 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Should we try to train an open source AI building model? We obviously have interesting datasets with HF, MLintern, transformers, trl…",
-"likeCount": 908,
-"retweetCount": 37,
-"url": "https://x.com/ClementDelangue/status/2064772430975877298",
-"createdAt": "Wed Jun 10 18:11:23 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BBCNews: Version of AI tool too powerful for public released to public https://t.co/2HtI4UJCTW",
-"likeCount": 2203,
-"retweetCount": 224,
-"url": "https://x.com/ClementDelangue/status/2064512527791214607",
-"createdAt": "Wed Jun 10 00:58:38 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "Good TV show BTW. And even better book. :)\nhttps://t.co/1ECUBeTQxg",
-"likeCount": 82,
-"retweetCount": 1,
-"url": "https://x.com/jeremyphoward/status/2064613854362104282",
-"createdAt": "Wed Jun 10 07:41:16 +0000 2026"
-},
-{
-"userName": "bqbrady",
-"text": "https://t.co/Fkep8LQTHI",
-"likeCount": 337,
-"retweetCount": 31,
-"url": "https://x.com/bqbrady/status/2064055370809778371",
-"createdAt": "Mon Jun 08 18:42:03 +0000 2026"
+"userName": "ShamiWeb3",
+"text": "https://t.co/kP2ceczp2N",
+"likeCount": 319,
+"retweetCount": 8,
+"url": "https://x.com/ShamiWeb3/status/2065027171459174816",
+"createdAt": "Thu Jun 11 11:03:38 +0000 2026"
 }
 ]
