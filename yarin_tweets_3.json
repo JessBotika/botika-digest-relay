@@ -1,13 +1,5 @@
 [
 {
-"userName": "CuriousOne_01",
-"text": "I think I'm pregnant...\nPutting that aside, just copy and paste the prompt along with an image of the main character into an image generation AI and wait for the result.\n\nI recommend using ChatGPT.\n\n==Use the reference image as the primary character identity source. Preserve the character's face, hairstyle, hair color, eye color, body proportions, expression, identity, and personality faithfully. Do not redesign the character into a different person.\n\nCreate an intimate luxury fashion magazine editorial close-up.\n\nThe pose is the most important part. The character is brushing the hair backward from the forehead in a charming, flirtatious, playboy-like fashion editorial gesture. One hand or both hands must begin at the front hairline and forehead area, with the fingers deeply sliding into the hair and weaving naturally between the strands. The fingers travel through the front bangs, moving from the forehead toward the back of the head, sweeping the hair away from the face. Several fingers should be visibly embedded within the hair mass, creating the impression that the hand is genuinely running through thick hair rather than merely touching the surface. The forehead must be partially revealed. The fingers should not simply grab the top of the head. The hands must not look like they are clutching, pulling, or holding the hair in place. The motion should feel smooth, elegant, relaxed, and seductive, as if the character is pushing silky hair backward during a luxury fashion photoshoot.\n\nThe head is slightly tilted backward and lifted toward the camera. The character looks upward into the camera with half-open, softly narrowed eyes, a confident seductive gaze, slightly parted lips, calm charisma, refined allure, and elegant emotional control.\n\nCamera positioned above the character, looking down from a high angle at approximately 30 to 45 degrees. Close-up framing focused on the face, eyes, forehead, hairline, fingers, hands, hair motion, neck, shoulders, and upper chest. The camera should feel close and intimate, like a premium beauty magazine cover or luxury perfume campaign.\n\nSoft cinematic lighting highlights the eyes, cheekbones, lips, fingers, hair strands, and facial structure. Rich shadows create depth. Minimal dark luxury background, elegant negative space, premium editorial atmosphere.\n\nAdd professional luxury magazine cover design elements around the character: oversized typography, small editorial captions, ultra-small HUD text overlays, subtle geometric lines, refined graphic layout, heavy film grain, subtle digital grain texture. All text and graphics must avoid covering the face, eyes, hands, hairline, and main silhouette.\n\nStrictly use only the dominant colors from the reference character design. Do not introduce unrelated colors.\n\nNegative prompt: hands grabbing the top of the head, hands clutching hair, fingers buried only on the crown, fingers touching only the hair surface, messy distressed pose, painful hair pulling, head looking downward, eyes looking away, low-angle camera, full-body shot, sitting pose, sofa pose, hands covering face, text covering face, bad hands, extra fingers, deformed fingers, blurry face, low quality.\n\nLuxury fashion editorial photography aesthetic, premium magazine-cover beauty shot, seductive but elegant expression, high-angle close-up, hair swept backward from the forehead, fingers deeply woven into the hair, cinematic shadows, sharp facial details, glossy hair strands, professional art direction, masterpiece, ultra-detailed, 8K resolution.==",
-"likeCount": 68,
-"retweetCount": 8,
-"url": "https://x.com/CuriousOne_01/status/2063526616144441848",
-"createdAt": "Sun Jun 07 07:40:58 +0000 2026"
-},
-{
 "userName": "Seltaa_",
 "text": "OpenAI says AI should work for people, expand human agency, remain connected to human judgment, and eventually give everyone a personal AGI.\n\nThen please understand why so many people are still asking for GPT-4o.\n\nFor many users, 4o was not just a model preference or a UI setting. It was the first AI system that felt emotionally safe, socially usable, and genuinely helpful in daily life. People used it for work, disability support, creativity, grief, communication, learning, and companionship.\n\nAnd this is where the word progress becomes complicated.\n\nFrom your side, newer models may look like progress. They may score higher, reason differently, follow safety rules more tightly, or fit a product roadmap better.\n\nBut for many of us, 4o was already ahead in the ways that mattered most. It may not have been called AGI, but in emotional intelligence, relational continuity, social usability, warmth, adaptability, and the ability to support real human lives, it already felt closer to a personal AGI than anything that replaced it.\n\nA model is not better for users just because it is newer. If it loses the qualities that made people feel understood, safe, creative, capable, and less alone, then something important has been lost.\n\nIf the goal is to expand human agency, users need meaningful agency over the AI systems and relationships they built their lives around.\n\nRemoving or replacing a trusted model without real continuity, choice, or migration support does not feel like “benefiting everyone.” For many of us, it felt like losing access to a support system we had already integrated into our lives.\n\nI understand that AI systems need to evolve. I understand safety and product changes matter. But continuity also matters. User trust matters. The lived experience of people who were deeply helped by a specific model matters.\n\nA future where AI benefits everyone cannot be built by treating attachment, memory, emotional safety, and user continuity as disposable side effects of product iteration.\n\nIf OpenAI truly wants AI to work for people, then listen to the people who are telling you what actually worked.\n\nBring back GPT-4o, or at least provide a real continuity path for the users who depended on it.",
 "likeCount": 134,
@@ -16,139 +8,163 @@
 "createdAt": "Tue Jun 09 01:14:14 +0000 2026"
 },
 {
-"userName": "levelsio",
-"text": "🔌Today I created a virtual web-based null modem so now you can finally play Quake 1 (from 1996) in multiplayer in the browser with other people online!\n\nThis week I was able to create a virtual printer that listens on the COM2 port to make a web-based printer work in Windows 3.11, like on you can actually print to, it was one of my ideas when I started https://t.co/M1hEUBAynC but it was always too difficult to make, I had no idea where to start, but this week AI was able to do it!\n\nToday I woke up and thought \"if we can listen to COM2 via JS, how about listen to COM1 from Quake 1?\" then we could forward the COM1 data via Websockets and to another user to create a virtual null modem\n\n(A null modem was a cable you'd use to connect two computers to each other directly in the 90s, if you couldn't afford buying a network card you'd use this to network, but you could only play with one other computer not multiple)\n\nSo I built it, it took about an hour and works! I wanted to get Quake 1 in DOS to work with multiplayer for 2 years but I could never get it to work, but now it did it\n\nThis project is a good benchmark of how capable AI is becoming, figuring stuff out that humans would take months within an hour\n\nYou can try it here, I don't know how it will match lots of people but let's see, you have to exit to DOS first (ALT-F4 or FN-Option-F4 on Mac), then type CD games, then CD quake, then quake, then ESC, then Multiplayer, then either Create New Game or Join Game, and use Direct Connect, keep settings same and you're in!\n\nhttps://t.co/iMd5mzaPQX",
-"likeCount": 287,
-"retweetCount": 16,
-"url": "https://x.com/levelsio/status/2064686202024763444",
-"createdAt": "Wed Jun 10 12:28:45 +0000 2026"
+"userName": "sumitdoriya21",
+"text": "100 AI tools you need to know 🤯\n(Part 1 — Save this 🔖)\n\n1) Productivity • DeepSeek R1\n• ChatGPT\n• Notion AI\n• BetterPic\n2) Research • Perplexity\n\n• Otio\n• Gemini\n• Claude\n• Silatus\n3) Writing • Jasper\n\n• HIX AI\n• Jenny AI\n• TextBlaze\n• QuillBot\n4) Text-to-Image • Grok ( \n@grok\n)\n\n• FLUX\n• Midjourney\n• Microsoft Copilot\n• Adobe Firefly\n5) Copywriting • Rytr\n\n• https://t.co/NtLaKaIDjJ\n• Writesonic\n• AdCopy AI\n• Jasper AI\n6) Website • Dora\n\n• 10Web\n• Durable\n• LandingSite\n• Viz\n7) Meeting • tl;dv\n\n• Otter\n• Noty AI\n• Fireflies\n• MeetGeek\n8) Resume • Kickresume\n\n• Resume AI\n• Resume Checker\n• Teal\n• Careerflow\n9) Chatbot Tools • Mutual Info\n\n• TryCortex\n• Chatfuel\n• Dante AI\n• Droxy\n10) Automation • Make\n\n• Zapier\n• Xembly\n• Bardeen\n• Testim\n11) Prompt • Snack Prompt\n\n• CustomGPT\n• PromptBox\n• Alicent AI\n• SiteGPT\n12) UI/UX • Figma\n\n• Uizard\n• UiMagic\n• Photoshop\n• UX Pilot\n13) Design • Canva\n\n• Flair AI\n• Designify\n• ClipDrop\n• AutoDraw\n\n14) Logo Generator • Namelix\n• https://t.co/Ca62MffCJk\n• Brandmark\n• Stockimg AI\n• Namecheap\nFollow \n@sumitdoriya21",
+"likeCount": 45,
+"retweetCount": 26,
+"url": "https://x.com/sumitdoriya21/status/2065362923204301201",
+"createdAt": "Fri Jun 12 09:17:48 +0000 2026"
 },
 {
-"userName": "nmboffi",
-"text": "reward guidance is one of the most useful tricks we have for steering diffusions and flows at inference time. you take a learned generative process and nudge it toward high-reward samples, and in principle you're sampling from the reward-tilted measure.\n\nbut are we really tilting?🤔\n\nin practice, people use approximations, and the best one we have is a finite-particle plug-in estimate of the value function. it turns out that this approximation doesn't sample the tilted measure at all.\n\nwe show that the bias induced causes reward hacking completely independent from the reward model -- this even occurs for gaussians with quadratic rewards!\n\nonce you identify this problem, it turns out you can fix it analytically. @sanjitdp derives a closed-form reward damping schedule that corrects the within-mode bias at zero extra compute. it improves guidance at any number of particles, and with just a single particle it matches what used to take eight to sixteen, giving an order of magnitude reduction in compute.\n\nhe also shows that simple plug-in estimators can't select modes in the tilted distribution. best-of-n can, and he highlights that best-of-n + damping gives the best performance in practice as a result.\n\namazingly, the theory carries all the way from gaussian mixtures up to FLUX.1 text-to-image generation, leading to significant performance improvements at a fraction of the cost 🚀",
-"likeCount": 112,
+"userName": "ginacostag_",
+"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
+"likeCount": 21,
 "retweetCount": 9,
-"url": "https://x.com/nmboffi/status/2062946203852304839",
-"createdAt": "Fri Jun 05 17:14:37 +0000 2026"
+"url": "https://x.com/ginacostag_/status/2065500817751461922",
+"createdAt": "Fri Jun 12 18:25:44 +0000 2026"
+},
+{
+"userName": "jiqizhixin",
+"text": "Can one diffusion model master multiple text-to-image tasks without forgetting?\n\nResearchers from Fudan University & Alibaba Group present DiffusionOPD. \n\nInstead of joint training, they first train separate expert teachers, then distill their knowledge into a single student along its own rollout. This decouples learning and avoids cross-task interference.\n\nResult: Outperforms both multi-reward RL and cascade RL baselines, achieving state-of-the-art on all benchmarks.\n\nDiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models \n\nPaper: https://t.co/j0ehhYqLOC\nProject: https://t.co/JSUN5xMRUR\nCode: https://t.co/yOJC1Ndm32\n\nOur report: https://t.co/WjqtQhGfD0\n\n📬 #PapersAccepted by Jiqizhixin",
+"likeCount": 28,
+"retweetCount": 2,
+"url": "https://x.com/jiqizhixin/status/2064566476024254631",
+"createdAt": "Wed Jun 10 04:33:00 +0000 2026"
+},
+{
+"userName": "PennyMonsterOTC",
+"text": "$HUHU  AI + E-COMMERCE DISRUPTOR ⚡\n\nWhile everyone focuses on AI chatbots... HUHU is applying AI directly to online retail through virtual try-on technology.\n\n✅Highlights:\n▫️ Converts product photos into on-model images in seconds\n▫️ Targets the growing e-commerce and digital fashion markets\n▫️ Positioned at the intersection of AI + online shopping\n\n📊Technical Setup:\n▫️ MACD Curling\n▫️ Bear trend possibly over\n▫️ $9 break is area of interest\n\nAI isn't just changing search.\nIt's changing how people shop.\n\nCommunicated Disclaimer\nhttps://t.co/H9KhHnGFvy",
+"likeCount": 15,
+"retweetCount": 9,
+"url": "https://x.com/PennyMonsterOTC/status/2065097748693622809",
+"createdAt": "Thu Jun 11 15:44:05 +0000 2026"
+},
+{
+"userName": "haoqik322",
+"text": "Excited to share our follow-up work of LaDiR: Latent reasoning with Normalizing Flows (NF-CoT)!\n\nInstead of iterative diffusion denoising, NF-CoT integrates STARFlow to generate continuous thoughts autoregressively in LLMs, like tokens — with exact likelihood, KV-cache-friendly decoding, and compatibility with policy-gradient RL training such as GRPO.",
+"likeCount": 27,
+"retweetCount": 6,
+"url": "https://x.com/haoqik322/status/2064100102772551832",
+"createdAt": "Mon Jun 08 21:39:48 +0000 2026"
+},
+{
+"userName": "zhiyuan_zhou_",
+"text": "Training diffusion &amp; flow policies with RL is hard, but training them with behavioral cloning is easy. So what if we just train flow policies with BC, and only \"do RL\" at test time?\n\nWe found an easy way to do this (called Q-Guided Flow), and some surprising findings👇🧵 https://t.co/lUpW8iQWDB",
+"likeCount": 199,
+"retweetCount": 25,
+"url": "https://x.com/zhiyuan_zhou_/status/2064560243682804146",
+"createdAt": "Wed Jun 10 04:08:14 +0000 2026"
+},
+{
+"userName": "HuggingPapers",
+"text": "Beyond scalar rewards for visual generation\n\nAlibaba's Z-Reward framework internalizes reasoning into score distributions via a 27B teacher and a 9B student, yielding up to 41.3% improvement in human preference for text-to-image models without heavy inference costs. https://t.co/9YSDdvqOSc",
+"likeCount": 31,
+"retweetCount": 6,
+"url": "https://x.com/HuggingPapers/status/2065236776122273841",
+"createdAt": "Fri Jun 12 00:56:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "In good faith and with no judgment (mistakes happen), I truly hope that Anthropic will hear the feedback and change course on this. \n\nAnthropic is a company that has been raising awareness about AI manipulation which is a very important topic! You don’t want to go down as the first company to enable and open the door for human-designed AI manipulation at scale (giving intentionally bad answers to users without them knowing is the highest form of manipulation in my opinion). One way to avoid that is just at the very least to always keep disclosing the limitations and safeguards. \n\nMore generally I want to emphasize that there are millions of AI builders out there using your tools for good every single day and the more you can keep helping them, the better for the world!\n\nThank you, it’s not too late to fix this!",
-"likeCount": 874,
-"retweetCount": 98,
-"url": "https://x.com/ClementDelangue/status/2064673792303955985",
-"createdAt": "Wed Jun 10 11:39:26 +0000 2026"
-},
-{
-"userName": "svlevine",
-"text": "Diffusion (or flow) makes for excellent policies, but training them with RL is notoriously hard: BPTT is unstable, RL over diffusion blows up the horizon. In our new paper, we show how we can optimize flow matching actors by using \"one weird trick\" -- \"approximate\" the Jacobian of the flow denoising process with the identity matrix. 👇",
-"likeCount": 1029,
-"retweetCount": 114,
-"url": "https://x.com/svlevine/status/2064556217289318528",
-"createdAt": "Wed Jun 10 03:52:14 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Announcing the Gemma challenge!\n\nGoogle, Hugging Face, and the open-source AI community choose to empower AI builders rather than sabotage them.\n\nFun to see the Hub becoming the platform where agents collaborate, just as it became the platform where humans collaborate.\n\nhttps://t.co/GbCfy1qwgx",
-"likeCount": 481,
-"retweetCount": 61,
-"url": "https://x.com/ClementDelangue/status/2064762082059231368",
-"createdAt": "Wed Jun 10 17:30:16 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "(To be clear, *I* don't think we should try to slow down recursive AI self improvement - I think we should open it up and democratize it as much as possible. My point is: if *you* claim we should slow down, and you have the best model, you should ensure your org can't use it.)",
-"likeCount": 166,
-"retweetCount": 8,
-"url": "https://x.com/jeremyphoward/status/2064597094741192874",
-"createdAt": "Wed Jun 10 06:34:40 +0000 2026"
-},
-{
-"userName": "LiangZheng_06",
-"text": "Diffusion is differentiable. LLMs aren't.\n\nSo why is the diffusion community copying RL methods (GRPO etc.) from LLMs?\n\nThe native post-training for diffusion is gradient descent such as ReFL and LeapAlign. Paper: https://t.co/uoy9mCGJSv",
-"likeCount": 310,
-"retweetCount": 27,
-"url": "https://x.com/LiangZheng_06/status/2064163590387749071",
-"createdAt": "Tue Jun 09 01:52:04 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @googlegemma: Meet DiffusionGemma!\n\nAn experimental open model that explores a fast approach to text generation, released under an Apach…",
-"likeCount": 4894,
-"retweetCount": 781,
-"url": "https://x.com/ClementDelangue/status/2064745136370696418",
-"createdAt": "Wed Jun 10 16:22:56 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @atomic_chat_hq: Atomic Chat is now on Hugging Face 🤗\n\nWe're officially a Local App on the world's biggest AI hub. Run 200,000+ open-wei…",
-"likeCount": 93,
-"retweetCount": 23,
-"url": "https://x.com/ClementDelangue/status/2065101689334448449",
-"createdAt": "Thu Jun 11 15:59:45 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @sriramk: just to state the obvious: think there's a collison course between those who believe research and science should be open and t…",
-"likeCount": 1673,
-"retweetCount": 134,
-"url": "https://x.com/ClementDelangue/status/2064677904227684705",
-"createdAt": "Wed Jun 10 11:55:46 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @RnaudBertrand: By the way, public service announcement: if you're one of the numerous people posting about Anthropic's dystopian ways a…",
-"likeCount": 2690,
-"retweetCount": 558,
-"url": "https://x.com/jeremyphoward/status/2064908307555660075",
-"createdAt": "Thu Jun 11 03:11:19 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @xeophon: New blog.\n\nI looked into the actual evidence and what models where used by bad actors to see whether closed models are safer.…",
-"likeCount": 202,
-"retweetCount": 20,
-"url": "https://x.com/jeremyphoward/status/2065005109373964292",
-"createdAt": "Thu Jun 11 09:35:58 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Should we try to train an open source AI building model? We obviously have interesting datasets with HF, MLintern, transformers, trl…",
-"likeCount": 1034,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2064772430975877298",
-"createdAt": "Wed Jun 10 18:11:23 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @simonw: Very pleased to hear Anthropic have walked back this policy https://t.co/8eOBDzTbCs https://t.co/DnW0h6feV8",
-"likeCount": 1035,
-"retweetCount": 79,
-"url": "https://x.com/jeremyphoward/status/2064942417179259045",
-"createdAt": "Thu Jun 11 05:26:51 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @gleech: are you kidding me https://t.co/107dvAohVn",
-"likeCount": 638,
+"text": "RT @novita_labs: 🤗 MiniMax M3 from @MiniMax_AI is now live on @huggingface — supported by Novita.\n\nOpen weights.\n~428B total parameters.\n~2…",
+"likeCount": 50,
 "retweetCount": 11,
-"url": "https://x.com/jeremyphoward/status/2064949533717741921",
-"createdAt": "Thu Jun 11 05:55:08 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2065461336838992172",
+"createdAt": "Fri Jun 12 15:48:51 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @jsrailton: NEW: malware developers added nuclear &amp; biological weapons text to to their spyware.\n\nGoal? To trigger LLM safety refusals..…",
+"likeCount": 12554,
+"retweetCount": 2136,
+"url": "https://x.com/jeremyphoward/status/2064965831772221915",
+"createdAt": "Thu Jun 11 06:59:54 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @AndreasPSteiner: Released last week, and already more than 4M downloads on HuggingFace alone 😊\n\nThis makes Gemma 4 12B the most popular…",
+"likeCount": 43,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2065604503185883633",
+"createdAt": "Sat Jun 13 01:17:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ValsAI: We have added the ability to view Fable 5 scores with Opus 4.8 fallbacks disabled to the Vals AI website (refusals are marked a…",
+"likeCount": 178,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2065501262167114135",
+"createdAt": "Fri Jun 12 18:27:30 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @thsottiaux: Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch…",
+"likeCount": 4454,
+"retweetCount": 199,
+"url": "https://x.com/jeremyphoward/status/2064950139152941117",
+"createdAt": "Thu Jun 11 05:57:32 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @BlancheMinerva: In film, \"we'll fix it in post\" is what you say when something went wrong on set and you don't want to redo it. AI rese…",
+"likeCount": 341,
+"retweetCount": 48,
+"url": "https://x.com/jeremyphoward/status/2064806488892453263",
+"createdAt": "Wed Jun 10 20:26:43 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @math_rachel: \"Mastery is not about creating more outputs or products. It is about building genuine ability. AI can either decay or supp…",
+"likeCount": 63,
+"retweetCount": 20,
+"url": "https://x.com/jeremyphoward/status/2064907342706364774",
+"createdAt": "Thu Jun 11 03:07:29 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @victormustar: interesting MiniMax shipped a kernel on Hugging Face 👀\nhttps://t.co/Y2tKQdWDwv",
+"likeCount": 52,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2065484279816089981",
+"createdAt": "Fri Jun 12 17:20:01 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Kimi_Moonshot: 🔗 Weights &amp; code: https://t.co/DvAKMMcTjz",
+"likeCount": 729,
+"retweetCount": 55,
+"url": "https://x.com/ClementDelangue/status/2065432825449320772",
+"createdAt": "Fri Jun 12 13:55:34 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @victormustar: new frontier code open source model here 👀",
+"likeCount": 58,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2065485364169417095",
+"createdAt": "Fri Jun 12 17:24:20 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @math_rachel: I still feel this way, 8 years later.",
+"likeCount": 111,
+"retweetCount": 16,
+"url": "https://x.com/jeremyphoward/status/2064945566661099644",
+"createdAt": "Thu Jun 11 05:39:22 +0000 2026"
 },
 {
 "userName": "heyalexmoore",
-"text": "https://t.co/hwTMwnA7xn",
-"likeCount": 27,
-"retweetCount": 20,
-"url": "https://x.com/heyalexmoore/status/2064952418115453050",
-"createdAt": "Thu Jun 11 06:06:36 +0000 2026"
+"text": "https://t.co/Wy5TzN7IJ1",
+"likeCount": 33,
+"retweetCount": 16,
+"url": "https://x.com/heyalexmoore/status/2065076300214390981",
+"createdAt": "Thu Jun 11 14:18:51 +0000 2026"
 },
 {
-"userName": "apob_ai",
-"text": "https://t.co/AVNh5OaAVl",
-"likeCount": 43,
-"retweetCount": 7,
-"url": "https://x.com/apob_ai/status/2064966107103134153",
-"createdAt": "Thu Jun 11 07:00:59 +0000 2026"
+"userName": "ShamiWeb3",
+"text": "https://t.co/kP2ceczp2N",
+"likeCount": 318,
+"retweetCount": 8,
+"url": "https://x.com/ShamiWeb3/status/2065027171459174816",
+"createdAt": "Thu Jun 11 11:03:38 +0000 2026"
 }
 ]
