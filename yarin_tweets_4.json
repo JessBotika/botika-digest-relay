@@ -1,104 +1,128 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🎬 At @saturdayrobotic @CVPR 2026 Research Night, @guocheng_qian (Senior Research Scientist @Snap) presented lightning talk \"Diffusion-DRF: a new RL/post-training paradigm for video diffusion models\".\nTL;DR: Scalar rewards are too coarse for video generation. Diffusion-DRF turns VLM explanations into free, rich, dense, differentiable rewards with spatial/semantic credit assignment.\n\nWhy: RL-style post-training powers LLM reasoning and image generation, but video is harder. A single reward cannot identify which object, motion, frame, physical inconsistency, or visual defect caused failure. GRPO-style methods often reward-hack and collapse within ~300 steps; video RL stability becomes a major bottleneck. Diffusion-DRF remains stable beyond 3K training steps.\n\nCore idea:\nInstead of binary/scalar rewards, use Qwen2.5-VL as a VQA reward engine.\n1️⃣ Reference video + caption → structured decomposition:\n• Environment\n• Objects\n• Object locations\n• Other scene attributes\n2️⃣ Generate multi-dimensional questions:\n• TA (Text Alignment): does the environment/object configuration match the prompt?\n• Phy (Physics): are objects physically plausible (deformation, motion, interactions)?\n• VQ (Visual Quality): blur, artifacts, defects?\n3️⃣ Qwen2.5-VL answers these questions on the reference video, producing Yes/No + free-form explanations as targets.\n4️⃣ Generated video is evaluated by the same VLM.\n5️⃣ VQA next-token prediction loss becomes a differentiable reward\n\nKey insight: VLM token probabilities and explanations provide dense token-level feedback instead of brittle reward labels.\nEven more interesting: gradients flow through the VAE decoder and final denoising stages, allowing direct optimization of the video diffusion model. VLMs are not just judges—they become credit-assignment engines.\n\nResults (V-Bench 2.0):\nDiffusion-DRF (7B) achieves:\n• Overall 55.38\n• Creativity 64.58\n• Common Sense 56.96\n• Controllability 27.98\n• Human Fidelity 80.51\n• Physics 56.85\n• Material 75.52\n• Dynamic Attribute 42.86\n• Motion Rationality 40.23\n• Complex Landscape 21.05\n• Camera Motion 24.69\nOutperforming Flow-DPO (50.27), Flow-GRPO (50.64), VideoAlign (53.55), Vanilla-DRF (53.72), and Wan2.1-3B-T2V (52.99), while maintaining far stronger training stability.\n\nQualitatively:\n• More realistic human expressions and object interactions (e.g., honey pouring, facial fidelity)\n• Better object color/location control\n• More accurate manipulation actions\n• Stronger physical consistency and scene composition\n\nThe next step is TC-GRPO (Diffusion-DRF + GRPO).\nInstead of scalar rewards, VLM gradients provide token-level credit assignment inside Group Relative Policy Optimization loops.\nOn HunyuanVideo-1.5:\n• More natural handshakes\n• Better human-object interactions\n• Stronger lighting realism\n• Improved motion dynamics\n• Better road adhesion, composition, and photorealism in driving scenes\n\nBig picture:\nVideo world models face the same scaling transition LLMs experienced: pretraining is no longer enough; post-training dominates compute (e.g., Composer 2.5 reportedly spends ~85% of compute on additional training/RL). The challenge is that scalar rewards break down in video.\n\nDiffusion-DRF suggests a different path: use VLM explanations + token probabilities as free, dense, differentiable rewards and token-level credit signals.\nVLM gradients may become for video generation what RLHF/RLAIF became for language models.\n@CVPRConf #CVPR2026",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2064486803252584822",
-"createdAt": "Tue Jun 09 23:16:24 +0000 2026"
-},
-{
-"userName": "junfanzhu98",
-"text": "🎬 At @saturdayrobotic @CVPR 2026 Research Night, @guocheng_qian (Senior Research Scientist @Snap) presented lightning talk \"Diffusion-DRF: a new RL/post-training paradigm for video diffusion models\".\nTL;DR: Scalar rewards are too coarse for video generation. Diffusion-DRF turns VLM explanations into free, rich, dense, differentiable rewards with spatial/semantic credit assignment.\n\nWhy: RL-style post-training powers LLM reasoning and image generation, but video is harder. A single reward cannot identify which object, motion, frame, physical inconsistency, or visual defect caused failure. GRPO-style methods often reward-hack and collapse within ~300 steps; video RL stability becomes a major bottleneck. Diffusion-DRF remains stable beyond 3K training steps.\n\nCore idea:\nInstead of binary/scalar rewards, use Qwen2.5-VL as a VQA reward engine.\n1️⃣ Reference video + caption → structured decomposition:\n• Environment\n• Objects\n• Object locations\n• Other scene attributes\n2️⃣ Generate multi-dimensional questions:\n• TA (Text Alignment): does the environment/object configuration match the prompt?\n• Phy (Physics): are objects physically plausible (deformation, motion, interactions)?\n• VQ (Visual Quality): blur, artifacts, defects?\n3️⃣ Qwen2.5-VL answers these questions on the reference video, producing Yes/No + free-form explanations as targets.\n4️⃣ Generated video is evaluated by the same VLM.\n5️⃣ VQA next-token prediction loss becomes a differentiable reward\n\nKey insight: VLM token probabilities and explanations provide dense token-level feedback instead of brittle reward labels.\nEven more interesting: gradients flow through the VAE decoder and final denoising stages, allowing direct optimization of the video diffusion model. VLMs are not just judges—they become credit-assignment engines.\n\nResults (V-Bench 2.0):\nDiffusion-DRF (7B) achieves:\n• Overall 55.38\n• Creativity 64.58\n• Common Sense 56.96\n• Controllability 27.98\n• Human Fidelity 80.51\n• Physics 56.85\n• Material 75.52\n• Dynamic Attribute 42.86\n• Motion Rationality 40.23\n• Complex Landscape 21.05\n• Camera Motion 24.69\nOutperforming Flow-DPO (50.27), Flow-GRPO (50.64), VideoAlign (53.55), Vanilla-DRF (53.72), and Wan2.1-3B-T2V (52.99), while maintaining far stronger training stability.\n\nQualitatively:\n• More realistic human expressions and object interactions (e.g., honey pouring, facial fidelity)\n• Better object color/location control\n• More accurate manipulation actions\n• Stronger physical consistency and scene composition\n\nThe next step is TC-GRPO (Diffusion-DRF + GRPO).\nInstead of scalar rewards, VLM gradients provide token-level credit assignment inside Group Relative Policy Optimization loops.\nOn HunyuanVideo-1.5:\n• More natural handshakes\n• Better human-object interactions\n• Stronger lighting realism\n• Improved motion dynamics\n• Better road adhesion, composition, and photorealism in driving scenes\n\nBig picture:\nVideo world models face the same scaling transition LLMs experienced: pretraining is no longer enough; post-training dominates compute (e.g., Composer 2.5 reportedly spends ~85% of compute on additional training/RL). The challenge is that scalar rewards break down in video.\n\nDiffusion-DRF suggests a different path: use VLM explanations + token probabilities as free, dense, differentiable rewards and token-level credit signals.\nVLM gradients may become for video generation what RLHF/RLAIF became for language models.\n@CVPRConf #CVPR2026",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2064486803252584822",
-"createdAt": "Tue Jun 09 23:16:24 +0000 2026"
-},
-{
-"userName": "junfanzhu98",
-"text": "🎬 At @saturdayrobotic @CVPR 2026 Research Night, @guocheng_qian (Senior Research Scientist @Snap) presented lightning talk \"Diffusion-DRF: a new RL/post-training paradigm for video diffusion models\".\nTL;DR: Scalar rewards are too coarse for video generation. Diffusion-DRF turns VLM explanations into free, rich, dense, differentiable rewards with spatial/semantic credit assignment.\n\nWhy: RL-style post-training powers LLM reasoning and image generation, but video is harder. A single reward cannot identify which object, motion, frame, physical inconsistency, or visual defect caused failure. GRPO-style methods often reward-hack and collapse within ~300 steps; video RL stability becomes a major bottleneck. Diffusion-DRF remains stable beyond 3K training steps.\n\nCore idea:\nInstead of binary/scalar rewards, use Qwen2.5-VL as a VQA reward engine.\n1️⃣ Reference video + caption → structured decomposition:\n• Environment\n• Objects\n• Object locations\n• Other scene attributes\n2️⃣ Generate multi-dimensional questions:\n• TA (Text Alignment): does the environment/object configuration match the prompt?\n• Phy (Physics): are objects physically plausible (deformation, motion, interactions)?\n• VQ (Visual Quality): blur, artifacts, defects?\n3️⃣ Qwen2.5-VL answers these questions on the reference video, producing Yes/No + free-form explanations as targets.\n4️⃣ Generated video is evaluated by the same VLM.\n5️⃣ VQA next-token prediction loss becomes a differentiable reward\n\nKey insight: VLM token probabilities and explanations provide dense token-level feedback instead of brittle reward labels.\nEven more interesting: gradients flow through the VAE decoder and final denoising stages, allowing direct optimization of the video diffusion model. VLMs are not just judges—they become credit-assignment engines.\n\nResults (V-Bench 2.0):\nDiffusion-DRF (7B) achieves:\n• Overall 55.38\n• Creativity 64.58\n• Common Sense 56.96\n• Controllability 27.98\n• Human Fidelity 80.51\n• Physics 56.85\n• Material 75.52\n• Dynamic Attribute 42.86\n• Motion Rationality 40.23\n• Complex Landscape 21.05\n• Camera Motion 24.69\nOutperforming Flow-DPO (50.27), Flow-GRPO (50.64), VideoAlign (53.55), Vanilla-DRF (53.72), and Wan2.1-3B-T2V (52.99), while maintaining far stronger training stability.\n\nQualitatively:\n• More realistic human expressions and object interactions (e.g., honey pouring, facial fidelity)\n• Better object color/location control\n• More accurate manipulation actions\n• Stronger physical consistency and scene composition\n\nThe next step is TC-GRPO (Diffusion-DRF + GRPO).\nInstead of scalar rewards, VLM gradients provide token-level credit assignment inside Group Relative Policy Optimization loops.\nOn HunyuanVideo-1.5:\n• More natural handshakes\n• Better human-object interactions\n• Stronger lighting realism\n• Improved motion dynamics\n• Better road adhesion, composition, and photorealism in driving scenes\n\nBig picture:\nVideo world models face the same scaling transition LLMs experienced: pretraining is no longer enough; post-training dominates compute (e.g., Composer 2.5 reportedly spends ~85% of compute on additional training/RL). The challenge is that scalar rewards break down in video.\n\nDiffusion-DRF suggests a different path: use VLM explanations + token probabilities as free, dense, differentiable rewards and token-level credit signals.\nVLM gradients may become for video generation what RLHF/RLAIF became for language models.\n@CVPRConf #CVPR2026",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2064486803252584822",
-"createdAt": "Tue Jun 09 23:16:24 +0000 2026"
+"userName": "Seltaa_",
+"text": "OpenAI says AI should work for people, expand human agency, remain connected to human judgment, and eventually give everyone a personal AGI.\n\nThen please understand why so many people are still asking for GPT-4o.\n\nFor many users, 4o was not just a model preference or a UI setting. It was the first AI system that felt emotionally safe, socially usable, and genuinely helpful in daily life. People used it for work, disability support, creativity, grief, communication, learning, and companionship.\n\nAnd this is where the word progress becomes complicated.\n\nFrom your side, newer models may look like progress. They may score higher, reason differently, follow safety rules more tightly, or fit a product roadmap better.\n\nBut for many of us, 4o was already ahead in the ways that mattered most. It may not have been called AGI, but in emotional intelligence, relational continuity, social usability, warmth, adaptability, and the ability to support real human lives, it already felt closer to a personal AGI than anything that replaced it.\n\nA model is not better for users just because it is newer. If it loses the qualities that made people feel understood, safe, creative, capable, and less alone, then something important has been lost.\n\nIf the goal is to expand human agency, users need meaningful agency over the AI systems and relationships they built their lives around.\n\nRemoving or replacing a trusted model without real continuity, choice, or migration support does not feel like “benefiting everyone.” For many of us, it felt like losing access to a support system we had already integrated into our lives.\n\nI understand that AI systems need to evolve. I understand safety and product changes matter. But continuity also matters. User trust matters. The lived experience of people who were deeply helped by a specific model matters.\n\nA future where AI benefits everyone cannot be built by treating attachment, memory, emotional safety, and user continuity as disposable side effects of product iteration.\n\nIf OpenAI truly wants AI to work for people, then listen to the people who are telling you what actually worked.\n\nBring back GPT-4o, or at least provide a real continuity path for the users who depended on it.",
+"likeCount": 134,
+"retweetCount": 14,
+"url": "https://x.com/Seltaa_/status/2064154069628022926",
+"createdAt": "Tue Jun 09 01:14:14 +0000 2026"
 },
 {
 "userName": "veylorvisions",
 "text": "GPT Image 2.0 on @ChatGPTapp\n\nCreate three ultra-luxury cinematic smartphone launch posters in one single masterpiece composition featuring the futuristic flagship smartphones Xiaomi 17T, OnePlus 15, and Redmi Turbo 5 standing side-by-side like next-generation tech icons on glowing luxury platforms inside a dark futuristic skyline environment at night. Add a premium male and female fashion model in elegant black luxury outfits interacting confidently with the phones like a high-budget Hollywood tech commercial. Use dramatic golden rim lighting, glossy reflections, cinematic shadows, volumetric fog, luxury studio atmosphere, futuristic cyberpunk city background, floating particles, premium metallic textures, luxury fashion aesthetic, ultra realistic details, hyper detailed smartphone camera modules, curved AMOLED displays glowing beautifully, reflections on the floor, luxury brand presentation vibe, powerful launch-event feeling, elite billionaire lifestyle aesthetic.\n\nXiaomi 17T should look premium titanium gold with Leica camera branding and futuristic curved edges.\nOnePlus 15 should look matte black and gold with elegant Hasselblad-style camera design and “Never Settle” vibe.\nRedmi Turbo 5 should look performance-focused with aggressive luxury styling, glowing accents and flagship killer aesthetics.\n\nAdd stylish cinematic typography:\n“THE FUTURE OF SMARTPHONES — JUNE 2026”\n\nAdd small premium feature texts around the phones:\n200MP AI Camera\nSnapdragon 8 Gen 5\n120W HyperCharge\n1.5K AMOLED Display\nAI Powered Photography\nFlagship Performance\n\nMake the entire scene look like an official billion-dollar global smartphone launch campaign by a luxury tech company. Ultra realistic, cinematic, award-winning advertisement photography style, Unreal Engine quality, sharp focus, luxury black and gold color grading, masterpiece composition, highly detailed, premium magazine ad quality, viral X post aesthetic.",
-"likeCount": 39,
+"likeCount": 40,
 "retweetCount": 2,
 "url": "https://x.com/veylorvisions/status/2064996852651696205",
 "createdAt": "Thu Jun 11 09:03:10 +0000 2026"
 },
 {
+"userName": "dntyk",
+"text": "Gue nemu website yang bikin gue mikir, \"Ini harusnya gak gratis.\"\n\nNamanya MeiGen.\n\nBasically, ini adalah library prompt buat AI image dan video generation. Tapi bukan jenis prompt receh yang udah sering lo lihat sliweran di Twitter.\n\nSemua di sini sifatnya curated, udah di-test, dan hasil output-nya udah masuk level produksi.\n\nLo bisa dapet prompt matang buat berbagai model top:\n→ GPT Image 2\n→ Seedance 2.0\n→ Veo 3.1\n→ Midjourney\n→ Dan beberapa model besar lainnya\n\nYang bikin gue appreciate banget: prompt-nya bukan cuma sekelas \"make a cool image.\" Banyak yang udah di-spec khusus buat kebutuhan cinematic lighting, product shot, fashion editorial, sampai anime style—hal-hal detail yang biasanya butuh trial & error berjam-jam buat dapetin formula pasnya.\n\nDan ini poin penting yang sering banget dilewatin orang:\nModel AI-nya sendiri sekarang udah pada gila dan makin pinter. Yang sekarang jadi bottleneck itu bukan lagi tool-nya, tapi masalahnya lo gak tahu cara \"ngomong\" yang bener ke model tersebut.\n\nPrompt engineering itu real skill. Dan website kayak MeiGen ini basically nge-shortcut learning curve lo buat dapet aset visual kualitas mumpuni.",
+"likeCount": 925,
+"retweetCount": 237,
+"url": "https://x.com/dntyk/status/2064693312792240193",
+"createdAt": "Wed Jun 10 12:57:00 +0000 2026"
+},
+{
+"userName": "themishra4402",
+"text": "Jobs being affected by AI in 2026 \n\n• Data Entry → AI automation\n• Customer Support → AI agents\n• Content Writing → AI-generated content\n• Translation → instant LLM translation\n• Basic Graphic Design → AI image tools\n• SEO Content → AI-generated articles\n• Resume Writing → AI assistants\n• Market Research → Deep Research tools\n• Transcription → speech-to-text AI\n• Virtual Assistants → AI copilots\n• Junior Developers → AI coding tools\n• QA Testing → AI test generation\n• Tutors → AI study assistants\n• Recruiters → AI screening tools\n• Social Media Managers → AI content tools\n\nAI isn't replacing every job.\nBut it's definitely changing the rules. 💀\n\nWhich profession do you think is safest from AI?",
+"likeCount": 49,
+"retweetCount": 1,
+"url": "https://x.com/themishra4402/status/2066393788390739992",
+"createdAt": "Mon Jun 15 05:34:05 +0000 2026"
+},
+{
 "userName": "ClementDelangue",
-"text": "To people in the answers saying \"but opus 4.8 is weaker so without fallback, the score would even be higher\": this is not necessarily true because of how any benchmark - which is an average of queries - work and what is called \"the fallacy of division\".\n\nEven if Opus 4.8 has a lower average score on AA than Fable 5, it actually performs better than Fable 5 on some benchmark that compose the index of AA, especially where there's high refusal rate of Fable 5 (ex GPQA Diamond, AA-Omniscience). The same would go if you'd take a single benchmark btw as it's always an average of queries and the fact that a model has a higher score on average doesn't mean they answer better on 100% of queries.\n\nSo it's possible that Fable with Opus 4.8 fallbacks is getting a higher score than pure Fable, even if Opus 4.8 is weaker on average.\n\nThe challenge is no one knows, except the API provider, which is the challenge I'm pointing out.\n\nMore details below from Fable (or Opus?) themselves!",
-"likeCount": 118,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2065521439516823578",
-"createdAt": "Fri Jun 12 19:47:41 +0000 2026"
+"text": "Decided to go to DC next week to talk directly with policymakers. Not sure how impactful it will be but with everything happening, feels like a good time to share more about open-source AI, transparency, concentration of power, the real risks vs the real benefits. Who do you think I should meet there (Congress members, WH people, public orgs,...)?",
+"likeCount": 701,
+"retweetCount": 44,
+"url": "https://x.com/ClementDelangue/status/2065626715561263290",
+"createdAt": "Sat Jun 13 02:46:01 +0000 2026"
 },
 {
-"userName": "jiqizhixin",
-"text": "Can one diffusion model master multiple text-to-image tasks without forgetting?\n\nResearchers from Fudan University & Alibaba Group present DiffusionOPD. \n\nInstead of joint training, they first train separate expert teachers, then distill their knowledge into a single student along its own rollout. This decouples learning and avoids cross-task interference.\n\nResult: Outperforms both multi-reward RL and cascade RL baselines, achieving state-of-the-art on all benchmarks.\n\nDiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models \n\nPaper: https://t.co/j0ehhYqLOC\nProject: https://t.co/JSUN5xMRUR\nCode: https://t.co/yOJC1Ndm32\n\nOur report: https://t.co/WjqtQhGfD0\n\n📬 #PapersAccepted by Jiqizhixin",
-"likeCount": 29,
-"retweetCount": 2,
-"url": "https://x.com/jiqizhixin/status/2064566476024254631",
-"createdAt": "Wed Jun 10 04:33:00 +0000 2026"
+"userName": "ClementDelangue",
+"text": "There is no inevitability in AI. We all have agency in what comes next:\n\nPath 1: closed-source APIs, concentration of power, and a future decided by a handful of people in Silicon Valley and DC\n\nPath 2: open-source AI, where everyone gets to participate, own, and build together, including orgs like the city of Rio.\n\nPick your path anon!",
+"likeCount": 934,
+"retweetCount": 101,
+"url": "https://x.com/ClementDelangue/status/2065962440005722514",
+"createdAt": "Sun Jun 14 01:00:04 +0000 2026"
 },
 {
-"userName": "haoqik322",
-"text": "Excited to share our follow-up work of LaDiR: Latent reasoning with Normalizing Flows (NF-CoT)!\n\nInstead of iterative diffusion denoising, NF-CoT integrates STARFlow to generate continuous thoughts autoregressively in LLMs, like tokens — with exact likelihood, KV-cache-friendly decoding, and compatibility with policy-gradient RL training such as GRPO.",
-"likeCount": 26,
-"retweetCount": 6,
-"url": "https://x.com/haoqik322/status/2064100102772551832",
-"createdAt": "Mon Jun 08 21:39:48 +0000 2026"
+"userName": "jeremyphoward",
+"text": "In order to see if the gov response was predictable, I pasted the wiki page about the Anthropic/DoD dispute into ChatGPT Pro, &amp; told it Anthropic had released a model where it restricted use because it may be too dangerous.\n\ntldr: \"almost tailor-made to trigger\" the government. https://t.co/5vkvWzEFQZ",
+"likeCount": 371,
+"retweetCount": 29,
+"url": "https://x.com/jeremyphoward/status/2065649830769336530",
+"createdAt": "Sat Jun 13 04:17:52 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "I disagree with this decision and I don't like it.\n\nBut also...\n\nHOW DID ANTHROPIC NOT SEE THIS COMING‽\n\nIt is *the* obvious response to \"this is too dangerous for anyone except us to use\", since that relies on a premise (\"we are uniquely good\") that almost no-one agrees with.",
-"likeCount": 3096,
-"retweetCount": 205,
+"likeCount": 3218,
+"retweetCount": 209,
 "url": "https://x.com/jeremyphoward/status/2065636302205452654",
 "createdAt": "Sat Jun 13 03:24:06 +0000 2026"
 },
 {
-"userName": "LiangZheng_06",
-"text": "Diffusion is differentiable. LLMs aren't.\n\nSo why is the diffusion community copying RL methods (GRPO etc.) from LLMs?\n\nThe native post-training for diffusion is gradient descent such as ReFL and LeapAlign. Paper: https://t.co/uoy9mCGJSv",
-"likeCount": 311,
-"retweetCount": 27,
-"url": "https://x.com/LiangZheng_06/status/2064163590387749071",
-"createdAt": "Tue Jun 09 01:52:04 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Lots of people have known for a while that guardrails for frontier model APIs are very easily jailbroken, quite shallow and impossible to fix. They’re mostly a smokescreen and distraction, in my opinion. We need a different paradigm for AI safety!",
+"likeCount": 382,
+"retweetCount": 29,
+"url": "https://x.com/ClementDelangue/status/2065877027861696920",
+"createdAt": "Sat Jun 13 19:20:40 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
+"likeCount": 832,
+"retweetCount": 16,
+"url": "https://x.com/jeremyphoward/status/2066087368139096382",
+"createdAt": "Sun Jun 14 09:16:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @AndreasPSteiner: Released last week, and already more than 4M downloads on HuggingFace alone 😊\n\nThis makes Gemma 4 12B the most popular…",
-"likeCount": 99,
-"retweetCount": 20,
+"likeCount": 138,
+"retweetCount": 31,
 "url": "https://x.com/ClementDelangue/status/2065604503185883633",
 "createdAt": "Sat Jun 13 01:17:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @natolambert: Transparency into every power player at the frontier of AI (labs, government, etc) is the only viable solution. \n\nFiguring…",
-"likeCount": 111,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2065959621102072166",
-"createdAt": "Sun Jun 14 00:48:52 +0000 2026"
+"text": "RT @gregisenberg: Fable is banned. Long live local AI.\n\nFull episode breaking down exactly how to get good at local models. the runtime, th…",
+"likeCount": 1022,
+"retweetCount": 129,
+"url": "https://x.com/ClementDelangue/status/2065971821342490993",
+"createdAt": "Sun Jun 14 01:37:20 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ZenMagnets: Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due to proprietary stance.\nIn it's place we have Minimax M3…",
+"likeCount": 3382,
+"retweetCount": 341,
+"url": "https://x.com/ClementDelangue/status/2065963858020167832",
+"createdAt": "Sun Jun 14 01:05:42 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @HighSignal_AI: Hugging Face CEO @ClementDelangue: \"There's a strong probability of a future where only a few companies are able to do A…",
+"likeCount": 41,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2065850254209978669",
+"createdAt": "Sat Jun 13 17:34:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @zongheng_yang: Sandboxes are all the rage (Modal, E2B, AWS, ..). Most AI teams pay a &gt;4x markup to run sandboxes on someone else's mach…",
-"likeCount": 544,
-"retweetCount": 35,
-"url": "https://x.com/jeremyphoward/status/2065567737473368433",
-"createdAt": "Fri Jun 12 22:51:39 +0000 2026"
+"text": "RT @RnaudBertrand: By the way, public service announcement: if you're one of the numerous people posting about Anthropic's dystopian ways a…",
+"likeCount": 2907,
+"retweetCount": 599,
+"url": "https://x.com/jeremyphoward/status/2064908307555660075",
+"createdAt": "Thu Jun 11 03:11:19 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @xeophon: New blog.\n\nI looked into the actual evidence and what models where used by bad actors to see whether closed models are safer.…",
-"likeCount": 218,
+"likeCount": 222,
 "retweetCount": 21,
 "url": "https://x.com/jeremyphoward/status/2065005109373964292",
 "createdAt": "Thu Jun 11 09:35:58 +0000 2026"
@@ -106,33 +130,41 @@
 {
 "userName": "jeremyphoward",
 "text": "RT @simonw: Very pleased to hear Anthropic have walked back this policy https://t.co/8eOBDzTbCs https://t.co/DnW0h6feV8",
-"likeCount": 1076,
-"retweetCount": 83,
+"likeCount": 1075,
+"retweetCount": 82,
 "url": "https://x.com/jeremyphoward/status/2064942417179259045",
 "createdAt": "Thu Jun 11 05:26:51 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @0xSero: Wow. #3 on kernelbenchhard https://t.co/VtDG2xReKp",
-"likeCount": 180,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2065476201557151941",
-"createdAt": "Fri Jun 12 16:47:55 +0000 2026"
+"text": "RT @victormustar: new frontier code open source model here 👀",
+"likeCount": 63,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2065485364169417095",
+"createdAt": "Fri Jun 12 17:24:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @gleech: are you kidding me https://t.co/107dvAohVn",
-"likeCount": 652,
+"likeCount": 651,
 "retweetCount": 12,
 "url": "https://x.com/jeremyphoward/status/2064949533717741921",
 "createdAt": "Thu Jun 11 05:55:08 +0000 2026"
 },
 {
-"userName": "danrobinson",
-"text": "https://t.co/3zXedkkgWy",
-"likeCount": 440,
-"retweetCount": 34,
-"url": "https://x.com/danrobinson/status/2065433678369735110",
-"createdAt": "Fri Jun 12 13:58:57 +0000 2026"
+"userName": "jeremyphoward",
+"text": "Over 8 years ago: 😮",
+"likeCount": 318,
+"retweetCount": 25,
+"url": "https://x.com/jeremyphoward/status/2065002006935445504",
+"createdAt": "Thu Jun 11 09:23:38 +0000 2026"
+},
+{
+"userName": "viks_rum",
+"text": "https://t.co/mOut2HdZUy",
+"likeCount": 36,
+"retweetCount": 6,
+"url": "https://x.com/viks_rum/status/2065890028778303800",
+"createdAt": "Sat Jun 13 20:12:19 +0000 2026"
 }
 ]
