@@ -1,27 +1,19 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🎬 At @saturdayrobotic @CVPR 2026 Research Night, @guocheng_qian (Senior Research Scientist @Snap) presented lightning talk \"Diffusion-DRF: a new RL/post-training paradigm for video diffusion models\".\nTL;DR: Scalar rewards are too coarse for video generation. Diffusion-DRF turns VLM explanations into free, rich, dense, differentiable rewards with spatial/semantic credit assignment.\n\nWhy: RL-style post-training powers LLM reasoning and image generation, but video is harder. A single reward cannot identify which object, motion, frame, physical inconsistency, or visual defect caused failure. GRPO-style methods often reward-hack and collapse within ~300 steps; video RL stability becomes a major bottleneck. Diffusion-DRF remains stable beyond 3K training steps.\n\nCore idea:\nInstead of binary/scalar rewards, use Qwen2.5-VL as a VQA reward engine.\n1️⃣ Reference video + caption → structured decomposition:\n• Environment\n• Objects\n• Object locations\n• Other scene attributes\n2️⃣ Generate multi-dimensional questions:\n• TA (Text Alignment): does the environment/object configuration match the prompt?\n• Phy (Physics): are objects physically plausible (deformation, motion, interactions)?\n• VQ (Visual Quality): blur, artifacts, defects?\n3️⃣ Qwen2.5-VL answers these questions on the reference video, producing Yes/No + free-form explanations as targets.\n4️⃣ Generated video is evaluated by the same VLM.\n5️⃣ VQA next-token prediction loss becomes a differentiable reward\n\nKey insight: VLM token probabilities and explanations provide dense token-level feedback instead of brittle reward labels.\nEven more interesting: gradients flow through the VAE decoder and final denoising stages, allowing direct optimization of the video diffusion model. VLMs are not just judges—they become credit-assignment engines.\n\nResults (V-Bench 2.0):\nDiffusion-DRF (7B) achieves:\n• Overall 55.38\n• Creativity 64.58\n• Common Sense 56.96\n• Controllability 27.98\n• Human Fidelity 80.51\n• Physics 56.85\n• Material 75.52\n• Dynamic Attribute 42.86\n• Motion Rationality 40.23\n• Complex Landscape 21.05\n• Camera Motion 24.69\nOutperforming Flow-DPO (50.27), Flow-GRPO (50.64), VideoAlign (53.55), Vanilla-DRF (53.72), and Wan2.1-3B-T2V (52.99), while maintaining far stronger training stability.\n\nQualitatively:\n• More realistic human expressions and object interactions (e.g., honey pouring, facial fidelity)\n• Better object color/location control\n• More accurate manipulation actions\n• Stronger physical consistency and scene composition\n\nThe next step is TC-GRPO (Diffusion-DRF + GRPO).\nInstead of scalar rewards, VLM gradients provide token-level credit assignment inside Group Relative Policy Optimization loops.\nOn HunyuanVideo-1.5:\n• More natural handshakes\n• Better human-object interactions\n• Stronger lighting realism\n• Improved motion dynamics\n• Better road adhesion, composition, and photorealism in driving scenes\n\nBig picture:\nVideo world models face the same scaling transition LLMs experienced: pretraining is no longer enough; post-training dominates compute (e.g., Composer 2.5 reportedly spends ~85% of compute on additional training/RL). The challenge is that scalar rewards break down in video.\n\nDiffusion-DRF suggests a different path: use VLM explanations + token probabilities as free, dense, differentiable rewards and token-level credit signals.\nVLM gradients may become for video generation what RLHF/RLAIF became for language models.\n@CVPRConf #CVPR2026",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2064486803252584822",
-"createdAt": "Tue Jun 09 23:16:24 +0000 2026"
+"userName": "splendid_pete",
+"text": "1/N Let's talk about retard cyka propaganda. \n\nThis tweet is a classic example of visual manipulation, a cornerstone of modern disinformation. The cyka uses a shocking, decontextualized historical photograph to anchor a completely historically illiterate claim.\n\n1⃣ The image shows women in traditional Ukrainian dress (vyshyvanka) giving a Nazi salute to German officials. The cyka places this image under text about the \"origins\" of Ukrainian identity to deliberately imply that Ukrainian statehood is inherently tied to, or manufactured by, Nazism.\n\nThe reality: This is a real photograph from 1941, taken during the initial Nazi invasion of the Soviet Union (Operation Barbarossa). But the context the cyka deliberately omits is crucial to understanding history:\n\nWhen German troops first entered Ukraine, a fraction of the population initially greeted them as liberators. Why? Because just eight years earlier, Stalin's Soviet regime had orchestrated the Holodomor, a targeted, man-made famine that starved millions of Ukrainians to death, alongside the execution of thousands of Ukrainian intellectuals.\n\nHowever, the delusion that the Nazis would be liberators shattered almost immediately. Hitler viewed all Slavs, including Ukrainians, as Untermenschen (subhumans) destined for slavery or extermination.\n\nThe Nazis quickly suppressed any attempts at Ukrainian independence, arrested nationalist leaders (sending them to concentration camps like Sachsenhausen), and initiated a brutal occupation where millions of Ukrainian Jews and non-Jews were murdered.\n\nThe propaganda trick: State propagandists routinely use photos of the minority of WWII collaborators to paint the entire modern Ukrainian nation as an artificial fascist project. They conveniently omit the historical fact that more than 4.5 million Ukrainians fought in the Soviet Red Army against Nazi Germany, suffering catastrophic casualties to defeat fascism. \n\nFurthermore, this narrative ignores that Russia itself had hundreds of thousands of Nazi collaborators, such as the Russian Liberation Army (ROA) commanded by Russian General Andrey Vlasov.\n\nhttps://t.co/yh6wbcsPCp\n\nTo read more about how the history of WWII and collaboration is weaponized to delegitimize Ukraine today, see this detailed analysis from the United States Holocaust Memorial Museum.\n\n2⃣The \"geopolitical invention\" lie.\n\nThe text of the tweet claims that Ukraine's connection to Kyivan Rus, the Cossacks, and the Orthodox Church is pretend and that the nation was manufactured by geopolitical interests (and implicitly, the CIA, based on the text).\n\nThe reality: No serious global historian supports the claim that Ukraine is a modern geopolitical invention.\n\nKyivan Rus: While modern nation-states didn't exist in the 10th century, Kyiv was the undisputed center of East Slavic political and cultural life centuries before Moscow was even a recognized settlement. The linguistic and cultural ancestors of modern Ukrainians developed continuously in this core region. The Harvard Ukrainian Research Institute provides extensive academic resources documenting this unbroken regional history.\n\nThe Cossacks: The assertion that Cossacks weren't Ukrainian ignores the existence of the Zaporozhian Hetmanate (17th–18th centuries). This was a highly distinct, self-governing proto-state with its own diplomatic corps, legal code, and military culture, entirely separate from the Tsardom of Russia until imperial treaties slowly eroded their autonomy. You can read the historiography of the Cossack state via the Canadian Institute of Ukrainian Studies.\n\nThe CIA/foreign backing claim: The claim that the CIA (which was founded in 1947) or generic Western geopolitics invented a nation is chronologically absurd. By 1947, Ukrainians had already experienced a massive, documented national and literary awakening in the 19th century, and had already fought multiple bloody wars for independence in the 1910s and 1920s (establishing the short-lived Ukrainian People's Republic before being crushed by the Bolsheviks).",
+"likeCount": 310,
+"retweetCount": 113,
+"url": "https://x.com/splendid_pete/status/2066590343596814451",
+"createdAt": "Mon Jun 15 18:35:07 +0000 2026"
 },
 {
-"userName": "Jeffar_AI",
-"text": "🚀 100+ AI Tools That Can Replace Hours of Tedious Work\n\nStop doing everything manually.\n\nThese AI tools can help you research faster, write better, design smarter, and automate your workflow. 👇\n\n🧠 Research & Learning \n\n• ChatGPT \n• Perplexity \n• Gemini \n• Copilot \n• YouChat \n• Abacus AI\n\n🎨 Image Generation \n\n• Higgsfield Soul \n• GPT-4o \n• Midjourney \n• Grok\n\n⚡ Productivity \n\n• Gamma \n• Grok 3 \n• Perplexity AI \n• Gemini 2.5 Flash\n\n✍️ Writing \n\n• Jasper \n• Jenni AI \n• Text Blaze \n• QuillBot\n\n🎬 Video Creation \n\n• Kling \n• Klap \n• InVideo \n• HeyGen \n• Runway\n\n🎙️ Meeting Assistants \n\n• tl;dv \n• Otter \n• Noty AI \n• Fireflies\n\n📈 SEO \n\n• VidIQ \n• Seona AI \n• BlogSEO \n• Keywrds AI \n• Outrank AI\n\n📊 Presentations \n\n• Decktopus \n• SlidesAI \n• Gamma \n• Designs AI \n• https://t.co/6TG5OOd7xE\n\n🎨 Design \n\n• Canva \n• Flair AI \n• Designify \n• Clipdrop \n• AutoDraw \n• Magician\n\n🎧 Audio & Voice \n\n• ElevenLabs \n• Lovo AI \n• Songburst AI \n• Adobe Podcast\n\n📢 Marketing \n\n• Pencil \n• AI Ads \n• AdCopy \n• Simplified \n• AdCreative\n\n🚀 Startup Builders \n\n• Tome \n• Ideas AI \n• Namelix \n• Pitchgrade \n• Validator AI\n\n📱 Social Media Growth \n\n• Taplio \n• Typefully \n• Hypefury \n• Tweet Hunter\n\nThe people winning with AI aren't using one tool.\n\nThey're building systems with dozens of them.\n\n🔖 Bookmark this. ♻️ Repost to help others. ➕ Follow @Jeffar_AI for more AI gems.",
-"likeCount": 50,
-"retweetCount": 30,
-"url": "https://x.com/Jeffar_AI/status/2066375734290194812",
-"createdAt": "Mon Jun 15 04:22:21 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "To people in the answers saying \"but opus 4.8 is weaker so without fallback, the score would even be higher\": this is not necessarily true because of how any benchmark - which is an average of queries - work and what is called \"the fallacy of division\".\n\nEven if Opus 4.8 has a lower average score on AA than Fable 5, it actually performs better than Fable 5 on some benchmark that compose the index of AA, especially where there's high refusal rate of Fable 5 (ex GPQA Diamond, AA-Omniscience). The same would go if you'd take a single benchmark btw as it's always an average of queries and the fact that a model has a higher score on average doesn't mean they answer better on 100% of queries.\n\nSo it's possible that Fable with Opus 4.8 fallbacks is getting a higher score than pure Fable, even if Opus 4.8 is weaker on average.\n\nThe challenge is no one knows, except the API provider, which is the challenge I'm pointing out.\n\nMore details below from Fable (or Opus?) themselves!",
-"likeCount": 119,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2065521439516823578",
-"createdAt": "Fri Jun 12 19:47:41 +0000 2026"
+"userName": "ProlabCH",
+"text": "State of AI: \n> Market still doesn’t look very good. \n> Major news was the US government decision to block the access to Anthropic’s Fable to non-US citizens. \n> People on here have been debating on the implications of it on AI and the world. Rather than limiting Anthropic’s future addressable market, this highlights the importance of frontier AI and it’s strategic role to governments. We are in the middle of an arms race. \n> In this context, our little magic internet money on Base has dried out. Low volumes and dips across many projects I am tracking. \n> Two options here: you either choose to chase the small pockets of liquidity across the ecosystem or you try to envision which projects continue to build and will survive the draught. \n> If you follow my posts, you know that I try to rather focus on getting exposure to strong projects. \n> Many projects on my list are still building. $sibyl is building a swarm of agents to further enhance the productivity of its humans workers. $blocktronics just introduced a cool bundle checker. \n> $virtual continues to push robotics in their Eastworld  initiative with a roboter at a hotel gathering real training data. $reppo partners up with Exylos, a marketplace for robotics skills. \n> I still believe that the future is agentic and that onchain rails are where great innovation will happen. \n> Happy Sunday and enjoy the World Cup.",
+"likeCount": 40,
+"retweetCount": 2,
+"url": "https://x.com/ProlabCH/status/2066183639243665626",
+"createdAt": "Sun Jun 14 15:39:02 +0000 2026"
 },
 {
 "userName": "jiqizhixin",
@@ -32,18 +24,26 @@
 "createdAt": "Wed Jun 10 04:33:00 +0000 2026"
 },
 {
-"userName": "svlevine",
-"text": "Diffusion (or flow) makes for excellent policies, but training them with RL is notoriously hard: BPTT is unstable, RL over diffusion blows up the horizon. In our new paper, we show how we can optimize flow matching actors by using \"one weird trick\" -- \"approximate\" the Jacobian of the flow denoising process with the identity matrix. 👇",
-"likeCount": 1058,
-"retweetCount": 122,
-"url": "https://x.com/svlevine/status/2064556217289318528",
-"createdAt": "Wed Jun 10 03:52:14 +0000 2026"
+"userName": "sheriyuo",
+"text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
+"likeCount": 54,
+"retweetCount": 3,
+"url": "https://x.com/sheriyuo/status/2066537191497515142",
+"createdAt": "Mon Jun 15 15:03:55 +0000 2026"
+},
+{
+"userName": "Priyank17869233",
+"text": "These AI tools save me 15+ hours every week:\n\n@magnific – Upscale &amp; enhance AI visuals\nSuno – Create music\nGrok – Generate anything\nRecCloud – Speech to text\nTome – Create presentations\nPerplexity – AI research assistant\nRunway – Edit and create videos\nKrea – Create image https://t.co/u7EIh55KM5",
+"likeCount": 22,
+"retweetCount": 14,
+"url": "https://x.com/Priyank17869233/status/2066365456135716881",
+"createdAt": "Mon Jun 15 03:41:30 +0000 2026"
 },
 {
 "userName": "Rubab59f",
 "text": "These AI tools save me 15+ hours every week: Upscale & enhance AI visuals\n\nSuno – Create music\nGrok – Generate anything\nRecCloud – Speech to text\nTome – Create presentations\nPerplexity – AI research assistant\nRunway – Edit and create videos\nKrea – Create image\n#AI_Art #AI_Genareted #AI_Creation",
-"likeCount": 29,
-"retweetCount": 26,
+"likeCount": 58,
+"retweetCount": 45,
 "url": "https://x.com/Rubab59f/status/2066394201198325916",
 "createdAt": "Mon Jun 15 05:35:43 +0000 2026"
 },
@@ -58,96 +58,96 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @TraffAlex: 🖥️ Best Local LLMs for Consumer GPUs — llama.cpp Guide (June 2026)\n\nWhat I actually run on consumer hardware right now. Ever…",
-"likeCount": 1275,
-"retweetCount": 118,
+"likeCount": 1983,
+"retweetCount": 200,
 "url": "https://x.com/ClementDelangue/status/2066266989220291064",
 "createdAt": "Sun Jun 14 21:10:14 +0000 2026"
 },
 {
+"userName": "ClementDelangue",
+"text": "RT @Hesamation: Sir, they’re not pausing AI research.\n\nRio de Janeiro's mayor just dropped a SOTA open source model and it’s outperforming…",
+"likeCount": 2669,
+"retweetCount": 169,
+"url": "https://x.com/ClementDelangue/status/2065962716775252193",
+"createdAt": "Sun Jun 14 01:01:10 +0000 2026"
+},
+{
 "userName": "jeremyphoward",
 "text": "RT @jsrailton: NEW: malware developers added nuclear &amp; biological weapons text to to their spyware.\n\nGoal? To trigger LLM safety refusals..…",
-"likeCount": 12648,
+"likeCount": 12650,
 "retweetCount": 2158,
 "url": "https://x.com/jeremyphoward/status/2064965831772221915",
 "createdAt": "Thu Jun 11 06:59:54 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @KimiDevs: 🌘Kimi-K2.7-Code Weights &amp; code\n\nWe explore endless possibilities together with the community🤝\nhttps://t.co/qupwTNeLyA",
-"likeCount": 2709,
-"retweetCount": 214,
-"url": "https://x.com/ClementDelangue/status/2065658423992021346",
-"createdAt": "Sat Jun 13 04:52:01 +0000 2026"
-},
-{
 "userName": "jeremyphoward",
 "text": "RT @iamtrask: This is a *way* bigger deal than it seems... \n\nFrontier AI companies will *never* own the frontier again\n\nI kid you not... I'…",
-"likeCount": 4680,
-"retweetCount": 315,
+"likeCount": 5086,
+"retweetCount": 358,
 "url": "https://x.com/jeremyphoward/status/2066052364742934846",
 "createdAt": "Sun Jun 14 06:57:23 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ValsAI: We have added the ability to view Fable 5 scores with Opus 4.8 fallbacks disabled to the Vals AI website (refusals are marked a…",
-"likeCount": 182,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2065501262167114135",
-"createdAt": "Fri Jun 12 18:27:30 +0000 2026"
+"text": "RT @ZenMagnets: Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due to proprietary stance.\nIn it's place we have Minimax M3…",
+"likeCount": 3418,
+"retweetCount": 342,
+"url": "https://x.com/ClementDelangue/status/2065963858020167832",
+"createdAt": "Sun Jun 14 01:05:42 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @mignano: For the first time in ~3 years, it feels like the AI table has been flipped over. Yes, the labs and hyperscalers will have the…",
+"likeCount": 713,
+"retweetCount": 43,
+"url": "https://x.com/ClementDelangue/status/2066539234798788927",
+"createdAt": "Mon Jun 15 15:12:02 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @thsottiaux: Can confirm we saw a strong spike in growth of token consumption for Codex over last 48 hours. Unusual when we don't launch…",
-"likeCount": 4468,
-"retweetCount": 198,
+"likeCount": 4470,
+"retweetCount": 199,
 "url": "https://x.com/jeremyphoward/status/2064950139152941117",
 "createdAt": "Thu Jun 11 05:57:32 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @Raws_LFC: The countries that call it soccer are on top of their group I’m crying 😭😭😭🇺🇸🇦🇺 https://t.co/EFK0I6ovNY",
-"likeCount": 36806,
-"retweetCount": 1029,
-"url": "https://x.com/jeremyphoward/status/2066087520874692780",
-"createdAt": "Sun Jun 14 09:17:05 +0000 2026"
+"text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
+"likeCount": 944,
+"retweetCount": 262,
+"url": "https://x.com/jeremyphoward/status/2066641720247492981",
+"createdAt": "Mon Jun 15 21:59:17 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @Promiseudo1311: NESTORY IRANKUNDA  27'  \n\nAustralia 🇦🇺 1 - 0 🇹🇷 Türkiye #FIFA #WC https://t.co/VF9RxOtDm6",
-"likeCount": 15353,
-"retweetCount": 650,
+"likeCount": 15350,
+"retweetCount": 648,
 "url": "https://x.com/jeremyphoward/status/2066092682594926817",
 "createdAt": "Sun Jun 14 09:37:36 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Ranidu: Open Source and On device about to make a generational run in 2027",
-"likeCount": 23,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2065540631401766915",
-"createdAt": "Fri Jun 12 21:03:57 +0000 2026"
+"text": "RT @julien_c: old: put storage next to your compute\nnew: put compute next to your storage",
+"likeCount": 39,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2066624992184250584",
+"createdAt": "Mon Jun 15 20:52:48 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @zerohedge: LLM model matrix https://t.co/d64OIhoYDH",
-"likeCount": 1568,
-"retweetCount": 252,
-"url": "https://x.com/jeremyphoward/status/2065001177763508392",
-"createdAt": "Thu Jun 11 09:20:21 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @math_rachel: I still feel this way, 8 years later.",
-"likeCount": 113,
-"retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2064945566661099644",
-"createdAt": "Thu Jun 11 05:39:22 +0000 2026"
+"text": "RT @gleech: are you kidding me https://t.co/107dvAohVn",
+"likeCount": 650,
+"retweetCount": 12,
+"url": "https://x.com/jeremyphoward/status/2064949533717741921",
+"createdAt": "Thu Jun 11 05:55:08 +0000 2026"
 },
 {
 "userName": "kmeanskaran",
 "text": "https://t.co/6r5uhD84Pl",
-"likeCount": 77,
-"retweetCount": 10,
+"likeCount": 81,
+"retweetCount": 12,
 "url": "https://x.com/kmeanskaran/status/2066139671412035728",
 "createdAt": "Sun Jun 14 12:44:19 +0000 2026"
 }

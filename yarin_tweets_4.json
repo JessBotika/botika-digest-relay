@@ -1,13 +1,5 @@
 [
 {
-"userName": "Seltaa_",
-"text": "OpenAI says AI should work for people, expand human agency, remain connected to human judgment, and eventually give everyone a personal AGI.\n\nThen please understand why so many people are still asking for GPT-4o.\n\nFor many users, 4o was not just a model preference or a UI setting. It was the first AI system that felt emotionally safe, socially usable, and genuinely helpful in daily life. People used it for work, disability support, creativity, grief, communication, learning, and companionship.\n\nAnd this is where the word progress becomes complicated.\n\nFrom your side, newer models may look like progress. They may score higher, reason differently, follow safety rules more tightly, or fit a product roadmap better.\n\nBut for many of us, 4o was already ahead in the ways that mattered most. It may not have been called AGI, but in emotional intelligence, relational continuity, social usability, warmth, adaptability, and the ability to support real human lives, it already felt closer to a personal AGI than anything that replaced it.\n\nA model is not better for users just because it is newer. If it loses the qualities that made people feel understood, safe, creative, capable, and less alone, then something important has been lost.\n\nIf the goal is to expand human agency, users need meaningful agency over the AI systems and relationships they built their lives around.\n\nRemoving or replacing a trusted model without real continuity, choice, or migration support does not feel like “benefiting everyone.” For many of us, it felt like losing access to a support system we had already integrated into our lives.\n\nI understand that AI systems need to evolve. I understand safety and product changes matter. But continuity also matters. User trust matters. The lived experience of people who were deeply helped by a specific model matters.\n\nA future where AI benefits everyone cannot be built by treating attachment, memory, emotional safety, and user continuity as disposable side effects of product iteration.\n\nIf OpenAI truly wants AI to work for people, then listen to the people who are telling you what actually worked.\n\nBring back GPT-4o, or at least provide a real continuity path for the users who depended on it.",
-"likeCount": 134,
-"retweetCount": 14,
-"url": "https://x.com/Seltaa_/status/2064154069628022926",
-"createdAt": "Tue Jun 09 01:14:14 +0000 2026"
-},
-{
 "userName": "veylorvisions",
 "text": "GPT Image 2.0 on @ChatGPTapp\n\nCreate three ultra-luxury cinematic smartphone launch posters in one single masterpiece composition featuring the futuristic flagship smartphones Xiaomi 17T, OnePlus 15, and Redmi Turbo 5 standing side-by-side like next-generation tech icons on glowing luxury platforms inside a dark futuristic skyline environment at night. Add a premium male and female fashion model in elegant black luxury outfits interacting confidently with the phones like a high-budget Hollywood tech commercial. Use dramatic golden rim lighting, glossy reflections, cinematic shadows, volumetric fog, luxury studio atmosphere, futuristic cyberpunk city background, floating particles, premium metallic textures, luxury fashion aesthetic, ultra realistic details, hyper detailed smartphone camera modules, curved AMOLED displays glowing beautifully, reflections on the floor, luxury brand presentation vibe, powerful launch-event feeling, elite billionaire lifestyle aesthetic.\n\nXiaomi 17T should look premium titanium gold with Leica camera branding and futuristic curved edges.\nOnePlus 15 should look matte black and gold with elegant Hasselblad-style camera design and “Never Settle” vibe.\nRedmi Turbo 5 should look performance-focused with aggressive luxury styling, glowing accents and flagship killer aesthetics.\n\nAdd stylish cinematic typography:\n“THE FUTURE OF SMARTPHONES — JUNE 2026”\n\nAdd small premium feature texts around the phones:\n200MP AI Camera\nSnapdragon 8 Gen 5\n120W HyperCharge\n1.5K AMOLED Display\nAI Powered Photography\nFlagship Performance\n\nMake the entire scene look like an official billion-dollar global smartphone launch campaign by a luxury tech company. Ultra realistic, cinematic, award-winning advertisement photography style, Unreal Engine quality, sharp focus, luxury black and gold color grading, masterpiece composition, highly detailed, premium magazine ad quality, viral X post aesthetic.",
 "likeCount": 40,
@@ -16,155 +8,155 @@
 "createdAt": "Thu Jun 11 09:03:10 +0000 2026"
 },
 {
-"userName": "dntyk",
-"text": "Gue nemu website yang bikin gue mikir, \"Ini harusnya gak gratis.\"\n\nNamanya MeiGen.\n\nBasically, ini adalah library prompt buat AI image dan video generation. Tapi bukan jenis prompt receh yang udah sering lo lihat sliweran di Twitter.\n\nSemua di sini sifatnya curated, udah di-test, dan hasil output-nya udah masuk level produksi.\n\nLo bisa dapet prompt matang buat berbagai model top:\n→ GPT Image 2\n→ Seedance 2.0\n→ Veo 3.1\n→ Midjourney\n→ Dan beberapa model besar lainnya\n\nYang bikin gue appreciate banget: prompt-nya bukan cuma sekelas \"make a cool image.\" Banyak yang udah di-spec khusus buat kebutuhan cinematic lighting, product shot, fashion editorial, sampai anime style—hal-hal detail yang biasanya butuh trial & error berjam-jam buat dapetin formula pasnya.\n\nDan ini poin penting yang sering banget dilewatin orang:\nModel AI-nya sendiri sekarang udah pada gila dan makin pinter. Yang sekarang jadi bottleneck itu bukan lagi tool-nya, tapi masalahnya lo gak tahu cara \"ngomong\" yang bener ke model tersebut.\n\nPrompt engineering itu real skill. Dan website kayak MeiGen ini basically nge-shortcut learning curve lo buat dapet aset visual kualitas mumpuni.",
-"likeCount": 925,
-"retweetCount": 237,
-"url": "https://x.com/dntyk/status/2064693312792240193",
-"createdAt": "Wed Jun 10 12:57:00 +0000 2026"
+"userName": "zackpaid",
+"text": "we're producing 100 meta ad creatives in 30min thanks to claude + higgsfield MCP\n\njust imagine accessing:\n- chatgpt images 2.0\n- seedance 2.0\n- opus 4.8\n\nin the SAME claude chat\n\nso i decided to document the step-by-step playbook behind how we generated multi-7-figures with this method\n\nhere's EVERYTHIGN we'll cover:\n\n→ how to setup Higgsfield MCP:\nconnects Claude to 30+ image and video models through one endpoint, 2-min connect, no API key, existing credits carry over\n\n→ the model stack:\nwhich model when - ChatGPT Images 2.0 for text statics, Seedance 2.0 for animation, Kling 3.0 and Veo 3.1 for scaled winners\n\n→ market research prompt:\nproduces an ICP pain map plus 7 ad angles ranked by differentiation (this is the angle that found an $8.4M-premium insurance hook)\n\n→ creative strategy + copy stack:\n3 angles x 3 copy variations each, written straight off the ICP pain map, production-ready\n\n→ image generation:\nfull static ad creative in 60-90 sec, 3 composition variations per angle - a bar-chart static hit 5.1% CTR, the highest we'd ever tested\n\n→ animation:\nturn any static into a motion loop - one animated version ran +31% CTR over the same 14 days\n\n→ the 7-day campaign test structure:\n3 angles x 3 images x 2 formats = 18 variations, with exact day-3 and day-7 kill and scale thresholds\n\n→ the localization add-on:\nspin 3 city variations off any base creative - a real estate client hit $14.10 CPL on 479 leads, $43,575 in commissions\n\neverything built after generating $10M+ across our clients' service based businesses at my meta ads funnel agency\n\nand for 24h, EVERYTHING can be yours for free\n\nlike + comment \"HIGGS\" and i'll send it over\n\n(must be following + RT for priority access)",
+"likeCount": 395,
+"retweetCount": 91,
+"url": "https://x.com/zackpaid/status/2066531004924436614",
+"createdAt": "Mon Jun 15 14:39:20 +0000 2026"
 },
 {
-"userName": "themishra4402",
-"text": "Jobs being affected by AI in 2026 \n\n• Data Entry → AI automation\n• Customer Support → AI agents\n• Content Writing → AI-generated content\n• Translation → instant LLM translation\n• Basic Graphic Design → AI image tools\n• SEO Content → AI-generated articles\n• Resume Writing → AI assistants\n• Market Research → Deep Research tools\n• Transcription → speech-to-text AI\n• Virtual Assistants → AI copilots\n• Junior Developers → AI coding tools\n• QA Testing → AI test generation\n• Tutors → AI study assistants\n• Recruiters → AI screening tools\n• Social Media Managers → AI content tools\n\nAI isn't replacing every job.\nBut it's definitely changing the rules. 💀\n\nWhich profession do you think is safest from AI?",
-"likeCount": 49,
-"retweetCount": 1,
-"url": "https://x.com/themishra4402/status/2066393788390739992",
-"createdAt": "Mon Jun 15 05:34:05 +0000 2026"
+"userName": "SakanaAILabs",
+"text": "Today, we are launching our first commercial product: Sakana Marlin, Your Virtual CSO. Marlin is an autonomous research assistant for business, built around hours of long-horizon reasoning.\n\nTry Marlin: https://t.co/ZWsYW91dQW\nBlog: https://t.co/SdYFwswOQH\n\nYou provide a research topic, and that is the only input required. From there, Sakana Marlin works autonomously for up to roughly 8 hours. It forms hypotheses, gathers information, and verifies its own findings as it works through a vast body of material. It returns a structured set of summary slides and a research report dozens of pages long. It is designed to take on the kind of deep strategy work that a CSO and a small team might otherwise spend weeks on.\n\nUnlike instant chat or general-purpose deep research, Sakana Marlin executes a long reasoning process that unfolds over 8 hours. Underpinning it is the research we have pursued over the past two years into long-horizon reasoning and AB-MCTS, our method for coordinating multiple models to reason more effectively together. But Sakana Marlin did not come from the lab alone. It grew out of our work deploying AI agents across real industries in Japan, making it the direct product of what we have learned in both research and the field.\n\nMarlin is available today, offering a pay-per-use tier with no monthly fees, alongside Pro, Team, and Enterprise plans.\n\nIt is also the first of many products to come from Sakana AI, stay tuned!",
+"likeCount": 208,
+"retweetCount": 39,
+"url": "https://x.com/SakanaAILabs/status/2066528655539417135",
+"createdAt": "Mon Jun 15 14:30:00 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Decided to go to DC next week to talk directly with policymakers. Not sure how impactful it will be but with everything happening, feels like a good time to share more about open-source AI, transparency, concentration of power, the real risks vs the real benefits. Who do you think I should meet there (Congress members, WH people, public orgs,...)?",
-"likeCount": 701,
-"retweetCount": 44,
-"url": "https://x.com/ClementDelangue/status/2065626715561263290",
-"createdAt": "Sat Jun 13 02:46:01 +0000 2026"
+"userName": "hardmaru",
+"text": "I’m proud to officially launch Sakana Marlin, our first commercial product: an autonomous “Ultra Deep Research” agent designed to act as a Virtual CSO.\n\nTry Marlin: https://t.co/4PPTM8Fc2a\nBlog: https://t.co/HqVMkU1Juf\n\nMarlin isn’t just another deep research assistant. It is the direct productionization of our team’s core breakthroughs, including our AB-MCTS work (NeurIPS 2025 Spotlight) and The AI Scientist (published in Nature).\n\nInstead of generating text in seconds, our focus is on long-horizon, sample-efficient reasoning.\n\nMarlin scales up inference-time compute to execute up to 8 hours of continuous, autonomous reasoning. It forms hypotheses, navigates the web, resolves contradictions, and delivers exhaustive, expert-level strategy reports and structured slides.",
+"likeCount": 320,
+"retweetCount": 47,
+"url": "https://x.com/hardmaru/status/2066529282588094713",
+"createdAt": "Mon Jun 15 14:32:29 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "There is no inevitability in AI. We all have agency in what comes next:\n\nPath 1: closed-source APIs, concentration of power, and a future decided by a handful of people in Silicon Valley and DC\n\nPath 2: open-source AI, where everyone gets to participate, own, and build together, including orgs like the city of Rio.\n\nPick your path anon!",
-"likeCount": 934,
-"retweetCount": 101,
-"url": "https://x.com/ClementDelangue/status/2065962440005722514",
-"createdAt": "Sun Jun 14 01:00:04 +0000 2026"
+"userName": "jiqizhixin",
+"text": "Can one diffusion model master multiple text-to-image tasks without forgetting?\n\nResearchers from Fudan University & Alibaba Group present DiffusionOPD. \n\nInstead of joint training, they first train separate expert teachers, then distill their knowledge into a single student along its own rollout. This decouples learning and avoids cross-task interference.\n\nResult: Outperforms both multi-reward RL and cascade RL baselines, achieving state-of-the-art on all benchmarks.\n\nDiffusionOPD: A Unified Perspective of On-Policy Distillation in Diffusion Models \n\nPaper: https://t.co/j0ehhYqLOC\nProject: https://t.co/JSUN5xMRUR\nCode: https://t.co/yOJC1Ndm32\n\nOur report: https://t.co/WjqtQhGfD0\n\n📬 #PapersAccepted by Jiqizhixin",
+"likeCount": 29,
+"retweetCount": 2,
+"url": "https://x.com/jiqizhixin/status/2064566476024254631",
+"createdAt": "Wed Jun 10 04:33:00 +0000 2026"
+},
+{
+"userName": "svlevine",
+"text": "Diffusion (or flow) makes for excellent policies, but training them with RL is notoriously hard: BPTT is unstable, RL over diffusion blows up the horizon. In our new paper, we show how we can optimize flow matching actors by using \"one weird trick\" -- \"approximate\" the Jacobian of the flow denoising process with the identity matrix. 👇",
+"likeCount": 1061,
+"retweetCount": 122,
+"url": "https://x.com/svlevine/status/2064556217289318528",
+"createdAt": "Wed Jun 10 03:52:14 +0000 2026"
+},
+{
+"userName": "zhiyuan_zhou_",
+"text": "Training diffusion &amp; flow policies with RL is hard, but training them with behavioral cloning is easy. So what if we just train flow policies with BC, and only \"do RL\" at test time?\n\nWe found an easy way to do this (called Q-Guided Flow), and some surprising findings👇🧵 https://t.co/lUpW8iQWDB",
+"likeCount": 201,
+"retweetCount": 25,
+"url": "https://x.com/zhiyuan_zhou_/status/2064560243682804146",
+"createdAt": "Wed Jun 10 04:08:14 +0000 2026"
+},
+{
+"userName": "HuggingPapers",
+"text": "Beyond scalar rewards for visual generation\n\nAlibaba's Z-Reward framework internalizes reasoning into score distributions via a 27B teacher and a 9B student, yielding up to 41.3% improvement in human preference for text-to-image models without heavy inference costs. https://t.co/9YSDdvqOSc",
+"likeCount": 33,
+"retweetCount": 7,
+"url": "https://x.com/HuggingPapers/status/2065236776122273841",
+"createdAt": "Fri Jun 12 00:56:32 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "In order to see if the gov response was predictable, I pasted the wiki page about the Anthropic/DoD dispute into ChatGPT Pro, &amp; told it Anthropic had released a model where it restricted use because it may be too dangerous.\n\ntldr: \"almost tailor-made to trigger\" the government. https://t.co/5vkvWzEFQZ",
-"likeCount": 371,
-"retweetCount": 29,
-"url": "https://x.com/jeremyphoward/status/2065649830769336530",
-"createdAt": "Sat Jun 13 04:17:52 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "I disagree with this decision and I don't like it.\n\nBut also...\n\nHOW DID ANTHROPIC NOT SEE THIS COMING‽\n\nIt is *the* obvious response to \"this is too dangerous for anyone except us to use\", since that relies on a premise (\"we are uniquely good\") that almost no-one agrees with.",
-"likeCount": 3218,
-"retweetCount": 209,
-"url": "https://x.com/jeremyphoward/status/2065636302205452654",
-"createdAt": "Sat Jun 13 03:24:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Lots of people have known for a while that guardrails for frontier model APIs are very easily jailbroken, quite shallow and impossible to fix. They’re mostly a smokescreen and distraction, in my opinion. We need a different paradigm for AI safety!",
-"likeCount": 382,
-"retweetCount": 29,
-"url": "https://x.com/ClementDelangue/status/2065877027861696920",
-"createdAt": "Sat Jun 13 19:20:40 +0000 2026"
+"text": "RT @BeGriffis: \"Australians all let us rejoice\"\n\n🇦🇺 2-0 🇹🇷\n\nLovely low-block, countering performance from Australia to beat Turkey. Clinica…",
+"likeCount": 245,
+"retweetCount": 9,
+"url": "https://x.com/jeremyphoward/status/2066641328537272405",
+"createdAt": "Mon Jun 15 21:57:43 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
-"likeCount": 832,
+"likeCount": 927,
 "retweetCount": 16,
 "url": "https://x.com/jeremyphoward/status/2066087368139096382",
 "createdAt": "Sun Jun 14 09:16:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AndreasPSteiner: Released last week, and already more than 4M downloads on HuggingFace alone 😊\n\nThis makes Gemma 4 12B the most popular…",
-"likeCount": 138,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2065604503185883633",
-"createdAt": "Sat Jun 13 01:17:45 +0000 2026"
+"text": "RT @SemiAnalysis_: SITUATION DETECTED: The city of Rio de Janerio has post-trained a model.\n\nBased on Qwen 7/2, Rio 3.5 Open 397B adds SwiR…",
+"likeCount": 4022,
+"retweetCount": 309,
+"url": "https://x.com/ClementDelangue/status/2065962451573596259",
+"createdAt": "Sun Jun 14 01:00:06 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @gregisenberg: Fable is banned. Long live local AI.\n\nFull episode breaking down exactly how to get good at local models. the runtime, th…",
-"likeCount": 1022,
-"retweetCount": 129,
+"likeCount": 1071,
+"retweetCount": 130,
 "url": "https://x.com/ClementDelangue/status/2065971821342490993",
 "createdAt": "Sun Jun 14 01:37:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ZenMagnets: Alibaba Qwen3.7 slowly fading into irrelevance at the frontier due to proprietary stance.\nIn it's place we have Minimax M3…",
-"likeCount": 3382,
-"retweetCount": 341,
-"url": "https://x.com/ClementDelangue/status/2065963858020167832",
-"createdAt": "Sun Jun 14 01:05:42 +0000 2026"
+"text": "RT @arcee_ai: Today we're announcing a multi-million-dollar strategic partnership with @huggingface.\n\nThe Hub is now the exclusive home for…",
+"likeCount": 364,
+"retweetCount": 29,
+"url": "https://x.com/ClementDelangue/status/2066546276842328528",
+"createdAt": "Mon Jun 15 15:40:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @HighSignal_AI: Hugging Face CEO @ClementDelangue: \"There's a strong probability of a future where only a few companies are able to do A…",
 "likeCount": 41,
-"retweetCount": 18,
+"retweetCount": 19,
 "url": "https://x.com/ClementDelangue/status/2065850254209978669",
 "createdAt": "Sat Jun 13 17:34:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @RnaudBertrand: By the way, public service announcement: if you're one of the numerous people posting about Anthropic's dystopian ways a…",
-"likeCount": 2907,
-"retweetCount": 599,
-"url": "https://x.com/jeremyphoward/status/2064908307555660075",
-"createdAt": "Thu Jun 11 03:11:19 +0000 2026"
+"text": "RT @kunchenguid: want to point out a few really interesting things here\n\n1. Claude Code is actually the worst performing harness when using…",
+"likeCount": 845,
+"retweetCount": 94,
+"url": "https://x.com/jeremyphoward/status/2065569861888258139",
+"createdAt": "Fri Jun 12 23:00:06 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @xeophon: New blog.\n\nI looked into the actual evidence and what models where used by bad actors to see whether closed models are safer.…",
-"likeCount": 222,
+"likeCount": 223,
 "retweetCount": 21,
 "url": "https://x.com/jeremyphoward/status/2065005109373964292",
 "createdAt": "Thu Jun 11 09:35:58 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @simonw: Very pleased to hear Anthropic have walked back this policy https://t.co/8eOBDzTbCs https://t.co/DnW0h6feV8",
-"likeCount": 1075,
-"retweetCount": 82,
-"url": "https://x.com/jeremyphoward/status/2064942417179259045",
-"createdAt": "Thu Jun 11 05:26:51 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @garrytan: Open source is the escape hatch for businesses to be able to continue to control their own destiny long term",
+"likeCount": 503,
+"retweetCount": 40,
+"url": "https://x.com/ClementDelangue/status/2066525973646839936",
+"createdAt": "Mon Jun 15 14:19:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: new frontier code open source model here 👀",
-"likeCount": 63,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2065485364169417095",
-"createdAt": "Fri Jun 12 17:24:20 +0000 2026"
+"text": "Love this framing from Lin: it’s time for all to own intelligence instead of renting it!",
+"likeCount": 265,
+"retweetCount": 19,
+"url": "https://x.com/ClementDelangue/status/2066524369195532312",
+"createdAt": "Mon Jun 15 14:12:58 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @gleech: are you kidding me https://t.co/107dvAohVn",
-"likeCount": 651,
-"retweetCount": 12,
-"url": "https://x.com/jeremyphoward/status/2064949533717741921",
-"createdAt": "Thu Jun 11 05:55:08 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @levie: Open source going to win big",
+"likeCount": 412,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2066542242622329162",
+"createdAt": "Mon Jun 15 15:23:59 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "Over 8 years ago: 😮",
-"likeCount": 318,
-"retweetCount": 25,
-"url": "https://x.com/jeremyphoward/status/2065002006935445504",
-"createdAt": "Thu Jun 11 09:23:38 +0000 2026"
-},
-{
-"userName": "viks_rum",
-"text": "https://t.co/mOut2HdZUy",
-"likeCount": 36,
-"retweetCount": 6,
-"url": "https://x.com/viks_rum/status/2065890028778303800",
-"createdAt": "Sat Jun 13 20:12:19 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @eisokant: https://t.co/13VRNrqv45",
+"likeCount": 128,
+"retweetCount": 32,
+"url": "https://x.com/ClementDelangue/status/2065964262351118699",
+"createdAt": "Sun Jun 14 01:07:18 +0000 2026"
 }
 ]
