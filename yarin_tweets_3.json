@@ -1,51 +1,43 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🎬 At @saturdayrobotic @CVPR 2026 Research Night, @guocheng_qian (Senior Research Scientist @Snap) presented lightning talk \"Diffusion-DRF: a new RL/post-training paradigm for video diffusion models\".\nTL;DR: Scalar rewards are too coarse for video generation. Diffusion-DRF turns VLM explanations into free, rich, dense, differentiable rewards with spatial/semantic credit assignment.\n\nWhy: RL-style post-training powers LLM reasoning and image generation, but video is harder. A single reward cannot identify which object, motion, frame, physical inconsistency, or visual defect caused failure. GRPO-style methods often reward-hack and collapse within ~300 steps; video RL stability becomes a major bottleneck. Diffusion-DRF remains stable beyond 3K training steps.\n\nCore idea:\nInstead of binary/scalar rewards, use Qwen2.5-VL as a VQA reward engine.\n1️⃣ Reference video + caption → structured decomposition:\n• Environment\n• Objects\n• Object locations\n• Other scene attributes\n2️⃣ Generate multi-dimensional questions:\n• TA (Text Alignment): does the environment/object configuration match the prompt?\n• Phy (Physics): are objects physically plausible (deformation, motion, interactions)?\n• VQ (Visual Quality): blur, artifacts, defects?\n3️⃣ Qwen2.5-VL answers these questions on the reference video, producing Yes/No + free-form explanations as targets.\n4️⃣ Generated video is evaluated by the same VLM.\n5️⃣ VQA next-token prediction loss becomes a differentiable reward\n\nKey insight: VLM token probabilities and explanations provide dense token-level feedback instead of brittle reward labels.\nEven more interesting: gradients flow through the VAE decoder and final denoising stages, allowing direct optimization of the video diffusion model. VLMs are not just judges—they become credit-assignment engines.\n\nResults (V-Bench 2.0):\nDiffusion-DRF (7B) achieves:\n• Overall 55.38\n• Creativity 64.58\n• Common Sense 56.96\n• Controllability 27.98\n• Human Fidelity 80.51\n• Physics 56.85\n• Material 75.52\n• Dynamic Attribute 42.86\n• Motion Rationality 40.23\n• Complex Landscape 21.05\n• Camera Motion 24.69\nOutperforming Flow-DPO (50.27), Flow-GRPO (50.64), VideoAlign (53.55), Vanilla-DRF (53.72), and Wan2.1-3B-T2V (52.99), while maintaining far stronger training stability.\n\nQualitatively:\n• More realistic human expressions and object interactions (e.g., honey pouring, facial fidelity)\n• Better object color/location control\n• More accurate manipulation actions\n• Stronger physical consistency and scene composition\n\nThe next step is TC-GRPO (Diffusion-DRF + GRPO).\nInstead of scalar rewards, VLM gradients provide token-level credit assignment inside Group Relative Policy Optimization loops.\nOn HunyuanVideo-1.5:\n• More natural handshakes\n• Better human-object interactions\n• Stronger lighting realism\n• Improved motion dynamics\n• Better road adhesion, composition, and photorealism in driving scenes\n\nBig picture:\nVideo world models face the same scaling transition LLMs experienced: pretraining is no longer enough; post-training dominates compute (e.g., Composer 2.5 reportedly spends ~85% of compute on additional training/RL). The challenge is that scalar rewards break down in video.\n\nDiffusion-DRF suggests a different path: use VLM explanations + token probabilities as free, dense, differentiable rewards and token-level credit signals.\nVLM gradients may become for video generation what RLHF/RLAIF became for language models.\n@CVPRConf #CVPR2026",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2064486803252584822",
-"createdAt": "Tue Jun 09 23:16:24 +0000 2026"
+"userName": "47fucb4r8c69323",
+"text": "The Invention of Sound is by Chuck Palahniuk, so it’s no surprise that the eponymous sound is the screaming of people being brutally killed.\n\nHe has an unruly name, so let’s shorten it to “CP”.\n\nLet me begin by making one thing clear—I love CP. I am a huge, huge fan of CP, even if a lot of what CP has given humanity makes me feel uncomfortable, tense, and despondent. It is true that CP has forced us to take a look at the darker sides of humanity and recognize them. It is also true that he is gifted at doing this—forcing us to see the horrors of what humanity is capable of.\n\nAnd in The Invention of Sound, he goes for the most horrific imaginable, the most disgusting and tragic abuse of life you can think of. He forces us to reconcile our worldview with the fact: these things happen. They are happening now to some innocent child, somewhere.\n\nHe worries we are insensitive to these things both out of the unbearableness of the tragedies themselves (which CP does not discuss much, in fact he sometimes seems oblivious to this) and out of the numbing of the modern world. But it isn’t so much numbing because of exposure to shock that CP worries about—in fact, he finds shock delightful. He is a Gen X writer, after all. \n\n\"After people had been fed so many lies they'll never swallow anything as the truth\" the narrator says bleakly in one of the many asides that pepper both this and CP’s other books. Are we supposed to conflate author and narrator here—is this the real CP, his real views?\n\nThis is a fraught topic with really the best literary criticism and theory dedicated to it, so let me just put my own position on the table: until we have a sign to indicate otherwise, our natural inclination is to conflate narrator with author. This is a space authors can play with (or hide into), and many do. Faulkner loves to play in this space, Nabokov tried to hide in this space. I think CP has contempt for this space, and indeed his art is in ignoring it. \n\nCP is speaking to us as himself in and through his third-person narrator. I cannot prove this, it is instead the axiom upon which I am working.\n\nAnd if this is him speaking, he is expressing a worry: CP is worried about our grasp on reality. Specifically, he is worried about how humans mediate their relationship to reality through language, both linguistic representations of the world to themselves and to other people. When Foster (a clever protagonist’s name, but a bit too transparent for my taste) is roleplaying with the prostitute, he observes how “This imposter had taken authorship of his past\" about the fake Lucinda”. Here we see echoes of Harold Pinter, particularly plays like The Birthday Party that both dramatize how memory is fallible (and identity over time is thus questionable) as well as how this fallibility can be used as a weapon (and love over time is thus questionable). It’s a dark, angry play.\n\nBut CP is aware of how brutality in media desensitizes. When Foster is listening to the screams of murder victims to find the one scream he needs to find, he “began to hate the strangers whose torture hurt his ears” due to listening to “This bedlam crop of people’s misery”. I immediately thought of the content screeners at Facebook in the 2010s who had to get psychological counseling because of all of the messages and images of abuse, torture, rape, and death they had witnessed. CP describes a real horror in the world—this I will return to.\n\nCP does not believe touching grass is the solution, and the book also dramatizes people using real world places to mediate experience of others’ pain. His favored technique to demonstrate this is the support group, which appears here as well as in Fight Club. “Nobody he'd met at this support group had been anybody. This place wasn't a place, and it never had been” is what the narrator says near the end of the book, and here is the thesis laid out: when humans carve out specific spaces for discourse, they create non-places where identity dies and the meaning of words can float freely from the body that initiates their utterance. This is obviously relevant to our AI-integrated world, but it’s an old argument of media theory that is just plan right. Joshua Meyrowitz’s seminal No Sense of Place is the go-to book to discuss this topic, and it is as right today as it was 40 years ago, even about AI. (The second half of the book, however, is not very good and is best skimmed.)\n\nWe see hints at this attitude throughout the book, like on p.130 when CP describes “the camera’s perspective” when describing a movie—he could easily have said “the audience’s perspective”. But it isn’t—it is indeed the camera’s. It’s only ours by force.\n\nThis concept of mediation between individuals causing a separation is given its strongest symbolic form near the beginning of the book with Mitzi and one of her victims, when both were wearing ear plugs in a heavily mic’d room: “but neither woman could hear the other. Only the huddled microphones heard…” \n\nBtw, Anon, this is how Twitter works: neither you nor me hear the other. Only the platform hears.\n\nIf humanity is as guilty of trying to take us out of place and into disorienting space as technology, where do we go? Here CP gives an answer—a somewhat hopeful one, although he cannot help but let his rage trip over his hope. He describes how people retreat into home theaters because of the annoyance of others (p.66), then just a few pages later (p.69nice) discusses how “The human limbic system needed community to reach its peak highs and lows” when praising the experience of the cinema and music concert. \n\nLater CP cannot help but express this again: “the same way twenty thousand music fans will ride the same limbic wave at a rock concert. To share the same moment of euphoric brain chemistry. Or some fifty thousand fans will pack into a football stadium to share the massive limbic rush created by a winning touchdown.”\n\nNote the visceral and embodied language here: this is CP’s strength and weakness. He is describing the physical manifestation of something very, very old. Michael Sugrue, in his last lecture shortly before dying, spoke of the Göbekli Tepe https://t.co/uERms5UVy6. And his point in it is quite simple: if we go back to the earliest evidence of humans working together, we do not see that togetherness being produced by economic necessity. In fact, it is the opposite: the structures we see having been build over 10,000 years ago appear to have been built at tremendous cost and with tremendous difficulty by people who did not intend to use the structures for any apparent economic reason. It was a conscious choice made on a civilizational level to experience togetherness.\n\nSugrue uses that to point to a spiritual truth, CP brings it to a biological event, but both are describing the same thing.\n\nI get the sense that CP does not bring it to the biological out of a delight in destroying the spiritual. When one hears Daniel Dennett lecture, one gets the sense of glee at destroying old idols—a Nietzschean bloodlust to kill the old gods. Or maybe an early Christian bloodlust like that of the Parabalani. Iconoclasts are all the same in that their god is destruction.\n\nCP is not that. I sense a deeply emotional man who has suffered much and lost even more, and who deeply resents both humanity and his need for his fellow humanity. He is the hesitant celebrity who wants to be a monk. \n\nThe patron saint of outsider art lives inside the temple, and it drives CP mad.\n\n“Everyone wanted to have an effect,” the narrator proclaims early on (p.34). “People spent their lives trying to get a laugh. Or to seduce an audience of strangers. The goal was to commodify something, repeat it, sell them, these the most intimate of human drives. It meant turning people’s basic humanity into something that could be bought and sold. Form fast food to porn, this was power.”\n\nIndeed, and it is CP’s power—it is how he has become rich and famous. It is how he is guaranteed to sell more books, like this one. Which he sold for money. \n\nHe is aware of what he has become and he hates it—but he sees no other choice. “Mitzi knew the primitives were right,” the narrator says near the end of the book (p.215). “The tribes who believed a photograph would steal a person's soul. It would, and it did. So did an audio recording, as did video.” As do CP’s novels, whether he knows this or not.\n\nBut on a more immediate personal level, CP needs love and friendship and he hates that too. He hates that his limbic system needs those of his fellow man, but he also knows that to be true. That same passage continues: “Our greatest creation is our selves. The way we cultivate our appearance and behavior. And nowhere is our art-work more apparent than in our minds. The way we each have an idea of self. The one perfect self we've chosen by rejecting all other options. The opportunity costs of identity.” CP is an author who regrets what he has written about himself in his own mind. The novels are, sure, whatever. But CP has built a life and he frets about what that means.\n\nThis is CP’s subject and the highest form of his art.\n\nHe is aware that, on the one hand, without society and the world there is no matter from which to forge a self but, on the other hand, that forged self is fake and impersonal, or at least in parts if not as a constructed whole. For his desire for truth and to be pure of the evils and dangers of other people, what can he do if his self is constructed with pieces of his fellow man, including their evil?\n\nNothing, and he knows it. And he is enraged by it.\n\nAnd so am I.\n\n“Mitzi gave the standard lecture” on page 181. “How ordinary people give everything and never see the huge profits generated from their life and death. How even the most intimate moments of our lives are now reproduced and sold as a commodity.\" CP is giving his soul to us in these pieces, and I don’t think he has a choice in the matter. He is keenly aware of this and resentful. How could he not be?\n\nHow can the outsider tolerate success? They cannot—success is the enemy.\n\nThere is more to the book—the concern with the real and the virtual, brutality and descriptions of horrors I would rather ignore. CP’s focus on the horrors of human depravity are what concern me the most; I want to tell him: yes, these things exist, but on the margins, and those margins are shrinking. We are making progress. No, that is not good enough for the dead children—it is not good enough. It will never be good enough. But we are doing the best we can, and that is worth some love.\n\nAnd CP would get angry because he agrees with me and hates that he agrees. I hate that I think it too.\n\nAnd he’s rewarded too much for this focus. Reading The Invention of Sound reminded me of two other books. First, I thought of Bukowski’s Ham on Rye, which I could not finish. The descriptions of west coast child abuse, bullying, and family cruelty were too familiar. I do not want to go back to that world, and I understand Bukowski’s compulsion to be a witness. “This happened, this was important, and I will make a castle of the shit the world gave me” was the meaning of Bukowski’s life, and what sublimity—it is literally the alchemy of poetry personified, and that is the highest art can do. He was a brilliant artist whose art I cannot stand.\n\nI feel as if CP feels a compulsion to witness the evil of man so we can be aware of it and try to fight it. This is a crucial social function that is also slowly killing CP and his sanity.\n\nLess flattering, the book reminded me of W. G. Siebald’s The Rings of Saturn, which is a brilliant book until the end, when it is quite obvious that the book is just gripes. It’s just grumbling. It’s just a loose collection of a lot of the horrors of recent human history by an academic who was rewarded his entire life for one thing: seriousness. But “seriousness” can mean many things, and in his books there is quite obvious a reward for documenting misery. Hope, progress, improvements to human life, acknowledgment of the deaths we’ve spared billions, gratitude for the comforts of the modern world—these are anathema to the serious writer. \n\nI am also reminded of something I wrote elsewhere: “language cannot capture this hope without turning maudlin or pathetic, and so neither can I. Our symbols invite cruelty before they can gesture at joy.”\n\nIn much the same way as Charlie Kaufman cannot write a happy movie, CP cannot write a happy novel. And we don’t really acknowledge or think about this limitation, because of our own skew towards grit. We think a novel about the horrors of child predators and serial killers is more serious and worth our attention than a novel about a father who loves his son.\n\nIn my opinion, Charlie Kaufman needs to write a happy movie about how he loves his children. CP needs to write a happy novel about his love for his siblings or maybe his partner. Until then, I fear both men are merely clever and are not yet ready for the title of “genius”.",
+"likeCount": 34,
+"retweetCount": 3,
+"url": "https://x.com/47fucb4r8c69323/status/2066337758780813565",
+"createdAt": "Mon Jun 15 01:51:27 +0000 2026"
 },
 {
-"userName": "Jeffar_AI",
-"text": "🚀 100+ AI Tools That Can Replace Hours of Tedious Work\n\nStop doing everything manually.\n\nThese AI tools can help you research faster, write better, design smarter, and automate your workflow. 👇\n\n🧠 Research & Learning \n\n• ChatGPT \n• Perplexity \n• Gemini \n• Copilot \n• YouChat \n• Abacus AI\n\n🎨 Image Generation \n\n• Higgsfield Soul \n• GPT-4o \n• Midjourney \n• Grok\n\n⚡ Productivity \n\n• Gamma \n• Grok 3 \n• Perplexity AI \n• Gemini 2.5 Flash\n\n✍️ Writing \n\n• Jasper \n• Jenni AI \n• Text Blaze \n• QuillBot\n\n🎬 Video Creation \n\n• Kling \n• Klap \n• InVideo \n• HeyGen \n• Runway\n\n🎙️ Meeting Assistants \n\n• tl;dv \n• Otter \n• Noty AI \n• Fireflies\n\n📈 SEO \n\n• VidIQ \n• Seona AI \n• BlogSEO \n• Keywrds AI \n• Outrank AI\n\n📊 Presentations \n\n• Decktopus \n• SlidesAI \n• Gamma \n• Designs AI \n• https://t.co/6TG5OOd7xE\n\n🎨 Design \n\n• Canva \n• Flair AI \n• Designify \n• Clipdrop \n• AutoDraw \n• Magician\n\n🎧 Audio & Voice \n\n• ElevenLabs \n• Lovo AI \n• Songburst AI \n• Adobe Podcast\n\n📢 Marketing \n\n• Pencil \n• AI Ads \n• AdCopy \n• Simplified \n• AdCreative\n\n🚀 Startup Builders \n\n• Tome \n• Ideas AI \n• Namelix \n• Pitchgrade \n• Validator AI\n\n📱 Social Media Growth \n\n• Taplio \n• Typefully \n• Hypefury \n• Tweet Hunter\n\nThe people winning with AI aren't using one tool.\n\nThey're building systems with dozens of them.\n\n🔖 Bookmark this. ♻️ Repost to help others. ➕ Follow @Jeffar_AI for more AI gems.",
-"likeCount": 84,
-"retweetCount": 43,
-"url": "https://x.com/Jeffar_AI/status/2066375734290194812",
-"createdAt": "Mon Jun 15 04:22:21 +0000 2026"
+"userName": "probnstat",
+"text": "Direct Preference Optimization (DPO) is a recent breakthrough in AI alignment that provides a simple alternative to Reinforcement Learning from Human Feedback (RLHF). Instead of first training a reward model and then optimizing a policy with reinforcement learning, DPO directly learns from pairs of human preferences—for example, a preferred response and a rejected one. This eliminates the need for a separate reward model while retaining the ability to align models with human judgments.\n\nMathematically, DPO can be viewed as optimizing a classification objective derived from a constrained reinforcement learning problem, linking preference learning with probabilistic inference. The method updates the policy to increase the likelihood of preferred outputs while decreasing the likelihood of less desirable ones.\n\nIn machine learning, DPO offers an efficient framework for learning from comparative feedback rather than explicit labels. In deep learning, it has become a key technique for aligning large language models, improving helpfulness, safety, and instruction-following behavior. In reinforcement learning, DPO provides a bridge between supervised learning and policy optimization, replacing complex RL pipelines with a more stable optimization objective.\n\nThe broader insight is that many real-world tasks are easier to express through preferences than absolute rewards. By learning directly from comparisons, Direct Preference Optimization offers a scalable and mathematically elegant framework for training the next generation of aligned AI systems.\n\nImage: https://t.co/9Ync1ZHNKq",
+"likeCount": 83,
+"retweetCount": 10,
+"url": "https://x.com/probnstat/status/2066921671408357791",
+"createdAt": "Tue Jun 16 16:31:42 +0000 2026"
 },
 {
-"userName": "dntyk",
-"text": "Gue nemu website yang bikin gue mikir, \"Ini harusnya gak gratis.\"\n\nNamanya MeiGen.\n\nBasically, ini adalah library prompt buat AI image dan video generation. Tapi bukan jenis prompt receh yang udah sering lo lihat sliweran di Twitter.\n\nSemua di sini sifatnya curated, udah di-test, dan hasil output-nya udah masuk level produksi.\n\nLo bisa dapet prompt matang buat berbagai model top:\n→ GPT Image 2\n→ Seedance 2.0\n→ Veo 3.1\n→ Midjourney\n→ Dan beberapa model besar lainnya\n\nYang bikin gue appreciate banget: prompt-nya bukan cuma sekelas \"make a cool image.\" Banyak yang udah di-spec khusus buat kebutuhan cinematic lighting, product shot, fashion editorial, sampai anime style—hal-hal detail yang biasanya butuh trial & error berjam-jam buat dapetin formula pasnya.\n\nDan ini poin penting yang sering banget dilewatin orang:\nModel AI-nya sendiri sekarang udah pada gila dan makin pinter. Yang sekarang jadi bottleneck itu bukan lagi tool-nya, tapi masalahnya lo gak tahu cara \"ngomong\" yang bener ke model tersebut.\n\nPrompt engineering itu real skill. Dan website kayak MeiGen ini basically nge-shortcut learning curve lo buat dapet aset visual kualitas mumpuni.",
-"likeCount": 930,
-"retweetCount": 238,
-"url": "https://x.com/dntyk/status/2064693312792240193",
-"createdAt": "Wed Jun 10 12:57:00 +0000 2026"
+"userName": "ProlabCH",
+"text": "State of AI: \n> Market still doesn’t look very good. \n> Major news was the US government decision to block the access to Anthropic’s Fable to non-US citizens. \n> People on here have been debating on the implications of it on AI and the world. Rather than limiting Anthropic’s future addressable market, this highlights the importance of frontier AI and it’s strategic role to governments. We are in the middle of an arms race. \n> In this context, our little magic internet money on Base has dried out. Low volumes and dips across many projects I am tracking. \n> Two options here: you either choose to chase the small pockets of liquidity across the ecosystem or you try to envision which projects continue to build and will survive the draught. \n> If you follow my posts, you know that I try to rather focus on getting exposure to strong projects. \n> Many projects on my list are still building. $sibyl is building a swarm of agents to further enhance the productivity of its humans workers. $blocktronics just introduced a cool bundle checker. \n> $virtual continues to push robotics in their Eastworld  initiative with a roboter at a hotel gathering real training data. $reppo partners up with Exylos, a marketplace for robotics skills. \n> I still believe that the future is agentic and that onchain rails are where great innovation will happen. \n> Happy Sunday and enjoy the World Cup.",
+"likeCount": 40,
+"retweetCount": 2,
+"url": "https://x.com/ProlabCH/status/2066183639243665626",
+"createdAt": "Sun Jun 14 15:39:02 +0000 2026"
+},
+{
+"userName": "ObaDeleke",
+"text": "AI TOOLS THAT MAKE YOU UNSTOPPABLE\n\nChatGPT - daily thinking partner\nClaude - deep reasoning and writing\nPerplexity - instant research with sources\nGemini - Google-native AI assistant\nMidjourney - world-class image generation\nDALL •E - fast creative visuals\nLeonardo - game and concept art\nRunway - AI video editing\nPika - text-to-video clips\nSora - cinematic AI video\nElevenLabs - voice cloning and narration\nSuno - AI music and songs\nUdio - studio-quality AI tracks\nDescript - edit audio like a doc\nNotion AI - organized thinking\nGamma - instant slide decks\nTome - AI presentations\nCanva AI - design without a designer\nFramer AI - websites in minutes\nDurable - Al-built businesses online\nZapier AI - automate any workflow\nMake - visual automation builder\nn8n - open-source automations\nCursor - AI coding partner\nGitHub Copilot - code at 2x speed\nReplit AI - build apps in the browser\nv0 - AI-generated UI components\nOtter - AI meeting notes\nFireflies - call transcripts and insights\nGranola - smart note-taking\nSynthesia - AI video avatars\nHeyGen - talking-head AI videos",
+"likeCount": 77,
+"retweetCount": 35,
+"url": "https://x.com/ObaDeleke/status/2066295211056071015",
+"createdAt": "Sun Jun 14 23:02:22 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "\"The last thing any of us want is a world where every company across every sector is ceding value to a few models that eat everything they see. If all the value is accrued by only a few models, the political economy will simply not tolerate it. There is no societal permission for an AI future that hollows out entire industries.\"\n\nEven the CEO of Microsoft agrees that concentration of power, capabilities and wealth is a challenge in AI!",
-"likeCount": 205,
+"likeCount": 219,
 "retweetCount": 24,
 "url": "https://x.com/ClementDelangue/status/2066506436524327228",
 "createdAt": "Mon Jun 15 13:01:42 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "There is no inevitability in AI. We all have agency in what comes next:\n\nPath 1: closed-source APIs, concentration of power, and a future decided by a handful of people in Silicon Valley and DC\n\nPath 2: open-source AI, where everyone gets to participate, own, and build together, including orgs like the city of Rio.\n\nPick your path anon!",
-"likeCount": 959,
-"retweetCount": 104,
-"url": "https://x.com/ClementDelangue/status/2065962440005722514",
-"createdAt": "Sun Jun 14 01:00:04 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "In order to see if the gov response was predictable, I pasted the wiki page about the Anthropic/DoD dispute into ChatGPT Pro, &amp; told it Anthropic had released a model where it restricted use because it may be too dangerous.\n\ntldr: \"almost tailor-made to trigger\" the government. https://t.co/5vkvWzEFQZ",
-"likeCount": 372,
-"retweetCount": 29,
-"url": "https://x.com/jeremyphoward/status/2065649830769336530",
-"createdAt": "Sat Jun 13 04:17:52 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
@@ -57,106 +49,74 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "Lots of people have known for a while that guardrails for frontier model APIs are very easily jailbroken, quite shallow and impossible to fix. They’re mostly a smokescreen and distraction, in my opinion. We need a different paradigm for AI safety!",
-"likeCount": 389,
-"retweetCount": 29,
-"url": "https://x.com/ClementDelangue/status/2065877027861696920",
-"createdAt": "Sat Jun 13 19:20:40 +0000 2026"
+"text": "RT @WeiboLLM: ⭐ VibeThinker-3B is released — a dense 3B model for frontier-level verifiable reasoning.\n\n🚀 Reasoning: 94.3 on AIME’26, 76.4…",
+"likeCount": 1039,
+"retweetCount": 130,
+"url": "https://x.com/ClementDelangue/status/2066958018026086440",
+"createdAt": "Tue Jun 16 18:56:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @UnslothAI: You can now run Kimi K2.7 Code locally! 🌘\n\nWe shrank the 1T model to 325GB (-48%) via Dynamic 2-bit where important layers a…",
-"likeCount": 2259,
-"retweetCount": 226,
-"url": "https://x.com/ClementDelangue/status/2066624094770958477",
-"createdAt": "Mon Jun 15 20:49:14 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @KimiDevs: 🌘Kimi-K2.7-Code Weights &amp; code\n\nWe explore endless possibilities together with the community🤝\nhttps://t.co/qupwTNeLyA",
-"likeCount": 2803,
-"retweetCount": 226,
-"url": "https://x.com/ClementDelangue/status/2065658423992021346",
-"createdAt": "Sat Jun 13 04:52:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @kimmonismus: Wait what? Rio 3.5 Open 397B, developed by IT company of Rio de Janeiro's city government is now SOTA open source and even…",
-"likeCount": 4812,
-"retweetCount": 331,
-"url": "https://x.com/ClementDelangue/status/2065962682449076312",
-"createdAt": "Sun Jun 14 01:01:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @natolambert: Transparency into every power player at the frontier of AI (labs, government, etc) is the only viable solution. \n\nFiguring…",
-"likeCount": 146,
-"retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2065959621102072166",
-"createdAt": "Sun Jun 14 00:48:52 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @zongheng_yang: Sandboxes are all the rage (Modal, E2B, AWS, ..). Most AI teams pay a &gt;4x markup to run sandboxes on someone else's mach…",
-"likeCount": 550,
-"retweetCount": 37,
-"url": "https://x.com/jeremyphoward/status/2065567737473368433",
-"createdAt": "Fri Jun 12 22:51:39 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @Raws_LFC: The countries that call it soccer are on top of their group I’m crying 😭😭😭🇺🇸🇦🇺 https://t.co/EFK0I6ovNY",
-"likeCount": 37833,
-"retweetCount": 1047,
-"url": "https://x.com/jeremyphoward/status/2066087520874692780",
-"createdAt": "Sun Jun 14 09:17:05 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @joannejang: kinda crazy that someone's full-time job was to steer claude to sabotage ML research capabilities for paying customers",
-"likeCount": 3494,
-"retweetCount": 161,
-"url": "https://x.com/jeremyphoward/status/2065382375069233352",
-"createdAt": "Fri Jun 12 10:35:05 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
-"likeCount": 864,
-"retweetCount": 67,
-"url": "https://x.com/jeremyphoward/status/2066642471887753288",
-"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "I decided to do a little experiment:\nhttps://t.co/zKQBIoFQ1S",
-"likeCount": 75,
-"retweetCount": 2,
-"url": "https://x.com/jeremyphoward/status/2065650426075337034",
-"createdAt": "Sat Jun 13 04:20:14 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @zerohedge: LLM model matrix https://t.co/d64OIhoYDH",
-"likeCount": 1568,
-"retweetCount": 253,
-"url": "https://x.com/jeremyphoward/status/2065001177763508392",
-"createdAt": "Thu Jun 11 09:20:21 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "Over 8 years ago: 😮",
-"likeCount": 318,
-"retweetCount": 25,
-"url": "https://x.com/jeremyphoward/status/2065002006935445504",
-"createdAt": "Thu Jun 11 09:23:38 +0000 2026"
-},
-{
-"userName": "viks_rum",
-"text": "https://t.co/mOut2HdZUy",
-"likeCount": 36,
+"text": "RT @novita_labs: 🤗 GLM-5.2 is now live on @huggingface — supported by Novita.\n\nFrontier-level coding and agent capabilities.\n\n1M-token cont…",
+"likeCount": 40,
 "retweetCount": 6,
-"url": "https://x.com/viks_rum/status/2065890028778303800",
-"createdAt": "Sat Jun 13 20:12:19 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2066950715965145198",
+"createdAt": "Tue Jun 16 18:27:07 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @iamtrask: This is a *way* bigger deal than it seems... \n\nFrontier AI companies will *never* own the frontier again\n\nI kid you not... I'…",
+"likeCount": 5092,
+"retweetCount": 357,
+"url": "https://x.com/jeremyphoward/status/2066052364742934846",
+"createdAt": "Sun Jun 14 06:57:23 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @f14bertolotti: Stellar performance from a 3B model. These results were achieved primarily through post-training refinements on Qwen2.5-…",
+"likeCount": 419,
+"retweetCount": 59,
+"url": "https://x.com/ClementDelangue/status/2066848985382306269",
+"createdAt": "Tue Jun 16 11:42:52 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @kunchenguid: want to point out a few really interesting things here\n\n1. Claude Code is actually the worst performing harness when using…",
+"likeCount": 844,
+"retweetCount": 94,
+"url": "https://x.com/jeremyphoward/status/2065569861888258139",
+"createdAt": "Fri Jun 12 23:00:06 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @xeophon: New blog.\n\nI looked into the actual evidence and what models where used by bad actors to see whether closed models are safer.…",
+"likeCount": 223,
+"retweetCount": 21,
+"url": "https://x.com/jeremyphoward/status/2065005109373964292",
+"createdAt": "Thu Jun 11 09:35:58 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @EzzyMUFC: While everyone was asleep, New Zealand scored the best team goal of the tournament so far https://t.co/i5r9ZQHnvE",
+"likeCount": 48492,
+"retweetCount": 2337,
+"url": "https://x.com/jeremyphoward/status/2066984588497527055",
+"createdAt": "Tue Jun 16 20:41:43 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Love this framing from Lin: it’s time for all to own intelligence instead of renting it!",
+"likeCount": 281,
+"retweetCount": 20,
+"url": "https://x.com/ClementDelangue/status/2066524369195532312",
+"createdAt": "Mon Jun 15 14:12:58 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @eisokant: https://t.co/13VRNrqv45",
+"likeCount": 128,
+"retweetCount": 32,
+"url": "https://x.com/ClementDelangue/status/2065964262351118699",
+"createdAt": "Sun Jun 14 01:07:18 +0000 2026"
 }
 ]
