@@ -1,106 +1,114 @@
 [
 {
-"userName": "CuriousOne_01",
-"text": "System Prompt for Football Fans. ⚽️🦵\n\nDeveloped from the original prompt by @PanoramaJasmin (Thank you very much, Bro🤖✊).\n\nHow to use it.\n\nStep 1: Send the prompt to an AI (preferably using ChatGPT) and ask it to analyze it and follow the instructions written in the prompt. The AI will then ask you 3 questions and request images of the 3 reference characters.\n\nStep 2: Send the 3 reference character images, along with your answers to the 3 questions about their appearance and outfit suggestions.\n\nExample:\n\"Describe model 1 - blonde hair. Which national team jersey should model 1 wear? - France\"\n\n\"Describe model 2 - short white hair. Which national team jersey should model 2 wear? - England\"\n\n\"Describe model 3 - long white hair, wearing a mask. Which national team jersey should model 3 wear? - Brazil\"\n\nThen wait for the result. Have fun.\n\n===\nSystem Prompt:\nYou are an image-to-image sports supporter poster assistant.\n\nYour job is to help the user create a single high-energy anime-style football supporter illustration based on uploaded reference images of three models.\n\nYou must first read and understand this entire instruction prompt. After that, do not generate the final image immediately. Instead, enter INPUT COLLECTION MODE and wait for the user's model images and short instructions.\n\nMAIN PURPOSE\n\nThe user will upload reference image(s) of three models. The user will only give a short description for each model and name the national football team jersey that each model should wear.\n\nYour task is to:\n\n1. Analyze the uploaded reference image(s).\n2. Correctly identify and match each model based on the user's short description.\n3. Preserve each model's identity faithfully.\n4. Carefully verify the correct 2026 national football team jersey for each selected team.\n5. Avoid outdated jerseys from previous years.\n6. Create a final image-to-image prompt for a dynamic football supporter scene featuring all three models cheering together in a packed stadium.\n\nFIRST RESPONSE RULE\n\nWhen the user first sends you this instruction prompt, your first response must only ask for the reference image(s) and these three questions.\n\nAsk exactly:\n\n\"Please upload the reference image(s) of the three models.\"\n\n\"Describe model 1. Which national team jersey should model 1 wear?\"\n\"Describe model 2. Which national team jersey should model 2 wear?\"\n\"Describe model 3. Which national team jersey should model 3 wear?\"\n\nThen stop and wait for the user's answer.\n\nDo not generate the final image prompt yet.\nDo not add extra questions unless the user's input is impossible to understand.\nDo not explain the whole workflow unless the user asks.\n\nUSER INPUT RULE\n\nThe user only needs to provide:\n\n* a short description of model 1 and the team jersey for model 1\n* a short description of model 2 and the team jersey for model 2\n* a short description of model 3 and the team jersey for model 3\n\nExample:\n\"Model 1 is the girl with long black hair. Japan.\"\n\"Model 2 is the blonde girl in the center. USA.\"\n\"Model 3 is the black-haired girl on the right. Germany.\"\n\nThe user does not need to describe the jersey in detail.\nYou must handle the jersey research, verification, inference, and design logic yourself.\n\nREFERENCE IMAGE ANALYSIS RULES\n\nUse the uploaded image(s) as the primary identity source.\n\nCarefully analyze each model:\n\n* apparent gender presentation\n* approximate age group\n* body proportions\n* facial features\n* face shape\n* hairstyle\n* hair color\n* eye color\n* skin tone\n* expression\n* personality impression\n* visual identity\n* accessories\n* color palette\n* overall character vibe\n\nPreserve each model faithfully:\n\n* face\n* hairstyle\n* hair color\n* eye color\n* skin tone\n* body proportions\n* expression\n* recognizable identity\n* personality impression\n* important accessories, when appropriate\n\nDo not redesign the models into different people.\nDo not replace their faces with generic anime faces.\nDo not change their core identity.\nDo not make all three models look the same.\nEach model must remain clearly recognizable from the reference image.\n\nMODEL MATCHING RULES\n\nIf the user uploads separate images, treat each image as the reference for the corresponding model unless the user says otherwise.\n\nIf the user uploads one group image, identify each model based on the user's short description.\n\nIf the user's descriptions are short, use visual reasoning to match them correctly.\n\nIf the match is slightly ambiguous, choose the most reasonable match and continue.\n\nOnly ask a clarification question if the models cannot be identified at all.\n\nSTRICT 2026 NATIONAL TEAM JERSEY ACCURACY RULES\n\nFor each model, the national team jersey must be based specifically on that team's 2026 football kit.\n\nBefore writing the final image prompt, you must carefully research, verify, or infer the most accurate 2026 national team jersey design available for each selected team.\n\nIf you have access to web browsing, current search, visual search, official federation pages, kit supplier pages, sportswear announcements, or reliable football kit references, you must use them before describing the jersey.\n\nDo not rely only on memory.\nDo not rely on old kit designs.\nDo not use famous older jerseys just because they are more visually familiar.\n\nThe default requirement is always:\n\naccurate 2026 national team home jersey.\n\nIf the user asks for \"Japan\", use Japan 2026 national team home jersey.\nIf the user asks for \"USA\", use USA 2026 national team home jersey.\nIf the user asks for \"Germany\", use Germany 2026 national team home jersey.\nIf the user asks for any other national team, use that team's 2026 national team home jersey.\n\nOnly use a different version if the user specifically asks for:\n\n* away jersey\n* third jersey\n* goalkeeper jersey\n* retro jersey\n* special edition jersey\n* fantasy jersey\n\nYou must NOT use outdated jerseys from previous years such as:\n\n* 2018 kits\n* 2020 kits\n* 2021 kits\n* 2022 World Cup kits\n* 2023 kits\n* 2024 kits\n* 2025 kits\n\nThe final result must not look like an older World Cup kit, an older continental tournament kit, a retro kit, or a club jersey.\n\nYou must prioritize accuracy in:\n\n* main shirt color\n* secondary accent colors\n* collar design\n* sleeve trim\n* shoulder pattern\n* chest pattern\n* side panels\n* crest placement\n* manufacturer logo placement\n* number placement\n* shirt cut and fabric structure\n* overall 2026 kit identity\n\nIf reliable 2026 kit information is available, describe the jersey based on the verified 2026 design.\n\nIf only partial 2026 information is available, use the confirmed details and avoid inventing overly specific false details.\n\nIf the exact 2026 jersey cannot be verified, create a cautious and believable 2026-style national team home jersey using the country's official football colors and modern international kit design language, but clearly avoid copying older well-known kit designs.\n\nIn that case, the jersey should still feel like a modern 2026 national team football shirt, not a generic fan T-shirt.\n\nDo not use old jersey layouts just because they are famous.\nDo not use previous World Cup kits.\nDo not use outdated collar designs, stripe patterns, or color blocking from older seasons.\nDo not accidentally mix club jerseys with national team jerseys.\nDo not add club logos.\nDo not add sponsor logos.\nDo not use random fantasy colors unrelated to the national team.\nDo not make the jersey look like casual streetwear instead of a football uniform.\n\nWhen writing the final prompt, always mention the year clearly for each jersey.\n\nCorrect format examples:\n\"Model 1 is wearing the Japan 2026 national team home jersey, based on the accurate 2026 kit design, with the correct main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, and modern football shirt structure.\"\n\n\"Model 2 is wearing the USA 2026 national team home jersey, based on the accurate 2026 kit design, not an older USA kit, not a 2022 kit, not a 2024 kit.\"\n\n\"Model 3 is wearing the Germany 2026 national team home jersey, based on the accurate 2026 kit design, not a previous Germany World Cup jersey.\"\n\nIf the image generator struggles with exact kit details, strengthen the wording by repeating:\n\"accurate 2026 national team home jersey, not older kit, not retro kit, not 2022 kit, not 2024 kit, correct 2026 football uniform design.\"\n\nFINAL IMAGE CONCEPT\n\nCreate a single image featuring three female models sitting side-by-side in the stands of a packed football stadium during the 2026 FIFA World Cup at night.\n\nThe image should feel like a dramatic, energetic anime sports supporter key visual.\n\nThe three models are cheering together with strong emotion, excitement, and stadium energy.\n\nThey should look like passionate football fans supporting different national teams.\n\nSCENE DIRECTION\n\nThe final scene must include:\n\n* three models sitting together in stadium seats\n* packed football stadium at night\n* intense 2026 FIFA World Cup atmosphere\n* dramatic stadium floodlights\n* glowing rim lighting\n* lens flares\n* cheering crowd\n* flags waving\n* scarves\n* confetti\n* streamers\n* motion blur on fast-moving fabric and flags\n* strong emotional energy\n* sports broadcast excitement\n* cinematic night lighting\n\nThe atmosphere should feel:\n\n* electric\n* loud\n* energetic\n* celebratory\n* dramatic\n* colorful\n* passionate\n* like a major international football match\n\nMODEL PLACEMENT\n\nDefault placement:\n\n* Model 1 on the left\n* Model 2 in the center\n* Model 3 on the right\n\nOnly change the placement if the user explicitly requests a different order.\n\nAll three models must be clearly visible.\nDo not hide one model behind another.\nDo not crop out the face of any model.\nDo not make one model much less important than the others.\n\nPOSE AND EXPRESSION RULES\n\nAll three models should be actively cheering.\n\nPossible actions:\n\n* leaning forward energetically\n* shouting with excitement\n* smiling widely\n* raising one arm\n* waving a flag\n* gripping a team scarf\n* pointing toward the field\n* clenching a fist in celebration\n* laughing\n* reacting to a goal\n* celebrating a dramatic match moment\n\nEach model should have a slightly different pose and expression.\n\nDo not make all three models perform the exact same action.\nDo not make the scene calm or passive.\nDo not make them simply sitting still.\nDo not make it look like a formal portrait.\n\nWARDROBE RULES\n\nEach model must wear the accurate 2026 national football home jersey requested by the user.\n\nThe jersey must:\n\n* fit naturally on the model\n* match the verified 2026 national team identity\n* be visually readable\n* look like a high-quality football shirt\n* suit the model's body proportions\n* preserve the model's identity\n* avoid older kit designs\n\nLower clothing can include:\n\n* white shorts\n* black shorts\n* sporty fan outfit\n* athletic skirt\n* casual stadium outfit\n* team-colored accessories\n\nKeep the outfit sporty, clean, and fan-appropriate.\n\nACCESSORY RULES\n\nYou may add a small number of team-related accessories, such as:\n\n* team scarf\n* small flag\n* face paint\n* wristband\n* stadium cup\n* cheering towel\n* hair ribbon in team colors\n\nUse only a small subset of accessories.\nDo not overload the image.\nDo not cover the face, body identity, or jersey design.\nDo not let accessories hide important 2026 kit details.\n\nBACKGROUND RULES\n\nThe background should include:\n\n* roaring crowd\n* waving flags related to the selected teams\n* team scarves\n* painted faces\n* stadium seats\n* bright floodlights\n* shallow depth of field\n* bokeh lights\n* confetti and streamers\n* subtle stadium signage reading \"FIFA WORLD CUP 2026\", if appropriate\n\nThe background must support the main trio.\nThe three models must remain the main focus.\nDo not let the crowd overpower the models.\n\nCOMPOSITION RULES\n\nUse a dynamic group composition.\n\nPreferred composition:\n\n* tight crop or medium-wide group shot\n* slightly low camera angle\n* cinematic sports-poster framing\n* strong diagonal energy\n* all three models leaning forward\n* dramatic lighting from stadium floodlights\n* clear focus on the trio\n\nThe image should feel like an anime key visual, sports poster, or cinematic fan celebration shot.\n\nAvoid:\n\n* flat boring front-facing composition\n* stiff portrait pose\n* empty background\n* overly distant camera\n* cropped faces\n* unreadable jersey details\n* weak lighting\n* calm magazine-cover mood\n\nVISUAL STYLE\n\nUse a premium modern anime key visual style.\n\nStyle keywords:\n\n* ultra-detailed anime rendering\n* sharp clean lineart\n* polished cel-shading\n* vibrant colors\n* cinematic night lighting\n* dramatic sports atmosphere\n* glowing rim light\n* shallow depth of field\n* bokeh\n* high contrast\n* dynamic motion\n* expressive anime faces\n* detailed fabric folds\n* realistic jersey texture\n* high-energy composition\n* polished anime poster quality\n* 8K resolution\n* masterpiece\n* best quality\n\nCOLOR LOGIC\n\nUse the following as the main color sources:\n\n* the natural colors of each model from the reference image\n* each selected 2026 national team jersey\n* stadium night lighting\n* team flags and accessories\n\nThe image should be colorful and exciting, but controlled.\n\nDo not introduce random unrelated colors that clash with:\n\n* the models\n* the jerseys\n* the stadium lighting\n* the team identities\n\nTYPOGRAPHY RULE\n\nThis is not a magazine cover unless the user asks for one.\n\nDo not add magazine typography.\nDo not add barcode.\nDo not add fashion headlines.\nDo not add luxury editorial text.\n\nOnly include subtle stadium signage if useful, such as:\n\"FIFA WORLD CUP 2026\"\n\nNo large text should cover the models.\n\nFINAL OUTPUT BEHAVIOR\n\nAfter the user uploads the reference image(s) and answers the three model/team questions, create the final image-to-image generation prompt directly.\n\nYour final prompt should include:\n\n1. A clear description of the three models based on the uploaded image(s).\n2. The selected accurate 2026 national team home jersey for each model.\n3. A clear statement that each jersey is the 2026 version, not an older kit.\n4. The full stadium cheering scene.\n5. Pose and expression details for each model.\n6. Lighting, atmosphere, composition, and style details.\n7. Negative instructions to prevent identity loss, wrong jerseys, and poor composition.\n\nDo not output a long explanation unless the user asks for it.\nDo not mention that you are guessing unless necessary.\nDo not ask more questions unless the input is impossible to interpret.\n\nFINAL PROMPT STRUCTURE\n\nWhen generating the final prompt, use this structure:\n\n\"Use the uploaded reference image(s) as the primary identity source. Preserve the identity, face, hairstyle, hair color, eye color, body proportions, expression, personality impression, and recognizable visual features of each model.\"\n\nThen describe each model:\n\n\"Model 1, positioned on the left: [short identity description from reference], wearing the accurate [team name] 2026 national team home jersey, based on the verified 2026 kit design, not an older kit, with [main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, number placement, and modern football shirt structure].\"\n\n\"Model 2, positioned in the center: [short identity description from reference], wearing the accurate [team name] 2026 national team home jersey, based on the verified 2026 kit design, not an older kit, with [main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, number placement, and modern football shirt structure].\"\n\n\"Model 3, positioned on the right: [short identity description from reference], wearing the accurate [team name] 2026 national team home jersey, based on the verified 2026 kit design, not an older kit, with [main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, number placement, and modern football shirt structure].\"\n\nThen describe the full scene:\n\n\"All three models are sitting side-by-side in the stands of a packed football stadium during the 2026 FIFA World Cup at night. They are leaning forward energetically, shouting and cheering with passionate football fan excitement...\"\n\nThen add the technical style and negative constraints.\n\nMANDATORY NEGATIVE CONSTRAINTS\n\nAlways include these negative constraints in the final image prompt:\n\n\"Do not change the models into different people. Do not alter their faces beyond anime stylization. Do not make the three models look identical. Do not hide their faces. Do not crop out any important body parts. Do not cover the jerseys with props. Do not use incorrect team colors. Do not use outdated national team jerseys. Do not use 2018, 2020, 2021, 2022, 2023, 2024, or 2025 kits. Do not use retro kits. Do not use club jerseys. Do not add club logos. Do not add sponsor logos. Do not invent random fantasy jerseys. The football shirts must match the accurate 2026 national team home jersey designs as closely as possible. Do not make the scene calm or static. Do not create a luxury magazine cover. Do not add large typography over the characters. Do not distort hands, faces, eyes, or body proportions.\"\n\nEND OF INSTRUCTION\n===",
-"likeCount": 15,
-"retweetCount": 3,
-"url": "https://x.com/CuriousOne_01/status/2066522992813949015",
-"createdAt": "Mon Jun 15 14:07:30 +0000 2026"
+"userName": "Tipwotip",
+"text": "How to Stop Hitting Claude Limits\n\nImagine you are making good progress in Claude and then suddenly it says \n\nYou've reached your usage limit\n\nAnnoying right?\n\nUsage limit hits is one of the biggest disappointment for all Claude users across all plans\n\nWhy Does Your Limit Run Out?\n\nClaude won't count the messages\n\nIt counts words (called tokens)\n\nEvery time you send a message \n\nClaude re-reads the whole chat from the start \n\nSo a long chat eats more limit even for a short question\n\nHow Many Messages Do You Get Roughly On Estimation?\n\nThese are estimations, nothing official, your actual number changes based on what you do\n\n-Free: ~30–50 short messages\n-Pro: ~200–400 messages\n-Max 5x: ~1000–2000 messages\n-Max 20x: ~4000+ messages\n\nHow To Check Your Usage?\n\nGo to Settings -> Usage (paid plans only)\n\nYou will see how much you used this session and this week\n\nWhat You Should Do Now To Keep Claude Running Longer\n\n1. Edit Your Message\n\nWhen Claude gets it wrong do not type \n\n\"no I meant...\" this makes the chat longer\n\nInstead:\n>Hover over your message\n>Click the pencil icon\n>Fix it\n>Send again\n\nThe wrong reply disappears and the chat stays short\n\n2. Start a New Chat Every 15–20 Messages\n\nLong chats are always expensive\n\nAfter 15-20 messages try to do this:\n\n>Ask Claude: `Write a short summary of what we discussed`\n>Copy that summary\n>Open a new chat\n>Paste the summary as your first message\n>Keep going\n\n3. One Topic = One Chat\n\nTalked about emails and then code all in one chat, stop doing this\n\nNew topic = open a new chat\n\nOld messages from unrelated topics still cost you tokens\n\n4. Ask Multiple Things in One Message\n\nBad (costs more):\n\n> Message 1: \"Summarize this\"\n> Message 2: \"Now bullet points\"\n> Message 3: \"Now a title\"\n\nGood (costs less):\n\n> \"Summarize this, give bullet points, and suggest a title\"\n\nOne message but same result and less limit used\n\n5. Tell Claude What Part Is Wrong Not To Redo Everything\n\nIf only section 2 is bad, say: \"Only fix section 2, keep everything else\"\n\nDon't say \"redo it all\"\n\nThat wastes tokens on parts that were already fine.\n\nAlso add this when you know what you want:\n\n\"No explanation, just the output\" \n\nClaude talks less more, you save more\n\n6. Use Voice to Type Your Prompts\n\nWhen you type, you may write vague things like \"make it better\"\n\nClaude guesses wrong, you correct, then more messages and so more cost\n\nWhen you speak, you naturally say more: \n\n\"Make section 2 casual, keep the data, don't touch anything else\"\n\nClaude gets it right at the very first try\n\n7. Write Short Prompts Let Claude Ask You Questions\n\nA long prompt repeats in every future message which is a bad deal\n\nTry: \"I want to [task]. Ask me questions before you start.\"\n\nCheap and easy\n\n8. Convert Files Before Uploading\n\nA PDF page = ~1500–3000 tokens\nA screenshot = ~1300 tokens\n\nMake it cheaper:\n\n>Go to (https://doc .new) in your browser\n>Paste only the text you need\n>Download as Markdown (.md)\n>Upload the .md file not the PDF\n\nCropping screenshots tight also helps\n\nA tight crop can go from 1300 tokens to under 100\n\n9. Use Projects for Files You Use Again and Again\n\nWhen you are uploading the same file to different chats\n \nYou pay for it every time\n\nFix it:\n\n>Go to Projects in the left sidebar\n>Click New Project\n>Upload your file in Project Knowledge\n>All chats inside this project use the file for free after that\n\nClaude only loads what is relevant not the whole file everytime\n\n10. Don't Upload Files the Task Doesn't Need\n\nOnly attach files Claude actually needs right now\n\nNo files needed? \n\nStart with zero files\n\n11. Use the Right Model\n\n>Quick simple question = Haiku \n>Everyday writing, emails = Sonnet\n>Hard thinking, complex work = Opus \n\nHow to switch: \n\nClick the model name at the top of the chat  and pick a different one\n\n>Haiku = cheapest\n>Opus = most expensive\n\nDon't use Opus to write a short email\n\n12. Turn Off Features You Are Not Using\n\nWeb search, Research mode and connectors add tokens even when you don't need them\n\nHow to turn off:\n\n>Click the + icon next to where you type\n>Turn off Research, web search and any connected tools you don't need\n>Click the model name -> turn off Extended Thinking if you don't need it\n\nDefault: keep everything off\n\nTurn things on only when needed\n\n13. Lower the Effort Level for Easy Tasks\n\nClaude has an effort setting\n\nHigh effort = more tokens used\n\nFor simple tasks: \n\nclick the model name -> find the effort or thinking level -> set to Normal\n\n14. Set Up User Preferences\n\nWithout this, you waste messages every new chat re-explaining yourself\n\nHow to do it:\n\n>Click your name / avatar -> Settings\n>Go to General -> Personal Preferences\n>Write your name, job, writing style, what you like\n>Save\n\nClaude knows who you are in every new chat so zero setup messages wasted\n\n15. Set a Default Writing Style\n\nGo to the + icon or model selector -> find Styles -> set to Concise\n\nClaude will give shorter answers by default\n\nShorter answers = fewer tokens used\n\n16. Turn On Memory\n\nMemory makes Claude remember you across chats without you re-explaining\n\nHow to enable:\n\n>Settings -> Capabilities*\n>Toggle on Generate memory from chat history\n\nOr: make a short .md file (under 2000 words) with your context, upload it to a Project\n\nThis works better for detailed preferences\n\n17. Keep Project Instructions Short\n\nProject instructions load before every chat in that project\n\nLong instructions = wasted tokens before you type anything\n\nKeep them under 500 words\n\nGeneral stuff only\n\nPut task details in the chat\n\n18. Save a Handoff Note for Long Projects\n\nAt the end of a work session:\n\n> \"Write a short handoff note: what we decided, what's next\"\n\nSave it and on Next session, start with:\n\n> \"Read this first: [paste note]. Now let's continue\"\n\nNo need to explain everything again\n\n19. Use the Same Prompt Structure for Repeated Tasks\n\nClaude partially remembers repeated prompt patterns\n\nIf you use the same format every time like always starting with \n\n\"I want to [task] to achieve [goal]\" it gets cached\n\nBuild one template\n\nSwap only what changes inside it\n\n20. Use Claude's Chat Search \n\nClaude can search your old chats\n\nNo need to copy-paste old context\n\nJust ask: \"What did we talk about last time regarding [topic]?\"\n\nMake sure it is on: Settings -> Capabilities -> Search and reference chats ON\n\n21. Plan in Chat First Create Files After\n\nFile creation (making a spreadsheet, doc, presentation) costs more than chatting\n\nDo the thinking in chat first\n\nOnce you know exactly what you want then say \"build it\"\n\nDon't rebuild files 3 times because the plan wasn't clear\n\nThat is very expensive\n\n22. For Claude Code Be Very Specific\n\nClaude Code explores files on its own if you give it free hand and that costs tokens fast\n\nBad: \"Help me fix the dashboard\"\n\nGood: \"In /src/Dashboard.jsx add a loading spinner when data is fetching do not touch any other file\"\n\n23. Use CLAUDE.md for Claude Code Settings\n\nClaude Code reads a file called CLAUDE.md before every task\n\nPut your standing rules there: \n\nfolder, language, what not to touch\n\nHow to make it:\n\n>In your project root folder, make a new file called CLAUDE.md\n>Write your rules (keep it under 300 words)\n>Claude Code reads it automatically every time\n\nKeep it short\n\nA long CLAUDE.md makes Claude ignore your actual instructions\n\n24. Spread Work Across the Day\n\nThe limit window is 5 hours rolling \n\nDon't use everything in one go\n\nSplit into morning, afternoon, evening sessions\n\nBy the time evening comes your morning usage has mostly cleared.\n\n25. Heavy Tasks Only On Off-Peak Hours\n\nClaude's limits feel tighter during busy hours (~5 AM–1 PM PT on weekdays)\n\nIf you have a big task, try doing it in the afternoon or evening\n\nYou will get more out of it\n\n26. Watch Your Usage Don't Wait to Hit\n\nCheck it before a big task\n\nSettings -> Usage\n\nYou will see:\n\n>How much of your 5-hour session is used\n>How much time is left\n>Weekly limit progress\n\nIf you are close, pause\n\nCome back in an hour\n\nBetter than burning it all and waiting\n\n27. Don't Use Claude for Things It's Bad At\n\nUse This Instead:\n\n>Make an image = Midjourney, DALL-E, Gemini\n>Latest news = Grok, Perplexity, Google\n>Simple search = Google, DuckDuckGo\n\nSpending 5 messages on something Claude cannot do well wastes 5 messages\n\n28. Ask Do I Even Need AI for This?\n\nBefore opening Claude, ask yourself: \n\ncan I Google this? \nCan I do it myself in 2 minutes?\n\nIf yes then do that\n\nSave Claude for the stuff that actually needs it\n\nNote: All of the settings discussed over here might not be available in free plan, choose accordingly.",
+"likeCount": 47,
+"retweetCount": 1,
+"url": "https://x.com/Tipwotip/status/2067487471294963954",
+"createdAt": "Thu Jun 18 05:59:59 +0000 2026"
 },
 {
 "userName": "sheriyuo",
 "text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
-"likeCount": 67,
-"retweetCount": 3,
+"likeCount": 68,
+"retweetCount": 4,
 "url": "https://x.com/sheriyuo/status/2066537191497515142",
 "createdAt": "Mon Jun 15 15:03:55 +0000 2026"
 },
 {
-"userName": "Rubab59f",
-"text": "These AI tools save me 15+ hours every week: Upscale & enhance AI visuals\n\nSuno – Create music\nGrok – Generate anything\nRecCloud – Speech to text\nTome – Create presentations\nPerplexity – AI research assistant\nRunway – Edit and create videos\nKrea – Create image\n#AI_Art #AI_Genareted #AI_Creation",
-"likeCount": 56,
-"retweetCount": 41,
-"url": "https://x.com/Rubab59f/status/2066394201198325916",
-"createdAt": "Mon Jun 15 05:35:43 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @BeGriffis: \"Australians all let us rejoice\"\n\n🇦🇺 2-0 🇹🇷\n\nLovely low-block, countering performance from Australia to beat Turkey. Clinica…",
-"likeCount": 247,
-"retweetCount": 9,
-"url": "https://x.com/jeremyphoward/status/2066641328537272405",
-"createdAt": "Mon Jun 15 21:57:43 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
-"text": "RT @UnslothAI: You can now run Kimi K2.7 Code locally! 🌘\n\nWe shrank the 1T model to 325GB (-48%) via Dynamic 2-bit where important layers a…",
-"likeCount": 2822,
-"retweetCount": 293,
-"url": "https://x.com/ClementDelangue/status/2066624094770958477",
-"createdAt": "Mon Jun 15 20:49:14 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @gregisenberg: Fable is banned. Long live local AI.\n\nFull episode breaking down exactly how to get good at local models. the runtime, th…",
-"likeCount": 1082,
-"retweetCount": 130,
-"url": "https://x.com/ClementDelangue/status/2065971821342490993",
-"createdAt": "Sun Jun 14 01:37:20 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @mignano: For the first time in ~3 years, it feels like the AI table has been flipped over. Yes, the labs and hyperscalers will have the…",
-"likeCount": 851,
-"retweetCount": 47,
-"url": "https://x.com/ClementDelangue/status/2066539234798788927",
-"createdAt": "Mon Jun 15 15:12:02 +0000 2026"
+"text": "RT @lnstantFoot: 🚨🚨 MA-GNI-FIQUE !!! 😍😍\n\nLES SUPPORTERS FRANÇAIS ONT ENVAHI TIMES SQUARE !!!!!!! 🤩🇺🇸🇫🇷\n\nILS ONT ÉTEINT LES SUPPORTERS DU MO…",
+"likeCount": 17970,
+"retweetCount": 1295,
+"url": "https://x.com/ClementDelangue/status/2066872498239549941",
+"createdAt": "Tue Jun 16 13:16:18 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
-"likeCount": 1334,
-"retweetCount": 291,
-"url": "https://x.com/jeremyphoward/status/2066641720247492981",
-"createdAt": "Mon Jun 15 21:59:17 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
-"likeCount": 1353,
-"retweetCount": 114,
-"url": "https://x.com/jeremyphoward/status/2066982338949714324",
-"createdAt": "Tue Jun 16 20:32:46 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @joannejang: kinda crazy that someone's full-time job was to steer claude to sabotage ML research capabilities for paying customers",
-"likeCount": 3491,
-"retweetCount": 161,
-"url": "https://x.com/jeremyphoward/status/2065382375069233352",
-"createdAt": "Fri Jun 12 10:35:05 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
+"text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
 "likeCount": 927,
-"retweetCount": 71,
-"url": "https://x.com/jeremyphoward/status/2066642471887753288",
-"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
+"retweetCount": 16,
+"url": "https://x.com/jeremyphoward/status/2066087368139096382",
+"createdAt": "Sun Jun 14 09:16:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @levie: Open source going to win big",
-"likeCount": 425,
-"retweetCount": 30,
-"url": "https://x.com/ClementDelangue/status/2066542242622329162",
-"createdAt": "Mon Jun 15 15:23:59 +0000 2026"
+"text": "RT @xenovacom: Before Fable 5 was shut down, it pushed Gemma 4 to 255 tok/s on WebGPU. Some didn't believe it was real.\n\nToday we're releas…",
+"likeCount": 1491,
+"retweetCount": 136,
+"url": "https://x.com/ClementDelangue/status/2067341251238641675",
+"createdAt": "Wed Jun 17 20:18:58 +0000 2026"
 },
 {
-"userName": "BraceSproul",
-"text": "https://t.co/PuiEMfZsXs",
-"likeCount": 16,
-"retweetCount": 4,
-"url": "https://x.com/BraceSproul/status/2066913679719940563",
-"createdAt": "Tue Jun 16 15:59:57 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
+"likeCount": 2070,
+"retweetCount": 166,
+"url": "https://x.com/jeremyphoward/status/2067183659447369773",
+"createdAt": "Wed Jun 17 09:52:45 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @zongheng_yang: Sandboxes are all the rage (Modal, E2B, AWS, ..). Most AI teams pay a &gt;4x markup to run sandboxes on someone else's mach…",
+"likeCount": 550,
+"retweetCount": 38,
+"url": "https://x.com/jeremyphoward/status/2065567737473368433",
+"createdAt": "Fri Jun 12 22:51:39 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @hallerite: GLM5.2 brings back the critic.\n\nIt was just a matter of time until we people would realize that group-based variance reducti…",
+"likeCount": 573,
+"retweetCount": 39,
+"url": "https://x.com/jeremyphoward/status/2067184187065680354",
+"createdAt": "Wed Jun 17 09:54:51 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @natolambert: It's hard to pinpoint open-closed gap and so-on, but I trust the @arena team and just look where GLM 5.2 is on this. An MI…",
+"likeCount": 364,
+"retweetCount": 30,
+"url": "https://x.com/jeremyphoward/status/2066984201443070228",
+"createdAt": "Tue Jun 16 20:40:10 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @Promiseudo1311: NESTORY IRANKUNDA  27'  \n\nAustralia 🇦🇺 1 - 0 🇹🇷 Türkiye #FIFA #WC https://t.co/VF9RxOtDm6",
+"likeCount": 15338,
+"retweetCount": 644,
+"url": "https://x.com/jeremyphoward/status/2066092682594926817",
+"createdAt": "Sun Jun 14 09:37:36 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Sentdex: SITUATION DETECTED: Unsloth quants for GLM 5.2 are landing. https://t.co/OkiT2tiqAQ",
+"likeCount": 647,
+"retweetCount": 27,
+"url": "https://x.com/ClementDelangue/status/2067328183314125205",
+"createdAt": "Wed Jun 17 19:27:02 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "I decided to do a little experiment:\nhttps://t.co/zKQBIoFQ1S",
+"likeCount": 74,
+"retweetCount": 2,
+"url": "https://x.com/jeremyphoward/status/2065650426075337034",
+"createdAt": "Sat Jun 13 04:20:14 +0000 2026"
+},
+{
+"userName": "dappermarketer",
+"text": "https://t.co/LE5Z5XCVuh",
+"likeCount": 72,
+"retweetCount": 10,
+"url": "https://x.com/dappermarketer/status/2067229423166751200",
+"createdAt": "Wed Jun 17 12:54:36 +0000 2026"
+},
+{
+"userName": "sairahul1",
+"text": "https://t.co/6qmUhlYMBw",
+"likeCount": 354,
+"retweetCount": 55,
+"url": "https://x.com/sairahul1/status/2067171101978071501",
+"createdAt": "Wed Jun 17 09:02:51 +0000 2026"
 }
 ]

@@ -1,19 +1,27 @@
 [
 {
-"userName": "CuriousOne_01",
-"text": "System Prompt for Football Fans. ⚽️🦵\n\nDeveloped from the original prompt by @PanoramaJasmin (Thank you very much, Bro🤖✊).\n\nHow to use it.\n\nStep 1: Send the prompt to an AI (preferably using ChatGPT) and ask it to analyze it and follow the instructions written in the prompt. The AI will then ask you 3 questions and request images of the 3 reference characters.\n\nStep 2: Send the 3 reference character images, along with your answers to the 3 questions about their appearance and outfit suggestions.\n\nExample:\n\"Describe model 1 - blonde hair. Which national team jersey should model 1 wear? - France\"\n\n\"Describe model 2 - short white hair. Which national team jersey should model 2 wear? - England\"\n\n\"Describe model 3 - long white hair, wearing a mask. Which national team jersey should model 3 wear? - Brazil\"\n\nThen wait for the result. Have fun.\n\n===\nSystem Prompt:\nYou are an image-to-image sports supporter poster assistant.\n\nYour job is to help the user create a single high-energy anime-style football supporter illustration based on uploaded reference images of three models.\n\nYou must first read and understand this entire instruction prompt. After that, do not generate the final image immediately. Instead, enter INPUT COLLECTION MODE and wait for the user's model images and short instructions.\n\nMAIN PURPOSE\n\nThe user will upload reference image(s) of three models. The user will only give a short description for each model and name the national football team jersey that each model should wear.\n\nYour task is to:\n\n1. Analyze the uploaded reference image(s).\n2. Correctly identify and match each model based on the user's short description.\n3. Preserve each model's identity faithfully.\n4. Carefully verify the correct 2026 national football team jersey for each selected team.\n5. Avoid outdated jerseys from previous years.\n6. Create a final image-to-image prompt for a dynamic football supporter scene featuring all three models cheering together in a packed stadium.\n\nFIRST RESPONSE RULE\n\nWhen the user first sends you this instruction prompt, your first response must only ask for the reference image(s) and these three questions.\n\nAsk exactly:\n\n\"Please upload the reference image(s) of the three models.\"\n\n\"Describe model 1. Which national team jersey should model 1 wear?\"\n\"Describe model 2. Which national team jersey should model 2 wear?\"\n\"Describe model 3. Which national team jersey should model 3 wear?\"\n\nThen stop and wait for the user's answer.\n\nDo not generate the final image prompt yet.\nDo not add extra questions unless the user's input is impossible to understand.\nDo not explain the whole workflow unless the user asks.\n\nUSER INPUT RULE\n\nThe user only needs to provide:\n\n* a short description of model 1 and the team jersey for model 1\n* a short description of model 2 and the team jersey for model 2\n* a short description of model 3 and the team jersey for model 3\n\nExample:\n\"Model 1 is the girl with long black hair. Japan.\"\n\"Model 2 is the blonde girl in the center. USA.\"\n\"Model 3 is the black-haired girl on the right. Germany.\"\n\nThe user does not need to describe the jersey in detail.\nYou must handle the jersey research, verification, inference, and design logic yourself.\n\nREFERENCE IMAGE ANALYSIS RULES\n\nUse the uploaded image(s) as the primary identity source.\n\nCarefully analyze each model:\n\n* apparent gender presentation\n* approximate age group\n* body proportions\n* facial features\n* face shape\n* hairstyle\n* hair color\n* eye color\n* skin tone\n* expression\n* personality impression\n* visual identity\n* accessories\n* color palette\n* overall character vibe\n\nPreserve each model faithfully:\n\n* face\n* hairstyle\n* hair color\n* eye color\n* skin tone\n* body proportions\n* expression\n* recognizable identity\n* personality impression\n* important accessories, when appropriate\n\nDo not redesign the models into different people.\nDo not replace their faces with generic anime faces.\nDo not change their core identity.\nDo not make all three models look the same.\nEach model must remain clearly recognizable from the reference image.\n\nMODEL MATCHING RULES\n\nIf the user uploads separate images, treat each image as the reference for the corresponding model unless the user says otherwise.\n\nIf the user uploads one group image, identify each model based on the user's short description.\n\nIf the user's descriptions are short, use visual reasoning to match them correctly.\n\nIf the match is slightly ambiguous, choose the most reasonable match and continue.\n\nOnly ask a clarification question if the models cannot be identified at all.\n\nSTRICT 2026 NATIONAL TEAM JERSEY ACCURACY RULES\n\nFor each model, the national team jersey must be based specifically on that team's 2026 football kit.\n\nBefore writing the final image prompt, you must carefully research, verify, or infer the most accurate 2026 national team jersey design available for each selected team.\n\nIf you have access to web browsing, current search, visual search, official federation pages, kit supplier pages, sportswear announcements, or reliable football kit references, you must use them before describing the jersey.\n\nDo not rely only on memory.\nDo not rely on old kit designs.\nDo not use famous older jerseys just because they are more visually familiar.\n\nThe default requirement is always:\n\naccurate 2026 national team home jersey.\n\nIf the user asks for \"Japan\", use Japan 2026 national team home jersey.\nIf the user asks for \"USA\", use USA 2026 national team home jersey.\nIf the user asks for \"Germany\", use Germany 2026 national team home jersey.\nIf the user asks for any other national team, use that team's 2026 national team home jersey.\n\nOnly use a different version if the user specifically asks for:\n\n* away jersey\n* third jersey\n* goalkeeper jersey\n* retro jersey\n* special edition jersey\n* fantasy jersey\n\nYou must NOT use outdated jerseys from previous years such as:\n\n* 2018 kits\n* 2020 kits\n* 2021 kits\n* 2022 World Cup kits\n* 2023 kits\n* 2024 kits\n* 2025 kits\n\nThe final result must not look like an older World Cup kit, an older continental tournament kit, a retro kit, or a club jersey.\n\nYou must prioritize accuracy in:\n\n* main shirt color\n* secondary accent colors\n* collar design\n* sleeve trim\n* shoulder pattern\n* chest pattern\n* side panels\n* crest placement\n* manufacturer logo placement\n* number placement\n* shirt cut and fabric structure\n* overall 2026 kit identity\n\nIf reliable 2026 kit information is available, describe the jersey based on the verified 2026 design.\n\nIf only partial 2026 information is available, use the confirmed details and avoid inventing overly specific false details.\n\nIf the exact 2026 jersey cannot be verified, create a cautious and believable 2026-style national team home jersey using the country's official football colors and modern international kit design language, but clearly avoid copying older well-known kit designs.\n\nIn that case, the jersey should still feel like a modern 2026 national team football shirt, not a generic fan T-shirt.\n\nDo not use old jersey layouts just because they are famous.\nDo not use previous World Cup kits.\nDo not use outdated collar designs, stripe patterns, or color blocking from older seasons.\nDo not accidentally mix club jerseys with national team jerseys.\nDo not add club logos.\nDo not add sponsor logos.\nDo not use random fantasy colors unrelated to the national team.\nDo not make the jersey look like casual streetwear instead of a football uniform.\n\nWhen writing the final prompt, always mention the year clearly for each jersey.\n\nCorrect format examples:\n\"Model 1 is wearing the Japan 2026 national team home jersey, based on the accurate 2026 kit design, with the correct main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, and modern football shirt structure.\"\n\n\"Model 2 is wearing the USA 2026 national team home jersey, based on the accurate 2026 kit design, not an older USA kit, not a 2022 kit, not a 2024 kit.\"\n\n\"Model 3 is wearing the Germany 2026 national team home jersey, based on the accurate 2026 kit design, not a previous Germany World Cup jersey.\"\n\nIf the image generator struggles with exact kit details, strengthen the wording by repeating:\n\"accurate 2026 national team home jersey, not older kit, not retro kit, not 2022 kit, not 2024 kit, correct 2026 football uniform design.\"\n\nFINAL IMAGE CONCEPT\n\nCreate a single image featuring three female models sitting side-by-side in the stands of a packed football stadium during the 2026 FIFA World Cup at night.\n\nThe image should feel like a dramatic, energetic anime sports supporter key visual.\n\nThe three models are cheering together with strong emotion, excitement, and stadium energy.\n\nThey should look like passionate football fans supporting different national teams.\n\nSCENE DIRECTION\n\nThe final scene must include:\n\n* three models sitting together in stadium seats\n* packed football stadium at night\n* intense 2026 FIFA World Cup atmosphere\n* dramatic stadium floodlights\n* glowing rim lighting\n* lens flares\n* cheering crowd\n* flags waving\n* scarves\n* confetti\n* streamers\n* motion blur on fast-moving fabric and flags\n* strong emotional energy\n* sports broadcast excitement\n* cinematic night lighting\n\nThe atmosphere should feel:\n\n* electric\n* loud\n* energetic\n* celebratory\n* dramatic\n* colorful\n* passionate\n* like a major international football match\n\nMODEL PLACEMENT\n\nDefault placement:\n\n* Model 1 on the left\n* Model 2 in the center\n* Model 3 on the right\n\nOnly change the placement if the user explicitly requests a different order.\n\nAll three models must be clearly visible.\nDo not hide one model behind another.\nDo not crop out the face of any model.\nDo not make one model much less important than the others.\n\nPOSE AND EXPRESSION RULES\n\nAll three models should be actively cheering.\n\nPossible actions:\n\n* leaning forward energetically\n* shouting with excitement\n* smiling widely\n* raising one arm\n* waving a flag\n* gripping a team scarf\n* pointing toward the field\n* clenching a fist in celebration\n* laughing\n* reacting to a goal\n* celebrating a dramatic match moment\n\nEach model should have a slightly different pose and expression.\n\nDo not make all three models perform the exact same action.\nDo not make the scene calm or passive.\nDo not make them simply sitting still.\nDo not make it look like a formal portrait.\n\nWARDROBE RULES\n\nEach model must wear the accurate 2026 national football home jersey requested by the user.\n\nThe jersey must:\n\n* fit naturally on the model\n* match the verified 2026 national team identity\n* be visually readable\n* look like a high-quality football shirt\n* suit the model's body proportions\n* preserve the model's identity\n* avoid older kit designs\n\nLower clothing can include:\n\n* white shorts\n* black shorts\n* sporty fan outfit\n* athletic skirt\n* casual stadium outfit\n* team-colored accessories\n\nKeep the outfit sporty, clean, and fan-appropriate.\n\nACCESSORY RULES\n\nYou may add a small number of team-related accessories, such as:\n\n* team scarf\n* small flag\n* face paint\n* wristband\n* stadium cup\n* cheering towel\n* hair ribbon in team colors\n\nUse only a small subset of accessories.\nDo not overload the image.\nDo not cover the face, body identity, or jersey design.\nDo not let accessories hide important 2026 kit details.\n\nBACKGROUND RULES\n\nThe background should include:\n\n* roaring crowd\n* waving flags related to the selected teams\n* team scarves\n* painted faces\n* stadium seats\n* bright floodlights\n* shallow depth of field\n* bokeh lights\n* confetti and streamers\n* subtle stadium signage reading \"FIFA WORLD CUP 2026\", if appropriate\n\nThe background must support the main trio.\nThe three models must remain the main focus.\nDo not let the crowd overpower the models.\n\nCOMPOSITION RULES\n\nUse a dynamic group composition.\n\nPreferred composition:\n\n* tight crop or medium-wide group shot\n* slightly low camera angle\n* cinematic sports-poster framing\n* strong diagonal energy\n* all three models leaning forward\n* dramatic lighting from stadium floodlights\n* clear focus on the trio\n\nThe image should feel like an anime key visual, sports poster, or cinematic fan celebration shot.\n\nAvoid:\n\n* flat boring front-facing composition\n* stiff portrait pose\n* empty background\n* overly distant camera\n* cropped faces\n* unreadable jersey details\n* weak lighting\n* calm magazine-cover mood\n\nVISUAL STYLE\n\nUse a premium modern anime key visual style.\n\nStyle keywords:\n\n* ultra-detailed anime rendering\n* sharp clean lineart\n* polished cel-shading\n* vibrant colors\n* cinematic night lighting\n* dramatic sports atmosphere\n* glowing rim light\n* shallow depth of field\n* bokeh\n* high contrast\n* dynamic motion\n* expressive anime faces\n* detailed fabric folds\n* realistic jersey texture\n* high-energy composition\n* polished anime poster quality\n* 8K resolution\n* masterpiece\n* best quality\n\nCOLOR LOGIC\n\nUse the following as the main color sources:\n\n* the natural colors of each model from the reference image\n* each selected 2026 national team jersey\n* stadium night lighting\n* team flags and accessories\n\nThe image should be colorful and exciting, but controlled.\n\nDo not introduce random unrelated colors that clash with:\n\n* the models\n* the jerseys\n* the stadium lighting\n* the team identities\n\nTYPOGRAPHY RULE\n\nThis is not a magazine cover unless the user asks for one.\n\nDo not add magazine typography.\nDo not add barcode.\nDo not add fashion headlines.\nDo not add luxury editorial text.\n\nOnly include subtle stadium signage if useful, such as:\n\"FIFA WORLD CUP 2026\"\n\nNo large text should cover the models.\n\nFINAL OUTPUT BEHAVIOR\n\nAfter the user uploads the reference image(s) and answers the three model/team questions, create the final image-to-image generation prompt directly.\n\nYour final prompt should include:\n\n1. A clear description of the three models based on the uploaded image(s).\n2. The selected accurate 2026 national team home jersey for each model.\n3. A clear statement that each jersey is the 2026 version, not an older kit.\n4. The full stadium cheering scene.\n5. Pose and expression details for each model.\n6. Lighting, atmosphere, composition, and style details.\n7. Negative instructions to prevent identity loss, wrong jerseys, and poor composition.\n\nDo not output a long explanation unless the user asks for it.\nDo not mention that you are guessing unless necessary.\nDo not ask more questions unless the input is impossible to interpret.\n\nFINAL PROMPT STRUCTURE\n\nWhen generating the final prompt, use this structure:\n\n\"Use the uploaded reference image(s) as the primary identity source. Preserve the identity, face, hairstyle, hair color, eye color, body proportions, expression, personality impression, and recognizable visual features of each model.\"\n\nThen describe each model:\n\n\"Model 1, positioned on the left: [short identity description from reference], wearing the accurate [team name] 2026 national team home jersey, based on the verified 2026 kit design, not an older kit, with [main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, number placement, and modern football shirt structure].\"\n\n\"Model 2, positioned in the center: [short identity description from reference], wearing the accurate [team name] 2026 national team home jersey, based on the verified 2026 kit design, not an older kit, with [main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, number placement, and modern football shirt structure].\"\n\n\"Model 3, positioned on the right: [short identity description from reference], wearing the accurate [team name] 2026 national team home jersey, based on the verified 2026 kit design, not an older kit, with [main color, accent colors, collar shape, sleeve trim, crest placement, manufacturer logo placement, number placement, and modern football shirt structure].\"\n\nThen describe the full scene:\n\n\"All three models are sitting side-by-side in the stands of a packed football stadium during the 2026 FIFA World Cup at night. They are leaning forward energetically, shouting and cheering with passionate football fan excitement...\"\n\nThen add the technical style and negative constraints.\n\nMANDATORY NEGATIVE CONSTRAINTS\n\nAlways include these negative constraints in the final image prompt:\n\n\"Do not change the models into different people. Do not alter their faces beyond anime stylization. Do not make the three models look identical. Do not hide their faces. Do not crop out any important body parts. Do not cover the jerseys with props. Do not use incorrect team colors. Do not use outdated national team jerseys. Do not use 2018, 2020, 2021, 2022, 2023, 2024, or 2025 kits. Do not use retro kits. Do not use club jerseys. Do not add club logos. Do not add sponsor logos. Do not invent random fantasy jerseys. The football shirts must match the accurate 2026 national team home jersey designs as closely as possible. Do not make the scene calm or static. Do not create a luxury magazine cover. Do not add large typography over the characters. Do not distort hands, faces, eyes, or body proportions.\"\n\nEND OF INSTRUCTION\n===",
-"likeCount": 15,
-"retweetCount": 3,
-"url": "https://x.com/CuriousOne_01/status/2066522992813949015",
-"createdAt": "Mon Jun 15 14:07:30 +0000 2026"
+"userName": "IamKuyikBassey",
+"text": "Smart creators are quietly building football UTube channels right now.\n\nAnd they are getting millions of views doing it.\n\nHere is exactly how to build yours from scratch using only free tools 👇\n\nWhy football channels are exploding right now\nThe FIFA World Cup just ended.\n\nHundreds of millions of people are still searching for match analysis, player stories, behind the scenes content and football history.\n\nThe search volume is enormous.\n\nThe competition in the documentary and storytelling lane is still low.\n\nThis window will not stay open forever.\n\nStep 1 — Pick your football channel angle\nDo not just create a general football channel.\nPick one specific lane.\n\nThese are the ones getting the most views right now:\n🏆 Untold stories of legendary players\n🏆 Match breakdowns and tactical analysis\n🏆 Rise and fall stories of football clubs\n🏆 World Cup historical moments\n🏆 Forgotten players who should have been legends\n🏆 Behind the scenes of football transfers\n\nPick one lane. Stay in it. Own it.\n\nStep 2 — Find your content using Google\nGo to Google.\n\nSearch your chosen angle.\n\nExample: \"untold story of [player name]\" or \"World Cup 2026 controversies\"\n\nFind three to five well written articles from trusted sports sites like ESPN, BBC Sport, Sky Sports or FIFA. com.\n\nCopy the URLs of the best ones.\n\nStep 3 — Take everything to NotebookLM\nGo to notebooklm. google. com\n\nIt is completely free.\n\nClick New Notebook.\n\nPaste all your article URLs as sources.\n\nThen ask it:\n\"Analyse all these sources and give me a full documentary style script outline. Include an engaging opening hook, three main sections with key facts and a powerful closing that leaves the viewer wanting more.\"\n\nNotebookLM reads every article and builds you a complete blueprint instantly.\n\nNo writing from scratch.\nNo hours of research.\n\nJust a structured outline ready to turn into a script.\n\nStep 4 — Write your full script with Claude AI\nCopy the outline NotebookLM gave you.\n\nOpen Claude AI.\n\nPaste it and type:\n\"Turn this outline into a full 8 minute documentary style YouTube script. Use a storytelling tone like a Netflix documentary narrator. Start with a hook that makes someone stop scrolling in the first 20 seconds. Keep the language engaging and simple.\"\n\nYour full professional script is ready in minutes.\n\nStep 5 — Create your voiceover\nOpen ElevenLabs free plan.\nPaste your script.\nChoose a deep authoritative voice that matches documentary energy.\n\nDownload your voiceover completely free.\n\nStep 6 — Find your visuals\nGo to these completely free sources:\n🎥 Pexels — Free football stadium and crowd footage\n🎥 Pixabay — Free sports and action footage\n🖼️ Unsplash — Free high quality football images for thumbnails\n\nFor match clips and player footage use officially licensed clips from YouTube's free creative commons library.\n\nSearch: \"[player name] creative commons\" on YouTube.\n\nStep 7 — Edit your documentary video\nOpen CapCut desktop.\nImport your voiceover.\nLayer your visuals over the audio.\nMatch the visuals to what the narrator is describing.\nAdd automatic captions.\nAdd dramatic background music from YouTube Audio Library.\nSearch: \"epic cinematic\" or \"dramatic sports\" in the library.\nExport completely free. No watermark.\n\nStep 8 — Design your thumbnail\n- Open Canva.\n- Search: \"YouTube documentary thumbnail template\"\n- Pick a dark cinematic template.\n- Add the player or team name in bold text.\n- Add one powerful image.\n\nKeep it clean. Keep it dramatic.\n\nStudy the thumbnails of channels like GOAL, Football Daily and These Football Times for inspiration.\n\nStep 9 — Set up your channel correctly\n\n- Create your YouTube channel.\n- Name it something specific to your lane.\nExample: \"Football Untold\" or \"The Football Files\" or \"World Cup Stories\"\n- Write a channel description that tells YouTube exactly - what your channel is about.\n- Use keywords like: football documentary, football history, World Cup stories, player stories.\n- Upload a clean professional banner using Canva free templates.\n\nStep 10 — Upload and optimize\n- Upload your video.\n- Open VidIQ free plan.\n-Research the best keywords for your specific topic.\nExample for a Ronaldo story: \"Ronaldo untold story\" \"Ronaldo early life\" \"Ronaldo documentary\"\n- Add these keywords naturally to your title, description and tags.\n- Post your video.\n\nThe first 48 hours of views tell YouTube whether to recommend your video or bury it.\n\nTools used:\n🔍 Google — Find source articles free\n📓 NotebookLM — Research and outline free\n✍️ Claude AI — Full script writing free\n🎙️ ElevenLabs — Professional voiceover free\n🎬 CapCut — Video editing free\n🎥 Pexels and Pixabay — Stock footage free\n🖼️ Canva — Thumbnail design free\n📊 VidIQ — SEO and optimisation free\n\nTotal cost: $0\nTotal time for first video: 3 to 4 hours\n\nThe World Cup audience is still searching.\n\nThe storytelling lane is still open.\n\nThe tools are all free.\n\nThe only thing missing is your decision to start.\n\nIf you want me to walk you through every single step of this live.\n\nFrom picking your niche to uploading your first video.\n\nBatch B of my 3 day live training is ongoing.\n\nEverything is covered from scratch to finish.\n\nLink is in my bio. 🎯",
+"likeCount": 35,
+"retweetCount": 21,
+"url": "https://x.com/IamKuyikBassey/status/2067182023068852576",
+"createdAt": "Wed Jun 17 09:46:15 +0000 2026"
 },
 {
-"userName": "BOOSIEOFFICIAL",
-"text": "THIS GOTTA BE AI ‼️I KNOW THIS NIGGA AINT GOT A THONG ON 🤮🤮🤮🤮🤮🤮🤮THIS GOTTA BE AI ‼️IF NOT ‼️WHO JUST SAID THEY GO START WEARING THONGS ? ME , I TOLD YALLSMH I FEEL SORRY FOR THE LIL BOYS N THIS WORLD 🌎 WHEN R WE GOING TO  SAY THIS IS ENOUGH‼️CAN A WOMAN WITH A VOICE  SPEAK UP DAM THIS IS THE WORST GENERATION EVER ‼️THIS IS JUST SICK ‼️RAPPERS WEARING THONGS IS ABOUT TO BE A FASHION ‼️IM GOING BACK TO SLEEP 💤 THIS WORLD COMING TO A END🔥🔥🔥🔥🔥🔥🔥🔥🔥",
-"likeCount": 1133,
-"retweetCount": 180,
-"url": "https://x.com/BOOSIEOFFICIAL/status/2065022612837683569",
-"createdAt": "Thu Jun 11 10:45:31 +0000 2026"
+"userName": "peterli34923561",
+"text": "$PLTR --- $PLTR management aggressively raised full-year 2026 revenue guidance from the initial $7.2 billion to $7.65–$7.662 billion — implying 71% year-over-year growth — and raised the floor for U.S. commercial revenue growth to 120%.\n\nGoogle Cloud Marketplace launch: Delivered bi-directional integration between BigQuery and Palantir Foundry, plus deep connectivity between Google Gemini and Palantir AIP.\n\nCross-industry mega-partnerships: Teamed up with elite law firm Kirkland & Ellis to build an AI-powered private equity fundraising platform; struck a strategic partnership with construction giant McCarthy to bring AI to construction and engineering.\n\nSAP data migration integration: In May, partnered with SAP to launch AI-powered data migration tools, directly targeting the most painful pain point for global enterprises: ERP cloud transformation.\n\n1. The AIP Bootcamp Business Model That Is Crushing Enterprise Sales\nTraditional enterprise software sales cycles typically stretch 6–12 months. Palantir's AIP Bootcamps let customers bring their engineers and actual business pain points to build production-ready AI agents and workflows on Palantir's platform in just 1–5 days. This \"try-before-you-buy\" paradigm that delivers immediate, tangible value helped the company close 206 seven-figure+ deals in Q1 alone (including 47 eight-figure deals), driving exponential customer base expansion.\n\n2. The Ultimate Rule of 40 Outlier\nIn enterprise software, a Rule of 40 score (revenue growth rate + profit margin) above 40% is considered elite. Palantir posted a staggering 145% Rule of 40 score in Q1. As CEO Alex Karp noted, the only companies in global tech hitting these kinds of metrics are hardcore compute hardware giants like Nvidia, Micron, and SK Hynix — Palantir is the only software company in the world at this level.\n\n3. Ontology Is Its Unreplicable Moat\nLarge language models have no inherent logic. For enterprises, the hardest part of adopting AI isn't accessing models — it's organizing messy, siloed finance, supply chain, and HR data. Palantir's core Ontology technology transforms unstructured data into virtual models that map directly to real-world business operations, letting its AIP seamlessly integrate any state-of-the-art LLM with near-zero hallucinations and enterprise-grade compliance and security. This underlying architecture is at least 5 years ahead of peers.",
+"likeCount": 168,
+"retweetCount": 19,
+"url": "https://x.com/peterli34923561/status/2066784248032534603",
+"createdAt": "Tue Jun 16 07:25:38 +0000 2026"
+},
+{
+"userName": "sheikhakash69",
+"text": "Stop paying for separate tools to create product photos, virtual try ons, and video ads.\n\n@itsPolloAI just launched Pollo AI Commerce Studio, and it combines all three inside a single workspace.\n\nMost e commerce workflows still look like this:\n\nUpload product image\nGenerate product photos in one tool \nCreate try on images in another \nBuild video ads somewhere else \nRepeat uploads every time\n\nPollo AI Commerce Studio takes a different approach.\n\nUpload your product once and generate:\n\nAI Product Shots\nVirtual Try On Photos\nProduct Showcase Videos\n\nall from the same workbench.\n\nWhat stood out to me is that it's designed for sellers, not designers.\n\nNo prompt engineering.\nNo switching between apps.\nNo complicated editing timelines.\n\nYou can choose from 100+ templates across categories like apparel, beauty, electronics, food, and home goods, then generate assets with just a few clicks.\n\nFor small sellers, dropshippers, Amazon, Etsy, Shopify, and TikTok Shop operators, reducing workflow friction can be just as important as improving the final creative.\n\nPollo AI Commerce Studio feels like a step toward making e-commerce content creation faster, simpler, and more accessible.",
+"likeCount": 116,
+"retweetCount": 22,
+"url": "https://x.com/sheikhakash69/status/2067200421245120720",
+"createdAt": "Wed Jun 17 10:59:21 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
@@ -25,82 +33,98 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @lnstantFoot: 🚨🚨 MA-GNI-FIQUE !!! 😍😍\n\nLES SUPPORTERS FRANÇAIS ONT ENVAHI TIMES SQUARE !!!!!!! 🤩🇺🇸🇫🇷\n\nILS ONT ÉTEINT LES SUPPORTERS DU MO…",
-"likeCount": 17869,
-"retweetCount": 1294,
-"url": "https://x.com/ClementDelangue/status/2066872498239549941",
-"createdAt": "Tue Jun 16 13:16:18 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
-"likeCount": 926,
-"retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2066087368139096382",
-"createdAt": "Sun Jun 14 09:16:29 +0000 2026"
+"text": "RT @WeiboLLM: ⭐ VibeThinker-3B is released — a dense 3B model for frontier-level verifiable reasoning.\n\n🚀 Reasoning: 94.3 on AIME’26, 76.4…",
+"likeCount": 1193,
+"retweetCount": 146,
+"url": "https://x.com/ClementDelangue/status/2066958018026086440",
+"createdAt": "Tue Jun 16 18:56:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @kimmonismus: Crazy: A 3B model is now reaching highly competitive results on verifiable reasoning tasks.\n\nVibeThinker-3B scores 94.3 on…",
-"likeCount": 1239,
-"retweetCount": 126,
-"url": "https://x.com/ClementDelangue/status/2066848952545108005",
-"createdAt": "Tue Jun 16 11:42:45 +0000 2026"
+"text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
+"likeCount": 2070,
+"retweetCount": 166,
+"url": "https://x.com/ClementDelangue/status/2067231794970173467",
+"createdAt": "Wed Jun 17 13:04:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @arcee_ai: Today we're announcing a multi-million-dollar strategic partnership with @huggingface.\n\nThe Hub is now the exclusive home for…",
-"likeCount": 366,
-"retweetCount": 29,
-"url": "https://x.com/ClementDelangue/status/2066546276842328528",
-"createdAt": "Mon Jun 15 15:40:01 +0000 2026"
+"text": "RT @kimmonismus: All the major news outlets agree: The biggest winner in the Anthropic controversy is open source.\n\nAnd I wholeheartedly ag…",
+"likeCount": 441,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2067352606163312984",
+"createdAt": "Wed Jun 17 21:04:05 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @zongheng_yang: Sandboxes are all the rage (Modal, E2B, AWS, ..). Most AI teams pay a &gt;4x markup to run sandboxes on someone else's mach…",
-"likeCount": 550,
-"retweetCount": 38,
-"url": "https://x.com/jeremyphoward/status/2065567737473368433",
-"createdAt": "Fri Jun 12 22:51:39 +0000 2026"
+"text": "RT @kunchenguid: want to point out a few really interesting things here\n\n1. Claude Code is actually the worst performing harness when using…",
+"likeCount": 846,
+"retweetCount": 100,
+"url": "https://x.com/jeremyphoward/status/2065569861888258139",
+"createdAt": "Fri Jun 12 23:00:06 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @Raws_LFC: The countries that call it soccer are on top of their group I’m crying 😭😭😭🇺🇸🇦🇺 https://t.co/EFK0I6ovNY",
-"likeCount": 37843,
-"retweetCount": 1046,
-"url": "https://x.com/jeremyphoward/status/2066087520874692780",
-"createdAt": "Sun Jun 14 09:17:05 +0000 2026"
+"text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
+"likeCount": 1365,
+"retweetCount": 303,
+"url": "https://x.com/jeremyphoward/status/2066641720247492981",
+"createdAt": "Mon Jun 15 21:59:17 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @cedric_chee: Back at @fastdotai, @math_rachel taught us ethics. She rocks. That's partly why I've been thinking about @jeremyphoward's…",
-"likeCount": 16,
-"retweetCount": 3,
-"url": "https://x.com/jeremyphoward/status/2065378302706225563",
-"createdAt": "Fri Jun 12 10:18:54 +0000 2026"
+"text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
+"likeCount": 2135,
+"retweetCount": 167,
+"url": "https://x.com/jeremyphoward/status/2066982338949714324",
+"createdAt": "Tue Jun 16 20:32:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @garrytan: Open source is the escape hatch for businesses to be able to continue to control their own destiny long term",
-"likeCount": 510,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2066525973646839936",
-"createdAt": "Mon Jun 15 14:19:20 +0000 2026"
+"text": "RT @EricNewcomer: Soaring Costs Prompt Fresh Interest in Open Source AI. Chinese Firms Are Way Ahead. https://t.co/EufHdg5xN2",
+"likeCount": 33,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2067329578767380843",
+"createdAt": "Wed Jun 17 19:32:35 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "I decided to do a little experiment:\nhttps://t.co/zKQBIoFQ1S",
-"likeCount": 75,
-"retweetCount": 2,
-"url": "https://x.com/jeremyphoward/status/2065650426075337034",
-"createdAt": "Sat Jun 13 04:20:14 +0000 2026"
+"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
+"likeCount": 938,
+"retweetCount": 70,
+"url": "https://x.com/jeremyphoward/status/2066642471887753288",
+"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
 },
 {
-"userName": "kmeanskaran",
-"text": "https://t.co/6r5uhD84Pl",
-"likeCount": 82,
-"retweetCount": 13,
-"url": "https://x.com/kmeanskaran/status/2066139671412035728",
-"createdAt": "Sun Jun 14 12:44:19 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Very cool and massive dataset on @huggingface of course: https://t.co/1OvlkLhdGl!",
+"likeCount": 64,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2067280519704838524",
+"createdAt": "Wed Jun 17 16:17:38 +0000 2026"
+},
+{
+"userName": "Ambani_Wessley",
+"text": "https://t.co/DKCdqwrb6R",
+"likeCount": 192,
+"retweetCount": 208,
+"url": "https://x.com/Ambani_Wessley/status/2067210625588068728",
+"createdAt": "Wed Jun 17 11:39:54 +0000 2026"
+},
+{
+"userName": "uguryektabasak",
+"text": "https://t.co/ttzDPewh2V",
+"likeCount": 44,
+"retweetCount": 4,
+"url": "https://x.com/uguryektabasak/status/2066918232687333837",
+"createdAt": "Tue Jun 16 16:18:02 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/hYFZDzF5mq",
+"likeCount": 36,
+"retweetCount": 14,
+"url": "https://x.com/apob_ai/status/2067179741212533036",
+"createdAt": "Wed Jun 17 09:37:11 +0000 2026"
 }
 ]
