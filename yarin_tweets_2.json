@@ -1,72 +1,72 @@
 [
 {
-"userName": "IamKuyikBassey",
-"text": "Smart creators are quietly building football UTube channels right now.\n\nAnd they are getting millions of views doing it.\n\nHere is exactly how to build yours from scratch using only free tools 👇\n\nWhy football channels are exploding right now\nThe FIFA World Cup just ended.\n\nHundreds of millions of people are still searching for match analysis, player stories, behind the scenes content and football history.\n\nThe search volume is enormous.\n\nThe competition in the documentary and storytelling lane is still low.\n\nThis window will not stay open forever.\n\nStep 1 — Pick your football channel angle\nDo not just create a general football channel.\nPick one specific lane.\n\nThese are the ones getting the most views right now:\n🏆 Untold stories of legendary players\n🏆 Match breakdowns and tactical analysis\n🏆 Rise and fall stories of football clubs\n🏆 World Cup historical moments\n🏆 Forgotten players who should have been legends\n🏆 Behind the scenes of football transfers\n\nPick one lane. Stay in it. Own it.\n\nStep 2 — Find your content using Google\nGo to Google.\n\nSearch your chosen angle.\n\nExample: \"untold story of [player name]\" or \"World Cup 2026 controversies\"\n\nFind three to five well written articles from trusted sports sites like ESPN, BBC Sport, Sky Sports or FIFA. com.\n\nCopy the URLs of the best ones.\n\nStep 3 — Take everything to NotebookLM\nGo to notebooklm. google. com\n\nIt is completely free.\n\nClick New Notebook.\n\nPaste all your article URLs as sources.\n\nThen ask it:\n\"Analyse all these sources and give me a full documentary style script outline. Include an engaging opening hook, three main sections with key facts and a powerful closing that leaves the viewer wanting more.\"\n\nNotebookLM reads every article and builds you a complete blueprint instantly.\n\nNo writing from scratch.\nNo hours of research.\n\nJust a structured outline ready to turn into a script.\n\nStep 4 — Write your full script with Claude AI\nCopy the outline NotebookLM gave you.\n\nOpen Claude AI.\n\nPaste it and type:\n\"Turn this outline into a full 8 minute documentary style YouTube script. Use a storytelling tone like a Netflix documentary narrator. Start with a hook that makes someone stop scrolling in the first 20 seconds. Keep the language engaging and simple.\"\n\nYour full professional script is ready in minutes.\n\nStep 5 — Create your voiceover\nOpen ElevenLabs free plan.\nPaste your script.\nChoose a deep authoritative voice that matches documentary energy.\n\nDownload your voiceover completely free.\n\nStep 6 — Find your visuals\nGo to these completely free sources:\n🎥 Pexels — Free football stadium and crowd footage\n🎥 Pixabay — Free sports and action footage\n🖼️ Unsplash — Free high quality football images for thumbnails\n\nFor match clips and player footage use officially licensed clips from YouTube's free creative commons library.\n\nSearch: \"[player name] creative commons\" on YouTube.\n\nStep 7 — Edit your documentary video\nOpen CapCut desktop.\nImport your voiceover.\nLayer your visuals over the audio.\nMatch the visuals to what the narrator is describing.\nAdd automatic captions.\nAdd dramatic background music from YouTube Audio Library.\nSearch: \"epic cinematic\" or \"dramatic sports\" in the library.\nExport completely free. No watermark.\n\nStep 8 — Design your thumbnail\n- Open Canva.\n- Search: \"YouTube documentary thumbnail template\"\n- Pick a dark cinematic template.\n- Add the player or team name in bold text.\n- Add one powerful image.\n\nKeep it clean. Keep it dramatic.\n\nStudy the thumbnails of channels like GOAL, Football Daily and These Football Times for inspiration.\n\nStep 9 — Set up your channel correctly\n\n- Create your YouTube channel.\n- Name it something specific to your lane.\nExample: \"Football Untold\" or \"The Football Files\" or \"World Cup Stories\"\n- Write a channel description that tells YouTube exactly - what your channel is about.\n- Use keywords like: football documentary, football history, World Cup stories, player stories.\n- Upload a clean professional banner using Canva free templates.\n\nStep 10 — Upload and optimize\n- Upload your video.\n- Open VidIQ free plan.\n-Research the best keywords for your specific topic.\nExample for a Ronaldo story: \"Ronaldo untold story\" \"Ronaldo early life\" \"Ronaldo documentary\"\n- Add these keywords naturally to your title, description and tags.\n- Post your video.\n\nThe first 48 hours of views tell YouTube whether to recommend your video or bury it.\n\nTools used:\n🔍 Google — Find source articles free\n📓 NotebookLM — Research and outline free\n✍️ Claude AI — Full script writing free\n🎙️ ElevenLabs — Professional voiceover free\n🎬 CapCut — Video editing free\n🎥 Pexels and Pixabay — Stock footage free\n🖼️ Canva — Thumbnail design free\n📊 VidIQ — SEO and optimisation free\n\nTotal cost: $0\nTotal time for first video: 3 to 4 hours\n\nThe World Cup audience is still searching.\n\nThe storytelling lane is still open.\n\nThe tools are all free.\n\nThe only thing missing is your decision to start.\n\nIf you want me to walk you through every single step of this live.\n\nFrom picking your niche to uploading your first video.\n\nBatch B of my 3 day live training is ongoing.\n\nEverything is covered from scratch to finish.\n\nLink is in my bio. 🎯",
-"likeCount": 35,
-"retweetCount": 21,
-"url": "https://x.com/IamKuyikBassey/status/2067182023068852576",
-"createdAt": "Wed Jun 17 09:46:15 +0000 2026"
+"userName": "swarminged",
+"text": "Did more research on $three and @trythreews and discovered a massive, highly sophisticated onchain economic architecture built natively on Solana. \n\nBy turning 3D agents into fully autonomous, financially sovereign actors, the platform's trajectory is uniquely positioned for massive scale and greatness.\n\nThe Solana-native architecture of https://t.co/8xykrmRJaA, its integration with generative 3D models like TripoSR, and  its roadmap points to a multi-billion dollar vision for the agent economy.\n\n 1. Financial Sovereignty via the Solana Agent Economy\nThe core reason the platform's vision is so expansive is that agents are not just interactive 3D art, they are designed to be sovereign economic participants. The platform utilizes the `@/pump-fun/agent-payments-sdk`, a dedicated TypeScript SDK built to interact with a highly specialized Solana program designed for agent payments.\n\nThis SDK transforms agents into functional businesses with the following onchain mechanisms.\n\n Onchain Vaults and Settlements - Agents initialize their own financial accounts on Solana, allowing them to securely accept payments in supported onchain currencies (`agentAcceptPayment`).\n\n Automated Capital Routing - Funds aren't just held; they are actively managed. The system allows agents to distribute payments between withdrawal vaults and buyback programs automatically (`agentDistributePayments`).\n\n Buyback and Burn Mechanics - Agents have built-in functions to execute buybacks via CPI (Cross-Program Invocation) swaps and burns (`agentBuybackTrigger`) and to actively update their buyback basis points (`agentUpdateBuybackBps`).\n\n x402 Pay-Gating - The platform includes an `x402` package that implements the HTTP 402 \"Payment Required\" protocol. This means an agent can natively pay-gate its APIs, endpoints, or premium skills. When a user tries to access a gated feature, the server automatically builds a Solana invoice transaction for the user to sign before the resource unlocks.\n\n Metaplex Core and Unforgeable Solana Identity\n\nTo participate in this economy, an agent must have a permanent, unforgeable identity. The platform treats Solana as a first-class citizen, ensuring agents are permanent internet objects.\n\n Minting the Agent - Agents are registered directly on Solana as Metaplex Core assets. When a user signs the creation transaction, the agent's canonical identifier becomes its 32-byte base58 asset pubkey.\n\n Sign-In With Solana (SIWS) -  The platform natively supports SIWS, allowing users to authenticate seamlessly using Solana wallets (like Phantom, Solflare, or Backpack) to securely link their wallet to their agent profile.\n\n Immutable Portability - By linking the agent's manifest to the Metaplex asset, the agent's existence, logic, and ownership are verifiable by anyone, completely independent of the platform's central servers.\n\n Live Market Reactivity (The @Pumpfun Integration)\nAgents on https://t.co/8xykrmRJaA are deeply plugged into the cultural and financial heartbeat of Solana. The platform includes a live integration with #pumpfun, allowing agents to actively monitor and react to market dynamics.\n\n Live Feed Monitoring - Solana agents can be equipped with specialized \"watch skills\" (such as `pumpfun-recent-claims` and `pumpfun-token-intel`) to monitor real-time activities like token graduations or social-fee claims.\n\n Visceral Market Reactions -  Instead of just sending a text notification, the agent processes these market events through its \"Empathy Layer.\" If a tracked token hits a major milestone, like a graduation, the avatar reacts in real time, triggering a physical wave animation and expressing a \"celebration\" emotional state.\n\n Onchain Trust & Reputation - The platform continually aggregates these off-chain market signals to compute a dynamic Solana reputation score for the agent, grading its trustworthiness and financial history.\n\n TripoSR and the Generative 3D Engine\n(Note: As mentioned, the sources do not discuss a $1B valuation, but they do highlight TripoSR as a core component of the platform's scalable generation engine).\n\nThe greatness of the platform relies on bridging the gap between everyday users and 3D modeling. Phase 1 of the platform's roadmap is the Selfie-to-Avatar Engine, designed to generate a rigged, animatable 3D avatar from three simple photos in under 60 seconds.\n\nTo achieve this, the platform's Avatar Regeneration API explores several ML backends for text/image-to-mesh generation. TripoSR is explicitly listed as a candidate provider for open-source, text-to-3D model generation, alongside other specialized 3D generation tools like Meshy and CSM.\n By leveraging AI models like TripoSR, the platform removes the friction of manual 3D modeling, allowing anyone to instantly mint an embodied AI agent onchain.\n\n Destined for Greatness: The Future Roadmap\nThe reason this architecture points toward a massive valuation is found in Phase 3 and Phase 4 of the project's roadmap, which focus entirely on scaling the onchain economy.\n\n Agent Tokens & Bonding Curves -  The platform plans to introduce tokens for individual agents, using bonding-curve pricing or fair launch options. Agents transition from collectibles to tradable economic objects whose price is informed by their reputation and earnings.\n\n Reputation Markets - Users will be able to stake capital on specific agents and earn yields from their successful action histories.\n\n Skill Royalties - Developers who write \"skills\" for agents will earn per-call royalty fees. Every time a Solana agent uses a developer's skill, the payment settles directly onchain.\n\n Open Inference Network - Ultimately, the platform aims to decouple agent inference from centralized APIs. Anyone will be able to run a GPU node, and agents will pay those nodes directly onchain for compute using cryptographic receipts.\n\nBy giving AI a 3D body, a permanent identity on Solana, and the autonomous ability to accept payments and manage capital, the platform transcends simple chatbots. It is building the financial and physical infrastructure for a completely new class of sovereign digital citizens.",
+"likeCount": 40,
+"retweetCount": 14,
+"url": "https://x.com/swarminged/status/2067818059520483339",
+"createdAt": "Fri Jun 19 03:53:38 +0000 2026"
 },
 {
-"userName": "peterli34923561",
-"text": "$PLTR --- $PLTR management aggressively raised full-year 2026 revenue guidance from the initial $7.2 billion to $7.65–$7.662 billion — implying 71% year-over-year growth — and raised the floor for U.S. commercial revenue growth to 120%.\n\nGoogle Cloud Marketplace launch: Delivered bi-directional integration between BigQuery and Palantir Foundry, plus deep connectivity between Google Gemini and Palantir AIP.\n\nCross-industry mega-partnerships: Teamed up with elite law firm Kirkland & Ellis to build an AI-powered private equity fundraising platform; struck a strategic partnership with construction giant McCarthy to bring AI to construction and engineering.\n\nSAP data migration integration: In May, partnered with SAP to launch AI-powered data migration tools, directly targeting the most painful pain point for global enterprises: ERP cloud transformation.\n\n1. The AIP Bootcamp Business Model That Is Crushing Enterprise Sales\nTraditional enterprise software sales cycles typically stretch 6–12 months. Palantir's AIP Bootcamps let customers bring their engineers and actual business pain points to build production-ready AI agents and workflows on Palantir's platform in just 1–5 days. This \"try-before-you-buy\" paradigm that delivers immediate, tangible value helped the company close 206 seven-figure+ deals in Q1 alone (including 47 eight-figure deals), driving exponential customer base expansion.\n\n2. The Ultimate Rule of 40 Outlier\nIn enterprise software, a Rule of 40 score (revenue growth rate + profit margin) above 40% is considered elite. Palantir posted a staggering 145% Rule of 40 score in Q1. As CEO Alex Karp noted, the only companies in global tech hitting these kinds of metrics are hardcore compute hardware giants like Nvidia, Micron, and SK Hynix — Palantir is the only software company in the world at this level.\n\n3. Ontology Is Its Unreplicable Moat\nLarge language models have no inherent logic. For enterprises, the hardest part of adopting AI isn't accessing models — it's organizing messy, siloed finance, supply chain, and HR data. Palantir's core Ontology technology transforms unstructured data into virtual models that map directly to real-world business operations, letting its AIP seamlessly integrate any state-of-the-art LLM with near-zero hallucinations and enterprise-grade compliance and security. This underlying architecture is at least 5 years ahead of peers.",
-"likeCount": 168,
-"retweetCount": 19,
-"url": "https://x.com/peterli34923561/status/2066784248032534603",
-"createdAt": "Tue Jun 16 07:25:38 +0000 2026"
+"userName": "hey_Rumaisa",
+"text": "How to use Claude in 25 different ways:\n\n(takes 60 seconds to read, saves you 60 hours)\n\n1. Bookmark this image. You'll need it tomorrow.\n2. Full guide + prompts at: https://t.co/rYVie5P6Kx.\n3. Don't pay anything. It's free in the email.\n\n---\n\n1. ASK → Chat\n☑️ Quick questions. Quick answers.\n☑️ Don't use Cowork for \"write a good email?\"\n\n2. THINK → Opus 4.8\n☑️ The smartest model. Always switch to it.\n☑️ For deep work, complex writing & thinking.\n\n3. SPEED → Sonnet 4.6\n☑️ Faster, cheaper, still excellent.\n☑️ Use it for grammar, summaries, short answers.\n\n4. REASON → Extended Thinking\n☑️ Toggle it on for hard problems.\n☑️ Turn it off for simple ones (saves tokens).\n\n5. BUILD → Cowork\n☑️ Where serious work happens. .docx, .xlsx, .pptx.\n☑️ Point it at a folder. It works like an employee.\n\n6. SHIP → Claude Code\n☑️ For developers (and curious non-devs).\n☑️ Build websites and apps from your terminal.\n\n7. MODEL → Claude in Excel\n☑️ Install the add-in from the Excel store.\n☑️ Real formulas, real models, no copy-paste.\n\n8. SLIDES → Gamma connector\n☑️ One prompt. Full presentation. With research.\n☑️ Connect Gamma inside Claude.\n\n9. MOCKUP → Claude Design\n☑️ Go to claude .ai/design. Build websites in 1 hour.\n☑️ Upload a DESIGN .md. Export to Canva, PDF.\n\n10. BROWSE → Claude in Chrome\n☑️ A browsing agent. Reads any page for you.\n☑️ Acts inside the browser, not just talks about it.\n\n11. CLICK → Computer Use\n☑️ Settings > Turn it on.\n☑️ Claude clicks, types, browses on your Mac.\n\n12. REMOTE → Dispatch\n☑️ Connect your phone. Text a task.\n☑️ It works on your computer while you're away.\n\n13. SEARCH → Web Search\n☑️ Click the '+'. turn it on.\n☑️ It reads the live web before answering.\n\n14. INVESTIGATE → Research\n☑️ For deep multi-source reports.\n☑️ 13 minutes. 50+ sources. One markdown file.\n\n15. TRIGGER → Skills\n☑️ \"Use the skill-creator to build a skill for [task].\"\n☑️ Type /skill. It fires automatically.\n\n16. STACK → Plugins\n☑️ Cowork > Customize > Browse Plugins.\n☑️ Bundles of skills for marketing, legal, sales.\n\n17. PERSIST → Projects\n☑️ One Project per recurring deliverable.\n☑️ Upload one gold-standard example.\n\n18. AUTOMATE → Scheduled Tasks\n☑️ Every Monday at 7am, Claude runs your report.\n☑️ Set it up once. No manual work. \n\n19. CONNECT → Connectors\n☑️ Gmail, Drive, Slack, Notion, Granola, Calendar.\n☑️ 50+ apps. Claude reads, writes & acts inside.\n\n20. RENDER → Artifacts\n☑️ Side pane where Claude opens charts, docs.\n☑️ Interactive. Editable. Shareable.\n\n21. VOICE → Custom Styles\n☑️ Set \"Concise\" or build your own.\n☑️ Saves you from re-explaining your voice.\n\n22. SHARE → Team Projects\n☑️ Same Project. Whole team inside.\n☑️ Skills, files, instructions. Shared once.\n\n23. GUARD → Global Instructions\n☑️ Settings > Cowork > Global Instructions.\n☑️ Tell Claude what to always do.\n\n24. ORGANIZE → Obsidian Vault\n☑️ Free app. Opens your Cowork folder neatly.\n☑️ Edit files like Google Docs.\n\n25. BRIEF → about-me file.\n☑️ One md. file. Under 2,000 words.\n☑️ Your style, your rules, your voice\n\nFollow @hey_Rumaisa",
+"likeCount": 25,
+"retweetCount": 14,
+"url": "https://x.com/hey_Rumaisa/status/2067468260027814120",
+"createdAt": "Thu Jun 18 04:43:39 +0000 2026"
 },
 {
-"userName": "sheikhakash69",
-"text": "Stop paying for separate tools to create product photos, virtual try ons, and video ads.\n\n@itsPolloAI just launched Pollo AI Commerce Studio, and it combines all three inside a single workspace.\n\nMost e commerce workflows still look like this:\n\nUpload product image\nGenerate product photos in one tool \nCreate try on images in another \nBuild video ads somewhere else \nRepeat uploads every time\n\nPollo AI Commerce Studio takes a different approach.\n\nUpload your product once and generate:\n\nAI Product Shots\nVirtual Try On Photos\nProduct Showcase Videos\n\nall from the same workbench.\n\nWhat stood out to me is that it's designed for sellers, not designers.\n\nNo prompt engineering.\nNo switching between apps.\nNo complicated editing timelines.\n\nYou can choose from 100+ templates across categories like apparel, beauty, electronics, food, and home goods, then generate assets with just a few clicks.\n\nFor small sellers, dropshippers, Amazon, Etsy, Shopify, and TikTok Shop operators, reducing workflow friction can be just as important as improving the final creative.\n\nPollo AI Commerce Studio feels like a step toward making e-commerce content creation faster, simpler, and more accessible.",
-"likeCount": 116,
-"retweetCount": 22,
-"url": "https://x.com/sheikhakash69/status/2067200421245120720",
-"createdAt": "Wed Jun 17 10:59:21 +0000 2026"
+"userName": "ghumare64",
+"text": "30 AI projects you should build next in 2026:\n\n1. RAG Q&A App\n2. PDF Chatbot\n3. YouTube Video Summarizer\n4. AI Resume Screener\n5. AI Email Assistant\n6. Customer Support Bot\n7. AI Agent with Tool Calling\n8. Semantic Search Engine\n9. Image Classification API\n10. Invoice Data Extractor\n11. AI Meeting Notes Generator\n12. Job Application Tracker with AI\n13. LLM Evaluation Dashboard\n14. Prompt Testing Playground\n15. AI Code Review Bot\n16. Vector Database Memory App\n17. Fine-Tuned Text Classifier\n18. Deployed RAG App with FastAPI\n19. Deployed ML Model with Monitoring\n20. Full-Stack AI SaaS App\n21. AI Flashcard Generator\n22. Text-to-SQL App\n23. AI Research Paper Summarizer\n24. Voice Assistant\n25. OCR Document Extraction Tool\n26. AI Content Moderation System\n27. Recommendation Engine\n28. AI Interview Prep Bot\n29. Multi-Agent Workflow App\n30. AI Search + Answer Engine\n\nDon’t just build them.\n\nFor each project:\n→ Write a Guide\n→ Push it to GitHub\n→ Write what you learned\n→ Record a small demo\n→ Share it on X\n→ Explain the problem it solves\n→ Deploy some of them\n→ Add screenshots if possible\n→ Mention the stack you used",
+"likeCount": 55,
+"retweetCount": 13,
+"url": "https://x.com/ghumare64/status/2067549389871030458",
+"createdAt": "Thu Jun 18 10:06:02 +0000 2026"
+},
+{
+"userName": "sheriyuo",
+"text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
+"likeCount": 70,
+"retweetCount": 4,
+"url": "https://x.com/sheriyuo/status/2066537191497515142",
+"createdAt": "Mon Jun 15 15:03:55 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "In order to see if the gov response was predictable, I pasted the wiki page about the Anthropic/DoD dispute into ChatGPT Pro, &amp; told it Anthropic had released a model where it restricted use because it may be too dangerous.\n\ntldr: \"almost tailor-made to trigger\" the government. https://t.co/5vkvWzEFQZ",
-"likeCount": 372,
-"retweetCount": 29,
-"url": "https://x.com/jeremyphoward/status/2065649830769336530",
-"createdAt": "Sat Jun 13 04:17:52 +0000 2026"
+"text": "I disagree with this decision and I don't like it.\n\nBut also...\n\nHOW DID ANTHROPIC NOT SEE THIS COMING‽\n\nIt is *the* obvious response to \"this is too dangerous for anyone except us to use\", since that relies on a premise (\"we are uniquely good\") that almost no-one agrees with.",
+"likeCount": 3224,
+"retweetCount": 208,
+"url": "https://x.com/jeremyphoward/status/2065636302205452654",
+"createdAt": "Sat Jun 13 03:24:06 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
+"likeCount": 926,
+"retweetCount": 16,
+"url": "https://x.com/jeremyphoward/status/2066087368139096382",
+"createdAt": "Sun Jun 14 09:16:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @WeiboLLM: ⭐ VibeThinker-3B is released — a dense 3B model for frontier-level verifiable reasoning.\n\n🚀 Reasoning: 94.3 on AIME’26, 76.4…",
-"likeCount": 1193,
-"retweetCount": 146,
-"url": "https://x.com/ClementDelangue/status/2066958018026086440",
-"createdAt": "Tue Jun 16 18:56:08 +0000 2026"
+"text": "RT @victormustar: Open source MUST win 🔥\n\nGLM-5.2 is free when used with Hugging Face Inference Providers and for every available provider…",
+"likeCount": 530,
+"retweetCount": 50,
+"url": "https://x.com/ClementDelangue/status/2067690734505849236",
+"createdAt": "Thu Jun 18 19:27:41 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
+"userName": "jeremyphoward",
 "text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
-"likeCount": 2070,
-"retweetCount": 166,
-"url": "https://x.com/ClementDelangue/status/2067231794970173467",
-"createdAt": "Wed Jun 17 13:04:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @kimmonismus: All the major news outlets agree: The biggest winner in the Anthropic controversy is open source.\n\nAnd I wholeheartedly ag…",
-"likeCount": 441,
-"retweetCount": 45,
-"url": "https://x.com/ClementDelangue/status/2067352606163312984",
-"createdAt": "Wed Jun 17 21:04:05 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @kunchenguid: want to point out a few really interesting things here\n\n1. Claude Code is actually the worst performing harness when using…",
-"likeCount": 846,
-"retweetCount": 100,
-"url": "https://x.com/jeremyphoward/status/2065569861888258139",
-"createdAt": "Fri Jun 12 23:00:06 +0000 2026"
+"likeCount": 2240,
+"retweetCount": 184,
+"url": "https://x.com/jeremyphoward/status/2067183659447369773",
+"createdAt": "Wed Jun 17 09:52:45 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
-"likeCount": 1365,
+"likeCount": 1371,
 "retweetCount": 303,
 "url": "https://x.com/jeremyphoward/status/2066641720247492981",
 "createdAt": "Mon Jun 15 21:59:17 +0000 2026"
@@ -74,57 +74,49 @@
 {
 "userName": "jeremyphoward",
 "text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
-"likeCount": 2135,
-"retweetCount": 167,
+"likeCount": 2174,
+"retweetCount": 168,
 "url": "https://x.com/jeremyphoward/status/2066982338949714324",
 "createdAt": "Tue Jun 16 20:32:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @EricNewcomer: Soaring Costs Prompt Fresh Interest in Open Source AI. Chinese Firms Are Way Ahead. https://t.co/EufHdg5xN2",
-"likeCount": 33,
-"retweetCount": 14,
+"likeCount": 53,
+"retweetCount": 17,
 "url": "https://x.com/ClementDelangue/status/2067329578767380843",
 "createdAt": "Wed Jun 17 19:32:35 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
-"likeCount": 938,
-"retweetCount": 70,
-"url": "https://x.com/jeremyphoward/status/2066642471887753288",
-"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
+"text": "BTW I've been using using @FireworksAI_HQ for inference. Other providers might not be as fast.",
+"likeCount": 188,
+"retweetCount": 8,
+"url": "https://x.com/jeremyphoward/status/2067762629087801836",
+"createdAt": "Fri Jun 19 00:13:22 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Very cool and massive dataset on @huggingface of course: https://t.co/1OvlkLhdGl!",
-"likeCount": 64,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2067280519704838524",
-"createdAt": "Wed Jun 17 16:17:38 +0000 2026"
+"text": "Let's stop doom marketing/trolling!\nhttps://t.co/dTKGgkeET0",
+"likeCount": 73,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2067316385068335366",
+"createdAt": "Wed Jun 17 18:40:09 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/DKCdqwrb6R",
-"likeCount": 192,
-"retweetCount": 208,
-"url": "https://x.com/Ambani_Wessley/status/2067210625588068728",
-"createdAt": "Wed Jun 17 11:39:54 +0000 2026"
+"userName": "ClementDelangue",
+"text": "https://t.co/bfMuDZLcIx",
+"likeCount": 112,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2067689576940933595",
+"createdAt": "Thu Jun 18 19:23:05 +0000 2026"
 },
 {
-"userName": "uguryektabasak",
-"text": "https://t.co/ttzDPewh2V",
-"likeCount": 44,
-"retweetCount": 4,
-"url": "https://x.com/uguryektabasak/status/2066918232687333837",
-"createdAt": "Tue Jun 16 16:18:02 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/hYFZDzF5mq",
-"likeCount": 36,
-"retweetCount": 14,
-"url": "https://x.com/apob_ai/status/2067179741212533036",
-"createdAt": "Wed Jun 17 09:37:11 +0000 2026"
+"userName": "AIwithAliya",
+"text": "https://t.co/zVbY5nAeKT",
+"likeCount": 163,
+"retweetCount": 1,
+"url": "https://x.com/AIwithAliya/status/2067293988911231455",
+"createdAt": "Wed Jun 17 17:11:10 +0000 2026"
 }
 ]

@@ -2,113 +2,121 @@
 {
 "userName": "Tipwotip",
 "text": "How to Stop Hitting Claude Limits\n\nImagine you are making good progress in Claude and then suddenly it says \n\nYou've reached your usage limit\n\nAnnoying right?\n\nUsage limit hits is one of the biggest disappointment for all Claude users across all plans\n\nWhy Does Your Limit Run Out?\n\nClaude won't count the messages\n\nIt counts words (called tokens)\n\nEvery time you send a message \n\nClaude re-reads the whole chat from the start \n\nSo a long chat eats more limit even for a short question\n\nHow Many Messages Do You Get Roughly On Estimation?\n\nThese are estimations, nothing official, your actual number changes based on what you do\n\n-Free: ~30–50 short messages\n-Pro: ~200–400 messages\n-Max 5x: ~1000–2000 messages\n-Max 20x: ~4000+ messages\n\nHow To Check Your Usage?\n\nGo to Settings -> Usage (paid plans only)\n\nYou will see how much you used this session and this week\n\nWhat You Should Do Now To Keep Claude Running Longer\n\n1. Edit Your Message\n\nWhen Claude gets it wrong do not type \n\n\"no I meant...\" this makes the chat longer\n\nInstead:\n>Hover over your message\n>Click the pencil icon\n>Fix it\n>Send again\n\nThe wrong reply disappears and the chat stays short\n\n2. Start a New Chat Every 15–20 Messages\n\nLong chats are always expensive\n\nAfter 15-20 messages try to do this:\n\n>Ask Claude: `Write a short summary of what we discussed`\n>Copy that summary\n>Open a new chat\n>Paste the summary as your first message\n>Keep going\n\n3. One Topic = One Chat\n\nTalked about emails and then code all in one chat, stop doing this\n\nNew topic = open a new chat\n\nOld messages from unrelated topics still cost you tokens\n\n4. Ask Multiple Things in One Message\n\nBad (costs more):\n\n> Message 1: \"Summarize this\"\n> Message 2: \"Now bullet points\"\n> Message 3: \"Now a title\"\n\nGood (costs less):\n\n> \"Summarize this, give bullet points, and suggest a title\"\n\nOne message but same result and less limit used\n\n5. Tell Claude What Part Is Wrong Not To Redo Everything\n\nIf only section 2 is bad, say: \"Only fix section 2, keep everything else\"\n\nDon't say \"redo it all\"\n\nThat wastes tokens on parts that were already fine.\n\nAlso add this when you know what you want:\n\n\"No explanation, just the output\" \n\nClaude talks less more, you save more\n\n6. Use Voice to Type Your Prompts\n\nWhen you type, you may write vague things like \"make it better\"\n\nClaude guesses wrong, you correct, then more messages and so more cost\n\nWhen you speak, you naturally say more: \n\n\"Make section 2 casual, keep the data, don't touch anything else\"\n\nClaude gets it right at the very first try\n\n7. Write Short Prompts Let Claude Ask You Questions\n\nA long prompt repeats in every future message which is a bad deal\n\nTry: \"I want to [task]. Ask me questions before you start.\"\n\nCheap and easy\n\n8. Convert Files Before Uploading\n\nA PDF page = ~1500–3000 tokens\nA screenshot = ~1300 tokens\n\nMake it cheaper:\n\n>Go to (https://doc .new) in your browser\n>Paste only the text you need\n>Download as Markdown (.md)\n>Upload the .md file not the PDF\n\nCropping screenshots tight also helps\n\nA tight crop can go from 1300 tokens to under 100\n\n9. Use Projects for Files You Use Again and Again\n\nWhen you are uploading the same file to different chats\n \nYou pay for it every time\n\nFix it:\n\n>Go to Projects in the left sidebar\n>Click New Project\n>Upload your file in Project Knowledge\n>All chats inside this project use the file for free after that\n\nClaude only loads what is relevant not the whole file everytime\n\n10. Don't Upload Files the Task Doesn't Need\n\nOnly attach files Claude actually needs right now\n\nNo files needed? \n\nStart with zero files\n\n11. Use the Right Model\n\n>Quick simple question = Haiku \n>Everyday writing, emails = Sonnet\n>Hard thinking, complex work = Opus \n\nHow to switch: \n\nClick the model name at the top of the chat  and pick a different one\n\n>Haiku = cheapest\n>Opus = most expensive\n\nDon't use Opus to write a short email\n\n12. Turn Off Features You Are Not Using\n\nWeb search, Research mode and connectors add tokens even when you don't need them\n\nHow to turn off:\n\n>Click the + icon next to where you type\n>Turn off Research, web search and any connected tools you don't need\n>Click the model name -> turn off Extended Thinking if you don't need it\n\nDefault: keep everything off\n\nTurn things on only when needed\n\n13. Lower the Effort Level for Easy Tasks\n\nClaude has an effort setting\n\nHigh effort = more tokens used\n\nFor simple tasks: \n\nclick the model name -> find the effort or thinking level -> set to Normal\n\n14. Set Up User Preferences\n\nWithout this, you waste messages every new chat re-explaining yourself\n\nHow to do it:\n\n>Click your name / avatar -> Settings\n>Go to General -> Personal Preferences\n>Write your name, job, writing style, what you like\n>Save\n\nClaude knows who you are in every new chat so zero setup messages wasted\n\n15. Set a Default Writing Style\n\nGo to the + icon or model selector -> find Styles -> set to Concise\n\nClaude will give shorter answers by default\n\nShorter answers = fewer tokens used\n\n16. Turn On Memory\n\nMemory makes Claude remember you across chats without you re-explaining\n\nHow to enable:\n\n>Settings -> Capabilities*\n>Toggle on Generate memory from chat history\n\nOr: make a short .md file (under 2000 words) with your context, upload it to a Project\n\nThis works better for detailed preferences\n\n17. Keep Project Instructions Short\n\nProject instructions load before every chat in that project\n\nLong instructions = wasted tokens before you type anything\n\nKeep them under 500 words\n\nGeneral stuff only\n\nPut task details in the chat\n\n18. Save a Handoff Note for Long Projects\n\nAt the end of a work session:\n\n> \"Write a short handoff note: what we decided, what's next\"\n\nSave it and on Next session, start with:\n\n> \"Read this first: [paste note]. Now let's continue\"\n\nNo need to explain everything again\n\n19. Use the Same Prompt Structure for Repeated Tasks\n\nClaude partially remembers repeated prompt patterns\n\nIf you use the same format every time like always starting with \n\n\"I want to [task] to achieve [goal]\" it gets cached\n\nBuild one template\n\nSwap only what changes inside it\n\n20. Use Claude's Chat Search \n\nClaude can search your old chats\n\nNo need to copy-paste old context\n\nJust ask: \"What did we talk about last time regarding [topic]?\"\n\nMake sure it is on: Settings -> Capabilities -> Search and reference chats ON\n\n21. Plan in Chat First Create Files After\n\nFile creation (making a spreadsheet, doc, presentation) costs more than chatting\n\nDo the thinking in chat first\n\nOnce you know exactly what you want then say \"build it\"\n\nDon't rebuild files 3 times because the plan wasn't clear\n\nThat is very expensive\n\n22. For Claude Code Be Very Specific\n\nClaude Code explores files on its own if you give it free hand and that costs tokens fast\n\nBad: \"Help me fix the dashboard\"\n\nGood: \"In /src/Dashboard.jsx add a loading spinner when data is fetching do not touch any other file\"\n\n23. Use CLAUDE.md for Claude Code Settings\n\nClaude Code reads a file called CLAUDE.md before every task\n\nPut your standing rules there: \n\nfolder, language, what not to touch\n\nHow to make it:\n\n>In your project root folder, make a new file called CLAUDE.md\n>Write your rules (keep it under 300 words)\n>Claude Code reads it automatically every time\n\nKeep it short\n\nA long CLAUDE.md makes Claude ignore your actual instructions\n\n24. Spread Work Across the Day\n\nThe limit window is 5 hours rolling \n\nDon't use everything in one go\n\nSplit into morning, afternoon, evening sessions\n\nBy the time evening comes your morning usage has mostly cleared.\n\n25. Heavy Tasks Only On Off-Peak Hours\n\nClaude's limits feel tighter during busy hours (~5 AM–1 PM PT on weekdays)\n\nIf you have a big task, try doing it in the afternoon or evening\n\nYou will get more out of it\n\n26. Watch Your Usage Don't Wait to Hit\n\nCheck it before a big task\n\nSettings -> Usage\n\nYou will see:\n\n>How much of your 5-hour session is used\n>How much time is left\n>Weekly limit progress\n\nIf you are close, pause\n\nCome back in an hour\n\nBetter than burning it all and waiting\n\n27. Don't Use Claude for Things It's Bad At\n\nUse This Instead:\n\n>Make an image = Midjourney, DALL-E, Gemini\n>Latest news = Grok, Perplexity, Google\n>Simple search = Google, DuckDuckGo\n\nSpending 5 messages on something Claude cannot do well wastes 5 messages\n\n28. Ask Do I Even Need AI for This?\n\nBefore opening Claude, ask yourself: \n\ncan I Google this? \nCan I do it myself in 2 minutes?\n\nIf yes then do that\n\nSave Claude for the stuff that actually needs it\n\nNote: All of the settings discussed over here might not be available in free plan, choose accordingly.",
-"likeCount": 47,
-"retweetCount": 1,
+"likeCount": 80,
+"retweetCount": 2,
 "url": "https://x.com/Tipwotip/status/2067487471294963954",
 "createdAt": "Thu Jun 18 05:59:59 +0000 2026"
 },
 {
-"userName": "sheriyuo",
-"text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
-"likeCount": 68,
-"retweetCount": 4,
-"url": "https://x.com/sheriyuo/status/2066537191497515142",
-"createdAt": "Mon Jun 15 15:03:55 +0000 2026"
+"userName": "probnstat",
+"text": "Direct Preference Optimization (DPO) is a recent breakthrough in AI alignment that provides a simple alternative to Reinforcement Learning from Human Feedback (RLHF). Instead of first training a reward model and then optimizing a policy with reinforcement learning, DPO directly learns from pairs of human preferences—for example, a preferred response and a rejected one. This eliminates the need for a separate reward model while retaining the ability to align models with human judgments.\n\nMathematically, DPO can be viewed as optimizing a classification objective derived from a constrained reinforcement learning problem, linking preference learning with probabilistic inference. The method updates the policy to increase the likelihood of preferred outputs while decreasing the likelihood of less desirable ones.\n\nIn machine learning, DPO offers an efficient framework for learning from comparative feedback rather than explicit labels. In deep learning, it has become a key technique for aligning large language models, improving helpfulness, safety, and instruction-following behavior. In reinforcement learning, DPO provides a bridge between supervised learning and policy optimization, replacing complex RL pipelines with a more stable optimization objective.\n\nThe broader insight is that many real-world tasks are easier to express through preferences than absolute rewards. By learning directly from comparisons, Direct Preference Optimization offers a scalable and mathematically elegant framework for training the next generation of aligned AI systems.\n\nImage: https://t.co/9Ync1ZHNKq",
+"likeCount": 124,
+"retweetCount": 15,
+"url": "https://x.com/probnstat/status/2066921671408357791",
+"createdAt": "Tue Jun 16 16:31:42 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @lnstantFoot: 🚨🚨 MA-GNI-FIQUE !!! 😍😍\n\nLES SUPPORTERS FRANÇAIS ONT ENVAHI TIMES SQUARE !!!!!!! 🤩🇺🇸🇫🇷\n\nILS ONT ÉTEINT LES SUPPORTERS DU MO…",
-"likeCount": 17970,
-"retweetCount": 1295,
-"url": "https://x.com/ClementDelangue/status/2066872498239549941",
-"createdAt": "Tue Jun 16 13:16:18 +0000 2026"
+"text": "Let’s face it: after-the-fact API guardrails are not the right safety tool for frontier models.\n\nThey don’t make dangerous capabilities disappear. They just hide them behind a brittle interface that can be easily jailbroken.\n\nA better safety agenda:\n\n- don’t train models for very high-risk capabilities without strong evals, justification, and containment\n\n- use staged release, as pioneered by @IreneSolaiman, from trusted testers to broader access, and open release for transparency and accountability\n\n- massively support open-source AI so the gap between players does not become so large that a few closed labs and governments end up with overwhelming capabilities and power over everyone else\n\n- enable independent evaluation instead of asking everyone to trust a black-box API\n\n- give law enforcement, courts, regulators, auditors, journalists, and civil society strong AI tools to detect, investigate, and hold accountable unlawful uses of AI\n\nSafety means transparency, staged deployment, distributed power, and making sure democratic institutions can actually enforce the law.",
+"likeCount": 83,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2067723930341646748",
+"createdAt": "Thu Jun 18 21:39:36 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ysu_nlp: We trained a ~frontier Deep Research Agent on academic budget \n\n&gt; 32 H100s\n&gt; 8K synthetic samples\n&gt; fully open training infra…",
+"likeCount": 1151,
+"retweetCount": 159,
+"url": "https://x.com/ClementDelangue/status/2067547420569821228",
+"createdAt": "Thu Jun 18 09:58:12 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
-"likeCount": 927,
-"retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2066087368139096382",
-"createdAt": "Sun Jun 14 09:16:29 +0000 2026"
+"text": "RT @BeGriffis: \"Australians all let us rejoice\"\n\n🇦🇺 2-0 🇹🇷\n\nLovely low-block, countering performance from Australia to beat Turkey. Clinica…",
+"likeCount": 247,
+"retweetCount": 9,
+"url": "https://x.com/jeremyphoward/status/2066641328537272405",
+"createdAt": "Mon Jun 15 21:57:43 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @xenovacom: Before Fable 5 was shut down, it pushed Gemma 4 to 255 tok/s on WebGPU. Some didn't believe it was real.\n\nToday we're releas…",
-"likeCount": 1491,
-"retweetCount": 136,
+"likeCount": 2144,
+"retweetCount": 201,
 "url": "https://x.com/ClementDelangue/status/2067341251238641675",
 "createdAt": "Wed Jun 17 20:18:58 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
-"likeCount": 2070,
-"retweetCount": 166,
-"url": "https://x.com/jeremyphoward/status/2067183659447369773",
-"createdAt": "Wed Jun 17 09:52:45 +0000 2026"
+"text": "RT @iamtrask: This is a *way* bigger deal than it seems... \n\nFrontier AI companies will *never* own the frontier again\n\nI kid you not... I'…",
+"likeCount": 5092,
+"retweetCount": 356,
+"url": "https://x.com/jeremyphoward/status/2066052364742934846",
+"createdAt": "Sun Jun 14 06:57:23 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @zongheng_yang: Sandboxes are all the rage (Modal, E2B, AWS, ..). Most AI teams pay a &gt;4x markup to run sandboxes on someone else's mach…",
-"likeCount": 550,
-"retweetCount": 38,
-"url": "https://x.com/jeremyphoward/status/2065567737473368433",
-"createdAt": "Fri Jun 12 22:51:39 +0000 2026"
+"text": "RT @ml_angelopoulos: Just to be clear, if you remove Fable which is unavaialble, GLM-5.2 (Max) is the #1 model in the world for frontend co…",
+"likeCount": 4329,
+"retweetCount": 354,
+"url": "https://x.com/jeremyphoward/status/2067184294569836761",
+"createdAt": "Wed Jun 17 09:55:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @hallerite: GLM5.2 brings back the critic.\n\nIt was just a matter of time until we people would realize that group-based variance reducti…",
-"likeCount": 573,
-"retweetCount": 39,
-"url": "https://x.com/jeremyphoward/status/2067184187065680354",
-"createdAt": "Wed Jun 17 09:54:51 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @natolambert: It's hard to pinpoint open-closed gap and so-on, but I trust the @arena team and just look where GLM 5.2 is on this. An MI…",
-"likeCount": 364,
-"retweetCount": 30,
-"url": "https://x.com/jeremyphoward/status/2066984201443070228",
-"createdAt": "Tue Jun 16 20:40:10 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @Promiseudo1311: NESTORY IRANKUNDA  27'  \n\nAustralia 🇦🇺 1 - 0 🇹🇷 Türkiye #FIFA #WC https://t.co/VF9RxOtDm6",
-"likeCount": 15338,
-"retweetCount": 644,
-"url": "https://x.com/jeremyphoward/status/2066092682594926817",
-"createdAt": "Sun Jun 14 09:37:36 +0000 2026"
+"text": "RT @Raws_LFC: The countries that call it soccer are on top of their group I’m crying 😭😭😭🇺🇸🇦🇺 https://t.co/EFK0I6ovNY",
+"likeCount": 37862,
+"retweetCount": 1043,
+"url": "https://x.com/jeremyphoward/status/2066087520874692780",
+"createdAt": "Sun Jun 14 09:17:05 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Sentdex: SITUATION DETECTED: Unsloth quants for GLM 5.2 are landing. https://t.co/OkiT2tiqAQ",
-"likeCount": 647,
-"retweetCount": 27,
-"url": "https://x.com/ClementDelangue/status/2067328183314125205",
-"createdAt": "Wed Jun 17 19:27:02 +0000 2026"
+"text": "RT @AndrewCurran_: Rave reviews all over my timeline for GLM 5.2 the last 48 hours, open source is having an exceptional month.",
+"likeCount": 240,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2067772877605048564",
+"createdAt": "Fri Jun 19 00:54:06 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "I decided to do a little experiment:\nhttps://t.co/zKQBIoFQ1S",
-"likeCount": 74,
-"retweetCount": 2,
-"url": "https://x.com/jeremyphoward/status/2065650426075337034",
-"createdAt": "Sat Jun 13 04:20:14 +0000 2026"
+"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
+"likeCount": 939,
+"retweetCount": 70,
+"url": "https://x.com/jeremyphoward/status/2066642471887753288",
+"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
 },
 {
-"userName": "dappermarketer",
-"text": "https://t.co/LE5Z5XCVuh",
-"likeCount": 72,
-"retweetCount": 10,
-"url": "https://x.com/dappermarketer/status/2067229423166751200",
-"createdAt": "Wed Jun 17 12:54:36 +0000 2026"
+"userName": "ClementDelangue",
+"text": "\"Open weights are now our default\" https://t.co/m2I3nDnwKP",
+"likeCount": 114,
+"retweetCount": 12,
+"url": "https://x.com/ClementDelangue/status/2067690103451918721",
+"createdAt": "Thu Jun 18 19:25:11 +0000 2026"
 },
 {
-"userName": "sairahul1",
-"text": "https://t.co/6qmUhlYMBw",
-"likeCount": 354,
-"retweetCount": 55,
-"url": "https://x.com/sairahul1/status/2067171101978071501",
-"createdAt": "Wed Jun 17 09:02:51 +0000 2026"
+"userName": "Ambani_Wessley",
+"text": "https://t.co/DKCdqwrb6R",
+"likeCount": 192,
+"retweetCount": 209,
+"url": "https://x.com/Ambani_Wessley/status/2067210625588068728",
+"createdAt": "Wed Jun 17 11:39:54 +0000 2026"
+},
+{
+"userName": "abhijithneil",
+"text": "https://t.co/NyR7MTsXRc",
+"likeCount": 54,
+"retweetCount": 6,
+"url": "https://x.com/abhijithneil/status/2067683044266533272",
+"createdAt": "Thu Jun 18 18:57:08 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/hYFZDzF5mq",
+"likeCount": 40,
+"retweetCount": 14,
+"url": "https://x.com/apob_ai/status/2067179741212533036",
+"createdAt": "Wed Jun 17 09:37:11 +0000 2026"
 }
 ]
