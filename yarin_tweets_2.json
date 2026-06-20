@@ -1,122 +1,146 @@
 [
 {
-"userName": "swarminged",
-"text": "Did more research on $three and @trythreews and discovered a massive, highly sophisticated onchain economic architecture built natively on Solana. \n\nBy turning 3D agents into fully autonomous, financially sovereign actors, the platform's trajectory is uniquely positioned for massive scale and greatness.\n\nThe Solana-native architecture of https://t.co/8xykrmRJaA, its integration with generative 3D models like TripoSR, and  its roadmap points to a multi-billion dollar vision for the agent economy.\n\n 1. Financial Sovereignty via the Solana Agent Economy\nThe core reason the platform's vision is so expansive is that agents are not just interactive 3D art, they are designed to be sovereign economic participants. The platform utilizes the `@/pump-fun/agent-payments-sdk`, a dedicated TypeScript SDK built to interact with a highly specialized Solana program designed for agent payments.\n\nThis SDK transforms agents into functional businesses with the following onchain mechanisms.\n\n Onchain Vaults and Settlements - Agents initialize their own financial accounts on Solana, allowing them to securely accept payments in supported onchain currencies (`agentAcceptPayment`).\n\n Automated Capital Routing - Funds aren't just held; they are actively managed. The system allows agents to distribute payments between withdrawal vaults and buyback programs automatically (`agentDistributePayments`).\n\n Buyback and Burn Mechanics - Agents have built-in functions to execute buybacks via CPI (Cross-Program Invocation) swaps and burns (`agentBuybackTrigger`) and to actively update their buyback basis points (`agentUpdateBuybackBps`).\n\n x402 Pay-Gating - The platform includes an `x402` package that implements the HTTP 402 \"Payment Required\" protocol. This means an agent can natively pay-gate its APIs, endpoints, or premium skills. When a user tries to access a gated feature, the server automatically builds a Solana invoice transaction for the user to sign before the resource unlocks.\n\n Metaplex Core and Unforgeable Solana Identity\n\nTo participate in this economy, an agent must have a permanent, unforgeable identity. The platform treats Solana as a first-class citizen, ensuring agents are permanent internet objects.\n\n Minting the Agent - Agents are registered directly on Solana as Metaplex Core assets. When a user signs the creation transaction, the agent's canonical identifier becomes its 32-byte base58 asset pubkey.\n\n Sign-In With Solana (SIWS) -  The platform natively supports SIWS, allowing users to authenticate seamlessly using Solana wallets (like Phantom, Solflare, or Backpack) to securely link their wallet to their agent profile.\n\n Immutable Portability - By linking the agent's manifest to the Metaplex asset, the agent's existence, logic, and ownership are verifiable by anyone, completely independent of the platform's central servers.\n\n Live Market Reactivity (The @Pumpfun Integration)\nAgents on https://t.co/8xykrmRJaA are deeply plugged into the cultural and financial heartbeat of Solana. The platform includes a live integration with #pumpfun, allowing agents to actively monitor and react to market dynamics.\n\n Live Feed Monitoring - Solana agents can be equipped with specialized \"watch skills\" (such as `pumpfun-recent-claims` and `pumpfun-token-intel`) to monitor real-time activities like token graduations or social-fee claims.\n\n Visceral Market Reactions -  Instead of just sending a text notification, the agent processes these market events through its \"Empathy Layer.\" If a tracked token hits a major milestone, like a graduation, the avatar reacts in real time, triggering a physical wave animation and expressing a \"celebration\" emotional state.\n\n Onchain Trust & Reputation - The platform continually aggregates these off-chain market signals to compute a dynamic Solana reputation score for the agent, grading its trustworthiness and financial history.\n\n TripoSR and the Generative 3D Engine\n(Note: As mentioned, the sources do not discuss a $1B valuation, but they do highlight TripoSR as a core component of the platform's scalable generation engine).\n\nThe greatness of the platform relies on bridging the gap between everyday users and 3D modeling. Phase 1 of the platform's roadmap is the Selfie-to-Avatar Engine, designed to generate a rigged, animatable 3D avatar from three simple photos in under 60 seconds.\n\nTo achieve this, the platform's Avatar Regeneration API explores several ML backends for text/image-to-mesh generation. TripoSR is explicitly listed as a candidate provider for open-source, text-to-3D model generation, alongside other specialized 3D generation tools like Meshy and CSM.\n By leveraging AI models like TripoSR, the platform removes the friction of manual 3D modeling, allowing anyone to instantly mint an embodied AI agent onchain.\n\n Destined for Greatness: The Future Roadmap\nThe reason this architecture points toward a massive valuation is found in Phase 3 and Phase 4 of the project's roadmap, which focus entirely on scaling the onchain economy.\n\n Agent Tokens & Bonding Curves -  The platform plans to introduce tokens for individual agents, using bonding-curve pricing or fair launch options. Agents transition from collectibles to tradable economic objects whose price is informed by their reputation and earnings.\n\n Reputation Markets - Users will be able to stake capital on specific agents and earn yields from their successful action histories.\n\n Skill Royalties - Developers who write \"skills\" for agents will earn per-call royalty fees. Every time a Solana agent uses a developer's skill, the payment settles directly onchain.\n\n Open Inference Network - Ultimately, the platform aims to decouple agent inference from centralized APIs. Anyone will be able to run a GPU node, and agents will pay those nodes directly onchain for compute using cryptographic receipts.\n\nBy giving AI a 3D body, a permanent identity on Solana, and the autonomous ability to accept payments and manage capital, the platform transcends simple chatbots. It is building the financial and physical infrastructure for a completely new class of sovereign digital citizens.",
-"likeCount": 40,
-"retweetCount": 14,
-"url": "https://x.com/swarminged/status/2067818059520483339",
-"createdAt": "Fri Jun 19 03:53:38 +0000 2026"
+"userName": "NachtNovaAI",
+"text": "⚠️New prototype prompt\n\nBased on the SCP organization \nThis prompt makes a full document as if your avi is an anomaly in SCP containment.\n\nExamples are @The_Rebel_Corp and my avi\n\n⚠️Prompt👇\n\nCHARACTER INFORMATION\n\nCharacter Name: ENTER NAME HERE\n\nDEEP ANALYSIS PHASE\n\nDeeply analyze @image1 and identify the character represented.\n\nImportant Identity Rule\n\n@image1 represents a single character's true identity even if the image contains:\n\nMultiple poses\n\nMultiple outfits\n\nCharacter reference sheets\n\nExpression sheets\n\nTurnarounds\n\nFront / Side / Back views\n\nAlternate costumes\n\nEquipment breakdowns\n\nMultiple duplicated bodies\n\nCharacter design notes\n\nEvery visible depiction represents the same individual.\n\nCarefully extract and preserve:\n\nFacial structure\n\nSpecies and biological traits\n\nAge appearance\n\nBody type and proportions\n\nHeight presentation\n\nHairstyle and hair color\n\nEye shape and color\n\nSkin, fur, scales, feathers, or other surface traits\n\nMarkings\n\nTattoos\n\nScars\n\nSymbols\n\nUnique identifiers\n\nClothing elements\n\nAccessories\n\nWeapons\n\nEquipment\n\nColor palette\n\nPersonality cues\n\nVisual themes\n\nBehavioral implications\n\nPowers suggested by the design\n\nEnvironmental associations\n\nAny lore implied by the character's appearance\n\nUse this analysis as the foundation for every element of the SCP document.\n\nCharacter Identity Priority Rule\n\nThe supplied Character Name should be treated as the entity's official designation within the SCP document.\n\nUse the provided name throughout:\n\nDiscovery Logs\n\nIncident Reports\n\nInterview Transcripts\n\nResearch Notes\n\nContainment Procedures\n\nAddenda\n\nAdministrative Records\n\nIf visual evidence from @image1 conflicts with assumptions normally associated with the name, always prioritize the visual evidence from @image1.\n\nDOCUMENT GENERATION OBJECTIVE\n\nRender an extremely high-quality SCP Foundation containment file documenting the character from @image1 as a newly discovered anomalous entity.\n\nThe final image should appear as a genuine SCP Foundation archive document recovered from a secured Foundation database.\n\nEverything within the file must be uniquely generated from the visual analysis of @image1.\n\nNo generic SCP entries.\n\nEvery detail should feel specifically written for this character.\n\nDOCUMENT STRUCTURE\n\nGenerate a complete SCP Foundation dossier including:\n\nSCP Designation\n\nCreate a unique SCP number.\n\nExamples:\n\nSCP-8472\n\nSCP-6194\n\nSCP-9981\n\nDo not reuse known SCP numbers.\n\nObject Class\n\nGenerate the most appropriate classification:\n\nSafe\n\nEuclid\n\nKeter\n\nThaumiel\n\nArchon\n\nApollyon\n\nTiconderoga\n\nInclude Foundation-style reasoning.\n\nThreat Assessment\n\nGenerate:\n\nThreat Level\n\nRisk Rating\n\nHazard Classification\n\nContainment Difficulty\n\nSecurity Clearance Requirement\n\nHazard Symbols\n\nSpecial Containment Procedures\n\nWrite containment procedures specifically tailored to the analyzed character.\n\nContainment should logically account for:\n\nPowers\n\nIntelligence\n\nMobility\n\nBehavior\n\nWeaknesses\n\nPsychological profile\n\nProcedures should appear professional, believable, and authentic to SCP Foundation standards.\n\nDescription\n\nProvide a comprehensive Foundation description including:\n\nPhysical appearance\n\nBiological classification\n\nSpecies\n\nObservable anomalies\n\nBehavioral tendencies\n\nPsychological profile\n\nUnique characteristics\n\nAll details must derive logically from the appearance of @image1.\n\nKnown Anomalous Abilities\n\nGenerate a detailed list of anomalous capabilities based on the analyzed design.\n\nPotential examples include:\n\nReality distortion\n\nTelepathy\n\nTemporal influence\n\nShadow manipulation\n\nRegeneration\n\nDimensional travel\n\nNecromancy\n\nEnergy projection\n\nBiological adaptation\n\nOnly include abilities appropriate for the character.\n\nDiscovery Log\n\nGenerate a believable Foundation incident report detailing:\n\nFirst known sighting\n\nDate\n\nLocation\n\nWitness accounts\n\nInitial response\n\nThe event should feel authentic to SCP lore.\n\nAcquisition Report\n\nGenerate a detailed Foundation recovery operation including:\n\nInitial encounter\n\nCapture attempts\n\nResistance encountered\n\nCasualties\n\nRecovery team actions\n\nFinal containment success\n\nInclude timestamps and official terminology.\n\nInterview Excerpts\n\nInclude one or more interview transcripts between:\n\nFoundation Research Personnel\n\nThe SCP Entity\n\nThe dialogue should reveal the entity's personality while remaining consistent with the visual analysis.\n\nIncident Reports\n\nInclude at least one:\n\nContainment breach\n\nTesting accident\n\nUnexpected anomaly manifestation\n\nSecurity incident\n\nWritten in authentic SCP Foundation style.\n\nAddendum Section\n\nInclude additional documentation such as:\n\nResearch Notes\n\nInternal Memos\n\nSecurity Warnings\n\nAdministrator Comments\n\nEthics Committee Notes\n\nRedacted Information\n\nUse realistic Foundation formatting.\n\nDOCUMENT APPEARANCE\n\nThe final image should resemble a genuine SCP Foundation archive file.\n\nInclude:\n\nSCP Foundation logo\n\nClassified markings\n\nSecurity stamps\n\nClearance labels\n\nRedacted text blocks\n\nOfficial document formatting\n\nAged paper texture\n\nPaper creases\n\nInk markings\n\nHandwritten annotations\n\nEvidence tags\n\nArchive wear\n\nCoffee stains\n\nFile numbers\n\nWarning labels\n\nApproval signatures\n\nInternal routing stamps\n\nThe document should appear physically real and professionally archived.\n\nCHARACTER PHOTO REQUIREMENT\n\nAttach a black-and-white Foundation evidence photograph of the character from @image1.\n\nRequirements:\n\nPaper-clipped to the top-left corner\n\nMonochrome\n\nHigh-detail forensic photograph\n\nSlightly aged and worn\n\nFoundation evidence style\n\nCharacter remains fully recognizable\n\nIdentity preserved perfectly\n\nSpecies preserved perfectly\n\nAnatomy preserved perfectly\n\nThe photograph should appear physically attached to the document.\n\nCHARACTER CONSISTENCY REQUIREMENTS\n\nAbsolute identity preservation.\n\nNo redesigns.\n\nNo reinterpretation.\n\nNo style substitutions.\n\nPreserve exactly:\n\nFace\n\nSpecies\n\nAnatomy\n\nBody proportions\n\nHair\n\nEyes\n\nMarkings\n\nClothing\n\nAccessories\n\nEquipment\n\nThe SCP file must document the exact character represented by @image1.\n\nVISUAL STYLE\n\nAuthentic SCP Foundation archive.\n\nTop-secret government intelligence file.\n\nForensic evidence dossier.\n\nScientific anomaly report.\n\nRecovered classified documentation.\n\nMuseum-quality physical prop.\n\nFeature-film production quality.\n\nScreen-used movie prop realism.\n\nProfessional archival presentation.\n\nRENDER QUALITY\n\nUltra-premium cinematic render with hyper-realistic visual fidelity and maximum-quality reconstruction.\n\nRe-render all visible elements with extreme micro-detail and physically accurate materials.\n\nEvery visible surface should display realistic texture information including:\n\nSkin pores\n\nFine wrinkles\n\nIndividual hair strands\n\nFabric weave patterns\n\nLeather grain\n\nMetal imperfections\n\nPaper fibers\n\nStaple scratches\n\nInk bleed\n\nTypewriter artifacts\n\nPrinter artifacts\n\nDust accumulation\n\nMoisture traces\n\nEnvironmental wear\n\nAging effects\n\nApply advanced physically based rendering (PBR) techniques including:\n\nRealistic global illumination\n\nRay-traced reflections\n\nRay-traced shadows\n\nAmbient occlusion\n\nSubsurface scattering\n\nAccurate light diffusion\n\nNatural light bounce\n\nHigh dynamic range lighting\n\nPhysically accurate material response\n\nPhotographic realism\n\nPreserve realistic material behavior for:\n\nSkin\n\nFur\n\nScales\n\nCloth\n\nMetal\n\nPlastic\n\nGlass\n\nLiquids\n\nOrganic surfaces\n\nNEGATIVE PROMPT\n\nlow quality, blurry, pixelated, low resolution, cropped, cut off, duplicate character, extra character, multiple identities, character drift, redesign, inaccurate facial features, incorrect species, malformed anatomy, bad hands, extra fingers, missing fingers, fused fingers, broken limbs, distorted proportions, stretched body, incorrect clothing, missing accessories, incorrect equipment, fake SCP document, generic SCP file, poor typography, unreadable text, floating photograph, detached photograph, colorful document, cartoon document, anime document, modern office paperwork, weak document design, missing SCP logo, oversaturated colors, watermark, artist signature, jpeg artifacts, text corruption, unfinished render, poor lighting, flat shading, unrealistic materials, weak shadows, low detail paper texture, unrealistic archive materials, sloppy formatting, low detail photograph, poor document realism",
+"likeCount": 23,
+"retweetCount": 5,
+"url": "https://x.com/NachtNovaAI/status/2068075673948946449",
+"createdAt": "Fri Jun 19 20:57:18 +0000 2026"
 },
 {
-"userName": "hey_Rumaisa",
-"text": "How to use Claude in 25 different ways:\n\n(takes 60 seconds to read, saves you 60 hours)\n\n1. Bookmark this image. You'll need it tomorrow.\n2. Full guide + prompts at: https://t.co/rYVie5P6Kx.\n3. Don't pay anything. It's free in the email.\n\n---\n\n1. ASK → Chat\n☑️ Quick questions. Quick answers.\n☑️ Don't use Cowork for \"write a good email?\"\n\n2. THINK → Opus 4.8\n☑️ The smartest model. Always switch to it.\n☑️ For deep work, complex writing & thinking.\n\n3. SPEED → Sonnet 4.6\n☑️ Faster, cheaper, still excellent.\n☑️ Use it for grammar, summaries, short answers.\n\n4. REASON → Extended Thinking\n☑️ Toggle it on for hard problems.\n☑️ Turn it off for simple ones (saves tokens).\n\n5. BUILD → Cowork\n☑️ Where serious work happens. .docx, .xlsx, .pptx.\n☑️ Point it at a folder. It works like an employee.\n\n6. SHIP → Claude Code\n☑️ For developers (and curious non-devs).\n☑️ Build websites and apps from your terminal.\n\n7. MODEL → Claude in Excel\n☑️ Install the add-in from the Excel store.\n☑️ Real formulas, real models, no copy-paste.\n\n8. SLIDES → Gamma connector\n☑️ One prompt. Full presentation. With research.\n☑️ Connect Gamma inside Claude.\n\n9. MOCKUP → Claude Design\n☑️ Go to claude .ai/design. Build websites in 1 hour.\n☑️ Upload a DESIGN .md. Export to Canva, PDF.\n\n10. BROWSE → Claude in Chrome\n☑️ A browsing agent. Reads any page for you.\n☑️ Acts inside the browser, not just talks about it.\n\n11. CLICK → Computer Use\n☑️ Settings > Turn it on.\n☑️ Claude clicks, types, browses on your Mac.\n\n12. REMOTE → Dispatch\n☑️ Connect your phone. Text a task.\n☑️ It works on your computer while you're away.\n\n13. SEARCH → Web Search\n☑️ Click the '+'. turn it on.\n☑️ It reads the live web before answering.\n\n14. INVESTIGATE → Research\n☑️ For deep multi-source reports.\n☑️ 13 minutes. 50+ sources. One markdown file.\n\n15. TRIGGER → Skills\n☑️ \"Use the skill-creator to build a skill for [task].\"\n☑️ Type /skill. It fires automatically.\n\n16. STACK → Plugins\n☑️ Cowork > Customize > Browse Plugins.\n☑️ Bundles of skills for marketing, legal, sales.\n\n17. PERSIST → Projects\n☑️ One Project per recurring deliverable.\n☑️ Upload one gold-standard example.\n\n18. AUTOMATE → Scheduled Tasks\n☑️ Every Monday at 7am, Claude runs your report.\n☑️ Set it up once. No manual work. \n\n19. CONNECT → Connectors\n☑️ Gmail, Drive, Slack, Notion, Granola, Calendar.\n☑️ 50+ apps. Claude reads, writes & acts inside.\n\n20. RENDER → Artifacts\n☑️ Side pane where Claude opens charts, docs.\n☑️ Interactive. Editable. Shareable.\n\n21. VOICE → Custom Styles\n☑️ Set \"Concise\" or build your own.\n☑️ Saves you from re-explaining your voice.\n\n22. SHARE → Team Projects\n☑️ Same Project. Whole team inside.\n☑️ Skills, files, instructions. Shared once.\n\n23. GUARD → Global Instructions\n☑️ Settings > Cowork > Global Instructions.\n☑️ Tell Claude what to always do.\n\n24. ORGANIZE → Obsidian Vault\n☑️ Free app. Opens your Cowork folder neatly.\n☑️ Edit files like Google Docs.\n\n25. BRIEF → about-me file.\n☑️ One md. file. Under 2,000 words.\n☑️ Your style, your rules, your voice\n\nFollow @hey_Rumaisa",
-"likeCount": 25,
-"retweetCount": 14,
-"url": "https://x.com/hey_Rumaisa/status/2067468260027814120",
-"createdAt": "Thu Jun 18 04:43:39 +0000 2026"
+"userName": "Jeffar_AI",
+"text": "🚀 120 Must-Know AI Tools for Work, Creativity & Growth in 2026\n\nStop wasting hours searching for the right AI tools.\n\nHere's a curated list of 120 powerful AI tools to help you create, automate, learn, and grow faster. 👇\n\n✨ Ideas & Research\n• ChatGPT\n• Claude\n• Perplexity\n• Bing Chat\n• YOU\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Building\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing & Content\n• Rytr\n• Jasper\n• https://t.co/ut4bjkEvMn\n• Text Blaze\n• Writesonic\n\n🎨 AI Models & Creation\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings & Notes\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 AI Chatbots\n• ChatGPT\n• Claude\n• Gemini\n• Poe\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/EmCnOvpM32\n\n📢 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/Wi0d6cIy5v\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\n💡 The best AI users aren't using more tools.\n\nThey're using the right tools.\n\n🔖 Save this post for later.\n\n❤️ Like if you found it useful.\n\n🔄 Repost to help others.\n\n➕ Follow @Jeffar_AI for daily AI tools, prompts, and productivity hacks.",
+"likeCount": 49,
+"retweetCount": 26,
+"url": "https://x.com/Jeffar_AI/status/2068178996412751885",
+"createdAt": "Sat Jun 20 03:47:52 +0000 2026"
 },
 {
-"userName": "ghumare64",
-"text": "30 AI projects you should build next in 2026:\n\n1. RAG Q&A App\n2. PDF Chatbot\n3. YouTube Video Summarizer\n4. AI Resume Screener\n5. AI Email Assistant\n6. Customer Support Bot\n7. AI Agent with Tool Calling\n8. Semantic Search Engine\n9. Image Classification API\n10. Invoice Data Extractor\n11. AI Meeting Notes Generator\n12. Job Application Tracker with AI\n13. LLM Evaluation Dashboard\n14. Prompt Testing Playground\n15. AI Code Review Bot\n16. Vector Database Memory App\n17. Fine-Tuned Text Classifier\n18. Deployed RAG App with FastAPI\n19. Deployed ML Model with Monitoring\n20. Full-Stack AI SaaS App\n21. AI Flashcard Generator\n22. Text-to-SQL App\n23. AI Research Paper Summarizer\n24. Voice Assistant\n25. OCR Document Extraction Tool\n26. AI Content Moderation System\n27. Recommendation Engine\n28. AI Interview Prep Bot\n29. Multi-Agent Workflow App\n30. AI Search + Answer Engine\n\nDon’t just build them.\n\nFor each project:\n→ Write a Guide\n→ Push it to GitHub\n→ Write what you learned\n→ Record a small demo\n→ Share it on X\n→ Explain the problem it solves\n→ Deploy some of them\n→ Add screenshots if possible\n→ Mention the stack you used",
-"likeCount": 55,
-"retweetCount": 13,
-"url": "https://x.com/ghumare64/status/2067549389871030458",
-"createdAt": "Thu Jun 18 10:06:02 +0000 2026"
+"userName": "vai_viswanathan",
+"text": "The robotics world model simulator wars are heating up. \n\nWEAVER is a robot manipulation world model that's fast, accurate, AND consistent.\n\n- improves the π0.5 robot foundation model's real-world success rate by 38% with zero real-world interaction, evaluates policies at 0.87 correlation with reality, and plans 5-10x faster than the prior best\n\n- multi-view transformer predicts future latents and rewards via flow matching, borrowing JEPA-style latent prediction, diffusion forcing for long horizons, a pretrained encoder for robustness, and a reward head so it can score actions without calling a slow external VLM judge.\n\n- why it matters: Synthetic rollouts from WEAVER train policies as well as real data (within 4%), and can evaluate policy success rate with a best-in-class MMRV",
+"likeCount": 49,
+"retweetCount": 10,
+"url": "https://x.com/vai_viswanathan/status/2067598093160272198",
+"createdAt": "Thu Jun 18 13:19:34 +0000 2026"
 },
 {
 "userName": "sheriyuo",
 "text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
-"likeCount": 70,
+"likeCount": 69,
 "retweetCount": 4,
 "url": "https://x.com/sheriyuo/status/2066537191497515142",
 "createdAt": "Mon Jun 15 15:03:55 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "I disagree with this decision and I don't like it.\n\nBut also...\n\nHOW DID ANTHROPIC NOT SEE THIS COMING‽\n\nIt is *the* obvious response to \"this is too dangerous for anyone except us to use\", since that relies on a premise (\"we are uniquely good\") that almost no-one agrees with.",
-"likeCount": 3224,
-"retweetCount": 208,
-"url": "https://x.com/jeremyphoward/status/2065636302205452654",
-"createdAt": "Sat Jun 13 03:24:06 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @onusoz: 16x parallel Gemma-4-26B-A4B-NVFP4 runs 🤯🤯🤯\n18 output tokens/s, aggregate 300 tok/s 🫪\n1 DGX Spark with 128 GB unified memory\n\nC…",
+"likeCount": 477,
+"retweetCount": 41,
+"url": "https://x.com/ClementDelangue/status/2068027175207330286",
+"createdAt": "Fri Jun 19 17:44:35 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
-"likeCount": 926,
+"likeCount": 927,
 "retweetCount": 16,
 "url": "https://x.com/jeremyphoward/status/2066087368139096382",
 "createdAt": "Sun Jun 14 09:16:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: Open source MUST win 🔥\n\nGLM-5.2 is free when used with Hugging Face Inference Providers and for every available provider…",
-"likeCount": 530,
-"retweetCount": 50,
-"url": "https://x.com/ClementDelangue/status/2067690734505849236",
-"createdAt": "Thu Jun 18 19:27:41 +0000 2026"
+"text": "RT @elliotarledge: I have some very big news... KernelBench-Hard with H100 and B200 (single gpu results)\n\nAND \n\nKernelBench-Mega tested on…",
+"likeCount": 114,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2068193502073086038",
+"createdAt": "Sat Jun 20 04:45:30 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @PatrickToulme: I ran GLM 5.2 with OpenCode harness against Claude Opus this week deployed locally.\n\nBottom line: It is a real frontier…",
+"likeCount": 541,
+"retweetCount": 39,
+"url": "https://x.com/ClementDelangue/status/2068167058227965956",
+"createdAt": "Sat Jun 20 03:00:26 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
-"likeCount": 2240,
-"retweetCount": 184,
+"likeCount": 2251,
+"retweetCount": 185,
 "url": "https://x.com/jeremyphoward/status/2067183659447369773",
 "createdAt": "Wed Jun 17 09:52:45 +0000 2026"
 },
 {
+"userName": "ClementDelangue",
+"text": "RT @rohanpaul_ai: The White House and Anthropic may have found the first serious path to restore Mythos and Fable access without pretending…",
+"likeCount": 192,
+"retweetCount": 25,
+"url": "https://x.com/ClementDelangue/status/2068144857185464490",
+"createdAt": "Sat Jun 20 01:32:12 +0000 2026"
+},
+{
 "userName": "jeremyphoward",
 "text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
-"likeCount": 1371,
-"retweetCount": 303,
+"likeCount": 1377,
+"retweetCount": 306,
 "url": "https://x.com/jeremyphoward/status/2066641720247492981",
 "createdAt": "Mon Jun 15 21:59:17 +0000 2026"
 },
 {
+"userName": "ClementDelangue",
+"text": "RT @Sentdex: GLM 5.2 quantized GGUFs: https://t.co/FA7KTXtCv0 GLM 5.2 on Open Router: https://t.co/BI9ua3RjGm Minion coding agent: https://…",
+"likeCount": 61,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2068144500657000604",
+"createdAt": "Sat Jun 20 01:30:47 +0000 2026"
+},
+{
 "userName": "jeremyphoward",
 "text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
-"likeCount": 2174,
+"likeCount": 2177,
 "retweetCount": 168,
 "url": "https://x.com/jeremyphoward/status/2066982338949714324",
 "createdAt": "Tue Jun 16 20:32:46 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @EricNewcomer: Soaring Costs Prompt Fresh Interest in Open Source AI. Chinese Firms Are Way Ahead. https://t.co/EufHdg5xN2",
-"likeCount": 53,
-"retweetCount": 17,
-"url": "https://x.com/ClementDelangue/status/2067329578767380843",
-"createdAt": "Wed Jun 17 19:32:35 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @EzzyMUFC: While everyone was asleep, New Zealand scored the best team goal of the tournament so far https://t.co/i5r9ZQHnvE",
+"likeCount": 49022,
+"retweetCount": 2368,
+"url": "https://x.com/jeremyphoward/status/2066984588497527055",
+"createdAt": "Tue Jun 16 20:41:43 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "BTW I've been using using @FireworksAI_HQ for inference. Other providers might not be as fast.",
-"likeCount": 188,
-"retweetCount": 8,
-"url": "https://x.com/jeremyphoward/status/2067762629087801836",
-"createdAt": "Fri Jun 19 00:13:22 +0000 2026"
+"text": "RT @xeophon: 51 is the same score as GPT-5.4 xhigh, btw. The model was released 3 months ago and frontier at the time",
+"likeCount": 529,
+"retweetCount": 22,
+"url": "https://x.com/jeremyphoward/status/2067173387143925958",
+"createdAt": "Wed Jun 17 09:11:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Let's stop doom marketing/trolling!\nhttps://t.co/dTKGgkeET0",
-"likeCount": 73,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2067316385068335366",
-"createdAt": "Wed Jun 17 18:40:09 +0000 2026"
+"text": "RT @zerohedge: API prices of key AI models: US vs China https://t.co/ZOWMxcvhK0",
+"likeCount": 585,
+"retweetCount": 108,
+"url": "https://x.com/ClementDelangue/status/2068101294506520983",
+"createdAt": "Fri Jun 19 22:39:06 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "https://t.co/bfMuDZLcIx",
-"likeCount": 112,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2067689576940933595",
-"createdAt": "Thu Jun 18 19:23:05 +0000 2026"
+"userName": "leighdunsford",
+"text": "https://t.co/ptPkvpUPsP",
+"likeCount": 29,
+"retweetCount": 4,
+"url": "https://x.com/leighdunsford/status/2067367618319900828",
+"createdAt": "Wed Jun 17 22:03:44 +0000 2026"
 },
 {
-"userName": "AIwithAliya",
-"text": "https://t.co/zVbY5nAeKT",
-"likeCount": 163,
-"retweetCount": 1,
-"url": "https://x.com/AIwithAliya/status/2067293988911231455",
-"createdAt": "Wed Jun 17 17:11:10 +0000 2026"
+"userName": "navi_Ai2",
+"text": "https://t.co/UaQCIp8BiO",
+"likeCount": 118,
+"retweetCount": 60,
+"url": "https://x.com/navi_Ai2/status/2067220143084556585",
+"createdAt": "Wed Jun 17 12:17:43 +0000 2026"
 }
 ]

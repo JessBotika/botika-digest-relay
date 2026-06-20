@@ -1,80 +1,120 @@
 [
 {
-"userName": "shushant_l",
-"text": "Most people use AI video tools. Very few know how to build a complete AI video production pipeline.\n\nThe difference between random clips and cinematic content is the workflow.\n\nHere's the complete AI video creation guide:\n\n📂 AI Video Creation\n┃\n┣ 📂 Pipeline\n┃ ┣ 📂 Idea\n┃ ┣ 📂 Script\n┃ ┣ 📂 Storyboard\n┃ ┣ 📂 Assets\n┃ ┣ 📂 Video Generation\n┃ ┣ 📂 Voice\n┃ ┣ 📂 Music\n┃ ┣ 📂 Editing\n┃ ┗ 📂 Export\n┃\n┣ 📂 Video Types\n┃ ┣ 📂 Text To Video\n┃ ┣ 📂 Image To Video\n┃ ┣ 📂 Video To Video\n┃ ┣ 📂 Audio To Video\n┃ ┣ 📂 Avatar Videos\n┃ ┣ 📂 Talking Head Videos\n┃ ┣ 📂 Character Consistency Videos\n┃ ┗ 📂 Multi Scene Films\n┃\n┣ 📂 AI Models\n┃ ┣ 📂 Veo 3.1\n┃ ┣ 📂 Sora 2\n┃ ┣ 📂 Runway Gen 4.5\n┃ ┣ 📂 Kling 3.0\n┃ ┣ 📂 Seedance 2.0\n┃ ┣ 📂 Luma Ray 3\n┃ ┣ 📂 Pika\n┃ ┣ 📂 WAN 2.6\n┃ ┗ 📂 Vidu Q2\n┃\n┣ 📂 LLMs For Creation\n┃ ┣ 📂 ChatGPT\n┃ ┃ ┣ 📂 Scripts\n┃ ┃ ┣ 📂 Shot Lists\n┃ ┃ ┣ 📂 Prompts\n┃ ┃ ┗ 📂 Storyboards\n┃ ┣ 📂 Claude\n┃ ┃ ┣ 📂 Long Scripts\n┃ ┃ ┣ 📂 Characters\n┃ ┃ ┣ 📂 Arcs\n┃ ┃ ┗ 📂 Planning\n┃ ┣ 📂 Gemini\n┃ ┃ ┣ 📂 Research\n┃ ┃ ┣ 📂 Visual Analysis\n┃ ┃ ┗ 📂 Understanding\n┃ ┗ 📂 Grok\n┃   ┣ 📂 Trends\n┃   ┣ 📂 Viral Ideas\n┃   ┗ 📂 Concepts\n┃\n┣ 📂 Creation Stack\n┃ ┣ 📂 Scripting\n┃ ┃ ┣ 📂 ChatGPT\n┃ ┃ ┣ 📂 Claude\n┃ ┃ ┗ 📂 Gemini\n┃ ┣ 📂 Storyboards\n┃ ┃ ┣ 📂 Canva\n┃ ┃ ┣ 📂 Figma\n┃ ┃ ┗ 📂 Milanote\n┃ ┣ 📂 Image Generation\n┃ ┃ ┣ 📂 Midjourney\n┃ ┃ ┣ 📂 Flux\n┃ ┃ ┣ 📂 Ideogram\n┃ ┃ ┣ 📂 Firefly\n┃ ┃ ┗ 📂 Recraft\n┃ ┣ 📂 Video Generation\n┃ ┃ ┣ 📂 Veo\n┃ ┃ ┣ 📂 Sora\n┃ ┃ ┣ 📂 Runway\n┃ ┃ ┣ 📂 Kling\n┃ ┃ ┣ 📂 Seedance\n┃ ┃ ┣ 📂 WAN\n┃ ┃ ┗ 📂 Pika\n┃ ┣ 📂 Voice\n┃ ┃ ┣ 📂 ElevenLabs\n┃ ┃ ┣ 📂 PlayHT\n┃ ┃ ┗ 📂 Cartesia\n┃ ┣ 📂 Music\n┃ ┃ ┣ 📂 Suno\n┃ ┃ ┣ 📂 Udio\n┃ ┃ ┗ 📂 Mureka\n┃ ┣ 📂 Editing\n┃ ┃ ┣ 📂 CapCut\n┃ ┃ ┣ 📂 VEED\n┃ ┃ ┣ 📂 Descript\n┃ ┃ ┗ 📂 Premiere Pro\n┃ ┗ 📂 Avatars\n┃   ┣ 📂 HeyGen\n┃   ┗ 📂 Synthesia\n┃\n┣ 📂 Video Workflows\n┃ ┣ 📂 Short Videos\n┃ ┃ ┗ 📂 ChatGPT → Script → Edit\n┃ ┣ 📂 Cinematic Films\n┃ ┃ ┗ 📂 Midjourney → Kling → Motion → Edit\n┃ ┣ 📂 AI Scenes\n┃ ┃ ┗ 📂 LLM → Veo/Sora → Runway → Premiere\n┃ ┗ 📂 Avatar Videos\n┃   ┗ 📂 Script → Voice → HeyGen → Edit\n┃\n┣ 📂 Prompt Formula\n┃ ┣ 📂 Subject\n┃ ┣ 📂 Environment\n┃ ┣ 📂 Motion\n┃ ┣ 📂 Camera\n┃ ┣ 📂 Lighting\n┃ ┣ 📂 Lens\n┃ ┣ 📂 Style\n┃ ┗ 📂 Atmosphere\n┃\n┣ 📂 Advanced Methods\n┃ ┣ 📂 Image References\n┃ ┣ 📂 Character Locking\n┃ ┣ 📂 Keyframe Generation\n┃ ┣ 📂 Camera Commands\n┃ ┣ 📂 Seed Consistency\n┃ ┣ 📂 Negative Prompts\n┃ ┣ 📂 Style Libraries\n┃ ┗ 📂 Clip Stitching\n┃\n┣ 📂 Camera Terms\n┃ ┣ 📂 Pan\n┃ ┣ 📂 Tilt\n┃ ┣ 📂 Orbit\n┃ ┣ 📂 Dolly\n┃ ┣ 📂 Push In\n┃ ┣ 📂 Crane Shot\n┃ ┣ 📂 FPV\n┃ ┗ 📂 First Person View\n┃\n┣ 📂 Open Source Stack\n┃ ┣ 📂 WAN 2.6\n┃ ┣ 📂 WAN Turbo\n┃ ┣ 📂 ComfyUI\n┃ ┣ 📂 Diffusers\n┃ ┣ 📂 LTX Video\n┃ ┗ 📂 Local GPU Pipelines\n┃\n┣ 📂 Recommended Stacks\n┃ ┣ 📂 Beginner\n┃ ┃ ┗ 📂 ChatGPT + Midjourney + Kling + CapCut\n┃ ┣ 📂 Intermediate\n┃ ┃ ┗ 📂 Claude + Flux + Runway + ElevenLabs + VEED\n┃ ┣ 📂 Advanced\n┃ ┃ ┗ 📂 ChatGPT + Veo + Sora + Runway + Suno + Premiere\n┃ ┣ 📂 Agency\n┃ ┃ ┗ 📂 Claude + Veo + HeyGen + Descript + Premiere\n┃ ┗ 📂 Filmmaker\n┃   ┗ 📂 Storyboard + Midjourney + Sora + Runway + Sound Design\n┃\n┣ 📂 Best Use Cases\n┃ ┣ 📂 Shorts\n┃ ┣ 📂 Ads\n┃ ┣ 📂 Movie Trailers\n┃ ┣ 📂 History Videos\n┃ ┣ 📂 Mythology Content\n┃ ┣ 📂 Horror Stories\n┃ ┣ 📂 Product Demos\n┃ ┣ 📂 UGC Ads\n┃ ┣ 📂 Music Videos\n┃ ┣ 📂 Educational Content\n┃ ┣ 📂 Game Cinematics\n┃ ┗ 📂 Architecture Visualizations\n┃\n┗ 📂 Future Skills\n┣ 📂 Prompt Cinematography\n┣ 📂 AI Directing\n┣ 📂 Motion Design\n┣ 📂 Character Consistency\n┣ 📂 AI Editing\n┣ 📂 Virtual Production\n┣ 📂 Multi Agent Workflows\n┗ 📂 Generative Storytelling",
-"likeCount": 48,
+"userName": "cryptobuzzer03",
+"text": "Today won't be covering any major announcements or latest updates on @injective ecosystem will be exploring what Injective ecosystem is about.\n\nHere will cover \n\n1. What's Injective ecosystem \n2. Key features that set the ecosystem \n3. Why Injective ecosystem is worth paying attention \n\nStarting with number one on my list.\n\nInjective is a high performance Layer 1 blockchain built specifically for finance. \n\nNot just another general purpose chain it's a blockchain designed around decentralized finance, real world assets, prediction markets, AI powered applications, and the future of onchain financial systems. \n\nBuilt with Cosmos SDK and powered by Tendermint Proof of Stake consensus, Injective combines speed, interoperability, and specialized financial infrastructure into one ecosystem. \n\nThe governance token powering Injective ecosystem is the $INJ token \n\nUnderstanding little intro on what Injective ecosystem is and token will lead to ask what actually set the ecosystem apart from other ecosystems.\n\nA.  A Blockchain Built For Finance \n\nMany blockchains try to become everything for everyone injective took a different approach it focused on one massive opportunity building the infrastructure for global onchain finance. \n\nInjective ecosystem built tools that's are needed for \n\n• Decentralized exchanges\n• Perpetual markets\n• Real world assets\n• Tokenized securities\n• Prediction markets\n• AI driven financial applications \n\nAnd the ecosystem keeps growing into a network of more than 200 projects building across different financial sectors and becoming a financial playground for developers \n\nB. Speed Without Sacrificing Functionality \n\nInjective delivers approximate ~0.64 second block times completing thousands of transactions per second capacity and extremely low transaction fees\n\nThese speed feature designed into Injective ecosystem is very important because financial applications requires constant interaction daily without fast execution like fast block time and low fee users might always be stuck when performing onchain activities.\n\nC. One Ecosystem, Multiple Virtual Machines \n\nOne of Injective's biggest advantages is its MultiVM architecture the problem with many blockchain ecosystems are fragmentation which Injective is solving through supporting different development environments while keeping everything connected for developers to build using CosmWasm, EVM compatibility enabling flexibility for development.\n\nD. Native On-Chain Order Book \n\nMost decentralized exchanges rely heavily on automated market makers injective introduced a native on chain order book model which helps brings structure onchain while maintaining decentralized and creates a better infrastructure for spot trading, perpetual futures and options\n\nWhy Injective Deserves Attention\n\nThe biggest opportunity in crypto may not come from creating another payment network it's been built from rebuilding finance itself and Injective ecosystem is positioning itself for the future and building around sectors traditional finance system have strength on. \n\nInjective sees there's need for a better commodity, derivative, perp, spot market onchain and designed a better infrastructure around these areas for both traditional and crypto based users to enjoy from these approach from the team makes users to keep coming and interact with the ecosystem. \n\nAlso the team added AI and the recent music IP tokenization which shows Injective ecosystem just keeps evolving and getting better at what it does which deserves good attention from users globally..\n\nOverall looking at Injective ecosystem we will understand the team have been good at one team which is continuously building amd improving the ecosystem nonstop their interest in aligning with regulatory policies always plays a key role to attract outside investors which set Injective apart both in terms of outstanding features and regulatory alignment.",
+"likeCount": 51,
+"retweetCount": 2,
+"url": "https://x.com/cryptobuzzer03/status/2067482331598741524",
+"createdAt": "Thu Jun 18 05:39:34 +0000 2026"
+},
+{
+"userName": "Alacritic_Super",
+"text": "🧠 Entropy: One of the Most Important Concepts in AI, Machine Learning, Information Theory, and Physics\n\nIf you understand entropy, you'll better understand:\n\n• Decision Trees\n• Cross Entropy Loss\n• LLM Training\n• Compression Algorithms\n• Diffusion Models\n• Statistical Physics\n• Information Theory\n\nEntropy is everywhere.\n\n---\n\nWhat is Entropy?\n\nEntropy measures uncertainty, randomness, or information content.\n\nThe more unpredictable something is, the higher its entropy.\n\nThe more predictable something is, the lower its entropy.\n\nThink of entropy as:\n\n\"How surprised would I be by the next outcome?\"\n\n---\n\nExample 1: Coin Toss\n\nFair Coin:\n\nHeads = 50%\nTails = 50%\n\nYou cannot predict the outcome.\nMaximum uncertainty.\nHigh entropy.\n\n---\n\nBiased Coin:\n\nHeads = 99%\nTails = 1%\n\nYou can almost always predict Heads.\n\nLow uncertainty.\nLow entropy.\n\n---\n\nExample 2: Language Models\n\nConsider predicting the next word:\n\n\"The sun rises in the ____\"\n\nPossible next token:\n\n• east → 95%\n• west → 3%\n• sky → 2%\n\nVery predictable.\n\nLow entropy.\n\n---\n\nNow:\n\n\"Today I dreamed about a ____\"\n\nPossible next token:\n\n• dragon\n• robot\n• elephant\n• spaceship\n• castle\n\nMany possibilities.\n\nHigher uncertainty.\nHigher entropy.\n\n---\n\nClaude Shannon's Insight\n\nIn 1948, Claude Shannon introduced information entropy.\n\nThe formula:\n\nEntropy = Expected Information Content\n\nA highly predictable event carries little information.\nA surprising event carries a lot of information.\n\n---\n\nWhy Compression Works\n\nSuppose a file contains:\nAAAAAAAAAAAAAAAAAAAA\n\nVery repetitive.\n\nLow entropy.\nEasy to compress.\n\n---\n\nSuppose a file contains:\nX7$P@9L#2W!K8Z&Q\n\nLooks random.\n\nHigh entropy.\nDifficult to compress.\n\nCompression is essentially exploiting low entropy.\n\n---\n\nEntropy in Decision Trees\n\nAlgorithms like:\n\n• ID3\n• C4.5\n• Random Forests\n\nUse entropy to determine the best split.\n\nGood splits:\n\nReduce uncertainty.\n\nBad splits:\n\nLeave uncertainty unchanged.\n\nThe objective:\n\nMaximum Information Gain.\n\n---\n\nEntropy in Deep Learning\n\nModern neural networks use:\n\nCross Entropy Loss\n\nFor:\n\n• Classification\n• Language Models\n• Transformers\n• LLMs\n\nCross entropy measures:\n\nHow different are model predictions from reality?\n\nLower cross entropy means better predictions.\n\n---\n\nEntropy in LLM Training\n\nDuring pretraining:\n\nModel\n↓\nPredict Next Token\n↓\nCompute Cross Entropy Loss\n↓\nUpdate Weights\n↓\nReduce Prediction Error\n\nEvery GPT-style model optimizes cross entropy billions of times during training.\n\n---\n\nEntropy and Temperature\n\nLLMs use temperature during generation.\n\nLow Temperature:\n\n• Lower entropy\n• More deterministic\n• More predictable\n\nHigh Temperature:\n\n• Higher entropy\n• More creative\n• More diverse\n\nTemperature directly affects uncertainty in generated text.\n\n---\n\nEntropy in Reinforcement Learning\n\nModern RL algorithms often maximize entropy.\n\nWhy?\n\nWithout entropy:\n\nAgent repeats the same actions.\n\nWith entropy:\n\nAgent explores new possibilities.\n\nExploration requires uncertainty.\n\n---\n\nEntropy in Diffusion Models\n\nDiffusion models work by:\n\nImage\n↓\nAdd Noise\n↓\nIncrease Entropy\n↓\nRandom Distribution\n\nGeneration:\n\nRandom Distribution\n↓\nRemove Noise\n↓\nDecrease Entropy\n↓\nImage\n\nThe entire process can be viewed as moving between low and high entropy states.\n\n---\n\nEntropy in Physics\n\nIn thermodynamics:\nEntropy measures disorder.\n\nLow entropy:\nIce cube.\nHighly structured.\n\n---\n\nHigh entropy:\n\nSteam.\nHighly disordered.\n\nThe second law of thermodynamics states:\nEntropy tends to increase over time.",
+"likeCount": 32,
 "retweetCount": 9,
-"url": "https://x.com/shushant_l/status/2067532808042803315",
-"createdAt": "Thu Jun 18 09:00:08 +0000 2026"
+"url": "https://x.com/Alacritic_Super/status/2067172088956539184",
+"createdAt": "Wed Jun 17 09:06:46 +0000 2026"
 },
 {
-"userName": "_xjdr",
-"text": "I've spent a lot of hours using AI for work. In fact, i'd wager i have as many hours and tokens logged as _anyone_ using AI in a professional capacity where the outcome was critical to doing my job or achieving a specific business objective. Over the last year or so, it became very clear that there were 2 major systematic risks to the way i had grown reliant on working:\n1) git and github - git is poorly suited to ai work. when you spin up multiple agents at the same time, branches and worktrees become stale, after dozens of changes and PRs, reviews diverge causing constant conflicts, repos become large and unwieldy and adrift in drity state. On top of that, cloning giant repos and setting up dev envs every time i wanted to spin up an agent became cumbersome. sure you can use docker to help but its still stale and required packaging and cloning step(s). neither git or github was designed for my new ai centric, dozens to hundreds of agents working on large repos / monorepos simultaneously, workflows. managing state and envs and conflicts and iops became a full time job.\n2) claude code and anthropic - i had grown reliant on a model and a powerful harness and on that model being trained to be an expert in that harness. I needed to be able to fine tune a model for my use cases but also have it be a master of the tools and flows of a specific harness. vertically integrating and fine tuning the model on the harness and tasks you want to accomplish is one of the most important aspects to actually being productive with these systems.\n\nWhen i took a step back to figure out how to aggressively de-risk but also how to actually be productive as a single dev managing tons of semi-supervised AI, i figured i needed to go back to the beginning.\n\nLets try to take an example from Google who has similar issues with scale and tooling and setup (albeit with human developers at least when i was there) . If you wanted to build a system that was based on their best practices to manage all those moving parts and thousands of developers working in large monorepos, how would you do it? It wouldn't just be a simple git forge, git itself is a huge part of the problem. if you were starting from scratch, you'd want to make sure you designed the system from the ground up for ai agents and workflows for the new world.\n\nWell to start, you'd make shallow virtual checkouts and clones so you never had to pull the full repo to disk and your clones would be instant. then you'd use jj to keep track of your draft state with a real jj native persistence layer and backend. You'd use sapling to create commit stacks and you'd keep all of your workspaces automatically in sync with a cloud sync system. You'd optimize this system from the ground up to make ai agents and reviewers first class citizens , you'd reduce startup time to seconds and you'd have per file ACLs so you never had agents run wild.\n\nAnd if you were going to do all of that, you'd also want to vertically integrate EVERYTHING from the model to coding harness to scm to tools to remote cloud runtimes and platforms to optimize end to end for this new world and its new workflows. \n\nSo thats what i built and i've been using it exclusively to build and run our research lab and company for the last 6 months or so. This was not only a great way to pressure test the models, tools and the workflows but it was also an interesting research project on its own. Could a single developer use AI to be productive enough to launch a real, high quality product that would normally take a team of hundreds of engineers to build, launch and operate? I suppose you will have to be the judge of how successful it ultimately was but the project as of today is ~25 million lines of code and dozens of services and automation. in my opinion it has been an overwhelming success and i cant imagine going back to working any other way.\n\nSo, today I am starting the process of making the same tools i have been using internally for the last 6 months available to all of you. this will start with the code app that i released a few days ago and access to our inference engine to power that app. soon we will announce more tools and features including access to the ncode scm and ncode platform. there will be more formal announcements about these new platforms, tools and features over the coming days / weeks as we begin rolling out access. I hope y'all find them as useful as i have.  \n\nhttps://t.co/bJmg9QPGUH",
-"likeCount": 705,
-"retweetCount": 49,
-"url": "https://x.com/_xjdr/status/2067596405162848386",
-"createdAt": "Thu Jun 18 13:12:51 +0000 2026"
+"userName": "ZaraAi56190",
+"text": "🚀 120 Must-Know AI Tools for Work, Creativity & Growth in 2026\n\nStop wasting hours searching for the right AI tools.\n\nHere's a curated list of 120 powerful AI tools to help you create, automate, learn, and grow faster. 👇\n\n✨ Ideas & Research\n• ChatGPT\n• Claude\n• Perplexity\n• Bing Chat\n• YOU\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Building\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing & Content\n• Rytr\n• Jasper\n• https://t.co/pzKb7ZTNHE\n• Text Blaze\n• Writesonic\n\n🎨 AI Models & Creation\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings & Notes\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 AI Chatbots\n• ChatGPT\n• Claude\n• Gemini\n• Poe\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/SydRKcjyPm\n\n📢 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/NF1R3vSITw\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\n💡 The best AI users aren't using more tools.\n\nThey're using the right tools.\n\n🔖 Save this post for later.\n\n❤️ Like if you found it useful.\n\n🔄 Repost to help others.\n\n➕ Follow @ZaraAi56190 for daily AI tools, prompts, and productivity hacks",
+"likeCount": 34,
+"retweetCount": 18,
+"url": "https://x.com/ZaraAi56190/status/2068211041444733330",
+"createdAt": "Sat Jun 20 05:55:12 +0000 2026"
 },
 {
-"userName": "monicaa_AI",
-"text": "Most people are still doing in hours what these 16 AI tools now do in minutes🤯\n\n1. https://t.co/OTXBbhxLNv → AI image, video & music generation\n2. https://t.co/hXJjtSkOrS → AI video and content tools for e-commerce\n3. https://t.co/CwYQNZ9ZSM → AI video and 3D generation\n4. https://t.co/bs3Wd7l375 → AI video editing & generation\n5. https://t.co/oQ7ssgSJ6l → all-in-one AI assistant (chat, PDF, image, video)\n6. https://t.co/1Xg4lXCPhV → AI video creation with character consistency\n7. https://t.co/a1t1lVL3l5 → AI image upscaling & enhancement\n8. https://t.co/YnrlhijBac → text-to-video generation\n9. https://t.co/BkNBYindWi → AI research & productivity workspace\n10. https://t.co/Bx4igheSpR → AI research paper search & summaries\n11. https://t.co/tM5Rp2pc6b → AI photo & video enhancement\n12. https://t.co/DBsHCf9X4b → AI diagnostics for digital pathology\n13. https://t.co/BqH91XdKna → AI workspace for team reports & slides\n14. https://t.co/VdIc6wIjHU → multi-model AI content creation platform\n15. https://t.co/yFVIlVkPGx → AI video style transfer & editing\n16. https://t.co/Dw0ig2qtLb → real-time AI world model for video\n\nSave this list🔖. The day you actually need one of these, you won't have time to go searching for it.",
-"likeCount": 67,
-"retweetCount": 45,
-"url": "https://x.com/monicaa_AI/status/2067584302230261923",
-"createdAt": "Thu Jun 18 12:24:46 +0000 2026"
+"userName": "Anoyroyc",
+"text": "everyone thought Midjourney was losing the AI image war.. turns out they weren't even fighting it..\n\nwhile we compared their models to DALL-E.. they were building medical scanners in liquid-filled pods..\n\nthe \"falling behind\" was cover.. David Holz wasn't tweaking diffusion models.. he was hiring radiologists and moving into stealth mode..\n\nthose \"research delays\" were FDA meetings.. the quiet months were clinical trials.. the lack of marketing was intentional..\n\nthey just got approval for real-time MRI reconstruction.. 6-hour scans into 6 minutes.. the same AI that made your anime waifus now detects cancer..\n\nthe biggest pivot in tech history happened while everyone argued about fingers and text rendering..\n\nthey let everyone image war.. so no one would notice them winning healthcare.. $4 trillion vs $40 billion..\n\nwe were watching the wrong game entirely..",
+"likeCount": 19,
+"retweetCount": 5,
+"url": "https://x.com/Anoyroyc/status/2067888281254236578",
+"createdAt": "Fri Jun 19 08:32:40 +0000 2026"
 },
 {
-"userName": "devXritesh",
-"text": "Top 10 Projects to Learn AI Development in 2026\n\n1. AI Chatbot\n   → LLM APIs, Prompt Engineering\n\n2. PDF Q&A App\n   → RAG, Vector Databases\n\n3. AI Code Reviewer\n   → LLMs, Code Analysis\n\n4. AI Resume Analyzer\n   → NLP, Structured Outputs\n\n5. AI Meeting Notes Generator\n   → Speech-to-Text + Summarization\n\n6. AI Customer Support Agent\n   → Function Calling, Tools\n\n7. AI Research Assistant\n   → Search + RAG + Citations\n\n8. AI Email Writer\n   → Prompt Engineering + Workflows\n\n9. AI Content Creation Platform\n   → Text, Image, Audio Generation\n\n10. Autonomous AI Agent\n    → Planning, Memory, Multi-Step Execution\n\nSkills you'll learn:\n• Prompt Engineering\n• RAG\n• Vector Databases\n• AI Agents\n• Function Calling\n• Structured Outputs\n• LLM Evaluation\n• Production Deployment\n\nBuild these 10 projects and you'll know more AI engineering than most tutorial watchers.",
-"likeCount": 63,
-"retweetCount": 8,
-"url": "https://x.com/devXritesh/status/2067514121441116236",
-"createdAt": "Thu Jun 18 07:45:53 +0000 2026"
+"userName": "SpatialBiggs",
+"text": "Unreal Engine 6 blueprint deprecation is devastating news. \n\nWhile it is tough to argue against AI for rapid code generation, the access BP gave Technical Designers and Technical Artists to make magic isn't being acknowledged enough.\n\nThe likes of Expedition 33 prove how small teams can make amazing things in blueprint.\n\nVery sad news personally as I am unsure of my own tech in blueprint having a future outside of UE5 era. That is a very long time of work suddenly deprecating.\n\nAfter release, evaluation will start on the path forward for future titles testing UE6 and Godot.\n\nHopefully we can somehow convert our blueprint systems in a decent fashion... I'll likely be sharing this attempt once we get a stable UE6 to test the UE5 conversion on and move from there.",
+"likeCount": 327,
+"retweetCount": 23,
+"url": "https://x.com/SpatialBiggs/status/2067547569052393944",
+"createdAt": "Thu Jun 18 09:58:48 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "Wow.\n\n@Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and not too verbose.\n\nIt responds with nuance and judgement, &amp; handles long context VERY well.\n\nI've never experienced an open weights model like this before.",
-"likeCount": 3663,
-"retweetCount": 243,
-"url": "https://x.com/jeremyphoward/status/2067757468189679764",
-"createdAt": "Thu Jun 18 23:52:52 +0000 2026"
+"userName": "Kikispams",
+"text": "🙂‍↕️ @BR4ted called it first\n\nan upcoming nft you should position for is @Frag_Growth\n\nfragments of growth is a project by @jenyavyguzov, a fashion photographer and artist who has been building a visual diary for the past 10 years.\n\nhis work has been featured in vogue, gq style, tatler, elle, l’officiel, and in campaigns for puma, ikea, and davines.\n\neach petal is assembled from years of experiences, with textures photographed across streets, walls, and surfaces, caught in passing light.\n\nthis is not generative ai.\n\nthis is a decade of art, taken, broken down, reshaped, and layered into flowers by hand. 🌸",
+"likeCount": 28,
+"retweetCount": 2,
+"url": "https://x.com/Kikispams/status/2067507689190535367",
+"createdAt": "Thu Jun 18 07:20:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "The one big gap is that it is blind - it can't handle images at all.\n\nIf they fix that, then perhaps this could become the best available model in the world.",
-"likeCount": 262,
-"retweetCount": 7,
+"likeCount": 473,
+"retweetCount": 10,
 "url": "https://x.com/jeremyphoward/status/2067757470253244580",
 "createdAt": "Thu Jun 18 23:52:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @jeremyphoward: Wow.\n\n@Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and…",
-"likeCount": 3663,
-"retweetCount": 243,
-"url": "https://x.com/ClementDelangue/status/2067768871721865536",
-"createdAt": "Fri Jun 19 00:38:10 +0000 2026"
+"text": "RT @VikParuchuri: We're open sourcing a 9B model that extracts structured data from documents at near-frontier performance.\n\n- 90.2% on our…",
+"likeCount": 2594,
+"retweetCount": 232,
+"url": "https://x.com/ClementDelangue/status/2067998762715300308",
+"createdAt": "Fri Jun 19 15:51:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @kimmonismus: All the major news outlets agree: The biggest winner in the Anthropic controversy is open source.\n\nAnd I wholeheartedly ag…",
-"likeCount": 604,
-"retweetCount": 56,
-"url": "https://x.com/ClementDelangue/status/2067352606163312984",
-"createdAt": "Wed Jun 17 21:04:05 +0000 2026"
+"text": "RT @gneubig: OK, I tried GLM-5.2 and this is a good model.\n\nProbably the first model good enough to eschew closed models from your workflow…",
+"likeCount": 357,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2068018850558316628",
+"createdAt": "Fri Jun 19 17:11:30 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Thom_Wolf: To all the newcomers excited to try Opus 4.8-level models at home: welcome to OpenWeightLand!\n\nThings work a little differen…",
+"likeCount": 99,
+"retweetCount": 19,
+"url": "https://x.com/ClementDelangue/status/2068002766715289881",
+"createdAt": "Fri Jun 19 16:07:35 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @matvelloso: All day using GLM 5.2. Didn't miss much. First open model that passes the bar as a daily driver. Things are not going to be…",
+"likeCount": 848,
+"retweetCount": 30,
+"url": "https://x.com/ClementDelangue/status/2068021849053708522",
+"createdAt": "Fri Jun 19 17:23:25 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @0xSero: Makes my heart melt to see people riffing off my ideas, the RTX Pro 6000 community has been working for 3 days now to make my R…",
+"likeCount": 115,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2068060181838106925",
+"createdAt": "Fri Jun 19 19:55:44 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @hallerite: GLM5.2 brings back the critic.\n\nIt was just a matter of time until we people would realize that group-based variance reducti…",
-"likeCount": 587,
-"retweetCount": 39,
-"url": "https://x.com/jeremyphoward/status/2067184187065680354",
-"createdAt": "Wed Jun 17 09:54:51 +0000 2026"
+"text": "RT @ArtificialAnlys: Announcing AA-Briefcase, the benchmark for the next era of agentic knowledge work\n\nAA-Briefcase is our new benchmark f…",
+"likeCount": 781,
+"retweetCount": 64,
+"url": "https://x.com/jeremyphoward/status/2067758199667864057",
+"createdAt": "Thu Jun 18 23:55:46 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @elliotarledge: KernelBench-Hard and KernelBench-Mega results are in. Reasoning traces are open. Thanks to @calebfahlgren for showing me…",
+"likeCount": 43,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2068166969237336082",
+"createdAt": "Sat Jun 20 03:00:04 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @natolambert: It's hard to pinpoint open-closed gap and so-on, but I trust the @arena team and just look where GLM 5.2 is on this. An MI…",
-"likeCount": 369,
+"likeCount": 371,
 "retweetCount": 33,
 "url": "https://x.com/jeremyphoward/status/2066984201443070228",
 "createdAt": "Tue Jun 16 20:40:10 +0000 2026"
@@ -82,41 +122,33 @@
 {
 "userName": "jeremyphoward",
 "text": "RT @Promiseudo1311: NESTORY IRANKUNDA  27'  \n\nAustralia 🇦🇺 1 - 0 🇹🇷 Türkiye #FIFA #WC https://t.co/VF9RxOtDm6",
-"likeCount": 15336,
-"retweetCount": 643,
+"likeCount": 15327,
+"retweetCount": 641,
 "url": "https://x.com/jeremyphoward/status/2066092682594926817",
 "createdAt": "Sun Jun 14 09:37:36 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @Sentdex: SITUATION DETECTED: Unsloth quants for GLM 5.2 are landing. https://t.co/OkiT2tiqAQ",
-"likeCount": 762,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2067328183314125205",
-"createdAt": "Wed Jun 17 19:27:02 +0000 2026"
-},
-{
 "userName": "jeremyphoward",
-"text": "I decided to do a little experiment:\nhttps://t.co/zKQBIoFQ1S",
-"likeCount": 74,
-"retweetCount": 2,
-"url": "https://x.com/jeremyphoward/status/2065650426075337034",
-"createdAt": "Sat Jun 13 04:20:14 +0000 2026"
+"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
+"likeCount": 938,
+"retweetCount": 71,
+"url": "https://x.com/jeremyphoward/status/2066642471887753288",
+"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
 },
 {
-"userName": "dappermarketer",
-"text": "https://t.co/LE5Z5XCVuh",
-"likeCount": 103,
-"retweetCount": 14,
-"url": "https://x.com/dappermarketer/status/2067229423166751200",
-"createdAt": "Wed Jun 17 12:54:36 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @elliotarledge: post coming shortly https://t.co/q8XKsFgBrG",
+"likeCount": 137,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2068193132970193117",
+"createdAt": "Sat Jun 20 04:44:02 +0000 2026"
 },
 {
-"userName": "sairahul1",
-"text": "https://t.co/6qmUhlYMBw",
-"likeCount": 537,
-"retweetCount": 90,
-"url": "https://x.com/sairahul1/status/2067171101978071501",
-"createdAt": "Wed Jun 17 09:02:51 +0000 2026"
+"userName": "AIwithAliya",
+"text": "https://t.co/zVbY5nAeKT",
+"likeCount": 163,
+"retweetCount": 1,
+"url": "https://x.com/AIwithAliya/status/2067293988911231455",
+"createdAt": "Wed Jun 17 17:11:10 +0000 2026"
 }
 ]
