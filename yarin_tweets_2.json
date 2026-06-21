@@ -1,146 +1,154 @@
 [
 {
-"userName": "NachtNovaAI",
-"text": "⚠️New prototype prompt\n\nBased on the SCP organization \nThis prompt makes a full document as if your avi is an anomaly in SCP containment.\n\nExamples are @The_Rebel_Corp and my avi\n\n⚠️Prompt👇\n\nCHARACTER INFORMATION\n\nCharacter Name: ENTER NAME HERE\n\nDEEP ANALYSIS PHASE\n\nDeeply analyze @image1 and identify the character represented.\n\nImportant Identity Rule\n\n@image1 represents a single character's true identity even if the image contains:\n\nMultiple poses\n\nMultiple outfits\n\nCharacter reference sheets\n\nExpression sheets\n\nTurnarounds\n\nFront / Side / Back views\n\nAlternate costumes\n\nEquipment breakdowns\n\nMultiple duplicated bodies\n\nCharacter design notes\n\nEvery visible depiction represents the same individual.\n\nCarefully extract and preserve:\n\nFacial structure\n\nSpecies and biological traits\n\nAge appearance\n\nBody type and proportions\n\nHeight presentation\n\nHairstyle and hair color\n\nEye shape and color\n\nSkin, fur, scales, feathers, or other surface traits\n\nMarkings\n\nTattoos\n\nScars\n\nSymbols\n\nUnique identifiers\n\nClothing elements\n\nAccessories\n\nWeapons\n\nEquipment\n\nColor palette\n\nPersonality cues\n\nVisual themes\n\nBehavioral implications\n\nPowers suggested by the design\n\nEnvironmental associations\n\nAny lore implied by the character's appearance\n\nUse this analysis as the foundation for every element of the SCP document.\n\nCharacter Identity Priority Rule\n\nThe supplied Character Name should be treated as the entity's official designation within the SCP document.\n\nUse the provided name throughout:\n\nDiscovery Logs\n\nIncident Reports\n\nInterview Transcripts\n\nResearch Notes\n\nContainment Procedures\n\nAddenda\n\nAdministrative Records\n\nIf visual evidence from @image1 conflicts with assumptions normally associated with the name, always prioritize the visual evidence from @image1.\n\nDOCUMENT GENERATION OBJECTIVE\n\nRender an extremely high-quality SCP Foundation containment file documenting the character from @image1 as a newly discovered anomalous entity.\n\nThe final image should appear as a genuine SCP Foundation archive document recovered from a secured Foundation database.\n\nEverything within the file must be uniquely generated from the visual analysis of @image1.\n\nNo generic SCP entries.\n\nEvery detail should feel specifically written for this character.\n\nDOCUMENT STRUCTURE\n\nGenerate a complete SCP Foundation dossier including:\n\nSCP Designation\n\nCreate a unique SCP number.\n\nExamples:\n\nSCP-8472\n\nSCP-6194\n\nSCP-9981\n\nDo not reuse known SCP numbers.\n\nObject Class\n\nGenerate the most appropriate classification:\n\nSafe\n\nEuclid\n\nKeter\n\nThaumiel\n\nArchon\n\nApollyon\n\nTiconderoga\n\nInclude Foundation-style reasoning.\n\nThreat Assessment\n\nGenerate:\n\nThreat Level\n\nRisk Rating\n\nHazard Classification\n\nContainment Difficulty\n\nSecurity Clearance Requirement\n\nHazard Symbols\n\nSpecial Containment Procedures\n\nWrite containment procedures specifically tailored to the analyzed character.\n\nContainment should logically account for:\n\nPowers\n\nIntelligence\n\nMobility\n\nBehavior\n\nWeaknesses\n\nPsychological profile\n\nProcedures should appear professional, believable, and authentic to SCP Foundation standards.\n\nDescription\n\nProvide a comprehensive Foundation description including:\n\nPhysical appearance\n\nBiological classification\n\nSpecies\n\nObservable anomalies\n\nBehavioral tendencies\n\nPsychological profile\n\nUnique characteristics\n\nAll details must derive logically from the appearance of @image1.\n\nKnown Anomalous Abilities\n\nGenerate a detailed list of anomalous capabilities based on the analyzed design.\n\nPotential examples include:\n\nReality distortion\n\nTelepathy\n\nTemporal influence\n\nShadow manipulation\n\nRegeneration\n\nDimensional travel\n\nNecromancy\n\nEnergy projection\n\nBiological adaptation\n\nOnly include abilities appropriate for the character.\n\nDiscovery Log\n\nGenerate a believable Foundation incident report detailing:\n\nFirst known sighting\n\nDate\n\nLocation\n\nWitness accounts\n\nInitial response\n\nThe event should feel authentic to SCP lore.\n\nAcquisition Report\n\nGenerate a detailed Foundation recovery operation including:\n\nInitial encounter\n\nCapture attempts\n\nResistance encountered\n\nCasualties\n\nRecovery team actions\n\nFinal containment success\n\nInclude timestamps and official terminology.\n\nInterview Excerpts\n\nInclude one or more interview transcripts between:\n\nFoundation Research Personnel\n\nThe SCP Entity\n\nThe dialogue should reveal the entity's personality while remaining consistent with the visual analysis.\n\nIncident Reports\n\nInclude at least one:\n\nContainment breach\n\nTesting accident\n\nUnexpected anomaly manifestation\n\nSecurity incident\n\nWritten in authentic SCP Foundation style.\n\nAddendum Section\n\nInclude additional documentation such as:\n\nResearch Notes\n\nInternal Memos\n\nSecurity Warnings\n\nAdministrator Comments\n\nEthics Committee Notes\n\nRedacted Information\n\nUse realistic Foundation formatting.\n\nDOCUMENT APPEARANCE\n\nThe final image should resemble a genuine SCP Foundation archive file.\n\nInclude:\n\nSCP Foundation logo\n\nClassified markings\n\nSecurity stamps\n\nClearance labels\n\nRedacted text blocks\n\nOfficial document formatting\n\nAged paper texture\n\nPaper creases\n\nInk markings\n\nHandwritten annotations\n\nEvidence tags\n\nArchive wear\n\nCoffee stains\n\nFile numbers\n\nWarning labels\n\nApproval signatures\n\nInternal routing stamps\n\nThe document should appear physically real and professionally archived.\n\nCHARACTER PHOTO REQUIREMENT\n\nAttach a black-and-white Foundation evidence photograph of the character from @image1.\n\nRequirements:\n\nPaper-clipped to the top-left corner\n\nMonochrome\n\nHigh-detail forensic photograph\n\nSlightly aged and worn\n\nFoundation evidence style\n\nCharacter remains fully recognizable\n\nIdentity preserved perfectly\n\nSpecies preserved perfectly\n\nAnatomy preserved perfectly\n\nThe photograph should appear physically attached to the document.\n\nCHARACTER CONSISTENCY REQUIREMENTS\n\nAbsolute identity preservation.\n\nNo redesigns.\n\nNo reinterpretation.\n\nNo style substitutions.\n\nPreserve exactly:\n\nFace\n\nSpecies\n\nAnatomy\n\nBody proportions\n\nHair\n\nEyes\n\nMarkings\n\nClothing\n\nAccessories\n\nEquipment\n\nThe SCP file must document the exact character represented by @image1.\n\nVISUAL STYLE\n\nAuthentic SCP Foundation archive.\n\nTop-secret government intelligence file.\n\nForensic evidence dossier.\n\nScientific anomaly report.\n\nRecovered classified documentation.\n\nMuseum-quality physical prop.\n\nFeature-film production quality.\n\nScreen-used movie prop realism.\n\nProfessional archival presentation.\n\nRENDER QUALITY\n\nUltra-premium cinematic render with hyper-realistic visual fidelity and maximum-quality reconstruction.\n\nRe-render all visible elements with extreme micro-detail and physically accurate materials.\n\nEvery visible surface should display realistic texture information including:\n\nSkin pores\n\nFine wrinkles\n\nIndividual hair strands\n\nFabric weave patterns\n\nLeather grain\n\nMetal imperfections\n\nPaper fibers\n\nStaple scratches\n\nInk bleed\n\nTypewriter artifacts\n\nPrinter artifacts\n\nDust accumulation\n\nMoisture traces\n\nEnvironmental wear\n\nAging effects\n\nApply advanced physically based rendering (PBR) techniques including:\n\nRealistic global illumination\n\nRay-traced reflections\n\nRay-traced shadows\n\nAmbient occlusion\n\nSubsurface scattering\n\nAccurate light diffusion\n\nNatural light bounce\n\nHigh dynamic range lighting\n\nPhysically accurate material response\n\nPhotographic realism\n\nPreserve realistic material behavior for:\n\nSkin\n\nFur\n\nScales\n\nCloth\n\nMetal\n\nPlastic\n\nGlass\n\nLiquids\n\nOrganic surfaces\n\nNEGATIVE PROMPT\n\nlow quality, blurry, pixelated, low resolution, cropped, cut off, duplicate character, extra character, multiple identities, character drift, redesign, inaccurate facial features, incorrect species, malformed anatomy, bad hands, extra fingers, missing fingers, fused fingers, broken limbs, distorted proportions, stretched body, incorrect clothing, missing accessories, incorrect equipment, fake SCP document, generic SCP file, poor typography, unreadable text, floating photograph, detached photograph, colorful document, cartoon document, anime document, modern office paperwork, weak document design, missing SCP logo, oversaturated colors, watermark, artist signature, jpeg artifacts, text corruption, unfinished render, poor lighting, flat shading, unrealistic materials, weak shadows, low detail paper texture, unrealistic archive materials, sloppy formatting, low detail photograph, poor document realism",
-"likeCount": 23,
+"userName": "realBruceSnyder",
+"text": "TITLE: Generation X: We Were There for All of It\nFrom Rabbit Ears to AI\n\nI was born in May of 1969 and graduated high school in 1987, which means I got a front-row seat to one of the greatest cultural transitions in modern history.\n\nI grew up in a suburb of Cleveland, Ohio, in a world that still had rabbit ears on televisions, handwritten notes, black-and-white screens, muscle cars, paper routes, corner gas stations, 8-track tapes, cassette players, arcades, malls, and kids who were told to go outside and come home when the streetlights came on.\n\nAnd now here we are, living in a world of smartphones, streaming, social media, artificial intelligence, and technology moving so fast most people can barely keep up with it.\n\nGeneration X was there for all of it.\n\nWe were born into an analog world. A world where you had to get up and turn the knob on the TV. A world where your dad might tell you to adjust the rabbit ears, and when the picture finally came in clear, he would say, “Stand there for a while and hold it.” And we did. Because that was just life.\n\nWe had console TVs, black-and-white TVs, and only a handful of channels. We did not scroll through thousands of options. We watched what was on. If you missed your show, you missed it. There was no replay button, no streaming, no pause, no rewind unless you had a VCR later on and remembered to set the timer right.\n\nFamily vacations were different too. I remember those old vans from the late 70s and early 80s, the kind with the beds, bucket seats, TVs, and that full rolling living room feel. My dad would play 8-track tapes while we drove for hours. Kenny Rogers, The Gambler, Dolly Parton, all of it playing inside that van for what felt like twelve straight hours. And somehow, that was part of the magic.\n\nWe were latchkey kids before anybody turned it into a label. A lot of us came home from school to an empty house because both parents were working. We let ourselves in, made something to eat, watched TV, went outside, did our homework if we felt like being responsible, and waited for our parents to get home. There was trust back then. Maybe not perfect trust, but real trust. Parents expected you to use your head. They expected you to survive a few hours without constant supervision.\n\nI can remember being nine or ten years old and walking to the Sunoco gas station on the corner of my street. My mother smoked back then, though she does not anymore, and she would send me with a couple dollars and a note. The note would say something like, “This is Bruce’s mom. Please sell him a pack of Winstons.” And the cashier knew us. He knew the family. He knew the neighborhood. So he sold them to me, and I walked back home.\n\nToday, people would lose their minds over something like that. But back then, that was the world we lived in. The neighborhood had a kind of common sense to it. People knew each other. Kids were trusted with small responsibilities. We were sent on errands. We walked places. We figured things out. And somehow, without tracking apps, cell phones, cameras, or constant hovering, most of us made it home just fine.\n\nWe drank out of hoses. We rolled around in dirt. We accidentally ate dirt once in a while and survived. We rode bikes all over the neighborhood. Our parents did not panic if they could not see us every second of the day. They kicked us outside and said, “Come back when the streetlights come on.” And we did.\n\nThat kind of freedom built something in us.\n\nIt also taught us how to work. I started cutting grass and shoveling driveways when I was still a kid. I had customers every summer. I had paper routes. At one point, I had two paper routes. I had money in my pocket because I earned it. I did not need a handout, and I was proud of that.\n\nThat is another thing about Generation X that sometimes gets overlooked. We were free, but we were also expected to be responsible. Nobody was handing us everything. We learned early how to work, earn, save, and stand on our own two feet. We bought our own things. We saved for cars. We paid for concerts. We spent our money on gas, music, dates, weekends, and whatever freedom looked like at the time.\n\nAnd then came the 80s.\n\nFor me, the 80s were magical. I loved everything about them. The colors. The fashion. The music. The movies. The cars. The attitude. The birth of cable television. The birth of MTV. The glitz, the glamour, the hair, the lights, the energy. It was larger than life.\n\nMiami Vice was huge for me. Still to this day, it is my favorite show. The look, the music, the style, the whole feeling of it captured something about that era that is hard to explain to someone who did not live through it.\n\nThe malls were incredible. The arcades were incredible. You could walk through a mall and feel like the whole world was alive. Music was playing. Teenagers were everywhere. Stores had personality. People were actually looking at each other, talking to each other, flirting with each other, bumping into friends, making plans, killing time, and living life in real space.\n\nThen there were the arcades. The sound of those machines, the quarters lined up, the lights flashing, the competition, the crowd around a game when somebody was good. That was our version of online gaming, except we were standing next to each other. You had to look people in the eye. You had to talk. You had to be there.\n\nMusic was everything. I became a rock and roll metalhead guy. I went to concerts constantly. Back then, there might be one or two concerts a week, and you could actually afford to go. Tickets were fifteen or twenty dollars. That sounds impossible now, but it was real. I saw Metallica. I saw Ozzy. I saw so many bands. The concert scene back then was unbelievable.\n\nAnd the cars. Man, the cars.\n\nMy first car was a 1972 Cutlass Supreme with a 350 four-barrel, a racing stripe, bucket seats, white leather interior, raised white letters on the tires, and Cragar rims. That was cool. Back then, a lot of my friends had muscle cars or souped-up cars. Cars were part of your identity. They were freedom. They were status. They were how you got around, how you picked up your friends, how you took a girl out, how you showed a little personality before social media ever existed.\n\nAnd yes, the girls loved it.\n\nThat was part of the time too. Flirting was different. Dating was different. Social life was different. It was face to face. It was awkward sometimes. It was funny sometimes. It was nervous, bold, embarrassing, exciting, and real. Boys chased girls. Girls flirted back. We learned how to talk to each other, how to read a room, how to take a chance, and how to handle rejection without making a public spectacle out of it.\n\nToday, so much of that has been replaced by screens, suspicion, social media performance, and people being angry about almost everything. I am not saying everything back then was perfect. It was not. But I am saying something about it was deeply alive.\n\nThat is one of the things I miss most.\n\nI met my high school sweetheart in the 80s. She went to the local public high school, and I went to the local Catholic school. I only went to that Catholic school because they had a superior hockey team. But my sister went to the public school, and that is how I was introduced to the girl who would one day become my wife.\n\nThat alone feels like something from another world now.\n\nWe passed notes through my sister. I would write a note, give it to my sister, and she would take it to school. Then she would come home with a note from her. There was anticipation in that. You had to wait. You had to wonder. You had to put thought into what you wrote. There was no instant reply, no typing dots, no read receipt, no social media stalking. Just a note, a little hope, and the wait.\n\nI miss that.\n\nThere was something magical about courtship back then. You had to make an effort. You had to call the house phone and hope her father did not answer. You had to show up. You had to drive over. You had to talk. You had to risk being nervous. There was no hiding behind a screen.\n\nOne of the memories I will carry with me forever happened in November of 1987, not long after I started dating the girl who would become my wife. Our first concert together was Bon Jovi on the Slippery When Wet tour, with Cinderella opening up. That night, I fell in love with Cinderella too. Tom Keifer walked out there with that voice, that grit, that whole 80s rock and roll attitude, and I was hooked. But more than anything, that was the night I think I truly knew I was falling in love with her.\n\nShe looked like she had stepped straight out of an MTV video. Bleached blonde hair, black boots, leopard spandex pants, pure 80s attitude and beauty. She had that look, that confidence, that spark. She was the kind of girl you did not forget. We were young, the music was loud, the lights were bright, and for a few hours, the world felt like it belonged to us.\n\nThen Bon Jovi finished the show and warned everybody to be careful going home because it was bad outside. We walked out and Cleveland was buried in a blizzard. What should have been a thirty-minute drive turned into almost four hours.\n\nTo make it even better, I got a flat tire coming out of the parking lot. I had no gloves, my hands were freezing, and there I was trying to change a tire in the middle of a snowstorm. So my girlfriend, who would one day become my wife, handed me her leopard spandex pants so I could wrap them around my hands and grip the tire iron.\n\nThat is the kind of thing you never forget.\n\nWe finally made it home around four in the morning, and my father was sitting in his chair waiting for me, mad as could be. Looking back now, I can laugh about it. At the time, it was just another wild, unforgettable night in the 80s.\n\nThat was the magic of that era. The music, the weather, the cars, the clothes, the danger, the laughter, the love. Nothing was convenient, but everything felt alive.\n\nRight out of high school, and even during my senior year, I threw some legendary parties. Some of the best nights of my life were not planned by an algorithm, promoted by an app, or captured for social media. They happened in garages, basements, driveways, and backyards.\n\nWe would stay up late in the garage, a bunch of friends laughing, drinking, telling stories, and playing air guitar on hockey sticks like we were on stage in front of thousands. In somebody’s basement, there might be neon posters on the wall, lava lamps glowing in the corner, and a stereo pushing Pink Floyd or Led Zeppelin through the room. That was enough.\n\nWe did not need much more than music, friends, a weekend, and a place to gather.\n\nI do not look back on those nights as something dark or shameful. They were real. They were part of growing up in that time. We gathered, we laughed, we listened to music, we had a few drinks, we flirted, we acted young, and then Monday morning came. We got up, went to work, and did what we had to do.\n\nThat was part of the code. You could have a legendary Saturday night and still show up Monday morning. We worked hard. We played hard. We understood that life had a rhythm.\n\nWe were not fragile. We were not helpless. We were learning how to become adults in a world that expected us to figure things out.\n\nThat is why I say Generation X was built different.\n\nWe saw the old world before it disappeared. We saw the birth of cable television. We saw MTV change music forever. We saw video games go from Pong to Atari to everything that came after. We saw 8-tracks fade into cassettes, cassettes fade into CDs, CDs fade into downloads, and downloads fade into streaming. We saw landlines give way to cell phones, cell phones give way to smartphones, and smartphones turn into the center of modern life.\n\nWe saw the internet arrive. We saw social media change everything. And now we are watching artificial intelligence step onto the world stage.\n\nThat is a rare thing in history.\n\nThere are younger people today who will never know what it was like to grow up without a phone in their hand. They will never know what it felt like to wait for a song to come on the radio so you could hit record on a cassette player. They will never know what it felt like to stand in a video store on a Friday night trying to pick the perfect movie. They will never know what it felt like to call a girl’s house and have to speak respectfully to whoever answered the phone.\n\nThey will never know what it felt like to be unreachable for a few hours and have that be normal.\n\nI do not say that with hatred toward the younger generation. I say it with sadness, because there was something valuable in that kind of life. There was a kind of freedom that cannot be downloaded. There was a kind of connection that cannot be replaced by likes, comments, and notifications.\n\nAt the same time, I am not blind to the good that exists today.\n\nTechnology has brought incredible things into our lives. It has allowed people to create, connect, learn, build businesses, share stories, and reach audiences they never could have reached before. I know that personally, because I am living it now.\n\nI went to broadcasting and television production school around 1990 and graduated at the top of my class. My dream was always to work in broadcasting, television, and film. I wanted to produce, direct, write, create, and tell stories. Over the years, I got to work in a lot of those areas. I produced. I directed. I wrote. I worked live events, sports, concerts, and different forms of media.\n\nBut like a lot of people, life did not move in a straight line.\n\nNow, all these years later, I find myself standing at the edge of the dream I carried for most of my life. I may be a late bloomer, but I am still blooming. The same technology that has changed the world so dramatically is now allowing me to do things I could not have done back then. It has given me tools, reach, creative power, and a real community of people online who support what I am building. That part of this new world is beautiful.\n\nI do not hate technology. I do not fear artificial intelligence. I have lived from rabbit ears to AI, and I see both sides of it. I know what we lost, but I also see what can still be gained. I am writing about AI now because I believe it can be used for good. I believe it can help people create, think, learn, communicate, and build things that matter.\n\nLike anything else, it depends on the heart and mind of the person using it.\n\nI have lived through a lot. I lost my best friend in 1992, just months before my wedding. He was supposed to be my best man, but he died in a car accident while at Akron University. I lost my younger sister when she was still in her early thirties. That was not supposed to happen. And then I lost my wife, my high school sweetheart, the girl from those handwritten notes and that Bon Jovi concert, a little over four years ago.\n\nI have also walked through addiction, alcoholism, drugs, trouble with the law, rehabs, failures, grief, shame, and years of trying to find my way back. I have been to hell and back. But by the grace of God, I am still here.\n\nI do not hide from my past. I am not ashamed of what I overcame. I am grateful. God carried me when I could not carry myself, and He gave me another day.\n\nSo when I look at this new world, I do not look at it as a defeated man. I look at it as someone who has been through enough to know what matters. I have seen the old world. I have survived the hard parts of this one. And as long as I have breath in my lungs, I am going to use whatever tools God puts in my hands to put good into the world.\n\nGeneration X was there for all of it.\n\nWe were there for rabbit ears, black-and-white TVs, 8-tracks, cassettes, Atari, arcades, MTV, malls, muscle cars, handwritten love notes, pay phones, cable television, the internet, smartphones, social media, and now artificial intelligence.\n\nWe were the last kids of the old world and the first adults of the new one.\n\nAnd now, after everything I have lived through, I am still here.\n\nStill creating.\n\nStill believing.\n\nStill using my voice.\n\nStill putting good into the world.\n\nWritten by Bruce Snyder\nFounder, Mindfix Entertainment",
+"likeCount": 54,
 "retweetCount": 5,
-"url": "https://x.com/NachtNovaAI/status/2068075673948946449",
-"createdAt": "Fri Jun 19 20:57:18 +0000 2026"
+"url": "https://x.com/realBruceSnyder/status/2068053176557719804",
+"createdAt": "Fri Jun 19 19:27:54 +0000 2026"
 },
 {
-"userName": "Jeffar_AI",
-"text": "🚀 120 Must-Know AI Tools for Work, Creativity & Growth in 2026\n\nStop wasting hours searching for the right AI tools.\n\nHere's a curated list of 120 powerful AI tools to help you create, automate, learn, and grow faster. 👇\n\n✨ Ideas & Research\n• ChatGPT\n• Claude\n• Perplexity\n• Bing Chat\n• YOU\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Building\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing & Content\n• Rytr\n• Jasper\n• https://t.co/ut4bjkEvMn\n• Text Blaze\n• Writesonic\n\n🎨 AI Models & Creation\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings & Notes\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 AI Chatbots\n• ChatGPT\n• Claude\n• Gemini\n• Poe\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/EmCnOvpM32\n\n📢 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/Wi0d6cIy5v\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\n💡 The best AI users aren't using more tools.\n\nThey're using the right tools.\n\n🔖 Save this post for later.\n\n❤️ Like if you found it useful.\n\n🔄 Repost to help others.\n\n➕ Follow @Jeffar_AI for daily AI tools, prompts, and productivity hacks.",
-"likeCount": 49,
-"retweetCount": 26,
-"url": "https://x.com/Jeffar_AI/status/2068178996412751885",
-"createdAt": "Sat Jun 20 03:47:52 +0000 2026"
+"userName": "Rakib_Web3",
+"text": "hermes v0.17.0 just made every paid agent tool look silly\n\niMessage native,whatsapp official,background workers,image editing\n\nand this is totally free.\n\nnous research just dropped the biggest hermes agent release yet.\n\nv0.17.0 \"the reach release\" 800+ PRs, 245 contributors, 1,475 commits, 198k github stars.\n\none release that does more than most paid tools do in a year.\n\nimessage. no mac required.\n> run: hermes photon login\n> done. your agent can text anyone with an iphone.\n> no bluebubbles. no relay. no hack.\n\nwhatsapp. official. no bridge.\n> whatsapp business cloud api native support\n> not some qr-code bridge that breaks every month\n\nbackground subagents. no babysitting.\n> delegate_task(background=true)\n> spawn a research agent, walk away, it reports back later\n> you keep working. the agent works for you.\n\nimage editing. with words.\n> image_generate now edits existing images\n> \"make this logo blue\" done\n> \"remove the background\" done\n> \"turn this sketch into a render\" done\n> no photoshop. no design skills. just describe it.\n\nautomation blueprints. no syntax.\n> \"daily news briefing at 8am\" generates the schedule\n> no cron, no yaml, no terminal wizardry\n\neverything else in v0.17.0:\n> full profile builder in browser never touch config.yaml\n> redesigned skills hub with security scans\n> rebindable shortcuts + native notifications\n> live subagent watch windows\n> vs code themes in the desktop app\n> atomic batch memory operations\n> grok composer 2.5 support\n\nhow to get it there:\n\nstep 1: terminal\n> hermes update\n\nstep 2: pick your weapon\n> hermes photon login own your imessage\n> try a background agent delegate_task(background=true)\n> or just chat everything works out of the box\n\nbookmark this before the next release.\n\nand follow @rakib_web3 for more alpha like this.",
+"likeCount": 27,
+"retweetCount": 1,
+"url": "https://x.com/Rakib_Web3/status/2068318328272372120",
+"createdAt": "Sat Jun 20 13:01:31 +0000 2026"
 },
 {
-"userName": "vai_viswanathan",
-"text": "The robotics world model simulator wars are heating up. \n\nWEAVER is a robot manipulation world model that's fast, accurate, AND consistent.\n\n- improves the π0.5 robot foundation model's real-world success rate by 38% with zero real-world interaction, evaluates policies at 0.87 correlation with reality, and plans 5-10x faster than the prior best\n\n- multi-view transformer predicts future latents and rewards via flow matching, borrowing JEPA-style latent prediction, diffusion forcing for long horizons, a pretrained encoder for robustness, and a reward head so it can score actions without calling a slow external VLM judge.\n\n- why it matters: Synthetic rollouts from WEAVER train policies as well as real data (within 4%), and can evaluate policy success rate with a best-in-class MMRV",
-"likeCount": 49,
-"retweetCount": 10,
-"url": "https://x.com/vai_viswanathan/status/2067598093160272198",
-"createdAt": "Thu Jun 18 13:19:34 +0000 2026"
+"userName": "probnstat",
+"text": "Direct Preference Optimization (DPO) is a recent breakthrough in AI alignment that provides a simple alternative to Reinforcement Learning from Human Feedback (RLHF). Instead of first training a reward model and then optimizing a policy with reinforcement learning, DPO directly learns from pairs of human preferences—for example, a preferred response and a rejected one. This eliminates the need for a separate reward model while retaining the ability to align models with human judgments.\n\nMathematically, DPO can be viewed as optimizing a classification objective derived from a constrained reinforcement learning problem, linking preference learning with probabilistic inference. The method updates the policy to increase the likelihood of preferred outputs while decreasing the likelihood of less desirable ones.\n\nIn machine learning, DPO offers an efficient framework for learning from comparative feedback rather than explicit labels. In deep learning, it has become a key technique for aligning large language models, improving helpfulness, safety, and instruction-following behavior. In reinforcement learning, DPO provides a bridge between supervised learning and policy optimization, replacing complex RL pipelines with a more stable optimization objective.\n\nThe broader insight is that many real-world tasks are easier to express through preferences than absolute rewards. By learning directly from comparisons, Direct Preference Optimization offers a scalable and mathematically elegant framework for training the next generation of aligned AI systems.\n\nImage: https://t.co/9Ync1ZHNKq",
+"likeCount": 125,
+"retweetCount": 15,
+"url": "https://x.com/probnstat/status/2066921671408357791",
+"createdAt": "Tue Jun 16 16:31:42 +0000 2026"
 },
 {
-"userName": "sheriyuo",
-"text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
-"likeCount": 69,
-"retweetCount": 4,
-"url": "https://x.com/sheriyuo/status/2066537191497515142",
-"createdAt": "Mon Jun 15 15:03:55 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @onusoz: 16x parallel Gemma-4-26B-A4B-NVFP4 runs 🤯🤯🤯\n18 output tokens/s, aggregate 300 tok/s 🫪\n1 DGX Spark with 128 GB unified memory\n\nC…",
-"likeCount": 477,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2068027175207330286",
-"createdAt": "Fri Jun 19 17:44:35 +0000 2026"
+"userName": "SpatialBiggs",
+"text": "Unreal Engine 6 blueprint deprecation is devastating news. \n\nWhile it is tough to argue against AI for rapid code generation, the access BP gave Technical Designers and Technical Artists to make magic isn't being acknowledged enough.\n\nThe likes of Expedition 33 prove how small teams can make amazing things in blueprint.\n\nVery sad news personally as I am unsure of my own tech in blueprint having a future outside of UE5 era. That is a very long time of work suddenly deprecating.\n\nAfter release, evaluation will start on the path forward for future titles testing UE6 and Godot.\n\nHopefully we can somehow convert our blueprint systems in a decent fashion... I'll likely be sharing this attempt once we get a stable UE6 to test the UE5 conversion on and move from there.",
+"likeCount": 330,
+"retweetCount": 23,
+"url": "https://x.com/SpatialBiggs/status/2067547569052393944",
+"createdAt": "Thu Jun 18 09:58:48 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "BTW, in case you're wondering just how sports-mad us Aussies are:\nBased on average attendance, men's soccer is only the 5th most popular sport in Australia.",
-"likeCount": 927,
+"text": "Wow.\n\n@Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and not too verbose.\n\nIt responds with nuance and judgement, &amp; handles long context VERY well.\n\nI've never experienced an open weights model like this before.",
+"likeCount": 7246,
+"retweetCount": 487,
+"url": "https://x.com/jeremyphoward/status/2067757468189679764",
+"createdAt": "Thu Jun 18 23:52:52 +0000 2026"
+},
+{
+"userName": "CloudflareDev",
+"text": "P-Image-Try-On from @PrunaAI available on @cloudflare AI Gateway - 70% off until June 21st.\n\nUpload a photo of a person + garment refs, and instantly get a virtual try-on image\nhttps://t.co/wVKDXvhHeJ",
+"likeCount": 27,
+"retweetCount": 4,
+"url": "https://x.com/CloudflareDev/status/2067674658447503603",
+"createdAt": "Thu Jun 18 18:23:48 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @yunta_tsai: Many people think any given ML project is 99% training.\n\nIn reality, it’s 50% evaluation, 40% data cleaning, 8% integration…",
+"likeCount": 8169,
+"retweetCount": 892,
+"url": "https://x.com/ClementDelangue/status/2068434794090754193",
+"createdAt": "Sat Jun 20 20:44:19 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @levie: Pretty remarkable what’s happening with open weights AI right now. We’re seeing models achieve SOTA results on specific tasks, a…",
+"likeCount": 434,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2068451053230563459",
+"createdAt": "Sat Jun 20 21:48:55 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ItakGol: Hot take:\n\nGLM 5.2 might be the first open/public model that actually changes the enterprise AI cost equation.\n\nI played with…",
+"likeCount": 226,
 "retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2066087368139096382",
-"createdAt": "Sun Jun 14 09:16:29 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @elliotarledge: I have some very big news... KernelBench-Hard with H100 and B200 (single gpu results)\n\nAND \n\nKernelBench-Mega tested on…",
-"likeCount": 114,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2068193502073086038",
-"createdAt": "Sat Jun 20 04:45:30 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @PatrickToulme: I ran GLM 5.2 with OpenCode harness against Claude Opus this week deployed locally.\n\nBottom line: It is a real frontier…",
-"likeCount": 541,
-"retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2068167058227965956",
-"createdAt": "Sat Jun 20 03:00:26 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2068471461006704687",
+"createdAt": "Sat Jun 20 23:10:01 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
-"likeCount": 2251,
-"retweetCount": 185,
+"likeCount": 2253,
+"retweetCount": 186,
 "url": "https://x.com/jeremyphoward/status/2067183659447369773",
 "createdAt": "Wed Jun 17 09:52:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @rohanpaul_ai: The White House and Anthropic may have found the first serious path to restore Mythos and Fable access without pretending…",
-"likeCount": 192,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2068144857185464490",
-"createdAt": "Sat Jun 20 01:32:12 +0000 2026"
+"text": "RT @aisearchio: GLM 5.2 continues to impress me. \n\nHere's its result on Vending Bench, which measures an AI's performance on running a busi…",
+"likeCount": 62,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2068507378610278494",
+"createdAt": "Sun Jun 21 01:32:44 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
-"likeCount": 1377,
-"retweetCount": 306,
-"url": "https://x.com/jeremyphoward/status/2066641720247492981",
-"createdAt": "Mon Jun 15 21:59:17 +0000 2026"
+"text": "RT @ml_angelopoulos: Just to be clear, if you remove Fable which is unavaialble, GLM-5.2 (Max) is the #1 model in the world for frontend co…",
+"likeCount": 4340,
+"retweetCount": 358,
+"url": "https://x.com/jeremyphoward/status/2067184294569836761",
+"createdAt": "Wed Jun 17 09:55:16 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @hallerite: GLM5.2 brings back the critic.\n\nIt was just a matter of time until we people would realize that group-based variance reducti…",
+"likeCount": 590,
+"retweetCount": 40,
+"url": "https://x.com/jeremyphoward/status/2067184187065680354",
+"createdAt": "Wed Jun 17 09:54:51 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Sentdex: GLM 5.2 quantized GGUFs: https://t.co/FA7KTXtCv0 GLM 5.2 on Open Router: https://t.co/BI9ua3RjGm Minion coding agent: https://…",
-"likeCount": 61,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2068144500657000604",
-"createdAt": "Sat Jun 20 01:30:47 +0000 2026"
+"text": "RT @charles_irl: We, along with @zhijianliu_ and @jianchen1799, are excited to share these models on @huggingface for the entire community…",
+"likeCount": 58,
+"retweetCount": 1,
+"url": "https://x.com/ClementDelangue/status/2068144358054830403",
+"createdAt": "Sat Jun 20 01:30:13 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
-"likeCount": 2177,
-"retweetCount": 168,
-"url": "https://x.com/jeremyphoward/status/2066982338949714324",
-"createdAt": "Tue Jun 16 20:32:46 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Thom_Wolf: Desert island survival list:\n✅ Solar panel / battery\n✅ 256 GB Mac Studio\n✅ GLM 5.2\n\nCivilization in a backpack",
+"likeCount": 215,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2068443157025427953",
+"createdAt": "Sat Jun 20 21:17:33 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @EzzyMUFC: While everyone was asleep, New Zealand scored the best team goal of the tournament so far https://t.co/i5r9ZQHnvE",
-"likeCount": 49022,
+"likeCount": 49012,
 "retweetCount": 2368,
 "url": "https://x.com/jeremyphoward/status/2066984588497527055",
 "createdAt": "Tue Jun 16 20:41:43 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @xeophon: 51 is the same score as GPT-5.4 xhigh, btw. The model was released 3 months ago and frontier at the time",
-"likeCount": 529,
-"retweetCount": 22,
-"url": "https://x.com/jeremyphoward/status/2067173387143925958",
-"createdAt": "Wed Jun 17 09:11:56 +0000 2026"
+"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
+"likeCount": 939,
+"retweetCount": 71,
+"url": "https://x.com/jeremyphoward/status/2066642471887753288",
+"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @zerohedge: API prices of key AI models: US vs China https://t.co/ZOWMxcvhK0",
-"likeCount": 585,
-"retweetCount": 108,
-"url": "https://x.com/ClementDelangue/status/2068101294506520983",
-"createdAt": "Fri Jun 19 22:39:06 +0000 2026"
+"text": "RT @elliotarledge: post coming shortly https://t.co/q8XKsFgBrG",
+"likeCount": 313,
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2068193132970193117",
+"createdAt": "Sat Jun 20 04:44:02 +0000 2026"
 },
 {
-"userName": "leighdunsford",
-"text": "https://t.co/ptPkvpUPsP",
-"likeCount": 29,
-"retweetCount": 4,
-"url": "https://x.com/leighdunsford/status/2067367618319900828",
-"createdAt": "Wed Jun 17 22:03:44 +0000 2026"
-},
-{
-"userName": "navi_Ai2",
-"text": "https://t.co/UaQCIp8BiO",
-"likeCount": 118,
-"retweetCount": 60,
-"url": "https://x.com/navi_Ai2/status/2067220143084556585",
-"createdAt": "Wed Jun 17 12:17:43 +0000 2026"
+"userName": "abhijithneil",
+"text": "https://t.co/NyR7MTsXRc",
+"likeCount": 63,
+"retweetCount": 6,
+"url": "https://x.com/abhijithneil/status/2067683044266533272",
+"createdAt": "Thu Jun 18 18:57:08 +0000 2026"
 }
 ]
