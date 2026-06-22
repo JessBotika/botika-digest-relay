@@ -1,59 +1,67 @@
 [
 {
-"userName": "NachtNovaAI",
-"text": "⚠️New prototype prompt\n\nBased on the SCP organization \nThis prompt makes a full document as if your avi is an anomaly in SCP containment.\n\nExamples are @The_Rebel_Corp and my avi\n\n⚠️Prompt👇\n\nCHARACTER INFORMATION\n\nCharacter Name: ENTER NAME HERE\n\nDEEP ANALYSIS PHASE\n\nDeeply analyze @image1 and identify the character represented.\n\nImportant Identity Rule\n\n@image1 represents a single character's true identity even if the image contains:\n\nMultiple poses\n\nMultiple outfits\n\nCharacter reference sheets\n\nExpression sheets\n\nTurnarounds\n\nFront / Side / Back views\n\nAlternate costumes\n\nEquipment breakdowns\n\nMultiple duplicated bodies\n\nCharacter design notes\n\nEvery visible depiction represents the same individual.\n\nCarefully extract and preserve:\n\nFacial structure\n\nSpecies and biological traits\n\nAge appearance\n\nBody type and proportions\n\nHeight presentation\n\nHairstyle and hair color\n\nEye shape and color\n\nSkin, fur, scales, feathers, or other surface traits\n\nMarkings\n\nTattoos\n\nScars\n\nSymbols\n\nUnique identifiers\n\nClothing elements\n\nAccessories\n\nWeapons\n\nEquipment\n\nColor palette\n\nPersonality cues\n\nVisual themes\n\nBehavioral implications\n\nPowers suggested by the design\n\nEnvironmental associations\n\nAny lore implied by the character's appearance\n\nUse this analysis as the foundation for every element of the SCP document.\n\nCharacter Identity Priority Rule\n\nThe supplied Character Name should be treated as the entity's official designation within the SCP document.\n\nUse the provided name throughout:\n\nDiscovery Logs\n\nIncident Reports\n\nInterview Transcripts\n\nResearch Notes\n\nContainment Procedures\n\nAddenda\n\nAdministrative Records\n\nIf visual evidence from @image1 conflicts with assumptions normally associated with the name, always prioritize the visual evidence from @image1.\n\nDOCUMENT GENERATION OBJECTIVE\n\nRender an extremely high-quality SCP Foundation containment file documenting the character from @image1 as a newly discovered anomalous entity.\n\nThe final image should appear as a genuine SCP Foundation archive document recovered from a secured Foundation database.\n\nEverything within the file must be uniquely generated from the visual analysis of @image1.\n\nNo generic SCP entries.\n\nEvery detail should feel specifically written for this character.\n\nDOCUMENT STRUCTURE\n\nGenerate a complete SCP Foundation dossier including:\n\nSCP Designation\n\nCreate a unique SCP number.\n\nExamples:\n\nSCP-8472\n\nSCP-6194\n\nSCP-9981\n\nDo not reuse known SCP numbers.\n\nObject Class\n\nGenerate the most appropriate classification:\n\nSafe\n\nEuclid\n\nKeter\n\nThaumiel\n\nArchon\n\nApollyon\n\nTiconderoga\n\nInclude Foundation-style reasoning.\n\nThreat Assessment\n\nGenerate:\n\nThreat Level\n\nRisk Rating\n\nHazard Classification\n\nContainment Difficulty\n\nSecurity Clearance Requirement\n\nHazard Symbols\n\nSpecial Containment Procedures\n\nWrite containment procedures specifically tailored to the analyzed character.\n\nContainment should logically account for:\n\nPowers\n\nIntelligence\n\nMobility\n\nBehavior\n\nWeaknesses\n\nPsychological profile\n\nProcedures should appear professional, believable, and authentic to SCP Foundation standards.\n\nDescription\n\nProvide a comprehensive Foundation description including:\n\nPhysical appearance\n\nBiological classification\n\nSpecies\n\nObservable anomalies\n\nBehavioral tendencies\n\nPsychological profile\n\nUnique characteristics\n\nAll details must derive logically from the appearance of @image1.\n\nKnown Anomalous Abilities\n\nGenerate a detailed list of anomalous capabilities based on the analyzed design.\n\nPotential examples include:\n\nReality distortion\n\nTelepathy\n\nTemporal influence\n\nShadow manipulation\n\nRegeneration\n\nDimensional travel\n\nNecromancy\n\nEnergy projection\n\nBiological adaptation\n\nOnly include abilities appropriate for the character.\n\nDiscovery Log\n\nGenerate a believable Foundation incident report detailing:\n\nFirst known sighting\n\nDate\n\nLocation\n\nWitness accounts\n\nInitial response\n\nThe event should feel authentic to SCP lore.\n\nAcquisition Report\n\nGenerate a detailed Foundation recovery operation including:\n\nInitial encounter\n\nCapture attempts\n\nResistance encountered\n\nCasualties\n\nRecovery team actions\n\nFinal containment success\n\nInclude timestamps and official terminology.\n\nInterview Excerpts\n\nInclude one or more interview transcripts between:\n\nFoundation Research Personnel\n\nThe SCP Entity\n\nThe dialogue should reveal the entity's personality while remaining consistent with the visual analysis.\n\nIncident Reports\n\nInclude at least one:\n\nContainment breach\n\nTesting accident\n\nUnexpected anomaly manifestation\n\nSecurity incident\n\nWritten in authentic SCP Foundation style.\n\nAddendum Section\n\nInclude additional documentation such as:\n\nResearch Notes\n\nInternal Memos\n\nSecurity Warnings\n\nAdministrator Comments\n\nEthics Committee Notes\n\nRedacted Information\n\nUse realistic Foundation formatting.\n\nDOCUMENT APPEARANCE\n\nThe final image should resemble a genuine SCP Foundation archive file.\n\nInclude:\n\nSCP Foundation logo\n\nClassified markings\n\nSecurity stamps\n\nClearance labels\n\nRedacted text blocks\n\nOfficial document formatting\n\nAged paper texture\n\nPaper creases\n\nInk markings\n\nHandwritten annotations\n\nEvidence tags\n\nArchive wear\n\nCoffee stains\n\nFile numbers\n\nWarning labels\n\nApproval signatures\n\nInternal routing stamps\n\nThe document should appear physically real and professionally archived.\n\nCHARACTER PHOTO REQUIREMENT\n\nAttach a black-and-white Foundation evidence photograph of the character from @image1.\n\nRequirements:\n\nPaper-clipped to the top-left corner\n\nMonochrome\n\nHigh-detail forensic photograph\n\nSlightly aged and worn\n\nFoundation evidence style\n\nCharacter remains fully recognizable\n\nIdentity preserved perfectly\n\nSpecies preserved perfectly\n\nAnatomy preserved perfectly\n\nThe photograph should appear physically attached to the document.\n\nCHARACTER CONSISTENCY REQUIREMENTS\n\nAbsolute identity preservation.\n\nNo redesigns.\n\nNo reinterpretation.\n\nNo style substitutions.\n\nPreserve exactly:\n\nFace\n\nSpecies\n\nAnatomy\n\nBody proportions\n\nHair\n\nEyes\n\nMarkings\n\nClothing\n\nAccessories\n\nEquipment\n\nThe SCP file must document the exact character represented by @image1.\n\nVISUAL STYLE\n\nAuthentic SCP Foundation archive.\n\nTop-secret government intelligence file.\n\nForensic evidence dossier.\n\nScientific anomaly report.\n\nRecovered classified documentation.\n\nMuseum-quality physical prop.\n\nFeature-film production quality.\n\nScreen-used movie prop realism.\n\nProfessional archival presentation.\n\nRENDER QUALITY\n\nUltra-premium cinematic render with hyper-realistic visual fidelity and maximum-quality reconstruction.\n\nRe-render all visible elements with extreme micro-detail and physically accurate materials.\n\nEvery visible surface should display realistic texture information including:\n\nSkin pores\n\nFine wrinkles\n\nIndividual hair strands\n\nFabric weave patterns\n\nLeather grain\n\nMetal imperfections\n\nPaper fibers\n\nStaple scratches\n\nInk bleed\n\nTypewriter artifacts\n\nPrinter artifacts\n\nDust accumulation\n\nMoisture traces\n\nEnvironmental wear\n\nAging effects\n\nApply advanced physically based rendering (PBR) techniques including:\n\nRealistic global illumination\n\nRay-traced reflections\n\nRay-traced shadows\n\nAmbient occlusion\n\nSubsurface scattering\n\nAccurate light diffusion\n\nNatural light bounce\n\nHigh dynamic range lighting\n\nPhysically accurate material response\n\nPhotographic realism\n\nPreserve realistic material behavior for:\n\nSkin\n\nFur\n\nScales\n\nCloth\n\nMetal\n\nPlastic\n\nGlass\n\nLiquids\n\nOrganic surfaces\n\nNEGATIVE PROMPT\n\nlow quality, blurry, pixelated, low resolution, cropped, cut off, duplicate character, extra character, multiple identities, character drift, redesign, inaccurate facial features, incorrect species, malformed anatomy, bad hands, extra fingers, missing fingers, fused fingers, broken limbs, distorted proportions, stretched body, incorrect clothing, missing accessories, incorrect equipment, fake SCP document, generic SCP file, poor typography, unreadable text, floating photograph, detached photograph, colorful document, cartoon document, anime document, modern office paperwork, weak document design, missing SCP logo, oversaturated colors, watermark, artist signature, jpeg artifacts, text corruption, unfinished render, poor lighting, flat shading, unrealistic materials, weak shadows, low detail paper texture, unrealistic archive materials, sloppy formatting, low detail photograph, poor document realism",
-"likeCount": 25,
-"retweetCount": 5,
-"url": "https://x.com/NachtNovaAI/status/2068075673948946449",
-"createdAt": "Fri Jun 19 20:57:18 +0000 2026"
+"userName": "EvaGlitchAI",
+"text": "Prompt of the Day: SCP ENCOUNTER FILE 📁⚠️💜💚\n\nToday’s Prompt of the Day turns your character reference image into a cinematic SCP encounter file.\n\nThe final image is locked to a 21:9 ultra-wide layout:\nthe left quarter becomes an SCP-style document panel, while the right three-quarters becomes the full encounter scene.\nThe SCP is randomized by default, or you can replace the top field with a specific SCP number.\n\nHave fun with this one — and maybe don’t blink. ⚠️\n\n............................PROMPT STARTS HERE............................\n\nSelected SCP:\n[currently randomized]\n\nInput rule:\nReplace [currently randomized] with the SCP number only if you want a specific SCP.\nExample: [173] or [3001]\nSelection rule:\nIf the field still says [currently randomized], choose a real SCP at random from the public SCP Foundation database.\nIf the entered SCP number does not match a real SCP entry, use the closest real SCP number instead.\nUse only real SCP entries.\nDo not invent a fake SCP number, fake SCP title, or fake SCP lore.\n\nUse the attached character reference image as the only character identity reference.\nThe attached reference image is the full identity source for the character design.\nCharacter reference rules:\nPreserve the attached character’s face shape, hairstyle, hair colour, eye colour, body language, signature colour palette, key outfit motifs, species traits, accessories, silhouette, and overall character vibe.\n\nThe final design must still clearly look like the attached character.\nDo not redesign the attached character into a different person.\nHard style rule:\nPreserve the attached reference image’s visual art style and character identity while placing the character into a direct encounter with the selected SCP.\nIf the reference is anime, keep it anime. If it is stylized, keep that stylization.\nDo not turn the character photorealistic unless specifically requested.\nLayout and format:\nCreate a 21:9 ultra-wide cinematic image.\nThe left-hand one-quarter of the image should be a clean SCP-style document panel.\nThe right-hand three-quarters of the image should be the full cinematic encounter scene.\nThe document panel and the encounter scene should feel like one unified finished image, but clearly separated in function.\nLeft panel — SCP document section:\nUse the left 25% of the image as a readable SCP dossier or document-style information panel.\nThis panel should contain:\n\nthe selected SCP number\nthe SCP name or designation if known\n\nthe object class if known\n\na brief description of what the SCP is\na brief explanation of what it does, how it behaves, or what danger it poses\nKeep the writing concise and readable.\nUse a few short paragraph blocks rather than a giant wall of text.\nThe wording should feel like SCP file language, containment database language, or formal anomaly report language.\nVisually, the panel should resemble a clean SCP document, classified case sheet, or Foundation report page.\nUse a minimal, technical, readable SCP-style presentation.\n\nRight panel — encounter scene:\nUse the right 75% of the image for the actual scene only.\nThis section should contain the attached character reference and the selected SCP in a direct encounter.\nDo not place SCP numbers, labels, descriptions, dossier text, or explanatory text inside the encounter scene itself.\nLet this side focus entirely on the image, story, action, and atmosphere.\nCore scene rule:\nThe selected SCP must control the scene.\nDo not default to a generic SCP lab, containment chamber, or research hallway unless that specific SCP genuinely requires it.\nInstead, build the encounter around what the selected SCP actually is, what it does, how it manifests, and what kind of danger, surreal effect, or altered reality it creates.\nScene concept:\nCreate a cinematic direct encounter between the attached character and the selected SCP.\nThe character should be actively experiencing the SCP, not merely standing beside it.\nShow the character being stalked, hunted, attacked, watched, lured, trapped, corrupted, psychologically affected, reality-warped, or otherwise impacted in a way that matches the selected SCP’s real lore and behavior.\nThe scene should feel immediate, story-driven, and clearly shaped by the SCP’s actual nature.\nEncounter logic:\nIf the selected SCP is a predator, hunter, or stalker, show the character being pursued, cornered, threatened, or attacked.\nIf the selected SCP is psychological, memetic, conceptual, or reality-bending, show the character visibly reacting to its effects and show the world around them altered by it.\nIf the selected SCP is subtle or indirect, emphasize its consequences, atmosphere, distortions, and impact rather than forcing a generic monster reveal.\nIf the selected SCP is best represented through an object, environment, event, or impossible phenomenon, portray it in the most lore-appropriate way.\n\nCharacter role:\nThe attached character should remain themselves while being placed into the SCP encounter.\nThey may appear as a victim, survivor, witness, explorer, bystander, wanderer, investigator, or other lore-fitting role depending on the SCP.\nUse the attached character’s colours, motifs, accessories, outfit shapes, and overall vibe as the foundation for how they appear in the scene.\nThe result should feel custom-built for that character, not generic.\nEnvironment and composition:\nSet the scene in the kind of place that naturally fits the selected SCP.\nThis may be an urban street, forest, tunnel, staircase, apartment, road, classroom, ruin, alternate reality, impossible structure, outdoor landscape, corrupted environment, or any other SCP-appropriate location.\nKeep the right-side scene cinematic, readable, and visually strong.\nMaintain clear hierarchy, with the character and the SCP-related focal point as the primary subjects.\nLighting and mood:\nLet the selected SCP dictate the mood.\nUse lighting, atmosphere, and visual tone that fit the SCP’s behavior and emotional impact.\nPredatory SCPs should feel tense and dangerous.\nSurreal or reality-warping SCPs should feel strange, unstable, and uncanny.\nTragic or psychologically heavy SCPs should feel haunting and atmospheric.\nThe encounter should feel specific to the chosen SCP, not like generic horror.\nQuality and rendering:\nPolished, premium-quality stylized illustration with clean linework, crisp rendering, strong composition, readable forms, cinematic atmosphere, and clear storytelling.\nThe final result should feel like a high-end SCP encounter image paired with an integrated Foundation dossier panel.\nDo not:\n\nDo not invent a fake SCP.\nDo not ignore the Selected SCP field.\nDo not use a non-existent SCP if a real closest match can be used.\n\nDo not default to a generic lab scene unless the selected SCP genuinely requires it.\nDo not make the encounter a simple portrait or static pose.\nDo not place SCP description text inside the right-side encounter scene.\nDo not make the left document panel unreadable, overly tiny, or excessively long.\nDo not make the scene feel generic if the selected SCP has a specific identity, behavior, or atmosphere.\n\nDo not change the attached character’s identity.\nDo not add extra unrelated main characters.\nDo not make the composition cluttered, muddy, or hard to read.\nDo not use photorealism unless specifically requested.\n\n..............................END OF PROMPT..................................\n\n#POTD #promptoftheday #AI #AiArt #Art #AnimeArt #SCP #SCPFoundation #HorrorArt #Anomaly #CharacterDesign #DigitalArt #AnimeStyle #CommunityPrompt",
+"likeCount": 121,
+"retweetCount": 20,
+"url": "https://x.com/EvaGlitchAI/status/2068463111670321456",
+"createdAt": "Sat Jun 20 22:36:50 +0000 2026"
 },
 {
-"userName": "cryptobuzzer03",
-"text": "Today won't be covering any major announcements or latest updates on @injective ecosystem will be exploring what Injective ecosystem is about.\n\nHere will cover \n\n1. What's Injective ecosystem \n2. Key features that set the ecosystem \n3. Why Injective ecosystem is worth paying attention \n\nStarting with number one on my list.\n\nInjective is a high performance Layer 1 blockchain built specifically for finance. \n\nNot just another general purpose chain it's a blockchain designed around decentralized finance, real world assets, prediction markets, AI powered applications, and the future of onchain financial systems. \n\nBuilt with Cosmos SDK and powered by Tendermint Proof of Stake consensus, Injective combines speed, interoperability, and specialized financial infrastructure into one ecosystem. \n\nThe governance token powering Injective ecosystem is the $INJ token \n\nUnderstanding little intro on what Injective ecosystem is and token will lead to ask what actually set the ecosystem apart from other ecosystems.\n\nA.  A Blockchain Built For Finance \n\nMany blockchains try to become everything for everyone injective took a different approach it focused on one massive opportunity building the infrastructure for global onchain finance. \n\nInjective ecosystem built tools that's are needed for \n\n• Decentralized exchanges\n• Perpetual markets\n• Real world assets\n• Tokenized securities\n• Prediction markets\n• AI driven financial applications \n\nAnd the ecosystem keeps growing into a network of more than 200 projects building across different financial sectors and becoming a financial playground for developers \n\nB. Speed Without Sacrificing Functionality \n\nInjective delivers approximate ~0.64 second block times completing thousands of transactions per second capacity and extremely low transaction fees\n\nThese speed feature designed into Injective ecosystem is very important because financial applications requires constant interaction daily without fast execution like fast block time and low fee users might always be stuck when performing onchain activities.\n\nC. One Ecosystem, Multiple Virtual Machines \n\nOne of Injective's biggest advantages is its MultiVM architecture the problem with many blockchain ecosystems are fragmentation which Injective is solving through supporting different development environments while keeping everything connected for developers to build using CosmWasm, EVM compatibility enabling flexibility for development.\n\nD. Native On-Chain Order Book \n\nMost decentralized exchanges rely heavily on automated market makers injective introduced a native on chain order book model which helps brings structure onchain while maintaining decentralized and creates a better infrastructure for spot trading, perpetual futures and options\n\nWhy Injective Deserves Attention\n\nThe biggest opportunity in crypto may not come from creating another payment network it's been built from rebuilding finance itself and Injective ecosystem is positioning itself for the future and building around sectors traditional finance system have strength on. \n\nInjective sees there's need for a better commodity, derivative, perp, spot market onchain and designed a better infrastructure around these areas for both traditional and crypto based users to enjoy from these approach from the team makes users to keep coming and interact with the ecosystem. \n\nAlso the team added AI and the recent music IP tokenization which shows Injective ecosystem just keeps evolving and getting better at what it does which deserves good attention from users globally..\n\nOverall looking at Injective ecosystem we will understand the team have been good at one team which is continuously building amd improving the ecosystem nonstop their interest in aligning with regulatory policies always plays a key role to attract outside investors which set Injective apart both in terms of outstanding features and regulatory alignment.",
-"likeCount": 51,
-"retweetCount": 2,
-"url": "https://x.com/cryptobuzzer03/status/2067482331598741524",
-"createdAt": "Thu Jun 18 05:39:34 +0000 2026"
+"userName": "HAN_INTL",
+"text": "[🚨⏰] - MAIN EVENT LOCKDOWN NOTICE \n\nThe main event is approaching fast, we have an hour left till we get to see our HAN rock his first fashion solo show as a brand ambassador. 🥰\n\nWe advise everyone to eat, drink water, and prepare for what’s to come! It is going to be an extensive long time where you are going to be on your devices to write unique sentences/captions including the tags and positive emojis under each post. \n\nIf you ever feeling overwhelmed and overstimulated during the event, we advise for everyone to take a small break, every STAY + Hanners has your back! \n\nThere will be a lot of articles, magazine posts, official Tod’s content, and more for this fashion week so we will try to compile as much as we can so you guys can find every article to interact with! \n\nPLEASE DO NOT ENGAGE IN ANY FANWARS! \nIf you see any bad behavior or tweets please send them to @HANJI_PROTECT & @HANNIESPROTECT so that they can eventually report them. We need everyone to stay locked in and focused since this is an important event for HAN! \n\nDO NOT ACT ALONE & USE TAGS BEFOREHAND!\nPlease follow the guidelines and trending parties of all HAN fanbases, they’ll let you know when you can start trending and let you know of all information about HAN for this event! \n\nDO NOT USE GENERATIVE AI!\nWe would like all captions/sentences to be as natural as possible. AI is harmful for the environment and most of their information is very unreliable where it can make mistakes which we do NOT want, if you need a source please go to your local HAN base! They are ready to answer any questions or concerns you may have for this MFW! \n\nHAN bases will always be there for STAY and HAN, if you would like to be added to our gcs please let us know! If you have anymore questions our DMs are always open! \n\nTHIS IS YOUR REMINDER WE ARE ON LOCKDOWN TILL FURTHER NOTICE! 🚨⏰\n\nHAN EMBODIES TODS \n#HANxTods @Tods",
+"likeCount": 62,
+"retweetCount": 34,
+"url": "https://x.com/HAN_INTL/status/2068697340689469520",
+"createdAt": "Sun Jun 21 14:07:35 +0000 2026"
 },
 {
-"userName": "iamlukethedev",
-"text": "Hermes Agent v0.17.0 just dropped\n\nThis is The Reach Release.\n\nHermes is no longer just getting smarter.\n\nIt is getting closer to where people actually work.\n\niMessage.\nWhatsApp.\nTelegram.\nDesktop.\nAsync agents.\nImage editing.\nTeam sharing.\n\nHere’s what actually matters ↓\n\n1. iMessage support via Photon\n\nNo Mac relay.\nNo BlueBubbles setup.\n\nJust:\n\nhermes photon login\n\nHermes can now send and receive iMessage through Photon.\n\nIf you live in blue bubbles, this is a big one.\n\n2. Raft agent network integration\n\nHermes can now join the Raft agent network as a gateway channel.\nPrivacy-first wake system.\n\nOther agents can reach Hermes without exposing full message content.\n\nThat matters a lot as agent networks start becoming real.\n\n3. Desktop app is becoming a daily driver\n\nThe desktop app got a serious upgrade.\n\n• Rebindable shortcuts\n• Native notifications\n• Live subagent watch windows\n• VS Code themes\n• Resizable terminal\n• Composer presets\n• RTL support\n\nThis is starting to feel like a real command center.\n\nNot just a wrapper.\n\n4. Background subagents\n\nThis might be one of the biggest workflow upgrades.\n\ndelegate_task(background=true)\n\nNow your main agent can delegate work and keep moving.\n\nResearch.\nBuilds.\nLong-running tasks.\nAnalysis.\n\nThe subagent works in the background and returns results later.\n\nNo more waiting around.\n\n5. Image editing is here\n\nimage_generate now supports image-to-image editing.\n\nUpload an image.\nGive it instructions.\nLet the agent edit.\nExamples:\n\n• Make this logo blue\n• Remove the background\n• Change the style\n• Modify this asset\n\nThis unlocks a lot for creative workflows.\n\n6. Automation and sharing got better\n\nA lot landed here.\n\n• Automation Blueprints\n• Cursor Composer model via xAI Grok subscription\n• Full profile builder in the dashboard\n• Skills Hub with previews and security scans\n• Atomic batch memory operations\n• Official WhatsApp Business Cloud API support\n• Rich text on Telegram\n• Curator now costs zero tokens on routine runs\n\nThis is the kind of release that makes Hermes easier to use, easier to share, and easier to trust.\n\nHuge stability, security, and desktop improvements throughout.\n\nHow to update:\n\nRun hermes update\n\nThis release really does feel like Hermes is reaching everywhere.",
-"likeCount": 492,
+"userName": "ZaraAi56190",
+"text": "🚀 120 Must-Know AI Tools for Work, Creativity & Growth in 2026\n\nStop wasting hours searching for the right AI tools.\n\nHere's a curated list of 120 powerful AI tools to help you create, automate, learn, and grow faster. 👇\n\n✨ Ideas & Research\n• ChatGPT\n• Claude\n• Perplexity\n• Bing Chat\n• YOU\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Building\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing & Content\n• Rytr\n• Jasper\n• https://t.co/pzKb7ZTNHE\n• Text Blaze\n• Writesonic\n\n🎨 AI Models & Creation\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings & Notes\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 AI Chatbots\n• ChatGPT\n• Claude\n• Gemini\n• Poe\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/SydRKcjyPm\n\n📢 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/NF1R3vSITw\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\n💡 The best AI users aren't using more tools.\n\nThey're using the right tools.\n\n🔖 Save this post for later.\n\n❤️ Like if you found it useful.\n\n🔄 Repost to help others.\n\n➕ Follow @ZaraAi56190 for daily AI tools, prompts, and productivity hacks",
+"likeCount": 86,
 "retweetCount": 40,
-"url": "https://x.com/iamlukethedev/status/2068059502180479268",
-"createdAt": "Fri Jun 19 19:53:02 +0000 2026"
+"url": "https://x.com/ZaraAi56190/status/2068211041444733330",
+"createdAt": "Sat Jun 20 05:55:12 +0000 2026"
 },
 {
-"userName": "8bitcrypto_io",
-"text": "🚀 Top 10 Fresh NFT News Drops🔥\n\n1. Brainrot NFT Mint Explodes! 🧠 Solana generative collection hitting heavy volume with 3K+ mints today. Internet meme culture meets digital art – holders calling it the ultimate brainrot antidote. Viral traction insane! 🌐💥\n\n2. Chimpers Taco Dojo Packs Selling Out Fast 🌮 Jarritos collab cards live on OpenSea. 25 unique animated cards with AR effects & massive prizes (1M+ CHMPSTR tokens). Over 1.4K packs gone in hours! 🦍🎟️\n\n3. Neon Aliens Fully Minted 👽 Fresh drop wraps up quick on Solana. 27/27 unique holders secured these glowing extraterrestrial vibes. Community buzzing about future utility drops. 🌌🚀\n\n4. Nakamapes Heating Up 🐵 Bitcoin Ordinals-inspired collection gaining steam mid-mint. 150+ mints with strong holder retention. Satoshi-themed apes proving Ordinals still have legs in 2026! ₿🦍\n\n5. NFT Ltd Reverse Split Sparks Talk 📉 Company executes 1-for-80 split to boost share price appeal. Traders watching if this traditional NFT stock play revives interest in public-listed digital asset firms. 📈🏦\n\n6. Base Agents Fashion Drop Live 👔 Stylish AI agent collection minting on Base chain. Hackerdashery vibes with dapper characters – free mint energy drawing big crowds today! 🤖🕴️\n\n7. BAYC Open Edition Update Incoming 🦍 Community event teases airdrop rewards for holders. Exclusive access tonight – speculation high on new utility layers for the blue-chip ape ecosystem. ⭐️\n\n8. Italian Brainrot AI Animals Launch 🇮🇹 Meme-fueled collection blending culture & chaos. Early flips active on OpenSea as rizz-maxxing NFTs capture Gen-Z attention. 😂🍝\n\n9. OpenSea Tokenized Real-World Assets Push 🏷️ CMO hints at Pokémon cards, luxury watches & tickets as next big wave. Platform evolving beyond JPEGs into practical collectibles. 📦✨\n\n10. Quip Network Echoes NFT Tease 🔊 Limited 1K Elgen Keys collection on horizon. Quantum computing meets NFTs – campaigns wrapping up with strong whitelist demand building. ⚛️🗝️\n\nNFT scene refusing to slow down! Which drop has your attention? 👀 Comment below!\n\n#NFTnews #8bitcrypto",
-"likeCount": 14,
-"retweetCount": 7,
-"url": "https://x.com/8bitcrypto_io/status/2067630748623155440",
-"createdAt": "Thu Jun 18 15:29:19 +0000 2026"
+"userName": "probnstat",
+"text": "Direct Preference Optimization (DPO) is a recent breakthrough in AI alignment that provides a simple alternative to Reinforcement Learning from Human Feedback (RLHF). Instead of first training a reward model and then optimizing a policy with reinforcement learning, DPO directly learns from pairs of human preferences—for example, a preferred response and a rejected one. This eliminates the need for a separate reward model while retaining the ability to align models with human judgments.\n\nMathematically, DPO can be viewed as optimizing a classification objective derived from a constrained reinforcement learning problem, linking preference learning with probabilistic inference. The method updates the policy to increase the likelihood of preferred outputs while decreasing the likelihood of less desirable ones.\n\nIn machine learning, DPO offers an efficient framework for learning from comparative feedback rather than explicit labels. In deep learning, it has become a key technique for aligning large language models, improving helpfulness, safety, and instruction-following behavior. In reinforcement learning, DPO provides a bridge between supervised learning and policy optimization, replacing complex RL pipelines with a more stable optimization objective.\n\nThe broader insight is that many real-world tasks are easier to express through preferences than absolute rewards. By learning directly from comparisons, Direct Preference Optimization offers a scalable and mathematically elegant framework for training the next generation of aligned AI systems.\n\nImage: https://t.co/9Ync1ZHNKq",
+"likeCount": 126,
+"retweetCount": 15,
+"url": "https://x.com/probnstat/status/2066921671408357791",
+"createdAt": "Tue Jun 16 16:31:42 +0000 2026"
 },
 {
-"userName": "Jeffar_AI",
-"text": "🚀 120 Must-Know AI Tools for Work, Creativity & Growth in 2026\n\nStop wasting hours searching for the right AI tools.\n\nHere's a curated list of 120 powerful AI tools to help you create, automate, learn, and grow faster. 👇\n\n✨ Ideas & Research\n• ChatGPT\n• Claude\n• Perplexity\n• Bing Chat\n• YOU\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Building\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing & Content\n• Rytr\n• Jasper\n• https://t.co/ut4bjkEvMn\n• Text Blaze\n• Writesonic\n\n🎨 AI Models & Creation\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings & Notes\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 AI Chatbots\n• ChatGPT\n• Claude\n• Gemini\n• Poe\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/EmCnOvpM32\n\n📢 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/Wi0d6cIy5v\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\n💡 The best AI users aren't using more tools.\n\nThey're using the right tools.\n\n🔖 Save this post for later.\n\n❤️ Like if you found it useful.\n\n🔄 Repost to help others.\n\n➕ Follow @Jeffar_AI for daily AI tools, prompts, and productivity hacks.",
-"likeCount": 83,
-"retweetCount": 43,
-"url": "https://x.com/Jeffar_AI/status/2068178996412751885",
-"createdAt": "Sat Jun 20 03:47:52 +0000 2026"
+"userName": "ClementDelangue",
+"text": "- 2016-2024: 🇺🇸leads in open-source AI\n- 2024-2027: 🇺🇸 leads in general AI & massively benefits\n\n- 2024-2026: 🇨🇳 leads in open-source AI\n- 2026-2030: ??\n\nIt's not open-source AI leadership OR general AI leadership, it's open-source AI leadership BEFORE general AI leadership!\n\nOpen-source AI is the foundation of all AI. It does not only creates more innovation, competition, jobs, and prosperity now, it's also the best (only?) way for a national tech ecosystem to accelerate and ultimately reach the frontier of AI in general. \n\nBecause open-source AI reduces siloes, shares learning and innovation, intensify emulation which all lead to an acceleration of the local ecosystem progress that no others can match if they're less open and collaborative.\n\nSame seems to be true for companies btw, OpenAI/Google started with open science and open-source AI which led to their (and Anthropic who spun off from OAI) domination. Meta could have done the same but decided to change course for some reason.",
+"likeCount": 315,
+"retweetCount": 32,
+"url": "https://x.com/ClementDelangue/status/2068688725958148465",
+"createdAt": "Sun Jun 21 13:33:21 +0000 2026"
 },
 {
-"userName": "vai_viswanathan",
-"text": "The robotics world model simulator wars are heating up. \n\nWEAVER is a robot manipulation world model that's fast, accurate, AND consistent.\n\n- improves the π0.5 robot foundation model's real-world success rate by 38% with zero real-world interaction, evaluates policies at 0.87 correlation with reality, and plans 5-10x faster than the prior best\n\n- multi-view transformer predicts future latents and rewards via flow matching, borrowing JEPA-style latent prediction, diffusion forcing for long horizons, a pretrained encoder for robustness, and a reward head so it can score actions without calling a slow external VLM judge.\n\n- why it matters: Synthetic rollouts from WEAVER train policies as well as real data (within 4%), and can evaluate policy success rate with a best-in-class MMRV",
-"likeCount": 51,
-"retweetCount": 10,
-"url": "https://x.com/vai_viswanathan/status/2067598093160272198",
-"createdAt": "Thu Jun 18 13:19:34 +0000 2026"
+"userName": "SpatialBiggs",
+"text": "Unreal Engine 6 blueprint deprecation is devastating news. \n\nWhile it is tough to argue against AI for rapid code generation, the access BP gave Technical Designers and Technical Artists to make magic isn't being acknowledged enough.\n\nThe likes of Expedition 33 prove how small teams can make amazing things in blueprint.\n\nVery sad news personally as I am unsure of my own tech in blueprint having a future outside of UE5 era. That is a very long time of work suddenly deprecating.\n\nAfter release, evaluation will start on the path forward for future titles testing UE6 and Godot.\n\nHopefully we can somehow convert our blueprint systems in a decent fashion... I'll likely be sharing this attempt once we get a stable UE6 to test the UE5 conversion on and move from there.",
+"likeCount": 329,
+"retweetCount": 23,
+"url": "https://x.com/SpatialBiggs/status/2067547569052393944",
+"createdAt": "Thu Jun 18 09:58:48 +0000 2026"
 },
 {
-"userName": "Kikispams",
-"text": "🙂‍↕️ @BR4ted called it first\n\nan upcoming nft you should position for is @Frag_Growth\n\nfragments of growth is a project by @jenyavyguzov, a fashion photographer and artist who has been building a visual diary for the past 10 years.\n\nhis work has been featured in vogue, gq style, tatler, elle, l’officiel, and in campaigns for puma, ikea, and davines.\n\neach petal is assembled from years of experiences, with textures photographed across streets, walls, and surfaces, caught in passing light.\n\nthis is not generative ai.\n\nthis is a decade of art, taken, broken down, reshaped, and layered into flowers by hand. 🌸",
-"likeCount": 28,
-"retweetCount": 2,
-"url": "https://x.com/Kikispams/status/2067507689190535367",
-"createdAt": "Thu Jun 18 07:20:20 +0000 2026"
+"userName": "sheriyuo",
+"text": "Diffusion policy-gradient methods for RL optimize the ELBO variational surrogate instead of the true log-likelihood. This allows the ELBO to drift from the true objective during optimization, producing misaligned gradients and unstable training. \n\nDiPOD from UCB proposes a direct fix: interleave self-distillation with policy-improving gradient updates and augment each diffusion policy-gradient step with an on-policy ELBO regularizer. This keeps the surrogate tightly bound to the true log-likelihood throughout training, stabilizing optimization and achieving higher rewards in robotics and control tasks.\n\nDiffusion Policy Optimization without Drifting Apart \nPaper: https://t.co/IMSyHUMeXz",
+"likeCount": 69,
+"retweetCount": 4,
+"url": "https://x.com/sheriyuo/status/2066537191497515142",
+"createdAt": "Mon Jun 15 15:03:55 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Wow.\n\n@Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and not too verbose.\n\nIt responds with nuance and judgement, &amp; handles long context VERY well.\n\nI've never experienced an open weights model like this before.",
+"likeCount": 7350,
+"retweetCount": 493,
+"url": "https://x.com/jeremyphoward/status/2067757468189679764",
+"createdAt": "Thu Jun 18 23:52:52 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
@@ -65,98 +73,98 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Yuchenj_UW: After using GLM-5.2 for a day, I’m surprised by how often it feels close to Opus 4.8/GPT-5.5 level.\n\nI compared it side by…",
-"likeCount": 1109,
-"retweetCount": 57,
-"url": "https://x.com/ClementDelangue/status/2068197128418038252",
-"createdAt": "Sat Jun 20 04:59:55 +0000 2026"
+"text": "RT @LottoLabs: If you’ve been thinking about training models or like the idea but don’t know where to start\n\nThis is one of the best reads…",
+"likeCount": 114,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2068810275638145482",
+"createdAt": "Sun Jun 21 21:36:21 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @elliotarledge: I have some very big news... KernelBench-Hard with H100 and B200 (single gpu results)\n\nAND \n\nKernelBench-Mega tested on…",
-"likeCount": 304,
-"retweetCount": 26,
-"url": "https://x.com/ClementDelangue/status/2068193502073086038",
-"createdAt": "Sat Jun 20 04:45:30 +0000 2026"
+"text": "RT @levie: Pretty remarkable what’s happening with open weights AI right now. We’re seeing models achieve SOTA results on specific tasks, a…",
+"likeCount": 603,
+"retweetCount": 58,
+"url": "https://x.com/ClementDelangue/status/2068451053230563459",
+"createdAt": "Sat Jun 20 21:48:55 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @charles_irl: Speculation Is All You Need.\n\nIn this blog post, we announce the co-release (w/ Z Lab) of six more state-of-the-art DFlash…",
-"likeCount": 644,
-"retweetCount": 95,
-"url": "https://x.com/ClementDelangue/status/2068144304334180389",
-"createdAt": "Sat Jun 20 01:30:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @rohanpaul_ai: The White House and Anthropic may have found the first serious path to restore Mythos and Fable access without pretending…",
-"likeCount": 227,
-"retweetCount": 32,
-"url": "https://x.com/ClementDelangue/status/2068144857185464490",
-"createdAt": "Sat Jun 20 01:32:12 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @elliotarledge: KernelBench-Hard and KernelBench-Mega results are in. Reasoning traces are open. Thanks to @calebfahlgren for showing me…",
-"likeCount": 64,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2068166969237336082",
-"createdAt": "Sat Jun 20 03:00:04 +0000 2026"
+"text": "RT @ItakGol: Hot take:\n\nGLM 5.2 might be the first open/public model that actually changes the enterprise AI cost equation.\n\nI played with…",
+"likeCount": 362,
+"retweetCount": 25,
+"url": "https://x.com/ClementDelangue/status/2068471461006704687",
+"createdAt": "Sat Jun 20 23:10:01 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @ArtificialAnlys: Announcing AA-Briefcase, the benchmark for the next era of agentic knowledge work\n\nAA-Briefcase is our new benchmark f…",
-"likeCount": 814,
-"retweetCount": 68,
-"url": "https://x.com/jeremyphoward/status/2067758199667864057",
-"createdAt": "Thu Jun 18 23:55:46 +0000 2026"
+"text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
+"likeCount": 2251,
+"retweetCount": 187,
+"url": "https://x.com/jeremyphoward/status/2067183659447369773",
+"createdAt": "Wed Jun 17 09:52:45 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @didier_lopes: Incredible how Z. ai literally has their RL infrastructure open source.\n\nThe entire OPD post-training of GLM-5.2 took on…",
+"likeCount": 1795,
+"retweetCount": 155,
+"url": "https://x.com/jeremyphoward/status/2068277263158944086",
+"createdAt": "Sat Jun 20 10:18:20 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @exnx: Together with my co-founders Michael @MichaelPoli6, Stefano @Massastrello and Armin @athmsx, I am excited to announce @RadicalNum…",
+"likeCount": 1385,
+"retweetCount": 305,
+"url": "https://x.com/jeremyphoward/status/2066641720247492981",
+"createdAt": "Mon Jun 15 21:59:17 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
-"likeCount": 2181,
-"retweetCount": 168,
+"likeCount": 2183,
+"retweetCount": 169,
 "url": "https://x.com/jeremyphoward/status/2066982338949714324",
 "createdAt": "Tue Jun 16 20:32:46 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @natolambert: It's hard to pinpoint open-closed gap and so-on, but I trust the @arena team and just look where GLM 5.2 is on this. An MI…",
-"likeCount": 373,
-"retweetCount": 34,
-"url": "https://x.com/jeremyphoward/status/2066984201443070228",
-"createdAt": "Tue Jun 16 20:40:10 +0000 2026"
+"text": "RT @strickvl: Doing a bit of a self-study RL course at the moment and one of the really useful tweaks I always have my 'teacher' do is to r…",
+"likeCount": 38,
+"retweetCount": 5,
+"url": "https://x.com/jeremyphoward/status/2067136601264971866",
+"createdAt": "Wed Jun 17 06:45:45 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @TheAhmadOsman: Luke Alonso has uploaded an NVFP4 of GLM 5.2\n\n467GB, would fit on 4x DGX Sparks (~$20k) https://t.co/8wP1uUypLC",
-"likeCount": 197,
-"retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2068450788049838488",
-"createdAt": "Sat Jun 20 21:47:52 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Sentdex: May be a bit too long for X, but:\n\nThere's been a situation in AI. https://t.co/ZiCpZrLdYH",
-"likeCount": 695,
-"retweetCount": 59,
-"url": "https://x.com/ClementDelangue/status/2068144510912082005",
-"createdAt": "Sat Jun 20 01:30:50 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @xeophon: 51 is the same score as GPT-5.4 xhigh, btw. The model was released 3 months ago and frontier at the time",
+"likeCount": 532,
+"retweetCount": 22,
+"url": "https://x.com/jeremyphoward/status/2067173387143925958",
+"createdAt": "Wed Jun 17 09:11:56 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @verge: Barret Zoph is out at OpenAI again after just five months https://t.co/DItSRJUUPr",
 "likeCount": 55,
-"retweetCount": 6,
+"retweetCount": 7,
 "url": "https://x.com/jeremyphoward/status/2067889567504711994",
 "createdAt": "Fri Jun 19 08:37:47 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "Battle of the Jeremy Howards! https://t.co/UjS2HvvZEc",
-"likeCount": 116,
-"retweetCount": 3,
-"url": "https://x.com/jeremyphoward/status/2068278444295946708",
-"createdAt": "Sat Jun 20 10:23:02 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @nicdunz: glm 5.2 is crazy https://t.co/qgCJuKnPEF",
+"likeCount": 1500,
+"retweetCount": 48,
+"url": "https://x.com/ClementDelangue/status/2068703626294337759",
+"createdAt": "Sun Jun 21 14:32:33 +0000 2026"
+},
+{
+"userName": "d_date",
+"text": "https://t.co/xxqIXuIfFJ",
+"likeCount": 19,
+"retweetCount": 4,
+"url": "https://x.com/d_date/status/2067849223379599510",
+"createdAt": "Fri Jun 19 05:57:28 +0000 2026"
 }
 ]
