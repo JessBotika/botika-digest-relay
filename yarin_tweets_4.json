@@ -1,178 +1,122 @@
 [
 {
-"userName": "Alacritic_Super",
-"text": "🧠 Entropy: One of the Most Important Concepts in AI, Machine Learning, Information Theory, and Physics\n\nIf you understand entropy, you'll better understand:\n\n• Decision Trees\n• Cross Entropy Loss\n• LLM Training\n• Compression Algorithms\n• Diffusion Models\n• Statistical Physics\n• Information Theory\n\nEntropy is everywhere.\n\n---\n\nWhat is Entropy?\n\nEntropy measures uncertainty, randomness, or information content.\n\nThe more unpredictable something is, the higher its entropy.\n\nThe more predictable something is, the lower its entropy.\n\nThink of entropy as:\n\n\"How surprised would I be by the next outcome?\"\n\n---\n\nExample 1: Coin Toss\n\nFair Coin:\n\nHeads = 50%\nTails = 50%\n\nYou cannot predict the outcome.\nMaximum uncertainty.\nHigh entropy.\n\n---\n\nBiased Coin:\n\nHeads = 99%\nTails = 1%\n\nYou can almost always predict Heads.\n\nLow uncertainty.\nLow entropy.\n\n---\n\nExample 2: Language Models\n\nConsider predicting the next word:\n\n\"The sun rises in the ____\"\n\nPossible next token:\n\n• east → 95%\n• west → 3%\n• sky → 2%\n\nVery predictable.\n\nLow entropy.\n\n---\n\nNow:\n\n\"Today I dreamed about a ____\"\n\nPossible next token:\n\n• dragon\n• robot\n• elephant\n• spaceship\n• castle\n\nMany possibilities.\n\nHigher uncertainty.\nHigher entropy.\n\n---\n\nClaude Shannon's Insight\n\nIn 1948, Claude Shannon introduced information entropy.\n\nThe formula:\n\nEntropy = Expected Information Content\n\nA highly predictable event carries little information.\nA surprising event carries a lot of information.\n\n---\n\nWhy Compression Works\n\nSuppose a file contains:\nAAAAAAAAAAAAAAAAAAAA\n\nVery repetitive.\n\nLow entropy.\nEasy to compress.\n\n---\n\nSuppose a file contains:\nX7$P@9L#2W!K8Z&Q\n\nLooks random.\n\nHigh entropy.\nDifficult to compress.\n\nCompression is essentially exploiting low entropy.\n\n---\n\nEntropy in Decision Trees\n\nAlgorithms like:\n\n• ID3\n• C4.5\n• Random Forests\n\nUse entropy to determine the best split.\n\nGood splits:\n\nReduce uncertainty.\n\nBad splits:\n\nLeave uncertainty unchanged.\n\nThe objective:\n\nMaximum Information Gain.\n\n---\n\nEntropy in Deep Learning\n\nModern neural networks use:\n\nCross Entropy Loss\n\nFor:\n\n• Classification\n• Language Models\n• Transformers\n• LLMs\n\nCross entropy measures:\n\nHow different are model predictions from reality?\n\nLower cross entropy means better predictions.\n\n---\n\nEntropy in LLM Training\n\nDuring pretraining:\n\nModel\n↓\nPredict Next Token\n↓\nCompute Cross Entropy Loss\n↓\nUpdate Weights\n↓\nReduce Prediction Error\n\nEvery GPT-style model optimizes cross entropy billions of times during training.\n\n---\n\nEntropy and Temperature\n\nLLMs use temperature during generation.\n\nLow Temperature:\n\n• Lower entropy\n• More deterministic\n• More predictable\n\nHigh Temperature:\n\n• Higher entropy\n• More creative\n• More diverse\n\nTemperature directly affects uncertainty in generated text.\n\n---\n\nEntropy in Reinforcement Learning\n\nModern RL algorithms often maximize entropy.\n\nWhy?\n\nWithout entropy:\n\nAgent repeats the same actions.\n\nWith entropy:\n\nAgent explores new possibilities.\n\nExploration requires uncertainty.\n\n---\n\nEntropy in Diffusion Models\n\nDiffusion models work by:\n\nImage\n↓\nAdd Noise\n↓\nIncrease Entropy\n↓\nRandom Distribution\n\nGeneration:\n\nRandom Distribution\n↓\nRemove Noise\n↓\nDecrease Entropy\n↓\nImage\n\nThe entire process can be viewed as moving between low and high entropy states.\n\n---\n\nEntropy in Physics\n\nIn thermodynamics:\nEntropy measures disorder.\n\nLow entropy:\nIce cube.\nHighly structured.\n\n---\n\nHigh entropy:\n\nSteam.\nHighly disordered.\n\nThe second law of thermodynamics states:\nEntropy tends to increase over time.",
-"likeCount": 32,
-"retweetCount": 9,
-"url": "https://x.com/Alacritic_Super/status/2067172088956539184",
-"createdAt": "Wed Jun 17 09:06:46 +0000 2026"
-},
-{
-"userName": "8bitcrypto_io",
-"text": "🚀 Top 10 Fresh NFT News Drops🔥\n\n1. Brainrot NFT Mint Explodes! 🧠 Solana generative collection hitting heavy volume with 3K+ mints today. Internet meme culture meets digital art – holders calling it the ultimate brainrot antidote. Viral traction insane! 🌐💥\n\n2. Chimpers Taco Dojo Packs Selling Out Fast 🌮 Jarritos collab cards live on OpenSea. 25 unique animated cards with AR effects & massive prizes (1M+ CHMPSTR tokens). Over 1.4K packs gone in hours! 🦍🎟️\n\n3. Neon Aliens Fully Minted 👽 Fresh drop wraps up quick on Solana. 27/27 unique holders secured these glowing extraterrestrial vibes. Community buzzing about future utility drops. 🌌🚀\n\n4. Nakamapes Heating Up 🐵 Bitcoin Ordinals-inspired collection gaining steam mid-mint. 150+ mints with strong holder retention. Satoshi-themed apes proving Ordinals still have legs in 2026! ₿🦍\n\n5. NFT Ltd Reverse Split Sparks Talk 📉 Company executes 1-for-80 split to boost share price appeal. Traders watching if this traditional NFT stock play revives interest in public-listed digital asset firms. 📈🏦\n\n6. Base Agents Fashion Drop Live 👔 Stylish AI agent collection minting on Base chain. Hackerdashery vibes with dapper characters – free mint energy drawing big crowds today! 🤖🕴️\n\n7. BAYC Open Edition Update Incoming 🦍 Community event teases airdrop rewards for holders. Exclusive access tonight – speculation high on new utility layers for the blue-chip ape ecosystem. ⭐️\n\n8. Italian Brainrot AI Animals Launch 🇮🇹 Meme-fueled collection blending culture & chaos. Early flips active on OpenSea as rizz-maxxing NFTs capture Gen-Z attention. 😂🍝\n\n9. OpenSea Tokenized Real-World Assets Push 🏷️ CMO hints at Pokémon cards, luxury watches & tickets as next big wave. Platform evolving beyond JPEGs into practical collectibles. 📦✨\n\n10. Quip Network Echoes NFT Tease 🔊 Limited 1K Elgen Keys collection on horizon. Quantum computing meets NFTs – campaigns wrapping up with strong whitelist demand building. ⚛️🗝️\n\nNFT scene refusing to slow down! Which drop has your attention? 👀 Comment below!\n\n#NFTnews #8bitcrypto",
-"likeCount": 15,
-"retweetCount": 8,
-"url": "https://x.com/8bitcrypto_io/status/2067630748623155440",
-"createdAt": "Thu Jun 18 15:29:19 +0000 2026"
-},
-{
-"userName": "r0ck3t23",
-"text": "The company that taught machines to imagine just built a machine to see inside your body.\n\nA full body medical scanner.\n\nYou step into a pool of warm water. Half a million sensors pulse ultrasonic waves through your body from every angle.\n\nSixty seconds. No radiation. No magnets. No claustrophobia.\n\nA 3D map of your organs down to a fraction of a millimeter. A hundred times the speed of an MRI. A few dollars instead of thousands.\n\nThey mastered text-to-image. Now they’re doing sound-to-biology.\n\nMidjourney isn’t putting this in a hospital. They’re building a spa.\n\nSaunas. Cold plunges. Rooms of golden light that quietly scan your biology while you relax.\n\nThe scan is a side effect of showing up.\n\nFirst location opens in San Francisco, late 2027. By 2031 they’re targeting 50,000 scanners worldwide. A billion scans per month.\n\nFewer than twelve of these machines at full speed could outperform every MRI on Earth combined.\n\nZero investors. Zero venture capital. Just subscription revenue from everyday people paying to generate AI art.\n\nA community funded research lab just walked into the most protected industry on the planet.\n\nWe mapped the ocean floor. Photographed black holes. Sequenced the entire human genome.\n\nAnd the only way to see inside your own body was to be sick enough or rich enough to justify the scan.\n\nThis inverts that.\n\nMonthly scans. AI tracking your organs over time. Anomalies flagged years before a single symptom appears.\n\nYou stop reacting to disease and start watching for it.\n\nAt this scale, preventive imaging could avert 30% of all deaths and cut healthcare spending in half. Debate the numbers. The logic underneath is airtight.\n\nWhat breaks your brain is who built it. Not a pharmaceutical giant. Not a government lab. Nine people at an AI art company.\n\nThe team that spent years teaching machines to generate things that don’t exist just built one that reveals the thing that always did.\n\nYou have lived your entire life inside a body you have never truly seen.\n\nYou’re about to.",
-"likeCount": 833,
-"retweetCount": 292,
-"url": "https://x.com/r0ck3t23/status/2068607124238676187",
-"createdAt": "Sun Jun 21 08:09:05 +0000 2026"
-},
-{
-"userName": "Rakib_Web3",
-"text": "hermes v0.17.0 just made every paid agent tool look silly\n\niMessage native,whatsapp official,background workers,image editing\n\nand this is totally free.\n\nnous research just dropped the biggest hermes agent release yet.\n\nv0.17.0 \"the reach release\" 800+ PRs, 245 contributors, 1,475 commits, 198k github stars.\n\none release that does more than most paid tools do in a year.\n\nimessage. no mac required.\n> run: hermes photon login\n> done. your agent can text anyone with an iphone.\n> no bluebubbles. no relay. no hack.\n\nwhatsapp. official. no bridge.\n> whatsapp business cloud api native support\n> not some qr-code bridge that breaks every month\n\nbackground subagents. no babysitting.\n> delegate_task(background=true)\n> spawn a research agent, walk away, it reports back later\n> you keep working. the agent works for you.\n\nimage editing. with words.\n> image_generate now edits existing images\n> \"make this logo blue\" done\n> \"remove the background\" done\n> \"turn this sketch into a render\" done\n> no photoshop. no design skills. just describe it.\n\nautomation blueprints. no syntax.\n> \"daily news briefing at 8am\" generates the schedule\n> no cron, no yaml, no terminal wizardry\n\neverything else in v0.17.0:\n> full profile builder in browser never touch config.yaml\n> redesigned skills hub with security scans\n> rebindable shortcuts + native notifications\n> live subagent watch windows\n> vs code themes in the desktop app\n> atomic batch memory operations\n> grok composer 2.5 support\n\nhow to get it there:\n\nstep 1: terminal\n> hermes update\n\nstep 2: pick your weapon\n> hermes photon login own your imessage\n> try a background agent delegate_task(background=true)\n> or just chat everything works out of the box\n\nbookmark this before the next release.\n\nand follow @rakib_web3 for more alpha like this.",
-"likeCount": 28,
-"retweetCount": 1,
-"url": "https://x.com/Rakib_Web3/status/2068318328272372120",
-"createdAt": "Sat Jun 20 13:01:31 +0000 2026"
-},
-{
-"userName": "Jeffar_AI",
-"text": "🚀 120 Must-Know AI Tools for Work, Creativity & Growth in 2026\n\nStop wasting hours searching for the right AI tools.\n\nHere's a curated list of 120 powerful AI tools to help you create, automate, learn, and grow faster. 👇\n\n✨ Ideas & Research\n• ChatGPT\n• Claude\n• Perplexity\n• Bing Chat\n• YOU\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Building\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing & Content\n• Rytr\n• Jasper\n• https://t.co/ut4bjkEvMn\n• Text Blaze\n• Writesonic\n\n🎨 AI Models & Creation\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings & Notes\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 AI Chatbots\n• ChatGPT\n• Claude\n• Gemini\n• Poe\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/EmCnOvpM32\n\n📢 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/Wi0d6cIy5v\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\n💡 The best AI users aren't using more tools.\n\nThey're using the right tools.\n\n🔖 Save this post for later.\n\n❤️ Like if you found it useful.\n\n🔄 Repost to help others.\n\n➕ Follow @Jeffar_AI for daily AI tools, prompts, and productivity hacks.",
-"likeCount": 83,
-"retweetCount": 40,
-"url": "https://x.com/Jeffar_AI/status/2068178996412751885",
-"createdAt": "Sat Jun 20 03:47:52 +0000 2026"
-},
-{
-"userName": "FutureGirlAi",
-"text": "Most people are still doing in hours what these 16 AI tools now do in minutes🤯\n\n1. https://t.co/KeYLOr4Rp9 → AI image, video & music generation\n2. https://t.co/cUwsj52iex → AI video and content tools for e-commerce\n3. https://t.co/8NkJFkscsv → AI video and 3D generation\n4. https://t.co/XSZxrxTN28 → AI video editing & generation\n5. https://t.co/B99ciwB4O0 → all-in-one AI assistant (chat, PDF, image, video)\n6. https://t.co/0D2PH2LNoa → AI video creation with character consistency\n7. https://t.co/5jXjgnqUNx → AI image upscaling & enhancement\n8. https://t.co/TOm4HNTVEw → text-to-video generation\n9. https://t.co/ogG7OzpBih → AI research & productivity workspace\n10. https://t.co/Vtd320ThfF → AI research paper search & summaries\n11. https://t.co/Egmq3GQqUP → AI photo & video enhancement\n12. https://t.co/22cLrg3pRh → AI diagnostics for digital pathology\n13. https://t.co/rsYlSl10qt → AI workspace for team reports & slides\n14. https://t.co/FP9TnNZ6Lr → multi-model AI content creation platform\n15. https://t.co/gba2DY5qKD → AI video style transfer & editing\n16. https://t.co/UZCEMFDOzP → real-time AI world model for video\n\nSave this list🔖. The day you actually need one of these, you won't have time to go searching for it.",
-"likeCount": 16,
-"retweetCount": 12,
-"url": "https://x.com/FutureGirlAi/status/2068742317847261249",
-"createdAt": "Sun Jun 21 17:06:18 +0000 2026"
-},
-{
-"userName": "vai_viswanathan",
-"text": "The robotics world model simulator wars are heating up. \n\nWEAVER is a robot manipulation world model that's fast, accurate, AND consistent.\n\n- improves the π0.5 robot foundation model's real-world success rate by 38% with zero real-world interaction, evaluates policies at 0.87 correlation with reality, and plans 5-10x faster than the prior best\n\n- multi-view transformer predicts future latents and rewards via flow matching, borrowing JEPA-style latent prediction, diffusion forcing for long horizons, a pretrained encoder for robustness, and a reward head so it can score actions without calling a slow external VLM judge.\n\n- why it matters: Synthetic rollouts from WEAVER train policies as well as real data (within 4%), and can evaluate policy success rate with a best-in-class MMRV",
-"likeCount": 52,
-"retweetCount": 10,
-"url": "https://x.com/vai_viswanathan/status/2067598093160272198",
-"createdAt": "Thu Jun 18 13:19:34 +0000 2026"
-},
-{
-"userName": "kevin_parker_ai",
-"text": "16 AI tools that can save you hours ⏳🤖\n\n1. BudgetPixel – AI images, videos & music\n2. Wizstar – AI content for e-commerce\n3. Luma AI – AI videos & 3D creation\n4. Runway – AI video editing\n5. EaseMate – All-in-one AI assistant\n6. Flova – Character-consistent AI videos\n7. Magnific – AI image enhancement\n8. Pika – Text-to-video\n9. Skywork – AI research workspace\n10. SciSpace – Research paper search & summaries\n11. Artguru – AI photo & video enhancement\n12. AetherAI – Digital pathology AI\n13. Agnes AI – Reports & presentations\n14. Pollo AI – Multi-model AI creator\n15. Dzine AI – AI video editing & style transfer\n16. HappyOyster – Real-time AI world model\n\n🔖 Save this list—you'll thank yourself later.",
-"likeCount": 76,
-"retweetCount": 31,
-"url": "https://x.com/kevin_parker_ai/status/2068699713340330386",
-"createdAt": "Sun Jun 21 14:17:00 +0000 2026"
-},
-{
-"userName": "Kikispams",
-"text": "🙂‍↕️ @BR4ted called it first\n\nan upcoming nft you should position for is @Frag_Growth\n\nfragments of growth is a project by @jenyavyguzov, a fashion photographer and artist who has been building a visual diary for the past 10 years.\n\nhis work has been featured in vogue, gq style, tatler, elle, l’officiel, and in campaigns for puma, ikea, and davines.\n\neach petal is assembled from years of experiences, with textures photographed across streets, walls, and surfaces, caught in passing light.\n\nthis is not generative ai.\n\nthis is a decade of art, taken, broken down, reshaped, and layered into flowers by hand. 🌸",
-"likeCount": 28,
+"userName": "OwenGregorian",
+"text": "The CEOs are No Longer (Publicly) Threatening to Replace Humans With AI | AJ Dellinger, Gizmodo\n\nSince ChatGPT came onto the scene in late 2022, there has been a singular message from tech executives to the broader workforce regarding the new technology: it is coming for your job. They have insisted, sometimes in the language of a flowery, futuristic utopia and sometimes as a straight-up threat, that artificial intelligence will result in a complete upheaval in the economy, wipe out entire categories of jobs, and fundamentally change the human relationship with work.\n\nBut over the last few months, a switch has flipped. Suddenly, the messaging around AI has gone from “meet your replacement” to “meet your new coworker, who is definitely not here to watch you work and eventually push you out!” The language has changed from warning to what feels like pacification—and it comes at a seemingly strange moment. By most accounts, it seems like the AI companies won. The frontier model makers, including Anthropic and OpenAI, have filed to go public. Even xAI, Elon Musk’s also-ran of an AI firm best known for allegedly mass-generating child porn, got tucked into SpaceX and turned into the biggest IPO in history.\n\n“I’m delighted to be wrong about this”\n\nThe mood has significantly shifted in the executive suite. Take Mustafa Suleyman, the CEO of Microsoft AI, brought in to help the company wean itself off the teat of the OpenAI cash cow before it goes dry. In 2024, while speaking to the billionaire crowd at Davos, he said AI models “are fundamentally labor-replacing tools.”\n\nEarlier this year, he got more specific on what labor. “White-collar work, where you’re sitting down at a computer, either being a lawyer or an accountant or a project manager or a marketing person, most of those tasks will be fully automated by an AI within the next 12 to 18 months,” he said in an interview with the Financial Times.\n\nBut well before we reached the full automation timeline, Suleyman started walking back his position. “I said ‘tasks,'” Suleyman told The Verge earlier this month. “So that does not mean jobs… Jobs and roles are the broader category, and tasks are the components of that.” Instead, he now believes AI will make the tedium of work easier. “Sending an email, having a conversation with a colleague, putting together a PowerPoint — sub-tasks will increasingly become digitized, automated, and we can basically generate more and more of them. That does not necessarily mean that the role goes away at all,” he explained.\n\nNow, let’s set aside the fact that in Suleyman’s dream future, workers will be having more meetings and letting their AI equivalent chat with their colleagues—a nightmare for people who are actually doing that work. The general thrust of the messaging is now “You’re not being replaced, you’re being augmented.”\n\nHe’s far from the only one who has changed his tune in this way. Nvidia CEO Jensen Huang has also been shifting the narrative that he spins. In 2025, the head of the world’s biggest chipmaker said programming AI is basically like “programming a person,” which is definitely how people like to be talked about.\n\nTo that end, it seemed Huang saw the goal of AI to fundamentally replace an entire class of workers with AI models capable of doing what they do. At the time, Huang said, “It is our job to create computing technology such that nobody has to program. And that the programming language is human, everybody in the world is now a programmer. This is the miracle of artificial intelligence.”\n\nNow, Huang is warning against anyone suggesting that a particular type of career will ever go away. “This is one of the concerns that I have about the doomers describing the end of work and killing of jobs. If we discourage people from being software engineers, we’re going to run out of software engineers,” he said during an appearance on the Dwarkesh Podcast. He even pointed to an example of where this type of thinking has done real damage: “The same prediction happened ten years ago. Some of the doomers were telling people, ‘Whatever you do, don’t be a radiologist.’ You might hear some of those videos still on the web saying radiology is going to be the first career to go and the world is not going to need any more radiologists. Guess what we’re short of? Radiologists.”\n\nHuang almost certainly wouldn’t call himself a doomer, but what he was saying in 2025 doesn’t feel fundamentally different than what he’s warning against now. It seems, if nothing else, that Huang has caught onto a vibe that has been emanating out of those offices where workers are constantly being told their replacements are coming: fear.\n\nHe acknowledged that there’s a real risk of that resonating within the next generation, who are already not feeling great about their future prospects. “If we scare everybody out of radiology so nobody wants to be a radiologist because computer vision is completely free and no AI is going to do a worse job than a radiologist, we misunderstand the difference between a job and a task. The job of a radiologist is patient care. The task is to read a scan,” he said.\n\nA similar shift has happened over in the c-suite at OpenAI. Back in 2025, Punchbowl News reported that Chris Lehane, OpenAI’s vice president of global affairs, said it was important to “really be straight up” about “cohorts that potentially get displaced.” Basically, Lehane was calling for transparency about whose careers were about to be in jeopardy due to the expansion of AI.\n\nLehane’s CEO, Sam Altman, has perhaps been among the most explicit in how he talked about the potential for job loss. Way, way back in 2015, when OpenAI was just a glint in his eye, Altman was telling people, “My job is to help people destroy jobs.” In 2023, he told The Atlantic, “Jobs are definitely going to go away, full stop.” When he said that, he even put it in the context that the more hopeful among his peers were lying to people: “A lot of people working on AI pretend that it’s only going to be good, it’s only going to be a supplement,” he said before dropping the “jobs will be lost” hammer.\n\nYet here we are in 2026, and the prognosis has changed. “I’m delighted to be wrong about this, I thought there would have been more impact on entry-level white-collar jobs being eliminated by now than has actually happened,” he told Reuters last month.\n\nLehane, meanwhile, is running a new message up the flagpole, chastizing the people who dared threaten the livelihoods of people in a very “we’re all trying to find the guy who did this” fashion.\n\n“Some of the conversation out there is not necessarily responsible,” he told the San Francisco Standard. “And when you put some of those thoughts and ideas out there, they do have consequences. … This is really serious shit.” He even went on to say that, “Our job at OpenAI and in the AI space—and we need to do a much better job—is to explain to people why … this is going to be really good for them, for their families, and for society writ large.”\n\nLosing popularity\n\nThere seems to be a tell in that comment as to what is going on and why the message has changed so drastically. AI is not popular, and it is not popular because people are afraid that it will take their jobs. More than half of Americans are concerned AI will put someone in their household out of work, according to a recent poll conducted by Reuters and Ipsos. NBC found that just 26% of people view AI positively, with nearly double that holding a negative view of the technology.\n\nUnpopularity is one thing, and not necessarily enough to actually stop corporations from plowing forward. Labor unions remain weak nationally, and there is little by way of worker protection to prevent such a push. But citizens have found surprising success in fighting against the construction of data centers across the country, which potentially hinders the buildout these companies need in order to keep the cash flowing. As long as they are still in the growth and investment stage, they can keep burning through cash to put up these facilities with the promise, however improbable it may be, that they’ll eventually create enough computing power to achieve artificial general intelligence. But the political roadblock of people pushing back against their big boxes of processors seems to be something of a signal that they are losing the PR war.\n\nJust relax, and stop fighting\n\nHence, the shifting message is to stop fighting because this is going to be good for you. Amazon founder Jeff Bezos has tried his hand at this pitch in recent weeks, suggesting workers should “be so happy” about the introduction of AI because of how much easier it’ll make their lives, claiming the technology will “elevate all of these people.”\n\nBrad Smith, President of Microsoft, has gotten in on the act, too. In a blog post meant to respond to the resounding number of graduate classes that have booed the very mention of AI during commencement speeches, Smith tried his hand at guiding the incoming members of the working class to a new view of the technology. “Constant change has taught you how to adapt quickly. As AI reshapes how we work, you don’t need to unlearn decades of habits the way some of us do. You are better equipped to move forward,” he wrote. “Technology will change, but you can stand firmly and speak loudly for values that are timeless. Agency. Ambition. Dignity. All fulfilled through work and technology that gives us purpose.”\n\nWithin Smith’s pitch is a bit of seemingly unintentional transparency into the thought process of corporate America. At one point, he writes in what certainly feels like a begrudging manner that the reaction from students makes it clear that “People will insist on having a say in deciding when and how AI is used.” Now, it seems, the goal of these executives has become convincing people that they have been heard, that they are valued, and that they are anything but replaceable cogs who will get removed the moment it becomes cheaper to hand the task over to an AI agent.\n\nMeta’s approach to informing its workers about how it is using AI might be the most instructive for others across all industries, as they are increasingly told AI tools are just here to make their lives easier. Earlier this year, it was revealed that the company was logging its employees’ activity, recording how they do their work in order to train AI models on how to accomplish the same tasks. In a leaked audio, CEO Mark Zuckerberg reportedly said that Meta is using its employees for this because they are “really smart people.”\n\nThat’s a nice compliment to give people who will soon be shown the door.\n\nhttps://t.co/cNm8H1Wuv4",
+"likeCount": 12,
 "retweetCount": 2,
-"url": "https://x.com/Kikispams/status/2067507689190535367",
-"createdAt": "Thu Jun 18 07:20:20 +0000 2026"
+"url": "https://x.com/OwenGregorian/status/2067213036146811108",
+"createdAt": "Wed Jun 17 11:49:29 +0000 2026"
 },
 {
-"userName": "CloudflareDev",
-"text": "P-Image-Try-On from @PrunaAI available on @cloudflare AI Gateway - 70% off until June 21st.\n\nUpload a photo of a person + garment refs, and instantly get a virtual try-on image\nhttps://t.co/wVKDXvhHeJ",
-"likeCount": 27,
-"retweetCount": 4,
-"url": "https://x.com/CloudflareDev/status/2067674658447503603",
-"createdAt": "Thu Jun 18 18:23:48 +0000 2026"
+"userName": "Bricktop_NAFO",
+"text": "Hey everyone,\n\nSo I have been working really hard on something recently, this is for all the people fed up with the way things are with social media these days. Whether you are pissed off with the way that you get forcefed junk, or that you are pissed off with the lack of visibility.\n\nI took everything I hated about social media, everything I hear people complaining about, and threw it out. Then I built what myself and others actually wanted, every feature people have told me they wish existed.\n\nI created FrogsDen in a cry to return social media into the thing that we once loved it for, it wasn’t made to replace the platforms you currently use, it was made to be completely different so you have a place to get away and connect like we used to. No AI Content allowed. No special features for paying members. A free platform with no ads.  \n\nThe governing rules say it all. The 10 Frogmandments. \n \nI. Thou shalt not be a dick.\nThat’s the whole religion. The other nine are footnotes.\n\nII. Thou shalt be weird.\nIn a future of AI efficiency, your weird humanness is the most valuable thing in this world. Spend it freely.\n\nIII. Thou shalt let the geek out.\nCaring loudly about things you love is cool here. It always was. The internet just forgot.\n\nIV. Thou shalt try things.\nExplore The Hub. Share your voice. Show the kitchen disaster. Nobody ever found out who they were until they tried something new.\n\nV. Thou shalt help a frog out.\nTen minutes on a stranger’s problem is the most human thing on the internet. Be helpful here.\n\nVI. Thou shalt not perform.\nThere’s no clout to chase. Comments don’t boost reach and the numbers don’t love you back. Belonging is the reward.\n\nVII. Thou shalt decorate thy den.\nA grey profile is a cry for help. Make it truly yours.\n\nVIII. Thou shalt greet the new frog.\nEvery frog was new once. Be the reason someone stays.\n\nIX. Thou shalt not post AI images or videos.\nThe world outside is drowning in them. Here, your blurry photo beats a machine’s perfect fake. We value human imperfection more.\n\nX. Thou shalt question the 10 Frogmandments.\nAny frog can propose a change. If the pond votes yes, the stone gets re-carved. We don’t hand down rules. We hold them up.\n\nBut what can you actually do on FrogsDen?\n\nYour feed, zero secrets. Every mechanic that decides what you see is published. No hidden algorithm. No shadow bans. No suppression. Everyone on e  of your post reach everyone of your followers. Always. \n\nYopu can vote to change the platform! Don't like something? Propose a change. The community votes. If it passes, we build it. That's real power, not a suggestion box that goes nowhere.\n\nHow posts spread. Likes push your post to 10 new people. Shares push it to 25. Comments don't boost anything, so rage-bait doesn't work here. Dislike counts are hidden, if dislikes outweigh likes, posts don’t spread.\n\nNew Frog Boost. New users get extra reach on their first 10 posts so you're not shouting into the void on day one.\n\nQuiet Fade. Someone's content isn't for you? Dislike it. Their stuff quietly fades 20% from your feed every time you dislike it anonymously. They never know. No drama. Alternatively just mute or block people to make them disappear.\n\nMake your profile yours. We give you animated backgrounds, border effects, card styles, shape presets, and fonts. Add a favourite quote, a Spotify track that plays on your profile, show what you're currently watching/reading/playing/listening to, or pick one of 36 completely made-up religions and cults. Turn on Theme Timeline and your entire feed transforms into your colour scheme.\n\nSwamps. Community spaces with no owners, no karma, no gatekeeping. \n\nThe Hub:\n\nVoices From The Shadows - A place people can post secrets and confessions completely anonymously. Not even admins can see who posted\n\nThe Time Machine - Seal a message for up to 3 years. When the time comes you are notified to hear from your past self.\n\nPixel With Me - make pixel art with people on the site or create private canvases for yourself or friends.\n\nThe Speakeasy - 10 second audio clips. Everyone can reply only once with a 10 second audio recording.\nThe Arcade - browser games you can play without leaving the site, no ads, no BS.\n\nLive Events - host live audio rooms with speakers, screen sharing, live chats, like X spaces but on steroids with all the features that hosts and listeners don’t currently have with crystal clear Opus codec audio\n\nThe Book Club - share what you're reading and make suggestions to users.\n\nThe Kitchen - share recipes and show people what you are eating\n\nPet Corner - show off your pets\n\nI Did A Thing - show off your creative side with builds, art, creative projects\n\nPixel Pet. Every account gets the option to have a virtual frog. Feed it, pet it, let it sleep. Neglect it and it dies and hopefully you have better luck next time. Visitors can give it snacks to help it survive.  \n\nA Retro Answer Machine - A place where your friends can leave you an answer phone message for when you come back to your profile.\n\nRibbit - It's the old school poke. Send one. Get one back. That's all. Go piss off your friends with your persistence. Be the last.\n\nCommunity Badges -  See a great post? Award a badge. Three votes and it's officially earned.\n\n3000 Character limits - It should be up to you if you want to write long posts, and up to users if they think it’s worth reading. No more ugly threads.\n\nDMs. Text, images, GIFs, video. No read receipts, no typing indicators, no online status. Privacy is the default.\n\nSplit View. Open two independent feed columns side by side on desktop for a sleek view of anything that you want.\n\nPost editing - 1 hour to fix typos. Shows \"Edited\" so nobody can pretend they didn't say something.\n\nContent From Other Platforms - Auto embed into video players or images without the fluff, it will even auto translate just by posting a link.\n\nThe Frogmandments - Our bible to explain what FrogsDen stands for. Another thing you can vote to change\n\nFrogsDen is live and it's free. \n\nAlready on the Apple App Store, Google Play Store coming in the next few days. If any of this sounds like the kind of place you've been missing, come see it for yourself. And if you think something's missing, tell us. If the community wants it, we build it. https://t.co/aswD8X6mLs",
+"likeCount": 15,
+"retweetCount": 1,
+"url": "https://x.com/Bricktop_NAFO/status/2068759486655771092",
+"createdAt": "Sun Jun 21 18:14:31 +0000 2026"
+},
+{
+"userName": "theliverdoc",
+"text": "Good morning. This is urgent, for public information.\n\nThe second paper on cow research funded using India's public money under the SUTRA-PIC (Scientific Utilization through Research Augmentation - Prime Products from Indigenous Cows program) has undergone exhaustive post-publication peer review.\n\nThe paper was published in Applied Biochemistry and Biotechnology last year. The authors are from Indian Institute of Technology (IIT) BHU-Varanasi and Birla Institute of Technology (BITS)-Pilani.\nThis is the paper: https://t.co/InN4H9safh\n\nThis study was done in Uttar Pradesh and the total amount of public money given was INR 31,04,162. The authors studied cow urine of different breeds and found \"special\" components in the cow urine that they claim will have major use applications in healthcare, technology and engineering. \n\nThey are wrong. The paper is a third-rate publication with poorly performed and grossly misinterpreted and falsified results of basic analytical chemistry. An official email for Expression of Concern and investigation into scientific integrity has been mailed to: @SpringerNature Ethics Team and Journal Editors-in-Chief (personal email) - Matthew P. DeLisa PhD\nat Cornell University, Ye Ni PhD at Jiangnan University and Benedict Okeke PhD at Auburn University.\n\nHere is the lay summary of the paper's forensic analysis:\n\nLab contamination has been (un)intentionally ignored by authors. The researchers mistook common lab contaminants, like plastic chemicals and solvents, for natural cow urine compounds. They failed to run basic control tests to catch these obvious errors.  \n\nImpossible chemicals claimed to be found in cow urine by authors. The paper claims to have found impossible synthetic chemicals in the urine, such as a banned pesticide, human prescription drugs, and toxic metals. This shows the authors blindly trusted computer software without checking if the results even made biological sense.  \n\nFake health claims made by the authors. The authors boast about the amazing health benefits of over twenty different chemicals, claiming they fight cancer and bacteria. However, none of these specific chemicals were actually found anywhere in their own data or in the urine of various cows they tested. \n\nContradictory results are all over the place. The written text of the paper directly contradicts its own data tables. The researchers claim to have found certain groups of chemicals, like steroids, that are completely missing from their actual results. \n\nTerrible referencing throughout the paper. The study's citations are completely mismatched, scrambled, and duplicated. They even cite unrelated plant studies and reviews on toxic chemicals to support their claims about the \"benefits\" of cow urine.  \n\nZero statistics and flawed setup degrade the conclusions. The study lacks basic statistical analysis, sometimes testing as few as one cow per breed. They also failed to separate the cow's breed from its age, diet, or location, making their \"breed-specific\" conclusions totally invalid.\n\nMisleading graphs are plastered all over. The graphs that are supposed to show specific, individual chemicals actually show messy mixtures of dozens of different compounds. These graphs look suspiciously identical to each other, raising serious concerns about image manipulation.\n\nThanks to the Government for destroying the scientific fabric and the rational temperament of its science instituitions. We wont forget.",
+"likeCount": 1593,
+"retweetCount": 523,
+"url": "https://x.com/theliverdoc/status/2069250477217497155",
+"createdAt": "Tue Jun 23 02:45:33 +0000 2026"
+},
+{
+"userName": "probnstat",
+"text": "Direct Preference Optimization (DPO) is a recent breakthrough in AI alignment that provides a simple alternative to Reinforcement Learning from Human Feedback (RLHF). Instead of first training a reward model and then optimizing a policy with reinforcement learning, DPO directly learns from pairs of human preferences—for example, a preferred response and a rejected one. This eliminates the need for a separate reward model while retaining the ability to align models with human judgments.\n\nMathematically, DPO can be viewed as optimizing a classification objective derived from a constrained reinforcement learning problem, linking preference learning with probabilistic inference. The method updates the policy to increase the likelihood of preferred outputs while decreasing the likelihood of less desirable ones.\n\nIn machine learning, DPO offers an efficient framework for learning from comparative feedback rather than explicit labels. In deep learning, it has become a key technique for aligning large language models, improving helpfulness, safety, and instruction-following behavior. In reinforcement learning, DPO provides a bridge between supervised learning and policy optimization, replacing complex RL pipelines with a more stable optimization objective.\n\nThe broader insight is that many real-world tasks are easier to express through preferences than absolute rewards. By learning directly from comparisons, Direct Preference Optimization offers a scalable and mathematically elegant framework for training the next generation of aligned AI systems.\n\nImage: https://t.co/9Ync1ZHNKq",
+"likeCount": 126,
+"retweetCount": 15,
+"url": "https://x.com/probnstat/status/2066921671408357791",
+"createdAt": "Tue Jun 16 16:31:42 +0000 2026"
+},
+{
+"userName": "SpatialBiggs",
+"text": "Unreal Engine 6 blueprint deprecation is devastating news. \n\nWhile it is tough to argue against AI for rapid code generation, the access BP gave Technical Designers and Technical Artists to make magic isn't being acknowledged enough.\n\nThe likes of Expedition 33 prove how small teams can make amazing things in blueprint.\n\nVery sad news personally as I am unsure of my own tech in blueprint having a future outside of UE5 era. That is a very long time of work suddenly deprecating.\n\nAfter release, evaluation will start on the path forward for future titles testing UE6 and Godot.\n\nHopefully we can somehow convert our blueprint systems in a decent fashion... I'll likely be sharing this attempt once we get a stable UE6 to test the UE5 conversion on and move from there.",
+"likeCount": 329,
+"retweetCount": 23,
+"url": "https://x.com/SpatialBiggs/status/2067547569052393944",
+"createdAt": "Thu Jun 18 09:58:48 +0000 2026"
+},
+{
+"userName": "nickbaumann_",
+"text": "OpenAI Developer's plugin is severely underrated\n\nIt connects to your developer platform account and then creates & provisions keys to the right APIs for whatever you're building:\n\n- Responses API + built-in tools\n- Realtime API\n- image generation + editing\n- speech-to-text + text-to-speech\n- Agents SDK + Apps SDK\n- Batch API\n\nAnd it has access to docs so it uses the right product wherever needed in your app\n\nCopy/pasting API keys feels severely outdated\n\n(this demo uses Realtime API for live transcription + Responses API with web search for research and editing + text-to-speech for narration + image generation for cover art and social assets)",
+"likeCount": 193,
+"retweetCount": 15,
+"url": "https://x.com/nickbaumann_/status/2069198222250352882",
+"createdAt": "Mon Jun 22 23:17:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @yunta_tsai: Many people think any given ML project is 99% training.\n\nIn reality, it’s 50% evaluation, 40% data cleaning, 8% integration…",
-"likeCount": 10675,
-"retweetCount": 1240,
-"url": "https://x.com/ClementDelangue/status/2068434794090754193",
-"createdAt": "Sat Jun 20 20:44:19 +0000 2026"
+"text": "RT @_MaxBlade: I CANNOT believe im saying this right now... \n\nbut GLM 5.2 in open code is SHITTING on opus 4.8 in claude code. 🤯\n\nhow is th…",
+"likeCount": 2068,
+"retweetCount": 51,
+"url": "https://x.com/ClementDelangue/status/2068703744863138237",
+"createdAt": "Sun Jun 21 14:33:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @etnshow: \"Owning your AI and adopting open-source models is the single most important thing we can do.\"\n\n@MeryemArik9 Co-Founder &amp; CEO…",
-"likeCount": 21,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2068145868893471154",
-"createdAt": "Sat Jun 20 01:36:14 +0000 2026"
+"text": "RT @NielsRogge: That's right, an open, MIT-licensed model beating GPT-5.5 (xhigh) on real-world agentic work! 🔥\n\nAvailable for free on @hug…",
+"likeCount": 52,
+"retweetCount": 12,
+"url": "https://x.com/ClementDelangue/status/2069147210147639595",
+"createdAt": "Mon Jun 22 19:55:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @PatrickToulme: I ran GLM 5.2 with OpenCode harness against Claude Opus this week deployed locally.\n\nBottom line: It is a real frontier…",
-"likeCount": 1600,
-"retweetCount": 104,
-"url": "https://x.com/ClementDelangue/status/2068167058227965956",
-"createdAt": "Sat Jun 20 03:00:26 +0000 2026"
+"text": "RT @LeRobotHF: Is it really worth it joining a robotics hackathon?\n\nOne year ago, thousands of people around the world spent a single weeke…",
+"likeCount": 185,
+"retweetCount": 21,
+"url": "https://x.com/ClementDelangue/status/2069069361457807426",
+"createdAt": "Mon Jun 22 14:45:51 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @elliotarledge: I have some very big news... KernelBench-Hard with H100 and B200 (single gpu results)\n\nAND \n\nKernelBench-Mega tested on…",
-"likeCount": 338,
-"retweetCount": 33,
-"url": "https://x.com/ClementDelangue/status/2068193502073086038",
-"createdAt": "Sat Jun 20 04:45:30 +0000 2026"
+"text": "RT @HuggingPapers: Ai2 just released TMax 27B on Hugging Face\n\nA 27B terminal agent that hits 42.7% on Terminal Bench 2.0,\nrivaling models…",
+"likeCount": 77,
+"retweetCount": 19,
+"url": "https://x.com/ClementDelangue/status/2069095324430282914",
+"createdAt": "Mon Jun 22 16:29:01 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @voratiq: After more head-to-head matches\n\nWe're finding GLM 5.2 high to be ... quite good\n\nProbability it beats:\n- Opus 4.8 xhigh: 32%…",
-"likeCount": 258,
-"retweetCount": 31,
-"url": "https://x.com/jeremyphoward/status/2067889787475009746",
-"createdAt": "Fri Jun 19 08:38:39 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @elliotarledge: KernelBench-Hard and KernelBench-Mega results are in. Reasoning traces are open. Thanks to @calebfahlgren for showing me…",
-"likeCount": 67,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2068166969237336082",
-"createdAt": "Sat Jun 20 03:00:04 +0000 2026"
+"text": "RT @didier_lopes: Incredible how Z. ai literally has their RL infrastructure open source.\n\nThe entire OPD post-training of GLM-5.2 took on…",
+"likeCount": 1798,
+"retweetCount": 155,
+"url": "https://x.com/jeremyphoward/status/2068277263158944086",
+"createdAt": "Sat Jun 20 10:18:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @ArtificialAnlys: Announcing AA-Briefcase, the benchmark for the next era of agentic knowledge work\n\nAA-Briefcase is our new benchmark f…",
-"likeCount": 834,
-"retweetCount": 71,
-"url": "https://x.com/jeremyphoward/status/2067758199667864057",
-"createdAt": "Thu Jun 18 23:55:46 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @natolambert: It's hard to pinpoint open-closed gap and so-on, but I trust the @arena team and just look where GLM 5.2 is on this. An MI…",
-"likeCount": 373,
-"retweetCount": 34,
-"url": "https://x.com/jeremyphoward/status/2066984201443070228",
-"createdAt": "Tue Jun 16 20:40:10 +0000 2026"
+"text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
+"likeCount": 2186,
+"retweetCount": 170,
+"url": "https://x.com/jeremyphoward/status/2066982338949714324",
+"createdAt": "Tue Jun 16 20:32:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @TheAhmadOsman: Luke Alonso has uploaded an NVFP4 of GLM 5.2\n\n467GB, would fit on 4x DGX Sparks (~$20k) https://t.co/8wP1uUypLC",
-"likeCount": 289,
+"likeCount": 294,
 "retweetCount": 24,
 "url": "https://x.com/ClementDelangue/status/2068450788049838488",
 "createdAt": "Sat Jun 20 21:47:52 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @aronprins: Breaking News: Claude is pausing the Agent SDK credit change! https://t.co/kun5cj0D0l",
-"likeCount": 936,
-"retweetCount": 70,
-"url": "https://x.com/jeremyphoward/status/2066642471887753288",
-"createdAt": "Mon Jun 15 22:02:16 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @paradite_: the number of providers for glm 5.2 is insane.\n\ni count 20 of them. https://t.co/3ncOCbbY7y",
+"likeCount": 236,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2069148566006714811",
+"createdAt": "Mon Jun 22 20:00:35 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @0xSero: Holy moly almost 1000 followers on Huggingface https://t.co/gjUI5LVXWJ",
-"likeCount": 288,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2068687425337958599",
-"createdAt": "Sun Jun 21 13:28:11 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "Battle of the Jeremy Howards! https://t.co/UjS2HvvZEc",
-"likeCount": 126,
-"retweetCount": 3,
-"url": "https://x.com/jeremyphoward/status/2068278444295946708",
-"createdAt": "Sat Jun 20 10:23:02 +0000 2026"
+"text": "RT @nicdunz: glm 5.2 is crazy https://t.co/qgCJuKnPEF",
+"likeCount": 1527,
+"retweetCount": 49,
+"url": "https://x.com/ClementDelangue/status/2068703626294337759",
+"createdAt": "Sun Jun 21 14:32:33 +0000 2026"
 }
 ]
