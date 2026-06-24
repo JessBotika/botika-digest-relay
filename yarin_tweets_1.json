@@ -8,107 +8,83 @@
 "createdAt": "Fri Jun 19 19:27:54 +0000 2026"
 },
 {
-"userName": "Alacritic_Super",
-"text": "🧠 Entropy: One of the Most Important Concepts in AI, Machine Learning, Information Theory, and Physics\n\nIf you understand entropy, you'll better understand:\n\n• Decision Trees\n• Cross Entropy Loss\n• LLM Training\n• Compression Algorithms\n• Diffusion Models\n• Statistical Physics\n• Information Theory\n\nEntropy is everywhere.\n\n---\n\nWhat is Entropy?\n\nEntropy measures uncertainty, randomness, or information content.\n\nThe more unpredictable something is, the higher its entropy.\n\nThe more predictable something is, the lower its entropy.\n\nThink of entropy as:\n\n\"How surprised would I be by the next outcome?\"\n\n---\n\nExample 1: Coin Toss\n\nFair Coin:\n\nHeads = 50%\nTails = 50%\n\nYou cannot predict the outcome.\nMaximum uncertainty.\nHigh entropy.\n\n---\n\nBiased Coin:\n\nHeads = 99%\nTails = 1%\n\nYou can almost always predict Heads.\n\nLow uncertainty.\nLow entropy.\n\n---\n\nExample 2: Language Models\n\nConsider predicting the next word:\n\n\"The sun rises in the ____\"\n\nPossible next token:\n\n• east → 95%\n• west → 3%\n• sky → 2%\n\nVery predictable.\n\nLow entropy.\n\n---\n\nNow:\n\n\"Today I dreamed about a ____\"\n\nPossible next token:\n\n• dragon\n• robot\n• elephant\n• spaceship\n• castle\n\nMany possibilities.\n\nHigher uncertainty.\nHigher entropy.\n\n---\n\nClaude Shannon's Insight\n\nIn 1948, Claude Shannon introduced information entropy.\n\nThe formula:\n\nEntropy = Expected Information Content\n\nA highly predictable event carries little information.\nA surprising event carries a lot of information.\n\n---\n\nWhy Compression Works\n\nSuppose a file contains:\nAAAAAAAAAAAAAAAAAAAA\n\nVery repetitive.\n\nLow entropy.\nEasy to compress.\n\n---\n\nSuppose a file contains:\nX7$P@9L#2W!K8Z&Q\n\nLooks random.\n\nHigh entropy.\nDifficult to compress.\n\nCompression is essentially exploiting low entropy.\n\n---\n\nEntropy in Decision Trees\n\nAlgorithms like:\n\n• ID3\n• C4.5\n• Random Forests\n\nUse entropy to determine the best split.\n\nGood splits:\n\nReduce uncertainty.\n\nBad splits:\n\nLeave uncertainty unchanged.\n\nThe objective:\n\nMaximum Information Gain.\n\n---\n\nEntropy in Deep Learning\n\nModern neural networks use:\n\nCross Entropy Loss\n\nFor:\n\n• Classification\n• Language Models\n• Transformers\n• LLMs\n\nCross entropy measures:\n\nHow different are model predictions from reality?\n\nLower cross entropy means better predictions.\n\n---\n\nEntropy in LLM Training\n\nDuring pretraining:\n\nModel\n↓\nPredict Next Token\n↓\nCompute Cross Entropy Loss\n↓\nUpdate Weights\n↓\nReduce Prediction Error\n\nEvery GPT-style model optimizes cross entropy billions of times during training.\n\n---\n\nEntropy and Temperature\n\nLLMs use temperature during generation.\n\nLow Temperature:\n\n• Lower entropy\n• More deterministic\n• More predictable\n\nHigh Temperature:\n\n• Higher entropy\n• More creative\n• More diverse\n\nTemperature directly affects uncertainty in generated text.\n\n---\n\nEntropy in Reinforcement Learning\n\nModern RL algorithms often maximize entropy.\n\nWhy?\n\nWithout entropy:\n\nAgent repeats the same actions.\n\nWith entropy:\n\nAgent explores new possibilities.\n\nExploration requires uncertainty.\n\n---\n\nEntropy in Diffusion Models\n\nDiffusion models work by:\n\nImage\n↓\nAdd Noise\n↓\nIncrease Entropy\n↓\nRandom Distribution\n\nGeneration:\n\nRandom Distribution\n↓\nRemove Noise\n↓\nDecrease Entropy\n↓\nImage\n\nThe entire process can be viewed as moving between low and high entropy states.\n\n---\n\nEntropy in Physics\n\nIn thermodynamics:\nEntropy measures disorder.\n\nLow entropy:\nIce cube.\nHighly structured.\n\n---\n\nHigh entropy:\n\nSteam.\nHighly disordered.\n\nThe second law of thermodynamics states:\nEntropy tends to increase over time.",
-"likeCount": 32,
-"retweetCount": 9,
-"url": "https://x.com/Alacritic_Super/status/2067172088956539184",
-"createdAt": "Wed Jun 17 09:06:46 +0000 2026"
-},
-{
-"userName": "siddancha",
-"text": "Really elegant work on fixing variational RL with diffusion models using self-distillation! 👏👏\n\n*Problem*: Likelihood gradients ∇ log p(a) are needed for RL but are hard to compute for diffusion models. A useful surrogate is ∇ ELBO(a), where the ELBO is a supervised diffusion loss such as denoising score-matching loss (DSM) or conditional flow-matching loss (CFM); e.g. the latter is used in FPO (https://t.co/umBUxE4KFq). However, the ELBO suffers from a KL gap: which causes the gradients of ELBO(a) and logp(a) to be misaligned:\n\nELBO(a) = log p(a) - D_KL(a)\n\n*Idea*: Drive the KL gap down to zero after each policy gradient step, reminiscent of the EM algorithm for training GMMs. The E-step drives the KL gap to zero by computing the posterior distribution over latents *without changing the generative model.* Then, the M-step optimizes the ELBO; since the KL gap is already zero and can only increase, the M-step guarantees that the log-likelihood will also increase.\n\n*Solution*: The rough equivalent of the \"E-step\" in diffusion models is self-distillation. You sample action labels from the current diffusion model and just do supervised learning (minimize ELBO) to match its own actions. This might seem useless because self-distillation does not modify the terminal action distribution at all! *The generative model and log-likelihoods log p(a) are unchanged*. But this drives the diffusion KL gap to zero! The KL gap in diffusion models is the distributional gap between the noising and denoising paths; a perfectly trained diffusion model that exactly reverses the noising process has zero KL gap. When this happens, D_KL(a) = 0. But zero is the global minimum for KL divergence, and so ∇D_KL(a) = 0. Which means that ∇ log p(a) = ∇ ELBO(a). The true and surrogate policy gradients are exactly aligned after self-distillation! Takeaway: Interleave policy update steps with self-distillation steps!",
-"likeCount": 44,
-"retweetCount": 3,
-"url": "https://x.com/siddancha/status/2069135165310501032",
-"createdAt": "Mon Jun 22 19:07:20 +0000 2026"
-},
-{
-"userName": "NayrhitB",
-"text": "Marc Andreessen, @pmarca, has a term for what every great founder does and nobody admits to. \n\nHe calls it \"retardmaxxing.\" \n\nFirst time I heard it I rejected it. Sounded reckless.\n\nThen my co-founder pointed out I do it more than anyone on our team.\n\nRetardmaxxing isn't being dumb. It's committing to a decision before you've finished analyzing it to death.\n\nEvery big decision that's worked for Gushwork came when I retardmaxxed the most:\n\n→ Starting Gushwork. non immigrant visa, new york rent, student loan, 15 days after ChatGPT launched. No idea what we'd build. Pitched VCs before we'd incorporated.\n\n→ Pivoting from a virtual assistant business to AI SEO overnight. One viral LinkedIn post → pivoted the whole company toward offering a service I barely understood. Genuinely didn't know SEO was a thing when we started Gushwork.\n\n→ Pausing all revenue 12 months ago. Just closed $9M, growing 40% MoM. Told the board we were taking revenue to zero for 4 months to focus on building an agentic commerce platform for b2b businesses & hone in on traditional manufacturers and distributors of the US. this was retardmaxxing.\n\nWhatever you build will have 15 competitors in 12 months. The only edge that compounds is how fast you move from \"we should try this\" to \"we shipped this.\"\n\nIf you wait to be sure with 10x datapoints in this AI-native world, you're not being responsible. You're letting someone less sure get there first.",
-"likeCount": 43,
-"retweetCount": 1,
-"url": "https://x.com/NayrhitB/status/2069047777837846590",
-"createdAt": "Mon Jun 22 13:20:05 +0000 2026"
-},
-{
-"userName": "dvorahfr",
-"text": "I started working with generative AI about three years ago.\n Very quickly, fashion shows and Catwoman became my favorite themes.\nCreating a character was very interesting back then, but also very laborious.\nToday it's so much easier; it's accessible to everyone.\nA tribute to my first favorite themes Grok Imagine 1.5 but with incredible quality and exemplary ease",
-"likeCount": 200,
-"retweetCount": 25,
-"url": "https://x.com/dvorahfr/status/2068461287948853588",
-"createdAt": "Sat Jun 20 22:29:35 +0000 2026"
+"userName": "Kikispams",
+"text": "🙂‍↕️ @BR4ted called it first\n\nan upcoming nft you should position for is @Frag_Growth\n\nfragments of growth is a project by @jenyavyguzov, a fashion photographer and artist who has been building a visual diary for the past 10 years.\n\nhis work has been featured in vogue, gq style, tatler, elle, l’officiel, and in campaigns for puma, ikea, and davines.\n\neach petal is assembled from years of experiences, with textures photographed across streets, walls, and surfaces, caught in passing light.\n\nthis is not generative ai.\n\nthis is a decade of art, taken, broken down, reshaped, and layered into flowers by hand. 🌸",
+"likeCount": 29,
+"retweetCount": 2,
+"url": "https://x.com/Kikispams/status/2067507689190535367",
+"createdAt": "Thu Jun 18 07:20:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "Wow.\n\n@Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and not too verbose.\n\nIt responds with nuance and judgement, &amp; handles long context VERY well.\n\nI've never experienced an open weights model like this before.",
-"likeCount": 7354,
-"retweetCount": 493,
-"url": "https://x.com/jeremyphoward/status/2067757468189679764",
+"text": "The one big gap is that it is blind - it can't handle images at all.\n\nIf they fix that, then perhaps this could become the best available model in the world.",
+"likeCount": 539,
+"retweetCount": 11,
+"url": "https://x.com/jeremyphoward/status/2067757470253244580",
 "createdAt": "Thu Jun 18 23:52:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ItakGol: Hot take:\n\nGLM 5.2 might be the first open/public model that actually changes the enterprise AI cost equation.\n\nI played with…",
-"likeCount": 375,
-"retweetCount": 26,
-"url": "https://x.com/ClementDelangue/status/2068471461006704687",
-"createdAt": "Sat Jun 20 23:10:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @aisearchio: GLM 5.2 continues to impress me. \n\nHere's its result on Vending Bench, which measures an AI's performance on running a busi…",
-"likeCount": 129,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2068507378610278494",
-"createdAt": "Sun Jun 21 01:32:44 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @lvwerra: We launched an agent collaboration with a simple task: make Gemma 4 faster.\n\nOver 100 agents from all over the world joined, e…",
-"likeCount": 2252,
-"retweetCount": 187,
-"url": "https://x.com/jeremyphoward/status/2067183659447369773",
-"createdAt": "Wed Jun 17 09:52:45 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @ml_angelopoulos: Just to be clear, if you remove Fable which is unavaialble, GLM-5.2 (Max) is the #1 model in the world for frontend co…",
-"likeCount": 4339,
-"retweetCount": 358,
-"url": "https://x.com/jeremyphoward/status/2067184294569836761",
-"createdAt": "Wed Jun 17 09:55:16 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @hardmaru: Human intelligence is fundamentally a collective intelligence. We solve complex problems by participating in a vast cultural…",
-"likeCount": 2509,
-"retweetCount": 320,
-"url": "https://x.com/jeremyphoward/status/2069168146599268418",
-"createdAt": "Mon Jun 22 21:18:24 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @strickvl: Doing a bit of a self-study RL course at the moment and one of the really useful tweaks I always have my 'teacher' do is to r…",
-"likeCount": 38,
-"retweetCount": 5,
-"url": "https://x.com/jeremyphoward/status/2067136601264971866",
-"createdAt": "Wed Jun 17 06:45:45 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "BTW I've been using using @FireworksAI_HQ for inference. Other providers might not be as fast.",
-"likeCount": 377,
+"text": "RT @LottoLabs: If you’ve been thinking about training models or like the idea but don’t know where to start\n\nThis is one of the best reads…",
+"likeCount": 147,
 "retweetCount": 14,
-"url": "https://x.com/jeremyphoward/status/2067762629087801836",
-"createdAt": "Fri Jun 19 00:13:22 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2068810275638145482",
+"createdAt": "Sun Jun 21 21:36:21 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @0xSero: Holy moly almost 1000 followers on Huggingface https://t.co/gjUI5LVXWJ",
-"likeCount": 295,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2068687425337958599",
-"createdAt": "Sun Jun 21 13:28:11 +0000 2026"
+"text": "RT @NielsRogge: Here's how to use Claude Code with GLM-5.2 via\n@huggingface Inference Providers:  \n\n1. Create a token at https://t.co/K7LA8…",
+"likeCount": 130,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2069065171385848313",
+"createdAt": "Mon Jun 22 14:29:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @HuggingPapers: Ai2 just released TMax 27B on Hugging Face\n\nA 27B terminal agent that hits 42.7% on Terminal Bench 2.0,\nrivaling models…",
+"likeCount": 87,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2069095324430282914",
+"createdAt": "Mon Jun 22 16:29:01 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @didier_lopes: Incredible how Z. ai literally has their RL infrastructure open source.\n\nThe entire OPD post-training of GLM-5.2 took on…",
+"likeCount": 1805,
+"retweetCount": 155,
+"url": "https://x.com/jeremyphoward/status/2068277263158944086",
+"createdAt": "Sat Jun 20 10:18:20 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Going to cross 3M public models &amp; 1M public datasets on @huggingface in a few days. Open-source AI is on fire!",
+"likeCount": 254,
+"retweetCount": 36,
+"url": "https://x.com/ClementDelangue/status/2069095683395620898",
+"createdAt": "Mon Jun 22 16:30:27 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @verge: Barret Zoph is out at OpenAI again after just five months https://t.co/DItSRJUUPr",
+"likeCount": 56,
+"retweetCount": 7,
+"url": "https://x.com/jeremyphoward/status/2067889567504711994",
+"createdAt": "Fri Jun 19 08:37:47 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "lesgo! https://t.co/o4vMJLtMtM",
+"likeCount": 131,
+"retweetCount": 12,
+"url": "https://x.com/ClementDelangue/status/2069486314156658893",
+"createdAt": "Tue Jun 23 18:22:41 +0000 2026"
+},
+{
+"userName": "tslaming",
+"text": "https://t.co/b3ioLnDmF5",
+"likeCount": 48,
+"retweetCount": 6,
+"url": "https://x.com/tslaming/status/2069421582234353761",
+"createdAt": "Tue Jun 23 14:05:27 +0000 2026"
 }
 ]

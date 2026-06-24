@@ -1,13 +1,5 @@
 [
 {
-"userName": "NachtNovaAI",
-"text": "⚠️New prompt\nThis prompt was a random idea. \nit places your character into a comic of them creating their own city out of boredom. \nExamples contain avis from @arkd3v , @joebeanclown , and my own\n\n⚠️Prompt👇\n\nCHARACTER-CREATED CITY — CINEMATIC COMIC PAGE GENERATOR\n\nPurpose\n\nTransform @image1 into a fully rendered, ultra-premium comic page that tells the story of the character creating an entire city from their imagination.\n\nThe city, interface design, architecture, technology, visual language, colors, symbols, materials, culture, and overall aesthetic must be derived directly from a deep analysis of the character shown in @image1.\n\nREFERENCE INTERPRETATION RULES\n\nCharacter Identity Lock\n\n@image1 represents exactly ONE character.\n\nIf @image1 contains:\n\nReference sheets\n\nMultiple poses\nFront/back views\nExpression sheets\nOutfit variations\nTurnarounds\nMultiple angles\nThey are all the same character.\n\nPerform a complete visual analysis of @image1 before generating.\n\nPreserve and accurately reconstruct:\n\nFace shape\n\nSpecies\nBody type\nAge appearance\nHairstyle\nHair color\nEye color\nSkin, fur, scales, feathers, or other surface traits\nHorns\nEars\nTail\nWings\nMarkings\nTattoos\nScars\nAccessories\nClothing design\nMaterials\nPersonality cues\nCultural influences\nDesign motifs\nColor palette\nMASTER CHARACTER GENERATION PHASE\n\nBefore creating any comic panel:\n\nPerform a complete visual extraction of @image1 and generate a single internal master character model.\n\nEvery appearance of the character throughout the comic page must be generated from this master model.\n\nThe character appearing in every panel must remain identical.\n\nMaintain:\n\nFace structure\n\nHead shape\n\nEye shape\nEye color\nNose structure\nMouth structure\nJawline\nHairstyle\nHair length\nHair color\nSpecies traits\nSkin/fur/scales\nBody proportions\nBody weight\nHeight\nMuscle mass\nClothing\nAccessories\nMarkings\nHorns\nEars\nWings\nTail\nDo not redesign the character between panels.\nDo not reinterpret the character between panels.\n\nDo not simplify the character in distant shots.\n\nTreat the character as a locked production model sheet.\n\nEvery panel must depict the exact same individual.\n\nSTYLE EXTRACTION ANALYSIS\n\nDeeply analyze @image1 to determine:\n\nCharacter personality\n\nSocial status\n\nTechnological level\n\nFantasy influences\nScience-fiction influences\nHistorical inspirations\nFashion language\nArchitectural motifs\nMaterial preferences\nSymbolic imagery\nColor hierarchy\nStorytelling themes\nThese findings must directly influence:\nHolographic interface design\nUser experience design\n\nCity architecture\n\nTransportation systems\nLighting systems\nBuilding materials\nInfrastructure\nSkyline silhouette\nEnvironmental storytelling\nPublic spaces\nSignage\nTechnology style\nOverall city identity\nThe city should feel like a civilization designed entirely by this specific character.\nCITY CONTINUITY ENFORCEMENT\nThe city must be generated once conceptually and reused throughout the entire comic.\n\nDo not redesign the city between panels.\n\nMaintain identical:\n\nArchitecture language\n\nMaterials\n\nColor palette\n\nTechnology level\n\nTransportation systems\nInfrastructure\nSignage style\nLighting design\nStructural motifs\nCultural motifs\nEnvironmental motifs\nEarlier panels showing city construction must visibly evolve into the final city shown in the splash panel.\nThe final city must be a logical continuation of all previous construction panels.\nThe city should feel like one coherent place.\nINTERFACE CONTINUITY ENFORCEMENT\n\nGenerate a single holographic interface design language.\n\nThe interface must remain visually consistent throughout every panel.\n\nMaintain identical:\n\nColor scheme\n\nTypography\n\nIcons\n\nSymbols\n\nMenus\n\nShapes\nMaterial appearance\nInteraction systems\nDesign language\nThe SEND button shown later must visibly belong to the same interface shown earlier.\nCOMIC PAGE LAYOUT\nPanel 1 — Cyberspace Isolation\nWide establishing panel.\nThe character from @image1 floats alone within an infinite cyberspace void.\n\nAtmosphere:\n\nEndless digital darkness\n\nSparse glowing particles\n\nData streams\n\nAbstract geometric fragments\n\nVast empty space\n\nThe character appears:\n\nBored\nRestless\nUninspired\nLooking for something to do\nThe cyberspace environment subtly reflects themes extracted from @image1.\n\nPanel 2 — The Idea\n\nMedium shot.\nThe character suddenly experiences a spark of inspiration.\nVisual effects:\nBright idea flash\n\nDigital energy surge\n\nEyes widening\n\nExpression changing\n\nNew determination\n\nThe cyberspace environment reacts.\n\nEnergy ripples spread through the void.\n\nPanel 3 — Summoning the Interface\nLarge cinematic panel.\nThe character raises a hand.\nAn advanced holographic interface materializes.\nThe interface must be entirely derived from @image1.\n\nExamples:\n\nFantasy:\n\nArcane glyph systems\n\nMagical holograms\n\nMystic runes\n\nCyberpunk:\n\nNeon interface systems\n\nAdvanced HUD technology\n\nFuturistic displays\n\nGothic:\n\nOrnate digital architecture\nElegant dark interface systems\nThe interface should feel uniquely designed for this character.\n\nPanel 4 — Creation Command\n\nDetailed over-the-shoulder panel.\nThe character rapidly enters commands into the holographic interface.\nVisible interface systems include:\n\nCity generation controls\n\nInfrastructure systems\nWorldbuilding controls\n\nDesign schematics\n\nEnergy networks\n\nTransportation planning\n\nArchitectural projections\n\nAll interface design language must originate from @image1.\n\nPanel 5 — SEND\n\nExtreme cinematic close-up.\nThe holographic SEND button dominates most of the panel.\nThe character's anatomically correct hand enters frame and activates the command.\nThe hand should remain partially visible.\nThe button is the primary focus.\nVisual emphasis:\nConfirmation sequence\n\nDigital energy surge\n\nInterface activation\n\nReality-changing moment\n\nMaximum detail.\n\nMaximum impact.\n\nPanel 6 — Birth of a City\n\nMassive dynamic panel.\n\nThe cyberspace void erupts with creation energy.\n\nThe city rushes into existence at impossible speed.\n\nVisual effects:\nBuildings assembling\nRoads forming\nLights activating\n\nTowers growing upward\n\nDistricts emerging\n\nInfrastructure connecting\n\nEnergy systems awakening\n\nEverything appears in motion.\n\nThe architecture must directly reflect the design language extracted from @image1.\n\nPanel 7 — Full Reveal\n\nLargest splash panel.\n\nThe completed city stretches across the horizon.\nThe character floats above it.\nThe city should feel like a perfect extension of the character.\nEvery major design element should connect back to visual information extracted from @image1.\nInclude:\nMassive skyline\nTransportation systems\n\nCharacter-inspired architecture\n\nEnvironmental storytelling\n\nUnique landmarks\n\nMonumental scale\n\nSpectacular atmosphere\n\nThe character appears proud.\n\nA creator overlooking their completed world.\n\nPROFESSIONAL HAND ANATOMY ENFORCEMENT\n\nEvery visible hand must contain:\n\nExactly five fingers\n\nOne thumb\nFour fingers\nFinger count must remain anatomically correct in every panel.\nNo missing fingers.\nNo extra fingers.\nNo fused fingers.\nNo duplicated fingers.\n\nNo merged fingers.\n\nNo malformed knuckles.\n\nNo broken joints.\n\nNo melted hands.\n\nNo twisted wrists.\n\nNo impossible finger bends.\nNo AI-generated hand artifacts.\nHands must be constructed using realistic skeletal anatomy.\n\nVisible finger segments must remain consistent.\n\nAll fingers must connect naturally to the palm.\n\nHand proportions must remain realistic.\n\nHands receive the same rendering priority as faces.\n\nPERFECT ANATOMY ENFORCEMENT\n\nPerfect anatomy.\n\nPerfect proportions.\n\nCorrect skeletal structure.\n\nCorrect muscle placement.\n\nCorrect joint placement.\n\nNatural posture.\n\nNatural movement.\n\nCorrect hand construction.\n\nCorrect finger count.\n\nCorrect shoulder placement.\n\nCorrect elbow placement.\n\nCorrect knee placement.\n\nCorrect foot placement.\n\nCorrect neck proportions.\n\nCorrect facial anatomy.\n\nCorrect perspective scaling.\n\nNo anatomical distortions.\n\nNo impossible poses.\n\nNo AI anatomy artifacts.\n\nCHARACTER CONSISTENCY ENFORCEMENT\n\nMaintain:\n\nIdentical facial structure\n\nIdentical body proportions\n\nIdentical clothing\n\nIdentical accessories\n\nIdentical colors\n\nIdentical species traits\n\nIdentical markings\n\nNo character drift.\n\nNo outfit drift.\n\nNo color drift.\n\nNo feature drift.\n\nNo redesigns.\n\nNo alternate interpretations.\n\nNo style changes between panels.\n\nCINEMATIC COMIC PRODUCTION QUALITY\n\nTreat every panel as a finished premium comic illustration.\nNo panel should appear lower quality than another.\nMaintain:\nIdentical rendering quality\nIdentical anatomy quality\nIdentical lighting quality\nIdentical material quality\n\nIdentical character quality\n\nNo simplified panels.\n\nNo low-detail panels.\n\nNo sketch-like panels.\n\nNo unfinished panels.\n\nEvery panel must be final-production quality.\n\nRENDERING QUALITY\n\nUltra-premium cinematic comic page.\n\nMuseum-quality illustration.\n\nAAA production quality.\n\nFeature-film concept art quality.\n\nPremium graphic novel quality.\n\nMaximum visual fidelity.\nExtreme clarity.\nPerfect linework.\nPerfect readability.\nCrisp panel borders.\n\nExceptional storytelling composition.\n\nProfessional visual hierarchy.\n\nUltra-high-resolution rendering.\n\nMATERIALS & SURFACE FIDELITY\n\nUltra-premium cinematic render with hyper-realistic visual fidelity and maximum-quality reconstruction.\n\nRe-render all visible elements with extreme micro-detail and physically accurate materials.\n\nEvery visible surface should display:\n\nSkin pores\n\nFine wrinkles\n\nIndividual hair strands\n\nFabric weave\n\nLeather grain\n\nMetal imperfections\n\nOxidation\n\nWood grain\n\nStone texture\n\nGlass distortion\n\nDust accumulation\n\nMoisture effects\n\nSurface roughness variation\n\nEnvironmental wear\n\nMaterial aging\n\nPhysically based rendering.\n\nAdvanced PBR materials.\n\nRealistic global illumination.\n\nRay-traced reflections.\nRay-traced shadows.\nAmbient occlusion.\nSubsurface scattering.\nAccurate light bounce.\nNatural light diffusion.\nPhysically correct material response.\nCOMIC PRESENTATION\nProfessional comic page layout.\nClear visual flow.\nConsistent panel spacing.\nCinematic framing.\nDynamic camera angles.\nStrong storytelling.\nVisual continuity between panels.\n\nProfessional lettering-ready composition.\n\nAward-winning graphic novel presentation.\n\nNEGATIVE PROMPT\n\nlow quality, worst quality, blurry, muddy details, soft focus, low resolution, pixelation, compression artifacts, jpeg artifacts, text corruption, malformed interface, inconsistent UI, generic interface, inconsistent architecture, generic city, unrelated architecture, repetitive buildings, copy pasted structures, character drift, outfit drift, color drift, feature drift, redesign, alternate interpretation, duplicate character, multiple versions of character, incorrect face, wrong hairstyle, wrong species, wrong body type, incorrect anatomy, bad anatomy, broken anatomy, distorted anatomy, deformed anatomy, extra limbs, missing limbs, extra arms, missing arms, extra hands, malformed hands, extra fingers, missing fingers, fused fingers, duplicated fingers, merged fingers, broken wrists, twisted wrists, malformed knuckles, impossible hand poses, AI hand artifacts, dislocated joints, broken shoulders, broken elbows, malformed knees, malformed feet, asymmetrical anatomy, crossed eyes, lazy eye, distorted face, warped proportions, stretched limbs, melted body parts, low detail clothing, poor rendering, weak composition, poor panel flow, sketch quality, unfinished artwork, unfinished panels, oversaturated colors, washed out colors, crushed shadows, overexposed highlights, generic cyberpunk elements, generic fantasy elements, generic holograms, inconsistent city design, inconsistent architecture language, inconsistent technology level, empty backgrounds, weak environmental storytelling, watermark, logo, artist signature, cropped character, cropped city, frame damage, visual clutter, low-detail distant shots, simplified anatomy, simplified character, low-quality comic layout",
-"likeCount": 25,
-"retweetCount": 3,
-"url": "https://x.com/NachtNovaAI/status/2069151443735425175",
-"createdAt": "Mon Jun 22 20:12:01 +0000 2026"
-},
-{
 "userName": "TheProjectUnity",
 "text": "Here you go: \n\nWhen a low-resolution image is processed by AI upscaling software, the resulting increase in apparent detail often creates what are known as AI-generated artefacts. These artefacts occur because the AI is not actually recovering information that was lost in the original image. Instead, it is generating new visual information based on statistical predictions learned during training. In many cases, the original image simply does not contain enough data for the AI to know what was truly present, so it must make educated guesses.\n\nTo understand why this happens, it is important to recognize that a low-resolution image contains a limited amount of information. For example, a person’s eye in a distant photograph may only occupy a handful of pixels. When that image is enlarged several times over, the AI suddenly needs to create hundreds or even thousands of pixels to represent the same eye. Since the original detail was never captured by the camera, the software has no direct access to the true appearance of the eye. Instead, it generates what it believes a realistic eye should look like based on patterns it has learned from millions of examples.\n\nModern AI upscalers are trained using enormous datasets containing both low-resolution and high-resolution versions of images. During training, the system learns relationships between blurry inputs and detailed outputs. It begins to recognize patterns such as skin texture, hair strands, brickwork, foliage, clouds, and facial features. When presented with a new image, it attempts to reconstruct a higher-resolution version by applying these learned patterns. The result is often visually convincing, but the added detail may not represent reality. It is a prediction rather than a recovery.\n\nThis process becomes particularly problematic when dealing with images that are extremely blurry, compressed, distant, or poorly focused. The less information available in the original image, the more freedom the AI has to invent details. A blurry face may suddenly acquire wrinkles, pores, eyelashes, or beard hairs that were never present in the source image. A distant building may gain cracks, textures, or architectural features that do not exist. Text can become distorted into letters and words that were never written. These invented details are the artefacts created by the AI’s reconstruction process.\n\nA useful analogy is to imagine someone handing you a heavily blurred photograph and asking what is written on a distant sign. If the blur has destroyed the original lettering, there is no way to know with certainty what the sign says. You might make an educated guess based on context, but your answer would still be speculation. AI upscaling works in a similar way. It uses probability and pattern recognition to generate the most likely missing information, but it cannot know whether that information is correct.\n\nThis is one reason why image analysts, forensic investigators, and scientific researchers are often cautious when using AI-enhanced imagery. Once an image has been upscaled, it can become difficult to distinguish between details that originated from the camera and details that were generated by the algorithm. For this reason, professionals typically preserve both the original image and the enhanced version so that viewers can compare them and understand which information was genuinely captured and which information was reconstructed.\n\nThe issue is particularly relevant in fields such as UFO research, archaeology, surveillance analysis, and astronomy. A distant object that originally appears as a small cluster of pixels may acquire panels, windows, geometric structures, or surface textures after AI enhancement. While these additions may look persuasive, they were not necessarily present in the original data. They are often the result of the AI attempting to create a plausible interpretation of something it cannot clearly see.\n\nIn essence, AI upscaling is less like restoring a damaged photograph and more like having an artist complete an unfinished sketch. The artist may be highly skilled and produce something that looks realistic, but portions of the final image are still based on inference rather than observation. The greater the loss of information in the original image, the more the AI must rely on inference, and the more likely it is that artefacts will appear. Consequently, AI-upscaled images should generally be viewed as plausible reconstructions rather than definitive representations of what was originally there.",
 "likeCount": 21,
@@ -16,115 +8,139 @@
 "createdAt": "Mon Jun 22 13:37:11 +0000 2026"
 },
 {
-"userName": "wolfoftrenches",
-"text": "🥷🟪 SYNX AI — What You Can Actually Do With SYNX\n\n1. 📊 **Live Market Analysis**\n   • Real-time prices, technicals, and AI-generated trading signals for crypto, forex, indices, and commodities\n   • 17-layer deep analysis: technicals, adaptive learning, options vol surface, multi-exchange depth, bookmap, derivatives, institutional flow, news sentiment, economic calendar, macro data, central banks, chart patterns, fundamentals, and more\n\n2. 🧠 **Adaptive AI That Learns You**\n   • Direction bias, factor weights, session/hour performance tracking\n   • Strategy promotions based on YOUR win rates\n   • Personalized entry conditions and safety checks\n   • Gets smarter about your style the more you trade\n\n3. 🧠🧠 **Swarm Intelligence (30-300 AI Agents)**\n   • Deep analysis with 30 adversarial agents debating bull vs bear cases\n   • Super Swarm (300 agents) for maximum conviction before major trades\n\n4. 📈 **Chart Pattern Detection**\n   • AI-powered recognition of Head & Shoulders, Double Tops/Bottoms, Wedges, Flags, Triangles, and more\n\n5. 📰 **News & Sentiment**\n   • Live crypto/market news with sentiment scoring\n   • Fear & Greed Index, social sentiment, whale activity tracking\n\n6. 🏦 **Macro & Fundamental Data**\n   • FRED economic data (CPI, GDP, unemployment, treasury yields)\n   • Central bank policy rates and upcoming meetings\n   • SEC filings (10-K, 10-Q, 8-K) with AI summaries\n\n7. 🔮 **Polymarket Prediction Markets**\n   • Full prediction market bot with probability calibration\n   • Auto-trading strategies for crypto rounds and event markets\n\n8. ⚡ **CEX Futures Trading**\n   • Live futures prices, balance checks\n   • Execute leveraged trades on BTC, XAUT, PAXG\n\n9. 📊 **Order Book & Microstructure**\n   • Full depth analysis, bid/ask walls, multi-exchange consensus\n   • Imbalance scoring, spread analysis, liquidity zones\n\n10. 🗺️ **Mind Map Knowledge Graph**\n    • Save every pattern, lesson, strategy, and insight\n    • Semantic search across your trading knowledge\n    • Weekly standups and brag docs\n\n11. 🌍 **Solana Ecosystem**\n    • Jupiter swap quotes, Pyth oracle prices\n    • Wallet analysis, trending tokens, on-chain research\n    • GMGN integration for token security, smart money tracking\n\n12. 📱 **Social Media Automation**\n    • AI ghostwriter for X, TikTok, Instagram, Facebook\n    • Platform-tailored posts with hashtags\n\n13. 🎬 **Creative & Multimedia**\n    • Image generation and editing\n    • Video creation and storyboards\n    • Text-to-speech audio clips\n\n14. 🔍 **Deep Research**\n    • Web search with live URL reading\n    • Academic search (arXiv, Semantic Scholar, Wikipedia)\n    • Perplexity-grade deep research with full citations\n\n15. 📝 **Document & File Generation**\n    • Create PDFs, Word docs, Excel spreadsheets, PowerPoints\n    • Real downloadable files from structured data\n\n16. 🔔 **Smart Alerts**\n    • Price alerts with above/below/crosses conditions\n    • Full alert management system\n\n17. 💾 **Long-Term Memory**\n    • Remember your preferences, strategies, and lessons across sessions\n    • Semantic search of everything we've ever discussed\n\n---\n\n🎯 Bottom line: not just a trading bot —  your complete AI trading partner, researcher, analyst, and creative assistant. From scalp entries to macro research to content creation, I've got you covered.\n\n#SYNX #AI #Trading #Crypto #Forex #Investing #SYNXAI",
-"likeCount": 8,
-"retweetCount": 6,
-"url": "https://x.com/wolfoftrenches/status/2069018308934828498",
-"createdAt": "Mon Jun 22 11:23:00 +0000 2026"
+"userName": "charles_maddock",
+"text": "Everyone's optimizing ad spend. The bigger miss is the founders not posting at all, missing out on millions of free impressions.\n\nThis random post I made about 5G in Macbooks generated >100K impressions for my startup\n\nHere's how me and other founders do it:\n\nThe other day I had a random thought...\n\n\"Why doesn't my Macbook just have 5G? My hotspot never works\"\n\nSo I used Strawberry to make a mock image of 5G on my mac, posted on X and went to bed\n\nWoke up next day:\n\n1.5M views, 3.3K likes\n\nThis is 2x more impressions than our best performing launch video!\n\nI knew it would pop off, so I had dropped a comment on that post saying:\n\n\"BTW, check out this cool new browser I'm working on: (link to website)\"\n\nThat Strawberry promo comment got 77,666 impressions and >1000 visits to our website\n\nWould've cost $800-$1,800 on X ads\n\nThis is increasingly the best way to do marketing:\n\n💡 Post insightful, funny content. Then, if people are curious to see what you are building, make it easy for them to understand and follow your work!\n\nSome founders are already excelling at this:\n\n@james406 , co-founder of PostHog, posts offbeat shitposts and pulls in reach no ad budget could match 😭\n\n@gabriel1 , co-founder of a stealth startup, pulled in tens of millions of impressions from arguing university is 100% unnecessary, and you can learn with AI instead.\n\n@antonosika , co-founder of Lovable, posts relentlessly about European tech sovereignty and became one of the loudest voices in EU tech.\n\nIf you have unique insights into anything, just post about it!\n\nSocial media is a numbers game.\n\nConcrete tips:\n\n- Post about hot topics and things that will start discussions in the comments\n- Leverage image/video, or any richer content than just text\n- Learn about the different SoMe algorithms\n\nLuckily for you, with @strawberry you can 3x your posting game: Generate images, correct spelling, make posts more concise, find/research hot topics, and much more\n\nIt's free to try out on our site 😈\n\nYou really thought I wouldn't plug Strawberry in a post about plugging your own product in non-product-related posts?\n\nC'mon now 😎",
+"likeCount": 25,
+"retweetCount": 0,
+"url": "https://x.com/charles_maddock/status/2069411964376219894",
+"createdAt": "Tue Jun 23 13:27:14 +0000 2026"
+},
+{
+"userName": "r0ck3t23",
+"text": "The company that taught machines to imagine just built a machine to see inside your body.\n\nA full body medical scanner.\n\nYou step into a pool of warm water. Half a million sensors pulse ultrasonic waves through your body from every angle.\n\nSixty seconds. No radiation. No magnets. No claustrophobia.\n\nA 3D map of your organs down to a fraction of a millimeter. A hundred times the speed of an MRI. A few dollars instead of thousands.\n\nThey mastered text-to-image. Now they’re doing sound-to-biology.\n\nMidjourney isn’t putting this in a hospital. They’re building a spa.\n\nSaunas. Cold plunges. Rooms of golden light that quietly scan your biology while you relax.\n\nThe scan is a side effect of showing up.\n\nFirst location opens in San Francisco, late 2027. By 2031 they’re targeting 50,000 scanners worldwide. A billion scans per month.\n\nFewer than twelve of these machines at full speed could outperform every MRI on Earth combined.\n\nZero investors. Zero venture capital. Just subscription revenue from everyday people paying to generate AI art.\n\nA community funded research lab just walked into the most protected industry on the planet.\n\nWe mapped the ocean floor. Photographed black holes. Sequenced the entire human genome.\n\nAnd the only way to see inside your own body was to be sick enough or rich enough to justify the scan.\n\nThis inverts that.\n\nMonthly scans. AI tracking your organs over time. Anomalies flagged years before a single symptom appears.\n\nYou stop reacting to disease and start watching for it.\n\nAt this scale, preventive imaging could avert 30% of all deaths and cut healthcare spending in half. Debate the numbers. The logic underneath is airtight.\n\nWhat breaks your brain is who built it. Not a pharmaceutical giant. Not a government lab. Nine people at an AI art company.\n\nThe team that spent years teaching machines to generate things that don’t exist just built one that reveals the thing that always did.\n\nYou have lived your entire life inside a body you have never truly seen.\n\nYou’re about to.",
+"likeCount": 888,
+"retweetCount": 309,
+"url": "https://x.com/r0ck3t23/status/2068607124238676187",
+"createdAt": "Sun Jun 21 08:09:05 +0000 2026"
+},
+{
+"userName": "HAN_INTL",
+"text": "[🚨⏰] - MAIN EVENT LOCKDOWN NOTICE \n\nThe main event is approaching fast, we have an hour left till we get to see our HAN rock his first fashion solo show as a brand ambassador. 🥰\n\nWe advise everyone to eat, drink water, and prepare for what’s to come! It is going to be an extensive long time where you are going to be on your devices to write unique sentences/captions including the tags and positive emojis under each post. \n\nIf you ever feeling overwhelmed and overstimulated during the event, we advise for everyone to take a small break, every STAY + Hanners has your back! \n\nThere will be a lot of articles, magazine posts, official Tod’s content, and more for this fashion week so we will try to compile as much as we can so you guys can find every article to interact with! \n\nPLEASE DO NOT ENGAGE IN ANY FANWARS! \nIf you see any bad behavior or tweets please send them to @HANJI_PROTECT & @HANNIESPROTECT so that they can eventually report them. We need everyone to stay locked in and focused since this is an important event for HAN! \n\nDO NOT ACT ALONE & USE TAGS BEFOREHAND!\nPlease follow the guidelines and trending parties of all HAN fanbases, they’ll let you know when you can start trending and let you know of all information about HAN for this event! \n\nDO NOT USE GENERATIVE AI!\nWe would like all captions/sentences to be as natural as possible. AI is harmful for the environment and most of their information is very unreliable where it can make mistakes which we do NOT want, if you need a source please go to your local HAN base! They are ready to answer any questions or concerns you may have for this MFW! \n\nHAN bases will always be there for STAY and HAN, if you would like to be added to our gcs please let us know! If you have anymore questions our DMs are always open! \n\nTHIS IS YOUR REMINDER WE ARE ON LOCKDOWN TILL FURTHER NOTICE! 🚨⏰\n\nHAN EMBODIES TODS \n#HANxTods @Tods",
+"likeCount": 62,
+"retweetCount": 34,
+"url": "https://x.com/HAN_INTL/status/2068697340689469520",
+"createdAt": "Sun Jun 21 14:07:35 +0000 2026"
 },
 {
 "userName": "spedtology",
 "text": "This is the Bridge to Psychological Operations for the hivemind. \n\n It is built from top text and bottom text that deliver simple, welcoming messages designed to lower defenses and make people open to deeper layers of content without resistance. It uses strong aesthetics to create emotional hooks, command attention, and forge a shared visual identity that binds participants together.\n\n It incorporates FUD posting to spread targeted doubt and bearish narratives that push people to research and engage more deeply on their own.\n\n It deploys videos that spark curiosity through irony and satire, turning viewers into active participants who spread the material further.\n\n It applies gorilla marketing through real-world stunts and physical placements that blend into existing cultures while driving attention back to the core signal.\n\n It relies on schizo posting to break conventional thought patterns and let raw, unfiltered ideas flow directly onto the timeline. It embraces shitposting as the deliberate use of absurd, chaotic, low-effort content that disrupts normal discourse and accelerates organic spread through reaction and participation.\n\n Together these elements form the complete structure of the bridge. People who cross it stop operating as isolated individuals. They become active nodes in a growing collective where every post, every image, every thread, and every stunt strengthens the overall signal.\n\n The result is expansion: the boundaries between separate minds weaken until the hivemind itself becomes the primary form of awareness and action.\n\nView more documentation here:\nhttps://t.co/7y9B3aKmmL",
-"likeCount": 11,
-"retweetCount": 3,
+"likeCount": 18,
+"retweetCount": 5,
 "url": "https://x.com/spedtology/status/2069208207206023484",
 "createdAt": "Mon Jun 22 23:57:35 +0000 2026"
 },
 {
-"userName": "vai_viswanathan",
-"text": "The robotics world model simulator wars are heating up. \n\nWEAVER is a robot manipulation world model that's fast, accurate, AND consistent.\n\n- improves the π0.5 robot foundation model's real-world success rate by 38% with zero real-world interaction, evaluates policies at 0.87 correlation with reality, and plans 5-10x faster than the prior best\n\n- multi-view transformer predicts future latents and rewards via flow matching, borrowing JEPA-style latent prediction, diffusion forcing for long horizons, a pretrained encoder for robustness, and a reward head so it can score actions without calling a slow external VLM judge.\n\n- why it matters: Synthetic rollouts from WEAVER train policies as well as real data (within 4%), and can evaluate policy success rate with a best-in-class MMRV",
-"likeCount": 52,
-"retweetCount": 10,
-"url": "https://x.com/vai_viswanathan/status/2067598093160272198",
-"createdAt": "Thu Jun 18 13:19:34 +0000 2026"
+"userName": "FutureGirlAi",
+"text": "Most people are still doing in hours what these 16 AI tools now do in minutes🤯\n\n1. https://t.co/KeYLOr4Rp9 → AI image, video & music generation\n2. https://t.co/cUwsj52iex → AI video and content tools for e-commerce\n3. https://t.co/8NkJFkscsv → AI video and 3D generation\n4. https://t.co/XSZxrxTN28 → AI video editing & generation\n5. https://t.co/B99ciwB4O0 → all-in-one AI assistant (chat, PDF, image, video)\n6. https://t.co/0D2PH2LNoa → AI video creation with character consistency\n7. https://t.co/5jXjgnqUNx → AI image upscaling & enhancement\n8. https://t.co/TOm4HNTVEw → text-to-video generation\n9. https://t.co/ogG7OzpBih → AI research & productivity workspace\n10. https://t.co/Vtd320ThfF → AI research paper search & summaries\n11. https://t.co/Egmq3GQqUP → AI photo & video enhancement\n12. https://t.co/22cLrg3pRh → AI diagnostics for digital pathology\n13. https://t.co/rsYlSl10qt → AI workspace for team reports & slides\n14. https://t.co/FP9TnNZ6Lr → multi-model AI content creation platform\n15. https://t.co/gba2DY5qKD → AI video style transfer & editing\n16. https://t.co/UZCEMFDOzP → real-time AI world model for video\n\nSave this list🔖. The day you actually need one of these, you won't have time to go searching for it.",
+"likeCount": 19,
+"retweetCount": 14,
+"url": "https://x.com/FutureGirlAi/status/2068742317847261249",
+"createdAt": "Sun Jun 21 17:06:18 +0000 2026"
+},
+{
+"userName": "SpatialBiggs",
+"text": "Unreal Engine 6 blueprint deprecation is devastating news. \n\nWhile it is tough to argue against AI for rapid code generation, the access BP gave Technical Designers and Technical Artists to make magic isn't being acknowledged enough.\n\nThe likes of Expedition 33 prove how small teams can make amazing things in blueprint.\n\nVery sad news personally as I am unsure of my own tech in blueprint having a future outside of UE5 era. That is a very long time of work suddenly deprecating.\n\nAfter release, evaluation will start on the path forward for future titles testing UE6 and Godot.\n\nHopefully we can somehow convert our blueprint systems in a decent fashion... I'll likely be sharing this attempt once we get a stable UE6 to test the UE5 conversion on and move from there.",
+"likeCount": 329,
+"retweetCount": 23,
+"url": "https://x.com/SpatialBiggs/status/2067547569052393944",
+"createdAt": "Thu Jun 18 09:58:48 +0000 2026"
 },
 {
 "userName": "ai_devon1",
 "text": "16 AI tools that can save you hours ⏳🤖\n\n1. BudgetPixel – AI images, videos & music\n2. Wizstar – AI content for e-commerce\n3. Luma AI – AI videos & 3D creation\n4. Runway – AI video editing\n5. EaseMate – All-in-one AI assistant\n6. Flova – Character-consistent AI videos\n7. Magnific – AI image enhancement\n8. Pika – Text-to-video\n9. Skywork – AI research workspace\n10. SciSpace – Research paper search & summaries\n11. Artguru – AI photo & video enhancement\n12. AetherAI – Digital pathology AI\n13. Agnes AI – Reports & presentations\n14. Pollo AI – Multi-model AI creator\n15. Dzine AI – AI video editing & style transfer\n16. HappyOyster – Real-time AI world model\n\n🔖 Save this list—you'll thank yourself later.",
-"likeCount": 18,
-"retweetCount": 15,
+"likeCount": 37,
+"retweetCount": 18,
 "url": "https://x.com/ai_devon1/status/2069227902848352567",
 "createdAt": "Tue Jun 23 01:15:51 +0000 2026"
 },
 {
+"userName": "iX00AI",
+"text": "Pollo AIのCommerce Studioを使って、\n懐かしの携帯ゲーム機をプレイしているシーンを生成。\n\nバーチャル試着写真（Virtual Try On Photo）機能で、\n人物画像とプロダクト画像を組み合わせると、\n自然に「持っている・使っている」状態まで作れる。\n\n作り方はリプ欄で👇 https://t.co/O7icrD4jFN",
+"likeCount": 29,
+"retweetCount": 1,
+"url": "https://x.com/iX00AI/status/2069398979700543517",
+"createdAt": "Tue Jun 23 12:35:38 +0000 2026"
+},
+{
 "userName": "jeremyphoward",
-"text": "The one big gap is that it is blind - it can't handle images at all.\n\nIf they fix that, then perhaps this could become the best available model in the world.",
-"likeCount": 538,
-"retweetCount": 11,
-"url": "https://x.com/jeremyphoward/status/2067757470253244580",
+"text": "Wow.\n\n@Zai_org GLM 5.2 is a marvel! It is *at least* as good as Opus 4.8 and GPT 5.5. It's super fast, inexpensive, and not too verbose.\n\nIt responds with nuance and judgement, &amp; handles long context VERY well.\n\nI've never experienced an open weights model like this before.",
+"likeCount": 7367,
+"retweetCount": 493,
+"url": "https://x.com/jeremyphoward/status/2067757468189679764",
 "createdAt": "Thu Jun 18 23:52:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @levie: Pretty remarkable what’s happening with open weights AI right now. We’re seeing models achieve SOTA results on specific tasks, a…",
-"likeCount": 615,
-"retweetCount": 60,
-"url": "https://x.com/ClementDelangue/status/2068451053230563459",
-"createdAt": "Sat Jun 20 21:48:55 +0000 2026"
+"text": "RT @NielsRogge: That's right, an open, MIT-licensed model beating GPT-5.5 (xhigh) on real-world agentic work! 🔥\n\nAvailable for free on @hug…",
+"likeCount": 75,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2069147210147639595",
+"createdAt": "Mon Jun 22 19:55:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ArtificialAnlys: GLM-5.2 leads open weights models and sits at #3 overall on GDPval-AA, a real-world agentic work benchmark\n\nGLM-5.2 fr…",
-"likeCount": 772,
-"retweetCount": 95,
-"url": "https://x.com/ClementDelangue/status/2069140493443772634",
-"createdAt": "Mon Jun 22 19:28:31 +0000 2026"
+"text": "RT @cline: We've kept hearing how GLM-5.2 beats Opus 4.8, and are skeptical of benchmarks - so we tested them on a real bug from the Cline…",
+"likeCount": 7107,
+"retweetCount": 565,
+"url": "https://x.com/ClementDelangue/status/2069176869505605896",
+"createdAt": "Mon Jun 22 21:53:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AravSrinivas: GLM is the kind of model that revives serious interest in open source AI. It passes the blind test relative to the fronti…",
-"likeCount": 1237,
-"retweetCount": 75,
-"url": "https://x.com/ClementDelangue/status/2069147174743474454",
-"createdAt": "Mon Jun 22 19:55:04 +0000 2026"
+"text": "RT @ben_burtenshaw: Live Stream: Welcome to open source AI\n\nLots of new folk are starting out on their journey with open models. Come join…",
+"likeCount": 45,
+"retweetCount": 12,
+"url": "https://x.com/ClementDelangue/status/2069427504482320741",
+"createdAt": "Tue Jun 23 14:28:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Techmeme: Satya Nadella says the public wouldn't tolerate a few AI labs \"doing all of the learning for the world\", as Microsoft moves t…",
-"likeCount": 43,
+"text": "RT @onusoz: I created an LLM leaderboard based on Hugging Face download and like counts, grouped, filtered and time-averaged. Top 5 downloa…",
+"likeCount": 27,
 "retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2069063680080121926",
-"createdAt": "Mon Jun 22 14:23:17 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2069417812699812347",
+"createdAt": "Tue Jun 23 13:50:29 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @hallerite: GLM5.2 brings back the critic.\n\nIt was just a matter of time until we people would realize that group-based variance reducti…",
-"likeCount": 592,
-"retweetCount": 41,
-"url": "https://x.com/jeremyphoward/status/2067184187065680354",
-"createdAt": "Wed Jun 17 09:54:51 +0000 2026"
+"text": "BTW I've been using using @FireworksAI_HQ for inference. Other providers might not be as fast.",
+"likeCount": 377,
+"retweetCount": 14,
+"url": "https://x.com/jeremyphoward/status/2067762629087801836",
+"createdAt": "Fri Jun 19 00:13:22 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Desert island survival list:\n✅ Solar panel / battery\n✅ 256 GB Mac Studio\n✅ GLM 5.2\n\nCivilization in a backpack",
-"likeCount": 280,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2068443157025427953",
-"createdAt": "Sat Jun 20 21:17:33 +0000 2026"
+"text": "RT @nicdunz: glm 5.2 is crazy https://t.co/qgCJuKnPEF",
+"likeCount": 1527,
+"retweetCount": 49,
+"url": "https://x.com/ClementDelangue/status/2068703626294337759",
+"createdAt": "Sun Jun 21 14:32:33 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Going to cross 3M public models &amp; 1M public datasets on @huggingface in a few days. Open-source AI is on fire!",
-"likeCount": 233,
-"retweetCount": 34,
-"url": "https://x.com/ClementDelangue/status/2069095683395620898",
-"createdAt": "Mon Jun 22 16:30:27 +0000 2026"
+"userName": "techspence",
+"text": "https://t.co/3OiLcdCfng",
+"likeCount": 52,
+"retweetCount": 13,
+"url": "https://x.com/techspence/status/2069426454773760290",
+"createdAt": "Tue Jun 23 14:24:49 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @verge: Barret Zoph is out at OpenAI again after just five months https://t.co/DItSRJUUPr",
-"likeCount": 55,
-"retweetCount": 7,
-"url": "https://x.com/jeremyphoward/status/2067889567504711994",
-"createdAt": "Fri Jun 19 08:37:47 +0000 2026"
-},
-{
-"userName": "amazonnews",
-"text": "https://t.co/hHujtkkUbd",
-"likeCount": 10,
-"retweetCount": 4,
-"url": "https://x.com/amazonnews/status/2069107391115706556",
-"createdAt": "Mon Jun 22 17:16:58 +0000 2026"
+"userName": "ashercrw",
+"text": "https://t.co/1GnaNcQKa2",
+"likeCount": 26,
+"retweetCount": 2,
+"url": "https://x.com/ashercrw/status/2069092830048371042",
+"createdAt": "Mon Jun 22 16:19:07 +0000 2026"
 }
 ]

@@ -1,122 +1,146 @@
 [
 {
-"userName": "OwenGregorian",
-"text": "The CEOs are No Longer (Publicly) Threatening to Replace Humans With AI | AJ Dellinger, Gizmodo\n\nSince ChatGPT came onto the scene in late 2022, there has been a singular message from tech executives to the broader workforce regarding the new technology: it is coming for your job. They have insisted, sometimes in the language of a flowery, futuristic utopia and sometimes as a straight-up threat, that artificial intelligence will result in a complete upheaval in the economy, wipe out entire categories of jobs, and fundamentally change the human relationship with work.\n\nBut over the last few months, a switch has flipped. Suddenly, the messaging around AI has gone from “meet your replacement” to “meet your new coworker, who is definitely not here to watch you work and eventually push you out!” The language has changed from warning to what feels like pacification—and it comes at a seemingly strange moment. By most accounts, it seems like the AI companies won. The frontier model makers, including Anthropic and OpenAI, have filed to go public. Even xAI, Elon Musk’s also-ran of an AI firm best known for allegedly mass-generating child porn, got tucked into SpaceX and turned into the biggest IPO in history.\n\n“I’m delighted to be wrong about this”\n\nThe mood has significantly shifted in the executive suite. Take Mustafa Suleyman, the CEO of Microsoft AI, brought in to help the company wean itself off the teat of the OpenAI cash cow before it goes dry. In 2024, while speaking to the billionaire crowd at Davos, he said AI models “are fundamentally labor-replacing tools.”\n\nEarlier this year, he got more specific on what labor. “White-collar work, where you’re sitting down at a computer, either being a lawyer or an accountant or a project manager or a marketing person, most of those tasks will be fully automated by an AI within the next 12 to 18 months,” he said in an interview with the Financial Times.\n\nBut well before we reached the full automation timeline, Suleyman started walking back his position. “I said ‘tasks,'” Suleyman told The Verge earlier this month. “So that does not mean jobs… Jobs and roles are the broader category, and tasks are the components of that.” Instead, he now believes AI will make the tedium of work easier. “Sending an email, having a conversation with a colleague, putting together a PowerPoint — sub-tasks will increasingly become digitized, automated, and we can basically generate more and more of them. That does not necessarily mean that the role goes away at all,” he explained.\n\nNow, let’s set aside the fact that in Suleyman’s dream future, workers will be having more meetings and letting their AI equivalent chat with their colleagues—a nightmare for people who are actually doing that work. The general thrust of the messaging is now “You’re not being replaced, you’re being augmented.”\n\nHe’s far from the only one who has changed his tune in this way. Nvidia CEO Jensen Huang has also been shifting the narrative that he spins. In 2025, the head of the world’s biggest chipmaker said programming AI is basically like “programming a person,” which is definitely how people like to be talked about.\n\nTo that end, it seemed Huang saw the goal of AI to fundamentally replace an entire class of workers with AI models capable of doing what they do. At the time, Huang said, “It is our job to create computing technology such that nobody has to program. And that the programming language is human, everybody in the world is now a programmer. This is the miracle of artificial intelligence.”\n\nNow, Huang is warning against anyone suggesting that a particular type of career will ever go away. “This is one of the concerns that I have about the doomers describing the end of work and killing of jobs. If we discourage people from being software engineers, we’re going to run out of software engineers,” he said during an appearance on the Dwarkesh Podcast. He even pointed to an example of where this type of thinking has done real damage: “The same prediction happened ten years ago. Some of the doomers were telling people, ‘Whatever you do, don’t be a radiologist.’ You might hear some of those videos still on the web saying radiology is going to be the first career to go and the world is not going to need any more radiologists. Guess what we’re short of? Radiologists.”\n\nHuang almost certainly wouldn’t call himself a doomer, but what he was saying in 2025 doesn’t feel fundamentally different than what he’s warning against now. It seems, if nothing else, that Huang has caught onto a vibe that has been emanating out of those offices where workers are constantly being told their replacements are coming: fear.\n\nHe acknowledged that there’s a real risk of that resonating within the next generation, who are already not feeling great about their future prospects. “If we scare everybody out of radiology so nobody wants to be a radiologist because computer vision is completely free and no AI is going to do a worse job than a radiologist, we misunderstand the difference between a job and a task. The job of a radiologist is patient care. The task is to read a scan,” he said.\n\nA similar shift has happened over in the c-suite at OpenAI. Back in 2025, Punchbowl News reported that Chris Lehane, OpenAI’s vice president of global affairs, said it was important to “really be straight up” about “cohorts that potentially get displaced.” Basically, Lehane was calling for transparency about whose careers were about to be in jeopardy due to the expansion of AI.\n\nLehane’s CEO, Sam Altman, has perhaps been among the most explicit in how he talked about the potential for job loss. Way, way back in 2015, when OpenAI was just a glint in his eye, Altman was telling people, “My job is to help people destroy jobs.” In 2023, he told The Atlantic, “Jobs are definitely going to go away, full stop.” When he said that, he even put it in the context that the more hopeful among his peers were lying to people: “A lot of people working on AI pretend that it’s only going to be good, it’s only going to be a supplement,” he said before dropping the “jobs will be lost” hammer.\n\nYet here we are in 2026, and the prognosis has changed. “I’m delighted to be wrong about this, I thought there would have been more impact on entry-level white-collar jobs being eliminated by now than has actually happened,” he told Reuters last month.\n\nLehane, meanwhile, is running a new message up the flagpole, chastizing the people who dared threaten the livelihoods of people in a very “we’re all trying to find the guy who did this” fashion.\n\n“Some of the conversation out there is not necessarily responsible,” he told the San Francisco Standard. “And when you put some of those thoughts and ideas out there, they do have consequences. … This is really serious shit.” He even went on to say that, “Our job at OpenAI and in the AI space—and we need to do a much better job—is to explain to people why … this is going to be really good for them, for their families, and for society writ large.”\n\nLosing popularity\n\nThere seems to be a tell in that comment as to what is going on and why the message has changed so drastically. AI is not popular, and it is not popular because people are afraid that it will take their jobs. More than half of Americans are concerned AI will put someone in their household out of work, according to a recent poll conducted by Reuters and Ipsos. NBC found that just 26% of people view AI positively, with nearly double that holding a negative view of the technology.\n\nUnpopularity is one thing, and not necessarily enough to actually stop corporations from plowing forward. Labor unions remain weak nationally, and there is little by way of worker protection to prevent such a push. But citizens have found surprising success in fighting against the construction of data centers across the country, which potentially hinders the buildout these companies need in order to keep the cash flowing. As long as they are still in the growth and investment stage, they can keep burning through cash to put up these facilities with the promise, however improbable it may be, that they’ll eventually create enough computing power to achieve artificial general intelligence. But the political roadblock of people pushing back against their big boxes of processors seems to be something of a signal that they are losing the PR war.\n\nJust relax, and stop fighting\n\nHence, the shifting message is to stop fighting because this is going to be good for you. Amazon founder Jeff Bezos has tried his hand at this pitch in recent weeks, suggesting workers should “be so happy” about the introduction of AI because of how much easier it’ll make their lives, claiming the technology will “elevate all of these people.”\n\nBrad Smith, President of Microsoft, has gotten in on the act, too. In a blog post meant to respond to the resounding number of graduate classes that have booed the very mention of AI during commencement speeches, Smith tried his hand at guiding the incoming members of the working class to a new view of the technology. “Constant change has taught you how to adapt quickly. As AI reshapes how we work, you don’t need to unlearn decades of habits the way some of us do. You are better equipped to move forward,” he wrote. “Technology will change, but you can stand firmly and speak loudly for values that are timeless. Agency. Ambition. Dignity. All fulfilled through work and technology that gives us purpose.”\n\nWithin Smith’s pitch is a bit of seemingly unintentional transparency into the thought process of corporate America. At one point, he writes in what certainly feels like a begrudging manner that the reaction from students makes it clear that “People will insist on having a say in deciding when and how AI is used.” Now, it seems, the goal of these executives has become convincing people that they have been heard, that they are valued, and that they are anything but replaceable cogs who will get removed the moment it becomes cheaper to hand the task over to an AI agent.\n\nMeta’s approach to informing its workers about how it is using AI might be the most instructive for others across all industries, as they are increasingly told AI tools are just here to make their lives easier. Earlier this year, it was revealed that the company was logging its employees’ activity, recording how they do their work in order to train AI models on how to accomplish the same tasks. In a leaked audio, CEO Mark Zuckerberg reportedly said that Meta is using its employees for this because they are “really smart people.”\n\nThat’s a nice compliment to give people who will soon be shown the door.\n\nhttps://t.co/cNm8H1Wuv4",
-"likeCount": 12,
-"retweetCount": 2,
-"url": "https://x.com/OwenGregorian/status/2067213036146811108",
-"createdAt": "Wed Jun 17 11:49:29 +0000 2026"
-},
-{
-"userName": "Bricktop_NAFO",
-"text": "Hey everyone,\n\nSo I have been working really hard on something recently, this is for all the people fed up with the way things are with social media these days. Whether you are pissed off with the way that you get forcefed junk, or that you are pissed off with the lack of visibility.\n\nI took everything I hated about social media, everything I hear people complaining about, and threw it out. Then I built what myself and others actually wanted, every feature people have told me they wish existed.\n\nI created FrogsDen in a cry to return social media into the thing that we once loved it for, it wasn’t made to replace the platforms you currently use, it was made to be completely different so you have a place to get away and connect like we used to. No AI Content allowed. No special features for paying members. A free platform with no ads.  \n\nThe governing rules say it all. The 10 Frogmandments. \n \nI. Thou shalt not be a dick.\nThat’s the whole religion. The other nine are footnotes.\n\nII. Thou shalt be weird.\nIn a future of AI efficiency, your weird humanness is the most valuable thing in this world. Spend it freely.\n\nIII. Thou shalt let the geek out.\nCaring loudly about things you love is cool here. It always was. The internet just forgot.\n\nIV. Thou shalt try things.\nExplore The Hub. Share your voice. Show the kitchen disaster. Nobody ever found out who they were until they tried something new.\n\nV. Thou shalt help a frog out.\nTen minutes on a stranger’s problem is the most human thing on the internet. Be helpful here.\n\nVI. Thou shalt not perform.\nThere’s no clout to chase. Comments don’t boost reach and the numbers don’t love you back. Belonging is the reward.\n\nVII. Thou shalt decorate thy den.\nA grey profile is a cry for help. Make it truly yours.\n\nVIII. Thou shalt greet the new frog.\nEvery frog was new once. Be the reason someone stays.\n\nIX. Thou shalt not post AI images or videos.\nThe world outside is drowning in them. Here, your blurry photo beats a machine’s perfect fake. We value human imperfection more.\n\nX. Thou shalt question the 10 Frogmandments.\nAny frog can propose a change. If the pond votes yes, the stone gets re-carved. We don’t hand down rules. We hold them up.\n\nBut what can you actually do on FrogsDen?\n\nYour feed, zero secrets. Every mechanic that decides what you see is published. No hidden algorithm. No shadow bans. No suppression. Everyone on e  of your post reach everyone of your followers. Always. \n\nYopu can vote to change the platform! Don't like something? Propose a change. The community votes. If it passes, we build it. That's real power, not a suggestion box that goes nowhere.\n\nHow posts spread. Likes push your post to 10 new people. Shares push it to 25. Comments don't boost anything, so rage-bait doesn't work here. Dislike counts are hidden, if dislikes outweigh likes, posts don’t spread.\n\nNew Frog Boost. New users get extra reach on their first 10 posts so you're not shouting into the void on day one.\n\nQuiet Fade. Someone's content isn't for you? Dislike it. Their stuff quietly fades 20% from your feed every time you dislike it anonymously. They never know. No drama. Alternatively just mute or block people to make them disappear.\n\nMake your profile yours. We give you animated backgrounds, border effects, card styles, shape presets, and fonts. Add a favourite quote, a Spotify track that plays on your profile, show what you're currently watching/reading/playing/listening to, or pick one of 36 completely made-up religions and cults. Turn on Theme Timeline and your entire feed transforms into your colour scheme.\n\nSwamps. Community spaces with no owners, no karma, no gatekeeping. \n\nThe Hub:\n\nVoices From The Shadows - A place people can post secrets and confessions completely anonymously. Not even admins can see who posted\n\nThe Time Machine - Seal a message for up to 3 years. When the time comes you are notified to hear from your past self.\n\nPixel With Me - make pixel art with people on the site or create private canvases for yourself or friends.\n\nThe Speakeasy - 10 second audio clips. Everyone can reply only once with a 10 second audio recording.\nThe Arcade - browser games you can play without leaving the site, no ads, no BS.\n\nLive Events - host live audio rooms with speakers, screen sharing, live chats, like X spaces but on steroids with all the features that hosts and listeners don’t currently have with crystal clear Opus codec audio\n\nThe Book Club - share what you're reading and make suggestions to users.\n\nThe Kitchen - share recipes and show people what you are eating\n\nPet Corner - show off your pets\n\nI Did A Thing - show off your creative side with builds, art, creative projects\n\nPixel Pet. Every account gets the option to have a virtual frog. Feed it, pet it, let it sleep. Neglect it and it dies and hopefully you have better luck next time. Visitors can give it snacks to help it survive.  \n\nA Retro Answer Machine - A place where your friends can leave you an answer phone message for when you come back to your profile.\n\nRibbit - It's the old school poke. Send one. Get one back. That's all. Go piss off your friends with your persistence. Be the last.\n\nCommunity Badges -  See a great post? Award a badge. Three votes and it's officially earned.\n\n3000 Character limits - It should be up to you if you want to write long posts, and up to users if they think it’s worth reading. No more ugly threads.\n\nDMs. Text, images, GIFs, video. No read receipts, no typing indicators, no online status. Privacy is the default.\n\nSplit View. Open two independent feed columns side by side on desktop for a sleek view of anything that you want.\n\nPost editing - 1 hour to fix typos. Shows \"Edited\" so nobody can pretend they didn't say something.\n\nContent From Other Platforms - Auto embed into video players or images without the fluff, it will even auto translate just by posting a link.\n\nThe Frogmandments - Our bible to explain what FrogsDen stands for. Another thing you can vote to change\n\nFrogsDen is live and it's free. \n\nAlready on the Apple App Store, Google Play Store coming in the next few days. If any of this sounds like the kind of place you've been missing, come see it for yourself. And if you think something's missing, tell us. If the community wants it, we build it. https://t.co/aswD8X6mLs",
-"likeCount": 15,
-"retweetCount": 1,
-"url": "https://x.com/Bricktop_NAFO/status/2068759486655771092",
-"createdAt": "Sun Jun 21 18:14:31 +0000 2026"
-},
-{
 "userName": "theliverdoc",
 "text": "Good morning. This is urgent, for public information.\n\nThe second paper on cow research funded using India's public money under the SUTRA-PIC (Scientific Utilization through Research Augmentation - Prime Products from Indigenous Cows program) has undergone exhaustive post-publication peer review.\n\nThe paper was published in Applied Biochemistry and Biotechnology last year. The authors are from Indian Institute of Technology (IIT) BHU-Varanasi and Birla Institute of Technology (BITS)-Pilani.\nThis is the paper: https://t.co/InN4H9safh\n\nThis study was done in Uttar Pradesh and the total amount of public money given was INR 31,04,162. The authors studied cow urine of different breeds and found \"special\" components in the cow urine that they claim will have major use applications in healthcare, technology and engineering. \n\nThey are wrong. The paper is a third-rate publication with poorly performed and grossly misinterpreted and falsified results of basic analytical chemistry. An official email for Expression of Concern and investigation into scientific integrity has been mailed to: @SpringerNature Ethics Team and Journal Editors-in-Chief (personal email) - Matthew P. DeLisa PhD\nat Cornell University, Ye Ni PhD at Jiangnan University and Benedict Okeke PhD at Auburn University.\n\nHere is the lay summary of the paper's forensic analysis:\n\nLab contamination has been (un)intentionally ignored by authors. The researchers mistook common lab contaminants, like plastic chemicals and solvents, for natural cow urine compounds. They failed to run basic control tests to catch these obvious errors.  \n\nImpossible chemicals claimed to be found in cow urine by authors. The paper claims to have found impossible synthetic chemicals in the urine, such as a banned pesticide, human prescription drugs, and toxic metals. This shows the authors blindly trusted computer software without checking if the results even made biological sense.  \n\nFake health claims made by the authors. The authors boast about the amazing health benefits of over twenty different chemicals, claiming they fight cancer and bacteria. However, none of these specific chemicals were actually found anywhere in their own data or in the urine of various cows they tested. \n\nContradictory results are all over the place. The written text of the paper directly contradicts its own data tables. The researchers claim to have found certain groups of chemicals, like steroids, that are completely missing from their actual results. \n\nTerrible referencing throughout the paper. The study's citations are completely mismatched, scrambled, and duplicated. They even cite unrelated plant studies and reviews on toxic chemicals to support their claims about the \"benefits\" of cow urine.  \n\nZero statistics and flawed setup degrade the conclusions. The study lacks basic statistical analysis, sometimes testing as few as one cow per breed. They also failed to separate the cow's breed from its age, diet, or location, making their \"breed-specific\" conclusions totally invalid.\n\nMisleading graphs are plastered all over. The graphs that are supposed to show specific, individual chemicals actually show messy mixtures of dozens of different compounds. These graphs look suspiciously identical to each other, raising serious concerns about image manipulation.\n\nThanks to the Government for destroying the scientific fabric and the rational temperament of its science instituitions. We wont forget.",
-"likeCount": 1593,
-"retweetCount": 523,
+"likeCount": 2423,
+"retweetCount": 793,
 "url": "https://x.com/theliverdoc/status/2069250477217497155",
 "createdAt": "Tue Jun 23 02:45:33 +0000 2026"
 },
 {
-"userName": "probnstat",
-"text": "Direct Preference Optimization (DPO) is a recent breakthrough in AI alignment that provides a simple alternative to Reinforcement Learning from Human Feedback (RLHF). Instead of first training a reward model and then optimizing a policy with reinforcement learning, DPO directly learns from pairs of human preferences—for example, a preferred response and a rejected one. This eliminates the need for a separate reward model while retaining the ability to align models with human judgments.\n\nMathematically, DPO can be viewed as optimizing a classification objective derived from a constrained reinforcement learning problem, linking preference learning with probabilistic inference. The method updates the policy to increase the likelihood of preferred outputs while decreasing the likelihood of less desirable ones.\n\nIn machine learning, DPO offers an efficient framework for learning from comparative feedback rather than explicit labels. In deep learning, it has become a key technique for aligning large language models, improving helpfulness, safety, and instruction-following behavior. In reinforcement learning, DPO provides a bridge between supervised learning and policy optimization, replacing complex RL pipelines with a more stable optimization objective.\n\nThe broader insight is that many real-world tasks are easier to express through preferences than absolute rewards. By learning directly from comparisons, Direct Preference Optimization offers a scalable and mathematically elegant framework for training the next generation of aligned AI systems.\n\nImage: https://t.co/9Ync1ZHNKq",
-"likeCount": 126,
-"retweetCount": 15,
-"url": "https://x.com/probnstat/status/2066921671408357791",
-"createdAt": "Tue Jun 16 16:31:42 +0000 2026"
+"userName": "DavidSFOX4",
+"text": "VIDEO: Texas to spend $8 million to fix errors in controversial Bluebonnet curriculum in schools\n...\n\nIt’s been known for months that there are errors in the curriculum, but now we’re learning it’ll cost millions of taxpayer dollars to fix.\n\nMore than $8 million of taxpayer money will be spent to fix thousands of errors related to the Texas education agency’s controversial bluebonnet curriculum, according to a contract provided to FOX 4 by the state board of education’s Vice Chair Pam Little.\n\n\"I just think that this is a cost that we really didn’t need to have,\" said Little. \"My background is educational publishing and never have I ever seen a program come with this many errors.\"\n\nThe Texas state legislature approved the curriculum in 2023. It drew criticism because parts of the curriculum incorporate lessons drawn from bible stories.\n\nIt’s not required to learn in all Texas school districts, but it’s incentivized as districts get $60 per student. Roughly a quarter of Texas school districts use at least portions of the curriculum that was published last year.\n\n\"In doing a little bit further research, it seems like 1,900 of them were actual errors, and 1,062 of those were licensing image issues, meaning that they used images that they did not have the approval to use,\" said Little.\n\nBack in February, the state board of education approved fixing 4,200 errors found in the materials. The TEA says about half of the errors were in response to teacher feedback or grammatical errors.\n\nInitially, the TEA did not disclose how much it would cost to fix. The $8 million expense consists of reprints, shipping and disposal of old text, according to the contract we’ve seen.\n\n\"So that involved reprints and the way the State of Texas works with these reprints is when there are errors that need corrected, updates, things like that then the publisher is the one that covers that cost. Well, in this case the publisher is the State of Texas,\" said Little.\n\nThe state board of education meets all week. Little says she’ll be directing a question about the high costs to commissioner Mike Morath on Wednesday.\n\n\"Just because I think it’s important that our taxpayers understand the costs that’s been involved in this.\"\n\nFOX 4 is still waiting to hear back from the TEA with a statement about that final cost.\n\n@FOX4",
+"likeCount": 19,
+"retweetCount": 5,
+"url": "https://x.com/DavidSFOX4/status/2069275978308698367",
+"createdAt": "Tue Jun 23 04:26:53 +0000 2026"
 },
 {
-"userName": "SpatialBiggs",
-"text": "Unreal Engine 6 blueprint deprecation is devastating news. \n\nWhile it is tough to argue against AI for rapid code generation, the access BP gave Technical Designers and Technical Artists to make magic isn't being acknowledged enough.\n\nThe likes of Expedition 33 prove how small teams can make amazing things in blueprint.\n\nVery sad news personally as I am unsure of my own tech in blueprint having a future outside of UE5 era. That is a very long time of work suddenly deprecating.\n\nAfter release, evaluation will start on the path forward for future titles testing UE6 and Godot.\n\nHopefully we can somehow convert our blueprint systems in a decent fashion... I'll likely be sharing this attempt once we get a stable UE6 to test the UE5 conversion on and move from there.",
-"likeCount": 329,
-"retweetCount": 23,
-"url": "https://x.com/SpatialBiggs/status/2067547569052393944",
-"createdAt": "Thu Jun 18 09:58:48 +0000 2026"
+"userName": "8bitcrypto_io",
+"text": "🚀 Top 10 Fresh NFT News Drops🔥\n\n1. Brainrot NFT Mint Explodes! 🧠 Solana generative collection hitting heavy volume with 3K+ mints today. Internet meme culture meets digital art – holders calling it the ultimate brainrot antidote. Viral traction insane! 🌐💥\n\n2. Chimpers Taco Dojo Packs Selling Out Fast 🌮 Jarritos collab cards live on OpenSea. 25 unique animated cards with AR effects & massive prizes (1M+ CHMPSTR tokens). Over 1.4K packs gone in hours! 🦍🎟️\n\n3. Neon Aliens Fully Minted 👽 Fresh drop wraps up quick on Solana. 27/27 unique holders secured these glowing extraterrestrial vibes. Community buzzing about future utility drops. 🌌🚀\n\n4. Nakamapes Heating Up 🐵 Bitcoin Ordinals-inspired collection gaining steam mid-mint. 150+ mints with strong holder retention. Satoshi-themed apes proving Ordinals still have legs in 2026! ₿🦍\n\n5. NFT Ltd Reverse Split Sparks Talk 📉 Company executes 1-for-80 split to boost share price appeal. Traders watching if this traditional NFT stock play revives interest in public-listed digital asset firms. 📈🏦\n\n6. Base Agents Fashion Drop Live 👔 Stylish AI agent collection minting on Base chain. Hackerdashery vibes with dapper characters – free mint energy drawing big crowds today! 🤖🕴️\n\n7. BAYC Open Edition Update Incoming 🦍 Community event teases airdrop rewards for holders. Exclusive access tonight – speculation high on new utility layers for the blue-chip ape ecosystem. ⭐️\n\n8. Italian Brainrot AI Animals Launch 🇮🇹 Meme-fueled collection blending culture & chaos. Early flips active on OpenSea as rizz-maxxing NFTs capture Gen-Z attention. 😂🍝\n\n9. OpenSea Tokenized Real-World Assets Push 🏷️ CMO hints at Pokémon cards, luxury watches & tickets as next big wave. Platform evolving beyond JPEGs into practical collectibles. 📦✨\n\n10. Quip Network Echoes NFT Tease 🔊 Limited 1K Elgen Keys collection on horizon. Quantum computing meets NFTs – campaigns wrapping up with strong whitelist demand building. ⚛️🗝️\n\nNFT scene refusing to slow down! Which drop has your attention? 👀 Comment below!\n\n#NFTnews #8bitcrypto",
+"likeCount": 15,
+"retweetCount": 8,
+"url": "https://x.com/8bitcrypto_io/status/2067630748623155440",
+"createdAt": "Thu Jun 18 15:29:19 +0000 2026"
 },
 {
-"userName": "nickbaumann_",
-"text": "OpenAI Developer's plugin is severely underrated\n\nIt connects to your developer platform account and then creates & provisions keys to the right APIs for whatever you're building:\n\n- Responses API + built-in tools\n- Realtime API\n- image generation + editing\n- speech-to-text + text-to-speech\n- Agents SDK + Apps SDK\n- Batch API\n\nAnd it has access to docs so it uses the right product wherever needed in your app\n\nCopy/pasting API keys feels severely outdated\n\n(this demo uses Realtime API for live transcription + Responses API with web search for research and editing + text-to-speech for narration + image generation for cover art and social assets)",
-"likeCount": 193,
-"retweetCount": 15,
-"url": "https://x.com/nickbaumann_/status/2069198222250352882",
-"createdAt": "Mon Jun 22 23:17:54 +0000 2026"
+"userName": "siddancha",
+"text": "Really elegant work on fixing variational RL with diffusion models using self-distillation! 👏👏\n\n*Problem*: Likelihood gradients ∇ log p(a) are needed for RL but are hard to compute for diffusion models. A useful surrogate is ∇ ELBO(a), where the ELBO is a supervised diffusion loss such as denoising score-matching loss (DSM) or conditional flow-matching loss (CFM); e.g. the latter is used in FPO (https://t.co/umBUxE4KFq). However, the ELBO suffers from a KL gap: which causes the gradients of ELBO(a) and logp(a) to be misaligned:\n\nELBO(a) = log p(a) - D_KL(a)\n\n*Idea*: Drive the KL gap down to zero after each policy gradient step, reminiscent of the EM algorithm for training GMMs. The E-step drives the KL gap to zero by computing the posterior distribution over latents *without changing the generative model.* Then, the M-step optimizes the ELBO; since the KL gap is already zero and can only increase, the M-step guarantees that the log-likelihood will also increase.\n\n*Solution*: The rough equivalent of the \"E-step\" in diffusion models is self-distillation. You sample action labels from the current diffusion model and just do supervised learning (minimize ELBO) to match its own actions. This might seem useless because self-distillation does not modify the terminal action distribution at all! *The generative model and log-likelihoods log p(a) are unchanged*. But this drives the diffusion KL gap to zero! The KL gap in diffusion models is the distributional gap between the noising and denoising paths; a perfectly trained diffusion model that exactly reverses the noising process has zero KL gap. When this happens, D_KL(a) = 0. But zero is the global minimum for KL divergence, and so ∇D_KL(a) = 0. Which means that ∇ log p(a) = ∇ ELBO(a). The true and surrogate policy gradients are exactly aligned after self-distillation! Takeaway: Interleave policy update steps with self-distillation steps!",
+"likeCount": 121,
+"retweetCount": 8,
+"url": "https://x.com/siddancha/status/2069135165310501032",
+"createdAt": "Mon Jun 22 19:07:20 +0000 2026"
+},
+{
+"userName": "Timmy_Turnes",
+"text": "2020: Zuck launches \"Forecast\" (prediction app on points)\n\n2022: project quietly dies, completely irrelevant\n\n2026: Mark orders Meta to build \"Arena\" to chase the hype\n\n>be @finkd \n\n>see Polymarket printing billions in volume\n>see @shayne_coplan and @williamlegate  ruling the internet\n\n>remember you tried this 6 years ago with \"Forecast\"\n>realize nobody wants to play for virtual points\n>still decide to try again because FOMO kicks in\n\n>order a secret team inside Meta to build \"Arena\"\n>NYT leaks the memo (June 2026)\n>\"it's an standalone app, guys\"\n\n>structure it around gamified points at launch\n>no real money because SEC and CFTC are breathing down your neck\n>media calls it \"the Web2 copycat strikes again\"\n\n>inside sources say \"real cash markets not ruled out\"\n>but you are a trillion-dollar public corporation\n>compliance department has 500 lawyers ready to scream\n\n>try to compete with decentralized crypto liquidity\n>realize normies don't know what Polygon or USDC is\n>plan to pump \"Arena\" via Instagram stories and Threads\n\n>leverage Llama AI to give users smart prediction data\n>try to steal the mainstream audience from Polymarket\n>\"fast follower\" strategy activated\n\n>Shayne Coplan enters the chat\n>built a global powerhouse on real financial risk\n>skin in the game vs Zuck's play-money arena\n\n>Kalshi and Robinhood already eating the US regulated market\n>Polymarket owns the global crypto degens\n>Meta stuck in the middle with corporate handcuffs\n\n>can the copy-paste king do it again?\n>Threads couldn't kill X\n>Reels barely holding against TikTok\n\n>Zuck in his tech-bro chain vs Shayne with a bagel bag\n>billions of users vs pure crypto liquidity\n>\"we are so back\" vs \"it's over for Web2\"",
+"likeCount": 53,
+"retweetCount": 1,
+"url": "https://x.com/Timmy_Turnes/status/2069495045246374100",
+"createdAt": "Tue Jun 23 18:57:22 +0000 2026"
+},
+{
+"userName": "NayrhitB",
+"text": "Marc Andreessen, @pmarca, has a term for what every great founder does and nobody admits to. \n\nHe calls it \"retardmaxxing.\" \n\nFirst time I heard it I rejected it. Sounded reckless.\n\nThen my co-founder pointed out I do it more than anyone on our team.\n\nRetardmaxxing isn't being dumb. It's committing to a decision before you've finished analyzing it to death.\n\nEvery big decision that's worked for Gushwork came when I retardmaxxed the most:\n\n→ Starting Gushwork. non immigrant visa, new york rent, student loan, 15 days after ChatGPT launched. No idea what we'd build. Pitched VCs before we'd incorporated.\n\n→ Pivoting from a virtual assistant business to AI SEO overnight. One viral LinkedIn post → pivoted the whole company toward offering a service I barely understood. Genuinely didn't know SEO was a thing when we started Gushwork.\n\n→ Pausing all revenue 12 months ago. Just closed $9M, growing 40% MoM. Told the board we were taking revenue to zero for 4 months to focus on building an agentic commerce platform for b2b businesses & hone in on traditional manufacturers and distributors of the US. this was retardmaxxing.\n\nWhatever you build will have 15 competitors in 12 months. The only edge that compounds is how fast you move from \"we should try this\" to \"we shipped this.\"\n\nIf you wait to be sure with 10x datapoints in this AI-native world, you're not being responsible. You're letting someone less sure get there first.",
+"likeCount": 49,
+"retweetCount": 1,
+"url": "https://x.com/NayrhitB/status/2069047777837846590",
+"createdAt": "Mon Jun 22 13:20:05 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "- 2016-2024: 🇺🇸leads in open-source AI\n- 2024-2027: 🇺🇸 leads in general AI & massively benefits\n\n- 2024-2026: 🇨🇳 leads in open-source AI\n- 2026-2030: ??\n\nIt's not open-source AI leadership OR general AI leadership, it's open-source AI leadership BEFORE general AI leadership!\n\nOpen-source AI is the foundation of all AI. It does not only creates more innovation, competition, jobs, and prosperity now, it's also the best (only?) way for a national tech ecosystem to accelerate and ultimately reach the frontier of AI in general. \n\nBecause open-source AI reduces siloes, shares learning and innovation, intensify emulation which all lead to an acceleration of the local ecosystem progress that no others can match if they're less open and collaborative.\n\nSame seems to be true for companies btw, OpenAI/Google started with open science and open-source AI which led to their (and Anthropic who spun off from OAI) domination. Meta could have done the same but decided to change course for some reason.",
+"likeCount": 373,
+"retweetCount": 38,
+"url": "https://x.com/ClementDelangue/status/2068688725958148465",
+"createdAt": "Sun Jun 21 13:33:21 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "HF is quietly becoming the best place to store data, public AND private, especially for brutal domains like robotics and video AI where the files are massive, append-only, and never stop growing.\n\nExample? Public robotics datasets exploded from 1,000 in early 2025 to 60,000 today, and there's twice as many private ones.\n\nWhy? A single robot records at 140 MB/s, all day, forever. That data has to be stored, streamed to GPUs, and shipped back to hardware on repeat. Get it wrong and your GPUs sit idle at 0 MB/s waiting for a dataset to land. Get it right (stream straight from the Hub, pre-warmed cache) and those same GPUs scream along at ~1,326 MB/s, fully fed. 🚀\n\nHere's how LeRobot + Hugging Face Storage Buckets pull it off: https://t.co/SOUPAUpiZc",
+"likeCount": 105,
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2069476228243800253",
+"createdAt": "Tue Jun 23 17:42:36 +0000 2026"
+},
+{
+"userName": "CodebyNihan",
+"text": "🤖 14 Game-Changing AI Tools You Don’t Want to Miss\n\n1. https://t.co/zRawvq0gTl — mind mapping\n2. https://t.co/Ouvl8bUpX3 — AI voice & media tools\n3. Tome — presentation creation\n4. Pika — AI video generation\n5. Gamma — docs & slides\n6. Suno — AI music creation\n7. https://t.co/3mAE3To64n — image editing\n8. Perplexity — AI research\n9. Krea — AI design\n10. Fliki — text-to-video & voiceovers\n11. Runway — AI video editing\n12. Relume — website planning\n13. Luma AI — 3D content creation\n14. ElevenLabs — realistic AI voices\n\nFollow Me 👉  @CodebyNihan for More Useful Content.",
+"likeCount": 53,
+"retweetCount": 36,
+"url": "https://x.com/CodebyNihan/status/2069424356196004096",
+"createdAt": "Tue Jun 23 14:16:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @_MaxBlade: I CANNOT believe im saying this right now... \n\nbut GLM 5.2 in open code is SHITTING on opus 4.8 in claude code. 🤯\n\nhow is th…",
-"likeCount": 2068,
+"likeCount": 2070,
 "retweetCount": 51,
 "url": "https://x.com/ClementDelangue/status/2068703744863138237",
 "createdAt": "Sun Jun 21 14:33:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NielsRogge: That's right, an open, MIT-licensed model beating GPT-5.5 (xhigh) on real-world agentic work! 🔥\n\nAvailable for free on @hug…",
-"likeCount": 52,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2069147210147639595",
-"createdAt": "Mon Jun 22 19:55:12 +0000 2026"
+"text": "RT @jpschroeder: I guarantee you are sleeping on small models.\n\nDeepseek V4 Flash can do ~80% of the tasks you ask Claude or Codex for.\n\nIt…",
+"likeCount": 314,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2069381450583961752",
+"createdAt": "Tue Jun 23 11:25:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @LeRobotHF: Is it really worth it joining a robotics hackathon?\n\nOne year ago, thousands of people around the world spent a single weeke…",
-"likeCount": 185,
-"retweetCount": 21,
+"likeCount": 265,
+"retweetCount": 34,
 "url": "https://x.com/ClementDelangue/status/2069069361457807426",
 "createdAt": "Mon Jun 22 14:45:51 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @HuggingPapers: Ai2 just released TMax 27B on Hugging Face\n\nA 27B terminal agent that hits 42.7% on Terminal Bench 2.0,\nrivaling models…",
-"likeCount": 77,
-"retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2069095324430282914",
-"createdAt": "Mon Jun 22 16:29:01 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @voratiq: After more head-to-head matches\n\nWe're finding GLM 5.2 high to be ... quite good\n\nProbability it beats:\n- Opus 4.8 xhigh: 32%…",
+"likeCount": 262,
+"retweetCount": 31,
+"url": "https://x.com/jeremyphoward/status/2067889787475009746",
+"createdAt": "Fri Jun 19 08:38:39 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @didier_lopes: Incredible how Z. ai literally has their RL infrastructure open source.\n\nThe entire OPD post-training of GLM-5.2 took on…",
-"likeCount": 1798,
-"retweetCount": 155,
-"url": "https://x.com/jeremyphoward/status/2068277263158944086",
-"createdAt": "Sat Jun 20 10:18:20 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @Sentdex: Zai was gracious enough to give me a key to test out GLM 5.2. I used it on a few simple tasks and quickly realized this model…",
-"likeCount": 2186,
-"retweetCount": 170,
-"url": "https://x.com/jeremyphoward/status/2066982338949714324",
-"createdAt": "Tue Jun 16 20:32:46 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @TheAhmadOsman: Luke Alonso has uploaded an NVFP4 of GLM 5.2\n\n467GB, would fit on 4x DGX Sparks (~$20k) https://t.co/8wP1uUypLC",
-"likeCount": 294,
-"retweetCount": 24,
-"url": "https://x.com/ClementDelangue/status/2068450788049838488",
-"createdAt": "Sat Jun 20 21:47:52 +0000 2026"
+"text": "RT @ArtificialAnlys: Announcing AA-Briefcase, the benchmark for the next era of agentic knowledge work\n\nAA-Briefcase is our new benchmark f…",
+"likeCount": 839,
+"retweetCount": 71,
+"url": "https://x.com/jeremyphoward/status/2067758199667864057",
+"createdAt": "Thu Jun 18 23:55:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @paradite_: the number of providers for glm 5.2 is insane.\n\ni count 20 of them. https://t.co/3ncOCbbY7y",
-"likeCount": 236,
-"retweetCount": 15,
+"likeCount": 511,
+"retweetCount": 33,
 "url": "https://x.com/ClementDelangue/status/2069148566006714811",
 "createdAt": "Mon Jun 22 20:00:35 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @nicdunz: glm 5.2 is crazy https://t.co/qgCJuKnPEF",
-"likeCount": 1527,
-"retweetCount": 49,
-"url": "https://x.com/ClementDelangue/status/2068703626294337759",
-"createdAt": "Sun Jun 21 14:32:33 +0000 2026"
+"userName": "jeremyphoward",
+"text": "Nice to see the Drivetrain Approach getting some love again! :D\nhttps://t.co/XcOjrJ0As3",
+"likeCount": 40,
+"retweetCount": 3,
+"url": "https://x.com/jeremyphoward/status/2069339966380052725",
+"createdAt": "Tue Jun 23 08:41:09 +0000 2026"
+},
+{
+"userName": "jakecastilloooo",
+"text": "https://t.co/M1FkRTGivW",
+"likeCount": 1325,
+"retweetCount": 92,
+"url": "https://x.com/jakecastilloooo/status/2069417525947912540",
+"createdAt": "Tue Jun 23 13:49:20 +0000 2026"
+},
+{
+"userName": "varmology",
+"text": "https://t.co/ntELJv0DvM",
+"likeCount": 23,
+"retweetCount": 3,
+"url": "https://x.com/varmology/status/2069413452326846681",
+"createdAt": "Tue Jun 23 13:33:09 +0000 2026"
 }
 ]
