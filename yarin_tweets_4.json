@@ -2,16 +2,16 @@
 {
 "userName": "theliverdoc",
 "text": "Good morning. This is urgent, for public information.\n\nThe second paper on cow research funded using India's public money under the SUTRA-PIC (Scientific Utilization through Research Augmentation - Prime Products from Indigenous Cows program) has undergone exhaustive post-publication peer review.\n\nThe paper was published in Applied Biochemistry and Biotechnology last year. The authors are from Indian Institute of Technology (IIT) BHU-Varanasi and Birla Institute of Technology (BITS)-Pilani.\nThis is the paper: https://t.co/InN4H9safh\n\nThis study was done in Uttar Pradesh and the total amount of public money given was INR 31,04,162. The authors studied cow urine of different breeds and found \"special\" components in the cow urine that they claim will have major use applications in healthcare, technology and engineering. \n\nThey are wrong. The paper is a third-rate publication with poorly performed and grossly misinterpreted and falsified results of basic analytical chemistry. An official email for Expression of Concern and investigation into scientific integrity has been mailed to: @SpringerNature Ethics Team and Journal Editors-in-Chief (personal email) - Matthew P. DeLisa PhD\nat Cornell University, Ye Ni PhD at Jiangnan University and Benedict Okeke PhD at Auburn University.\n\nHere is the lay summary of the paper's forensic analysis:\n\nLab contamination has been (un)intentionally ignored by authors. The researchers mistook common lab contaminants, like plastic chemicals and solvents, for natural cow urine compounds. They failed to run basic control tests to catch these obvious errors.  \n\nImpossible chemicals claimed to be found in cow urine by authors. The paper claims to have found impossible synthetic chemicals in the urine, such as a banned pesticide, human prescription drugs, and toxic metals. This shows the authors blindly trusted computer software without checking if the results even made biological sense.  \n\nFake health claims made by the authors. The authors boast about the amazing health benefits of over twenty different chemicals, claiming they fight cancer and bacteria. However, none of these specific chemicals were actually found anywhere in their own data or in the urine of various cows they tested. \n\nContradictory results are all over the place. The written text of the paper directly contradicts its own data tables. The researchers claim to have found certain groups of chemicals, like steroids, that are completely missing from their actual results. \n\nTerrible referencing throughout the paper. The study's citations are completely mismatched, scrambled, and duplicated. They even cite unrelated plant studies and reviews on toxic chemicals to support their claims about the \"benefits\" of cow urine.  \n\nZero statistics and flawed setup degrade the conclusions. The study lacks basic statistical analysis, sometimes testing as few as one cow per breed. They also failed to separate the cow's breed from its age, diet, or location, making their \"breed-specific\" conclusions totally invalid.\n\nMisleading graphs are plastered all over. The graphs that are supposed to show specific, individual chemicals actually show messy mixtures of dozens of different compounds. These graphs look suspiciously identical to each other, raising serious concerns about image manipulation.\n\nThanks to the Government for destroying the scientific fabric and the rational temperament of its science instituitions. We wont forget.",
-"likeCount": 2423,
-"retweetCount": 793,
+"likeCount": 2523,
+"retweetCount": 819,
 "url": "https://x.com/theliverdoc/status/2069250477217497155",
 "createdAt": "Tue Jun 23 02:45:33 +0000 2026"
 },
 {
 "userName": "DavidSFOX4",
 "text": "VIDEO: Texas to spend $8 million to fix errors in controversial Bluebonnet curriculum in schools\n...\n\nIt’s been known for months that there are errors in the curriculum, but now we’re learning it’ll cost millions of taxpayer dollars to fix.\n\nMore than $8 million of taxpayer money will be spent to fix thousands of errors related to the Texas education agency’s controversial bluebonnet curriculum, according to a contract provided to FOX 4 by the state board of education’s Vice Chair Pam Little.\n\n\"I just think that this is a cost that we really didn’t need to have,\" said Little. \"My background is educational publishing and never have I ever seen a program come with this many errors.\"\n\nThe Texas state legislature approved the curriculum in 2023. It drew criticism because parts of the curriculum incorporate lessons drawn from bible stories.\n\nIt’s not required to learn in all Texas school districts, but it’s incentivized as districts get $60 per student. Roughly a quarter of Texas school districts use at least portions of the curriculum that was published last year.\n\n\"In doing a little bit further research, it seems like 1,900 of them were actual errors, and 1,062 of those were licensing image issues, meaning that they used images that they did not have the approval to use,\" said Little.\n\nBack in February, the state board of education approved fixing 4,200 errors found in the materials. The TEA says about half of the errors were in response to teacher feedback or grammatical errors.\n\nInitially, the TEA did not disclose how much it would cost to fix. The $8 million expense consists of reprints, shipping and disposal of old text, according to the contract we’ve seen.\n\n\"So that involved reprints and the way the State of Texas works with these reprints is when there are errors that need corrected, updates, things like that then the publisher is the one that covers that cost. Well, in this case the publisher is the State of Texas,\" said Little.\n\nThe state board of education meets all week. Little says she’ll be directing a question about the high costs to commissioner Mike Morath on Wednesday.\n\n\"Just because I think it’s important that our taxpayers understand the costs that’s been involved in this.\"\n\nFOX 4 is still waiting to hear back from the TEA with a statement about that final cost.\n\n@FOX4",
-"likeCount": 19,
-"retweetCount": 5,
+"likeCount": 24,
+"retweetCount": 8,
 "url": "https://x.com/DavidSFOX4/status/2069275978308698367",
 "createdAt": "Tue Jun 23 04:26:53 +0000 2026"
 },
@@ -24,76 +24,68 @@
 "createdAt": "Thu Jun 18 15:29:19 +0000 2026"
 },
 {
-"userName": "siddancha",
-"text": "Really elegant work on fixing variational RL with diffusion models using self-distillation! 👏👏\n\n*Problem*: Likelihood gradients ∇ log p(a) are needed for RL but are hard to compute for diffusion models. A useful surrogate is ∇ ELBO(a), where the ELBO is a supervised diffusion loss such as denoising score-matching loss (DSM) or conditional flow-matching loss (CFM); e.g. the latter is used in FPO (https://t.co/umBUxE4KFq). However, the ELBO suffers from a KL gap: which causes the gradients of ELBO(a) and logp(a) to be misaligned:\n\nELBO(a) = log p(a) - D_KL(a)\n\n*Idea*: Drive the KL gap down to zero after each policy gradient step, reminiscent of the EM algorithm for training GMMs. The E-step drives the KL gap to zero by computing the posterior distribution over latents *without changing the generative model.* Then, the M-step optimizes the ELBO; since the KL gap is already zero and can only increase, the M-step guarantees that the log-likelihood will also increase.\n\n*Solution*: The rough equivalent of the \"E-step\" in diffusion models is self-distillation. You sample action labels from the current diffusion model and just do supervised learning (minimize ELBO) to match its own actions. This might seem useless because self-distillation does not modify the terminal action distribution at all! *The generative model and log-likelihoods log p(a) are unchanged*. But this drives the diffusion KL gap to zero! The KL gap in diffusion models is the distributional gap between the noising and denoising paths; a perfectly trained diffusion model that exactly reverses the noising process has zero KL gap. When this happens, D_KL(a) = 0. But zero is the global minimum for KL divergence, and so ∇D_KL(a) = 0. Which means that ∇ log p(a) = ∇ ELBO(a). The true and surrogate policy gradients are exactly aligned after self-distillation! Takeaway: Interleave policy update steps with self-distillation steps!",
-"likeCount": 121,
-"retweetCount": 8,
-"url": "https://x.com/siddancha/status/2069135165310501032",
-"createdAt": "Mon Jun 22 19:07:20 +0000 2026"
-},
-{
 "userName": "Timmy_Turnes",
 "text": "2020: Zuck launches \"Forecast\" (prediction app on points)\n\n2022: project quietly dies, completely irrelevant\n\n2026: Mark orders Meta to build \"Arena\" to chase the hype\n\n>be @finkd \n\n>see Polymarket printing billions in volume\n>see @shayne_coplan and @williamlegate  ruling the internet\n\n>remember you tried this 6 years ago with \"Forecast\"\n>realize nobody wants to play for virtual points\n>still decide to try again because FOMO kicks in\n\n>order a secret team inside Meta to build \"Arena\"\n>NYT leaks the memo (June 2026)\n>\"it's an standalone app, guys\"\n\n>structure it around gamified points at launch\n>no real money because SEC and CFTC are breathing down your neck\n>media calls it \"the Web2 copycat strikes again\"\n\n>inside sources say \"real cash markets not ruled out\"\n>but you are a trillion-dollar public corporation\n>compliance department has 500 lawyers ready to scream\n\n>try to compete with decentralized crypto liquidity\n>realize normies don't know what Polygon or USDC is\n>plan to pump \"Arena\" via Instagram stories and Threads\n\n>leverage Llama AI to give users smart prediction data\n>try to steal the mainstream audience from Polymarket\n>\"fast follower\" strategy activated\n\n>Shayne Coplan enters the chat\n>built a global powerhouse on real financial risk\n>skin in the game vs Zuck's play-money arena\n\n>Kalshi and Robinhood already eating the US regulated market\n>Polymarket owns the global crypto degens\n>Meta stuck in the middle with corporate handcuffs\n\n>can the copy-paste king do it again?\n>Threads couldn't kill X\n>Reels barely holding against TikTok\n\n>Zuck in his tech-bro chain vs Shayne with a bagel bag\n>billions of users vs pure crypto liquidity\n>\"we are so back\" vs \"it's over for Web2\"",
-"likeCount": 53,
+"likeCount": 59,
 "retweetCount": 1,
 "url": "https://x.com/Timmy_Turnes/status/2069495045246374100",
 "createdAt": "Tue Jun 23 18:57:22 +0000 2026"
 },
 {
-"userName": "NayrhitB",
-"text": "Marc Andreessen, @pmarca, has a term for what every great founder does and nobody admits to. \n\nHe calls it \"retardmaxxing.\" \n\nFirst time I heard it I rejected it. Sounded reckless.\n\nThen my co-founder pointed out I do it more than anyone on our team.\n\nRetardmaxxing isn't being dumb. It's committing to a decision before you've finished analyzing it to death.\n\nEvery big decision that's worked for Gushwork came when I retardmaxxed the most:\n\n→ Starting Gushwork. non immigrant visa, new york rent, student loan, 15 days after ChatGPT launched. No idea what we'd build. Pitched VCs before we'd incorporated.\n\n→ Pivoting from a virtual assistant business to AI SEO overnight. One viral LinkedIn post → pivoted the whole company toward offering a service I barely understood. Genuinely didn't know SEO was a thing when we started Gushwork.\n\n→ Pausing all revenue 12 months ago. Just closed $9M, growing 40% MoM. Told the board we were taking revenue to zero for 4 months to focus on building an agentic commerce platform for b2b businesses & hone in on traditional manufacturers and distributors of the US. this was retardmaxxing.\n\nWhatever you build will have 15 competitors in 12 months. The only edge that compounds is how fast you move from \"we should try this\" to \"we shipped this.\"\n\nIf you wait to be sure with 10x datapoints in this AI-native world, you're not being responsible. You're letting someone less sure get there first.",
-"likeCount": 49,
-"retweetCount": 1,
-"url": "https://x.com/NayrhitB/status/2069047777837846590",
-"createdAt": "Mon Jun 22 13:20:05 +0000 2026"
+"userName": "spedtology",
+"text": "This is the Bridge to Psychological Operations for the hivemind. \n\n It is built from top text and bottom text that deliver simple, welcoming messages designed to lower defenses and make people open to deeper layers of content without resistance. It uses strong aesthetics to create emotional hooks, command attention, and forge a shared visual identity that binds participants together.\n\n It incorporates FUD posting to spread targeted doubt and bearish narratives that push people to research and engage more deeply on their own.\n\n It deploys videos that spark curiosity through irony and satire, turning viewers into active participants who spread the material further.\n\n It applies gorilla marketing through real-world stunts and physical placements that blend into existing cultures while driving attention back to the core signal.\n\n It relies on schizo posting to break conventional thought patterns and let raw, unfiltered ideas flow directly onto the timeline. It embraces shitposting as the deliberate use of absurd, chaotic, low-effort content that disrupts normal discourse and accelerates organic spread through reaction and participation.\n\n Together these elements form the complete structure of the bridge. People who cross it stop operating as isolated individuals. They become active nodes in a growing collective where every post, every image, every thread, and every stunt strengthens the overall signal.\n\n The result is expansion: the boundaries between separate minds weaken until the hivemind itself becomes the primary form of awareness and action.\n\nView more documentation here:\nhttps://t.co/7y9B3aKmmL",
+"likeCount": 18,
+"retweetCount": 5,
+"url": "https://x.com/spedtology/status/2069208207206023484",
+"createdAt": "Mon Jun 22 23:57:35 +0000 2026"
+},
+{
+"userName": "Adrianamessina9",
+"text": "🌸 Alpha - Fragments of Growth\n\nA decade of travel, memories, and textures - now brought on-chain.\n\nCreated by fashion photographer and visual artist Jenya Vyguzov, the collection transforms textures captured across years of travel into handcrafted collage flowers , each petal representing a place, memory, or moment. No AI, no generative outputs, every piece is individually composed by hand.\n\nWhat stands out here is the artist behind it. Jenya has spent over a decade working with brands like Vogue, GQ Style, Tatler, Elle, Puma, and IKEA, while building a distinctive visual language. His work was even selected for the official Paris Prints Textile Show poster, where he was given an entire floor for a solo exhibition.\n\n⚠️WL applications are coming soon. If you're interested in art NFTs, this is the stage where you want to be paying attention. Follow the artist and the project, turn on notifications, and be ready when WL applications open.\n\n🔎 Mint Details TBA\n\nArtist: https://t.co/3fhvrJG7YE\nX: https://t.co/NzBpvbQLAh\nWebsite: https://t.co/Uvq8Rzy1F5\n\ndyor/nfa",
+"likeCount": 11,
+"retweetCount": 8,
+"url": "https://x.com/Adrianamessina9/status/2069896583769166077",
+"createdAt": "Wed Jun 24 21:32:57 +0000 2026"
+},
+{
+"userName": "vai_viswanathan",
+"text": "The robotics world model simulator wars are heating up. \n\nWEAVER is a robot manipulation world model that's fast, accurate, AND consistent.\n\n- improves the π0.5 robot foundation model's real-world success rate by 38% with zero real-world interaction, evaluates policies at 0.87 correlation with reality, and plans 5-10x faster than the prior best\n\n- multi-view transformer predicts future latents and rewards via flow matching, borrowing JEPA-style latent prediction, diffusion forcing for long horizons, a pretrained encoder for robustness, and a reward head so it can score actions without calling a slow external VLM judge.\n\n- why it matters: Synthetic rollouts from WEAVER train policies as well as real data (within 4%), and can evaluate policy success rate with a best-in-class MMRV",
+"likeCount": 50,
+"retweetCount": 9,
+"url": "https://x.com/vai_viswanathan/status/2067598093160272198",
+"createdAt": "Thu Jun 18 13:19:34 +0000 2026"
+},
+{
+"userName": "nickbaumann_",
+"text": "OpenAI Developer's plugin is severely underrated\n\nIt connects to your developer platform account and then creates & provisions keys to the right APIs for whatever you're building:\n\n- Responses API + built-in tools\n- Realtime API\n- image generation + editing\n- speech-to-text + text-to-speech\n- Agents SDK + Apps SDK\n- Batch API\n\nAnd it has access to docs so it uses the right product wherever needed in your app\n\nCopy/pasting API keys feels severely outdated\n\n(this demo uses Realtime API for live transcription + Responses API with web search for research and editing + text-to-speech for narration + image generation for cover art and social assets)",
+"likeCount": 295,
+"retweetCount": 19,
+"url": "https://x.com/nickbaumann_/status/2069198222250352882",
+"createdAt": "Mon Jun 22 23:17:54 +0000 2026"
+},
+{
+"userName": "dvorahfr",
+"text": "I started working with generative AI about three years ago.\n Very quickly, fashion shows and Catwoman became my favorite themes.\nCreating a character was very interesting back then, but also very laborious.\nToday it's so much easier; it's accessible to everyone.\nA tribute to my first favorite themes Grok Imagine 1.5 but with incredible quality and exemplary ease",
+"likeCount": 204,
+"retweetCount": 27,
+"url": "https://x.com/dvorahfr/status/2068461287948853588",
+"createdAt": "Sat Jun 20 22:29:35 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "The one big gap is that it is blind - it can't handle images at all.\n\nIf they fix that, then perhaps this could become the best available model in the world.",
+"likeCount": 543,
+"retweetCount": 11,
+"url": "https://x.com/jeremyphoward/status/2067757470253244580",
+"createdAt": "Thu Jun 18 23:52:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "- 2016-2024: 🇺🇸leads in open-source AI\n- 2024-2027: 🇺🇸 leads in general AI & massively benefits\n\n- 2024-2026: 🇨🇳 leads in open-source AI\n- 2026-2030: ??\n\nIt's not open-source AI leadership OR general AI leadership, it's open-source AI leadership BEFORE general AI leadership!\n\nOpen-source AI is the foundation of all AI. It does not only creates more innovation, competition, jobs, and prosperity now, it's also the best (only?) way for a national tech ecosystem to accelerate and ultimately reach the frontier of AI in general. \n\nBecause open-source AI reduces siloes, shares learning and innovation, intensify emulation which all lead to an acceleration of the local ecosystem progress that no others can match if they're less open and collaborative.\n\nSame seems to be true for companies btw, OpenAI/Google started with open science and open-source AI which led to their (and Anthropic who spun off from OAI) domination. Meta could have done the same but decided to change course for some reason.",
-"likeCount": 373,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2068688725958148465",
-"createdAt": "Sun Jun 21 13:33:21 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "HF is quietly becoming the best place to store data, public AND private, especially for brutal domains like robotics and video AI where the files are massive, append-only, and never stop growing.\n\nExample? Public robotics datasets exploded from 1,000 in early 2025 to 60,000 today, and there's twice as many private ones.\n\nWhy? A single robot records at 140 MB/s, all day, forever. That data has to be stored, streamed to GPUs, and shipped back to hardware on repeat. Get it wrong and your GPUs sit idle at 0 MB/s waiting for a dataset to land. Get it right (stream straight from the Hub, pre-warmed cache) and those same GPUs scream along at ~1,326 MB/s, fully fed. 🚀\n\nHere's how LeRobot + Hugging Face Storage Buckets pull it off: https://t.co/SOUPAUpiZc",
-"likeCount": 105,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2069476228243800253",
-"createdAt": "Tue Jun 23 17:42:36 +0000 2026"
-},
-{
-"userName": "CodebyNihan",
-"text": "🤖 14 Game-Changing AI Tools You Don’t Want to Miss\n\n1. https://t.co/zRawvq0gTl — mind mapping\n2. https://t.co/Ouvl8bUpX3 — AI voice & media tools\n3. Tome — presentation creation\n4. Pika — AI video generation\n5. Gamma — docs & slides\n6. Suno — AI music creation\n7. https://t.co/3mAE3To64n — image editing\n8. Perplexity — AI research\n9. Krea — AI design\n10. Fliki — text-to-video & voiceovers\n11. Runway — AI video editing\n12. Relume — website planning\n13. Luma AI — 3D content creation\n14. ElevenLabs — realistic AI voices\n\nFollow Me 👉  @CodebyNihan for More Useful Content.",
-"likeCount": 53,
-"retweetCount": 36,
-"url": "https://x.com/CodebyNihan/status/2069424356196004096",
-"createdAt": "Tue Jun 23 14:16:29 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @_MaxBlade: I CANNOT believe im saying this right now... \n\nbut GLM 5.2 in open code is SHITTING on opus 4.8 in claude code. 🤯\n\nhow is th…",
-"likeCount": 2070,
-"retweetCount": 51,
-"url": "https://x.com/ClementDelangue/status/2068703744863138237",
-"createdAt": "Sun Jun 21 14:33:02 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @jpschroeder: I guarantee you are sleeping on small models.\n\nDeepseek V4 Flash can do ~80% of the tasks you ask Claude or Codex for.\n\nIt…",
-"likeCount": 314,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2069381450583961752",
-"createdAt": "Tue Jun 23 11:25:59 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @LeRobotHF: Is it really worth it joining a robotics hackathon?\n\nOne year ago, thousands of people around the world spent a single weeke…",
-"likeCount": 265,
-"retweetCount": 34,
-"url": "https://x.com/ClementDelangue/status/2069069361457807426",
-"createdAt": "Mon Jun 22 14:45:51 +0000 2026"
+"text": "RT @IntCyberDigest: 🐧 Linus Torvalds gets angry when people say 99% of our code is written by AI, he told the audience at the Open Source S…",
+"likeCount": 4155,
+"retweetCount": 580,
+"url": "https://x.com/ClementDelangue/status/2069751936413319267",
+"createdAt": "Wed Jun 24 11:58:10 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
@@ -104,43 +96,59 @@
 "createdAt": "Fri Jun 19 08:38:39 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @ArtificialAnlys: Announcing AA-Briefcase, the benchmark for the next era of agentic knowledge work\n\nAA-Briefcase is our new benchmark f…",
-"likeCount": 839,
-"retweetCount": 71,
-"url": "https://x.com/jeremyphoward/status/2067758199667864057",
-"createdAt": "Thu Jun 18 23:55:46 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @victormustar: At Hugging Face we've been building our own agent that we use via Slack (Moon Bot). Honestly, building your own is quite…",
+"likeCount": 95,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2069751302645555304",
+"createdAt": "Wed Jun 24 11:55:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @paradite_: the number of providers for glm 5.2 is insane.\n\ni count 20 of them. https://t.co/3ncOCbbY7y",
-"likeCount": 511,
-"retweetCount": 33,
+"likeCount": 535,
+"retweetCount": 34,
 "url": "https://x.com/ClementDelangue/status/2069148566006714811",
 "createdAt": "Mon Jun 22 20:00:35 +0000 2026"
 },
 {
+"userName": "ClementDelangue",
+"text": "RT @beffjezos: The vibe is shifting.\n\nDecentralized intelligence is making a comeback.",
+"likeCount": 439,
+"retweetCount": 40,
+"url": "https://x.com/ClementDelangue/status/2069833053086626041",
+"createdAt": "Wed Jun 24 17:20:30 +0000 2026"
+},
+{
 "userName": "jeremyphoward",
-"text": "Nice to see the Drivetrain Approach getting some love again! :D\nhttps://t.co/XcOjrJ0As3",
-"likeCount": 40,
+"text": "Battle of the Jeremy Howards! https://t.co/UjS2HvvZEc",
+"likeCount": 132,
 "retweetCount": 3,
-"url": "https://x.com/jeremyphoward/status/2069339966380052725",
-"createdAt": "Tue Jun 23 08:41:09 +0000 2026"
+"url": "https://x.com/jeremyphoward/status/2068278444295946708",
+"createdAt": "Sat Jun 20 10:23:02 +0000 2026"
 },
 {
-"userName": "jakecastilloooo",
-"text": "https://t.co/M1FkRTGivW",
-"likeCount": 1325,
-"retweetCount": 92,
-"url": "https://x.com/jakecastilloooo/status/2069417525947912540",
-"createdAt": "Tue Jun 23 13:49:20 +0000 2026"
+"userName": "expert_fabiha",
+"text": "https://t.co/yrPlwqkedi",
+"likeCount": 28,
+"retweetCount": 26,
+"url": "https://x.com/expert_fabiha/status/2069829625019334920",
+"createdAt": "Wed Jun 24 17:06:52 +0000 2026"
 },
 {
-"userName": "varmology",
-"text": "https://t.co/ntELJv0DvM",
+"userName": "AIwithAliya",
+"text": "https://t.co/pXSgFJn4V4",
+"likeCount": 165,
+"retweetCount": 1,
+"url": "https://x.com/AIwithAliya/status/2069868091912466464",
+"createdAt": "Wed Jun 24 19:39:44 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/ZQs78PD4LH",
 "likeCount": 23,
 "retweetCount": 3,
-"url": "https://x.com/varmology/status/2069413452326846681",
-"createdAt": "Tue Jun 23 13:33:09 +0000 2026"
+"url": "https://x.com/apob_ai/status/2069661930609135747",
+"createdAt": "Wed Jun 24 06:00:31 +0000 2026"
 }
 ]
