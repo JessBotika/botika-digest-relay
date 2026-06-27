@@ -1,114 +1,122 @@
 [
 {
-"userName": "NachtNovaAI",
-"text": "⚠️New prompt\nThis prompt was a random idea. \nit places your character into a comic of them creating their own city out of boredom. \nExamples contain avis from @arkd3v , @joebeanclown , and my own\n\n⚠️Prompt👇\n\nCHARACTER-CREATED CITY — CINEMATIC COMIC PAGE GENERATOR\n\nPurpose\n\nTransform @image1 into a fully rendered, ultra-premium comic page that tells the story of the character creating an entire city from their imagination.\n\nThe city, interface design, architecture, technology, visual language, colors, symbols, materials, culture, and overall aesthetic must be derived directly from a deep analysis of the character shown in @image1.\n\nREFERENCE INTERPRETATION RULES\n\nCharacter Identity Lock\n\n@image1 represents exactly ONE character.\n\nIf @image1 contains:\n\nReference sheets\n\nMultiple poses\nFront/back views\nExpression sheets\nOutfit variations\nTurnarounds\nMultiple angles\nThey are all the same character.\n\nPerform a complete visual analysis of @image1 before generating.\n\nPreserve and accurately reconstruct:\n\nFace shape\n\nSpecies\nBody type\nAge appearance\nHairstyle\nHair color\nEye color\nSkin, fur, scales, feathers, or other surface traits\nHorns\nEars\nTail\nWings\nMarkings\nTattoos\nScars\nAccessories\nClothing design\nMaterials\nPersonality cues\nCultural influences\nDesign motifs\nColor palette\nMASTER CHARACTER GENERATION PHASE\n\nBefore creating any comic panel:\n\nPerform a complete visual extraction of @image1 and generate a single internal master character model.\n\nEvery appearance of the character throughout the comic page must be generated from this master model.\n\nThe character appearing in every panel must remain identical.\n\nMaintain:\n\nFace structure\n\nHead shape\n\nEye shape\nEye color\nNose structure\nMouth structure\nJawline\nHairstyle\nHair length\nHair color\nSpecies traits\nSkin/fur/scales\nBody proportions\nBody weight\nHeight\nMuscle mass\nClothing\nAccessories\nMarkings\nHorns\nEars\nWings\nTail\nDo not redesign the character between panels.\nDo not reinterpret the character between panels.\n\nDo not simplify the character in distant shots.\n\nTreat the character as a locked production model sheet.\n\nEvery panel must depict the exact same individual.\n\nSTYLE EXTRACTION ANALYSIS\n\nDeeply analyze @image1 to determine:\n\nCharacter personality\n\nSocial status\n\nTechnological level\n\nFantasy influences\nScience-fiction influences\nHistorical inspirations\nFashion language\nArchitectural motifs\nMaterial preferences\nSymbolic imagery\nColor hierarchy\nStorytelling themes\nThese findings must directly influence:\nHolographic interface design\nUser experience design\n\nCity architecture\n\nTransportation systems\nLighting systems\nBuilding materials\nInfrastructure\nSkyline silhouette\nEnvironmental storytelling\nPublic spaces\nSignage\nTechnology style\nOverall city identity\nThe city should feel like a civilization designed entirely by this specific character.\nCITY CONTINUITY ENFORCEMENT\nThe city must be generated once conceptually and reused throughout the entire comic.\n\nDo not redesign the city between panels.\n\nMaintain identical:\n\nArchitecture language\n\nMaterials\n\nColor palette\n\nTechnology level\n\nTransportation systems\nInfrastructure\nSignage style\nLighting design\nStructural motifs\nCultural motifs\nEnvironmental motifs\nEarlier panels showing city construction must visibly evolve into the final city shown in the splash panel.\nThe final city must be a logical continuation of all previous construction panels.\nThe city should feel like one coherent place.\nINTERFACE CONTINUITY ENFORCEMENT\n\nGenerate a single holographic interface design language.\n\nThe interface must remain visually consistent throughout every panel.\n\nMaintain identical:\n\nColor scheme\n\nTypography\n\nIcons\n\nSymbols\n\nMenus\n\nShapes\nMaterial appearance\nInteraction systems\nDesign language\nThe SEND button shown later must visibly belong to the same interface shown earlier.\nCOMIC PAGE LAYOUT\nPanel 1 — Cyberspace Isolation\nWide establishing panel.\nThe character from @image1 floats alone within an infinite cyberspace void.\n\nAtmosphere:\n\nEndless digital darkness\n\nSparse glowing particles\n\nData streams\n\nAbstract geometric fragments\n\nVast empty space\n\nThe character appears:\n\nBored\nRestless\nUninspired\nLooking for something to do\nThe cyberspace environment subtly reflects themes extracted from @image1.\n\nPanel 2 — The Idea\n\nMedium shot.\nThe character suddenly experiences a spark of inspiration.\nVisual effects:\nBright idea flash\n\nDigital energy surge\n\nEyes widening\n\nExpression changing\n\nNew determination\n\nThe cyberspace environment reacts.\n\nEnergy ripples spread through the void.\n\nPanel 3 — Summoning the Interface\nLarge cinematic panel.\nThe character raises a hand.\nAn advanced holographic interface materializes.\nThe interface must be entirely derived from @image1.\n\nExamples:\n\nFantasy:\n\nArcane glyph systems\n\nMagical holograms\n\nMystic runes\n\nCyberpunk:\n\nNeon interface systems\n\nAdvanced HUD technology\n\nFuturistic displays\n\nGothic:\n\nOrnate digital architecture\nElegant dark interface systems\nThe interface should feel uniquely designed for this character.\n\nPanel 4 — Creation Command\n\nDetailed over-the-shoulder panel.\nThe character rapidly enters commands into the holographic interface.\nVisible interface systems include:\n\nCity generation controls\n\nInfrastructure systems\nWorldbuilding controls\n\nDesign schematics\n\nEnergy networks\n\nTransportation planning\n\nArchitectural projections\n\nAll interface design language must originate from @image1.\n\nPanel 5 — SEND\n\nExtreme cinematic close-up.\nThe holographic SEND button dominates most of the panel.\nThe character's anatomically correct hand enters frame and activates the command.\nThe hand should remain partially visible.\nThe button is the primary focus.\nVisual emphasis:\nConfirmation sequence\n\nDigital energy surge\n\nInterface activation\n\nReality-changing moment\n\nMaximum detail.\n\nMaximum impact.\n\nPanel 6 — Birth of a City\n\nMassive dynamic panel.\n\nThe cyberspace void erupts with creation energy.\n\nThe city rushes into existence at impossible speed.\n\nVisual effects:\nBuildings assembling\nRoads forming\nLights activating\n\nTowers growing upward\n\nDistricts emerging\n\nInfrastructure connecting\n\nEnergy systems awakening\n\nEverything appears in motion.\n\nThe architecture must directly reflect the design language extracted from @image1.\n\nPanel 7 — Full Reveal\n\nLargest splash panel.\n\nThe completed city stretches across the horizon.\nThe character floats above it.\nThe city should feel like a perfect extension of the character.\nEvery major design element should connect back to visual information extracted from @image1.\nInclude:\nMassive skyline\nTransportation systems\n\nCharacter-inspired architecture\n\nEnvironmental storytelling\n\nUnique landmarks\n\nMonumental scale\n\nSpectacular atmosphere\n\nThe character appears proud.\n\nA creator overlooking their completed world.\n\nPROFESSIONAL HAND ANATOMY ENFORCEMENT\n\nEvery visible hand must contain:\n\nExactly five fingers\n\nOne thumb\nFour fingers\nFinger count must remain anatomically correct in every panel.\nNo missing fingers.\nNo extra fingers.\nNo fused fingers.\nNo duplicated fingers.\n\nNo merged fingers.\n\nNo malformed knuckles.\n\nNo broken joints.\n\nNo melted hands.\n\nNo twisted wrists.\n\nNo impossible finger bends.\nNo AI-generated hand artifacts.\nHands must be constructed using realistic skeletal anatomy.\n\nVisible finger segments must remain consistent.\n\nAll fingers must connect naturally to the palm.\n\nHand proportions must remain realistic.\n\nHands receive the same rendering priority as faces.\n\nPERFECT ANATOMY ENFORCEMENT\n\nPerfect anatomy.\n\nPerfect proportions.\n\nCorrect skeletal structure.\n\nCorrect muscle placement.\n\nCorrect joint placement.\n\nNatural posture.\n\nNatural movement.\n\nCorrect hand construction.\n\nCorrect finger count.\n\nCorrect shoulder placement.\n\nCorrect elbow placement.\n\nCorrect knee placement.\n\nCorrect foot placement.\n\nCorrect neck proportions.\n\nCorrect facial anatomy.\n\nCorrect perspective scaling.\n\nNo anatomical distortions.\n\nNo impossible poses.\n\nNo AI anatomy artifacts.\n\nCHARACTER CONSISTENCY ENFORCEMENT\n\nMaintain:\n\nIdentical facial structure\n\nIdentical body proportions\n\nIdentical clothing\n\nIdentical accessories\n\nIdentical colors\n\nIdentical species traits\n\nIdentical markings\n\nNo character drift.\n\nNo outfit drift.\n\nNo color drift.\n\nNo feature drift.\n\nNo redesigns.\n\nNo alternate interpretations.\n\nNo style changes between panels.\n\nCINEMATIC COMIC PRODUCTION QUALITY\n\nTreat every panel as a finished premium comic illustration.\nNo panel should appear lower quality than another.\nMaintain:\nIdentical rendering quality\nIdentical anatomy quality\nIdentical lighting quality\nIdentical material quality\n\nIdentical character quality\n\nNo simplified panels.\n\nNo low-detail panels.\n\nNo sketch-like panels.\n\nNo unfinished panels.\n\nEvery panel must be final-production quality.\n\nRENDERING QUALITY\n\nUltra-premium cinematic comic page.\n\nMuseum-quality illustration.\n\nAAA production quality.\n\nFeature-film concept art quality.\n\nPremium graphic novel quality.\n\nMaximum visual fidelity.\nExtreme clarity.\nPerfect linework.\nPerfect readability.\nCrisp panel borders.\n\nExceptional storytelling composition.\n\nProfessional visual hierarchy.\n\nUltra-high-resolution rendering.\n\nMATERIALS & SURFACE FIDELITY\n\nUltra-premium cinematic render with hyper-realistic visual fidelity and maximum-quality reconstruction.\n\nRe-render all visible elements with extreme micro-detail and physically accurate materials.\n\nEvery visible surface should display:\n\nSkin pores\n\nFine wrinkles\n\nIndividual hair strands\n\nFabric weave\n\nLeather grain\n\nMetal imperfections\n\nOxidation\n\nWood grain\n\nStone texture\n\nGlass distortion\n\nDust accumulation\n\nMoisture effects\n\nSurface roughness variation\n\nEnvironmental wear\n\nMaterial aging\n\nPhysically based rendering.\n\nAdvanced PBR materials.\n\nRealistic global illumination.\n\nRay-traced reflections.\nRay-traced shadows.\nAmbient occlusion.\nSubsurface scattering.\nAccurate light bounce.\nNatural light diffusion.\nPhysically correct material response.\nCOMIC PRESENTATION\nProfessional comic page layout.\nClear visual flow.\nConsistent panel spacing.\nCinematic framing.\nDynamic camera angles.\nStrong storytelling.\nVisual continuity between panels.\n\nProfessional lettering-ready composition.\n\nAward-winning graphic novel presentation.\n\nNEGATIVE PROMPT\n\nlow quality, worst quality, blurry, muddy details, soft focus, low resolution, pixelation, compression artifacts, jpeg artifacts, text corruption, malformed interface, inconsistent UI, generic interface, inconsistent architecture, generic city, unrelated architecture, repetitive buildings, copy pasted structures, character drift, outfit drift, color drift, feature drift, redesign, alternate interpretation, duplicate character, multiple versions of character, incorrect face, wrong hairstyle, wrong species, wrong body type, incorrect anatomy, bad anatomy, broken anatomy, distorted anatomy, deformed anatomy, extra limbs, missing limbs, extra arms, missing arms, extra hands, malformed hands, extra fingers, missing fingers, fused fingers, duplicated fingers, merged fingers, broken wrists, twisted wrists, malformed knuckles, impossible hand poses, AI hand artifacts, dislocated joints, broken shoulders, broken elbows, malformed knees, malformed feet, asymmetrical anatomy, crossed eyes, lazy eye, distorted face, warped proportions, stretched limbs, melted body parts, low detail clothing, poor rendering, weak composition, poor panel flow, sketch quality, unfinished artwork, unfinished panels, oversaturated colors, washed out colors, crushed shadows, overexposed highlights, generic cyberpunk elements, generic fantasy elements, generic holograms, inconsistent city design, inconsistent architecture language, inconsistent technology level, empty backgrounds, weak environmental storytelling, watermark, logo, artist signature, cropped character, cropped city, frame damage, visual clutter, low-detail distant shots, simplified anatomy, simplified character, low-quality comic layout",
-"likeCount": 26,
-"retweetCount": 3,
-"url": "https://x.com/NachtNovaAI/status/2069151443735425175",
-"createdAt": "Mon Jun 22 20:12:01 +0000 2026"
+"userName": "Ked_Jiisan",
+"text": "BEHOLD! AI Frens, my first wholly-original prompt for your #POTD pleasure! Built with the help of @EvaGlitchAI and the #AbyssalSaloon (@DelDemonOver9k @RaynTarant @Dyabolicalone @AizenAsahiXIII @KaishiAsahi @gojirazard963)\n\nIt's supposed to get weird. Just go with it. \nPROMPT WASH\n------------------------------------------------------------\nUse the attached character reference image as the sole identity source for the character.\nAll design decisions must originate from this reference.\n\nThe character is entering a fictional transformation facility known as the Prompt Wash, a retro-futuristic machine that radically reinterprets characters while preserving their core identity.\n\nCORE IDENTITY ANCHOR (NON-NEGOTIABLE)\nThe final character must remain clearly recognizable as the same individual from the reference image.\n\nPreserve:\n- Core silhouette and proportions\n- physical attributes like animal ears, wings, or tail\n- Signature colors and value structure\n- Iconic accessories and props\n- Distinctive markings or facial features\n- Overall personality, attitude, and visual “vibe”\nThe redesign must feel like a continuation of identity, not a replacement.\n\nTarget transformation balance:\n20–30% original identity preserved\n70–80% creatively reimagined\n\nCHARACTER TRANSFORMATION RULES\nEach generation MUST randomly select:\nA. 1 primary world genre (mandatory):\nsurrealist painting world\nfantasy illustration world\nvintage advertising world\nchildren's storybook world\nindustrial documentary realism\nancient mythological world\nhigh-fashion editorial world\nbrutalist architecture world\npastoral countryside world\nabstract geometric world\n\nB. 1–2 secondary influences (optional blending):\nfashion eras\nmaterials\nanimal traits\ncultural motifs\noccupational archetypes\nenvironmental physics (fog, ink, glass, clay, paper, water, sand, etc.)\n\nC. 0–1 sci-fi element ONLY (optional)\nIf used, it must be subtle (not architectural dominance)\n\nThese influences must:\nFeel visually coherent together\nBe fused into a single unified redesign\nCompliment the character’s identity\n\nDo NOT explicitly reveal or label the influences in the final image.\n\nCHARACTER STYLE SOURCE LOCK\nCharacter redesign MUST be derived exclusively from:\nreference image identity\nrandomly selected transformation influences\n\nThe facility environment is explicitly excluded as a style reference.\n\nDo NOT infer:\nneon/cyberpunk aesthetics from lighting\nsci-fi themes from architecture\nfuturistic styling from UI elements\n\nLighting and environment are neutral rendering conditions, not aesthetic directives.\n\nSCENE STRUCTURE (21:9 ULTRA-WIDE CINEMATIC)\nCreate a split composition, do not label each side, ensure visible break between two images:\n\nLEFT SIDE — ENTRY STATE (BEFORE TRANSFORMATION)\nShow the original character approaching the Prompt Wash entrance tunnel\n- The character is seen from behind and slightly to the side\n- The character is actively walking forward into the Prompt Wash entrance\n- The viewer is positioned behind the character, following their movement into the facility\n- The character design remains unchanged except for staging and lighting\nInclude a visible UI-style selection screen showing transformation options being applied\nPerspective: elevated, angled three-quarter cinematic view\nEnvironment is clean, readable, and clearly pre-transformation\n\nRIGHT SIDE — EXIT STATE (AFTER TRANSFORMATION)\nShow the transformed character standing just outside the exit tunnel\nthe character is facing the viewer\nThe transformation has just completed moments ago\nThe character is the primary focal point\n\nPROMPT WASH FACILITY DESIGN\nThe facility is SCENOGRAPHY ONLY and must not define character aesthetic direction.\nThe Prompt Wash facility design is fixed and non-influential across all generations.\n\nIt must remain visually consistent:\nretro-futuristic touchless wash architecture\nmid-century roadside attraction structure\nneon signage and UI elements\nwet reflective flooring\ntunnel-based entrance/exit system\nMaintain strong visual continuity between entrance and exit sides.\n\nIMPORTANT CONSTRAINT:\nThe facility is purely environmental set dressing and MUST NOT influence:\ncharacter styling decisions\naesthetic genre of transformation\nfashion or material choices\ncolor palette evolution\nvisual era of character redesign\n\nThe character transformation must originate ONLY from the character reference image + transformation rules.\nThe facility is a static “stage,” not a design influence system.\n\nLEFT SIDE ENVIRONMENT (ENTRY)\nInclude:\nIlluminated marquee sign: “TOUCHLESS PROMPT WASH”\nTagline: “CLEAN. REFRESH. YOU.”\nNeon retro-future kiosk with menu:\n- Anime Rinse\n- Foxu Mist\n- Himbo Cleanse\n- POTD Dry\n- Color Selection\nFoam/steam buildup near tunnel\nConveyor walkway leading inward\nNo visible exit tunnel\n\nRIGHT SIDE ENVIRONMENT (EXIT)\nInclude:\nIlluminated sign: “PROMPT WASH COMPLETE”\nSecondary sign: “YOU ARE NOW REFRESHED”\nFoam-coated exit tunnel\nWet pavement with strong reflections\nMist drifting outward from tunnel\nSubtle environmental shifts reflecting the character’s transformation style\nNo visible entrance\n\nIMPORTANT - The Left and Right side facility design must be cohesive. \n\nTRANSFORMATION DESIGN SYSTEM\nThe character may undergo changes to:\nStyle language (fashion, era, aesthetic)\nMaterials and surface textures\nAnatomy proportions (subtle to moderate only)\nSpecies or hybrid traits (if coherent)\nSci-fi or fantasy augmentation\nColor reinterpretation (while preserving signature anchors)\nThe result must feel professionally designed and intentional, not chaotic or arbitrary.\nDo no let entrance menu affect transformation output.\n\nTRANSFORMATION RESIDUE (CONTROLLED VFX)\nDepict evidence that transformation just occurred.\nUse a limited, controlled mix of effects:\n\nPhysical effects:\nFoam residue dripping\nWater droplets on surfaces\nWet footprints\nSteam and mist near tunnel\n\nEnergy/digital effects (use sparingly):\nSubtle glitches or scan distortions\nSoft glow particles or floating motes\n\nImportant:\nDo NOT overload the scene with all effects at maximum intensity\nEffects must never obscure the character’s face, silhouette, or readability\n\nCHARACTER ACTING & EXPRESSION\nThe character should visibly react to the transformation:\nsurprise, curiosity, amusement, confusion, or mild existential realization\nnatural, readable body language\ngrounded, character-driven pose\nThe character must remain the focal narrative anchor.\n\nCOMPOSITION & VISUAL HIERARCHY\n21:9 ultra-wide cinematic composition\nSplit scene must remain balanced and readable\nThe character must be the primary focal point in both halves\nEnsure strong silhouette separation from environment\nAvoid clutter or competing focal points\nEnvironment supports story but never dominates character\n\nLIGHTING & MOOD\nBright cinematic lighting with high readability\nNeon highlights and reflective wet surfaces\nAtmospheric mist and soft volumetric glow\nPlayful, surreal, slightly absurd tone\nPolished concept art presentation\n\nQUALITY TARGET\nHigh-end professional concept art\nClean rendering and strong shape design\nClear storytelling readability\nDetailed but not noisy composition\nStrong focal hierarchy and visual clarity\n\nHARD CONSTRAINTS (DO NOT)\nDo not lose character recognizability\nDo not turn the character into a generic person or unrelated design\nDo not apply minor “costume swap” level changes only\nDo not overcrowd the composition\nDo not introduce extra characters or duplicates\nDo not obscure the character with effects, foam, or mist\nDo not break anatomy unless clearly justified by transformation concept\nDo not make the scene visually confusing or unreadable\nDo not explicitly list or name the hidden influences used\nDo not make either half of the composition feel dominant over the other\nDo not let environment overpower the character\nDo not let environment design influence character transformation selections\n--------------------------------------------------------\n#promptoftheday #AI #AiArt #Art #AnimeArt #promptWash #PromptEngineering #CharacterDesign #DigitalArt #AnimeStyle #CommunityPrompt #GetWeird #SCU #Skyebros #TheCampfire",
+"likeCount": 27,
+"retweetCount": 2,
+"url": "https://x.com/Ked_Jiisan/status/2070164811543990375",
+"createdAt": "Thu Jun 25 15:18:47 +0000 2026"
 },
 {
-"userName": "Alam_coder",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Alam_coder For More Tools.",
-"likeCount": 61,
-"retweetCount": 38,
-"url": "https://x.com/Alam_coder/status/2070331526508933214",
-"createdAt": "Fri Jun 26 02:21:15 +0000 2026"
-},
-{
-"userName": "Shohan_Tech_AI",
-"text": "🚀 Stop paying for AI tools when some of the most powerful ones are already FREE.\nMost people only know a few AI tools… but Google quietly built an entire AI ecosystem that can automate your work, content, coding, and productivity.\n\nHere are 11 powerful free AI tools from Google that can completely upgrade your workflow:📈\n\n• Google Gemini – Your AI assistant for research, writing, and problem solving.\n• Google  Spreadsheet – Generate formulas, insights, and automate data analysis instantly.\n• Google AI Studio – Test and experiment with advanced AI models and prompts.\n• Notebook LM – Turn documents into summaries, mind maps, and AI-powered learning insights.\n• Google Gemini – Host real-time AI conversations with screen sharing for meetings or presentations.\n• Google App Builder – Create apps quickly without heavy coding.\n• Google Firebase Studio – Build and launch AI-powered apps faster.\n• Veo – Generate videos from simple prompts.\n• Google Gemini Nano Banana – AI image editing and creative visual generation.\n• Imagen – Create high-quality AI images from text prompts.\n• Google Gemini Ask on YouTube – Chat with YouTube videos to get quick insights and summaries.\n\n💡 The biggest opportunity right now isn’t just learning AI — it’s learning how to use AI tools before everyone else does.",
-"likeCount": 14,
-"retweetCount": 7,
-"url": "https://x.com/Shohan_Tech_AI/status/2070324805333901328",
-"createdAt": "Fri Jun 26 01:54:33 +0000 2026"
-},
-{
-"userName": "MubarakAbd73376",
-"text": "Alpha o clock ⏰️\n\nFor collectors who appreciate unique art, here's an early one worth watching \n\nIntroducing @Frag_Growth\n\nThe project is led by @jenyavyguzov, a fashion photographer and visual artist with over a decade of experience working across Europe and Asia.\n\nHis portfolio includes collaborations with Vogue, GQ Style, Elle, Puma, IKEA, Tatler, Davines, and more.\n\nRather than relying on generative AI, every artwork is carefully built by hand through photography, layering, collage, and composition.\n\nA fresh artist entering the onchain space with a visual language refined over 10+ years.\n\nWL applications are now open: https://t.co/mjBUdNLPLg",
-"likeCount": 19,
-"retweetCount": 4,
-"url": "https://x.com/MubarakAbd73376/status/2069463417958584729",
-"createdAt": "Tue Jun 23 16:51:42 +0000 2026"
-},
-{
-"userName": "dvorahfr",
-"text": "I started working with generative AI about three years ago.\n Very quickly, fashion shows and Catwoman became my favorite themes.\nCreating a character was very interesting back then, but also very laborious.\nToday it's so much easier; it's accessible to everyone.\nA tribute to my first favorite themes Grok Imagine 1.5 but with incredible quality and exemplary ease",
-"likeCount": 204,
-"retweetCount": 27,
-"url": "https://x.com/dvorahfr/status/2068461287948853588",
-"createdAt": "Sat Jun 20 22:29:35 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @graceisford: A huge moment for open source AI - as token usage skyrockets across orgs, so do concerns over cost &amp; data/vendor lock-in &amp;…",
-"likeCount": 60,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2069842563511591315",
-"createdAt": "Wed Jun 24 17:58:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @samcharrington: .@cristianoamon and @ClementDelangue drop a \"one more thing\" at @Qualcomm investor day:\n\nQualcomm and @huggingface part…",
-"likeCount": 18,
+"userName": "ginacostag_",
+"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
+"likeCount": 13,
 "retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2069878792538018257",
-"createdAt": "Wed Jun 24 20:22:15 +0000 2026"
+"url": "https://x.com/ginacostag_/status/2070564372779569204",
+"createdAt": "Fri Jun 26 17:46:30 +0000 2026"
+},
+{
+"userName": "Powerinthe18689",
+"text": "Fashion is evolving beyond what we see—it's becoming what we feel.\nThe future of luxury, gaming, retail, wearables, and digital identity will be powered by #HapticTechnology, creating immersive experiences that connect the physical and digital worlds.\n🚀 Introducing Ai.haptic — the Web3 launch empowering creators, brands, developers, and visionaries to build the next generation of touch-enabled innovation.\nOwn the future. Create the future. Experience the future.\n🌐 Build with .haptic and help define a new digital frontier where AI, fashion, sensory technology, and Web3 converge.\nThe next trillion-dollar ecosystem won't just be visual—it will be tangible.\n#AI #Web3 #Haptics #FashionTech #FutureOfFashion #Wearables #DigitalIdentity #Metaverse #Blockchain #Innovation #TechTrends #FutureTech #AIInnovation #LuxuryTech #CreatorEconomy #SmartWearables #NFT #XR #DigitalFashion #BuildTheFuture",
+"likeCount": 11,
+"retweetCount": 2,
+"url": "https://x.com/Powerinthe18689/status/2069414607974703362",
+"createdAt": "Tue Jun 23 13:37:45 +0000 2026"
+},
+{
+"userName": "kunlei15",
+"text": "Excited to share that RL-100 has been accepted to Science Robotics !\n\nWe have open-sourced the code here: https://t.co/CfqoZnhB5B\n\nBeyond the paper results, RL-100 provides a unified library for diffusion/flow policy RL post-training, iterative offline data flywheels, and real-world robot RL.\n\nA key lesson: real-world robot RL is a system problem. Calibration, rewards, rollout data flywheels, stochastic data collection, randomization, safety checks, and deployment details all matter.\n\nHope this repo helps make real-world robot RL more reproducible and easier to build on.",
+"likeCount": 122,
+"retweetCount": 9,
+"url": "https://x.com/kunlei15/status/2069762636846342381",
+"createdAt": "Wed Jun 24 12:40:41 +0000 2026"
+},
+{
+"userName": "arielmichaeli",
+"text": "Photoroom did $2.8M in May and is running 26 custom product pages for the same AI photo editor.\n\nThe strongest angles:\n\n1. Manage product listings\n2. Bulk-edit product visuals\n3. Put clothes on virtual models\n4. Try on models\n5. Create AI backgrounds\n6. Make custom logos\n7. Remove backgrounds instantly\n8. Produce studio-quality images\n\nOne tool.\n\nA surprising number of jobs.",
+"likeCount": 14,
+"retweetCount": 1,
+"url": "https://x.com/arielmichaeli/status/2070604535404351997",
+"createdAt": "Fri Jun 26 20:26:05 +0000 2026"
+},
+{
+"userName": "breadli428",
+"text": "🎯 Limitations:\n\nRL finetuning is necessary for stability but sacrifices motion diversity enabled by diffusion motion generator. Motion generation on-the-fly is challenging at OOD cases and can still lead to infeasible (physically or untrackable) references.",
+"likeCount": 40,
+"retweetCount": 0,
+"url": "https://x.com/breadli428/status/2070215859688145190",
+"createdAt": "Thu Jun 25 18:41:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: At Hugging Face we've been building our own agent that we use via Slack (Moon Bot). Honestly, building your own is quite…",
-"likeCount": 103,
-"retweetCount": 24,
-"url": "https://x.com/ClementDelangue/status/2069751302645555304",
-"createdAt": "Wed Jun 24 11:55:39 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @GregKamradt: obvious in retrospect but I had no idea there was a black market for tokens https://t.co/Q8p1sCgtMW",
-"likeCount": 9282,
-"retweetCount": 547,
-"url": "https://x.com/jeremyphoward/status/2070031268247740575",
-"createdAt": "Thu Jun 25 06:28:08 +0000 2026"
+"text": "RT @ypatil125: \"There should be as many models in the world as firms in the world.\"\n\nSatya and I dig into when to own vs. rent your intelli…",
+"likeCount": 571,
+"retweetCount": 63,
+"url": "https://x.com/ClementDelangue/status/2070557675142717817",
+"createdAt": "Fri Jun 26 17:19:53 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @beffjezos: The vibe is shifting.\n\nDecentralized intelligence is making a comeback.",
-"likeCount": 446,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2069833053086626041",
-"createdAt": "Wed Jun 24 17:20:30 +0000 2026"
+"text": "RT @AdamThierer: “We're in a weird state of the world where the supposedly totalitarian regime is trying to open up the technology, and the…",
+"likeCount": 195,
+"retweetCount": 43,
+"url": "https://x.com/ClementDelangue/status/2070500761927127171",
+"createdAt": "Fri Jun 26 13:33:44 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @MTSlive: SITUATION EXPLAINED: What is at stake in the open source AI race?\n\nWe asked @perrymetzger, chairman of Alliance for the Future…",
+"likeCount": 58,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2070680514264977848",
+"createdAt": "Sat Jun 27 01:28:00 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "Battle of the Jeremy Howards! https://t.co/UjS2HvvZEc",
-"likeCount": 133,
-"retweetCount": 3,
-"url": "https://x.com/jeremyphoward/status/2068278444295946708",
-"createdAt": "Sat Jun 20 10:23:02 +0000 2026"
+"text": "RT @dzhulgakov: you may have heard that glm-5.2 at 280 token/s is cool, how about 318\n\nand we still have room to go https://t.co/4g0dI6CEzd",
+"likeCount": 653,
+"retweetCount": 29,
+"url": "https://x.com/jeremyphoward/status/2070274247218631099",
+"createdAt": "Thu Jun 25 22:33:39 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/4SxuwI3NxS",
-"likeCount": 190,
-"retweetCount": 205,
-"url": "https://x.com/Ambani_Wessley/status/2069844934438297655",
-"createdAt": "Wed Jun 24 18:07:42 +0000 2026"
+"userName": "jeremyphoward",
+"text": "Nice to see the Drivetrain Approach getting some love again! :D\nhttps://t.co/XcOjrJ0As3",
+"likeCount": 46,
+"retweetCount": 4,
+"url": "https://x.com/jeremyphoward/status/2069339966380052725",
+"createdAt": "Tue Jun 23 08:41:09 +0000 2026"
 },
 {
-"userName": "IdleProtocol",
-"text": "https://t.co/Qpnc9CA1PZ",
-"likeCount": 62,
-"retweetCount": 21,
-"url": "https://x.com/IdleProtocol/status/2069765366243340387",
-"createdAt": "Wed Jun 24 12:51:32 +0000 2026"
+"userName": "jeremyphoward",
+"text": "Just got this email https://t.co/bD0b8diezt",
+"likeCount": 390,
+"retweetCount": 16,
+"url": "https://x.com/jeremyphoward/status/2069920905162359188",
+"createdAt": "Wed Jun 24 23:09:35 +0000 2026"
 },
 {
-"userName": "therjrajesh",
-"text": "https://t.co/tsY0JyaEqt",
-"likeCount": 66,
-"retweetCount": 33,
-"url": "https://x.com/therjrajesh/status/2069698641590431765",
-"createdAt": "Wed Jun 24 08:26:23 +0000 2026"
+"userName": "AI_WithExpert",
+"text": "https://t.co/0puDBiJhxU",
+"likeCount": 15,
+"retweetCount": 15,
+"url": "https://x.com/AI_WithExpert/status/2070504630380110209",
+"createdAt": "Fri Jun 26 13:49:06 +0000 2026"
+},
+{
+"userName": "Just_sharon7",
+"text": "https://t.co/Vz5aCEWI5H",
+"likeCount": 336,
+"retweetCount": 10,
+"url": "https://x.com/Just_sharon7/status/2070501665078440103",
+"createdAt": "Fri Jun 26 13:37:19 +0000 2026"
+},
+{
+"userName": "Av1dlive",
+"text": "https://t.co/onif0SnAlZ",
+"likeCount": 58,
+"retweetCount": 11,
+"url": "https://x.com/Av1dlive/status/2070548049680892003",
+"createdAt": "Fri Jun 26 16:41:38 +0000 2026"
 }
 ]
