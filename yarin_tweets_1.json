@@ -8,75 +8,91 @@
 "createdAt": "Mon Jun 22 20:12:01 +0000 2026"
 },
 {
+"userName": "kunlei15",
+"text": "Excited to share that RL-100 has been accepted to Science Robotics !\n\nWe have open-sourced the code here: https://t.co/CfqoZnhB5B\n\nBeyond the paper results, RL-100 provides a unified library for diffusion/flow policy RL post-training, iterative offline data flywheels, and real-world robot RL.\n\nA key lesson: real-world robot RL is a system problem. Calibration, rewards, rollout data flywheels, stochastic data collection, randomization, safety checks, and deployment details all matter.\n\nHope this repo helps make real-world robot RL more reproducible and easier to build on.",
+"likeCount": 122,
+"retweetCount": 9,
+"url": "https://x.com/kunlei15/status/2069762636846342381",
+"createdAt": "Wed Jun 24 12:40:41 +0000 2026"
+},
+{
 "userName": "ClementDelangue",
-"text": "RT @bgurley: If you are on the verge of AGI or ASI, why isn’t your model smart enough to recognize espionage distillation in real time? You…",
-"likeCount": 4525,
-"retweetCount": 351,
-"url": "https://x.com/ClementDelangue/status/2070524190763975067",
-"createdAt": "Fri Jun 26 15:06:50 +0000 2026"
+"text": "RT @MatthewBerman: &gt; mythos is so good at cyber it can't be released\n\nalso\n\n&gt; mythos can't detect 20k fraudulent chinese accounts attacking…",
+"likeCount": 17350,
+"retweetCount": 959,
+"url": "https://x.com/ClementDelangue/status/2070629562107515183",
+"createdAt": "Fri Jun 26 22:05:32 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @i_zzzzzz: I think part of what makes this account’s work so satisfying is they are doing a form of pattern recognition that is computer…",
+"likeCount": 231882,
+"retweetCount": 10313,
+"url": "https://x.com/jeremyphoward/status/2070275797773099099",
+"createdAt": "Thu Jun 25 22:39:48 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @MTSlive: SITUATION EXPLAINED: The frontier lab regulatory problem.\n\n@ClementDelangue, co-founder and CEO of @huggingface:\n\n\"The frontie…",
-"likeCount": 38,
-"retweetCount": 6,
+"likeCount": 39,
+"retweetCount": 7,
 "url": "https://x.com/ClementDelangue/status/2070598856794877998",
 "createdAt": "Fri Jun 26 20:03:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MTSlive: SITUATION EXPLAINED: Anthropic accused Alibaba of conducting a \"distillation attack\" on Claude.\n\nWe asked @ClementDelangue his…",
-"likeCount": 32,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2070680785129034048",
-"createdAt": "Sat Jun 27 01:29:05 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @hardmaru: Human intelligence is fundamentally a collective intelligence. We solve complex problems by participating in a vast cultural…",
-"likeCount": 2643,
-"retweetCount": 340,
-"url": "https://x.com/jeremyphoward/status/2069168146599268418",
-"createdAt": "Mon Jun 22 21:18:24 +0000 2026"
+"text": "RT @AdamThierer: “We're in a weird state of the world where the supposedly totalitarian regime is trying to open up the technology, and the…",
+"likeCount": 210,
+"retweetCount": 43,
+"url": "https://x.com/ClementDelangue/status/2070500761927127171",
+"createdAt": "Fri Jun 26 13:33:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @kevincodex: I can personally attest: \n\nOpenClaude using GLM 5.2 is now performing on par with Claude Code powered by Opus 4.8.",
-"likeCount": 467,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2070470396264980898",
-"createdAt": "Fri Jun 26 11:33:04 +0000 2026"
+"text": "RT @natolambert: There's a lot of sloppy thinking around open models. You can ban them and make it impossible for US companies to use them,…",
+"likeCount": 307,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2070629676121309487",
+"createdAt": "Fri Jun 26 22:05:59 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "Published by @OReillyMedia here:\nhttps://t.co/sNMLLCSHAa",
-"likeCount": 23,
-"retweetCount": 1,
-"url": "https://x.com/jeremyphoward/status/2069339968447955428",
+"text": "RT @dzhulgakov: you may have heard that glm-5.2 at 280 token/s is cool, how about 318\n\nand we still have room to go https://t.co/4g0dI6CEzd",
+"likeCount": 656,
+"retweetCount": 29,
+"url": "https://x.com/jeremyphoward/status/2070274247218631099",
+"createdAt": "Thu Jun 25 22:33:39 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Nice to see the Drivetrain Approach getting some love again! :D\nhttps://t.co/XcOjrJ0As3",
+"likeCount": 46,
+"retweetCount": 4,
+"url": "https://x.com/jeremyphoward/status/2069339966380052725",
 "createdAt": "Tue Jun 23 08:41:09 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @sundeep: https://t.co/6TzHB4ujWb",
-"likeCount": 26,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2070470720900010044",
-"createdAt": "Fri Jun 26 11:34:22 +0000 2026"
+"userName": "Just_sharon7",
+"text": "https://t.co/Vz5aCEWI5H",
+"likeCount": 301,
+"retweetCount": 9,
+"url": "https://x.com/Just_sharon7/status/2070501665078440103",
+"createdAt": "Fri Jun 26 13:37:19 +0000 2026"
 },
 {
-"userName": "heyalexmoore",
-"text": "https://t.co/ikWEfIAH0o",
-"likeCount": 9,
-"retweetCount": 8,
-"url": "https://x.com/heyalexmoore/status/2070529705573527640",
-"createdAt": "Fri Jun 26 15:28:45 +0000 2026"
+"userName": "huntermmonk",
+"text": "https://t.co/4CLgYE15ZE",
+"likeCount": 33,
+"retweetCount": 5,
+"url": "https://x.com/huntermmonk/status/2070683927166292459",
+"createdAt": "Sat Jun 27 01:41:34 +0000 2026"
 },
 {
-"userName": "AIWithPRO",
-"text": "https://t.co/3MpEplkxQ6",
-"likeCount": 19,
-"retweetCount": 17,
-"url": "https://x.com/AIWithPRO/status/2070489344818004150",
-"createdAt": "Fri Jun 26 12:48:22 +0000 2026"
+"userName": "Av1dlive",
+"text": "https://t.co/onif0SnAlZ",
+"likeCount": 104,
+"retweetCount": 15,
+"url": "https://x.com/Av1dlive/status/2070548049680892003",
+"createdAt": "Fri Jun 26 16:41:38 +0000 2026"
 }
 ]
