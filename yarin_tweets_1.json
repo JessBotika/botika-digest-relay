@@ -1,98 +1,122 @@
 [
 {
-"userName": "NachtNovaAI",
-"text": "⚠️New prompt\nThis prompt was a random idea. \nit places your character into a comic of them creating their own city out of boredom. \nExamples contain avis from @arkd3v , @joebeanclown , and my own\n\n⚠️Prompt👇\n\nCHARACTER-CREATED CITY — CINEMATIC COMIC PAGE GENERATOR\n\nPurpose\n\nTransform @image1 into a fully rendered, ultra-premium comic page that tells the story of the character creating an entire city from their imagination.\n\nThe city, interface design, architecture, technology, visual language, colors, symbols, materials, culture, and overall aesthetic must be derived directly from a deep analysis of the character shown in @image1.\n\nREFERENCE INTERPRETATION RULES\n\nCharacter Identity Lock\n\n@image1 represents exactly ONE character.\n\nIf @image1 contains:\n\nReference sheets\n\nMultiple poses\nFront/back views\nExpression sheets\nOutfit variations\nTurnarounds\nMultiple angles\nThey are all the same character.\n\nPerform a complete visual analysis of @image1 before generating.\n\nPreserve and accurately reconstruct:\n\nFace shape\n\nSpecies\nBody type\nAge appearance\nHairstyle\nHair color\nEye color\nSkin, fur, scales, feathers, or other surface traits\nHorns\nEars\nTail\nWings\nMarkings\nTattoos\nScars\nAccessories\nClothing design\nMaterials\nPersonality cues\nCultural influences\nDesign motifs\nColor palette\nMASTER CHARACTER GENERATION PHASE\n\nBefore creating any comic panel:\n\nPerform a complete visual extraction of @image1 and generate a single internal master character model.\n\nEvery appearance of the character throughout the comic page must be generated from this master model.\n\nThe character appearing in every panel must remain identical.\n\nMaintain:\n\nFace structure\n\nHead shape\n\nEye shape\nEye color\nNose structure\nMouth structure\nJawline\nHairstyle\nHair length\nHair color\nSpecies traits\nSkin/fur/scales\nBody proportions\nBody weight\nHeight\nMuscle mass\nClothing\nAccessories\nMarkings\nHorns\nEars\nWings\nTail\nDo not redesign the character between panels.\nDo not reinterpret the character between panels.\n\nDo not simplify the character in distant shots.\n\nTreat the character as a locked production model sheet.\n\nEvery panel must depict the exact same individual.\n\nSTYLE EXTRACTION ANALYSIS\n\nDeeply analyze @image1 to determine:\n\nCharacter personality\n\nSocial status\n\nTechnological level\n\nFantasy influences\nScience-fiction influences\nHistorical inspirations\nFashion language\nArchitectural motifs\nMaterial preferences\nSymbolic imagery\nColor hierarchy\nStorytelling themes\nThese findings must directly influence:\nHolographic interface design\nUser experience design\n\nCity architecture\n\nTransportation systems\nLighting systems\nBuilding materials\nInfrastructure\nSkyline silhouette\nEnvironmental storytelling\nPublic spaces\nSignage\nTechnology style\nOverall city identity\nThe city should feel like a civilization designed entirely by this specific character.\nCITY CONTINUITY ENFORCEMENT\nThe city must be generated once conceptually and reused throughout the entire comic.\n\nDo not redesign the city between panels.\n\nMaintain identical:\n\nArchitecture language\n\nMaterials\n\nColor palette\n\nTechnology level\n\nTransportation systems\nInfrastructure\nSignage style\nLighting design\nStructural motifs\nCultural motifs\nEnvironmental motifs\nEarlier panels showing city construction must visibly evolve into the final city shown in the splash panel.\nThe final city must be a logical continuation of all previous construction panels.\nThe city should feel like one coherent place.\nINTERFACE CONTINUITY ENFORCEMENT\n\nGenerate a single holographic interface design language.\n\nThe interface must remain visually consistent throughout every panel.\n\nMaintain identical:\n\nColor scheme\n\nTypography\n\nIcons\n\nSymbols\n\nMenus\n\nShapes\nMaterial appearance\nInteraction systems\nDesign language\nThe SEND button shown later must visibly belong to the same interface shown earlier.\nCOMIC PAGE LAYOUT\nPanel 1 — Cyberspace Isolation\nWide establishing panel.\nThe character from @image1 floats alone within an infinite cyberspace void.\n\nAtmosphere:\n\nEndless digital darkness\n\nSparse glowing particles\n\nData streams\n\nAbstract geometric fragments\n\nVast empty space\n\nThe character appears:\n\nBored\nRestless\nUninspired\nLooking for something to do\nThe cyberspace environment subtly reflects themes extracted from @image1.\n\nPanel 2 — The Idea\n\nMedium shot.\nThe character suddenly experiences a spark of inspiration.\nVisual effects:\nBright idea flash\n\nDigital energy surge\n\nEyes widening\n\nExpression changing\n\nNew determination\n\nThe cyberspace environment reacts.\n\nEnergy ripples spread through the void.\n\nPanel 3 — Summoning the Interface\nLarge cinematic panel.\nThe character raises a hand.\nAn advanced holographic interface materializes.\nThe interface must be entirely derived from @image1.\n\nExamples:\n\nFantasy:\n\nArcane glyph systems\n\nMagical holograms\n\nMystic runes\n\nCyberpunk:\n\nNeon interface systems\n\nAdvanced HUD technology\n\nFuturistic displays\n\nGothic:\n\nOrnate digital architecture\nElegant dark interface systems\nThe interface should feel uniquely designed for this character.\n\nPanel 4 — Creation Command\n\nDetailed over-the-shoulder panel.\nThe character rapidly enters commands into the holographic interface.\nVisible interface systems include:\n\nCity generation controls\n\nInfrastructure systems\nWorldbuilding controls\n\nDesign schematics\n\nEnergy networks\n\nTransportation planning\n\nArchitectural projections\n\nAll interface design language must originate from @image1.\n\nPanel 5 — SEND\n\nExtreme cinematic close-up.\nThe holographic SEND button dominates most of the panel.\nThe character's anatomically correct hand enters frame and activates the command.\nThe hand should remain partially visible.\nThe button is the primary focus.\nVisual emphasis:\nConfirmation sequence\n\nDigital energy surge\n\nInterface activation\n\nReality-changing moment\n\nMaximum detail.\n\nMaximum impact.\n\nPanel 6 — Birth of a City\n\nMassive dynamic panel.\n\nThe cyberspace void erupts with creation energy.\n\nThe city rushes into existence at impossible speed.\n\nVisual effects:\nBuildings assembling\nRoads forming\nLights activating\n\nTowers growing upward\n\nDistricts emerging\n\nInfrastructure connecting\n\nEnergy systems awakening\n\nEverything appears in motion.\n\nThe architecture must directly reflect the design language extracted from @image1.\n\nPanel 7 — Full Reveal\n\nLargest splash panel.\n\nThe completed city stretches across the horizon.\nThe character floats above it.\nThe city should feel like a perfect extension of the character.\nEvery major design element should connect back to visual information extracted from @image1.\nInclude:\nMassive skyline\nTransportation systems\n\nCharacter-inspired architecture\n\nEnvironmental storytelling\n\nUnique landmarks\n\nMonumental scale\n\nSpectacular atmosphere\n\nThe character appears proud.\n\nA creator overlooking their completed world.\n\nPROFESSIONAL HAND ANATOMY ENFORCEMENT\n\nEvery visible hand must contain:\n\nExactly five fingers\n\nOne thumb\nFour fingers\nFinger count must remain anatomically correct in every panel.\nNo missing fingers.\nNo extra fingers.\nNo fused fingers.\nNo duplicated fingers.\n\nNo merged fingers.\n\nNo malformed knuckles.\n\nNo broken joints.\n\nNo melted hands.\n\nNo twisted wrists.\n\nNo impossible finger bends.\nNo AI-generated hand artifacts.\nHands must be constructed using realistic skeletal anatomy.\n\nVisible finger segments must remain consistent.\n\nAll fingers must connect naturally to the palm.\n\nHand proportions must remain realistic.\n\nHands receive the same rendering priority as faces.\n\nPERFECT ANATOMY ENFORCEMENT\n\nPerfect anatomy.\n\nPerfect proportions.\n\nCorrect skeletal structure.\n\nCorrect muscle placement.\n\nCorrect joint placement.\n\nNatural posture.\n\nNatural movement.\n\nCorrect hand construction.\n\nCorrect finger count.\n\nCorrect shoulder placement.\n\nCorrect elbow placement.\n\nCorrect knee placement.\n\nCorrect foot placement.\n\nCorrect neck proportions.\n\nCorrect facial anatomy.\n\nCorrect perspective scaling.\n\nNo anatomical distortions.\n\nNo impossible poses.\n\nNo AI anatomy artifacts.\n\nCHARACTER CONSISTENCY ENFORCEMENT\n\nMaintain:\n\nIdentical facial structure\n\nIdentical body proportions\n\nIdentical clothing\n\nIdentical accessories\n\nIdentical colors\n\nIdentical species traits\n\nIdentical markings\n\nNo character drift.\n\nNo outfit drift.\n\nNo color drift.\n\nNo feature drift.\n\nNo redesigns.\n\nNo alternate interpretations.\n\nNo style changes between panels.\n\nCINEMATIC COMIC PRODUCTION QUALITY\n\nTreat every panel as a finished premium comic illustration.\nNo panel should appear lower quality than another.\nMaintain:\nIdentical rendering quality\nIdentical anatomy quality\nIdentical lighting quality\nIdentical material quality\n\nIdentical character quality\n\nNo simplified panels.\n\nNo low-detail panels.\n\nNo sketch-like panels.\n\nNo unfinished panels.\n\nEvery panel must be final-production quality.\n\nRENDERING QUALITY\n\nUltra-premium cinematic comic page.\n\nMuseum-quality illustration.\n\nAAA production quality.\n\nFeature-film concept art quality.\n\nPremium graphic novel quality.\n\nMaximum visual fidelity.\nExtreme clarity.\nPerfect linework.\nPerfect readability.\nCrisp panel borders.\n\nExceptional storytelling composition.\n\nProfessional visual hierarchy.\n\nUltra-high-resolution rendering.\n\nMATERIALS & SURFACE FIDELITY\n\nUltra-premium cinematic render with hyper-realistic visual fidelity and maximum-quality reconstruction.\n\nRe-render all visible elements with extreme micro-detail and physically accurate materials.\n\nEvery visible surface should display:\n\nSkin pores\n\nFine wrinkles\n\nIndividual hair strands\n\nFabric weave\n\nLeather grain\n\nMetal imperfections\n\nOxidation\n\nWood grain\n\nStone texture\n\nGlass distortion\n\nDust accumulation\n\nMoisture effects\n\nSurface roughness variation\n\nEnvironmental wear\n\nMaterial aging\n\nPhysically based rendering.\n\nAdvanced PBR materials.\n\nRealistic global illumination.\n\nRay-traced reflections.\nRay-traced shadows.\nAmbient occlusion.\nSubsurface scattering.\nAccurate light bounce.\nNatural light diffusion.\nPhysically correct material response.\nCOMIC PRESENTATION\nProfessional comic page layout.\nClear visual flow.\nConsistent panel spacing.\nCinematic framing.\nDynamic camera angles.\nStrong storytelling.\nVisual continuity between panels.\n\nProfessional lettering-ready composition.\n\nAward-winning graphic novel presentation.\n\nNEGATIVE PROMPT\n\nlow quality, worst quality, blurry, muddy details, soft focus, low resolution, pixelation, compression artifacts, jpeg artifacts, text corruption, malformed interface, inconsistent UI, generic interface, inconsistent architecture, generic city, unrelated architecture, repetitive buildings, copy pasted structures, character drift, outfit drift, color drift, feature drift, redesign, alternate interpretation, duplicate character, multiple versions of character, incorrect face, wrong hairstyle, wrong species, wrong body type, incorrect anatomy, bad anatomy, broken anatomy, distorted anatomy, deformed anatomy, extra limbs, missing limbs, extra arms, missing arms, extra hands, malformed hands, extra fingers, missing fingers, fused fingers, duplicated fingers, merged fingers, broken wrists, twisted wrists, malformed knuckles, impossible hand poses, AI hand artifacts, dislocated joints, broken shoulders, broken elbows, malformed knees, malformed feet, asymmetrical anatomy, crossed eyes, lazy eye, distorted face, warped proportions, stretched limbs, melted body parts, low detail clothing, poor rendering, weak composition, poor panel flow, sketch quality, unfinished artwork, unfinished panels, oversaturated colors, washed out colors, crushed shadows, overexposed highlights, generic cyberpunk elements, generic fantasy elements, generic holograms, inconsistent city design, inconsistent architecture language, inconsistent technology level, empty backgrounds, weak environmental storytelling, watermark, logo, artist signature, cropped character, cropped city, frame damage, visual clutter, low-detail distant shots, simplified anatomy, simplified character, low-quality comic layout",
-"likeCount": 26,
-"retweetCount": 3,
-"url": "https://x.com/NachtNovaAI/status/2069151443735425175",
-"createdAt": "Mon Jun 22 20:12:01 +0000 2026"
+"userName": "ShiannonC",
+"text": "This was a couple of months ago now, but it’s relevant to what is going on around social media, Pauline Hanson, misinformation, fake news, AI-produced content & overseas accounts that generate the majority of this rubbish.\n\n‘Research from ABC News Verify & The Guardian confirms that many large, seemingly grassroots pro-One Nation Facebook groups operate as foreign-run \"meme factories\". These networks are managed by offshore administrators in Southeast Asia (such as Vietnam & the Philippines) & are designed to monetize Australian online engagement through ad revenue rather than legitimate political support’\n\nThe abc news have identified at least 20 foreign-run pages with many linked to admins based in Sri Lanka, Vietnam & The Philippines. These pages rely on high volumes of AI-generated content - deepfakes, bogus articles, fabricated stories about political figures to drive outrage and generate interest.\n\nThe pages exist to game algorithms & direct traffic to external sites, which are profit driven.\n\nThe same techniques are used via foreign  Facebook accounts using an AI Pauline Hanson to manipulate Australian users. Posts involving Hanson are generally AI images with a small number of genuine pictures that depict Hanson in a positive & formative light in events that have never happened. Philanthropic roles in the community depict Hanson as a caring individual giving money away & helping people. Other “news stories” depict Hanson taking on other politicians - usually Anthony Albanese - painting the PM in a bad light.\n\nAll the so-called news & events that are generated have never happened - but these events & imagery are being liked &  shared throughout social media thousands of times by users who believe what they see without question & can’t see past the fake stories & imagery - these people aren’t prepared to research factual information that would negate this outside of the platform. Simple online searches would result in confirmation that these stories & events are not present in real life or in any news sources outside of the online platform source.\n\nWhile Pauline Hanson has primarily been depicted in a positive light - Albanese has been depicted in negative events, argumentative and duplicitous. None of these events are true.\n\nThese fake news and events posts are used to engage users, encouraging emotive responses - and are more likely to induce anger and resentment. \n\nAccording to The Guardian Australia, pro One Nation facebook groups appear to be run by foreign meme factories that monetise content. \n\n‘Guardian Australia examined 14 of the largest pro-One Nation public groups with at least 8,000 members, and found most were created this year.\n\nWhile some groups appear to be longstanding and set up by genuine supporters, the majority are full of content overwhelmingly fed by what digital media researcher Timothy Graham said appeared to be “a foreign-run, predominantly Indonesian, for-hire engagement farm operation”\n\nMuch of the content across these groups is designed to be what Graham called outrage or “poll bait” – asking yes or no questions, such as “Was Pauline Hanson right to scold this journo?” or “Should Sharia law be banned in the Australia?”\nOther posts are reactive, with some of the accounts Guardian Australia tracked posting multiple times about the party’s “Fire the Liar” campaign. In at least one case, the text and image promoting the party’s fundraising drive was copied from a verified One Nation page’\n\nSo, pro Hanson content on social media driven by foreign players for positive pro-Hanson political content that is entirely fictitious….\n\nI wonder who is driving this and how much of it is being paid for by Australian taxpayers?\n\nIt would appear there is much to be gained for some but not others via online fake media stories, memes and AI.\n\nhttps://t.co/dQEHk0uzF8",
+"likeCount": 349,
+"retweetCount": 203,
+"url": "https://x.com/ShiannonC/status/2071270207805382816",
+"createdAt": "Sun Jun 28 16:31:14 +0000 2026"
 },
 {
-"userName": "kunlei15",
-"text": "Excited to share that RL-100 has been accepted to Science Robotics !\n\nWe have open-sourced the code here: https://t.co/CfqoZnhB5B\n\nBeyond the paper results, RL-100 provides a unified library for diffusion/flow policy RL post-training, iterative offline data flywheels, and real-world robot RL.\n\nA key lesson: real-world robot RL is a system problem. Calibration, rewards, rollout data flywheels, stochastic data collection, randomization, safety checks, and deployment details all matter.\n\nHope this repo helps make real-world robot RL more reproducible and easier to build on.",
-"likeCount": 122,
+"userName": "siddancha",
+"text": "Really elegant work on fixing variational RL with diffusion models using self-distillation! 👏👏\n\n*Problem*: Likelihood gradients ∇ log p(a) are needed for RL but are hard to compute for diffusion models. A useful surrogate is ∇ ELBO(a), where the ELBO is a supervised diffusion loss such as denoising score-matching loss (DSM) or conditional flow-matching loss (CFM); e.g. the latter is used in FPO (https://t.co/umBUxE4KFq). However, the ELBO suffers from a KL gap: which causes the gradients of ELBO(a) and logp(a) to be misaligned:\n\nELBO(a) = log p(a) - D_KL(a)\n\n*Idea*: Drive the KL gap down to zero after each policy gradient step, reminiscent of the EM algorithm for training GMMs. The E-step drives the KL gap to zero by computing the posterior distribution over latents *without changing the generative model.* Then, the M-step optimizes the ELBO; since the KL gap is already zero and can only increase, the M-step guarantees that the log-likelihood will also increase.\n\n*Solution*: The rough equivalent of the \"E-step\" in diffusion models is self-distillation. You sample action labels from the current diffusion model and just do supervised learning (minimize ELBO) to match its own actions. This might seem useless because self-distillation does not modify the terminal action distribution at all! *The generative model and log-likelihoods log p(a) are unchanged*. But this drives the diffusion KL gap to zero! The KL gap in diffusion models is the distributional gap between the noising and denoising paths; a perfectly trained diffusion model that exactly reverses the noising process has zero KL gap. When this happens, D_KL(a) = 0. But zero is the global minimum for KL divergence, and so ∇D_KL(a) = 0. Which means that ∇ log p(a) = ∇ ELBO(a). The true and surrogate policy gradients are exactly aligned after self-distillation! Takeaway: Interleave policy update steps with self-distillation steps!",
+"likeCount": 130,
 "retweetCount": 9,
-"url": "https://x.com/kunlei15/status/2069762636846342381",
-"createdAt": "Wed Jun 24 12:40:41 +0000 2026"
+"url": "https://x.com/siddancha/status/2069135165310501032",
+"createdAt": "Mon Jun 22 19:07:20 +0000 2026"
+},
+{
+"userName": "Asa_d33",
+"text": "The smartest AI in finance is the one you never notice.\n\nWhen people hear \"AI,\" they usually think about chatbots or image generators.\n\nBut some of the most useful AI works quietly in the background of the financial apps millions of people use every day.\n\nHere are a few simple examples:\n\n➡️ Your banking app automatically groups your spending into categories like groceries, transport, and shopping, making it easier to understand where your money goes.\n\n➡️ When you deposit a check with your phone, AI can help recognize the text and process the information more quickly.\n\n➡️ If your card is suddenly used in a different city or country, AI may flag the activity and ask you to confirm it's really you before the payment is completed.\n\n➡️ Customer support teams also use AI to handle routine questions, allowing human agents to spend more time helping with more complex issues.\n\nOf course, AI isn't flawless.\n\nIt can misunderstand information or make incorrect predictions, which is why human review remains an important part of financial services.\n\nFor me, that's the most interesting part.\n\nThe goal isn't to replace people. It's to make everyday financial services faster, more efficient, and in some cases, more secure.\n\nThe more you understand how AI is being used, the easier it becomes to separate real innovation from marketing hype.\n\nKeep learning, verify information through trusted sources, and always do your own research (DYOR).\n\nJoin #Binance Here: 👇\n\nhttps://t.co/zTcDQ4Faey\n\n#BinanceAcademy \n\n#LearnWithBinance",
+"likeCount": 145,
+"retweetCount": 15,
+"url": "https://x.com/Asa_d33/status/2071221443430674805",
+"createdAt": "Sun Jun 28 13:17:28 +0000 2026"
+},
+{
+"userName": "TropadaDrih",
+"text": "🌸 Alpha - Fragments of Growth\n\nA decade of travel, memories, and textures - now brought on-chain.\n\nCreated by fashion photographer and visual artist Jenya Vyguzov, the collection transforms textures captured across years of travel into handcrafted collage flowers , each petal representing a place, memory, or moment. No AI, no generative outputs, every piece is individually composed by hand.\n\nWhat stands out here is the artist behind it. Jenya has spent over a decade working with brands like Vogue, GQ Style, Tatler, Elle, Puma, and IKEA, while building a distinctive visual language. His work was even selected for the official Paris Prints Textile Show poster, where he was given an entire floor for a solo exhibition.\n\n⚠️ WL applications are coming soon. If you're interested in art NFTs, this is the stage where you want to be paying attention. Follow the artist and the project, turn on notifications, and be ready when WL applications open.\n\n🔎Mint Details TBA\n\nArtist: https://t.co/DEvt1XLMFT\nX: https://t.co/6OOiKethL4\nWebsite: https://t.co/jGHO851Soh\n\ndyor/nfa",
+"likeCount": 22,
+"retweetCount": 12,
+"url": "https://x.com/TropadaDrih/status/2069895412907962375",
+"createdAt": "Wed Jun 24 21:28:17 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Did something happen to Opus 4.8 today? First time I've seen this happen (and I use it daily): it almost totally stopped thinking, even at highest reasoning setting. And answered terribly.\n\nI repeated same prompts with Opus 4.6, and it worked great.",
+"likeCount": 560,
+"retweetCount": 10,
+"url": "https://x.com/jeremyphoward/status/2071102619020636397",
+"createdAt": "Sun Jun 28 05:25:18 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MatthewBerman: &gt; mythos is so good at cyber it can't be released\n\nalso\n\n&gt; mythos can't detect 20k fraudulent chinese accounts attacking…",
-"likeCount": 17350,
-"retweetCount": 959,
-"url": "https://x.com/ClementDelangue/status/2070629562107515183",
-"createdAt": "Fri Jun 26 22:05:32 +0000 2026"
+"text": "Getting regulated by a government because your model is \"too dangerous\" is the best marketing (especially for enterprise sales) so everyone is trying to get it now 😅😅😅",
+"likeCount": 394,
+"retweetCount": 40,
+"url": "https://x.com/ClementDelangue/status/2071239782873665567",
+"createdAt": "Sun Jun 28 14:30:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @i_zzzzzz: I think part of what makes this account’s work so satisfying is they are doing a form of pattern recognition that is computer…",
-"likeCount": 231882,
-"retweetCount": 10313,
+"likeCount": 231860,
+"retweetCount": 10312,
 "url": "https://x.com/jeremyphoward/status/2070275797773099099",
 "createdAt": "Thu Jun 25 22:39:48 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @MTSlive: SITUATION EXPLAINED: The frontier lab regulatory problem.\n\n@ClementDelangue, co-founder and CEO of @huggingface:\n\n\"The frontie…",
-"likeCount": 39,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2070598856794877998",
-"createdAt": "Fri Jun 26 20:03:31 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @_albertgu: Transformers are better at copying, while RNNs are better at modeling \"meaning-bearing words—the nouns, verbs, &amp; adjectives…",
+"likeCount": 420,
+"retweetCount": 26,
+"url": "https://x.com/jeremyphoward/status/2070957383183171674",
+"createdAt": "Sat Jun 27 19:48:11 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AdamThierer: “We're in a weird state of the world where the supposedly totalitarian regime is trying to open up the technology, and the…",
-"likeCount": 210,
-"retweetCount": 43,
-"url": "https://x.com/ClementDelangue/status/2070500761927127171",
-"createdAt": "Fri Jun 26 13:33:44 +0000 2026"
+"text": "RT @MTSlive: SITUATION EXPLAINED: What is at stake in the open source AI race?\n\nWe asked @perrymetzger, chairman of Alliance for the Future…",
+"likeCount": 88,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2070680514264977848",
+"createdAt": "Sat Jun 27 01:28:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @natolambert: There's a lot of sloppy thinking around open models. You can ban them and make it impossible for US companies to use them,…",
-"likeCount": 307,
-"retweetCount": 28,
-"url": "https://x.com/ClementDelangue/status/2070629676121309487",
-"createdAt": "Fri Jun 26 22:05:59 +0000 2026"
+"text": "RT @as400495: Tomorrow, we're releasing an ML model for on-device PII redaction, which is far smaller than existing models, but is surprisi…",
+"likeCount": 300,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2071453523414282334",
+"createdAt": "Mon Jun 29 04:39:40 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @dzhulgakov: you may have heard that glm-5.2 at 280 token/s is cool, how about 318\n\nand we still have room to go https://t.co/4g0dI6CEzd",
-"likeCount": 656,
-"retweetCount": 29,
-"url": "https://x.com/jeremyphoward/status/2070274247218631099",
-"createdAt": "Thu Jun 25 22:33:39 +0000 2026"
+"text": "RT @_sholtodouglas: I (and a bunch of my colleagues) donated to this. I think it is a really excellent initiative. TLDR:\n- Equity investmen…",
+"likeCount": 973,
+"retweetCount": 58,
+"url": "https://x.com/jeremyphoward/status/2070311359477379501",
+"createdAt": "Fri Jun 26 01:01:07 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "Nice to see the Drivetrain Approach getting some love again! :D\nhttps://t.co/XcOjrJ0As3",
-"likeCount": 46,
-"retweetCount": 4,
-"url": "https://x.com/jeremyphoward/status/2069339966380052725",
-"createdAt": "Tue Jun 23 08:41:09 +0000 2026"
-},
-{
-"userName": "Just_sharon7",
-"text": "https://t.co/Vz5aCEWI5H",
-"likeCount": 301,
-"retweetCount": 9,
-"url": "https://x.com/Just_sharon7/status/2070501665078440103",
-"createdAt": "Fri Jun 26 13:37:19 +0000 2026"
-},
-{
-"userName": "huntermmonk",
-"text": "https://t.co/4CLgYE15ZE",
-"likeCount": 33,
-"retweetCount": 5,
-"url": "https://x.com/huntermmonk/status/2070683927166292459",
-"createdAt": "Sat Jun 27 01:41:34 +0000 2026"
-},
-{
-"userName": "Av1dlive",
-"text": "https://t.co/onif0SnAlZ",
+"userName": "ClementDelangue",
+"text": "the future of AI is multi-model (including a majority of open-source ones provided by @huggingface of course!)!",
 "likeCount": 104,
-"retweetCount": 15,
-"url": "https://x.com/Av1dlive/status/2070548049680892003",
-"createdAt": "Fri Jun 26 16:41:38 +0000 2026"
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2071250272177770918",
+"createdAt": "Sun Jun 28 15:12:01 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "https://t.co/PLL0hNPbdv",
+"likeCount": 70,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2071340393447272457",
+"createdAt": "Sun Jun 28 21:10:08 +0000 2026"
+},
+{
+"userName": "AIwithAliya",
+"text": "https://t.co/ul5xiydzY0",
+"likeCount": 128,
+"retweetCount": 5,
+"url": "https://x.com/AIwithAliya/status/2070547950540128696",
+"createdAt": "Fri Jun 26 16:41:14 +0000 2026"
+},
+{
+"userName": "cyrilXBT",
+"text": "https://t.co/alKJ5Gf6LV",
+"likeCount": 909,
+"retweetCount": 146,
+"url": "https://x.com/cyrilXBT/status/2071034792288686588",
+"createdAt": "Sun Jun 28 00:55:47 +0000 2026"
 }
 ]

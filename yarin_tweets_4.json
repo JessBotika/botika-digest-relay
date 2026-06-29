@@ -2,137 +2,121 @@
 {
 "userName": "NongZonNanny",
 "text": "disclaimer: gemini ai trans\n\n**Aoftionz Live Summary**\n\n * **The other day, I asked NongZon (kaijeng) if he was tired.** He replied, “I haven't even started working today,” so I didn't know what to ask next. 😂\n\n * **NuNew’s solo concert is in the plans**, but I really can't spoil anything right now. It will definitely happen within this year. The NuNew brand will not disappoint anyone. Once it's announced, I want everyone to come.\n\n * **The Sports Day event** will feature both sports competitions and special shows.\n\n * **I really like Zee with short hair.** Just the other day, I complimented him, saying he looks younger.\n\n * **For #ZeeNuNewTheReality,** we want you to see sides of them that no one has ever seen before. It has to be truly real.\n\n * **Regarding the lightstick price:** I don't want people to compare it with Korean groups because they produce in massive quantities at a time, and normally, the higher the production volume, the cheaper the cost per unit.\n\n * **For all artists, Fashion Week invitations** usually come in quite last-minute. If an existing schedule can be shifted around, we will do it so the kids can attend. But if we already accepted another job beforehand, we have to fulfill that responsibility. (We also have to look at their schedules and the artists' own preferences, because they might want to focus on other work during that period).\n\n * **I acknowledge the feedback regarding \"recasting/changing actors,\"** but I cannot speak about it here.\n\n * **Feedback has already been sent** regarding the response times/customer service of the DMD Shop.\n\n * *Mon Rak Hug E-Lee* (Isan Love Spell) should be something brand new for the industry. I'm excited about it too. It's definitely going to be *muan* (fun/entertaining).\n\n * **I constantly teach the kids to prioritize manners and respectfulness** (being quick to *wai* and show respect), as it makes them look more endearing. During artist interviews/auditions, we look at their attitude toward fans. We regularly talk with the younger artists to keep ourselves updated and find a middle ground that suits the younger generation today.\n\n * **DMD's current content is highly diverse.** We want everyone to have options that fit their preferences. We are trying to experiment with new things. (I'd prefer if people didn't use the word \"Cringe\" so carelessly, as it might cause some people to lose confidence. Some things might just be down to personal preference).\n\n * **The *The Next Prince* (Khon Fah Kiang Ther) Boxset** might have a few scenes slightly re-edited.\n\n * **Regarding the benefit compensation,** I've already informed the team to announce it as soon as everything is finalized.\n\n * **Squishies?** There will (probably) be some. I want you to wait and see.\n\n * **Engagement from all parties is important**—whether it's from the artists, the staff, or the fans.\n\n * **For the Domundi Cafe,** I really want to collab with Pokémon. My life would truly be complete.\n\n🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍\n\n **#P'Aof's Message to Us:**\n> \"I want everyone to play on X (Twitter) happily. If there's something you can overlook, you should just let it go. Follow your artists mindfully and remember why you started following them in the first place... I'm truly worried about everyone. I don't want you to read certain things and end up feeling discouraged. I really don't want it to be like that.\"\n> \n🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍\n#ZeeNunew\n#ZeePruk\n#Nunew\n#Baby_Nongzon\n#มนต์รักฮักอีหลี\n#HUGELheeTheMusical",
-"likeCount": 93,
-"retweetCount": 32,
+"likeCount": 98,
+"retweetCount": 33,
 "url": "https://x.com/NongZonNanny/status/2070936071647769078",
 "createdAt": "Sat Jun 27 18:23:30 +0000 2026"
 },
 {
-"userName": "Jiggz1975",
-"text": "What Stays ? @Frag_Growth . \n\nThe library was on the ground floor of the building where he grew up. His father went there for detective novels.\n\n@jenyavyguzov went for something else.\n\nArt books. Fashion magazines. Images from worlds he couldn't yet explain, only feel.\n\nHe was born in Krasnoyarsk, Siberia, into a working-class family. Far from the cities those magazines came from, but close enough to imagine them.\n\nHe began collecting discarded pages, cutting people, landscapes and textures into collages that gave shape to feelings he didn't yet have words for.\n\nHis family imagined a more practical future. He tried financial college, left after two years, worked as a waiter, sold advertising, and kept making art whenever life allowed him to.\n\nEventually, fashion took him abroad as a model.\n\nThe job paid the bills. The cities changed his life.\n\n~ The Flower That Stayed\n\nTravel gave Jenya something more valuable than opportunity.\n\nIt taught him to look.\n\nEvery city carried its own language cracked walls, peeling paint, worn concrete, rusted metal, forgotten surfaces shaped by years of weather and people passing through.\n\nMost saw decay, He saw texture.\n\nHe photographed everything. Without realizing it, he was building an archive.\n\nIn 2015, a flower appeared in his work.\n\nIt has never left, Not painted, Not illustrated. BUILT. \n\nEvery petal is assembled by hand from photographs of real textures collected across Europe and Asia. Walls become petals. Rust becomes color. Concrete becomes softness. Places that had never met find themselves blooming together.\n\nA visual diary disguised as a flower.\n\nYears later came Vogue, GQ Style, Tatler, Elle, Adidas, Puma, Lacoste, IKEA, exhibitions across Europe, educational lectures, and an invitation to create the official artwork for the Paris Prints Textile Show.\n\nThe recognition mattered.\n\nBut the process never changed.\n\nHe still builds the same way he always has.\n\nOne fragment at a time.\n\n~ Fragments of Growth Is Not a just a Collection. \n\nIt is a language built over more than a decade. Every flower is assembled by hand from photographs of real textures Jenya captured across cities and forgotten surfaces around the world. No generative AI. No algorithms. Just fragments, collected over time and composed into something entirely new.\n\nThe blockchain is simply where that journey continues. \n\nThrough limited drops, evolving collector mechanics, and works from Jenya's personal archive, Fragments of Growth invites others into the story. Because every petal remembers a place, every texture remembers time, and every artwork proves the same quiet idea, beauty isn't created it is discovered.\n\n@Frag_Growth is that film, one petal at a time. 🌸",
-"likeCount": 28,
-"retweetCount": 6,
-"url": "https://x.com/Jiggz1975/status/2070217536705319068",
-"createdAt": "Thu Jun 25 18:48:18 +0000 2026"
-},
-{
-"userName": "siddancha",
-"text": "Really elegant work on fixing variational RL with diffusion models using self-distillation! 👏👏\n\n*Problem*: Likelihood gradients ∇ log p(a) are needed for RL but are hard to compute for diffusion models. A useful surrogate is ∇ ELBO(a), where the ELBO is a supervised diffusion loss such as denoising score-matching loss (DSM) or conditional flow-matching loss (CFM); e.g. the latter is used in FPO (https://t.co/umBUxE4KFq). However, the ELBO suffers from a KL gap: which causes the gradients of ELBO(a) and logp(a) to be misaligned:\n\nELBO(a) = log p(a) - D_KL(a)\n\n*Idea*: Drive the KL gap down to zero after each policy gradient step, reminiscent of the EM algorithm for training GMMs. The E-step drives the KL gap to zero by computing the posterior distribution over latents *without changing the generative model.* Then, the M-step optimizes the ELBO; since the KL gap is already zero and can only increase, the M-step guarantees that the log-likelihood will also increase.\n\n*Solution*: The rough equivalent of the \"E-step\" in diffusion models is self-distillation. You sample action labels from the current diffusion model and just do supervised learning (minimize ELBO) to match its own actions. This might seem useless because self-distillation does not modify the terminal action distribution at all! *The generative model and log-likelihoods log p(a) are unchanged*. But this drives the diffusion KL gap to zero! The KL gap in diffusion models is the distributional gap between the noising and denoising paths; a perfectly trained diffusion model that exactly reverses the noising process has zero KL gap. When this happens, D_KL(a) = 0. But zero is the global minimum for KL divergence, and so ∇D_KL(a) = 0. Which means that ∇ log p(a) = ∇ ELBO(a). The true and surrogate policy gradients are exactly aligned after self-distillation! Takeaway: Interleave policy update steps with self-distillation steps!",
-"likeCount": 130,
-"retweetCount": 9,
-"url": "https://x.com/siddancha/status/2069135165310501032",
-"createdAt": "Mon Jun 22 19:07:20 +0000 2026"
+"userName": "AdarshChetan",
+"text": "100 AI TOOLS TO EXCEL IN YOUR CAREER\n\n1. Brainstorming\n\n• ChatGPT\n• IdeasAI\n• Claude\n• Gemini\n• Microsoft Copilot\n\n2. Research\n\n• Harpa\n• Perplexity\n• Glasp\n• ChatPDF\n• Otio\n\n3. Learning\n\n• Refresher AI\n• AllGoRhythms\n• Refind\n• Lodown\n• Study\n\n4. Productivity\n\n• Merlin\n• Text Blaze\n• MyMemo\n• SanerAI\n• Map This\n\n5. SEO\n\n• SEO Content AI\n• AutoBlogging\n• SurferSEO\n• RankWizard\n• Seona\n\n6. Prompt Writing\n\n• G-Prompter\n• OctoAI\n• Snack Prompt\n• Datafit\n\n7. Email Marketing\n\n• Beehiiv\n• Superhuman\n• Mails AI\n• Robin AI\n• Promo AI\n\n8. Job Search\n\n• https://t.co/loQBWuHllL\n• https://t.co/DGhCAMizkq\n• Aragon AI\n• FinalScout\n\n9. Video Creation\n\n• HeyGen\n• Klap\n• https://t.co/rBfat73YFt\n• iMagic\n• Pictory\n\n10. Presentations\n\n• Presentation AI\n• Gamma\n• Tome\n• Storyd\n• Journey\n\n11. Social Media\n\n• TweetHunter\n• ChatGPT\n• Brandblast\n• VidIQ\n• Meta AI\n\n12. Lead Generation\n\n• SparkSocial\n• Snipe\n• Pipeline\n• Devil\n• Double\n\n13. Portfolio Building\n\n• Typedream\n• Durable AI\n• Notion AI\n• Mixo\n• Framer\n\n14. Copywriting\n\n• Jasper\n• Rytr\n• https://t.co/WJuOtVmCkB\n• Wordtune\n\n15. Programming\n\n• GitHub Copilot\n• Replit\n• Codium\n• Safurai\n• https://t.co/JE5BHVwbvM\n\n16. Self Improvement\n\n• Empathy\n• Amaru\n• Scispace\n• AI Journey\n\n17. Designing\n\n• Adobe Express\n• Canva\n• Galileo\n\n18. Automation\n\n• Zapier\n• Bardeen\n• HypeBar\n• Xembly\n\n19. Text To Speech\n\n• ElevenLabs\n• Vakomo\n• Descript\n• DubDub\n\n20. Image Generation\n\n• Midjourney\n• Leonardo AI\n• DALL·E 3\n• Adobe Firefly\n\n-Best AI Stack for 2026\n\nContent Creators\n\n• ChatGPT\n• Claude\n• Canva\n• Midjourney\n• HeyGen\n\nDevelopers\n\n• ChatGPT\n• Claude\n• Cursor\n• GitHub Copilot\n• Replit\n\nStudents\n\n• ChatGPT\n• Gemini\n• Perplexity\n• ChatPDF\n• Scispace\n\nMarketers\n\n• Jasper\n• SurferSEO\n• Beehiiv\n• Gamma\n• Brandblast\n\nDesigners\n\n• Canva\n• Adobe Express\n• Midjourney\n• Leonardo AI\n• Framer\n\nEntrepreneurs\n\n• ChatGPT\n• Claude\n• Notion AI\n• Zapier\n• Gamma\n\n🎯 Most Valuable AI Tools Overall\n\n1. ChatGPT\n2. Claude\n3. Gemini\n4. Perplexity\n5. GitHub Copilot\n6. Cursor\n7. Midjourney\n8. Canva\n9. Zapier\n10. Notion AI\n\n💡 The tool itself won't make you successful.\nThe person using the tool consistently will.\n\nDo follow for more such amazing stuff ❤️",
+"likeCount": 20,
+"retweetCount": 15,
+"url": "https://x.com/AdarshChetan/status/2071203736945664252",
+"createdAt": "Sun Jun 28 12:07:06 +0000 2026"
 },
 {
 "userName": "DanKornas",
 "text": "AI app ideas are cheap. Launchable templates are the bottleneck.\n\nAwesome Generative AI Apps is a curated GitHub repo of 50+ open-source generative AI app templates for builders who want to clone, deploy, and adapt AI SaaS products.\n\nIt helps you skip the blank Next.js project by grouping templates for image, video, beauty/fashion, e-commerce, writing, agents, audio, and integrations, with setup and deploy paths already documented.\n\nKey features:\n\n• 50+ app templates – cloneable products across image generation, video generation, virtual try-on, product photography, content, agents, and more\n• SaaS plumbing included – README highlights Stripe billing, Google OAuth, Prisma/PostgreSQL, credit balances, and job history\n• Vercel deployment path – templates point to Deploy to Vercel buttons and a quick-start flow\n• Category navigation – table of contents lets you scan by use case instead of hunting through random demos\n• MIT license – repo metadata and README both mark it as MIT licensed for reuse and adaptation\n\nIt’s open-source (MIT license).\n\nLink in the reply 👇",
-"likeCount": 52,
-"retweetCount": 10,
+"likeCount": 57,
+"retweetCount": 13,
 "url": "https://x.com/DanKornas/status/2070671189077279166",
 "createdAt": "Sat Jun 27 00:50:57 +0000 2026"
 },
 {
-"userName": "DanKornas",
-"text": "AI app ideas are cheap. Launchable templates are the bottleneck.\n\nAwesome Generative AI Apps is a curated GitHub repo of 50+ open-source generative AI app templates for builders who want to clone, deploy, and adapt AI SaaS products.\n\nIt helps you skip the blank Next.js project by grouping templates for image, video, beauty/fashion, e-commerce, writing, agents, audio, and integrations, with setup and deploy paths already documented.\n\nKey features:\n\n• 50+ app templates – cloneable products across image generation, video generation, virtual try-on, product photography, content, agents, and more\n• SaaS plumbing included – README highlights Stripe billing, Google OAuth, Prisma/PostgreSQL, credit balances, and job history\n• Vercel deployment path – templates point to Deploy to Vercel buttons and a quick-start flow\n• Category navigation – table of contents lets you scan by use case instead of hunting through random demos\n• MIT license – repo metadata and README both mark it as MIT licensed for reuse and adaptation\n\nIt’s open-source (MIT license).\n\nLink in the reply 👇",
-"likeCount": 52,
-"retweetCount": 10,
-"url": "https://x.com/DanKornas/status/2070671189077279166",
-"createdAt": "Sat Jun 27 00:50:57 +0000 2026"
-},
-{
-"userName": "TropadaDrih",
-"text": "🌸 Alpha - Fragments of Growth\n\nA decade of travel, memories, and textures - now brought on-chain.\n\nCreated by fashion photographer and visual artist Jenya Vyguzov, the collection transforms textures captured across years of travel into handcrafted collage flowers , each petal representing a place, memory, or moment. No AI, no generative outputs, every piece is individually composed by hand.\n\nWhat stands out here is the artist behind it. Jenya has spent over a decade working with brands like Vogue, GQ Style, Tatler, Elle, Puma, and IKEA, while building a distinctive visual language. His work was even selected for the official Paris Prints Textile Show poster, where he was given an entire floor for a solo exhibition.\n\n⚠️ WL applications are coming soon. If you're interested in art NFTs, this is the stage where you want to be paying attention. Follow the artist and the project, turn on notifications, and be ready when WL applications open.\n\n🔎Mint Details TBA\n\nArtist: https://t.co/DEvt1XLMFT\nX: https://t.co/6OOiKethL4\nWebsite: https://t.co/jGHO851Soh\n\ndyor/nfa",
-"likeCount": 22,
+"userName": "Adrianamessina9",
+"text": "🌸 Alpha - Fragments of Growth\n\nA decade of travel, memories, and textures - now brought on-chain.\n\nCreated by fashion photographer and visual artist Jenya Vyguzov, the collection transforms textures captured across years of travel into handcrafted collage flowers , each petal representing a place, memory, or moment. No AI, no generative outputs, every piece is individually composed by hand.\n\nWhat stands out here is the artist behind it. Jenya has spent over a decade working with brands like Vogue, GQ Style, Tatler, Elle, Puma, and IKEA, while building a distinctive visual language. His work was even selected for the official Paris Prints Textile Show poster, where he was given an entire floor for a solo exhibition.\n\n⚠️WL applications are coming soon. If you're interested in art NFTs, this is the stage where you want to be paying attention. Follow the artist and the project, turn on notifications, and be ready when WL applications open.\n\n🔎 Mint Details TBA\n\nArtist: https://t.co/3fhvrJG7YE\nX: https://t.co/NzBpvbQLAh\nWebsite: https://t.co/Uvq8Rzy1F5\n\ndyor/nfa",
+"likeCount": 18,
 "retweetCount": 12,
-"url": "https://x.com/TropadaDrih/status/2069895412907962375",
-"createdAt": "Wed Jun 24 21:28:17 +0000 2026"
+"url": "https://x.com/Adrianamessina9/status/2069896583769166077",
+"createdAt": "Wed Jun 24 21:32:57 +0000 2026"
 },
 {
 "userName": "swaymolina",
 "text": "Let me share with you some of my Adobe Firefly Expertise 😉\n\nCome check out how I use real-life poses (of me  🤣) as references to create these fun, quirky editorial images! I’m breaking down how I used virtual try-on presets, artboards, and a few different AI models to bring these surreal sets to life!\n\nTo give @AdobeFirefly a try visit: https://t.co/TApFfqgA4t\n\n#AdobeFireflyAmbassadors #Ad #HowToAdobeFirefly",
-"likeCount": 36,
-"retweetCount": 5,
+"likeCount": 39,
+"retweetCount": 6,
 "url": "https://x.com/swaymolina/status/2070585947318595876",
 "createdAt": "Fri Jun 26 19:12:14 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "Did something happen to Opus 4.8 today? First time I've seen this happen (and I use it daily): it almost totally stopped thinking, even at highest reasoning setting. And answered terribly.\n\nI repeated same prompts with Opus 4.6, and it worked great.",
-"likeCount": 176,
-"retweetCount": 3,
-"url": "https://x.com/jeremyphoward/status/2071102619020636397",
-"createdAt": "Sun Jun 28 05:25:18 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @MatthewBerman: &gt; mythos is so good at cyber it can't be released\n\nalso\n\n&gt; mythos can't detect 20k fraudulent chinese accounts attacking…",
+"likeCount": 18575,
+"retweetCount": 1024,
+"url": "https://x.com/ClementDelangue/status/2070629562107515183",
+"createdAt": "Fri Jun 26 22:05:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @MTSlive: SITUATION EXPLAINED: Anthropic accused Alibaba of conducting a \"distillation attack\" on Claude.\n\nWe asked @ClementDelangue his…",
-"likeCount": 82,
-"retweetCount": 17,
+"likeCount": 110,
+"retweetCount": 22,
 "url": "https://x.com/ClementDelangue/status/2070680785129034048",
 "createdAt": "Sat Jun 27 01:29:05 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @_albertgu: Transformers are better at copying, while RNNs are better at modeling \"meaning-bearing words—the nouns, verbs, &amp; adjectives…",
-"likeCount": 353,
-"retweetCount": 25,
-"url": "https://x.com/jeremyphoward/status/2070957383183171674",
-"createdAt": "Sat Jun 27 19:48:11 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @benitoz: America is about to lose the AI race, and it will not happen at the frontier. It will happen at the floor.\n\nEveryone is watchi…",
+"likeCount": 115,
+"retweetCount": 29,
+"url": "https://x.com/ClementDelangue/status/2070998524108382619",
+"createdAt": "Sat Jun 27 22:31:40 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MTSlive: SITUATION EXPLAINED: What is at stake in the open source AI race?\n\nWe asked @perrymetzger, chairman of Alliance for the Future…",
-"likeCount": 83,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2070680514264977848",
-"createdAt": "Sat Jun 27 01:28:00 +0000 2026"
+"text": "RT @badlogicgames: omg it's basically pi, but more minimal for educational purposes and in python. @marlene_zw is gonna love this. great ed…",
+"likeCount": 612,
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2071344942253805592",
+"createdAt": "Sun Jun 28 21:28:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @lqiao: Britain didn't industrialize first by forcing its companies to use more expensive coal.\n\nWhy would we force American companies t…",
+"likeCount": 63,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2071255149801099717",
+"createdAt": "Sun Jun 28 15:31:24 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @_sholtodouglas: I (and a bunch of my colleagues) donated to this. I think it is a really excellent initiative. TLDR:\n- Equity investmen…",
-"likeCount": 969,
-"retweetCount": 58,
-"url": "https://x.com/jeremyphoward/status/2070311359477379501",
-"createdAt": "Fri Jun 26 01:01:07 +0000 2026"
+"text": "RT @dzhulgakov: you may have heard that glm-5.2 at 280 token/s is cool, how about 318\n\nand we still have room to go https://t.co/4g0dI6CEzd",
+"likeCount": 658,
+"retweetCount": 29,
+"url": "https://x.com/jeremyphoward/status/2070274247218631099",
+"createdAt": "Thu Jun 25 22:33:39 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @GregKamradt: obvious in retrospect but I had no idea there was a black market for tokens https://t.co/Q8p1sCgtMW",
-"likeCount": 10062,
-"retweetCount": 605,
-"url": "https://x.com/jeremyphoward/status/2070031268247740575",
-"createdAt": "Thu Jun 25 06:28:08 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @ndstudio: A big release of something small is coming tomorrow. Live at 12:30PM EST. https://t.co/v5RdnJTwu6",
+"likeCount": 101,
+"retweetCount": 12,
+"url": "https://x.com/ClementDelangue/status/2071453506108625303",
+"createdAt": "Mon Jun 29 04:39:36 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "Just got this email https://t.co/bD0b8diezt",
-"likeCount": 390,
-"retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2069920905162359188",
-"createdAt": "Wed Jun 24 23:09:35 +0000 2026"
+"userName": "Just_sharon7",
+"text": "https://t.co/Vz5aCEWI5H",
+"likeCount": 277,
+"retweetCount": 9,
+"url": "https://x.com/Just_sharon7/status/2070501665078440103",
+"createdAt": "Fri Jun 26 13:37:19 +0000 2026"
 },
 {
-"userName": "AI_WithExpert",
-"text": "https://t.co/0puDBiJhxU",
-"likeCount": 16,
+"userName": "huntermmonk",
+"text": "https://t.co/4CLgYE15ZE",
+"likeCount": 41,
+"retweetCount": 4,
+"url": "https://x.com/huntermmonk/status/2070683927166292459",
+"createdAt": "Sat Jun 27 01:41:34 +0000 2026"
+},
+{
+"userName": "Av1dlive",
+"text": "https://t.co/onif0SnAlZ",
+"likeCount": 120,
 "retweetCount": 17,
-"url": "https://x.com/AI_WithExpert/status/2070504630380110209",
-"createdAt": "Fri Jun 26 13:49:06 +0000 2026"
-},
-{
-"userName": "undefinedKi",
-"text": "https://t.co/CYsv4s0Ane",
-"likeCount": 112,
-"retweetCount": 14,
-"url": "https://x.com/undefinedKi/status/2070852381164630023",
-"createdAt": "Sat Jun 27 12:50:56 +0000 2026"
-},
-{
-"userName": "AIWithPRO",
-"text": "https://t.co/3MpEplkxQ6",
-"likeCount": 20,
-"retweetCount": 19,
-"url": "https://x.com/AIWithPRO/status/2070489344818004150",
-"createdAt": "Fri Jun 26 12:48:22 +0000 2026"
+"url": "https://x.com/Av1dlive/status/2070548049680892003",
+"createdAt": "Fri Jun 26 16:41:38 +0000 2026"
 }
 ]
