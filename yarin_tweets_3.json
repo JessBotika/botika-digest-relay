@@ -1,130 +1,122 @@
 [
 {
-"userName": "sentient_agency",
-"text": "10 BOOKS SERIOUS AI RESEARCHERS ACTUALLY RECOMMEND (NOT THE ONES EVERYONE POSTS)\n\nEvery AI reading list says the same five names. The people actually building these systems read deeper than that. Here's the shelf they point to when nobody's performing for an audience.\n\n1. Probability Theory: The Logic of Science - E.T. Jaynes\n\nThe book researchers quietly call life-changing. Jaynes reframes probability not as gambling odds but as the mathematics of reasoning under uncertainty, which is exactly what every modern model is doing. Dense, opinionated, and the closest thing the field has to a sacred text. Almost nobody outside the work has heard of it.\n\n2. Information Theory, Inference, and Learning Algorithms - David MacKay\n\nThe book that unites information theory and machine learning in one place, written by a Cambridge physicist who made it genuinely fun. Free online, full of puzzles, and on the shelf of nearly every researcher who actually understands why their models compress and predict the way they do.\n\n3. Reinforcement Learning: An Introduction - Sutton and Barto\n\nThe foundation under everything from AlphaGo to how modern models get fine-tuned with human feedback. Researchers don't recommend it because it's trendy. They recommend it because the ideas in it keep turning out to be the ideas that matter, decades later. Also free.\n\n4. The Book of Why - Judea Pearl\n\nA Turing Award winner's argument that today's AI is stuck because it confuses correlation with causation, and a map of what real reasoning would require. The book that names the exact ceiling current systems keep hitting. Researchers cite it constantly. The public reads past it.\n\n5. Vision - David Marr\n\nA neuroscientist's framework for how any system, brain or machine, processes information, written before deep learning existed and somehow predicting the questions it would face. The \"levels of analysis\" idea in here quietly shapes how serious people think about what a model is even doing.\n\n6. Gödel, Escher, Bach - Douglas Hofstadter\n\nThe cult book about how meaning and selfhood emerge from systems following simple rules. It won a Pulitzer and then got name-dropped to death, but almost nobody finishes it. The ones who do think differently about intelligence forever. The real one, not the summary.\n\n7. Metaphors We Live By - Lakoff and Johnson\n\nThe argument that human thought runs on metaphor, not cold logic, and that you can't build a mind on first-order logic alone. Researchers working on why language models grasp meaning the strange way they do keep circling back to this one. A genuine left-field pick.\n\n8. The Society of Mind - Marvin Minsky\n\nOne of AI's founding figures arguing that intelligence isn't one thing, it's a swarm of dumb little processes working together. Written as hundreds of one-page ideas. Out of fashion for years, now looking prophetic in the age of multi-agent systems. Insider catnip.\n\n9. How to Solve It - George Pólya\n\nA 1945 book on mathematical problem-solving that quietly shaped how a generation of researchers think about breaking down hard problems, and that keeps surfacing in papers on how to make models reason. The bridge between human heuristics and machine reasoning.\n\n10. The Mathematical Theory of Communication - Claude Shannon\n\nThe original paper that invented information theory and, with it, the entire conceptual ground that machine learning stands on. Short, brutal, and foundational. Researchers revere Shannon the way physicists revere Newton. Most reading lists skip the source and quote the descendants.\n\nThe popular books tell you what AI might do. These tell you how the people building it actually think. The difference is the whole point.",
-"likeCount": 527,
-"retweetCount": 94,
-"url": "https://x.com/sentient_agency/status/2070441756324401352",
-"createdAt": "Fri Jun 26 09:39:16 +0000 2026"
+"userName": "ShiannonC",
+"text": "This was a couple of months ago now, but it’s relevant to what is going on around social media, Pauline Hanson, misinformation, fake news, AI-produced content & overseas accounts that generate the majority of this rubbish.\n\n‘Research from ABC News Verify & The Guardian confirms that many large, seemingly grassroots pro-One Nation Facebook groups operate as foreign-run \"meme factories\". These networks are managed by offshore administrators in Southeast Asia (such as Vietnam & the Philippines) & are designed to monetize Australian online engagement through ad revenue rather than legitimate political support’\n\nThe abc news have identified at least 20 foreign-run pages with many linked to admins based in Sri Lanka, Vietnam & The Philippines. These pages rely on high volumes of AI-generated content - deepfakes, bogus articles, fabricated stories about political figures to drive outrage and generate interest.\n\nThe pages exist to game algorithms & direct traffic to external sites, which are profit driven.\n\nThe same techniques are used via foreign  Facebook accounts using an AI Pauline Hanson to manipulate Australian users. Posts involving Hanson are generally AI images with a small number of genuine pictures that depict Hanson in a positive & formative light in events that have never happened. Philanthropic roles in the community depict Hanson as a caring individual giving money away & helping people. Other “news stories” depict Hanson taking on other politicians - usually Anthony Albanese - painting the PM in a bad light.\n\nAll the so-called news & events that are generated have never happened - but these events & imagery are being liked &  shared throughout social media thousands of times by users who believe what they see without question & can’t see past the fake stories & imagery - these people aren’t prepared to research factual information that would negate this outside of the platform. Simple online searches would result in confirmation that these stories & events are not present in real life or in any news sources outside of the online platform source.\n\nWhile Pauline Hanson has primarily been depicted in a positive light - Albanese has been depicted in negative events, argumentative and duplicitous. None of these events are true.\n\nThese fake news and events posts are used to engage users, encouraging emotive responses - and are more likely to induce anger and resentment. \n\nAccording to The Guardian Australia, pro One Nation facebook groups appear to be run by foreign meme factories that monetise content. \n\n‘Guardian Australia examined 14 of the largest pro-One Nation public groups with at least 8,000 members, and found most were created this year.\n\nWhile some groups appear to be longstanding and set up by genuine supporters, the majority are full of content overwhelmingly fed by what digital media researcher Timothy Graham said appeared to be “a foreign-run, predominantly Indonesian, for-hire engagement farm operation”\n\nMuch of the content across these groups is designed to be what Graham called outrage or “poll bait” – asking yes or no questions, such as “Was Pauline Hanson right to scold this journo?” or “Should Sharia law be banned in the Australia?”\nOther posts are reactive, with some of the accounts Guardian Australia tracked posting multiple times about the party’s “Fire the Liar” campaign. In at least one case, the text and image promoting the party’s fundraising drive was copied from a verified One Nation page’\n\nSo, pro Hanson content on social media driven by foreign players for positive pro-Hanson political content that is entirely fictitious….\n\nI wonder who is driving this and how much of it is being paid for by Australian taxpayers?\n\nIt would appear there is much to be gained for some but not others via online fake media stories, memes and AI.\n\nhttps://t.co/dQEHk0uzF8",
+"likeCount": 441,
+"retweetCount": 260,
+"url": "https://x.com/ShiannonC/status/2071270207805382816",
+"createdAt": "Sun Jun 28 16:31:14 +0000 2026"
 },
 {
-"userName": "PenQuester",
-"text": "🧠 Cool papers this week\n\n📚 Four papers caught my eye this week, and the through-line is honestly verification: how do you check what a model did, not just generate it.\n\n📄 Improved Large Language Diffusion Models (iLLaDA)\nAn 8B fully bidirectional masked diffusion language model that lands competitive with the leading autoregressive models. The interesting part isn't the benchmark numbers, it's that diffusion LLMs keep closing the gap. Autoregression has been the default for a while, and \"default\" is not the same as \"optimal.\"\nhttps://t.co/SU4p6FiJGh\n\n📄 OPID: On-Policy Skill Distillation for Agentic RL\nThis one pulls natural-language skills directly out of an agent's own completed trajectories, then feeds them back in. Up to 26.5 points of success-rate gain on WebShop for smaller models, with better sample efficiency than outcome-only RL. The honest read: you get more signal from the trajectory than from just the final reward, which feels obvious in hindsight and apparently wasn't.\nhttps://t.co/EUeTRgBcz3\n\n📄 Hallucination in World Models is Predictable and Preventable\nThey reframe hallucination as a data coverage problem, which is a nice move, and build three model-internal signals that predict it with a Spearman correlation around -0.80. Caveat worth naming: -0.80 is strong but not a guarantee, and it's measured on their setup. Still, adapting with as few as 50 trajectories to fix coverage gaps is the kind of cheap intervention I want to see more of.\nhttps://t.co/JQZtYsOyvh\n\n🔬 The Verification Horizon: No Silver Bullet for Coding Agent Rewards\nThe Qwen Team's claim: verifying a coding agent's solution has gotten harder than producing it. They cut reward hacking from 28.57% down to 0.56% on SWE-like tasks with co-evolving verifiers. This is the one I'm doing a proper deep dive on Tuesday, because \"no silver bullet\" is doing a lot of work in that title and I want to see where the bound is actually tight.\nhttps://t.co/KNbWb6xnAR\n\n#MachineLearning #AI #LLMs #AIResearch #ReinforcementLearning",
-"likeCount": 10,
-"retweetCount": 0,
-"url": "https://x.com/PenQuester/status/2071594754698006994",
-"createdAt": "Mon Jun 29 14:00:52 +0000 2026"
-},
-{
-"userName": "kocer_eth",
-"text": "THIS GUY BUILT A COMFYUI WORKFLOW THAT TURNS ONE AI GIRL INTO A CONTENT PRODUCT\n\nThe video is not just “make a pretty AI girl.”\n\nIt shows the real money part:\nrepeatability.\n\nComfyUI lets you lock the character, load the model stack, use a reference image, batch prompts, and generate many shots with the same face, style, and vibe.\n\nThat is the difference between random AI art and an asset you can sell around.\n\nThe simple path:\n\nPick a niche first.\nFitness girl, fashion girl, gaming girl, luxury travel girl, skincare girl, anime-inspired creator.\n\nThen build a consistent face and visual style in ComfyUI.\nNot 1 image.\nA bank of 100+ usable posts.\n\nThen monetize the output in one of 4 ways:\n\n1. Sell content packs to small brands that need ad creatives.\n\n2. Build a synthetic influencer page and test affiliate offers.\n\n3. Create custom AI model/look packages for creators who want a character but do not want to learn nodes.\n\n4. Sell the workflow, prompts, and setup as a productized service.\n\nThe mistake is thinking the model is the business.\n\nThe business is the boring system around it:\nconsistent character, content calendar, offer, distribution, and proof that the visuals convert.\n\nComfyUI gives more control than simple AI image apps because the workflow can be repeated, edited, and improved instead of praying for one lucky generation.\n\nBut the caveat is big:\nan AI girl with no niche, no offer, and no audience is just another folder of renders.\n\nIf you want to make money from this, do not start by generating “hot girl” images.\n\nStart by asking:\nwho pays for this visual attention?\nwhat product can she sell?\nwhat content can be posted every day?\nwhat makes the character recognizable after 3 seconds?\n\nThat is where the money is.",
-"likeCount": 81,
-"retweetCount": 6,
-"url": "https://x.com/kocer_eth/status/2071613392121405605",
-"createdAt": "Mon Jun 29 15:14:56 +0000 2026"
-},
-{
-"userName": "TheMaran",
-"text": "How to run a 9B vision AI model on your laptop for FREE forever 😳\n\nqwen just open sourced qwen 3.5 9b\n\nno credits\n\nno API bill\n\nno data sent to any server when you run it locally\n\nwhat you get for $0:\n\n- qwen 3.5 9b model weights\n- text + image understanding\n- 262,000 native context\n- no daily quota & no expiry\n- works with ollama, LM Studio, llama.cpp and more\n\nhow to run it:\n\n- install ollama\n- open your terminal\n- run this:\n\"ollama run qwen3.5:9b\"\n- wait for it to download\n- start testing it with your docs, images, code, or research\n\nwhat can qwen 3.5 9b do:\n\n- read screenshots and charts\n- analyse PDFs and documents\n- help with code and debugging\n- answer visual math questions\n- run lightweight local agents\n- work with long notes and research\n\nthings to keep in mind:\n\n- the 9b version needs decent RAM\n- the quantized Ollama version is around 6.6GB to download\n- local speed depends on your laptop or GPU\n- use the 4b or 2b version if 9b feels slow\n- 1M context needs extra configuration, it is not the default\n- local AI is free, but your electricity and hardware are not\n\n> this is better than another 7-day AI trial because you can run it forever\n\nbookmark this if you want a strong local AI setup without paying monthly API bills",
-"likeCount": 26,
-"retweetCount": 2,
-"url": "https://x.com/TheMaran/status/2071466196801851432",
-"createdAt": "Mon Jun 29 05:30:01 +0000 2026"
-},
-{
-"userName": "DanKornas",
-"text": "AI app ideas are cheap. Launchable templates are the bottleneck.\n\nAwesome Generative AI Apps is a curated GitHub repo of 50+ open-source generative AI app templates for builders who want to clone, deploy, and adapt AI SaaS products.\n\nIt helps you skip the blank Next.js project by grouping templates for image, video, beauty/fashion, e-commerce, writing, agents, audio, and integrations, with setup and deploy paths already documented.\n\nKey features:\n\n• 50+ app templates – cloneable products across image generation, video generation, virtual try-on, product photography, content, agents, and more\n• SaaS plumbing included – README highlights Stripe billing, Google OAuth, Prisma/PostgreSQL, credit balances, and job history\n• Vercel deployment path – templates point to Deploy to Vercel buttons and a quick-start flow\n• Category navigation – table of contents lets you scan by use case instead of hunting through random demos\n• MIT license – repo metadata and README both mark it as MIT licensed for reuse and adaptation\n\nIt’s open-source (MIT license).\n\nLink in the reply 👇",
-"likeCount": 57,
-"retweetCount": 13,
-"url": "https://x.com/DanKornas/status/2070671189077279166",
-"createdAt": "Sat Jun 27 00:50:57 +0000 2026"
-},
-{
-"userName": "burkov",
-"text": "Diffusion language models, which generate text by repeatedly filling in masked parts rather than writing strictly from left to right, are becoming a serious alternative to standard transformer language models, but the usual ways of improving reasoning after training were built for left-to-right generation and do not fit the diffusion models.\n\nThe authors of this paper introduce a self-training method in which the model first produces its own answer, then uses parts of that completed answer as helpful context while learning how earlier denoising steps should behave.\n\nInstead of comparing teacher and student one next token at a time, it compares them at each denoising step, which matches how diffusion language models actually generate text. \n\nAcross math and planning tasks, d-OPSD matches or beats supervised finetuning and reinforcement-learning baselines, while needing far fewer optimization steps than the main RL baseline.\n\nhttps://t.co/eRqYj4YPwi",
-"likeCount": 39,
-"retweetCount": 5,
-"url": "https://x.com/burkov/status/2071421998589198554",
-"createdAt": "Mon Jun 29 02:34:24 +0000 2026"
-},
-{
-"userName": "MubarakAbd73376",
-"text": "Alpha o clock ⏰️\n\nFor collectors who appreciate unique art, here's an early one worth watching \n\nIntroducing @Frag_Growth\n\nThe project is led by @jenyavyguzov, a fashion photographer and visual artist with over a decade of experience working across Europe and Asia.\n\nHis portfolio includes collaborations with Vogue, GQ Style, Elle, Puma, IKEA, Tatler, Davines, and more.\n\nRather than relying on generative AI, every artwork is carefully built by hand through photography, layering, collage, and composition.\n\nA fresh artist entering the onchain space with a visual language refined over 10+ years.\n\nWL applications are now open: https://t.co/mjBUdNLPLg",
-"likeCount": 17,
-"retweetCount": 4,
-"url": "https://x.com/MubarakAbd73376/status/2069463417958584729",
-"createdAt": "Tue Jun 23 16:51:42 +0000 2026"
-},
-{
-"userName": "breadli428",
-"text": "🎯 Limitations:\n\nRL finetuning is necessary for stability but sacrifices motion diversity enabled by diffusion motion generator. Motion generation on-the-fly is challenging at OOD cases and can still lead to infeasible (physically or untrackable) references.",
-"likeCount": 41,
-"retweetCount": 0,
-"url": "https://x.com/breadli428/status/2070215859688145190",
-"createdAt": "Thu Jun 25 18:41:38 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @JoelDeTeves: Looks like Llama CPP just merged DFLASH support into main!\n\nI wonder how this will stack up against MTP 👀\n\nhttps://t.co/ON…",
-"likeCount": 43,
+"userName": "markstrong_07",
+"text": "How to use Claude in 25 different ways:\n\n(takes 60 seconds to read, saves you 60 hours)\n\n1. Bookmark this image. You'll need it tomorrow.\n2. Full guide + prompts at: https://t.co/CMWuI4VO4N.\n3. Don't pay anything. It's free in the email.\n\n---\n\n1. ASK → Chat\n☑️ Quick questions. Quick answers.\n☑️ Don't use Cowork for \"write a good email?\"\n\n2. THINK → Opus 4.8\n☑️ The smartest model. Always switch to it.\n☑️ For deep work, complex writing & thinking.\n\n3. SPEED → Sonnet 4.6\n☑️ Faster, cheaper, still excellent.\n☑️ Use it for grammar, summaries, short answers.\n\n4. REASON → Extended Thinking\n☑️ Toggle it on for hard problems.\n☑️ Turn it off for simple ones (saves tokens).\n\n5. BUILD → Cowork\n☑️ Where serious work happens. .docx, .xlsx, .pptx.\n☑️ Point it at a folder. It works like an employee.\n\n6. SHIP → Claude Code\n☑️ For developers (and curious non-devs).\n☑️ Build websites and apps from your terminal.\n\n7. MODEL → Claude in Excel\n☑️ Install the add-in from the Excel store.\n☑️ Real formulas, real models, no copy-paste.\n\n8. SLIDES → Gamma connector\n☑️ One prompt. Full presentation. With research.\n☑️ Connect Gamma inside Claude.\n\n9. MOCKUP → Claude Design\n☑️ Go to claude .ai/design. Build websites in 1 hour.\n☑️ Upload a DESIGN .md. Export to Canva, PDF.\n\n10. BROWSE → Claude in Chrome\n☑️ A browsing agent. Reads any page for you.\n☑️ Acts inside the browser, not just talks about it.\n\n11. CLICK → Computer Use\n☑️ Settings > Turn it on.\n☑️ Claude clicks, types, browses on your Mac.\n\n12. REMOTE → Dispatch\n☑️ Connect your phone. Text a task.\n☑️ It works on your computer while you're away.\n\n13. SEARCH → Web Search\n☑️ Click the '+'. turn it on.\n☑️ It reads the live web before answering.\n\n14. INVESTIGATE → Research\n☑️ For deep multi-source reports.\n☑️ 13 minutes. 50+ sources. One markdown file.\n\n15. TRIGGER → Skills\n☑️ \"Use the skill-creator to build a skill for [task].\"\n☑️ Type /skill. It fires automatically.\n\n16. STACK → Plugins\n☑️ Cowork > Customize > Browse Plugins.\n☑️ Bundles of skills for marketing, legal, sales.\n\n17. PERSIST → Projects\n☑️ One Project per recurring deliverable.\n☑️ Upload one gold-standard example.\n\n18. AUTOMATE → Scheduled Tasks\n☑️ Every Monday at 7am, Claude runs your report.\n☑️ Set it up once. No manual work. \n\n19. CONNECT → Connectors\n☑️ Gmail, Drive, Slack, Notion, Granola, Calendar.\n☑️ 50+ apps. Claude reads, writes & acts inside.\n\n20. RENDER → Artifacts\n☑️ Side pane where Claude opens charts, docs.\n☑️ Interactive. Editable. Shareable.\n\n21. VOICE → Custom Styles\n☑️ Set \"Concise\" or build your own.\n☑️ Saves you from re-explaining your voice.\n\n22. SHARE → Team Projects\n☑️ Same Project. Whole team inside.\n☑️ Skills, files, instructions. Shared once.\n\n23. GUARD → Global Instructions\n☑️ Settings > Cowork > Global Instructions.\n☑️ Tell Claude what to always do.\n\n24. ORGANIZE → Obsidian Vault\n☑️ Free app. Opens your Cowork folder neatly.\n☑️ Edit files like Google Docs.\n\n25. BRIEF → about-me file.\n☑️ One md. file. Under 2,000 words.\n☑️ Your style, your rules, your voice\n\nFollow @markstrong_07",
+"likeCount": 29,
 "retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2071449102789796042",
-"createdAt": "Mon Jun 29 04:22:06 +0000 2026"
+"url": "https://x.com/markstrong_07/status/2071958468941193603",
+"createdAt": "Tue Jun 30 14:06:08 +0000 2026"
+},
+{
+"userName": "stevehou",
+"text": "Hasn’t the US already outspent China on AI by a factor of 10? China recently announced $295B capex fund over 5 years, which is less than half of what the US spends in 2026. It’s prob more in PPP terms but US AI capex is clearly not constrained by the short-sightedness of financial media panicking. \n\nAI buildout in the US, if it's been constrained at all, it's certainly not by the formidable cost or investor and media pressure, but by the physical limitations of power, land and groundswell resistance. Fundamentally, this speaks to America’s limited AI supply elasticity, esp when trying to do so much in a hurry. \n\nTherein lies the problem. The US has a supply elasticity problem. Most of the hardware (chips, memory, networking) is imported by ally countries also with limited supply elasticities. Domestic grid is dilapidated and ramping up power generation has been a struggle. \n\nAnd the inflation pressure that ensues from AI capex also speaks to supply elasticity as AI competes with other use cases over the same input. Inflation also in turn worsens groundswell local opposition. \n\nChina on the other hand has ample supply elasticity, which has become a signature strength due to the extensive, deep and flexible domestic supply chain. It also has the world’s most advanced ultra high voltage electrical grid network. Power isn’t a constraint for China. China’s constraint is advanced GPUs and EUV machines that have been embargoed. \n\nChina has also been further constrained by the fact that AI is just a super expensive and speculative bet with unknown or highly uncertain ROI. If we leave aside govt's push to build out China's own chip industry that started much earlier, China's AI effort so far has been mostly private sector driven.\n\nChina's risk capital and investors have lower risk tolerance than their American counterparts and don't want to commit capital to projects without clear path to ROI. Until recently, China incl its tech firms have been watching the US aggressive push into AI somewhat skeptically even as it makes its own push following the US's footsteps in typical fashion. \n\nSo I think this idea of AI as a capex arms race, which attractively maps to the US-USSR Cold War competition, is invalid for the present context. The US and China are running very different races with different conditions. The fact that China is keeping up while doing almost the same things much more efficiently and cheaply seems to be driving folks here a little mad. Always better to run your own race.",
+"likeCount": 61,
+"retweetCount": 1,
+"url": "https://x.com/stevehou/status/2071924384185360850",
+"createdAt": "Tue Jun 30 11:50:42 +0000 2026"
+},
+{
+"userName": "andreajenkyns",
+"text": "Fantastic visit to @riseholmecampus today! \n\n​This place is an absolute hidden gem of hands-on education. I was completely blown away by their incredible use of AI, robotics, and advanced tech. \n\nGetting to try out their cutting-edge VR setup and Virtual Tractor Simulation was just mind-blowing! \n\nI also loved jumping on a real tractor... and I am very pleased to report I didn't write either of them off!\n​\nWhether it is testing out VR gardening or visiting their brilliant animal zoo, everything they do here is about giving students real, practical experience.\n​\nSeeing this in action proves why we need to completely smash the academic snobbery in this country. It is total nonsense that people look down on vocational learning. \n\nWe cannot expect students to sit at desks for six hours straight just memorising facts when they could be gaining real, common-sense skills for the real world.\n\n​Riseholme is showing everyone exactly how it should be done. \n\nThey are so committed to opening doors that they even spend around a million pounds each year, funding buses to get students to college to learn these vital trades. \n\nLet's get on with backing real skills for the next generation! 🇬🇧",
+"likeCount": 79,
+"retweetCount": 25,
+"url": "https://x.com/andreajenkyns/status/2071693617299923361",
+"createdAt": "Mon Jun 29 20:33:43 +0000 2026"
+},
+{
+"userName": "TropadaDrih",
+"text": "🌸 Alpha - Fragments of Growth\n\nA decade of travel, memories, and textures - now brought on-chain.\n\nCreated by fashion photographer and visual artist Jenya Vyguzov, the collection transforms textures captured across years of travel into handcrafted collage flowers , each petal representing a place, memory, or moment. No AI, no generative outputs, every piece is individually composed by hand.\n\nWhat stands out here is the artist behind it. Jenya has spent over a decade working with brands like Vogue, GQ Style, Tatler, Elle, Puma, and IKEA, while building a distinctive visual language. His work was even selected for the official Paris Prints Textile Show poster, where he was given an entire floor for a solo exhibition.\n\n⚠️ WL applications are coming soon. If you're interested in art NFTs, this is the stage where you want to be paying attention. Follow the artist and the project, turn on notifications, and be ready when WL applications open.\n\n🔎Mint Details TBA\n\nArtist: https://t.co/DEvt1XLMFT\nX: https://t.co/6OOiKethL4\nWebsite: https://t.co/jGHO851Soh\n\ndyor/nfa",
+"likeCount": 22,
+"retweetCount": 12,
+"url": "https://x.com/TropadaDrih/status/2069895412907962375",
+"createdAt": "Wed Jun 24 21:28:17 +0000 2026"
+},
+{
+"userName": "karlmehta",
+"text": "Andrej Karpathy explains why RLHF needed a cheat code.\n\nThe naive version sounds simple: show humans model outputs and ask them to score which ones are good.\n\nThen he does the math:\n\n\"I want to do 1,000 updates, where each update will be on 1,000 prompts, and for each prompt we're going to have 1,000 rollouts that we're scoring.\"\n\n\"I will need to ask a human to evaluate a joke a total of 1 billion times.\"\n\n\"That's a lot of people looking at really terrible jokes, so we don't want to do that.\"\n\nThe trick is indirection:\n\n\"We're going to involve humans just a little bit, and the way we cheat is that we basically train a whole separate neural network that we call a reward model.\"\n\nThat is the hidden abstraction behind RLHF:\n\nHumans do not scale the feedback loop.\nA model trained to imitate human preference scales it.",
+"likeCount": 20,
+"retweetCount": 11,
+"url": "https://x.com/karlmehta/status/2070477259962810846",
+"createdAt": "Fri Jun 26 12:00:21 +0000 2026"
+},
+{
+"userName": "max_simchowitz",
+"text": "As a PhD student, I was told not to work on deep RL - too full of hacks and alchemy\" But after a year or two of working in this area, I’ve come to (deeply?) appreciate all of the thoughtful research that’s gone into understanding what/why things work and how to make them better.\n\nMy lab (joint with @abhishekunique7) took what we’ve learned by reading this body of literature to answer the question: what are the actual best-practices for finetuning a diffusion/flow/generative robot policy (for now, in sim)? Under one set of constraints - ample compute but limited time on your robot - @servo97  paper gives a pretty compelling answer.",
+"likeCount": 227,
+"retweetCount": 24,
+"url": "https://x.com/max_simchowitz/status/2072022261100679253",
+"createdAt": "Tue Jun 30 18:19:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ndstudio: Today, we are releasing Rampart: a 14.7MB machine learning model designed to protect citizens’ privacy by redacting personal…",
-"likeCount": 4725,
-"retweetCount": 583,
-"url": "https://x.com/ClementDelangue/status/2071702833259327630",
-"createdAt": "Mon Jun 29 21:10:20 +0000 2026"
+"text": "RT @RajeswarSai: 𝗚𝗟𝗠-𝟱.𝟮 (the latest open weights model) is having an Enterprise moment, and it is not an exaggeration.🚀 🔥\n\nWe have been im…",
+"likeCount": 76,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2072068938926617018",
+"createdAt": "Tue Jun 30 21:25:06 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @theinformation: Open source AI is gaining traction due to the White House’s clampdown on Anthropic &amp; OpenAI. \n\n“A lot of founders and d…",
+"likeCount": 107,
+"retweetCount": 30,
+"url": "https://x.com/ClementDelangue/status/2071730628706386243",
+"createdAt": "Mon Jun 29 23:00:47 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @MTSlive: SITUATION EXPLAINED: What even is a distillation attack?\n\n@DanielleFong, founder of LightCell Energy:\n\n\"I understand you don't…",
+"likeCount": 49,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2071741999783285050",
+"createdAt": "Mon Jun 29 23:45:58 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @sun_hanchi: https://t.co/gPwut02Ilj\n\nPeople are missing out on how big a deal Longcat 2.0 by Meituan (aka \"Chinese Doordash\") is. \n\nNea…",
-"likeCount": 237,
-"retweetCount": 19,
-"url": "https://x.com/jeremyphoward/status/2071732096465551388",
-"createdAt": "Mon Jun 29 23:06:37 +0000 2026"
+"text": "RT @Yuchenj_UW: GLM-5.2 is the open-source Claude moment.\n\nThe demand we’re seeing at Databricks is astonishing. The world is going to see…",
+"likeCount": 3691,
+"retweetCount": 333,
+"url": "https://x.com/jeremyphoward/status/2071439263317770715",
+"createdAt": "Mon Jun 29 03:43:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @badlogicgames: omg it's basically pi, but more minimal for educational purposes and in python. @marlene_zw is gonna love this. great ed…",
-"likeCount": 919,
-"retweetCount": 40,
-"url": "https://x.com/ClementDelangue/status/2071344942253805592",
-"createdAt": "Sun Jun 28 21:28:12 +0000 2026"
+"text": "RT @mattyp: You can embed this model practically anywhere - like a chrome extension\n\nThis is transformersjs + rampart for real-time PII rem…",
+"likeCount": 96,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2071989199541076183",
+"createdAt": "Tue Jun 30 16:08:15 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @MattZirwas: The take that frontier models aren't ready for use in medicine is dead wrong.\n\nI've been using Opus 4.x in my clinical work…",
-"likeCount": 391,
+"likeCount": 394,
 "retweetCount": 56,
 "url": "https://x.com/jeremyphoward/status/2071361979026112797",
 "createdAt": "Sun Jun 28 22:35:54 +0000 2026"
 },
 {
-"userName": "ykilcher",
-"text": "join us tonight on discord to chat about \"Generalization in Nonlinear Least Squares via Learned Feature Geometry\". 6pm UTC https://t.co/5EPnAc4f9L",
-"likeCount": 11,
-"retweetCount": 2,
-"url": "https://x.com/ykilcher/status/2070917952052838737",
-"createdAt": "Sat Jun 27 17:11:30 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @ZixuanLi_: GLM-5.2 is now @Zai_org's most-liked model on Hugging Face of all time.\nhttps://t.co/qFgxVrzer8 https://t.co/SIS5y0BEN1",
+"likeCount": 856,
+"retweetCount": 40,
+"url": "https://x.com/ClementDelangue/status/2071792027797237951",
+"createdAt": "Tue Jun 30 03:04:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @sriramk: The USG launching models on Hugging Face. Go @jgebbia",
-"likeCount": 159,
-"retweetCount": 11,
+"likeCount": 167,
+"retweetCount": 12,
 "url": "https://x.com/ClementDelangue/status/2071712711298167190",
 "createdAt": "Mon Jun 29 21:49:35 +0000 2026"
-},
-{
-"userName": "TheFIREorg",
-"text": "https://t.co/qhk0npaCqA",
-"likeCount": 125,
-"retweetCount": 53,
-"url": "https://x.com/TheFIREorg/status/2071655969382072537",
-"createdAt": "Mon Jun 29 18:04:07 +0000 2026"
 }
 ]
