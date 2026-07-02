@@ -1,122 +1,154 @@
 [
 {
-"userName": "shushant_l",
-"text": "I'm shocked most websites still rely on outdated SEO strategies.\n\nHere's the complete AI SEO framework to rank in search, AI Overviews, ChatGPT, and more.\n\n---\n\n📂 AI SEO\n┃\n┣ 📂 Foundation\n┃ ┣ 📂 What AI SEO Is\n┃ ┣ 📂 AI Search Platforms\n┃ ┣ 📂 AI Citations\n┃ ┣ 📂 Brand Visibility\n┃ ┗ 📂 Ranking Goals\n┃\n┣ 📂 Technical SEO\n┃ ┣ 📂 HTTPS\n┃ ┣ 📂 Mobile Friendly\n┃ ┣ 📂 Fast Website\n┃ ┣ 📂 XML Sitemap\n┃ ┣ 📂 robots.txt\n┃ ┣ 📂 Clean URLs\n┃ ┣ 📂 Canonical URLs\n┃ ┣ 📂 Crawlable Pages\n┃ ┗ 📂 Indexable Pages\n┃\n┣ 📂 Keyword Research\n┃ ┣ 📂 Informational\n┃ ┣ 📂 Commercial\n┃ ┣ 📂 Transactional\n┃ ┣ 📂 Navigational\n┃ ┣ 📂 Long Tail\n┃ ┗ 📂 Question Keywords\n┃\n┣ 📂 Search Intent\n┃ ┣ 📂 Learn\n┃ ┣ 📂 Compare\n┃ ┣ 📂 Buy\n┃ ┗ 📂 Navigate\n┃\n┣ 📂 Topical Authority\n┃ ┣ 📂 Topic Clusters\n┃ ┣ 📂 AI Tools\n┃ ┣ 📂 AI Agents\n┃ ┣ 📂 AI SEO\n┃ ┣ 📂 AI Automation\n┃ ┗ 📂 AI Business\n┃\n┣ 📂 Content Creation\n┃ ┣ 📂 Helpful Content\n┃ ┣ 📂 Original Research\n┃ ┣ 📂 Experience Based\n┃ ┣ 📂 Actionable Advice\n┃ ┣ 📂 Real Examples\n┃ ┗ 📂 Avoid AI Spam\n┃\n┣ 📂 E-E-A-T\n┃ ┣ 📂 Experience\n┃ ┣ 📂 Expertise\n┃ ┣ 📂 Authoritativeness\n┃ ┗ 📂 Trustworthiness\n┃\n┣ 📂 Content Structure\n┃ ┣ 📂 Question First\n┃ ┣ 📂 Short Answers\n┃ ┣ 📂 Detailed Explanations\n┃ ┣ 📂 Examples\n┃ ┗ 📂 FAQs\n┃\n┣ 📂 Formatting\n┃ ┣ 📂 H1-H3 Headings\n┃ ┣ 📂 Bullet Lists\n┃ ┣ 📂 Numbered Steps\n┃ ┣ 📂 Checklists\n┃ ┗ 📂 Comparisons\n┃\n┣ 📂 Original Value\n┃ ┣ 📂 Case Studies\n┃ ┣ 📂 Research\n┃ ┣ 📂 Templates\n┃ ┣ 📂 Frameworks\n┃ ┣ 📂 Benchmarks\n┃ ┗ 📂 Real Examples\n┃\n┣ 📂 On Page SEO\n┃ ┣ 📂 Optimized Title\n┃ ┣ 📂 Meta Description\n┃ ┣ 📂 Internal Links\n┃ ┣ 📂 Image Alt Text\n┃ ┗ 📂 Descriptive URLs\n┃\n┣ 📂 Structured Data\n┃ ┣ 📂 Article\n┃ ┣ 📂 FAQ\n┃ ┣ 📂 HowTo\n┃ ┣ 📂 Product\n┃ ┣ 📂 Review\n┃ ┣ 📂 Organization\n┃ ┣ 📂 Person\n┃ ┣ 📂 Video\n┃ ┗ 📂 Local Business\n┃\n┣ 📂 Entity SEO\n┃ ┣ 📂 Brand Authority\n┃ ┣ 📂 Founder Profile\n┃ ┣ 📂 Products\n┃ ┣ 📂 Expertise\n┃ ┗ 📂 Niche Signals\n┃\n┣ 📂 Local SEO\n┃ ┣ 📂 Google Business Profile\n┃ ┣ 📂 Reviews\n┃ ┣ 📂 NAP Consistency\n┃ ┣ 📂 Local Landing Pages\n┃ ┗ 📂 Local Schema\n┃\n┣ 📂 Ecommerce SEO\n┃ ┣ 📂 Product Titles\n┃ ┣ 📂 Descriptions\n┃ ┣ 📂 Images\n┃ ┣ 📂 Reviews\n┃ ┣ 📂 FAQs\n┃ ┣ 📂 Specifications\n┃ ┗ 📂 Merchant Feeds\n┃\n┣ 📂 Content Updates\n┃ ┣ 📂 Refresh Every 3 to 12 Months\n┃ ┣ 📂 Update Statistics\n┃ ┣ 📂 Add Examples\n┃ ┣ 📂 Update Screenshots\n┃ ┗ 📂 Fix Links\n┃\n┣ 📂 Link Building\n┃ ┣ 📂 Research\n┃ ┣ 📂 Guest Posts\n┃ ┣ 📂 Digital PR\n┃ ┣ 📂 Partnerships\n┃ ┗ 📂 Original Data\n┃\n┣ 📂 User Experience\n┃ ┣ 📂 Fast Website\n┃ ┣ 📂 Simple Navigation\n┃ ┣ 📂 Mobile Friendly\n┃ ┣ 📂 Readable Design\n┃ ┗ 📂 Accessibility\n┃\n┣ 📂 Performance Tracking\n┃ ┣ 📂 Organic Traffic\n┃ ┣ 📂 Keyword Rankings\n┃ ┣ 📂 AI Citations\n┃ ┣ 📂 CTR\n┃ ┣ 📂 Conversions\n┃ ┣ 📂 Indexed Pages\n┃ ┗ 📂 Core Web Vitals\n┃\n┣ 📂 Common Mistakes\n┃ ┣ 📂 Ignoring Search Intent\n┃ ┣ 📂 Weak Technical SEO\n┃ ┣ 📂 Thin Content\n┃ ┣ 📂 Outdated Pages\n┃ ┣ 📂 No Internal Links\n┃ ┣ 📂 Missing Schema\n┃ ┣ 📂 No Original Insights\n┃ ┗ 📂 Slow Website\n┃\n┣ 📂 AI SEO Myths\n┃ ┣ 📂 SEO Is Dead\n┃ ┣ 📂 AI Markup Required\n┃ ┣ 📂 LLMs.txt Improves Rankings\n┃ ┗ 📂 AI SEO Starts With Great SEO\n┃\n┣ 📂 AI SEO Checklist\n┃ ┣ 📂 Fast Website\n┃ ┣ 📂 Mobile Friendly\n┃ ┣ 📂 HTTPS\n┃ ┣ 📂 XML Sitemap\n┃ ┣ 📂 Helpful Content\n┃ ┣ 📂 Topic Clusters\n┃ ┣ 📂 Internal Links\n┃ ┣ 📂 Schema Markup\n┃ ┣ 📂 Fresh Content\n┃ ┣ 📂 Original Research\n┃ ┣ 📂 Optimized Images\n┃ ┣ 📂 FAQs\n┃ ┣ 📂 Brand Authority\n┃ ┗ 📂 Performance Tracking\n┃\n┗ 📂 Golden Rules\n┣ 📂 Write for People First\n┣ 📂 Solve Complete Problems\n┣ 📂 Build Topical Authority\n┣ 📂 Publish Original Insights\n┣ 📂 Keep Content Updated\n┣ 📂 Use Structured Data\n┣ 📂 Strengthen Your Brand\n┣ 📂 Focus on User Experience\n┣ 📂 Maintain Strong Technical SEO\n┗ 📂 Great AI SEO Begins With Great SEO",
-"likeCount": 42,
-"retweetCount": 7,
-"url": "https://x.com/shushant_l/status/2071519057313161474",
-"createdAt": "Mon Jun 29 09:00:04 +0000 2026"
-},
-{
-"userName": "Jiggz1975",
-"text": "What Stays ? @Frag_Growth . \n\nThe library was on the ground floor of the building where he grew up. His father went there for detective novels.\n\n@jenyavyguzov went for something else.\n\nArt books. Fashion magazines. Images from worlds he couldn't yet explain, only feel.\n\nHe was born in Krasnoyarsk, Siberia, into a working-class family. Far from the cities those magazines came from, but close enough to imagine them.\n\nHe began collecting discarded pages, cutting people, landscapes and textures into collages that gave shape to feelings he didn't yet have words for.\n\nHis family imagined a more practical future. He tried financial college, left after two years, worked as a waiter, sold advertising, and kept making art whenever life allowed him to.\n\nEventually, fashion took him abroad as a model.\n\nThe job paid the bills. The cities changed his life.\n\n~ The Flower That Stayed\n\nTravel gave Jenya something more valuable than opportunity.\n\nIt taught him to look.\n\nEvery city carried its own language cracked walls, peeling paint, worn concrete, rusted metal, forgotten surfaces shaped by years of weather and people passing through.\n\nMost saw decay, He saw texture.\n\nHe photographed everything. Without realizing it, he was building an archive.\n\nIn 2015, a flower appeared in his work.\n\nIt has never left, Not painted, Not illustrated. BUILT. \n\nEvery petal is assembled by hand from photographs of real textures collected across Europe and Asia. Walls become petals. Rust becomes color. Concrete becomes softness. Places that had never met find themselves blooming together.\n\nA visual diary disguised as a flower.\n\nYears later came Vogue, GQ Style, Tatler, Elle, Adidas, Puma, Lacoste, IKEA, exhibitions across Europe, educational lectures, and an invitation to create the official artwork for the Paris Prints Textile Show.\n\nThe recognition mattered.\n\nBut the process never changed.\n\nHe still builds the same way he always has.\n\nOne fragment at a time.\n\n~ Fragments of Growth Is Not a just a Collection. \n\nIt is a language built over more than a decade. Every flower is assembled by hand from photographs of real textures Jenya captured across cities and forgotten surfaces around the world. No generative AI. No algorithms. Just fragments, collected over time and composed into something entirely new.\n\nThe blockchain is simply where that journey continues. \n\nThrough limited drops, evolving collector mechanics, and works from Jenya's personal archive, Fragments of Growth invites others into the story. Because every petal remembers a place, every texture remembers time, and every artwork proves the same quiet idea, beauty isn't created it is discovered.\n\n@Frag_Growth is that film, one petal at a time. 🌸",
-"likeCount": 28,
+"userName": "tslaming",
+"text": "In the latest insightful interview, @herbertong and @thejefflutz sat down with @larsmoravy, Tesla’s Vice President of Vehicle Engineering. They dove deep into behind-the-scenes details regarding the CyberCab's massive scale, the transition to Optimus manufacturing, and how Tesla is actively implementing real-world AI across its operations 🔥\n\nIf you don't have time to watch the full interview, here's a complete breakdown of all the key insights that you don't want to miss:\n\n1⃣ NEW PRODUCTS: CYBERCAB & OPTIMUS\n\n📅 A major scaling announcement is teased for an upcoming Tuesday.\n\nThere will be significant news regarding scaling and new developments at the Texas campus.\n\n\"In a week from Tuesday, there will be some cool news about things happening on the Texas campus. I can't talk about it right now, but it's part of the scaling effort.\"\n\n🚕 The CyberCab production and test ramp-up is built entirely for unprecedented scale.\n\nThe production lines are fully installed, and the vehicles are currently running through a rigorous burn-in process to catch early manufacturing issues and prepare for massive volume.\n\n\"In order to scale at the level we want, you have to build things and test them, and build them again and test them. Every unit we build is not just a production unit; it's also a test unit.\"\n\n💰 The unprecedented efficiency and cost structure of the CyberCab are widely underestimated.\n\nWall Street analysts significantly underestimate the end-to-end efficiency because Tesla started with a clean sheet of paper rather than retrofitting existing cars with computers.\n\n\"It's efficiency in the end-to-end process, from raw material to the vehicle out, in terms of cost. Waymo is buying a car and then putting a bunch of compute on top, and that's probably not efficient enough.\"\n\n🏭 The unboxed manufacturing model allows for an incredibly compact final assembly line.\n\nThis revolutionary approach utilizes only 20 to 25 cells instead of the traditional 200, which yields a ridiculous output per square meter.\n\n\"Everyone was saying 'no way'—lines feeding lines, material in one end, cars out the other. The final line is only 20 to 25 cells. Final GA is normally 200 cells, so your output per square meter is ridiculous.\"\n\n⚖️ The engineering team is obsessively focused on stripping out unnecessary mass and wattage to improve downstream unit economics.\n\nLars highlighted that every gram and watt-hour saved stacks into massive financial benefits at scale.\n\n\"With mass efficiency, it's a thankless job to take a gram out of a part or a watt-hour out of a car. But you look at the trail of what it impacts downstream in the whole unit economic stack, and it's incredible.\"\n\n🤖 The Optimus production ramp is actively happening at the Fremont factory.\n\nSpace is being cleared, and they are already installing the first modular automation line from Germany.\n\n\"Our first line has landed, so we've already started to install that. We have 40 more to go, so we have a long way to go.\"\n\n🦾 The Optimus humanoid form factor is driven by functional safety and human acceptance.\n\nOptimus requires strict functional safety designs making it far more akin to a car than consumer electronics, and its initial humanoid form is intended to build public acceptance.\n\n\"It has to feel like it belongs in our space, and then people will get used to it. Once people get used to the idea of having robots in the workplace or the home, then I think you'll see some expansion into the R2-D2 world.\"\n\n---\n\n2⃣ AI INNOVATIONS & TECHNOLOGY\n\n👂 A feature called full self-hearing is used for autonomous quality control.\n\nTesla vehicles drive themselves off the production line and use internal microphones to autonomously detect, document, and report manufacturing defects.\n\n\"They also go over the bump, squeak, and rattle track, listen to the noises, document them, and tell the people what to fix. We call it full self-hearing.\"\n\n🧠 An internal AI agent has been created to aggregate decades of engineering lessons and test data to accelerate problem-solving.\n\nRather than digging through physical files or tracking down veteran engineers, the team now uses AI to instantly query historical data on past component failures.\n\n\"We've coagulated all that internal data about lessons learned into its own AI agent to put at the engineers' fingertips. We used to call it the orange files because you had to pull out the paper and put it under the microfiche.\"\n\n🏭 Artificial intelligence now thinks across factory systems to prevent defects.\n\nAI empowers isolated factory systems to communicate with one another, allowing downstream scanning data to instantly adjust upstream manufacturing tolerances.\n\n\"All these systems used to talk to each other, but they didn't think to each other. Now they're thinking to each other. They're saying, 'Hold on, this is happening downstream; we can change this upstream.' \"\n\n🔮 The real-world artificial intelligence future will be mind-blowing.\n\nThe volume of physical artificial intelligence deployed by Tesla over the next five years will fundamentally change how humanity lives and operates.\n\n\"I think the amount of real-world AI that's going to be around you because of us is going to be mind-blowing.\"\n\n---\n\n3⃣ CULTURE, OPERATIONS & INTEGRATION\n\n😨 The deep scars from production hell drive rigorous virtual commissioning.\n\nThe organizational trauma from the Model 3 ramp drove the engineering team to test thoroughly before bringing the CyberCab lines online.\n\n\"It's just fear. Those of us in leadership who were here for production hell never want to go back. The scars are deep, unhealable scars.\"\n\n🤝 Radical engineering integration prevents over-the-wall handoffs.\n\nTesla achieves efficiency by ensuring manufacturing, automation, and design engineers sit together and operate as one unified team led by engineers instead of management executives.\n\n\"We are one engineering team—manufacturing, automation, and design. There are organizational management structures, but they don't throw it over the wall.\"\n\n🏢 Tesla maintains a highly flat organizational structure where engineers lead engineers without layers of program managers.\n\nThe company empowers its engineering teams by removing middle management, ensuring that decisions are made quickly by leaders who deeply understand the technical details.\n\n\"We've always promoted engineers to lead engineers. We do not have layers of program managers and product managers; the people that are in charge understand it at a level that doesn't necessarily exist everywhere.\"\n\n🏆 Tesla's relentless focus on manufacturing data has resulted in a top-three ranking in the recent J.D. Power Initial Quality Study.\n\nBy tightly integrating their systems to share quality control information across the factory floor, they have achieved historic highs in third-party quality rankings.\n\n\"I just saw that the J.D. Power came out with us like two days ago. We're like number three in IQS now. It's getting the information to the people that need it that is paramount.\"\n\n🔗 Tesla relies on deep vertical integration and designing their own circuit boards to navigate global supply chain crises.\n\nUnlike legacy automakers who buy off-the-shelf parts, Tesla's in-house knowledge allowed them to actively redesign components over the phone to bypass chip shortages during COVID.\n\n\"The fact we designed all our own PCBs helped us through COVID and the chip crisis. I don't think anyone really had a level of understanding of their boards except for a company like us.\"\n\n🚀 Tesla and SpaceX operate with a shared mindset and hardware integration.\n\nThis collaboration is evidenced by plans to integrate Starlink into rural CyberCabs and SpaceX's current use of Tesla drive units on Starship.\n\n\"I think Starlink is an obvious choice for CyberCab in rural areas. If you look at Starship, it's not a high-volume product, but they use our drive units on it.\"\n\n---\n\n4⃣ AUTONOMY & SAFETY\n\n🛡️ Public acceptance of autonomous driving will rely entirely on firsthand experience rather than advertising or media narratives.\n\nLars emphasized that safety is always Tesla's top priority, but acknowledging that autonomous vehicles are a paradigm shift, he likened the adoption curve to humanity getting used to airplanes.\n\n\"Public sentiment has to come with experience. People are scared of flying until they fly. You can tell your neighbor all you want about it, but until they're willing to get in and try, they're never going to be fully non-skeptical.\"",
+"likeCount": 41,
 "retweetCount": 5,
-"url": "https://x.com/Jiggz1975/status/2070217536705319068",
-"createdAt": "Thu Jun 25 18:48:18 +0000 2026"
+"url": "https://x.com/tslaming/status/2072312027436216341",
+"createdAt": "Wed Jul 01 13:31:03 +0000 2026"
 },
 {
-"userName": "raycrypto_1",
-"text": "Top AI Training Platforms Open to Nigerians (2026)\n\n1. Outlier AI — Best paying overall\nPays $15–$40/hour depending on your expertise. Great for STEM, law, medicine, finance, and creative writing specialists. Apply at outlier. ai.\n\n2. Mindrift AI — Best for beginners\nConnects professionals with AI companies to write prompts, correct responses, and improve accuracy. Pays around $300/week via Payoneer (available to Nigerians).\n\n3. Data Annotation Tech — Best for high earners\nPays $35–$65/hour based on skill level. No tech experience needed, but you must be detail-oriented. Requires a laptop and stable internet.\n\n4. Pareto AI — Best for career progression\nStart with simple review tasks and move up to advanced projects. Pays weekly via PayPal (available in Nigeria), with bonuses for accurate contributors.\n\n5. Remotasks — Best for beginners building up\nFocuses on image labeling, LiDAR annotation, and AI response evaluation. Beginners earn $3–$8/hour, rising to $10–$15/hour with experience. Pays via Payoneer weekly.\n\n6. Clickworker — Best for variety\nTasks include text creation, audio transcription, image tagging, and web research. Basic tasks pay $3–$7/hour; complex tasks pay $8–$15/hour. Also gives access to Microsoft's UHRS platform.\n\n7. OpenTrain AI — Best for freelancers\nA marketplace where you set your own rates and work across multiple clients. Payments go through a secure escrow system with fast payouts, usually within a day.\n\n8. OneForma (Pactera EDGE) — Best for language tasks\nGreat for data annotation, search relevance evaluation, and linguistic QA. Basic tasks pay $5–$10/hour; specialized language projects pay significantly more.",
-"likeCount": 24,
-"retweetCount": 6,
-"url": "https://x.com/raycrypto_1/status/2071876752998068293",
-"createdAt": "Tue Jun 30 08:41:26 +0000 2026"
+"userName": "NongZonNanny",
+"text": "disclaimer: gemini ai trans\n\n**Aoftionz Live Summary**\n\n * **The other day, I asked NongZon (kaijeng) if he was tired.** He replied, “I haven't even started working today,” so I didn't know what to ask next. 😂\n\n * **NuNew’s solo concert is in the plans**, but I really can't spoil anything right now. It will definitely happen within this year. The NuNew brand will not disappoint anyone. Once it's announced, I want everyone to come.\n\n * **The Sports Day event** will feature both sports competitions and special shows.\n\n * **I really like Zee with short hair.** Just the other day, I complimented him, saying he looks younger.\n\n * **For #ZeeNuNewTheReality,** we want you to see sides of them that no one has ever seen before. It has to be truly real.\n\n * **Regarding the lightstick price:** I don't want people to compare it with Korean groups because they produce in massive quantities at a time, and normally, the higher the production volume, the cheaper the cost per unit.\n\n * **For all artists, Fashion Week invitations** usually come in quite last-minute. If an existing schedule can be shifted around, we will do it so the kids can attend. But if we already accepted another job beforehand, we have to fulfill that responsibility. (We also have to look at their schedules and the artists' own preferences, because they might want to focus on other work during that period).\n\n * **I acknowledge the feedback regarding \"recasting/changing actors,\"** but I cannot speak about it here.\n\n * **Feedback has already been sent** regarding the response times/customer service of the DMD Shop.\n\n * *Mon Rak Hug E-Lee* (Isan Love Spell) should be something brand new for the industry. I'm excited about it too. It's definitely going to be *muan* (fun/entertaining).\n\n * **I constantly teach the kids to prioritize manners and respectfulness** (being quick to *wai* and show respect), as it makes them look more endearing. During artist interviews/auditions, we look at their attitude toward fans. We regularly talk with the younger artists to keep ourselves updated and find a middle ground that suits the younger generation today.\n\n * **DMD's current content is highly diverse.** We want everyone to have options that fit their preferences. We are trying to experiment with new things. (I'd prefer if people didn't use the word \"Cringe\" so carelessly, as it might cause some people to lose confidence. Some things might just be down to personal preference).\n\n * **The *The Next Prince* (Khon Fah Kiang Ther) Boxset** might have a few scenes slightly re-edited.\n\n * **Regarding the benefit compensation,** I've already informed the team to announce it as soon as everything is finalized.\n\n * **Squishies?** There will (probably) be some. I want you to wait and see.\n\n * **Engagement from all parties is important**—whether it's from the artists, the staff, or the fans.\n\n * **For the Domundi Cafe,** I really want to collab with Pokémon. My life would truly be complete.\n\n🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍\n\n **#P'Aof's Message to Us:**\n> \"I want everyone to play on X (Twitter) happily. If there's something you can overlook, you should just let it go. Follow your artists mindfully and remember why you started following them in the first place... I'm truly worried about everyone. I don't want you to read certain things and end up feeling discouraged. I really don't want it to be like that.\"\n> \n🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍\n#ZeeNunew\n#ZeePruk\n#Nunew\n#Baby_Nongzon\n#มนต์รักฮักอีหลี\n#HUGELheeTheMusical",
+"likeCount": 97,
+"retweetCount": 32,
+"url": "https://x.com/NongZonNanny/status/2070936071647769078",
+"createdAt": "Sat Jun 27 18:23:30 +0000 2026"
+},
+{
+"userName": "stevehou",
+"text": "Hasn’t the US already outspent China on AI by a factor of 10? China recently announced $295B capex fund over 5 years, which is less than half of what the US spends in 2026. It’s prob more in PPP terms but US AI capex is clearly not constrained by the short-sightedness of financial media panicking. \n\nAI buildout in the US, if it's been constrained at all, it's certainly not by the formidable cost or investor and media pressure, but by the physical limitations of power, land and groundswell resistance. Fundamentally, this speaks to America’s limited AI supply elasticity, esp when trying to do so much in a hurry. \n\nTherein lies the problem. The US has a supply elasticity problem. Most of the hardware (chips, memory, networking) is imported by ally countries also with limited supply elasticities. Domestic grid is dilapidated and ramping up power generation has been a struggle. \n\nAnd the inflation pressure that ensues from AI capex also speaks to supply elasticity as AI competes with other use cases over the same input. Inflation also in turn worsens groundswell local opposition. \n\nChina on the other hand has ample supply elasticity, which has become a signature strength due to the extensive, deep and flexible domestic supply chain. It also has the world’s most advanced ultra high voltage electrical grid network. Power isn’t a constraint for China. China’s constraint is advanced GPUs and EUV machines that have been embargoed. \n\nChina has also been further constrained by the fact that AI is just a super expensive and speculative bet with unknown or highly uncertain ROI. If we leave aside govt's push to build out China's own chip industry that started much earlier, China's AI effort so far has been mostly private sector driven.\n\nChina's risk capital and investors have lower risk tolerance than their American counterparts and don't want to commit capital to projects without clear path to ROI. Until recently, China incl its tech firms have been watching the US aggressive push into AI somewhat skeptically even as it makes its own push following the US's footsteps in typical fashion. \n\nSo I think this idea of AI as a capex arms race, which attractively maps to the US-USSR Cold War competition, is invalid for the present context. The US and China are running very different races with different conditions. The fact that China is keeping up while doing almost the same things much more efficiently and cheaply seems to be driving folks here a little mad. Always better to run your own race.",
+"likeCount": 61,
+"retweetCount": 1,
+"url": "https://x.com/stevehou/status/2071924384185360850",
+"createdAt": "Tue Jun 30 11:50:42 +0000 2026"
 },
 {
 "userName": "Halosznn_",
 "text": "Hiring ‼️\n🎥AI Video Creator\n📍Remote\n💵 Salary: N250,000 naira/month\n\nYou’ll be responsible for turning outfit photos into styled videos on one consistent AI model - she must look realistic, not artificial or “AI-generated.” You’ll maintain her same face, body, and look across all videos while styling her in different outfits based on briefs and creative direction, without needing a human model or physical shoot.\n\nRequirements‼️\n\n•Proficient in AI video generation tools (e.g., Runway, Kling, Luma, Pika, Sora, or similar)\n•Skilled in AI image generation/editing to maintain a consistent, realistic model across videos\n•Strong eye for fashion styling, trends, and aesthetics\n•Able to follow content briefs and recreate TikTok-style formats and pacing\n•Strong attention to detail, clean transitions, consistent lighting/style, no AI artifacts or glitches\n•Reliable and able to deliver on an agreed content schedule\n\nExpectations:\n\n•Maintain one consistent AI model (same face, body, look) across all content\n•Ensure the model looks fully realistic, no obvious or “AI-generated” appearance\n•Ensure movement, gestures, and expressions look smooth and human-like, not stiff or glitchy\n\nHow to Apply:\nSend your portfolio/sample AI-generated videos (fashion content) and a list of tools you work with to aivisualmastery@gmail.com",
-"likeCount": 35,
+"likeCount": 37,
 "retweetCount": 4,
 "url": "https://x.com/Halosznn_/status/2071629563097203056",
 "createdAt": "Mon Jun 29 16:19:11 +0000 2026"
 },
 {
-"userName": "DanKornas",
-"text": "AI app ideas are cheap. Launchable templates are the bottleneck.\n\nAwesome Generative AI Apps is a curated GitHub repo of 50+ open-source generative AI app templates for builders who want to clone, deploy, and adapt AI SaaS products.\n\nIt helps you skip the blank Next.js project by grouping templates for image, video, beauty/fashion, e-commerce, writing, agents, audio, and integrations, with setup and deploy paths already documented.\n\nKey features:\n\n• 50+ app templates – cloneable products across image generation, video generation, virtual try-on, product photography, content, agents, and more\n• SaaS plumbing included – README highlights Stripe billing, Google OAuth, Prisma/PostgreSQL, credit balances, and job history\n• Vercel deployment path – templates point to Deploy to Vercel buttons and a quick-start flow\n• Category navigation – table of contents lets you scan by use case instead of hunting through random demos\n• MIT license – repo metadata and README both mark it as MIT licensed for reuse and adaptation\n\nIt’s open-source (MIT license).\n\nLink in the reply 👇",
-"likeCount": 57,
-"retweetCount": 13,
-"url": "https://x.com/DanKornas/status/2070671189077279166",
-"createdAt": "Sat Jun 27 00:50:57 +0000 2026"
+"userName": "andreajenkyns",
+"text": "Fantastic visit to @riseholmecampus today! \n\n​This place is an absolute hidden gem of hands-on education. I was completely blown away by their incredible use of AI, robotics, and advanced tech. \n\nGetting to try out their cutting-edge VR setup and Virtual Tractor Simulation was just mind-blowing! \n\nI also loved jumping on a real tractor... and I am very pleased to report I didn't write either of them off!\n​\nWhether it is testing out VR gardening or visiting their brilliant animal zoo, everything they do here is about giving students real, practical experience.\n​\nSeeing this in action proves why we need to completely smash the academic snobbery in this country. It is total nonsense that people look down on vocational learning. \n\nWe cannot expect students to sit at desks for six hours straight just memorising facts when they could be gaining real, common-sense skills for the real world.\n\n​Riseholme is showing everyone exactly how it should be done. \n\nThey are so committed to opening doors that they even spend around a million pounds each year, funding buses to get students to college to learn these vital trades. \n\nLet's get on with backing real skills for the next generation! 🇬🇧",
+"likeCount": 81,
+"retweetCount": 25,
+"url": "https://x.com/andreajenkyns/status/2071693617299923361",
+"createdAt": "Mon Jun 29 20:33:43 +0000 2026"
 },
 {
-"userName": "burkov",
-"text": "Diffusion language models, which generate text by repeatedly filling in masked parts rather than writing strictly from left to right, are becoming a serious alternative to standard transformer language models, but the usual ways of improving reasoning after training were built for left-to-right generation and do not fit the diffusion models.\n\nThe authors of this paper introduce a self-training method in which the model first produces its own answer, then uses parts of that completed answer as helpful context while learning how earlier denoising steps should behave.\n\nInstead of comparing teacher and student one next token at a time, it compares them at each denoising step, which matches how diffusion language models actually generate text. \n\nAcross math and planning tasks, d-OPSD matches or beats supervised finetuning and reinforcement-learning baselines, while needing far fewer optimization steps than the main RL baseline.\n\nhttps://t.co/eRqYj4YPwi",
-"likeCount": 40,
+"userName": "starmexxx",
+"text": "THREE CLAUDE SKILLS REPLACED A $250 UGC CREATOR FOR AN AI FASHION APP WITH 560 PAYING USERS, BRAND DNA BUILDER + CHARACTER CREATOR + UGC GENERATOR NOW SHIPS UNLIMITED VIDEOS AT $2-4 EACH\n\n00:28 the demo closes on the result, \"just like that you have unlimited ugc content for your brand\"\n\nskill one scrapes the entire brand site, builds a brand dna document and pulls every product image, claude already understands tone of voice and audience before any creative work begins\n\nskill two generates ai characters tailored to the target audience, locked through higgsfield soul so the same face recurs across every video the way a real ugc creator's account would\n\nskill three writes scripts, generates the ugc videos through kling 3 or seedance 2 and assembles the demo with remotion, the only real per-video cost is the 2 to 4 dollar generation fee\n\naesty is at 560 paying users running this stack across 15 accounts and pulling 100k+ tiktok views a week, the same volume that used to cost $250 a video now costs the price of a coffee per output\n\nbookmark this and read the article below",
+"likeCount": 48,
+"retweetCount": 4,
+"url": "https://x.com/starmexxx/status/2071989983074734459",
+"createdAt": "Tue Jun 30 16:11:22 +0000 2026"
+},
+{
+"userName": "karlmehta",
+"text": "Andrej Karpathy explains why RLHF needed a cheat code.\n\nThe naive version sounds simple: show humans model outputs and ask them to score which ones are good.\n\nThen he does the math:\n\n\"I want to do 1,000 updates, where each update will be on 1,000 prompts, and for each prompt we're going to have 1,000 rollouts that we're scoring.\"\n\n\"I will need to ask a human to evaluate a joke a total of 1 billion times.\"\n\n\"That's a lot of people looking at really terrible jokes, so we don't want to do that.\"\n\nThe trick is indirection:\n\n\"We're going to involve humans just a little bit, and the way we cheat is that we basically train a whole separate neural network that we call a reward model.\"\n\nThat is the hidden abstraction behind RLHF:\n\nHumans do not scale the feedback loop.\nA model trained to imitate human preference scales it.",
+"likeCount": 20,
+"retweetCount": 11,
+"url": "https://x.com/karlmehta/status/2070477259962810846",
+"createdAt": "Fri Jun 26 12:00:21 +0000 2026"
+},
+{
+"userName": "max_simchowitz",
+"text": "As a PhD student, I was told not to work on deep RL - too full of hacks and alchemy\" But after a year or two of working in this area, I’ve come to (deeply?) appreciate all of the thoughtful research that’s gone into understanding what/why things work and how to make them better.\n\nMy lab (joint with @abhishekunique7) took what we’ve learned by reading this body of literature to answer the question: what are the actual best-practices for finetuning a diffusion/flow/generative robot policy (for now, in sim)? Under one set of constraints - ample compute but limited time on your robot - @servo97  paper gives a pretty compelling answer.",
+"likeCount": 337,
+"retweetCount": 34,
+"url": "https://x.com/max_simchowitz/status/2072022261100679253",
+"createdAt": "Tue Jun 30 18:19:38 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Did something happen to Opus 4.8 today? First time I've seen this happen (and I use it daily): it almost totally stopped thinking, even at highest reasoning setting. And answered terribly.\n\nI repeated same prompts with Opus 4.6, and it worked great.",
+"likeCount": 597,
+"retweetCount": 11,
+"url": "https://x.com/jeremyphoward/status/2071102619020636397",
+"createdAt": "Sun Jun 28 05:25:18 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @canadaquant: We quantized GLM-5.2 (744B MoE) to 4-bit — and kept its MTP draft head in BF16.\n→ Matches the FP8 release on quality\n→ Run…",
+"likeCount": 451,
+"retweetCount": 39,
+"url": "https://x.com/ClementDelangue/status/2071991208977530900",
+"createdAt": "Tue Jun 30 16:16:14 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @victormustar: NEW on Hugging Face: Hardware filters 🖥️\n\nA new Hardware filter on the Models page results to models that fit a specific…",
+"likeCount": 80,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2071945114130293085",
+"createdAt": "Tue Jun 30 13:13:04 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @_albertgu: Transformers are better at copying, while RNNs are better at modeling \"meaning-bearing words—the nouns, verbs, &amp; adjectives…",
+"likeCount": 425,
+"retweetCount": 27,
+"url": "https://x.com/jeremyphoward/status/2070957383183171674",
+"createdAt": "Sat Jun 27 19:48:11 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @Yuchenj_UW: GLM-5.2 is the open-source Claude moment.\n\nThe demand we’re seeing at Databricks is astonishing. The world is going to see…",
+"likeCount": 3701,
+"retweetCount": 334,
+"url": "https://x.com/jeremyphoward/status/2071439263317770715",
+"createdAt": "Mon Jun 29 03:43:00 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @aduermael: Here's Pivot 0.5, our first trained model! ✨\nTry our research preview for free already.\nOpen weights coming to @huggingface…",
+"likeCount": 31,
 "retweetCount": 6,
-"url": "https://x.com/burkov/status/2071421998589198554",
-"createdAt": "Mon Jun 29 02:34:24 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2072403989543502019",
+"createdAt": "Wed Jul 01 19:36:29 +0000 2026"
 },
 {
-"userName": "0xCortexl",
-"text": "15-YEAR-OLD BOUGHT A $5,000 MAC STUDIO AND IN 30 DAYS BUILT A FREE AI TOOLKIT THAT REPLACES $236/MONTH IN SUBSCRIPTIONS\n\n30 days, one Mac Studio M3, every top LLM tested on every part of his business - and he decided not to hide it behind a paywall\n\nconnected N8n and ManyChat to handle and translate all DMs locally and automatically - zero cloud APIs, zero data leaving the machine\n\n$3,000 invested in llmacademy com and made it free - 30+ tools, GitHub files, Ollama, OpenAI Codex, model leaderboards - everything in one place\n\ntext to video, text to image, research agent, uncensored LLM leaderboard - tools that separately cost hundreds per month now completely free\n\n$5,000 Mac Studio, $3,000 on the academy, zero paywall - and a 15-year-old who decided this should be available to everyone",
-"likeCount": 27,
-"retweetCount": 4,
-"url": "https://x.com/0xCortexl/status/2071263571736932649",
-"createdAt": "Sun Jun 28 16:04:52 +0000 2026"
-},
-{
-"userName": "breadli428",
-"text": "🎯 Limitations:\n\nRL finetuning is necessary for stability but sacrifices motion diversity enabled by diffusion motion generator. Motion generation on-the-fly is challenging at OOD cases and can still lead to infeasible (physically or untrackable) references.",
-"likeCount": 41,
-"retweetCount": 0,
-"url": "https://x.com/breadli428/status/2070215859688145190",
-"createdAt": "Thu Jun 25 18:41:38 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @JosephJacks_: The food delivery leader in China just dropped an open weights 1.6 trillion parameter model while half the USA was sleepi…",
+"likeCount": 84,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2071927383108526522",
+"createdAt": "Tue Jun 30 12:02:37 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @i_zzzzzz: I think part of what makes this account’s work so satisfying is they are doing a form of pattern recognition that is computer…",
-"likeCount": 231780,
-"retweetCount": 10303,
-"url": "https://x.com/jeremyphoward/status/2070275797773099099",
-"createdAt": "Thu Jun 25 22:39:48 +0000 2026"
+"text": "RT @sara_drag: Is Muon as good as they say? We looked beyond training speed and found a hidden cost: Muon loses the simplicity bias of olde…",
+"likeCount": 288,
+"retweetCount": 35,
+"url": "https://x.com/jeremyphoward/status/2072456367177441539",
+"createdAt": "Wed Jul 01 23:04:36 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @RihardJarc: I just published my article on how hyperscalers like $AMZN, $MSFT, and $GOOGL will benefit in the token optimization era an…",
-"likeCount": 1973,
-"retweetCount": 232,
-"url": "https://x.com/ClementDelangue/status/2071959385216028917",
-"createdAt": "Tue Jun 30 14:09:47 +0000 2026"
+"text": "RT @Polymarket: JUST IN: Portugal launches its first open-source AI model, joining Europe’s push for “tech sovereignty”",
+"likeCount": 1185,
+"retweetCount": 89,
+"url": "https://x.com/ClementDelangue/status/2072435127058133357",
+"createdAt": "Wed Jul 01 21:40:12 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @quxiaoyin: if US bans open source because China is leading, then \n1. impossible to enforce(you just need to download a zip for weights)…",
-"likeCount": 377,
-"retweetCount": 46,
-"url": "https://x.com/ClementDelangue/status/2071945508512243840",
-"createdAt": "Tue Jun 30 13:14:38 +0000 2026"
+"userName": "TheGlobalMinima",
+"text": "https://t.co/Mg5j2E00ts",
+"likeCount": 87,
+"retweetCount": 8,
+"url": "https://x.com/TheGlobalMinima/status/2072326291127423302",
+"createdAt": "Wed Jul 01 14:27:44 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @vishnuvig: We are making a deliberate effort to use GLM 5.2 with OpenCode internally at Jarvislabs. \n\nI have spoken to 3 enterprise cus…",
-"likeCount": 53,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2071791915209498786",
-"createdAt": "Tue Jun 30 03:04:19 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @_sholtodouglas: I (and a bunch of my colleagues) donated to this. I think it is a really excellent initiative. TLDR:\n- Equity investmen…",
-"likeCount": 980,
-"retweetCount": 59,
-"url": "https://x.com/jeremyphoward/status/2070311359477379501",
-"createdAt": "Fri Jun 26 01:01:07 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Jason: THIS IS WHY WE MUST SUPPORT THE OPEN SOURCE APP LAYER MORE \n\nOPEN SOURCE AI = INDIVIDUAL SOVEREIGNTY",
-"likeCount": 298,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2071925833443287161",
-"createdAt": "Tue Jun 30 11:56:27 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "Just got this email https://t.co/bD0b8diezt",
-"likeCount": 390,
-"retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2069920905162359188",
-"createdAt": "Wed Jun 24 23:09:35 +0000 2026"
+"userName": "TheFIREorg",
+"text": "https://t.co/qhk0npaCqA",
+"likeCount": 160,
+"retweetCount": 70,
+"url": "https://x.com/TheFIREorg/status/2071655969382072537",
+"createdAt": "Mon Jun 29 18:04:07 +0000 2026"
 }
 ]
