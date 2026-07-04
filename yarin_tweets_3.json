@@ -1,17 +1,17 @@
 [
 {
-"userName": "shushant_l",
-"text": "I'm shocked most people use AI image generators without knowing what actually happens behind the scenes.\n\nHere's how AI turns a simple text prompt into a stunning image step by step.\n\n---\n\n📂 AI Image Generation\n┃\n┣ 📂 Big Idea\n┃ ┣ 📂 Learn From Billions Of Image Text Pairs\n┃ ┣ 📂 Understand Visual Patterns\n┃ ┣ 📂 Encode Relationships\n┃ ┣ 📂 Start From Random Noise\n┃ ┗ 📂 Generate Brand New Images\n┃\n┣ 📂 Complete Pipeline\n┃ ┣ 📂 Text Prompt\n┃ ┣ 📂 Text Encoding\n┃ ┣ 📂 Latent Representation\n┃ ┣ 📂 Random Noise\n┃ ┣ 📂 Iterative Denoising\n┃ ┣ 📂 Image Refinement\n┃ ┣ 📂 Decoder\n┃ ┗ 📂 Final Image\n┃\n┣ 📂 Prompt\n┃ ┣ 📂 Subject\n┃ ┣ 📂 Action\n┃ ┣ 📂 Environment\n┃ ┣ 📂 Lighting\n┃ ┣ 📂 Camera\n┃ ┣ 📂 Style\n┃ ┣ 📂 Mood\n┃ ┗ 📂 Colors\n┃\n┣ 📂 Text Understanding\n┃ ┣ 📂 CLIP\n┃ ┣ 📂 T5\n┃ ┣ 📂 Multimodal Encoders\n┃ ┣ 📂 Semantic Embeddings\n┃ ┗ 📂 Prompt Interpretation\n┃\n┣ 📂 Latent Space\n┃ ┣ 📂 Compressed Representation\n┃ ┣ 📂 Faster Processing\n┃ ┣ 📂 Lower Memory Usage\n┃ ┣ 📂 Better Scalability\n┃ ┗ 📂 Higher Image Quality\n┃\n┣ 📂 Image Creation\n┃ ┣ 📂 Start With Random Noise\n┃ ┣ 📂 Predict Noise\n┃ ┣ 📂 Remove Noise\n┃ ┣ 📂 Reveal Shapes\n┃ ┣ 📂 Form Objects\n┃ ┣ 📂 Add Textures\n┃ ┣ 📂 Apply Lighting\n┃ ┗ 📂 Generate Fine Details\n┃\n┣ 📂 Denoising Model\n┃ ┣ 📂 U-Net\n┃ ┣ 📂 Diffusion Transformer (DiT)\n┃ ┣ 📂 Noise Prediction\n┃ ┣ 📂 Progressive Refinement\n┃ ┗ 📂 Image Reconstruction\n┃\n┣ 📂 Cross Attention\n┃ ┣ 📂 Match Words To Regions\n┃ ┣ 📂 Align Prompt With Image\n┃ ┣ 📂 Focus On Important Details\n┃ ┣ 📂 Preserve Context\n┃ ┗ 📂 Improve Accuracy\n┃\n┣ 📂 Guidance\n┃ ┣ 📂 Classifier Free Guidance\n┃ ┣ 📂 Prompt Following\n┃ ┣ 📂 Creativity Control\n┃ ┣ 📂 Stronger Prompt Adherence\n┃ ┗ 📂 Output Variation\n┃\n┣ 📂 Decoding\n┃ ┣ 📂 Convert Latents To Pixels\n┃ ┣ 📂 Restore Colors\n┃ ┣ 📂 Recover Textures\n┃ ┣ 📂 Rebuild Shadows\n┃ ┗ 📂 Produce Final Image\n┃\n┣ 📂 Training\n┃ ┣ 📂 Billions Of Image Text Pairs\n┃ ┣ 📂 Add Noise\n┃ ┣ 📂 Predict Removed Noise\n┃ ┣ 📂 Compare With Ground Truth\n┃ ┣ 📂 Update Parameters\n┃ ┗ 📂 Repeat Billions Of Times\n┃\n┣ 📂 Generation Modes\n┃ ┣ 📂 Text To Image\n┃ ┣ 📂 Image To Image\n┃ ┣ 📂 Inpainting\n┃ ┣ 📂 Outpainting\n┃ ┣ 📂 Style Transfer\n┃ ┗ 📂 Reference Guided Generation\n┃\n┣ 📂 Modern Improvements\n┃ ┣ 📂 Better Prompt Understanding\n┃ ┣ 📂 More Realistic Anatomy\n┃ ┣ 📂 Improved Typography\n┃ ┣ 📂 Better Lighting\n┃ ┣ 📂 Higher Image Quality\n┃ ┣ 📂 Stronger Composition\n┃ ┣ 📂 More Consistent Characters\n┃ ┣ 📂 Faster Generation\n┃ ┗ 📂 Better Image Editing\n┃\n┣ 📂 Common Mistakes\n┃ ┣ 📂 Ambiguous Prompts\n┃ ┣ 📂 Poor Spatial Reasoning\n┃ ┣ 📂 Incorrect Object Counting\n┃ ┣ 📂 Weak Text Rendering\n┃ ┣ 📂 Unrealistic Physics\n┃ ┗ 📂 Limited World Knowledge\n┃\n┣ 📂 Applications\n┃ ┣ 📂 Graphic Design\n┃ ┣ 📂 Marketing\n┃ ┣ 📂 Advertising\n┃ ┣ 📂 Social Media\n┃ ┣ 📂 Product Visualization\n┃ ┣ 📂 Concept Art\n┃ ┣ 📂 Game Development\n┃ ┣ 📂 Film Production\n┃ ┣ 📂 Architecture\n┃ ┣ 📂 Interior Design\n┃ ┣ 📂 Fashion\n┃ ┣ 📂 Education\n┃ ┗ 📂 E-commerce\n┃\n┗ 📂 Simple Analogy\n┣ 📂 Start With Random Noise\n┣ 📂 Reveal Basic Shapes\n┣ 📂 Form Objects\n┣ 📂 Add Lighting\n┣ 📂 Apply Textures\n┣ 📂 Refine Fine Details\n┗ 📂 Finish The Complete Image",
-"likeCount": 23,
-"retweetCount": 6,
-"url": "https://x.com/shushant_l/status/2072666861423198365",
-"createdAt": "Thu Jul 02 13:01:02 +0000 2026"
+"userName": "Multi_mike01",
+"text": "𝗖𝗹𝗮𝘂𝗱𝗲 𝗙𝗮𝗯𝗹𝗲 𝟱 𝗶𝘀 𝗯𝗮𝗰𝗸 𝗼𝗻 𝘁𝗵𝗲 𝗕.𝗔𝗜 𝗔𝗣𝗜, 𝗮𝗻𝗱 𝗶𝘁'𝘀 𝗯𝘂𝗶𝗹𝘁 𝗳𝗼𝗿 𝘀𝗼𝗺𝗲 𝗼𝗳 𝘁𝗵𝗲 𝗺𝗼𝘀𝘁 𝗱𝗲𝗺𝗮𝗻𝗱𝗶𝗻𝗴 𝗔𝗜 𝘄𝗼𝗿𝗸𝗹𝗼𝗮𝗱𝘀.\n\nFollowing Anthropic's global safety policy adjustments, https://t.co/0OIBJy3WZP has completed integration and restored API access to Claude Fable 5, making it available once again for developers and enterprises.\n\nThe model is now supported in both:\n\n➡ Official Mode for a fully managed experience\n\n➡ Custom Provider Mode for greater flexibility, infrastructure control, and cost optimization\n\nSo, what makes Claude Fable 5 stand out?\n\n🧠 𝗔𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗥𝗲𝗮𝘀𝗼𝗻𝗶𝗻𝗴\nDesigned for complex analytical, technical, and professional tasks that require deep reasoning and structured thinking.\n\n💻  𝗦𝗼𝗳𝘁𝘄𝗮𝗿𝗲 𝗘𝗻𝗴𝗶𝗻𝗲𝗲𝗿𝗶𝗻𝗴 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀\nBuilt to handle coding assistance, debugging, repository-scale refactoring, code reviews, migration planning, and multi-step implementation tasks.\n\n📚 𝗟𝗼𝗻𝗴-𝗖𝗼𝗻𝘁𝗲𝘅𝘁 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀\nSupports context windows of up to 1,000,000 tokens (subject to platform configuration), making it ideal for analyzing large codebases, lengthy documents, and extended conversations.\n\n🤖 𝗔𝗴𝗲𝗻𝘁𝗶𝗰 & 𝗧𝗼𝗼𝗹-𝗔𝘀𝘀𝗶𝘀𝘁𝗲𝗱 𝗪𝗼𝗿𝗸𝗳𝗹𝗼𝘄𝘀\nSupports function calling, code execution, MCP, adaptive thinking, and compatible agent environments, making it well-suited for AI agents and automation.\n\n🖼️ 𝗠𝘂𝗹𝘁𝗶𝗺𝗼𝗱𝗮𝗹 𝗨𝗻𝗱𝗲𝗿𝘀𝘁𝗮𝗻𝗱𝗶𝗻𝗴\nAccepts both text and image inputs, enabling analysis of screenshots, PDFs, charts, diagrams, and other visual documents where supported.\n\n🌍 𝗦𝘁𝗿𝗼𝗻𝗴 𝗠𝘂𝗹𝘁𝗶𝗹𝗶𝗻𝗴𝘂𝗮𝗹 𝗣𝗲𝗿𝗳𝗼𝗿𝗺𝗮𝗻𝗰𝗲\nDelivers high-quality performance across major world languages, making it suitable for global applications.\n\n𝗕𝗲𝘀𝘁 𝗨𝘀𝗲 𝗖𝗮𝘀𝗲𝘀\n\n• Large-scale software engineering and repository management\n\n• AI agents that require planning, verification, and long-running workflows\n\n• Research across technical, legal, financial, and structured knowledge sources\n\n• Visual document understanding and analysis\n\n𝗖𝗮𝗽𝗮𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n\n✔ Advanced reasoning\n✔ Strong coding and debugging\n✔ Long-running agent workflows\n✔ Computer-use support through compatible tools\n✔ Function calling and MCP support\n✔ Up to 128,000 output tokens (platform configuration dependent)\n\n𝗖𝗿𝗲𝗱𝗶𝘁𝘀 𝗨𝘀𝗮𝗴𝗲\n\n• Input: 10.00 Credits/token\n• Cache Write: 12.50 Credits/token\n• Cache Read: 1.00 Credit/token\n• Output: 50.00 Credits/token\n• Web Search: 10,000 Credits/use\n\nhttps://t.co/0OIBJy3WZP also notes that these are standard reference prices, while actual usage costs may be lower through top-up bonuses and account benefits available on the platform.\n\nAs AI applications continue to become more sophisticated, developers need models capable of handling extended context, complex reasoning, and reliable tool integration. Claude Fable 5 delivers exactly that, giving builders another powerful option for enterprise AI, coding, research, and agentic workflows.\n\n🔗 Try it now: https://t.co/KbWEHPnT7p\n\n#BAI #ClaudeFable5 #TRONEcoStar @justinsuntron",
+"likeCount": 28,
+"retweetCount": 3,
+"url": "https://x.com/Multi_mike01/status/2072625383753539611",
+"createdAt": "Thu Jul 02 10:16:13 +0000 2026"
 },
 {
 "userName": "VaibhavSisinty",
 "text": "June 2026 was the wildest month in AI history. And it is not even close.\n\nTHE BIG MOMENTS\n\n→ Anthropic launched Claude Fable 5. The most powerful AI model ever released to the public. The US government banned it 72 hours later. For the first time in history a frontier AI model got pulled mid-launch.\n\n→ Then the ban got lifted. Fable 5 is back.\n\n→ GPT-5.6 Sol dropped. OpenAI called it their most capable model yet. Government blocked public access before most people could try it. Second time in two weeks.\n\n→ SpaceX went public. $75 billion raised. $1.77 trillion valuation. Elon Musk became the world's first trillionaire.\n\n→ Noam Shazeer left Google for OpenAI. June 18. He co-wrote Attention Is All You Need. The paper every AI model runs on. Google paid $2.7 billion to get him back in 2024. He stayed less than two years.\nTHE HARDWARE MOVES\n\n→ OpenAI built their own chip. Called Jalapeño. NVIDIA makes 75 cents of profit for every dollar OpenAI spends on compute. That is why they spent $500 million to stop paying it.\n\n→ South Korea announced $880 billion to double down on chip production. Samsung and SK Hynix stood next to their President on live television. Every AI model in the world depends on South Korean memory chips.\n\n→ IBM unveiled the world's first 0.7nm chip. June 25. 100 billion transistors on a fingernail. 50% faster and 70% more energy efficient than the best chips today.\n\n→ Etched came out of stealth. Hardcoded transformer logic directly into silicon. $800M raised. $1B in customer contracts before shipping a single rack.\n\nTHE OPEN SOURCE MOMENT\n\n→ China open-sourced GLM-5.2. Within one point of Claude Opus 4.8 on benchmarks. Free to download and run. Within 5 days people had built 7 genuinely insane things with it.\n\n→ Kimi K2.7 launched. 1 trillion parameters. 30% fewer tokens than the previous version.\n\n→ DeepSeek made their AI 5x faster without changing the model at all. Pure infrastructure engineering.\nTHE WILD ONES\n\n→ Neuralink performed brain surgery without cutting the brain's protective layer. Patient controlled a cursor with their thoughts one hour later.\n\n→ Meta built Brain2Qwerty v2. A helmet that reads your thoughts and turns them into text. Published in Nature.\n\n→ Midjourney announced a full-body scanner. You step into a pool of water. 60 seconds. They are putting it in spas.\n\n→ Jeff Bezos raised $12 billion for Prometheus. An AI that designs and manufactures physical products. He called it an artificial general engineer.\n\nTHE TOOLS\n\n→ Cursor launched on iOS. Always-on cloud agents from your phone.\n\n→ OpenClaw launched on iOS and Android. First open source agent on the App Store.\n\n→ Claude Design now syncs with Claude Code in both directions.\n\n→ Hermes Fusion let you merge any two AI models into one virtual model.\n\n→ ChatGPT got scheduled tasks, instant camera, and email sending.\n\n→ Perplexity gave its agent a brain that compounds knowledge across\nevery run.\n\nTHE BUSINESS MOVES\n\n→ SpaceX acquired Cursor for $60 billion.\n\n→ ClickUp revealed it runs 3,000 AI agents alongside 1,000 humans.\n\n→ 65% of Anthropic's own code is now written by Claude.\n\nTo be frank, June was not one month of AI news.\n\nIt was a decade of normal progress compressed into 30 days.\n\nThoughts?",
-"likeCount": 41,
-"retweetCount": 2,
+"likeCount": 50,
+"retweetCount": 4,
 "url": "https://x.com/VaibhavSisinty/status/2072662827790459282",
 "createdAt": "Thu Jul 02 12:45:01 +0000 2026"
 },
@@ -24,14 +24,6 @@
 "createdAt": "Tue Jun 30 11:50:42 +0000 2026"
 },
 {
-"userName": "alzheimerssoc",
-"text": "What a month it's been!\n\nAs our Forget Me Not Appeal 2026 comes to a close, we're looking back on some incredible moments made possible by our supporters, volunteers, partners and campaigners.\n\nAcross the month of June, we 👇\n\n- Saw more than 117,000 people proudly wear our Forget Me Not Appeal badge in honour of loved ones affected by dementia\n\n- Joined with 50,000 supporters and @jonsnowC4 to call for better dementia diagnosis through our open letter\n\n- Announced 17 new research grants to help explore dementia's causes, diagnosis, treatment and prevention\n\n- Celebrated the two-year extension of our partnership with The FA\n\n- Raised an amazing £1.5 million to help fund life-changing support and ground-breaking research\n\n- Celebrated our incredible volunteers during Volunteers' Week\n\n- Helped deliver support through over 6,000 calls to our Dementia Support Line\n\nThank you for making this Forget Me Not Appeal so special and helping us get one step closer to ending the devastation caused by dementia 💙\n\n[Image description: A light blue graphic with a white rounded box with a red heart icon above, that reads: ‘Good news and things to celebrate this month’. Below, a blue forget-me-not flower is surrounded by curved text that reads: ‘Forget Me Not Appeal edition’.]",
-"likeCount": 24,
-"retweetCount": 10,
-"url": "https://x.com/alzheimerssoc/status/2072362095278997688",
-"createdAt": "Wed Jul 01 16:50:00 +0000 2026"
-},
-{
 "userName": "burkov",
 "text": "Diffusion language models, which generate text by repeatedly filling in masked parts rather than writing strictly from left to right, are becoming a serious alternative to standard transformer language models, but the usual ways of improving reasoning after training were built for left-to-right generation and do not fit the diffusion models.\n\nThe authors of this paper introduce a self-training method in which the model first produces its own answer, then uses parts of that completed answer as helpful context while learning how earlier denoising steps should behave.\n\nInstead of comparing teacher and student one next token at a time, it compares them at each denoising step, which matches how diffusion language models actually generate text. \n\nAcross math and planning tasks, d-OPSD matches or beats supervised finetuning and reinforcement-learning baselines, while needing far fewer optimization steps than the main RL baseline.\n\nhttps://t.co/eRqYj4YPwi",
 "likeCount": 40,
@@ -40,83 +32,91 @@
 "createdAt": "Mon Jun 29 02:34:24 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Lots of people are advocating for more American open-source models these days which is amazing but very few people do anything about it!\n\nLatest example, Alex Karp came out advocating for American open-source models as a necessity! At the same time, @PalantirTech is a free org on HF with 0 open-source models and 0 public datasets shared.\n\nTime to switch from talking to contributing for all!",
-"likeCount": 751,
-"retweetCount": 74,
-"url": "https://x.com/ClementDelangue/status/2072683707001930215",
-"createdAt": "Thu Jul 02 14:07:59 +0000 2026"
+"userName": "max_simchowitz",
+"text": "As a PhD student, I was told not to work on deep RL - too full of hacks and alchemy\" But after a year or two of working in this area, I’ve come to (deeply?) appreciate all of the thoughtful research that’s gone into understanding what/why things work and how to make them better.\n\nMy lab (joint with @abhishekunique7) took what we’ve learned by reading this body of literature to answer the question: what are the actual best-practices for finetuning a diffusion/flow/generative robot policy (for now, in sim)? Under one set of constraints - ample compute but limited time on your robot - @servo97  paper gives a pretty compelling answer.",
+"likeCount": 365,
+"retweetCount": 35,
+"url": "https://x.com/max_simchowitz/status/2072022261100679253",
+"createdAt": "Tue Jun 30 18:19:38 +0000 2026"
 },
 {
-"userName": "mitsuhiko_nm",
-"text": "How can we make RL post-training for robot policies more sample-efficient?\n\nCheck out OGPO: an RL post-training method for pre-trained flow-matching and diffusion policies.\n\nOGPO combines off-policy Q-learning with GRPO-style policy updates to enable fast &amp; stable fine-tuning.",
-"likeCount": 35,
+"userName": "MirragoOfficial",
+"text": "Virtual try-on is no longer just about visualization.\n\nThe future is AI that helps people make better fashion decisions.\n\nWhat do you think?\n\n#FashionTech #VirtualTryOn #AI #Ecommerce #Mirrago https://t.co/oukE4EjpB1",
+"likeCount": 30,
 "retweetCount": 2,
-"url": "https://x.com/mitsuhiko_nm/status/2072022485583974508",
-"createdAt": "Tue Jun 30 18:20:31 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @aakashgupta: Bridgewater just published numbers that should make every frontier lab nervous.\n\nThe world's largest hedge fund tested Gem…",
-"likeCount": 1585,
-"retweetCount": 179,
-"url": "https://x.com/ClementDelangue/status/2072827652210061526",
-"createdAt": "Thu Jul 02 23:39:58 +0000 2026"
+"url": "https://x.com/MirragoOfficial/status/2072651995325104129",
+"createdAt": "Thu Jul 02 12:01:58 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @_albertgu: Transformers are better at copying, while RNNs are better at modeling \"meaning-bearing words—the nouns, verbs, &amp; adjectives…",
-"likeCount": 425,
-"retweetCount": 29,
-"url": "https://x.com/jeremyphoward/status/2070957383183171674",
-"createdAt": "Sat Jun 27 19:48:11 +0000 2026"
+"text": "RT @KenoFischer: Obvious in retrospect, but I didn't really anticipate:\nFable: Performing Final Review of &lt;Awesome Feature&gt;\nAlso Fable: I a…",
+"likeCount": 2365,
+"retweetCount": 84,
+"url": "https://x.com/jeremyphoward/status/2072985877094318463",
+"createdAt": "Fri Jul 03 10:08:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @HarryStebbings: Dario just declared war on open-source.\n\nAnthropic's message is clear: open source could destroy the entire AI business…",
-"likeCount": 153,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2072705999132148046",
-"createdAt": "Thu Jul 02 15:36:33 +0000 2026"
+"text": "RT @maximelabonne: Fun surprise: DeepSeek used my open-perfectblend dataset to train their new DSpark drafter\n\nTime to promote it again! It…",
+"likeCount": 1348,
+"retweetCount": 124,
+"url": "https://x.com/ClementDelangue/status/2072706197979791743",
+"createdAt": "Thu Jul 02 15:37:21 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @sun_hanchi: https://t.co/gPwut02Ilj\n\nPeople are missing out on how big a deal Longcat 2.0 by Meituan (aka \"Chinese Doordash\") is. \n\nNea…",
+"likeCount": 349,
+"retweetCount": 30,
+"url": "https://x.com/jeremyphoward/status/2071732096465551388",
+"createdAt": "Mon Jun 29 23:06:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @as400495: Rampart, our PII removal model, has cracked the first screen of the top trending models across any category on Huggingface, o…",
-"likeCount": 161,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2072826705840885792",
-"createdAt": "Thu Jul 02 23:36:12 +0000 2026"
+"text": "RT @kskrygan: Unpopular opinion: While everyone is so hyped about Fable, GPT5.6 and other huge and expensive models, I think the real hero…",
+"likeCount": 794,
+"retweetCount": 43,
+"url": "https://x.com/ClementDelangue/status/2073107930019193006",
+"createdAt": "Fri Jul 03 18:13:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechFollowrazzi: 🗞️ @steipete followed @ClementDelangue\n\nHuggingClaw or? https://t.co/jycGOjoZZn",
-"likeCount": 15,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2072859853152739769",
-"createdAt": "Fri Jul 03 01:47:55 +0000 2026"
+"text": "\"consensus\" can't just built by big tech! let's all be careful of regulatory capture and extreme concentration of power!",
+"likeCount": 262,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2072752653436653755",
+"createdAt": "Thu Jul 02 18:41:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @maximelabonne: DeepSeek effect https://t.co/qt0sRctv0i https://t.co/i14yrbzekU",
-"likeCount": 92,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2072706184159592754",
-"createdAt": "Thu Jul 02 15:37:17 +0000 2026"
+"text": "Can anyone get me tickets for the world-cup quarter-final in Miami next week?",
+"likeCount": 48,
+"retweetCount": 0,
+"url": "https://x.com/ClementDelangue/status/2073106376004399242",
+"createdAt": "Fri Jul 03 18:07:31 +0000 2026"
 },
 {
-"userName": "thisismariaa25",
-"text": "https://t.co/Z4pJqa9PQU",
-"likeCount": 219,
-"retweetCount": 56,
-"url": "https://x.com/thisismariaa25/status/2072681063542112362",
-"createdAt": "Thu Jul 02 13:57:28 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @andykonwinski: https://t.co/9CPlzLzhs8",
+"likeCount": 315,
+"retweetCount": 59,
+"url": "https://x.com/ClementDelangue/status/2073049433604772164",
+"createdAt": "Fri Jul 03 14:21:15 +0000 2026"
 },
 {
-"userName": "ShamiWeb3",
-"text": "https://t.co/vbwoI3oPXQ",
-"likeCount": 182,
-"retweetCount": 7,
-"url": "https://x.com/ShamiWeb3/status/2072641868035428735",
-"createdAt": "Thu Jul 02 11:21:43 +0000 2026"
+"userName": "SERobinsonJr",
+"text": "https://t.co/0h3oVh3WHM",
+"likeCount": 52,
+"retweetCount": 9,
+"url": "https://x.com/SERobinsonJr/status/2072833947734548494",
+"createdAt": "Fri Jul 03 00:04:59 +0000 2026"
+},
+{
+"userName": "AIWithPRO",
+"text": "https://t.co/oI7kxLeumv",
+"likeCount": 59,
+"retweetCount": 36,
+"url": "https://x.com/AIWithPRO/status/2072747698797908464",
+"createdAt": "Thu Jul 02 18:22:15 +0000 2026"
 }
 ]
