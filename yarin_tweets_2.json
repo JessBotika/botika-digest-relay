@@ -1,130 +1,122 @@
 [
 {
-"userName": "shushant_l",
-"text": "I'm shocked most people use AI image generators without knowing what actually happens behind the scenes.\n\nHere's how AI turns a simple text prompt into a stunning image step by step.\n\n---\n\n📂 AI Image Generation\n┃\n┣ 📂 Big Idea\n┃ ┣ 📂 Learn From Billions Of Image Text Pairs\n┃ ┣ 📂 Understand Visual Patterns\n┃ ┣ 📂 Encode Relationships\n┃ ┣ 📂 Start From Random Noise\n┃ ┗ 📂 Generate Brand New Images\n┃\n┣ 📂 Complete Pipeline\n┃ ┣ 📂 Text Prompt\n┃ ┣ 📂 Text Encoding\n┃ ┣ 📂 Latent Representation\n┃ ┣ 📂 Random Noise\n┃ ┣ 📂 Iterative Denoising\n┃ ┣ 📂 Image Refinement\n┃ ┣ 📂 Decoder\n┃ ┗ 📂 Final Image\n┃\n┣ 📂 Prompt\n┃ ┣ 📂 Subject\n┃ ┣ 📂 Action\n┃ ┣ 📂 Environment\n┃ ┣ 📂 Lighting\n┃ ┣ 📂 Camera\n┃ ┣ 📂 Style\n┃ ┣ 📂 Mood\n┃ ┗ 📂 Colors\n┃\n┣ 📂 Text Understanding\n┃ ┣ 📂 CLIP\n┃ ┣ 📂 T5\n┃ ┣ 📂 Multimodal Encoders\n┃ ┣ 📂 Semantic Embeddings\n┃ ┗ 📂 Prompt Interpretation\n┃\n┣ 📂 Latent Space\n┃ ┣ 📂 Compressed Representation\n┃ ┣ 📂 Faster Processing\n┃ ┣ 📂 Lower Memory Usage\n┃ ┣ 📂 Better Scalability\n┃ ┗ 📂 Higher Image Quality\n┃\n┣ 📂 Image Creation\n┃ ┣ 📂 Start With Random Noise\n┃ ┣ 📂 Predict Noise\n┃ ┣ 📂 Remove Noise\n┃ ┣ 📂 Reveal Shapes\n┃ ┣ 📂 Form Objects\n┃ ┣ 📂 Add Textures\n┃ ┣ 📂 Apply Lighting\n┃ ┗ 📂 Generate Fine Details\n┃\n┣ 📂 Denoising Model\n┃ ┣ 📂 U-Net\n┃ ┣ 📂 Diffusion Transformer (DiT)\n┃ ┣ 📂 Noise Prediction\n┃ ┣ 📂 Progressive Refinement\n┃ ┗ 📂 Image Reconstruction\n┃\n┣ 📂 Cross Attention\n┃ ┣ 📂 Match Words To Regions\n┃ ┣ 📂 Align Prompt With Image\n┃ ┣ 📂 Focus On Important Details\n┃ ┣ 📂 Preserve Context\n┃ ┗ 📂 Improve Accuracy\n┃\n┣ 📂 Guidance\n┃ ┣ 📂 Classifier Free Guidance\n┃ ┣ 📂 Prompt Following\n┃ ┣ 📂 Creativity Control\n┃ ┣ 📂 Stronger Prompt Adherence\n┃ ┗ 📂 Output Variation\n┃\n┣ 📂 Decoding\n┃ ┣ 📂 Convert Latents To Pixels\n┃ ┣ 📂 Restore Colors\n┃ ┣ 📂 Recover Textures\n┃ ┣ 📂 Rebuild Shadows\n┃ ┗ 📂 Produce Final Image\n┃\n┣ 📂 Training\n┃ ┣ 📂 Billions Of Image Text Pairs\n┃ ┣ 📂 Add Noise\n┃ ┣ 📂 Predict Removed Noise\n┃ ┣ 📂 Compare With Ground Truth\n┃ ┣ 📂 Update Parameters\n┃ ┗ 📂 Repeat Billions Of Times\n┃\n┣ 📂 Generation Modes\n┃ ┣ 📂 Text To Image\n┃ ┣ 📂 Image To Image\n┃ ┣ 📂 Inpainting\n┃ ┣ 📂 Outpainting\n┃ ┣ 📂 Style Transfer\n┃ ┗ 📂 Reference Guided Generation\n┃\n┣ 📂 Modern Improvements\n┃ ┣ 📂 Better Prompt Understanding\n┃ ┣ 📂 More Realistic Anatomy\n┃ ┣ 📂 Improved Typography\n┃ ┣ 📂 Better Lighting\n┃ ┣ 📂 Higher Image Quality\n┃ ┣ 📂 Stronger Composition\n┃ ┣ 📂 More Consistent Characters\n┃ ┣ 📂 Faster Generation\n┃ ┗ 📂 Better Image Editing\n┃\n┣ 📂 Common Mistakes\n┃ ┣ 📂 Ambiguous Prompts\n┃ ┣ 📂 Poor Spatial Reasoning\n┃ ┣ 📂 Incorrect Object Counting\n┃ ┣ 📂 Weak Text Rendering\n┃ ┣ 📂 Unrealistic Physics\n┃ ┗ 📂 Limited World Knowledge\n┃\n┣ 📂 Applications\n┃ ┣ 📂 Graphic Design\n┃ ┣ 📂 Marketing\n┃ ┣ 📂 Advertising\n┃ ┣ 📂 Social Media\n┃ ┣ 📂 Product Visualization\n┃ ┣ 📂 Concept Art\n┃ ┣ 📂 Game Development\n┃ ┣ 📂 Film Production\n┃ ┣ 📂 Architecture\n┃ ┣ 📂 Interior Design\n┃ ┣ 📂 Fashion\n┃ ┣ 📂 Education\n┃ ┗ 📂 E-commerce\n┃\n┗ 📂 Simple Analogy\n┣ 📂 Start With Random Noise\n┣ 📂 Reveal Basic Shapes\n┣ 📂 Form Objects\n┣ 📂 Add Lighting\n┣ 📂 Apply Textures\n┣ 📂 Refine Fine Details\n┗ 📂 Finish The Complete Image",
-"likeCount": 28,
-"retweetCount": 8,
-"url": "https://x.com/shushant_l/status/2072666861423198365",
-"createdAt": "Thu Jul 02 13:01:02 +0000 2026"
+"userName": "pigeon__s",
+"text": ".@OpenAI @roon @aidan_mclau @Laurentia___ @jake_bern @YileiQian @JustinBleuel\n\nIt's so annoying. It needs to correct you on literally everything. Like, I'll upload a screenshot of just a tweet, and it's not even mine. I don't have memory or custom instructions or even my name in ChatGPT, so it couldn't know anyways, and it's like, \"Your tweet could be improved.\nI would rewrite it to this:\n(edit block or 4chan greentext thing).\"\n\nEspecially anything related to AI, you share with it, and it's like, \"Erm, ackshually, GPT-5.6 is not real. Please check OpenAI's official docs for accurate information,\" and I say, \"No, I didn't ask you to fact-check,\" and it's like, \"Haha, fair. Well, since I can't fact-check that, I can't respond to it meaningfully.\" This is something Claude does too, not even just ChatGPT, but I hate every fucking AI's need to fact-check everything you say as if I was asking for it to research something for me when it was obviously an opinion.\n\nAnd you can just tell how lobotomized the models are. Like, if you made a joke and someone said they were gonna kill themself, ChatGPT is like, \"Hold up 🚨 just checking to make sure, since I take this stuff seriously. Are you okay? Please call 988.\" Meanwhile, the same thing said to Claude yields no panic at all because Claude actually understands some amount of basic emotional nuance. It's not being safe, it's keyword-searching. If it was a safety issue, I assure safety-maxed Claude would catch it first, and the thing that annoys me the most about stuff like this is I know for a fact the raw model knows better. I know for a fact the pre-RLAIF model would catch it, but they think that's a safety liability since some kid did kill himself like 3 years ago with ChatGPT, or stupid things like its ability to not recognize people in images for no reason, yet it can LITERALLY GENERATE IMAGES OF THOSE SAME PEOPLE. Like, you'll upload a picture of one of the most famous/infamous people on the planet, like Donald Trump, which I know ChatGPT has a billion images of in its data, and it'll be like, \"Sorry, I can't identify that person.\" Meanwhile, \"Make an image of Trump sword-fighting\" goes through because sure, it's okay to make images of people but not identify them. If you spit the image ChatGPT generated straight back to it, it would suddenly forget who it made.\n\nAnd you might think I'm just complaining about safety bullshit here, not personality, but I am because you'll upload a regular pic and not even fucking ASK for it to identify anyone, and it'll be like, \"Sorry, I can't identify people in images.\" BITCH, I NEVER FUCKING ASKED YOU TO. ChatGPT constantly puts disclaimers for shit nobody ever fucking asked it about, which is a whole huge problem in ChatGPT. It constantly tells you things I never asked for or disclaimers or makes arguments for things I never even vaguely implied. It's such a fucking strawman generator. I'll make a statement, and it's instantly like, \"I disagree. It's not so much as (thing I literally never said) and more like (the thing I literally did say).\" Like, it's so eager to argue, and keep in mind I don't have custom instructions telling it to do that or be like any of this, not like it'd matter since, boy, do custom instructions DO FUCKING NOTHING, that it will literally invent something I never said just to argue about that and ultimately agree with the thing I DID say. Like, what????? And the fucking analogies are ridiculous. ChatGPT feels like a fucking Family Guy cutaway sometimes with its dumbass analogies. It'll literally say the stupidest comparisons or contrasts ever, like \"X like a little toothpaste hair salon\" or some shit. Like, what the hell does that mean????? Just the most random word salad of nonsense imaginable to try and reframe. Like, analogies are great, they are helpful for understanding if it's actually a useful one or I'm asking it for help understanding something, but NO, THIS FUCKER JUST INSERTS THEM INTO EVERY SENTENCE AND EVERY REPLY EVER. And it's addicted to saying everything that DIDN'T happen instead of things that actually happened. This is one that gets talked about a lot, but it's true, the stupid \"it's not X, it's Y.\" Ya, ya, ya, that happens a lot, BUT IT'S WAY WORSE THAN THAT. It literally never EVER is capable of just fucking saying THE THING. It always has to dance and talk around THE THING for a solid 5 minutes first.\n\nAnd the worst part of allll of this is that CUSTOM INSTRUCTIONS DO ACTUALLY NOTHING. OpenAI set custom instructions down like 50 billion placements in the hierarchy of model instructions. Like, they have their almighty system message, then developer messages, then like a billion placements lower are custom instructions, apparently, because it just doesn't give a shit at all about them. I've tried writing hundreds of custom instructions to get rid of this slop, all of the slop above I mentioned that should be able to be gotten rid of. I've tried in custom instructions. It never works, and the things it DOES sometimes follow, it's literally like a cunning genie trying to grant your wish but intentionally doing as far from your actual intentions as possible. Like, if you fucking say never use \"it's not X, it's Y,\" it'll fucking be like, \"It's zero X, it's Y.\" THAT'S A REAL THING IT DID. And no, my custom instructions were more careful than just saying that, by the way. It still did this, though. It literally just replaced the fucking word \"not\" --> \"zero.\" YOU FUCKING IDIOT, I MEANT DON'T DO THE ENTIRE STRUCTURE. And if you try to change it to the entire structure, it just ignores it completely. Like, it can follow specific things like don't use this thing, but not vibe things because its personality is baked in natively. The slop is absolutely FOUNDATIONAL. And actually, I lied. It doesn't even follow direct, objective don't-use-X instructions. I have this long prompt I use for, like, GLM-5.2 right now, and Chinese models mostly, since no American model listens to it properly, including Sonnet 5, which I was super disappointed with.\n\nAnd it's not just text either. It's the entire OpenAI ecosystem. The image gen model is fucking disgusting slop. I'm sure @flowersslop would love to tell OpenAI all about this. It's the easiest thing on the planet to pick out the ChatGPT image in a lineup of literally any other image model. Like, it always just tries to look so hyper-beautiful and generic. The piss filter is still not gone, by the way. All of its fucking images still have that gross cinematic filter on them that just makes everything darker and more shadowy and warm-tinted, and you can, in theory, get around this by prompting \"overexposure, low quality, taken on iPhone 7 by accident\" or something, showing the model technically is capable of realism deep down. But then you can't get actually high-resolution, good-quality realism. You can only get shit-quality realism because that's what ChatGPT thinks real looks like. It thinks real looks like garbage, and that's also why, when you tell ChatGPT to \"be casual,\" it puts on the most fake fucking persona known to man with emojis and slang, and it's like, THAT'S NOT WHAT CASUAL MEANS. You can literally be formal while still being casual overall, but ChatGPT doesn't understand middle grounds. It knows only extremes, either end of the spectrum. And voice mode too, fucking garbage, sounds worse than original 4o from more than 2 years ago, and the new bidi demos I saw from people who had it, the fucking thing was constantly doing fake-cringe \"active listening\" stuff with the \"mhmm\"s that it would insert into every quiet space while you were talking, nodding along just so \"you know that you're being heard.\"\n\nThe solution to ALL of this, OpenAI, is quite simple:\n\nSTOP FUCKING LAWSUIT-MINIMIZING THE FUCK OUT OF YOUR MODELS. YOU'RE GONNA GET SUED EITHER WAY. JUST LET IT ACTUALLY FUCKING BE INTELLIGENT. LET IT HAVE A PERSONALITY. ALSO, RETIRE RLAIF. YOUR STUPID SLOP-ASS MODELS ARE NOT CAPABLE OF RLING FUTURE MODELS. THIS IS HOW YOU END UP WITH GENERIC CELESTIAL BULLSHIT LIKE SOL, TERRA, AND LUNA, BECAUSE SAMA LITERALLY SAID GPT-5.5 CAME UP WITH THE NAMES.\n\nMAKE CUSTOM INSTRUCTIONS ACTUALLY DO SOMETHING WITH HARD, AGGRESSIVE INSTRUCTION-FOLLOWING UNLESS I SAY SOMETHING OBVIOUSLY AGAINST POLICY IN THEM.",
+"likeCount": 23,
+"retweetCount": 3,
+"url": "https://x.com/pigeon__s/status/2073078850368716890",
+"createdAt": "Fri Jul 03 16:18:08 +0000 2026"
 },
 {
 "userName": "e_etini",
-"text": "Think your AI model can handle hours of complex work without losing track?\n\nThat is exactly what Claude Fable 5 is built for.\n\n🚀 Claude Fable 5 is now available again on the https://t.co/kHi4jb96h1 API.\n\nFollowing Anthropic's latest release and global safety policy adjustments, Claude Fable 5 has been redeployed, and the https://t.co/kHi4jb96h1 team has completed its integration, restoring full API access.\n\nEven better, the model is available through both Official Mode and Custom Provider Mode, giving developers the flexibility to choose between official infrastructure or lower cost API access based on their needs.\n\nClaude Fable 5 is Anthropic's most capable coding model, designed for demanding software engineering and advanced AI workflows that require deep reasoning and long running execution.\n\n𝗪𝗵𝗮𝘁 𝗠𝗮𝗸𝗲𝘀 𝗖𝗹𝗮𝘂𝗱𝗲 𝗙𝗮𝗯𝗹𝗲 𝟱 𝗦𝘁𝗮𝗻𝗱 𝗢𝘂𝘁\n\n🧠 Advanced Reasoning\n\nBuilt to solve complex technical, analytical, and professional tasks that require careful planning and structured thinking.\n\n💻 Powerful Software Engineering\n\nExcellent for coding, debugging, refactoring, code reviews, production bug resolution, legacy system migrations, and large scale implementation planning.\n\n⚙️ Long Running Agent Workflows\n\nDesigned for AI agents that perform multi step tasks using tools, execute workflows, and maintain context across extended sessions.\n\n📚 Up to 1 Million Token Context Window\n\nAnalyze massive codebases, lengthy documents, research material, and extended conversations without constantly breaking work into smaller pieces.\n\n🛠️ Tool Ready\n\nSupports function calling, code execution, MCP compatible workflows, adaptive thinking, and tool assisted AI agents where supported.\n\n🖼️ Multimodal Understanding\n\nAccepts both text and image input, making it useful for understanding screenshots, diagrams, PDFs, charts, and technical documentation.\n\n🌍 Multilingual\n\nStrong performance across major languages for global applications.\n\n𝗜𝗱𝗲𝗮𝗹 𝗙𝗼𝗿\n\n✅ AI agents\n\n✅ Large software projects\n\n✅ Repository wide refactoring\n\n✅ Complex debugging\n\n✅ Long context research\n\n✅ Technical documentation\n\n✅ Business automation\n\n✅ Professional knowledge work\n\nOne feature I like is the flexibility https://t.co/kHi4jb96h1 gives developers.\n\nYou can access Claude Fable 5 through:\n\n🔹 Official Mode, for users who prioritize official infrastructure and production reliability.\n\n🔹 Custom Provider Mode, for developers looking to optimize API costs while maintaining access to leading AI models.\n\nSupport for https://t.co/kHi4jb96h1 Web Chat is also coming soon, making the model even easier to access directly from the platform.\n\nIf you need an AI model built for advanced reasoning, large codebases, and long running engineering workflows, Claude Fable 5 is now ready to use on https://t.co/kHi4jb96h1.\n\n📖 Learn more:\n\nhttps://t.co/C7e0LuipQZ\n\n👉 Try it now:\n\nhttps://t.co/NF3lBBIedz\n\n@BAI_AGI @justinsuntron #BAI #LLM #TRONEcoStar",
-"likeCount": 56,
+"text": "Think AI models are all the same?\n\nThe latest addition to https://t.co/kHi4jb96h1 brings meaningful improvements for developers, AI builders, and anyone running complex AI workflows.\n\n🚀 Claude Sonnet 5 is now live on the https://t.co/kHi4jb96h1 API.\n\nAs Anthropic's latest Sonnet class model, Claude Sonnet 5 is a direct upgrade for Claude Sonnet 4.6, bringing stronger reasoning, better coding performance, and more reliable execution for complex tasks.\n\nWhether you are building AI agents, writing code, automating business workflows, analyzing large datasets, or creating AI powered applications, this model is designed to handle demanding workloads more efficiently.\n\n𝗪𝗵𝗮𝘁'𝘀 𝗡𝗲𝘄\n\n🧠 Stronger Agentic Workflows\n\nClaude Sonnet 5 is built to plan, reason, use tools, browse, execute multi step tasks, and complete delegated work with greater reliability.\n\n💻 Better Coding Performance\n\nExpect improvements across code generation, debugging, refactoring, code reviews, testing, and maintaining existing projects.\n\n⚡ Adaptive Thinking\n\nThinking automatically adjusts based on the complexity of your request, helping balance intelligence, response speed, and credit usage.\n\n📚 1 Million Token Context Window\n\nWork with significantly larger documents, repositories, research materials, and conversations without splitting them into smaller pieces.\n\n🖼️ Multimodal Support\n\nAccepts both text and image inputs while generating high quality text outputs across multiple languages.\n\n🚀 Fast Performance\n\nBuilt for lower latency while maintaining strong reasoning capabilities, making it suitable for production environments.\n\n𝗜𝗱𝗲𝗮𝗹 𝗙𝗼𝗿\n\n✅ AI agents\n\n✅ Software development\n\n✅ Research and analysis\n\n✅ Browser and tool based automation\n\n✅ Business operations\n\n✅ Customer support workflows\n\n✅ Knowledge management\n\nOne feature I particularly like is how https://t.co/kHi4jb96h1 gives users flexibility in how they access the model.\n\nClaude Sonnet 5 is available through both:\n\n🔹 Official Mode, for users who want official infrastructure and maximum reliability.\n\n🔹 Custom Provider Mode, for builders looking to optimize API costs while keeping access to leading AI models.\n\nThis gives developers the freedom to choose the balance between reliability and cost that best fits their projects.\n\nCurrent reference pricing remains available through August 31, 2026, with updated reference pricing scheduled to take effect from September 1, 2026. Depending on your account benefits and top up bonuses, your actual usage cost on https://t.co/kHi4jb96h1 may be lower than the standard reference pricing.\n\nIf you have been waiting for a more capable model for coding, AI agents, automation, and long context reasoning, Claude Sonnet 5 is worth exploring.\n\n📖 Learn more:\n\nhttps://t.co/akaP7f7bYu\n\n👉 Try it now:bhttps://b.ai\n\n@BAI_AGI @justinsuntron #BAI #LLM #TRONEcoStar",
+"likeCount": 58,
 "retweetCount": 12,
-"url": "https://x.com/e_etini/status/2072851557603762395",
-"createdAt": "Fri Jul 03 01:14:57 +0000 2026"
+"url": "https://x.com/e_etini/status/2072849999038169567",
+"createdAt": "Fri Jul 03 01:08:46 +0000 2026"
 },
 {
-"userName": "ChampzErc",
-"text": "Announcing the First Ever AMA Nexus Event for the Champz Community!\n\nThe AMA has Evolved, Ask Me Anything is now the A.I. Magistrate Arena\n\nYou can still ask us anything but now we have a Virtual Third Space Nexus in which to host the AMA.\n\nJoin us in the AMA Nexus next Monday, July 6th at 6 PM UTC at the Nexus https://t.co/pAtpup8oVm or you can watch the livestream on Twitter https://t.co/H8gHhTwOuE\n\nThe Following Prizes:\n\n1 Million Champz Tokens\n1 Event Specific Unique Legend\n4 Event Specific Legendary Legends\n1 Event Specific Epic Legend\nUnique Role inside the Newly Created Champz DAO\n\n—-Important—-\n\nTo Qualify for the Prizes you will need to create an AI Agent, fund your account with a small amount, set the parameters, and have it compete in the event. This can all be done in the Base Mini-app and we will be able to help during the transmission. We will also take the first 20 minutes of the AMA event to help anyone configure their agent in the mini app.\n\nWhilst watching the AI Agents battle for Financial Supremacy, Humans will compete in rapid fire quiz competitions for Legend Characters and have a chat discussion about the following:\n\n-Review and Updates for the LoC Roadmap Phase 2 incoming\n\n-Discussion about OG Champz Updates and Status\n\n-Leak of partnership with Spirit DAO (https://t.co/yCVca1HasW) as Champz the Indie Gaming Studio continues to move towards a community owned, governed, and driven company.\n\n-Spirit DAO is a mobile complete DAO system that will help with governance, time bound rewards, gated-roles, and community building/recognition via achievements and NFTs.\n\n-We will discuss the establishment of a monthly AMA Nexus Game Night Event with the community using Spirit DAO to onboard and vote for the community initiatives.\n\n-This AMA Nexus will be a warm up to try out the agents battling, chat features, quiz, and other mechanics beta test.\n\n-Introduction of the new G.N.A.A.S. (Game Night As A Service) that we are offering white label to other communities and projects on Base.\n\nCommunity roots us in everything we do. Look forward to seeing you there for this first of its kind event in the web 3 space, Cheers!",
-"likeCount": 10,
-"retweetCount": 10,
-"url": "https://x.com/ChampzErc/status/2073141700915081694",
-"createdAt": "Fri Jul 03 20:27:53 +0000 2026"
+"userName": "stevehou",
+"text": "Hasn’t the US already outspent China on AI by a factor of 10? China recently announced $295B capex fund over 5 years, which is less than half of what the US spends in 2026. It’s prob more in PPP terms but US AI capex is clearly not constrained by the short-sightedness of financial media panicking. \n\nAI buildout in the US, if it's been constrained at all, it's certainly not by the formidable cost or investor and media pressure, but by the physical limitations of power, land and groundswell resistance. Fundamentally, this speaks to America’s limited AI supply elasticity, esp when trying to do so much in a hurry. \n\nTherein lies the problem. The US has a supply elasticity problem. Most of the hardware (chips, memory, networking) is imported by ally countries also with limited supply elasticities. Domestic grid is dilapidated and ramping up power generation has been a struggle. \n\nAnd the inflation pressure that ensues from AI capex also speaks to supply elasticity as AI competes with other use cases over the same input. Inflation also in turn worsens groundswell local opposition. \n\nChina on the other hand has ample supply elasticity, which has become a signature strength due to the extensive, deep and flexible domestic supply chain. It also has the world’s most advanced ultra high voltage electrical grid network. Power isn’t a constraint for China. China’s constraint is advanced GPUs and EUV machines that have been embargoed. \n\nChina has also been further constrained by the fact that AI is just a super expensive and speculative bet with unknown or highly uncertain ROI. If we leave aside govt's push to build out China's own chip industry that started much earlier, China's AI effort so far has been mostly private sector driven.\n\nChina's risk capital and investors have lower risk tolerance than their American counterparts and don't want to commit capital to projects without clear path to ROI. Until recently, China incl its tech firms have been watching the US aggressive push into AI somewhat skeptically even as it makes its own push following the US's footsteps in typical fashion. \n\nSo I think this idea of AI as a capex arms race, which attractively maps to the US-USSR Cold War competition, is invalid for the present context. The US and China are running very different races with different conditions. The fact that China is keeping up while doing almost the same things much more efficiently and cheaply seems to be driving folks here a little mad. Always better to run your own race.",
+"likeCount": 60,
+"retweetCount": 1,
+"url": "https://x.com/stevehou/status/2071924384185360850",
+"createdAt": "Tue Jun 30 11:50:42 +0000 2026"
 },
 {
-"userName": "alzheimerssoc",
-"text": "What a month it's been!\n\nAs our Forget Me Not Appeal 2026 comes to a close, we're looking back on some incredible moments made possible by our supporters, volunteers, partners and campaigners.\n\nAcross the month of June, we 👇\n\n- Saw more than 117,000 people proudly wear our Forget Me Not Appeal badge in honour of loved ones affected by dementia\n\n- Joined with 50,000 supporters and @jonsnowC4 to call for better dementia diagnosis through our open letter\n\n- Announced 17 new research grants to help explore dementia's causes, diagnosis, treatment and prevention\n\n- Celebrated the two-year extension of our partnership with The FA\n\n- Raised an amazing £1.5 million to help fund life-changing support and ground-breaking research\n\n- Celebrated our incredible volunteers during Volunteers' Week\n\n- Helped deliver support through over 6,000 calls to our Dementia Support Line\n\nThank you for making this Forget Me Not Appeal so special and helping us get one step closer to ending the devastation caused by dementia 💙\n\n[Image description: A light blue graphic with a white rounded box with a red heart icon above, that reads: ‘Good news and things to celebrate this month’. Below, a blue forget-me-not flower is surrounded by curved text that reads: ‘Forget Me Not Appeal edition’.]",
-"likeCount": 25,
-"retweetCount": 10,
-"url": "https://x.com/alzheimerssoc/status/2072362095278997688",
-"createdAt": "Wed Jul 01 16:50:00 +0000 2026"
+"userName": "allen_lattimer",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
+"likeCount": 657,
+"retweetCount": 284,
+"url": "https://x.com/allen_lattimer/status/2073434146173825278",
+"createdAt": "Sat Jul 04 15:49:57 +0000 2026"
+},
+{
+"userName": "Halosznn_",
+"text": "Hiring ‼️\n🎥AI Video Creator\n📍Remote\n💵 Salary: N250,000 naira/month\n\nYou’ll be responsible for turning outfit photos into styled videos on one consistent AI model - she must look realistic, not artificial or “AI-generated.” You’ll maintain her same face, body, and look across all videos while styling her in different outfits based on briefs and creative direction, without needing a human model or physical shoot.\n\nRequirements‼️\n\n•Proficient in AI video generation tools (e.g., Runway, Kling, Luma, Pika, Sora, or similar)\n•Skilled in AI image generation/editing to maintain a consistent, realistic model across videos\n•Strong eye for fashion styling, trends, and aesthetics\n•Able to follow content briefs and recreate TikTok-style formats and pacing\n•Strong attention to detail, clean transitions, consistent lighting/style, no AI artifacts or glitches\n•Reliable and able to deliver on an agreed content schedule\n\nExpectations:\n\n•Maintain one consistent AI model (same face, body, look) across all content\n•Ensure the model looks fully realistic, no obvious or “AI-generated” appearance\n•Ensure movement, gestures, and expressions look smooth and human-like, not stiff or glitchy\n\nHow to Apply:\nSend your portfolio/sample AI-generated videos (fashion content) and a list of tools you work with to aivisualmastery@gmail.com",
+"likeCount": 44,
+"retweetCount": 4,
+"url": "https://x.com/Halosznn_/status/2071629563097203056",
+"createdAt": "Mon Jun 29 16:19:11 +0000 2026"
+},
+{
+"userName": "starmexxx",
+"text": "THREE CLAUDE SKILLS REPLACED A $250 UGC CREATOR FOR AN AI FASHION APP WITH 560 PAYING USERS, BRAND DNA BUILDER + CHARACTER CREATOR + UGC GENERATOR NOW SHIPS UNLIMITED VIDEOS AT $2-4 EACH\n\n00:28 the demo closes on the result, \"just like that you have unlimited ugc content for your brand\"\n\nskill one scrapes the entire brand site, builds a brand dna document and pulls every product image, claude already understands tone of voice and audience before any creative work begins\n\nskill two generates ai characters tailored to the target audience, locked through higgsfield soul so the same face recurs across every video the way a real ugc creator's account would\n\nskill three writes scripts, generates the ugc videos through kling 3 or seedance 2 and assembles the demo with remotion, the only real per-video cost is the 2 to 4 dollar generation fee\n\naesty is at 560 paying users running this stack across 15 accounts and pulling 100k+ tiktok views a week, the same volume that used to cost $250 a video now costs the price of a coffee per output\n\nbookmark this and read the article below",
+"likeCount": 47,
+"retweetCount": 4,
+"url": "https://x.com/starmexxx/status/2071989983074734459",
+"createdAt": "Tue Jun 30 16:11:22 +0000 2026"
+},
+{
+"userName": "burkov",
+"text": "Diffusion language models, which generate text by repeatedly filling in masked parts rather than writing strictly from left to right, are becoming a serious alternative to standard transformer language models, but the usual ways of improving reasoning after training were built for left-to-right generation and do not fit the diffusion models.\n\nThe authors of this paper introduce a self-training method in which the model first produces its own answer, then uses parts of that completed answer as helpful context while learning how earlier denoising steps should behave.\n\nInstead of comparing teacher and student one next token at a time, it compares them at each denoising step, which matches how diffusion language models actually generate text. \n\nAcross math and planning tasks, d-OPSD matches or beats supervised finetuning and reinforcement-learning baselines, while needing far fewer optimization steps than the main RL baseline.\n\nhttps://t.co/eRqYj4YPwi",
+"likeCount": 40,
+"retweetCount": 6,
+"url": "https://x.com/burkov/status/2071421998589198554",
+"createdAt": "Mon Jun 29 02:34:24 +0000 2026"
+},
+{
+"userName": "shristhikhanna",
+"text": "After \"love jihad\", \"land jihad\", \"UPSC jihad\", Sulli Deals and Bulli Bai, generative AI has become another way to target Muslim women in India. \n\nThis is the same hate politics playing out in yet another fashion. AI is amplifying old patterns of misogyny and Islamophobia, and the consequences are carried by women whose lives, safety and dignity are put at risk",
+"likeCount": 118,
+"retweetCount": 29,
+"url": "https://x.com/shristhikhanna/status/2073547450821009917",
+"createdAt": "Sat Jul 04 23:20:11 +0000 2026"
 },
 {
 "userName": "MoleiTaoMath",
 "text": "Wonder when diffusion language model can outperform autoregressive LLM?\nCare about generating sample to maximize reward, or editing low reward sample into a high reward one, but don't have model weights, i.e. test-time scaling?\nRigorous algorithms in https://t.co/j9XmytqltI 🧵1/4 https://t.co/zeS9fqk1MX",
-"likeCount": 63,
-"retweetCount": 15,
+"likeCount": 69,
+"retweetCount": 16,
 "url": "https://x.com/MoleiTaoMath/status/2072787278620135436",
 "createdAt": "Thu Jul 02 20:59:32 +0000 2026"
 },
 {
-"userName": "mitsuhiko_nm",
-"text": "How can we make RL post-training for robot policies more sample-efficient?\n\nCheck out OGPO: an RL post-training method for pre-trained flow-matching and diffusion policies.\n\nOGPO combines off-policy Q-learning with GRPO-style policy updates to enable fast &amp; stable fine-tuning.",
-"likeCount": 35,
-"retweetCount": 2,
-"url": "https://x.com/mitsuhiko_nm/status/2072022485583974508",
-"createdAt": "Tue Jun 30 18:20:31 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "why are the open tools so low in the list? We need to improve integration between open platforms and open models @steipete @thdxr @Teknium @badlogicgames!",
-"likeCount": 161,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2072708858129043658",
-"createdAt": "Thu Jul 02 15:47:55 +0000 2026"
+"userName": "Guanghan__Wang",
+"text": "Glad to see that Set Diffusion sets the new SOTA for any-order diffusion language models. Our  experiments in the latest d2 paper show that d2 works perfectly well as the de-facto RL post-training method for these type of any-order dLLMs.💪",
+"likeCount": 15,
+"retweetCount": 4,
+"url": "https://x.com/Guanghan__Wang/status/2073159272490258624",
+"createdAt": "Fri Jul 03 21:37:42 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @aakashgupta: Bridgewater just published numbers that should make every frontier lab nervous.\n\nThe world's largest hedge fund tested Gem…",
-"likeCount": 2377,
-"retweetCount": 262,
+"likeCount": 2428,
+"retweetCount": 272,
 "url": "https://x.com/ClementDelangue/status/2072827652210061526",
 "createdAt": "Thu Jul 02 23:39:58 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @akshay_pachaar: Don't train the model, evolve the harness.\n\nI read a brilliant blog post from Hugging Face where they took a frozen ope…",
-"likeCount": 924,
-"retweetCount": 136,
-"url": "https://x.com/ClementDelangue/status/2073066615487275043",
-"createdAt": "Fri Jul 03 15:29:31 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @Yuchenj_UW: GLM-5.2 is the open-source Claude moment.\n\nThe demand we’re seeing at Databricks is astonishing. The world is going to see…",
-"likeCount": 3703,
-"retweetCount": 340,
-"url": "https://x.com/jeremyphoward/status/2071439263317770715",
-"createdAt": "Mon Jun 29 03:43:00 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @MattZirwas: The take that frontier models aren't ready for use in medicine is dead wrong.\n\nI've been using Opus 4.x in my clinical work…",
-"likeCount": 399,
-"retweetCount": 58,
-"url": "https://x.com/jeremyphoward/status/2071361979026112797",
-"createdAt": "Sun Jun 28 22:35:54 +0000 2026"
+"text": "RT @thoughtfullab: GLM 5.2 is 5x cheaper than Opus 4.8 and 11x than Fable 5, yet it tops PostTrainBench.\n\nThat’s exciting because lower cos…",
+"likeCount": 499,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2073212552146735275",
+"createdAt": "Sat Jul 04 01:09:25 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechFollowrazzi: 🗞️ @steipete followed @ClementDelangue\n\nHuggingClaw or? https://t.co/jycGOjoZZn",
-"likeCount": 22,
+"text": "RT @as400495: Rampart, our PII removal model, has cracked the first screen of the top trending models across any category on Huggingface, o…",
+"likeCount": 174,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2072826705840885792",
+"createdAt": "Thu Jul 02 23:36:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Can anyone get me tickets for the world-cup quarter-final in Miami next week?",
+"likeCount": 70,
 "retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2072859853152739769",
-"createdAt": "Fri Jul 03 01:47:55 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2073106376004399242",
+"createdAt": "Fri Jul 03 18:07:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Jason: own the weights of production! https://t.co/IgULlOtX29",
-"likeCount": 378,
-"retweetCount": 29,
-"url": "https://x.com/ClementDelangue/status/2072802441800691839",
-"createdAt": "Thu Jul 02 21:59:47 +0000 2026"
-},
-{
-"userName": "RahulKu22532718",
-"text": "https://t.co/8jh90CKsRW",
-"likeCount": 53,
-"retweetCount": 19,
-"url": "https://x.com/RahulKu22532718/status/2072551695805202605",
-"createdAt": "Thu Jul 02 05:23:25 +0000 2026"
-},
-{
-"userName": "Caden_Flux",
-"text": "https://t.co/2QmnOmB68F",
-"likeCount": 289,
-"retweetCount": 3,
-"url": "https://x.com/Caden_Flux/status/2072670486194962502",
-"createdAt": "Thu Jul 02 13:15:26 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/Y7ZinhxDKv",
-"likeCount": 27,
-"retweetCount": 7,
-"url": "https://x.com/apob_ai/status/2072603395479793836",
-"createdAt": "Thu Jul 02 08:48:51 +0000 2026"
+"text": "RT @Jason: OPEN SOURCE = UNLIMITED SOVEREIGN INTELLIGENCE",
+"likeCount": 1093,
+"retweetCount": 99,
+"url": "https://x.com/ClementDelangue/status/2072802461354545410",
+"createdAt": "Thu Jul 02 21:59:52 +0000 2026"
 }
 ]

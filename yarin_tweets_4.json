@@ -1,43 +1,83 @@
 [
 {
+"userName": "shushant_l",
+"text": "I'm shocked most people use AI image generators without knowing what actually happens behind the scenes.\n\nHere's how AI turns a simple text prompt into a stunning image step by step.\n\n---\n\n📂 AI Image Generation\n┃\n┣ 📂 Big Idea\n┃ ┣ 📂 Learn From Billions Of Image Text Pairs\n┃ ┣ 📂 Understand Visual Patterns\n┃ ┣ 📂 Encode Relationships\n┃ ┣ 📂 Start From Random Noise\n┃ ┗ 📂 Generate Brand New Images\n┃\n┣ 📂 Complete Pipeline\n┃ ┣ 📂 Text Prompt\n┃ ┣ 📂 Text Encoding\n┃ ┣ 📂 Latent Representation\n┃ ┣ 📂 Random Noise\n┃ ┣ 📂 Iterative Denoising\n┃ ┣ 📂 Image Refinement\n┃ ┣ 📂 Decoder\n┃ ┗ 📂 Final Image\n┃\n┣ 📂 Prompt\n┃ ┣ 📂 Subject\n┃ ┣ 📂 Action\n┃ ┣ 📂 Environment\n┃ ┣ 📂 Lighting\n┃ ┣ 📂 Camera\n┃ ┣ 📂 Style\n┃ ┣ 📂 Mood\n┃ ┗ 📂 Colors\n┃\n┣ 📂 Text Understanding\n┃ ┣ 📂 CLIP\n┃ ┣ 📂 T5\n┃ ┣ 📂 Multimodal Encoders\n┃ ┣ 📂 Semantic Embeddings\n┃ ┗ 📂 Prompt Interpretation\n┃\n┣ 📂 Latent Space\n┃ ┣ 📂 Compressed Representation\n┃ ┣ 📂 Faster Processing\n┃ ┣ 📂 Lower Memory Usage\n┃ ┣ 📂 Better Scalability\n┃ ┗ 📂 Higher Image Quality\n┃\n┣ 📂 Image Creation\n┃ ┣ 📂 Start With Random Noise\n┃ ┣ 📂 Predict Noise\n┃ ┣ 📂 Remove Noise\n┃ ┣ 📂 Reveal Shapes\n┃ ┣ 📂 Form Objects\n┃ ┣ 📂 Add Textures\n┃ ┣ 📂 Apply Lighting\n┃ ┗ 📂 Generate Fine Details\n┃\n┣ 📂 Denoising Model\n┃ ┣ 📂 U-Net\n┃ ┣ 📂 Diffusion Transformer (DiT)\n┃ ┣ 📂 Noise Prediction\n┃ ┣ 📂 Progressive Refinement\n┃ ┗ 📂 Image Reconstruction\n┃\n┣ 📂 Cross Attention\n┃ ┣ 📂 Match Words To Regions\n┃ ┣ 📂 Align Prompt With Image\n┃ ┣ 📂 Focus On Important Details\n┃ ┣ 📂 Preserve Context\n┃ ┗ 📂 Improve Accuracy\n┃\n┣ 📂 Guidance\n┃ ┣ 📂 Classifier Free Guidance\n┃ ┣ 📂 Prompt Following\n┃ ┣ 📂 Creativity Control\n┃ ┣ 📂 Stronger Prompt Adherence\n┃ ┗ 📂 Output Variation\n┃\n┣ 📂 Decoding\n┃ ┣ 📂 Convert Latents To Pixels\n┃ ┣ 📂 Restore Colors\n┃ ┣ 📂 Recover Textures\n┃ ┣ 📂 Rebuild Shadows\n┃ ┗ 📂 Produce Final Image\n┃\n┣ 📂 Training\n┃ ┣ 📂 Billions Of Image Text Pairs\n┃ ┣ 📂 Add Noise\n┃ ┣ 📂 Predict Removed Noise\n┃ ┣ 📂 Compare With Ground Truth\n┃ ┣ 📂 Update Parameters\n┃ ┗ 📂 Repeat Billions Of Times\n┃\n┣ 📂 Generation Modes\n┃ ┣ 📂 Text To Image\n┃ ┣ 📂 Image To Image\n┃ ┣ 📂 Inpainting\n┃ ┣ 📂 Outpainting\n┃ ┣ 📂 Style Transfer\n┃ ┗ 📂 Reference Guided Generation\n┃\n┣ 📂 Modern Improvements\n┃ ┣ 📂 Better Prompt Understanding\n┃ ┣ 📂 More Realistic Anatomy\n┃ ┣ 📂 Improved Typography\n┃ ┣ 📂 Better Lighting\n┃ ┣ 📂 Higher Image Quality\n┃ ┣ 📂 Stronger Composition\n┃ ┣ 📂 More Consistent Characters\n┃ ┣ 📂 Faster Generation\n┃ ┗ 📂 Better Image Editing\n┃\n┣ 📂 Common Mistakes\n┃ ┣ 📂 Ambiguous Prompts\n┃ ┣ 📂 Poor Spatial Reasoning\n┃ ┣ 📂 Incorrect Object Counting\n┃ ┣ 📂 Weak Text Rendering\n┃ ┣ 📂 Unrealistic Physics\n┃ ┗ 📂 Limited World Knowledge\n┃\n┣ 📂 Applications\n┃ ┣ 📂 Graphic Design\n┃ ┣ 📂 Marketing\n┃ ┣ 📂 Advertising\n┃ ┣ 📂 Social Media\n┃ ┣ 📂 Product Visualization\n┃ ┣ 📂 Concept Art\n┃ ┣ 📂 Game Development\n┃ ┣ 📂 Film Production\n┃ ┣ 📂 Architecture\n┃ ┣ 📂 Interior Design\n┃ ┣ 📂 Fashion\n┃ ┣ 📂 Education\n┃ ┗ 📂 E-commerce\n┃\n┗ 📂 Simple Analogy\n┣ 📂 Start With Random Noise\n┣ 📂 Reveal Basic Shapes\n┣ 📂 Form Objects\n┣ 📂 Add Lighting\n┣ 📂 Apply Textures\n┣ 📂 Refine Fine Details\n┗ 📂 Finish The Complete Image",
+"likeCount": 28,
+"retweetCount": 8,
+"url": "https://x.com/shushant_l/status/2072666861423198365",
+"createdAt": "Thu Jul 02 13:01:02 +0000 2026"
+},
+{
+"userName": "Defi_Scribbler",
+"text": "40 Most Useful Sites on the Internet today\n\n1. justwatch. com\nfind where to stream any movie or TV show on Netflix, Prime, Disney+, etc.\n\n2. openculture. com\nfree online courses, ebooks, movies and cultural content from top universities and institutions\n\n3. cleanup. pictures: \nAI tool to remove unwanted objects, people, text, or defects from photos\n\n4. haveibeenpwned. com\ncheck if your email address or password has appeared in known data breaches\n\n5. tineye. com\nreverse image search - find the original source of an image or similar pictures\n\n6. virustotal. com\nScan files, URLs, and apps for malware and viruses \n\n7. temp-mail. org\nget a temporary/disposable email address instantly.\n\n8. noiz. io\nsummarize long YouTube videos\n\n9. smallpdf. com\nedit, compress, convert, and work with PDFs online\n\n10. elicit. org\nAI research assistant that finds, summarizes, and extracts data from academic papers\n\n11. unscreen. com\nremove the background from videos and make them transparent\n\n12. fast. com\nquick and simple internet speed test\n\n13. downdetector. com\ncheck in real-time if a website or service (Twitter, WhatsApp, banks, etc.) is down\n\n14. similarsites. com\ndiscover websites similar to one you already like\n\n15. shots. so\ncreate beautiful device mockups and product screenshots quickly\n\n16. privnote. com\nsend notes that self-destruct after being read / sensitive information temporarily\n\n17. phind. com\nAI search engine built specifically for developers and programmers\n\n18. file. io\nshare files that automatically delete after being downloaded or after a set time\n\n19. radio. garden\nlisten to live radio stations from all over the world on an interactive globe\n\n20. everynoise. com\nexplore every music genre that exists with visual maps and playlists\n\n21. tunefind. com\nfind songs and music from specific TV shows, movies, or episodes\n\n22. musicforprogramming. net\ncurated instrumental music specifically made for deep focus and coding\n\n23. mynoise. net\ncreate custom soundscapes and background noise (rain, cafe, nature)\n\n24. coffitivity. com\ncafe ambient sounds to boost productivity\n\n25. ray. so\ncreate clean, beautiful code screenshots with various themes and styles\n\n26. regex101. com\ntest, debug, and understand regular expressions with detailed explanations\n\n27. codebeautify. org\nformat, validate, and convert code (JSON, XML, HTML, CSS, etc.)\n\n28. jsonformatter. org\nformat and validate JSON data\n\n29. explainshell. com\nexplains Linux/terminal commands in simple language\n\n28. squoosh. app\nhigh-quality image compression tool\n\n29. ilovepdf. com\nmerge, split, compress, rotate, and convert PDFs\n\n30. photopea. com\nphotoshop alternative that runs in your browser (no installation needed)\n\n31. raindrop. io\nbookmark manager with tags,collections, full-text search, and organization\n\n32. consensus. app\nAI tool that tells you what scientific studies actually agree on for a given question\n\n33. connectedpapers. com\ncreates visual maps/graphs showing how research papers are connected\n\n34. semanticscholar. org\nFree AI-powered academic search engine\n\n35. scispace. com\nAI tool that explains research papers in simple language and answers questions about them\n\n36. wolframalpha. com\nsolves math problems, answers factual/scientific questions, and processes data\n\n37. remove. bg:\ninstantly remove backgrounds from images using AI\n\n38. gutenberg. org\n70,000+ free classic books in the public domain (no copyright issues)\n\n39. archive. ph\nsave any webpage permanently with a clean snapshot\n\n40. archive. org\nsave and access old versions of websites, plus millions of free books, movies, music, and software",
+"likeCount": 72,
+"retweetCount": 12,
+"url": "https://x.com/Defi_Scribbler/status/2073645219497599332",
+"createdAt": "Sun Jul 05 05:48:41 +0000 2026"
+},
+{
 "userName": "_The_Prophet__",
 "text": "⚡️Cognition just became heavy industry, and this article is the disclosure event. \n\nThe dominant truth: water is the binding constraint of the AI buildout because it is the one input that cannot be arbitraged across geography, and everything else in the stack can. \n\nCapital moves at wire speed, chips ship, power gets built in eighteen months, but water is watershed-local, legally encumbered, and politically primal. The line in the piece that carries the whole thesis is the Nevada-Michigan sentence: a dry river in one basin cannot be offset by abundance in another. Every other constraint on AI is fungible. This one has coordinates.\n\nRECs are claims that decouple the legal representation from the physical draw, fiat logic applied to electrons: buy a certificate in one geography, consume wet megawatts in another, report “water positive.” The 3x indirect multiple at Google and 20x at Meta means every published datacenter water number understates the true draw by an order of magnitude, which sets up a revision bomb: the coming political fight will be fought with numbers that suddenly get twenty times worse on restatement, and narrative risk of that shape never reprices gradually.\n\nThe mechanism nobody in the thread will name: the buildout’s speed is its water bill. The gas-heavy backbone got chosen because gas deploys fast, and thermoelectric generation is evaporative by design, wet cooling towers boiling rivers into the sky to make tokens. Behind-the-meter turbines, the current fashion for dodging interconnect queues, are the maximum-water path. Solar and wind consume almost nothing, but they lost the race on velocity. The industry selected the water-intensive route as the price of speed, which means the constraint tightens on the same schedule as the capex, not after it.\n\nWater rights are the oldest continuously litigated property claims in America, prior appropriation doctrine, agricultural seniority, century-old compacts, and the claimants vote. Datacenter siting fights are already the hottest local politics in a dozen states. Now overlay the newest fact on the board: the federal government is taking equity in the AI complex. The sovereign shareholder acquires a direct financial interest in overriding local water objections, and the collision is fully predictable, federal preemption of water and land constraints for “strategic AI infrastructure” against the one resource where local claims are oldest and voters care most. The referee owns the team, and the next thing the team needs is the other team’s river.\n\nBurry himself is detection-layer signal with unauthorized timing, per his entire career: the structural flaw he names is real and the pop he implies is not scheduled by it. And the constraint he is holding actually cuts against his trade in one decisive respect. Physical rationing does not deflate the sector, it concentrates it. Whoever locked water rights, interconnects, and cooling capacity early converts a commodity input into a moat, and scarcity becomes the incumbents’ pricing power. The bear case for aggregate capex fantasies and the bull case for resource-secured hyperscalers are the same fact. Rationing picks winners; it does not pick zero.\n\nThe asset implication closes the loop: water is the most underpriced scarce atom on earth, agriculture pays near zero for senior rights while the marginal industrial user now bidding is the most valuable industry in history. \n\nThat spread closes. \n\nWater rights, basins with surplus, cooling-adjacent infrastructure, and the political jurisdictions that own wet geography move from externality to asset class inside this cycle.",
-"likeCount": 39,
-"retweetCount": 2,
+"likeCount": 51,
+"retweetCount": 4,
 "url": "https://x.com/_The_Prophet__/status/2073187644708983210",
 "createdAt": "Fri Jul 03 23:30:27 +0000 2026"
 },
 {
-"userName": "NongZonNanny",
-"text": "disclaimer: gemini ai trans\n\n**Aoftionz Live Summary**\n\n * **The other day, I asked NongZon (kaijeng) if he was tired.** He replied, “I haven't even started working today,” so I didn't know what to ask next. 😂\n\n * **NuNew’s solo concert is in the plans**, but I really can't spoil anything right now. It will definitely happen within this year. The NuNew brand will not disappoint anyone. Once it's announced, I want everyone to come.\n\n * **The Sports Day event** will feature both sports competitions and special shows.\n\n * **I really like Zee with short hair.** Just the other day, I complimented him, saying he looks younger.\n\n * **For #ZeeNuNewTheReality,** we want you to see sides of them that no one has ever seen before. It has to be truly real.\n\n * **Regarding the lightstick price:** I don't want people to compare it with Korean groups because they produce in massive quantities at a time, and normally, the higher the production volume, the cheaper the cost per unit.\n\n * **For all artists, Fashion Week invitations** usually come in quite last-minute. If an existing schedule can be shifted around, we will do it so the kids can attend. But if we already accepted another job beforehand, we have to fulfill that responsibility. (We also have to look at their schedules and the artists' own preferences, because they might want to focus on other work during that period).\n\n * **I acknowledge the feedback regarding \"recasting/changing actors,\"** but I cannot speak about it here.\n\n * **Feedback has already been sent** regarding the response times/customer service of the DMD Shop.\n\n * *Mon Rak Hug E-Lee* (Isan Love Spell) should be something brand new for the industry. I'm excited about it too. It's definitely going to be *muan* (fun/entertaining).\n\n * **I constantly teach the kids to prioritize manners and respectfulness** (being quick to *wai* and show respect), as it makes them look more endearing. During artist interviews/auditions, we look at their attitude toward fans. We regularly talk with the younger artists to keep ourselves updated and find a middle ground that suits the younger generation today.\n\n * **DMD's current content is highly diverse.** We want everyone to have options that fit their preferences. We are trying to experiment with new things. (I'd prefer if people didn't use the word \"Cringe\" so carelessly, as it might cause some people to lose confidence. Some things might just be down to personal preference).\n\n * **The *The Next Prince* (Khon Fah Kiang Ther) Boxset** might have a few scenes slightly re-edited.\n\n * **Regarding the benefit compensation,** I've already informed the team to announce it as soon as everything is finalized.\n\n * **Squishies?** There will (probably) be some. I want you to wait and see.\n\n * **Engagement from all parties is important**—whether it's from the artists, the staff, or the fans.\n\n * **For the Domundi Cafe,** I really want to collab with Pokémon. My life would truly be complete.\n\n🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍\n\n **#P'Aof's Message to Us:**\n> \"I want everyone to play on X (Twitter) happily. If there's something you can overlook, you should just let it go. Follow your artists mindfully and remember why you started following them in the first place... I'm truly worried about everyone. I don't want you to read certain things and end up feeling discouraged. I really don't want it to be like that.\"\n> \n🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍🤍\n#ZeeNunew\n#ZeePruk\n#Nunew\n#Baby_Nongzon\n#มนต์รักฮักอีหลี\n#HUGELheeTheMusical",
-"likeCount": 97,
-"retweetCount": 32,
-"url": "https://x.com/NongZonNanny/status/2070936071647769078",
-"createdAt": "Sat Jun 27 18:23:30 +0000 2026"
+"userName": "ChampzErc",
+"text": "Announcing the First Ever AMA Nexus Event for the Champz Community!\n\nThe AMA has Evolved, Ask Me Anything is now the A.I. Magistrate Arena\n\nYou can still ask us anything but now we have a Virtual Third Space Nexus in which to host the AMA.\n\nJoin us in the AMA Nexus next Monday, July 6th at 6 PM UTC at the Nexus https://t.co/pAtpup8oVm or you can watch the livestream on Twitter https://t.co/H8gHhTwOuE\n\nThe Following Prizes:\n\n1 Million Champz Tokens\n1 Event Specific Unique Legend\n4 Event Specific Legendary Legends\n1 Event Specific Epic Legend\nUnique Role inside the Newly Created Champz DAO\n\n—-Important—-\n\nTo Qualify for the Prizes you will need to create an AI Agent, fund your account with a small amount, set the parameters, and have it compete in the event. This can all be done in the Base Mini-app and we will be able to help during the transmission. We will also take the first 20 minutes of the AMA event to help anyone configure their agent in the mini app.\n\nWhilst watching the AI Agents battle for Financial Supremacy, Humans will compete in rapid fire quiz competitions for Legend Characters and have a chat discussion about the following:\n\n-Review and Updates for the LoC Roadmap Phase 2 incoming\n\n-Discussion about OG Champz Updates and Status\n\n-Leak of partnership with Spirit DAO (https://t.co/yCVca1HasW) as Champz the Indie Gaming Studio continues to move towards a community owned, governed, and driven company.\n\n-Spirit DAO is a mobile complete DAO system that will help with governance, time bound rewards, gated-roles, and community building/recognition via achievements and NFTs.\n\n-We will discuss the establishment of a monthly AMA Nexus Game Night Event with the community using Spirit DAO to onboard and vote for the community initiatives.\n\n-This AMA Nexus will be a warm up to try out the agents battling, chat features, quiz, and other mechanics beta test.\n\n-Introduction of the new G.N.A.A.S. (Game Night As A Service) that we are offering white label to other communities and projects on Base.\n\nCommunity roots us in everything we do. Look forward to seeing you there for this first of its kind event in the web 3 space, Cheers!",
+"likeCount": 14,
+"retweetCount": 14,
+"url": "https://x.com/ChampzErc/status/2073141700915081694",
+"createdAt": "Fri Jul 03 20:27:53 +0000 2026"
 },
 {
 "userName": "0xgilllee",
 "text": "Crypto card tier list for the week\n\nTier S (Best to try now, strong UX, real usage, non-custodial or strong incentives, growing hype in 2026)\n\n1. @Cypher_HQ_\n\n+ Non-custodial, supports 1000+ tokens across chains, has auto-reload, geo-blocking and AI features.\n+ Getting attention from $CYPR sign-up bonus and strong security setup.\n+ I think this is a very strong option if you like using altcoins flexibly; just keep an eye on the rewards.\n\n2. @KASTxyz\n\n+ Smooth UX like Revolut, with a physical Pengu card and stable rewards for daily or business use.\n+ Expanding fast, UX is rated highly in 2026. Very easy to use, low friction, one of the most reliable cards right now.\n\n3. @useTria\n\n+ On-chain super app + card, offers strong rewards, up to 6% cashback during promo.\n+ Growing fast, community feedback is positive. Good upside, but worth watching once the promo ends.\n\nTier A (Strong options, high adoption and volume, good UX but less unique than Tier S)\n\n4. @RedotPay\n\n+ High stablecoin volume, supports 100+ countries, easy USDT/USDC payments.\n+ Strong funding and now expanding with a Solana card. Very good for international spending, simple, although still custodial.\n\n5. @KoloHub\n\n+ Integrates Telegram, 2-5% BTC cashback, virtual Visa card.\n+ Recently released a new version, significantly improved UX. Quite underrated but performs well in practice, especially in Asia.\n\n6. @AviciMoney\n\n+ Offers USD/EUR accounts, allowing you to spend crypto without selling it immediately.\n+ Currently adding credit-like features.\n+ Suitable for those who want to use crypto like fiat currency without having to sell their assets immediately.\n\n7. @ether_fi\n\n+ Allows you to spend and maintain yield on assets, using collateral and self-custody.\n+ Strongly supported by the DeFi community. Suitable for long-term holders who want to both earn and spend.\n\nTier B (Stable and established, but less innovation or average rewards in 2026)\n\n8. @RevolutApp\n9. @gnosispay\n10. @coinbase\n11. @cryptocom\n12. @Bybit_Official\n13. @wirexapp",
-"likeCount": 91,
+"likeCount": 97,
 "retweetCount": 9,
 "url": "https://x.com/0xgilllee/status/2073111970988118071",
 "createdAt": "Fri Jul 03 18:29:45 +0000 2026"
 },
 {
-"userName": "starmexxx",
-"text": "THREE CLAUDE SKILLS REPLACED A $250 UGC CREATOR FOR AN AI FASHION APP WITH 560 PAYING USERS, BRAND DNA BUILDER + CHARACTER CREATOR + UGC GENERATOR NOW SHIPS UNLIMITED VIDEOS AT $2-4 EACH\n\n00:28 the demo closes on the result, \"just like that you have unlimited ugc content for your brand\"\n\nskill one scrapes the entire brand site, builds a brand dna document and pulls every product image, claude already understands tone of voice and audience before any creative work begins\n\nskill two generates ai characters tailored to the target audience, locked through higgsfield soul so the same face recurs across every video the way a real ugc creator's account would\n\nskill three writes scripts, generates the ugc videos through kling 3 or seedance 2 and assembles the demo with remotion, the only real per-video cost is the 2 to 4 dollar generation fee\n\naesty is at 560 paying users running this stack across 15 accounts and pulling 100k+ tiktok views a week, the same volume that used to cost $250 a video now costs the price of a coffee per output\n\nbookmark this and read the article below",
-"likeCount": 47,
-"retweetCount": 4,
-"url": "https://x.com/starmexxx/status/2071989983074734459",
-"createdAt": "Tue Jun 30 16:11:22 +0000 2026"
+"userName": "shushant_l",
+"text": "I'm shocked most people use AI every day without knowing the breakthroughs that made it possible.\n\nHere's the complete timeline of the 10 biggest AI breakthroughs that changed technology forever.\n\n---\n\n📂 10 Biggest AI Breakthroughs Ever\n┃\n┣ 📂 1. Birth of Artificial Intelligence (1956)\n┃ ┣ 📂 AI Became a Scientific Field\n┃ ┗ 📂 Foundation for Modern AI Research\n┃\n┣ 📂 2. Backpropagation (1986)\n┃ ┣ 📂 Practical Neural Networks\n┃ ┗ 📂 Core Deep Learning Algorithm\n┃\n┣ 📂 3. AlexNet (2012)\n┃ ┣ 📂 Computer Vision Breakthrough\n┃ ┗ 📂 Deep Learning Revolution\n┃\n┣ 📂 4. AlphaGo (2016)\n┃ ┣ 📂 Defeated Go Champion\n┃ ┗ 📂 Proved Strategic AI Reasoning\n┃\n┣ 📂 5. Transformers (2017)\n┃ ┣ 📂 Self Attention Mechanism\n┃ ┗ 📂 Foundation of GPT, Gemini, Claude & Llama\n┃\n┣ 📂 6. GPT Large Language Models (2018 to 2020)\n┃ ┣ 📂 Powerful Language Understanding\n┃ ┗ 📂 Multi Task AI with One Model\n┃\n┣ 📂 7. AlphaFold (2020)\n┃ ┣ 📂 Solved Protein Structure Prediction\n┃ ┗ 📂 Accelerated Biology & Drug Discovery\n┃\n┣ 📂 8. Diffusion Models (2021 to 2022)\n┃ ┣ 📂 AI Image Generation\n┃ ┗ 📂 High Quality Text to Image Creation\n┃\n┣ 📂 9. ChatGPT (2022)\n┃ ┣ 📂 Brought AI to Millions\n┃ ┗ 📂 Everyday Work & Learning Assistant\n┃\n┗ 📂 10. AI Reasoning Models & Agents (2024 to 2026)\n┣ 📂 Multi Step Reasoning\n┣ 📂 Planning & Research\n┣ 📂 Coding & Task Automation\n┣ 📂 Autonomous AI Assistants\n┗ 📂 Future of Intelligent Systems",
+"likeCount": 30,
+"retweetCount": 12,
+"url": "https://x.com/shushant_l/status/2073300282566746417",
+"createdAt": "Sat Jul 04 06:58:02 +0000 2026"
 },
 {
-"userName": "burkov",
-"text": "Diffusion language models, which generate text by repeatedly filling in masked parts rather than writing strictly from left to right, are becoming a serious alternative to standard transformer language models, but the usual ways of improving reasoning after training were built for left-to-right generation and do not fit the diffusion models.\n\nThe authors of this paper introduce a self-training method in which the model first produces its own answer, then uses parts of that completed answer as helpful context while learning how earlier denoising steps should behave.\n\nInstead of comparing teacher and student one next token at a time, it compares them at each denoising step, which matches how diffusion language models actually generate text. \n\nAcross math and planning tasks, d-OPSD matches or beats supervised finetuning and reinforcement-learning baselines, while needing far fewer optimization steps than the main RL baseline.\n\nhttps://t.co/eRqYj4YPwi",
-"likeCount": 40,
-"retweetCount": 6,
-"url": "https://x.com/burkov/status/2071421998589198554",
-"createdAt": "Mon Jun 29 02:34:24 +0000 2026"
+"userName": "ClementDelangue",
+"text": "As America turns 250, we put together 250 open AI milestones from the US: open models, datasets, demos, papers, and tools that helped shape the field. They go from attention is all you need, pytorch, gpt2, ULMFIT, llama, imagenet, Lora and hundreds more.\n\nThey are a reminder of what made America the world’s engine of innovation:\n- Open science\n- Open competition\n- Open ecosystems\n\nBuilders and scientists building on each other’s work, challenging each other, remixing ideas, and pushing the frontier forward. That is America at its best!\n\nAnd that philosophy is at risk right now in AI.\n\nIn the coming months, scientists and AI builders will have to decide what side of history they want to be on: an AI future shaped by openness, transparency, participation, and competition, or one increasingly controlled behind closed doors by a few actors optimizing for money, secrecy, and gatekeeping.\n\nLet’s make the next 250 even more open!\n\nhttps://t.co/HX6ANE2xlZ",
+"likeCount": 269,
+"retweetCount": 47,
+"url": "https://x.com/ClementDelangue/status/2073373755632480517",
+"createdAt": "Sat Jul 04 11:49:59 +0000 2026"
+},
+{
+"userName": "neil_xbt",
+"text": "On a video call, you normally share your screen or hold a phone up to the camera like a caveman!\n\nShacam turns all of that into something you physically grab and move in the air.\n\nPull any image, app window, or a live mirror of your iPhone or iPad screen into your webcam feed. Then use your actual hands to grab, move, and resize them like real objects floating in front of you.\n\nWorks in Zoom, Meet, QuickTime, OBS, anything that uses a camera. The hand tracking runs smooth and low latency, which is usually the exact part that ruins apps like this.\n\nEverything runs locally on the Mac. Nothing is recorded, nothing leaves the computer, so you are not sending your screen through some random server like most virtual camera apps do.\n\nFree to try. Pay once to use it as your actual webcam.\n\nThe closest thing yet to reaching into your screen and moving stuff around with your hands on a normal video call.\n\nFollow @neil_xbt for more AI content!",
+"likeCount": 41,
+"retweetCount": 14,
+"url": "https://x.com/neil_xbt/status/2073350355102953570",
+"createdAt": "Sat Jul 04 10:17:00 +0000 2026"
+},
+{
+"userName": "grx_xce",
+"text": "Will you be at ICML? \n\nIf you’re current obsessions include: \n• building evals from production data \n• verifying “non-verifiable” domains \n• RLHF/post-training/RL(insert letter)F\n• image/video generation \n• real-world benchmarks\n\nDM me if you’ll be in Seoul! I know a night market with the best tanghulu, and I have some events to invite you to :)",
+"likeCount": 103,
+"retweetCount": 7,
+"url": "https://x.com/grx_xce/status/2073476753016946792",
+"createdAt": "Sat Jul 04 18:39:15 +0000 2026"
+},
+{
+"userName": "mitsuhiko_nm",
+"text": "How can we make RL post-training for robot policies more sample-efficient?\n\nCheck out OGPO: an RL post-training method for pre-trained flow-matching and diffusion policies.\n\nOGPO combines off-policy Q-learning with GRPO-style policy updates to enable fast &amp; stable fine-tuning.",
+"likeCount": 35,
+"retweetCount": 2,
+"url": "https://x.com/mitsuhiko_nm/status/2072022485583974508",
+"createdAt": "Tue Jun 30 18:20:31 +0000 2026"
 },
 {
 "userName": "probablynotaz9",
@@ -49,66 +89,42 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Most people should probably update their priors on the state of open-source speech-to-speech.\n\nIt's honestly kind of mind-bl…",
-"likeCount": 1382,
-"retweetCount": 149,
-"url": "https://x.com/ClementDelangue/status/2072827690759966754",
-"createdAt": "Thu Jul 02 23:40:07 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @_albertgu: Transformers are better at copying, while RNNs are better at modeling \"meaning-bearing words—the nouns, verbs, &amp; adjectives…",
-"likeCount": 424,
-"retweetCount": 29,
-"url": "https://x.com/jeremyphoward/status/2070957383183171674",
-"createdAt": "Sat Jun 27 19:48:11 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @yifannnwu: Introducing SWE-Together: a multi-turn benchmark built from real user–agent coding sessions.\n\nCoding agents are often benchm…",
-"likeCount": 352,
-"retweetCount": 54,
-"url": "https://x.com/jeremyphoward/status/2072273568570982900",
-"createdAt": "Wed Jul 01 10:58:14 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @sara_drag: Is Muon as good as they say? We looked beyond training speed and found a hidden cost: Muon loses the simplicity bias of olde…",
-"likeCount": 351,
-"retweetCount": 40,
-"url": "https://x.com/jeremyphoward/status/2072456367177441539",
-"createdAt": "Wed Jul 01 23:04:36 +0000 2026"
+"text": "RT @akshay_pachaar: Don't train the model, evolve the harness.\n\nI read a brilliant blog post from Hugging Face where they took a frozen ope…",
+"likeCount": 1278,
+"retweetCount": 192,
+"url": "https://x.com/ClementDelangue/status/2073066615487275043",
+"createdAt": "Fri Jul 03 15:29:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "We've just coined it live with @dee_bosa @vipulved: it's going to be the \"Summer of Open-source AI\"!",
-"likeCount": 67,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2072780808679547313",
-"createdAt": "Thu Jul 02 20:33:49 +0000 2026"
+"text": "RT @kskrygan: Unpopular opinion: While everyone is so hyped about Fable, GPT5.6 and other huge and expensive models, I think the real hero…",
+"likeCount": 1248,
+"retweetCount": 62,
+"url": "https://x.com/ClementDelangue/status/2073107930019193006",
+"createdAt": "Fri Jul 03 18:13:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Jason: OPEN SOURCE = UNLIMITED SOVEREIGN INTELLIGENCE",
-"likeCount": 1048,
-"retweetCount": 96,
-"url": "https://x.com/ClementDelangue/status/2072802461354545410",
-"createdAt": "Thu Jul 02 21:59:52 +0000 2026"
+"text": "RT @TechFollowrazzi: 🗞️ @steipete followed @ClementDelangue\n\nHuggingClaw or? https://t.co/jycGOjoZZn",
+"likeCount": 23,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2072859853152739769",
+"createdAt": "Fri Jul 03 01:47:55 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Are you ready for the open-source AI summer™️? https://t.co/BFex52oxJL",
+"likeCount": 235,
+"retweetCount": 37,
+"url": "https://x.com/ClementDelangue/status/2073073416114995300",
+"createdAt": "Fri Jul 03 15:56:32 +0000 2026"
 },
 {
 "userName": "pequityresearch",
 "text": "https://t.co/OX4gb7uX7A",
-"likeCount": 22,
-"retweetCount": 1,
+"likeCount": 59,
+"retweetCount": 6,
 "url": "https://x.com/pequityresearch/status/2073201451417874435",
 "createdAt": "Sat Jul 04 00:25:18 +0000 2026"
-},
-{
-"userName": "Chaemate_",
-"text": "https://t.co/v0eo15v3T0",
-"likeCount": 236,
-"retweetCount": 3,
-"url": "https://x.com/Chaemate_/status/2072608824633270424",
-"createdAt": "Thu Jul 02 09:10:25 +0000 2026"
 }
 ]
