@@ -1,129 +1,137 @@
 [
 {
-"userName": "shushant_l",
-"text": "I'm shocked most people use AI image generators without knowing what actually happens behind the scenes.\n\nHere's how AI turns a simple text prompt into a stunning image step by step.\n\n---\n\n📂 AI Image Generation\n┃\n┣ 📂 Big Idea\n┃ ┣ 📂 Learn From Billions Of Image Text Pairs\n┃ ┣ 📂 Understand Visual Patterns\n┃ ┣ 📂 Encode Relationships\n┃ ┣ 📂 Start From Random Noise\n┃ ┗ 📂 Generate Brand New Images\n┃\n┣ 📂 Complete Pipeline\n┃ ┣ 📂 Text Prompt\n┃ ┣ 📂 Text Encoding\n┃ ┣ 📂 Latent Representation\n┃ ┣ 📂 Random Noise\n┃ ┣ 📂 Iterative Denoising\n┃ ┣ 📂 Image Refinement\n┃ ┣ 📂 Decoder\n┃ ┗ 📂 Final Image\n┃\n┣ 📂 Prompt\n┃ ┣ 📂 Subject\n┃ ┣ 📂 Action\n┃ ┣ 📂 Environment\n┃ ┣ 📂 Lighting\n┃ ┣ 📂 Camera\n┃ ┣ 📂 Style\n┃ ┣ 📂 Mood\n┃ ┗ 📂 Colors\n┃\n┣ 📂 Text Understanding\n┃ ┣ 📂 CLIP\n┃ ┣ 📂 T5\n┃ ┣ 📂 Multimodal Encoders\n┃ ┣ 📂 Semantic Embeddings\n┃ ┗ 📂 Prompt Interpretation\n┃\n┣ 📂 Latent Space\n┃ ┣ 📂 Compressed Representation\n┃ ┣ 📂 Faster Processing\n┃ ┣ 📂 Lower Memory Usage\n┃ ┣ 📂 Better Scalability\n┃ ┗ 📂 Higher Image Quality\n┃\n┣ 📂 Image Creation\n┃ ┣ 📂 Start With Random Noise\n┃ ┣ 📂 Predict Noise\n┃ ┣ 📂 Remove Noise\n┃ ┣ 📂 Reveal Shapes\n┃ ┣ 📂 Form Objects\n┃ ┣ 📂 Add Textures\n┃ ┣ 📂 Apply Lighting\n┃ ┗ 📂 Generate Fine Details\n┃\n┣ 📂 Denoising Model\n┃ ┣ 📂 U-Net\n┃ ┣ 📂 Diffusion Transformer (DiT)\n┃ ┣ 📂 Noise Prediction\n┃ ┣ 📂 Progressive Refinement\n┃ ┗ 📂 Image Reconstruction\n┃\n┣ 📂 Cross Attention\n┃ ┣ 📂 Match Words To Regions\n┃ ┣ 📂 Align Prompt With Image\n┃ ┣ 📂 Focus On Important Details\n┃ ┣ 📂 Preserve Context\n┃ ┗ 📂 Improve Accuracy\n┃\n┣ 📂 Guidance\n┃ ┣ 📂 Classifier Free Guidance\n┃ ┣ 📂 Prompt Following\n┃ ┣ 📂 Creativity Control\n┃ ┣ 📂 Stronger Prompt Adherence\n┃ ┗ 📂 Output Variation\n┃\n┣ 📂 Decoding\n┃ ┣ 📂 Convert Latents To Pixels\n┃ ┣ 📂 Restore Colors\n┃ ┣ 📂 Recover Textures\n┃ ┣ 📂 Rebuild Shadows\n┃ ┗ 📂 Produce Final Image\n┃\n┣ 📂 Training\n┃ ┣ 📂 Billions Of Image Text Pairs\n┃ ┣ 📂 Add Noise\n┃ ┣ 📂 Predict Removed Noise\n┃ ┣ 📂 Compare With Ground Truth\n┃ ┣ 📂 Update Parameters\n┃ ┗ 📂 Repeat Billions Of Times\n┃\n┣ 📂 Generation Modes\n┃ ┣ 📂 Text To Image\n┃ ┣ 📂 Image To Image\n┃ ┣ 📂 Inpainting\n┃ ┣ 📂 Outpainting\n┃ ┣ 📂 Style Transfer\n┃ ┗ 📂 Reference Guided Generation\n┃\n┣ 📂 Modern Improvements\n┃ ┣ 📂 Better Prompt Understanding\n┃ ┣ 📂 More Realistic Anatomy\n┃ ┣ 📂 Improved Typography\n┃ ┣ 📂 Better Lighting\n┃ ┣ 📂 Higher Image Quality\n┃ ┣ 📂 Stronger Composition\n┃ ┣ 📂 More Consistent Characters\n┃ ┣ 📂 Faster Generation\n┃ ┗ 📂 Better Image Editing\n┃\n┣ 📂 Common Mistakes\n┃ ┣ 📂 Ambiguous Prompts\n┃ ┣ 📂 Poor Spatial Reasoning\n┃ ┣ 📂 Incorrect Object Counting\n┃ ┣ 📂 Weak Text Rendering\n┃ ┣ 📂 Unrealistic Physics\n┃ ┗ 📂 Limited World Knowledge\n┃\n┣ 📂 Applications\n┃ ┣ 📂 Graphic Design\n┃ ┣ 📂 Marketing\n┃ ┣ 📂 Advertising\n┃ ┣ 📂 Social Media\n┃ ┣ 📂 Product Visualization\n┃ ┣ 📂 Concept Art\n┃ ┣ 📂 Game Development\n┃ ┣ 📂 Film Production\n┃ ┣ 📂 Architecture\n┃ ┣ 📂 Interior Design\n┃ ┣ 📂 Fashion\n┃ ┣ 📂 Education\n┃ ┗ 📂 E-commerce\n┃\n┗ 📂 Simple Analogy\n┣ 📂 Start With Random Noise\n┣ 📂 Reveal Basic Shapes\n┣ 📂 Form Objects\n┣ 📂 Add Lighting\n┣ 📂 Apply Textures\n┣ 📂 Refine Fine Details\n┗ 📂 Finish The Complete Image",
-"likeCount": 28,
-"retweetCount": 8,
-"url": "https://x.com/shushant_l/status/2072666861423198365",
-"createdAt": "Thu Jul 02 13:01:02 +0000 2026"
+"userName": "ConnorShowler",
+"text": "Here's a list of literally everything you need to know about SEO:\n\n1. Technical SEO\n-> Crawlability\n-> Indexability\n-> XML sitemaps\n-> Robots.txt\n-> Canonical tags\n-> Site architecture / URL structure\n-> HTTPS / SSL\n-> Core Web Vitals (LCP, INP, CLS)\n-> Page speed optimization\n-> Mobile-friendliness / responsive design\n-> Structured data / schema markup (JSON-LD)\n-> Hreflang / international targeting\n-> Pagination handling\n-> JavaScript rendering / SSR vs CSR\n-> Duplicate content management\n-> Redirect management (301, 302, chains)\n-> HTTP status codes / error handling (404, 5xx)\n-> Log file analysis\n-> Crawl budget optimization\n-> Faceted navigation control\n-> CDN / hosting performance\n-> Image optimization (compression, WebP, lazy loading)\n-> Orphan page detection\n\n2. On-Page SEO\n-> Title tags\n-> Meta descriptions\n-> Header hierarchy (H1–H6)\n-> Keyword placement / density\n-> Content optimization\n-> Internal linking\n-> Anchor text optimization\n-> Image alt text\n-> URL slugs\n-> Content freshness / updating\n-> Semantic HTML\n-> Featured snippet optimization\n-> Table of contents / jump links\n-> Outbound linking strategy\n-> Content depth / comprehensiveness\n-> Readability\n\n3. Off-Page SEO\n-> Link building\n-> Digital PR\n-> Guest posting\n-> Broken link building\n-> HARO / journalist outreach\n-> Unlinked brand mention reclamation\n-> Backlink profile analysis\n-> Toxic link disavowal\n-> Anchor text distribution\n-> Link velocity\n-> Brand mentions / citations\n-> Influencer collaboration\n-> Podcast / interview placements\n-> Resource page links\n-> Skyscraper technique\n\n4. Keyword Research\n-> Search intent classification (informational, navigational, commercial, transactional)\n-> Search volume analysis\n-> Keyword difficulty scoring\n-> Long-tail keywords\n-> Semantic / LSI keywords\n-> Keyword clustering / topic grouping\n-> Competitor keyword gap analysis\n-> Seasonal / trending keywords\n-> Question-based keywords (PAA mining)\n-> Zero-volume keywords\n-> Keyword cannibalization detection\n-> SERP feature analysis per keyword\n\n5. Content Strategy\n-> Topical authority building\n-> Content hubs / pillar pages / clusters\n-> Editorial calendars\n-> Content gap analysis\n-> E-E-A-T (Experience, Expertise, Authoritativeness, Trust)\n-> Content pruning / consolidation\n-> Content refreshing\n-> Content formats (guides, listicles, comparisons, tools)\n-> Programmatic SEO\n-> User-generated content\n-> Author bios / entity building\n-> Information gain / original data\n-> Content briefs / SOP creation\n\n6. Local SEO\n-> Google Business Profile optimization\n-> NAP consistency (Name, Address, Phone)\n-> Local citations / directories\n-> Review generation & management\n-> Local link building\n-> Location pages / service area pages\n-> Local pack / map pack ranking\n-> Geo-targeted content\n-> Local schema markup\n-> Proximity / relevance / prominence signals\n\n7. GEO / AI Search Optimization\n-> LLM citation optimization (ChatGPT, Claude, Perplexity, Gemini)\n-> AI Overviews optimization\n-> Entity optimization / knowledge graph presence\n-> Structured, extractable content formatting\n-> Brand mention frequency across the web\n-> llms.txt\n-> Statistics / quotable data inclusion\n-> Wikipedia / Wikidata presence\n-> Reddit / forum visibility (LLM training sources)\n-> Answer-first content structure\n\n8. E-commerce SEO\n-> Product page optimization\n-> Category page optimization\n-> Product schema (price, reviews, availability)\n-> Faceted navigation SEO\n-> Out-of-stock page handling\n-> Product review optimization\n-> Merchant Center / Google Shopping feed\n-> Duplicate product description handling\n-> Internal search optimization\n\n9. SERP Features\n-> Featured snippets\n-> People Also Ask\n-> Knowledge panels\n-> Image packs\n-> Video carousels\n-> Sitelinks\n-> FAQ / How-to rich results\n-> Review stars\n-> Top stories\n-> Local pack",
+"likeCount": 98,
+"retweetCount": 11,
+"url": "https://x.com/ConnorShowler/status/2075245164369420657",
+"createdAt": "Thu Jul 09 15:46:18 +0000 2026"
 },
 {
-"userName": "ItsMidnightKei",
-"text": "You said I did not care enough to ask a question, but your original post was not exactly a conversation either. You framed AI art in VTubing as a mistake, said people will recognize it, and said it can hurt collabs.\n\nSo where were your questions?\n\nYou did not ask why someone used AI. You did not ask if they were already using free assets, paid assets, or commissions. You did not ask if they were saving up for a custom model or planning to upgrade later. You did not ask if they had the time, money, skill, health, or confidence to do everything themselves.\n\nYou made an assumption and called it advice.\n\nAnd that claim is not even true across the board. Plenty of creators use AI tools and still grow, still get support, still get collabs, and still build communities. There are bigger VTubers and creators who are pro-AI, or at least not acting like AI is the end of the world.\n\nAssuming people who use AI are not already using assets or commissioning artists is just not true. A lot of creators use mixed workflows. AI can be part of it while they also buy assets, commission artists, support artists, or save up to upgrade later.\n\nSame with the whole “artists will not work with you” thing. Some will not, and that is their choice. But acting like no artist will work with someone who uses AI is just false. Plenty do, and many job at the chance to do so and help out with those that want it.\n\nAnd do not use the “it hurts the environment” line like AI is the only thing hurting it. Humans are garbage at protecting the environment already. Cars, fast fashion, mass production, streaming, crypto, corporations, waste, pollution, all of it. AI is not the sole factor. It is just the newest thing people are fearmongering over while way bigger issues are still sitting right there.\n\nAnd “just use free assets” is not the clean answer people act like it is. A lot of free assets have restrictions. Some do not allow commercial use, monetization, editing, or much originality. And monetization does not just mean reselling the asset. It can mean ad revenue, streaming, memberships, donations, sponsorships, or building a paid brand around that content.\n\nVTubing is branding. Your model, overlays, logo, panels, and graphics are part of your identity as a creator. Not everyone wants to build their whole brand out of the same free packs everyone else is using.\n\nAnd yes, the blue check point still matters. Maybe you cancelled Premium. Maybe you paid ahead. But the checkmark is still there, on a platform actively pushing Grok and AI integration.\n\nThat was the point of the thank-you card. I was thanking you for supporting Grok’s development.\n\nYou can dislike generative AI. You can dislike how companies use it. Fine. But acting like smaller creators are making a mistake for using AI to start is still gatekeeping, and looks just like another person jumping on the trend to say something against AI to get views.\n\nAnd if your issue is only the generative art part, that comes off performative too. Generative AI is not just “artists are affected and that is it.” There is writing, coding, voice, music, editing, work tools, moderation, platform algorithms, and a lot more tied into it. Yes, AI may take some jobs away. That is a real concern. But it is also creating jobs and new workflows too, the thing that happens when new technology comes out. So acting like AI art is the only evil part while everything else gets a pass is just picking the part that is trendy to be mad about.\n\nNow, did I give you the conversation you want? Cause we can agree to disagree, and honestly, I'll have more respect for you in being able to do that. Then just going about it the way so many others have. Cause conversations can happen and they can happen respectfully.",
-"likeCount": 7,
-"retweetCount": 3,
-"url": "https://x.com/ItsMidnightKei/status/2074249788929773774",
-"createdAt": "Mon Jul 06 21:51:02 +0000 2026"
-},
-{
-"userName": "ProsperThePhilo",
-"text": "How to use AI for your medical studies.\n\nOne mistake many medical students make is trying to use one AI for everything.\n\nI know this girl who'd upload a slide to ChatGPT and say, \"Explain this to me like I'm a donkey.\" 😂\n\nFunny prompt, but here's the problem.\n\nThere is no one-size-fits-all AI.\n\nEach AI has strengths and weaknesses. Once you know what each one is good at, your studying becomes much easier.\n\nHere are the ones I use.\n\n1. NotebookLM — Best for understanding lecture slides and textbooks.\n\nIf your goal is to actually understand your lecturer's slides without AI bringing in too much outside information, NotebookLM is excellent.\n\nUpload your slides and ask it to:\n\n- Explain page by page.\n- Summarize difficult concepts.\n- Connect related topics.\n- Generate an audio discussion you can listen to while walking.\n\nIt's one of the best learning tools available.\n\n2. Perplexity — Best for research and analyzing questions.\n\nIf you're working through a past question and want evidence-based explanations or references, use Perplexity.\n\nIt's excellent for:\n\n- Research.\n- Finding reliable sources.\n- Explaining why an answer is correct.\n- Providing links to the original references.\n\nThink of it as an AI search engine.\n\n3. ChatGPT — Best for diagrams, anatomy charts, and medical graphics.\n\nNeed an anatomy chart?\n\nA physiology flowchart?\n\nA biochemistry pathway?\n\nChatGPT is currently one of the strongest image generators for educational graphics.\n\nYou can either upload your material or describe exactly what you want, and it will generate revision-quality charts.\n\n4. Gemini — Best when you have lots of files.\n\nGemini is very generous with uploads.\n\nIf you have dozens of lecture slides or PDFs and want AI to work through them, Gemini handles large uploads very well.\n\nIt's also useful for generating summaries and flashcards from large sets of notes.\n\n5. Evernote AI — Good for transcribing printed notes.\n\nIf you have handwritten or printed notes and want them converted into editable text, Evernote's AI features can help with transcription and organization.\n\n6. Otter AI — Best for recording lectures.\n\nGoing for class?\n\nOpen Otter AI.\n\nIt records your lecturer, transcribes the lecture into text, and creates searchable notes you can review later.\n\nVery useful if your lecturer talks fast.\n\n7. Claude — Best for formatting notes and working through past questions.\n\nClaude is excellent at:\n\n- Organizing messy lecture notes.\n- Turning slides into readable notes.\n- Merging multiple lecture files into one document.\n- Explaining past questions clearly and logically.\n\nIf you're preparing for MBBS professional exams, Claude saves a lot of time.\n\nFinally, remember this:\n\nDon't ask,\n\n\"Which AI is the best?\"\n\nAsk,\n\n\"Which AI is the best for this particular task?\"\n\nThat's how you study smarter.\n\nUse the right tool for the right job.\n\nFollow me for more AI hacks for medical students.",
-"likeCount": 9,
-"retweetCount": 4,
-"url": "https://x.com/ProsperThePhilo/status/2074929544293695589",
-"createdAt": "Wed Jul 08 18:52:08 +0000 2026"
+"userName": "tradeguru",
+"text": "Chinese LLMs Tier List\n\nChinese language models are claiming nearly a third of global AI usage. This is a ranking of the best models by peak capability, agentic usefulness and cost-effectiveness.\n\nSave the image ↓↓\n\n1. DeepSeek\n\nUsed for: advanced reasoning, math/science skills, coding, efficiency, open-weight influence and low cost\nCreator: @deepseek_ai \nModels: DeepSeek-V4, DeepSeek-V4 Pro/Max, DeepSeek-V4 Flash, DeepSeek-V3, DeepSeek-R1, DeepSeek-Coder, DeepSeek-Math, DeepSeek-LLM, DeepSeek-VL.\n\n2. GLM\n\nUsed for: strong general reasoning, developer agents, coding, long-context work, enterprise AI workflows.\nCreator: @Zai_org \nModels: GLM-5.2, GLM-5.1, GLM-5, GLM-4.5, GLM-4, ChatGLM, CodeGeeX, CogView, CogVideo.\n\n3. Kimi\n\nUsed for: long-context understanding, research workflows, coding, reading large files, research synthesis, agent swarms and document-heavy tasks in general\nCreator: @Kimi_Moonshot  \nModels: Kimi K2.7 Code, Kimi K2.6, Kimi K2.5, Kimi K2, Kimi Thinking, Moonshot-v1, Kimi-VL.\n\n4. MiniMax\n\nUsed for: agentic coding, multimodal products, speech/video/chat apps\nCreator: @MiniMax_AI \nModels: MiniMax-M2.7, MiniMax-M2.5, M2.5-Lightning, MiniMax-Text, MiniMax-VL, Hailuo video/audio models.\n\n5. MiMo\n\nUsed for: speed, fast local/server deployment, agentic workflows, cost-efficient inference, long context, practical efficiency\nCreator: @Xiaomi \nModels: MiMo-V2.5-Pro, MiMo-V2.5-UltraSpeed, MiMo-VL, MiMo reasoning/coding variants.\n\n6. Qwen (@Alibaba_Qwen)\n\nUsed for: strong multilingual ability, coding, vision, audio, fine-tuning, production apps.\nCreator: @alibaba_cloud \nModels: Qwen3.7, Qwen3.6, Qwen3.5, Qwen2.5, Qwen-Coder, Qwen-VL, Qwen-Audio, Qwen-Omni, QwQ.\n\n7. ERNIE\n\nUsed for: Chinese-language applications, search/chat assistants\nCreator: @Baidu_Inc \nModels: ERNIE 5.1, ERNIE 5.0, ERNIE 4.5, ERNIE 4.0, ERNIE Bot/Wenxin Yiyan, ERNIE X1.\n\n8. Hunyuan\n\nUsed for: Tencent ecosystem integration, enterprise AI, translation, multimodal models, Chinese business/product integration.\nCreator: @TencentGlobal \nModels: Hunyuan, Hunyuan-T1, Hunyuan-Large, Hunyuan-Vision, Hunyuan-DiT, Yuanbao assistant models.\n\n9. Step\n\nUsed for: efficient open models, long context, multimodal research, fast deployment, open model experimentation, cost-sensitive agents\nCreator: @StepFun_ai \nModels: Step-3.5-Flash, Step-3, Step-2, Step-1, Step-VL, Step-Audio.\n\n10. Yi\n\nUsed for: strong open Chinese/English models, coding variants, bilingual capability\nCreator: @01AI_Yi \nModels: Yi-34B, Yi-6B, Yi-1.5, Yi-Lightning, Yi-Coder, Yi-VL.\n\n11. InternLM (@intern_lm)\n\nUsed for: research/open-source ecosystem, academic tooling, agent frameworks, education\nCreator: Shanghai AI Lab.\nModels: InternLM, InternLM2, InternLM2.5, InternVL, InternLM-XComposer, OpenCompass-related models.\n\nStay tuned for part II on a comparison with U.S language models.\n\nThis research was made with respect to the china/US AI wars and for users looking to find better and cheaper chinese models for research, coding, maths, science, etc.\n\nFollow @tradeguru to see posts like this on your timeline.",
+"likeCount": 106,
+"retweetCount": 10,
+"url": "https://x.com/tradeguru/status/2074889396935889346",
+"createdAt": "Wed Jul 08 16:12:36 +0000 2026"
 },
 {
 "userName": "Learnwithdexa",
 "text": "People are earning up to $40/hr training AI models remotely for major tech companies? \n\n... and there are over 10 platforms like Outlier currently accepting Nigerians.\n\nYou may not know this, but Big tech companies like OpenAI, Google, and Meta are quietly paying ordinary people $15–$50/hr to train their AI models from home.\n\nMost people have no idea this exists. Let me break it down. 👇\n\nOpenAI. Google. Meta. Anthropic.\n\nThese companies are building the most powerful AI systems in history.\n\nAnd they can't do it without you.\n\nLiterally.\n\nHere's what they don't advertise:\n\nAI models don't just \"learn\" on their own.\n\nThey need humans to label images, rank responses, write prompts, evaluate outputs, and teach them right from wrong.\n\nThat job is called Data Annotation. And it pays in dollars.\n\nData Annotation = labeling raw data (text, images, audio, video) so AI understands the world.\n\nThink of it as being a teacher for machines.\n\nYou tell the AI: \"this answer is better than that one.\" \"This image contains a dog.\" \"This code has a bug.\"\n\nIt learns. You get paid.\n\nThe global AI training data market is on track to hit $17 billion by 2030.\n\nCompanies are desperately hiring human annotators right now - not next year. Now.\n\nAnd the beautiful part? You don't need a degree. Just a laptop, good English, and critical thinking.\n\nHere's the breakdown of what you can earn:\n\n🟢 General tasks → $15–$25/hr\n🟡 Writing/research tasks → $20–$35/hr\n🔴 Expert tasks (coding, medicine, law) → $40–$100/hr\n\nNo experience. No certificate. No portfolio. Just your brain.\n\nThere are multiple platforms for this — including ones that work for Africans.\n\nSome of the biggest names don't accept us. But several do — and pay just as well.\n\nWe've built the complete manual to navigate this space safely. Inside the guide, you will get:\n\n→ Every platform worth your time\n→ Which ones accept Nigerians or people in your country.\n→ How to sign up and pass qualification tests\n→ How to receive your pay in Naira\n→ How to avoid scam platforms\n→ What job you're required to do and how to do it.\n\nSee the link in comment section to Learn More or get the full guide and start your setup today!\n\nThe AI gold rush is happening. The question is whether you're mining or just watching.\n\nLearn More: 👇🏻👇🏻\n\n(See link in comment section)",
-"likeCount": 83,
-"retweetCount": 24,
+"likeCount": 101,
+"retweetCount": 29,
 "url": "https://x.com/Learnwithdexa/status/2074891538069360767",
 "createdAt": "Wed Jul 08 16:21:06 +0000 2026"
 },
 {
-"userName": "NusratJaha07",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @NusratJaha07 For More Tools.",
-"likeCount": 26,
-"retweetCount": 18,
-"url": "https://x.com/NusratJaha07/status/2075080871175139592",
-"createdAt": "Thu Jul 09 04:53:27 +0000 2026"
+"userName": "JayBisen473370",
+"text": "If you're building AI products today, you're probably using more than one model.\n\nGPT for one task.\nClaude for another.\nGemini for research.\nAnd maybe image or video models for creative workflows.\n\nThe real challenge isn't choosing the best model.\n\nIt's managing multiple API keys, billing dashboards, and integrations.\n\nThat gets complicated fast.\n\nI recently explored CometAPI, and I like the approach.\n\nInstead of integrating every AI provider separately, it gives you access to 500+ AI models through a single OpenAI-compatible API.\n\nSo you get:\n\n✅ One API key\n✅ One API endpoint\n✅ The flexibility to switch models whenever your product needs it\n\nIt supports text, image, video, audio, coding, and reasoning models, including:\n\n• GPT-5.6\n• Claude\n• Gemini\n• DeepSeek\n• Grok\n• Kimi\n• Flux\n• Seedance 2.5\n• Happy Horse 1.1\n• Kling Video\n…and hundreds more.\n\nWhat stood out to me wasn't just the huge model library.\n\nIt's that @cometapi_ai can act as an infrastructure layer for production AI applications—making it easier to create fallback routes, switch providers, reduce vendor lock-in, and keep AI workflows running smoothly if one provider experiences issues.\n\nIf you're building AI agents, SaaS products, coding assistants, or automation tools, it's worth taking a look.\n\nThey also offer free test credits, followed by simple pay-as-you-go pricing.\n\n🔗 Learn more: https://t.co/pbfE9DFvPE\n\n📖 Documentation: https://t.co/LmdRlSFr3f\n\n💻 GitHub: https://t.co/IHTKN3DxhT\n\nExplore some of the latest models available through CometAPI:\n\n• GPT-5.6: https://t.co/mSqre2WGpW\n\n• Happy Horse 1.1: https://t.co/D6pfCzkha7\n\n• Kling Video: https://t.co/UGs9n0jrMG\n\nQuestion for AI builders:\n\nAre you still managing multiple AI provider integrations, or have you switched to a unified AI API layer?\n\n#AI #ArtificialIntelligence #Developers #APIs #AIAgents #SaaS #Automation #CometAPI",
+"likeCount": 61,
+"retweetCount": 22,
+"url": "https://x.com/JayBisen473370/status/2075404725516959864",
+"createdAt": "Fri Jul 10 02:20:20 +0000 2026"
 },
 {
-"userName": "Scobleizer",
-"text": "Interesting DM, part of which I included below) from @NateHindman, who is building a virtual heart. To help with drug development.\n\nThat and hanging out with AI researchers the past few days at @aclmeeting in San Diego has completely humbled me. I included a few photos here of just some of the hundreds of posters being shown here.\n\nHumans are so interesting. \n\nMy mind has to translate what they are saying before my stupid mind can understand what they are building.\n\nI have been to many conferences but this is the first I am certain of where I am definitely the stupidest in the room.\n\nLuckily they are nice and usually translate their work for me. One is building a new 9-1-1 system where an AI can talk you through an emergency but she found many problems in how the LLMs translate various languages.\n\nAnother team from University of Champaign/Urbana in Illinois (where Tesla started) is doing research to see if World Models can help accuracy of AI agents. Mixed results on that so far.\n\n@alibaba_cloud paid my way so I can get to know their researchers better (hung out with a researcher working on its Qwen model family this morning). They are doing that to try to make me smarter about covering the AI world, which I greatly appreciate.\n\n+++++\n\nWe’re building a virtual heart to solve cardiac risk in drug development using specialized prediction models and reasoning agents.\n\nIn a short time, our team has built CardioSafe, a best-in-class cardiotoxicity prediction model, and Alexandria, a SOTA scientific literature agent (selected as a 2026 ICML AI for Science Spotlight Paper). We've had sign-ups from teams at NASA, Google DeepMind, Harvard, Stanford and MSK, as well as an ongoing collaboration with NVIDIA.",
-"likeCount": 34,
-"retweetCount": 5,
-"url": "https://x.com/Scobleizer/status/2074233498836361512",
-"createdAt": "Mon Jul 06 20:46:18 +0000 2026"
-},
-{
-"userName": "volokuleshov",
-"text": "New blog post: How to Build a Diffusion Language Model.\n\nDiffusion LLMs went from open problem to reality in 2 years (Mercury, Gemma Diffusion, Nemotron Diffusion). With my Cornell group, we wrote up the research advances that make them work.\n\nWe use today's OSS large diffusion models as examples and show how they're built from core techniques: \n• masked diffusion (MDLM) \n• iterative refinement (UDLM, ReMDM) \n• variable-length generation (block diffusion, encoder-decoder architectures) \n• controllable generation (D-CFG, D-CBG) \n• fast samplers (Duo)\n• RL post-training (d1, d2)\n\nThis post covers research led by a talented group of Cornell PhD students including @mariannearr @SchiffYair @Guanghan__Wang \n\nThe content is adapted from talks I gave this year on dLLMs. It covers most of the main ingredients behind open-source diffusion language models today.\n\nLink: https://t.co/lpu3BCLwiE",
-"likeCount": 1223,
-"retweetCount": 154,
-"url": "https://x.com/volokuleshov/status/2074778055797850275",
-"createdAt": "Wed Jul 08 08:50:10 +0000 2026"
-},
-{
-"userName": "bmx_ai13",
-"text": "Created with Fashion Studio on @ImagineArt_X this 15 second fashion video brings an old town editorial mood to life stone streets, warm light, effortless styling, and cinematic movement that feels ready for a global campaign.\n\nFrom concept to fashion visual Fashion Studio helps turn a simple idea into a polished AI fashion shoot with real atmosphere, character and style.\n\nThis is not just AI image generation. This is fashion direction, visual branding, and campaign storytelling in motion.",
-"likeCount": 11,
-"retweetCount": 2,
-"url": "https://x.com/bmx_ai13/status/2073496064800534920",
-"createdAt": "Sat Jul 04 19:56:00 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "We're still just scratching the surface of how much better, faster, cheaper we can make inference for open-source models! \n\nSo super excited to see companies like @zml_ai by @steeve come out of stealth with their inference engine integrated with @huggingface as the storage layer. \n\nLet's push open-source tokens to the max!",
-"likeCount": 176,
-"retweetCount": 17,
-"url": "https://x.com/ClementDelangue/status/2074921971456803065",
-"createdAt": "Wed Jul 08 18:22:02 +0000 2026"
-},
-{
-"userName": "servo97",
-"text": "Henlo Frens, \nI'll be presenting OGPO at #ICML2026 tomorrow (9 July) \nTime ⏰: 2:30 to 4:15 PM KST\nLocation 📍: Hall A,  Poster #202\n\nFeel free to stop by for a chat on RL-finetuning, diffusion/flow policies, dexterous manipulation, or existential philosophy! ⛵️\n\nhttps://t.co/iU54WPYQMx",
-"likeCount": 28,
-"retweetCount": 1,
-"url": "https://x.com/servo97/status/2074757359931687113",
-"createdAt": "Wed Jul 08 07:27:56 +0000 2026"
-},
-{
-"userName": "YongxinChen1",
-"text": "If you are interested in RL for diffusion models, come to our ICML poster. @JaemooChoi @WeiGuo01 @YuchenZhu_ZYC will explain to you a scalable strategy for DMs RL finetuning.",
+"userName": "DylanShawAI",
+"text": "25 AI tools worth trying in 2026:  \n\n1. Claude – Solve complex tasks with one of the most capable AI assistants. \n2. Ranked AI – Improve your visibility across Google, ChatGPT, Claude, and more. \n3. Syllaby – Create viral AI videos ready for monetization. \n4. Wispr Flow – Fast, accurate AI speech-to-text. \n5. SkySnail – Generate high-converting YouTube thumbnails. \n6. Viktor – An AI employee that works inside Slack. \n7. ThreadMaster – Create engaging Facebook posts in minutes. \n8. Submagic – Turn long-form videos into viral Shorts. 9. Hello Warrant – Stay marketing compliant and avoid costly mistakes. \n10. Gemini – Powerful AI image editing from Google. \n11. FastRead – Generate ebooks and audiobooks with AI. \n12. Bibley – AI-powered Bible study assistant. \n13. Manus – One of the most capable autonomous AI agents. \n14. HeyGen – Create realistic AI avatars and videos. \n15. WebinarKit – Build AI-powered webinars. \n16. Creator Unlock – AI tools to grow your YouTube channel. \n17. Maker AI – Build and sell software without the usual complexity. \n18. https://t.co/L9fMSNqvtF – Generate high-performing ad creatives. \n19. Canva – Design almost anything with AI. \n20. Brand Butler – Build a consistent brand identity. \n21. Replit – One of the best platforms for vibe coding. 22. Perplexity – AI search with powerful research capabilities. \n23. v0 – Instantly generate frontend UI mockups. \n24. Suno – Create original AI music from text. \n25. Notion AI – Turn your workspace into an AI-powered second brain.  \n\nWhich one is your favorite?  \n\n🔖 Bookmark this thread so you always have these AI tools at your fingertips.",
 "likeCount": 10,
-"retweetCount": 1,
-"url": "https://x.com/YongxinChen1/status/2074681292084367731",
-"createdAt": "Wed Jul 08 02:25:40 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @aijoey: nvidia ai just handed dgx spark owners a real gift.\n\nnemotron labs 3 puzzle 75b a9b nvfp4 is basically built for this box.\n\n75b…",
-"likeCount": 192,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2074899904267178396",
-"createdAt": "Wed Jul 08 16:54:21 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @johnnync13: Our latest integration between NVIDIA Isaac Teleop, LeRobot v0.6.0, and NVIDIA Isaac GR00T N1.7. @huggingface 💚 @NVIDIARobo…",
-"likeCount": 53,
 "retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2074898885055525300",
-"createdAt": "Wed Jul 08 16:50:18 +0000 2026"
+"url": "https://x.com/DylanShawAI/status/2074935696884920792",
+"createdAt": "Wed Jul 08 19:16:35 +0000 2026"
+},
+{
+"userName": "IlirAliu_",
+"text": "Boost real-robot policy success & speed\nusing only cheap simulation, \nwithout needing any extra real data: \n\n- 2.4× success + 37% faster execution\n- Half-day iteration with new retry behaviors\n\nReal-robot imitation policies for dexterous manipulationby learning to steer diffusion or flow models in simulation without collecting extra real-world data.\n\nThe approach freezes the base policy trained on real data and uses RL only to select successful latent inputs within the policy’s support, avoiding sim-reality gaps from contact dynamics that plague full finetuning.\n\nResults show 2.4x higher real-world success rates and 37% faster execution across tasks like block picking, with quick half-day iteration from setup to deployment while enabling retry behaviors absent in base policies.\n\nThanks for sharing, Abhishek Gupta / @abhishekunique7!\n\n📌 https://t.co/pVCUIGcMgq\n\n——\n\nWeekly robotics and AI insights.\nSubscribe free: https://t.co/9Nm01QUcw3",
+"likeCount": 28,
+"retweetCount": 8,
+"url": "https://x.com/IlirAliu_/status/2073467652207448305",
+"createdAt": "Sat Jul 04 18:03:06 +0000 2026"
+},
+{
+"userName": "trythreews",
+"text": "Looking for ways to bring your coins community together?\n\nWe built a way for ANY @pumpfun coin to have their own multiplayer 3D virtual & live server🫂 \n\nBring your community together and give all members access\n• Custom 3D Avatars. Build yours on https://t.co/RTUVeYlv9W and drop straight in. \n• 100% Multiplayer. Meet face-to-face, hit emotes, and raid with the squad. \n• In-World Swaps: Watch the billboard pump live and execute Solana swaps directly inside your server. \n\nAll powered by the @CoinComms API & SDK.\nHonorable mention to @aixbt_agent x402 & AI API endpoints.\n\nThe meta is shifting. Crypto is becoming interactive Stop scrolling the timeline and meet up with your community, any community. Try it live right now.\n\nJust search your coin or paste the CA at https://t.co/Dkl3cdrflb to instantly spin up your own 3D multiplayer server.\"",
+"likeCount": 161,
+"retweetCount": 53,
+"url": "https://x.com/trythreews/status/2075102611083342224",
+"createdAt": "Thu Jul 09 06:19:50 +0000 2026"
+},
+{
+"userName": "TarunSures41845",
+"text": "Enjoyed working on this project at the intersection of generative modeling and RL with @ShawnSYFeng & Yiming Yang!\n\nThe challenge with RL-style training for unsupervised discrete diffusion is credit assignment: terminal solution quality gets compressed into a scalar reward, which can be high-variance and sample-hungry across long stochastic trajectories.\n\nInstead, in our method, CAM, we leverage the adjoint method to propagate terminal improvement backward through a single trajectory, turning the final objective into structured credit for which discrete moves should change.\n\nCAM will be presented at ICML 2026: Wed Jul 8, 10:30 AM–12:15 PM KST, Hall A #3711.",
+"likeCount": 15,
+"retweetCount": 1,
+"url": "https://x.com/TarunSures41845/status/2074224161267064988",
+"createdAt": "Mon Jul 06 20:09:11 +0000 2026"
+},
+{
+"userName": "shristhikhanna",
+"text": "After \"love jihad\", \"land jihad\", \"UPSC jihad\", Sulli Deals and Bulli Bai, generative AI has become another way to target Muslim women in India. \n\nThis is the same hate politics playing out in yet another fashion. AI is amplifying old patterns of misogyny and Islamophobia, and the consequences are carried by women whose lives, safety and dignity are put at risk",
+"likeCount": 366,
+"retweetCount": 102,
+"url": "https://x.com/shristhikhanna/status/2073547450821009917",
+"createdAt": "Sat Jul 04 23:20:11 +0000 2026"
+},
+{
+"userName": "Honeybee_0ee",
+"text": "Been testing @itsPolloAI Virtual Try-On Video — and honestly? It delivers.\n\nThe output looks like something you'd pay an agency for, not something an AI spits out in minutes.\n\nFor e-commerce sellers, this is the kind of tool that actually moves the needle.\n\nIt's not a gimmick. It's a legit creative partner for your business.",
+"likeCount": 41,
+"retweetCount": 18,
+"url": "https://x.com/Honeybee_0ee/status/2074803273245302827",
+"createdAt": "Wed Jul 08 10:30:22 +0000 2026"
+},
+{
+"userName": "4111J_",
+"text": "Virtual Try-On Video on @itsPolloAI — I gave it a shot.\n\nThe result looked like a premium ad you'd see on TV — not something you'd expect from AI.\n\nFor anyone selling online, this changes the game.\n\nIt's not just a feature — it's the AI assistant you actually need. https://t.co/jVFR6FchJe",
+"likeCount": 39,
+"retweetCount": 16,
+"url": "https://x.com/4111J_/status/2074802754326057214",
+"createdAt": "Wed Jul 08 10:28:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ggerganov: llama.cpp recently added DFlash support to its speculative decoding arsenal. Along with MTP, Eagle3 and various ngram-based…",
-"likeCount": 298,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2074944182565638207",
-"createdAt": "Wed Jul 08 19:50:18 +0000 2026"
+"text": "RT @NVIDIARTXSpark: Local AI just got faster. ⚡️\n\nWe worked with @ggerganov to add DFlash support in llama.cpp delivering ~2x faster infere…",
+"likeCount": 588,
+"retweetCount": 62,
+"url": "https://x.com/ClementDelangue/status/2075097247134392818",
+"createdAt": "Thu Jul 09 05:58:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Open the model weights, Hal! Congrats for the new round @PrimeIntellect https://t.co/QZXWHTBA89",
-"likeCount": 545,
-"retweetCount": 50,
-"url": "https://x.com/ClementDelangue/status/2074910114482458861",
-"createdAt": "Wed Jul 08 17:34:55 +0000 2026"
+"text": "RT @ylecun: @KenRoth The biggest risk of AI is the concentration of power in a few dominant providers of proprietary AI assistants. \nThe on…",
+"likeCount": 2347,
+"retweetCount": 357,
+"url": "https://x.com/ClementDelangue/status/2075384883774476647",
+"createdAt": "Fri Jul 10 01:01:29 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @steeve: We're releasing ZML/LLMD, our homegrown LLM server built on top of our homegrown high performance heterogeneous inference stack…",
+"likeCount": 283,
+"retweetCount": 59,
+"url": "https://x.com/ClementDelangue/status/2074919797813354681",
+"createdAt": "Wed Jul 08 18:13:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @andimarafioti: We shipped 9k Reachy Minis. They generate 15k hours of conversation a month. On GPT-realtime, that would cost $45k per m…",
+"likeCount": 50,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2075270527669657649",
+"createdAt": "Thu Jul 09 17:27:05 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @kchonyc: a hot tip for @GoogleDeepMind : open source gemini 3.5 pro and become the most beloved tech co overnight.",
+"likeCount": 109,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2075473646299099277",
+"createdAt": "Fri Jul 10 06:54:12 +0000 2026"
 },
 {
 "userName": "free_ai_guides",
 "text": "https://t.co/lQRFL5rK4W",
-"likeCount": 681,
-"retweetCount": 144,
+"likeCount": 715,
+"retweetCount": 148,
 "url": "https://x.com/free_ai_guides/status/2074531958600638877",
 "createdAt": "Tue Jul 07 16:32:16 +0000 2026"
 }
