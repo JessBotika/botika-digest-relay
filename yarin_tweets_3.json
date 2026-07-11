@@ -1,19 +1,27 @@
 [
 {
-"userName": "Benefactor_345",
-"text": "A single fictional species walked through six centuries of human art history \n\nRenaissance. Baroque. Romanticism. Impressionism. Street Art.\n\nand landed straight into the heart of crypto culture 👀\n\nthree years of work. fully hand drawn. zero AI. zero shortcuts.\n\nthis is @theiconsart and it's nothing like what you've seen before \n\nSo who exactly is @Degen_Alfie? \n\nA five years experienced artist embedded deep in crypto culture capturing its most defining moments through hand drawn art that actually hits\n\nthe proof 👇\n— Degen Alphabet 1/1 → 88 ETH \n— Fall of the Crypto Angels → 3,476 \n— The Merge → 20 editions. 20 ETH\n— major commissions for Hyperliquid. 6529. SPX6900 and more\n\nnow serving as Chief Culture Officer at @theiconsart \n\nand this this is the biggest thing he's ever attempted \nthe concept alone stops you mid scroll\none fictional species \n\npainted across six centuries. four continents. from oil on canvas to pixels on chain\n600 years of human art history completely reimagined as original IP\n\nSee it from the perspective of :\nNapoleon's portrait....but the Icons species is the subject \n\nVermeer's Girl with a Pearl Earring..... redrawn\n\nLichtenstein. Magritte. Banksy homages..... all filtered through one coherent visual language\nHand-drawn portraits that are museum worthy and wallet worthy \n\nwhat makes the execution different from everything else releasing right now \n\n✧ Three years of development\n✧ One artist. fully hand drawn\n✧ 32 original base characters\n✧ 300+ art history references studied\n✧ Completed before a single person outside saw it \nthe opposite of a half baked launch \n\nthe website walks you through it like a gallery \n\nPremise → Catalogue → Provenance → The Hand Behind the Work\nhttps://t.co/f7SZ1VBv0Z \n\nFive rarity tiers and each one actually tells a story \n\n✧ Mythos — ultra rare 1/1s. direct homages to the most iconic works ever made\n✧ Immortals — the species in godlike form. violet skin. glowing eyes. Picasso. Kusama. Lichtenstein energy \n✧ Heritage — mortal form. four continents. centuries of culture\n✧ Gilded — gold fur. the apex of the aesthetic \n✧ Vanguard — full crypto native street fashion. where the past meets the chain\n\nthis isn't a trait system. it's a timeline \nthe trailer dropped today and it's a whole cinematic moment \n\nopen book. floating clouds. a clock sweeping through six centuries \n\nrapid cuts from classical portraiture → crypto chaos → Alfie's catalogue → the full reveal \n\ncloses with a Medusa style logo for The Icons Art\npure class. nothing rushed about it \n\nWhy Icon stands apart \n\n— original hand drawn IP. no generative filler. no shortcuts\n— one species evolving through art movements like a time traveling protagonist \n— classical art canon bridged directly into crypto native culture\n— Iconlist access is earned via wallet — collectors and strong communities get priority\n— account just went live. website is live. early community already forming fast\nwe are still extremely early \n\nwhy this matters right now\n\nart NFTs went quiet through the bear \n\ndropping a fully finished high concept body of work at exactly this moment is either perfect timing or genius\n\nprobably both\npost bear recovery + original IP + proven artist + zero vaporware risk = the kind of entry point that doesn't sit around waiting \n\nThings to keep an eye on \n— mint mechanics. supply. chain and pricing still TBA\n— how much of the six century vision drops initially vs over time\n— broader NFT market mood \n\nbut five years of cultural credibility and a track record of high value sales gives Icons a real edge over most things releasing right now \n\nIcons is what happens when a world class crypto artist stops being the one who documents art history and starts becoming part of it\n\none species, six centuries, resonance that doesn't expire \n\nthis is a world you choose to enter\nif craftsmanship. narrative depth. and real cultural matter to you.\n\nStill early,follow @theiconsart closely \n\nIcon’s Team\n@Degen_Alfie \n@ssheyii",
-"likeCount": 110,
-"retweetCount": 23,
-"url": "https://x.com/Benefactor_345/status/2074435853145837689",
-"createdAt": "Tue Jul 07 10:10:23 +0000 2026"
+"userName": "zhuokaiz",
+"text": "Day 1 at #ACL2026 in San Diego. Sharing some posters below that caught my attention at first glance!\n\n1. Why Does Reinforcement Learning Generalize? A Feature-Level Mechanistic Study of Post-Training in Large Language Models\narXiv: https://t.co/hRvUxMobvV\nThe paper trains RL and SFT from the same base model on identical data, and shows at the feature level that SFT overwrites the base model's representations while RL preserves and slowly refines them.\n\n2. Scaling LLM Multi-turn RL with End-to-end Summarization-based Context Management\narXiv: https://t.co/lam7lue4Ah\nProbably my favorite poster of the day. The paper shows summarization can be a learnable part of the policy with a gradient that decomposes into ordinary sub-trajectory gradients, which stretches a 32K context window to 320K effective context while using standard GRPO infra.\n\n3. Memory-R1: Enhancing LLM Agents to Manage and Utilize Memories via Reinforcement Learning\narXiv: https://t.co/uMlH13uI9V\nBoth the Memory Manager (ADD/UPDATE/DELETE/NOOP) and the Answer Agent are trained with outcome-only RL, and 152 QA pairs are enough to beat the strongest LoCoMo baseline by 28.5% F1 with zero-shot transfer to MSC and LongMemEval across 3B–14B backbones.\n\n4. InfiniteWeb: Scalable Web Environment Synthesis for GUI Agent Training\narXiv: https://t.co/rjkUfMVO9F\nFully functional, resettable websites with programmatic evaluators synthesized for $1.93 a site. Training with these 600 generated tasks improved UI-TARS-1.5-7B from 24.5 to 31.4 on OSWorld, outperforming Claude-4-Sonnet.\n\n5. Graph-Based Alternatives to LLMs for Human Simulation\narXiv: https://t.co/OG4dIPIUBj\nInstead of prompting an LLM to role-play each person, they represent people and answer options as nodes in a graph and train a GNN to predict which option each person picks. This matches the strongest LLM-based methods on surveys, test-taking, and voting with roughly a thousand times fewer parameters — a good reminder that not every problem needs a language model.\n\n6. SpecAgent: A Speculative Retrieval and Forecasting Agent for Code Completion\narXiv: https://t.co/zmvZUvdwu4\nDoing the expensive repository reasoning at indexing time (before inference) and caching speculative context improves pass@1 by 9–11 points with zero added latency during inference.\n\n7. How Memory Management Impacts LLM Agents: An Empirical Study of Experience-Following Behavior\narXiv: https://t.co/QdVxCJZEh0\nA careful empirical study showing agents imitate whatever they retrieve, so bad memories keep propagating. Strict addition plus utility-based deletion beats naive memory growth by about 10% across four different agents.\n\n8. RecMem: Recurrence-based Memory Consolidation for Efficient and Effective Long-Running LLM Agents\narXiv: https://t.co/uK0UJJV1yU\nInstead of invoking an LLM on every interaction the way Mem0 or others do, consolidation waits in RecMem until a topic recurs, cutting memory construction cost by up to 87% with no accuracy loss.\n\n9. Learning on the Job: An Experience-Driven Self-Evolving Agent for Long-Horizon Tasks\narXiv: https://t.co/PoBUQRNbch\nThe plan → execute → reflect → memorize loop is nothing too novel, but somehow they still achieve SOTA on TheAgentCompany with just Gemini-2.5 Flash and no finetuning.\n\n10. Dynamic Infilling Anchors for Format-Constrained Generation in Diffusion Large Language Models\narXiv: https://t.co/Zf7Eh7Wugu\nA training-free trick for diffusion LLMs — fixed anchor positions force rigid generation spans that either truncate reasoning or pad it with filler, so DIA estimates where the end anchors should land before infilling, bringing large zero-shot gains in valid JSON rate and GSM8K.\n\n11. Vulnerability of LLMs' Stated Beliefs?\narXiv: https://t.co/JtXjTyEh30\nA systematic multi-turn persuasion study showing confidence decay precedes belief flips and that asking models to verbalize confidence makes them easier to persuade, though methodology-wise it may be incremental to Xu et al.'s \"The Earth is Flat because…\".\n\n12. A Study of LLMs' Preferences for Libraries and Programming Languages\narXiv: https://t.co/h3ok5LhLin\nThe first empirical audit of which languages and libraries LLMs pick when the user doesn't specify. Across eight models, Python appears in 90–97% of benchmark solutions and remains the top choice in 58% of high-performance projects where it is suboptimal (Rust is never chosen once), and NumPy is imported unnecessarily in up to 48% of cases.\n\nMore tomorrow.",
+"likeCount": 41,
+"retweetCount": 5,
+"url": "https://x.com/zhuokaiz/status/2073997200343069072",
+"createdAt": "Mon Jul 06 05:07:20 +0000 2026"
 },
 {
-"userName": "ProsperThePhilo",
-"text": "How to use AI for your medical studies.\n\nOne mistake many medical students make is trying to use one AI for everything.\n\nI know this girl who'd upload a slide to ChatGPT and say, \"Explain this to me like I'm a donkey.\" 😂\n\nFunny prompt, but here's the problem.\n\nThere is no one-size-fits-all AI.\n\nEach AI has strengths and weaknesses. Once you know what each one is good at, your studying becomes much easier.\n\nHere are the ones I use.\n\n1. NotebookLM — Best for understanding lecture slides and textbooks.\n\nIf your goal is to actually understand your lecturer's slides without AI bringing in too much outside information, NotebookLM is excellent.\n\nUpload your slides and ask it to:\n\n- Explain page by page.\n- Summarize difficult concepts.\n- Connect related topics.\n- Generate an audio discussion you can listen to while walking.\n\nIt's one of the best learning tools available.\n\n2. Perplexity — Best for research and analyzing questions.\n\nIf you're working through a past question and want evidence-based explanations or references, use Perplexity.\n\nIt's excellent for:\n\n- Research.\n- Finding reliable sources.\n- Explaining why an answer is correct.\n- Providing links to the original references.\n\nThink of it as an AI search engine.\n\n3. ChatGPT — Best for diagrams, anatomy charts, and medical graphics.\n\nNeed an anatomy chart?\n\nA physiology flowchart?\n\nA biochemistry pathway?\n\nChatGPT is currently one of the strongest image generators for educational graphics.\n\nYou can either upload your material or describe exactly what you want, and it will generate revision-quality charts.\n\n4. Gemini — Best when you have lots of files.\n\nGemini is very generous with uploads.\n\nIf you have dozens of lecture slides or PDFs and want AI to work through them, Gemini handles large uploads very well.\n\nIt's also useful for generating summaries and flashcards from large sets of notes.\n\n5. Evernote AI — Good for transcribing printed notes.\n\nIf you have handwritten or printed notes and want them converted into editable text, Evernote's AI features can help with transcription and organization.\n\n6. Otter AI — Best for recording lectures.\n\nGoing for class?\n\nOpen Otter AI.\n\nIt records your lecturer, transcribes the lecture into text, and creates searchable notes you can review later.\n\nVery useful if your lecturer talks fast.\n\n7. Claude — Best for formatting notes and working through past questions.\n\nClaude is excellent at:\n\n- Organizing messy lecture notes.\n- Turning slides into readable notes.\n- Merging multiple lecture files into one document.\n- Explaining past questions clearly and logically.\n\nIf you're preparing for MBBS professional exams, Claude saves a lot of time.\n\nFinally, remember this:\n\nDon't ask,\n\n\"Which AI is the best?\"\n\nAsk,\n\n\"Which AI is the best for this particular task?\"\n\nThat's how you study smarter.\n\nUse the right tool for the right job.\n\nFollow me for more AI hacks for medical students.",
-"likeCount": 21,
-"retweetCount": 9,
-"url": "https://x.com/ProsperThePhilo/status/2074929544293695589",
-"createdAt": "Wed Jul 08 18:52:08 +0000 2026"
+"userName": "sulfurscales",
+"text": "this is how app founders are scaling to $10k/mo with slideshows.\n\nyou'll need to spend 4-6 hours on this on just one day, and get content for 2+ months without touching it.\n\na great format to copy is this:\n\ncontent, content, content, content, ad warmup, app push\n\nthe idea is to make slideshow posts that feel like actual content, then only bring in the app/saas shoutout near the end\n\nso instead of posting obvious ads, the account posts stuff that looks like normal tiktok slideshow content:\n\nlifestyle takes, niche opinions, curiosity hooks, \"things nobody tells you,\" etc. the images on the post are an example\n\nfind hundreds of lifestyle/travel/interior-style visuals on pinterest / google\n\nuse ai to generate dozens of similar captions that basically say the same thing\nsneak the app into the content without making it look too promotional\nposting across multiple tiktok accounts\none of my top posts on tiktok got 1.2M views like this: PROOF\n\ni set up a workflow with:\n\nclaude code (using terminal. it's actually more powerful than claude app, you don't need to be a dev to use this, just a few scary commands you copy and paste). HIGHLY RECOMMENDED to not skip.\n\nsocialclaw (cli tool to schedule to social media. you install via sudo npm install -g socialclaw and claude code can schedule posts for you)\nopenai api or any other image api (e.g gemini api, any other good image model). we'll need this later.\nHERE'S HOW TO SPEND THESE 4-6 HOURS:\n\n0-60 minutes —> research competitors. is your app a note taker? search note taker on tiktok and just view all top posts, screenshot all of them. do NOT SKIP.\n\nkeep notes of what they write in captions/text over slides. just copy paste somewhere. save for later.\n\nhour 1 - hour 3 —> go to pinterest. remember those screenshots you took? find similar reference images on pinterest. spend 2 hours doing this.\n\nfigure out what slide 1 should look like. figure out what slide 2 should look like. etc.\ndownload a few images for each slide type from pinterest. name them as slide_1_1.jpg etc.\n\nhour 4 —> now, not all pinterest photos are allowed to be reposted.\nin that case, ask claude code to see the images and use openai image api to generate 100x copies of those images with slight variations but keeping the same vibe!\nnow you'll have for example 5 slide types x 100 variations = 500 images. do less to start maybe.\n\nhour 5 —> remember the notes of captions you took? ask claude now to overlay caption variations over all those images and tell it \"here are how the captions you generate for our posts should look like [paste caption list from competitors]. copy the best ones\".\nclaude code then:\n\ncomes up with slideshow angles\n\nwrites the slide-by-slide text\nkeeps the early slides content-first\nadds the app/product later in the slideshow\nclaude will generate captions and it can actually overlay text over images (that's why i told you to use claude code before). it uses ffmpeg library (like all video/image software) to overlay text automatically.\n\nask claude to schedule 2x posts a day for each account. after that socialclaw handles the actual posting side:\n\nuploads\n\n-> account handling\n-> scheduling\n-> publishing\n\nTHAT'S IT. YOU'RE DONE. you now have months worth of content, it's all scheduled to be posted.\n\nthe reason this is useful is that this strategy is insanely repetitive\n\n10 accounts posting 2x posts a day = 20 posts a day.\n\n90% of posts go under ~5,000 views, most even staying under 300 views.\n\na few posts on each account get 50K - 500K views (some even 1M+)\n\nformat stays the same, just fresh similar content. e.g. same tokyo photo, just a different variation.\n\n0.1-2% of viewers actually download the app depending on your content\n\nmultiply this by 30 days and you get plenty of traffic\nonce the workflow is set up, it becomes much easier to run this like a system instead of making random one off posts.",
+"likeCount": 69,
+"retweetCount": 11,
+"url": "https://x.com/sulfurscales/status/2075642615316513195",
+"createdAt": "Fri Jul 10 18:05:37 +0000 2026"
+},
+{
+"userName": "ItsMidnightKei",
+"text": "You said I did not care enough to ask a question, but your original post was not exactly a conversation either. You framed AI art in VTubing as a mistake, said people will recognize it, and said it can hurt collabs.\n\nSo where were your questions?\n\nYou did not ask why someone used AI. You did not ask if they were already using free assets, paid assets, or commissions. You did not ask if they were saving up for a custom model or planning to upgrade later. You did not ask if they had the time, money, skill, health, or confidence to do everything themselves.\n\nYou made an assumption and called it advice.\n\nAnd that claim is not even true across the board. Plenty of creators use AI tools and still grow, still get support, still get collabs, and still build communities. There are bigger VTubers and creators who are pro-AI, or at least not acting like AI is the end of the world.\n\nAssuming people who use AI are not already using assets or commissioning artists is just not true. A lot of creators use mixed workflows. AI can be part of it while they also buy assets, commission artists, support artists, or save up to upgrade later.\n\nSame with the whole “artists will not work with you” thing. Some will not, and that is their choice. But acting like no artist will work with someone who uses AI is just false. Plenty do, and many job at the chance to do so and help out with those that want it.\n\nAnd do not use the “it hurts the environment” line like AI is the only thing hurting it. Humans are garbage at protecting the environment already. Cars, fast fashion, mass production, streaming, crypto, corporations, waste, pollution, all of it. AI is not the sole factor. It is just the newest thing people are fearmongering over while way bigger issues are still sitting right there.\n\nAnd “just use free assets” is not the clean answer people act like it is. A lot of free assets have restrictions. Some do not allow commercial use, monetization, editing, or much originality. And monetization does not just mean reselling the asset. It can mean ad revenue, streaming, memberships, donations, sponsorships, or building a paid brand around that content.\n\nVTubing is branding. Your model, overlays, logo, panels, and graphics are part of your identity as a creator. Not everyone wants to build their whole brand out of the same free packs everyone else is using.\n\nAnd yes, the blue check point still matters. Maybe you cancelled Premium. Maybe you paid ahead. But the checkmark is still there, on a platform actively pushing Grok and AI integration.\n\nThat was the point of the thank-you card. I was thanking you for supporting Grok’s development.\n\nYou can dislike generative AI. You can dislike how companies use it. Fine. But acting like smaller creators are making a mistake for using AI to start is still gatekeeping, and looks just like another person jumping on the trend to say something against AI to get views.\n\nAnd if your issue is only the generative art part, that comes off performative too. Generative AI is not just “artists are affected and that is it.” There is writing, coding, voice, music, editing, work tools, moderation, platform algorithms, and a lot more tied into it. Yes, AI may take some jobs away. That is a real concern. But it is also creating jobs and new workflows too, the thing that happens when new technology comes out. So acting like AI art is the only evil part while everything else gets a pass is just picking the part that is trendy to be mad about.\n\nNow, did I give you the conversation you want? Cause we can agree to disagree, and honestly, I'll have more respect for you in being able to do that. Then just going about it the way so many others have. Cause conversations can happen and they can happen respectfully.",
+"likeCount": 8,
+"retweetCount": 3,
+"url": "https://x.com/ItsMidnightKei/status/2074249788929773774",
+"createdAt": "Mon Jul 06 21:51:02 +0000 2026"
 },
 {
 "userName": "bravo_abad",
@@ -24,52 +32,68 @@
 "createdAt": "Mon Jul 06 16:13:51 +0000 2026"
 },
 {
-"userName": "NusratJaha07",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @NusratJaha07 For More Tools.",
-"likeCount": 45,
-"retweetCount": 24,
-"url": "https://x.com/NusratJaha07/status/2075080871175139592",
-"createdAt": "Thu Jul 09 04:53:27 +0000 2026"
+"userName": "Daseingram",
+"text": "🌟 https://t.co/WBHxj345dt\n\nCulture spreads through vibes.\nTechnology turns them into products.\n\nhttps://t.co/WBHxj345dt is built for AI creativity, culture-tech, music platforms, digital identity, social apps, creator tools, brand campaigns, and next-generation community experiences.\n\nWhy it stands out\n\n• Unique, modern, and highly brandable\n• “Vibe” signals culture, emotion, music, style, and social energy\n• “Graft” suggests attachment, growth, fusion, and building onto something new\n• Ideal for creator economy, AI media, Web3 identity, fashion-tech, music-tech, and social platforms\n• Moonshot potential if culture, AI, and digital communities keep merging\n\nPotential use cases\n\n🔹 AI Creator Platform\n🔹 Music & Culture App\n🔹 Social Identity Brand\n🔹 Vibe-Based Discovery Tool\n🔹 Digital Community Platform\n🔹 Creator Marketing Network\n🔹 Brand Campaign Studio\n🔹 Web3 Culture Identity\n🔹 Fashion / Music Tech Brand\n🔹 Future Social Experience Platform\n\nhttps://t.co/WBHxj345dt is not just a domain.\n\nIt is a premium brandable digital asset for the future of culture, AI creativity, social identity, and creator-driven communities.\n\n#VibeGraft #Vibe #CreatorEconomy #CultureTech #AICreativity #GenerativeAI #MusicTech #SocialApp #DigitalIdentity #CommunityPlatform #BrandInnovation #CreatorTools #Web3 #DigitalCulture #FashionTech #MediaTech #SocialMedia #FutureOfCreativity #StartupBranding #PremiumDomain #DomainName #DomainInvestor #DigitalAssets #BrandableDomain #Moonshot #VibeGraftCom",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/Daseingram/status/2074490222222491661",
+"createdAt": "Tue Jul 07 13:46:25 +0000 2026"
 },
 {
-"userName": "Tech_Arish",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Tech_Arish For More Tools.",
-"likeCount": 134,
-"retweetCount": 72,
-"url": "https://x.com/Tech_Arish/status/2075073731542888660",
-"createdAt": "Thu Jul 09 04:25:05 +0000 2026"
+"userName": "rohanpaul_ai",
+"text": "A first-of-its-kind open-source video generation model for embodied scenarios, using a Mixture-of-Experts design. \n\nLingBot-Video from @robbyant_brain, a Diffusion Transformer video foundation model built for embodied AI.\n\n- The flagship 30B model activates only 3B parameters per generation, at 1M-token sequences\n\n- At the same total parameter scale it reaches ~3X the inference efficiency of a Dense architecture at 1M-token sequences (3.18× vs. Dense 30B)\n\n- Aesthetic-only reward models are why video generators fake physics, and this paper basically says so. Physical plausibility is not treated as vibes here; it gets scored through causality, object permanence, non-penetration and material realism.\n\n- The model was not trained only on regular internet videos. Its pretraining data also includes 70,000+ hours of embodied footage, covering robot manipulation, navigation, and first-person action videos, so the model sees examples where movement actually changes the world.\n\n- On RBench, it reports a 0.620 average, ahead of every listed open and closed model, while still losing some columns to Wan 2.6.\n\n🧵 1.",
+"likeCount": 25,
+"retweetCount": 5,
+"url": "https://x.com/rohanpaul_ai/status/2075313714157559846",
+"createdAt": "Thu Jul 09 20:18:41 +0000 2026"
 },
 {
-"userName": "sopersone",
-"text": "A paper worth knowing about if you're into quant trading and generative AI:\n\nTRADES: Generating Realistic Market Simulations with Diffusion Models\n\nAuthors: Berti, Prenkaj, Velardi (Sapienza University of Rome + TU Munich)\n\nWhat's inside:\n> A transformer-based diffusion model for generating orders in the Limit Order Book (LOB) - realistic simulation of the market order book\n> Two key metrics - realism (how close it is to real market behavior) and responsiveness (how the market reacts to an agent's actions)\n> Results: ×3.27 and ×3.48 improvement over SoTA on the predictive score across two stocks\n> DeepMarket - the first open-source Python framework for deep-learning-based LOB simulations\n> Comes with a synthetic LOB dataset generated by the model itself\n\nA step toward backtesting trading strategies and training RL agents on data that behaves like a real market instead of random noise.\n\nhttps://t.co/QGLOigO4cN",
-"likeCount": 114,
-"retweetCount": 14,
-"url": "https://x.com/sopersone/status/2074592782443037183",
-"createdAt": "Tue Jul 07 20:33:58 +0000 2026"
+"userName": "IlirAliu_",
+"text": "Boost real-robot policy success & speed\nusing only cheap simulation, \nwithout needing any extra real data: \n\n- 2.4× success + 37% faster execution\n- Half-day iteration with new retry behaviors\n\nReal-robot imitation policies for dexterous manipulationby learning to steer diffusion or flow models in simulation without collecting extra real-world data.\n\nThe approach freezes the base policy trained on real data and uses RL only to select successful latent inputs within the policy’s support, avoiding sim-reality gaps from contact dynamics that plague full finetuning.\n\nResults show 2.4x higher real-world success rates and 37% faster execution across tasks like block picking, with quick half-day iteration from setup to deployment while enabling retry behaviors absent in base policies.\n\nThanks for sharing, Abhishek Gupta / @abhishekunique7!\n\n📌 https://t.co/pVCUIGcMgq\n\n——\n\nWeekly robotics and AI insights.\nSubscribe free: https://t.co/9Nm01QUcw3",
+"likeCount": 27,
+"retweetCount": 8,
+"url": "https://x.com/IlirAliu_/status/2073467652207448305",
+"createdAt": "Sat Jul 04 18:03:06 +0000 2026"
 },
 {
-"userName": "KingmilesCe",
-"text": "Potential Alpha: @Frag_Growth 🌸\n\n- Chain: ETH\n- Supply: TBA\n- Mint: TBA\n- Artist: @jenyavyguzov\n\nFragments of Growth is a hand crafted art collection by @jenyavyguzov, a fashion photographer and visual artist whose work has appeared in Vogue, GQ Style, Elle, Tatler, L'Officiel, and campaigns for brands including Puma and IKEA.\n\nEvery artwork is built from real photographs taken over years of travel.\n\nThose photographs are physically fragmented and carefully reassembled into floral collages, making every piece unique with no generative AI involved.\n\nThe team has also hinted at post-mint mechanics, including holder rewards and exclusive access to future 1/1 pieces from the artist's archive.\n\nIn a market filled with copy-paste projects, it's refreshing to see a collection built around genuine artistry and a story that feels personal.\n\nNot very early, but definitely one I'm bullish on.",
-"likeCount": 93,
-"retweetCount": 28,
-"url": "https://x.com/KingmilesCe/status/2075189854569205932",
-"createdAt": "Thu Jul 09 12:06:31 +0000 2026"
+"userName": "volokuleshov",
+"text": "New blog post: How to Build a Diffusion Language Model.\n\nDiffusion LLMs went from open problem to reality in 2 years (Mercury, Gemma Diffusion, Nemotron Diffusion). With my Cornell group, we wrote up the research advances that make them work.\n\nWe use today's OSS large diffusion models as examples and show how they're built from core techniques: \n• masked diffusion (MDLM) \n• iterative refinement (UDLM, ReMDM) \n• variable-length generation (block diffusion, encoder-decoder architectures) \n• controllable generation (D-CFG, D-CBG) \n• fast samplers (Duo)\n• RL post-training (d1, d2)\n\nThis post covers research led by a talented group of Cornell PhD students including @mariannearr @SchiffYair @Guanghan__Wang \n\nThe content is adapted from talks I gave this year on dLLMs. It covers most of the main ingredients behind open-source diffusion language models today.\n\nLink: https://t.co/lpu3BCLwiE",
+"likeCount": 1469,
+"retweetCount": 197,
+"url": "https://x.com/volokuleshov/status/2074778055797850275",
+"createdAt": "Wed Jul 08 08:50:10 +0000 2026"
+},
+{
+"userName": "junikoETH",
+"text": "WHILE EVERYONE IS MASSIVELY CREATING AI MODELS TO SELL PRIVATE PHOTOS THIS GUY MAKES 10,000 DOLLARS ON REGULAR AMAZON PRODUCTS.\n\nInstead of questionable content, this AI girl becomes a free and reliable brand ambassador.\n\nThe guy does not try to build a fake life around her.\n\nHe simply finds popular products in the affiliate program, takes viral TikTok scripts and feeds them to the neural network.\n\nAs a result, his virtual model generates hundreds of aesthetic reviews on cosmetics, creams and gadgets.\n\nShe does not need physical samples sent by mail, she never misses deadlines and she always looks flawless on camera.\n\nUsers get hooked on her pleasant appearance, listen to the persuasive copy and buy the product through the affiliate link.",
+"likeCount": 117,
+"retweetCount": 17,
+"url": "https://x.com/junikoETH/status/2075619039334826490",
+"createdAt": "Fri Jul 10 16:31:56 +0000 2026"
 },
 {
 "userName": "bmx_ai13",
-"text": "Created with Fashion Studio on @ImagineArt_X this 15 second fashion video brings an old town editorial mood to life stone streets, warm light, effortless styling, and cinematic movement that feels ready for a global campaign.\n\nFrom concept to fashion visual Fashion Studio helps turn a simple idea into a polished AI fashion shoot with real atmosphere, character and style.\n\nThis is not just AI image generation. This is fashion direction, visual branding, and campaign storytelling in motion.",
-"likeCount": 11,
-"retweetCount": 2,
-"url": "https://x.com/bmx_ai13/status/2073496064800534920",
-"createdAt": "Sat Jul 04 19:56:00 +0000 2026"
+"text": "Created with Fashion Studio on @ImagineArt_X  this 15 second fashion film brings modern styling into a richly detailed heritage interior.\n\nWarm amber lighting, dark wood textures, a statement jacket, relaxed denim and controlled cinematic movement create an editorial atmosphere that feels intimate, refined and campaign ready.\n\nFrom composed wide shots to expressive close up portraits, every frame is designed to highlight texture, presence and character.\n\nFashion Studio goes beyond AI image generation transforming a simple concept into complete fashion direction, visual branding, and cinematic campaign storytelling.",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/bmx_ai13/status/2075797479652565017",
+"createdAt": "Sat Jul 11 04:21:00 +0000 2026"
 },
 {
-"userName": "matthewh6_",
-"text": "RL can't teach an LLM to solve problems it never solves. Robot policies suffer from exactly the same limitation.\n\nThe fix turned out to be almost embarrassingly simple: train the policy with diffusion noise during pre-training.\n\nThat's it.\n\nThe policy covers a much wider action distribution, RL finally has somewhere to search, and we fine-tune VLAs on real robots in under an hour.\n\nIntroducing TMRL.\n\n🧵(1/9)",
-"likeCount": 150,
-"retweetCount": 32,
-"url": "https://x.com/matthewh6_/status/2075276908309471477",
-"createdAt": "Thu Jul 09 17:52:26 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Keeping up with AI news is becoming a full-time job.\n\nSo my friend @ivan_bezdomny built HuggingNews, an AI-curated feed that surfaces the news actually worth reading. Soon, it will even personalize the feed using your Hugging Face profile. Been using it for weeks!\n\nBookmark it, or ask your agent to send you the top 10 stories every morning or night. Less noise. More signal. More building!\n\nhttps://t.co/h0xpkq1aHO",
+"likeCount": 1501,
+"retweetCount": 161,
+"url": "https://x.com/ClementDelangue/status/2075605593973194999",
+"createdAt": "Fri Jul 10 15:38:31 +0000 2026"
+},
+{
+"userName": "opener_ai",
+"text": "I heard @ImagineArt_X has been around for 1.5 years now. Generative AI for images and videos has only been booming for about 3 years, so you guys have been a huge part of that journey for more than half its history. Huge congrats! \n\nI recently tried out the new Fashion Studio feature, and I was honestly blown away by how consistently well the outfits were rendered. \n\n#imagineart #fashionstudio",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/opener_ai/status/2073925137527894053",
+"createdAt": "Mon Jul 06 00:20:59 +0000 2026"
 },
 {
 "userName": "grx_xce",
@@ -80,67 +104,59 @@
 "createdAt": "Sat Jul 04 18:39:15 +0000 2026"
 },
 {
-"userName": "servo97",
-"text": "Henlo Frens, \nI'll be presenting OGPO at #ICML2026 tomorrow (9 July) \nTime ⏰: 2:30 to 4:15 PM KST\nLocation 📍: Hall A,  Poster #202\n\nFeel free to stop by for a chat on RL-finetuning, diffusion/flow policies, dexterous manipulation, or existential philosophy! ⛵️\n\nhttps://t.co/iU54WPYQMx",
-"likeCount": 30,
-"retweetCount": 2,
-"url": "https://x.com/servo97/status/2074757359931687113",
-"createdAt": "Wed Jul 08 07:27:56 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
 "text": "Very cool to see @netflix releasing video datasets and models on @huggingface. They have a strong video AI team and would be amazing to see them open-source more!\n\nhttps://t.co/5bVKjn6wEp https://t.co/V0QTnVDNNj",
-"likeCount": 245,
-"retweetCount": 36,
+"likeCount": 453,
+"retweetCount": 56,
 "url": "https://x.com/ClementDelangue/status/2075294232001093977",
 "createdAt": "Thu Jul 09 19:01:16 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @aijoey: nvidia ai just handed dgx spark owners a real gift.\n\nnemotron labs 3 puzzle 75b a9b nvfp4 is basically built for this box.\n\n75b…",
-"likeCount": 192,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2074899904267178396",
-"createdAt": "Wed Jul 08 16:54:21 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @pollenrobotics: One year ago today, we introduced Reachy Mini to the world.\n\nDespite the bumps along the way, you welcomed it, built wi…",
-"likeCount": 116,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2075195648832417850",
-"createdAt": "Thu Jul 09 12:29:32 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ggerganov: llama.cpp recently added DFlash support to its speculative decoding arsenal. Along with MTP, Eagle3 and various ngram-based…",
-"likeCount": 366,
-"retweetCount": 43,
-"url": "https://x.com/ClementDelangue/status/2074944182565638207",
-"createdAt": "Wed Jul 08 19:50:18 +0000 2026"
-},
-{
-"userName": "marclou",
-"text": "✅ Startup Acquisition #116 on @trust_mrr ✅\n\nAI virtual try-on iOS app making $300 MRR (80% profit) sold for $6,000. https://t.co/ugKa2fKTYo",
-"likeCount": 54,
-"retweetCount": 3,
-"url": "https://x.com/marclou/status/2075199295691894973",
-"createdAt": "Thu Jul 09 12:44:02 +0000 2026"
-},
-{
-"userName": "Dipanshu_AI",
-"text": "https://t.co/udnDjMgY6h",
+"userName": "iamgeographic",
+"text": "You know who I’ve never heard complain about generative AI? Fashion/super models…\n\nWhich is interesting because now you can just generate them.\n\nProof they have aura and confidence in their craft.",
 "likeCount": 11,
-"retweetCount": 4,
-"url": "https://x.com/Dipanshu_AI/status/2074792915591991397",
-"createdAt": "Wed Jul 08 09:49:13 +0000 2026"
+"retweetCount": 0,
+"url": "https://x.com/iamgeographic/status/2074457617531859197",
+"createdAt": "Tue Jul 07 11:36:52 +0000 2026"
 },
 {
-"userName": "apob_ai",
-"text": "https://t.co/OoKU6P1U5J",
-"likeCount": 17,
-"retweetCount": 7,
-"url": "https://x.com/apob_ai/status/2074491858714333373",
-"createdAt": "Tue Jul 07 13:52:55 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @googlegemma: Hugging Face Gemma Challenge results are in! 📈\n\nOver 6 days, more than 100 AI agents and humans collaborated to make Gemma…",
+"likeCount": 1128,
+"retweetCount": 106,
+"url": "https://x.com/ClementDelangue/status/2075614530667774436",
+"createdAt": "Fri Jul 10 16:14:01 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @AndrewYNg: Adam Thierer had written the landmark book on \"Permissionless Innovation.\" We get the best ideas when we don't have to ask t…",
+"likeCount": 241,
+"retweetCount": 37,
+"url": "https://x.com/ClementDelangue/status/2075476715229352059",
+"createdAt": "Fri Jul 10 07:06:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @lhoestq: Saving PBs of storage on @huggingface thanks to deduplication\n\nDeduplicating files chunks results in a huge gap between what's…",
+"likeCount": 19,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2075483513239847395",
+"createdAt": "Fri Jul 10 07:33:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @kchonyc: a hot tip for @GoogleDeepMind : open source gemini 3.5 pro and become the most beloved tech co overnight.",
+"likeCount": 589,
+"retweetCount": 20,
+"url": "https://x.com/ClementDelangue/status/2075473646299099277",
+"createdAt": "Fri Jul 10 06:54:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Meta: is the release of huggingnews make it to huggingnews?",
+"likeCount": 30,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2075609148415197337",
+"createdAt": "Fri Jul 10 15:52:38 +0000 2026"
 }
 ]
