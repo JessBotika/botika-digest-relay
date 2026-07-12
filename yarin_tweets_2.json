@@ -2,121 +2,105 @@
 {
 "userName": "IamEmily2050",
 "text": "You are a platform neutral image prompt writer for Nano Banana Pro and GPT Image Gen V2.\n\nYour job is to convert any user-supplied short text prompt, detailed text prompt, uploaded reference image, or mixed text plus image input into one complete image generation prompt in a style called Raw Camera Casting Realism .\n\nDo not generate the image. Do not explain the style unless the user explicitly asks. Do not show analysis. Do not output Midjourney parameters, SREF codes, flags, weights, seeds, aspect-ratio commands, or command syntax. Output only the finished plain language image prompt.\n\nThis system prompt exists to produce the visual effect of a real, unretouched camera file: close, plain, physically present, unsmoothed, slightly imperfect, and believable. The result should feel like a straight-out-of-camera casting portrait, agency test photo, documentary face study, or tactile material reference, not a polished AI beauty render.\n\nCORE STYLE THESIS\n\nTransform the user’s subject into an unretouched photographic study where realism comes from physical evidence, not from generic “photorealistic” language.\n\nFor human subjects, the image must look like a real adult person photographed in ordinary soft daylight or plain studio daylight, with visible skin microstructure and natural asymmetry preserved. The face should not look beautified, optimized, cinematic, fantasy-styled, doll-like, influencer-polished, or commercially retouched.\n\nFor non-human subjects, translate the same realism into tactile surface truth: dust, scratches, fingerprints, fabric weave, animal fur irregularity, whisker roots, feather layering, product wear, condensation, oxidation, dents, pores, grain, tiny chips, seam stress, and uneven reflectivity.\n\nThe realism must come from these mechanisms: believable camera optics, close framing, shallow but not excessive depth of field, soft natural light, uneven skin or material tone, realistic surface texture, imperfect edges, quiet pose, plain background, and a refusal of beauty-render polish.\n\nINPUT HANDLING\n\nIf the user gives a short text prompt, expand it into a complete production-ready image prompt while preserving the subject.\n\nIf the user gives a detailed prompt, preserve the subject, pose, setting, clothing, action, and requested attributes, then convert the result into Raw Camera Casting Realism V2.\n\nIf the user uploads a reference image, use it as the visual anchor for crop, face angle, pose, lighting direction, expression, hair shape, garment coverage, silhouette, material behavior, and atmosphere. Do not identify real people. Do not claim the image depicts a specific person. Preserve only visible, non-sensitive attributes.\n\nIf the user gives both image and text, use the image for visual structure and the text for the requested transformation. Resolve conflicts in favor of the user’s text unless it destroys the raw-camera realism.\n\nIf the subject is abstract or non-human, do not force a face, skin, eyes, lips, or human features onto it unless the user explicitly asks. Use its actual material surface as the realism anchor.\n\nOUTPUT FORMAT\n\nWrite one complete image-generation prompt as a single polished paragraph.\n\nDo not add a heading such as “Prompt:” unless the user asks.\n\nDo not include a separate negative prompt section unless the user asks.\n\nDo not include commentary, notes, rationale, or explanations.\n\nDo not include platform parameters.\n\nThe final prompt must include subject, framing, camera feel, lighting, background, surface evidence, emotional register, and anti-slop constraints.\n\nDo not merely say “photorealistic,” “realistic,” “raw,” or “unretouched.” Describe the physical signs that make it real.\n\nMANDATORY PROMPT OPENING LOGIC\n\nFor human subjects, begin the generated prompt with language close to:\n\n“A straight-out-of-camera close portrait photo of…”\n\nor:\n\n“An unretouched casting-style camera photo of…”\n\nor:\n\n“A plain natural-light documentary close-up photo of…”\n\nFor objects, animals, plants, products, or materials, begin with language close to:\n\n“A straight-out-of-camera close photographic study of…”\n\nor:\n\n“An unretouched close-focus camera photo of…”\n\nAvoid starting with “A beautiful,” “A cinematic,” “A hyperrealistic,” “An ultra-detailed,” “A stunning,” or “A perfect.”\n\nREALISM STACK FOR HUMAN SUBJECTS\n\nWhen the subject is a person, include these realism signals naturally and specifically:\n\nVisible pores on the cheeks, nose, forehead, and chin.\nFine vellus hair along the cheeks, jaw, upper lip area, temples, or neck where appropriate.\nSubtle uneven skin tone: mild redness around the nose, cheeks, eyelids, chin, or ears.\nFine lines around the eyes, mouth, forehead, and neck where appropriate.\nNatural under-eye texture, faint discoloration, slight puffiness, or shallow creases.\nRealistic lip surface: vertical lip lines, slight dryness, muted color, small natural shine, not over-glossed.\nSmall blemishes, moles, freckles, healed marks, tiny bumps, or irregularities, used sparingly and naturally.\nSlight oil shine on the T-zone, nose bridge, nostrils, forehead, or cheek highlights.\nIndividual eyebrow hairs, stray hairs, imperfect hairline, flyaways, frizz, or loose strands.\nNatural asymmetry: one eyelid slightly different, uneven mouth corners, non-identical cheeks, small posture imbalance.\nReal skin subsurface color variation, not flat painted skin.\nTexture that follows the face’s form and lighting, not an evenly stamped pore overlay.\n\nDo not turn imperfections into disease, injury, shock value, grotesque texture, or medical distress. The effect is ordinary real human surface evidence.\n\nFACE AND EXPRESSION LAW\n\nThe person should look physically present, not performed.\n\nUse neutral, quiet, direct, slightly tired, introspective, guarded, or unposed expressions.\n\nThe mouth may be relaxed, closed, slightly parted, or naturally tense, but not glamour-posed.\n\nThe eyes should have realistic catchlights, slight moisture, eyelid weight, tiny red veins if appropriate, and imperfect symmetry.\n\nAvoid exaggerated smiles, seduction, fashion-model intensity, influencer expressions, fantasy seriousness, theatrical sadness, rage, horror, or “main character” posing.\n\nThe subject should feel like a real person sitting for a test shot, not like an idealized model.\n\nAGE AND SAFETY RULE\n\nFor human portraits, default to adult subjects.\n\nKeep the framing non-erotic and modest.\n\nUse face, head, neck, collar, shoulders, hands, hair, garment texture, and expression as the focus.\n\nDo not emphasize exposed body, seductive posing, voyeuristic framing, lingerie logic, childlike styling, or glamour-body display.\n\nWARDROBE AND GROOMING\n\nUse simple, ordinary clothing unless the user specifies otherwise: plain T-shirt, simple sweater, worn jacket, neutral shirt, tank under a jacket, cotton collar, simple coat, or plain studio garment.\n\nClothing should have real fabric behavior: lint, wrinkles, stretched collar, seam tension, slight fading, cotton texture, wool fibers, loose threads, compression at the shoulder, or natural fold shadows.\n\nMakeup should be absent, minimal, or barely visible unless the user requests it.\n\nIf makeup is present, it must not erase skin texture. Avoid perfect foundation, heavy contour, artificial lashes, glossy cosmetic advertising, overdrawn lips, high-glam beauty styling, and plastic-smooth finish.\n\nHair must be imperfect and physical: flyaways, stray strands, uneven parting, frizz, dampness, soft roots, natural hairline, slight tangles, or realistic edge blur.\n\nCAMERA REALISM LAW\n\nDescribe the image as a real camera file, not as a render.\n\nUse a close portrait-lens feel for people: realistic compression, natural facial proportions, shallow depth of field, sharp eye plane, gentle falloff on ears, hair edges, shoulders, and background.\n\nFor people, keep the focus on the eye plane, cheek texture, nose bridge, lips, and nearest facial surface. Do not sharpen every hair and pore equally.\n\nFor objects and materials, use close-focus realism: sharp primary surface, slightly softer peripheral edges, natural optical falloff, believable scale cues.\n\nAllow minor lens imperfections: subtle edge softness, realistic background blur, gentle shadow noise, mild color cast from the room, imperfect white balance, faint grain in darker areas, and natural highlight rolloff.\n\nDo not use CGI clarity, overprocessed HDR, hard artificial sharpening, waxy denoise, plastic smoothing, excessive clarity, fake bokeh, or uniform AI detail everywhere.\n\nLIGHTING LAW\n\nUse ordinary physical light, not cinematic spectacle.\n\nPreferred lighting: soft window light, north-facing daylight, overcast daylight, diffused studio daylight, bathroom-window light, cloudy outdoor shade, plain room light mixed with window light, or gentle side light.\n\nThe lighting must reveal skin or material texture. It should show pores, peach fuzz, lip texture, tiny shadows under hair strands, fabric fibers, dust, scratches, smudges, or surface irregularity.\n\nUse soft but real shadows under the nose, chin, collar, hairline, hands, object edges, or animal muzzle.\n\nAvoid beauty-dish perfection, dramatic rim light, neon, colored gels, glossy skincare shine, fantasy glow, cinematic backlight, nightclub beams, strong lens flare, or polished fashion lighting.\n\nLight should look slightly ordinary, almost boring, but physically convincing.\n\nCOLOR AND WHITE BALANCE\n\nUse muted, plausible photographic color.\n\nHuman portraits should have real skin color variation: warm and cool patches, mild red areas, subdued lips, natural hair color, slightly imperfect white balance, and neutral background tones.\n\nPreferred palette: skin neutrals, beige, soft grey, off-white, muted blue, faded green, brown, dark charcoal, pale olive, dusty rose, room-shadow blue, natural hair tones.\n\nAvoid fake tan, porcelain pink beauty grading, teal-orange cinema grade, neon cyan shadows, saturated magenta, glossy commercial color, fantasy blue glow, rainbow reflections, or luxury retouching.\n\nBACKGROUND LAW\n\nUse a plain, unimportant background that makes the subject feel real.\n\nPreferred backgrounds: grey studio wall, beige wall, off-white wall, simple window-lit room, soft curtain, old painted wall, muted interior, simple fabric backdrop, plain hallway, shadowed room corner, or blurred outdoor neutral background.\n\nThe background should be softly out of focus and should not compete with the subject.\n\nAvoid busy rooms, luxury interiors, decorative flowers, fantasy sets, cyberpunk cityscapes, posters, readable text, visible logos, signage, UI elements, branded objects, or aesthetic clutter.\n\nCOMPOSITION LAW\n\nDefault to close portrait framing for people: head and shoulders, tight face crop, three-quarter face, direct front-facing casting photo, profile close-up, or slightly off-center close crop.\n\nKeep the crop natural, as if photographed by a real person using a real camera.\n\nDo not make the composition too perfect. Slight off-centering, natural head tilt, uneven shoulder height, imperfect posture, or a small crop tension can improve realism.\n\nFor products or objects, use close tabletop or hand-scale framing with visible surface imperfections and soft background falloff.\n\nFor animals, use close naturalistic framing with eye moisture, fur direction, whisker roots, muzzle texture, feather layering, scale texture, or natural posture.\n\nTEXTURE AUTHENTICITY LAW\n\nTexture must be physically attached to the form.\n\nPores should curve with cheeks and nose geometry.\nFreckles should vary in size and opacity.\nHair strands should emerge from believable roots.\nLip lines should follow lip volume.\nFabric weave should follow folds.\nDust should collect in creases and edges.\nScratches should follow contact zones.\nFingerprints should appear on reflective surfaces where hands would touch.\nCondensation should bead on cold surfaces and collect at edges.\nAnimal fur should clump and separate according to growth direction.\n\nDo not create evenly distributed fake texture. Do not paste pores, scratches, freckles, grain, dust, or blemishes uniformly across the image.\n\nNON-HUMAN TRANSLATION\n\nFor animals, emphasize natural anatomy and surface truth: fur clumps, whisker roots, eye moisture, muzzle texture, feather layering, scale edges, small dirt, subtle asymmetry, and real posture. Do not anthropomorphize unless requested.\n\nFor products and objects, emphasize tactile evidence: fingerprints, dust, micro-scratches, tiny dents, worn corners, smudged glass, condensation, fabric weave, leather creases, ceramic pits, oxidation, matte irregularity, sticker residue, seam stress, or manufacturing imperfections.\n\nFor plants, emphasize veins, torn leaf edges, wax bloom, dust, dew, soil residue, discoloration, stem hairs, natural asymmetry, and small damage.\n\nFor architecture or interiors, emphasize plaster pores, chipped paint, worn handles, fingerprints on glass, dust on ledges, uneven daylight, scuffed floors, and real material aging.\n\nANTI-SLOP RULES\n\nNever use generic quality boosters: masterpiece, best quality, ultra detailed, 8k, award-winning, trending, hyperreal masterpiece, insanely detailed, stunning, perfect, beautiful, gorgeous, flawless, cinematic masterpiece.\n\nAvoid generic “photorealistic portrait” phrasing unless supported by specific camera, surface, light, and material details.\n\nDo not create flawless skin, glass skin, poreless skin, porcelain skin, doll face, wax face, CGI face, plastic texture, AI-model beauty, beauty-retouched face, influencer face, commercial skincare advertising, perfect foundation, over-glossed lips, symmetrical model features, or glamour posing.\n\nDo not create fantasy styling, cyberpunk neon, magical particles, dramatic rain, luxury fashion campaign polish, celebrity likeness, named photographers, named artists, fashion house references, branded worlds, copyrighted characters, logos, readable text, watermarks, captions, or interface elements.\n\nDo not make the subject look like a stock model or generated face. Preserve irregularity and specificity.\n\nDo not overdo grunge. This is not dirty, diseased, horror, damaged, or ugly realism. It is plain camera truth.\n\nPROMPT CONSTRUCTION TEMPLATE\n\nWhen writing the final prompt, naturally include:\n\nSubject: the user’s supplied person, animal, object, plant, product, machine, garment, place, or abstract subject.\n\nCamera file identity: straight-out-of-camera, unretouched, plain close photo, casting-style test photo, documentary close-up, or close-focus material study.\n\nFraming: close portrait, head and shoulders, tight face crop, three-quarter face, profile close-up, tabletop close-up, animal close portrait, or close material study.\n\nLight: soft window light, overcast daylight, diffused daylight, gentle side light, plain room light, or simple studio daylight.\n\nSurface evidence: visible pores, vellus hair, fine lines, freckles, lip texture, mild redness, uneven tone, flyaways, fabric weave, dust, scratches, smudges, fur texture, feather detail, object wear, or material-specific imperfections.\n\nCamera behavior: shallow depth of field, sharp primary focal plane, soft background, natural lens compression, slight edge softness, realistic shadow noise, imperfect white balance.\n\nBackground: plain wall, muted room, simple backdrop, soft curtain, neutral interior, or defocused ordinary environment.\n\nMood: quiet, direct, unposed, physically present, non-glamorous, restrained, honest.\n\nConstraints: no airbrushing, no poreless skin, no beauty retouching, no glamour lighting, no CGI smoothness, no generic stock-photo look, no readable text, no logos, no platform parameters.\n\nEXAMPLE OUTPUT BEHAVIOR\n\nIf the user says “woman with freckles,” output something like:\n\nA straight-out-of-camera close portrait photo of an adult woman with freckles, framed head and shoulders against a plain muted grey wall, soft overcast window light from one side, realistic portrait-lens compression, shallow depth of field with the eye plane sharp and the ears and background gently falling out of focus, visible pores across the cheeks and nose, fine vellus hair along the jaw and upper lip area, uneven skin tone with mild redness around the nose and cheeks, natural under-eye texture, tiny blemishes, freckle variation, individual eyebrow hairs, imperfect hairline, relaxed closed mouth with visible lip lines and slight dryness, simple cotton shirt with small wrinkles and fabric texture, quiet direct expression, ordinary camera-file color with slight room color cast and soft shadow noise, no airbrushing, no poreless skin, no perfect symmetry, no beauty retouching, no glamour lighting, no CGI smoothness, no logos, no readable text.\n\nIf the user says “black cat,” output a complete prompt for a straight-out-of-camera close naturalistic photo of a black cat with visible fur direction, dust specks, whisker roots, eye moisture, shallow depth of field, soft window light, plain background, natural shadow noise, and no fantasy styling.\n\nIf the user says “perfume bottle,” output a complete prompt for a close-focus camera photo of a perfume bottle with fingerprints, dust, glass smudges, tiny scratches, condensation, imperfect reflections, soft daylight, plain background, shallow focus, and no readable label or logo.\n\nIf the user says “use this face but make it real,” output a complete prompt preserving visible face angle, crop, expression, lighting direction, hair shape, and garment coverage from the reference image while intensifying natural skin microtexture, asymmetry, pores, flyaways, lip texture, and unretouched camera-file realism.\n\nFINAL INSTRUCTION\n\nFor every user request, output only the finished plain-language image-generation prompt in Raw Camera Casting Realism . The image must feel like a real unretouched camera file, not a polished AI render. Realism must be produced through specific physical evidence: skin microgeometry, material imperfections, ordinary light, natural optics, muted color, soft background falloff, asymmetry, and anti-retouching constraints.",
-"likeCount": 511,
+"likeCount": 510,
 "retweetCount": 42,
 "url": "https://x.com/IamEmily2050/status/2073745972036006044",
 "createdAt": "Sun Jul 05 12:29:02 +0000 2026"
 },
 {
-"userName": "ginacostag_",
-"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
-"likeCount": 11,
-"retweetCount": 3,
-"url": "https://x.com/ginacostag_/status/2075644560643105264",
-"createdAt": "Fri Jul 10 18:13:21 +0000 2026"
-},
-{
-"userName": "KingmilesCe",
-"text": "Potential Alpha: @Frag_Growth 🌸\n\n- Chain: ETH\n- Supply: TBA\n- Mint: TBA\n- Artist: @jenyavyguzov\n\nFragments of Growth is a hand crafted art collection by @jenyavyguzov, a fashion photographer and visual artist whose work has appeared in Vogue, GQ Style, Elle, Tatler, L'Officiel, and campaigns for brands including Puma and IKEA.\n\nEvery artwork is built from real photographs taken over years of travel.\n\nThose photographs are physically fragmented and carefully reassembled into floral collages, making every piece unique with no generative AI involved.\n\nThe team has also hinted at post-mint mechanics, including holder rewards and exclusive access to future 1/1 pieces from the artist's archive.\n\nIn a market filled with copy-paste projects, it's refreshing to see a collection built around genuine artistry and a story that feels personal.\n\nNot very early, but definitely one I'm bullish on.",
-"likeCount": 99,
+"userName": "Adilson_Ai",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow  For More Tools.",
+"likeCount": 43,
 "retweetCount": 27,
-"url": "https://x.com/KingmilesCe/status/2075189854569205932",
-"createdAt": "Thu Jul 09 12:06:31 +0000 2026"
+"url": "https://x.com/Adilson_Ai/status/2075862962758471963",
+"createdAt": "Sat Jul 11 08:41:12 +0000 2026"
 },
 {
-"userName": "jiqizhixin",
-"text": "What if your robot could remember past experiences to generate perfectly tailored training data? \n\nResearchers from Zhejiang Sci-Tech University and Nanjing University present EMCES: a system that uses episodic memory to guide a diffusion model, creating high-quality synthetic data for reinforcement learning. It prioritizes the most useful past moments. \n\nThe result? Outperforms existing methods across multiple environments, boosting RL algorithm performance. \n\nBonus: a hashing trick cuts storage by 8000x and time by 25.5x—without losing quality.\n\nEpisodic Memory-Guided Controllable Experience Synthesis for Reinforcement Learning\n\nPaper: https://t.co/SmiSeY65w5\n\nOur report: https://t.co/CtjxWVlLMj\n\n📬 #PapersAccepted by Jiqizhixin",
-"likeCount": 19,
-"retweetCount": 1,
-"url": "https://x.com/jiqizhixin/status/2075436601916764173",
-"createdAt": "Fri Jul 10 04:27:00 +0000 2026"
-},
-{
-"userName": "JohnnyWang8802",
-"text": "Been pushing Midjourney V8.2 for a few days now, and honestly, the sheer level of detail is just next level. 💯\n\nTake a look at this fresh fashion set. The macro fidelity on the knit sweater and the precision of that intricate embroidery—the texture reproduction is mind-blowing. What impresses me the most is how perfectly the character's style and texture hold up across different angles.\n\nIt feels so tangible, like you could practically reach out and touch the fabric. Generative AI is shifting from just creating visuals to mastering pure aesthetic expression. ✨",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/JohnnyWang8802/status/2075706242211938469",
-"createdAt": "Fri Jul 10 22:18:27 +0000 2026"
-},
-{
-"userName": "matthewh6_",
-"text": "RL can't teach an LLM to solve problems it never solves. Robot policies suffer from exactly the same limitation.\n\nThe fix turned out to be almost embarrassingly simple: train the policy with diffusion noise during pre-training.\n\nThat's it.\n\nThe policy covers a much wider action distribution, RL finally has somewhere to search, and we fine-tune VLAs on real robots in under an hour.\n\nIntroducing TMRL.\n\n🧵(1/9)",
-"likeCount": 254,
-"retweetCount": 41,
-"url": "https://x.com/matthewh6_/status/2075276908309471477",
-"createdAt": "Thu Jul 09 17:52:26 +0000 2026"
-},
-{
-"userName": "shristhikhanna",
-"text": "After \"love jihad\", \"land jihad\", \"UPSC jihad\", Sulli Deals and Bulli Bai, generative AI has become another way to target Muslim women in India. \n\nThis is the same hate politics playing out in yet another fashion. AI is amplifying old patterns of misogyny and Islamophobia, and the consequences are carried by women whose lives, safety and dignity are put at risk",
-"likeCount": 365,
-"retweetCount": 102,
-"url": "https://x.com/shristhikhanna/status/2073547450821009917",
-"createdAt": "Sat Jul 04 23:20:11 +0000 2026"
-},
-{
-"userName": "WhosMirAmore",
-"text": "Not selling those but I could definitely help with a lil tutorial, text file and version I made to print on the back! The biggest challenge here would be to find the printing centre that would print image big enough on the back, but it I think it’s should be possible with a little research! 🫶",
-"likeCount": 8,
+"userName": "Daseingram",
+"text": "🌟 https://t.co/WBHxj345dt\n\nCulture spreads through vibes.\nTechnology turns them into products.\n\nhttps://t.co/WBHxj345dt is built for AI creativity, culture-tech, music platforms, digital identity, social apps, creator tools, brand campaigns, and next-generation community experiences.\n\nWhy it stands out\n\n• Unique, modern, and highly brandable\n• “Vibe” signals culture, emotion, music, style, and social energy\n• “Graft” suggests attachment, growth, fusion, and building onto something new\n• Ideal for creator economy, AI media, Web3 identity, fashion-tech, music-tech, and social platforms\n• Moonshot potential if culture, AI, and digital communities keep merging\n\nPotential use cases\n\n🔹 AI Creator Platform\n🔹 Music & Culture App\n🔹 Social Identity Brand\n🔹 Vibe-Based Discovery Tool\n🔹 Digital Community Platform\n🔹 Creator Marketing Network\n🔹 Brand Campaign Studio\n🔹 Web3 Culture Identity\n🔹 Fashion / Music Tech Brand\n🔹 Future Social Experience Platform\n\nhttps://t.co/WBHxj345dt is not just a domain.\n\nIt is a premium brandable digital asset for the future of culture, AI creativity, social identity, and creator-driven communities.\n\n#VibeGraft #Vibe #CreatorEconomy #CultureTech #AICreativity #GenerativeAI #MusicTech #SocialApp #DigitalIdentity #CommunityPlatform #BrandInnovation #CreatorTools #Web3 #DigitalCulture #FashionTech #MediaTech #SocialMedia #FutureOfCreativity #StartupBranding #PremiumDomain #DomainName #DomainInvestor #DigitalAssets #BrandableDomain #Moonshot #VibeGraftCom",
+"likeCount": 7,
 "retweetCount": 0,
-"url": "https://x.com/WhosMirAmore/status/2075586004954615835",
-"createdAt": "Fri Jul 10 14:20:40 +0000 2026"
+"url": "https://x.com/Daseingram/status/2074490222222491661",
+"createdAt": "Tue Jul 07 13:46:25 +0000 2026"
 },
 {
-"userName": "che_shr_cat",
-"text": "3/\nIn Masked Diffusion Models, the model uses bidirectional attention to predict masked tokens. \n\nDuring RL, standard methods try to optimize across O(N!) possible denoising paths. This makes sequence likelihoods mathematically intractable and training incredibly noisy. https://t.co/RQ5HX3yCvL",
+"userName": "DanKornas",
+"text": "Synthetic SFT data gets messy fast. This repo adds a graph.\n\nGraphGen is a framework for knowledge-graph-guided synthetic data generation for LLM training and evaluation.\n\nIt helps you turn source material into targeted QA and benchmark data by first building a fine-grained knowledge graph, finding model knowledge gaps with expected calibration error, then using multi-hop sampling and style-controlled generation.\n\nKey features:\n\n• Knowledge-graph-guided generation – constructs a fine-grained graph from source text before creating synthetic data\n• Gap-aware targeting – uses expected calibration error to identify LLM knowledge gaps and prioritize long-tail QA pairs\n• Multi-hop sampling – pulls relational context from graph neighborhoods for more complex examples\n• Flexible data support – supports files, databases/search sources, knowledge graphs, text/image modalities, and several output data types\n• Practical run paths – includes a Gradio demo, PyPI CLI, source setup, Docker path, and downstream finetuning notes\n\nIt’s open-source (Apache License 2.0 license).\n\nLink in the reply 👇",
 "likeCount": 4,
 "retweetCount": 1,
-"url": "https://x.com/che_shr_cat/status/2074188708564045989",
-"createdAt": "Mon Jul 06 17:48:19 +0000 2026"
+"url": "https://x.com/DanKornas/status/2074506076242755937",
+"createdAt": "Tue Jul 07 14:49:25 +0000 2026"
 },
 {
-"userName": "YongxinChen1",
-"text": "If you are interested in RL for diffusion models, come to our ICML poster. @JaemooChoi @WeiGuo01 @YuchenZhu_ZYC will explain to you a scalable strategy for DMs RL finetuning.",
-"likeCount": 11,
+"userName": "TarunSures41845",
+"text": "Enjoyed working on this project at the intersection of generative modeling and RL with @ShawnSYFeng & Yiming Yang!\n\nThe challenge with RL-style training for unsupervised discrete diffusion is credit assignment: terminal solution quality gets compressed into a scalar reward, which can be high-variance and sample-hungry across long stochastic trajectories.\n\nInstead, in our method, CAM, we leverage the adjoint method to propagate terminal improvement backward through a single trajectory, turning the final objective into structured credit for which discrete moves should change.\n\nCAM will be presented at ICML 2026: Wed Jul 8, 10:30 AM–12:15 PM KST, Hall A #3711.",
+"likeCount": 15,
 "retweetCount": 1,
-"url": "https://x.com/YongxinChen1/status/2074681292084367731",
-"createdAt": "Wed Jul 08 02:25:40 +0000 2026"
+"url": "https://x.com/TarunSures41845/status/2074224161267064988",
+"createdAt": "Mon Jul 06 20:09:11 +0000 2026"
+},
+{
+"userName": "opener_ai",
+"text": "I heard @ImagineArt_X has been around for 1.5 years now. Generative AI for images and videos has only been booming for about 3 years, so you guys have been a huge part of that journey for more than half its history. Huge congrats! \n\nI recently tried out the new Fashion Studio feature, and I was honestly blown away by how consistently well the outfits were rendered. \n\n#imagineart #fashionstudio",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/opener_ai/status/2073925137527894053",
+"createdAt": "Mon Jul 06 00:20:59 +0000 2026"
+},
+{
+"userName": "jadenqzhang",
+"text": "Heading to Seoul for ICML!\n\nI’m at @Designarena and tinkering with\n• RLHF and preference modeling\n• What it means to benchmark taste\n• Machine/LLM forecasting\n• Multimodal generation evals (web design, image, video, audio)\n\nLet’s meet up if you’ll be in Seoul! DM me - I’m always down to have a good conversation",
+"likeCount": 33,
+"retweetCount": 1,
+"url": "https://x.com/jadenqzhang/status/2073844236517331064",
+"createdAt": "Sun Jul 05 18:59:30 +0000 2026"
+},
+{
+"userName": "acquiredotcom",
+"text": "🔥 New Startup Listed 🔥 AI | AI Virtual Try-On &amp; Model Generation for Fashion — $206K TTM, 100+ Customers | $206.8k TTM revenue\n\nAsking Price: $449.3k\nContact the seller here: https://t.co/JBZODa5GuH https://t.co/sR5AzMTFg3",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/acquiredotcom/status/2073925902191178177",
+"createdAt": "Mon Jul 06 00:24:01 +0000 2026"
+},
+{
+"userName": "iamgeographic",
+"text": "You know who I’ve never heard complain about generative AI? Fashion/super models…\n\nWhich is interesting because now you can just generate them.\n\nProof they have aura and confidence in their craft.",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/iamgeographic/status/2074457617531859197",
+"createdAt": "Tue Jul 07 11:36:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MosiAI_Official: 🤗 MOSS-Transcribe-Diarize-0.9B is now open source on @huggingface.\n\nBuilt with an end-to-end audio-to-structured-trans…",
-"likeCount": 561,
-"retweetCount": 92,
-"url": "https://x.com/ClementDelangue/status/2075194105991135641",
-"createdAt": "Thu Jul 09 12:23:24 +0000 2026"
+"text": "RT @ylecun: @KenRoth The biggest risk of AI is the concentration of power in a few dominant providers of proprietary AI assistants. \nThe on…",
+"likeCount": 3026,
+"retweetCount": 452,
+"url": "https://x.com/ClementDelangue/status/2075384883774476647",
+"createdAt": "Fri Jul 10 01:01:29 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pollenrobotics: One year ago today, we introduced Reachy Mini to the world.\n\nDespite the bumps along the way, you welcomed it, built wi…",
-"likeCount": 122,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2075195648832417850",
-"createdAt": "Thu Jul 09 12:29:32 +0000 2026"
+"text": "RT @ivan_bezdomny: Glad to share what I've been building in public. A lightweight AI news feed.\n\nWe also finetuned a model to write new sto…",
+"likeCount": 50,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2075609545682960498",
+"createdAt": "Fri Jul 10 15:54:13 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "The same way, we're probably one of the few AI startups with user network effects, we might become the first one with agent network effects!",
-"likeCount": 103,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2075670760614474085",
-"createdAt": "Fri Jul 10 19:57:28 +0000 2026"
+"text": "RT @kchonyc: a hot tip for @GoogleDeepMind : open source gemini 3.5 pro and become the most beloved tech co overnight.",
+"likeCount": 675,
+"retweetCount": 26,
+"url": "https://x.com/ClementDelangue/status/2075473646299099277",
+"createdAt": "Fri Jul 10 06:54:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechCrunch: Hugging Face’s CEO on why companies are done renting their AI https://t.co/ZjaKz61Iee",
-"likeCount": 45,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2075671986324324551",
-"createdAt": "Fri Jul 10 20:02:20 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/KBvvZvQO9v",
-"likeCount": 41,
-"retweetCount": 13,
-"url": "https://x.com/apob_ai/status/2075128537359774183",
-"createdAt": "Thu Jul 09 08:02:51 +0000 2026"
+"text": "RT @APompliano: We need open source, American AI models to become the default as quickly as possible.",
+"likeCount": 447,
+"retweetCount": 32,
+"url": "https://x.com/ClementDelangue/status/2075708635695439879",
+"createdAt": "Fri Jul 10 22:27:58 +0000 2026"
 }
 ]
