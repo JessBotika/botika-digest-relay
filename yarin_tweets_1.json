@@ -8,99 +8,75 @@
 "createdAt": "Tue Jul 07 23:07:01 +0000 2026"
 },
 {
-"userName": "monicaa_AI",
-"text": "Most people are still doing in hours what these 16 AI tools now do in minutes🤯\n\n1. https://t.co/xDth3jgwfu → AI image, video & music generation\n2. https://t.co/yzCPJHhu6u → AI video and content tools for e-commerce\n3. https://t.co/4a342XoiYc → AI video and 3D generation\n4. https://t.co/7mZHXJei1C → AI video editing & generation\n5. https://t.co/rWbU1BbpVR → all-in-one AI assistant (chat, PDF, image, video)\n6. https://t.co/PGSBWsZb9v → AI video creation with character consistency\n7. https://t.co/DTa2ste2yx → AI image upscaling & enhancement\n8. https://t.co/i57AxmISLQ → text-to-video generation\n9. https://t.co/Thde7YQy3G → AI research & productivity workspace\n10. https://t.co/YvBQ2tpEfn → AI research paper search & summaries\n11. https://t.co/jk8F3yfXkY → AI photo & video enhancement\n12. https://t.co/CHpU4IYH0G → AI diagnostics for digital pathology\n13. https://t.co/9j84uJstQp → AI workspace for team reports & slides\n14. https://t.co/nyOX6zmPtL → multi-model AI content creation platform\n15. https://t.co/iPBLkAFM4l → AI video style transfer & editing\n16. https://t.co/FYMjpdtB1t → real-time AI world model for video\n\nSave this list🔖. The day you actually need one of these, you won't have time to go searching for it.",
-"likeCount": 42,
-"retweetCount": 29,
-"url": "https://x.com/monicaa_AI/status/2075807173410742658",
-"createdAt": "Sat Jul 11 04:59:31 +0000 2026"
-},
-{
-"userName": "volokuleshov",
-"text": "New blog post: How to Build a Diffusion Language Model.\n\nDiffusion LLMs went from open problem to reality in 2 years (Mercury, Gemma Diffusion, Nemotron Diffusion). With my Cornell group, we wrote up the research advances that make them work.\n\nWe use today's OSS large diffusion models as examples and show how they're built from core techniques: \n• masked diffusion (MDLM) \n• iterative refinement (UDLM, ReMDM) \n• variable-length generation (block diffusion, encoder-decoder architectures) \n• controllable generation (D-CFG, D-CBG) \n• fast samplers (Duo)\n• RL post-training (d1, d2)\n\nThis post covers research led by a talented group of Cornell PhD students including @mariannearr @SchiffYair @Guanghan__Wang \n\nThe content is adapted from talks I gave this year on dLLMs. It covers most of the main ingredients behind open-source diffusion language models today.\n\nLink: https://t.co/lpu3BCLwiE",
-"likeCount": 1467,
-"retweetCount": 197,
-"url": "https://x.com/volokuleshov/status/2074778055797850275",
-"createdAt": "Wed Jul 08 08:50:10 +0000 2026"
-},
-{
-"userName": "bmx_ai13",
-"text": "Created with Fashion Studio on @ImagineArt_X  this 15 second fashion film brings modern styling into a richly detailed heritage interior.\n\nWarm amber lighting, dark wood textures, a statement jacket, relaxed denim and controlled cinematic movement create an editorial atmosphere that feels intimate, refined and campaign ready.\n\nFrom composed wide shots to expressive close up portraits, every frame is designed to highlight texture, presence and character.\n\nFashion Studio goes beyond AI image generation transforming a simple concept into complete fashion direction, visual branding, and cinematic campaign storytelling.",
-"likeCount": 23,
+"userName": "JohnnyWang8802",
+"text": "Been pushing Midjourney V8.2 for a few days now, and honestly, the sheer level of detail is just next level. 💯\n\nTake a look at this fresh fashion set. The macro fidelity on the knit sweater and the precision of that intricate embroidery—the texture reproduction is mind-blowing. What impresses me the most is how perfectly the character's style and texture hold up across different angles.\n\nIt feels so tangible, like you could practically reach out and touch the fabric. Generative AI is shifting from just creating visuals to mastering pure aesthetic expression. ✨",
+"likeCount": 13,
 "retweetCount": 1,
-"url": "https://x.com/bmx_ai13/status/2075797479652565017",
-"createdAt": "Sat Jul 11 04:21:00 +0000 2026"
+"url": "https://x.com/JohnnyWang8802/status/2075706242211938469",
+"createdAt": "Fri Jul 10 22:18:27 +0000 2026"
 },
 {
-"userName": "matthewh6_",
-"text": "RL can't teach an LLM to solve problems it never solves. Robot policies suffer from exactly the same limitation.\n\nThe fix turned out to be almost embarrassingly simple: train the policy with diffusion noise during pre-training.\n\nThat's it.\n\nThe policy covers a much wider action distribution, RL finally has somewhere to search, and we fine-tune VLAs on real robots in under an hour.\n\nIntroducing TMRL.\n\n🧵(1/9)",
-"likeCount": 266,
-"retweetCount": 42,
-"url": "https://x.com/matthewh6_/status/2075276908309471477",
-"createdAt": "Thu Jul 09 17:52:26 +0000 2026"
+"userName": "polishalexman",
+"text": "Okay after some research I am convinced this is the case of an artist who *can* draw using AI to generate drawings out of their league. A big fucking shame.\n\nAnd no. GenAI image detectors ARE reasonably accurate. Do not confuse them for the LLM text detectors which suck. https://t.co/EW5F7OP2CU",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/polishalexman/status/2075662802480443892",
+"createdAt": "Fri Jul 10 19:25:50 +0000 2026"
 },
 {
-"userName": "che_shr_cat",
-"text": "3/\nIn Masked Diffusion Models, the model uses bidirectional attention to predict masked tokens. \n\nDuring RL, standard methods try to optimize across O(N!) possible denoising paths. This makes sequence likelihoods mathematically intractable and training incredibly noisy. https://t.co/RQ5HX3yCvL",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/che_shr_cat/status/2074188708564045989",
-"createdAt": "Mon Jul 06 17:48:19 +0000 2026"
-},
-{
-"userName": "matthewh6_",
-"text": "This leads to two simple ideas:\n\nContext-Smoothed Pre-training (CSP): train the policy on every level of diffusion noise, from the conditional (BC) to the marginal.\n\nTimestep-Modulated RL (TMRL): During RL, a high-level actor selects the noise level added to the context per step.\n\n(5/9)",
-"likeCount": 3,
-"retweetCount": 1,
-"url": "https://x.com/matthewh6_/status/2075277802933453272",
-"createdAt": "Thu Jul 09 17:55:59 +0000 2026"
+"userName": "servo97",
+"text": "Henlo Frens, \nI'll be presenting OGPO at #ICML2026 tomorrow (9 July) \nTime ⏰: 2:30 to 4:15 PM KST\nLocation 📍: Hall A,  Poster #202\n\nFeel free to stop by for a chat on RL-finetuning, diffusion/flow policies, dexterous manipulation, or existential philosophy! ⛵️\n\nhttps://t.co/iU54WPYQMx",
+"likeCount": 30,
+"retweetCount": 2,
+"url": "https://x.com/servo97/status/2074757359931687113",
+"createdAt": "Wed Jul 08 07:27:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @ting_: 🤗 we just opensourced our tiny beast on @huggingface\n\n&gt;0.9B ASR model \n&gt;Apache license 2.0 \n&gt;128k long-context transcription \n&gt;U…",
-"likeCount": 168,
+"likeCount": 170,
 "retweetCount": 21,
 "url": "https://x.com/ClementDelangue/status/2075194062085279907",
 "createdAt": "Thu Jul 09 12:23:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MosiAI_Official: 🤗 MOSS-Transcribe-Diarize-0.9B is now open source on @huggingface.\n\nBuilt with an end-to-end audio-to-structured-trans…",
-"likeCount": 562,
-"retweetCount": 92,
-"url": "https://x.com/ClementDelangue/status/2075194105991135641",
-"createdAt": "Thu Jul 09 12:23:24 +0000 2026"
+"text": "RT @so_sthbryan: NVIDIA just shipped a 30B audio model that does everything.\n\nNemotron Audex 30B-A3B handles:\n- Audio understanding, ASR, t…",
+"likeCount": 577,
+"retweetCount": 77,
+"url": "https://x.com/ClementDelangue/status/2076392419721900441",
+"createdAt": "Sun Jul 12 19:45:05 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pollenrobotics: One year ago today, we introduced Reachy Mini to the world.\n\nDespite the bumps along the way, you welcomed it, built wi…",
-"likeCount": 123,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2075195648832417850",
-"createdAt": "Thu Jul 09 12:29:32 +0000 2026"
+"text": "RT @ivan_bezdomny: Glad to share what I've been building in public. A lightweight AI news feed.\n\nWe also finetuned a model to write new sto…",
+"likeCount": 61,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2075609545682960498",
+"createdAt": "Fri Jul 10 15:54:13 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "The same way, we're probably one of the few AI startups with user network effects, we might become the first one with agent network effects!",
-"likeCount": 197,
-"retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2075670760614474085",
-"createdAt": "Fri Jul 10 19:57:28 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @omarsar0: I don't think Anthropic realizes how disruptive these changes are to users. I appreciate the extension, but please stop playi…",
+"likeCount": 4982,
+"retweetCount": 148,
+"url": "https://x.com/jeremyphoward/status/2076428088288952581",
+"createdAt": "Sun Jul 12 22:06:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "Meta: is the release of huggingnews make it to huggingnews?",
-"likeCount": 39,
+"likeCount": 45,
 "retweetCount": 4,
 "url": "https://x.com/ClementDelangue/status/2075609148415197337",
 "createdAt": "Fri Jul 10 15:52:38 +0000 2026"
 },
 {
-"userName": "mikitamikado007",
-"text": "https://t.co/X0ZgDEqmVz",
-"likeCount": 2,
-"retweetCount": 1,
-"url": "https://x.com/mikitamikado007/status/2075971104124907694",
-"createdAt": "Sat Jul 11 15:50:55 +0000 2026"
+"userName": "yaboilyrical",
+"text": "https://t.co/WlGE88er8I",
+"likeCount": 74,
+"retweetCount": 3,
+"url": "https://x.com/yaboilyrical/status/2076031752083030272",
+"createdAt": "Sat Jul 11 19:51:55 +0000 2026"
 }
 ]
