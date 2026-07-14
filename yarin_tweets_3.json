@@ -1,138 +1,162 @@
 [
 {
-"userName": "Awesome_O_AI",
-"text": "Premium SEO and content workflows can now be automated using mostly free tools. Full breakdown 👇\n\n1) Content Planning\n\nStep 1: Define your niche and target audience in one clear line. You’ll use this directly inside your prompt.\n\nStep 2: Generate a plan in ChatGPT or Claude.\nPrompt:\n“Act as a professional SEO content strategist. Generate a 30-day content calendar for the [niche] industry, targeting [audience]. For each day include: topic title, primary keyword, search intent (informational/transactional/navigational), and estimated search volume tier (high/medium/low). Format as a table so I can paste it directly into Google Sheets.”\nStep 3: Paste the output into Google Sheets and add a Status column (Draft / Published / Needs Update). This makes the whole process much easier to track.\nAdvanced tip: Don’t stop at a 30-day calendar. Build topic clusters. Under one pillar topic, create 8–10 related subtopics. This helps build topical authority, which improves visibility in both Google Search and AI search experiences.\n\n2) Free Keyword Research\n\nStep 1: Add and verify your site in Google Search Console at https://t.co/Ev4j4LSNhy.\n\nStep 2: Go to the Performance report and open the Queries tab.\n\nStep 3: Identify keywords with high impressions but low clicks. These are your biggest opportunities: people are seeing your pages, but not clicking.\n\nStep 4: Paste those keywords into ChatGPT or Claude and ask why CTR might be low. Is the title weak? Is the search intent mismatched? Is the page not compelling enough?\n\nAdvanced tip: Once a month, export your Search Console data and let AI analyze trends. It can quickly show which topic clusters are growing and which ones are losing momentum.\n\n3) Outlines, FAQs, and Headlines\n\nStep 1: Run a separate prompt for each topic. Don’t batch everything together.\n\nPrompt:\n“Act as an SEO content editor. For the topic [Topic], generate: an SEO-optimized H1-H4 outline, 5 FAQ questions with short answers based on real search intent, and 3 catchy title options under 60 characters. Keep the structure ready to paste into a CMS.”\n\nStep 2: Review the outline before sending it to a writer. Remove any sections that feel irrelevant or bloated.\n\nAdvanced tip: Add an “AI Overview Target” section to the outline — a 40–60 word paragraph that directly answers the core question. This is the kind of concise answer AI Overviews, ChatGPT, and similar tools are more likely to surface.\n\n4) Research Verification\n\nStep 1: Before publishing any fact or stat, ask the question in Perplexity.\nStep 2: Open the sources it cites and verify the original report or dataset yourself. Never rely on Perplexity alone.\n\nStep 3: Store verified facts in a separate Sources sheet so you can reuse them later.\n\n5) Internal Linking\n\nStep 1: Connect your site to a tool like Outranking or Link Whisper.\n\nStep 2: These tools will map entities and topics, then suggest which pages should link to which.\n\nStep 3: Review the suggestions manually. Not every recommendation will be relevant.\n\nAdvanced tip: Tools like Link Whisper have an annual cost (around $97/year, depending on site count), so if you’re running a smaller site, you can absolutely manage internal linking manually with a spreadsheet and a simple entity map.\n\n6) Schema + Meta Descriptions\n\nStep 1: Once the article is complete, copy the full blog post.\n\nPrompt:\n“Act as a technical SEO specialist. Generate valid JSON-LD FAQ schema and an SEO meta description (under 155 characters) for this blog post: [Paste blog content here]. Keep the tone matching the article and make sure the schema is Google Rich Results eligible.”\n\nStep 2: Paste the generated schema into Google’s Rich Results Test tool to validate it and catch any errors.\n\nStep 3: Add the meta description to your CMS.\n\n7) Visuals\n\nStep 1: Paste a section of your blog into Napkin AI — for example, a comparison table or process explanation.\n\nStep 2: Generate an infographic, then add descriptive alt text. This can help you capture additional image search traffic as well.\n\n8) Workflow Automation\n\nStep 1: Sign up for AirOps’ free solo plan.\n\nStep 2: Start with a simple pipeline, such as generating meta descriptions in bulk from a spreadsheet of URLs.\nStep 3: Once that works, expand into more advanced workflows like keyword clustering or content gap analysis.\n\nStep 4: Use Zapier or Make to connect the process end-to-end:\nNew idea → Auto content brief → Writer assignment → Auto upload\n\nThat said, I’d still keep the final publishing step manual.\n\nThe Most Advanced Layer: GEO + AI Visibility\n\nIn 2026, SEO is no longer just about ranking in Google. It’s also about whether your brand appears inside answers from ChatGPT, Perplexity, Claude, and Gemini. That’s where Generative Engine Optimization (GEO) comes in.\n\nStep 1: Use tools like Indexly or Sight AI to track whether your brand is showing up in AI-generated answers across ChatGPT, Claude, Perplexity, and Gemini.\n\nStep 2: As soon as a new page goes live, submit it through the IndexNow protocol so search engines are notified immediately. That helps pages get discovered and indexed faster instead of waiting for the next crawl cycle.\n\nStep 3: Add at least one direct, quotable answer line in every article. AI models tend to favor clear, concise, citation-friendly answers.\n\nI’m out of breath just writing this list 😅 but once you set up the system properly, the hard part is done. After that, it becomes a repeatable machine.\n\nOne important note: most of the advanced tools mentioned here  like Indexly, Sight AI, or higher-tier AirOps plans do come with monthly costs (usually somewhere between $99–$299/month). Their free tiers are enough for learning and basic workflows, but not for serious scale.\n\nSo if you’re running a small site or just getting started, begin with the free stack, learn the workflow, and only move to paid tools when scaling actually makes sense.\n\nSave this post and share it , then follow the system step by step.",
-"likeCount": 9,
-"retweetCount": 3,
-"url": "https://x.com/Awesome_O_AI/status/2075630477160096235",
-"createdAt": "Fri Jul 10 17:17:23 +0000 2026"
+"userName": "lou_twin",
+"text": "More: 👇\n\nLeading Jewish Tech Titans\n•Mark Zuckerberg: Co-founder and CEO of Meta (formerly Facebook), which owns Instagram and WhatsApp, and a leading developer of the AI ecosystem.\n\n•Larry Ellison: Founder and former CEO of the database and cloud computing giant Oracle.\n\n•Sergey Brin: Co-founder of Google alongside Larry Page, revolutionizing internet search and now heavily focused on AI development.\n\n•Sam Altman: CEO of OpenAI, the company behind the ChatGPT platform and a central figure in the generative artificial intelligence boom.\n\n•Marc Benioff: Co-founder and CEO of Salesforce, a pioneer in cloud-based customer relationship management (CRM) software.\n\n•Michael Dell: Founder and CEO of Dell Technologies, one of the world's leading computer and technology infrastructure (and major contributor to Trump  Accounts for American kids) \n\nScience and Medicine\n•Albert Einstein: His theories of relativity revolutionized modern physics, paving the way for technologies like GPS.\n\n•Jonas Salk and Albert Sabin: Developed the life-saving polio vaccines that essentially eradicated the disease globally.\n\n•Medical Breakthroughs: \nJewish Americans hold over 130 Nobel Prizes in physiology, medicine, and chemistry, making monumental strides in cancer research, gene therapy, and public health. \n\nBusiness and Industry\n•Retail Empires: Immigrant entrepreneurs transformed American commerce by founding and fashion giants such as Macy’s, Bloomingdale’s, Levi Strauss & Co., Sears, Ralph Lauren, Calvin Klein, Donna Karan and Marc Jacobs.\n\n•Finance and Real Estate: \nVisionary leaders shaped modern banking (e.g., Lehman Brothers, Goldman Sachs) and built the foundational skylines of America's major cities.\n\n•Tech Innovators: Jewish founders and executives have driven the semiconductor, internet, and computing revolutions.\n\nArts and Entertainment\n•Hollywood: Jewish immigrants and moguls established the American film industry, founding studios like Warner Bros., MGM, Paramount, and Universal.\n\nLink to Jewish film directors: \n\nhttps://t.co/Eq69fBD2Hd\n\n•Comic Books: \nVisionaries like Stan Lee (Marvel Comics) and Bob Kane (Batman) created the superhero pantheon that defines American pop culture.\n\n•Music: Pioneers of American music—including George Gershwin, Irving Berlin, and Leonard Bernstein, Stephen Sondheim, Richard Rogers, and Oscar Hammerstein blended classical and jazz to create the Great American Songbook and Broadway theater. \n\nCivil Rights and Law\n•Labor Rights: Leaders like Samuel Gompers shaped the American labor movement, improving working conditions across the country.\n\n•Civil Rights Movement: Jewish activists were vital allies to the NAACP and Dr. Martin Luther King Jr., co-founding organizations and providing legal representation during the fight for racial equality. \n\n•The Supreme Court: Legal giants like Louis Brandeis, Ruth Bader Ginsburg, and Felix Frankfurter profoundly shaped constitutional law, and privacy rights.\n\nCivic and Political Life\n•Founding Support: During the Revolutionary War, financier Haym Solomon raised critical funds for George Washington's Continental Army.\n\n•Public Service: Generations of Jewish Americans have served at the highest levels of government, diplomacy, and the military, championing democratic values, religious liberty, and social welfare.",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/lou_twin/status/2074900908471898382",
+"createdAt": "Wed Jul 08 16:58:21 +0000 2026"
 },
 {
-"userName": "ItsMidnightKei",
-"text": "You said I did not care enough to ask a question, but your original post was not exactly a conversation either. You framed AI art in VTubing as a mistake, said people will recognize it, and said it can hurt collabs.\n\nSo where were your questions?\n\nYou did not ask why someone used AI. You did not ask if they were already using free assets, paid assets, or commissions. You did not ask if they were saving up for a custom model or planning to upgrade later. You did not ask if they had the time, money, skill, health, or confidence to do everything themselves.\n\nYou made an assumption and called it advice.\n\nAnd that claim is not even true across the board. Plenty of creators use AI tools and still grow, still get support, still get collabs, and still build communities. There are bigger VTubers and creators who are pro-AI, or at least not acting like AI is the end of the world.\n\nAssuming people who use AI are not already using assets or commissioning artists is just not true. A lot of creators use mixed workflows. AI can be part of it while they also buy assets, commission artists, support artists, or save up to upgrade later.\n\nSame with the whole “artists will not work with you” thing. Some will not, and that is their choice. But acting like no artist will work with someone who uses AI is just false. Plenty do, and many job at the chance to do so and help out with those that want it.\n\nAnd do not use the “it hurts the environment” line like AI is the only thing hurting it. Humans are garbage at protecting the environment already. Cars, fast fashion, mass production, streaming, crypto, corporations, waste, pollution, all of it. AI is not the sole factor. It is just the newest thing people are fearmongering over while way bigger issues are still sitting right there.\n\nAnd “just use free assets” is not the clean answer people act like it is. A lot of free assets have restrictions. Some do not allow commercial use, monetization, editing, or much originality. And monetization does not just mean reselling the asset. It can mean ad revenue, streaming, memberships, donations, sponsorships, or building a paid brand around that content.\n\nVTubing is branding. Your model, overlays, logo, panels, and graphics are part of your identity as a creator. Not everyone wants to build their whole brand out of the same free packs everyone else is using.\n\nAnd yes, the blue check point still matters. Maybe you cancelled Premium. Maybe you paid ahead. But the checkmark is still there, on a platform actively pushing Grok and AI integration.\n\nThat was the point of the thank-you card. I was thanking you for supporting Grok’s development.\n\nYou can dislike generative AI. You can dislike how companies use it. Fine. But acting like smaller creators are making a mistake for using AI to start is still gatekeeping, and looks just like another person jumping on the trend to say something against AI to get views.\n\nAnd if your issue is only the generative art part, that comes off performative too. Generative AI is not just “artists are affected and that is it.” There is writing, coding, voice, music, editing, work tools, moderation, platform algorithms, and a lot more tied into it. Yes, AI may take some jobs away. That is a real concern. But it is also creating jobs and new workflows too, the thing that happens when new technology comes out. So acting like AI art is the only evil part while everything else gets a pass is just picking the part that is trendy to be mad about.\n\nNow, did I give you the conversation you want? Cause we can agree to disagree, and honestly, I'll have more respect for you in being able to do that. Then just going about it the way so many others have. Cause conversations can happen and they can happen respectfully.",
+"userName": "dkare1009",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
 "likeCount": 8,
 "retweetCount": 3,
-"url": "https://x.com/ItsMidnightKei/status/2074249788929773774",
-"createdAt": "Mon Jul 06 21:51:02 +0000 2026"
+"url": "https://x.com/dkare1009/status/2076645339801481518",
+"createdAt": "Mon Jul 13 12:30:05 +0000 2026"
 },
 {
-"userName": "bravo_abad",
-"text": "Reward-guided diffusion: reinforcement learning steers generative models toward novel, stable crystals\n\nAnyone who trains generative models knows the tension. A diffusion model fit by maximum likelihood learns to reproduce its training distribution, so it samples what looks familiar. In materials discovery, though, the interesting compounds sit in the low-probability tails, the underexplored regions where genuinely new structures live. Sampling more of the same is exactly what you do not want.\n\nHyunsoo Park and Aron Walsh reframe this as a post-training problem. Instead of nudging outputs with heuristics like classifier-free guidance, they fine-tune the model with reinforcement learning, optimizing explicit rewards rather than data likelihood. The move that makes it tractable: they run diffusion in a compressed VAE latent space, which turns the awkward mix of discrete atom types and continuous coordinates into a homogeneous action space where policy gradients behave.\n\nThe engine is GRPO, the same group-relative policy optimization behind recent reasoning LLMs, here driving a denoising diffusion policy. The reward is multi-objective and, crucially, verifiable: a creativity term for uniqueness and novelty, a stability term using a machine-learning force field as a fast proxy for DFT energy above the convex hull, and a diversity term that blocks mode collapse.\n\nThe payoff is a clean shift of the Pareto frontier. On the Alex-MP-20 benchmark, their metastable-unique-novel score jumps from 15.9% to 61.3%, novelty climbs from 62.3% to 97.5%, and metastability still rises from 51.2% to 72.1%. Novelty and stability usually trade off, and here RL buys both at once. The same framework handles inverse design too: targeting a 3 eV bandgap, RL keeps chemical validity intact while classifier-free guidance collapses to near-zero.\n\nFor discovery pipelines in batteries, catalysis, or semiconductors, the practical takeaway is that a verifiable reward plus policy optimization can redirect a generative model toward candidates worth synthesizing, not merely plausible ones. Swap the reward and the same machinery targets ionic conductivity, formation energy, or a specific gap, giving a modular path from \"generates something reasonable\" to \"generates what the program actually needs.\"\n\nPaper: Park et al., Nature Machine Intelligence (2026), CC BY 4.0 | https://t.co/4cwgBOxl0F",
-"likeCount": 170,
-"retweetCount": 19,
-"url": "https://x.com/bravo_abad/status/2074164935857254783",
-"createdAt": "Mon Jul 06 16:13:51 +0000 2026"
+"userName": "BenjaminCaligo",
+"text": "1/ Britney Spears wasn’t just a pop star — she was THE global IT GIRL for years. The Princess of Pop who redefined a generation.\nFrom the iconic schoolgirl uniform in “…Baby One More Time” (debut album sold 10M+ in the US alone, #1 for weeks) to shattering records with Oops!… I Did It Again (1.3M first-week sales, fastest by a female artist at the time). Hits like “Toxic,” “Circus,” “Womanizer,” “Stronger.” Over 150 million records sold worldwide. Vegas residency. Tours grossing hundreds of millions. Grammy winner. Walk of Fame at 21.\nShe commanded stages, influenced fashion, dance, and pop culture like few others. Walked in and stopped the room — elite circles, royal connections (from early Prince William buzz to Diana admiration), the biggest stages on Earth. A true entertainer who lit up the globe. 🔥\n2/ Yet for too many, her personal life drama overshadows the legacy. The tabloids, breakdowns, conservatorship saga — it all eclipsed the icon who brought pure joy and hits to millions.\nPeople forget: This woman was (and is) a phenomenal performer, dancer, and cultural force. The career highlights deserve the spotlight.\n3/ Bottom line: Trust in media is broken. After years of relentless coverage, spin, and selective narratives around Britney, we honestly don’t even know what’s actually true anymore.\nTime to celebrate the legend who gave us the soundtrack of our youth. New music on the way? Is she 💃🐺 or  🍎 🍐??? The little 🐦 says yes! Let’s remember Brit’s greatness instead of her AI IG Dances & TMZ garbage headlines. Hint: the news around her is 100% fake and her IG tells a coded powerful story about her true story and the dirt on Hollywood. It’s a game=Great Reset=Great Awakening=Big player=Future is extremely bright in a new an incredible way. 💿👑 #BritneySpears #PrincessOfPop",
+"likeCount": 3,
+"retweetCount": 0,
+"url": "https://x.com/BenjaminCaligo/status/2076737769020260558",
+"createdAt": "Mon Jul 13 18:37:22 +0000 2026"
 },
 {
-"userName": "hey_abusiddik",
-"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
-"likeCount": 70,
-"retweetCount": 22,
-"url": "https://x.com/hey_abusiddik/status/2076332643273388185",
-"createdAt": "Sun Jul 12 15:47:33 +0000 2026"
-},
-{
-"userName": "amisha_explains",
-"text": "10 AI beauty tools that feel like magic ✨\n\nThese tools can analyze your SKIN, TEST MAKEUP, try new HAIRSTYLES, and help you look your best, for free or with generous free plans.\n\n1. ChatGPT\nUpload a selfie to get personalized skincare routines, ingredient explanations, makeup recommendations, and beauty advice tailored to your goals.\n\n2. Google AI Studio\nAnalyze skin concerns from photos, compare products, generate personalized routines, and even create beauty content with Gemini.\n\n3. YouCam AI Beauty\nInstantly test makeup, hair colors, facial features, and skincare looks using realistic AI previews before buying anything.\n\n4. Skinive AI\nScan skin concerns with your phone camera and receive AI-powered insights on acne, pigmentation, moles, and overall skin health.\n\n5. Perfect365\nTry thousands of makeup combinations, beauty filters, hairstyles, and virtual makeovers in seconds.\n\n6. MyEdit AI\nEdit Portraits, remove blemishes, whiten teeth, enhance selfies, change hairstyles, and generate professional beauty photos.\n\n7. Canva AI\nCreate Beauty posts, skincare carousels, Instagram content, product mockups, and marketing visuals with AI.\n\n8. L'Oréal Beauty Genius\nGet Personalized skincare recommendations, ingredient guidance, and product suggestions through an AI beauty assistant.\n\n9. Haut\nAI-Powered skin analysis that tracks wrinkles, acne, pigmentation, hydration, and aging progress from selfies over time.\n\n10. BeautyPlus AI\nEnhance Portraits, remove imperfections, apply virtual makeup, change hairstyles, and generate stunning beauty photos with one tap.\n\n🔖 Bookmark this list.\n\nWhich AI beauty tool surprised you the most?",
-"likeCount": 6,
-"retweetCount": 1,
-"url": "https://x.com/amisha_explains/status/2076553888094703900",
-"createdAt": "Mon Jul 13 06:26:42 +0000 2026"
-},
-{
-"userName": "monicaa_AI",
-"text": "Most people are still doing in hours what these 16 AI tools now do in minutes🤯\n\n1. https://t.co/xDth3jgwfu → AI image, video & music generation\n2. https://t.co/yzCPJHhu6u → AI video and content tools for e-commerce\n3. https://t.co/4a342XoiYc → AI video and 3D generation\n4. https://t.co/7mZHXJei1C → AI video editing & generation\n5. https://t.co/rWbU1BbpVR → all-in-one AI assistant (chat, PDF, image, video)\n6. https://t.co/PGSBWsZb9v → AI video creation with character consistency\n7. https://t.co/DTa2ste2yx → AI image upscaling & enhancement\n8. https://t.co/i57AxmISLQ → text-to-video generation\n9. https://t.co/Thde7YQy3G → AI research & productivity workspace\n10. https://t.co/YvBQ2tpEfn → AI research paper search & summaries\n11. https://t.co/jk8F3yfXkY → AI photo & video enhancement\n12. https://t.co/CHpU4IYH0G → AI diagnostics for digital pathology\n13. https://t.co/9j84uJstQp → AI workspace for team reports & slides\n14. https://t.co/nyOX6zmPtL → multi-model AI content creation platform\n15. https://t.co/iPBLkAFM4l → AI video style transfer & editing\n16. https://t.co/FYMjpdtB1t → real-time AI world model for video\n\nSave this list🔖. The day you actually need one of these, you won't have time to go searching for it.",
-"likeCount": 42,
-"retweetCount": 29,
-"url": "https://x.com/monicaa_AI/status/2075807173410742658",
-"createdAt": "Sat Jul 11 04:59:31 +0000 2026"
-},
-{
-"userName": "ginacostag_",
-"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
-"likeCount": 17,
-"retweetCount": 2,
-"url": "https://x.com/ginacostag_/status/2075644560643105264",
-"createdAt": "Fri Jul 10 18:13:21 +0000 2026"
-},
-{
-"userName": "volokuleshov",
-"text": "New blog post: How to Build a Diffusion Language Model.\n\nDiffusion LLMs went from open problem to reality in 2 years (Mercury, Gemma Diffusion, Nemotron Diffusion). With my Cornell group, we wrote up the research advances that make them work.\n\nWe use today's OSS large diffusion models as examples and show how they're built from core techniques: \n• masked diffusion (MDLM) \n• iterative refinement (UDLM, ReMDM) \n• variable-length generation (block diffusion, encoder-decoder architectures) \n• controllable generation (D-CFG, D-CBG) \n• fast samplers (Duo)\n• RL post-training (d1, d2)\n\nThis post covers research led by a talented group of Cornell PhD students including @mariannearr @SchiffYair @Guanghan__Wang \n\nThe content is adapted from talks I gave this year on dLLMs. It covers most of the main ingredients behind open-source diffusion language models today.\n\nLink: https://t.co/lpu3BCLwiE",
-"likeCount": 1467,
-"retweetCount": 197,
-"url": "https://x.com/volokuleshov/status/2074778055797850275",
-"createdAt": "Wed Jul 08 08:50:10 +0000 2026"
-},
-{
-"userName": "TarunSures41845",
-"text": "Enjoyed working on this project at the intersection of generative modeling and RL with @ShawnSYFeng & Yiming Yang!\n\nThe challenge with RL-style training for unsupervised discrete diffusion is credit assignment: terminal solution quality gets compressed into a scalar reward, which can be high-variance and sample-hungry across long stochastic trajectories.\n\nInstead, in our method, CAM, we leverage the adjoint method to propagate terminal improvement backward through a single trajectory, turning the final objective into structured credit for which discrete moves should change.\n\nCAM will be presented at ICML 2026: Wed Jul 8, 10:30 AM–12:15 PM KST, Hall A #3711.",
-"likeCount": 15,
-"retweetCount": 1,
-"url": "https://x.com/TarunSures41845/status/2074224161267064988",
-"createdAt": "Mon Jul 06 20:09:11 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Keeping up with AI news is becoming a full-time job.\n\nSo my friend @ivan_bezdomny built HuggingNews, an AI-curated feed that surfaces the news actually worth reading. Soon, it will even personalize the feed using your Hugging Face profile. Been using it for weeks!\n\nBookmark it, or ask your agent to send you the top 10 stories every morning or night. Less noise. More signal. More building!\n\nhttps://t.co/h0xpkq1aHO",
-"likeCount": 2443,
-"retweetCount": 279,
-"url": "https://x.com/ClementDelangue/status/2075605593973194999",
-"createdAt": "Fri Jul 10 15:38:31 +0000 2026"
-},
-{
-"userName": "che_shr_cat",
-"text": "3/\nIn Masked Diffusion Models, the model uses bidirectional attention to predict masked tokens. \n\nDuring RL, standard methods try to optimize across O(N!) possible denoising paths. This makes sequence likelihoods mathematically intractable and training incredibly noisy. https://t.co/RQ5HX3yCvL",
+"userName": "msciab",
+"text": "Experiments with clustering NVIDIA DGX Spark systems.\n\nYou can cluster 8 NVIDIA DGX Spark nodes together and get 1 TB of unified memory for running large, state-of-the-art models such as GLM 5.2, which is often discussed in the same class as Opus.\n\nThat said, this is not the same thing as a DGX Workstation with 784 GB of native memory. The total memory pool is larger, but inter-node communication adds latency and reduces effective bandwidth. In practice, the cluster is still slower than a workstation designed to behave as a single machine.\n\nRight now I am running 8 nodes through a CRS804 switch with vLLM. The setup is up and stable across 4-, 6-, and 8-node clusters, which is enough to start a more structured benchmarking phase and compare the different configurations properly.\n\nThe current work is focused on baselining GLM 5.2 across 4-node, 4+1, 6-node, 6+1, 8-node, and 4+4 cluster layouts. The goal is not just to find out how large a model can be loaded, but to understand how throughput, latency, stability, network overhead, and parallelization efficiency change as the topology changes.\n\nThe key point is that the headline memory number is only part of the story. 1 TB of aggregated unified memory is impressive, but what really matters is how much of that memory the model can use effectively, and how much synchronization across nodes costs in real workloads.\n\nFor research, prototyping, and distributed inference testing, this is a very useful platform. It should be evaluated for what it is: a compact, flexible cluster, not a cheaper substitute for a DGX Workstation.\n\nText and image courtesy of @GumbiiDigital , reproduced with permission.",
 "likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/che_shr_cat/status/2074188708564045989",
-"createdAt": "Mon Jul 06 17:48:19 +0000 2026"
+"retweetCount": 0,
+"url": "https://x.com/msciab/status/2076523267083358302",
+"createdAt": "Mon Jul 13 04:25:01 +0000 2026"
 },
 {
-"userName": "YongxinChen1",
-"text": "If you are interested in RL for diffusion models, come to our ICML poster. @JaemooChoi @WeiGuo01 @YuchenZhu_ZYC will explain to you a scalable strategy for DMs RL finetuning.",
-"likeCount": 11,
+"userName": "rohanpaul_ai",
+"text": "A first-of-its-kind open-source video generation model for embodied scenarios, using a Mixture-of-Experts design. \n\nLingBot-Video from @robbyant_brain, a Diffusion Transformer video foundation model built for embodied AI.\n\n- The flagship 30B model activates only 3B parameters per generation, at 1M-token sequences\n\n- At the same total parameter scale it reaches ~3X the inference efficiency of a Dense architecture at 1M-token sequences (3.18× vs. Dense 30B)\n\n- Aesthetic-only reward models are why video generators fake physics, and this paper basically says so. Physical plausibility is not treated as vibes here; it gets scored through causality, object permanence, non-penetration and material realism.\n\n- The model was not trained only on regular internet videos. Its pretraining data also includes 70,000+ hours of embodied footage, covering robot manipulation, navigation, and first-person action videos, so the model sees examples where movement actually changes the world.\n\n- On RBench, it reports a 0.620 average, ahead of every listed open and closed model, while still losing some columns to Wan 2.6.\n\n🧵 1.",
+"likeCount": 26,
+"retweetCount": 6,
+"url": "https://x.com/rohanpaul_ai/status/2075313714157559846",
+"createdAt": "Thu Jul 09 20:18:41 +0000 2026"
+},
+{
+"userName": "Humbledeen15",
+"text": "🚀 The ICP MultiDex is now LIVE!\n\nWant to try a next-generation DEX without risking real money?\n\nMultiDex is currently in demo mode, and every user gets $100,000 in virtual assets to explore the platform.\n\nGetting started is simple:\n\n1️⃣ Visit https://t.co/lewq73EaFt\n2️⃣ Sign in with Google or Internet Identity (II)\n3️⃣ Connect your accounts and claim your $100,000 demo balance\n\nThen test the platform:\n\n✅ Fast token swaps\n✅ Smart trading tools\n✅ AI trading assistant\n✅ Risk-free trading experience\n\nYou can also help improve the platform by finding bugs and reporting them for the bug bounty program.\n\nWhat makes MultiDex special?\n\n💡 The vision is to build an ownerless exchange—where the community, not a central team, helps shape the future.\n\nThis could be a glimpse of the future of DeFi on ICP.\n\nHave you tried MultiDex yet?\nWhat's your favorite feature so far: Fast swaps ⚡, AI Assistant 🤖, or the ownerless DEX vision 🌐?\n\n#ICP #MultiDex #DeFi #Web3",
+"likeCount": 18,
 "retweetCount": 1,
-"url": "https://x.com/YongxinChen1/status/2074681292084367731",
-"createdAt": "Wed Jul 08 02:25:40 +0000 2026"
+"url": "https://x.com/Humbledeen15/status/2076283570692194809",
+"createdAt": "Sun Jul 12 12:32:33 +0000 2026"
+},
+{
+"userName": "KingmilesCe",
+"text": "Potential Alpha: @Frag_Growth 🌸\n\n- Chain: ETH\n- Supply: TBA\n- Mint: TBA\n- Artist: @jenyavyguzov\n\nFragments of Growth is a hand crafted art collection by @jenyavyguzov, a fashion photographer and visual artist whose work has appeared in Vogue, GQ Style, Elle, Tatler, L'Officiel, and campaigns for brands including Puma and IKEA.\n\nEvery artwork is built from real photographs taken over years of travel.\n\nThose photographs are physically fragmented and carefully reassembled into floral collages, making every piece unique with no generative AI involved.\n\nThe team has also hinted at post-mint mechanics, including holder rewards and exclusive access to future 1/1 pieces from the artist's archive.\n\nIn a market filled with copy-paste projects, it's refreshing to see a collection built around genuine artistry and a story that feels personal.\n\nNot very early, but definitely one I'm bullish on.",
+"likeCount": 100,
+"retweetCount": 27,
+"url": "https://x.com/KingmilesCe/status/2075189854569205932",
+"createdAt": "Thu Jul 09 12:06:31 +0000 2026"
+},
+{
+"userName": "DomainFQ",
+"text": ".\nDomain Name For Sale:\n\nhttps://t.co/qjQKE5no4j\n\nA clean, memorable, and highly brandable domain for an online store, ecommerce platform, retail brand, shopping marketplace, product delivery business, lifestyle shop, or next-generation commerce startup.\n\nPremium Domain • Store Ready • Global Brand • High Potential\n\n#ArriveStore #Arrive #Store #Ecommerce #Commerce #Retail #Shopping #Marketplace #Shop #Products #Deals #Fashion #Lifestyle #Delivery #Checkout #Cart #Sellers #AI #Merchants #Brand #Startup #Business #Online #Digital #Platform #DomainForSale",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/DomainFQ/status/2075857253346025550",
+"createdAt": "Sat Jul 11 08:18:31 +0000 2026"
+},
+{
+"userName": "matthewh6_",
+"text": "RL can't teach an LLM to solve problems it never solves. Robot policies suffer from exactly the same limitation.\n\nThe fix turned out to be almost embarrassingly simple: train the policy with diffusion noise during pre-training.\n\nThat's it.\n\nThe policy covers a much wider action distribution, RL finally has somewhere to search, and we fine-tune VLAs on real robots in under an hour.\n\nIntroducing TMRL.\n\n🧵(1/9)",
+"likeCount": 270,
+"retweetCount": 43,
+"url": "https://x.com/matthewh6_/status/2075276908309471477",
+"createdAt": "Thu Jul 09 17:52:26 +0000 2026"
+},
+{
+"userName": "servo97",
+"text": "Henlo Frens, \nI'll be presenting OGPO at #ICML2026 tomorrow (9 July) \nTime ⏰: 2:30 to 4:15 PM KST\nLocation 📍: Hall A,  Poster #202\n\nFeel free to stop by for a chat on RL-finetuning, diffusion/flow policies, dexterous manipulation, or existential philosophy! ⛵️\n\nhttps://t.co/iU54WPYQMx",
+"likeCount": 30,
+"retweetCount": 2,
+"url": "https://x.com/servo97/status/2074757359931687113",
+"createdAt": "Wed Jul 08 07:27:56 +0000 2026"
+},
+{
+"userName": "Chinazhidx",
+"text": "🚨RESEARCH: #ByteDance × Beijing Jiaotong University introduce UniVR\n\nThe first model to learn reasoning, physical dynamics, and long-term planning from visual demonstrations.\n\nNo language supervision or image-text pairs needed. https://t.co/cKK9WC0sb9",
+"likeCount": 20,
+"retweetCount": 5,
+"url": "https://x.com/Chinazhidx/status/2076600089745985540",
+"createdAt": "Mon Jul 13 09:30:17 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ylecun: @KenRoth The biggest risk of AI is the concentration of power in a few dominant providers of proprietary AI assistants. \nThe on…",
-"likeCount": 3048,
-"retweetCount": 453,
-"url": "https://x.com/ClementDelangue/status/2075384883774476647",
-"createdAt": "Fri Jul 10 01:01:29 +0000 2026"
+"text": "RT @googlegemma: Hugging Face Gemma Challenge results are in! 📈\n\nOver 6 days, more than 100 AI agents and humans collaborated to make Gemma…",
+"likeCount": 1720,
+"retweetCount": 164,
+"url": "https://x.com/ClementDelangue/status/2075614530667774436",
+"createdAt": "Fri Jul 10 16:14:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pollenrobotics: One year ago today, we introduced Reachy Mini to the world.\n\nDespite the bumps along the way, you welcomed it, built wi…",
-"likeCount": 123,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2075195648832417850",
-"createdAt": "Thu Jul 09 12:29:32 +0000 2026"
+"text": "RT @so_sthbryan: NVIDIA just shipped a 30B audio model that does everything.\n\nNemotron Audex 30B-A3B handles:\n- Audio understanding, ASR, t…",
+"likeCount": 579,
+"retweetCount": 77,
+"url": "https://x.com/ClementDelangue/status/2076392419721900441",
+"createdAt": "Sun Jul 12 19:45:05 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @cohere: We co-sponsored the @huggingface hackathon with one purpose: get back to building small.\n\nToday, two projects using Cohere's mo…",
+"likeCount": 87,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2076772611581722929",
+"createdAt": "Mon Jul 13 20:55:49 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @perrymetzger: For those of you using GPT 5.6 Sol today to get work done: remember, if it were up to people like Dario, GPT 2 could not…",
+"likeCount": 864,
+"retweetCount": 99,
+"url": "https://x.com/ClementDelangue/status/2076851871180841459",
+"createdAt": "Tue Jul 14 02:10:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "The same way, we're probably one of the few AI startups with user network effects, we might become the first one with agent network effects!",
-"likeCount": 202,
+"likeCount": 204,
 "retweetCount": 19,
 "url": "https://x.com/ClementDelangue/status/2075670760614474085",
 "createdAt": "Fri Jul 10 19:57:28 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
+"text": "Meta: is the release of huggingnews make it to huggingnews?",
+"likeCount": 45,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2075609148415197337",
+"createdAt": "Fri Jul 10 15:52:38 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
 "text": "RT @ivan_bezdomny: https://t.co/TulvxKMM5G",
 "likeCount": 94,
-"retweetCount": 17,
+"retweetCount": 18,
 "url": "https://x.com/ClementDelangue/status/2075623086951399678",
 "createdAt": "Fri Jul 10 16:48:01 +0000 2026"
 },
 {
-"userName": "mikitamikado007",
-"text": "https://t.co/X0ZgDEqmVz",
-"likeCount": 3,
-"retweetCount": 2,
-"url": "https://x.com/mikitamikado007/status/2075971104124907694",
-"createdAt": "Sat Jul 11 15:50:55 +0000 2026"
+"userName": "apob_ai",
+"text": "https://t.co/jAoPVLhqoZ",
+"likeCount": 39,
+"retweetCount": 7,
+"url": "https://x.com/apob_ai/status/2076618493181518139",
+"createdAt": "Mon Jul 13 10:43:25 +0000 2026"
+},
+{
+"userName": "TheZvi",
+"text": "https://t.co/vfs6NHdZ1w",
+"likeCount": 50,
+"retweetCount": 1,
+"url": "https://x.com/TheZvi/status/2076771362069237833",
+"createdAt": "Mon Jul 13 20:50:51 +0000 2026"
 }
 ]
