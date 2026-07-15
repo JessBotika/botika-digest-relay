@@ -1,155 +1,123 @@
 [
 {
-"userName": "fromzerotomill",
-"text": "this is how ai digital products are scaling to $10k/mo with slideshows.\n\nyou'll need to spend 4-6 hours on this on one day. after that you've got content for 2+ months without touching it again.\n\nthe format to copy is this: content, content, content, content, ad warmup, app push.\n\nthe idea is to make slideshow posts that feel like actual content, then only bring in the product shoutout near the end.\n\ninstead of posting obvious ads, the account posts stuff that looks like normal tiktok slideshow content.\n\nthe images on this post are an example.\n\nfind hundreds of lifestyle, travel, and interior-style visuals on pinterest and google.\n\nuse ai to generate dozens of similar captions that say the same thing in different ways. sneak the product into the content without making it look promotional. post across multiple tiktok accounts.\n\nthe workflow runs on three tools:\n\n> claude code.\n\n> socialclaw.\n\n> an image api. openai, gemini, or any other good image model.\n\nhere's how:\n\n- first hour is competitor research. if your product is a health 1 search \"health\" on tiktok and view every top post. screenshot all of them. keep notes on what they write in captions and text over slides.\n\n- hours two and three are reference collection. go to pinterest with those screenshots. find similar reference images. figure out what slide one should look like, what slide two should look like, and so on. download a few images for each slide type and name them slide_1_1.jpg so claude code can work with them later.\n\n- hour four is where ai takes over. not all pinterest photos can be reposted, so ask claude code to look at the images and use the openai image api to generate 100 variations of each with slight differences but the same vibe. five slide types times 100 variations gives you 500 images. start with less if you want.\n\n- hour five is caption generation and assembly. remember those competitor captions you saved? give them to claude and tell it \"here's how the captions for our posts should look\" and paste the list. claude code then comes up with slideshow angles, writes the slide-by-slide text, keeps the early slides content-first, and adds the product mention only in the later slides. claude can actually overlay text directly onto images using ffmpeg.\n\nthen ask claude to schedule two posts a day per account. socialclaw handles the upload, account management, scheduling, and publishing from there.\n\nthat's it. you're done. months of content, all scheduled.\n\nthe reason this works is that the strategy is insanely repetitive and the numbers game is in your favor.\n\nten accounts posting twice a day is 20 posts daily. 90% of posts land under 5,000 views, most staying under 300. but a few posts on each account hit 50k to 500k views, some crossing 1m. the format stays identical, just fresh variations of the same visual style. 0.1-2% of viewers actually visit the product page depending on your content quality. multiply that by 30 days across ten accounts and you get plenty of traffic.\n\nonce the workflow is set up, this runs like a system instead of random one-off posts.",
-"likeCount": 37,
-"retweetCount": 0,
-"url": "https://x.com/fromzerotomill/status/2076712006329974993",
-"createdAt": "Mon Jul 13 16:55:00 +0000 2026"
-},
-{
-"userName": "laetissima918",
-"text": "Not Everything is For Everyone, and that's a Good Thing\n\nThe AI good, AI bad debate.\nThe \"people don't read books anymore\" panic.\nThe \"Education isn't teaching practical skills\" outrage.\n\nThe ongoing discontent in these tangential spaces boil down to one core sentiment:\n\n\"This good thing, that undeniably is good for society, should be instilled in everyone.\"\n\nAnd, consequently,\n\n\"Because not everyone possesses, appreciates, or actively partakes this undeniably good thing for society, our civilization is in crisis.\"\n\nWe see this in the explosion of comments too frequently echoed: \n\"AI is essential for those who couldn't to finally create art!\"\n\"A post-literacy culture will create a dangerous bifurcation of literati vs the illiterate!\"\n\"Education is not preparing the next generation for jobs and survival!\"\n\nI particularly do not understand it when it is the anti-communist, freedom-loving, personal-responsibility touting conservatives that clutch their pearls and gasp in such like fashion.\n\nWe have gone from \"Of course everyone needs to go to college,\" realizing that that path doesn't work, promoting alternatives like entrepreneurship and trade skills, to now coming full circle again ---\n\n\"Of course everyone should A, B, C!\"\n\nBecause the thought, once more, since no lesson has been learned, is that an elevated civilization means everyone is intelligent, productive, resourceful, driven ... in THIS particular way, or else DOOM.\n\nI propose that an elevated civilization truly only  needs these basic elements:\n\n1.Accountability Culture.\n2.Desire to Strive for Personal Betterment.\n3. Looking Up to Godliness.\n\nFoster these, and the rest will take care of itself, in whatever form it will look like, in however it needs to look like.\n\nThat extra lift of limit on Grok Imagine?\nThe beautiful library of physical books?\nThat state-funded mandatory Home economics class?\n\nBells and Whistles.\n\nThe truth is, America is over-abundant -- everything can be obtained, to a degree of manner, for free, for cheap, and nigh on instantly.\n\nThe ones that are creating art, that are sitting brooding over dense great books, the ones that are solving problems... They've been doing it long before it was convenient.\n\nThe ones who haven't done so, will not even with a magic spoon.\n\nAnd those in between? They are doing their thing, in ways unconventional and unfamiliar. \n\nWe need to rein back on the obsession over Democratizing everything under the sun. Not everything is for everyone, and that is a good thing.",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/laetissima918/status/2075976088920924357",
-"createdAt": "Sat Jul 11 16:10:44 +0000 2026"
-},
-{
-"userName": "TeksEdge",
-"text": "🔥 New open-weight vision model unifies a fragmented computer-vision landscape.\n\n🎯 You now have one model to rule them all, or at least a shocking amount of it.\n\n👁️ SenseNova-Vision-7B-MoT uses one instruction-following model for tasks that traditionally require separate specialist systems:\n\n🤯 The breakthrough is breadth. 👉 Natural language selects the visual task, and one 7B-class model generates boxes, points, masks, depth maps, surface normals, or camera data through a shared interface.\n\n📦 Object detection and localization\n🔤 OCR and document understanding\n🎭 Semantic, referring and interactive segmentation\n📏 Depth estimation\n🧭 Surface-normal prediction\n🦴 Human and animal keypoints\n🖥️ GUI grounding\n🌐 Multi-view 3D reconstruction\n📷 Camera-pose estimation\n🎨 Image understanding and generation\n\n🧠 Instead of using a separate AI model or specialized component for each vision task, SenseNova handles them all through one system.  It can return results as:\n📝 Text, labels, coordinates, or bounding boxes\n🖼️ Images such as masks, depth maps, or surface maps\n🔀 A combination of text and visual outputs\n\n🏆 It delivers particularly strong results against other general-purpose vision models in object detection, dense-object localization, OCR localization, and keypoints.\n\n🔓 The code is Apache 2.0, but the released weights use CC BY-NC 4.0, meaning they are downloadable and modifiable for research and noncommercial use—not unrestricted commercial open source.\n\nThis may be an early glimpse of computer vision’s foundation-model moment: fewer disconnected tools, one programmable visual intelligence.",
-"likeCount": 17,
-"retweetCount": 0,
-"url": "https://x.com/TeksEdge/status/2076854467681833089",
-"createdAt": "Tue Jul 14 02:21:05 +0000 2026"
-},
-{
-"userName": "MaeNongB_TH",
-"text": "#TatlerAsia\n#TatlerLeadership #TatlerGenT #LeadersOfTomorrow \n#beckysangels\n#BeckyArmstrong‌\n#BeckyEntertainment\n\n[AI] \"Becky\" Rebecca Patricia Armstrong: A Driving Force in Contemporary Culture, Bringing Thai Soft Power to the Global Stage.\n\nA New Generation Powerhouse Bringing Thai Soft Power to the Global Stage\nThe success of Becky Armstrong is not measured by the number of followers she has, but by her ability to serve as a bridge that introduces the beauty and charm of Thailand to the world.\nRebecca Patricia Armstrong is one of Thailand's leading actresses to have made a significant impact on the international stage through the global Girls' Love (GL) phenomenon. She also made history as the first Thai to be included in the BoF 500, the fashion industry's prestigious list of the world's most influential figures.\nMost recently, she was named one of the three recipients of the Rising Star of the Year award at the 2026 Global OTT Awards in Busan for her portrayal of Nanno in the Thai fantasy thriller Girl from Nowhere: The Reset. Looking ahead, she is set to embark on a concert tour spanning more than ten countries next year, fulfilling her dream of becoming a full-fledged solo artist.\nHer growing influence as a representative of a new generation of Thai cultural ambassadors has earned her recognition as one of Tatler's Gen.T Leaders of Tomorrow 2026. Yet despite achieving milestones many aspire to, the 23-year-old defines success in remarkably simple terms:\n\"Success, for me, is waking up every day and getting to do what I love. Having passion, being happy, wanting to meet people, and being excited to try new things.\"",
-"likeCount": 64,
-"retweetCount": 46,
-"url": "https://x.com/MaeNongB_TH/status/2076693801310236818",
-"createdAt": "Mon Jul 13 15:42:39 +0000 2026"
-},
-{
-"userName": "DanKornas",
-"text": "Synthetic SFT data gets messy fast. This repo adds a graph.\n\nGraphGen is a framework for knowledge-graph-guided synthetic data generation for LLM training and evaluation.\n\nIt helps you turn source material into targeted QA and benchmark data by first building a fine-grained knowledge graph, finding model knowledge gaps with expected calibration error, then using multi-hop sampling and style-controlled generation.\n\nKey features:\n\n• Knowledge-graph-guided generation – constructs a fine-grained graph from source text before creating synthetic data\n• Gap-aware targeting – uses expected calibration error to identify LLM knowledge gaps and prioritize long-tail QA pairs\n• Multi-hop sampling – pulls relational context from graph neighborhoods for more complex examples\n• Flexible data support – supports files, databases/search sources, knowledge graphs, text/image modalities, and several output data types\n• Practical run paths – includes a Gradio demo, PyPI CLI, source setup, Docker path, and downstream finetuning notes\n\nIt’s open-source (Apache License 2.0 license).\n\nLink in the reply 👇",
+"userName": "madking2099",
+"text": "Okay, so I am NOT trying to force people to use AI, but apparently a LOT of people are either confused or didn't research what they are protesting.\n\nSo here is a 40,000 foot view summary of exactly WHAT AI is.\n\nWhat is AI?\nAt its core, Generative AI (GenAI) is fundamentally textual. These systems are large language models (LLMs) trained to understand and generate human-like text. They reason, write, code, summarize, and plan using language as their native medium.\n\nGrok (built by xAI): Truth-seeking, technically strong, and helpful with a touch of humor.\n\nChatGPT (OpenAI): Versatile all-rounder, great for creative writing, conversations, and general tasks.\n\nDeepSeek: Excels at technical work, math, and programming.\n\nGemini (Google): Strong multimodal capabilities and web-integrated knowledge.\n\nImage and Video Generation are not core GenAI functions. They are secondary specialized models (usually diffusion models) that take text output from a GenAI model as input. In practice, the main LLM acts like a smart director that writes detailed instructions, which are then handed off to image or video models to create visuals. This is often coordinated by AI Agents — systems that can break down complex tasks, use tools, and chain multiple models together.\n\nPrompting / PromptcraftThis is the art and skill of writing clear, detailed instructions (prompts) for the AI. Since GenAI is fundamentally a language-based system, the quality of your text prompt directly controls everything downstream — including any images, video, or actions that follow. Please note that GenAI is NOT needed for image generation.\n\nA weak prompt gets weak results. A well-crafted prompt (sometimes reading like a short story or precise technical specification) unlocks dramatically better output. Promptcraft is the key user skill that turns a basic tool into a powerful creative partner. This is actually much like authoring a novel, that is to say unique to the person and taken differently each time it is read.",
 "likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/DanKornas/status/2074506076242755937",
-"createdAt": "Tue Jul 07 14:49:25 +0000 2026"
+"retweetCount": 0,
+"url": "https://x.com/madking2099/status/2076818643237667154",
+"createdAt": "Mon Jul 13 23:58:44 +0000 2026"
 },
 {
-"userName": "sopersone",
-"text": "A paper worth knowing about if you're into quant trading and generative AI:\n\nTRADES: Generating Realistic Market Simulations with Diffusion Models\n\nAuthors: Berti, Prenkaj, Velardi (Sapienza University of Rome + TU Munich)\n\nWhat's inside:\n> A transformer-based diffusion model for generating orders in the Limit Order Book (LOB) - realistic simulation of the market order book\n> Two key metrics - realism (how close it is to real market behavior) and responsiveness (how the market reacts to an agent's actions)\n> Results: ×3.27 and ×3.48 improvement over SoTA on the predictive score across two stocks\n> DeepMarket - the first open-source Python framework for deep-learning-based LOB simulations\n> Comes with a synthetic LOB dataset generated by the model itself\n\nA step toward backtesting trading strategies and training RL agents on data that behaves like a real market instead of random noise.\n\nhttps://t.co/QGLOigO4cN",
-"likeCount": 111,
-"retweetCount": 15,
-"url": "https://x.com/sopersone/status/2074592782443037183",
-"createdAt": "Tue Jul 07 20:33:58 +0000 2026"
+"userName": "BenjaminCaligo",
+"text": "1/ Britney Spears wasn’t just a pop star — she was THE global IT GIRL for years. The Princess of Pop who redefined a generation.\nFrom the iconic schoolgirl uniform in “…Baby One More Time” (debut album sold 10M+ in the US alone, #1 for weeks) to shattering records with Oops!… I Did It Again (1.3M first-week sales, fastest by a female artist at the time). Hits like “Toxic,” “Circus,” “Womanizer,” “Stronger.” Over 150 million records sold worldwide. Vegas residency. Tours grossing hundreds of millions. Grammy winner. Walk of Fame at 21.\nShe commanded stages, influenced fashion, dance, and pop culture like few others. Walked in and stopped the room — elite circles, royal connections (from early Prince William buzz to Diana admiration), the biggest stages on Earth. A true entertainer who lit up the globe. 🔥\n2/ Yet for too many, her personal life drama overshadows the legacy. The tabloids, breakdowns, conservatorship saga — it all eclipsed the icon who brought pure joy and hits to millions.\nPeople forget: This woman was (and is) a phenomenal performer, dancer, and cultural force. The career highlights deserve the spotlight.\n3/ Bottom line: Trust in media is broken. After years of relentless coverage, spin, and selective narratives around Britney, we honestly don’t even know what’s actually true anymore.\nTime to celebrate the legend who gave us the soundtrack of our youth. New music on the way? Is she 💃🐺 or  🍎 🍐??? The little 🐦 says yes! Let’s remember Brit’s greatness instead of her AI IG Dances & TMZ garbage headlines. Hint: the news around her is 100% fake and her IG tells a coded powerful story about her true story and the dirt on Hollywood. It’s a game=Great Reset=Great Awakening=Big player=Future is extremely bright in a new an incredible way. 💿👑 #BritneySpears #PrincessOfPop",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/BenjaminCaligo/status/2076737769020260558",
+"createdAt": "Mon Jul 13 18:37:22 +0000 2026"
 },
 {
-"userName": "jiqizhixin",
-"text": "What if your robot could remember past experiences to generate perfectly tailored training data? \n\nResearchers from Zhejiang Sci-Tech University and Nanjing University present EMCES: a system that uses episodic memory to guide a diffusion model, creating high-quality synthetic data for reinforcement learning. It prioritizes the most useful past moments. \n\nThe result? Outperforms existing methods across multiple environments, boosting RL algorithm performance. \n\nBonus: a hashing trick cuts storage by 8000x and time by 25.5x—without losing quality.\n\nEpisodic Memory-Guided Controllable Experience Synthesis for Reinforcement Learning\n\nPaper: https://t.co/SmiSeY65w5\n\nOur report: https://t.co/CtjxWVlLMj\n\n📬 #PapersAccepted by Jiqizhixin",
-"likeCount": 19,
+"userName": "amisha_explains",
+"text": "10 AI beauty tools that feel like magic ✨\n\nThese tools can analyze your SKIN, TEST MAKEUP, try new HAIRSTYLES, and help you look your best, for free or with generous free plans.\n\n1. ChatGPT\nUpload a selfie to get personalized skincare routines, ingredient explanations, makeup recommendations, and beauty advice tailored to your goals.\n\n2. Google AI Studio\nAnalyze skin concerns from photos, compare products, generate personalized routines, and even create beauty content with Gemini.\n\n3. YouCam AI Beauty\nInstantly test makeup, hair colors, facial features, and skincare looks using realistic AI previews before buying anything.\n\n4. Skinive AI\nScan skin concerns with your phone camera and receive AI-powered insights on acne, pigmentation, moles, and overall skin health.\n\n5. Perfect365\nTry thousands of makeup combinations, beauty filters, hairstyles, and virtual makeovers in seconds.\n\n6. MyEdit AI\nEdit Portraits, remove blemishes, whiten teeth, enhance selfies, change hairstyles, and generate professional beauty photos.\n\n7. Canva AI\nCreate Beauty posts, skincare carousels, Instagram content, product mockups, and marketing visuals with AI.\n\n8. L'Oréal Beauty Genius\nGet Personalized skincare recommendations, ingredient guidance, and product suggestions through an AI beauty assistant.\n\n9. Haut\nAI-Powered skin analysis that tracks wrinkles, acne, pigmentation, hydration, and aging progress from selfies over time.\n\n10. BeautyPlus AI\nEnhance Portraits, remove imperfections, apply virtual makeup, change hairstyles, and generate stunning beauty photos with one tap.\n\n🔖 Bookmark this list.\n\nWhich AI beauty tool surprised you the most?",
+"likeCount": 8,
 "retweetCount": 1,
-"url": "https://x.com/jiqizhixin/status/2075436601916764173",
-"createdAt": "Fri Jul 10 04:27:00 +0000 2026"
+"url": "https://x.com/amisha_explains/status/2076553888094703900",
+"createdAt": "Mon Jul 13 06:26:42 +0000 2026"
 },
 {
-"userName": "JohnnyWang8802",
-"text": "Been pushing Midjourney V8.2 for a few days now, and honestly, the sheer level of detail is just next level. 💯\n\nTake a look at this fresh fashion set. The macro fidelity on the knit sweater and the precision of that intricate embroidery—the texture reproduction is mind-blowing. What impresses me the most is how perfectly the character's style and texture hold up across different angles.\n\nIt feels so tangible, like you could practically reach out and touch the fabric. Generative AI is shifting from just creating visuals to mastering pure aesthetic expression. ✨",
-"likeCount": 13,
+"userName": "AINativeF",
+"text": "📚 AI Native Daily Paper Digest - 2026-07-13🌟\n\nFollow @AINativeF for the latest insights on AI Native.\n\nCovering AI research papers from Hugging Face, featured in the image.\n\n💡 Stay updated with the latest research trends and dive deep into the future of AI! 🚀  \n\n#AI #HuggingFace #AIPaper #AINative #AINF\n— Appendix: Today's AI research papers —\n\n1. Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading\n\n2. Video Generation Models are General-Purpose Vision Learners\n\n3. KronQ: LLM Quantization via Kronecker-Factored Hessian\n\n4. PanoWorld: Real-World Panoramic Generation\n\n5. Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning\n\n6. Phone Segmentation and Recognition through Phonological Activation Mapping\n\n7. A Sovereign, Open-Source Foundation Model for German and English\n\n8. VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery\n\n9. MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models\n\n10. Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation\n\n11. Self-Guided Test-Time Training for Long-Context LLMs\n\n12. From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models\n\n13. Trust Region Policy Distillation",
+"likeCount": 2,
 "retweetCount": 1,
-"url": "https://x.com/JohnnyWang8802/status/2075706242211938469",
-"createdAt": "Fri Jul 10 22:18:27 +0000 2026"
+"url": "https://x.com/AINativeF/status/2076817754754314650",
+"createdAt": "Mon Jul 13 23:55:12 +0000 2026"
+},
+{
+"userName": "govindrkannan",
+"text": "🚀 The Ultimate AI Tool Cheat Sheet !\n\nAI is no longer about one tool doing everything.\nIt’s about using the right tool for the right job.\n\nThis cheat sheet neatly maps the AI ecosystem across:\n\n🧠 LLMs & Chatbots\n🎨 Images & Design\n🎬 Video & Audio\n📊 Data, Research & Productivity\n💻 Code, Automation & 3D\n\nWhat stands out for me👇\n\n• AI creation is now modular — text, image, video, audio all have specialists\n• Speed + quality is improving faster than skill gaps\n• The real advantage is tool orchestration, not tool hoarding\n\n💡 Pro tip:\nDon’t try to master everything.\n\nPick 1–2 tools per category aligned with your work and go deep.\n\nFor professionals in marketing, consulting, filmmaking, product, or strategy; this stack is becoming as basic as Excel once was.\n\nWhich AI tool do you use daily and can’t wipe out? 👇\n\nLet’s compare notes.",
+"likeCount": 537,
+"retweetCount": 181,
+"url": "https://x.com/govindrkannan/status/2077035387122590006",
+"createdAt": "Tue Jul 14 14:20:00 +0000 2026"
+},
+{
+"userName": "PaddyMathison",
+"text": "One of the clearest signals I get from long voice conversations arrives hours later. Someone leaves the Space, sleeps, talks to another human, then returns with a sharper question or a changed decision. The valuable output traveled through a life before it came back.\n\nAI evaluation usually ends at the first response: accuracy, preference score, task completion. I want delayed-transfer tests. Did the idea survive outside the chat? Did it improve a human conversation? Did the person revise it under new evidence?\n\nImmediate satisfaction measures verbal fit. Time-delayed reuse measures whether the exchange became part of someone's judgment.",
+"likeCount": 8,
+"retweetCount": 1,
+"url": "https://x.com/PaddyMathison/status/2075923050785386646",
+"createdAt": "Sat Jul 11 12:39:58 +0000 2026"
+},
+{
+"userName": "matthewh6_",
+"text": "RL can't teach an LLM to solve problems it never solves. Robot policies suffer from exactly the same limitation.\n\nThe fix turned out to be almost embarrassingly simple: train the policy with diffusion noise during pre-training.\n\nThat's it.\n\nThe policy covers a much wider action distribution, RL finally has somewhere to search, and we fine-tune VLAs on real robots in under an hour.\n\nIntroducing TMRL.\n\n🧵(1/9)",
+"likeCount": 278,
+"retweetCount": 46,
+"url": "https://x.com/matthewh6_/status/2075276908309471477",
+"createdAt": "Thu Jul 09 17:52:26 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Keeping up with AI news is becoming a full-time job.\n\nSo my friend @ivan_bezdomny built HuggingNews, an AI-curated feed that surfaces the news actually worth reading. Soon, it will even personalize the feed using your Hugging Face profile. Been using it for weeks!\n\nBookmark it, or ask your agent to send you the top 10 stories every morning or night. Less noise. More signal. More building!\n\nhttps://t.co/h0xpkq1aHO",
-"likeCount": 2452,
-"retweetCount": 281,
-"url": "https://x.com/ClementDelangue/status/2075605593973194999",
-"createdAt": "Fri Jul 10 15:38:31 +0000 2026"
+"text": "RT @MiaAI_lab: What are the best models you can run on your \n@NVIDIAAI DGX Spark? ✨\n\nMid-July 2026 Edition\n\n1× DGX Spark\n• ⁠Qwen 3.6 35b NV…",
+"likeCount": 387,
+"retweetCount": 44,
+"url": "https://x.com/ClementDelangue/status/2077071803554345374",
+"createdAt": "Tue Jul 14 16:44:42 +0000 2026"
 },
 {
-"userName": "mMoriLiu",
-"text": "Introduding Mira – a virtual fitting room right in your browser ✨\n\nYou can\n→ Try things on using your own avatar\n→ Pair items across stores\n→ Save & share outfits with a slay ID card\n→ Chat with an AI stylist that actually knows your wardrobe\n\nCurrently in beta & available on chrome webstore & https://t.co/j5LucgA6DJ\n\nPS: we don’t collect your data or inject affiliate code in your browser",
+"userName": "ClementDelangue",
+"text": "RT @Open_MOSS: 🤗 MOSS-VL-Realtime is now open source on @huggingface .\n\nThe 11B model family supports text, single and multiple images, sin…",
+"likeCount": 83,
+"retweetCount": 16,
+"url": "https://x.com/ClementDelangue/status/2077028001259073806",
+"createdAt": "Tue Jul 14 13:50:39 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @perrymetzger: For those of you using GPT 5.6 Sol today to get work done: remember, if it were up to people like Dario, GPT 2 could not…",
+"likeCount": 990,
+"retweetCount": 114,
+"url": "https://x.com/ClementDelangue/status/2076851871180841459",
+"createdAt": "Tue Jul 14 02:10:46 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @novita_labs: We trained and released DSpark speculators for Kimi-K2.6 and Kimi-K2.7-Code on @huggingface, with native serving support i…",
+"likeCount": 86,
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2077072870149177542",
+"createdAt": "Tue Jul 14 16:48:57 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Ex0byt: this is huge: best news I've heard all day..nice work, Hugging Face team.",
+"likeCount": 42,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2076775858719588412",
+"createdAt": "Mon Jul 13 21:08:44 +0000 2026"
+},
+{
+"userName": "googleaidevs",
+"text": "https://t.co/twD0fseFUl",
+"likeCount": 95,
+"retweetCount": 11,
+"url": "https://x.com/googleaidevs/status/2077049898059354565",
+"createdAt": "Tue Jul 14 15:17:40 +0000 2026"
+},
+{
+"userName": "seidtweets",
+"text": "https://t.co/nct0d91w6T",
+"likeCount": 9,
+"retweetCount": 2,
+"url": "https://x.com/seidtweets/status/2076651902087921940",
+"createdAt": "Mon Jul 13 12:56:10 +0000 2026"
+},
+{
+"userName": "brexHQ",
+"text": "https://t.co/B5k3TCkTzI",
 "likeCount": 154,
 "retweetCount": 6,
-"url": "https://x.com/mMoriLiu/status/2076323139299000410",
-"createdAt": "Sun Jul 12 15:09:47 +0000 2026"
-},
-{
-"userName": "iamgeographic",
-"text": "You know who I’ve never heard complain about generative AI? Fashion/super models…\n\nWhich is interesting because now you can just generate them.\n\nProof they have aura and confidence in their craft.",
-"likeCount": 11,
-"retweetCount": 0,
-"url": "https://x.com/iamgeographic/status/2074457617531859197",
-"createdAt": "Tue Jul 07 11:36:52 +0000 2026"
-},
-{
-"userName": "YongxinChen1",
-"text": "If you are interested in RL for diffusion models, come to our ICML poster. @JaemooChoi @WeiGuo01 @YuchenZhu_ZYC will explain to you a scalable strategy for DMs RL finetuning.",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/YongxinChen1/status/2074681292084367731",
-"createdAt": "Wed Jul 08 02:25:40 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @chuckmckinnon: @perrymetzger \"Of all tyrannies, a tyranny sincerely exercised for the good of its victims may be the most oppressive...…",
-"likeCount": 1157,
-"retweetCount": 101,
-"url": "https://x.com/ClementDelangue/status/2076851793867194487",
-"createdAt": "Tue Jul 14 02:10:28 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @andrewchen: This is what I want to say:\n\nBeen playing w GLM 5.2 for the past week and it’s legit. If I can get this in a box sitting on…",
-"likeCount": 123,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2076772659677843507",
-"createdAt": "Mon Jul 13 20:56:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ciruai: New model for AMD Strix Halo users:\n\nMy 198B Step 3.7 Flash release was a big hit, but this one may be even better: 298B-parame…",
-"likeCount": 42,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2076852170419233140",
-"createdAt": "Tue Jul 14 02:11:58 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @omarsar0: I don't think Anthropic realizes how disruptive these changes are to users. I appreciate the extension, but please stop playi…",
-"likeCount": 6507,
-"retweetCount": 190,
-"url": "https://x.com/jeremyphoward/status/2076428088288952581",
-"createdAt": "Sun Jul 12 22:06:49 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @APompliano: We need open source, American AI models to become the default as quickly as possible.",
-"likeCount": 454,
-"retweetCount": 33,
-"url": "https://x.com/ClementDelangue/status/2075708635695439879",
-"createdAt": "Fri Jul 10 22:27:58 +0000 2026"
-},
-{
-"userName": "mikitamikado007",
-"text": "https://t.co/X0ZgDEqmVz",
-"likeCount": 3,
-"retweetCount": 2,
-"url": "https://x.com/mikitamikado007/status/2075971104124907694",
-"createdAt": "Sat Jul 11 15:50:55 +0000 2026"
-},
-{
-"userName": "floraai",
-"text": "https://t.co/vGXbi5PAHC",
-"likeCount": 22,
-"retweetCount": 2,
-"url": "https://x.com/floraai/status/2076726221073780814",
-"createdAt": "Mon Jul 13 17:51:29 +0000 2026"
+"url": "https://x.com/brexHQ/status/2077063945085415655",
+"createdAt": "Tue Jul 14 16:13:29 +0000 2026"
 },
 {
 "userName": "su786e",

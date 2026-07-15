@@ -8,147 +8,107 @@
 "createdAt": "Mon Jul 13 23:54:38 +0000 2026"
 },
 {
-"userName": "HumanCreativeUS",
-"text": "Our CEO wrote on July 10th, \"Today is Human Creative's One Year Anniversary. We began with three founders, almost no money, and spent the past year in true Startup fashion:\n\n• Late Nights\n• 7am Saturday morning Partner Meetings\n• Working on holidays\n• Meetings with educators, artists, businesses, and individuals\n• Meetings with investors, marketers, angel groups, podcasts, business coaches, art networks, AI coalitions, Educational/Institutional leadership, think tanks, etc. etc.\n• Competed in and won $$$ in a pitch competition\n• Attended and spoke at conferences\n• Hired the best Chief Software Engineer imaginable\n• Hired the best Software Development Intern imaginable -- then promoted him as our Junior Developer\n• Hired for positions in sales/marketing and operations\n\nNow we're providing the most robust solution to the AI-content-detector problem out there: a live-monitoring word processor. We live-track the entire process, monitor for AI, audit content, and certify finished works as human-made. We provide verifiable evidence to those reading Certified Human Content™ that what they have received was not produced with generative-AI.\n\nWatch our commercial here: https://t.co/0lVR9jP6j9\nVisit the website here: https://t.co/JbfAxhQp0d \nIndividuals can sign up here: https://t.co/AlAIgkjq81\nOrganizations and schools can contact tiffany@humancreative.org to get any content submitted to them vetted. \nPeek at the submission portal here: https://t.co/GZ24MBCM1B\n\nTo say we are proud is an understatement. I thank the Lord everyday for the immense joy of working with the talented and kind people I work with; for the team ethos that fills all of our meetings with laughter and camaraderie; and for the opportunity to provide a solution to this widespread pain point in a unique cultural moment.\"\n\n------\nThe above is verified Certified Human Content™. Verify at https://t.co/y7wNeqC7Ws",
-"likeCount": 0,
-"retweetCount": 2,
-"url": "https://x.com/HumanCreativeUS/status/2076767026266206674",
-"createdAt": "Mon Jul 13 20:33:38 +0000 2026"
-},
-{
-"userName": "amisha_explains",
-"text": "10 AI beauty tools that feel like magic ✨\n\nThese tools can analyze your SKIN, TEST MAKEUP, try new HAIRSTYLES, and help you look your best, for free or with generous free plans.\n\n1. ChatGPT\nUpload a selfie to get personalized skincare routines, ingredient explanations, makeup recommendations, and beauty advice tailored to your goals.\n\n2. Google AI Studio\nAnalyze skin concerns from photos, compare products, generate personalized routines, and even create beauty content with Gemini.\n\n3. YouCam AI Beauty\nInstantly test makeup, hair colors, facial features, and skincare looks using realistic AI previews before buying anything.\n\n4. Skinive AI\nScan skin concerns with your phone camera and receive AI-powered insights on acne, pigmentation, moles, and overall skin health.\n\n5. Perfect365\nTry thousands of makeup combinations, beauty filters, hairstyles, and virtual makeovers in seconds.\n\n6. MyEdit AI\nEdit Portraits, remove blemishes, whiten teeth, enhance selfies, change hairstyles, and generate professional beauty photos.\n\n7. Canva AI\nCreate Beauty posts, skincare carousels, Instagram content, product mockups, and marketing visuals with AI.\n\n8. L'Oréal Beauty Genius\nGet Personalized skincare recommendations, ingredient guidance, and product suggestions through an AI beauty assistant.\n\n9. Haut\nAI-Powered skin analysis that tracks wrinkles, acne, pigmentation, hydration, and aging progress from selfies over time.\n\n10. BeautyPlus AI\nEnhance Portraits, remove imperfections, apply virtual makeup, change hairstyles, and generate stunning beauty photos with one tap.\n\n🔖 Bookmark this list.\n\nWhich AI beauty tool surprised you the most?",
-"likeCount": 8,
-"retweetCount": 1,
-"url": "https://x.com/amisha_explains/status/2076553888094703900",
-"createdAt": "Mon Jul 13 06:26:42 +0000 2026"
-},
-{
-"userName": "Daseingram",
-"text": "🌟 https://t.co/WBHxj345dt\n\nCulture spreads through vibes.\nTechnology turns them into products.\n\nhttps://t.co/WBHxj345dt is built for AI creativity, culture-tech, music platforms, digital identity, social apps, creator tools, brand campaigns, and next-generation community experiences.\n\nWhy it stands out\n\n• Unique, modern, and highly brandable\n• “Vibe” signals culture, emotion, music, style, and social energy\n• “Graft” suggests attachment, growth, fusion, and building onto something new\n• Ideal for creator economy, AI media, Web3 identity, fashion-tech, music-tech, and social platforms\n• Moonshot potential if culture, AI, and digital communities keep merging\n\nPotential use cases\n\n🔹 AI Creator Platform\n🔹 Music & Culture App\n🔹 Social Identity Brand\n🔹 Vibe-Based Discovery Tool\n🔹 Digital Community Platform\n🔹 Creator Marketing Network\n🔹 Brand Campaign Studio\n🔹 Web3 Culture Identity\n🔹 Fashion / Music Tech Brand\n🔹 Future Social Experience Platform\n\nhttps://t.co/WBHxj345dt is not just a domain.\n\nIt is a premium brandable digital asset for the future of culture, AI creativity, social identity, and creator-driven communities.\n\n#VibeGraft #Vibe #CreatorEconomy #CultureTech #AICreativity #GenerativeAI #MusicTech #SocialApp #DigitalIdentity #CommunityPlatform #BrandInnovation #CreatorTools #Web3 #DigitalCulture #FashionTech #MediaTech #SocialMedia #FutureOfCreativity #StartupBranding #PremiumDomain #DomainName #DomainInvestor #DigitalAssets #BrandableDomain #Moonshot #VibeGraftCom",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/Daseingram/status/2074490222222491661",
-"createdAt": "Tue Jul 07 13:46:25 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Big unlock for open-source AI inference: Hugging Face Transformers models can now run in vLLM at native speed, often matching or beating hand-written implementations.\n\nUntil now, every new architecture often needed to be built twice:\n- Once in Transformers for training and research\n- Again in vLLM for fast production inference\n\nThat duplication slowed down new models, added maintenance, and created room for implementations to diverge. Now, model authors can implement an architecture once in Transformers and immediately benefit from vLLM’s optimized inference stack.\n\nIn our benchmarks, the Transformers backend matched or beat native vLLM throughput across models from 4B to 235B parameters, including tensor parallel and MoE setups. One readable model implementation can now power training, fine-tuning, evaluation, RL rollouts, and production inference.\n\nThe conventional wisdom is that abstractions make systems slower. The best abstractions make the whole ecosystem faster.\n\nWrite the model once. Deploy it everywhere.\n\nhttps://t.co/nTXcwAV0Bf",
-"likeCount": 416,
-"retweetCount": 73,
-"url": "https://x.com/ClementDelangue/status/2076763231788339669",
-"createdAt": "Mon Jul 13 20:18:33 +0000 2026"
-},
-{
-"userName": "volokuleshov",
-"text": "New blog post: How to Build a Diffusion Language Model.\n\nDiffusion LLMs went from open problem to reality in 2 years (Mercury, Gemma Diffusion, Nemotron Diffusion). With my Cornell group, we wrote up the research advances that make them work.\n\nWe use today's OSS large diffusion models as examples and show how they're built from core techniques: \n• masked diffusion (MDLM) \n• iterative refinement (UDLM, ReMDM) \n• variable-length generation (block diffusion, encoder-decoder architectures) \n• controllable generation (D-CFG, D-CBG) \n• fast samplers (Duo)\n• RL post-training (d1, d2)\n\nThis post covers research led by a talented group of Cornell PhD students including @mariannearr @SchiffYair @Guanghan__Wang \n\nThe content is adapted from talks I gave this year on dLLMs. It covers most of the main ingredients behind open-source diffusion language models today.\n\nLink: https://t.co/lpu3BCLwiE",
-"likeCount": 1469,
-"retweetCount": 197,
-"url": "https://x.com/volokuleshov/status/2074778055797850275",
-"createdAt": "Wed Jul 08 08:50:10 +0000 2026"
-},
-{
-"userName": "PaddyMathison",
-"text": "One of the clearest signals I get from long voice conversations arrives hours later. Someone leaves the Space, sleeps, talks to another human, then returns with a sharper question or a changed decision. The valuable output traveled through a life before it came back.\n\nAI evaluation usually ends at the first response: accuracy, preference score, task completion. I want delayed-transfer tests. Did the idea survive outside the chat? Did it improve a human conversation? Did the person revise it under new evidence?\n\nImmediate satisfaction measures verbal fit. Time-delayed reuse measures whether the exchange became part of someone's judgment.",
-"likeCount": 8,
-"retweetCount": 1,
-"url": "https://x.com/PaddyMathison/status/2075923050785386646",
-"createdAt": "Sat Jul 11 12:39:58 +0000 2026"
-},
-{
-"userName": "bmx_ai13",
-"text": "Created with Fashion Studio on @ImagineArt_X  this 15 second fashion film brings modern styling into a richly detailed heritage interior.\n\nWarm amber lighting, dark wood textures, a statement jacket, relaxed denim and controlled cinematic movement create an editorial atmosphere that feels intimate, refined and campaign ready.\n\nFrom composed wide shots to expressive close up portraits, every frame is designed to highlight texture, presence and character.\n\nFashion Studio goes beyond AI image generation transforming a simple concept into complete fashion direction, visual branding, and cinematic campaign storytelling.",
-"likeCount": 23,
-"retweetCount": 1,
-"url": "https://x.com/bmx_ai13/status/2075797479652565017",
-"createdAt": "Sat Jul 11 04:21:00 +0000 2026"
-},
-{
-"userName": "CiscoAI",
-"text": "Last week at @icmlconf 2026, researchers from @Cisco and collaborating institutions presented two papers covering LLM safety and agentic AI security.\n\nCongrats to our authors, collaborators, and research teams.\n\nRead the papers:\n📄 Distill to Detect: Exposing Stealth Biases in LLMs through Cartridge Distillation - https://t.co/vzhbyikVPs\n📄 CrossAnchor: Image-Anchored Text Optimization Exposes Blind Spots in Multi-line Defenses of Agentic Systems - https://t.co/FTzJ78jLRu",
-"likeCount": 111,
-"retweetCount": 2,
-"url": "https://x.com/CiscoAI/status/2076783207987789879",
-"createdAt": "Mon Jul 13 21:37:56 +0000 2026"
-},
-{
-"userName": "chidambara09",
-"text": "@enilev @HeinzVHoenen @Fisher85M @rvp @SwissCognitive 👛 Generation Alpha &amp; the Rise of Sovereign Identity Ecosystems: \nFASHION Beyond GARMENTS \n\nThank you \ndear \nmy @enilev mom🪔\n💐🌷🫂💜 🎉   \ngʘ-ʘd m😃rning  2 u \n\n#GenAlpha #Creators #Fashion #AI #FashionTech #FutureOfFashion #ia #Celebs #CoCreators #Leadership \n#Linkedin \n🍁",
-"likeCount": 2,
-"retweetCount": 1,
-"url": "https://x.com/chidambara09/status/2075222202618921289",
-"createdAt": "Thu Jul 09 14:15:03 +0000 2026"
-},
-{
-"userName": "matthewh6_",
-"text": "This leads to two simple ideas:\n\nContext-Smoothed Pre-training (CSP): train the policy on every level of diffusion noise, from the conditional (BC) to the marginal.\n\nTimestep-Modulated RL (TMRL): During RL, a high-level actor selects the noise level added to the context per step.\n\n(5/9)",
-"likeCount": 3,
-"retweetCount": 1,
-"url": "https://x.com/matthewh6_/status/2075277802933453272",
-"createdAt": "Thu Jul 09 17:55:59 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @multimodalart: GPUs for all 🤗\n\nCreating ZeroGPU demos or apps is now available to ALL @huggingface users\n\ntell your agent: \"Build a HF…",
-"likeCount": 82,
-"retweetCount": 17,
-"url": "https://x.com/ClementDelangue/status/2076719416406839793",
-"createdAt": "Mon Jul 13 17:24:27 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @andrewchen: playing with local AI models and doing some research and came across a fun extrapolation:\n\n\"consumer grade graphics cards w…",
-"likeCount": 118,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2076764500477288707",
-"createdAt": "Mon Jul 13 20:23:35 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ivan_bezdomny: Glad to share what I've been building in public. A lightweight AI news feed.\n\nWe also finetuned a model to write new sto…",
-"likeCount": 63,
+"userName": "MdManikHos48315",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- https://t.co/5aDlmVnZzN\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- https://t.co/7oZXPTnD3i\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @MdManikHos48315 for more AI tools.",
+"likeCount": 17,
 "retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2075609545682960498",
-"createdAt": "Fri Jul 10 15:54:13 +0000 2026"
+"url": "https://x.com/MdManikHos48315/status/2077189271677734945",
+"createdAt": "Wed Jul 15 00:31:29 +0000 2026"
+},
+{
+"userName": "toyinvoldo",
+"text": "There is a specific kind of frustration that comes from building something with Claude Code, Codex, or Lovable, getting it working exactly how you wanted and then hitting a wall when you try to share it with someone.\nYou cannot just send them your laptop 😂😂.\n\nDeployment is where a lot of momentum dies for PMs and builders. Not because it is impossibly hard, but because nobody ever walked them through what actually happens between your local machine and a live URL that someone else can open.\nThat gap is exactly what this session is closing.\nMayowa Tudonu — Blockchain Engineer and Solutions Architect at Chainlink Labs, with experience building production systems at Jumia Nigeria, Interswitch Group, and Buycoins, is taking an AI-built application from local to live in real time. On screen. No slides about what is possible. Just the actual process.\n\nYou will leave knowing which deployment platform suits what you built, why something that worked on your machine sometimes breaks when it goes live, and what the most common first-time deployment mistakes are before they happen to you.\n\nOpen. Virtual. Register here — https://t.co/C6aSojGzQ9\n\nIf you want to build that technical confidence more systematically, understanding how software gets built and shipped, how to work credibly with engineering teams, and how to prototype and validate ideas without needing a developer, our Product Management Accelerator is built for exactly that.\nDetails here — https://t.co/YoYJESQq2Y\n\n#ProductManagement #VibeCoding #AI #PMBuildLab #Deployment #Treford #PMAccelerator #AITools #Tech #AfricanTech",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/toyinvoldo/status/2077052563602489651",
+"createdAt": "Tue Jul 14 15:28:15 +0000 2026"
+},
+{
+"userName": "jiqizhixin",
+"text": "Ever tried to watch a virtual try-on from any angle, not just the original video's camera path? \n\nResearchers from Alibaba and the Chinese Academy of Sciences present TryOnCrafter. \n\nIt builds a 4D \"try-on proxy\" — a 3D avatar of the garment that moves with the person — then uses that proxy to guide a video AI. \n\nThe result: photorealistic try-on videos that follow any camera trajectory you choose. Outperforms existing methods in preserving garment detail and structural consistency across complex, unconstrained camera movements.\n\nTryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy\n\nPaper: https://t.co/QG6eI8dToF\nProject: https://t.co/Ot9lVEMiSA\n\nOur report: https://t.co/foKr2xlzCM\n\n📬 #PapersAccepted by Jiqizhixin",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/jiqizhixin/status/2077172288982778290",
+"createdAt": "Tue Jul 14 23:24:00 +0000 2026"
+},
+{
+"userName": "DomainFQ",
+"text": ".\n🚀 DOMAIN LISTED FOR SALE\n\nhttps://t.co/dSZwBst8XZ\n\nA bold, punchy, ultra-brandable name with global appeal. Perfect for AI, social, food, entertainment, gaming, fashion, lifestyle, or next-generation mobile apps.\n\n✅ Short & Memorable\n✅ Premium Brandable\n✅ Startup Ready\n✅ Global Appeal\n✅ Future-Proof Identity\n\nA versatile brand built for founders who want to stand out.\n\n#DomainForSale #Hotz #AI #Startup #Tech #Apps #Mobile #Software #SaaS #Platform #Innovation #Digital #Brandable #Technology #Social #Gaming #Entertainment #Lifestyle #Food #Commerce #Marketing #Creator #Cloud #Automation #Growth #Business #Global #Premium #Future #Venture",
+"likeCount": 5,
+"retweetCount": 0,
+"url": "https://x.com/DomainFQ/status/2076989178202697940",
+"createdAt": "Tue Jul 14 11:16:23 +0000 2026"
+},
+{
+"userName": "DomainFQ",
+"text": ".\nDomain Name For Sale:\n\nhttps://t.co/qjQKE5no4j\n\nA clean, memorable, and highly brandable domain for an online store, ecommerce platform, retail brand, shopping marketplace, product delivery business, lifestyle shop, or next-generation commerce startup.\n\nPremium Domain • Store Ready • Global Brand • High Potential\n\n#ArriveStore #Arrive #Store #Ecommerce #Commerce #Retail #Shopping #Marketplace #Shop #Products #Deals #Fashion #Lifestyle #Delivery #Checkout #Cart #Sellers #AI #Merchants #Brand #Startup #Business #Online #Digital #Platform #DomainForSale",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/DomainFQ/status/2075857253346025550",
+"createdAt": "Sat Jul 11 08:18:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @mlejva: We’re the only major open-source agentic sandbox platform and the only widely used sandbox platform licensed under Apache 2.0.…",
-"likeCount": 77,
+"text": "RT @PrismML: Today, we’re announcing Bonsai 27B: the first 27B-class model to run on a phone.\n\nBonsai 27B is the new multimodal flagship of…",
+"likeCount": 4588,
+"retweetCount": 721,
+"url": "https://x.com/ClementDelangue/status/2077093054679286060",
+"createdAt": "Tue Jul 14 18:09:09 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @fal: We've open sourced Ideogram V4 instant and fast, find them here!\n\nFast: https://t.co/ZixIxUhpAU\nInstant: https://t.co/Z4RPdkjBYI…",
+"likeCount": 219,
+"retweetCount": 30,
+"url": "https://x.com/ClementDelangue/status/2077007352310493255",
+"createdAt": "Tue Jul 14 12:28:36 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ciruai: New model for AMD Strix Halo users:\n\nMy 198B Step 3.7 Flash release was a big hit, but this one may be even better: 298B-parame…",
+"likeCount": 70,
 "retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2076846522260455688",
-"createdAt": "Tue Jul 14 01:49:31 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2076852170419233140",
+"createdAt": "Tue Jul 14 02:11:58 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechCrunch: Hugging Face’s CEO on why companies are done renting their AI https://t.co/ZjaKz61Iee",
-"likeCount": 80,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2075671986324324551",
-"createdAt": "Fri Jul 10 20:02:20 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Ex0byt: this is huge: best news I've heard all day..nice work, Hugging Face team.",
-"likeCount": 24,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2076775858719588412",
-"createdAt": "Mon Jul 13 21:08:44 +0000 2026"
+"text": "RT @akaan_akan: we've open-sourced our in-house distilled models again. much faster, with no quality loss. Try them free at @fal",
+"likeCount": 57,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2077007317204087164",
+"createdAt": "Tue Jul 14 12:28:28 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @sama: that goes hard",
-"likeCount": 1677,
-"retweetCount": 69,
+"likeCount": 2049,
+"retweetCount": 86,
 "url": "https://x.com/ClementDelangue/status/2076851718713757904",
 "createdAt": "Tue Jul 14 02:10:10 +0000 2026"
 },
 {
-"userName": "seidtweets",
-"text": "https://t.co/nct0d91w6T",
-"likeCount": 7,
-"retweetCount": 2,
-"url": "https://x.com/seidtweets/status/2076651902087921940",
-"createdAt": "Mon Jul 13 12:56:10 +0000 2026"
+"userName": "a_seven_life",
+"text": "https://t.co/DwEzeM8Jds",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/a_seven_life/status/2077130476003729627",
+"createdAt": "Tue Jul 14 20:37:51 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/jAoPVLhqoZ",
+"likeCount": 57,
+"retweetCount": 11,
+"url": "https://x.com/apob_ai/status/2076618493181518139",
+"createdAt": "Mon Jul 13 10:43:25 +0000 2026"
+},
+{
+"userName": "gbmolch",
+"text": "https://t.co/d9R9J0IQ8G",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/gbmolch/status/2077036753706168434",
+"createdAt": "Tue Jul 14 14:25:26 +0000 2026"
 }
 ]
