@@ -1,122 +1,154 @@
 [
 {
-"userName": "d_foubert",
-"text": "Unlimited power.\n\nThe technological progress made by our civilization during the last 10 years is mind-blowing.\n\nThe sheer pace is extraordinary. The steam engine transformed the eighteenth century. Electricity reshaped the nineteenth. Mass production defined the twentieth. The internet revolutionized the late twentieth and early twenty-first.\n\nThe last ten years compressed several such revolutions into a single decade. If someone from 2015 were suddenly dropped into 2026, they would recognize the world—but they would constantly stumble upon things that simply did not exist.\n\nIn barely a decade, artificial intelligence went from amusing image classifiers to systems that can write software, conduct research, translate dozens of languages, generate films, compose music, analyze medical scans, tutor students, and reason across text, images, audio, and video—all from a device that fits in a pocket.\n\nWe made reusable orbital rockets routine. We began catching boosters in mid-air, launched tens of thousands of satellites into low Earth orbit, and turned continuous global broadband from orbit into a commercial reality. Private companies now accomplish feats that once required Cold War superpowers.\n\nGene editing left the laboratory and entered medicine. CRISPR-based therapies are treating diseases once considered lifelong genetic sentences. mRNA technology proved it could be designed, manufactured, and deployed at unprecedented speed, opening an entirely new pharmaceutical platform.\n\nRobots learned to see, manipulate objects, and navigate human environments. Humanoid machines are beginning to work in factories. \n\nAutonomous vehicles now operate commercial taxi services in several cities without human drivers.\n\nRenewable energy became the cheapest source of new electricity across much of the world. Battery costs collapsed, electric vehicles became mass-market products, and grid-scale energy storage moved from demonstration projects to industrial deployment.\n\nQuantum computing crossed from theoretical promise to machines capable of solving increasingly sophisticated experimental problems.\n\nFusion research achieved ignition, something generations of physicists pursued without success.\n\nThe smartphone became a universal tool: camera, television studio, map, bank, translator, passport, office, shopping center, encyclopedia, and increasingly, an AI assistant that would have seemed indistinguishable from science fiction only a few years ago.\n\nThe next ten years are unlikely to be slower. They will probably bring general-purpose robots into homes and factories, AI systems capable of carrying out weeks of intellectual work in hours, personalized medicine based on an individual's genome, fully autonomous transport on a much larger scale, abundant clean electricity from ever-cheaper solar, wind, batteries and perhaps early fusion, routine manufacturing in orbit, and a permanent human presence beyond Earth. If the last decade taught us anything, it is that technological progress is no longer advancing at a steady pace—it is accelerating. \n\nThe greatest surprise of 2036 may well be how much of today's science fiction has become so ordinary that people no longer think about it.",
-"likeCount": 5,
-"retweetCount": 0,
-"url": "https://x.com/d_foubert/status/2077325982185214241",
-"createdAt": "Wed Jul 15 09:34:43 +0000 2026"
+"userName": "jumperz",
+"text": "Dropping the full prompt below for anyone who wants to try it. \n\nthis was one generation with no follow-ups , results will obviously vary between runs..\n\n=====================\n\nBuild a complete, production-quality launch website for Kimi K3 using Next.js, React, TypeScript, GSAP ScrollTrigger, and restrained Lenis smooth scrolling.\n\nREFERENCE:\nandonorris official website\n\nStudy its cinematic scroll control and level of craft, but do not copy its layout, assets, branding, colors, copy, or exact animations.\n\nCREATIVE DIRECTION\n\nCreate one continuous, scroll-controlled typographic film—not a conventional landing page with separate sections fading in.\n\nCentral concept: “ENTER THE K.”\n\nThe letter K is a portal. The user approaches it, enters it, travels through it, and exits it. Reuse the K as solid type, outline, mask, negative space, cropped geometry, grid, and navigation marker.\n\nEvery scene must transform from the geometry already on screen:\n\n- Letters become masks and architecture\n- Typography expands into backgrounds\n- Lines become grids\n- Numbers transform into new scenes\n- Existing elements move, scale, crop, or align into the next composition\n- Never reset the screen with a basic crossfade\n\nThe motion should feel heavy, controlled, cinematic, and directly connected to scrolling.\n\nVISUAL SYSTEM\n\nColors:\n- Ink: #090A0A\n- Warm paper: #F1EFE8\n- Gray: #B8B8B0\n- Dark gray: #222422\n- Signal: #D6FF3F\n\nKeep at least 80% monochrome. Use the signal color rarely for active details and one major climax. Use hard, meaningful theme changes:\n\nDark → warm paper → dark → signal color → quiet dark.\n\nTypography is the main visual material. Use a heavy wide grotesk such as Mona Sans Variable or Archivo Black, with Instrument Sans or Mona Sans for interface text.\n\nUse extreme scale and intentional cropping:\n- Hero type: 25–40vw\n- Tight leading and tracking\n- Asymmetrical editorial layouts\n- Small uppercase technical labels\n- Tabular numerals\n- No generic centered headline/subtitle/button stacks\n\nSCROLL STORYBOARD\n\nBuild approximately 900–1200vh of cinematic pinned scenes.\n\n00 — LOADER\n\nShow “KIMI / K3,” a calibration line, and “INITIALIZING 000%.” Rapidly reach 100%. Transform the loader line directly into the hero composition. Maximum 1.5 seconds.\n\n01 — KIMI K3 HERO\n\nNearly black background with enormous KIMI typography, smaller K3, minimal navigation, metadata, progress rail, and “SCROLL TO ENTER.”\n\nDuring scroll:\n- Metadata enters through clipped reveals\n- “IMI” moves beyond the viewport while K remains\n- K scales to 8–12× the viewport\n- Use K as a mask containing subtle monochrome motion\n- Move through its negative space\n- Its diagonal stroke becomes the next scene\n\nCopy:\nKIMI K3\nA NEW SCALE OF INTELLIGENCE\nMOONSHOTAI / KIMI-K3\nAVAILABLE THROUGH OPENROUTER\n\n02 — INSIDE THE K\n\nCreate an abstract editorial environment from diagonal planes, cropped letter fragments, measurement lines, coordinates, and subtle texture. Avoid a literal sci-fi tunnel.\n\nScrolling assembles:\n\nTHINK\nACROSS\nTHE ENTIRE\nPROBLEM\n\nMove planes at controlled depths. Transform the K’s diagonal into a horizontal line leading into the next scene.\n\n03 — ONE MILLION CONTEXT\n\nInvert to warm paper. Pin the scene while vertical scrolling drives horizontal movement.\n\nBegin with a viewport-sized “1,” then spatially reveal:\n\n1 → 1,0 → 1,048 → 1,048,576\n\nKeep the number as the composition’s architecture. Move restrained document, code, and structured-data fragments beneath it.\n\nInclude:\nLONG CONTEXT\nCONNECTED REASONING\nCOMPLETE PROJECT AWARENESS\nFEWER ARTIFICIAL BOUNDARIES\n\nEnlarge the final “6” into a mask revealing the next dark scene.\n\n04 — CAPABILITIES\n\nCreate three full-screen typographic transformations, not cards:\n\n01 / REASON\nFOLLOW THE PROBLEM BEYOND THE FIRST ANSWER.\n\n02 / CODE\nMOVE FROM INTENT TO WORKING SYSTEMS.\n\n03 / BUILD\nPLAN. EXECUTE. VERIFY. ITERATE.\n\nExpand REASON’s font width. Align its strokes into code-like columns. Use those columns as CODE’s negative space, then collapse them into structural planes forming BUILD.\n\n05 — K3 INDEX\n\nKeep a huge K3 stationary on the left. On the right, vertically move precisely aligned specification rows:\n\nMODEL — KIMI K3\nMODEL ID — MOONSHOTAI/KIMI-K3\nACCESS — OPENROUTER\nINTERFACE — CHAT COMPLETIONS\nCONTEXT — 1,048,576\nSTATUS — AVAILABLE\n\nAs each row aligns with the K’s horizontal arm, turn it signal green. Compress all rows into one line at the end.\n\n06 — CLIMAX\n\nUse the signal color as the background—the only large color moment.\n\nDisplay oversized black typography:\n\nNOT A CHAT WINDOW.\nA WORKING INTELLIGENCE.\n\nBegin inside a giant letter, slowly zoom out until the full statement becomes readable, lock the words to a strict grid, then compress everything into “KIMI K3.”\n\n07 — FINAL CTA\n\nShrink the signal-colored KIMI K3 mark into a small header and return to near-black.\n\nDisplay:\n\nKIMI K3\nNOW AVAILABLE\nTry the model through OpenRouter.\n\nCTA: TRY KIMI K3\nTechnical line: moonshotai/kimi-k3\n\nUse a sharp rectangular or underlined CTA. On hover, wipe the background horizontally and move the arrow 6–8px. End with a huge cropped K below the viewport.\n\nMOTION AND ENGINEERING\n\n- One GSAP timeline per major scene\n- Restrained scrub values around 0.6–1.2\n- No bounce, spring, overshoot, or excessive scroll lag\n- Reuse geometry between scenes\n- Prefer transforms, masks, and clip-path\n- Keep text as real HTML\n- Use WebGL only if genuinely necessary\n- Wait for fonts before calculating timelines\n- Clean up GSAP contexts\n- Recalculate animations at responsive breakpoints\n- Maintain sharp typography and smooth 60fps motion\n- No scroll traps or scroll-jacking\n\nCreate a minimal fixed navigation:\nK3 / 01 MODEL / 02 CAPABILITIES / 03 CONTEXT / 04 ACCESS / TRY K3 ↗\n\nUpdate its color and progress state according to the active scene.\n\nRESPONSIVE AND ACCESSIBILITY\n\nArt-direct desktop, tablet, and mobile separately. On mobile, replace horizontal sequences with controlled vertical transformations while preserving the K-portal story.\n\nSupport 1440, 1280, 1024, 768, 430, 390, and 360px.\n\nInclude semantic HTML, keyboard navigation, focus states, sufficient contrast, skip link, and prefers-reduced-motion. Reduced-motion mode must remove pinning and zoom effects while keeping all content accessible.\n\nSTRICTLY AVOID\n\n- Gradients and gradient text\n- Glassmorphism\n- Neon blobs or glowing orbs\n- Bento grids and feature cards\n- Rounded floating containers\n- Fake terminals\n- Random particles\n- Stock illustrations\n- Generic icons\n- Constant fade-up animations\n- Excessive blur\n- Pill-shaped buttons\n- SaaS-template layouts\n- Decorative animation without narrative purpose\n- Fake benchmarks, testimonials, or logos\n\nThe final result should feel like a digital fashion editorial, motorsport identity, experimental type specimen, and interactive title sequence—not an AI-generated SaaS homepage.\n\nBuild the complete functioning website. Prioritize strong static composition first, then add the connected scroll choreography. Test every transition, responsive breakpoint, navigation action, reduced-motion mode, and CTA. Fix all console errors and maintain smooth performance.",
+"likeCount": 135,
+"retweetCount": 7,
+"url": "https://x.com/jumperz/status/2077884505612750861",
+"createdAt": "Thu Jul 16 22:34:06 +0000 2026"
 },
 {
-"userName": "sagar_0984",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @sagar_0984 For More Tools.",
-"likeCount": 23,
-"retweetCount": 8,
-"url": "https://x.com/sagar_0984/status/2077636549928444234",
-"createdAt": "Thu Jul 16 06:08:48 +0000 2026"
-},
-{
-"userName": "toyinvoldo",
-"text": "There is a specific kind of frustration that comes from building something with Claude Code, Codex, or Lovable, getting it working exactly how you wanted and then hitting a wall when you try to share it with someone.\nYou cannot just send them your laptop 😂😂.\n\nDeployment is where a lot of momentum dies for PMs and builders. Not because it is impossibly hard, but because nobody ever walked them through what actually happens between your local machine and a live URL that someone else can open.\nThat gap is exactly what this session is closing.\nMayowa Tudonu — Blockchain Engineer and Solutions Architect at Chainlink Labs, with experience building production systems at Jumia Nigeria, Interswitch Group, and Buycoins, is taking an AI-built application from local to live in real time. On screen. No slides about what is possible. Just the actual process.\n\nYou will leave knowing which deployment platform suits what you built, why something that worked on your machine sometimes breaks when it goes live, and what the most common first-time deployment mistakes are before they happen to you.\n\nOpen. Virtual. Register here — https://t.co/C6aSojGzQ9\n\nIf you want to build that technical confidence more systematically, understanding how software gets built and shipped, how to work credibly with engineering teams, and how to prototype and validate ideas without needing a developer, our Product Management Accelerator is built for exactly that.\nDetails here — https://t.co/YoYJESQq2Y\n\n#ProductManagement #VibeCoding #AI #PMBuildLab #Deployment #Treford #PMAccelerator #AITools #Tech #AfricanTech",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/toyinvoldo/status/2077052563602489651",
-"createdAt": "Tue Jul 14 15:28:15 +0000 2026"
-},
-{
-"userName": "AINativeF",
-"text": "📚 AI Native Daily Paper Digest - 2026-07-15🌟\n\nFollow @AINativeF for the latest insights on AI Native.\n\nCovering AI research papers from Hugging Face, featured in the image.\n\n💡 Stay updated with the latest research trends and dive deep into the future of AI! 🚀  \n\n#AI #HuggingFace #AIPaper #AINative #AINF\n— Appendix: Today's AI research papers —\n\n1. SynthDocBench: Controlled Benchmark for Long-Context Visual Document Understanding\n\n2. Search Beyond What Can Be Taught: Evolving the Knowledge Boundary in Agentic Visual Generation\n\n3. Function-Aware Fill-in-the-Middle as Mid-Training for Coding Agent Foundation Models\n\n4. MuScriptor: An Open Model for Multi-Instrument Music Transcription\n\n5. Principled Analysis of Deep Reinforcement Learning Evaluation and Design Paradigms\n\n6. Towards Autonomous and Auditable Medical Imaging Model Development\n\n7. What LLM Forecasters Know but Don't Say: Probing Internal Representations for Calibration and Faithfulness\n\n8. Let RGB Be the Language of Vision\n\n9. MonkeyOCRv2: A Visual-Text Foundation Model for Document AI\n\n10. Know Before Fix: QA-Driven Repository Knowledge Acquisition for Software Issue Resolution\n\n11. Blind-Spots-Bench: Evaluating Blind Spots in Multimodal Models\n\n12. Read It Back: Pretrained MLLMs Are Zero-Shot Reward Models for Text-to-Image Generation",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/AINativeF/status/2077542528937808071",
-"createdAt": "Wed Jul 15 23:55:12 +0000 2026"
-},
-{
-"userName": "rohanpaul_ai",
-"text": "A first-of-its-kind open-source video generation model for embodied scenarios, using a Mixture-of-Experts design. \n\nLingBot-Video from @robbyant_brain, a Diffusion Transformer video foundation model built for embodied AI.\n\n- The flagship 30B model activates only 3B parameters per generation, at 1M-token sequences\n\n- At the same total parameter scale it reaches ~3X the inference efficiency of a Dense architecture at 1M-token sequences (3.18× vs. Dense 30B)\n\n- Aesthetic-only reward models are why video generators fake physics, and this paper basically says so. Physical plausibility is not treated as vibes here; it gets scored through causality, object permanence, non-penetration and material realism.\n\n- The model was not trained only on regular internet videos. Its pretraining data also includes 70,000+ hours of embodied footage, covering robot manipulation, navigation, and first-person action videos, so the model sees examples where movement actually changes the world.\n\n- On RBench, it reports a 0.620 average, ahead of every listed open and closed model, while still losing some columns to Wan 2.6.\n\n🧵 1.",
-"likeCount": 26,
-"retweetCount": 5,
-"url": "https://x.com/rohanpaul_ai/status/2075313714157559846",
-"createdAt": "Thu Jul 09 20:18:41 +0000 2026"
-},
-{
-"userName": "DomainFQ",
-"text": ".\n🚀 DOMAIN LISTED FOR SALE\n\nhttps://t.co/dSZwBst8XZ\n\nA bold, punchy, ultra-brandable name with global appeal. Perfect for AI, social, food, entertainment, gaming, fashion, lifestyle, or next-generation mobile apps.\n\n✅ Short & Memorable\n✅ Premium Brandable\n✅ Startup Ready\n✅ Global Appeal\n✅ Future-Proof Identity\n\nA versatile brand built for founders who want to stand out.\n\n#DomainForSale #Hotz #AI #Startup #Tech #Apps #Mobile #Software #SaaS #Platform #Innovation #Digital #Brandable #Technology #Social #Gaming #Entertainment #Lifestyle #Food #Commerce #Marketing #Creator #Cloud #Automation #Growth #Business #Global #Premium #Future #Venture",
-"likeCount": 5,
-"retweetCount": 0,
-"url": "https://x.com/DomainFQ/status/2076989178202697940",
-"createdAt": "Tue Jul 14 11:16:23 +0000 2026"
-},
-{
-"userName": "matthewh6_",
-"text": "I'll be presenting TMRL at #RSS2026!\n\nThu 7/16, 3:15 PM @ Imitation Learning 3 Session\nFri 7/17, 5:30–6:00 PM @ Diffusion for Robot Learning Workshop(https://t.co/Xaf8UwwrTK)\n\nStop by our poster after Thursday's session, happy to talk real-world RL, or pre-training for post-training broadly. Come say hi 👋\n\nhttps://t.co/BjqCO6wnxc",
-"likeCount": 20,
-"retweetCount": 2,
-"url": "https://x.com/matthewh6_/status/2077187100265619950",
-"createdAt": "Wed Jul 15 00:22:51 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @mervenoyann: Thinking Machines just dropped a ~1T Omni model 🔥\n\n&gt; 1M context window, trained on 48T tokens of image, text, audio 🤯\n&gt; co…",
-"likeCount": 146,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2077485575737573628",
-"createdAt": "Wed Jul 15 20:08:53 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @akashmjn: Happy to announce that I will be attending Woodstock i.e. the HF OSS meetup ✈️\n\n@ClementDelangue - I guess you really did mak…",
-"likeCount": 21,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2077435593571680590",
-"createdAt": "Wed Jul 15 16:50:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @LysandreJik: Thinking Machines' Inkling is out: first ever open and large (1T), text, image and audio in, text out.\n\nOne thing I find q…",
-"likeCount": 128,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2077460185929445493",
-"createdAt": "Wed Jul 15 18:28:00 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @digg: Hugging Face CEO @ClementDelangue floated a San Francisco \"meetup or march\" for open-source and local AI. The reaction so far is…",
+"userName": "jupiterbaz",
+"text": "[full guide to ambassador program of surf ] \n\n[ surf researcher program]  \n\nthis program is designed for content creators. unlike what you might think, you don’t need to publish a large number of posts every day. \naccording to the team, creating around 5 high-quality and meaningful pieces of content (content based on your honest analysis, not just promotional text) is enough. \n\nthey are not looking for meaningless posts or content that is purely promotional.\n\nthey also mentioned that you should avoid price predictions, giving trading signals, or creating fomo to encourage people to buy a specific token.\n\ninstead of paying a fixed amount for each piece of content, researchers will earn 25 usdc for every new paid subscriber who purchases a subscription through their personal referral link, and there is no limit to how much you can earn.\n\nthis program includes 3 roles that you can progress through based on your activity and contributions, and u can even earn all of them:\n\n• wave rider\n• tide surfer\n• ocean legend\n\nImportant note: none of these roles are guaranteed to stay with you forever. \nif you become inactive, they will be removed by the team at the end of each season. also, the process of selecting people for these roles is done manually, very carefully, and is highly limited.\n\nas you move up each level, you will receive more benefits, including:\n\n• more api credits\n• more surf studio credits\n• better product access and support\n\nalso, if u create high-quality content, you’ll have the opportunity to be featured on the surf acc of twitter . this will happen every month.\n\nduring the ama, the team emphasized that the number of followers or the size of your account is not the main selection criteria. instead, they focus more on:\n\n> genuine community engagement\n> having an organic audience\n> research and analysis experience\n> the overall quality of your content\n\nthey also said that people who create content in english will have priority, but that doesn’t mean the program is limited to english creators. \naccording to the image the team shared during the ama, creators who produce content in turkish, chinese, korean, and japanese can also apply.\n\naccording to the team, season 1 of this program will begin in August , and details about future seasons will be announced later.\n\nfinally, i’m sharing the application form for the program below. if you’re interested in it, i highly recommend filling it out and trying to stay active in the program.\n\nHere is link > https://t.co/GwElVXPAPL\n@kevin_lur @YiwiJR",
 "likeCount": 10,
+"retweetCount": 0,
+"url": "https://x.com/jupiterbaz/status/2077799197990883661",
+"createdAt": "Thu Jul 16 16:55:07 +0000 2026"
+},
+{
+"userName": "HumanCreativeUS",
+"text": "Our CEO wrote on July 10th, \"Today is Human Creative's One Year Anniversary. We began with three founders, almost no money, and spent the past year in true Startup fashion:\n\n• Late Nights\n• 7am Saturday morning Partner Meetings\n• Working on holidays\n• Meetings with educators, artists, businesses, and individuals\n• Meetings with investors, marketers, angel groups, podcasts, business coaches, art networks, AI coalitions, Educational/Institutional leadership, think tanks, etc. etc.\n• Competed in and won $$$ in a pitch competition\n• Attended and spoke at conferences\n• Hired the best Chief Software Engineer imaginable\n• Hired the best Software Development Intern imaginable -- then promoted him as our Junior Developer\n• Hired for positions in sales/marketing and operations\n\nNow we're providing the most robust solution to the AI-content-detector problem out there: a live-monitoring word processor. We live-track the entire process, monitor for AI, audit content, and certify finished works as human-made. We provide verifiable evidence to those reading Certified Human Content™ that what they have received was not produced with generative-AI.\n\nWatch our commercial here: https://t.co/0lVR9jP6j9\nVisit the website here: https://t.co/JbfAxhQp0d \nIndividuals can sign up here: https://t.co/AlAIgkjq81\nOrganizations and schools can contact tiffany@humancreative.org to get any content submitted to them vetted. \nPeek at the submission portal here: https://t.co/GZ24MBCM1B\n\nTo say we are proud is an understatement. I thank the Lord everyday for the immense joy of working with the talented and kind people I work with; for the team ethos that fills all of our meetings with laughter and camaraderie; and for the opportunity to provide a solution to this widespread pain point in a unique cultural moment.\"\n\n------\nThe above is verified Certified Human Content™. Verify at https://t.co/y7wNeqC7Ws",
+"likeCount": 1,
+"retweetCount": 2,
+"url": "https://x.com/HumanCreativeUS/status/2076767026266206674",
+"createdAt": "Mon Jul 13 20:33:38 +0000 2026"
+},
+{
+"userName": "NusratJaha07",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @NusratJaha07 For More Tools.",
+"likeCount": 43,
+"retweetCount": 29,
+"url": "https://x.com/NusratJaha07/status/2077793214774526401",
+"createdAt": "Thu Jul 16 16:31:20 +0000 2026"
+},
+{
+"userName": "MaeNongB_TH",
+"text": "#TatlerAsia\n#TatlerLeadership #TatlerGenT #LeadersOfTomorrow \n#beckysangels\n#BeckyArmstrong‌\n#BeckyEntertainment\n\n[AI] \"Becky\" Rebecca Patricia Armstrong: A Driving Force in Contemporary Culture, Bringing Thai Soft Power to the Global Stage.\n\nA New Generation Powerhouse Bringing Thai Soft Power to the Global Stage\nThe success of Becky Armstrong is not measured by the number of followers she has, but by her ability to serve as a bridge that introduces the beauty and charm of Thailand to the world.\nRebecca Patricia Armstrong is one of Thailand's leading actresses to have made a significant impact on the international stage through the global Girls' Love (GL) phenomenon. She also made history as the first Thai to be included in the BoF 500, the fashion industry's prestigious list of the world's most influential figures.\nMost recently, she was named one of the three recipients of the Rising Star of the Year award at the 2026 Global OTT Awards in Busan for her portrayal of Nanno in the Thai fantasy thriller Girl from Nowhere: The Reset. Looking ahead, she is set to embark on a concert tour spanning more than ten countries next year, fulfilling her dream of becoming a full-fledged solo artist.\nHer growing influence as a representative of a new generation of Thai cultural ambassadors has earned her recognition as one of Tatler's Gen.T Leaders of Tomorrow 2026. Yet despite achieving milestones many aspire to, the 23-year-old defines success in remarkably simple terms:\n\"Success, for me, is waking up every day and getting to do what I love. Having passion, being happy, wanting to meet people, and being excited to try new things.\"",
+"likeCount": 82,
+"retweetCount": 55,
+"url": "https://x.com/MaeNongB_TH/status/2076693801310236818",
+"createdAt": "Mon Jul 13 15:42:39 +0000 2026"
+},
+{
+"userName": "kitsune_xbt",
+"text": "SOMEONE BUILT THE FIRST FONT THAT AI CAN'T READ\n\nand it might change the whole industry...\n\nit's called Ghost Font and it does one strange thing really well\n\nit hides your text inside tiny moving dots\n\nyour eye catches the message through the motion in a second\n\nbut freeze any single frame and the AI just sees random noise\n\nthat gap is the whole trick\n\nhuman vision reads movement over time, most AI vision reads one still frame at a time\n\nso the same image that's obvious to you looks like static to the machine\n\nit can even drop in fake decoy messages on purpose\n\nso if a model does try to read it, it walks away with the wrong text entirely\n\nthe creator is honest about it, this is a research project, not an unbreakable shield\n\nfuture models could learn to crack it\n\nbut that's not really the point\n\nthe point is it just exposed how differently your eyes and a machine actually see the world\n\nand that crack is where the real stuff gets built\n\nthink AI-proof CAPTCHAs that bots can't farm\n\nprivacy tools that hide your text from scrapers\n\nvisual messages only a human can open\n\nmost people are still asking how to sound less like AI in their writing\n\nmeanwhile a few are quietly figuring out how to hide from AI vision entirely\n\nthat's the gap that turns into products\n\nbreaking down how this dot-motion trick actually works, step by step, in my next post\n\ndon't miss this one",
+"likeCount": 11,
 "retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2077488615848882461",
-"createdAt": "Wed Jul 15 20:20:58 +0000 2026"
+"url": "https://x.com/kitsune_xbt/status/2077778034506043493",
+"createdAt": "Thu Jul 16 15:31:01 +0000 2026"
+},
+{
+"userName": "PakStartup",
+"text": "Rendream unveils LookCheck AI, Pakistan's First AI Smart Mirror designed for fashion retail.\n\nMaking its grand debut at Textile Asia 2026 at the Expo Center Lahore (July 4-6), the LookCheck AI Smart Mirror is changing the retail landscape. Shopping in Pakistan is becoming smarter and faster thanks to this latest development from Rendream.\n\nAs the first of its kind in the nation, it offers a hyper-realistic virtual try-on experience that helps customers find their perfect size without the inconvenience of manual measurement or fitting rooms. Designed for modern fashion retail environments, these mirrors also feature integrated payment capabilities, allowing for a frictionless transition from finding an outfit to completing a secure purchase.\n\n\"We built this technology to solve the oldest problem in retail by transforming the frustration of the fitting room into a moment of pure discovery. We are not just upgrading the space; we are completely reimagining the retail journey to give shoppers their time back, absolute confidence, and ultimate convenience.\" shares @ArslanShafiq101 , COO of @rendreamllc\n\nFor more details:\nWebsite: https://t.co/mCO2waY78R\nMobile / WhatsApp: +92-309-1900900\nEmail: info@rendream.com",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/PakStartup/status/2077357140386476421",
+"createdAt": "Wed Jul 15 11:38:32 +0000 2026"
+},
+{
+"userName": "bmx_ai13",
+"text": "Created with Fashion Studio on @ImagineArt_X  this 15 second fashion film brings modern styling into a richly detailed heritage interior.\n\nWarm amber lighting, dark wood textures, a statement jacket, relaxed denim and controlled cinematic movement create an editorial atmosphere that feels intimate, refined and campaign ready.\n\nFrom composed wide shots to expressive close up portraits, every frame is designed to highlight texture, presence and character.\n\nFashion Studio goes beyond AI image generation transforming a simple concept into complete fashion direction, visual branding, and cinematic campaign storytelling.",
+"likeCount": 23,
+"retweetCount": 1,
+"url": "https://x.com/bmx_ai13/status/2075797479652565017",
+"createdAt": "Sat Jul 11 04:21:00 +0000 2026"
+},
+{
+"userName": "arena",
+"text": "Shifts we observe with factuality:\n\nWhile human preference scores across nearly all providers have been climbing over time, plotting pure factuality score against flagship model release date shows OpenAI is the only provider also consistently improving factuality over an extended period. SpacexAI and Meta have also been improving with their recent releases.\n\nInteract with this visual at: https://t.co/byV2f2tjpi",
+"likeCount": 23,
+"retweetCount": 2,
+"url": "https://x.com/arena/status/2077432299680141344",
+"createdAt": "Wed Jul 15 16:37:11 +0000 2026"
+},
+{
+"userName": "Bharati09",
+"text": "Leaving #BharatTex at the end of the day, I met these lovely twins. One, a fashion designer and the other, an AI engineer. \n\nBoth so excited to be at @TexMinIndia event. Enjoying the Bharat Mandapam.  “You can’t ignore AI,” says the fashion designer. “At least our generation. At least in India.”",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/Bharati09/status/2077739997650923854",
+"createdAt": "Thu Jul 16 12:59:52 +0000 2026"
+},
+{
+"userName": "1BlueButterfly6",
+"text": "@OniSensei8 @ChainsmokerCat_ I love the part where no generative AI was used in any of the animation BUT bc Wade over here said so the a crybaby fashion we must believe it",
+"likeCount": 20,
+"retweetCount": 1,
+"url": "https://x.com/1BlueButterfly6/status/2077415205563228575",
+"createdAt": "Wed Jul 15 15:29:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechCrunch: Thinking Machines amps up its bet against one-size-fits-all AI with its first open model, Inkling https://t.co/nQsGewP6Vv",
-"likeCount": 76,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2077458927457857876",
-"createdAt": "Wed Jul 15 18:23:00 +0000 2026"
+"text": "RT @Jason: Absolutely fantastic moment happening in tech right now… \n\n… open source enthusiasm combined with a dramatic drop in the cost of…",
+"likeCount": 1988,
+"retweetCount": 107,
+"url": "https://x.com/ClementDelangue/status/2077729067722314129",
+"createdAt": "Thu Jul 16 12:16:26 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/dGe6IjSMuB",
-"likeCount": 194,
-"retweetCount": 213,
-"url": "https://x.com/Ambani_Wessley/status/2077413699246068017",
-"createdAt": "Wed Jul 15 15:23:17 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @bgurley: This piece by @GavinSBaker makes me wonder if @elonmusk might consider making future @grok models \"open.\" \n\n1- Like @nvidia th…",
+"likeCount": 866,
+"retweetCount": 67,
+"url": "https://x.com/ClementDelangue/status/2077485269901565963",
+"createdAt": "Wed Jul 15 20:07:40 +0000 2026"
 },
 {
-"userName": "noel_ai_lab",
-"text": "https://t.co/1gnNC5pP4t",
-"likeCount": 66,
+"userName": "jeremyphoward",
+"text": "RT @arena: Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5.\n\nThis is a 17…",
+"likeCount": 17963,
+"retweetCount": 2488,
+"url": "https://x.com/jeremyphoward/status/2077915673351905403",
+"createdAt": "Fri Jul 17 00:37:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @natolambert: Thinky with a ~1T param, 41B active, apache-2 model\nBenchmarks are a clear step up from Nemotron Ultra (55B active), new b…",
+"likeCount": 986,
+"retweetCount": 75,
+"url": "https://x.com/ClementDelangue/status/2077462026402615624",
+"createdAt": "Wed Jul 15 18:35:19 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @abidlabs: This is insane! We've just started the challenge, and already 73 papers from ICML are partially or fully reproduced thanks to…",
+"likeCount": 48,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2077536990711386333",
+"createdAt": "Wed Jul 15 23:33:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @yacineMTB: insane. they distilled american frontier models that haven't even been invented yet. damn chinese",
+"likeCount": 8517,
+"retweetCount": 456,
+"url": "https://x.com/ClementDelangue/status/2077930746992644467",
+"createdAt": "Fri Jul 17 01:37:50 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Kimi_Moonshot: Meet Kimi K3 https://t.co/ou00Av3VoS",
+"likeCount": 19366,
+"retweetCount": 1721,
+"url": "https://x.com/ClementDelangue/status/2077932835302936913",
+"createdAt": "Fri Jul 17 01:46:08 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/7GBhIA653Q",
+"likeCount": 35,
 "retweetCount": 9,
-"url": "https://x.com/noel_ai_lab/status/2077021977974657265",
-"createdAt": "Tue Jul 14 13:26:43 +0000 2026"
-},
-{
-"userName": "gbmolch",
-"text": "https://t.co/d9R9J0IQ8G",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/gbmolch/status/2077036753706168434",
-"createdAt": "Tue Jul 14 14:25:26 +0000 2026"
+"url": "https://x.com/apob_ai/status/2077324314135892201",
+"createdAt": "Wed Jul 15 09:28:05 +0000 2026"
 }
 ]

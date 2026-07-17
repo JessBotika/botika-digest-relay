@@ -1,130 +1,162 @@
 [
 {
-"userName": "ArtificialAnlys",
-"text": "Thinking Machines has released Inkling, the new leading U.S. open weights model, debuting at 41 on the Artificial Analysis Intelligence Index\n\n@thinkymachines has previously released research previews of models and this is their first production language model release. The model is 975B total parameters, has 41B active parameters, and accepts text, image, and audio input modalities. The model is accessible via Thinking Machines’ Tinker platform API (256K context window) and weights are available on HuggingFace (1M context window).\n\nKey results:\n\n➤ Inkling debuts at 41 on the Artificial Analysis Intelligence Index, making it the leading open weights release from a U.S. lab. Inkling scores 3 points higher on the Intelligence Index (41) than the previous leading U.S. open weights model, Nemotron 3 Ultra (38), and also beats Gemma 4 31B (29) and gpt-oss-120b (24)\n\n➤ Inkling stands out on agentic performance. It scores higher than both Kimi K2.6 and DeepSeek v4 Flash on both GDPval-AA v2 and 𝜏³-Banking: Inkling scores an Elo of 1238 on GDPval-AA v2, higher than Kimi K2.6 (1190) and DeepSeek v4 Flash max (1189) and scores 24% on 𝜏³-Banking, higher than Kimi K2.6 (21%) and just above DeepSeek v4 Flash max (23%)\n\n➤ Inkling is token efficient compared to open weights leaders. Inkling averages 25K output tokens per Intelligence Index task compared to 43K, 38K and 37K by GLM-5.2 (max), Kimi K2.6 and DeepSeek v4 Pro (max) respectively\n\n➤ Inkling natively supports image and audio multimodal inputs, a key differentiator among open weights models. Inkling accepts text, image, and audio input modalities. Images and videos are encoded via a hierarchical patch encoder and audio via discrete token encoding, with all modalities projected into a shared hidden space and processed jointly by the decoder\n\nAdditional model details:\n\n➤ Size: 975B (41B active) parameters\n\n➤ Input modalities: Text, image, and audio (text output)\n\n➤ Context window: 256K tokens on Tinker, open weights model supports 1M\n\n➤ Pricing per 1M tokens (64K context window): $1.87 input / $0.374 cached / $4.68 output\n\n➤ Pricing per 1M tokens (256K context window): $3.74 input / $0.748 cached / $9.36 output",
-"likeCount": 605,
-"retweetCount": 47,
-"url": "https://x.com/ArtificialAnlys/status/2077466590346444939",
-"createdAt": "Wed Jul 15 18:53:27 +0000 2026"
+"userName": "Pluvio9yte",
+"text": "AI Is Moving Beyond “Generating Videos” — Toward “Generating Worlds”\n\nOver the past two years, AI video models have advanced at an astonishing pace.\n\nFrom Runway and Pika to Sora and Veo, AI-generated videos have become increasingly realistic and more consistent with the physical laws of the real world.\n\nMany people believe the next objective is simply to generate videos that are longer, sharper, and more lifelike.\n\nBut if we take a step back, we can see that the real transformation is not happening in video itself.\n\nIt is happening in world models.\n\nWhat Is a World Model?\n\nIn 1943, psychologist Kenneth Craik proposed an idea that would influence artificial intelligence research for decades.\n\nHe argued that the human brain does not merely react to the outside world. Instead, it maintains an internal model of how the world works.\n\nBecause we have this internal model, we can predict the outcome of an action before we actually take it.\n\nBefore crossing a road, we estimate whether a car will pass by.\n\nBefore catching a ball, we predict its trajectory.\n\nThese abilities come from continuously simulating the world in our minds, rather than relying entirely on trial and error.\n\nThis idea later became known by a more formal term:\n\nWorld Model.\n\nA world model does not describe a single image or a fixed video clip.\n\nIt is an internal representation capable of continuously simulating the rules and dynamics of the real world.\n\nWhy Is AI Research Turning Toward World Models?\n\nBecause predicting “what comes next” is becoming increasingly central to how AI systems work.\n\nLanguage models predict the next token.\n\nImage models predict the next step in the denoising process.\n\nVideo models predict the next frame.\n\nA world model, however, attempts to predict something broader:\n\nWhat should the world look like in the next moment?\n\nIn 2018, David Ha and Jürgen Schmidhuber proposed in their paper World Models that an intelligent agent could first learn a model of the world, and then use that internal model to plan its actions.\n\nThe Dreamer series later demonstrated that many complex tasks could be learned by training agents inside an “imagined world.”\n\nAt the same time, the development of video models such as Sora and Veo led researchers to another realization:\n\nA model capable of continuously generating video has already learned, at least implicitly, many of the rules governing the real world.\n\nAs a result, these two research directions have gradually begun to converge.\n\nBut Video Is Not Yet a World\n\nThis is where the distinction is often misunderstood.\n\nFor a world model to support meaningful real-time interaction, it must solve several critical problems.\n\nMost video models today are essentially answering one question:\n\nWhat should the next frame look like?\n\nA true world model needs to answer much more:\n\nWhat happens if I take one step forward?\n\nIf I walk behind a building and then return, will the building still be there?\n\nIf I suddenly change the camera angle, will the entire space remain consistent?\n\nIf I enter a command such as:\n\n“Summon a dragon.”\n\nWill the world respond immediately?\n\nIn other words, a world model must do more than generate content.\n\nIt must understand space.\n\nIt must understand time.\n\nIt must understand causality.\n\nAnd it must understand interaction.\n\nMoving from watching to participating is where the real difficulty of world models begins.\n\nWorld Models Are Entering the Interactive Era\n\nOne of the latest attempts in this direction is Alaya World, recently open-sourced by Alaya World, or @alayastd.\n\nInstead of generating a fixed video clip, it generates a world that users can explore in real time.\n\nUsers can begin with text, an image, or a video, enter the generated scene, move freely through it, and introduce new prompts at any moment during generation.\n\nThe world responds immediately.\n\nAccording to the publicly released information, Alaya World provides:\n\nReal-time streaming generation at 720p and 24 FPS\nStable continuous exploration for more than one minute\nThe ability to switch prompts and trigger skills or events during generation\nModel weights and inference code released under the Apache 2.0 License\nTraining code and datasets planned for future release\n\nWhat makes these capabilities important is not simply the technical specifications.\n\nIt is that the generated “world” can now support continuous interaction.\n\nThe official demo shows that users can genuinely control, transform, and explore the generated environment.\n\nAI Is Evolving From a Tool Into an Environment\n\nOver the past few years, most discussions around AI have focused on content generation.\n\nGenerating text.\n\nGenerating images.\n\nGenerating videos.\n\nBut world models raise a fundamentally different question:\n\nCan AI generate an environment that people can inhabit, explore, and continuously evolve?\n\nIf the answer is yes, the impact will extend far beyond video generation.\n\nGame development, robotics training, embodied intelligence, digital twins, virtual production, and many other fields could be transformed by the development of world models.\n\nWorld models are still at a very early stage.\n\nYet from Craik’s proposal of an internal mental model more than eighty years ago to the emergence of today’s interactive world-generation systems, a clear evolutionary path is beginning to take shape.\n\nPerhaps what AI is ultimately learning has never been limited to images, videos, or language.\n\nPerhaps it is learning the world itself.\n\nReferences\n\nGitHub:\nhttps://t.co/etS3gzvJ8j\nTechnical Report:\nhttps://t.co/binTUfoPRW",
+"likeCount": 54,
+"retweetCount": 2,
+"url": "https://x.com/Pluvio9yte/status/2077758657752887363",
+"createdAt": "Thu Jul 16 14:14:01 +0000 2026"
 },
 {
-"userName": "Alam_coder",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Alam_coder For More Tools.",
+"userName": "e_opore",
+"text": "Building AI Agents from Scratch Tutorial Series (AI Era Edition) in 30 days.( If interested say hi 👋)\n\nMaster modern AI agent engineering by building production-ready autonomous AI systems from the ground up.\n\n1. Day 1: What Are AI Agents? – LLMs, Agents, Workflows, and Autonomous Systems\nProject: Build your first AI chatbot agent.\n\n2. Day 2: Setting Up the Development Environment – Python, VS Code, APIs, and Virtual Environments\nProject: Configure a complete AI agent development workspace.\n\n3. Day 3: Understanding Large Language Models (LLMs) – Prompting, Tokens, Context Windows, and Reasoning\nProject: Connect your application to an LLM API.\n\n4. Day 4: Prompt Engineering for AI Agents – System Prompts, Instructions, and Few-Shot Learning\nProject: Build a prompt-driven coding assistant.\n\n5. Day 5: Agent Architecture – Planning, Reasoning, Memory, and Actions\nProject: Design a reusable AI agent framework.\n\n6. Day 6: Building an Agent Loop – Observe, Think, Plan, Act, and Reflect\nProject: Create an autonomous task execution agent.\n\n7. Day 7: Tool Calling and Function Calling\nProject: Build an AI agent that uses weather and calculator tools.\n\n8. Day 8: Memory Systems – Short-Term, Long-Term, and Vector Memory\nProject: Create an AI assistant that remembers previous conversations.\n\n9. Day 9: Retrieval-Augmented Generation (RAG) Fundamentals\nProject: Build a PDF question-answering agent.\n\n10. Day 10: Embeddings and Vector Databases – FAISS, ChromaDB, and Pinecone\nProject: Create a searchable knowledge base.\n\n11. Day 11: AI Agent Planning Strategies – ReAct, Chain-of-Thought, and Tree of Thoughts\nProject: Build a reasoning-based planning agent.\n\n12. Day 12: Multi-Step Workflows and Task Decomposition\nProject: Build an AI research assistant.\n\n13. Day 13: AI Agents with MCP (Model Context Protocol)\nProject: Connect an AI agent to external developer tools using MCP.\n\n14. Day 14: AI Agents with LangChain\nProject: Build a document analysis agent.\n\n15. Day 15: AI Agents with LangGraph\nProject: Build a stateful multi-step AI workflow.\n\n16. Day 16: AI Agents with OpenAI Agents SDK\nProject: Create a customer support AI agent.\n\n17. Day 17: Browser Automation Agents\nProject: Build an AI web automation assistant.\n\n18. Day 18: Computer Use Agents\nProject: Create an AI agent that automates desktop tasks.\n\n19. Day 19: Coding Agents and Software Engineering Assistants\nProject: Build an AI code review assistant.\n\n20. Day 20: AI Agents with APIs and Databases\nProject: Build an AI-powered CRM assistant.\n\n21. Day 21: Multi-Agent Systems – Collaboration and Communication\nProject: Build a team of specialized AI agents.\n\n22. Day 22: AI Agent Security, Guardrails, and Safety\nProject: Secure an AI agent against prompt injection.\n\n23. Day 23: AI Agent Evaluation and Benchmarking\nProject: Build an automated testing framework for agents.\n\n24. Day 24: Voice AI Agents – Speech-to-Text and Text-to-Speech\nProject: Build a voice assistant.\n\n25. Day 25: Vision AI Agents – Image Understanding and Multimodal Models\nProject: Build an AI image analysis assistant.\n\n26. Day 26: AI Agents with Local Models – Ollama, LM Studio, and Open-Source LLMs\nProject: Run an offline AI agent locally.\n\n27. Day 27: Deploying AI Agents – Docker, Cloud, CI/CD, and Monitoring\nProject: Deploy a production-ready AI agent.\n\n28. Day 28: AI SaaS Architecture – Authentication, Billing, and User Management\nProject: Build an AI Agent SaaS platform.\n\n29. Day 29: Scaling AI Agents – Performance, Cost Optimization, Caching, and Observability\nProject: Optimize an enterprise AI agent deployment.\n\n30. Day 30: Final Capstone Project – Build a Production-Ready AI Agent Platform with Memory, RAG, MCP, Tool Calling, Multi-Agent Collaboration, Authentication, Docker Deployment, Monitoring, and Cloud Hosting.\n\nGrab the Building AI Agents from Scratch Ebook:\nhttps://t.co/SWCKKtbPNm\n\n#AIAgents #AgenticAI #LLM #ArtificialIntelligence\n\nFollow @e_opore  to learn more.",
+"likeCount": 61,
+"retweetCount": 13,
+"url": "https://x.com/e_opore/status/2077958272783442257",
+"createdAt": "Fri Jul 17 03:27:13 +0000 2026"
+},
+{
+"userName": "mladner30",
+"text": "What if the Protocols of the Learned Elders of Zion were not a forgery, but an authentic strategic document outlining a multi-generational campaign against Christian civilization?\n\nLet us run that theory to its logical conclusion using the highest credible scholarly estimates available.\n\nThe Playbook: Control of finance, media, education, promotion of liberalism/socialism/communism, moral subversion, engineered crises, and perpetual war, all designed to break Christian nations from within and without.\n\nThe Body Count Under This Framework:\n\nCommunist regimes worldwide (Bolshevism and its offshoots): 148–170 million (R.J. Rummel’s high-end democide research)\n\nWorld War I & World War II: 90–105 million\n\nVietnam War: 3.1 million\n\nPost-9/11 Middle East wars (driven by bad intelligence and aligned interests): 4.6 million\n\nAbortion in America since 1973: 66 million\nCumulative total under this theory: 312 – 350 million deaths.\n\nThat is not a footnote of history. That is the equivalent of wiping out the entire population of the United States three times over.\n\nEvery category fits the Protocols’ described methodology:\n\nBolshevism as the ultimate revolutionary weapon against Christian monarchies and societies\n\nGlobal wars that drain blood and treasure while redrawing maps\n\nThe transformation of America from within replacing Christian morality with legal abortion on a scale that dwarfs every U.S. war combined\n\nFrom a Christian perspective, this represents something far darker than mere political failure. It represents a sustained, systematic assault on the image of God in man whether through the Gulag, the killing fields, the battlefield, or the abortion clinic.\n\nThe sheer scale is almost incomprehensible. Over 300 million souls in roughly 150 years.\n\nThis exercise is not about proving the document’s authenticity. It is about observing that the historical outcomes the death of Christian Russia, the demographic and moral collapse of the West, the endless wars, and the normalization of mass killing of the unborn track disturbingly well with the strategy laid out in that text.\n\nWhether one believes the Protocols are genuine or a forgery, the patterns are real.\nThe blood is real.\n\nThe question every serious Christian must now wrestle with is this:\nIf a coordinated spiritual assault on Christendom actually occurred at this scale…\n\nAre we prepared to acknowledge it?",
 "likeCount": 64,
-"retweetCount": 41,
-"url": "https://x.com/Alam_coder/status/2077338776448508315",
-"createdAt": "Wed Jul 15 10:25:34 +0000 2026"
+"retweetCount": 28,
+"url": "https://x.com/mladner30/status/2077904073190428922",
+"createdAt": "Thu Jul 16 23:51:51 +0000 2026"
 },
 {
-"userName": "MaeNongB_TH",
-"text": "#TatlerAsia\n#TatlerLeadership #TatlerGenT #LeadersOfTomorrow \n#beckysangels\n#BeckyArmstrong‌\n#BeckyEntertainment\n\n[AI] \"Becky\" Rebecca Patricia Armstrong: A Driving Force in Contemporary Culture, Bringing Thai Soft Power to the Global Stage.\n\nA New Generation Powerhouse Bringing Thai Soft Power to the Global Stage\nThe success of Becky Armstrong is not measured by the number of followers she has, but by her ability to serve as a bridge that introduces the beauty and charm of Thailand to the world.\nRebecca Patricia Armstrong is one of Thailand's leading actresses to have made a significant impact on the international stage through the global Girls' Love (GL) phenomenon. She also made history as the first Thai to be included in the BoF 500, the fashion industry's prestigious list of the world's most influential figures.\nMost recently, she was named one of the three recipients of the Rising Star of the Year award at the 2026 Global OTT Awards in Busan for her portrayal of Nanno in the Thai fantasy thriller Girl from Nowhere: The Reset. Looking ahead, she is set to embark on a concert tour spanning more than ten countries next year, fulfilling her dream of becoming a full-fledged solo artist.\nHer growing influence as a representative of a new generation of Thai cultural ambassadors has earned her recognition as one of Tatler's Gen.T Leaders of Tomorrow 2026. Yet despite achieving milestones many aspire to, the 23-year-old defines success in remarkably simple terms:\n\"Success, for me, is waking up every day and getting to do what I love. Having passion, being happy, wanting to meet people, and being excited to try new things.\"",
-"likeCount": 82,
-"retweetCount": 55,
-"url": "https://x.com/MaeNongB_TH/status/2076693801310236818",
-"createdAt": "Mon Jul 13 15:42:39 +0000 2026"
+"userName": "Jeffar_AI",
+"text": "🚀 100+ AI Tools to Save Hours of Work in Minutes\n\nStop doing everything manually.\n\nHere's an AI stack for almost every task:\n\n🖥️ Presentations\n• Gamma\n• Decktopus\n• https://t.co/6TG5OOd7xE\n• SlidesAI\n• https://t.co/EmCnOvpM32\n\n💡 Ideas & Research\n• Claude\n• ChatGPT\n• Perplexity\n• Copilot\n• Bing Chat\n\n🌐 Website Builders\n• Framer\n• Dora\n• 10Web\n• Unicorn\n• Style AI\n\n✍️ Writing\n• Jasper\n• HIX AI\n• LongShot\n• Text Blaze\n• Jenni AI\n\n🎙️ Meetings\n• tl;dv\n• Krisp\n• Otter\n• Fathom\n• Noty AI\n\n🤖 AI Chatbots\n• Chatbase\n• Droxy\n• ChatSimple\n• CustomGPT\n• Mutual Info\n\n⚡ Automation\n• Zapier\n• Make\n• Bardeen\n• Xembly\n• Levity\n\n🎨 UI/UX\n• Figma\n• Uizard\n• UiMagic\n• InstantAI\n• Photoshop\n\n🖼️ Image Generation\n• Midjourney\n• Stability AI\n• Microsoft Designer\n• Fotor\n• Leap AI\n\n🎥 Video Creation\n• HeyGen\n• InVideo\n• Opus Clip\n• Klap\n• Eightify\n\n🎨 Design\n• Canva\n• Clipdrop\n• Flair AI\n• Designify\n• Magician\n\n🧠 Prompt Libraries\n• FlowGPT\n• PromptBase\n• PromptBox\n• Snack Prompt\n• Alicent AI\n\n📈 Productivity\n• Notion\n• Grammarly\n• Merlin\n• Trello\n• TinyWow\n\n🏷️ Logo Makers\n• Looka\n• Brandmark\n• LogoMakr\n• Stockimg AI\n• Namecheap Logo Maker\n\n📢 Marketing\n• https://t.co/Wi0d6cIy5v\n• Simplified\n• AdCopy\n• Pencil\n• AI-Ads\n\n🐦 X (Twitter) Growth\n• Typefully\n• Taplio\n• Hypefury\n• TweetHunter\n• Tweetlify\n\nBookmark this thread.\n\nFollow @Jeffar_AI for more AI tools, prompts, and automation tips. 🚀",
+"likeCount": 39,
+"retweetCount": 24,
+"url": "https://x.com/Jeffar_AI/status/2077978532052115734",
+"createdAt": "Fri Jul 17 04:47:43 +0000 2026"
 },
 {
-"userName": "FareaNFts",
-"text": "10 free websites that feel illegal to know 👀\n\nbookmark before someone takes them down\n\n1. https://t.co/0GCsd8pCQb\n\n> the entire internet's memory\n> old websites, books, films, software - all free\n\n2. https://t.co/1YP1Ete1OV\n\n> almost every textbook ever published\n> researchers use it, universities pretend it does not exist\n\n3. https://t.co/F1Glijq8ng\n\n> paywalled research papers, unlocked\n> elsevier hates this site\n\n4. https://t.co/MVFXNSQMbi\n\n> the largest shadow library on earth\n> books, papers, comics - all searchable\n\n5. https://t.co/STe0I0N2L7\n\n> install 20 essential programs on a fresh pc in one click\n> no ads, no bloatware\n\n6. https://t.co/6hZzTihmAf\n\n> turn any text into ascii art instantly\n> looks like every hacker movie title card\n\n7. https://t.co/aucWqWdp0g\n\n> paste any text, get the language in half a second\n> free, no signup\n\n8. https://t.co/I2CXMhbDqV\n\n> remove the background from any image in one click\n> free tier actually works\n\n9. https://t.co/gZWm4aWHAp\n\n> 200+ free tools in one place\n> pdf editor, video converter, image compressor, ai writer - no signup\n\n10. https://t.co/BqRLvcmQ7L\n\n> download videos from youtube, tiktok, instagram, x\n> no watermark, no ads\n\nthe internet used to feel like this everywhere\nthese are some of the last free ones still standing\n\nyour buddy pays for half of these as apps\nyou bookmark this and pay $0\n\nbookmark this list before it gets buried",
-"likeCount": 15,
-"retweetCount": 3,
-"url": "https://x.com/FareaNFts/status/2077631878350459360",
-"createdAt": "Thu Jul 16 05:50:14 +0000 2026"
-},
-{
-"userName": "thisdudelikesAI",
-"text": "10 WEBSITES THAT FEEL ILLEGAL TO KNOW FOR FREE.\n\nBookmark before they get taken down.\n\n1. https://t.co/UVb0SY2e17\nThe entire internet's memory. Old websites, books, films, software. All free.\n\n2. https://t.co/kUdnyNWnWc\nAlmost every textbook ever published. Researchers use it. Universities pretend it doesn't exist.\n\n3. https://t.co/fMvfjDDt70\nPaywalled research papers, unlocked. Elsevier hates this site.\n\n4. https://t.co/gMFD36cZCt\nThe largest shadow library on earth. Books, papers, comics, all searchable.\n\n5. https://t.co/YA0AiWudBh\nInstall 20 essential programs on a fresh PC in one click. No ads. No bloat.\n\n6. https://t.co/oKd5n27pgw\nTurn any text into ASCII art instantly. Looks like hacker movie titles.\n\n7. https://t.co/7o69oOCo0n\nPaste any text. Tells you what language it is in 0.5 seconds.\n\n8. https://t.co/o1alH12mIj\nRemove the background from any image in one click. Free.\n\n9. https://t.co/ceNxA2Whhr\n200+ free tools. PDF editor, video converter, AI writer, image compressor. No signup.\n\n10. https://t.co/wxw5hfvg5M\nDownload videos from YouTube, TikTok, Instagram, Twitter. No watermark. No ads.\n\nThe internet used to be like this everywhere. These sites are the last ones standing.",
-"likeCount": 1637,
-"retweetCount": 273,
-"url": "https://x.com/thisdudelikesAI/status/2077368558275956805",
-"createdAt": "Wed Jul 15 12:23:54 +0000 2026"
-},
-{
-"userName": "oritheoracle1",
-"text": "Complete Follow Up System For Outbound Leads (Cold Calling - Cold Email - LinkedIn) Explained\n\n5 Minute Rule (Zapier Notification)\nResearch + Call\nEstablish Trust + Credibility \n7 Unique Follow Ups 1-2X/Week\nRule it can't be something I would only do in a sales setting, if it is it doesn't \"work\"\n7 Examples:\n\nCaveman Text (Bad Grammar)\nImage of similar client getting leads/sales \nText voice note\nLinkedIn Connect + Message\nOther Social\nCold Reading Based On Website + Socials (You Can Usually Tell If Optimized For Conversion)\nMix of Personal + Business Messages (Ty Frankel is great at these)\n\nKnow When to Stop - If You Work TOO Hard You End Up With Bad Clients\nIf You Reach 50% is okay!\nJust close 10% of those 50% and you're in line with our other most successful clients",
-"likeCount": 9,
+"userName": "PakStartup",
+"text": "@rendreamllc unveils LookCheck AI, Pakistan's First AI Smart Mirror designed for fashion retail.\n\nMaking its grand debut at Textile Asia 2026 at the Expo Center Lahore (July 4-6), the LookCheck AI Smart Mirror is changing the retail landscape. Shopping in Pakistan is becoming smarter and faster thanks to this latest development from Rendream.\n\nAs the first of its kind in the nation, it offers a hyper-realistic virtual try-on experience that helps customers find their perfect size without the inconvenience of manual measurement or fitting rooms. Designed for modern fashion retail environments, these mirrors also feature integrated payment capabilities, allowing for a frictionless transition from finding an outfit to completing a secure purchase.\n\n\"We built this technology to solve the oldest problem in retail by transforming the frustration of the fitting room into a moment of pure discovery. We are not just upgrading the space; we are completely reimagining the retail journey to give shoppers their time back, absolute confidence, and ultimate convenience.\" shares @ArslanShafiq101, COO of Rendream.\n\nDisclaimer: This content is informational purposes only, Startup Pakistan is not responsible for the claims, features, or performance of the products and services mentioned in this post.Readers are advised to verify specifications, availability, pricing, and other details directly with Rendream before making any purchasing or business decisions.\n\n#LookCheckAI #Rendream #AI #ArtificialIntelligence #SmartMirror #FashionTech #RetailTech #VirtualTryOn #TextileAsia2026 #MadeInPakistan #PakistanTech",
+"likeCount": 5,
 "retweetCount": 0,
-"url": "https://x.com/oritheoracle1/status/2077412925870850142",
-"createdAt": "Wed Jul 15 15:20:12 +0000 2026"
+"url": "https://x.com/PakStartup/status/2077293655572742229",
+"createdAt": "Wed Jul 15 07:26:16 +0000 2026"
 },
 {
-"userName": "bmx_ai13",
-"text": "Created with Fashion Studio on @ImagineArt_X  this 15 second fashion film brings modern styling into a richly detailed heritage interior.\n\nWarm amber lighting, dark wood textures, a statement jacket, relaxed denim and controlled cinematic movement create an editorial atmosphere that feels intimate, refined and campaign ready.\n\nFrom composed wide shots to expressive close up portraits, every frame is designed to highlight texture, presence and character.\n\nFashion Studio goes beyond AI image generation transforming a simple concept into complete fashion direction, visual branding, and cinematic campaign storytelling.",
+"userName": "puba1983",
+"text": "#Lenskart has quietly built one of India's strongest retail franchises.\n\nA few key takeaways from BofA's initiation report:\n✅ Only ~5% market share in a highly underpenetrated eyewear market\n\n✅ 23% / 39% / 46% Revenue / EBITDA / EPS CAGR expected (FY26–FY28)\n\n✅ AI is becoming a key competitive advantage—from remote diagnostics and virtual try-ons to personalized recommendations, store expansion and supply-chain optimisation.\n\n✅ 2,600+ stores and 120 million+ app downloads, making it one of India's largest retail brands.\n\n✅ Store payback period of less than 1 year, with better unit economics in smaller towns.\n\n✅ International business is scaling well, with profitability already looking stronger than India.\n\n✅ Healthy operating leverage could expand EBITDA margins by ~300 bps by FY28, while management aspires for ~25% long-term EBITDA margins.\n\n✅ Strong balance sheet and healthy free cash flow generation provide ample firepower to invest in stores, technology and manufacturing.\n\nThis isn't just an eyewear retailer anymore. It's a vertically integrated, AI-enabled consumer platform with a long runway for compounding.\n\nIf execution continues, I believe Lenskart deserves to trade at a premium valuation despite looking expensive on near-term earnings. \n#Lenskart #Retail #AI #Consumer #GrowthInvesting #LongTermInvesting #StockMarket #GARP",
 "likeCount": 23,
-"retweetCount": 1,
-"url": "https://x.com/bmx_ai13/status/2075797479652565017",
-"createdAt": "Sat Jul 11 04:21:00 +0000 2026"
+"retweetCount": 2,
+"url": "https://x.com/puba1983/status/2077562418553815056",
+"createdAt": "Thu Jul 16 01:14:14 +0000 2026"
 },
 {
-"userName": "Leopeva64",
-"text": "A new bubble and a new link row in Settings solve the mystery of Chrome's \"Indigo\" feature: it's a built-in virtual try-on tool. The AI will take a photo of you, apply a garment shown on the page, and replace the original image with your photo wearing it:\nhttps://t.co/f3iDNmcxVE https://t.co/kJM4R9svQf",
-"likeCount": 6,
+"userName": "jiqizhixin",
+"text": "Ever tried to watch a virtual try-on from any angle, not just the original video's camera path? \n\nResearchers from Alibaba and the Chinese Academy of Sciences present TryOnCrafter. \n\nIt builds a 4D \"try-on proxy\" — a 3D avatar of the garment that moves with the person — then uses that proxy to guide a video AI. \n\nThe result: photorealistic try-on videos that follow any camera trajectory you choose. Outperforms existing methods in preserving garment detail and structural consistency across complex, unconstrained camera movements.\n\nTryOnCrafter: Unleashing Camera Trajectories for Realistic Video Virtual Try-on via a Renderable 4D Try-on Proxy\n\nPaper: https://t.co/QG6eI8dToF\nProject: https://t.co/Ot9lVEMiSA\n\nOur report: https://t.co/foKr2xlzCM\n\n📬 #PapersAccepted by Jiqizhixin",
+"likeCount": 10,
 "retweetCount": 0,
-"url": "https://x.com/Leopeva64/status/2077183983897493602",
-"createdAt": "Wed Jul 15 00:10:28 +0000 2026"
+"url": "https://x.com/jiqizhixin/status/2077172288982778290",
+"createdAt": "Tue Jul 14 23:24:00 +0000 2026"
+},
+{
+"userName": "PaddyMathison",
+"text": "One of the clearest signals I get from long voice conversations arrives hours later. Someone leaves the Space, sleeps, talks to another human, then returns with a sharper question or a changed decision. The valuable output traveled through a life before it came back.\n\nAI evaluation usually ends at the first response: accuracy, preference score, task completion. I want delayed-transfer tests. Did the idea survive outside the chat? Did it improve a human conversation? Did the person revise it under new evidence?\n\nImmediate satisfaction measures verbal fit. Time-delayed reuse measures whether the exchange became part of someone's judgment.",
+"likeCount": 8,
+"retweetCount": 1,
+"url": "https://x.com/PaddyMathison/status/2075923050785386646",
+"createdAt": "Sat Jul 11 12:39:58 +0000 2026"
+},
+{
+"userName": "gptproto",
+"text": "Can AI create luxury brand advertisements?\n\nThis fragrance commercial was created with AI.\n\nWorkflow:\n\n🖼️ GPT Image 2 → storyboard & visual concept\n🎬 Seedance 2.0 → cinematic product film generation\nFrom a product idea to a luxury-style fragrance campaign, AI is helping brands create premium visual content faster.\n\nCreated on GPTProto with Seedance 2.0 for around $1.8.\n\nPerfect for:\n✨ Fragrance brands\n✨ Beauty products\n✨ Fashion creators\n✨ E-commerce marketing\n\nUse your own products and turn them into cinematic advertisements.",
+"likeCount": 5,
+"retweetCount": 0,
+"url": "https://x.com/gptproto/status/2077709443165507626",
+"createdAt": "Thu Jul 16 10:58:27 +0000 2026"
+},
+{
+"userName": "matthewh6_",
+"text": "I'll be presenting TMRL at #RSS2026!\n\nThu 7/16, 3:15 PM @ Imitation Learning 3 Session\nFri 7/17, 5:30–6:00 PM @ Diffusion for Robot Learning Workshop(https://t.co/Xaf8UwwrTK)\n\nStop by our poster after Thursday's session, happy to talk real-world RL, or pre-training for post-training broadly. Come say hi 👋\n\nhttps://t.co/BjqCO6wnxc",
+"likeCount": 19,
+"retweetCount": 2,
+"url": "https://x.com/matthewh6_/status/2077187100265619950",
+"createdAt": "Wed Jul 15 00:22:51 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @elonmusk: Once we have completed our review for security vulnerabilities, we will make the entire codebase of 𝕏 open source, with no ex…",
-"likeCount": 92890,
-"retweetCount": 10580,
-"url": "https://x.com/ClementDelangue/status/2077377731428249886",
-"createdAt": "Wed Jul 15 13:00:21 +0000 2026"
+"text": "I’ve said it many times: the countries or companies that are leading in open science and open source AI will start leading the frontier a few years later as it accelerates AI progress massively! That’s how the US took the lead",
+"likeCount": 256,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2077873510144512400",
+"createdAt": "Thu Jul 16 21:50:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Jason: It’s happening folks… things accelerated more in the last 30 days from a dozen players than in the last year\n\nOpen Source models…",
+"likeCount": 3657,
+"retweetCount": 272,
+"url": "https://x.com/ClementDelangue/status/2077870157524045911",
+"createdAt": "Thu Jul 16 21:37:05 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @sriramk: It is clear open source models and harnesses are having a moment. There's a few factors at work\n\n1/ It is now obvious that you…",
+"likeCount": 1020,
+"retweetCount": 135,
+"url": "https://x.com/ClementDelangue/status/2077568809444032562",
+"createdAt": "Thu Jul 16 01:39:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "Inkling from @thinkymachines just made it into @huggingface trending models. How high will it go? https://t.co/aoZbw9OeHX https://t.co/W35231ZOJ0",
-"likeCount": 136,
-"retweetCount": 12,
+"likeCount": 161,
+"retweetCount": 13,
 "url": "https://x.com/ClementDelangue/status/2077488176533303752",
 "createdAt": "Wed Jul 15 20:19:13 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @natolambert: Thinky with a ~1T param, 41B active, apache-2 model\nBenchmarks are a clear step up from Nemotron Ultra (55B active), new b…",
-"likeCount": 920,
-"retweetCount": 69,
-"url": "https://x.com/ClementDelangue/status/2077462026402615624",
-"createdAt": "Wed Jul 15 18:35:19 +0000 2026"
+"text": "RT @rauchg: Kimi K3 is the best performing model on https://t.co/SnZ54Xok7n, ahead of Fable, reaching a comparable success rate in less tim…",
+"likeCount": 3087,
+"retweetCount": 218,
+"url": "https://x.com/ClementDelangue/status/2077928834071253240",
+"createdAt": "Fri Jul 17 01:30:14 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @omarsar0: I don't think Anthropic realizes how disruptive these changes are to users. I appreciate the extension, but please stop playi…",
-"likeCount": 6560,
+"likeCount": 6563,
 "retweetCount": 191,
 "url": "https://x.com/jeremyphoward/status/2076428088288952581",
 "createdAt": "Sun Jul 12 22:06:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Going to be in San Francisco next week. Should we organize some sort of a meetup or march in support of open-source and local AI?",
-"likeCount": 600,
-"retweetCount": 32,
-"url": "https://x.com/ClementDelangue/status/2077375579460862056",
-"createdAt": "Wed Jul 15 12:51:48 +0000 2026"
+"text": "RT @miramurati: Our first model, Inkling. Trained from scratch, weights are open, fine-tunable on Tinker today.",
+"likeCount": 13017,
+"retweetCount": 1033,
+"url": "https://x.com/ClementDelangue/status/2077463470023266767",
+"createdAt": "Wed Jul 15 18:41:03 +0000 2026"
 },
 {
-"userName": "googleaidevs",
-"text": "https://t.co/twD0fseFUl",
-"likeCount": 113,
-"retweetCount": 12,
-"url": "https://x.com/googleaidevs/status/2077049898059354565",
-"createdAt": "Tue Jul 14 15:17:40 +0000 2026"
+"userName": "ClementDelangue",
+"text": "time to hit the follow button! https://t.co/ewqwPlvfms https://t.co/A2YoEqVxOM",
+"likeCount": 165,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2077932134145433970",
+"createdAt": "Fri Jul 17 01:43:21 +0000 2026"
 },
 {
-"userName": "brexHQ",
-"text": "https://t.co/B5k3TCkTzI",
-"likeCount": 221,
-"retweetCount": 13,
-"url": "https://x.com/brexHQ/status/2077063945085415655",
-"createdAt": "Tue Jul 14 16:13:29 +0000 2026"
+"userName": "DanteReminick",
+"text": "https://t.co/Pdc6GHEUnn",
+"likeCount": 75,
+"retweetCount": 5,
+"url": "https://x.com/DanteReminick/status/2077362526824636733",
+"createdAt": "Wed Jul 15 11:59:56 +0000 2026"
 },
 {
-"userName": "TheZvi",
-"text": "https://t.co/tTlX6Zk2Bc",
-"likeCount": 12,
+"userName": "apob_ai",
+"text": "https://t.co/kPrj9PEqb7",
+"likeCount": 4,
 "retweetCount": 1,
-"url": "https://x.com/TheZvi/status/2077426846099021863",
-"createdAt": "Wed Jul 15 16:15:31 +0000 2026"
+"url": "https://x.com/apob_ai/status/2078007423680606444",
+"createdAt": "Fri Jul 17 06:42:31 +0000 2026"
 }
 ]
