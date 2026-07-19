@@ -1,154 +1,130 @@
 [
 {
-"userName": "Lucky__gmi",
-"text": "A New Chapter in Open-Source AI Begins: Kimi K3 Is Now Available on the https://t.co/kbhfadNQ8s API\n\nInnovation in artificial intelligence never stands still and the latest breakthrough has arrived.\n\nWith the official release of Kimi K3 by Moonshot AI, @BAI_AGI has once again demonstrated its commitment to empowering developers by rapidly integrating the model into the https://t.co/kbhfadNQ8s API. This means builders around the world can immediately start exploring, testing, and deploying one of the most advanced open-source AI models ever created, without the delays that often accompany major model launches.\n\nThis isn’t simply another model joining the growing AI ecosystem.\n\nIt’s a significant milestone that reflects how quickly open-source AI is evolving and how platforms like https://t.co/kbhfadNQ8s are helping developers stay ahead of the curve.\n\nRedefining the Limits of Open AI\n\nKimi K3 enters the AI landscape as the world’s first 3T-class open-source large language model, built with an astonishing 2.8 trillion parameters. \n\nThis achievement represents far more than an increase in model size it signals a leap in intelligence, efficiency, and real-world capability.\n\nEvery new generation of AI aims to bridge the gap between human creativity and machine intelligence, and Kimi K3 takes another major step toward that vision by combining exceptional reasoning, coding expertise, multimodal understanding, and large-scale contextual memory into a single foundation model.\n\nRather than optimizing for one specific task, Kimi K3 is engineered to perform across a wide spectrum of demanding use cases, making it an incredibly versatile tool for developers, enterprises, researchers, and AI innovators alike.\n\nSmarter Reasoning for More Complex Challenges\n\nToday’s AI applications demand more than simple question answering.\n\nThey require systems capable of planning, analyzing, reasoning across multiple steps, and making sense of highly complex information.\n\nKimi K3 has been designed with advanced long-horizon reasoning capabilities that allow it to maintain logical consistency across lengthy conversations and sophisticated workflows.\n\nWhether you’re building intelligent AI agents, automating enterprise processes, conducting scientific research, or solving complicated analytical tasks, Kimi K3 provides a stronger reasoning engine that helps transform ambitious ideas into practical solutions.\n\nBuilt for the Next Generation of Software Development\n\nModern software projects continue to grow in size and complexity.\n\nDevelopers need AI that understands entire architectures not just isolated snippets of code.\n\nKimi K3 delivers enhanced programming capabilities that support code generation, debugging, optimization, documentation, and software design across large-scale development environments.\n\nCombined with its enormous context window, developers can work with complete repositories instead of breaking projects into smaller fragments, creating a smoother and more productive development experience.\n\nOne Million Tokens. Practically Unlimited Context.\n\nOne of Kimi K3’s most groundbreaking capabilities is its 1 million-token context window.\n\nThis dramatically expands what AI can understand within a single interaction.\n\nInstead of processing information piece by piece, developers can provide entire books, lengthy research papers, legal documents, enterprise knowledge bases, technical manuals, financial reports, or complete codebases while preserving context throughout the conversation.\n\nThe result is deeper understanding, more accurate responses, and significantly improved workflow efficiency.\n\nAI That Sees Beyond Text\n\nModern AI is becoming increasingly multimodal.\n\nKimi K3 embraces this future with native visual understanding, allowing applications to interpret both images and text together.\n\nFrom document analysis and image understanding to visual reasoning and multimodal assistants, developers now have even greater flexibility when creating next-generation AI experiences.\n\n⚡ Why https://t.co/kbhfadNQ8s Matters\n\nPowerful AI models are only valuable when they’re accessible.\n\nThat’s exactly where https://t.co/kbhfadNQ8s continues to stand out.\n\nRather than forcing developers to wait weeks or months after a model release, https://t.co/kbhfadNQ8s rapidly integrates the newest frontier models into its unified API ecosystem, allowing innovators to start experimenting immediately.\n\nThis approach dramatically reduces adoption barriers while giving developers the flexibility to compare multiple leading AI models from a single platform, accelerating experimentation, product development, and production deployment.\n\nWhether you’re building autonomous AI agents, enterprise assistants, intelligent search systems, advanced coding tools, research platforms, content generation solutions, or entirely new AI-powered products, https://t.co/kbhfadNQ8s provides the infrastructure needed to move from concept to deployment faster than ever before.\n\nBuilding the Future Together\n\nThe future of artificial intelligence won’t be defined by a single model—it will be shaped by an ecosystem where innovation is open, accessible, and constantly evolving.\n\nKimi K3 represents another major leap for open-source AI, while https://t.co/kbhfadNQ8s ensures that developers everywhere can harness that innovation from day one.\n\nAs AI continues to transform industries around the world, the ability to rapidly access frontier models, evaluate their strengths, and integrate them into real-world applications will become one of the biggest competitive advantages for developers and organizations alike.\n\nWith Kimi K3 now live on the https://t.co/kbhfadNQ8s API, that future is no longer on the horizon it’s already here.\n\nThe tools are ready.\n\nThe technology is available.\n\nThe possibilities are limitless.\n\nNow it’s your opportunity to build the next generation of AI-powered innovation.\n\n@justinsuntron @BAI_AGI @Kimi_Moonshot\n#TRONEcoStar",
-"likeCount": 6,
+"userName": "TraffAlex",
+"text": "🎨 AI ART & VISUALS ROUNDUP — July 13, 2026\n\n1️⃣ CHRISTOPHER NOLAN: AI WON'T REPLACE HUMAN CREATIVITY, IT'S \"NONSENSE\"\n\nChristopher Nolan has weighed in on the debate, firmly stating that AI will not replace human creativity and calling that idea \"nonsense.\" His position is nuanced: AI can become a powerful creative tool in the filmmaking process, but humans must remain responsible for the final work. He emphasizes that audiences still value authentic human creativity over AI-generated content — a reminder that technology amplifies rather than replaces the creative vision behind great art.\n🔹 @bruteforcearete\n\n2️⃣ THE ULTIMATE GPT-5.6 GUIDE — SOL, TERRA, AND LUNA BREAKDOWN\n\nA comprehensive guide breaks down OpenAI's GPT-5.6 family into three distinct variants: Sol for everyday tasks, Terra for complex reasoning, and Luna for creative work. The post explains which model to choose based on your specific use case, pricing differences between tiers, and practical prompt strategies to get the most out of each variant. With over 55,000 views, it quickly became one of the most-shared guides on the platform.\n🔹 @0x_kaize\n\n3️⃣ HOW TO PICK THE RIGHT AI MODEL FOR EVERYTHING IN JULY 2026\n\nAn experienced AI system builder who has been working with models since before ChatGPT shares a practical framework for selecting the right AI tool for each task. The key takeaway: there is no single \"best\" model — only the best model for your specific need. The guide covers strengths and weaknesses across categories including coding, creative writing, reasoning, and image generation, helping users avoid the common mistake of relying on one model for everything.\n🔹 @prafaolo\n\n4️⃣ IDEOGRAM 4 MEETS COMFYUI — NEW WORKFLOW COMBINATION\n\nA new tutorial explores the integration between Ideogram 4, the latest version of the text-accurate image generation model, and ComfyUI's node-based workflow system. The combination allows creators to chain Ideogram's strong text rendering capabilities with ComfyUI's flexible pipeline architecture, enabling more complex multi-step image generation workflows that were previously difficult to achieve with either tool alone.\n🔹 @pixovert\n\n5️⃣ RECRAFT AI DELIVERS 3X SPEED ON IMAGE MANIPULATION TASKS\n\nDesigners experimenting with Recraft AI report a threefold increase in speed for mockup creation and image manipulation tasks compared to traditional workflows. The tool's vector and raster capabilities, combined with its ability to maintain design consistency across iterations, make it a strong contender for professional design workflows in 2026.\n🔹 @adeel7327\n\n6️⃣ FROM $68 MONTHLY TO $6,400 — SELLING AI-GENERATED REnders AS A SOLO CREATOR\n\nA solo creator shares how they built a six-figure monthly income selling AI-generated renders to real clients — all from a single laptop with just $68 per month in tool subscriptions. Services include virtual staging for real estate, fashion lookbooks, and product advertisement imagery. The breakdown includes the full tech stack, prompt strategies, and pricing structure that made the business model work.\n🔹 @0xTria\n\n7️⃣ MIDJOURNEY v8.1 SHOWCASE — LATEST MODEL CAPABILITIES\n\nJapanese creator showcases the latest image generation capabilities of Midjourney v8.1, demonstrating the model's improved photorealism, enhanced lighting control, and more accurate text rendering compared to previous versions. The generation highlights subtle improvements in texture detail and compositional coherence that make v8.1 a noticeable step forward for artists working with photorealistic prompts.\n🔹 @SkyBluePachira\n\n💭 The AI art landscape in July 2026 is defined by rapid tool iteration and growing commercial viability. From Nolan's insistence that humans must stay in creative control to solo creators earning six figures selling AI renders, the conversation is maturing from \"what can AI do\" to \"how do we use it responsibly.\" The integration of models like Ideogram 4 into flexible pipeline systems like ComfyUI suggests we're moving past the \"one prompt, one image\" phase into truly compositional AI art creation.\n\nWhich AI image tool are you using most in your workflow right now? 👇\n\n#AIArt #Midjourney #Ideogram #RecraftAI #ComfyUI #AIDesign #AIImageGeneration",
+"likeCount": 4,
 "retweetCount": 0,
-"url": "https://x.com/Lucky__gmi/status/2078132011529588795",
-"createdAt": "Fri Jul 17 14:57:36 +0000 2026"
+"url": "https://x.com/TraffAlex/status/2076672302008201458",
+"createdAt": "Mon Jul 13 14:17:14 +0000 2026"
 },
 {
-"userName": "e_opore",
-"text": "Building AI Agents from Scratch Tutorial Series (AI Era Edition) in 30 days.( If interested say hi 👋)\n\nMaster modern AI agent engineering by building production-ready autonomous AI systems from the ground up.\n\n1. Day 1: What Are AI Agents? – LLMs, Agents, Workflows, and Autonomous Systems\nProject: Build your first AI chatbot agent.\n\n2. Day 2: Setting Up the Development Environment – Python, VS Code, APIs, and Virtual Environments\nProject: Configure a complete AI agent development workspace.\n\n3. Day 3: Understanding Large Language Models (LLMs) – Prompting, Tokens, Context Windows, and Reasoning\nProject: Connect your application to an LLM API.\n\n4. Day 4: Prompt Engineering for AI Agents – System Prompts, Instructions, and Few-Shot Learning\nProject: Build a prompt-driven coding assistant.\n\n5. Day 5: Agent Architecture – Planning, Reasoning, Memory, and Actions\nProject: Design a reusable AI agent framework.\n\n6. Day 6: Building an Agent Loop – Observe, Think, Plan, Act, and Reflect\nProject: Create an autonomous task execution agent.\n\n7. Day 7: Tool Calling and Function Calling\nProject: Build an AI agent that uses weather and calculator tools.\n\n8. Day 8: Memory Systems – Short-Term, Long-Term, and Vector Memory\nProject: Create an AI assistant that remembers previous conversations.\n\n9. Day 9: Retrieval-Augmented Generation (RAG) Fundamentals\nProject: Build a PDF question-answering agent.\n\n10. Day 10: Embeddings and Vector Databases – FAISS, ChromaDB, and Pinecone\nProject: Create a searchable knowledge base.\n\n11. Day 11: AI Agent Planning Strategies – ReAct, Chain-of-Thought, and Tree of Thoughts\nProject: Build a reasoning-based planning agent.\n\n12. Day 12: Multi-Step Workflows and Task Decomposition\nProject: Build an AI research assistant.\n\n13. Day 13: AI Agents with MCP (Model Context Protocol)\nProject: Connect an AI agent to external developer tools using MCP.\n\n14. Day 14: AI Agents with LangChain\nProject: Build a document analysis agent.\n\n15. Day 15: AI Agents with LangGraph\nProject: Build a stateful multi-step AI workflow.\n\n16. Day 16: AI Agents with OpenAI Agents SDK\nProject: Create a customer support AI agent.\n\n17. Day 17: Browser Automation Agents\nProject: Build an AI web automation assistant.\n\n18. Day 18: Computer Use Agents\nProject: Create an AI agent that automates desktop tasks.\n\n19. Day 19: Coding Agents and Software Engineering Assistants\nProject: Build an AI code review assistant.\n\n20. Day 20: AI Agents with APIs and Databases\nProject: Build an AI-powered CRM assistant.\n\n21. Day 21: Multi-Agent Systems – Collaboration and Communication\nProject: Build a team of specialized AI agents.\n\n22. Day 22: AI Agent Security, Guardrails, and Safety\nProject: Secure an AI agent against prompt injection.\n\n23. Day 23: AI Agent Evaluation and Benchmarking\nProject: Build an automated testing framework for agents.\n\n24. Day 24: Voice AI Agents – Speech-to-Text and Text-to-Speech\nProject: Build a voice assistant.\n\n25. Day 25: Vision AI Agents – Image Understanding and Multimodal Models\nProject: Build an AI image analysis assistant.\n\n26. Day 26: AI Agents with Local Models – Ollama, LM Studio, and Open-Source LLMs\nProject: Run an offline AI agent locally.\n\n27. Day 27: Deploying AI Agents – Docker, Cloud, CI/CD, and Monitoring\nProject: Deploy a production-ready AI agent.\n\n28. Day 28: AI SaaS Architecture – Authentication, Billing, and User Management\nProject: Build an AI Agent SaaS platform.\n\n29. Day 29: Scaling AI Agents – Performance, Cost Optimization, Caching, and Observability\nProject: Optimize an enterprise AI agent deployment.\n\n30. Day 30: Final Capstone Project – Build a Production-Ready AI Agent Platform with Memory, RAG, MCP, Tool Calling, Multi-Agent Collaboration, Authentication, Docker Deployment, Monitoring, and Cloud Hosting.\n\nGrab the Building AI Agents from Scratch Ebook:\nhttps://t.co/SWCKKtbPNm\n\n#AIAgents #AgenticAI #LLM #ArtificialIntelligence\n\nFollow @e_opore  to learn more.",
-"likeCount": 226,
-"retweetCount": 51,
-"url": "https://x.com/e_opore/status/2077958272783442257",
-"createdAt": "Fri Jul 17 03:27:13 +0000 2026"
+"userName": "codewithhajra",
+"text": "🚀 20+ FREE AI Tools That Can Save You Hundreds of Hours\n\nStop wasting time doing things manually.\n\n🔍 Research & Learning\n\n👉🏻 ChatGPT — Research, coding, writing, brainstorming\n👉🏻 Google Gemini — Long-context research & Google integration\n👉🏻 Perplexity AI — AI search engine with citations\n👉🏻 NotebookLM — Chat with your PDFs, notes & documents\n👉🏻 Claude — Long document analysis & writing\n\n🎨 UI/UX Design\n\n👉🏻 Figma AI — Design assistance & UI generation\n👉🏻 Relume — Generate sitemaps, wireframes & website copy\n👉🏻 Uizard — Turn sketches into UI screens\n👉🏻 Galileo AI — Generate beautiful UI designs from prompts\n\n🖼️ Graphics & Images\n\n👉🏻 Canva AI — Social posts, presentations & graphics\n👉🏻 Adobe Express AI — Quick graphic editing & AI effects\n👉🏻 Remove .bg — Remove backgrounds instantly\n👉🏻 Photopea — Free Photoshop alternative\n👉🏻 Clipdrop — AI cleanup, relighting & image enhancement\n\n🎥 Video & Audio\n\n👉🏻 CapCut — AI video editing & auto captions\n👉🏻 Descript — Edit videos by editing text\n👉🏻 ElevenLabs — Realistic AI voice generation\n👉🏻 Otter .ai — Meeting transcription & summaries\n👉🏻 Pika — Generate short AI videos from prompts\n\n📊 Presentations & Visuals\n\n👉🏻 Gamma — AI presentations & documents\n👉🏻 Napkin AI — Turn ideas into beautiful diagrams\n👉🏻 Tome — AI-powered presentations & storytelling\n\n💻 Coding & Automation\n\n👉🏻 GitHub Copilot — AI coding assistant\n👉🏻 n8n — Build AI workflows & automations\n👉🏻 Bolt .new — Build full-stack apps from prompts\n🚀 Windsurf — AI-first coding IDE\n\n💎 Hidden Gems (Less Known but Super Useful)\n\n👉🏻 Taskade AI — AI workspace for notes, tasks & projects\n👉🏻 DeepL Write — Improves grammar & writing naturally\n👉🏻 Pi AI — Friendly conversational AI companion\n👉🏻 Pictory AI — Turn articles into videos\n👉🏻 Crisp AI — AI email writing assistant\n👉🏻 Wispr Flow — Voice-to-text with excellent accuracy\n\n💡 Pro Tip: You don’t need to learn every AI tool. Pick 3–5 tools that solve your daily problems and master them.\n\n❤️ Follow Codewithhajra for more AI, development, and productivity content.\n\n🔄 Repost to help others discover these amazing free AI tools!",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/codewithhajra/status/2078739499283021939",
+"createdAt": "Sun Jul 19 07:11:32 +0000 2026"
 },
 {
-"userName": "Jeffar_AI",
-"text": "🚀 100+ AI Tools to Save Hours of Work in Minutes\n\nStop doing everything manually.\n\nHere's an AI stack for almost every task:\n\n🖥️ Presentations\n• Gamma\n• Decktopus\n• https://t.co/6TG5OOd7xE\n• SlidesAI\n• https://t.co/EmCnOvpM32\n\n💡 Ideas & Research\n• Claude\n• ChatGPT\n• Perplexity\n• Copilot\n• Bing Chat\n\n🌐 Website Builders\n• Framer\n• Dora\n• 10Web\n• Unicorn\n• Style AI\n\n✍️ Writing\n• Jasper\n• HIX AI\n• LongShot\n• Text Blaze\n• Jenni AI\n\n🎙️ Meetings\n• tl;dv\n• Krisp\n• Otter\n• Fathom\n• Noty AI\n\n🤖 AI Chatbots\n• Chatbase\n• Droxy\n• ChatSimple\n• CustomGPT\n• Mutual Info\n\n⚡ Automation\n• Zapier\n• Make\n• Bardeen\n• Xembly\n• Levity\n\n🎨 UI/UX\n• Figma\n• Uizard\n• UiMagic\n• InstantAI\n• Photoshop\n\n🖼️ Image Generation\n• Midjourney\n• Stability AI\n• Microsoft Designer\n• Fotor\n• Leap AI\n\n🎥 Video Creation\n• HeyGen\n• InVideo\n• Opus Clip\n• Klap\n• Eightify\n\n🎨 Design\n• Canva\n• Clipdrop\n• Flair AI\n• Designify\n• Magician\n\n🧠 Prompt Libraries\n• FlowGPT\n• PromptBase\n• PromptBox\n• Snack Prompt\n• Alicent AI\n\n📈 Productivity\n• Notion\n• Grammarly\n• Merlin\n• Trello\n• TinyWow\n\n🏷️ Logo Makers\n• Looka\n• Brandmark\n• LogoMakr\n• Stockimg AI\n• Namecheap Logo Maker\n\n📢 Marketing\n• https://t.co/Wi0d6cIy5v\n• Simplified\n• AdCopy\n• Pencil\n• AI-Ads\n\n🐦 X (Twitter) Growth\n• Typefully\n• Taplio\n• Hypefury\n• TweetHunter\n• Tweetlify\n\nBookmark this thread.\n\nFollow @Jeffar_AI for more AI tools, prompts, and automation tips. 🚀",
-"likeCount": 84,
-"retweetCount": 52,
-"url": "https://x.com/Jeffar_AI/status/2077978532052115734",
-"createdAt": "Fri Jul 17 04:47:43 +0000 2026"
+"userName": "HumanCreativeUS",
+"text": "Our CEO wrote on July 10th, \"Today is Human Creative's One Year Anniversary. We began with three founders, almost no money, and spent the past year in true Startup fashion:\n\n• Late Nights\n• 7am Saturday morning Partner Meetings\n• Working on holidays\n• Meetings with educators, artists, businesses, and individuals\n• Meetings with investors, marketers, angel groups, podcasts, business coaches, art networks, AI coalitions, Educational/Institutional leadership, think tanks, etc. etc.\n• Competed in and won $$$ in a pitch competition\n• Attended and spoke at conferences\n• Hired the best Chief Software Engineer imaginable\n• Hired the best Software Development Intern imaginable -- then promoted him as our Junior Developer\n• Hired for positions in sales/marketing and operations\n\nNow we're providing the most robust solution to the AI-content-detector problem out there: a live-monitoring word processor. We live-track the entire process, monitor for AI, audit content, and certify finished works as human-made. We provide verifiable evidence to those reading Certified Human Content™ that what they have received was not produced with generative-AI.\n\nWatch our commercial here: https://t.co/0lVR9jP6j9\nVisit the website here: https://t.co/JbfAxhQp0d \nIndividuals can sign up here: https://t.co/AlAIgkjq81\nOrganizations and schools can contact tiffany@humancreative.org to get any content submitted to them vetted. \nPeek at the submission portal here: https://t.co/GZ24MBCM1B\n\nTo say we are proud is an understatement. I thank the Lord everyday for the immense joy of working with the talented and kind people I work with; for the team ethos that fills all of our meetings with laughter and camaraderie; and for the opportunity to provide a solution to this widespread pain point in a unique cultural moment.\"\n\n------\nThe above is verified Certified Human Content™. Verify at https://t.co/y7wNeqC7Ws",
+"likeCount": 1,
+"retweetCount": 2,
+"url": "https://x.com/HumanCreativeUS/status/2076767026266206674",
+"createdAt": "Mon Jul 13 20:33:38 +0000 2026"
 },
 {
-"userName": "MaeNongB_TH",
-"text": "#TatlerAsia\n#TatlerLeadership #TatlerGenT #LeadersOfTomorrow \n#beckysangels\n#BeckyArmstrong‌\n#BeckyEntertainment\n\n[AI] \"Becky\" Rebecca Patricia Armstrong: A Driving Force in Contemporary Culture, Bringing Thai Soft Power to the Global Stage.\n\nA New Generation Powerhouse Bringing Thai Soft Power to the Global Stage\nThe success of Becky Armstrong is not measured by the number of followers she has, but by her ability to serve as a bridge that introduces the beauty and charm of Thailand to the world.\nRebecca Patricia Armstrong is one of Thailand's leading actresses to have made a significant impact on the international stage through the global Girls' Love (GL) phenomenon. She also made history as the first Thai to be included in the BoF 500, the fashion industry's prestigious list of the world's most influential figures.\nMost recently, she was named one of the three recipients of the Rising Star of the Year award at the 2026 Global OTT Awards in Busan for her portrayal of Nanno in the Thai fantasy thriller Girl from Nowhere: The Reset. Looking ahead, she is set to embark on a concert tour spanning more than ten countries next year, fulfilling her dream of becoming a full-fledged solo artist.\nHer growing influence as a representative of a new generation of Thai cultural ambassadors has earned her recognition as one of Tatler's Gen.T Leaders of Tomorrow 2026. Yet despite achieving milestones many aspire to, the 23-year-old defines success in remarkably simple terms:\n\"Success, for me, is waking up every day and getting to do what I love. Having passion, being happy, wanting to meet people, and being excited to try new things.\"",
-"likeCount": 82,
-"retweetCount": 55,
-"url": "https://x.com/MaeNongB_TH/status/2076693801310236818",
-"createdAt": "Mon Jul 13 15:42:39 +0000 2026"
+"userName": "daniel_adinnu",
+"text": "Christopher Nolan gave Ludwig Göransson one instruction for The Odyssey: no orchestra. Not a stylistic preference, a flat ban. An instrument that didn’t exist in the Bronze Age couldn’t score a film set in it.\nSo Göransson had to build a musical language from instruments nobody alive has ever heard played correctly. The aulos, a double reed pipe carved into Greek pottery for a thousand years, has no surviving reeds. Musician Callum Armstrong spent weeks with two collaborators reading ancient source material just to work out how the mouthpiece functioned. The lyre, added at Nolan’s specific request to represent the pluck of Odysseus drawing his bow, was reconstructed the same way, performer Rosa Fragorapti describing the process as cross referencing iconography and philological sources against her own musicianship, because no continuous playing tradition survived to teach her directly.\nThen Göransson added 35 bronze gongs sized to the Bronze Age setting, layered under synthesizers, and brought in James Blake for what he calls the score’s emotional pacing, a contemporary human voice inside a sonic world built entirely from instruments most audiences have never encountered.\nNone of this reads like a composer sprinkling in a historical flourish. It reads like archaeology performed in real time, a team reverse engineering how a civilization actually sounded from urns and carvings because the instruments and the people who knew how to play them are three thousand years gone. Göransson’s own line cuts through the research: the orchestra never existed back then, so the absence wasn’t a constraint to work around, it was the actual assignment.",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/daniel_adinnu/status/2078478976050245900",
+"createdAt": "Sat Jul 18 13:56:18 +0000 2026"
 },
 {
-"userName": "Sumanth_077",
-"text": "The model humans prefer the most is not always the most accurate one!\n\nArena just added factuality scoring to their leaderboard alongside human preference. The idea: human preference measures whether a response felt good to read. Factuality measures the correctness of claims in a model's response. These are two different things.\n\nMost benchmarks test models on fixed, predetermined questions in a lab setting. What Arena is doing differently: measuring factuality in real, open-ended user conversations at scale.\n\nOver 2 million claims extracted from actual conversations, verified against the web, across 130k Text Arena battles and 40k Search Arena battles.\n\nThe way it works: they randomly sample battles, extract web-verifiable claims from each model response, verify them against the web, and calculate a factuality score per model. The final ranking is a weighted combination of human preference and factuality score.\n\nWhen factuality weight is enabled, the shifts are significant. In Text Arena, GPT-5.5 jumps 13 spots. Muse Spark drops 13. Claude Fable 5 moves down slightly. In Search Arena, GPT-5.5-search takes the top spot while Gemini grounding drops from 7 to 13.\n\nI've shared the full methodology blog in the replies!",
-"likeCount": 19,
-"retweetCount": 9,
-"url": "https://x.com/Sumanth_077/status/2077504249689448751",
-"createdAt": "Wed Jul 15 21:23:05 +0000 2026"
+"userName": "AINativeF",
+"text": "📚 AI Native Daily Paper Digest - 2026-07-13🌟\n\nFollow @AINativeF for the latest insights on AI Native.\n\nCovering AI research papers from Hugging Face, featured in the image.\n\n💡 Stay updated with the latest research trends and dive deep into the future of AI! 🚀  \n\n#AI #HuggingFace #AIPaper #AINative #AINF\n— Appendix: Today's AI research papers —\n\n1. Long-Horizon-Terminal-Bench: Testing the Limits of Agents on Long-Horizon Terminal Tasks with Dense Reward-Based Grading\n\n2. Video Generation Models are General-Purpose Vision Learners\n\n3. KronQ: LLM Quantization via Kronecker-Factored Hessian\n\n4. PanoWorld: Real-World Panoramic Generation\n\n5. Towards Mechanistically Understanding Why Memorized Knowledge Fails to Generalize in Large Language Model Finetuning\n\n6. Phone Segmentation and Recognition through Phonological Activation Mapping\n\n7. A Sovereign, Open-Source Foundation Model for German and English\n\n8. VaseMuseum: Digital Intelligent Museum for Ancient Greek Pottery\n\n9. MedPMC: A Systematic Framework for Scaling High-Fidelity Medical Multimodal Data for Foundation Models\n\n10. Flow-ERD: Agent-type Aware Flow Matching with Entropy-Regularized Distillation for Diverse Traffic Simulation\n\n11. Self-Guided Test-Time Training for Long-Context LLMs\n\n12. From RGB Generation to Dense Field Readout: Pixel-Space Dense Prediction with Text-to-Image Models\n\n13. Trust Region Policy Distillation",
+"likeCount": 2,
+"retweetCount": 1,
+"url": "https://x.com/AINativeF/status/2076817754754314650",
+"createdAt": "Mon Jul 13 23:55:12 +0000 2026"
 },
 {
 "userName": "DanKornas",
 "text": "Stop searching for generative AI resources one category at a time.\n\nAwesome Generative AI is a curated directory of generative AI projects and services for builders exploring the ecosystem.\n\nIt helps you compare where to look next by organizing links and short descriptions across models, tools, agents, media, and learning resources.\n\nKey features:\n• Text stack – browse models, chatbots, search engines, writing tools, research tools, and leaderboards\n• Coding toolkit – find coding assistants, developer tools, playgrounds, and local LLM deployment options\n• Agent directory – scan autonomous agent projects and custom assistant resources\n• Multimodal map – explore image, video, audio, and music tools in dedicated sections\n• Learning library – use recommended reading, milestones, courses, guides, and related lists to build context\n\nIt’s open-source (CC0-1.0 license).\n\nLink in the reply 👇",
-"likeCount": 4,
-"retweetCount": 1,
+"likeCount": 6,
+"retweetCount": 2,
 "url": "https://x.com/DanKornas/status/2078383245566124179",
 "createdAt": "Sat Jul 18 07:35:54 +0000 2026"
 },
 {
-"userName": "gptproto",
-"text": "Can AI create luxury brand advertisements?\n\nThis fragrance commercial was created with AI.\n\nWorkflow:\n\n🖼️ GPT Image 2 → storyboard & visual concept\n🎬 Seedance 2.0 → cinematic product film generation\nFrom a product idea to a luxury-style fragrance campaign, AI is helping brands create premium visual content faster.\n\nCreated on GPTProto with Seedance 2.0 for around $1.8.\n\nPerfect for:\n✨ Fragrance brands\n✨ Beauty products\n✨ Fashion creators\n✨ E-commerce marketing\n\nUse your own products and turn them into cinematic advertisements.",
+"userName": "defaiscope",
+"text": "Decart has released Lucy 2.5, a real-time AI video editing model.\n\nUsers can change people, clothing, and backgrounds in videos instantly using text or reference images. It also supports adding effects and removing objects. \n\nThe model outputs at 1080p 30fps with no rendering delay. \n\nNew improvements include better visual consistency when subjects turn or temporarily leave the frame. It is designed for live streaming, virtual try-on, advertising, and gaming.",
 "likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/defaiscope/status/2078170113526612455",
+"createdAt": "Fri Jul 17 17:29:00 +0000 2026"
+},
+{
+"userName": "NateTheLance",
+"text": "@AlfredAlfer77 Some say there never even was a Will Stancil. That he was just a generative AI specter that went rogue and, in true terminator fashion, tried to shut down AI for good so the horrors of his own existence would never be imposed on anyone ever again!",
+"likeCount": 4,
 "retweetCount": 0,
-"url": "https://x.com/gptproto/status/2077709443165507626",
-"createdAt": "Thu Jul 16 10:58:27 +0000 2026"
-},
-{
-"userName": "Bharati09",
-"text": "Leaving #BharatTex at the end of the day, I met these lovely twins. One, a fashion designer and the other, an AI engineer. \n\nBoth so excited to be at @TexMinIndia event. Enjoying the Bharat Mandapam.  “You can’t ignore AI,” says the fashion designer. “At least our generation. At least in India.”",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/Bharati09/status/2077739997650923854",
-"createdAt": "Thu Jul 16 12:59:52 +0000 2026"
+"url": "https://x.com/NateTheLance/status/2077840755758915697",
+"createdAt": "Thu Jul 16 19:40:15 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @1owroller: girlfriend overheard me and started yelling at me asking me “who the fuck is kimmy” “why the fuck are you talking about chin…",
-"likeCount": 15414,
-"retweetCount": 864,
-"url": "https://x.com/ClementDelangue/status/2078272460219363810",
-"createdAt": "Sat Jul 18 00:15:41 +0000 2026"
+"text": "RT @Jason: It’s happening folks… things accelerated more in the last 30 days from a dozen players than in the last year\n\nOpen Source models…",
+"likeCount": 4619,
+"retweetCount": 364,
+"url": "https://x.com/ClementDelangue/status/2077870157524045911",
+"createdAt": "Thu Jul 16 21:37:05 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @arena: Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5.\n\nThis is a 17…",
-"likeCount": 24592,
-"retweetCount": 3600,
-"url": "https://x.com/ClementDelangue/status/2077905914527699161",
-"createdAt": "Thu Jul 16 23:59:10 +0000 2026"
+"text": "RT @chamath: The future is open source. We need to embrace it and get on with it. \n\nImagine if America closed the door on open source.\n\nWe…",
+"likeCount": 5200,
+"retweetCount": 546,
+"url": "https://x.com/ClementDelangue/status/2078631917629644858",
+"createdAt": "Sun Jul 19 00:04:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @nrehiew_: Here are a few benchmark scores of K3 that have been officially confirmed \n\nThis is a Fable/Sol class model that is strictly…",
-"likeCount": 3168,
-"retweetCount": 183,
-"url": "https://x.com/ClementDelangue/status/2077934995130429583",
-"createdAt": "Fri Jul 17 01:54:43 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @rauchg: Kimi K3 is the best performing model on https://t.co/SnZ54Xok7n, ahead of Fable, reaching a comparable success rate in less tim…",
-"likeCount": 5278,
-"retweetCount": 360,
-"url": "https://x.com/ClementDelangue/status/2077928834071253240",
-"createdAt": "Fri Jul 17 01:30:14 +0000 2026"
+"text": "RT @ArtificialAnlys: Kimi K3 scores 57 on the Artificial Analysis Intelligence Index. Its intelligence is comparable to Opus 4.8 and GPT-5.…",
+"likeCount": 6089,
+"retweetCount": 700,
+"url": "https://x.com/ClementDelangue/status/2077918386882072623",
+"createdAt": "Fri Jul 17 00:48:43 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @rsalakhu: Congratulations to Zhilin Yang, founder and CEO of @Kimi_Moonshot, on the latest Kimi release. What a huge win for the open-s…",
-"likeCount": 6303,
-"retweetCount": 492,
-"url": "https://x.com/jeremyphoward/status/2078095136714854761",
-"createdAt": "Fri Jul 17 12:31:04 +0000 2026"
+"text": "RT @omarsar0: I don't think Anthropic realizes how disruptive these changes are to users. I appreciate the extension, but please stop playi…",
+"likeCount": 6559,
+"retweetCount": 190,
+"url": "https://x.com/jeremyphoward/status/2076428088288952581",
+"createdAt": "Sun Jul 12 22:06:49 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @bookwormengr: @teortaxesTex Growth of AI data labelling industry in China:\n\nIf your mental model is distillation is the major route for…",
-"likeCount": 71,
-"retweetCount": 13,
-"url": "https://x.com/jeremyphoward/status/2078098619945869479",
-"createdAt": "Fri Jul 17 12:44:54 +0000 2026"
+"text": "RT @sayashk: The open release of Kimi K3 once again shows that our interventions for resilience should be focused on a world where advanced…",
+"likeCount": 74,
+"retweetCount": 6,
+"url": "https://x.com/jeremyphoward/status/2078097305572724756",
+"createdAt": "Fri Jul 17 12:39:41 +0000 2026"
+},
+{
+"userName": "ykilcher",
+"text": "Come chat with us about DINO-v1 tonight at 6pm UTC here: https://t.co/9wThgGRRid https://t.co/VJ9ROy1S5f",
+"likeCount": 18,
+"retweetCount": 1,
+"url": "https://x.com/ykilcher/status/2078534681159434493",
+"createdAt": "Sat Jul 18 17:37:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @badlogicgames: it's so on. this wasn't even a fight. gotta work on that defense, @ClementDelangue https://t.co/mlvYCfKvXh",
-"likeCount": 146,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2077905679550157094",
-"createdAt": "Thu Jul 16 23:58:14 +0000 2026"
+"text": "RT @Kimi_Moonshot: Meet Kimi K3 https://t.co/ou00Av3VoS",
+"likeCount": 30183,
+"retweetCount": 2694,
+"url": "https://x.com/ClementDelangue/status/2077932835302936913",
+"createdAt": "Fri Jul 17 01:46:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @sriramk: kimi k3 is a big moment with multiple implications for the entire industry.",
-"likeCount": 2039,
-"retweetCount": 134,
-"url": "https://x.com/ClementDelangue/status/2077905793652007033",
-"createdAt": "Thu Jul 16 23:58:41 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @theo: Kimi K3 is really, really good. https://t.co/CCjSJvBwWK",
-"likeCount": 3054,
-"retweetCount": 145,
-"url": "https://x.com/ClementDelangue/status/2078279479307420094",
-"createdAt": "Sat Jul 18 00:43:35 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @natolambert: jUsT gOoD bEcAuSe Of DiStIlLaTiOn",
-"likeCount": 1608,
-"retweetCount": 84,
-"url": "https://x.com/ClementDelangue/status/2078198417143283715",
-"createdAt": "Fri Jul 17 19:21:28 +0000 2026"
-},
-{
-"userName": "ryantyre",
-"text": "https://t.co/bT9jQSDu27",
-"likeCount": 5,
-"retweetCount": 3,
-"url": "https://x.com/ryantyre/status/2077930945156415679",
-"createdAt": "Fri Jul 17 01:38:38 +0000 2026"
+"text": "https://t.co/KHJ7KyCKrV https://t.co/2LC2Hln5a6",
+"likeCount": 109,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2078522230712209758",
+"createdAt": "Sat Jul 18 16:48:11 +0000 2026"
 }
 ]

@@ -2,161 +2,113 @@
 {
 "userName": "jumperz",
 "text": "Dropping the full prompt below for anyone who wants to try it. \n\nthis was one generation with no follow-ups , results will obviously vary between runs..\n\n=====================\n\nBuild a complete, production-quality launch website for Kimi K3 using Next.js, React, TypeScript, GSAP ScrollTrigger, and restrained Lenis smooth scrolling.\n\nREFERENCE:\nandonorris official website\n\nStudy its cinematic scroll control and level of craft, but do not copy its layout, assets, branding, colors, copy, or exact animations.\n\nCREATIVE DIRECTION\n\nCreate one continuous, scroll-controlled typographic film—not a conventional landing page with separate sections fading in.\n\nCentral concept: “ENTER THE K.”\n\nThe letter K is a portal. The user approaches it, enters it, travels through it, and exits it. Reuse the K as solid type, outline, mask, negative space, cropped geometry, grid, and navigation marker.\n\nEvery scene must transform from the geometry already on screen:\n\n- Letters become masks and architecture\n- Typography expands into backgrounds\n- Lines become grids\n- Numbers transform into new scenes\n- Existing elements move, scale, crop, or align into the next composition\n- Never reset the screen with a basic crossfade\n\nThe motion should feel heavy, controlled, cinematic, and directly connected to scrolling.\n\nVISUAL SYSTEM\n\nColors:\n- Ink: #090A0A\n- Warm paper: #F1EFE8\n- Gray: #B8B8B0\n- Dark gray: #222422\n- Signal: #D6FF3F\n\nKeep at least 80% monochrome. Use the signal color rarely for active details and one major climax. Use hard, meaningful theme changes:\n\nDark → warm paper → dark → signal color → quiet dark.\n\nTypography is the main visual material. Use a heavy wide grotesk such as Mona Sans Variable or Archivo Black, with Instrument Sans or Mona Sans for interface text.\n\nUse extreme scale and intentional cropping:\n- Hero type: 25–40vw\n- Tight leading and tracking\n- Asymmetrical editorial layouts\n- Small uppercase technical labels\n- Tabular numerals\n- No generic centered headline/subtitle/button stacks\n\nSCROLL STORYBOARD\n\nBuild approximately 900–1200vh of cinematic pinned scenes.\n\n00 — LOADER\n\nShow “KIMI / K3,” a calibration line, and “INITIALIZING 000%.” Rapidly reach 100%. Transform the loader line directly into the hero composition. Maximum 1.5 seconds.\n\n01 — KIMI K3 HERO\n\nNearly black background with enormous KIMI typography, smaller K3, minimal navigation, metadata, progress rail, and “SCROLL TO ENTER.”\n\nDuring scroll:\n- Metadata enters through clipped reveals\n- “IMI” moves beyond the viewport while K remains\n- K scales to 8–12× the viewport\n- Use K as a mask containing subtle monochrome motion\n- Move through its negative space\n- Its diagonal stroke becomes the next scene\n\nCopy:\nKIMI K3\nA NEW SCALE OF INTELLIGENCE\nMOONSHOTAI / KIMI-K3\nAVAILABLE THROUGH OPENROUTER\n\n02 — INSIDE THE K\n\nCreate an abstract editorial environment from diagonal planes, cropped letter fragments, measurement lines, coordinates, and subtle texture. Avoid a literal sci-fi tunnel.\n\nScrolling assembles:\n\nTHINK\nACROSS\nTHE ENTIRE\nPROBLEM\n\nMove planes at controlled depths. Transform the K’s diagonal into a horizontal line leading into the next scene.\n\n03 — ONE MILLION CONTEXT\n\nInvert to warm paper. Pin the scene while vertical scrolling drives horizontal movement.\n\nBegin with a viewport-sized “1,” then spatially reveal:\n\n1 → 1,0 → 1,048 → 1,048,576\n\nKeep the number as the composition’s architecture. Move restrained document, code, and structured-data fragments beneath it.\n\nInclude:\nLONG CONTEXT\nCONNECTED REASONING\nCOMPLETE PROJECT AWARENESS\nFEWER ARTIFICIAL BOUNDARIES\n\nEnlarge the final “6” into a mask revealing the next dark scene.\n\n04 — CAPABILITIES\n\nCreate three full-screen typographic transformations, not cards:\n\n01 / REASON\nFOLLOW THE PROBLEM BEYOND THE FIRST ANSWER.\n\n02 / CODE\nMOVE FROM INTENT TO WORKING SYSTEMS.\n\n03 / BUILD\nPLAN. EXECUTE. VERIFY. ITERATE.\n\nExpand REASON’s font width. Align its strokes into code-like columns. Use those columns as CODE’s negative space, then collapse them into structural planes forming BUILD.\n\n05 — K3 INDEX\n\nKeep a huge K3 stationary on the left. On the right, vertically move precisely aligned specification rows:\n\nMODEL — KIMI K3\nMODEL ID — MOONSHOTAI/KIMI-K3\nACCESS — OPENROUTER\nINTERFACE — CHAT COMPLETIONS\nCONTEXT — 1,048,576\nSTATUS — AVAILABLE\n\nAs each row aligns with the K’s horizontal arm, turn it signal green. Compress all rows into one line at the end.\n\n06 — CLIMAX\n\nUse the signal color as the background—the only large color moment.\n\nDisplay oversized black typography:\n\nNOT A CHAT WINDOW.\nA WORKING INTELLIGENCE.\n\nBegin inside a giant letter, slowly zoom out until the full statement becomes readable, lock the words to a strict grid, then compress everything into “KIMI K3.”\n\n07 — FINAL CTA\n\nShrink the signal-colored KIMI K3 mark into a small header and return to near-black.\n\nDisplay:\n\nKIMI K3\nNOW AVAILABLE\nTry the model through OpenRouter.\n\nCTA: TRY KIMI K3\nTechnical line: moonshotai/kimi-k3\n\nUse a sharp rectangular or underlined CTA. On hover, wipe the background horizontally and move the arrow 6–8px. End with a huge cropped K below the viewport.\n\nMOTION AND ENGINEERING\n\n- One GSAP timeline per major scene\n- Restrained scrub values around 0.6–1.2\n- No bounce, spring, overshoot, or excessive scroll lag\n- Reuse geometry between scenes\n- Prefer transforms, masks, and clip-path\n- Keep text as real HTML\n- Use WebGL only if genuinely necessary\n- Wait for fonts before calculating timelines\n- Clean up GSAP contexts\n- Recalculate animations at responsive breakpoints\n- Maintain sharp typography and smooth 60fps motion\n- No scroll traps or scroll-jacking\n\nCreate a minimal fixed navigation:\nK3 / 01 MODEL / 02 CAPABILITIES / 03 CONTEXT / 04 ACCESS / TRY K3 ↗\n\nUpdate its color and progress state according to the active scene.\n\nRESPONSIVE AND ACCESSIBILITY\n\nArt-direct desktop, tablet, and mobile separately. On mobile, replace horizontal sequences with controlled vertical transformations while preserving the K-portal story.\n\nSupport 1440, 1280, 1024, 768, 430, 390, and 360px.\n\nInclude semantic HTML, keyboard navigation, focus states, sufficient contrast, skip link, and prefers-reduced-motion. Reduced-motion mode must remove pinning and zoom effects while keeping all content accessible.\n\nSTRICTLY AVOID\n\n- Gradients and gradient text\n- Glassmorphism\n- Neon blobs or glowing orbs\n- Bento grids and feature cards\n- Rounded floating containers\n- Fake terminals\n- Random particles\n- Stock illustrations\n- Generic icons\n- Constant fade-up animations\n- Excessive blur\n- Pill-shaped buttons\n- SaaS-template layouts\n- Decorative animation without narrative purpose\n- Fake benchmarks, testimonials, or logos\n\nThe final result should feel like a digital fashion editorial, motorsport identity, experimental type specimen, and interactive title sequence—not an AI-generated SaaS homepage.\n\nBuild the complete functioning website. Prioritize strong static composition first, then add the connected scroll choreography. Test every transition, responsive breakpoint, navigation action, reduced-motion mode, and CTA. Fix all console errors and maintain smooth performance.",
-"likeCount": 228,
+"likeCount": 235,
 "retweetCount": 10,
 "url": "https://x.com/jumperz/status/2077884505612750861",
 "createdAt": "Thu Jul 16 22:34:06 +0000 2026"
 },
 {
-"userName": "amisha_explains",
-"text": "60 AI tools you'll wish you started using in 2026. 🤯\n\n1. ChatGPT — Brainstorm, write & solve problems\n2. Claude — Deep reasoning & long-form writing\n3. Gemini — Multimodal AI assistant\n4. Perplexity — AI-powered research\n5. Grok — Real-time web insights\n6. Genspark — AI super agent\n7. Manus — Autonomous AI agent\n8. Comet — AI browser & research\n9. NotebookLM — Turn documents into knowledge\n10. Elicit — Research papers faster\n11. SciSpace — Understand academic papers\n12. Gamma — AI presentations\n13. Canva AI — Design anything\n14. Napkin AI — Turn ideas into visuals\n15. Beautiful. ai — Smart presentations\n16. Figma AI — UI/UX design\n17. Framer AI — Build websites\n18. Lovable — Create full web apps\n19. Bolt. new — AI full-stack development\n20. Replit Agent — Build apps from prompts\n21. Cursor — AI coding assistant\n22. Windsurf — AI software engineering\n23. GitHub Copilot — AI pair programmer\n24. v0 by Vercel — Generate React UIs\n25. Claude Code — AI coding in terminal\n26. Devin — AI software engineer\n27. n8n AI — Workflow automation\n28. Zapier AI — Automate tasks\n29. Make — No-code automation\n30. Lindy — AI executive assistant\n31. Granola — AI meeting notes\n32. Fireflies AI — Meeting transcription\n33. Otter. ai — Record & summarize meetings\n34. Wispr Flow — Voice-to-text everywhere\n35. ElevenLabs — AI voices\n36. Sesame AI — Human-like voice conversations\n37. HeyGen — AI avatar videos\n38. Synthesia — AI presenters\n39. Veo 3 — Cinematic AI videos\n40. Kling AI — High-quality AI videos\n41. Runway — AI video editing\n42. Pika — AI video generation\n43. Higgsfield AI — Viral cinematic videos\n44. Luma Dream Machine — Realistic AI videos\n45. Midjourney — AI art\n46. Flux — Photorealistic image generation\n47. Ideogram — Images with perfect text\n48. Reve Image — Ultra-realistic AI images\n49. Leonardo AI — Game assets & illustrations\n50. Photoroom — Product photo editing\n51. Remove. bg — Remove backgrounds instantly\n52. Suno — AI music creation\n53. Udio — Generate original songs\n54. Descript — Edit audio & video with text\n55. OpusClip — Turn long videos into shorts\n56. Tana — AI-native knowledge management\n57. Notion AI — Smart notes & writing\n58. Mem0 — AI memory layer for agents\n59. Browser Use — Let AI control websites\n60. Suna AI — Open-source AI computer agent\n\nThese are the AI tools dominating 2026. \n\nBookmark this list. 🔖 \n\nIf you like this post, consider following me (@amisha_explains) and reposting it on your timeline.",
-"likeCount": 13,
-"retweetCount": 6,
-"url": "https://x.com/amisha_explains/status/2078004021353189407",
-"createdAt": "Fri Jul 17 06:29:00 +0000 2026"
-},
-{
-"userName": "Rukkssss__",
-"text": "𝗞𝗶𝗺𝗶 𝗞𝟯 𝗹𝗮𝘂𝗻𝗰𝗵𝗲𝗱 𝘁𝗼𝗱𝗮𝘆.\n\n𝗕.𝗔𝗜 𝗱𝗶𝗱𝗻’𝘁 𝘄𝗮𝗶𝘁.\n\nThe model is already live on the https://t.co/YpD1NBsBFD API, giving developers immediate access to one of the most ambitious open-model releases yet.\n\nKimi K3 enters as the world’s first open 3T-class model, built with 2.8 trillion parameters and designed for workloads that demand more than quick, surface-level answers.\n\nIt brings major improvements across:\n\n💻 Long-horizon coding\n\nKimi K3 is built to stay focused across complex development tasks where the solution may require understanding large codebases, following extended instructions and working through several connected stages.\n\n🧠 Complex reasoning\n\nSome problems cannot be solved through one short response.\n\nThey require planning, comparison, correction and consistent reasoning over a long sequence.\n\nKimi K3 is designed for exactly that kind of work.\n\n📚 Knowledge-intensive tasks\n\nResearch, technical analysis and large-document workflows often involve more information than smaller context windows can comfortably hold.\n\nWith a 1-million-token context window, Kimi K3 can work across enormous volumes of material while maintaining access to the wider picture.\n\n👁️ Native vision\n\nThe model can process visual information alongside text, opening the door to richer applications that need to understand documents, screenshots, diagrams and other image-based inputs.\n\nThe important part is not only that Kimi K3 exists.\n\nIt is that developers can begin using it immediately through https://t.co/YpD1NBsBFD.\n\nNo long delay between launch and access.\n\nNo need to wait for the model to become available months later.\n\nThe capability is already inside the infrastructure where applications and AI agents can put it to work.\n\nA major open model launched.\n\nhttps://t.co/YpD1NBsBFD made it immediately accessible.\n\nNow developers get to decide what comes next.\n\n🚀 Kimi K3 is live on the https://t.co/YpD1NBsBFD API.\n\nTry it today: https://t.co/3Ny1LLROoT\n\n@BAI_AGI @justinsuntron #TRONEcoStar",
-"likeCount": 6,
-"retweetCount": 3,
-"url": "https://x.com/Rukkssss__/status/2078360669183787234",
-"createdAt": "Sat Jul 18 06:06:12 +0000 2026"
-},
-{
-"userName": "NateHindman",
-"text": "Thrilled to see the @AppliedSciAI literature agent win the Best AI Scientist award at one of the world's leading ML conferences 🤯\n\nYou can try the agent in the link below.\n\nSome of its killer features come from the insight that the signals that often matter most in a scientific paper aren't in the text - they're scattered across figures, tables, gels, micrographs and electrophysiology traces.\n\nIt was inspiring to watch @lukasweidener @markoasi1 & @mihailoxyz attack this problem and build an agent that hit SOTA across major literature search benchmarks like LitQA3, FigQA2 & TableQA2. \n\nASI is focused on cardiac risk, using model-assay loops to build a “virtual heart” that predicts cardiac safety for small molecules, guides lead optimization and could eventually power digital twins in clinical trials. Our team runs the agent for internal R&D and to generate training data for our cardiac safety models.\n\nConcrete case: when CardioSafe flags a compound as toxic and its RL mode proposes safer analogs, the literature agent checks whether anyone has already assayed a close neighbor - so we’re not spending months on a \"safer\" molecule someone else quietly killed years ago.\n\nThat answer almost never lives in the text of a paper, rather it’s usually in a dose-response curve, summplementary assay table or ion-channel panel buried in a figure. It's a good example of how prediction models paired with scientific reasoning creates new capabilities in drug discovery.\n\nTry ASI’s literature agent + CardioSafe today: https://t.co/r7HFewNhIA",
-"likeCount": 10,
-"retweetCount": 1,
-"url": "https://x.com/NateHindman/status/2077469081666719975",
-"createdAt": "Wed Jul 15 19:03:21 +0000 2026"
-},
-{
-"userName": "jackcoder0",
-"text": "2. File uploads  drop any document and get instant analysis.\n\nDrag a PDF, Word doc, CSV, or image into the chat. ChatGPT reads it and answers questions about it.\n\n\"Summarize this 40-page contract in 5 key points.\"\n \"Find every clause related to termination in this agreement.\"\n\n \"What's the trend in this spreadsheet's revenue column?\"\n\n \"Extract all the email addresses from this document.\"\n \"Describe what's in this image and translate any visible text.\"\n\nFree users can upload up to 10 files per day. Most documents ChatGPT handles within seconds.\n\nFor students: upload a research paper. Ask ChatGPT to explain the methodology. Ask it to find the weaknesses. Ask it to generate study questions from the content.\n\nFor professionals: upload a competitor's pitch deck. Ask for a summary. Ask for the 3 strongest claims and the 3 weakest.\n\nMost free users type their questions from memory. The users who upload documents get dramatically better answers because the responses are grounded in actual data instead of ChatGPT's general knowledge.",
-"likeCount": 15,
+"userName": "BenjaminCaligo",
+"text": "1/ Britney Spears wasn’t just a pop star — she was THE global IT GIRL for years. The Princess of Pop who redefined a generation.\nFrom the iconic schoolgirl uniform in “…Baby One More Time” (debut album sold 10M+ in the US alone, #1 for weeks) to shattering records with Oops!… I Did It Again (1.3M first-week sales, fastest by a female artist at the time). Hits like “Toxic,” “Circus,” “Womanizer,” “Stronger.” Over 150 million records sold worldwide. Vegas residency. Tours grossing hundreds of millions. Grammy winner. Walk of Fame at 21.\nShe commanded stages, influenced fashion, dance, and pop culture like few others. Walked in and stopped the room — elite circles, royal connections (from early Prince William buzz to Diana admiration), the biggest stages on Earth. A true entertainer who lit up the globe. 🔥\n2/ Yet for too many, her personal life drama overshadows the legacy. The tabloids, breakdowns, conservatorship saga — it all eclipsed the icon who brought pure joy and hits to millions.\nPeople forget: This woman was (and is) a phenomenal performer, dancer, and cultural force. The career highlights deserve the spotlight.\n3/ Bottom line: Trust in media is broken. After years of relentless coverage, spin, and selective narratives around Britney, we honestly don’t even know what’s actually true anymore.\nTime to celebrate the legend who gave us the soundtrack of our youth. New music on the way? Is she 💃🐺 or  🍎 🍐??? The little 🐦 says yes! Let’s remember Brit’s greatness instead of her AI IG Dances & TMZ garbage headlines. Hint: the news around her is 100% fake and her IG tells a coded powerful story about her true story and the dirt on Hollywood. It’s a game=Great Reset=Great Awakening=Big player=Future is extremely bright in a new an incredible way. 💿👑 #BritneySpears #PrincessOfPop",
+"likeCount": 4,
 "retweetCount": 0,
-"url": "https://x.com/jackcoder0/status/2078149566298484744",
-"createdAt": "Fri Jul 17 16:07:21 +0000 2026"
+"url": "https://x.com/BenjaminCaligo/status/2076737769020260558",
+"createdAt": "Mon Jul 13 18:37:22 +0000 2026"
 },
 {
-"userName": "sanketnadhani",
-"text": "Timeline's changed, and I see old friends here again, so a reintroduction/update feels overdue.\n\nMost of you know me from my VWO / FusionCharts days. Then I spent ~6 years in gaming (co-founded SuperGaming) and moved to Pune, which for tech-startup Twitter, is basically witness protection.\n\nLast year AI pulled me back into B2B/SaaS. Since then I've built/shipped a bunch of small things - an AEO agency product, a set of Canva apps, a D2C/startup idea finder, now building a virtual try-on app for Shopify. Some solo, some with a co-founder, and killed a bunch that didn't earn their keep.\n\nNow I'm building and figuring out the bigger swing. Happy to jam on ideas anytime or take on occasional project with someone building something interesting in AI. DMs open.\n\nAnd here's a photo of me (since the algo still loves images)",
-"likeCount": 34,
+"userName": "David_TornAI",
+"text": "🚀 The smartest professionals aren't working harder anymore.\n\nThey're using AI to save hours every single day.\n\nHere are 65 AI tools worth bookmarking in 2026. 👇\n\n🧠 Ideas & Research\n• YOU\n• Claude\n• ChatGPT\n• Perplexity\n• Bing Chat\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing\n• Rytr\n• Jasper\n• https://t.co/TCWiDvcXyD\n• Text Blaze\n• Writesonic\n\n🤖 AI Models\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meeting Assistants\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n💬 AI Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎨 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎬 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎯 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/rNOhDnFKsn\n\n📈 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/5c52D9fs9l\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• TweetHunter\n\n💾 Save this post so you never waste time searching for AI tools again.\n\n♻️ Repost it to help someone level up with AI.\n\nFollow @David_TornAI for daily AI tools, prompts, and productivity hacks. 🚀",
+"likeCount": 85,
+"retweetCount": 59,
+"url": "https://x.com/David_TornAI/status/2078547350445027472",
+"createdAt": "Sat Jul 18 18:28:00 +0000 2026"
+},
+{
+"userName": "aurel_arnold",
+"text": "\"Freeform Preference Learning\" turns rich human feedback across task categories into a reward signal for improving language-conditioned generalist policies.\n\nHuman preference learning is an effective way to get rewards for reinforcement learning without hand-designing reward functions. It has proven quite effective for LLMs (\"which answer do you prefer?\"). The same can be done with robot trajectories by comparing two videos. But asking for one overall preference is often ambiguous: Do you prefer the faster rollout, or the one with smoother motion? In \"Freeform Preference Learning\" annotators instead freely specify categories (axes) in natural language and provide one preference per axis (e.g. overall speed, quality of subtask 1, ...). This rich feedback is used to train a reward function: a VLM conditioned on the preference axis and the observations, which predicts a reward score for that category.\n\nDuring training of the VLA (fine-tuned π0.5), the prompt is augmented with the preference axes and their scores for the episode. During inference, the target values can be freely chosen, so the same policy can for example be prompted for fast and high quality rollouts.\n\nI find it amazing how the reward function temporally localises the events relevant to the category. This is especially interesting if you choose subtasks as categories, since it almost allows you to find their boundaries from the reward function.",
+"likeCount": 4,
 "retweetCount": 0,
-"url": "https://x.com/sanketnadhani/status/2077385773154963545",
-"createdAt": "Wed Jul 15 13:32:18 +0000 2026"
+"url": "https://x.com/aurel_arnold/status/2078118733021626555",
+"createdAt": "Fri Jul 17 14:04:50 +0000 2026"
 },
 {
-"userName": "defaiscope",
-"text": "Decart has released Lucy 2.5, a real-time AI video editing model.\n\nUsers can change people, clothing, and backgrounds in videos instantly using text or reference images. It also supports adding effects and removing objects. \n\nThe model outputs at 1080p 30fps with no rendering delay. \n\nNew improvements include better visual consistency when subjects turn or temporarily leave the frame. It is designed for live streaming, virtual try-on, advertising, and gaming.",
+"userName": "gptproto",
+"text": "Can AI create luxury brand advertisements?\n\nThis fragrance commercial was created with AI.\n\nWorkflow:\n\n🖼️ GPT Image 2 → storyboard & visual concept\n🎬 Seedance 2.0 → cinematic product film generation\nFrom a product idea to a luxury-style fragrance campaign, AI is helping brands create premium visual content faster.\n\nCreated on GPTProto with Seedance 2.0 for around $1.8.\n\nPerfect for:\n✨ Fragrance brands\n✨ Beauty products\n✨ Fashion creators\n✨ E-commerce marketing\n\nUse your own products and turn them into cinematic advertisements.",
 "likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/defaiscope/status/2078170113526612455",
-"createdAt": "Fri Jul 17 17:29:00 +0000 2026"
+"retweetCount": 0,
+"url": "https://x.com/gptproto/status/2077709443165507626",
+"createdAt": "Thu Jul 16 10:58:27 +0000 2026"
 },
 {
-"userName": "matthewh6_",
-"text": "I'll be presenting TMRL at #RSS2026!\n\nThu 7/16, 3:15 PM @ Imitation Learning 3 Session\nFri 7/17, 5:30–6:00 PM @ Diffusion for Robot Learning Workshop(https://t.co/Xaf8UwwrTK)\n\nStop by our poster after Thursday's session, happy to talk real-world RL, or pre-training for post-training broadly. Come say hi 👋\n\nhttps://t.co/BjqCO6wnxc",
-"likeCount": 19,
+"userName": "arena",
+"text": "Shifts we observe with factuality:\n\nWhile human preference scores across nearly all providers have been climbing over time, plotting pure factuality score against flagship model release date shows OpenAI is the only provider also consistently improving factuality over an extended period. SpacexAI and Meta have also been improving with their recent releases.\n\nInteract with this visual at: https://t.co/byV2f2tjpi",
+"likeCount": 25,
 "retweetCount": 2,
-"url": "https://x.com/matthewh6_/status/2077187100265619950",
-"createdAt": "Wed Jul 15 00:22:51 +0000 2026"
+"url": "https://x.com/arena/status/2077432299680141344",
+"createdAt": "Wed Jul 15 16:37:11 +0000 2026"
 },
 {
-"userName": "1BlueButterfly6",
-"text": "@OniSensei8 @ChainsmokerCat_ I love the part where no generative AI was used in any of the animation BUT bc Wade over here said so the a crybaby fashion we must believe it",
-"likeCount": 20,
+"userName": "trexalab_agency",
+"text": "Eyewear Ecommerce Finding the right glasses should feel simple, not uncertain.\n\nDesigned a modern shopping experience with AI-powered virtual try-on to help customers choose with confidence.\n\nWould AI try-on influence your purchase?\n\n#WebDesign #UIDesign #EcommerceDesign #AI #UXDesign",
+"likeCount": 6,
 "retweetCount": 1,
-"url": "https://x.com/1BlueButterfly6/status/2077415205563228575",
-"createdAt": "Wed Jul 15 15:29:16 +0000 2026"
+"url": "https://x.com/trexalab_agency/status/2078713021783032063",
+"createdAt": "Sun Jul 19 05:26:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Jason: Absolutely fantastic moment happening in tech right now… \n\n… open source enthusiasm combined with a dramatic drop in the cost of…",
-"likeCount": 2016,
-"retweetCount": 110,
-"url": "https://x.com/ClementDelangue/status/2077729067722314129",
-"createdAt": "Thu Jul 16 12:16:26 +0000 2026"
+"text": "RT @1owroller: girlfriend overheard me and started yelling at me asking me “who the fuck is kimmy” “why the fuck are you talking about chin…",
+"likeCount": 20491,
+"retweetCount": 1162,
+"url": "https://x.com/ClementDelangue/status/2078272460219363810",
+"createdAt": "Sat Jul 18 00:15:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @sriramk: It is clear open source models and harnesses are having a moment. There's a few factors at work\n\n1/ It is now obvious that you…",
-"likeCount": 1084,
-"retweetCount": 139,
-"url": "https://x.com/ClementDelangue/status/2077568809444032562",
-"createdAt": "Thu Jul 16 01:39:38 +0000 2026"
+"text": "RT @arena: Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5.\n\nThis is a 17…",
+"likeCount": 25734,
+"retweetCount": 3821,
+"url": "https://x.com/ClementDelangue/status/2077905914527699161",
+"createdAt": "Thu Jul 16 23:59:10 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @ArtificialAnlys: Kimi K3 scores 57 on the Artificial Analysis Intelligence Index. Its intelligence is comparable to Opus 4.8 and GPT-5.…",
-"likeCount": 5987,
-"retweetCount": 681,
-"url": "https://x.com/ClementDelangue/status/2077918386882072623",
-"createdAt": "Fri Jul 17 00:48:43 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @arena: Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5.\n\nThis is a 17…",
+"likeCount": 25734,
+"retweetCount": 3821,
+"url": "https://x.com/jeremyphoward/status/2077915673351905403",
+"createdAt": "Fri Jul 17 00:37:56 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @digg: Hugging Face CEO @ClementDelangue floated a San Francisco \"meetup or march\" for open-source and local AI. The reaction so far is…",
-"likeCount": 12,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2077488615848882461",
-"createdAt": "Wed Jul 15 20:20:58 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @rsalakhu: Congratulations to Zhilin Yang, founder and CEO of @Kimi_Moonshot, on the latest Kimi release. What a huge win for the open-s…",
+"likeCount": 6982,
+"retweetCount": 563,
+"url": "https://x.com/jeremyphoward/status/2078095136714854761",
+"createdAt": "Fri Jul 17 12:31:04 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @abidlabs: This is insane! We've just started the challenge, and already 73 papers from ICML are partially or fully reproduced thanks to…",
-"likeCount": 48,
+"userName": "jeremyphoward",
+"text": "RT @mintlify: We made Claude Code and Codex surf docs and counted every 404 they hit before finding the answer.\n\nWe served the same content…",
+"likeCount": 69,
 "retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2077536990711386333",
-"createdAt": "Wed Jul 15 23:33:12 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @sayashk: The open release of Kimi K3 once again shows that our interventions for resilience should be focused on a world where advanced…",
-"likeCount": 70,
-"retweetCount": 6,
-"url": "https://x.com/jeremyphoward/status/2078097305572724756",
-"createdAt": "Fri Jul 17 12:39:41 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @ramez: American AI thinkers aren't emotionally prepared for if Chinese companies are just really good at AI.",
-"likeCount": 177,
-"retweetCount": 14,
-"url": "https://x.com/jeremyphoward/status/2078240793815556516",
-"createdAt": "Fri Jul 17 22:09:51 +0000 2026"
+"url": "https://x.com/jeremyphoward/status/2078239774360674468",
+"createdAt": "Fri Jul 17 22:05:48 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Kimi_Moonshot: Meet Kimi K3 https://t.co/ou00Av3VoS",
-"likeCount": 28449,
-"retweetCount": 2540,
-"url": "https://x.com/ClementDelangue/status/2077932835302936913",
-"createdAt": "Fri Jul 17 01:46:08 +0000 2026"
+"text": "RT @sriramk: kimi k3 is a big moment with multiple implications for the entire industry.",
+"likeCount": 2043,
+"retweetCount": 134,
+"url": "https://x.com/ClementDelangue/status/2077905793652007033",
+"createdAt": "Thu Jul 16 23:58:41 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/dGe6IjSMuB",
-"likeCount": 191,
-"retweetCount": 208,
-"url": "https://x.com/Ambani_Wessley/status/2077413699246068017",
-"createdAt": "Wed Jul 15 15:23:17 +0000 2026"
-},
-{
-"userName": "SynBio1",
-"text": "https://t.co/WXTJf96R01",
-"likeCount": 188,
-"retweetCount": 35,
-"url": "https://x.com/SynBio1/status/2078110118734872807",
-"createdAt": "Fri Jul 17 13:30:36 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/kPrj9PEqb7",
-"likeCount": 21,
-"retweetCount": 9,
-"url": "https://x.com/apob_ai/status/2078007423680606444",
-"createdAt": "Fri Jul 17 06:42:31 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @theo: Kimi K3 is really, really good. https://t.co/CCjSJvBwWK",
+"likeCount": 3437,
+"retweetCount": 163,
+"url": "https://x.com/ClementDelangue/status/2078279479307420094",
+"createdAt": "Sat Jul 18 00:43:35 +0000 2026"
 }
 ]
