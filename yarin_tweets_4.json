@@ -1,112 +1,120 @@
 [
 {
-"userName": "ajay4ai",
-"text": "How to Become an AI Engineer in 6 Months (Without Wasting Time)\n\nForget trying to learn everything.\n\nThe goal isn't to memorize AI buzzwords. The goal is to become someone who can build real AI products.\n\nBy the end of six months, you should be able to:\n\n• Build LLM applications from scratch\n• Work with OpenAI, Anthropic, and open-source models\n• Design effective prompts and AI workflows\n• Integrate tools, memory, and structured outputs\n• Deploy production-ready AI applications\n\nHere's a roadmap I'd recommend.\n\nMonth 1: Programming & Backend Foundations\n\nBefore touching advanced AI, become comfortable with the tools you'll use every day.\n\nLearn:\n\n• Python\n• Git & GitHub\n• Terminal / CLI\n• HTTP, REST APIs & JSON\n• Async programming basics\n• SQL\n• Pandas\n• Virtual environments\n• Error handling\n• FastAPI (or Flask)\n\nBuild:\n\n• A REST API\n• A small automation tool\n• A CRUD application\n\nMonth 2: LLM Application Development\n\nNow start building with language models.\n\nLearn:\n\n• Prompt engineering\n• System vs User messages\n• Structured outputs (JSON)\n• Function / Tool Calling\n• Streaming responses\n• Conversation memory\n• Token usage & cost optimization\n• Failure handling\n• Prompt injection prevention\n\nProjects:\n\n• AI Chatbot\n• Text Summarizer\n• AI Writing Assistant\n\nMonth 3: Retrieval-Augmented Generation (RAG)\n\nMost useful AI products rely on retrieval.\n\nLearn:\n\n• Embeddings\n• Chunking strategies\n• Vector databases\n• Metadata filtering\n• Hybrid search\n• Reranking\n• Hallucination reduction\n• Grounded responses & citations\n\nProjects:\n\n• Chat with PDFs\n• Documentation Assistant\n• Internal Knowledge Base Chatbot\n\nMonth 4: AI Agents & Workflows\n\nAgents are powerful, but only when used correctly.\n\nLearn:\n\n• Agent loops\n• Tool selection\n• State management\n• Multi-step workflows\n• Retry mechanisms\n• Evaluation pipelines\n• Success metrics\n• When NOT to use agents\n\nProjects:\n\n• Research Agent\n• Coding Assistant\n• Multi-tool Workflow Automation\n\nMonth 5: Production & Deployment\n\nBuilding locally isn't enough.\n\nLearn:\n\n• Production FastAPI\n• Docker\n• Background jobs\n• Queues\n• Authentication\n• API security\n• Logging\n• Monitoring & observability\n• Prompt versioning\n• Cost monitoring\n• Rate limiting\n• Caching\n\nProjects:\n\n• Deploy an AI SaaS\n• Add monitoring dashboards\n• Support multiple users\n\nMonth 6: Choose Your Path\n\nDon't try to master every area.\n\nPick one direction and go deep.\n\nDirection 1: AI Product Engineer\n\nBest for startup jobs.\n\nFocus on:\n\n• LLM applications\n• RAG\n• AI Agents\n• Deployment\n• Product UX\n\nDirection 2: Applied AI / LLM Engineer\n\nFocus on:\n\n• Fine-tuning\n• Prompting vs Fine-tuning\n• Model evaluation\n• Inference optimization\n• Open-source models\n• Training pipelines\n\nDirection 3: AI Automation Engineer\n\nFocus on:\n\n• Workflow orchestration\n• Multi-tool systems\n• CRM automation\n• Email & document automation\n• Business process automation\n\nThis roadmap is only valuable if you actually build while learning.\n\nEvery concept should turn into a project.\n\nBy the end of six months, you'll have a portfolio full of real AI applications instead of just certificates.\n\nSave this roadmap. You'll thank yourself later.",
-"likeCount": 5,
-"retweetCount": 0,
-"url": "https://x.com/ajay4ai/status/2078574041397698679",
-"createdAt": "Sat Jul 18 20:14:04 +0000 2026"
+"userName": "jumperz",
+"text": "Dropping the full prompt below for anyone who wants to try it. \n\nthis was one generation with no follow-ups , results will obviously vary between runs..\n\n=====================\n\nBuild a complete, production-quality launch website for Kimi K3 using Next.js, React, TypeScript, GSAP ScrollTrigger, and restrained Lenis smooth scrolling.\n\nREFERENCE:\nandonorris official website\n\nStudy its cinematic scroll control and level of craft, but do not copy its layout, assets, branding, colors, copy, or exact animations.\n\nCREATIVE DIRECTION\n\nCreate one continuous, scroll-controlled typographic film—not a conventional landing page with separate sections fading in.\n\nCentral concept: “ENTER THE K.”\n\nThe letter K is a portal. The user approaches it, enters it, travels through it, and exits it. Reuse the K as solid type, outline, mask, negative space, cropped geometry, grid, and navigation marker.\n\nEvery scene must transform from the geometry already on screen:\n\n- Letters become masks and architecture\n- Typography expands into backgrounds\n- Lines become grids\n- Numbers transform into new scenes\n- Existing elements move, scale, crop, or align into the next composition\n- Never reset the screen with a basic crossfade\n\nThe motion should feel heavy, controlled, cinematic, and directly connected to scrolling.\n\nVISUAL SYSTEM\n\nColors:\n- Ink: #090A0A\n- Warm paper: #F1EFE8\n- Gray: #B8B8B0\n- Dark gray: #222422\n- Signal: #D6FF3F\n\nKeep at least 80% monochrome. Use the signal color rarely for active details and one major climax. Use hard, meaningful theme changes:\n\nDark → warm paper → dark → signal color → quiet dark.\n\nTypography is the main visual material. Use a heavy wide grotesk such as Mona Sans Variable or Archivo Black, with Instrument Sans or Mona Sans for interface text.\n\nUse extreme scale and intentional cropping:\n- Hero type: 25–40vw\n- Tight leading and tracking\n- Asymmetrical editorial layouts\n- Small uppercase technical labels\n- Tabular numerals\n- No generic centered headline/subtitle/button stacks\n\nSCROLL STORYBOARD\n\nBuild approximately 900–1200vh of cinematic pinned scenes.\n\n00 — LOADER\n\nShow “KIMI / K3,” a calibration line, and “INITIALIZING 000%.” Rapidly reach 100%. Transform the loader line directly into the hero composition. Maximum 1.5 seconds.\n\n01 — KIMI K3 HERO\n\nNearly black background with enormous KIMI typography, smaller K3, minimal navigation, metadata, progress rail, and “SCROLL TO ENTER.”\n\nDuring scroll:\n- Metadata enters through clipped reveals\n- “IMI” moves beyond the viewport while K remains\n- K scales to 8–12× the viewport\n- Use K as a mask containing subtle monochrome motion\n- Move through its negative space\n- Its diagonal stroke becomes the next scene\n\nCopy:\nKIMI K3\nA NEW SCALE OF INTELLIGENCE\nMOONSHOTAI / KIMI-K3\nAVAILABLE THROUGH OPENROUTER\n\n02 — INSIDE THE K\n\nCreate an abstract editorial environment from diagonal planes, cropped letter fragments, measurement lines, coordinates, and subtle texture. Avoid a literal sci-fi tunnel.\n\nScrolling assembles:\n\nTHINK\nACROSS\nTHE ENTIRE\nPROBLEM\n\nMove planes at controlled depths. Transform the K’s diagonal into a horizontal line leading into the next scene.\n\n03 — ONE MILLION CONTEXT\n\nInvert to warm paper. Pin the scene while vertical scrolling drives horizontal movement.\n\nBegin with a viewport-sized “1,” then spatially reveal:\n\n1 → 1,0 → 1,048 → 1,048,576\n\nKeep the number as the composition’s architecture. Move restrained document, code, and structured-data fragments beneath it.\n\nInclude:\nLONG CONTEXT\nCONNECTED REASONING\nCOMPLETE PROJECT AWARENESS\nFEWER ARTIFICIAL BOUNDARIES\n\nEnlarge the final “6” into a mask revealing the next dark scene.\n\n04 — CAPABILITIES\n\nCreate three full-screen typographic transformations, not cards:\n\n01 / REASON\nFOLLOW THE PROBLEM BEYOND THE FIRST ANSWER.\n\n02 / CODE\nMOVE FROM INTENT TO WORKING SYSTEMS.\n\n03 / BUILD\nPLAN. EXECUTE. VERIFY. ITERATE.\n\nExpand REASON’s font width. Align its strokes into code-like columns. Use those columns as CODE’s negative space, then collapse them into structural planes forming BUILD.\n\n05 — K3 INDEX\n\nKeep a huge K3 stationary on the left. On the right, vertically move precisely aligned specification rows:\n\nMODEL — KIMI K3\nMODEL ID — MOONSHOTAI/KIMI-K3\nACCESS — OPENROUTER\nINTERFACE — CHAT COMPLETIONS\nCONTEXT — 1,048,576\nSTATUS — AVAILABLE\n\nAs each row aligns with the K’s horizontal arm, turn it signal green. Compress all rows into one line at the end.\n\n06 — CLIMAX\n\nUse the signal color as the background—the only large color moment.\n\nDisplay oversized black typography:\n\nNOT A CHAT WINDOW.\nA WORKING INTELLIGENCE.\n\nBegin inside a giant letter, slowly zoom out until the full statement becomes readable, lock the words to a strict grid, then compress everything into “KIMI K3.”\n\n07 — FINAL CTA\n\nShrink the signal-colored KIMI K3 mark into a small header and return to near-black.\n\nDisplay:\n\nKIMI K3\nNOW AVAILABLE\nTry the model through OpenRouter.\n\nCTA: TRY KIMI K3\nTechnical line: moonshotai/kimi-k3\n\nUse a sharp rectangular or underlined CTA. On hover, wipe the background horizontally and move the arrow 6–8px. End with a huge cropped K below the viewport.\n\nMOTION AND ENGINEERING\n\n- One GSAP timeline per major scene\n- Restrained scrub values around 0.6–1.2\n- No bounce, spring, overshoot, or excessive scroll lag\n- Reuse geometry between scenes\n- Prefer transforms, masks, and clip-path\n- Keep text as real HTML\n- Use WebGL only if genuinely necessary\n- Wait for fonts before calculating timelines\n- Clean up GSAP contexts\n- Recalculate animations at responsive breakpoints\n- Maintain sharp typography and smooth 60fps motion\n- No scroll traps or scroll-jacking\n\nCreate a minimal fixed navigation:\nK3 / 01 MODEL / 02 CAPABILITIES / 03 CONTEXT / 04 ACCESS / TRY K3 ↗\n\nUpdate its color and progress state according to the active scene.\n\nRESPONSIVE AND ACCESSIBILITY\n\nArt-direct desktop, tablet, and mobile separately. On mobile, replace horizontal sequences with controlled vertical transformations while preserving the K-portal story.\n\nSupport 1440, 1280, 1024, 768, 430, 390, and 360px.\n\nInclude semantic HTML, keyboard navigation, focus states, sufficient contrast, skip link, and prefers-reduced-motion. Reduced-motion mode must remove pinning and zoom effects while keeping all content accessible.\n\nSTRICTLY AVOID\n\n- Gradients and gradient text\n- Glassmorphism\n- Neon blobs or glowing orbs\n- Bento grids and feature cards\n- Rounded floating containers\n- Fake terminals\n- Random particles\n- Stock illustrations\n- Generic icons\n- Constant fade-up animations\n- Excessive blur\n- Pill-shaped buttons\n- SaaS-template layouts\n- Decorative animation without narrative purpose\n- Fake benchmarks, testimonials, or logos\n\nThe final result should feel like a digital fashion editorial, motorsport identity, experimental type specimen, and interactive title sequence—not an AI-generated SaaS homepage.\n\nBuild the complete functioning website. Prioritize strong static composition first, then add the connected scroll choreography. Test every transition, responsive breakpoint, navigation action, reduced-motion mode, and CTA. Fix all console errors and maintain smooth performance.",
+"likeCount": 237,
+"retweetCount": 10,
+"url": "https://x.com/jumperz/status/2077884505612750861",
+"createdAt": "Thu Jul 16 22:34:06 +0000 2026"
 },
 {
-"userName": "Multi_mike01",
-"text": "𝗕.𝗔𝗜 𝗪𝗲𝗹𝗰𝗼𝗺𝗲𝘀 𝗞𝗶𝗺𝗶 𝗞𝟯 𝘁𝗼 𝗜𝘁𝘀 𝗪𝗼𝗿𝗹𝗱-𝗖𝗹𝗮𝘀𝘀 𝗔𝗜 𝗠𝗼𝗱𝗲𝗹 𝗟𝗶𝗻𝗲𝘂𝗽\n\nThe AI landscape continues to evolve, and https://t.co/0OIBJy3WZP is ensuring developers have access to the latest breakthroughs.\n\nKimi K3, Moonshot AI's flagship model, is now available on the https://t.co/0OIBJy3WZP API, expanding an already world-class lineup that includes models from OpenAI, Claude, Gemini, DeepSeek, GLM, and MiniMax.\n\nAs the world's first open 3T-class language model, Kimi K3 is built with 2.8 trillion parameters and an advanced sparse Mixture-of-Experts (MoE) architecture powered by Kimi Delta Attention (KDA), Attention Residuals (AttnRes), and Stable LatentMoE. This enables highly efficient inference by activating only the experts required for each task, delivering exceptional performance without unnecessary compute.\n\n𝗪𝗵𝗮𝘁 𝗺𝗮𝗸𝗲𝘀 𝗞𝗶𝗺𝗶 𝗞𝟯 𝘀𝘁𝗮𝗻𝗱 𝗼𝘂𝘁?\n\n• Always-on reasoning for tackling complex, multi-step problems.\n• A 1,048,576-token context window, allowing it to analyze entire codebases, extensive documentation, and large datasets in a single conversation.\n• Native multimodal understanding, supporting text, image, and video inputs for richer AI workflows.\n• Long-horizon software engineering, including repository navigation, debugging, compiler optimization, terminal orchestration, and GPU kernel development.\n• Enterprise-grade knowledge work, from financial analysis and scientific research to document synthesis, presentations, and interactive reports.\n• Agent-first capabilities, enabling autonomous workflows that combine reasoning, tools, code, and visual understanding.\n\nBuilt for production, Kimi K3 supports an extensive developer toolkit, including:\n\n✅ OpenAI-compatible Chat Completions API\n✅ Streaming responses\n✅ Function calling\n✅ Tool Choice & Dynamic Tool Loading\n✅ Structured JSON Schema output\n✅ Partial Mode\n✅ Official Formula tools\n✅ Automatic context caching for improved efficiency across long-context applications\n\nCredits Usage on https://t.co/0OIBJy3WZP\n\n• Input: 3.00 Credits/token\n• Cache Write: 3.00 Credits/token\n• Cache Read: 0.30 Credits/token\n• Output: 15.00 Credits/token\n\nWith Kimi K3 joining its growing ecosystem, https://t.co/0OIBJy3WZP continues to strengthen its position as a unified AI platform where developers can access leading models through a single API, choosing the right intelligence for every application without managing multiple providers.\n\nWhether you're building AI agents, developer tools, enterprise assistants, or next-generation multimodal applications, Kimi K3 is now ready to power your ideas on https://t.co/0OIBJy3WZP.\n\nBuild with Kimi K3 today on https://t.co/0OIBJy3WZP.\nhttps://t.co/wq0VtrCYwB\n\n#TRONEcoStar @justinsuntron #TRON",
-"likeCount": 21,
-"retweetCount": 8,
-"url": "https://x.com/Multi_mike01/status/2078385987156144590",
-"createdAt": "Sat Jul 18 07:46:48 +0000 2026"
+"userName": "thewebbie",
+"text": "The Expert Talmud Scholars of Screenshot University\n\nThere are few spectacles more majestic than watching someone who has never opened a page of Talmud explain the Talmud to Jews.\n\nIt is one of the great wonders of the modern world. Right up there with airport sushi, self-checkout machines that accuse you of theft, and people on TikTok diagnosing empires between skincare routines.\n\nEvery few days, some freshly moisturized antisemite emerges from the digital swamp holding a screenshot like it’s the Dead Sea Scrolls.\n\n“Have you read what the Talmud says?”\n\nNo, white supremacy T-shirt guy.. Have you?\n\nNot a quote card.\nNot a Telegram meme dressed up as research.\nNot a PDF from a marble-statue avatar named BloodAndSoil1488.\n\nThe actual Talmud.\n\nThe thing with Hebrew, Aramaic, legal reasoning, argument, counterargument, majority opinions, minority opinions, hypotheticals, ethics, and rabbis debating whether an oven can be spiritually compromised.\n\nYes, an oven.\nWelcome to Judaism. Even our cookware has jurisprudence.\n\nThe Talmud is not a pamphlet. It is not a manifesto. It is not “Jewish Mein Kampf,” which is the kind of sentence produced when ignorance and malice have a baby and raise it on conspiracy podcasts.\n\nIt is thousands of pages of Jewish legal, moral, and intellectual wrestling. Daf Yomi takes about seven and a half years just to finish one pass. One pass. Not master it. Not decode it. Not earn a black belt in secret Jewish weather control. Just get through the pages.\n\nAnd yet Kevin from Reddit reads four mistranslated lines from a neo-Nazi image board during lunch and now considers himself a dayan.\n\nMazel tov.\nMay his next scholarly achievement be reading the instructions on a shampoo bottle without blaming the Jews for conditioner.\n\nThe modern antisemite has learned that frothing Jew-hate sounds bad in public, so he rebrands himself as a researcher. He does not say, “I hate Jews.” Too crude. Too retro. Instead he says, “I’m just asking questions about the Talmud.”\n\nAh yes. Just asking questions. The mating call of the intellectually dishonest.\n\nThis is not scholarship.\nThis is textual mugging.\n\nThey jump the Talmud in an alley, steal a sentence, remove its context, beat the grammar unconscious, drag it onto social media, and point at the corpse. “See?”\n\nNo. We do not see. We smell.\nAnd what we smell is the same old antisemitic sewage, only now it has Wi-Fi.\n\nThe method is ancient. Take a Jewish text. Remove context. Lie about meaning. Present Jews as demonic. Pretend the lie is brave truth. Wait for violence.\n\nBlood libel. Host desecration. The Protocols of the Elders of Zion. Nazi race science.\n\nSame machinery. New font.\n\nYesterday the Jew poisoned wells.\nToday the Jew controls banks, media, wars, weather, Hollywood, Congress, and apparently everyone’s Wi-Fi except mine, which still dies in the bathroom where I need it the most.\n\nFunny. Absurd. Never harmless.\n\nThese myths are permission slips.\n\nThe Talmud smear exists because antisemites need Jews guilty before the trial begins. They start with the verdict, then shop for evidence. A fake quote. A bad translation. A rejected hypothetical treated as doctrine. A passage about ancient idolaters pretending to be about your neighbor Larry who brings kugel to shul.\n\nThis is not confusion. It is a method.\n\nThe Talmud is useful to Jew-haters because it is large, complex, ancient, multilingual, and unfamiliar to most non-Jews. Perfect hunting ground for liars. If a text is dense enough, you can make it say anything to people who will never check.\n\nBut the Talmud is not read like a fortune cookie. It is studied in dialogue. Chavruta. Argument. Pushback. Layers. The page itself is a conversation across centuries: Mishnah, Gemara, Rashi, Tosafot, disagreement, more disagreement, and then, because we are Jews, disagreement about whether the disagreement was sufficiently disagreeable.\n\nThat is what the antisemite cannot tolerate.\n\nThe Talmud does not show Jews as cartoon villains. It shows Jews doing what serious people do when morality matters: arguing over obligations. What do we owe the poor? How do we compensate harm? What is justice when facts are messy? How do you build a life after empire takes your land, your Temple, and your safety?\n\nThat is the real Talmud.\nNot a manual for domination.\nA manual for survival with conscience.\n\nRome destroyed Jewish sovereignty. The Temple was gone. Jews were scattered, taxed, and hunted. And what did we do? We argued. We remembered. We legislated. We taught our children. We built a portable civilization out of words.\n\nThe antisemite sees that and calls it conspiracy. Because to the antisemite, Jewish continuity itself is suspicious.\n\nIf Jews assimilate, we are infiltrators.\nIf Jews preserve identity, we are tribal.\nIf Jews are weak, we are parasites.\nIf Jews are strong, we are oppressors.\nIf Jews succeed, we control everything.\nIf Jews die, it is unfortunate.\nIf Jews fight back, it is genocide.\n\nThere is no acceptable Jewish existence except the silent, grateful, endangered kind. Preferably museum-quality. Preferably dead. Preferably useful as a moral lesson for everyone except living Jews.\n\nThere is nothing brave about repeating the oldest hatred in the world with a Canva template. Blaming Jews is not edgy. It is lazy. It is the intellectual equivalent of microwaving fish in the office kitchen. Everyone notices. Nobody respects you. And you made the room worse.\n\nSo to the expert Talmud scholars of Screenshot University, here is the syllabus:\n\nWeek one: Learn Hebrew.\nWeek two: Learn Aramaic.\nWeek three: Learn what a sugya is.\nWeek four: Learn the difference between a debate, a ruling, a rejected opinion, an aggadic passage, and a fever dream you found online.\nWeek five: Apologize to the nearest Jew.\nWeek six onward: Seven and a half years of actual study.\n\nBring coffee. Bring humility. Bring snacks.\nAnd stop saying “the Talmud says” when what you mean is “a meme told me.”\n\nHere is the moral.\n\nYou did not expose the Jews.\nYou exposed yourself.\n\nYou did not uncover Jewish evil.\nYou uncovered your own illiteracy.\n\nYou did not decode the Talmud.\nYou failed the entrance exam.\n\nThe Talmud would have welcomed your questions. Judaism loves questions: good ones, hard ones, annoying ones. But a question asked in bad faith is not a question. It is an accusation wearing a fake mustache.\n\nSo keep your screenshots. We have libraries.\nKeep your tropes. We have memory.\nKeep your hate. We have outlived better enemies than you.\n\nAnd if you ever decide to stop pimping antisemitic garbage and start studying honestly, the door is open.\n\nJust know this.\nThe first lesson will not be about Jews controlling the world.\nIt will be about humility.\nYou may find it challenging.",
+"likeCount": 42,
+"retweetCount": 14,
+"url": "https://x.com/thewebbie/status/2078932155942515069",
+"createdAt": "Sun Jul 19 19:57:05 +0000 2026"
 },
 {
-"userName": "Rukkssss__",
-"text": "𝗞𝗶𝗺𝗶 𝗞𝟯 𝗹𝗮𝘂𝗻𝗰𝗵𝗲𝗱 𝘁𝗼𝗱𝗮𝘆.\n\n𝗕.𝗔𝗜 𝗱𝗶𝗱𝗻’𝘁 𝘄𝗮𝗶𝘁.\n\nThe model is already live on the https://t.co/YpD1NBsBFD API, giving developers immediate access to one of the most ambitious open-model releases yet.\n\nKimi K3 enters as the world’s first open 3T-class model, built with 2.8 trillion parameters and designed for workloads that demand more than quick, surface-level answers.\n\nIt brings major improvements across:\n\n💻 Long-horizon coding\n\nKimi K3 is built to stay focused across complex development tasks where the solution may require understanding large codebases, following extended instructions and working through several connected stages.\n\n🧠 Complex reasoning\n\nSome problems cannot be solved through one short response.\n\nThey require planning, comparison, correction and consistent reasoning over a long sequence.\n\nKimi K3 is designed for exactly that kind of work.\n\n📚 Knowledge-intensive tasks\n\nResearch, technical analysis and large-document workflows often involve more information than smaller context windows can comfortably hold.\n\nWith a 1-million-token context window, Kimi K3 can work across enormous volumes of material while maintaining access to the wider picture.\n\n👁️ Native vision\n\nThe model can process visual information alongside text, opening the door to richer applications that need to understand documents, screenshots, diagrams and other image-based inputs.\n\nThe important part is not only that Kimi K3 exists.\n\nIt is that developers can begin using it immediately through https://t.co/YpD1NBsBFD.\n\nNo long delay between launch and access.\n\nNo need to wait for the model to become available months later.\n\nThe capability is already inside the infrastructure where applications and AI agents can put it to work.\n\nA major open model launched.\n\nhttps://t.co/YpD1NBsBFD made it immediately accessible.\n\nNow developers get to decide what comes next.\n\n🚀 Kimi K3 is live on the https://t.co/YpD1NBsBFD API.\n\nTry it today: https://t.co/3Ny1LLROoT\n\n@BAI_AGI @justinsuntron #TRONEcoStar",
-"likeCount": 35,
-"retweetCount": 9,
-"url": "https://x.com/Rukkssss__/status/2078360669183787234",
-"createdAt": "Sat Jul 18 06:06:12 +0000 2026"
+"userName": "codewithhajra",
+"text": "🚀 20+ FREE AI Tools That Can Save You Hundreds of Hours\n\nStop wasting time doing things manually.\n\n🔍 Research & Learning\n\n👉🏻 ChatGPT — Research, coding, writing, brainstorming\n👉🏻 Google Gemini — Long-context research & Google integration\n👉🏻 Perplexity AI — AI search engine with citations\n👉🏻 NotebookLM — Chat with your PDFs, notes & documents\n👉🏻 Claude — Long document analysis & writing\n\n🎨 UI/UX Design\n\n👉🏻 Figma AI — Design assistance & UI generation\n👉🏻 Relume — Generate sitemaps, wireframes & website copy\n👉🏻 Uizard — Turn sketches into UI screens\n👉🏻 Galileo AI — Generate beautiful UI designs from prompts\n\n🖼️ Graphics & Images\n\n👉🏻 Canva AI — Social posts, presentations & graphics\n👉🏻 Adobe Express AI — Quick graphic editing & AI effects\n👉🏻 Remove .bg — Remove backgrounds instantly\n👉🏻 Photopea — Free Photoshop alternative\n👉🏻 Clipdrop — AI cleanup, relighting & image enhancement\n\n🎥 Video & Audio\n\n👉🏻 CapCut — AI video editing & auto captions\n👉🏻 Descript — Edit videos by editing text\n👉🏻 ElevenLabs — Realistic AI voice generation\n👉🏻 Otter .ai — Meeting transcription & summaries\n👉🏻 Pika — Generate short AI videos from prompts\n\n📊 Presentations & Visuals\n\n👉🏻 Gamma — AI presentations & documents\n👉🏻 Napkin AI — Turn ideas into beautiful diagrams\n👉🏻 Tome — AI-powered presentations & storytelling\n\n💻 Coding & Automation\n\n👉🏻 GitHub Copilot — AI coding assistant\n👉🏻 n8n — Build AI workflows & automations\n👉🏻 Bolt .new — Build full-stack apps from prompts\n🚀 Windsurf — AI-first coding IDE\n\n💎 Hidden Gems (Less Known but Super Useful)\n\n👉🏻 Taskade AI — AI workspace for notes, tasks & projects\n👉🏻 DeepL Write — Improves grammar & writing naturally\n👉🏻 Pi AI — Friendly conversational AI companion\n👉🏻 Pictory AI — Turn articles into videos\n👉🏻 Crisp AI — AI email writing assistant\n👉🏻 Wispr Flow — Voice-to-text with excellent accuracy\n\n💡 Pro Tip: You don’t need to learn every AI tool. Pick 3–5 tools that solve your daily problems and master them.\n\n❤️ Follow Codewithhajra for more AI, development, and productivity content.\n\n🔄 Repost to help others discover these amazing free AI tools!",
+"likeCount": 49,
+"retweetCount": 2,
+"url": "https://x.com/codewithhajra/status/2078739499283021939",
+"createdAt": "Sun Jul 19 07:11:32 +0000 2026"
 },
 {
-"userName": "David_TornAI",
-"text": "🚀 120 AI Tools Worth Bookmarking in 2026\n\nStop wasting hours searching for the perfect AI tool.\n\nI've curated 120 of the best AI tools to help you work smarter, create faster, and stay ahead.\n\n✨ Ideas & Research\n• YOU\n• Claude\n• ChatGPT\n• Perplexity\n• Bing Chat\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing\n• Rytr\n• Jasper\n• https://t.co/TCWiDvcpJ5\n• Text Blaze\n• Writesonic\n\n🎨 AI Models\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meetings\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n🤖 Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 UI/UX\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎥 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 Design\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/rNOhDnFcCP\n\n📈 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• AdCreative\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• TweetHunter\n\n💾 Save this post before you lose it.\n\nYou'll thank yourself the next time you need the right AI tool for a project.\n\n♻️ Repost to help others.\n\nFollow @David_TornAI for daily AI tools, prompts, and productivity hacks. 🚀",
-"likeCount": 127,
-"retweetCount": 86,
-"url": "https://x.com/David_TornAI/status/2078383771179458594",
-"createdAt": "Sat Jul 18 07:38:00 +0000 2026"
+"userName": "hey_abusiddik",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
+"likeCount": 27,
+"retweetCount": 13,
+"url": "https://x.com/hey_abusiddik/status/2078858712815747074",
+"createdAt": "Sun Jul 19 15:05:15 +0000 2026"
 },
 {
-"userName": "Dmytroo_eth",
-"text": "STOP SCREENSHOTTING KIMI K3 BENCHMARKS. ROUTE REAL WORK TO IT\n\nMoonshot shipped Kimi K3 on July 16 with 2.8 trillion parameters, 1M context, native text/image/video input and $3 per million input tokens\n\nMost people will treat it like launch-week content\n\nPost the benchmark chart, argue in replies, then send zero real tasks through the model\n\nThat misses the actual use case\n\nK3 is not trying to be the smartest model in every situation\n\nIt is a volume machine\n\nThe important part is the 1M context window, flat long-context pricing, and cache hits at $0.30 per million tokens\n\nThat changes the economics of heavy work\n\nRepo-wide analysis. Large docs. Research corpora. Agent loops that reread the same context again and again\n\nA normal setup pays full price every time the model sees the same project\n\nA structured setup keeps the stable context identical, puts the new task last, and lets cache pricing cut repeated context by 10x\n\nBut the catch matters\n\nBenchmarks are still self-reported. Reasoning effort is max-only at launch. Open weights are promised for July 27, not live yet. And trivial tasks can get expensive because the model overthinks them at full output price\n\nSo the move is not “replace your whole stack overnight”\n\nThe move is routing\n\nKeep premium models on hard reasoning and sensitive work\n\nSend long-context reading, repo analysis, doc synthesis and repeated agent context to K3\n\nMost people are still asking which model is king\n\nThe winners are asking which task each model should own",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/Dmytroo_eth/status/2078553750994616342",
-"createdAt": "Sat Jul 18 18:53:26 +0000 2026"
+"userName": "NusratJaha07",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @NusratJaha07 For More Tools.",
+"likeCount": 23,
+"retweetCount": 17,
+"url": "https://x.com/NusratJaha07/status/2079063936075440179",
+"createdAt": "Mon Jul 20 04:40:44 +0000 2026"
+},
+{
+"userName": "MaeNongB_TH",
+"text": "#TatlerAsia\n#TatlerLeadership #TatlerGenT #LeadersOfTomorrow \n#beckysangels\n#BeckyArmstrong‌\n#BeckyEntertainment\n\n[AI] \"Becky\" Rebecca Patricia Armstrong: A Driving Force in Contemporary Culture, Bringing Thai Soft Power to the Global Stage.\n\nA New Generation Powerhouse Bringing Thai Soft Power to the Global Stage\nThe success of Becky Armstrong is not measured by the number of followers she has, but by her ability to serve as a bridge that introduces the beauty and charm of Thailand to the world.\nRebecca Patricia Armstrong is one of Thailand's leading actresses to have made a significant impact on the international stage through the global Girls' Love (GL) phenomenon. She also made history as the first Thai to be included in the BoF 500, the fashion industry's prestigious list of the world's most influential figures.\nMost recently, she was named one of the three recipients of the Rising Star of the Year award at the 2026 Global OTT Awards in Busan for her portrayal of Nanno in the Thai fantasy thriller Girl from Nowhere: The Reset. Looking ahead, she is set to embark on a concert tour spanning more than ten countries next year, fulfilling her dream of becoming a full-fledged solo artist.\nHer growing influence as a representative of a new generation of Thai cultural ambassadors has earned her recognition as one of Tatler's Gen.T Leaders of Tomorrow 2026. Yet despite achieving milestones many aspire to, the 23-year-old defines success in remarkably simple terms:\n\"Success, for me, is waking up every day and getting to do what I love. Having passion, being happy, wanting to meet people, and being excited to try new things.\"",
+"likeCount": 82,
+"retweetCount": 55,
+"url": "https://x.com/MaeNongB_TH/status/2076693801310236818",
+"createdAt": "Mon Jul 13 15:42:39 +0000 2026"
 },
 {
 "userName": "swissverse",
 "text": "Building an AI-powered builder tool has made me realize how difficult a truly general-purpose version would be.\n\nThe visible building is only one layer. Every floor, wall, staircase, and object also needs colliders. These are invisible meshes that stop people from walking through walls or falling through the floor.\n\nAn AI could dynamically design an entire scene, but it would also need to generate and coordinate that invisible structure correctly. You can make the problem easier by introducing a rigid building structure, but the more rigid it becomes, the less meaningful the AI design layer becomes.\n\nI hesitate to call anything impossible right now. Still, this may simply be too difficult for most of us with the tools currently available.\n\nThat does not mean I am giving up on it. I am still going to try.\n\nWhat I find more interesting is the direction this is pushing me toward.\n\nI am starting to see my own building as a small ecosystem that needs an entire app to operate it. The app controls the building, its spaces, media, permissions, rewards, events, content, and user interactions.\n\nThat may be where app building inside virtual worlds becomes most useful.",
-"likeCount": 5,
+"likeCount": 6,
 "retweetCount": 0,
 "url": "https://x.com/swissverse/status/2078586100336189747",
 "createdAt": "Sat Jul 18 21:01:59 +0000 2026"
 },
 {
-"userName": "Bharati09",
-"text": "Leaving #BharatTex at the end of the day, I met these lovely twins. One, a fashion designer and the other, an AI engineer. \n\nBoth so excited to be at @TexMinIndia event. Enjoying the Bharat Mandapam.  “You can’t ignore AI,” says the fashion designer. “At least our generation. At least in India.”",
-"likeCount": 8,
-"retweetCount": 0,
-"url": "https://x.com/Bharati09/status/2077739997650923854",
-"createdAt": "Thu Jul 16 12:59:52 +0000 2026"
+"userName": "defaiscope",
+"text": "Decart has released Lucy 2.5, a real-time AI video editing model.\n\nUsers can change people, clothing, and backgrounds in videos instantly using text or reference images. It also supports adding effects and removing objects. \n\nThe model outputs at 1080p 30fps with no rendering delay. \n\nNew improvements include better visual consistency when subjects turn or temporarily leave the frame. It is designed for live streaming, virtual try-on, advertising, and gaming.",
+"likeCount": 5,
+"retweetCount": 2,
+"url": "https://x.com/defaiscope/status/2078170113526612455",
+"createdAt": "Fri Jul 17 17:29:00 +0000 2026"
+},
+{
+"userName": "trexalab_agency",
+"text": "Eyewear Ecommerce Finding the right glasses should feel simple, not uncertain.\n\nDesigned a modern shopping experience with AI-powered virtual try-on to help customers choose with confidence.\n\nWould AI try-on influence your purchase?\n\n#WebDesign #UIDesign #EcommerceDesign #AI #UXDesign",
+"likeCount": 23,
+"retweetCount": 1,
+"url": "https://x.com/trexalab_agency/status/2078713021783032063",
+"createdAt": "Sun Jul 19 05:26:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "I’ve said it many times: the countries or companies that are leading in open science and open source AI will start leading the frontier a few years later as it accelerates AI progress massively! That’s how the US took the lead",
-"likeCount": 355,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2077873510144512400",
-"createdAt": "Thu Jul 16 21:50:24 +0000 2026"
+"text": "RT @Alibaba_Qwen: Qwen3.8 is launching and going open-weight soon!🌐\n\nWith a massive 2.4T parameters, this model is continuously evolving. W…",
+"likeCount": 22339,
+"retweetCount": 3089,
+"url": "https://x.com/ClementDelangue/status/2078834556216746410",
+"createdAt": "Sun Jul 19 13:29:15 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TheAhmadOsman: Almost half capacity\n\nYou guys show up every time we ask\n\nThat's why Local &amp; Opensource AI is going to win\n\nSee you next…",
-"likeCount": 79,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2078696816045072768",
-"createdAt": "Sun Jul 19 04:21:55 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @nrehiew_: Here are a few benchmark scores of K3 that have been officially confirmed \n\nThis is a Fable/Sol class model that is strictly…",
-"likeCount": 3178,
-"retweetCount": 184,
-"url": "https://x.com/ClementDelangue/status/2077934995130429583",
-"createdAt": "Fri Jul 17 01:54:43 +0000 2026"
+"text": "RT @DavidSacks: This is concerning. For the first time, a Chinese model Kimi K3 has taken #1 on the Frontend Code Arena and is scoring at o…",
+"likeCount": 18984,
+"retweetCount": 2652,
+"url": "https://x.com/ClementDelangue/status/2078111501643375034",
+"createdAt": "Fri Jul 17 13:36:06 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @shadcn: few weeks ago, Fable 5 was so advanced it needed the gov and had to be taken offline.\n\ntoday, we have access to arguably better…",
-"likeCount": 23213,
-"retweetCount": 819,
-"url": "https://x.com/jeremyphoward/status/2078097366725620110",
-"createdAt": "Fri Jul 17 12:39:56 +0000 2026"
+"text": "RT @arena: Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5.\n\nThis is a 17…",
+"likeCount": 26140,
+"retweetCount": 3903,
+"url": "https://x.com/jeremyphoward/status/2077915673351905403",
+"createdAt": "Fri Jul 17 00:37:56 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @bookwormengr: @teortaxesTex Growth of AI data labelling industry in China:\n\nIf your mental model is distillation is the major route for…",
-"likeCount": 76,
-"retweetCount": 15,
-"url": "https://x.com/jeremyphoward/status/2078098619945869479",
-"createdAt": "Fri Jul 17 12:44:54 +0000 2026"
+"text": "RT @rsalakhu: Congratulations to Zhilin Yang, founder and CEO of @Kimi_Moonshot, on the latest Kimi release. What a huge win for the open-s…",
+"likeCount": 7057,
+"retweetCount": 568,
+"url": "https://x.com/jeremyphoward/status/2078095136714854761",
+"createdAt": "Fri Jul 17 12:31:04 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @yacineMTB: insane. they distilled american frontier models that haven't even been invented yet. damn chinese",
-"likeCount": 11654,
-"retweetCount": 635,
-"url": "https://x.com/ClementDelangue/status/2077930746992644467",
-"createdAt": "Fri Jul 17 01:37:50 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @ramez: American AI thinkers aren't emotionally prepared for if Chinese companies are just really good at AI.",
+"likeCount": 368,
+"retweetCount": 26,
+"url": "https://x.com/jeremyphoward/status/2078240793815556516",
+"createdAt": "Fri Jul 17 22:09:51 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "time to hit the follow button! https://t.co/ewqwPlvfms https://t.co/A2YoEqVxOM",
-"likeCount": 267,
+"likeCount": 270,
 "retweetCount": 16,
 "url": "https://x.com/ClementDelangue/status/2077932134145433970",
 "createdAt": "Fri Jul 17 01:43:21 +0000 2026"
@@ -114,17 +122,25 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @natolambert: jUsT gOoD bEcAuSe Of DiStIlLaTiOn",
-"likeCount": 1628,
+"likeCount": 1633,
 "retweetCount": 86,
 "url": "https://x.com/ClementDelangue/status/2078198417143283715",
 "createdAt": "Fri Jul 17 19:21:28 +0000 2026"
 },
 {
-"userName": "draginol",
-"text": "https://t.co/L0KLjj6Mzv",
-"likeCount": 11,
-"retweetCount": 2,
-"url": "https://x.com/draginol/status/2078137282230472885",
-"createdAt": "Fri Jul 17 15:18:32 +0000 2026"
+"userName": "DrFuliYang",
+"text": "https://t.co/JhxP9bjAka",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/DrFuliYang/status/2078486221723148548",
+"createdAt": "Sat Jul 18 14:25:06 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/kPrj9PEqb7",
+"likeCount": 24,
+"retweetCount": 10,
+"url": "https://x.com/apob_ai/status/2078007423680606444",
+"createdAt": "Fri Jul 17 06:42:31 +0000 2026"
 }
 ]
