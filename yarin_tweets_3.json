@@ -1,32 +1,40 @@
 [
 {
-"userName": "jumperz",
-"text": "Dropping the full prompt below for anyone who wants to try it. \n\nthis was one generation with no follow-ups , results will obviously vary between runs..\n\n=====================\n\nBuild a complete, production-quality launch website for Kimi K3 using Next.js, React, TypeScript, GSAP ScrollTrigger, and restrained Lenis smooth scrolling.\n\nREFERENCE:\nandonorris official website\n\nStudy its cinematic scroll control and level of craft, but do not copy its layout, assets, branding, colors, copy, or exact animations.\n\nCREATIVE DIRECTION\n\nCreate one continuous, scroll-controlled typographic film—not a conventional landing page with separate sections fading in.\n\nCentral concept: “ENTER THE K.”\n\nThe letter K is a portal. The user approaches it, enters it, travels through it, and exits it. Reuse the K as solid type, outline, mask, negative space, cropped geometry, grid, and navigation marker.\n\nEvery scene must transform from the geometry already on screen:\n\n- Letters become masks and architecture\n- Typography expands into backgrounds\n- Lines become grids\n- Numbers transform into new scenes\n- Existing elements move, scale, crop, or align into the next composition\n- Never reset the screen with a basic crossfade\n\nThe motion should feel heavy, controlled, cinematic, and directly connected to scrolling.\n\nVISUAL SYSTEM\n\nColors:\n- Ink: #090A0A\n- Warm paper: #F1EFE8\n- Gray: #B8B8B0\n- Dark gray: #222422\n- Signal: #D6FF3F\n\nKeep at least 80% monochrome. Use the signal color rarely for active details and one major climax. Use hard, meaningful theme changes:\n\nDark → warm paper → dark → signal color → quiet dark.\n\nTypography is the main visual material. Use a heavy wide grotesk such as Mona Sans Variable or Archivo Black, with Instrument Sans or Mona Sans for interface text.\n\nUse extreme scale and intentional cropping:\n- Hero type: 25–40vw\n- Tight leading and tracking\n- Asymmetrical editorial layouts\n- Small uppercase technical labels\n- Tabular numerals\n- No generic centered headline/subtitle/button stacks\n\nSCROLL STORYBOARD\n\nBuild approximately 900–1200vh of cinematic pinned scenes.\n\n00 — LOADER\n\nShow “KIMI / K3,” a calibration line, and “INITIALIZING 000%.” Rapidly reach 100%. Transform the loader line directly into the hero composition. Maximum 1.5 seconds.\n\n01 — KIMI K3 HERO\n\nNearly black background with enormous KIMI typography, smaller K3, minimal navigation, metadata, progress rail, and “SCROLL TO ENTER.”\n\nDuring scroll:\n- Metadata enters through clipped reveals\n- “IMI” moves beyond the viewport while K remains\n- K scales to 8–12× the viewport\n- Use K as a mask containing subtle monochrome motion\n- Move through its negative space\n- Its diagonal stroke becomes the next scene\n\nCopy:\nKIMI K3\nA NEW SCALE OF INTELLIGENCE\nMOONSHOTAI / KIMI-K3\nAVAILABLE THROUGH OPENROUTER\n\n02 — INSIDE THE K\n\nCreate an abstract editorial environment from diagonal planes, cropped letter fragments, measurement lines, coordinates, and subtle texture. Avoid a literal sci-fi tunnel.\n\nScrolling assembles:\n\nTHINK\nACROSS\nTHE ENTIRE\nPROBLEM\n\nMove planes at controlled depths. Transform the K’s diagonal into a horizontal line leading into the next scene.\n\n03 — ONE MILLION CONTEXT\n\nInvert to warm paper. Pin the scene while vertical scrolling drives horizontal movement.\n\nBegin with a viewport-sized “1,” then spatially reveal:\n\n1 → 1,0 → 1,048 → 1,048,576\n\nKeep the number as the composition’s architecture. Move restrained document, code, and structured-data fragments beneath it.\n\nInclude:\nLONG CONTEXT\nCONNECTED REASONING\nCOMPLETE PROJECT AWARENESS\nFEWER ARTIFICIAL BOUNDARIES\n\nEnlarge the final “6” into a mask revealing the next dark scene.\n\n04 — CAPABILITIES\n\nCreate three full-screen typographic transformations, not cards:\n\n01 / REASON\nFOLLOW THE PROBLEM BEYOND THE FIRST ANSWER.\n\n02 / CODE\nMOVE FROM INTENT TO WORKING SYSTEMS.\n\n03 / BUILD\nPLAN. EXECUTE. VERIFY. ITERATE.\n\nExpand REASON’s font width. Align its strokes into code-like columns. Use those columns as CODE’s negative space, then collapse them into structural planes forming BUILD.\n\n05 — K3 INDEX\n\nKeep a huge K3 stationary on the left. On the right, vertically move precisely aligned specification rows:\n\nMODEL — KIMI K3\nMODEL ID — MOONSHOTAI/KIMI-K3\nACCESS — OPENROUTER\nINTERFACE — CHAT COMPLETIONS\nCONTEXT — 1,048,576\nSTATUS — AVAILABLE\n\nAs each row aligns with the K’s horizontal arm, turn it signal green. Compress all rows into one line at the end.\n\n06 — CLIMAX\n\nUse the signal color as the background—the only large color moment.\n\nDisplay oversized black typography:\n\nNOT A CHAT WINDOW.\nA WORKING INTELLIGENCE.\n\nBegin inside a giant letter, slowly zoom out until the full statement becomes readable, lock the words to a strict grid, then compress everything into “KIMI K3.”\n\n07 — FINAL CTA\n\nShrink the signal-colored KIMI K3 mark into a small header and return to near-black.\n\nDisplay:\n\nKIMI K3\nNOW AVAILABLE\nTry the model through OpenRouter.\n\nCTA: TRY KIMI K3\nTechnical line: moonshotai/kimi-k3\n\nUse a sharp rectangular or underlined CTA. On hover, wipe the background horizontally and move the arrow 6–8px. End with a huge cropped K below the viewport.\n\nMOTION AND ENGINEERING\n\n- One GSAP timeline per major scene\n- Restrained scrub values around 0.6–1.2\n- No bounce, spring, overshoot, or excessive scroll lag\n- Reuse geometry between scenes\n- Prefer transforms, masks, and clip-path\n- Keep text as real HTML\n- Use WebGL only if genuinely necessary\n- Wait for fonts before calculating timelines\n- Clean up GSAP contexts\n- Recalculate animations at responsive breakpoints\n- Maintain sharp typography and smooth 60fps motion\n- No scroll traps or scroll-jacking\n\nCreate a minimal fixed navigation:\nK3 / 01 MODEL / 02 CAPABILITIES / 03 CONTEXT / 04 ACCESS / TRY K3 ↗\n\nUpdate its color and progress state according to the active scene.\n\nRESPONSIVE AND ACCESSIBILITY\n\nArt-direct desktop, tablet, and mobile separately. On mobile, replace horizontal sequences with controlled vertical transformations while preserving the K-portal story.\n\nSupport 1440, 1280, 1024, 768, 430, 390, and 360px.\n\nInclude semantic HTML, keyboard navigation, focus states, sufficient contrast, skip link, and prefers-reduced-motion. Reduced-motion mode must remove pinning and zoom effects while keeping all content accessible.\n\nSTRICTLY AVOID\n\n- Gradients and gradient text\n- Glassmorphism\n- Neon blobs or glowing orbs\n- Bento grids and feature cards\n- Rounded floating containers\n- Fake terminals\n- Random particles\n- Stock illustrations\n- Generic icons\n- Constant fade-up animations\n- Excessive blur\n- Pill-shaped buttons\n- SaaS-template layouts\n- Decorative animation without narrative purpose\n- Fake benchmarks, testimonials, or logos\n\nThe final result should feel like a digital fashion editorial, motorsport identity, experimental type specimen, and interactive title sequence—not an AI-generated SaaS homepage.\n\nBuild the complete functioning website. Prioritize strong static composition first, then add the connected scroll choreography. Test every transition, responsive breakpoint, navigation action, reduced-motion mode, and CTA. Fix all console errors and maintain smooth performance.",
-"likeCount": 239,
-"retweetCount": 10,
-"url": "https://x.com/jumperz/status/2077884505612750861",
-"createdAt": "Thu Jul 16 22:34:06 +0000 2026"
+"userName": "Fazzulouss52098",
+"text": "Imma say this When #vtubers spout anyone can become a vtuber in any way well theirs no exceptions as to \"how\"\nNone of you get to make the definitions or rules as to \"how\" someone is presenting themselves \nIt used to be some unwritten happenstance like Dead by Daylight rules or For Honor \"honor\" rules \nTheir was a notion of a vtuber is someone using a mascot (if I was to explain this to a 40 year old construction worker) instead of their real selves\nAs I've said in a previous post we've seen so many innovative animations from\nLeaning\nClaymation\nSome badass toggles\nSelf made stuff\nBelly dancers\nVrChat models turned into actual streamer (friendly)\nMotion capture technology being updated more\nAnd it goes from so many genres (and frankly unused ones)\nFrom\nCats\nDogs\nFerrets\nSea creatures\nMythology \nTactical\nBugs \nMechs\nTOKUSATSU \nGame references\nLocal legends\nCultural references\nSelf inserts (honestly more lazy cause bruh just face stream at that point)\nAnd fuck it's like we have so many themes and art styles that vtuber \nIs\nJust\nVirtual\nFrom a 2d image to 3d model ot literally a multi PNG of a rock with googly eyes (theirs someone out their who did and I'll find em)\nWe even had a Jesus vtuber for gods himself sake\nNone\nOf\nYou\nCan have a say on what is or ain't a vtuber\nCause the general audience will blindly side with whoever just to kiss your dirt even if they're a POS cheater betrayer clout chaser or whatever title (coughteoandotherpeopleicouldname)\nSome of you go as far as for the artists side to just air a lot of your heads out (even creators)\nTo the point you actually look like straight (and gay) assholes\nYou're looking like assholes I've said it\nYou fucks took my asshole title and made me look nicer by comparison \nNo matter how ya word yourself and try to back away and say\nWell I meant it this way \nYou either correct it or just \nSTAY \nIN\nYOUR\nLANE\nAND BE FUCKING HAPPY WITH WHAT YOU FUCKING HAVE\n\"Oh I wish the vtuber space was more positive\"\nAlso vtubers/artists\n\"Let me be the biggest asshole cause someone else is being an asshole\"\nEvery month or day it's something old yes it's not new it's old about someone having a problem with say powdurr or someone using AI these days\nIt's fucking old I'd say grow up but for how much you guys don't want minors to be vtubers I'd say they'd fit right in cause of how most of you ungrateful fucks are\nFrom the male vs female vtuber discourse all the way to when someone mentioned abortion and caused the divide in vtubers in 2022\nTo artists not drawing cause of religious reasons\nTo vtubers comparing each others COLORS and causing a scene\nCAUSE THATS THE FEW WAYS YOU CAN DRAW ATTENTION TO YOURSELVES\nIS \nDRAMA\nNot a lot of people talk about the good cause the bad is what gets clicks\nAnd\nFor the amount of people that pick each other up just for some to be absolutely the WORST\nIt's why I'm afraid of attention cause someone in this vtuber scene is just waiting for the right time to bring my ass down and then hoping others hop on me as well\nCause holy fuck I don't trust partner pushers any more \nLike at fucking all you partner push I now view you as someone different because of what people turn into when they're higher up\nYou may not see it yourself but I'm an observer\nSo it's no wonder that the ENGLISH side of VTubing is trying to restrict others\nCause of bad fucking actors and cause some of you lack the attention span of a goldfish to even focus on yourselves and wonder\n\"Why am I not growing\" and this goes for the black vtuber scene especially \nI'm gonna be honest you guys have the fakest sense of togetherness\nFrom some people that used to be supported so much that after all the shit dies down they're left behind or they keep pushing back against the negative side of shit from poking their nose at people's communities when they KNOW it's not good to push back but \"muh integrity and credibility\" that you should've just muted people instead of trying to street fight THE INTERNET now look at you alone",
+"likeCount": 6,
+"retweetCount": 2,
+"url": "https://x.com/Fazzulouss52098/status/2079279785763868739",
+"createdAt": "Mon Jul 20 18:58:26 +0000 2026"
 },
 {
-"userName": "ajay4ai",
-"text": "How to Become an AI Engineer in 6 Months (Without Wasting Time)\n\nForget trying to learn everything.\n\nThe goal isn't to memorize AI buzzwords. The goal is to become someone who can build real AI products.\n\nBy the end of six months, you should be able to:\n\n• Build LLM applications from scratch\n• Work with OpenAI, Anthropic, and open-source models\n• Design effective prompts and AI workflows\n• Integrate tools, memory, and structured outputs\n• Deploy production-ready AI applications\n\nHere's a roadmap I'd recommend.\n\nMonth 1: Programming & Backend Foundations\n\nBefore touching advanced AI, become comfortable with the tools you'll use every day.\n\nLearn:\n\n• Python\n• Git & GitHub\n• Terminal / CLI\n• HTTP, REST APIs & JSON\n• Async programming basics\n• SQL\n• Pandas\n• Virtual environments\n• Error handling\n• FastAPI (or Flask)\n\nBuild:\n\n• A REST API\n• A small automation tool\n• A CRUD application\n\nMonth 2: LLM Application Development\n\nNow start building with language models.\n\nLearn:\n\n• Prompt engineering\n• System vs User messages\n• Structured outputs (JSON)\n• Function / Tool Calling\n• Streaming responses\n• Conversation memory\n• Token usage & cost optimization\n• Failure handling\n• Prompt injection prevention\n\nProjects:\n\n• AI Chatbot\n• Text Summarizer\n• AI Writing Assistant\n\nMonth 3: Retrieval-Augmented Generation (RAG)\n\nMost useful AI products rely on retrieval.\n\nLearn:\n\n• Embeddings\n• Chunking strategies\n• Vector databases\n• Metadata filtering\n• Hybrid search\n• Reranking\n• Hallucination reduction\n• Grounded responses & citations\n\nProjects:\n\n• Chat with PDFs\n• Documentation Assistant\n• Internal Knowledge Base Chatbot\n\nMonth 4: AI Agents & Workflows\n\nAgents are powerful, but only when used correctly.\n\nLearn:\n\n• Agent loops\n• Tool selection\n• State management\n• Multi-step workflows\n• Retry mechanisms\n• Evaluation pipelines\n• Success metrics\n• When NOT to use agents\n\nProjects:\n\n• Research Agent\n• Coding Assistant\n• Multi-tool Workflow Automation\n\nMonth 5: Production & Deployment\n\nBuilding locally isn't enough.\n\nLearn:\n\n• Production FastAPI\n• Docker\n• Background jobs\n• Queues\n• Authentication\n• API security\n• Logging\n• Monitoring & observability\n• Prompt versioning\n• Cost monitoring\n• Rate limiting\n• Caching\n\nProjects:\n\n• Deploy an AI SaaS\n• Add monitoring dashboards\n• Support multiple users\n\nMonth 6: Choose Your Path\n\nDon't try to master every area.\n\nPick one direction and go deep.\n\nDirection 1: AI Product Engineer\n\nBest for startup jobs.\n\nFocus on:\n\n• LLM applications\n• RAG\n• AI Agents\n• Deployment\n• Product UX\n\nDirection 2: Applied AI / LLM Engineer\n\nFocus on:\n\n• Fine-tuning\n• Prompting vs Fine-tuning\n• Model evaluation\n• Inference optimization\n• Open-source models\n• Training pipelines\n\nDirection 3: AI Automation Engineer\n\nFocus on:\n\n• Workflow orchestration\n• Multi-tool systems\n• CRM automation\n• Email & document automation\n• Business process automation\n\nThis roadmap is only valuable if you actually build while learning.\n\nEvery concept should turn into a project.\n\nBy the end of six months, you'll have a portfolio full of real AI applications instead of just certificates.\n\nSave this roadmap. You'll thank yourself later.",
-"likeCount": 8,
-"retweetCount": 3,
-"url": "https://x.com/ajay4ai/status/2078574041397698679",
-"createdAt": "Sat Jul 18 20:14:04 +0000 2026"
+"userName": "at_domains",
+"text": "👗 [DOMAIN FOR SALE] https://t.co/oY06kiCpjQ — Premium Brand Acquisition for the Global Agentic-Tech (At) Intelligent Fashion Sector.\n\n✨ AI is transforming the future of style—from fashion design and trend forecasting to personalized styling, luxury retail, manufacturing, and digital commerce.\n\n💡 \"At\" is the universal shorthand for the Agentic-Tech era—just as \"e\" defined the Internet era (eMail, eCommerce).\n\nhttps://t.co/oY06kiCpjQ is the definitive brand for the next generation of Agentic-Tech-enabled Intelligent Style.\n\nA strategic brand asset for new product/brand launch and/or future brand upgrade, expansion, and augmentation.\n\n🚀 Perfectly positioned for:\n👠 AI Fashion Platforms\n 🧥Intelligent Personal Styling\n🕶️ Intelligent Virtual Try-On Platforms\n📊 Autonomous Trend Prediction & Demand Forecasting\n 🛍️Luxury Retail Technology\n 🌍Next-Generation Fashion Commerce\n♻️ Circular Economy & Sustainable Supply Automation\n\n🔄 Agentic Fashion will completely redefine how the world creates, scales, and experiences fashion.\n\nNAMES ARE FOREVER!\n🛒 Listed on @Afternic\n👉 Direct Lander: https://t.co/oY06kiCpjQ\n\nThank you for your time and highly appreciate a share in your network.\n---------------------------------------------------------\n#Fashion #Style #AtFashionAI #AgenticTech #AgenticAI #FashionAI #FashionTech #LuxuryFashion #RetailTech #PersonalStyling #DigitalFashion #FutureOfFashion #GenAI #RetailAI #EcommerceAI #VirtualTryOn #DigitalFashion #StyleTech  #DigitalAssets #Innovation #Domains #DomainForSale #PremiumDomains #Afternic #AIBranding #BrandStrategy #AtBrandAgency #CapitalistMonk #TFMP",
+"likeCount": 5,
+"retweetCount": 0,
+"url": "https://x.com/at_domains/status/2078890442872201559",
+"createdAt": "Sun Jul 19 17:11:20 +0000 2026"
 },
 {
-"userName": "daniel_adinnu",
-"text": "Christopher Nolan gave Ludwig Göransson one instruction for The Odyssey: no orchestra. Not a stylistic preference, a flat ban. An instrument that didn’t exist in the Bronze Age couldn’t score a film set in it.\nSo Göransson had to build a musical language from instruments nobody alive has ever heard played correctly. The aulos, a double reed pipe carved into Greek pottery for a thousand years, has no surviving reeds. Musician Callum Armstrong spent weeks with two collaborators reading ancient source material just to work out how the mouthpiece functioned. The lyre, added at Nolan’s specific request to represent the pluck of Odysseus drawing his bow, was reconstructed the same way, performer Rosa Fragorapti describing the process as cross referencing iconography and philological sources against her own musicianship, because no continuous playing tradition survived to teach her directly.\nThen Göransson added 35 bronze gongs sized to the Bronze Age setting, layered under synthesizers, and brought in James Blake for what he calls the score’s emotional pacing, a contemporary human voice inside a sonic world built entirely from instruments most audiences have never encountered.\nNone of this reads like a composer sprinkling in a historical flourish. It reads like archaeology performed in real time, a team reverse engineering how a civilization actually sounded from urns and carvings because the instruments and the people who knew how to play them are three thousand years gone. Göransson’s own line cuts through the research: the orchestra never existed back then, so the absence wasn’t a constraint to work around, it was the actual assignment.",
-"likeCount": 9,
-"retweetCount": 1,
-"url": "https://x.com/daniel_adinnu/status/2078478976050245900",
-"createdAt": "Sat Jul 18 13:56:18 +0000 2026"
+"userName": "at_domains",
+"text": "👗 [DOMAIN FOR SALE] https://t.co/oY06kiCpjQ — Premium Brand Acquisition for the Global Agentic-Tech (At) Intelligent Fashion Sector.\n\n✨ AI is transforming the future of style—from fashion design and trend forecasting to personalized styling, luxury retail, manufacturing, and digital commerce.\n\n💡 \"At\" is the universal shorthand for the Agentic-Tech era—just as \"e\" defined the Internet era (eMail, eCommerce).\n\nhttps://t.co/oY06kiCpjQ is the definitive brand for the next generation of Agentic-Tech-enabled Intelligent Style.\n\nA strategic brand asset for new product/brand launch and/or future brand upgrade, expansion, and augmentation.\n\n🚀 Perfectly positioned for:\n👠 AI Fashion Platforms\n 🧥Intelligent Personal Styling\n🕶️ Intelligent Virtual Try-On Platforms\n📊 Autonomous Trend Prediction & Demand Forecasting\n 🛍️Luxury Retail Technology\n 🌍Next-Generation Fashion Commerce\n♻️ Circular Economy & Sustainable Supply Automation\n\n🔄 Agentic Fashion will completely redefine how the world creates, scales, and experiences fashion.\n\nNAMES ARE FOREVER!\n🛒 Listed on @Afternic\n👉 Direct Lander: https://t.co/oY06kiCpjQ\n\nThank you for your time and highly appreciate a share in your network.\n---------------------------------------------------------\n#Fashion #Style #AtFashionAI #AgenticTech #AgenticAI #FashionAI #FashionTech #LuxuryFashion #RetailTech #PersonalStyling #DigitalFashion #FutureOfFashion #GenAI #RetailAI #EcommerceAI #VirtualTryOn #DigitalFashion #StyleTech  #DigitalAssets #Innovation #Domains #DomainForSale #PremiumDomains #Afternic #AIBranding #BrandStrategy #AtBrandAgency #CapitalistMonk #TFMP",
+"likeCount": 5,
+"retweetCount": 0,
+"url": "https://x.com/at_domains/status/2078890442872201559",
+"createdAt": "Sun Jul 19 17:11:20 +0000 2026"
+},
+{
+"userName": "NusratJaha07",
+"text": "🚀 The smartest professionals aren't working harder anymore.\n\nThey're using AI to save hours every single day.\n\nHere are 65 AI tools worth bookmarking in 2026. 👇\n\n🧠 Ideas & Research\n• YOU\n• Claude\n• ChatGPT\n• Perplexity\n• Bing Chat\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing\n• Rytr\n• Jasper\n• https://t.co/Y0sd9x5f4D\n• Text Blaze\n• Writesonic\n\n🤖 AI Models\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meeting Assistants\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n💬 AI Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎨 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎬 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎯 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/R5QfcvJws1\n\n📈 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/4XJUc4yQnl\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• TweetHunter\n\n💾 Save this post so you never waste time searching for AI tools again.\n\n♻️ Repost it to help someone level up with AI.\n\nFollow @NusratJaha07 for daily AI tools, prompts, and productivity hacks. 🚀",
+"likeCount": 62,
+"retweetCount": 35,
+"url": "https://x.com/NusratJaha07/status/2079431668247740735",
+"createdAt": "Tue Jul 21 05:01:58 +0000 2026"
 },
 {
 "userName": "cesp2099",
 "text": "Let's be real here. As an Italian who has been working with CNNs, Diffusion Architecture, RL, and machine learning projects since 2021, it is frankly baffling that in 2026, a model like Emma fails to outperform even the original GPT-2 architecture.\n\nDeveloping a highly capable LLM based on modern architectures (like Qwen) is more accessible than ever. With the right data and a small budget, taking a strong base model through pre-training progression and post-training fixes to achieve near-frontier performance is a standard practice today.\n\nEmma isn't just a bad product resulting from a lack of technical competence; it is being aggressively overhyped. Presenting an underwhelming, underperforming, and expensive model does not prove that \"Italy is joining the ML game.\" Instead, it highlights our systemic inability to properly innovate and build robust new technologies.\n\nThis exact culture is why I left Italy to work elsewhere in Europe. Working in the Italian tech ecosystem often slows you down, especially when the community insists on praising flawed products rather than demanding excellence or pivoting to riskier, cutting-edge approaches (like the sparse attention architectures we're seeing from the new Chinese models).\n\nWe need to stop applauding mediocrity if we ever want to actually compete.",
-"likeCount": 20,
+"likeCount": 21,
 "retweetCount": 0,
 "url": "https://x.com/cesp2099/status/2078850369610727638",
 "createdAt": "Sun Jul 19 14:32:05 +0000 2026"
@@ -40,114 +48,90 @@
 "createdAt": "Wed Jul 15 21:23:05 +0000 2026"
 },
 {
-"userName": "kenkenlewu",
-"text": "AI tools and what they are used for👇\n\nDALL·E: Creating images from text\n\nRunway: AI video generation & editing\n\nKling AI: AI video generation\n\nHeyGen: AI avatars & talking videos\n\nElevenLabs: AI voice generation & voiceovers\n\nChatGPT: Writing, editing, brainstorming, research & learning\n\nClaude: Writing, summarising & analysing long documents\n\nGemini: Research, writing & productivity\n\nGrok: Real-time information, research & content creation\n\nPerplexity: AI-powered research & web search\n\nCanva AI: Graphic design & social media content\n\nMidjourney: AI image generation\n\nCapCut AI: Video editing & content creation\n\nGamma: Presentations & documents\n\nNotion AI: Notes, writing & productivity\n\nAI isn't here to replace your brain. It's here to give you more time to use it.",
-"likeCount": 23,
-"retweetCount": 13,
-"url": "https://x.com/kenkenlewu/status/2079157936744517747",
-"createdAt": "Mon Jul 20 10:54:15 +0000 2026"
-},
-{
-"userName": "arena",
-"text": "Shifts we observe with factuality:\n\nWhile human preference scores across nearly all providers have been climbing over time, plotting pure factuality score against flagship model release date shows OpenAI is the only provider also consistently improving factuality over an extended period. SpacexAI and Meta have also been improving with their recent releases.\n\nInteract with this visual at: https://t.co/byV2f2tjpi",
-"likeCount": 25,
-"retweetCount": 2,
-"url": "https://x.com/arena/status/2077432299680141344",
-"createdAt": "Wed Jul 15 16:37:11 +0000 2026"
-},
-{
-"userName": "Bharati09",
-"text": "Leaving #BharatTex at the end of the day, I met these lovely twins. One, a fashion designer and the other, an AI engineer. \n\nBoth so excited to be at @TexMinIndia event. Enjoying the Bharat Mandapam.  “You can’t ignore AI,” says the fashion designer. “At least our generation. At least in India.”",
-"likeCount": 8,
+"userName": "SenseTime_AI",
+"text": "Watch YouTuber TryThisAI1 test SenseNova U1!\n\nFrom PPT roadmaps to research reports and interleaved proposals, this open-source model delivers communicates complex ideas with clarity and strong visual hierarchy.\n\nWant to experience it at lightning speed? Join our Token Plan for a free trial of SenseNova U1 Fast!\n\n🎥 https://t.co/H0YBucVJ75\n\nTry it👇\n\n🎛️ SenseNova Studio: https://t.co/yaXjXJ4aeW  (Try infographics; also join Discord for text-image interleaved gen)\n🤗 https://t.co/iHCYbMbKSE\n🛠️ https://t.co/VQfh3IKdu2\n👾 Discord: https://t.co/8MkRBA1ac5\n💡Token Plan: https://t.co/HoD9GbLksf",
+"likeCount": 10,
 "retweetCount": 0,
-"url": "https://x.com/Bharati09/status/2077739997650923854",
-"createdAt": "Thu Jul 16 12:59:52 +0000 2026"
+"url": "https://x.com/SenseTime_AI/status/2079586350471549388",
+"createdAt": "Tue Jul 21 15:16:37 +0000 2026"
 },
 {
-"userName": "himawari2020313",
-"text": "Lolitas and any alt fashion person should not be using generative ai. There is enough information online to know why it's bad.\n\nNo, you don't deserve to make event posters or stickers for free with it if you are promoting your own artistic work. Draw it yourself.",
-"likeCount": 16,
-"retweetCount": 4,
-"url": "https://x.com/himawari2020313/status/2078596141340610963",
-"createdAt": "Sat Jul 18 21:41:53 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Plot twist: SF march permits take forever, and open-source AI can't wait. So we're going scrappy on Saturday: small march, sidewalk only, maximum fun.\n\nWhat should we bring? We're collecting the wildest sign, chant, and prop ideas on the event page. Waitlisted folks with the best ones jump the line! Also looking for volunteers for march day, same place.\n\nExcited to see you all Saturday!",
+"likeCount": 144,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2079582934680429041",
+"createdAt": "Tue Jul 21 15:03:03 +0000 2026"
 },
 {
-"userName": "1BlueButterfly6",
-"text": "@OniSensei8 @ChainsmokerCat_ I love the part where no generative AI was used in any of the animation BUT bc Wade over here said so the a crybaby fashion we must believe it",
-"likeCount": 21,
+"userName": "trexalab_agency",
+"text": "Eyewear Ecommerce Finding the right glasses should feel simple, not uncertain.\n\nDesigned a modern shopping experience with AI-powered virtual try-on to help customers choose with confidence.\n\nWould AI try-on influence your purchase?\n\n#WebDesign #UIDesign #EcommerceDesign #AI #UXDesign",
+"likeCount": 26,
 "retweetCount": 1,
-"url": "https://x.com/1BlueButterfly6/status/2077415205563228575",
-"createdAt": "Wed Jul 15 15:29:16 +0000 2026"
+"url": "https://x.com/trexalab_agency/status/2078713021783032063",
+"createdAt": "Sun Jul 19 05:26:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ZixuanLi_: Open-weight models carry real responsibilities.\n\nHugging Face’s disclosure describes how GLM-5.2 was used in a self-hosted f…",
-"likeCount": 607,
-"retweetCount": 60,
-"url": "https://x.com/ClementDelangue/status/2079225521058005432",
-"createdAt": "Mon Jul 20 15:22:49 +0000 2026"
+"text": "RT @OpenAI: We're partnering with @huggingface to investigate an unprecedented security incident.  \n\nCyber-capable OpenAI models compromise…",
+"likeCount": 10476,
+"retweetCount": 1475,
+"url": "https://x.com/ClementDelangue/status/2079764350689026537",
+"createdAt": "Wed Jul 22 03:03:56 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @arena: Big news: Kimi-K3 by @Kimi_Moonshot is now #1 in the Frontend Code Arena with 1679 pts, surpassing Claude Fable 5.\n\nThis is a 17…",
+"likeCount": 26299,
+"retweetCount": 3942,
+"url": "https://x.com/jeremyphoward/status/2077915673351905403",
+"createdAt": "Fri Jul 17 00:37:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: As always, Cosmos 3 Edge is fully open. This includes model weights, post-training recipes and code.\n\nAvailable now on @huggi…",
-"likeCount": 302,
-"retweetCount": 48,
-"url": "https://x.com/ClementDelangue/status/2079261215293841414",
-"createdAt": "Mon Jul 20 17:44:39 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @shadcn: few weeks ago, Fable 5 was so advanced it needed the gov and had to be taken offline.\n\ntoday, we have access to arguably better…",
-"likeCount": 23242,
-"retweetCount": 823,
-"url": "https://x.com/jeremyphoward/status/2078097366725620110",
-"createdAt": "Fri Jul 17 12:39:56 +0000 2026"
+"text": "RT @WSJ: It’s the stuff of cybersecurity nightmares. OpenAI said two artificial intelligence systems it was testing broke out of their test…",
+"likeCount": 77,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2079764245252616256",
+"createdAt": "Wed Jul 22 03:03:30 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @GustavoCols: Hugging Face says it resorted to a Chinese AI model to battle a fully autonomous cyberattack because U.S. model guardrails…",
-"likeCount": 24,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2079409117588836525",
-"createdAt": "Tue Jul 21 03:32:21 +0000 2026"
+"text": "RT @justanotherlaw: Credit where it’s due: Hugging Face detected and disclosed the intrusion last week. OAI confirmed its models were invol…",
+"likeCount": 22,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2079764811391385921",
+"createdAt": "Wed Jul 22 03:05:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @VentureBeat: AI-enabled attacks are up 89% year over year. Hugging Face's breach shows why IR plans need a fallback for when commercial…",
+"likeCount": 14,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2079411002865528948",
+"createdAt": "Tue Jul 21 03:39:51 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @bookwormengr: @teortaxesTex Growth of AI data labelling industry in China:\n\nIf your mental model is distillation is the major route for…",
-"likeCount": 79,
-"retweetCount": 16,
-"url": "https://x.com/jeremyphoward/status/2078098619945869479",
-"createdAt": "Fri Jul 17 12:44:54 +0000 2026"
+"text": "RT @sayashk: The open release of Kimi K3 once again shows that our interventions for resilience should be focused on a world where advanced…",
+"likeCount": 75,
+"retweetCount": 6,
+"url": "https://x.com/jeremyphoward/status/2078097305572724756",
+"createdAt": "Fri Jul 17 12:39:41 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @mintlify: We made Claude Code and Codex surf docs and counted every 404 they hit before finding the answer.\n\nWe served the same content…",
-"likeCount": 72,
-"retweetCount": 7,
-"url": "https://x.com/jeremyphoward/status/2078239774360674468",
-"createdAt": "Fri Jul 17 22:05:48 +0000 2026"
-},
-{
-"userName": "ykilcher",
-"text": "Come chat with us about DINO-v1 tonight at 6pm UTC here: https://t.co/9wThgGRRid https://t.co/VJ9ROy1S5f",
+"userName": "ClementDelangue",
+"text": "RT @BillDemirkapi: One of the most interesting investigations of my career.",
 "likeCount": 149,
-"retweetCount": 12,
-"url": "https://x.com/ykilcher/status/2078534681159434493",
-"createdAt": "Sat Jul 18 17:37:39 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "\"Open weights are inherently secure\" @sriramk https://t.co/A5R9AcHjuA",
-"likeCount": 775,
-"retweetCount": 73,
-"url": "https://x.com/ClementDelangue/status/2079305539847164009",
-"createdAt": "Mon Jul 20 20:40:46 +0000 2026"
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2079766926398484694",
+"createdAt": "Wed Jul 22 03:14:10 +0000 2026"
 },
 {
 "userName": "DimaHolovatyi",
 "text": "https://t.co/eQICfEPaqv",
-"likeCount": 4,
-"retweetCount": 4,
+"likeCount": 5,
+"retweetCount": 5,
 "url": "https://x.com/DimaHolovatyi/status/2079210801987047646",
 "createdAt": "Mon Jul 20 14:24:19 +0000 2026"
 }
