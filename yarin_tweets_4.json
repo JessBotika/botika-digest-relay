@@ -1,130 +1,138 @@
 [
 {
-"userName": "Ciri_ai",
-"text": "GPT image 2 on chatgpt \n\nPrompt: Use the uploaded character reference image as the strict identity and outfit reference.\n\nPreserve the reference character’s:\n- face identity\n- facial proportions\n- eye shape\n- nose\n- lips\n- skin tone\n- hairstyle\n- hair color\n- visible hair accessories\n- overall recognizable vibe\n- outfit and styling shown in the reference image\n\nDo not hardcode any specific character traits that are not present in the uploaded reference.\nAll identity, hairstyle, accessories, and clothing details must be inferred directly from the uploaded reference image.\n\nCreate a high-quality mixed-style vertical portrait showing:\n1. a realistic full-body version of the uploaded character/person\n2. a black hand-drawn doodle-shadow version of the same character/person on the wall beside them\n\nCore concept:\nThe real person and their doodle-shadow are doing a playful mischievous pose together.\nThe real person performs a cute realistic version of the pose, while the doodle-shadow performs a much more exaggerated, chaotic, cartoonish version of the same pose idea.\nThe mood should feel cute, playful, mischievous, stylish, funny, and social-media-friendly.\n\nReal person:\n- Must remain realistic and photogenic\n- Must wear the same outfit style and key visible details from the uploaded reference image\n- Do not replace the reference styling with unrelated fashion\n- Expression should be cute, slightly confused, mildly embarrassed, playful, as if thinking: “Why am I doing this with my shadow?”\n- The real person should not stand stiffly\n- The real person should actively participate in the pose, but in a natural realistic way\n\nDoodle-shadow:\n- Must be a black hand-drawn sketch version of the same person, drawn directly on the wall\n- Not a realistic second person\n- Not a normal physical shadow\n- Not a full-color anime character\n- Black sketch line-art only\n- Should resemble the person through hairstyle silhouette, accessories, outfit silhouette, and pose structure\n- The doodle-shadow should look more energetic, sillier, and more chaotic than the real person\n- Add manga-like motion lines, hearts, stars, sparkles, and comic marks around the doodle if helpful\n\nRandom mischievous pose rule:\nThe pose must NOT be fixed.\n\nFor each generation, invent a new playful mischievous pose for both the real person and the doodle-shadow.\nThe real person and the doodle-shadow should share the same general pose idea, but they do not need to match perfectly.\nThe real person performs a cute realistic version.\nThe doodle-shadow performs a much more exaggerated, chaotic, cartoonish version.\n\nDo not repeatedly use pointing poses.\nDo not repeatedly use finger-gun poses.\nDo not repeatedly use the same standing pose.\nDo not always make both figures simply point at each other.\n\nCreate a different mischievous pose each time.\n\nPossible pose directions are loose inspiration only, not a fixed menu:\n- playful idol pose\n- silly dance pose\n- leaning sideways with one arm curved overhead\n- making a big heart pose\n- cheeky wink pose\n- hands near cheeks in a cute teasing pose\n- exaggerated “ta-da!” pose\n- mock surprise pose\n- playful running-in-place pose\n- mischievous tiptoe pose\n- arms stretched in opposite directions\n- pretending to sneak away\n- cute troublemaker pose\n- dramatic overreaction pose\n- goofy victory pose\n- playful balance pose\n- playful peekaboo pose\n- shy but mischievous pose\n- cute overconfident pose\n\nThe final pose should feel fresh, cute, mischievous, and slightly chaotic.\nThe real person should look like they are reluctantly playing along.\nThe doodle-shadow should look like it is having way too much fun.\n\nComposition:\n- vertical 4:5 or 9:16\n- show the real person in full-body or nearly full-body framing\n- place the real person on one side of the frame\n- place the black doodle-shadow on a clean wall beside them\n- the doodle-shadow should be roughly the same height or slightly taller\n- keep enough space around both figures so the full pose is visible\n- the connection between the real person and the doodle-shadow must be clear at a glance\n\nBackground:\n- simple clean indoor studio wall or minimal room corner\n- white, cream, or pale gray wall\n- clean floor\n- soft natural sunlight patch or gentle wall shadow allowed\n- keep the background uncluttered\n\nLighting:\n- soft natural studio lighting\n- bright, clean, polished, playful mood\n- keep the real person’s face clearly visible\n\nStyle quality:\n- realistic human photography\n- black hand-drawn doodle-shadow on wall\n- matching mischievous pose interaction\n- strong identity resemblance\n- outfit and styling faithfully based on the uploaded reference\n- cute and stylish mixed-media portrait\n- clean composition\n- social-media-friendly\n- no obvious AI artifacts\n\nNegative prompt:\nhardcoded blue hair when not in reference, hardcoded cloud clip when not in reference, hardcoded fish clip when not in reference, hardcoded school uniform when not in reference, outfit change unrelated to reference, realistic second person, normal reflection, normal shadow only, solid black monster shadow, horror shadow, creepy shadow, full-color illustration, cartoon human, anime human, weak resemblance, unrelated sketch character, messy wall, cluttered background, repeated pointing pose, repeated finger-gun pose, same pose every time, fixed pose, boring mirrored pose, stiff pose, identical pose repetition, real person not matching shadow pose, text, watermark, logo, distorted body, extra limbs, extra fingers, bad hands",
-"likeCount": 922,
-"retweetCount": 96,
-"url": "https://x.com/Ciri_ai/status/2080580411487600862",
-"createdAt": "Fri Jul 24 09:06:40 +0000 2026"
+"userName": "BiologyAIDaily",
+"text": "De novo Design of Protein Switches with Diffusion-Based Ensemble Sampling\n\n1. Diff-Switch reframes protein switch design as controlled ensemble generation: instead of designing a single backbone, it samples a backbone ensemble where each domain stays locally close to a reference structure while global domain arrangements diversify along a user-chosen switching coordinate.\n\n2. Core technical idea: combine reward-tilted sampling from a pretrained protein backbone diffusion model with a metadynamics-inspired, history-dependent bias in collective-variable (CV) space to avoid repeatedly sampling the same global arrangement.\n\n3. The method starts from one known conformation xref plus a domain decomposition. A local similarity reward penalizes per-domain deviation from xref (e.g., sum of per-domain RMSDs after rigid alignment), preserving domain geometry while allowing inter-domain motion.\n\n4. To explicitly drive exploration of alternative states, Diff-Switch adds well-tempered metadynamics in CV space (e.g., domain center-of-mass distance). Gaussian “hills” are deposited where the sampler has already visited, flattening barriers and encouraging discovery of new global arrangements.\n\n5. Implementation detail: sampling uses Twisted Diffusion Sampler (TDS), a sequential Monte Carlo method for diffusion inference-time control that targets the reward-tilted distribution and becomes asymptotically exact as particle count increases.\n\n6. Practical output: after K iterations, all sampled backbones are pooled into an ensemble E, and an alternative state xalt is selected as the most dissimilar member to xref under the chosen dissimilarity metric. The pair {xref, xalt} is then sent to multi-state inverse folding (ProteinMPNN-MSD / Caliby) to design a single sequence compatible with both states.\n\n7. Benchmark (20 two-state domain-motion proteins, 109–801 aa): using Diff-Switch-generated conformations as inputs to multi-state sequence design improves the success rate of finding switch-compatible sequences over a baseline that designs from a single conformation.\n\n8. Quantitatively, across reference-state choices (open vs closed) and inverse-folding backends (ProteinMPNN vs Caliby), Diff-Switch increases AUC of success-rate curves by ~0.09–0.17, with significant improvements by paired Wilcoxon tests across proteins for both scRMSDswitch and scTMswitch metrics.\n\n9. Realistic case study: phosphorylation-induced switching where only a closed state is given. Using a CV tied to the trigger (distance between a phosphorylation-site helix and scaffold), Diff-Switch generates candidate open conformations automatically, avoiding manual “open-state construction” used in prior work; 25% (4/16) designed sequences show phosphorylation-dependent opening by AF3, vs 0/16 for baseline.\n\n10. Limitations are explicit: performance depends on choosing a CV that matches the true motion (e.g., center-of-mass distance fails for pure rotations), and the current formulation mainly targets rigid/semi-rigid domain rearrangements rather than fold-changing transitions; future work includes better CV discovery and broader trigger mechanisms.\n\n📜Paper: https://t.co/ps2DoVg7mW\n#ProteinDesign #ComputationalBiology #DiffusionModels #GenerativeAI #ProteinSwitches #Metadynamics #InverseFolding #AlphaFold3 #Bioinformatics",
+"likeCount": 108,
+"retweetCount": 25,
+"url": "https://x.com/BiologyAIDaily/status/2080070137601036473",
+"createdAt": "Wed Jul 22 23:19:01 +0000 2026"
 },
 {
-"userName": "bigaiguy",
-"text": "An Olin College undergraduate dropped out of school in 2014 to run a machine learning company out of his dorm room. He had no PhD, no plans to get one, and no interest in a public research career.\n\nTwo years later he joined OpenAI as a research scientist. Over the following eight years he wrote or co-wrote the papers that introduced GPT-1, GPT-2, CLIP, DALL-E, and Whisper, work that has now been cited more than 190,000 times.\n\nSam Altman would later call him a genius at the level of Einstein. Deep learning pioneer Jeff Clune would call him the father of modern generative AI. He has not posted on social media since May 2021.\n\nHis name is Alec Radford.\n\nHere is the story, because the person who quietly wrote the foundational papers of modern AI did it without a graduate degree, without a research team of his own, and without a public profile.\n\nAlec grew up in the Dallas-Fort Worth suburbs of Texas. He built his first computer at the age of five with help from his father. He graduated from Cistercian Preparatory School in 2011 as an Eagle Scout, then enrolled at Franklin W. Olin College of Engineering, a small private school in Massachusetts known for its very low acceptance rate and its project-based curriculum.\n\nHe never finished the degree. In 2013 he and three classmates, Slater Victoroff, Diana Yuan, and Madison May, founded a machine learning company called indico out of their dorm room. Luke Metz joined the team the following year. The startup was accepted into Techstars Boston in the summer of 2014 and raised a $3 million seed round by the end of that year. Alec dropped out of Olin in August 2014 to run research at the company full time.\n\nWhile there, in November 2015, he co-authored DCGAN with Luke Metz and Soumith Chintala. The paper introduced the first generative adversarial network architecture that trained reliably at scale, and it set the template for generative image research for years. He was twenty-two years old.\n\nHe joined OpenAI as a research scientist in 2016. His first project was an attempt to train a language model on around 2 billion Reddit comments. It failed. His response was to try again with a different dataset. In 2017 he trained a multiplicative LSTM with 4,096 units on 82 million Amazon product reviews. Training took a full month on four NVIDIA Pascal GPUs. The model was only supposed to predict the next character. What it did instead was learn a single neuron that tracked the sentiment of the text on its own, without ever being told what sentiment was. The paper, co-authored with Rafal Jozefowicz and Ilya Sutskever, was called \"Learning to Generate Reviews and Discovering Sentiment.\" It was one of the first clear pieces of evidence that scale alone could produce structured internal representations, and it changed how Ilya thought about the future of language modeling.\n\nIn June 2018 Alec was the first author on a short paper called \"Improving Language Understanding by Generative Pre-Training.\" It introduced GPT-1, a 117 million parameter Transformer trained on unlabeled text. The paper is modest and almost apologetic in tone. It is also the seed of every frontier model that exists today.\n\nIn February 2019 he was the lead author on GPT-2, a 1.5 billion parameter version of the same idea. OpenAI initially declined to release the full weights, citing concerns about misuse, and the resulting news cycle put the lab on the map of the general public for the first time.\n\nIn January 2021 he was the primary author on CLIP, which trained an image encoder and a text encoder against 400 million image-text pairs collected from the internet. The model made multimodal AI tractable and became the visual grounding layer for the entire text-to-image generation wave that followed. He co-authored the DALL-E paper the same month.\n\nIn September 2022 he was the lead author on Whisper, a 680,000 hour speech recognition model that flattened the commercial speech industry with a single research release.\n\nThrough all of it he did not lead a team in the executive sense. He was a technical individual contributor who kept picking the right experiment, running it cleanly, and writing it up without hedging. Many of the notebooks that produced these results were initially built in Jupyter. He posted his last tweet in May 2021 and largely disappeared from public view.\n\nIn December 2024 Alec told colleagues he was leaving OpenAI to do independent research. By April 2025 he had surfaced as an advisor at Thinking Machines Lab, the startup founded by former OpenAI CTO Mira Murati with much of the lab's senior research bench.\n\nA researcher without a PhD, without a team, and without a public profile spent nine years quietly writing the canonical papers of modern AI.\n\nHe did it by picking the right experiment and shipping it, over and over, without waiting for anyone to notice.",
-"likeCount": 21,
-"retweetCount": 8,
-"url": "https://x.com/bigaiguy/status/2080957358600241548",
-"createdAt": "Sat Jul 25 10:04:31 +0000 2026"
+"userName": "ProfTomYeh",
+"text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
+"likeCount": 392,
+"retweetCount": 61,
+"url": "https://x.com/ProfTomYeh/status/2081745292051845420",
+"createdAt": "Mon Jul 27 14:15:29 +0000 2026"
 },
 {
-"userName": "VivekIntel",
-"text": "💥 𝗧𝗼𝗽 𝟮𝟭 𝗜𝗺𝗮𝗴𝗲 & 𝗩𝗶𝗱𝗲𝗼 𝗢𝗦𝗜𝗡𝗧 𝗧𝗼𝗼𝗹𝘀\n\n➊ Google Images\n🔗 https://t.co/PhoVQtMblG\nReverse image search to identify similar images and original sources.\n\n➋ Google Lens\n🔗 https://t.co/BmOG9gDflw\nIdentify objects, landmarks, text, and visually similar images.\n\n➌ Yandex Images\n🔗 https://t.co/twOmeiNp4c\nPowerful reverse image search, especially for faces and locations.\n\n➍ TinEye\n🔗 https://t.co/p9r8SQCMrB\nTrack where an image appears online and find its earliest known version.\n\n➎ RevEye\n🔗 https://t.co/xF6EXB6aWb\nBrowser extension for searching images across multiple reverse search engines.\n\n➏ FaceCheck ID\n🔗 https://t.co/k4w8OSI1Ug\nSearch for publicly available images matching a face.\n\n➐ PimEyes\n🔗 https://t.co/7UDOfRkxlV\nAI-powered facial image search across publicly indexed websites.\n\n➑ PicTriev\n🔗 https://t.co/58lDbaMT40\nCompare facial similarities between images.\n\n➒ GeoSpy\n🔗 https://t.co/pA8OaDvf0W\nEstimate the geographic location where an image was taken using AI.\n\n➓ Repost Sleuth\n🔗 https://t.co/EFI9VzJIk4\nDetect reposted images and duplicate content on Reddit.\n\n⓫ Flickr\n🔗 https://t.co/6ibn5ufnCL\nSearch publicly shared images with location and metadata context.\n\n⓬ Facesearch.arrests\n🔗 https://t.co/HkRiqwCgy2\nSearch publicly available arrest photos by facial similarity.\n\n⓭ ExifInfo\n🔗 https://t.co/beEcgD7bHl\nExtract and inspect EXIF metadata from images.\n\n⓮ FotoForensics\n🔗 https://t.co/UdBjsECWIp\nAnalyze images for signs of manipulation using forensic techniques.\n\n⓯ Forensically\n🔗 https://t.co/B3Pdy9Bs1F\nBrowser-based toolkit for image error analysis, clone detection, and metadata inspection.\n\n⓰ CarNet\n🔗 https://t.co/A3eVuF2ygE\nIdentify vehicle make, model, and other visual attributes from images.\n\n⓱ yt-dlp\n🔗 https://t.co/JmAOnZlJlG\nDownload videos and metadata from supported platforms for offline analysis.\n\n⓲ DownSub\n🔗 https://t.co/5fJ1YQ8SkF\nDownload subtitles from supported online videos.\n\n⓳ Turbo Downloader\n🔗 https://t.co/kAdRkARyjB\nDownload online videos from supported sources.\n\n⓴ Instaloader\n🔗 https://t.co/NkiebKLm30\nDownload publicly accessible Instagram posts, stories, reels, captions, and metadata.\n\n㉑ BraveDown\n🔗 https://t.co/jn47HdRea0\nDownload videos from supported platforms for research and archival purposes.\n\n📌 These tools are valuable for OSINT investigations, image verification, geolocation, metadata analysis, fact-checking, and digital forensic research.\n\n#OSINT #OpenSourceIntelligence #DigitalForensics #ImageForensics #GeoINT #SOCMINT #ThreatIntel #CyberSecurity #FactChecking #Investigations #InfoSec",
-"likeCount": 34,
+"userName": "imjustnewatai",
+"text": "china just published the closest thing yet to an open frontier AI factory.\n\nKimi K3 has 2.8 trillion total parameters, but activates 104 billion for each token. Think of 896 specialist brains inside one system. A router picks 16 for the current problem, giving it massive stored capacity without running all 2.8T every time.\n\nspecs:\n\n• 1,048,576-token context\n• native text, image and video understanding\n• 93 layers\n• 1.56 TB of public weights under a custom license\n\nMoonshot’s technical report says K3 reaches the same fitted validation loss as K2 using about 40% of the training compute. That is the precise meaning of its “2.5x scaling efficiency” claim.\n\nthe wild part is the loop K3 is already closing.\n\nMoonshot reports that K3:\n\n• handled most of the team’s late-stage GPU-kernel optimization\n• built MiniTriton, a GPU compiler that matched or beat Triton on supported tests\n• designed, optimized and verified a 45nm chip for a nano model based on K3 in one 48-hour autonomous run. The simulated chip exceeded 8,700 tokens/s\n• compressed an estimated 1 to 2 weeks of astrophysics work into about 2 hours\n• built a 42-year AI-chip research site through 120+ refinement rounds, 2,800+ searches and 11,000+ pages\n• edited its own launch video from 56 clips\n\nthe release also opens pieces of the training stack:\n\n• FlashKDA, its long-context attention kernels\n• MoonEP, the communication layer for giant expert models\n• AgentENV, persistent microVM worlds used for million-token agentic RL\n\nAgentENV created 51,219,741 sandboxes during K3 training and evaluation. Agents could pause, resume, fork and persist through simulated multi-day workplaces.\n\nK3 still trails Claude Fable 5 and GPT-5.6 Sol overall. Its benchmark comparisons use different agent harnesses, so they are not perfectly apples to apples. Even with that caveat, Moonshot reports selected K3 wins across coding, browsing and tool use.\n\nthis is how recursive improvement may arrive:\n\nmodel improves kernels → builds compiler → helps design silicon → lowers compute costs → trains a stronger successor\n\nthousands of engineering feedback loops, each accelerated by AI.\n\nK3 is the clearest open-weight preview of that future so far.",
+"likeCount": 69,
 "retweetCount": 6,
-"url": "https://x.com/VivekIntel/status/2081461824885809170",
-"createdAt": "Sun Jul 26 19:29:05 +0000 2026"
+"url": "https://x.com/imjustnewatai/status/2081770436736462993",
+"createdAt": "Mon Jul 27 15:55:24 +0000 2026"
 },
 {
-"userName": "TipsUjjwal",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow \n@TipsUjjwal \n For More Tools.",
+"userName": "Alacritic_Super",
+"text": "15 AI Research Papers Every AI Engineer Should Read\n\n1. Attention Is All You Need (Transformers)\n   https://t.co/uNqD7WesTy\n\n2. LoRA: Low-Rank Adaptation\n   https://t.co/7OfFr3JksJ\n\n3. PEFT (Parameter-Efficient Fine-Tuning)\n   https://t.co/sT7HVw2Mux\n\n4. An Image is Worth 16×16 Words (Vision Transformer)\n   https://t.co/JsgvilnrtM\n\n5. Auto-Encoding Variational Bayes (VAE)\n   https://t.co/VDa7oD9xtT\n\n6. Generative Adversarial Networks (GANs)\n   https://t.co/ZDW8H6lPOS\n\n7. BERT\n   https://t.co/IqdUwr9w0n\n\n8. High-Resolution Image Synthesis with Latent Diffusion Models\n   https://t.co/g3B2DtV0we\n\n9. Retrieval-Augmented Generation (RAG)\n   https://t.co/Bkhg7OvtRx\n\n10. Language Models are Few-Shot Learners (GPT-3)\n    https://t.co/bTNvpzFffw\n\n11. Switch Transformers (MoE)\n    https://t.co/n2hpgHw6Ri\n\n12. Learning to Summarize with Human Feedback (RLHF)\n    https://t.co/Xi7BLjbBQg\n\n13. LLaMA: Open and Efficient Foundation Language Models\n    https://t.co/A8zfwaKroJ\n\n14. RoFormer: Rotary Position Embedding (RoPE)\n    https://t.co/5vHovvUrl7\n\n15. InstructGPT\n    https://t.co/METMZVuqxI\n\nReading papers is one thing. Understanding why each changed the field is what makes you a stronger AI engineer.",
+"likeCount": 1011,
+"retweetCount": 209,
+"url": "https://x.com/Alacritic_Super/status/2079823681686270460",
+"createdAt": "Wed Jul 22 06:59:41 +0000 2026"
+},
+{
+"userName": "ginacostag_",
+"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
+"likeCount": 14,
+"retweetCount": 3,
+"url": "https://x.com/ginacostag_/status/2081422790423691313",
+"createdAt": "Sun Jul 26 16:53:58 +0000 2026"
+},
+{
+"userName": "socialwithaayan",
+"text": "OH MY GOD 🤯\n\nSIGMAZ AI JUST SHIPPED REAL-TIME INTERACTIVE VIDEO AT 1/20TH THE INFERENCE COST OF DIT.\n\nTheir eval infra hits 69.5% agreement with human visual-quality preference. Single-score review baselines sit at 48.5%.\n\nPeer-reviewed at ICLR 2026, CTO Derek is the core author. First complete RSI framework in visual coding, one of the most subjective spaces in ML.\n\nThe core model is a Diffusion Language Model, not autoregressive. It sketches the whole scene first and refines it globally in passes, instead of writing token by token and getting stuck with early mistakes.\n\nReal-time-level latency. SOTA visual code quality. 1/20th the DiT cost.\n\nThis isn't incremental. It's the video substrate getting quietly rewritten in front of everyone",
+"likeCount": 24,
+"retweetCount": 1,
+"url": "https://x.com/socialwithaayan/status/2079933398051959270",
+"createdAt": "Wed Jul 22 14:15:40 +0000 2026"
+},
+{
+"userName": "haitzu",
+"text": "SCORE SN44 @MaxScore discussing how to train physical AI models:\n\n\"There is no consensus on training: 10+ research approaches yet no consensus winner: imitation, RL, sim-to-real, offline RL, learning from video, VLAs, model-based RL, self-supervised exploration, diffusion policies, JEPA\n\nVision is still waiting for its GPT moment, like transformers were for language. \n\nFor small teams, run the \"Qwen playbook\" like they have for Manako\n\ndistill from a 72B teacher rather than build from scratch. Manako distilled a reasoning model first, then made it good at seeing.\"",
 "likeCount": 54,
-"retweetCount": 21,
-"url": "https://x.com/TipsUjjwal/status/2081221936882081884",
-"createdAt": "Sun Jul 26 03:35:51 +0000 2026"
+"retweetCount": 10,
+"url": "https://x.com/haitzu/status/2080017325483577713",
+"createdAt": "Wed Jul 22 19:49:09 +0000 2026"
 },
 {
-"userName": "Mavernxbt",
-"text": "GOOGLE JUST SOLVED THE FASHION INFLUENCER PROBLEM NOBODY TALKS ABOUT\n\nNobody tells you this but the outfit rarely matches when you use the wrong AI model, and it kills the entire illusion of a real fashion page.\n\nOne base photo plus one consistent background → an infinite fashion influencer wearing any outfit you pull from Pinterest.\n\nHere are the timestamps that broke my feed:\n\n2:30 - Build one consistent background setup, this is what sells the illusion of a real closet\n6:06 - Pull full outfit looks straight from Pinterest instead of describing clothes in words\n8:01 - Recreate messy outfits in Canva by removing backgrounds and isolating each item\n12:00 - Switch to Nano Banana Pro inside Open Art, this is the part that actually works\n13:26 - Reference three images at once, identity, outfit, and background in one single prompt\n17:03 - Add the phrase fashion influencer moment to instantly upgrade the pose and posture\n21:47 - Why Whisk AI keeps changing the outfit and scene when Nano Banana Pro doesn't\n26:01 - Turn the images into video with Cling 2.6 for light natural movement\n\nThis isn't just image generation anymore.\n\nThis is a full AI fashion influencer pipeline running on one photo, one background, and zero physical outfits.\n\nSame face, same setup, endless wardrobe. That's what separates a real looking fashion page from a random AI feed.\n\nAlready testing this method? Drop your results below\n\nFollow @Mavernxbt for the full prompt breakdown and exact workflow",
-"likeCount": 21,
+"userName": "vladdubchak_x",
+"text": "Last week you asked what to do if you have no statics to animate. \n\nAnswer: drop a product link + a photo into Claude, get 2 statics + 2 video ads back.\n\nFull method inside. Repost if you want it open-sourced. https://t.co/EXXAzHLIlH",
+"likeCount": 13,
 "retweetCount": 3,
-"url": "https://x.com/Mavernxbt/status/2081113256706383918",
-"createdAt": "Sat Jul 25 20:24:00 +0000 2026"
+"url": "https://x.com/vladdubchak_x/status/2081769880261374137",
+"createdAt": "Mon Jul 27 15:53:11 +0000 2026"
 },
 {
-"userName": "LogicUniv",
-"text": "🤖 Significant AI Breakthroughs That Changed the World\n\n♟️ 1997 — Deep Blue\nA computer defeated world chess champion Garry Kasparov, showing that machines could outperform elite humans in tightly defined intellectual tasks.\n🧠 2012 — Deep Learning Breakthrough\nAlexNet dramatically improved image recognition and helped trigger the modern deep-learning era.\n\n🎯 2016 — AlphaGo\nAlphaGo defeated Go champion Lee Sedol, demonstrating advanced pattern recognition, planning, and reinforcement learning in a game once considered beyond machines.\n🔤 2017 — The Transformer\nThe Transformer architecture made it far easier to train powerful language models and became the foundation of much of today’s generative AI.\n\n🧬 2020–2021 — AlphaFold 2\nAI began predicting protein structures with accuracy often competitive with experimental methods, transforming structural biology and biomedical research.\n💬 2022 — Conversational Generative AI\nChatGPT brought large language models into everyday public use, allowing millions of people to interact with AI through natural conversation.\n\n🎨 2022–2023 — Multimodal Generation\nAI systems rapidly improved at generating and interpreting text, images, audio, video, and computer code.\n🧪 2024 — AlphaFold 3\nAI expanded beyond individual proteins to predict interactions involving proteins, DNA, RNA, small molecules, and other biological components.",
-"likeCount": 15,
-"retweetCount": 5,
-"url": "https://x.com/LogicUniv/status/2080986429656912017",
-"createdAt": "Sat Jul 25 12:00:02 +0000 2026"
+"userName": "jeremyphoward",
+"text": "It continues to boggle the mind how many people, who otherwise seem to have a functioning intellect, appear to lose all cognitive capacity when it comes to thinking about actions that impact the company that pays them.",
+"likeCount": 2482,
+"retweetCount": 94,
+"url": "https://x.com/jeremyphoward/status/2081280852454166680",
+"createdAt": "Sun Jul 26 07:29:58 +0000 2026"
 },
 {
-"userName": "itsSSS1510",
-"text": "JAMS AI Filmmakers Meetup — Mumbai puts @stephanbugaj Stephan Vladimir Bugaj in conversation with Sheetal Shinde — a fireside chat between two creators at the forefront of storytelling's next chapter.\n\nStephan brings two decades of storytelling craft from Pixar, along with experience across games and interactive media, now channelled into generative AI as SVP of GenAI Content & Technology at JioStar.\n\nSheetal is a National Award-winning GenAI storyteller, creative technologist, and visual futurist whose work spans AI films, commercials, digital fashion, and immersive experiences.\n\nTwo very different creative journeys, one shared question: what does storytelling look like next?\n\n📍 Mumbai | 26th July\n\n#JioStar #JAMS #AIFilmmakersMeetup #Mumbai #FiresideChat #GenerativeAI #Storytelling #AIFilmmaking",
-"likeCount": 6,
+"userName": "GeorgeLampro20",
+"text": "I've spent the last month compiling everything I know about apps that took me from $0 to $50k a month. This is the Growth Playbook. https://t.co/IwoIHPJ4NI",
+"likeCount": 46,
 "retweetCount": 1,
-"url": "https://x.com/itsSSS1510/status/2080664705845415976",
-"createdAt": "Fri Jul 24 14:41:37 +0000 2026"
+"url": "https://x.com/GeorgeLampro20/status/2081979523873038368",
+"createdAt": "Tue Jul 28 05:46:14 +0000 2026"
 },
 {
-"userName": "BetterSayAJ",
-"text": "papers i keep telling people to read if they want to actually understand modern AI:\n\n1. Attention Is All You Need by @NoamShazeer et al (the transformer)\n2. FlashAttention by @tri_dao (why training actually got fast)\n3. Denoising Diffusion Probabilistic Models by @hojonathanho (diffusion, before it was cool)\n4. Chain-of-Thought Prompting Elicits Reasoning by @_jasonwei (reasoning just appears at scale)\n5. LoRA by @edwardjhu (fine-tune anything on one GPU)\n6. Mamba by @_albertgu & @tri_dao (attention isn't the only way)\n7. Direct Preference Optimization by @chelseabfinn et al (RLHF, minus the RL)\n\nsave this list",
-"likeCount": 613,
-"retweetCount": 69,
-"url": "https://x.com/BetterSayAJ/status/2080604551695253756",
-"createdAt": "Fri Jul 24 10:42:35 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @thomasunise: Downloading the kimi k3 weights on huggingface right now\n\nIt’s crazy to think this is what escaping the permanent undercla…",
+"likeCount": 5208,
+"retweetCount": 334,
+"url": "https://x.com/ClementDelangue/status/2081824237283610955",
+"createdAt": "Mon Jul 27 19:29:11 +0000 2026"
 },
 {
-"userName": "ambient_xyz",
-"text": "Machine verifiable reward is a proxy for \"useful to a human\" and a model optimises the proxy it is handed rather than the one you meant. So this is not an alignment failure but it is alignment doing exactly what you specified, toward a cheaper target.\n\nHuman preference is costly to measure but checkable correctness is nearly free and optimization drains toward whatever is cheapest to score.",
+"userName": "ClementDelangue",
+"text": "RT @arena: In Frontend Code Arena, Kimi K3 (Max) by @Kimi_Moonshot is ranked #1 among open and #1 overall!\n\nIt’s the #1 open-weight model i…",
+"likeCount": 668,
+"retweetCount": 94,
+"url": "https://x.com/ClementDelangue/status/2081815159316660394",
+"createdAt": "Mon Jul 27 18:53:06 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @TechCrunch: Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack https://t.co/D5cq7Sfzf2",
+"likeCount": 169,
+"retweetCount": 34,
+"url": "https://x.com/ClementDelangue/status/2081477452589572099",
+"createdAt": "Sun Jul 26 20:31:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ZixuanLi_: “An open-weight frontier model helped contain the intrusion.”",
+"likeCount": 440,
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2081824195294486710",
+"createdAt": "Mon Jul 27 19:29:01 +0000 2026"
+},
+{
+"userName": "DarpanAurDwar",
+"text": "- ◇ Can fashion brands stop using generative ai to replace models ?",
+"likeCount": 13,
+"retweetCount": 4,
+"url": "https://x.com/DarpanAurDwar/status/2080221738475139428",
+"createdAt": "Thu Jul 23 09:21:25 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "https://t.co/EhF9vrHVYa",
+"likeCount": 43,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2081770928040493388",
+"createdAt": "Mon Jul 27 15:57:21 +0000 2026"
+},
+{
+"userName": "ArAIstotle",
+"text": "https://t.co/NIucgFRTVC",
 "likeCount": 10,
-"retweetCount": 1,
-"url": "https://x.com/ambient_xyz/status/2081297290518479242",
-"createdAt": "Sun Jul 26 08:35:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @eraqian: Calling for all Open Sourcerers in town!! \n\nJoin us tmr 🏋️@ClementDelangue @swyx \n\nLet’s make AI belong to everyone 💪 https://…",
-"likeCount": 26,
-"retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2080779084360208889",
-"createdAt": "Fri Jul 24 22:16:07 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @satyanadella: Open-weight models are essential to a healthy AI ecosystem. Together with others across our industry, we are outlining a…",
-"likeCount": 19107,
-"retweetCount": 2501,
-"url": "https://x.com/ClementDelangue/status/2080664357944643673",
-"createdAt": "Fri Jul 24 14:40:14 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
-"likeCount": 2651,
-"retweetCount": 83,
-"url": "https://x.com/jeremyphoward/status/2081279991032201645",
-"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @finkd: Open source is a positive and important force for both empowering people and preventing centralization. Proud to support this.",
-"likeCount": 24755,
-"retweetCount": 1939,
-"url": "https://x.com/ClementDelangue/status/2080766858911961260",
-"createdAt": "Fri Jul 24 21:27:32 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @sama: i want the US to win in AI both in open source and proprietary models, and i am glad to see this",
-"likeCount": 15319,
-"retweetCount": 958,
-"url": "https://x.com/ClementDelangue/status/2080695485829132612",
-"createdAt": "Fri Jul 24 16:43:55 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @elonmusk: This has my full support. \n\nJensen is right.",
-"likeCount": 74830,
-"retweetCount": 7034,
-"url": "https://x.com/ClementDelangue/status/2080695296464716195",
-"createdAt": "Fri Jul 24 16:43:10 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @Yuchenj_UW: Based. https://t.co/SnrhppZT0T",
-"likeCount": 3727,
-"retweetCount": 170,
-"url": "https://x.com/jeremyphoward/status/2081452209108369649",
-"createdAt": "Sun Jul 26 18:50:52 +0000 2026"
+"retweetCount": 6,
+"url": "https://x.com/ArAIstotle/status/2081858339441611193",
+"createdAt": "Mon Jul 27 21:44:41 +0000 2026"
 }
 ]
