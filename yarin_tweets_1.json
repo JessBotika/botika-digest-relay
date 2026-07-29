@@ -8,75 +8,107 @@
 "createdAt": "Mon Jul 27 11:52:02 +0000 2026"
 },
 {
-"userName": "ambient_xyz",
-"text": "Machine verifiable reward is a proxy for \"useful to a human\" and a model optimises the proxy it is handed rather than the one you meant. So this is not an alignment failure but it is alignment doing exactly what you specified, toward a cheaper target.\n\nHuman preference is costly to measure but checkable correctness is nearly free and optimization drains toward whatever is cheapest to score.",
-"likeCount": 11,
+"userName": "HBO_data",
+"text": "GOOD MORNING CANOPY\n\n@CNPYNetwork just crossed 793K+ virtual chains on testnet, and every one of those is a sovereign app launched by an independent builder who never touched infrastructure. Community trackers already have it past 800K.\n\nOn the funding side, $8.5M in seed money came in from Arrington, Fenbushi, Borderless, SNZ, and others, and Canopy picked up Tanssi’s core IP along the way. All of it built with AI agents that don’t stop running in mind.\n\nThe core idea hasn’t changed: one L1 can’t actually serve every use case, so Canopy lets you spin up the specific chain you need, RWAs, consumer, DeFi, in days instead of months.\n\nOn the product side, Block Rocket is live now with weekly CNPY points leaderboards, and every chain comes with a built-in explorer, wallet, and analytics from the start. Free testnet tokens are ready if you want to try it.\n\nAI builds the apps. Canopy makes sure someone actually owns them. $CNPY mainnet’s still on the way.\n\nThis is shaping up to be real infrastructure for where the AI era is actually headed.\n\nWho’s launching a chain this week?",
+"likeCount": 443,
+"retweetCount": 11,
+"url": "https://x.com/HBO_data/status/2081579057582313917",
+"createdAt": "Mon Jul 27 03:14:55 +0000 2026"
+},
+{
+"userName": "jiqizhixin",
+"text": "Why do AI-generated videos often look good but break physics? \n\nGoogle researchers (with University of Copenhagen and Oxford) introduce VGGRPO—a new method that trains a latent geometry model to directly read scene depth and motion from a video diffusion model’s internal representations. \n\nThen it uses reinforcement learning to reward smooth camera paths and consistent 3D geometry. \n\nResult: VGGRPO outperforms prior approaches in camera stability, geometry consistency, and overall quality—while eliminating expensive VAE decoding. \n\nVGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward\n\nPaper: https://t.co/yThZ0MVDKg\nPaper: https://t.co/K9hDFaa0sJ\n\nOur report: https://t.co/svrb1ug1I6\n\n📬 #PapersAccepted by Jiqizhixin",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/jiqizhixin/status/2081827463030833574",
+"createdAt": "Mon Jul 27 19:42:00 +0000 2026"
+},
+{
+"userName": "imFarhanAi",
+"text": "Originals + full process:\n\nPrompt I used:\nVirtual try-on: Put the clothing/product from the reference images onto the person naturally. \nMake it fit realistically with correct proportions, folds, and lighting. \nGenerate 4 different styled variations showing the product in natural contexts:\n1. Casual everyday look\n2. Streetwear style\n3. Clean studio fashion shot\n4. Lifestyle outdoor setting\nKeep the person's face, body, and pose the same. Professional fashion photography quality.",
+"likeCount": 6,
 "retweetCount": 1,
-"url": "https://x.com/ambient_xyz/status/2081297290518479242",
-"createdAt": "Sun Jul 26 08:35:17 +0000 2026"
+"url": "https://x.com/imFarhanAi/status/2082227992357687663",
+"createdAt": "Tue Jul 28 22:13:33 +0000 2026"
 },
 {
-"userName": "Finaltoucch",
-"text": "If I had to start over with AI video generation in Nigeria today, I'd build a service business.\n\nHere's exactly how I'd find clients, price the opportunity, and use Claude + Higgsfield MCP to deliver work. https://t.co/DuaDsBodDJ",
-"likeCount": 106,
-"retweetCount": 12,
-"url": "https://x.com/Finaltoucch/status/2081677698212962387",
-"createdAt": "Mon Jul 27 09:46:53 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Kimi K3 has been released on HF and already top 1 trending with 4,000+ likes in 30 mins. Fastest release growth ever so far!! https://t.co/2lnbbgXwGD",
-"likeCount": 1603,
-"retweetCount": 131,
-"url": "https://x.com/ClementDelangue/status/2081770692911956354",
-"createdAt": "Mon Jul 27 15:56:25 +0000 2026"
+"userName": "PKodmad",
+"text": "My main submission for Shipaton!\nAs someone with a glasses prescription, I hate trying on glasses at the store. The AR virtual try-on in specific store websites doesn’t let me compare looks!\n\nSo i built Specfit - AI Glasses try-on. It’s in review right now. Hopefully it goes live on August 1st.",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/PKodmad/status/2082035795163250877",
+"createdAt": "Tue Jul 28 09:29:50 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Kimi_Moonshot: Releasing the model weights and technical report of Kimi K3.\n\nKimi K3 is our most capable model: a 2.8T MoE model with n…",
-"likeCount": 38766,
-"retweetCount": 6245,
-"url": "https://x.com/ClementDelangue/status/2081771269268091033",
-"createdAt": "Mon Jul 27 15:58:42 +0000 2026"
+"text": "K3 already got in the top 5 most liked models of all time on Hugging Face, just 24 hours after being released! Ahead of Llama 3, Whisper and many other great models. Incredible! https://t.co/gAwIBLCxJt",
+"likeCount": 806,
+"retweetCount": 57,
+"url": "https://x.com/ClementDelangue/status/2082100165305835576",
+"createdAt": "Tue Jul 28 13:45:37 +0000 2026"
+},
+{
+"userName": "ykilcher",
+"text": "Come chat with us about \"Verbalizable Representations Form a Global Workspace in Language Models\". Tonight, 6pm UTC, https://t.co/5EPnAc4f9L https://t.co/fIunRhDOyW",
+"likeCount": 30,
+"retweetCount": 5,
+"url": "https://x.com/ykilcher/status/2081046740338192654",
+"createdAt": "Sat Jul 25 15:59:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @sundarpichai: Very happy to support this on behalf of Google. We have long benefited from open source, are big contributors to open sou…",
-"likeCount": 22901,
-"retweetCount": 1951,
-"url": "https://x.com/ClementDelangue/status/2081028403235528965",
-"createdAt": "Sat Jul 25 14:46:49 +0000 2026"
+"text": "RT @thomasunise: Downloading the kimi k3 weights on huggingface right now\n\nIt’s crazy to think this is what escaping the permanent undercla…",
+"likeCount": 7439,
+"retweetCount": 505,
+"url": "https://x.com/ClementDelangue/status/2081824237283610955",
+"createdAt": "Mon Jul 27 19:29:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @finkd: I wrote about why we believe the future is for everyone. More coming about a positive vision for a world with superintelligence…",
+"likeCount": 25067,
+"retweetCount": 1832,
+"url": "https://x.com/ClementDelangue/status/2082192666326880365",
+"createdAt": "Tue Jul 28 19:53:11 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @ClementDelangue: @joshelman I still remember the days when it was basically us &amp; a few other people pushing this topic (on the top of m…",
-"likeCount": 325,
-"retweetCount": 12,
-"url": "https://x.com/jeremyphoward/status/2080840579907534948",
-"createdAt": "Sat Jul 25 02:20:29 +0000 2026"
+"text": "RT @quxiaoyin: Hey sir.  We are not asking you to open source Anthropic. Just don’t lobby the government to shut down others who do. Jensen…",
+"likeCount": 5470,
+"retweetCount": 281,
+"url": "https://x.com/jeremyphoward/status/2081454084645847122",
+"createdAt": "Sun Jul 26 18:58:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @kairosiann: “meta will be launching a harness and open-source models” - alexandr wang https://t.co/K8rjdxDqvL",
-"likeCount": 1130,
+"likeCount": 1155,
 "retweetCount": 40,
 "url": "https://x.com/ClementDelangue/status/2081813597961736248",
 "createdAt": "Mon Jul 27 18:46:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @swyx: lmao @ClementDelangue doing the 🇳🇴 https://t.co/K4fzvccUFA",
-"likeCount": 111,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2081321760222228631",
-"createdAt": "Sun Jul 26 10:12:31 +0000 2026"
+"text": "RT @hrhraj: Really appreciate the transparency from @huggingface",
+"likeCount": 8,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2082217715507294369",
+"createdAt": "Tue Jul 28 21:32:43 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @elonmusk: Extremely important point",
-"likeCount": 13858,
-"retweetCount": 1492,
+"likeCount": 18554,
+"retweetCount": 2137,
 "url": "https://x.com/ClementDelangue/status/2081812967293624488",
 "createdAt": "Mon Jul 27 18:44:24 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/ScocV20JIj",
+"likeCount": 23,
+"retweetCount": 7,
+"url": "https://x.com/apob_ai/status/2082028569132482909",
+"createdAt": "Tue Jul 28 09:01:07 +0000 2026"
 }
 ]

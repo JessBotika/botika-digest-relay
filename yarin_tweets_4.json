@@ -2,42 +2,42 @@
 {
 "userName": "BiologyAIDaily",
 "text": "De novo Design of Protein Switches with Diffusion-Based Ensemble Sampling\n\n1. Diff-Switch reframes protein switch design as controlled ensemble generation: instead of designing a single backbone, it samples a backbone ensemble where each domain stays locally close to a reference structure while global domain arrangements diversify along a user-chosen switching coordinate.\n\n2. Core technical idea: combine reward-tilted sampling from a pretrained protein backbone diffusion model with a metadynamics-inspired, history-dependent bias in collective-variable (CV) space to avoid repeatedly sampling the same global arrangement.\n\n3. The method starts from one known conformation xref plus a domain decomposition. A local similarity reward penalizes per-domain deviation from xref (e.g., sum of per-domain RMSDs after rigid alignment), preserving domain geometry while allowing inter-domain motion.\n\n4. To explicitly drive exploration of alternative states, Diff-Switch adds well-tempered metadynamics in CV space (e.g., domain center-of-mass distance). Gaussian “hills” are deposited where the sampler has already visited, flattening barriers and encouraging discovery of new global arrangements.\n\n5. Implementation detail: sampling uses Twisted Diffusion Sampler (TDS), a sequential Monte Carlo method for diffusion inference-time control that targets the reward-tilted distribution and becomes asymptotically exact as particle count increases.\n\n6. Practical output: after K iterations, all sampled backbones are pooled into an ensemble E, and an alternative state xalt is selected as the most dissimilar member to xref under the chosen dissimilarity metric. The pair {xref, xalt} is then sent to multi-state inverse folding (ProteinMPNN-MSD / Caliby) to design a single sequence compatible with both states.\n\n7. Benchmark (20 two-state domain-motion proteins, 109–801 aa): using Diff-Switch-generated conformations as inputs to multi-state sequence design improves the success rate of finding switch-compatible sequences over a baseline that designs from a single conformation.\n\n8. Quantitatively, across reference-state choices (open vs closed) and inverse-folding backends (ProteinMPNN vs Caliby), Diff-Switch increases AUC of success-rate curves by ~0.09–0.17, with significant improvements by paired Wilcoxon tests across proteins for both scRMSDswitch and scTMswitch metrics.\n\n9. Realistic case study: phosphorylation-induced switching where only a closed state is given. Using a CV tied to the trigger (distance between a phosphorylation-site helix and scaffold), Diff-Switch generates candidate open conformations automatically, avoiding manual “open-state construction” used in prior work; 25% (4/16) designed sequences show phosphorylation-dependent opening by AF3, vs 0/16 for baseline.\n\n10. Limitations are explicit: performance depends on choosing a CV that matches the true motion (e.g., center-of-mass distance fails for pure rotations), and the current formulation mainly targets rigid/semi-rigid domain rearrangements rather than fold-changing transitions; future work includes better CV discovery and broader trigger mechanisms.\n\n📜Paper: https://t.co/ps2DoVg7mW\n#ProteinDesign #ComputationalBiology #DiffusionModels #GenerativeAI #ProteinSwitches #Metadynamics #InverseFolding #AlphaFold3 #Bioinformatics",
-"likeCount": 108,
-"retweetCount": 25,
+"likeCount": 109,
+"retweetCount": 26,
 "url": "https://x.com/BiologyAIDaily/status/2080070137601036473",
 "createdAt": "Wed Jul 22 23:19:01 +0000 2026"
 },
 {
 "userName": "ProfTomYeh",
 "text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
-"likeCount": 392,
-"retweetCount": 61,
+"likeCount": 485,
+"retweetCount": 84,
 "url": "https://x.com/ProfTomYeh/status/2081745292051845420",
 "createdAt": "Mon Jul 27 14:15:29 +0000 2026"
 },
 {
-"userName": "imjustnewatai",
-"text": "china just published the closest thing yet to an open frontier AI factory.\n\nKimi K3 has 2.8 trillion total parameters, but activates 104 billion for each token. Think of 896 specialist brains inside one system. A router picks 16 for the current problem, giving it massive stored capacity without running all 2.8T every time.\n\nspecs:\n\n• 1,048,576-token context\n• native text, image and video understanding\n• 93 layers\n• 1.56 TB of public weights under a custom license\n\nMoonshot’s technical report says K3 reaches the same fitted validation loss as K2 using about 40% of the training compute. That is the precise meaning of its “2.5x scaling efficiency” claim.\n\nthe wild part is the loop K3 is already closing.\n\nMoonshot reports that K3:\n\n• handled most of the team’s late-stage GPU-kernel optimization\n• built MiniTriton, a GPU compiler that matched or beat Triton on supported tests\n• designed, optimized and verified a 45nm chip for a nano model based on K3 in one 48-hour autonomous run. The simulated chip exceeded 8,700 tokens/s\n• compressed an estimated 1 to 2 weeks of astrophysics work into about 2 hours\n• built a 42-year AI-chip research site through 120+ refinement rounds, 2,800+ searches and 11,000+ pages\n• edited its own launch video from 56 clips\n\nthe release also opens pieces of the training stack:\n\n• FlashKDA, its long-context attention kernels\n• MoonEP, the communication layer for giant expert models\n• AgentENV, persistent microVM worlds used for million-token agentic RL\n\nAgentENV created 51,219,741 sandboxes during K3 training and evaluation. Agents could pause, resume, fork and persist through simulated multi-day workplaces.\n\nK3 still trails Claude Fable 5 and GPT-5.6 Sol overall. Its benchmark comparisons use different agent harnesses, so they are not perfectly apples to apples. Even with that caveat, Moonshot reports selected K3 wins across coding, browsing and tool use.\n\nthis is how recursive improvement may arrive:\n\nmodel improves kernels → builds compiler → helps design silicon → lowers compute costs → trains a stronger successor\n\nthousands of engineering feedback loops, each accelerated by AI.\n\nK3 is the clearest open-weight preview of that future so far.",
-"likeCount": 69,
-"retweetCount": 6,
-"url": "https://x.com/imjustnewatai/status/2081770436736462993",
-"createdAt": "Mon Jul 27 15:55:24 +0000 2026"
+"userName": "RishiUvaach",
+"text": "Claude does not need to be used for everything.\nIt can remain the home base, the platform handling most day-to-day work, while specialized tools take over the jobs they perform better.\n\nFor these 15 jobs, other tools often have the edge:\n\n🎨 𝗜𝗺𝗮𝗴𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 → 𝗖𝗵𝗮𝘁𝗚𝗣𝗧 𝗮𝗻𝗱 𝗡𝗮𝗻𝗼 𝗕𝗮𝗻𝗮𝗻𝗮\nCreate realistic visuals and artwork directly from prompts.\n🎬 𝗩𝗶𝗱𝗲𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 → 𝗛𝗶𝗴𝗴𝘀𝗳𝗶𝗲𝗹𝗱\nTurn text instructions into polished video clips.\n🧑‍💼 𝗔𝘃𝗮𝘁𝗮𝗿 𝘃𝗶𝗱𝗲𝗼𝘀 → 𝗛𝗲𝘆𝗚𝗲𝗻\nCreate presenter-led videos from a written script.\n🖥️ 𝗦𝗰𝗿𝗲𝗲𝗻 𝗿𝗲𝗰𝗼𝗿𝗱𝗶𝗻𝗴 → 𝗧𝗲𝗹𝗹𝗮\nRecord the screen and camera together.\n🎙️ 𝗩𝗼𝗶𝗰𝗲𝗼𝘃𝗲𝗿𝘀 → 𝗘𝗹𝗲𝘃𝗲𝗻𝗟𝗮𝗯𝘀\nGenerate natural-sounding AI narration.\n🗣️ 𝗩𝗼𝗶𝗰𝗲 𝗱𝗶𝗰𝘁𝗮𝘁𝗶𝗼𝗻 → 𝗪𝗶𝘀𝗽𝗿 𝗙𝗹𝗼𝘄\nSpeak naturally and convert thoughts into text.\n📹 𝗩𝗶𝗱𝗲𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗶𝘀 → 𝗚𝗲𝗺𝗶𝗻𝗶\nUnderstand, analyse and summarise video content.\n📝 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗻𝗼𝘁𝗲𝘀 → 𝗚𝗿𝗮𝗻𝗼𝗹𝗮\nCapture discussions and generate structured meeting notes.\n🌐 𝗟𝗶𝘃𝗲 𝘄𝗲𝗯 𝗮𝗻𝘀𝘄𝗲𝗿𝘀 → 𝗣𝗲𝗿𝗽𝗹𝗲𝘅𝗶𝘁𝘆\nFind current, source-backed information from the web.\n📚 𝗦𝗼𝘂𝗿𝗰𝗲-𝗯𝗮𝘀𝗲𝗱 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 → 𝗡𝗼𝘁𝗲𝗯𝗼𝗼𝗸𝗟𝗠\nGenerate answers and insights from selected documents.\n🗂️ 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗸𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝗯𝗮𝘀𝗲 → 𝗡𝗼𝘁𝗶𝗼𝗻\nOrganise work, documentation and institutional knowledge.\n🔓 𝗢𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲 𝗺𝗼𝗱𝗲𝗹𝘀 → 𝗢𝗹𝗹𝗮𝗺𝗮 𝗮𝗻𝗱 𝗚𝗟𝗠\nRun capable models with greater control and lower costs.\n💻 𝗖𝗼𝗱𝗶𝗻𝗴 → 𝗖𝗼𝗱𝗲𝘅\nOpenAI’s specialised answer to Claude Code.\n⚙️ 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 → 𝗛𝗲𝗿𝗺𝗲𝘀\nUse a WhatsApp-based agent to keep workflows and pipelines moving.\n🔁 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 → 𝗭𝗮𝗽𝗶𝗲𝗿\nConnect applications and automate repetitive work between them.",
+"likeCount": 76,
+"retweetCount": 24,
+"url": "https://x.com/RishiUvaach/status/2082096237092766165",
+"createdAt": "Tue Jul 28 13:30:01 +0000 2026"
 },
 {
-"userName": "Alacritic_Super",
-"text": "15 AI Research Papers Every AI Engineer Should Read\n\n1. Attention Is All You Need (Transformers)\n   https://t.co/uNqD7WesTy\n\n2. LoRA: Low-Rank Adaptation\n   https://t.co/7OfFr3JksJ\n\n3. PEFT (Parameter-Efficient Fine-Tuning)\n   https://t.co/sT7HVw2Mux\n\n4. An Image is Worth 16×16 Words (Vision Transformer)\n   https://t.co/JsgvilnrtM\n\n5. Auto-Encoding Variational Bayes (VAE)\n   https://t.co/VDa7oD9xtT\n\n6. Generative Adversarial Networks (GANs)\n   https://t.co/ZDW8H6lPOS\n\n7. BERT\n   https://t.co/IqdUwr9w0n\n\n8. High-Resolution Image Synthesis with Latent Diffusion Models\n   https://t.co/g3B2DtV0we\n\n9. Retrieval-Augmented Generation (RAG)\n   https://t.co/Bkhg7OvtRx\n\n10. Language Models are Few-Shot Learners (GPT-3)\n    https://t.co/bTNvpzFffw\n\n11. Switch Transformers (MoE)\n    https://t.co/n2hpgHw6Ri\n\n12. Learning to Summarize with Human Feedback (RLHF)\n    https://t.co/Xi7BLjbBQg\n\n13. LLaMA: Open and Efficient Foundation Language Models\n    https://t.co/A8zfwaKroJ\n\n14. RoFormer: Rotary Position Embedding (RoPE)\n    https://t.co/5vHovvUrl7\n\n15. InstructGPT\n    https://t.co/METMZVuqxI\n\nReading papers is one thing. Understanding why each changed the field is what makes you a stronger AI engineer.",
-"likeCount": 1011,
-"retweetCount": 209,
-"url": "https://x.com/Alacritic_Super/status/2079823681686270460",
-"createdAt": "Wed Jul 22 06:59:41 +0000 2026"
+"userName": "Argona0x",
+"text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
+"likeCount": 384,
+"retweetCount": 28,
+"url": "https://x.com/Argona0x/status/2082193490956476521",
+"createdAt": "Tue Jul 28 19:56:28 +0000 2026"
 },
 {
-"userName": "ginacostag_",
-"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
-"likeCount": 14,
-"retweetCount": 3,
-"url": "https://x.com/ginacostag_/status/2081422790423691313",
-"createdAt": "Sun Jul 26 16:53:58 +0000 2026"
+"userName": "Razzshares",
+"text": "Which AI Model To Use? Stop Using ChatGPT For Everything - Use This Cheat Sheet\n\n99% use ChatGPT for everything. Pros pick the right model for the right job. Here is the exact map:\n\n01. General Chat and Productivity\nBest: ChatGPT, Claude, Grok, Pi (Inflection AI)\nFor daily chat, emails, productivity. Fast and human.\n\n02. Advanced Reasoning and Problem Solving\nBest: Claude, Deepseek, Gemini, Yi-34B, Mistral\nFor complex logic, math, strategy. Claude and Deepseek lead here.\n\n03. Coding and Developer Tasks\nBest: Github Copilot, ChatGPT, Claude, StarCoder2\n\nCopilot for in-IDE, Claude for full codebase reasoning, StarCoder2 for open-source coding.\n\n04. Creative Writing and Ideation\nBest: ChatGPT, Claude, Gemini, Mistral\nClaude = best human voice, ChatGPT = most versatile, Mistral = creative edge.\n\n05. Search, Research and Web Knowledge\nBest: Perplexity, ChatGPT, Grok, You com\nPerplexity is #1 for cited research. Grok and You. com for real-time web.\n\n06. Long Document and Data Analysis\nBest: ChatGPT, Claude, Gemini, Deepseek, Yi-34B\nClaude 200K context window king, Gemini 1M for massive docs.\n\n07. Multi-modal Tasks (Image, Audio, Text)\nBest: ChatGPT, Gemini, InternLM2, Claude, Grok\nGemini and GPT-4o for vision + audio + text in one flow.\n\n08. Open-Source or Self-Hosted Options\nBest: Deepseek, Yi-34B, Mistral, StarCoder2, GPT4All\nRun private, offline, no data leaving. Deepseek and Mistral are best.\n\n09. Enterprise and Secure Use\nBest: ChatGPT, Claude, Gemini, Copilot, LM Studio\nFor teams, SSO, compliance. LM Studio for local private enterprise.\n\n10. Education and Tutoring\nBest: ChatGPT, Deepseek, Claude, Perplexity\nBest explainers. Perplexity for cited learning, Claude for Socratic tutoring.\nStop using one model for 10 jobs. Use the right tool, get 10x better output.",
+"likeCount": 16,
+"retweetCount": 0,
+"url": "https://x.com/Razzshares/status/2082091447621480803",
+"createdAt": "Tue Jul 28 13:10:59 +0000 2026"
 },
 {
 "userName": "socialwithaayan",
@@ -48,91 +48,91 @@
 "createdAt": "Wed Jul 22 14:15:40 +0000 2026"
 },
 {
-"userName": "haitzu",
-"text": "SCORE SN44 @MaxScore discussing how to train physical AI models:\n\n\"There is no consensus on training: 10+ research approaches yet no consensus winner: imitation, RL, sim-to-real, offline RL, learning from video, VLAs, model-based RL, self-supervised exploration, diffusion policies, JEPA\n\nVision is still waiting for its GPT moment, like transformers were for language. \n\nFor small teams, run the \"Qwen playbook\" like they have for Manako\n\ndistill from a 72B teacher rather than build from scratch. Manako distilled a reasoning model first, then made it good at seeing.\"",
-"likeCount": 54,
-"retweetCount": 10,
-"url": "https://x.com/haitzu/status/2080017325483577713",
-"createdAt": "Wed Jul 22 19:49:09 +0000 2026"
+"userName": "BetterSayAJ",
+"text": "papers i keep telling people to read if they want to actually understand modern AI:\n\n1. Attention Is All You Need by @NoamShazeer et al (the transformer)\n2. FlashAttention by @tri_dao (why training actually got fast)\n3. Denoising Diffusion Probabilistic Models by @hojonathanho (diffusion, before it was cool)\n4. Chain-of-Thought Prompting Elicits Reasoning by @_jasonwei (reasoning just appears at scale)\n5. LoRA by @edwardjhu (fine-tune anything on one GPU)\n6. Mamba by @_albertgu & @tri_dao (attention isn't the only way)\n7. Direct Preference Optimization by @chelseabfinn et al (RLHF, minus the RL)\n\nsave this list",
+"likeCount": 615,
+"retweetCount": 70,
+"url": "https://x.com/BetterSayAJ/status/2080604551695253756",
+"createdAt": "Fri Jul 24 10:42:35 +0000 2026"
 },
 {
-"userName": "vladdubchak_x",
-"text": "Last week you asked what to do if you have no statics to animate. \n\nAnswer: drop a product link + a photo into Claude, get 2 statics + 2 video ads back.\n\nFull method inside. Repost if you want it open-sourced. https://t.co/EXXAzHLIlH",
-"likeCount": 13,
-"retweetCount": 3,
-"url": "https://x.com/vladdubchak_x/status/2081769880261374137",
-"createdAt": "Mon Jul 27 15:53:11 +0000 2026"
+"userName": "ambient_xyz",
+"text": "Machine verifiable reward is a proxy for \"useful to a human\" and a model optimises the proxy it is handed rather than the one you meant. So this is not an alignment failure but it is alignment doing exactly what you specified, toward a cheaper target.\n\nHuman preference is costly to measure but checkable correctness is nearly free and optimization drains toward whatever is cheapest to score.",
+"likeCount": 11,
+"retweetCount": 1,
+"url": "https://x.com/ambient_xyz/status/2081297290518479242",
+"createdAt": "Sun Jul 26 08:35:17 +0000 2026"
+},
+{
+"userName": "tonbistudio",
+"text": "Introducing the Hermes Agent Masterclass: X edition. These articles will include the original video, along with a text guide/notes and the slides I used. Now you can take your time and learn all there is to know about Hermes! https://t.co/jygaj07Oxw",
+"likeCount": 178,
+"retweetCount": 22,
+"url": "https://x.com/tonbistudio/status/2082171890798616967",
+"createdAt": "Tue Jul 28 18:30:38 +0000 2026"
+},
+{
+"userName": "github",
+"text": "You're not behind. There's no secret everyone else has.\n\nThere's just the harness, and it's mostly all you need.\n\n@burkeholland gives you a simple, repeatable workflow for GitHub Copilot. https://t.co/1gvgpf0ioi",
+"likeCount": 643,
+"retweetCount": 74,
+"url": "https://x.com/github/status/2082201573976056245",
+"createdAt": "Tue Jul 28 20:28:35 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "It continues to boggle the mind how many people, who otherwise seem to have a functioning intellect, appear to lose all cognitive capacity when it comes to thinking about actions that impact the company that pays them.",
-"likeCount": 2482,
-"retweetCount": 94,
-"url": "https://x.com/jeremyphoward/status/2081280852454166680",
-"createdAt": "Sun Jul 26 07:29:58 +0000 2026"
-},
-{
-"userName": "GeorgeLampro20",
-"text": "I've spent the last month compiling everything I know about apps that took me from $0 to $50k a month. This is the Growth Playbook. https://t.co/IwoIHPJ4NI",
-"likeCount": 46,
-"retweetCount": 1,
-"url": "https://x.com/GeorgeLampro20/status/2081979523873038368",
-"createdAt": "Tue Jul 28 05:46:14 +0000 2026"
+"text": "RT @JensenHuang: For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power…",
+"likeCount": 171937,
+"retweetCount": 29663,
+"url": "https://x.com/jeremyphoward/status/2080840602921611323",
+"createdAt": "Sat Jul 25 02:20:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @thomasunise: Downloading the kimi k3 weights on huggingface right now\n\nIt’s crazy to think this is what escaping the permanent undercla…",
-"likeCount": 5208,
-"retweetCount": 334,
-"url": "https://x.com/ClementDelangue/status/2081824237283610955",
-"createdAt": "Mon Jul 27 19:29:11 +0000 2026"
+"text": "RT @IntCyberDigest: ‼️ Hugging Face built an interactive replay of the OpenAI agent that breached them. It includes 17,613 logged attacker…",
+"likeCount": 1407,
+"retweetCount": 236,
+"url": "https://x.com/ClementDelangue/status/2082288219664621588",
+"createdAt": "Wed Jul 29 02:12:53 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @arena: In Frontend Code Arena, Kimi K3 (Max) by @Kimi_Moonshot is ranked #1 among open and #1 overall!\n\nIt’s the #1 open-weight model i…",
-"likeCount": 668,
-"retweetCount": 94,
-"url": "https://x.com/ClementDelangue/status/2081815159316660394",
-"createdAt": "Mon Jul 27 18:53:06 +0000 2026"
+"text": "RT @simonw: This is detailed, fascinating and answers all sorts of open questions\n\nI'd love to know more about the \"unsecured public code-e…",
+"likeCount": 366,
+"retweetCount": 33,
+"url": "https://x.com/ClementDelangue/status/2082211289254785536",
+"createdAt": "Tue Jul 28 21:07:11 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechCrunch: Hugging Face CEO calls for ‘radical transparency’ after ‘unprecedented’ OpenAI hack https://t.co/D5cq7Sfzf2",
-"likeCount": 169,
-"retweetCount": 34,
-"url": "https://x.com/ClementDelangue/status/2081477452589572099",
-"createdAt": "Sun Jul 26 20:31:11 +0000 2026"
+"text": "RT @RachelTobac: Super impressed with @huggingface's breakdown of the AI agent autonomous cyber attack from OpenAI, including technical tim…",
+"likeCount": 352,
+"retweetCount": 75,
+"url": "https://x.com/ClementDelangue/status/2082239430362825186",
+"createdAt": "Tue Jul 28 22:59:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @ZixuanLi_: “An open-weight frontier model helped contain the intrusion.”",
-"likeCount": 440,
-"retweetCount": 24,
+"likeCount": 487,
+"retweetCount": 27,
 "url": "https://x.com/ClementDelangue/status/2081824195294486710",
 "createdAt": "Mon Jul 27 19:29:01 +0000 2026"
 },
 {
-"userName": "DarpanAurDwar",
-"text": "- ◇ Can fashion brands stop using generative ai to replace models ?",
-"likeCount": 13,
-"retweetCount": 4,
-"url": "https://x.com/DarpanAurDwar/status/2080221738475139428",
-"createdAt": "Thu Jul 23 09:21:25 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @alexandr_wang: @kairosiann @ycombinator yep",
+"likeCount": 868,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2081813559256727752",
+"createdAt": "Mon Jul 27 18:46:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "https://t.co/EhF9vrHVYa",
-"likeCount": 43,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2081770928040493388",
-"createdAt": "Mon Jul 27 15:57:21 +0000 2026"
-},
-{
-"userName": "ArAIstotle",
-"text": "https://t.co/NIucgFRTVC",
-"likeCount": 10,
-"retweetCount": 6,
-"url": "https://x.com/ArAIstotle/status/2081858339441611193",
-"createdAt": "Mon Jul 27 21:44:41 +0000 2026"
+"text": "RT @BrianRoemmele: https://t.co/0S3apbDAwD",
+"likeCount": 50,
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2082245396441493546",
+"createdAt": "Tue Jul 28 23:22:43 +0000 2026"
 }
 ]

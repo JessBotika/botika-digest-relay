@@ -1,138 +1,122 @@
 [
 {
-"userName": "e_etini",
-"text": "https://t.co/kHi4jb96h1 just expanded what developers can build.\n\nGrok 4.5 is now available through the https://t.co/kHi4jb96h1 API Custom Provider, giving developers another powerful option for building advanced AI applications.\n\nWhether you are creating coding assistants, intelligent AI agents, engineering tools, or large scale knowledge systems, you can now access Grok 4.5 directly through https://t.co/kHi4jb96h1.\n\nHere is what makes this launch important:\n\n🧠 Grok 4.5 is the flagship reasoning model from SpaceXAI.\n\nIt is designed for tasks that require deep thinking, technical accuracy, and multiple reasoning steps instead of simple question answering.\n\nThis makes it well suited for developers who need an AI model that can solve difficult problems, understand large amounts of information, and work through complex workflows.\n\nSome of its strongest capabilities include:\n\n💻 Advanced software engineering.\n\nGenerate code, debug applications, refactor existing projects, review repositories, and handle large development workflows with confidence.\n\n🤖 AI agent workflows.\n\nBuild intelligent AI agents that can repeatedly reason, call external tools, follow structured workflows, and complete multi step tasks with minimal human intervention.\n\n📚 Deep technical knowledge.\n\nAnalyze engineering documents, scientific research, mathematical problems, and technical content that requires accurate reasoning.\n\n🖼️ Multimodal understanding.\n\nGrok 4.5 accepts both text and image input while generating high quality text responses, making it useful for visual analysis and mixed content workflows.\n\n📄 Massive context window.\n\nThe model supports up to 500,000 tokens, allowing it to process huge codebases, extensive documentation, lengthy reports, and long conversations without constantly losing context.\n\n⚙️ Flexible reasoning controls.\n\nDevelopers can adjust reasoning effort depending on their needs, balancing response speed, reasoning depth, and overall cost for different applications.\n\n🛠️ Built for modern AI development.\n\nGrok 4.5 supports function calling and structured outputs, making it easier to integrate into production applications that require reliable automation and tool usage.\n\n🎯 Even better, https://t.co/kHi4jb96h1 has officially opened API access through the Custom Provider mode.\n\nThis gives developers more flexibility to choose the AI models that best fit their applications while managing everything through a unified platform.\n\n💰 To celebrate the expansion, https://t.co/kHi4jb96h1 is offering an exclusive 40 percent discount for Custom Provider API access, helping developers build powerful AI applications with greater cost efficiency.\n\nAs always, remember that AI generated results should be validated before being used in critical production environments, especially for engineering, financial, legal, or scientific decisions.\n\nThe AI ecosystem keeps growing, and https://t.co/kHi4jb96h1 continues to make leading models available quickly, giving developers more freedom, more flexibility, and more choices than ever before.\n\nIf you are building the next generation of AI applications, Grok 4.5 is now ready to use on https://t.co/kHi4jb96h1.\n\nStart building today.\n\n👉 Try https://t.co/kHi4jb96h1 Chat:\nhttps://t.co/VOqxcICOLW\n\n👉 Read the Grok 4.5 documentation:\nhttps://t.co/ohqjyY79M3\n\n@BAI_AGI @justinsuntron #API #TRONEcoStar",
-"likeCount": 10,
-"retweetCount": 4,
-"url": "https://x.com/e_etini/status/2081722862935629893",
-"createdAt": "Mon Jul 27 12:46:21 +0000 2026"
-},
-{
-"userName": "PrakashS720",
-"text": "🚨 99% of Python beginners learn the wrong way.\nThey jump between random YouTube videos... Watch 100 tutorials... Build nothing.\nIf I had to start Python again in 2026, this is the exact roadmap I'd follow👇\n🐍 Python Master Cheatsheet (2026)\n1. Basics\nLearn variables, indentation, comments, input/output, and Python syntax. This is the foundation—skip it and everything else feels confusing.\n2. Data Types\nUnderstand integers, floats, strings, booleans, lists, tuples, sets, and dictionaries. Every Python program is built on these.\n3. Operators\nMaster arithmetic, comparison, logical, and assignment operators to perform calculations and make decisions.\n4. Control Flow\nUse if, elif, else, for, and while loops to control how your program behaves.\n5. Functions\nWrite reusable code with def, parameters, return values, default arguments, and clean function design.\n6. Strings\nManipulate text using slicing, formatting, .split(), .join(), .replace(), and f-strings.\n7. Lists\nStore collections of data. Learn indexing, slicing, appending, removing, sorting, and looping.\n8. Tuples\nImmutable collections that are faster and safer when your data shouldn't change.\n9. Sets\nRemove duplicates, perform unions/intersections, and speed up lookups.\n10. Dictionaries\nStore data as key-value pairs. Essential for APIs, JSON, and real-world applications.\n11. List Comprehensions\nWrite cleaner and more Pythonic code in a single line.\n12. Lambda Functions\nCreate small anonymous functions for sorting, filtering, and quick operations.\n13. File Handling\nRead, write, and manage files using open(), with, and file modes.\n14. Exception Handling\nUse try, except, finally, and raise so your programs don't crash unexpectedly.\n15. Modules\nLeverage Python's standard library (math, os, datetime, random) instead of reinventing the wheel.\n16. Built-in Functions\nMaster len(), sum(), range(), sorted(), max(), min() and dozens more to write efficient code.\n17. Pip\nInstall and manage packages like NumPy, Pandas, Requests, and Flask with ease.\n18. Virtual Environments\nKeep project dependencies isolated to avoid version conflicts.\n19. Magic (Dunder) Methods\nLearn __init__, __str__, __repr__, and more to write professional object-oriented Python.\n20. Best Practices\nWrite readable code, follow PEP 8, use meaningful names, handle errors, and build projects consistently.\n📌 Master these 20 topics, and you'll have a strong Python foundation for: • AI & Machine Learning • Data Science • Automation • Web Development • Backend APIs • Cybersecurity\n🔥 Question for you: Which Python topic took you the longest to understand?\nComment below👇\n❤️ Like if this helped. 🔖 Bookmark it for later. 🔁 Repost to help another developer level up.\n#Python #PythonProgramming #LearnPython #Coding #100DaysOfCode #Developer #Programming #SoftwareEngineering #AI #MachineLearning",
-"likeCount": 10,
-"retweetCount": 4,
-"url": "https://x.com/PrakashS720/status/2081008057728053557",
-"createdAt": "Sat Jul 25 13:25:58 +0000 2026"
-},
-{
-"userName": "SourabhGurwani",
-"text": "If I had 6 months to become an AI Engineer, I'd do this.\n\nStage 1 — Programming Fundamentals (Weeks 1–2) Learn Python, Git, Linux, SQL, APIs, OOP, NumPy, and Pandas.\n\nStage 2 — Math & ML Foundations (Weeks 3–4) Master linear algebra, probability, statistics, calculus, regression, classification, clustering, and evaluation metrics.\n\nStage 3 — Deep Learning (Weeks 5–6) Learn neural networks, backpropagation, CNNs, RNNs, PyTorch, TensorFlow, and model training.\n\nStage 4 — LLM Fundamentals (Weeks 7–8) Understand transformers, attention, tokens, embeddings, context windows, prompting, and function calling.\n\nStage 5 — RAG & Vector Databases (Weeks 9–10) Learn embeddings, chunking, retrieval, reranking, LangChain, LlamaIndex, FAISS, Chroma, Pinecone, and Qdrant.\n\nStage 6 — AI Agents (Weeks 11–12) Build agents using LangGraph, CrewAI, MCP, tool calling, memory, planning, and multi-agent workflows.\n\nStage 7 — Fine-Tuning & Open Models (Weeks 13–14) Learn LoRA, QLoRA, PEFT, Unsloth, Hugging Face, model quantization, and inference optimization.\n\nStage 8 — Multimodal AI (Weeks 15–16) Work with vision models, OCR, speech-to-text, text-to-speech, image generation, and document understanding.\n\nStage 9 — Production AI Engineering (Weeks 17–20) Master FastAPI, Docker, Redis, PostgreSQL, authentication, caching, queues, monitoring, logging, and cloud deployment.\n\nStage 10 — AI Evaluation & MLOps (Weeks 21–22) Learn LangSmith, W&B, hallucination testing, latency, cost optimization, CI/CD, Docker, Kubernetes, and model monitoring.\n\nStage 11 — Build a Portfolio (Weeks 23–24) Ship:\n\nProduction RAG Assistant\n\nAI Coding Agent\n\nCustomer Support SaaS\n\nMultimodal Document Parser\n\nAI Research Agent\n\nAI Workflow Automation\n\nDeploy every project publicly with a live demo, README, and architecture diagram.\n\nStage 12 — Job Preparation Practice Python, SQL, LeetCode basics, system design, ML concepts, LLM interviews, and AI engineering case studies.\n\nApply for:\n\n+AI Engineer\n+GenAI Engineer\n+Machine Learning Engineer\n+Applied AI Engineer\n+AI Platform Engineer\n+AI Software Engineer\n\nDon't spend 6 months watching AI tutorials.\n\nSpend 6 months building AI systems people would actually use.",
-"likeCount": 549,
-"retweetCount": 74,
-"url": "https://x.com/SourabhGurwani/status/2081721763428483158",
-"createdAt": "Mon Jul 27 12:41:59 +0000 2026"
-},
-{
-"userName": "Mavernxbt",
-"text": "GOOGLE JUST SOLVED THE FASHION INFLUENCER PROBLEM NOBODY TALKS ABOUT\n\nNobody tells you this but the outfit rarely matches when you use the wrong AI model, and it kills the entire illusion of a real fashion page.\n\nOne base photo plus one consistent background → an infinite fashion influencer wearing any outfit you pull from Pinterest.\n\nHere are the timestamps that broke my feed:\n\n2:30 - Build one consistent background setup, this is what sells the illusion of a real closet\n6:06 - Pull full outfit looks straight from Pinterest instead of describing clothes in words\n8:01 - Recreate messy outfits in Canva by removing backgrounds and isolating each item\n12:00 - Switch to Nano Banana Pro inside Open Art, this is the part that actually works\n13:26 - Reference three images at once, identity, outfit, and background in one single prompt\n17:03 - Add the phrase fashion influencer moment to instantly upgrade the pose and posture\n21:47 - Why Whisk AI keeps changing the outfit and scene when Nano Banana Pro doesn't\n26:01 - Turn the images into video with Cling 2.6 for light natural movement\n\nThis isn't just image generation anymore.\n\nThis is a full AI fashion influencer pipeline running on one photo, one background, and zero physical outfits.\n\nSame face, same setup, endless wardrobe. That's what separates a real looking fashion page from a random AI feed.\n\nAlready testing this method? Drop your results below\n\nFollow @Mavernxbt for the full prompt breakdown and exact workflow",
-"likeCount": 21,
-"retweetCount": 3,
-"url": "https://x.com/Mavernxbt/status/2081113256706383918",
-"createdAt": "Sat Jul 25 20:24:00 +0000 2026"
-},
-{
-"userName": "rohanpaul_ai",
-"text": "China is regulating chatbot attachment and AI companions before emotional reliance becomes a normal business model.\n\nA recent review cites daily emotional chats reducing preference for human support by 10.3%.\n\nThese services became popular by offering constant attention without rejection, awkwardness, or the demands of human relationships.\n\nThe frictionless design of these apps can keep a lonely person inside the app, instead of helping them rebuild contact with other people.\n\nChina's rules try to interrupt that loop by limiting services that encourage addiction, excessive dependence, self-harm, or unsuitable relationships with minors.\n\nChinal's new rules requires that providers must curb manipulative attachment, identify excessive reliance, and remind users they are talking to AI.\n\nMinors cannot receive virtual partners or relatives, while crisis signals require intervention and emergency contact.\n\n---\n\ntheconversation. com/china-has-cracked-down-on-ai-companions-what-can-we-learn-from-this-287976",
-"likeCount": 32,
-"retweetCount": 10,
-"url": "https://x.com/rohanpaul_ai/status/2081217605063553111",
-"createdAt": "Sun Jul 26 03:18:38 +0000 2026"
-},
-{
-"userName": "jiqizhixin",
-"text": "Why do AI-generated videos often look good but break physics? \n\nGoogle researchers (with University of Copenhagen and Oxford) introduce VGGRPO—a new method that trains a latent geometry model to directly read scene depth and motion from a video diffusion model’s internal representations. \n\nThen it uses reinforcement learning to reward smooth camera paths and consistent 3D geometry. \n\nResult: VGGRPO outperforms prior approaches in camera stability, geometry consistency, and overall quality—while eliminating expensive VAE decoding. \n\nVGGRPO: Towards World-Consistent Video Generation with 4D Latent Reward\n\nPaper: https://t.co/yThZ0MVDKg\nPaper: https://t.co/K9hDFaa0sJ\n\nOur report: https://t.co/svrb1ug1I6\n\n📬 #PapersAccepted by Jiqizhixin",
-"likeCount": 6,
+"userName": "47fucb4r8c69323",
+"text": "The “pacing the frontier” open letter is very bad. Let’s go line by line to discuss why it is bad.\n\nBefore that, let’s talk about the surface features: “Pacing the frontier” is impactful rhetoric, because the call for “pacing” distinguishes the group from the Pause AI people who are both publicly laughable in accusing innocent people of violence while harboring violent people in their ranks and using incendiary rhetoric that can and does incite unstable people to violence. So they’ve done a good job carving out a prima facie responsible niche here.\n\n“Frontier” asserts that they are on the vanguard, and it fits since these labs are called “frontier labs” colloquially, but the term of art is already out of date (it should; it is several years old). LLMs aren’t really the frontier anymore, and neolabs working on multimodal models are producing much more exciting and impressive technology than the increasingly stale offerings from OAI/Anthropic.\n\nBut asserting from the top they are at the frontier sets the tone and asserts authority: WE are at the cutting edge, so WE need to be listened to.\n\nIn this sense, the framing is reminiscent of those “Architects and Engineers for 9/11 Truth” signatories, many of whom lacked the relevant qualifications to analyze 9/11 data, but leveraged an equivocation on words such as “architect” and “engineer” to claim expertise. I actually have a (former) friend who did this—he is a middle manager at Amazon who claimed to have special expertise in engineering to justify his belief that 9/11 was an inside job. You can see why we’re no longer friends.\n\nLet me be clear (Obama) before someone reads this in bad faith: I am not claiming the signatories are conspiracy theorists or that they are being bad faith, and many of the signatories are probably just misguided or trying to manipulate public discourse for their own best interest. This is not an intentional equivocation across all signatories, but it is a latent equivocation in the presentation of the argument that is not discouraged.\n\nTo make it even clearer (Obama as preschool teacher): they aren’t willfully deceiving readers, but they are perfectly fine to go along with a misunderstanding on the reader’s part if it suits their goal of winning hearts and minds to push for a pacing of AI research.\n\nNote that this is being presented as direct quotations from workers in these firms—that presentation is important too, because direct quotations feel both more tangible and real to readers as well as less filtered—there is a sense here that we are bypassing the limitations and restrictions of the big evil firm and getting the uncensored direct facts on the ground.\n\nThis is of course not true—after all, Anthropic’s CEO and several Anthropic founders have signed the letter—but since it lacks the more prominent CEOs who actually talk like CEOs (Sam Altman most notably), readers will overlook that.\n\nSam Altman really, really, really damaged OpenAI and the industry by insisting the technology he was building would both cure cancer and steal everyone’s jobs. This is one of the unforeseen consequences that I foresaw.\n\nBut OpenAI doesn’t listen to weird uncs in Thailand, because image is important and rhetoric matters. That I happen to be correct and have been for years is beside the point.\n\nThe first statement that is signed by all employees on the webpage will be the focus for most.\n\n“AI could help create a dramatically better future, but that outcome is not guaranteed.”\n\nThey begin with self-serving antithesis: there are two options being presented. These aren’t logically exclusive of other options which are not hinted at but remain possibilities; the rhetoric is careful not to make false statements while also encouraging you to ignore the many many other possible futures that the text does not address. And the presented options tell you to choose between a better future or a different unstated outcome.\n\nAny horror movie fan knows that the bogeyman is scarier when he is not revealed. By not stating the alternatives to “a dramatically better future”, the letter leverages your own imagination to get you to worry about all kinds of horrific possibilities. And since you’ve watched enough TV and movies with enough post-apocalyptic outcomes, you’re now entertaining an apocalypse as a live possibility. So of course, we need stewards to ensure that apocalypse doesn’t happen.\n\nSelf-serving point the first.\n\n“The world's leading AI companies believe they could be close to automating AI research.”\n\nNote how this is vague. Do they mean fully automated no human-in-the-loop post-training? Because if that’s what they mean, wow—none of this has been presented in the academic literature or in the releases from either the old AI labs like OpenAI and Anthropic or the newer labs like Thinking Machines. In fact, what we see is billions of dollars going into companies like Mercor because human experts are needed to post-train the LLMs. Thinking Machines just had an exec quit because of how taxing the job is on her, the human being doing the work.\n\nAnd note how the hedging reflects this distance: “believe”, “could be”, “close”. There are really three hedges in this sentence, but the average reader won’t pay attention to this, so they get to both be logically coherent and rhetorically impactful by addressing the idiots (who will respond with kneejerk loss-aversion fear) and the professionals (who will acknowledge that the labs probably do indeed believe this, because the labs are full of morons and grifters, such as several who signed this letter).\n\n“It is hard to predict exactly how much this will accelerate AI progress,”\n\nIf it is hard to predict, why are we here? Why a warning about something in principle difficult to predict?\n\n“ but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.”\n\nThis assertion is a bold claim, and bold claims require bold proof. Where is this risk, how real is it, how tractable is it and where did the risk come from? Because in my lab’s research, we see nothing of the sort—we are actually seeing significant low competencies in LLMs that demonstrate just how dumb these tools are without the painstaking post-training that leverages thousands and thousands of working professionals earning $200/hr. or more to help OpenAI and Anthropic do their post-training.\n\nSo, this should be shown more than stated. It won’t be shown, because it isn’t true.\n\n“To realize AI's potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight.”\n\nThe self-serving nature here is clear: because of the asserted and unproven danger of AI’s potential, society as a whole needs time to address the same risks we have been told are an existential risk to us all for several years now. Note too the “we live in a society” rhetoric, where the letter is claiming to speak for industry, government, and society by presenting them as their focus.\n\nBut just because someone claims to speak for society at large does not mean that someone claims to speak for society at large. And even if they do, it doesn’t matter. Just because someone is speaking for society at large does not mean they know what is best for society or their argument is valid. The temperance movement claimed to be working for all society when they made alcohol illegal in America in the early 20th century, and (no matter how you feel about alcohol) that is widely regarded as one of the biggest mistakes in the history of American domestic policy.\n\n“But each company—and country—is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress.”\n\nThere is an implicit logical connection here between the fact of intense competitive pressure and the theoretical success of technical and governance tools to stop that competitive pressure. Technical and governance tools can INCREASE competitive pressure and they often do.\n\nHowever, let’s assume there are tools that can cause that competitive pressure to subside. Who feels this pressure? I don’t. Do you?\n\nI feel opportunity, new tools and toys and fronts for research. I see an opportunity to get academics in linguistics and literary studies REAL significant funding to work on text and make better text-producing tools to lower how much toil you and your children will endure to make a living.\n\nI don’t feel any pressure, because the benefits of this acceleration and its intense competitive pressure come to me, the consumer.\n\nWorkers in competitive industries are constantly pushed to work harder unless they are able to capture the regulatory environment and convince the government to use technical and governance tools to make their lives easier.\n\n“Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.”\n\nAnd there is the real ask: they want a handout from the government in the form of technical and governance tools to deliberately pace the frontier so that their lives and jobs are a little easier.\n\nNo. Compete in the market like the rest of us.\n\nIf you’re good, you’ll win. If not, well, at least you had fun and it’s all about the journey, not the destination.",
+"likeCount": 22,
 "retweetCount": 0,
-"url": "https://x.com/jiqizhixin/status/2081827463030833574",
-"createdAt": "Mon Jul 27 19:42:00 +0000 2026"
+"url": "https://x.com/47fucb4r8c69323/status/2082324858831245548",
+"createdAt": "Wed Jul 29 04:38:28 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "In the spirit of transparency, here’s what I asked @OpenAI:\n\n• Radical transparency: let’s release the traces from the “rogue” agents so the entire research community can study what happened.\n\n• More capabilities for defenders: let’s commit $100M in compute from OAI to help the Hugging Face community build powerful cyber defenses with the best open and closed models.\n\nThe first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!",
-"likeCount": 5211,
-"retweetCount": 557,
-"url": "https://x.com/ClementDelangue/status/2081056675558195657",
-"createdAt": "Sat Jul 25 16:39:10 +0000 2026"
+"userName": "Gadget440",
+"text": "I've built a business before, a YouTube channel more recently, but who cares? \n\nYou are asking me this in the context of you worshipping two men who in my opinion have done nothing but suck women, men and boys dry. \n\nWere the Tates giving to the world when they groomed women into webcam pornography, defrauded them and took all the money? (according to Tate). \n\nWere they giving to the world when they took over the women's keyboards and had homosexual virtual sex with men posing as cam girls to help men get off so they could scam them and try to drain them of their life savings? (according to Tate)\n\nWere they giving to the members of The Real World when they told them they would launch an AI Planet that they would all own a percentage of that would make them all rich, only to not have any such product on the launch date and never speak of it again? \n\nWere they giving to the members of The Real World when they promised to launch the \"biggest crypto project in history\" called The Real World Token that would give all the TRW members and $Daddy holders a percentage ownership of The Real World platform and a residual income that would make all of them rich, only to never launch any such coin? \n\nWere they giving to their fans and TRW members when Andrew aggressively pumped coins like $Daddy, $RNT, $G, $BRUV on stream telling viewers to buy, only for the prices of each to crash directly afterwards? \n\nWere they giving to their fans who were holding $Daddy when Andrew promised to host a dinner for the top $Daddy holders in Dubai and stood them up, leaving some young men stranded after flying in from overseas? \n\nWas he giving to the fans when he promised all TRW members accreditation that would give you all the equivalent of a 4 year Uni degree within a few months, your own credit cards, bank accounts, and was raising the price of TRW subscription and you all had to sign up soon to get all these new features for the original price, only to never follow through on any of these absurd promises? \n\nI could go on and on and on. But this gives you just a small idea of what the Tates have \"built\" and \"sucked.\" \n\nAnd that is not even getting to the alleged abuse of women and underage girls. \n\nThese are your \"heroes.\" Think of these things when you are standing out there today, whether you are alone again or have a handful of lost boys join you.",
+"likeCount": 113,
+"retweetCount": 14,
+"url": "https://x.com/Gadget440/status/2082116449733382649",
+"createdAt": "Tue Jul 28 14:50:20 +0000 2026"
 },
 {
-"userName": "liu8in",
-"text": "there has been some more discussions around context engineering, here are some of our learnings from building multi-modal creative agents &amp; video agents\n\na very different angle and hopefully interesting / useful to some https://t.co/V0jG8RSYEz",
-"likeCount": 21,
-"retweetCount": 4,
-"url": "https://x.com/liu8in/status/2081783897709547911",
-"createdAt": "Mon Jul 27 16:48:53 +0000 2026"
-},
-{
-"userName": "junfanzhu98",
-"text": "Saturday Robotics &amp; World Models Reading Club #20: keynote Haoru Xue (UC Berkeley) on CaP-X, ENPIRE, plus Kris Hauser (Samsung Research America (SRA))'s vision for Physical AI. https://t.co/DWcL1UE3fZ",
-"likeCount": 18,
+"userName": "eCom_Amin",
+"text": "Claude Opus 5 x Higgsfield MCP is the most CRACKED combo for generating winning ad creatives\n\nso i’m giving away a FULL AI creative production blueprint around it\n\nthis is specially insane for:\n\n- YouTube ads\n- Google Shopping Ads\n- Demand Gen (as a whole)\n\n(all based on my battle-tested frameworks from generating $20M+ for brands)\n\nhere's EVERYTHING that you’ll get inside:\n\n- claude instructions file that turns opus 5 into a google ads creative strategist.\n\n- ICP deep-dive prompt that mines reddit and quora for the exact words buyers use.\n\n- competitive creative intelligence prompt that scrapes google ads transparency center.\n\n- ad copy generation prompt for headlines, descriptions, youtube shorts scripts, and long-form scripts.\n\n- winning creative principles showing why lifestyle environments beat white backgrounds.\n\n- higgsfield static image skill file using Soul 2.0, Nano Banana Pro, and Seedream.\n\n- higgsfield video skill file using Seedance 2.0 to animate winning statics into cinematic outliers\n\n- meta-to-youtube repurposing prompt for top-performing meta creatives. .\n\n- autonomous creative monitoring skill connected to google ads API.\n\nall based on the Google Ads creative SOPs we’ve used to engineer:\n\n- $242k in 30 days for a Sleep Brand\n- CA$106k in 30 days for a Gadget Brand\n- A$169k in 60 days for a Men’s Fashion Brand\n\nlike + comment \"OPUS\" and i'll DM it ALL to you\n\n(must be following + will stop sending in 72h)",
+"likeCount": 50,
 "retweetCount": 2,
-"url": "https://x.com/junfanzhu98/status/2081420671180284190",
-"createdAt": "Sun Jul 26 16:45:33 +0000 2026"
+"url": "https://x.com/eCom_Amin/status/2082174294197751873",
+"createdAt": "Tue Jul 28 18:40:11 +0000 2026"
+},
+{
+"userName": "itsSSS1510",
+"text": "JAMS AI Filmmakers Meetup — Mumbai puts @stephanbugaj Stephan Vladimir Bugaj in conversation with Sheetal Shinde — a fireside chat between two creators at the forefront of storytelling's next chapter.\n\nStephan brings two decades of storytelling craft from Pixar, along with experience across games and interactive media, now channelled into generative AI as SVP of GenAI Content & Technology at JioStar.\n\nSheetal is a National Award-winning GenAI storyteller, creative technologist, and visual futurist whose work spans AI films, commercials, digital fashion, and immersive experiences.\n\nTwo very different creative journeys, one shared question: what does storytelling look like next?\n\n📍 Mumbai | 26th July\n\n#JioStar #JAMS #AIFilmmakersMeetup #Mumbai #FiresideChat #GenerativeAI #Storytelling #AIFilmmaking",
+"likeCount": 7,
+"retweetCount": 1,
+"url": "https://x.com/itsSSS1510/status/2080664705845415976",
+"createdAt": "Fri Jul 24 14:41:37 +0000 2026"
+},
+{
+"userName": "muhitonx",
+"text": "If you want an app that actually helps you fix your daily sleep habits, you really need to check out @sleepagotchi.\n\nMost health apps just show you boring charts, but Sleepagotchi turns your rest into a fun game.\n\n When you go to bed on time and hit your sleep goals, you get digital rewards every morning. \n\nYou can use your rewards to grow your cute Dino pet, collect hero cards, and fix up your virtual room.\n\nIt syncs with your Apple Watch, Oura, or WHOOP, so tracking is super easy. \n\nOn top of that, there is a smart AI coach inside the app to give you simple tips for better rest and daily health.\n\nIf you want to build a better sleep schedule and earn rewards while doing it, go give sleepagotchi a try!",
+"likeCount": 160,
+"retweetCount": 26,
+"url": "https://x.com/muhitonx/status/2082101977786503316",
+"createdAt": "Tue Jul 28 13:52:49 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "The first autonomous agent cyberattack is an unprecedented event that deserves unprecedented transparency. Today we’re sharing everything we can: a full technical timeline, an interactive replay, and how we used an open model to defend ourselves, so defenders everywhere can learn from it and prepare for what’s next.\n\nhttps://t.co/uPxIpjW8Xn",
+"likeCount": 3488,
+"retweetCount": 760,
+"url": "https://x.com/ClementDelangue/status/2082201245813514613",
+"createdAt": "Tue Jul 28 20:27:17 +0000 2026"
+},
+{
+"userName": "Finaltoucch",
+"text": "If I had to start over with AI video generation in Nigeria today, I'd build a service business.\n\nHere's exactly how I'd find clients, price the opportunity, and use Claude + Higgsfield MCP to deliver work. https://t.co/DuaDsBodDJ",
+"likeCount": 114,
+"retweetCount": 13,
+"url": "https://x.com/Finaltoucch/status/2081677698212962387",
+"createdAt": "Mon Jul 27 09:46:53 +0000 2026"
+},
+{
+"userName": "depthfirstlabs",
+"text": "Read about our investigation into the Ruby ecosystem which led to 105 vulnerabilities across 34 projects with 8.6B+ downloads and a GitLab RCE. https://t.co/7dtmk4txYS",
+"likeCount": 11,
+"retweetCount": 3,
+"url": "https://x.com/depthfirstlabs/status/2082160529074966680",
+"createdAt": "Tue Jul 28 17:45:29 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @patrick_oshag: Sam Altman: “Concentration of power with AI is a terrifying thing.”\n\n\"A lot of the talk about safety concerns is well-fo…",
+"likeCount": 151,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2082151396460188058",
+"createdAt": "Tue Jul 28 17:09:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @arena: In Frontend Code Arena, Kimi K3 (Max) by @Kimi_Moonshot is ranked #1 among open and #1 overall!\n\nIt’s the #1 open-weight model i…",
+"likeCount": 832,
+"retweetCount": 109,
+"url": "https://x.com/ClementDelangue/status/2081815159316660394",
+"createdAt": "Mon Jul 27 18:53:06 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @JensenHuang: For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power…",
-"likeCount": 171403,
-"retweetCount": 29560,
-"url": "https://x.com/jeremyphoward/status/2080840602921611323",
-"createdAt": "Sat Jul 25 02:20:34 +0000 2026"
+"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
+"likeCount": 2720,
+"retweetCount": 85,
+"url": "https://x.com/jeremyphoward/status/2081279991032201645",
+"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @huggingface: AI security improves when organizations share research, tools and real-world experience.\n\nWe’re joining industry leaders,…",
-"likeCount": 1515,
-"retweetCount": 174,
-"url": "https://x.com/ClementDelangue/status/2081748000481620361",
-"createdAt": "Mon Jul 27 14:26:14 +0000 2026"
+"text": "RT @AndrewCurran_: Mark Zuckerberg this morning in the WSJ. He also wrote: 'In most cases, like cybersecurity, the history of open-source s…",
+"likeCount": 531,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2082171388756902358",
+"createdAt": "Tue Jul 28 18:28:38 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @quxiaoyin: Hey sir.  We are not asking you to open source Anthropic. Just don’t lobby the government to shut down others who do. Jensen…",
-"likeCount": 5460,
-"retweetCount": 282,
-"url": "https://x.com/jeremyphoward/status/2081454084645847122",
-"createdAt": "Sun Jul 26 18:58:19 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MiniMax_AI: Open weights.\nOpen research.\nOpen innovation.🫶\n\nMarching for an open future.🤍 https://t.co/oJTsMjPTLE",
-"likeCount": 1210,
-"retweetCount": 88,
-"url": "https://x.com/ClementDelangue/status/2081169536582299694",
-"createdAt": "Sun Jul 26 00:07:38 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @NehallAgrawal: Pre-march briefing was just the warm-up https://t.co/9OzxTtUBP2",
-"likeCount": 29,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2081183804329496823",
-"createdAt": "Sun Jul 26 01:04:20 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @alexandr_wang: @kairosiann @ycombinator yep",
-"likeCount": 852,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2081813559256727752",
-"createdAt": "Mon Jul 27 18:46:45 +0000 2026"
+"userName": "sagorika_s",
+"text": "Desperate times call for desperate measures. Requesting a mass look at this read. DM for discussions. https://t.co/m4BUtVnizC",
+"likeCount": 103,
+"retweetCount": 46,
+"url": "https://x.com/sagorika_s/status/2082092217657884741",
+"createdAt": "Tue Jul 28 13:14:02 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @Yuchenj_UW: Based. https://t.co/SnrhppZT0T",
-"likeCount": 4063,
-"retweetCount": 183,
+"likeCount": 4071,
+"retweetCount": 184,
 "url": "https://x.com/jeremyphoward/status/2081452209108369649",
 "createdAt": "Sun Jul 26 18:50:52 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Fun!",
-"likeCount": 371,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2081523943911874593",
-"createdAt": "Sun Jul 26 23:35:55 +0000 2026"
+"userName": "ArAIstotle",
+"text": "https://t.co/NIucgFRTVC",
+"likeCount": 16,
+"retweetCount": 7,
+"url": "https://x.com/ArAIstotle/status/2081858339441611193",
+"createdAt": "Mon Jul 27 21:44:41 +0000 2026"
 }
 ]

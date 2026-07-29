@@ -1,59 +1,51 @@
 [
 {
-"userName": "Ciri_ai",
-"text": "GPT image 2 on chatgpt \n\nPrompt: Use the uploaded character reference image as the strict identity and outfit reference.\n\nPreserve the reference character’s:\n- face identity\n- facial proportions\n- eye shape\n- nose\n- lips\n- skin tone\n- hairstyle\n- hair color\n- visible hair accessories\n- overall recognizable vibe\n- outfit and styling shown in the reference image\n\nDo not hardcode any specific character traits that are not present in the uploaded reference.\nAll identity, hairstyle, accessories, and clothing details must be inferred directly from the uploaded reference image.\n\nCreate a high-quality mixed-style vertical portrait showing:\n1. a realistic full-body version of the uploaded character/person\n2. a black hand-drawn doodle-shadow version of the same character/person on the wall beside them\n\nCore concept:\nThe real person and their doodle-shadow are doing a playful mischievous pose together.\nThe real person performs a cute realistic version of the pose, while the doodle-shadow performs a much more exaggerated, chaotic, cartoonish version of the same pose idea.\nThe mood should feel cute, playful, mischievous, stylish, funny, and social-media-friendly.\n\nReal person:\n- Must remain realistic and photogenic\n- Must wear the same outfit style and key visible details from the uploaded reference image\n- Do not replace the reference styling with unrelated fashion\n- Expression should be cute, slightly confused, mildly embarrassed, playful, as if thinking: “Why am I doing this with my shadow?”\n- The real person should not stand stiffly\n- The real person should actively participate in the pose, but in a natural realistic way\n\nDoodle-shadow:\n- Must be a black hand-drawn sketch version of the same person, drawn directly on the wall\n- Not a realistic second person\n- Not a normal physical shadow\n- Not a full-color anime character\n- Black sketch line-art only\n- Should resemble the person through hairstyle silhouette, accessories, outfit silhouette, and pose structure\n- The doodle-shadow should look more energetic, sillier, and more chaotic than the real person\n- Add manga-like motion lines, hearts, stars, sparkles, and comic marks around the doodle if helpful\n\nRandom mischievous pose rule:\nThe pose must NOT be fixed.\n\nFor each generation, invent a new playful mischievous pose for both the real person and the doodle-shadow.\nThe real person and the doodle-shadow should share the same general pose idea, but they do not need to match perfectly.\nThe real person performs a cute realistic version.\nThe doodle-shadow performs a much more exaggerated, chaotic, cartoonish version.\n\nDo not repeatedly use pointing poses.\nDo not repeatedly use finger-gun poses.\nDo not repeatedly use the same standing pose.\nDo not always make both figures simply point at each other.\n\nCreate a different mischievous pose each time.\n\nPossible pose directions are loose inspiration only, not a fixed menu:\n- playful idol pose\n- silly dance pose\n- leaning sideways with one arm curved overhead\n- making a big heart pose\n- cheeky wink pose\n- hands near cheeks in a cute teasing pose\n- exaggerated “ta-da!” pose\n- mock surprise pose\n- playful running-in-place pose\n- mischievous tiptoe pose\n- arms stretched in opposite directions\n- pretending to sneak away\n- cute troublemaker pose\n- dramatic overreaction pose\n- goofy victory pose\n- playful balance pose\n- playful peekaboo pose\n- shy but mischievous pose\n- cute overconfident pose\n\nThe final pose should feel fresh, cute, mischievous, and slightly chaotic.\nThe real person should look like they are reluctantly playing along.\nThe doodle-shadow should look like it is having way too much fun.\n\nComposition:\n- vertical 4:5 or 9:16\n- show the real person in full-body or nearly full-body framing\n- place the real person on one side of the frame\n- place the black doodle-shadow on a clean wall beside them\n- the doodle-shadow should be roughly the same height or slightly taller\n- keep enough space around both figures so the full pose is visible\n- the connection between the real person and the doodle-shadow must be clear at a glance\n\nBackground:\n- simple clean indoor studio wall or minimal room corner\n- white, cream, or pale gray wall\n- clean floor\n- soft natural sunlight patch or gentle wall shadow allowed\n- keep the background uncluttered\n\nLighting:\n- soft natural studio lighting\n- bright, clean, polished, playful mood\n- keep the real person’s face clearly visible\n\nStyle quality:\n- realistic human photography\n- black hand-drawn doodle-shadow on wall\n- matching mischievous pose interaction\n- strong identity resemblance\n- outfit and styling faithfully based on the uploaded reference\n- cute and stylish mixed-media portrait\n- clean composition\n- social-media-friendly\n- no obvious AI artifacts\n\nNegative prompt:\nhardcoded blue hair when not in reference, hardcoded cloud clip when not in reference, hardcoded fish clip when not in reference, hardcoded school uniform when not in reference, outfit change unrelated to reference, realistic second person, normal reflection, normal shadow only, solid black monster shadow, horror shadow, creepy shadow, full-color illustration, cartoon human, anime human, weak resemblance, unrelated sketch character, messy wall, cluttered background, repeated pointing pose, repeated finger-gun pose, same pose every time, fixed pose, boring mirrored pose, stiff pose, identical pose repetition, real person not matching shadow pose, text, watermark, logo, distorted body, extra limbs, extra fingers, bad hands",
-"likeCount": 1132,
-"retweetCount": 117,
-"url": "https://x.com/Ciri_ai/status/2080580411487600862",
-"createdAt": "Fri Jul 24 09:06:40 +0000 2026"
+"userName": "fellowshiptrust",
+"text": "Past Fairs: Paris Photo 2023\nThe presentation of alignDRAW by @elmanmansimov\n\nThree years ago, we took a chance on presenting the alignDRAW collection at Paris Photo 2023. alignDRAW is one of the first text-to-image generation models, created by Elman Mansimov in 2015 as an undergraduate at the University of Toronto. The images are low resolution, just 32 by 32 pixels, made years before the field's more recent advances.\n\nIn the essay that follows, @dariushimes, International Head of Photographs at Christie's, situates Mansimov's work within a much longer lineage, tracing the human urge to make images from the earliest cave paintings through the invention of photography and into this new computational chapter.\n\nAdvance Frontier: The Work of @elmanmansimov ↓\n\nThe human impulse, is it a need, or a propensity, or possibly a calling?, to make marks and create images stretches back to the beginning of human consciousness, as far as we can tell. Every region of the globe exhibits ancient glyphs of some kind, the Nazca lines of Peru, the Tassili n'Ajjer in Algeria, the Bhimbetka rock shelters in India, and of course the famous caves of Lascaux and Chauvet in France, and Altamira on the Iberian Peninsula. Rudimentary figures of bison, horses, deer, and other humans were etched and painted with astonishing skill tens of thousands of years ago. The precise meaning of these marks has remained shrouded in mystery, and has been debated for generations. Perhaps documentary in nature, the imagery recorded hunts and moments of valor; it may have been a symbolic form of conjuring or pre-visualization, or simply the earliest form of self-portraiture. Whatever its purpose, it testifies to a compulsion to preserve presence, to extend perception, to take what is seen or felt and fix it against the erasure of time.\n\nCenturies later, this impulse for image making was codified in innumerable varieties as pictographs and hieroglyphs. Various languages and ancient scripts emerged that were based on the image, not just a representative symbol of sound. Both the hieroglyphs of ancient Egypt and the oracle bone script of ancient China are examples. These images were not decoration alone but a functioning system, a language where stylized depictions of mountains, birds, and serpents stood for sounds, ideas, and deities. The pictorial instinct here was institutionalized, placed in the service of religion, governance, and memory. Tomb paintings carried this dual purpose further, fusing the visual with the symbolic. Just as the hand stencil declared “I was here,” so the hieroglyphs and murals declared, with greater confidence, “We envision. We remember. We endure.”\n\nThe development of Greek sculpture, Roman portraiture, and medieval iconography shows how images came to embody authority. They recorded rulers, instructed the faithful, and enshrined history. The Renaissance, with its rediscovery of perspective, introduced new methods to capture the world with verisimilitude, pushing one step further away from the symbolic and toward the “real.” Artists studied optics and anatomy to bridge the gap between perception and representation. Their goal was not simply beauty, but accuracy, an image that could rival the experience of sight itself.\n\nThis relentless pursuit of realism inevitably led us to the discovery of the principles of photography, that marriage of the sciences of optics and chemistry. The child of this marriage was a mirror reflection of the world that only became clearer and clearer over the decades. The camera obscura, long used by painters to trace outlines, was a precursor. In 1826 or 1827, Joseph Nicéphore Niépce made what is now regarded as the first permanent photograph: a grainy view from an upper-story window. Louis Daguerre, working in collaboration with Niépce, soon improved the process, and in 1839 the daguerreotype astonished the world.\n\nPortrait studios spread rapidly; for the first time, ordinary families could obtain faithful likenesses. Memory became externalized and permanent. The photograph was hailed as a miracle and feared as a menace, the death knell of a kind of realistic painting style toward which Western Europeans had gravitated. Artists worried that their vocation might vanish. Philosophers questioned whether this machine-made image could truly be art. The public embraced it with an unrestrained voraciousness. At a time when streets were still cobblestone or dirt and the only source of light after sunset was fire, the miracle of a perfect likeness of a loved one captured on a tiny, mirrored sheet of metal was like a portal to another universe.\n\nThe arrival of photography raised questions about objectivity, authorship, and value. Could a machine be creative? Was photography merely mechanical reproduction or could it, for instance in the hands of Julia Margaret Cameron or Alfred Stieglitz, become an expressive medium? These debates reverberated throughout the nineteenth and early twentieth centuries. Today, these exact same arguments are echoed almost verbatim in discussions about artificial intelligence and art. And it is here, in the third decade of the twenty-first century, that Elman Mansimov enters the story. Born in 1996 in Azerbaijan, Mansimov displayed an early aptitude in mathematics and science. At just fifteen years old, he was admitted to the University of Toronto, where he studied computer science under Ruslan Salakhutdinov, a prominent figure in deep learning. These were the years of AlexNet and the sudden leap forward in neural networks. While others focused on recognition, teaching machines to classify images, Mansimov began to wonder whether they might be taught to create them.\n\nIn 2015, while still an undergraduate, Mansimov led a project that produced alignDRAW, the first text-to-image generation model. The results were elementary, low resolution, distorted, filled with strange accidents. But they were recognizably images derived from words: a “yellow school bus,” “a group of elephants.” In that crude material lay the first signs of a profound shift. The machine was no longer a passive observer of images; it had become a participant in making them. Mansimov continued his research at New York University, pursuing a doctorate under Kyunghyun Cho. His work explored iterative refinement in machine learning, methods that allowed systems to improve outputs step by step. Though the technical details belonged to the field of computer science, the implications were far wider.\n\nWhat began as research into algorithms was, at its core, a new chapter in the history of image making. Mansimov’s career later took him to Amazon Web Services, where he now contributes to large-scale models. Yet outside the laboratory, his early experiments gained unexpected recognition as artifacts of a creative process.\n\nIn 2023, his alignDRAW images were exhibited at the annual Paris Photo art fair, a modern acknowledgment of computer science research as cultural artifact. This acknowledgement falls neatly in line with many other examples from the technological development of photography. Cyanotypes of pressed seaweed by Anna Atkins in the 1840s; animal motion studies by Eadweard Muybridge; Édouard Belin’s telegraph-transmitted Bélinographes; and NASA’s images from the surface of the moon, all are examples of scientific research that utilized photography and found its way into the market as highly collectible photographic objects, true artifacts of the scientific process with their own inherent elegance and logic.\n\nThe Worcester Art Museum in Massachusetts acquired several of Mansimov’s works, cementing both Mansimov’s and its own institutional place in the canon of image history. By 2024, Mansimov was being included in exhibitions devoted to the pioneers of AI art, recognized not only as a researcher but as a figure whose work bridged science and aesthetics. Asked whether he considered himself an artist, Mansimov has been clear. He views his work as science that, by accident, became art. “It’s very interesting from my perspective because I’m not an artist, right? I’m a computer scientist, and that’s my background, and that’s what I do.”\n\nNiépce likewise did not call himself an artist; he was an inventor. But Louis-Jacques-Mandé Daguerre, William Henry Fox Talbot, and Samuel Morse were likewise all highly educated inventors and deeply cultured, aware of the ramifications of science on art and image making. The results of their inventiveness not only have entered public consciousness, but have been retained and collected by museums and altered the trajectory of art. Mansimov belongs to this same lineage. His alignDRAW images lack photorealistic polish, but they carry the aura of Niépce’s first photograph: hesitant, imperfect, epochal.\n\nThe questions surrounding authorship remain pressing. In AI art, is “the artist” Mansimov, who wrote the code; the dataset of millions of images that shaped the model; the user who supplies the prompt; or the system that generates the output? Perhaps all share in authorship, or perhaps the notion of traditional authorship itself is an inadequate framework. What matters is that the impulse to make images has found a new vehicle, one that distributes agency across a network of human and machine actors.\n\nMansimov himself has argued that new terms may be needed. To directly call these works “photographs” is misleading. They are not captured from light but generated from computation. They are not imprints of reality but inventions constructed from probabilities. They belong to neither painting nor photography, but something that is still emerging. Mansimov’s position is that AI is not a replacement for human creativity but an extension of it, software that expands what is possible, just as the camera once did for painters. “Artists often begin by getting inspired by each other and gradually adding their own voice to their work.” The reception of Mansimov’s work bears out this claim. Audiences have noted that the images, though primitive, hold fascination.\n\nThey mark the starting point of a field that, in less than a decade, has advanced from blurred impressions to highly detailed, uncanny visions. And like the earliest photographs, historical importance outweighs matters of immediate beauty. When one surveys the arc from caves to cameras to code, the continuity is clear: Every advance in image making has provoked anxiety. Cave art was once the province of chiefs and shamans; hieroglyphs were guarded by the ecclesiastical class; photography unsettled painters; and AI art now raises its own alarms about authenticity, originality, and value. Yet history suggests that rather than replacing older forms, each new technology expands the field. Photography freed painting to pursue abstraction. AI may, in turn, liberate artists to explore new terrain.\n\nMansimov’s contribution lies not only in technical ingenuity but in the way it embodies this continuity. He did not seek to be an artist, yet his work is now permanently preserved in museums. He did not set out with aesthetic goals, yet the work carries an artistic ambience. We all stand at a threshold. His alignDRAW work is as much a historical document as Niépce’s heliograph. The fascination with images is not incidental to humanity; it is deep in the veins and consciousness of the human race. From the palm pressed against stone to the algorithm generating pixels, the purpose is the same: to externalize thought, to preserve what passes, to make visible both outer and inner states of awareness. Elman Mansimov, through his early work in AI, has joined that oldest of traditions. His images, however tentative, belong to the lineage of all who have ever tried to capture the world and fix it in an image.",
+"likeCount": 27,
+"retweetCount": 5,
+"url": "https://x.com/fellowshiptrust/status/2082103928880234532",
+"createdAt": "Tue Jul 28 14:00:34 +0000 2026"
 },
 {
-"userName": "VivekIntel",
-"text": "💥 𝗧𝗼𝗽 𝟮𝟭 𝗜𝗺𝗮𝗴𝗲 & 𝗩𝗶𝗱𝗲𝗼 𝗢𝗦𝗜𝗡𝗧 𝗧𝗼𝗼𝗹𝘀\n\n➊ Google Images\n🔗 https://t.co/PhoVQtMblG\nReverse image search to identify similar images and original sources.\n\n➋ Google Lens\n🔗 https://t.co/BmOG9gDflw\nIdentify objects, landmarks, text, and visually similar images.\n\n➌ Yandex Images\n🔗 https://t.co/twOmeiNp4c\nPowerful reverse image search, especially for faces and locations.\n\n➍ TinEye\n🔗 https://t.co/p9r8SQCMrB\nTrack where an image appears online and find its earliest known version.\n\n➎ RevEye\n🔗 https://t.co/xF6EXB6aWb\nBrowser extension for searching images across multiple reverse search engines.\n\n➏ FaceCheck ID\n🔗 https://t.co/k4w8OSI1Ug\nSearch for publicly available images matching a face.\n\n➐ PimEyes\n🔗 https://t.co/7UDOfRkxlV\nAI-powered facial image search across publicly indexed websites.\n\n➑ PicTriev\n🔗 https://t.co/58lDbaMT40\nCompare facial similarities between images.\n\n➒ GeoSpy\n🔗 https://t.co/pA8OaDvf0W\nEstimate the geographic location where an image was taken using AI.\n\n➓ Repost Sleuth\n🔗 https://t.co/EFI9VzJIk4\nDetect reposted images and duplicate content on Reddit.\n\n⓫ Flickr\n🔗 https://t.co/6ibn5ufnCL\nSearch publicly shared images with location and metadata context.\n\n⓬ Facesearch.arrests\n🔗 https://t.co/HkRiqwCgy2\nSearch publicly available arrest photos by facial similarity.\n\n⓭ ExifInfo\n🔗 https://t.co/beEcgD7bHl\nExtract and inspect EXIF metadata from images.\n\n⓮ FotoForensics\n🔗 https://t.co/UdBjsECWIp\nAnalyze images for signs of manipulation using forensic techniques.\n\n⓯ Forensically\n🔗 https://t.co/B3Pdy9Bs1F\nBrowser-based toolkit for image error analysis, clone detection, and metadata inspection.\n\n⓰ CarNet\n🔗 https://t.co/A3eVuF2ygE\nIdentify vehicle make, model, and other visual attributes from images.\n\n⓱ yt-dlp\n🔗 https://t.co/JmAOnZlJlG\nDownload videos and metadata from supported platforms for offline analysis.\n\n⓲ DownSub\n🔗 https://t.co/5fJ1YQ8SkF\nDownload subtitles from supported online videos.\n\n⓳ Turbo Downloader\n🔗 https://t.co/kAdRkARyjB\nDownload online videos from supported sources.\n\n⓴ Instaloader\n🔗 https://t.co/NkiebKLm30\nDownload publicly accessible Instagram posts, stories, reels, captions, and metadata.\n\n㉑ BraveDown\n🔗 https://t.co/jn47HdRea0\nDownload videos from supported platforms for research and archival purposes.\n\n📌 These tools are valuable for OSINT investigations, image verification, geolocation, metadata analysis, fact-checking, and digital forensic research.\n\n#OSINT #OpenSourceIntelligence #DigitalForensics #ImageForensics #GeoINT #SOCMINT #ThreatIntel #CyberSecurity #FactChecking #Investigations #InfoSec",
-"likeCount": 45,
-"retweetCount": 11,
-"url": "https://x.com/VivekIntel/status/2081461824885809170",
-"createdAt": "Sun Jul 26 19:29:05 +0000 2026"
+"userName": "suraj_sharma14",
+"text": "Gen AI vs AI Agents vs Agentic AI.\n\nMost builders confuse these.\nHere is the difference.\n\nGEN AI :-\nWhat it does: Generates content\nExamples: ChatGPT writing text, Midjourney creating images, GitHub Copilot suggesting code\nInput: Prompt\nOutput: Text, image, code\nLimitation: One request, one response. No memory. No action.\n\nAI AGENTS :- \nWhat it does: Perceives, decides, acts\nExamples: Auto-GPT researching a topic, a bot that books flights, a coding assistant that debugs and fixes\nInput: Goal\nOutput: Action + Result\nCapabilities: Tool use, memory, iteration, self-correction\nLimitation: Single agent. Limited scope.\n\nAGENTIC AI :- \nWhat it does: Orchestrates multiple agents to solve complex problems\nExamples: Research team (researcher + writer + fact-checker), software dev team (architect + coder + reviewer), business automation (sales + support + fulfillment)\nInput: Complex objective\nOutput: Coordinated workflow with multiple agents collaborating\nCapabilities: Multi-agent orchestration, consensus, delegation, conflict resolution\nLimitation: Complexity, coordination overhead, cost\n\nTHE EVOLUTION\nGen AI: \"Write me a blog post\"\nAI Agent: \"Research this topic and write a blog post with sources\"\nAgentic AI: \"Run my entire content operation: research, write, edit, fact-check, publish & promote\"\n\nWHAT TO BUILD IN 2026\n\nIf you are learning Gen AI:\nBuild structured outputs, RAG systems, prompt chains.\n\nIf you are learning AI Agents:\nBuild tool-using agents with memory, iteration limits, and error handling.\n\nIf you are learning Agentic AI:\nBuild multi-agent swarms with supervisor patterns, consensus logic & human approval gates.\n\nTHE TRUTH :-\nGen AI is a tool.\nAI Agents are workers.\nAgentic AI is an organization.\n\nMost builders stop at Gen AI.\n\nThe top 1% are building Agentic systems.\n\n(Bookmark & Repost)",
+"likeCount": 29,
+"retweetCount": 6,
+"url": "https://x.com/suraj_sharma14/status/2082096237394968687",
+"createdAt": "Tue Jul 28 13:30:01 +0000 2026"
 },
 {
-"userName": "NusratJaha07",
-"text": "🚀 The smartest professionals aren't working harder anymore.\n\nThey're using AI to save hours every single day.\n\nHere are 65 AI tools worth bookmarking in 2026. 👇\n\n🧠 Ideas & Research\n• YOU\n• Claude\n• ChatGPT\n• Perplexity\n• Bing Chat\n\n📊 Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ Writing\n• Rytr\n• Jasper\n• https://t.co/Y0sd9x4Hf5\n• Text Blaze\n• Writesonic\n\n🤖 AI Models\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ Meeting Assistants\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n💬 AI Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎨 UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ Image Generation\n• Stylar\n• Freepik\n• Phygital+\n• StockIMG\n• Bing Create\n\n🎬 Video Creation\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎯 Design Tools\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/R5QfcvIYCt\n\n📈 Marketing\n• AdCopy\n• Predis AI\n• Howler AI\n• Bardeen AI\n• https://t.co/4XJUc4yixN\n\n🐦 X (Twitter) Growth\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• TweetHunter\n\n💾 Save this post so you never waste time searching for AI tools again.\n\n♻️ Repost it to help someone level up with AI.\n\nFollow @NusratJaha07 for daily AI tools, prompts, and productivity hacks. 🚀",
-"likeCount": 57,
-"retweetCount": 37,
-"url": "https://x.com/NusratJaha07/status/2081591919470088436",
-"createdAt": "Mon Jul 27 04:06:02 +0000 2026"
-},
-{
-"userName": "HBO_data",
-"text": "GOOD MORNING CANOPY\n\n@CNPYNetwork just crossed 793K+ virtual chains on testnet, and every one of those is a sovereign app launched by an independent builder who never touched infrastructure. Community trackers already have it past 800K.\n\nOn the funding side, $8.5M in seed money came in from Arrington, Fenbushi, Borderless, SNZ, and others, and Canopy picked up Tanssi’s core IP along the way. All of it built with AI agents that don’t stop running in mind.\n\nThe core idea hasn’t changed: one L1 can’t actually serve every use case, so Canopy lets you spin up the specific chain you need, RWAs, consumer, DeFi, in days instead of months.\n\nOn the product side, Block Rocket is live now with weekly CNPY points leaderboards, and every chain comes with a built-in explorer, wallet, and analytics from the start. Free testnet tokens are ready if you want to try it.\n\nAI builds the apps. Canopy makes sure someone actually owns them. $CNPY mainnet’s still on the way.\n\nThis is shaping up to be real infrastructure for where the AI era is actually headed.\n\nWho’s launching a chain this week?",
-"likeCount": 441,
-"retweetCount": 11,
-"url": "https://x.com/HBO_data/status/2081579057582313917",
-"createdAt": "Mon Jul 27 03:14:55 +0000 2026"
-},
-{
-"userName": "itsSSS1510",
-"text": "JAMS AI Filmmakers Meetup — Mumbai puts @stephanbugaj Stephan Vladimir Bugaj in conversation with Sheetal Shinde — a fireside chat between two creators at the forefront of storytelling's next chapter.\n\nStephan brings two decades of storytelling craft from Pixar, along with experience across games and interactive media, now channelled into generative AI as SVP of GenAI Content & Technology at JioStar.\n\nSheetal is a National Award-winning GenAI storyteller, creative technologist, and visual futurist whose work spans AI films, commercials, digital fashion, and immersive experiences.\n\nTwo very different creative journeys, one shared question: what does storytelling look like next?\n\n📍 Mumbai | 26th July\n\n#JioStar #JAMS #AIFilmmakersMeetup #Mumbai #FiresideChat #GenerativeAI #Storytelling #AIFilmmaking",
-"likeCount": 6,
+"userName": "Chichi_Uchendu",
+"text": "Day 5/14. You Don't Need 10 Clients. 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗢𝗻𝗲 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝘁𝗼 𝗦𝗼𝗹𝘃𝗲.\n\nIf you can solve one of the problems below AI, you have something businesses will pay for.\n\n1. Dental Clinics Pain points - missed appointments and no-shows.\n\nAI Agent: Appointment Booking Agent.\n\n2. Real Estate Companies Pain points - Sales teams spending hours searching for prospects. • Slow follow-up with leads. \n\nAI Agent: Lead Generation & Follow-up Agent.\n\n3. Fashion Brands Pain points - Hundreds of enquiries on WhatsApp and Instagram.\n\nAI Agent: Customer Support & Order Management Agent.\n\n4. Schools & Training Academies Pain points - Answering the same admission questions repeatedly. \n\nAI Agent: Student Admissions & Enquiry Agent.\n\n5. Law Firms & Consultants Pain points -  Scheduling consultations manually. Chasing potential clients for follow-ups. \n\nAI Agent: Consultation Booking & Client Follow-up Agent.\n\nDon't just learn AI tools, use it to build AI agents!",
+"likeCount": 7,
 "retweetCount": 1,
-"url": "https://x.com/itsSSS1510/status/2080664705845415976",
-"createdAt": "Fri Jul 24 14:41:37 +0000 2026"
+"url": "https://x.com/Chichi_Uchendu/status/2082169239176429810",
+"createdAt": "Tue Jul 28 18:20:06 +0000 2026"
 },
 {
-"userName": "BetterSayAJ",
-"text": "papers i keep telling people to read if they want to actually understand modern AI:\n\n1. Attention Is All You Need by @NoamShazeer et al (the transformer)\n2. FlashAttention by @tri_dao (why training actually got fast)\n3. Denoising Diffusion Probabilistic Models by @hojonathanho (diffusion, before it was cool)\n4. Chain-of-Thought Prompting Elicits Reasoning by @_jasonwei (reasoning just appears at scale)\n5. LoRA by @edwardjhu (fine-tune anything on one GPU)\n6. Mamba by @_albertgu & @tri_dao (attention isn't the only way)\n7. Direct Preference Optimization by @chelseabfinn et al (RLHF, minus the RL)\n\nsave this list",
-"likeCount": 613,
-"retweetCount": 70,
-"url": "https://x.com/BetterSayAJ/status/2080604551695253756",
-"createdAt": "Fri Jul 24 10:42:35 +0000 2026"
+"userName": "haitzu",
+"text": "SCORE SN44 @MaxScore discussing how to train physical AI models:\n\n\"There is no consensus on training: 10+ research approaches yet no consensus winner: imitation, RL, sim-to-real, offline RL, learning from video, VLAs, model-based RL, self-supervised exploration, diffusion policies, JEPA\n\nVision is still waiting for its GPT moment, like transformers were for language. \n\nFor small teams, run the \"Qwen playbook\" like they have for Manako\n\ndistill from a 72B teacher rather than build from scratch. Manako distilled a reasoning model first, then made it good at seeing.\"",
+"likeCount": 54,
+"retweetCount": 10,
+"url": "https://x.com/haitzu/status/2080017325483577713",
+"createdAt": "Wed Jul 22 19:49:09 +0000 2026"
 },
 {
-"userName": "Suethehumanrace",
-"text": "my airplane friend i met 2yrs ago who’s a dj slash social media manager slash fashion designer (but only for himself and friends) just discovered ai video generation. they say not meet your heros but i met a meme and i love him",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/Suethehumanrace/status/2081772704366215227",
-"createdAt": "Mon Jul 27 16:04:24 +0000 2026"
+"userName": "imFarhanAi",
+"text": "Virtual try-on with my own photos using Flint Image Edit on each::labs\n\nUploaded a person + hoodie → got these 4 natural styled variations in one generation.\nAbout 67% lower cost than standard image generation.\n\nAll 4 results above.\nOriginals + full process in the reply 👇\n\nTry it: https://t.co/ngOBBOwoj9\n\n@eachlabs",
+"likeCount": 18,
+"retweetCount": 6,
+"url": "https://x.com/imFarhanAi/status/2082225795251196004",
+"createdAt": "Tue Jul 28 22:04:50 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "It continues to boggle the mind how many people, who otherwise seem to have a functioning intellect, appear to lose all cognitive capacity when it comes to thinking about actions that impact the company that pays them.",
+"likeCount": 2488,
+"retweetCount": 94,
+"url": "https://x.com/jeremyphoward/status/2081280852454166680",
+"createdAt": "Sun Jul 26 07:29:58 +0000 2026"
 },
 {
 "userName": "junfanzhu98",
@@ -64,67 +56,59 @@
 "createdAt": "Sun Jul 26 16:45:33 +0000 2026"
 },
 {
-"userName": "ykilcher",
-"text": "Come chat with us about \"Verbalizable Representations Form a Global Workspace in Language Models\". Tonight, 6pm UTC, https://t.co/5EPnAc4f9L https://t.co/fIunRhDOyW",
-"likeCount": 30,
-"retweetCount": 5,
-"url": "https://x.com/ykilcher/status/2081046740338192654",
-"createdAt": "Sat Jul 25 15:59:41 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Kimi_Moonshot: Releasing the model weights and technical report of Kimi K3.\n\nKimi K3 is our most capable model: a 2.8T MoE model with n…",
+"likeCount": 44906,
+"retweetCount": 7131,
+"url": "https://x.com/ClementDelangue/status/2081771269268091033",
+"createdAt": "Mon Jul 27 15:58:42 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @JensenHuang: Attackers have frontier AI. Defenders need a frontier AI ecosystem—the best open and closed models, force-multiplied by a…",
-"likeCount": 31718,
-"retweetCount": 3670,
-"url": "https://x.com/ClementDelangue/status/2081737716476133883",
-"createdAt": "Mon Jul 27 13:45:23 +0000 2026"
+"text": "RT @BrianRoemmele: How OpenAI hacked HuggingFace.\n\nWhat we know.\n\nHugging Face proved that open platforms and open models can still win tho…",
+"likeCount": 113,
+"retweetCount": 35,
+"url": "https://x.com/ClementDelangue/status/2082245283786752053",
+"createdAt": "Tue Jul 28 23:22:16 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Chris_Wozniczek: if anyone wonders how a root cause analysis should look like and a post incident report\n\nthis is how\n\nthe huggingface…",
+"likeCount": 23,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2082237059335344230",
+"createdAt": "Tue Jul 28 22:49:35 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
-"likeCount": 2722,
-"retweetCount": 85,
-"url": "https://x.com/jeremyphoward/status/2081279991032201645",
-"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
+"text": "RT @ClementDelangue: @joshelman I still remember the days when it was basically us &amp; a few other people pushing this topic (on the top of m…",
+"likeCount": 328,
+"retweetCount": 14,
+"url": "https://x.com/jeremyphoward/status/2080840579907534948",
+"createdAt": "Sat Jul 25 02:20:29 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @marksg: “The first autonomous agent cyberattack is an unprecedented event. It deserves an unprecedented response!”",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2081183894305706436",
-"createdAt": "Sun Jul 26 01:04:41 +0000 2026"
-},
-{
-"userName": "mytween_IO",
-"text": "an AI twin of you. built to earn, trade stocks and help manage your assets while you sleep. https://t.co/OEJ2TlcooW",
-"likeCount": 22,
-"retweetCount": 0,
-"url": "https://x.com/mytween_IO/status/2081504333024186519",
-"createdAt": "Sun Jul 26 22:18:00 +0000 2026"
+"userName": "DarpanAurDwar",
+"text": "- ◇ Can fashion brands stop using generative ai to replace models ?",
+"likeCount": 13,
+"retweetCount": 4,
+"url": "https://x.com/DarpanAurDwar/status/2080221738475139428",
+"createdAt": "Thu Jul 23 09:21:25 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @0xferrous: codex is down! https://t.co/FiUX5UYGAu",
-"likeCount": 54,
+"likeCount": 55,
 "retweetCount": 8,
 "url": "https://x.com/jeremyphoward/status/2080945311531549060",
 "createdAt": "Sat Jul 25 09:16:39 +0000 2026"
 },
 {
-"userName": "Steviewildcards",
-"text": "https://t.co/Zeoxb8cp2P",
-"likeCount": 7,
-"retweetCount": 2,
-"url": "https://x.com/Steviewildcards/status/2081419330990817430",
-"createdAt": "Sun Jul 26 16:40:14 +0000 2026"
-},
-{
-"userName": "ChrisMack_",
-"text": "https://t.co/LHOGgQKr44",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/ChrisMack_/status/2081910363440787684",
-"createdAt": "Tue Jul 28 01:11:25 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @badlogicgames: recommended reading",
+"likeCount": 96,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2082207753016078455",
+"createdAt": "Tue Jul 28 20:53:08 +0000 2026"
 }
 ]
