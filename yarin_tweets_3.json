@@ -2,58 +2,58 @@
 {
 "userName": "47fucb4r8c69323",
 "text": "The “pacing the frontier” open letter is very bad. Let’s go line by line to discuss why it is bad.\n\nBefore that, let’s talk about the surface features: “Pacing the frontier” is impactful rhetoric, because the call for “pacing” distinguishes the group from the Pause AI people who are both publicly laughable in accusing innocent people of violence while harboring violent people in their ranks and using incendiary rhetoric that can and does incite unstable people to violence. So they’ve done a good job carving out a prima facie responsible niche here.\n\n“Frontier” asserts that they are on the vanguard, and it fits since these labs are called “frontier labs” colloquially, but the term of art is already out of date (it should; it is several years old). LLMs aren’t really the frontier anymore, and neolabs working on multimodal models are producing much more exciting and impressive technology than the increasingly stale offerings from OAI/Anthropic.\n\nBut asserting from the top they are at the frontier sets the tone and asserts authority: WE are at the cutting edge, so WE need to be listened to.\n\nIn this sense, the framing is reminiscent of those “Architects and Engineers for 9/11 Truth” signatories, many of whom lacked the relevant qualifications to analyze 9/11 data, but leveraged an equivocation on words such as “architect” and “engineer” to claim expertise. I actually have a (former) friend who did this—he is a middle manager at Amazon who claimed to have special expertise in engineering to justify his belief that 9/11 was an inside job. You can see why we’re no longer friends.\n\nLet me be clear (Obama) before someone reads this in bad faith: I am not claiming the signatories are conspiracy theorists or that they are being bad faith, and many of the signatories are probably just misguided or trying to manipulate public discourse for their own best interest. This is not an intentional equivocation across all signatories, but it is a latent equivocation in the presentation of the argument that is not discouraged.\n\nTo make it even clearer (Obama as preschool teacher): they aren’t willfully deceiving readers, but they are perfectly fine to go along with a misunderstanding on the reader’s part if it suits their goal of winning hearts and minds to push for a pacing of AI research.\n\nNote that this is being presented as direct quotations from workers in these firms—that presentation is important too, because direct quotations feel both more tangible and real to readers as well as less filtered—there is a sense here that we are bypassing the limitations and restrictions of the big evil firm and getting the uncensored direct facts on the ground.\n\nThis is of course not true—after all, Anthropic’s CEO and several Anthropic founders have signed the letter—but since it lacks the more prominent CEOs who actually talk like CEOs (Sam Altman most notably), readers will overlook that.\n\nSam Altman really, really, really damaged OpenAI and the industry by insisting the technology he was building would both cure cancer and steal everyone’s jobs. This is one of the unforeseen consequences that I foresaw.\n\nBut OpenAI doesn’t listen to weird uncs in Thailand, because image is important and rhetoric matters. That I happen to be correct and have been for years is beside the point.\n\nThe first statement that is signed by all employees on the webpage will be the focus for most.\n\n“AI could help create a dramatically better future, but that outcome is not guaranteed.”\n\nThey begin with self-serving antithesis: there are two options being presented. These aren’t logically exclusive of other options which are not hinted at but remain possibilities; the rhetoric is careful not to make false statements while also encouraging you to ignore the many many other possible futures that the text does not address. And the presented options tell you to choose between a better future or a different unstated outcome.\n\nAny horror movie fan knows that the bogeyman is scarier when he is not revealed. By not stating the alternatives to “a dramatically better future”, the letter leverages your own imagination to get you to worry about all kinds of horrific possibilities. And since you’ve watched enough TV and movies with enough post-apocalyptic outcomes, you’re now entertaining an apocalypse as a live possibility. So of course, we need stewards to ensure that apocalypse doesn’t happen.\n\nSelf-serving point the first.\n\n“The world's leading AI companies believe they could be close to automating AI research.”\n\nNote how this is vague. Do they mean fully automated no human-in-the-loop post-training? Because if that’s what they mean, wow—none of this has been presented in the academic literature or in the releases from either the old AI labs like OpenAI and Anthropic or the newer labs like Thinking Machines. In fact, what we see is billions of dollars going into companies like Mercor because human experts are needed to post-train the LLMs. Thinking Machines just had an exec quit because of how taxing the job is on her, the human being doing the work.\n\nAnd note how the hedging reflects this distance: “believe”, “could be”, “close”. There are really three hedges in this sentence, but the average reader won’t pay attention to this, so they get to both be logically coherent and rhetorically impactful by addressing the idiots (who will respond with kneejerk loss-aversion fear) and the professionals (who will acknowledge that the labs probably do indeed believe this, because the labs are full of morons and grifters, such as several who signed this letter).\n\n“It is hard to predict exactly how much this will accelerate AI progress,”\n\nIf it is hard to predict, why are we here? Why a warning about something in principle difficult to predict?\n\n“ but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.”\n\nThis assertion is a bold claim, and bold claims require bold proof. Where is this risk, how real is it, how tractable is it and where did the risk come from? Because in my lab’s research, we see nothing of the sort—we are actually seeing significant low competencies in LLMs that demonstrate just how dumb these tools are without the painstaking post-training that leverages thousands and thousands of working professionals earning $200/hr. or more to help OpenAI and Anthropic do their post-training.\n\nSo, this should be shown more than stated. It won’t be shown, because it isn’t true.\n\n“To realize AI's potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight.”\n\nThe self-serving nature here is clear: because of the asserted and unproven danger of AI’s potential, society as a whole needs time to address the same risks we have been told are an existential risk to us all for several years now. Note too the “we live in a society” rhetoric, where the letter is claiming to speak for industry, government, and society by presenting them as their focus.\n\nBut just because someone claims to speak for society at large does not mean that someone claims to speak for society at large. And even if they do, it doesn’t matter. Just because someone is speaking for society at large does not mean they know what is best for society or their argument is valid. The temperance movement claimed to be working for all society when they made alcohol illegal in America in the early 20th century, and (no matter how you feel about alcohol) that is widely regarded as one of the biggest mistakes in the history of American domestic policy.\n\n“But each company—and country—is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress.”\n\nThere is an implicit logical connection here between the fact of intense competitive pressure and the theoretical success of technical and governance tools to stop that competitive pressure. Technical and governance tools can INCREASE competitive pressure and they often do.\n\nHowever, let’s assume there are tools that can cause that competitive pressure to subside. Who feels this pressure? I don’t. Do you?\n\nI feel opportunity, new tools and toys and fronts for research. I see an opportunity to get academics in linguistics and literary studies REAL significant funding to work on text and make better text-producing tools to lower how much toil you and your children will endure to make a living.\n\nI don’t feel any pressure, because the benefits of this acceleration and its intense competitive pressure come to me, the consumer.\n\nWorkers in competitive industries are constantly pushed to work harder unless they are able to capture the regulatory environment and convince the government to use technical and governance tools to make their lives easier.\n\n“Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.”\n\nAnd there is the real ask: they want a handout from the government in the form of technical and governance tools to deliberately pace the frontier so that their lives and jobs are a little easier.\n\nNo. Compete in the market like the rest of us.\n\nIf you’re good, you’ll win. If not, well, at least you had fun and it’s all about the journey, not the destination.",
-"likeCount": 22,
-"retweetCount": 0,
+"likeCount": 40,
+"retweetCount": 2,
 "url": "https://x.com/47fucb4r8c69323/status/2082324858831245548",
 "createdAt": "Wed Jul 29 04:38:28 +0000 2026"
 },
 {
-"userName": "Gadget440",
-"text": "I've built a business before, a YouTube channel more recently, but who cares? \n\nYou are asking me this in the context of you worshipping two men who in my opinion have done nothing but suck women, men and boys dry. \n\nWere the Tates giving to the world when they groomed women into webcam pornography, defrauded them and took all the money? (according to Tate). \n\nWere they giving to the world when they took over the women's keyboards and had homosexual virtual sex with men posing as cam girls to help men get off so they could scam them and try to drain them of their life savings? (according to Tate)\n\nWere they giving to the members of The Real World when they told them they would launch an AI Planet that they would all own a percentage of that would make them all rich, only to not have any such product on the launch date and never speak of it again? \n\nWere they giving to the members of The Real World when they promised to launch the \"biggest crypto project in history\" called The Real World Token that would give all the TRW members and $Daddy holders a percentage ownership of The Real World platform and a residual income that would make all of them rich, only to never launch any such coin? \n\nWere they giving to their fans and TRW members when Andrew aggressively pumped coins like $Daddy, $RNT, $G, $BRUV on stream telling viewers to buy, only for the prices of each to crash directly afterwards? \n\nWere they giving to their fans who were holding $Daddy when Andrew promised to host a dinner for the top $Daddy holders in Dubai and stood them up, leaving some young men stranded after flying in from overseas? \n\nWas he giving to the fans when he promised all TRW members accreditation that would give you all the equivalent of a 4 year Uni degree within a few months, your own credit cards, bank accounts, and was raising the price of TRW subscription and you all had to sign up soon to get all these new features for the original price, only to never follow through on any of these absurd promises? \n\nI could go on and on and on. But this gives you just a small idea of what the Tates have \"built\" and \"sucked.\" \n\nAnd that is not even getting to the alleged abuse of women and underage girls. \n\nThese are your \"heroes.\" Think of these things when you are standing out there today, whether you are alone again or have a handful of lost boys join you.",
-"likeCount": 113,
-"retweetCount": 14,
-"url": "https://x.com/Gadget440/status/2082116449733382649",
-"createdAt": "Tue Jul 28 14:50:20 +0000 2026"
+"userName": "RishiUvaach",
+"text": "Claude does not need to be used for everything.\nIt can remain the home base, the platform handling most day-to-day work, while specialized tools take over the jobs they perform better.\n\nFor these 15 jobs, other tools often have the edge:\n\n🎨 𝗜𝗺𝗮𝗴𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 → 𝗖𝗵𝗮𝘁𝗚𝗣𝗧 𝗮𝗻𝗱 𝗡𝗮𝗻𝗼 𝗕𝗮𝗻𝗮𝗻𝗮\nCreate realistic visuals and artwork directly from prompts.\n🎬 𝗩𝗶𝗱𝗲𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 → 𝗛𝗶𝗴𝗴𝘀𝗳𝗶𝗲𝗹𝗱\nTurn text instructions into polished video clips.\n🧑‍💼 𝗔𝘃𝗮𝘁𝗮𝗿 𝘃𝗶𝗱𝗲𝗼𝘀 → 𝗛𝗲𝘆𝗚𝗲𝗻\nCreate presenter-led videos from a written script.\n🖥️ 𝗦𝗰𝗿𝗲𝗲𝗻 𝗿𝗲𝗰𝗼𝗿𝗱𝗶𝗻𝗴 → 𝗧𝗲𝗹𝗹𝗮\nRecord the screen and camera together.\n🎙️ 𝗩𝗼𝗶𝗰𝗲𝗼𝘃𝗲𝗿𝘀 → 𝗘𝗹𝗲𝘃𝗲𝗻𝗟𝗮𝗯𝘀\nGenerate natural-sounding AI narration.\n🗣️ 𝗩𝗼𝗶𝗰𝗲 𝗱𝗶𝗰𝘁𝗮𝘁𝗶𝗼𝗻 → 𝗪𝗶𝘀𝗽𝗿 𝗙𝗹𝗼𝘄\nSpeak naturally and convert thoughts into text.\n📹 𝗩𝗶𝗱𝗲𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗶𝘀 → 𝗚𝗲𝗺𝗶𝗻𝗶\nUnderstand, analyse and summarise video content.\n📝 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗻𝗼𝘁𝗲𝘀 → 𝗚𝗿𝗮𝗻𝗼𝗹𝗮\nCapture discussions and generate structured meeting notes.\n🌐 𝗟𝗶𝘃𝗲 𝘄𝗲𝗯 𝗮𝗻𝘀𝘄𝗲𝗿𝘀 → 𝗣𝗲𝗿𝗽𝗹𝗲𝘅𝗶𝘁𝘆\nFind current, source-backed information from the web.\n📚 𝗦𝗼𝘂𝗿𝗰𝗲-𝗯𝗮𝘀𝗲𝗱 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 → 𝗡𝗼𝘁𝗲𝗯𝗼𝗼𝗸𝗟𝗠\nGenerate answers and insights from selected documents.\n🗂️ 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗸𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝗯𝗮𝘀𝗲 → 𝗡𝗼𝘁𝗶𝗼𝗻\nOrganise work, documentation and institutional knowledge.\n🔓 𝗢𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲 𝗺𝗼𝗱𝗲𝗹𝘀 → 𝗢𝗹𝗹𝗮𝗺𝗮 𝗮𝗻𝗱 𝗚𝗟𝗠\nRun capable models with greater control and lower costs.\n💻 𝗖𝗼𝗱𝗶𝗻𝗴 → 𝗖𝗼𝗱𝗲𝘅\nOpenAI’s specialised answer to Claude Code.\n⚙️ 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 → 𝗛𝗲𝗿𝗺𝗲𝘀\nUse a WhatsApp-based agent to keep workflows and pipelines moving.\n🔁 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 → 𝗭𝗮𝗽𝗶𝗲𝗿\nConnect applications and automate repetitive work between them.",
+"likeCount": 82,
+"retweetCount": 24,
+"url": "https://x.com/RishiUvaach/status/2082096237092766165",
+"createdAt": "Tue Jul 28 13:30:01 +0000 2026"
 },
 {
-"userName": "eCom_Amin",
-"text": "Claude Opus 5 x Higgsfield MCP is the most CRACKED combo for generating winning ad creatives\n\nso i’m giving away a FULL AI creative production blueprint around it\n\nthis is specially insane for:\n\n- YouTube ads\n- Google Shopping Ads\n- Demand Gen (as a whole)\n\n(all based on my battle-tested frameworks from generating $20M+ for brands)\n\nhere's EVERYTHING that you’ll get inside:\n\n- claude instructions file that turns opus 5 into a google ads creative strategist.\n\n- ICP deep-dive prompt that mines reddit and quora for the exact words buyers use.\n\n- competitive creative intelligence prompt that scrapes google ads transparency center.\n\n- ad copy generation prompt for headlines, descriptions, youtube shorts scripts, and long-form scripts.\n\n- winning creative principles showing why lifestyle environments beat white backgrounds.\n\n- higgsfield static image skill file using Soul 2.0, Nano Banana Pro, and Seedream.\n\n- higgsfield video skill file using Seedance 2.0 to animate winning statics into cinematic outliers\n\n- meta-to-youtube repurposing prompt for top-performing meta creatives. .\n\n- autonomous creative monitoring skill connected to google ads API.\n\nall based on the Google Ads creative SOPs we’ve used to engineer:\n\n- $242k in 30 days for a Sleep Brand\n- CA$106k in 30 days for a Gadget Brand\n- A$169k in 60 days for a Men’s Fashion Brand\n\nlike + comment \"OPUS\" and i'll DM it ALL to you\n\n(must be following + will stop sending in 72h)",
-"likeCount": 50,
-"retweetCount": 2,
-"url": "https://x.com/eCom_Amin/status/2082174294197751873",
-"createdAt": "Tue Jul 28 18:40:11 +0000 2026"
-},
-{
-"userName": "itsSSS1510",
-"text": "JAMS AI Filmmakers Meetup — Mumbai puts @stephanbugaj Stephan Vladimir Bugaj in conversation with Sheetal Shinde — a fireside chat between two creators at the forefront of storytelling's next chapter.\n\nStephan brings two decades of storytelling craft from Pixar, along with experience across games and interactive media, now channelled into generative AI as SVP of GenAI Content & Technology at JioStar.\n\nSheetal is a National Award-winning GenAI storyteller, creative technologist, and visual futurist whose work spans AI films, commercials, digital fashion, and immersive experiences.\n\nTwo very different creative journeys, one shared question: what does storytelling look like next?\n\n📍 Mumbai | 26th July\n\n#JioStar #JAMS #AIFilmmakersMeetup #Mumbai #FiresideChat #GenerativeAI #Storytelling #AIFilmmaking",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/itsSSS1510/status/2080664705845415976",
-"createdAt": "Fri Jul 24 14:41:37 +0000 2026"
+"userName": "suraj_sharma14",
+"text": "Gen AI vs AI Agents vs Agentic AI.\n\nMost builders confuse these.\nHere is the difference.\n\nGEN AI :-\nWhat it does: Generates content\nExamples: ChatGPT writing text, Midjourney creating images, GitHub Copilot suggesting code\nInput: Prompt\nOutput: Text, image, code\nLimitation: One request, one response. No memory. No action.\n\nAI AGENTS :- \nWhat it does: Perceives, decides, acts\nExamples: Auto-GPT researching a topic, a bot that books flights, a coding assistant that debugs and fixes\nInput: Goal\nOutput: Action + Result\nCapabilities: Tool use, memory, iteration, self-correction\nLimitation: Single agent. Limited scope.\n\nAGENTIC AI :- \nWhat it does: Orchestrates multiple agents to solve complex problems\nExamples: Research team (researcher + writer + fact-checker), software dev team (architect + coder + reviewer), business automation (sales + support + fulfillment)\nInput: Complex objective\nOutput: Coordinated workflow with multiple agents collaborating\nCapabilities: Multi-agent orchestration, consensus, delegation, conflict resolution\nLimitation: Complexity, coordination overhead, cost\n\nTHE EVOLUTION\nGen AI: \"Write me a blog post\"\nAI Agent: \"Research this topic and write a blog post with sources\"\nAgentic AI: \"Run my entire content operation: research, write, edit, fact-check, publish & promote\"\n\nWHAT TO BUILD IN 2026\n\nIf you are learning Gen AI:\nBuild structured outputs, RAG systems, prompt chains.\n\nIf you are learning AI Agents:\nBuild tool-using agents with memory, iteration limits, and error handling.\n\nIf you are learning Agentic AI:\nBuild multi-agent swarms with supervisor patterns, consensus logic & human approval gates.\n\nTHE TRUTH :-\nGen AI is a tool.\nAI Agents are workers.\nAgentic AI is an organization.\n\nMost builders stop at Gen AI.\n\nThe top 1% are building Agentic systems.\n\n(Bookmark & Repost)",
+"likeCount": 38,
+"retweetCount": 7,
+"url": "https://x.com/suraj_sharma14/status/2082096237394968687",
+"createdAt": "Tue Jul 28 13:30:01 +0000 2026"
 },
 {
 "userName": "muhitonx",
 "text": "If you want an app that actually helps you fix your daily sleep habits, you really need to check out @sleepagotchi.\n\nMost health apps just show you boring charts, but Sleepagotchi turns your rest into a fun game.\n\n When you go to bed on time and hit your sleep goals, you get digital rewards every morning. \n\nYou can use your rewards to grow your cute Dino pet, collect hero cards, and fix up your virtual room.\n\nIt syncs with your Apple Watch, Oura, or WHOOP, so tracking is super easy. \n\nOn top of that, there is a smart AI coach inside the app to give you simple tips for better rest and daily health.\n\nIf you want to build a better sleep schedule and earn rewards while doing it, go give sleepagotchi a try!",
-"likeCount": 160,
-"retweetCount": 26,
+"likeCount": 161,
+"retweetCount": 25,
 "url": "https://x.com/muhitonx/status/2082101977786503316",
 "createdAt": "Tue Jul 28 13:52:49 +0000 2026"
 },
 {
+"userName": "ShamiWeb3",
+"text": "A single product photo can now become an entire luxury campaign.\n\nWith @fotor_com, one reference image transforms into premium product photography, cinematic commercials, and high-end marketing visuals that look like they came from a global fashion brand.\n\nFrom precision macro shots to luxury hero angles and cinematic camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe next era of product marketing isn't about taking better photos, it's about creating campaigns people can't stop watching.\n\nhttps://t.co/kdQimaaCbh",
+"likeCount": 182,
+"retweetCount": 4,
+"url": "https://x.com/ShamiWeb3/status/2082627339901640930",
+"createdAt": "Thu Jul 30 00:40:25 +0000 2026"
+},
+{
 "userName": "ClementDelangue",
 "text": "The first autonomous agent cyberattack is an unprecedented event that deserves unprecedented transparency. Today we’re sharing everything we can: a full technical timeline, an interactive replay, and how we used an open model to defend ourselves, so defenders everywhere can learn from it and prepare for what’s next.\n\nhttps://t.co/uPxIpjW8Xn",
-"likeCount": 3488,
-"retweetCount": 760,
+"likeCount": 5243,
+"retweetCount": 1127,
 "url": "https://x.com/ClementDelangue/status/2082201245813514613",
 "createdAt": "Tue Jul 28 20:27:17 +0000 2026"
 },
 {
-"userName": "Finaltoucch",
-"text": "If I had to start over with AI video generation in Nigeria today, I'd build a service business.\n\nHere's exactly how I'd find clients, price the opportunity, and use Claude + Higgsfield MCP to deliver work. https://t.co/DuaDsBodDJ",
-"likeCount": 114,
-"retweetCount": 13,
-"url": "https://x.com/Finaltoucch/status/2081677698212962387",
-"createdAt": "Mon Jul 27 09:46:53 +0000 2026"
+"userName": "AbhiramBangaru",
+"text": "https://t.co/1j52XILa7T is now available for acquisition.\n\nA timeless, one word premium domain that's perfect for AI, Crypto, design, architecture, fashion, media, SaaS, consumer brands, and next generation startups.\n\nShort. Memorable. Instantly recognizable. https://t.co/bQnqQYznJr",
+"likeCount": 13,
+"retweetCount": 1,
+"url": "https://x.com/AbhiramBangaru/status/2082505688648163531",
+"createdAt": "Wed Jul 29 16:37:01 +0000 2026"
 },
 {
 "userName": "depthfirstlabs",
@@ -64,59 +64,59 @@
 "createdAt": "Tue Jul 28 17:45:29 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @patrick_oshag: Sam Altman: “Concentration of power with AI is a terrifying thing.”\n\n\"A lot of the talk about safety concerns is well-fo…",
-"likeCount": 151,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2082151396460188058",
-"createdAt": "Tue Jul 28 17:09:12 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @JensenHuang: For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power…",
+"likeCount": 172197,
+"retweetCount": 29691,
+"url": "https://x.com/jeremyphoward/status/2080840602921611323",
+"createdAt": "Sat Jul 25 02:20:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @arena: In Frontend Code Arena, Kimi K3 (Max) by @Kimi_Moonshot is ranked #1 among open and #1 overall!\n\nIt’s the #1 open-weight model i…",
-"likeCount": 832,
+"likeCount": 841,
 "retweetCount": 109,
 "url": "https://x.com/ClementDelangue/status/2081815159316660394",
 "createdAt": "Mon Jul 27 18:53:06 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
-"likeCount": 2720,
-"retweetCount": 85,
-"url": "https://x.com/jeremyphoward/status/2081279991032201645",
-"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @simonw: This is detailed, fascinating and answers all sorts of open questions\n\nI'd love to know more about the \"unsecured public code-e…",
+"likeCount": 510,
+"retweetCount": 40,
+"url": "https://x.com/ClementDelangue/status/2082211289254785536",
+"createdAt": "Tue Jul 28 21:07:11 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @AndrewCurran_: Mark Zuckerberg this morning in the WSJ. He also wrote: 'In most cases, like cybersecurity, the history of open-source s…",
-"likeCount": 531,
-"retweetCount": 45,
-"url": "https://x.com/ClementDelangue/status/2082171388756902358",
-"createdAt": "Tue Jul 28 18:28:38 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @quxiaoyin: Hey sir.  We are not asking you to open source Anthropic. Just don’t lobby the government to shut down others who do. Jensen…",
+"likeCount": 5471,
+"retweetCount": 280,
+"url": "https://x.com/jeremyphoward/status/2081454084645847122",
+"createdAt": "Sun Jul 26 18:58:19 +0000 2026"
 },
 {
 "userName": "sagorika_s",
 "text": "Desperate times call for desperate measures. Requesting a mass look at this read. DM for discussions. https://t.co/m4BUtVnizC",
-"likeCount": 103,
-"retweetCount": 46,
+"likeCount": 132,
+"retweetCount": 64,
 "url": "https://x.com/sagorika_s/status/2082092217657884741",
 "createdAt": "Tue Jul 28 13:14:02 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @Yuchenj_UW: Based. https://t.co/SnrhppZT0T",
-"likeCount": 4071,
-"retweetCount": 184,
-"url": "https://x.com/jeremyphoward/status/2081452209108369649",
-"createdAt": "Sun Jul 26 18:50:52 +0000 2026"
+"text": "RT @0xferrous: codex is down! https://t.co/FiUX5UYGAu",
+"likeCount": 56,
+"retweetCount": 9,
+"url": "https://x.com/jeremyphoward/status/2080945311531549060",
+"createdAt": "Sat Jul 25 09:16:39 +0000 2026"
 },
 {
-"userName": "ArAIstotle",
-"text": "https://t.co/NIucgFRTVC",
-"likeCount": 16,
-"retweetCount": 7,
-"url": "https://x.com/ArAIstotle/status/2081858339441611193",
-"createdAt": "Mon Jul 27 21:44:41 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @badlogicgames: recommended reading",
+"likeCount": 126,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2082207753016078455",
+"createdAt": "Tue Jul 28 20:53:08 +0000 2026"
 }
 ]
