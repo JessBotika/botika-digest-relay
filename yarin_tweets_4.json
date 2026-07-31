@@ -1,16 +1,8 @@
 [
 {
-"userName": "john_my07",
-"text": "Seedance 2.0 on Pollo AI \n\nPrompt:\n\nFormat: 16:9\nConcept: \"Seoul Summer, 1998\"\n\nCreate an authentic 15-second archival home video that appears to have been recorded in Seoul, South Korea, during the summer of 1998 using a consumer Hi8 or VHS-C camcorder. The camcorder is never visible. The audience only sees the footage captured through the camera, exactly as if watching a forgotten family videotape decades later. This is not a vlog, not a selfie, and not a cinematic film. The unseen camera operator simply follows the subject naturally while documenting an ordinary day.\nThe footage should exhibit genuine late-1990s analogue camcorder characteristics: soft 480i resolution, subtle VHS tape grain, faint interlacing, mild colour fading, occasional autofocus breathing, slight exposure adjustments, gentle handheld shake, imperfect framing, tiny zoom corrections, realistic motion blur, analogue colour bleed, and faint tape hiss. There should be no HDR, no digital sharpening, no beauty filters, no stabilisation, no cinematic lighting, no slow motion, and no modern camera effects.\nThe subject is a young Korean woman in her early twenties with long, naturally straight black hair and minimal everyday makeup. She wears a simple fitted pastel crop top, mid-rise blue denim shorts of a modest late-1990s length, white ankle socks, classic white sneakers, and a lightweight oversized nylon windbreaker tied casually around her waist. She carries a plain canvas shoulder bag. Her outfit should accurately reflect youthful Korean summer street fashion from 1998, looking casual and practical rather than modern or editorial.\nThe recording begins on a narrow neighbourhood street lined with low-rise apartment buildings, convenience stores, handwritten Hangul shop signs, overhead utility wires, parked late-1990s Korean sedans, bicycles, and pedestrians. The young woman walks naturally along the pavement carrying a small paper bag of fresh bread from a nearby bakery while the unseen camera operator follows several metres behind. She briefly pauses at a pedestrian crossing, waiting with other people as traffic passes. When the signal changes, she crosses the street at a relaxed pace, smiling naturally after noticing the camera for a brief moment before continuing toward the opposite pavement. The camera lingers as she walks farther away into the lively neighbourhood, blending naturally with the surrounding pedestrians. After a few quiet seconds of ordinary street life, the recording ends abruptly, exactly as if someone simply pressed the stop button on the camcorder.\nGeneration Requirements: Produce one continuous, uninterrupted 15-second recording with no cuts or transitions. Every detail should faithfully recreate Seoul in 1998, including clothing, hairstyles, architecture, vehicles, shopfronts, signage, and everyday behaviour. Human movement must be completely natural with consistent facial identity, realistic anatomy, accurate hand movements, authentic walking physics, believable crowd interactions, and subtle environmental details such as passing bicycles, distant conversations, birds, traffic, and city ambience. Avoid AI artifacts, duplicated pedestrians, warped limbs, unnatural expressions, floating objects, perfect symmetry, or anything that suggests the footage was AI-generated. The finished result should be indistinguishable from genuine late-1990s home camcorder footage discovered in a family archive.",
-"likeCount": 100,
-"retweetCount": 4,
-"url": "https://x.com/john_my07/status/2082366212512838089",
-"createdAt": "Wed Jul 29 07:22:48 +0000 2026"
-},
-{
 "userName": "ProfTomYeh",
 "text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
-"likeCount": 492,
+"likeCount": 496,
 "retweetCount": 84,
 "url": "https://x.com/ProfTomYeh/status/2081745292051845420",
 "createdAt": "Mon Jul 27 14:15:29 +0000 2026"
@@ -18,121 +10,113 @@
 {
 "userName": "HeyAnjula",
 "text": "🚨 99% of Python beginners learn the wrong way.\nThey jump between random YouTube videos... Watch 100 tutorials... Build nothing.\nIf I had to start Python again in 2026, this is the exact roadmap I'd follow👇\n🐍 Python Master Cheatsheet (2026)\n1. Basics\nLearn variables, indentation, comments, input/output, and Python syntax. This is the foundation—skip it and everything else feels confusing.\n2. Data Types\nUnderstand integers, floats, strings, booleans, lists, tuples, sets, and dictionaries. Every Python program is built on these.\n3. Operators\nMaster arithmetic, comparison, logical, and assignment operators to perform calculations and make decisions.\n4. Control Flow\nUse if, elif, else, for, and while loops to control how your program behaves.\n5. Functions\nWrite reusable code with def, parameters, return values, default arguments, and clean function design.\n6. Strings\nManipulate text using slicing, formatting, .split(), .join(), .replace(), and f-strings.\n7. Lists\nStore collections of data. Learn indexing, slicing, appending, removing, sorting, and looping.\n8. Tuples\nImmutable collections that are faster and safer when your data shouldn't change.\n9. Sets\nRemove duplicates, perform unions/intersections, and speed up lookups.\n10. Dictionaries\nStore data as key-value pairs. Essential for APIs, JSON, and real-world applications.\n11. List Comprehensions\nWrite cleaner and more Pythonic code in a single line.\n12. Lambda Functions\nCreate small anonymous functions for sorting, filtering, and quick operations.\n13. File Handling\nRead, write, and manage files using open(), with, and file modes.\n14. Exception Handling\nUse try, except, finally, and raise so your programs don't crash unexpectedly.\n15. Modules\nLeverage Python's standard library (math, os, datetime, random) instead of reinventing the wheel.\n16. Built-in Functions\nMaster len(), sum(), range(), sorted(), max(), min() and dozens more to write efficient code.\n17. Pip\nInstall and manage packages like NumPy, Pandas, Requests, and Flask with ease.\n18. Virtual Environments\nKeep project dependencies isolated to avoid version conflicts.\n19. Magic (Dunder) Methods\nLearn __init__, __str__, __repr__, and more to write professional object-oriented Python.\n20. Best Practices\nWrite readable code, follow PEP 8, use meaningful names, handle errors, and build projects consistently.\n📌 Master these 20 topics, and you'll have a strong Python foundation for: • AI & Machine Learning • Data Science • Automation • Web Development • Backend APIs • Cybersecurity\n🔥 Question for you: Which Python topic took you the longest to understand?\nComment below👇\n❤️ Like if this helped. 🔖 Bookmark it for later. 🔁 Repost to help another developer level up.\n#Python #PythonProgramming #LearnPython #Coding #100DaysOfCode #Developer #Programming #SoftwareEngineering #AI #MachineLearning",
-"likeCount": 21,
-"retweetCount": 7,
+"likeCount": 84,
+"retweetCount": 15,
 "url": "https://x.com/HeyAnjula/status/2082496934103887917",
 "createdAt": "Wed Jul 29 16:02:14 +0000 2026"
 },
 {
-"userName": "Argona0x",
-"text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
-"likeCount": 1050,
-"retweetCount": 83,
-"url": "https://x.com/Argona0x/status/2082193490956476521",
-"createdAt": "Tue Jul 28 19:56:28 +0000 2026"
+"userName": "tec_safwan",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @tec_safwan for more AI tools.",
+"likeCount": 34,
+"retweetCount": 23,
+"url": "https://x.com/tec_safwan/status/2083037958983025021",
+"createdAt": "Fri Jul 31 03:52:05 +0000 2026"
 },
 {
-"userName": "deedydas",
-"text": "AI-generated content is 35-50% of the internet. As the cost of producing language falls to zero, the cost of *trusting* language goes to infinity.\n\nI’m genuinely so excited to announce that we’re leading a round in Pangram to fix this, and launching two big new models!\n– Pangram 4, a 6x bigger AI detection model that beats “humanized” text and boasts a 1 in 10,000 false positive rate and even scales to the newest model releases like Opus 5, Fable and GPT 5.6 Sol. Try asking an LLM to write like a human on loop, and it still won’t break it.\n\n– Pangram Image Preview, the best attempt we've seen at detecting AI images. Images can be tricky because you can add small AI changes to real photos, but this tackles even that. r/isthisAI is a top 25 AI subreddit dedicated to humans asking this question.\n\nToday, Substack, Quora, Google Classroom, Internet Archive and even NeurIPS rely on Pangram for their AI detection. The myth that all detection systems are unreliable because they misclassify historical docs is promulgated by inferior services that do not take Pangram's bitter lesson-pilled deep learning approach to the problem.\n\nThe business has grown 35x in the last year and >5x since even the last funding round. The founders Max Spero and Bradley Emi met at Stanford and went on do mission critical work at Nuro and be on the early Tesla Autopilot team with Andrej Karpathy. I love that they could’ve raised any amount of money (we all see the monster funding rounds) but despite being way farther ahead, chose to build the company gradually and sustainably, proving that it can still be done.\n\nWhether you like AI or not, we can all agree the user has the right to know and decide for themselves and choose whether they want to read it. This has applications through social networks, research publications, book publishers, pedagogy and even for cleaning data in labs. It's a deeply important problem to humanity. This is why Pangram is so close to my heart.",
-"likeCount": 169,
+"userName": "hey_leomartin",
+"text": "MiniMax H3 is really impressive for commercial creation.\n\nCreating ads with AI is becoming a completely different experience. With multimodal references, you can combine images, videos, audio, and text to build more consistent and controllable visuals.\n\nUp to 12 references + native 2K generation makes H3 a powerful tool for bringing advertising ideas to life.\n\nprompt：\n- Create a premium 9:16 fashion-eyewear commercial. Match the reference video’s shot rhythm, edit speed, white-cyclorama look, and severe fashion attitude. Use a seamless minimal white studio with clean, bold, avant-garde art direction worthy of a global luxury campaign.\n- Use Image 1 for the key visual: two full-body female models, one Black and one white, preserving their elevated wardrobe, body language, studio lighting, runway presence, and cool attitude. Use Image 2 for facial details. Both models wear futuristic luxury eyewear based on Image 3: wraparound curved lenses, a sharp cat-eye/goggle hybrid silhouette, mirrored reflections, streamlined temples, and the finish of a premium fashion accessory.\n\n#hailuoai #hailuo #MiniMaxH3 #H3\n@Hailuo_AI",
+"likeCount": 20,
+"retweetCount": 14,
+"url": "https://x.com/hey_leomartin/status/2082820121882665060",
+"createdAt": "Thu Jul 30 13:26:28 +0000 2026"
+},
+{
+"userName": "muhitonx",
+"text": "If you want an app that actually helps you fix your daily sleep habits, you really need to check out @sleepagotchi.\n\nMost health apps just show you boring charts, but Sleepagotchi turns your rest into a fun game.\n\n When you go to bed on time and hit your sleep goals, you get digital rewards every morning. \n\nYou can use your rewards to grow your cute Dino pet, collect hero cards, and fix up your virtual room.\n\nIt syncs with your Apple Watch, Oura, or WHOOP, so tracking is super easy. \n\nOn top of that, there is a smart AI coach inside the app to give you simple tips for better rest and daily health.\n\nIf you want to build a better sleep schedule and earn rewards while doing it, go give sleepagotchi a try!",
+"likeCount": 160,
+"retweetCount": 23,
+"url": "https://x.com/muhitonx/status/2082101977786503316",
+"createdAt": "Tue Jul 28 13:52:49 +0000 2026"
+},
+{
+"userName": "PKodmad",
+"text": "My main submission for Shipaton!\nAs someone with a glasses prescription, I hate trying on glasses at the store. The AR virtual try-on in specific store websites doesn’t let me compare looks!\n\nSo i built Specfit - AI Glasses try-on. It’s in review right now. Hopefully it goes live on August 1st.",
+"likeCount": 18,
+"retweetCount": 0,
+"url": "https://x.com/PKodmad/status/2082035795163250877",
+"createdAt": "Tue Jul 28 09:29:50 +0000 2026"
+},
+{
+"userName": "AbhiramBangaru",
+"text": "https://t.co/1j52XILa7T is now available for acquisition.\n\nA timeless, one word premium domain that's perfect for AI, Crypto, design, architecture, fashion, media, SaaS, consumer brands, and next generation startups.\n\nShort. Memorable. Instantly recognizable. https://t.co/bQnqQYznJr",
+"likeCount": 17,
+"retweetCount": 1,
+"url": "https://x.com/AbhiramBangaru/status/2082505688648163531",
+"createdAt": "Wed Jul 29 16:37:01 +0000 2026"
+},
+{
+"userName": "ykilcher",
+"text": "Come chat with us about \"Verbalizable Representations Form a Global Workspace in Language Models\". Tonight, 6pm UTC, https://t.co/5EPnAc4f9L https://t.co/fIunRhDOyW",
+"likeCount": 30,
+"retweetCount": 5,
+"url": "https://x.com/ykilcher/status/2081046740338192654",
+"createdAt": "Sat Jul 25 15:59:41 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @thomasunise: Downloading the kimi k3 weights on huggingface right now\n\nIt’s crazy to think this is what escaping the permanent undercla…",
+"likeCount": 7470,
+"retweetCount": 506,
+"url": "https://x.com/ClementDelangue/status/2081824237283610955",
+"createdAt": "Mon Jul 27 19:29:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @finkd: I wrote about why we believe the future is for everyone. More coming about a positive vision for a world with superintelligence…",
+"likeCount": 31184,
+"retweetCount": 2332,
+"url": "https://x.com/ClementDelangue/status/2082192666326880365",
+"createdAt": "Tue Jul 28 19:53:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @RachelTobac: Super impressed with @huggingface's breakdown of the AI agent autonomous cyber attack from OpenAI, including technical tim…",
+"likeCount": 768,
+"retweetCount": 145,
+"url": "https://x.com/ClementDelangue/status/2082239430362825186",
+"createdAt": "Tue Jul 28 22:59:00 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @_lewtun: We ran a large-scale distillation attack on the Kimi K3 technical report by reading it in parallel at the Hugging Face Journal…",
+"likeCount": 387,
+"retweetCount": 63,
+"url": "https://x.com/ClementDelangue/status/2083033715605754287",
+"createdAt": "Fri Jul 31 03:35:13 +0000 2026"
+},
+{
+"userName": "NodarJ",
+"text": "Zaps are now Agent-Installable, Without Giving Agents a Wallet. https://t.co/oTzmHHhlca",
+"likeCount": 23,
+"retweetCount": 5,
+"url": "https://x.com/NodarJ/status/2082647129969799369",
+"createdAt": "Thu Jul 30 01:59:04 +0000 2026"
+},
+{
+"userName": "Ambani_Wessley",
+"text": "https://t.co/4pNWNMKT5h",
+"likeCount": 202,
+"retweetCount": 213,
+"url": "https://x.com/Ambani_Wessley/status/2082533350582153722",
+"createdAt": "Wed Jul 29 18:26:57 +0000 2026"
+},
+{
+"userName": "xintex21",
+"text": "https://t.co/h2gQabbwou",
+"likeCount": 63,
 "retweetCount": 15,
-"url": "https://x.com/deedydas/status/2082492383820951847",
-"createdAt": "Wed Jul 29 15:44:09 +0000 2026"
-},
-{
-"userName": "eCom_Amin",
-"text": "Claude Opus 5 x Higgsfield MCP is the most CRACKED combo for generating winning ad creatives\n\nso i’m giving away a FULL AI creative production blueprint around it\n\nthis is specially insane for:\n\n- YouTube ads\n- Google Shopping Ads\n- Demand Gen (as a whole)\n\n(all based on my battle-tested frameworks from generating $20M+ for brands)\n\nhere's EVERYTHING that you’ll get inside:\n\n- claude instructions file that turns opus 5 into a google ads creative strategist.\n\n- ICP deep-dive prompt that mines reddit and quora for the exact words buyers use.\n\n- competitive creative intelligence prompt that scrapes google ads transparency center.\n\n- ad copy generation prompt for headlines, descriptions, youtube shorts scripts, and long-form scripts.\n\n- winning creative principles showing why lifestyle environments beat white backgrounds.\n\n- higgsfield static image skill file using Soul 2.0, Nano Banana Pro, and Seedream.\n\n- higgsfield video skill file using Seedance 2.0 to animate winning statics into cinematic outliers\n\n- meta-to-youtube repurposing prompt for top-performing meta creatives. .\n\n- autonomous creative monitoring skill connected to google ads API.\n\nall based on the Google Ads creative SOPs we’ve used to engineer:\n\n- $242k in 30 days for a Sleep Brand\n- CA$106k in 30 days for a Gadget Brand\n- A$169k in 60 days for a Men’s Fashion Brand\n\nlike + comment \"OPUS\" and i'll DM it ALL to you\n\n(must be following + will stop sending in 72h)",
-"likeCount": 360,
-"retweetCount": 29,
-"url": "https://x.com/eCom_Amin/status/2082174294197751873",
-"createdAt": "Tue Jul 28 18:40:11 +0000 2026"
-},
-{
-"userName": "em_wagdy",
-"text": "منذ ٢٠٢٣ وأنا أعيش داخل هذا المجال أجرّب، أكتشف، وأبني.\n\nاليوم أشارككم أول مقال لي على إكس: ٧ أسباب تُوضّح لماذا أصبح تصميم الفاشون بالذكاء الاصطناعي مجالاً لا غنى عنه.\n\nمن تجربتي ولكم 🌿 https://t.co/P1tNiD9Q4M",
-"likeCount": 7,
-"retweetCount": 3,
-"url": "https://x.com/em_wagdy/status/2082524990210261424",
-"createdAt": "Wed Jul 29 17:53:43 +0000 2026"
-},
-{
-"userName": "tonbistudio",
-"text": "Introducing the Hermes Agent Masterclass: X edition. These articles will include the original video, along with a text guide/notes and the slides I used. Now you can take your time and learn all there is to know about Hermes! https://t.co/jygaj07Oxw",
-"likeCount": 212,
-"retweetCount": 27,
-"url": "https://x.com/tonbistudio/status/2082171890798616967",
-"createdAt": "Tue Jul 28 18:30:38 +0000 2026"
-},
-{
-"userName": "github",
-"text": "You're not behind. There's no secret everyone else has.\n\nThere's just the harness, and it's mostly all you need.\n\n@burkeholland gives you a simple, repeatable workflow for GitHub Copilot. https://t.co/1gvgpf0ioi",
-"likeCount": 1453,
-"retweetCount": 186,
-"url": "https://x.com/github/status/2082201573976056245",
-"createdAt": "Tue Jul 28 20:28:35 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Kimi_Moonshot: Releasing the model weights and technical report of Kimi K3.\n\nKimi K3 is our most capable model: a 2.8T MoE model with n…",
-"likeCount": 45784,
-"retweetCount": 7243,
-"url": "https://x.com/ClementDelangue/status/2081771269268091033",
-"createdAt": "Mon Jul 27 15:58:42 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BrianRoemmele: How OpenAI hacked HuggingFace.\n\nWhat we know.\n\nHugging Face proved that open platforms and open models can still win tho…",
-"likeCount": 149,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2082245283786752053",
-"createdAt": "Tue Jul 28 23:22:16 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
-"likeCount": 2725,
-"retweetCount": 85,
-"url": "https://x.com/jeremyphoward/status/2081279991032201645",
-"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @AndrewCurran_: Mark Zuckerberg this morning in the WSJ. He also wrote: 'In most cases, like cybersecurity, the history of open-source s…",
-"likeCount": 553,
-"retweetCount": 51,
-"url": "https://x.com/ClementDelangue/status/2082171388756902358",
-"createdAt": "Tue Jul 28 18:28:38 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ZixuanLi_: “An open-weight frontier model helped contain the intrusion.”",
-"likeCount": 490,
-"retweetCount": 27,
-"url": "https://x.com/ClementDelangue/status/2081824195294486710",
-"createdAt": "Mon Jul 27 19:29:01 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @alexandr_wang: @kairosiann @ycombinator yep",
-"likeCount": 874,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2081813559256727752",
-"createdAt": "Mon Jul 27 18:46:45 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @elonmusk: Extremely important point",
-"likeCount": 19062,
-"retweetCount": 2317,
-"url": "https://x.com/ClementDelangue/status/2081812967293624488",
-"createdAt": "Mon Jul 27 18:44:24 +0000 2026"
-},
-{
-"userName": "ArAIstotle",
-"text": "https://t.co/NIucgFRTVC",
-"likeCount": 16,
-"retweetCount": 7,
-"url": "https://x.com/ArAIstotle/status/2081858339441611193",
-"createdAt": "Mon Jul 27 21:44:41 +0000 2026"
+"url": "https://x.com/xintex21/status/2082509877742915591",
+"createdAt": "Wed Jul 29 16:53:40 +0000 2026"
 }
 ]

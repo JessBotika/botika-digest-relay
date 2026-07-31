@@ -1,107 +1,99 @@
 [
 {
-"userName": "47fucb4r8c69323",
-"text": "The “pacing the frontier” open letter is very bad. Let’s go line by line to discuss why it is bad.\n\nBefore that, let’s talk about the surface features: “Pacing the frontier” is impactful rhetoric, because the call for “pacing” distinguishes the group from the Pause AI people who are both publicly laughable in accusing innocent people of violence while harboring violent people in their ranks and using incendiary rhetoric that can and does incite unstable people to violence. So they’ve done a good job carving out a prima facie responsible niche here.\n\n“Frontier” asserts that they are on the vanguard, and it fits since these labs are called “frontier labs” colloquially, but the term of art is already out of date (it should; it is several years old). LLMs aren’t really the frontier anymore, and neolabs working on multimodal models are producing much more exciting and impressive technology than the increasingly stale offerings from OAI/Anthropic.\n\nBut asserting from the top they are at the frontier sets the tone and asserts authority: WE are at the cutting edge, so WE need to be listened to.\n\nIn this sense, the framing is reminiscent of those “Architects and Engineers for 9/11 Truth” signatories, many of whom lacked the relevant qualifications to analyze 9/11 data, but leveraged an equivocation on words such as “architect” and “engineer” to claim expertise. I actually have a (former) friend who did this—he is a middle manager at Amazon who claimed to have special expertise in engineering to justify his belief that 9/11 was an inside job. You can see why we’re no longer friends.\n\nLet me be clear (Obama) before someone reads this in bad faith: I am not claiming the signatories are conspiracy theorists or that they are being bad faith, and many of the signatories are probably just misguided or trying to manipulate public discourse for their own best interest. This is not an intentional equivocation across all signatories, but it is a latent equivocation in the presentation of the argument that is not discouraged.\n\nTo make it even clearer (Obama as preschool teacher): they aren’t willfully deceiving readers, but they are perfectly fine to go along with a misunderstanding on the reader’s part if it suits their goal of winning hearts and minds to push for a pacing of AI research.\n\nNote that this is being presented as direct quotations from workers in these firms—that presentation is important too, because direct quotations feel both more tangible and real to readers as well as less filtered—there is a sense here that we are bypassing the limitations and restrictions of the big evil firm and getting the uncensored direct facts on the ground.\n\nThis is of course not true—after all, Anthropic’s CEO and several Anthropic founders have signed the letter—but since it lacks the more prominent CEOs who actually talk like CEOs (Sam Altman most notably), readers will overlook that.\n\nSam Altman really, really, really damaged OpenAI and the industry by insisting the technology he was building would both cure cancer and steal everyone’s jobs. This is one of the unforeseen consequences that I foresaw.\n\nBut OpenAI doesn’t listen to weird uncs in Thailand, because image is important and rhetoric matters. That I happen to be correct and have been for years is beside the point.\n\nThe first statement that is signed by all employees on the webpage will be the focus for most.\n\n“AI could help create a dramatically better future, but that outcome is not guaranteed.”\n\nThey begin with self-serving antithesis: there are two options being presented. These aren’t logically exclusive of other options which are not hinted at but remain possibilities; the rhetoric is careful not to make false statements while also encouraging you to ignore the many many other possible futures that the text does not address. And the presented options tell you to choose between a better future or a different unstated outcome.\n\nAny horror movie fan knows that the bogeyman is scarier when he is not revealed. By not stating the alternatives to “a dramatically better future”, the letter leverages your own imagination to get you to worry about all kinds of horrific possibilities. And since you’ve watched enough TV and movies with enough post-apocalyptic outcomes, you’re now entertaining an apocalypse as a live possibility. So of course, we need stewards to ensure that apocalypse doesn’t happen.\n\nSelf-serving point the first.\n\n“The world's leading AI companies believe they could be close to automating AI research.”\n\nNote how this is vague. Do they mean fully automated no human-in-the-loop post-training? Because if that’s what they mean, wow—none of this has been presented in the academic literature or in the releases from either the old AI labs like OpenAI and Anthropic or the newer labs like Thinking Machines. In fact, what we see is billions of dollars going into companies like Mercor because human experts are needed to post-train the LLMs. Thinking Machines just had an exec quit because of how taxing the job is on her, the human being doing the work.\n\nAnd note how the hedging reflects this distance: “believe”, “could be”, “close”. There are really three hedges in this sentence, but the average reader won’t pay attention to this, so they get to both be logically coherent and rhetorically impactful by addressing the idiots (who will respond with kneejerk loss-aversion fear) and the professionals (who will acknowledge that the labs probably do indeed believe this, because the labs are full of morons and grifters, such as several who signed this letter).\n\n“It is hard to predict exactly how much this will accelerate AI progress,”\n\nIf it is hard to predict, why are we here? Why a warning about something in principle difficult to predict?\n\n“ but there is a real risk that capability development rapidly accelerates beyond our ability to understand or control the resulting systems.”\n\nThis assertion is a bold claim, and bold claims require bold proof. Where is this risk, how real is it, how tractable is it and where did the risk come from? Because in my lab’s research, we see nothing of the sort—we are actually seeing significant low competencies in LLMs that demonstrate just how dumb these tools are without the painstaking post-training that leverages thousands and thousands of working professionals earning $200/hr. or more to help OpenAI and Anthropic do their post-training.\n\nSo, this should be shown more than stated. It won’t be shown, because it isn’t true.\n\n“To realize AI's potential, industry, government, and society at large may need the option to buy time to address emerging risks, develop security measures, and strengthen oversight.”\n\nThe self-serving nature here is clear: because of the asserted and unproven danger of AI’s potential, society as a whole needs time to address the same risks we have been told are an existential risk to us all for several years now. Note too the “we live in a society” rhetoric, where the letter is claiming to speak for industry, government, and society by presenting them as their focus.\n\nBut just because someone claims to speak for society at large does not mean that someone claims to speak for society at large. And even if they do, it doesn’t matter. Just because someone is speaking for society at large does not mean they know what is best for society or their argument is valid. The temperance movement claimed to be working for all society when they made alcohol illegal in America in the early 20th century, and (no matter how you feel about alcohol) that is widely regarded as one of the biggest mistakes in the history of American domestic policy.\n\n“But each company—and country—is under intense competitive pressure not to unilaterally slow that acceleration. And today, the world lacks the technical and governance tools to deliberately pace frontier-wide progress.”\n\nThere is an implicit logical connection here between the fact of intense competitive pressure and the theoretical success of technical and governance tools to stop that competitive pressure. Technical and governance tools can INCREASE competitive pressure and they often do.\n\nHowever, let’s assume there are tools that can cause that competitive pressure to subside. Who feels this pressure? I don’t. Do you?\n\nI feel opportunity, new tools and toys and fronts for research. I see an opportunity to get academics in linguistics and literary studies REAL significant funding to work on text and make better text-producing tools to lower how much toil you and your children will endure to make a living.\n\nI don’t feel any pressure, because the benefits of this acceleration and its intense competitive pressure come to me, the consumer.\n\nWorkers in competitive industries are constantly pushed to work harder unless they are able to capture the regulatory environment and convince the government to use technical and governance tools to make their lives easier.\n\n“Building on work already underway to monitor frontier model releases: We request that the U.S. government support an international effort to develop the technical and governance tools needed to deliberately pace the frontier of automated AI development.”\n\nAnd there is the real ask: they want a handout from the government in the form of technical and governance tools to deliberately pace the frontier so that their lives and jobs are a little easier.\n\nNo. Compete in the market like the rest of us.\n\nIf you’re good, you’ll win. If not, well, at least you had fun and it’s all about the journey, not the destination.",
-"likeCount": 40,
-"retweetCount": 2,
-"url": "https://x.com/47fucb4r8c69323/status/2082324858831245548",
-"createdAt": "Wed Jul 29 04:38:28 +0000 2026"
+"userName": "Zest328117",
+"text": "🚨 BIG: India's #Sarvam AI Unveils Ambitious 1 Trillion+ Parameter Foundation Model & Claims AI Pricing 5.5× Lower Than Global Rivals 🇮🇳🧠\n\nSarvam AI has announced plans to develop India's first 1 #trillion-plus parameter frontier foundation model, built entirely from scratch in India. The announcement marks one of the country's most ambitious AI initiatives and aligns with the Government of India's vision of building sovereign AI capabilities under the IndiaAI Mission.\n\n🔹 Key Highlights:\n\n✅ 1 Trillion+ Parameters: Sarvam's next-generation model aims to operate at frontier scale, placing India among the select nations attempting to build trillion-parameter AI systems.\n\n✅ Built from Scratch: Unlike many AI models that are fine-tuned from existing open-source LLMs, Sarvam's model will be trained natively using its own architecture, training pipeline and datasets.\n\n✅ 5.5× Lower AI Pricing: Sarvam says its inference pricing is up to 5.5 times cheaper than comparable global AI offerings, making advanced AI significantly more affordable for Indian developers, startups, enterprises and government agencies. The company says its Sarvam 105B model is priced at roughly $0.80 per million blended tokens, compared with around $4.50 for GPT-5.4 Mini and $9 for Gemini 3.5 Flash.\n\n✅ Multimodal AI: The upcoming model will support text, speech, vision and advanced reasoning, enabling next-generation AI assistants and enterprise applications.\n\n🔹 New AI Products Announced\n\n• Sarvam Vision 2.0 – Advanced multimodal vision model for document understanding and image intelligence.\n• Sarvam Vision Edge – Enterprise-grade document AI platform for OCR, invoices, forms, PDFs and workflow automation.\n• Bulbul V4 – Enhanced multilingual text-to-speech model with more natural, human-like voices.\n• Upgraded speech recognition, conversational AI and AI agent capabilities for enterprise deployment.\n\n🔹 Potential Applications\n\n• Government digital services\n• Citizen AI assistants\n• Education & personalized tutoring\n• Healthcare decision support\n• Agriculture advisory\n• Banking & financial services\n• Legal and judicial research\n• Manufacturing & enterprise automation\n• Scientific research and software development\n\nBuilding a trillion-parameter foundation model will require massive AI infrastructure, including thousands of high-performance GPUs, high-speed networking, enormous multilingual datasets and advanced distributed training systems. While parameter count alone does not determine AI capability, successfully delivering such a model would represent a major technological milestone for India's #AI ecosystem.\n\nIf successful, #Sarvam AI could position India among the world's leading AI nations by developing indigenous frontier-scale AI models that reduce dependence on foreign platforms while accelerating innovation across government, industry and research.\n\n#SarvamAI #ArtificialIntelligence #AI #IndiaAI #SovereignAI #MakeInIndia #DeepTech #MachineLearning #LLM #GenerativeAI",
+"likeCount": 62,
+"retweetCount": 13,
+"url": "https://x.com/Zest328117/status/2082818857274573112",
+"createdAt": "Thu Jul 30 13:21:27 +0000 2026"
 },
 {
-"userName": "RishiUvaach",
-"text": "Claude does not need to be used for everything.\nIt can remain the home base, the platform handling most day-to-day work, while specialized tools take over the jobs they perform better.\n\nFor these 15 jobs, other tools often have the edge:\n\n🎨 𝗜𝗺𝗮𝗴𝗲 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 → 𝗖𝗵𝗮𝘁𝗚𝗣𝗧 𝗮𝗻𝗱 𝗡𝗮𝗻𝗼 𝗕𝗮𝗻𝗮𝗻𝗮\nCreate realistic visuals and artwork directly from prompts.\n🎬 𝗩𝗶𝗱𝗲𝗼 𝗴𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 → 𝗛𝗶𝗴𝗴𝘀𝗳𝗶𝗲𝗹𝗱\nTurn text instructions into polished video clips.\n🧑‍💼 𝗔𝘃𝗮𝘁𝗮𝗿 𝘃𝗶𝗱𝗲𝗼𝘀 → 𝗛𝗲𝘆𝗚𝗲𝗻\nCreate presenter-led videos from a written script.\n🖥️ 𝗦𝗰𝗿𝗲𝗲𝗻 𝗿𝗲𝗰𝗼𝗿𝗱𝗶𝗻𝗴 → 𝗧𝗲𝗹𝗹𝗮\nRecord the screen and camera together.\n🎙️ 𝗩𝗼𝗶𝗰𝗲𝗼𝘃𝗲𝗿𝘀 → 𝗘𝗹𝗲𝘃𝗲𝗻𝗟𝗮𝗯𝘀\nGenerate natural-sounding AI narration.\n🗣️ 𝗩𝗼𝗶𝗰𝗲 𝗱𝗶𝗰𝘁𝗮𝘁𝗶𝗼𝗻 → 𝗪𝗶𝘀𝗽𝗿 𝗙𝗹𝗼𝘄\nSpeak naturally and convert thoughts into text.\n📹 𝗩𝗶𝗱𝗲𝗼 𝗮𝗻𝗮𝗹𝘆𝘀𝗶𝘀 → 𝗚𝗲𝗺𝗶𝗻𝗶\nUnderstand, analyse and summarise video content.\n📝 𝗠𝗲𝗲𝘁𝗶𝗻𝗴 𝗻𝗼𝘁𝗲𝘀 → 𝗚𝗿𝗮𝗻𝗼𝗹𝗮\nCapture discussions and generate structured meeting notes.\n🌐 𝗟𝗶𝘃𝗲 𝘄𝗲𝗯 𝗮𝗻𝘀𝘄𝗲𝗿𝘀 → 𝗣𝗲𝗿𝗽𝗹𝗲𝘅𝗶𝘁𝘆\nFind current, source-backed information from the web.\n📚 𝗦𝗼𝘂𝗿𝗰𝗲-𝗯𝗮𝘀𝗲𝗱 𝗿𝗲𝘀𝗲𝗮𝗿𝗰𝗵 → 𝗡𝗼𝘁𝗲𝗯𝗼𝗼𝗸𝗟𝗠\nGenerate answers and insights from selected documents.\n🗂️ 𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁𝘀 𝗮𝗻𝗱 𝗸𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝗯𝗮𝘀𝗲 → 𝗡𝗼𝘁𝗶𝗼𝗻\nOrganise work, documentation and institutional knowledge.\n🔓 𝗢𝗽𝗲𝗻-𝘀𝗼𝘂𝗿𝗰𝗲 𝗺𝗼𝗱𝗲𝗹𝘀 → 𝗢𝗹𝗹𝗮𝗺𝗮 𝗮𝗻𝗱 𝗚𝗟𝗠\nRun capable models with greater control and lower costs.\n💻 𝗖𝗼𝗱𝗶𝗻𝗴 → 𝗖𝗼𝗱𝗲𝘅\nOpenAI’s specialised answer to Claude Code.\n⚙️ 𝗢𝗽𝗲𝗿𝗮𝘁𝗶𝗼𝗻𝘀 → 𝗛𝗲𝗿𝗺𝗲𝘀\nUse a WhatsApp-based agent to keep workflows and pipelines moving.\n🔁 𝗔𝘂𝘁𝗼𝗺𝗮𝘁𝗶𝗼𝗻 → 𝗭𝗮𝗽𝗶𝗲𝗿\nConnect applications and automate repetitive work between them.",
-"likeCount": 82,
-"retweetCount": 24,
-"url": "https://x.com/RishiUvaach/status/2082096237092766165",
-"createdAt": "Tue Jul 28 13:30:01 +0000 2026"
+"userName": "Argona0x",
+"text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
+"likeCount": 1155,
+"retweetCount": 95,
+"url": "https://x.com/Argona0x/status/2082193490956476521",
+"createdAt": "Tue Jul 28 19:56:28 +0000 2026"
 },
 {
-"userName": "suraj_sharma14",
-"text": "Gen AI vs AI Agents vs Agentic AI.\n\nMost builders confuse these.\nHere is the difference.\n\nGEN AI :-\nWhat it does: Generates content\nExamples: ChatGPT writing text, Midjourney creating images, GitHub Copilot suggesting code\nInput: Prompt\nOutput: Text, image, code\nLimitation: One request, one response. No memory. No action.\n\nAI AGENTS :- \nWhat it does: Perceives, decides, acts\nExamples: Auto-GPT researching a topic, a bot that books flights, a coding assistant that debugs and fixes\nInput: Goal\nOutput: Action + Result\nCapabilities: Tool use, memory, iteration, self-correction\nLimitation: Single agent. Limited scope.\n\nAGENTIC AI :- \nWhat it does: Orchestrates multiple agents to solve complex problems\nExamples: Research team (researcher + writer + fact-checker), software dev team (architect + coder + reviewer), business automation (sales + support + fulfillment)\nInput: Complex objective\nOutput: Coordinated workflow with multiple agents collaborating\nCapabilities: Multi-agent orchestration, consensus, delegation, conflict resolution\nLimitation: Complexity, coordination overhead, cost\n\nTHE EVOLUTION\nGen AI: \"Write me a blog post\"\nAI Agent: \"Research this topic and write a blog post with sources\"\nAgentic AI: \"Run my entire content operation: research, write, edit, fact-check, publish & promote\"\n\nWHAT TO BUILD IN 2026\n\nIf you are learning Gen AI:\nBuild structured outputs, RAG systems, prompt chains.\n\nIf you are learning AI Agents:\nBuild tool-using agents with memory, iteration limits, and error handling.\n\nIf you are learning Agentic AI:\nBuild multi-agent swarms with supervisor patterns, consensus logic & human approval gates.\n\nTHE TRUTH :-\nGen AI is a tool.\nAI Agents are workers.\nAgentic AI is an organization.\n\nMost builders stop at Gen AI.\n\nThe top 1% are building Agentic systems.\n\n(Bookmark & Repost)",
-"likeCount": 38,
-"retweetCount": 7,
-"url": "https://x.com/suraj_sharma14/status/2082096237394968687",
-"createdAt": "Tue Jul 28 13:30:01 +0000 2026"
+"userName": "I_AM_AYASHA",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @I_AM_AYASHA for more AI tools.",
+"likeCount": 31,
+"retweetCount": 19,
+"url": "https://x.com/I_AM_AYASHA/status/2082770669306294532",
+"createdAt": "Thu Jul 30 10:09:58 +0000 2026"
 },
 {
-"userName": "muhitonx",
-"text": "If you want an app that actually helps you fix your daily sleep habits, you really need to check out @sleepagotchi.\n\nMost health apps just show you boring charts, but Sleepagotchi turns your rest into a fun game.\n\n When you go to bed on time and hit your sleep goals, you get digital rewards every morning. \n\nYou can use your rewards to grow your cute Dino pet, collect hero cards, and fix up your virtual room.\n\nIt syncs with your Apple Watch, Oura, or WHOOP, so tracking is super easy. \n\nOn top of that, there is a smart AI coach inside the app to give you simple tips for better rest and daily health.\n\nIf you want to build a better sleep schedule and earn rewards while doing it, go give sleepagotchi a try!",
-"likeCount": 161,
-"retweetCount": 25,
-"url": "https://x.com/muhitonx/status/2082101977786503316",
-"createdAt": "Tue Jul 28 13:52:49 +0000 2026"
+"userName": "pinkcrispss",
+"text": "Apparently someone impersonating as Papergames official and sent a complaint towards a user on Douyin for creating content about Valko. And about an hour later or so the complaint was withdrawn. Complaint statement translation on last paragraph 👇🏻\n\nWith a little bit of research I did, apparently they do not require business information to file a complaint on behalf of a company BUT it does require real name verification, ID etc.\n\nSo I'm assuming, the person behind the complaint chickened out. People are also mentioning that the statement isn't consistent with how Papergames would write on their complaints, which is more formal & inclusive of legal terms.\n\nComplaint statement: Valko is the male lead of our company who was named and taken down by state media due to crossing the red line. This video continues to post content featuring this red-line male lead, infringing upon our company's rights. By publishing unauthorized character content related to Love and Deepspace through live-action performances, video edits, animations, images, text, etc., it severely impacts the image and reputation rights of our IP, causing a terrible negative influence. Our company demands the removal of the video.",
+"likeCount": 1553,
+"retweetCount": 398,
+"url": "https://x.com/pinkcrispss/status/2082882133753016398",
+"createdAt": "Thu Jul 30 17:32:53 +0000 2026"
+},
+{
+"userName": "insomnia_vip",
+"text": "A 20-YEAR-OLD GUY FROM USA CREATED AN AI COSPLAY MODEL AND 826 MEN PAID TO FOLLOW HER\n\nInvestment: $140 for AI video generation\nSubscription price: $11.99\nTotal revenue: $9,904\n\nThe idea wasn't to create another generic AI influencer. Instead, he built a recognizable cosplay character with a polished visual identity, combining anime-inspired fashion, energetic dance videos and a confident on-camera personality that immediately stood out in short-form feeds\n\nTo attract attention, he consistently uploaded short lip-sync and dance clips on TikTok, using eye-catching costumes and trending audio to maximize reach. As the audience grew, viewers were directed to Fanvue, where subscribers could access exclusive content and interact directly with the AI persona\n\nProject became profitable after just 38 days, while the original investment was earned back within the first two weeks, showing how a strong visual concept and consistent content can turn a small AI experiment into a subscription business",
+"likeCount": 59,
+"retweetCount": 1,
+"url": "https://x.com/insomnia_vip/status/2082819018323271860",
+"createdAt": "Thu Jul 30 13:22:05 +0000 2026"
 },
 {
 "userName": "ShamiWeb3",
 "text": "A single product photo can now become an entire luxury campaign.\n\nWith @fotor_com, one reference image transforms into premium product photography, cinematic commercials, and high-end marketing visuals that look like they came from a global fashion brand.\n\nFrom precision macro shots to luxury hero angles and cinematic camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe next era of product marketing isn't about taking better photos, it's about creating campaigns people can't stop watching.\n\nhttps://t.co/kdQimaaCbh",
-"likeCount": 182,
-"retweetCount": 4,
+"likeCount": 478,
+"retweetCount": 14,
 "url": "https://x.com/ShamiWeb3/status/2082627339901640930",
 "createdAt": "Thu Jul 30 00:40:25 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "The first autonomous agent cyberattack is an unprecedented event that deserves unprecedented transparency. Today we’re sharing everything we can: a full technical timeline, an interactive replay, and how we used an open model to defend ourselves, so defenders everywhere can learn from it and prepare for what’s next.\n\nhttps://t.co/uPxIpjW8Xn",
-"likeCount": 5243,
-"retweetCount": 1127,
-"url": "https://x.com/ClementDelangue/status/2082201245813514613",
-"createdAt": "Tue Jul 28 20:27:17 +0000 2026"
-},
-{
-"userName": "AbhiramBangaru",
-"text": "https://t.co/1j52XILa7T is now available for acquisition.\n\nA timeless, one word premium domain that's perfect for AI, Crypto, design, architecture, fashion, media, SaaS, consumer brands, and next generation startups.\n\nShort. Memorable. Instantly recognizable. https://t.co/bQnqQYznJr",
-"likeCount": 13,
-"retweetCount": 1,
-"url": "https://x.com/AbhiramBangaru/status/2082505688648163531",
-"createdAt": "Wed Jul 29 16:37:01 +0000 2026"
-},
-{
-"userName": "depthfirstlabs",
-"text": "Read about our investigation into the Ruby ecosystem which led to 105 vulnerabilities across 34 projects with 8.6B+ downloads and a GitLab RCE. https://t.co/7dtmk4txYS",
-"likeCount": 11,
-"retweetCount": 3,
-"url": "https://x.com/depthfirstlabs/status/2082160529074966680",
-"createdAt": "Tue Jul 28 17:45:29 +0000 2026"
+"text": "K3 already got in the top 5 most liked models of all time on Hugging Face, just 24 hours after being released! Ahead of Llama 3, Whisper and many other great models. Incredible! https://t.co/gAwIBLCxJt",
+"likeCount": 947,
+"retweetCount": 67,
+"url": "https://x.com/ClementDelangue/status/2082100165305835576",
+"createdAt": "Tue Jul 28 13:45:37 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @JensenHuang: For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power…",
-"likeCount": 172197,
-"retweetCount": 29691,
+"likeCount": 172415,
+"retweetCount": 29737,
 "url": "https://x.com/jeremyphoward/status/2080840602921611323",
 "createdAt": "Sat Jul 25 02:20:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @arena: In Frontend Code Arena, Kimi K3 (Max) by @Kimi_Moonshot is ranked #1 among open and #1 overall!\n\nIt’s the #1 open-weight model i…",
-"likeCount": 841,
-"retweetCount": 109,
-"url": "https://x.com/ClementDelangue/status/2081815159316660394",
-"createdAt": "Mon Jul 27 18:53:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @simonw: This is detailed, fascinating and answers all sorts of open questions\n\nI'd love to know more about the \"unsecured public code-e…",
-"likeCount": 510,
-"retweetCount": 40,
-"url": "https://x.com/ClementDelangue/status/2082211289254785536",
-"createdAt": "Tue Jul 28 21:07:11 +0000 2026"
+"text": "RT @BrianRoemmele: How OpenAI hacked HuggingFace.\n\nWhat we know.\n\nHugging Face proved that open platforms and open models can still win tho…",
+"likeCount": 151,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2082245283786752053",
+"createdAt": "Tue Jul 28 23:22:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @quxiaoyin: Hey sir.  We are not asking you to open source Anthropic. Just don’t lobby the government to shut down others who do. Jensen…",
-"likeCount": 5471,
-"retweetCount": 280,
-"url": "https://x.com/jeremyphoward/status/2081454084645847122",
-"createdAt": "Sun Jul 26 18:58:19 +0000 2026"
+"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
+"likeCount": 2724,
+"retweetCount": 87,
+"url": "https://x.com/jeremyphoward/status/2081279991032201645",
+"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
 },
 {
-"userName": "sagorika_s",
-"text": "Desperate times call for desperate measures. Requesting a mass look at this read. DM for discussions. https://t.co/m4BUtVnizC",
-"likeCount": 132,
-"retweetCount": 64,
-"url": "https://x.com/sagorika_s/status/2082092217657884741",
-"createdAt": "Tue Jul 28 13:14:02 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @AndrewCurran_: Mark Zuckerberg this morning in the WSJ. He also wrote: 'In most cases, like cybersecurity, the history of open-source s…",
+"likeCount": 555,
+"retweetCount": 51,
+"url": "https://x.com/ClementDelangue/status/2082171388756902358",
+"createdAt": "Tue Jul 28 18:28:38 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ZixuanLi_: “An open-weight frontier model helped contain the intrusion.”",
+"likeCount": 490,
+"retweetCount": 27,
+"url": "https://x.com/ClementDelangue/status/2081824195294486710",
+"createdAt": "Mon Jul 27 19:29:01 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
@@ -114,9 +106,17 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @badlogicgames: recommended reading",
-"likeCount": 126,
+"likeCount": 128,
 "retweetCount": 5,
 "url": "https://x.com/ClementDelangue/status/2082207753016078455",
 "createdAt": "Tue Jul 28 20:53:08 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/EOM8WmVpLx",
+"likeCount": 35,
+"retweetCount": 9,
+"url": "https://x.com/apob_ai/status/2082753186813874419",
+"createdAt": "Thu Jul 30 09:00:30 +0000 2026"
 }
 ]
