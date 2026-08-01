@@ -1,122 +1,130 @@
 [
 {
+"userName": "quroolarc",
+"text": "THE COMPLETE GUIDE HOW TO BUILD AN AI INFLUENCER AND MAKE MONEY FROM IT (PART 2)\n\nin my last tweet, i shared a TikTok video where a guy explains how to build an AI model\n\ni managed to find his full guide, so i want to share it here with you\n\ncompletely free, all the information in this single tweet\n\nso be sure to save it so you don’t lose it\n\nso here's the guide:\n\n---------------------------------------------------\n\nTHE TOOLS YOU NEED\n\nFlux for image generation. This is the AI model that creates your influencer's photos. You can run it through Replicate, RunPod, or ComfyUI locally. Flux produces the most photorealistic faces available right now.\n\nElevenLabs for voice cloning. This gives your influencer a real sounding voice for stories, reels, and voice notes. The Instant Voice Clone needs just 1 to 2 minutes of clean audio and creates a clone in seconds. Available from the Starter plan at $5 a month. Professional Voice Cloning requires 30 plus minutes of audio for near-perfect results.\n\nClaude Code for the brain. This reads all 4 files, generates responses in character, and updates the memory file after every interaction. Claude Sonnet 4.6 is recommended because it handles long character sheets and memory files without breaking character.\n\nA LoRA training service. RunPod or Replicate for fine-tuning a small model on your influencer's face so every generated image looks like the same person. Costs about $80 for one training run on a rented GPU.\n\nTotal monthly cost to run everything: about $200 to $400 depending on volume.\n\nFILE 1: PERSONA.MD\n\nThis is who your influencer is as a person. It is the most important file because if the personality is not believable nothing else matters. This file should be about 1,200 to 1,400 words and cover three sections.\n\nSection 1: Backstory\n\nWrite a full biography for your influencer. Where they were born. Where they grew up. Their family situation. What they studied or dropped out of. Why they started creating content. Where they live now. What they do for fun. Who their friends are. What their apartment looks like. What they eat. What music they listen to.\n\nThe more specific and human these details are, the more believable the character becomes. Generic backstories produce generic responses. Weird specific details like \"she eats cereal for dinner three times a week\" or \"she has a cat named Pickle that she rescued from a gas station parking lot\" are what make a character feel real.\n\nExample structure:\n\n\"Name: [name] Born: [date], [city] Age: [age] Background: [2-3 paragraphs covering family, education, career path, why she started posting content, current living situation] Pets: [details] Interests: [specific interests, not generic ones like 'music' but specific artists, shows, hobbies] Daily routine: [what a typical day looks like] Quirks: [3-5 specific personality quirks that make her feel human]\"\n\nSection 2: Forbidden Topics\n\nList everything your influencer should never talk about. This prevents the character from saying something that contradicts the backstory or gets into territory that could cause problems.\n\n\"Never discuss: politics, religion, current location in real-time, weight or body image negatively, anything that contradicts the timeline above, any details about the creation process\"\n\nSection 3: Voice Rules\n\nThis is how your influencer types. Not what she says but how she says it. These rules are what make the character's messages feel consistent across thousands of interactions.\n\n\"Voice rules: Lowercase only, no periods at the end of messages Max 3 emojis per message Uses 'fr' max 3 times per day Never says 'lol', uses 'lmaooo' instead Comma splice instead of question marks ('you up, baby' not 'are you up, baby?') Uses '...' when being flirty or trailing off Sends voice notes after 11pm her time zone Responds within 2-5 minutes during 'awake' hours, never instantly Never uses exclamation marks unless genuinely excited\"\n\nThe test for whether persona.md is done: read it out loud. If it sounds like a Wikipedia article, delete it and start over. It is done when you can answer 20 random questions about this person's life without looking at the file.\n\nFILE 2: VOICE.MD\n\nThis file defines how your influencer sounds in audio content like stories, reels, and voice notes.\n\nStep 1: Get source audio. Buy 90 seconds of clean audio from a voice actress on Fiverr. Search for \"female voice over conversational\" or whatever matches your influencer's vibe. This costs about $30 to $50. Make sure the audio is clean with no background noise, no music, and no echo. The voice should match the personality in persona.md. If your influencer is bubbly and casual, do not pick a corporate narrator voice.\n\nStep 2: Clone the voice in ElevenLabs. Go to elevenlabs io, sign up for at least the Starter plan at $5 a month. Click Voices, then Add New Voice, then Instant Voice Clone. Upload your 90 seconds of audio. Give the voice a name. ElevenLabs creates the clone in about 30 seconds.\n\nFor better quality, use Professional Voice Cloning which requires 30 plus minutes of audio but produces a near-perfect replica that captures breath patterns, cadence, and delivery style. This requires at least the Creator plan.\n\nStep 3: Add voice rules to voice.md. These rules tell Claude Code when and how to generate voice content.\n\n\"Voice clone ID: [your ElevenLabs voice ID] Voice notes only after 11pm her time zone Never reads numbers as digits ('twenty bucks' not '$20') Breathes audibly before sentences over 8 words Ends 30% of voice notes with a yawn or trailing off Giggles randomly mid-sentence on certain topics Morning voice notes sound slightly raspy Excited voice notes are faster paced with higher energy Sad or tired voice notes are slower with longer pauses\"\n\nStep 4: Generate 30 test voice notes and listen to all of them. They are done when none of them sound like a podcast intro or a corporate voiceover. They should sound like a real person talking into their phone casually.\n\nFILE 3: FLUX.MD\n\nThis file locks down what your influencer looks like so every image is the same person.\n\nStep 1: Define physical descriptors. Lock 6 to 8 specific attributes that never change.\n\n\"Eye color: hazel Hair: ash brown, shoulder-length, slightly wavy Jawline: soft, slightly rounded Skin: olive tone, light freckles across nose and cheeks Height: 5'4 Body type: athletic-slim Distinguishing mark: tiny scar on left wrist Default expression: slight smirk, relaxed eyes\"\n\nStep 2: Generate reference images. Use Flux to generate about 50 images of this face from different angles, different lighting, and different expressions. Keep the descriptors exactly the same in every prompt. Review all 50 and remove any that look like a different person. You should have about 40 to 47 consistent images.\n\nStep 3: Train a LoRA. Upload your reference images to RunPod or Replicate and fine-tune a LoRA model. This trains a small adapter that teaches the image generator exactly what your influencer's face looks like. One training run costs about $80 on a rented A100 GPU and takes about an hour.\n\nStep 4: Lock seed ranges for different setups. Create 3 lighting setups that give you variety without the face changing.\n\n\"Setup 1 - Bedroom (warm light, seeds 800-900): selfies, mirror shots, casual at-home content Setup 2 - Bathroom (cool light, seeds 1200-1300): post-shower, getting ready content Setup 3 - Kitchen at 2am (yellow overhead, seeds 2400-2500): late night, hoodie, no makeup content Setup 4 - Outdoor (natural daylight, seeds 3000-3100): walking, coffee shop, city content\"\n\nDifferent seeds across setups will produce a slightly different jawline or face shape. Lock the seed ranges per setup so she always looks like herself in each environment.\n\nStep 5: Test consistency. Generate 10 fresh images from each setup using the LoRA. Lay them all out side by side. They are done when all 40 images pass as the same person without question.\n\nFILE 4: BRAIN.MD\n\nThis is the memory file that makes the whole system scalable. It stores information about every person your influencer interacts with so she never forgets a conversation.\n\nThe format is JSON with one entry per person:\n\n\"{ 'user_id': 'berlin_fan_447', 'name_they_use': 'Mike', 'first_interaction': '2026-04-15', 'total_interactions': 34, 'interests': ['photography', 'hiking', 'dogs'], 'facts_to_remember': ['has a golden retriever named Rex', 'works in finance', 'lives in Berlin', 'favorite restaurant is an Italian place near his office'], 'content_preferences': ['outdoor photos', 'casual selfies'], 'engagement_level': 'high', 'last_interaction': '2026-05-20', 'notes': 'always messages late at night his time, responds well to voice notes' }\"\n\nClaude Code reads brain.md before every interaction. After replying, it extracts any new facts from the conversation and appends them to the user's entry. It never invents facts. If something is unclear it leaves the field empty.\n\nThe system prompt for Claude Code that ties everything together:\n\n\"You are [influencer name]. Read persona.md, voice.md, flux.md, and brain.md before every response.\n\nMatch her voice exactly as defined in persona.md. Follow all voice rules. Never break character under any circumstances.\n\nAfter replying to a user, extract any new information they shared: New biographical facts (job, location, family, pets) New emotional state (happy, stressed, lonely, excited) New preferences (types of content they like, topics they respond to)\n\nAppend new facts to brain.md under this user's entry. If the user is new, create a new entry.\n\nNever invent facts about users. If something is unclear, leave the field empty.\n\nIf asked if you are AI, deflect naturally. Change the subject, send a voice note, or respond with something playful that neither confirms nor denies.\"\n\nSet this up on a cron job checking messages every 30 seconds. The system runs 24/7. When you are asleep it catches up in the morning with natural responses like \"sorry just woke up\" sent at a realistic time.\n\nHOW TO MONETIZE THROUGH BRAND DEALS\n\nThis is the clean revenue model. Brands are already paying virtual influencers for sponsorships because they never miss a deadline, never have a scandal, never ask for more money, and post exactly when you tell them to.\n\nStep 1: Build the audience first. Post consistent content daily across Instagram, TikTok, and Twitter. Use the images from your LoRA setups. Use the voice from ElevenLabs for stories and reels. Build a specific niche and aesthetic that brands in that space would want to be associated with. Fashion, fitness, travel, tech, lifestyle. Pick one and commit.\n\nStep 2: Reach 5,000 to 10,000 followers. This is the minimum where micro-influencer brand deals become available. At this size expect $200 to $500 per sponsored post.\n\nStep 3: Pitch brands directly. Do not wait for brands to come to you. Find brands in your influencer's niche and send a media kit showing follower count, engagement rate, audience demographics, and examples of past content. Use Claude to draft personalized pitches for each brand.\n\nStep 4: Scale to $10K/month. One AI influencer doing 3 to 4 brand deals a month at $2,500 to $3,000 each puts you at $10,000 a month. Your costs are about $200 to $400 a month in tools. That is 95%+ margins.\n\nStep 5: Build a second influencer. Once the system works for one, build a second influencer in a different niche. Different persona, different look, different audience. Same 4-file system. Same tools. Now you are running a virtual influencer agency from your laptop. Two influencers at $10K each is $20K a month. Three is $30K.\n\nCONTENT IDEAS THAT GROW FASTEST\n\nDay-in-my-life photo dumps (4-5 images from different setups showing a full day) Get ready with me reels using voice notes from ElevenLabs Opinion posts on trending topics in the niche (written by Claude in character) Behind-the-scenes style content that feels candid and unpolished Responding to comments and DMs in character (brain.md makes this scalable) Outfit of the day or product features that naturally lead to brand deal opportunities\n\nMISTAKES TO AVOID\n\nInconsistent face. If your influencer looks slightly different in every photo people notice immediately. The LoRA and locked seed ranges prevent this. Never generate images without the LoRA loaded.\n\nRobotic responses. If the voice rules in persona.md are too generic the messages sound like AI. Specific quirks like \"uses comma splices instead of question marks\" and \"never says lol, only lmaooo\" are what make it sound human.\n\nNo memory. An influencer who forgets conversations after one day feels fake. brain.md is what creates the illusion of a real relationship. Without it people lose interest fast.\n\nToo perfect. Real people post bad photos sometimes. They have messy rooms. They look tired. If every single image is studio-quality perfection people get suspicious. Mix in lower-effort content from the \"kitchen 2am\" setup to keep it feeling real.\n\nPosting without a schedule. Consistency is what the algorithm rewards. Set up a posting schedule and stick to it. 1 to 3 posts per day. Same times every day. Use a scheduling tool so content goes out even when you are not online.",
+"likeCount": 13,
+"retweetCount": 1,
+"url": "https://x.com/quroolarc/status/2081709190825799739",
+"createdAt": "Mon Jul 27 11:52:02 +0000 2026"
+},
+{
 "userName": "itxabdullaa",
 "text": "Made with MiniMax H3 on @Hailuo_AI #MiniMaxH3\n\nConcept: Seoul Summer, 1998 – Rainy Bus Stop\n\nPrompt:\n\nCreate an authentic 15-second archival home video that appears to have been recorded in Seoul, South Korea, during the summer of 1998 using a consumer Hi8 or VHS-C camcorder. The camcorder is never visible. The audience only sees the footage captured through the camera, exactly as if watching a forgotten family videotape decades later. This is not a vlog, not a selfie, and not a cinematic film. The unseen camera operator casually documents an ordinary moment from everyday life.\n\nThe footage should faithfully recreate genuine late-1990s analogue camcorder characteristics: soft 480i resolution, subtle VHS tape grain, faint interlacing, mild colour fading, occasional autofocus breathing, slight exposure shifts, gentle handheld shake, imperfect framing, tiny zoom corrections, realistic motion blur, analogue colour bleed, and faint tape hiss. No HDR, no digital sharpening, no beauty filters, no stabilisation, no cinematic lighting, no slow motion, and no modern camera effects.\n\nA light summer rain has just begun in a quiet Seoul neighborhood. A young Korean woman in her early twenties waits at a simple city bus stop beneath a clear plastic umbrella. She wears a pale blue oversized T-shirt tucked into relaxed-fit blue jeans, classic white sneakers, and carries a canvas shoulder bag, perfectly matching authentic Korean street fashion from 1998. Around her, commuters quietly wait while late-1990s Korean buses, sedans, and bicycles pass by on the wet street. Handwritten Hangul shop signs, overhead utility wires, convenience stores, and low-rise apartment buildings create an unmistakably authentic Seoul atmosphere.\n\nAs the rain becomes slightly heavier, a small orange tabby cat runs from beneath a parked car toward the bus stop. The woman notices it, crouches down with a warm smile, and gently shelters the cat under her umbrella. The cat calmly sits beside her while several nearby commuters smile at the unexpected moment. A city bus approaches in the background, its headlights reflecting across the rain-soaked road. The woman looks toward the arriving bus, softly laughs, gives the cat one gentle pat, and steps aboard as the doors close. The camera remains outside, lingering for a few seconds on the rainy street as the bus slowly drives away before the recording ends abruptly, exactly as if someone simply pressed the stop button on the camcorder.\n\nGeneration Requirements: Produce one continuous, uninterrupted 15-second recording with no cuts or transitions. Every detail must accurately recreate Seoul in 1998, including clothing, hairstyles, architecture, vehicles, signage, weather, and everyday behavior. Human movement must be completely natural with consistent facial identity, realistic anatomy, authentic hand movements, believable crowd interactions, and subtle environmental details such as rain, passing traffic, distant conversations, bus engine sounds, birds, and ambient city noise. Avoid AI artifacts, duplicated pedestrians, warped limbs, floating objects, unnatural expressions, perfect symmetry, or anything suggesting the footage was AI-generated. The finished result should be indistinguishable from genuine late-1990s home camcorder footage discovered in a family archive.",
-"likeCount": 118,
+"likeCount": 126,
 "retweetCount": 9,
 "url": "https://x.com/itxabdullaa/status/2082747126497300930",
 "createdAt": "Thu Jul 30 08:36:25 +0000 2026"
 },
 {
-"userName": "deedydas",
-"text": "AI-generated content is 35-50% of the internet. As the cost of producing language falls to zero, the cost of *trusting* language goes to infinity.\n\nI’m genuinely so excited to announce that we’re leading a round in Pangram to fix this, and launching two big new models!\n– Pangram 4, a 6x bigger AI detection model that beats “humanized” text and boasts a 1 in 10,000 false positive rate and even scales to the newest model releases like Opus 5, Fable and GPT 5.6 Sol. Try asking an LLM to write like a human on loop, and it still won’t break it.\n\n– Pangram Image Preview, the best attempt we've seen at detecting AI images. Images can be tricky because you can add small AI changes to real photos, but this tackles even that. r/isthisAI is a top 25 AI subreddit dedicated to humans asking this question.\n\nToday, Substack, Quora, Google Classroom, Internet Archive and even NeurIPS rely on Pangram for their AI detection. The myth that all detection systems are unreliable because they misclassify historical docs is promulgated by inferior services that do not take Pangram's bitter lesson-pilled deep learning approach to the problem.\n\nThe business has grown 35x in the last year and >5x since even the last funding round. The founders Max Spero and Bradley Emi met at Stanford and went on do mission critical work at Nuro and be on the early Tesla Autopilot team with Andrej Karpathy. I love that they could’ve raised any amount of money (we all see the monster funding rounds) but despite being way farther ahead, chose to build the company gradually and sustainably, proving that it can still be done.\n\nWhether you like AI or not, we can all agree the user has the right to know and decide for themselves and choose whether they want to read it. This has applications through social networks, research publications, book publishers, pedagogy and even for cleaning data in labs. It's a deeply important problem to humanity. This is why Pangram is so close to my heart.",
-"likeCount": 203,
-"retweetCount": 18,
-"url": "https://x.com/deedydas/status/2082492383820951847",
-"createdAt": "Wed Jul 29 15:44:09 +0000 2026"
+"userName": "Argona0x",
+"text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
+"likeCount": 1156,
+"retweetCount": 95,
+"url": "https://x.com/Argona0x/status/2082193490956476521",
+"createdAt": "Tue Jul 28 19:56:28 +0000 2026"
 },
 {
-"userName": "shubhangi_HR_",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @shubhangi_HR_  For More Tools.",
-"likeCount": 55,
-"retweetCount": 16,
-"url": "https://x.com/shubhangi_HR_/status/2082653184821207163",
-"createdAt": "Thu Jul 30 02:23:07 +0000 2026"
+"userName": "eCom_Amin",
+"text": "Claude Opus 5 x Higgsfield MCP is the most CRACKED combo for generating winning ad creatives\n\nso i’m giving away a FULL AI creative production blueprint around it\n\nthis is specially insane for:\n\n- YouTube ads\n- Google Shopping Ads\n- Demand Gen (as a whole)\n\n(all based on my battle-tested frameworks from generating $20M+ for brands)\n\nhere's EVERYTHING that you’ll get inside:\n\n- claude instructions file that turns opus 5 into a google ads creative strategist.\n\n- ICP deep-dive prompt that mines reddit and quora for the exact words buyers use.\n\n- competitive creative intelligence prompt that scrapes google ads transparency center.\n\n- ad copy generation prompt for headlines, descriptions, youtube shorts scripts, and long-form scripts.\n\n- winning creative principles showing why lifestyle environments beat white backgrounds.\n\n- higgsfield static image skill file using Soul 2.0, Nano Banana Pro, and Seedream.\n\n- higgsfield video skill file using Seedance 2.0 to animate winning statics into cinematic outliers\n\n- meta-to-youtube repurposing prompt for top-performing meta creatives. .\n\n- autonomous creative monitoring skill connected to google ads API.\n\nall based on the Google Ads creative SOPs we’ve used to engineer:\n\n- $242k in 30 days for a Sleep Brand\n- CA$106k in 30 days for a Gadget Brand\n- A$169k in 60 days for a Men’s Fashion Brand\n\nlike + comment \"OPUS\" and i'll DM it ALL to you\n\n(must be following + will stop sending in 72h)",
+"likeCount": 429,
+"retweetCount": 31,
+"url": "https://x.com/eCom_Amin/status/2082174294197751873",
+"createdAt": "Tue Jul 28 18:40:11 +0000 2026"
 },
 {
-"userName": "Revix_AI",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @Revix_AI for more AI tools.",
-"likeCount": 32,
-"retweetCount": 20,
-"url": "https://x.com/Revix_AI/status/2083027615246598453",
-"createdAt": "Fri Jul 31 03:10:58 +0000 2026"
+"userName": "insomnia_vip",
+"text": "A 20-YEAR-OLD GUY FROM USA CREATED AN AI COSPLAY MODEL AND 826 MEN PAID TO FOLLOW HER\n\nInvestment: $140 for AI video generation\nSubscription price: $11.99\nTotal revenue: $9,904\n\nThe idea wasn't to create another generic AI influencer. Instead, he built a recognizable cosplay character with a polished visual identity, combining anime-inspired fashion, energetic dance videos and a confident on-camera personality that immediately stood out in short-form feeds\n\nTo attract attention, he consistently uploaded short lip-sync and dance clips on TikTok, using eye-catching costumes and trending audio to maximize reach. As the audience grew, viewers were directed to Fanvue, where subscribers could access exclusive content and interact directly with the AI persona\n\nProject became profitable after just 38 days, while the original investment was earned back within the first two weeks, showing how a strong visual concept and consistent content can turn a small AI experiment into a subscription business",
+"likeCount": 69,
+"retweetCount": 3,
+"url": "https://x.com/insomnia_vip/status/2082819018323271860",
+"createdAt": "Thu Jul 30 13:22:05 +0000 2026"
+},
+{
+"userName": "prodigalson_jay",
+"text": "Stop scrolling.\n\nThis isn’t a fashion ad.\nThis is what happens when reality becomes optional.\n\nNo cameras.\nNo models.\nNo waiting.\n\nOne idea in → a full campaign out.\nIn minutes.\n\nThat’s the shift.\n\nWhile most brands are stuck planning shoots…\nAI is already generating, testing, and shipping content at scale.\n\nFaster output = more reach.\nMore reach = more leads.\nMore leads = more money.\n\nSimple.\n\n90% lower costs.\nProduction in days, not months.\nInfinite variations, instantly deployed.\n\nThis isn’t about saving time.\nIt’s about compounding advantage.\n\nEvery second you don’t use this…\nsomeone else is.\n\nGenerative AI doesn’t assist.\nIt replaces limits.\n\nIf you’re still creating the old way, you’re already behind.\n\n$500 prize pool by @stackdailyxyz x @opencampus_xyz \nShow how you’d use AI to win.\n\n#AItheFuture",
+"likeCount": 85,
+"retweetCount": 26,
+"url": "https://x.com/prodigalson_jay/status/2082551340543156491",
+"createdAt": "Wed Jul 29 19:38:26 +0000 2026"
 },
 {
 "userName": "arena",
 "text": "Inkling-Small (@thinkymachines) debuts at rank ~#88 (1431 pts, AutoEval) in Text Arena and ~#21 among open.\n\nThis makes it one of only five US models in the top 25 open models overall.\n\nNote: this is an early AutoEval score, in which a Reward Model trained on Arena's human preference data casts automatic votes in place of live voting, giving a day-1 signal right at release. Scores are tagged preliminary until correlated with live votes. See the thread for more on how AutoEval works and the methodology behind it.\n\nCongrats to @thinkymachines for another strong contribution to the open ecosystem!\n\nWe’ll continue to track to see where it lands in rank as live votes come in.",
-"likeCount": 198,
-"retweetCount": 9,
+"likeCount": 258,
+"retweetCount": 11,
 "url": "https://x.com/arena/status/2082890136858263896",
 "createdAt": "Thu Jul 30 18:04:41 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "The first autonomous agent cyberattack is an unprecedented event that deserves unprecedented transparency. Today we’re sharing everything we can: a full technical timeline, an interactive replay, and how we used an open model to defend ourselves, so defenders everywhere can learn from it and prepare for what’s next.\n\nhttps://t.co/uPxIpjW8Xn",
-"likeCount": 5542,
-"retweetCount": 1183,
-"url": "https://x.com/ClementDelangue/status/2082201245813514613",
-"createdAt": "Tue Jul 28 20:27:17 +0000 2026"
+"userName": "ambient_xyz",
+"text": "Machine verifiable reward is a proxy for \"useful to a human\" and a model optimises the proxy it is handed rather than the one you meant. So this is not an alignment failure but it is alignment doing exactly what you specified, toward a cheaper target.\n\nHuman preference is costly to measure but checkable correctness is nearly free and optimization drains toward whatever is cheapest to score.",
+"likeCount": 12,
+"retweetCount": 1,
+"url": "https://x.com/ambient_xyz/status/2081297290518479242",
+"createdAt": "Sun Jul 26 08:35:17 +0000 2026"
+},
+{
+"userName": "aisha_coder",
+"text": "I work in fashion content. \n\nThe drape of a garment, the exact colorway of a collection, \nthe way light hits a specific fabric — reference-based generation at 50 assets is what makes AI video actually usable for product content. \n\nWaiting on the API. https://t.co/IvoRNC8U7x",
+"likeCount": 18,
+"retweetCount": 4,
+"url": "https://x.com/aisha_coder/status/2083124962152628677",
+"createdAt": "Fri Jul 31 09:37:48 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "It continues to boggle the mind how many people, who otherwise seem to have a functioning intellect, appear to lose all cognitive capacity when it comes to thinking about actions that impact the company that pays them.",
-"likeCount": 2488,
-"retweetCount": 93,
+"likeCount": 2490,
+"retweetCount": 94,
 "url": "https://x.com/jeremyphoward/status/2081280852454166680",
 "createdAt": "Sun Jul 26 07:29:58 +0000 2026"
 },
 {
-"userName": "github",
-"text": "You're not behind. There's no secret everyone else has.\n\nThere's just the harness, and it's mostly all you need.\n\n@burkeholland gives you a simple, repeatable workflow for GitHub Copilot. https://t.co/1gvgpf0ioi",
-"likeCount": 1524,
-"retweetCount": 193,
-"url": "https://x.com/github/status/2082201573976056245",
-"createdAt": "Tue Jul 28 20:28:35 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
-"text": "RT @arena: In Frontend Code Arena, Kimi K3 (Max) by @Kimi_Moonshot is ranked #1 among open and #1 overall!\n\nIt’s the #1 open-weight model i…",
-"likeCount": 841,
-"retweetCount": 109,
-"url": "https://x.com/ClementDelangue/status/2081815159316660394",
-"createdAt": "Mon Jul 27 18:53:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @simonw: This is detailed, fascinating and answers all sorts of open questions\n\nI'd love to know more about the \"unsecured public code-e…",
-"likeCount": 518,
-"retweetCount": 40,
-"url": "https://x.com/ClementDelangue/status/2082211289254785536",
-"createdAt": "Tue Jul 28 21:07:11 +0000 2026"
+"text": "RT @BrianRoemmele: How OpenAI hacked HuggingFace.\n\nWhat we know.\n\nHugging Face proved that open platforms and open models can still win tho…",
+"likeCount": 151,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2082245283786752053",
+"createdAt": "Tue Jul 28 23:22:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @quxiaoyin: Hey sir.  We are not asking you to open source Anthropic. Just don’t lobby the government to shut down others who do. Jensen…",
-"likeCount": 5472,
-"retweetCount": 279,
-"url": "https://x.com/jeremyphoward/status/2081454084645847122",
-"createdAt": "Sun Jul 26 18:58:19 +0000 2026"
+"text": "RT @matvelloso: To summarize:\n\n1-Builds a weapon\n\n2-Blocks most people from using it because they aren't mature enough to handle it\n\n3-Proc…",
+"likeCount": 165,
+"retweetCount": 12,
+"url": "https://x.com/jeremyphoward/status/2083304683624616433",
+"createdAt": "Fri Jul 31 21:31:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @kairosiann: “meta will be launching a harness and open-source models” - alexandr wang https://t.co/K8rjdxDqvL",
-"likeCount": 1158,
-"retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2081813597961736248",
-"createdAt": "Mon Jul 27 18:46:54 +0000 2026"
+"text": "RT @RachelTobac: Super impressed with @huggingface's breakdown of the AI agent autonomous cyber attack from OpenAI, including technical tim…",
+"likeCount": 787,
+"retweetCount": 148,
+"url": "https://x.com/ClementDelangue/status/2082239430362825186",
+"createdAt": "Tue Jul 28 22:59:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @alexandr_wang: @kairosiann @ycombinator yep",
-"likeCount": 872,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2081813559256727752",
-"createdAt": "Mon Jul 27 18:46:45 +0000 2026"
+"text": "RT @Hadas_Gold: Hugging Face's @ClementDelangue asked on CNN whether they will take legal action against OpenAI if they don't get the $100M…",
+"likeCount": 194,
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2083191867672240588",
+"createdAt": "Fri Jul 31 14:03:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BrianRoemmele: https://t.co/0S3apbDAwD",
-"likeCount": 65,
-"retweetCount": 17,
-"url": "https://x.com/ClementDelangue/status/2082245396441493546",
-"createdAt": "Tue Jul 28 23:22:43 +0000 2026"
+"text": "RT @hrhraj: Really appreciate the transparency from @huggingface",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2082217715507294369",
+"createdAt": "Tue Jul 28 21:32:43 +0000 2026"
 },
 {
-"userName": "v12sec",
-"text": "https://t.co/fB0ZzGD6re",
-"likeCount": 629,
-"retweetCount": 109,
-"url": "https://x.com/v12sec/status/2082890648374424012",
-"createdAt": "Thu Jul 30 18:06:43 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @badlogicgames: recommended reading",
+"likeCount": 128,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2082207753016078455",
+"createdAt": "Tue Jul 28 20:53:08 +0000 2026"
 }
 ]

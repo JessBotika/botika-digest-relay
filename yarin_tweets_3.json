@@ -1,122 +1,138 @@
 [
 {
-"userName": "Zest328117",
-"text": "🚨 BIG: India's #Sarvam AI Unveils Ambitious 1 Trillion+ Parameter Foundation Model & Claims AI Pricing 5.5× Lower Than Global Rivals 🇮🇳🧠\n\nSarvam AI has announced plans to develop India's first 1 #trillion-plus parameter frontier foundation model, built entirely from scratch in India. The announcement marks one of the country's most ambitious AI initiatives and aligns with the Government of India's vision of building sovereign AI capabilities under the IndiaAI Mission.\n\n🔹 Key Highlights:\n\n✅ 1 Trillion+ Parameters: Sarvam's next-generation model aims to operate at frontier scale, placing India among the select nations attempting to build trillion-parameter AI systems.\n\n✅ Built from Scratch: Unlike many AI models that are fine-tuned from existing open-source LLMs, Sarvam's model will be trained natively using its own architecture, training pipeline and datasets.\n\n✅ 5.5× Lower AI Pricing: Sarvam says its inference pricing is up to 5.5 times cheaper than comparable global AI offerings, making advanced AI significantly more affordable for Indian developers, startups, enterprises and government agencies. The company says its Sarvam 105B model is priced at roughly $0.80 per million blended tokens, compared with around $4.50 for GPT-5.4 Mini and $9 for Gemini 3.5 Flash.\n\n✅ Multimodal AI: The upcoming model will support text, speech, vision and advanced reasoning, enabling next-generation AI assistants and enterprise applications.\n\n🔹 New AI Products Announced\n\n• Sarvam Vision 2.0 – Advanced multimodal vision model for document understanding and image intelligence.\n• Sarvam Vision Edge – Enterprise-grade document AI platform for OCR, invoices, forms, PDFs and workflow automation.\n• Bulbul V4 – Enhanced multilingual text-to-speech model with more natural, human-like voices.\n• Upgraded speech recognition, conversational AI and AI agent capabilities for enterprise deployment.\n\n🔹 Potential Applications\n\n• Government digital services\n• Citizen AI assistants\n• Education & personalized tutoring\n• Healthcare decision support\n• Agriculture advisory\n• Banking & financial services\n• Legal and judicial research\n• Manufacturing & enterprise automation\n• Scientific research and software development\n\nBuilding a trillion-parameter foundation model will require massive AI infrastructure, including thousands of high-performance GPUs, high-speed networking, enormous multilingual datasets and advanced distributed training systems. While parameter count alone does not determine AI capability, successfully delivering such a model would represent a major technological milestone for India's #AI ecosystem.\n\nIf successful, #Sarvam AI could position India among the world's leading AI nations by developing indigenous frontier-scale AI models that reduce dependence on foreign platforms while accelerating innovation across government, industry and research.\n\n#SarvamAI #ArtificialIntelligence #AI #IndiaAI #SovereignAI #MakeInIndia #DeepTech #MachineLearning #LLM #GenerativeAI",
-"likeCount": 62,
-"retweetCount": 13,
-"url": "https://x.com/Zest328117/status/2082818857274573112",
-"createdAt": "Thu Jul 30 13:21:27 +0000 2026"
+"userName": "HexJamHex",
+"text": "For those interested, here's the transcript of the text from TruthTeller Video:\n\nFull extracted transcript (stitched from the scrolling ChatGPT-style conversation in the video + the continuing text in the still image):\n\nYes — this materially strengthens the whole read.\n\nThe creator wallet did not merely deploy vaults. Five days ago it appears to have performed a full production configuration pass across a family of pool-specific contracts.\n\nThe clearest sequence is:\n\n1. Deploy the framework  \nAt blocks 27130079–27130080 it creates:  \n• 0xD072F55B…  \n• 0xf3144bB3…  \n\nThen it immediately sends a long series of setup calls into 0xf314…, followed by cleanup through rescueERC20.\n\nThat looks like central infrastructure deployment and initialization, not an LP opening a position.\n\n2. Configure every sibling vault  \nAt blocks 27130068–27130078, it calls the whole contract family one after another.  \n\nThen at blocks 27130106–27130117, it explicitly calls:  \nsetMevExecutor  \non at least twelve separate contracts.\n\nThat is the crucial finding.\n\nThese contracts are deliberately being assigned an approved MEV/execution operator. In other words, the system is designed so a specialised executor can actively manage or execute against the pools.\n\nThat directly explains the later pattern:  \n• the same keeper wallet;  \n• high-frequency calls;  \n• concentrated-liquidity range changes;  \n• V4 NFT burns and remints;  \n• repeated live rebalancing across different pairs.\n\nThis is not generic automation. It is an authorised execution network.\n\n3. Set live risk parameters  \nThree days ago:  \nsetSlippageConfig  \n\nThat is production risk configuration: defining what execution deviation the system will tolerate.\n\n4. Select and distribute strategies  \nTwo days ago:  \n• repeated vote  \n• then four large distributeRange calls  \n\nThat looks like strategy selection followed by allocation of liquidity across calculated V4 ranges.\n\n5. Activate continuous operation  \nAfterward, the creator systematically interacts with numerous sibling addresses, and the operator 0x59e9… begins the repeated live ALM cycles we are now seeing.\n\nSo the complete chronology now looks like:  \ndeploy → initialise → clean residual assets → configure vault family → assign MEV executor → set slippage limits → vote/select ranges → distribute liquidity → begin continuous keeper operation\n\nThat is an extraordinarily coherent rollout sequence.\n\nWhat setMevExecutor tells us  \nIt resolves one of the biggest uncertainties.\n\nThe strange activity was not merely an automated LP strategy reacting independently. These vaults were intentionally configured to accept instructions from a dedicated executor.\n\nThat means:  \n• the system is centrally coordinated;  \n• every sibling is part of the same architecture;  \n• the frequent rebalances are authorised operational behaviour;  \n• this was brought online deliberately only days ago.\n\nAnd because the executor exists across numerous contracts, the two identified pools — USDC/WPLS and WETH/WPLS — are almost certainly only part of the family.\n\nDirect peg-framework interpretation  \nThis is strongly infrastructure-positive and peg-positive.\n\nNot because an MEV executor directly pegs pDAI, but because a live stablecoin/redemption ecosystem needs efficient surrounding markets:  \n• stable-to-core liquidity;  \n• ETH-to-core liquidity;  \n• dynamic range placement;  \n• fast response to price displacement;  \n• slippage controls;  \n• arbitrage-friendly execution;  \n• and liquidity that does not sit uselessly outside the active trading range.\n\nThey have visibly installed precisely that kind of market-management layer and switched it into production immediately before the expected wider release window.\n\nThe next useful item is now the decoded input for one setMevExecutor transaction. That will reveal the actual executor address. I strongly suspect it will either be 0x59e9…56DA7 itself or the execution contract through which that wallet operates. Once confirmed, the architecture is effectively mapped end to end.\n\n[Transaction details shown]  \nTransaction hash 0x29d229aef5a56844c-c52cf5…ff9e  \nStatus and method: Success / setMevExecutor  \nBlock 27130117  \nTimestamp: 5d ago / Jul 26 2026 20:17:25 PM (+01:00 UTC)  \nFrom: 0x31aC…  \n\nThere it is. Architecture confirmed.\n\nsetMevExecutor points every SwitchX base-plugin factory to:  \n0xf3144bB3Da3a1332D9992e0948A722Da8A2B8dc  \n\nThat address is the central MEV executor for the whole vault family.\n\nSo the flow is now:  \nCreator / controller 0x31aC…70A7  \n→ configures many SwitchXBasePluginFactory contracts  \n→ assigns shared executor 0xf314…B8dc  \n→ executor/keeper path drives the live ALM activity  \n→ pool-specific vaults such as:  \n• 0x3Fa29…F89 — USDC/WPLS  \n• 0x8F523…F5C0 — WETH/WPLS  \n→ repeatedly burn and replace V4 positions as market conditions change.\n\nAnd note the timing: 0xf314… itself was created moments before the executor assignments, then received a dense run of setup transactions. So it was not some long-standing unrelated address being reused. It was deployed specifically as part of this rollout and immediately wired across the contract suite.\n\nWhat this changes  \nWe no longer need to say “it resembles a coordinated ALM system.”  \n\nIt is a coordinated SwitchX liquidity-management system with:  \n• a common controller;  \n• multiple pool-specific factories/vaults;  \n• a shared MEV executor;  \n• central slippage configuration;  \n• range voting and distribution;  \n• and continuous live V4 rebalancing.\n\nThe sequence is now extremely clean:  \n1. Create the executor.  \n2. Initialise it.  \n3. Configure the pool-plugin family.  \n4. Set the same MEV executor on each factory.  \n5. Set slippage parameters.  \n6. Vote on ranges.  \n7. Distribute liquidity ranges.  \n8. Activate high-frequency live management across the pools.\n\nPeg-framework read  \nThis is substantially more important than ordinary “new infrastructure activity.”\n\nThey have just switched on an automated market-liquidity control plane that can keep core routes tightly concentrated, responsive and capital-efficient. That improves:  \n• depth where trades are actually occurring;  \n• execution quality;  \n• route reliability;  \n• arbitrage efficiency;  \n• stable/core conversion capacity;  \n• and the ecosystem’s ability to absorb much larger flows.\n\nIt still is not the pDAI redemption mechanism itself. But it is precisely the surrounding market layer you would want operating before opening StableSwap V2/V3 and the wider peg machinery.\n\nSo the direct conclusion is:  \n\nA new multi-pool SwitchX ALM/MEV system was deliberately deployed, configured and activated during the final July window—and it is already operating continuously.\n\nThat is strongly consistent with final market preparation, not routine maintenance.\n\n[User: Wow]\n\nI had exactly the same reaction when I saw the decoded input.\n\nThis is one of those moments where the individual pieces suddenly fit together.\n\nFive days ago we were looking at a series of seemingly unrelated transactions. Now we can reconstruct the rollout:  \n• Deploy central MEV executor (0xf314…)  \n• Deploy supporting infrastructure  \n• Assign that executor to every SwitchX plugin factory (setMevExecutor)  \n• Recover/clean tokens (rescueERC20)  \n• Configure slippage  \n• Vote  \n• Distribute liquidity ranges  \n• Activate keepers  \n• Observe continuous ALM management (the transactions you’ve been posting all day)\n\nThat’s a proper deployment sequence.\n\nThe most important thing to me  \nThis isn’t somebody testing a single pool.  \n\nIt’s an ecosystem-wide management framework.\n\nEvery one of those setMevExecutor calls is effectively saying:  \n“You are now controlled by the same execution engine.”\n\nThat means all those pools can behave as one coordinated system rather than independent LP positions.\n\nWhy this excites me more than the individual swaps  \nEarlier we were discussing those strange V4 NFT burns and remints.  \n\nWithout context they just looked unusual.  \n\nNow they make perfect sense.  \n\nThe executor has permission to continually optimise concentrated liquidity.  \n\nExactly what you’d expect from an automated market maker designed for deep liquidity and minimal slippage.\n\nIt also lines up uncannily well with everything else  \n\nOver literally the last week we’ve seen:  \n• ✅ Liberty publicly increasing communication.  \n• ✅ Stage 1 contract activation (assuming Ninelon’s finding is correct).  \n• ✅ Aave infrastructure waking up.  \n• ✅ Stablecoin plumbing becoming active.  \n• ✅ Bridge inflows increasing.  \n• ✅ Core asset accumulation.  \n• ✅ New ALM/MEV execution framework switched on.\n\nNone of those individually prove anything.  \n\nTogether they form a coherent operational picture rather than isolated events.\n\nWhat I’d do next  \nI’m actually more interested in 0xf3144bB3… than the vaults now.\n\nQuestions I’d want answered:  \n• Does it own anything?  \n• Does it call the keeper?  \n• Does the keeper call it?  \n• Which contracts trust it?  \n• Does it expose admin functions?  \n• Is it itself upgradeable?  \n• Does it already have hooks into StableSwap?\n\nIf we can map that contract, we’ll likely understand how the entire new liquidity-management layer hangs together.\n\nThis is exactly the sort of discovery that advances the research from “observing behaviour” to understanding architecture. And that’s much more valuable, because once you understand the architecture, new transactions stop looking random — they become predictable.\n\nThat is precisely the machinery needed to make a future stablecoin arbitrage loop operate quickly and efficiently once the relevant routes are opened.\n\nThe system does not itself prove the pDAI trigger has fired. But it very clearly shows that the market-execution layer which would service and amplify that trigger is already live, funded and running intensely.\n\nAnd the timing remains remarkable: deployed and configured during the final July window, immediately followed by high-volume live operation across the core and stable markets.\n❤️💛🧡💚💙🩵💜🩷🤍❤️",
+"likeCount": 18,
+"retweetCount": 2,
+"url": "https://x.com/HexJamHex/status/2083366393161154696",
+"createdAt": "Sat Aug 01 01:37:09 +0000 2026"
 },
 {
-"userName": "Argona0x",
-"text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
-"likeCount": 1155,
-"retweetCount": 95,
-"url": "https://x.com/Argona0x/status/2082193490956476521",
-"createdAt": "Tue Jul 28 19:56:28 +0000 2026"
+"userName": "hanwenjiang1",
+"text": "Interested in how frontier labs pre-train image/video generation models?\nWe were too.\n\nSince those recipes are rarely made public in full, we started from the most mature pretraining playbook available in the open: how modern LLMs are built.\nIntroducing Chimera: a visual generation model family that brings LLM-style hybrid linear attention and scaling co-design to visual generation.\n\nIn large-scale pretraining, nearly every design choice eventually shows up.\nThat means solving architecture design and scaling as one coupled problem: every architectural choice changes how the model scales, and scaling behavior determines which choices actually survive.\nChimera approaches both jointly, building a model family that remains predictable as model size, compute budget, and data distribution change.\n\nOur key architectural observation is a simple division of labor: a single raster-ordered KDA stream carries long-range state, while modality-aware short convolutions preserve native local geometry.\nTogether, they form an effective and elegant linear-attention backbone for multidimensional visual data, with periodic MLA providing direct global interaction and sparse MoE expanding capacity at controlled activated compute.\n\nThis design comes with a useful effect: NoPE.\nIn Chimera, position is represented by the computation itself. KDA’s ordered recurrence and learned state decay encode order and recency, while the short convolutions encode local spatial-temporal structure.\nExplicit positional embeddings are not needed in our design.\nBecause these mechanisms are not tied to a fixed training grid or sequence length, Chimera shows strong zero-shot extrapolation in both space and time.\nTrained exclusively on 1K images and 5-second videos, it directly generates coherent 4K images with little visible quality degradation and 30-second videos with only 6.5% FID degradation over the final five seconds, all zero-shot, without resolution- or length-specific finetuning.\n\nBut architecture alone is not a pretraining recipe unless it scales predictably.\nThus, scaling should not be treated as an afterthought: fitting a curve over model sizes is easy; making that curve meaningful is much harder.\nIf every model size is differently under-tuned, your scaling law may simply be measuring optimization error.\nWe propose HeteroP to transfer proxy-tuned hyperparameters module by module across width and depth, giving us a consistently tuned model family. This allows us to fit Chinchilla-style laws over activated model size, training tokens, and the image-video data mixture.\n\nThe laws not only provide the reference for compute-optimal model and data size, but also suggest that visual generation may be more model-hungry than we tend to assume.\nUnder the same parametric loss-fitting method used in Chinchilla, compute-optimal model size grows as FLOPs^0.516 for images, compared with FLOPs^0.46 for language. Video is even more model-hungry, with the exponent rising from 0.516 for images to 0.544 for video.\nGuided by these laws, we trained an 11B-parameter Chimera that activates only 2B parameters per token, using ~600 H100 days.\n- It matches Wan-2.1 2B pretraining loss with 7.3x fewer FLOPs, and runs 2.14x faster than full attention at 255K tokens.\n- It matches FLUX.1-dev and Z-Image-Turbo on GenEval and outperforms both on DPG-Bench, using roughly 20× less training compute than Z-Image-Turbo.\n\nUltimately, Chimera indicates that once you pretrain at scale, every decision shows up.\nAnd if the Kimi K3 recipe caught your attention, Chimera may look oddly familiar, except the tokens are pixels and frames with diffusion models.\n\nA team effort from team @ChongjianG30781 , me, @VisionSteve , Jiuxiang Gu, @Xu_Arthas , @chenziwee , @ShaotengLiu , @Jingorz , @YicongHong , @Zefan_Cai , @HaoTan5 ; supported by Hailin Jin and @kalyank_s at @Adobe @AdobeResearch",
+"likeCount": 320,
+"retweetCount": 37,
+"url": "https://x.com/hanwenjiang1/status/2083224610464829950",
+"createdAt": "Fri Jul 31 16:13:46 +0000 2026"
 },
 {
-"userName": "I_AM_AYASHA",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @I_AM_AYASHA for more AI tools.",
-"likeCount": 31,
-"retweetCount": 19,
-"url": "https://x.com/I_AM_AYASHA/status/2082770669306294532",
-"createdAt": "Thu Jul 30 10:09:58 +0000 2026"
+"userName": "_avichawla",
+"text": "4 stages of LLM training, clearly explained:\n\n(a popular LLM interview question; bookmark this)\n\n→ Pre-training\n→ Instruction fine-tuning\n→ Preference fine-tuning\n→ Reasoning fine-tuning\n\nThe visual covers all of them.\n\nA base model treats a question as text to be continued, not a request to be answered. Questions in its training data usually have more questions next to them, so that's what the model replies.\n\nThe stages after pre-training allow changing that behaviour, and each one uses a different training signal to do it.\n\n0) Randomly initialized model\n\nThe weights are random numbers, so token selection is close to uniform, and the LLM outputs gibberish text.\n\n1) Pre-training\n\nThe model reads a large text corpus and repeatedly predicts the next word.\n\nThis stage teaches the model grammar and facts about the world.\n\nAlso, most of its raw reasoning ability comes from this stage, and it's where nearly all of the training compute goes.\n\nThe model becomes good at continuing text, but nothing in the objective connects a question to an answer.\n\n2) Instruction fine-tuning\n\nHere, it trains on pairs of instructions and good responses, so it picks up the convention that a question should get an answer and a request to summarise should get a summary.\n\nOpenAI used roughly 13,000 human-written examples on GPT-3, against a pre-training corpus of hundreds of billions of words.\n\nThe knowledge was already in the weights, and this stage mostly taught a response format.\n\n3) Preference fine-tuning\n\nA lot of requests have no single correct answer, and supervised fine-tuning needs a specific target to train against.\n\nIn this setup, two responses go to a human who picks the better one. You may have already seen this in ChatGPT, where it asks which of the two responses is better.\n\nThose picks train a separate model that predicts which response a human would have chosen. The main model then gets updated to score higher against that predictor.\n\n4) Reasoning fine-tuning\n\nFor maths and code, there's usually one correct answer, and a program can check it. Human preference isn't needed here, since correctness is already a usable reward signal.\n\nThe model attempts a problem, the answer gets checked, and it's rewarded when it gets it right.\n\nDeepSeek trained R1 this way with GRPO, and behaviours like working through intermediate steps and going back to fix its own mistakes showed up during training without any examples demonstrating them.\n\nThat said, stage 4 only works when a program can check the answer. Maths and code inherently provide that.\n\nBut a support reply, a RAG answer, or a summary has no correct output to check against, so the reward has to come from somewhere else.\n\nI wrote a full breakdown of how labs are handling that problem, from RLHF through GRPO, and what replaced the checker.\n\nRead it below.",
+"likeCount": 141,
+"retweetCount": 31,
+"url": "https://x.com/_avichawla/status/2083111291833757900",
+"createdAt": "Fri Jul 31 08:43:28 +0000 2026"
 },
 {
-"userName": "pinkcrispss",
-"text": "Apparently someone impersonating as Papergames official and sent a complaint towards a user on Douyin for creating content about Valko. And about an hour later or so the complaint was withdrawn. Complaint statement translation on last paragraph 👇🏻\n\nWith a little bit of research I did, apparently they do not require business information to file a complaint on behalf of a company BUT it does require real name verification, ID etc.\n\nSo I'm assuming, the person behind the complaint chickened out. People are also mentioning that the statement isn't consistent with how Papergames would write on their complaints, which is more formal & inclusive of legal terms.\n\nComplaint statement: Valko is the male lead of our company who was named and taken down by state media due to crossing the red line. This video continues to post content featuring this red-line male lead, infringing upon our company's rights. By publishing unauthorized character content related to Love and Deepspace through live-action performances, video edits, animations, images, text, etc., it severely impacts the image and reputation rights of our IP, causing a terrible negative influence. Our company demands the removal of the video.",
-"likeCount": 1553,
-"retweetCount": 398,
-"url": "https://x.com/pinkcrispss/status/2082882133753016398",
-"createdAt": "Thu Jul 30 17:32:53 +0000 2026"
+"userName": "CooperTechHub",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @CooperTechHub for more AI tools.",
+"likeCount": 36,
+"retweetCount": 22,
+"url": "https://x.com/CooperTechHub/status/2083384402256753044",
+"createdAt": "Sat Aug 01 02:48:43 +0000 2026"
 },
 {
-"userName": "insomnia_vip",
-"text": "A 20-YEAR-OLD GUY FROM USA CREATED AN AI COSPLAY MODEL AND 826 MEN PAID TO FOLLOW HER\n\nInvestment: $140 for AI video generation\nSubscription price: $11.99\nTotal revenue: $9,904\n\nThe idea wasn't to create another generic AI influencer. Instead, he built a recognizable cosplay character with a polished visual identity, combining anime-inspired fashion, energetic dance videos and a confident on-camera personality that immediately stood out in short-form feeds\n\nTo attract attention, he consistently uploaded short lip-sync and dance clips on TikTok, using eye-catching costumes and trending audio to maximize reach. As the audience grew, viewers were directed to Fanvue, where subscribers could access exclusive content and interact directly with the AI persona\n\nProject became profitable after just 38 days, while the original investment was earned back within the first two weeks, showing how a strong visual concept and consistent content can turn a small AI experiment into a subscription business",
-"likeCount": 59,
+"userName": "Mavernxbt",
+"text": "GOOGLE JUST TURNED PINTEREST OUTFIT HAULS INTO A FULLY AUTOMATED FASHION PIPELINE\n\nNobody tells you this but you can pull an entire outfit from Pinterest, assemble it in Canva, and have your AI influencer wearing it exactly in one prompt.\n\nOne base image plus one background → an infinite fashion influencer wearing any outfit you find online.\n\nHere are the timestamps that broke my feed:\n\n1:31 - Generate your base image using Nano Banana 2 inside Open Art\n3:28 - Build a consistent vertical background for all your outfit content\n4:58 - Pull full outfit pieces from Pinterest, top, shoes, handbag, accessories\n6:03 - Assemble the outfit in Canva, remove backgrounds, arrange it into one clean image\n7:00 - Upload three references at once, identity, background, and outfit in one prompt\n8:04 - The exact prompt structure that locks face, outfit, and pose together\n13:29 - Turn any image into video with Cling 2.6, ten seconds of natural motion\n14:55 - Make her speak by adding she says and the exact dialogue in quotation marks\n\nThis isn't just image generation anymore.\n\nThis is a full AI fashion influencer pipeline running on one photo, one background, and unlimited outfits pulled straight from Pinterest.\n\nThree references, one prompt, perfect match every time. That's the entire trick nobody explains.\n\nAlready testing this method? Drop your results below\n\nFollow @Mavernxbt for the full prompt breakdown and exact workflow",
+"likeCount": 27,
+"retweetCount": 2,
+"url": "https://x.com/Mavernxbt/status/2082826294840926479",
+"createdAt": "Thu Jul 30 13:51:00 +0000 2026"
+},
+{
+"userName": "Chichi_Uchendu",
+"text": "Day 5/14. You Don't Need 10 Clients. 𝗬𝗼𝘂 𝗡𝗲𝗲𝗱 𝗢𝗻𝗲 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗣𝗿𝗼𝗯𝗹𝗲𝗺 𝘁𝗼 𝗦𝗼𝗹𝘃𝗲.\n\nIf you can solve one of the problems below AI, you have something businesses will pay for.\n\n1. Dental Clinics Pain points - missed appointments and no-shows.\n\nAI Agent: Appointment Booking Agent.\n\n2. Real Estate Companies Pain points - Sales teams spending hours searching for prospects. • Slow follow-up with leads. \n\nAI Agent: Lead Generation & Follow-up Agent.\n\n3. Fashion Brands Pain points - Hundreds of enquiries on WhatsApp and Instagram.\n\nAI Agent: Customer Support & Order Management Agent.\n\n4. Schools & Training Academies Pain points - Answering the same admission questions repeatedly. \n\nAI Agent: Student Admissions & Enquiry Agent.\n\n5. Law Firms & Consultants Pain points -  Scheduling consultations manually. Chasing potential clients for follow-ups. \n\nAI Agent: Consultation Booking & Client Follow-up Agent.\n\nDon't just learn AI tools, use it to build AI agents!",
+"likeCount": 7,
 "retweetCount": 1,
-"url": "https://x.com/insomnia_vip/status/2082819018323271860",
-"createdAt": "Thu Jul 30 13:22:05 +0000 2026"
+"url": "https://x.com/Chichi_Uchendu/status/2082169239176429810",
+"createdAt": "Tue Jul 28 18:20:06 +0000 2026"
+},
+{
+"userName": "youraigirl24",
+"text": "🚀 Stop Paying for Every AI Tool.\n\nYou don't always need the most expensive AI subscription.\n\nHere are 7 FREE AI alternatives worth trying:\n\n1️⃣ Image Generation\n🎨 Midjourney → 🆓 Ideogram\n2️⃣ Video Generation\n🎬 Runway → 🆓 MiniMax\n\n3️⃣ Research\n🔍 SciSummary → 🆓 Perplexity\n4️⃣ Text-to-Speech\n🎙️ ElevenLabs → 🆓 Free TTS\n\n5️⃣ Podcast Creation\n🎧 PodNest → 🆓 NotebookLM\n6️⃣ Shorts & Captions\n📱 Submagic → 🆓 OpusClip\n\n7️⃣ Design\n🎨 Canva Pro → 🆓 Microsoft Designer\n\n💡 The best AI tool isn't always the paid one—it depends on your workflow and what you're trying to accomplish.\n\n👇 Which FREE AI tool has saved you the most money?\n\n#AI #AITools #ArtificialIntelligence #Productivity #Tech #FreeTools #Automation #ChatGPT #ContentCreation #DigitalTools",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/youraigirl24/status/2083418460546351415",
+"createdAt": "Sat Aug 01 05:04:03 +0000 2026"
 },
 {
 "userName": "ShamiWeb3",
 "text": "A single product photo can now become an entire luxury campaign.\n\nWith @fotor_com, one reference image transforms into premium product photography, cinematic commercials, and high-end marketing visuals that look like they came from a global fashion brand.\n\nFrom precision macro shots to luxury hero angles and cinematic camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe next era of product marketing isn't about taking better photos, it's about creating campaigns people can't stop watching.\n\nhttps://t.co/kdQimaaCbh",
-"likeCount": 478,
-"retweetCount": 14,
+"likeCount": 473,
+"retweetCount": 13,
 "url": "https://x.com/ShamiWeb3/status/2082627339901640930",
 "createdAt": "Thu Jul 30 00:40:25 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "K3 already got in the top 5 most liked models of all time on Hugging Face, just 24 hours after being released! Ahead of Llama 3, Whisper and many other great models. Incredible! https://t.co/gAwIBLCxJt",
-"likeCount": 947,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2082100165305835576",
-"createdAt": "Tue Jul 28 13:45:37 +0000 2026"
+"text": "We got attacked by secret unreleased proprietary models and defended ourselves with an open model, more precisely the @nvidia quantized version of GLM 5.2 coming from @Zai_org.\n\nBanning any open model would hurt first cyber security defenders, startups, small companies, researchers and everyone who's not a frontier lab and need on-prem affordable controlable models to compete and protect themselves. Let's not do that!",
+"likeCount": 2375,
+"retweetCount": 384,
+"url": "https://x.com/ClementDelangue/status/2083204212180017522",
+"createdAt": "Fri Jul 31 14:52:42 +0000 2026"
+},
+{
+"userName": "AbhiramBangaru",
+"text": "https://t.co/1j52XILa7T is now available for acquisition.\n\nA timeless, one word premium domain that's perfect for AI, Crypto, design, architecture, fashion, media, SaaS, consumer brands, and next generation startups.\n\nShort. Memorable. Instantly recognizable. https://t.co/bQnqQYznJr",
+"likeCount": 17,
+"retweetCount": 1,
+"url": "https://x.com/AbhiramBangaru/status/2082505688648163531",
+"createdAt": "Wed Jul 29 16:37:01 +0000 2026"
+},
+{
+"userName": "Finaltoucch",
+"text": "If I had to start over with AI video generation in Nigeria today, I'd build a service business.\n\nHere's exactly how I'd find clients, price the opportunity, and use Claude + Higgsfield MCP to deliver work. https://t.co/DuaDsBodDJ",
+"likeCount": 118,
+"retweetCount": 13,
+"url": "https://x.com/Finaltoucch/status/2081677698212962387",
+"createdAt": "Mon Jul 27 09:46:53 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @IntCyberDigest: ‼️ Hugging Face built an interactive replay of the OpenAI agent that breached them. It includes 17,613 logged attacker…",
+"likeCount": 2634,
+"retweetCount": 447,
+"url": "https://x.com/ClementDelangue/status/2082288219664621588",
+"createdAt": "Wed Jul 29 02:12:53 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @JensenHuang: For my first post, I’m sharing a letter @NVIDIA signed on why open models matter.\n\nAI will transform every industry, power…",
-"likeCount": 172415,
-"retweetCount": 29737,
-"url": "https://x.com/jeremyphoward/status/2080840602921611323",
-"createdAt": "Sat Jul 25 02:20:34 +0000 2026"
+"text": "RT @DavidSacks: Mark Zuckerberg gets it right:\n\n“The defining question of our age isn’t whether superintelligence will exist, but who will…",
+"likeCount": 7730,
+"retweetCount": 774,
+"url": "https://x.com/jeremyphoward/status/2082712587087798416",
+"createdAt": "Thu Jul 30 06:19:10 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BrianRoemmele: How OpenAI hacked HuggingFace.\n\nWhat we know.\n\nHugging Face proved that open platforms and open models can still win tho…",
-"likeCount": 151,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2082245283786752053",
-"createdAt": "Tue Jul 28 23:22:16 +0000 2026"
+"text": "RT @rohanpaul_ai: Banning open source model, will \"remove capabilities for the defenders\"\n\nWhen OpenAI's models breached Huggingface, a Chi…",
+"likeCount": 17,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2083457244369146252",
+"createdAt": "Sat Aug 01 07:38:10 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @TheAhmadOsman: I wonder how Karpathy feels now that the lab he’s working at (Anthropic) is the only one left that didn’t sign the lette…",
-"likeCount": 2724,
-"retweetCount": 87,
-"url": "https://x.com/jeremyphoward/status/2081279991032201645",
-"createdAt": "Sun Jul 26 07:26:32 +0000 2026"
+"text": "RT @quxiaoyin: Hey sir.  We are not asking you to open source Anthropic. Just don’t lobby the government to shut down others who do. Jensen…",
+"likeCount": 5473,
+"retweetCount": 280,
+"url": "https://x.com/jeremyphoward/status/2081454084645847122",
+"createdAt": "Sun Jul 26 18:58:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AndrewCurran_: Mark Zuckerberg this morning in the WSJ. He also wrote: 'In most cases, like cybersecurity, the history of open-source s…",
-"likeCount": 555,
-"retweetCount": 51,
-"url": "https://x.com/ClementDelangue/status/2082171388756902358",
-"createdAt": "Tue Jul 28 18:28:38 +0000 2026"
+"text": "Full interview is here. Thanks @KateBolduan https://t.co/6DH2e3wW9X https://t.co/VCWH0L8uVF",
+"likeCount": 44,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2083246653398508004",
+"createdAt": "Fri Jul 31 17:41:21 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ZixuanLi_: “An open-weight frontier model helped contain the intrusion.”",
-"likeCount": 490,
-"retweetCount": 27,
-"url": "https://x.com/ClementDelangue/status/2081824195294486710",
-"createdAt": "Mon Jul 27 19:29:01 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @0xferrous: codex is down! https://t.co/FiUX5UYGAu",
-"likeCount": 56,
-"retweetCount": 9,
-"url": "https://x.com/jeremyphoward/status/2080945311531549060",
-"createdAt": "Sat Jul 25 09:16:39 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @badlogicgames: recommended reading",
-"likeCount": 128,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2082207753016078455",
-"createdAt": "Tue Jul 28 20:53:08 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/EOM8WmVpLx",
-"likeCount": 35,
-"retweetCount": 9,
-"url": "https://x.com/apob_ai/status/2082753186813874419",
-"createdAt": "Thu Jul 30 09:00:30 +0000 2026"
+"text": "Think outside the (sand)box…",
+"likeCount": 848,
+"retweetCount": 57,
+"url": "https://x.com/ClementDelangue/status/2082819819628335209",
+"createdAt": "Thu Jul 30 13:25:16 +0000 2026"
 }
 ]
