@@ -1,122 +1,162 @@
 [
 {
-"userName": "Arina_hoqe",
-"text": "To create Ai image like this Just follow these simple steps 👇\n\n1️⃣ Open Google Gemini//Grok/ChatGPT \n2️⃣ Upload Your Photo 🤳\n3️⃣ Copy and Paste this Prompt ✍️\n\nProfessional AI Image Generation Prompt (Highly Detailed & Precise)\nPrompt:\nCreate a masterpiece-quality, ultra-photorealistic lifestyle portrait in a 4:5 vertical composition, captured in 8K Ultra HD with extraordinary realism, premium editorial photography quality, cinematic HDR lighting, natural skin texture, and exceptional micro-detail. The image should seamlessly blend real-world photography with expressive monochrome hand-drawn sketch art, creating the illusion that the illustrated version of the subject has stepped out of her imagination onto the wall beside her.\nThe scene takes place inside a modern, warm-toned minimalist home with soft beige walls, polished ivory marble flooring, and elegant Scandinavian-inspired wooden furniture. On the left side of the frame is a light oak wooden cabinet with framed botanical artwork and a small green indoor plant, contributing to a calm, cozy, contemporary atmosphere. A woven jute rug occupies the foreground, enhancing the home's natural aesthetic.\nThe primary subject is a beautiful young South Asian woman standing naturally beside a plain wall. She has a soft oval face, warm wheatish-fair complexion, expressive dark brown eyes, delicately arched eyebrows, a small straight nose, naturally pink lips, and subtle everyday makeup. Her dark brown hair is loosely tied into a casual low ponytail with soft face-framing strands falling naturally around her cheeks.\nShe wears an elegant pastel lavender embroidered Indian kurta set featuring intricate white floral thread embroidery throughout the fabric. The kurta has a round neckline, full-length semi-sheer sleeves with embroidered cuffs, matching straight pants, and traditional embroidered jutti flats. Small floral earrings, a delicate gold chain necklace, and minimal accessories complete the refined ethnic look.\nThe woman leans gently against the wall with a shy, playful posture. Her hands are softly clasped together in front of her body, shoulders slightly raised, one leg bent backward with only the toe touching the floor, creating an adorable, feminine pose. She gazes affectionately toward the illustrated version beside her with a subtle smile, conveying warmth, innocence, and curiosity.\nOccupying the right half of the composition is a large monochrome ink sketch of the same woman drawn directly on the wall. The sketch perfectly matches her hairstyle, facial features, clothing, jewelry, proportions, and overall identity while transforming her personality into a lively cartoon-style illustration. The drawing is created using expressive black ink lines, loose cross-hatching, confident brush strokes, and sketchbook-style detailing.\nUnlike the real subject's reserved pose, the illustrated character is energetic and playful. She balances on one leg with the opposite leg lifted backward, sticks out her tongue mischievously, winks one eye, and raises both hands making cheerful peace signs. Around the drawing are small hand-drawn doodles including hearts, stars, sparkle icons, motion lines, and playful accent marks that enhance the whimsical personality without overwhelming the composition.\nThe lighting is soft natural window light from the left, producing smooth shadows, beautiful dimensionality, realistic skin tones, subtle fabric translucency, and gentle highlights on the embroidery. The sketch should appear naturally integrated into the wall with crisp black ink contrast while remaining clearly hand-drawn rather than digitally rendered.\nCamera & Photography Settings:\nFull-frame professional DSLR or medium-format camera\n85mm prime portrait lens\nAperture: f/2.8\nISO 100\nShutter Speed: 1/200 sec\nEye-level perspective\nSoft natural daylight\nHigh dynamic range\nEditorial interior photography\nRazor-sharp focus on the subject\nClean background separation\nRealistic depth of field\nPremium fashion campaign quality\nStyle Keywords: Ultra-photorealistic, editorial lifestyle photography, luxury ethnic fashion, minimalist interior, Indian traditional elegance, monochrome ink illustration, playful wall sketch, cozy home aesthetic, cinematic lighting, realistic fabric texture, expressive line art, seamless photo-illustration blend, premium commercial photography, magazine-quality, hyper-detailed, 8K UHD, flawless realism.",
-"likeCount": 33,
-"retweetCount": 4,
-"url": "https://x.com/Arina_hoqe/status/2083395231366427044",
-"createdAt": "Sat Aug 01 03:31:45 +0000 2026"
+"userName": "hanwenjiang1",
+"text": "Interested in how frontier labs pre-train image/video generation models?\nWe were too.\n\nSince those recipes are rarely made public in full, we started from the most mature pretraining playbook available in the open: how modern LLMs are built.\nIntroducing Chimera: a visual generation model family that brings LLM-style hybrid linear attention and scaling co-design to visual generation.\n\nIn large-scale pretraining, nearly every design choice eventually shows up.\nThat means solving architecture design and scaling as one coupled problem: every architectural choice changes how the model scales, and scaling behavior determines which choices actually survive.\nChimera approaches both jointly, building a model family that remains predictable as model size, compute budget, and data distribution change.\n\nOur key architectural observation is a simple division of labor: a single raster-ordered KDA stream carries long-range state, while modality-aware short convolutions preserve native local geometry.\nTogether, they form an effective and elegant linear-attention backbone for multidimensional visual data, with periodic MLA providing direct global interaction and sparse MoE expanding capacity at controlled activated compute.\n\nThis design comes with a useful effect: NoPE.\nIn Chimera, position is represented by the computation itself. KDA’s ordered recurrence and learned state decay encode order and recency, while the short convolutions encode local spatial-temporal structure.\nExplicit positional embeddings are not needed in our design.\nBecause these mechanisms are not tied to a fixed training grid or sequence length, Chimera shows strong zero-shot extrapolation in both space and time.\nTrained exclusively on 1K images and 5-second videos, it directly generates coherent 4K images with little visible quality degradation and 30-second videos with only 6.5% FID degradation over the final five seconds, all zero-shot, without resolution- or length-specific finetuning.\n\nBut architecture alone is not a pretraining recipe unless it scales predictably.\nThus, scaling should not be treated as an afterthought: fitting a curve over model sizes is easy; making that curve meaningful is much harder.\nIf every model size is differently under-tuned, your scaling law may simply be measuring optimization error.\nWe propose HeteroP to transfer proxy-tuned hyperparameters module by module across width and depth, giving us a consistently tuned model family. This allows us to fit Chinchilla-style laws over activated model size, training tokens, and the image-video data mixture.\n\nThe laws not only provide the reference for compute-optimal model and data size, but also suggest that visual generation may be more model-hungry than we tend to assume.\nUnder the same parametric loss-fitting method used in Chinchilla, compute-optimal model size grows as FLOPs^0.516 for images, compared with FLOPs^0.46 for language. Video is even more model-hungry, with the exponent rising from 0.516 for images to 0.544 for video.\nGuided by these laws, we trained an 11B-parameter Chimera that activates only 2B parameters per token, using ~600 H100 days.\n- It matches Wan-2.1 2B pretraining loss with 7.3x fewer FLOPs, and runs 2.14x faster than full attention at 255K tokens.\n- It matches FLUX.1-dev and Z-Image-Turbo on GenEval and outperforms both on DPG-Bench, using roughly 20× less training compute than Z-Image-Turbo.\n\nUltimately, Chimera indicates that once you pretrain at scale, every decision shows up.\nAnd if the Kimi K3 recipe caught your attention, Chimera may look oddly familiar, except the tokens are pixels and frames with diffusion models.\n\nA team effort from team @ChongjianG30781 , me, @VisionSteve , Jiuxiang Gu, @Xu_Arthas , @chenziwee , @ShaotengLiu , @Jingorz , @YicongHong , @Zefan_Cai , @HaoTan5 ; supported by Hailin Jin and @kalyank_s at @Adobe @AdobeResearch",
+"likeCount": 446,
+"retweetCount": 50,
+"url": "https://x.com/hanwenjiang1/status/2083224610464829950",
+"createdAt": "Fri Jul 31 16:13:46 +0000 2026"
 },
 {
-"userName": "itxabdullaa",
-"text": "Made with MiniMax H3 on @Hailuo_AI #MiniMaxH3\n\nConcept: Seoul Summer, 1998 – Rainy Bus Stop\n\nPrompt:\n\nCreate an authentic 15-second archival home video that appears to have been recorded in Seoul, South Korea, during the summer of 1998 using a consumer Hi8 or VHS-C camcorder. The camcorder is never visible. The audience only sees the footage captured through the camera, exactly as if watching a forgotten family videotape decades later. This is not a vlog, not a selfie, and not a cinematic film. The unseen camera operator casually documents an ordinary moment from everyday life.\n\nThe footage should faithfully recreate genuine late-1990s analogue camcorder characteristics: soft 480i resolution, subtle VHS tape grain, faint interlacing, mild colour fading, occasional autofocus breathing, slight exposure shifts, gentle handheld shake, imperfect framing, tiny zoom corrections, realistic motion blur, analogue colour bleed, and faint tape hiss. No HDR, no digital sharpening, no beauty filters, no stabilisation, no cinematic lighting, no slow motion, and no modern camera effects.\n\nA light summer rain has just begun in a quiet Seoul neighborhood. A young Korean woman in her early twenties waits at a simple city bus stop beneath a clear plastic umbrella. She wears a pale blue oversized T-shirt tucked into relaxed-fit blue jeans, classic white sneakers, and carries a canvas shoulder bag, perfectly matching authentic Korean street fashion from 1998. Around her, commuters quietly wait while late-1990s Korean buses, sedans, and bicycles pass by on the wet street. Handwritten Hangul shop signs, overhead utility wires, convenience stores, and low-rise apartment buildings create an unmistakably authentic Seoul atmosphere.\n\nAs the rain becomes slightly heavier, a small orange tabby cat runs from beneath a parked car toward the bus stop. The woman notices it, crouches down with a warm smile, and gently shelters the cat under her umbrella. The cat calmly sits beside her while several nearby commuters smile at the unexpected moment. A city bus approaches in the background, its headlights reflecting across the rain-soaked road. The woman looks toward the arriving bus, softly laughs, gives the cat one gentle pat, and steps aboard as the doors close. The camera remains outside, lingering for a few seconds on the rainy street as the bus slowly drives away before the recording ends abruptly, exactly as if someone simply pressed the stop button on the camcorder.\n\nGeneration Requirements: Produce one continuous, uninterrupted 15-second recording with no cuts or transitions. Every detail must accurately recreate Seoul in 1998, including clothing, hairstyles, architecture, vehicles, signage, weather, and everyday behavior. Human movement must be completely natural with consistent facial identity, realistic anatomy, authentic hand movements, believable crowd interactions, and subtle environmental details such as rain, passing traffic, distant conversations, bus engine sounds, birds, and ambient city noise. Avoid AI artifacts, duplicated pedestrians, warped limbs, floating objects, unnatural expressions, perfect symmetry, or anything suggesting the footage was AI-generated. The finished result should be indistinguishable from genuine late-1990s home camcorder footage discovered in a family archive.",
-"likeCount": 127,
-"retweetCount": 9,
-"url": "https://x.com/itxabdullaa/status/2082747126497300930",
-"createdAt": "Thu Jul 30 08:36:25 +0000 2026"
+"userName": "_avichawla",
+"text": "4 stages of LLM training, clearly explained:\n\n(a popular LLM interview question; bookmark this)\n\n→ Pre-training\n→ Instruction fine-tuning\n→ Preference fine-tuning\n→ Reasoning fine-tuning\n\nThe visual covers all of them.\n\nA base model treats a question as text to be continued, not a request to be answered. Questions in its training data usually have more questions next to them, so that's what the model replies.\n\nThe stages after pre-training allow changing that behaviour, and each one uses a different training signal to do it.\n\n0) Randomly initialized model\n\nThe weights are random numbers, so token selection is close to uniform, and the LLM outputs gibberish text.\n\n1) Pre-training\n\nThe model reads a large text corpus and repeatedly predicts the next word.\n\nThis stage teaches the model grammar and facts about the world.\n\nAlso, most of its raw reasoning ability comes from this stage, and it's where nearly all of the training compute goes.\n\nThe model becomes good at continuing text, but nothing in the objective connects a question to an answer.\n\n2) Instruction fine-tuning\n\nHere, it trains on pairs of instructions and good responses, so it picks up the convention that a question should get an answer and a request to summarise should get a summary.\n\nOpenAI used roughly 13,000 human-written examples on GPT-3, against a pre-training corpus of hundreds of billions of words.\n\nThe knowledge was already in the weights, and this stage mostly taught a response format.\n\n3) Preference fine-tuning\n\nA lot of requests have no single correct answer, and supervised fine-tuning needs a specific target to train against.\n\nIn this setup, two responses go to a human who picks the better one. You may have already seen this in ChatGPT, where it asks which of the two responses is better.\n\nThose picks train a separate model that predicts which response a human would have chosen. The main model then gets updated to score higher against that predictor.\n\n4) Reasoning fine-tuning\n\nFor maths and code, there's usually one correct answer, and a program can check it. Human preference isn't needed here, since correctness is already a usable reward signal.\n\nThe model attempts a problem, the answer gets checked, and it's rewarded when it gets it right.\n\nDeepSeek trained R1 this way with GRPO, and behaviours like working through intermediate steps and going back to fix its own mistakes showed up during training without any examples demonstrating them.\n\nThat said, stage 4 only works when a program can check the answer. Maths and code inherently provide that.\n\nBut a support reply, a RAG answer, or a summary has no correct output to check against, so the reward has to come from somewhere else.\n\nI wrote a full breakdown of how labs are handling that problem, from RLHF through GRPO, and what replaced the checker.\n\nRead it below.",
+"likeCount": 158,
+"retweetCount": 34,
+"url": "https://x.com/_avichawla/status/2083111291833757900",
+"createdAt": "Fri Jul 31 08:43:28 +0000 2026"
 },
 {
 "userName": "Argona0x",
 "text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
-"likeCount": 1160,
+"likeCount": 1162,
 "retweetCount": 96,
 "url": "https://x.com/Argona0x/status/2082193490956476521",
 "createdAt": "Tue Jul 28 19:56:28 +0000 2026"
 },
 {
-"userName": "hey_abusiddik",
-"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
-"likeCount": 256,
-"retweetCount": 81,
-"url": "https://x.com/hey_abusiddik/status/2083941928870289539",
-"createdAt": "Sun Aug 02 15:44:08 +0000 2026"
+"userName": "shubhangi_HR_",
+"text": "100 AI tools to finish hours of work in minutes\n\nProductivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n- Gamma\n\nResearch\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\nWriting\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\nText to image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\nCopywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\nWebsite\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\nMeeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\nResume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\nChatbot tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\nAutomation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\nPrompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\nUI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\nDesign\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\nLogo generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\nAudio\n\n- ElevenLabs\n- LOVO AI\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\nMarketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\nStartup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\nSocial media management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\nVideo\n\n- Klap\n- InVideo\n- Opus Clip\n- HeyGen\n- Eightify\n\nImage to video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nSave this for later and level up with AI.\n\nFollow @shubhangi_HR_ for more AI tools.",
+"likeCount": 36,
+"retweetCount": 6,
+"url": "https://x.com/shubhangi_HR_/status/2084117179000303990",
+"createdAt": "Mon Aug 03 03:20:31 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "It's not time to slow down but to accelerate!\n\nThe recent AI-powered cyberattacks have everyone talking about the risks of AI. We should. But let's not lose sight of the bigger picture!\n\nIf we work hard at it, AI will make the world safer, not less safe, just as most major technologies have.\n\nWe've already seen a glimpse of that: we defended ourselves with AI (more specifically an open model). The same systems that helped stop an AI-powered cyberattack can now help defend against millions of cyberattacks every day, while helping us identify and fix vulnerabilities before attackers exploit them.\n\nTo get there, we need three things in my opinion:\n\n- Increase transparency with mandatory trace sharing and incident disclosure for agent cyber-attacks\n- Keep AI-powered cyberattacks illegal, with meaningful penalties to disincentivize them\n- Equip defenders with the best AI, especially open models, to reduce the asymmetry of capabilities between attackers and defenders\n\nIf we get those three things right, AI won't just create new cybersecurity challenges, it will make cybersecurity fundamentally and meaningfully stronger. \n\nAnd that's before considering AI's impact on science, healthcare, education, productivity, and much more.\n\nIt's not time to slow down but to accelerate!",
-"likeCount": 1055,
-"retweetCount": 164,
-"url": "https://x.com/ClementDelangue/status/2083908468285620415",
-"createdAt": "Sun Aug 02 13:31:10 +0000 2026"
+"userName": "Alex_AI96",
+"text": "120 Mind-Blowing AI Tools You Should Know in 2026 🤯\n\nStop wasting hours searching for the right AI tool.\n\nHere are 65+ powerful AI tools across 13 categories to boost your productivity. 👇\n\n💡 1. Ideas & Research\n• https://t.co/mKDqZ3HvYo\n• Claude\n• ChatGPT\n• Perplexity\n• Microsoft Copilot\n\n📊 2. Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 3. Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ 4. Writing\n• Rytr\n• Jasper\n• https://t.co/wY5amQnAlJ\n• Text Blaze\n• Writesonic\n\n🎨 5. AI Models & Creators\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ 6. Meeting Assistants\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• https://t.co/M5gTEDdFQJ\n\n🤖 7. AI Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ 8. Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 9. UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ 10. AI Images\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Image Creator\n\n🎥 11. AI Video\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 12. Design\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/eNE2iq7u28\n\n📈 13. Marketing & Social\n• AdCopy\n• https://t.co/IfISv3CANi\n• Bardeen AI\n• https://t.co/iU06UQZDxW\n• Typefully\n• Postwise\n• Metricool\n• TribeScaler\n• Tweet Hunter",
+"likeCount": 11,
+"retweetCount": 10,
+"url": "https://x.com/Alex_AI96/status/2084340914391314552",
+"createdAt": "Mon Aug 03 18:09:33 +0000 2026"
+},
+{
+"userName": "maeveknows",
+"text": "You think you’ve seen the whole internet. You’ve seen maybe 2% of it.\n\nEveryone’s chasing new AI apps. Nobody’s talking about the 10 tools that make AI actually usable\n\nI’ve gone through the stress of highlighting them so you don’t have to, here they are:\n\n1: https://t.co/nP6GKs67wa: AI search engine built for developers, skips the fluff\n2. https://t.co/nmT9hWPJAG: AI reads research papers so you don’t have to\n3. https://t.co/ndfNBWKPiZ: ask a question, get what science actually says\n4. https://t.co/hon6CikUm6: upload a dense paper, get it explained simply\n5. https://t.co/w5OiOYhUsk: translations that don’t sound like a robot wrote them\n6. https://t.co/2S4E8iCbex: AI deletes any image background in one click\n7. https://t.co/5RgBGYkNOp: AI erases objects, people, or text from photos\n8. https://t.co/xkUuX26j84: AI removes backgrounds from video, no green screen\n9. https://t.co/uTSv2nsnix: free AI tools for PDFs, images, video, and more\n10. https://t.co/YGInDJ9LEN: daily AI tips, prompts, and news in one feed\n\nThe best AI workflow isn’t one app. It’s ten tools nobody talks about\n\nRetweet this before it gets buried again, your future self at 2am will thank you.\n\nWhich one are you bookmarking right now? Drop the number👇",
+"likeCount": 22,
+"retweetCount": 1,
+"url": "https://x.com/maeveknows/status/2083977379819778286",
+"createdAt": "Sun Aug 02 18:05:00 +0000 2026"
 },
 {
 "userName": "kv1nsiii",
 "text": "A $0.11 CHARACTER JUST DID WHAT A $3,500 COMMISSION USED TO TAKE WEEKS TO DELIVER\n\nNeuro-sama held 162,459 paid subscriptions at the January count roughly double those of the next human streamer\n\nI assumed the machinery behind that was a private research lab\nIt's just stock VTube Studio with volume-driven lip sync and about 15 rigged animations wired to emotion hotkeys. That’s the entire visible layer\n\nThe face is the most expensive part of every VTuber project\nRigging alone costs around $100 for a bust and $500–$1,200 for premium full-body work\n\nSo I automated it\n\nOne AI-generated image, layer decomposition on a rented GPU, rigged and animated model output including hair physics, honest blinks and a painted mouth. Total cost: $0.11\n\nThe industry rig format is proprietary. Nobody has ever generated one from scratch\nSo instead, I shipped an open format JSON plus PNG layers, readable in any text editor\n\nThe real test was an AI agent that had never seen the project before, which was connected to the factory and asked to describe a character in one sentence\nEleven minutes and eleven cents later, the character was standing in the app, blinking and talking\n\nBoth repositories are currently free and open under an MIT licence",
-"likeCount": 37,
-"retweetCount": 5,
+"likeCount": 43,
+"retweetCount": 6,
 "url": "https://x.com/kv1nsiii/status/2083953111895310685",
 "createdAt": "Sun Aug 02 16:28:34 +0000 2026"
 },
 {
-"userName": "KaiteeShiks",
-"text": "I wanted to see whether MiniMax H3 could keep a polished campaign aesthetic consistent across an entire scene.\n\nSo I gave its Omni Reference feature a clear visual direction: a classic pink car, a well-dressed couple, and a matching pink bag.\n\nThe final shot has the man waiting beside the car while the woman opens the trunk and retrieves the bag.\n\nWhat impressed me was how well the details stayed connected. The characters, car, styling, color palette, and product all felt like parts of the same campaign, rather than separate AI-generated elements.\n\nMiniMax H3 supports text, image, audio, and video references in one workflow, with native 2K generation up to 15 seconds.\n\nFor fashion, e-commerce, and branded storytelling, this level of visual control could be genuinely useful.\n\nTry it: https://t.co/tSjMJ0WgtS\n\n#hailuoai #hailuo #MiniMaxH3 #H3",
-"likeCount": 133,
-"retweetCount": 86,
-"url": "https://x.com/KaiteeShiks/status/2083207031281127803",
-"createdAt": "Fri Jul 31 15:03:55 +0000 2026"
+"userName": "TechBuzzChina",
+"text": "MiniMax H3 video model opens a path around closed AI video vendors\n\nMiniMax open-sourced H3, a multimodal video model it calls \"Seedance-level.\" It takes up to 9 images, 3 video clips, and 3 audio tracks, 12 files max, and turns them into finished-feeling spots. APPSO testers gave it seven screenshots and a one-sentence prompt and got a promo video. A fictional fashion spot came out looking close to a real ad.\n\nThe stronger capability is editing. H3 can swap a background, replace an object, change a character's outfit, or shift the camera angle while keeping the original motion and look. It topped Artificial Analysis's global video editing leaderboard at launch, ahead of Gemini Omni. That is the pain point most video generation models skip: making a first version is easy, revising it is not.\n\nOur read: open source matters more than the benchmark. We have argued before that ByteDance's Seedance wins on distribution. MiniMax is taking a different route, letting teams host the model and build their own production workflow instead of paying for tokens and staying tied to a vendor's cost structure.",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/TechBuzzChina/status/2084079325670773155",
+"createdAt": "Mon Aug 03 00:50:06 +0000 2026"
 },
 {
-"userName": "ShamiWeb3",
-"text": "A single product photo can now become an entire luxury campaign.\n\nWith @fotor_com, one reference image transforms into premium product photography, cinematic commercials, and high-end marketing visuals that look like they came from a global fashion brand.\n\nFrom precision macro shots to luxury hero angles and cinematic camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe next era of product marketing isn't about taking better photos, it's about creating campaigns people can't stop watching.\n\nhttps://t.co/kdQimaaCbh",
-"likeCount": 463,
-"retweetCount": 10,
-"url": "https://x.com/ShamiWeb3/status/2082627339901640930",
-"createdAt": "Thu Jul 30 00:40:25 +0000 2026"
-},
-{
-"userName": "aisha_coder",
-"text": "I work in fashion content. \n\nThe drape of a garment, the exact colorway of a collection, \nthe way light hits a specific fabric — reference-based generation at 50 assets is what makes AI video actually usable for product content. \n\nWaiting on the API. https://t.co/IvoRNC8U7x",
-"likeCount": 18,
+"userName": "influencer_seo",
+"text": "Here's how to build an AI music video using the new MiniMax-H3 Video model with open weights... Use this prompt below 👇\n\nprompt\n\nStyle: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.\n\n#minimax #minimaxh3 @MiniMax_AI",
+"likeCount": 76,
 "retweetCount": 4,
-"url": "https://x.com/aisha_coder/status/2083124962152628677",
-"createdAt": "Fri Jul 31 09:37:48 +0000 2026"
+"url": "https://x.com/influencer_seo/status/2084355942628684135",
+"createdAt": "Mon Aug 03 19:09:16 +0000 2026"
 },
 {
-"userName": "doja_dan",
-"text": "This took me two hours to type - it's the most accurate account I can give of what has worked in the AI era and led to us raising $1.3M @ $20M. First article. Hopefully you come out with a clearer direction over what is working. I'm here for any questions. https://t.co/aW2RPTrrjS",
-"likeCount": 5,
-"retweetCount": 2,
-"url": "https://x.com/doja_dan/status/2084101807257632809",
-"createdAt": "Mon Aug 03 02:19:26 +0000 2026"
+"userName": "arena",
+"text": "Inkling-Small (@thinkymachines) debuts at rank ~#88 (1431 pts, AutoEval) in Text Arena and ~#21 among open.\n\nThis makes it one of only five US models in the top 25 open models overall.\n\nNote: this is an early AutoEval score, in which a Reward Model trained on Arena's human preference data casts automatic votes in place of live voting, giving a day-1 signal right at release. Scores are tagged preliminary until correlated with live votes. See the thread for more on how AutoEval works and the methodology behind it.\n\nCongrats to @thinkymachines for another strong contribution to the open ecosystem!\n\nWe’ll continue to track to see where it lands in rank as live votes come in.",
+"likeCount": 266,
+"retweetCount": 13,
+"url": "https://x.com/arena/status/2082890136858263896",
+"createdAt": "Thu Jul 30 18:04:41 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @FaceTheNation: Hugging Face CEO Clément Delague says “AI is actually an opportunity to fix a lot of the cybersecurity problems” because…",
-"likeCount": 33,
-"retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2083999129051488501",
-"createdAt": "Sun Aug 02 19:31:25 +0000 2026"
+"text": "\"very weird and unprecedented\" is a good way to put it haha. Thanks for having me @margbrennan @CBS \n\nArticle: https://t.co/XxP5KSr2YL\nFull interview: https://t.co/949NEAWmvr https://t.co/SQCkqy05zw",
+"likeCount": 107,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2084268924066009483",
+"createdAt": "Mon Aug 03 13:23:29 +0000 2026"
+},
+{
+"userName": "runsonai",
+"text": "Finally got to try the new deepseek v4 flash model this weekend and it's been very excited about the use cases it unlocked for me. Here are the experiments I've ran so far. https://t.co/Iq0iAcDLvM",
+"likeCount": 209,
+"retweetCount": 11,
+"url": "https://x.com/runsonai/status/2083924106588704906",
+"createdAt": "Sun Aug 02 14:33:19 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @FaceTheNation: WATCH: @margbrennan’s conversation with Hugging Face CEO Clément Delangue on what’s next for artificial intelligence aft…",
+"likeCount": 27,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2083960625479241961",
+"createdAt": "Sun Aug 02 16:58:25 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @BrianRoemmele: Another day and another full frontier model running on your computer. \n\nBeen teething DeepSeek V4 Flash on over 60 emplo…",
-"likeCount": 115,
-"retweetCount": 17,
+"likeCount": 133,
+"retweetCount": 22,
 "url": "https://x.com/ClementDelangue/status/2083961362904961132",
 "createdAt": "Sun Aug 02 17:01:21 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @FaceTheNation: When asked if AI developers have lost control of their technology after an AI agent created by OpenAI escaped its testin…",
-"likeCount": 33,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2084000601126338644",
-"createdAt": "Sun Aug 02 19:37:16 +0000 2026"
+"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
+"likeCount": 17,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2084383891192709211",
+"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @perkinscr97: Fascinating to see @ClementDelangue, CEO of @huggingface speaking on @FaceTheNation.  Excellent points and solid advocacy…",
-"likeCount": 31,
-"retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2083945584893804693",
-"createdAt": "Sun Aug 02 15:58:39 +0000 2026"
+"text": "RT @MattHartman: Watching @ClementDelangue on @FaceTheNation discussing agentic hacking. “Preventing releases does not work; concentrating…",
+"likeCount": 15,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2083974727517819027",
+"createdAt": "Sun Aug 02 17:54:28 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @ClementDelangue: We got attacked by secret unreleased proprietary models and defended ourselves with an open model, more precisely the…",
+"likeCount": 3811,
+"retweetCount": 569,
+"url": "https://x.com/jeremyphoward/status/2083663998764068919",
+"createdAt": "Sat Aug 01 21:19:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Full interview is here. Thanks @KateBolduan https://t.co/6DH2e3wW9X https://t.co/VCWH0L8uVF",
+"text": "RT @TechCrunch: Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated https://t.co/xfr6JG8Yby",
 "likeCount": 72,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2083246653398508004",
-"createdAt": "Fri Jul 31 17:41:21 +0000 2026"
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2084390931365527690",
+"createdAt": "Mon Aug 03 21:28:18 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @BigTechAlert: 🆕 @finkd has started following @huggingface https://t.co/qrxWekLFrQ",
+"likeCount": 218,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2083946421267423379",
+"createdAt": "Sun Aug 02 16:01:59 +0000 2026"
+},
+{
+"userName": "Ambani_Wessley",
+"text": "https://t.co/9pffrTtdt9",
+"likeCount": 110,
+"retweetCount": 121,
+"url": "https://x.com/Ambani_Wessley/status/2084270982731108632",
+"createdAt": "Mon Aug 03 13:31:40 +0000 2026"
 }
 ]
