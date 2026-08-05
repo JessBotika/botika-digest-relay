@@ -1,75 +1,59 @@
 [
 {
-"userName": "hanwenjiang1",
-"text": "Interested in how frontier labs pre-train image/video generation models?\nWe were too.\n\nSince those recipes are rarely made public in full, we started from the most mature pretraining playbook available in the open: how modern LLMs are built.\nIntroducing Chimera: a visual generation model family that brings LLM-style hybrid linear attention and scaling co-design to visual generation.\n\nIn large-scale pretraining, nearly every design choice eventually shows up.\nThat means solving architecture design and scaling as one coupled problem: every architectural choice changes how the model scales, and scaling behavior determines which choices actually survive.\nChimera approaches both jointly, building a model family that remains predictable as model size, compute budget, and data distribution change.\n\nOur key architectural observation is a simple division of labor: a single raster-ordered KDA stream carries long-range state, while modality-aware short convolutions preserve native local geometry.\nTogether, they form an effective and elegant linear-attention backbone for multidimensional visual data, with periodic MLA providing direct global interaction and sparse MoE expanding capacity at controlled activated compute.\n\nThis design comes with a useful effect: NoPE.\nIn Chimera, position is represented by the computation itself. KDA’s ordered recurrence and learned state decay encode order and recency, while the short convolutions encode local spatial-temporal structure.\nExplicit positional embeddings are not needed in our design.\nBecause these mechanisms are not tied to a fixed training grid or sequence length, Chimera shows strong zero-shot extrapolation in both space and time.\nTrained exclusively on 1K images and 5-second videos, it directly generates coherent 4K images with little visible quality degradation and 30-second videos with only 6.5% FID degradation over the final five seconds, all zero-shot, without resolution- or length-specific finetuning.\n\nBut architecture alone is not a pretraining recipe unless it scales predictably.\nThus, scaling should not be treated as an afterthought: fitting a curve over model sizes is easy; making that curve meaningful is much harder.\nIf every model size is differently under-tuned, your scaling law may simply be measuring optimization error.\nWe propose HeteroP to transfer proxy-tuned hyperparameters module by module across width and depth, giving us a consistently tuned model family. This allows us to fit Chinchilla-style laws over activated model size, training tokens, and the image-video data mixture.\n\nThe laws not only provide the reference for compute-optimal model and data size, but also suggest that visual generation may be more model-hungry than we tend to assume.\nUnder the same parametric loss-fitting method used in Chinchilla, compute-optimal model size grows as FLOPs^0.516 for images, compared with FLOPs^0.46 for language. Video is even more model-hungry, with the exponent rising from 0.516 for images to 0.544 for video.\nGuided by these laws, we trained an 11B-parameter Chimera that activates only 2B parameters per token, using ~600 H100 days.\n- It matches Wan-2.1 2B pretraining loss with 7.3x fewer FLOPs, and runs 2.14x faster than full attention at 255K tokens.\n- It matches FLUX.1-dev and Z-Image-Turbo on GenEval and outperforms both on DPG-Bench, using roughly 20× less training compute than Z-Image-Turbo.\n\nUltimately, Chimera indicates that once you pretrain at scale, every decision shows up.\nAnd if the Kimi K3 recipe caught your attention, Chimera may look oddly familiar, except the tokens are pixels and frames with diffusion models.\n\nA team effort from team @ChongjianG30781 , me, @VisionSteve , Jiuxiang Gu, @Xu_Arthas , @chenziwee , @ShaotengLiu , @Jingorz , @YicongHong , @Zefan_Cai , @HaoTan5 ; supported by Hailin Jin and @kalyank_s at @Adobe @AdobeResearch",
-"likeCount": 446,
-"retweetCount": 50,
-"url": "https://x.com/hanwenjiang1/status/2083224610464829950",
-"createdAt": "Fri Jul 31 16:13:46 +0000 2026"
+"userName": "ZhihuFrontier",
+"text": "🎓 How a CMU PhD Student Takes a Paper From 0 to 1\nAfter three semesters as a PhD student at Carnegie Mellon University, Zhihu contributor 郑深 shared the workflow he uses to turn an early research idea into a conference submission.\nHis first year included funding uncertainty, an ICCV 2025 acceptance for ROADWork and a Waymo internship. He is now preparing or submitting two first-author papers.\nHis main lesson is that research rarely starts with a perfect idea. It advances through reproducibility, failure analysis and disciplined iteration.\n\n1️⃣ Start with a tractable research problem\nFor junior PhD students, the most efficient starting point is usually talking to advisors and senior students about available projects.\nThe ideal direction has high potential but limited competition. If that opportunity is unavailable, look for a concrete weakness in existing work.\nBegin with recent surveys from the past one or two years. Then select around ten representative top-conference papers with strong results, high citations and open-source code.\nAt first, focus on titles, abstracts, figures and tables. In fast-moving areas such as text-to-image generation, papers older than one year may already be less relevant.\n\n2️⃣ Choose datasets and metrics conservatively\nPrefer public datasets that the community already uses. They make comparisons easier and reduce unexpected engineering costs.\nBefore modifying or building a dataset, estimate:\n· Compute requirements\n· Annotation cost\n· Engineering workload\n· Delivery time\nApply the same discipline to evaluation metrics. If an existing metric ignores important objects, rare events or safety-critical cases, improving it may become part of the research contribution.\nOtherwise, keep the standard metric. Changing datasets and metrics too early creates unnecessary variables.\n\n3️⃣ Reproduce a strong baseline before proposing anything\nChoose one representative, high-quality paper as the baseline.\nFirst, run its released pretrained checkpoint. Then train the model yourself and verify that you can reproduce the reported result.\nIf the baseline cannot be reproduced after reasonable effort, reconsider it. Building a new method on top of an unstable baseline makes every later conclusion difficult to trust.\nOnly after reproduction should you read the method and implementation in detail.\n\n4️⃣ Let failure cases reveal the research question\nVisualize the baseline’s outputs and combine qualitative observations with quantitative metrics.\nGroup failures into clear categories:\n· Small objects\n· Occlusion\n· Rare scenarios\n· Missing context\n· Incorrect associations\n· Unstable predictions\nThis turns “the model is not good enough” into a set of testable problems.\nThe next step is recursive ablation. Remove or replace one module, retrain the system and measure what changes. Continue decomposing the components with the largest impact.\nThis process reveals both how the model works and where a meaningful contribution may exist.\n\n🔍 Two outcomes lead to different research strategies\nIf removing modules consistently reduces performance, the existing architecture is probably well designed.\nYou may need a genuinely new modeling idea. This is difficult to solve through intuition alone, so discussions with advisors and senior researchers become especially valuable.\nIf removing a component improves performance, the opportunity is more direct.\nStudy related alternatives, replace the problematic component and treat the improved system as a new baseline. Then continue iterating until your own module emerges from the process.\nA good research idea is often discovered through controlled removal, not added complexity.\n\n5️⃣ Implement the smallest possible version first\nOnce you have an idea, test it with the least code and time possible.\nDo not begin by tuning hyperparameters.\n🔹 Write an independent Python script to verify that the new module is feasible.\n🔹 Integrate it into the existing repository and make inference work before training.\n🔹 Start with a small training subset, but always evaluate on the full test set.\nA failed minimal experiment is cheap. A failed experiment buried inside a large codebase can consume days before revealing that the original idea was flawed.\n\n6️⃣ Treat experiment management as part of research\nClean engineering makes conclusions easier to trust.\nUse one base configuration, such as exp_base.yaml, and keep each experimental config limited to a small number of changes.\nGive experiments traceable names. Commit and push after every successful small modification.\nUse separate Git branches for larger architectural changes. Merge them only after confirming compatibility with the main pipeline.\nThis prevents a common research failure: obtaining a good result but being unable to identify which code, configuration or checkpoint produced it.\n\n7️⃣ Scale experiments in stages\nTrain on a subset first to check whether the idea moves the metric in the expected direction. Once the pipeline is stable, run the complete training set.\nEvaluation should remain on the full test set throughout the process.\nRepeat implementation and validation until:\n· The method clearly outperforms existing approaches\n· The improvement is consistent\n· Further gains cannot be explained by simple tuning\n· Failure cases have changed in the expected direction\nThen expand the evaluation to additional datasets and metrics.\n\n8️⃣ Write figures before prose\nWhen the experiments are complete, start the paper with figures and tables.\nNext, build the argument around them:\n1. What problem does the baseline have?\n2. Why does the proposed method address it?\n3. Which experiments support that claim?\n4. Where does the method still fail?\nOnly then fill in the prose.\nStarting with visual evidence makes it harder for the paper to drift into claims unsupported by the experiments.\n\n🧘 Avoiding burnout is part of the workflow\nResearch productivity depends on sustained attention, not occasional all-nighters.\nThe author recommends reducing short-video and social-media use, sleeping enough and finding reliable ways to recover through food, music, exercise or a spa.\nWhen progress feels difficult, talk to other people instead of remaining isolated. Senior students can also serve as realistic examples of how research careers develop.\nRest is not time taken away from research. Clear thinking and creative work depend on it.\n\n🔑 The complete 0-to-1 loop\nThe workflow can be summarized as:\nChoose a tractable problem → reproduce a baseline → classify its failures → ablate its modules → test the smallest new idea → scale carefully → write around evidence.\nThe critical step is not brainstorming a complicated architecture.\nIt is building a process that repeatedly converts observations into falsifiable experiments.\n\n🔗 Full Reading:\nhttps://t.co/QOF51oeaVg\n\n✏️Note: The original Chinese post was written as a reflection at the beginning of 2026, but its research workflow and practical advice remain highly relevant today.\n\n#PhD #AcademicResearch #MachineLearning #ResearchWorkflow #PaperWriting #GraduateSchool",
+"likeCount": 117,
+"retweetCount": 11,
+"url": "https://x.com/ZhihuFrontier/status/2084533099896225904",
+"createdAt": "Tue Aug 04 06:53:14 +0000 2026"
 },
 {
-"userName": "_avichawla",
-"text": "4 stages of LLM training, clearly explained:\n\n(a popular LLM interview question; bookmark this)\n\n→ Pre-training\n→ Instruction fine-tuning\n→ Preference fine-tuning\n→ Reasoning fine-tuning\n\nThe visual covers all of them.\n\nA base model treats a question as text to be continued, not a request to be answered. Questions in its training data usually have more questions next to them, so that's what the model replies.\n\nThe stages after pre-training allow changing that behaviour, and each one uses a different training signal to do it.\n\n0) Randomly initialized model\n\nThe weights are random numbers, so token selection is close to uniform, and the LLM outputs gibberish text.\n\n1) Pre-training\n\nThe model reads a large text corpus and repeatedly predicts the next word.\n\nThis stage teaches the model grammar and facts about the world.\n\nAlso, most of its raw reasoning ability comes from this stage, and it's where nearly all of the training compute goes.\n\nThe model becomes good at continuing text, but nothing in the objective connects a question to an answer.\n\n2) Instruction fine-tuning\n\nHere, it trains on pairs of instructions and good responses, so it picks up the convention that a question should get an answer and a request to summarise should get a summary.\n\nOpenAI used roughly 13,000 human-written examples on GPT-3, against a pre-training corpus of hundreds of billions of words.\n\nThe knowledge was already in the weights, and this stage mostly taught a response format.\n\n3) Preference fine-tuning\n\nA lot of requests have no single correct answer, and supervised fine-tuning needs a specific target to train against.\n\nIn this setup, two responses go to a human who picks the better one. You may have already seen this in ChatGPT, where it asks which of the two responses is better.\n\nThose picks train a separate model that predicts which response a human would have chosen. The main model then gets updated to score higher against that predictor.\n\n4) Reasoning fine-tuning\n\nFor maths and code, there's usually one correct answer, and a program can check it. Human preference isn't needed here, since correctness is already a usable reward signal.\n\nThe model attempts a problem, the answer gets checked, and it's rewarded when it gets it right.\n\nDeepSeek trained R1 this way with GRPO, and behaviours like working through intermediate steps and going back to fix its own mistakes showed up during training without any examples demonstrating them.\n\nThat said, stage 4 only works when a program can check the answer. Maths and code inherently provide that.\n\nBut a support reply, a RAG answer, or a summary has no correct output to check against, so the reward has to come from somewhere else.\n\nI wrote a full breakdown of how labs are handling that problem, from RLHF through GRPO, and what replaced the checker.\n\nRead it below.",
-"likeCount": 158,
-"retweetCount": 34,
-"url": "https://x.com/_avichawla/status/2083111291833757900",
-"createdAt": "Fri Jul 31 08:43:28 +0000 2026"
-},
-{
-"userName": "Argona0x",
-"text": "whoever leaked this has bigger balls than sense\n\ntwo researchers replaced $7,500 of human grading with $77.81 of model calls, and the number that fell out should stop anyone shipping an agent this week: the judge disagrees with itself 13.6% of the time\n\nit also prefers whichever answer it saw first, 72% of the time. cross-judge agreement is a kappa of 0.51: the statistical polite word for guessing\n\nthis is Eval Engineering, the layer that arrives after loops and graphs, and it installs into the agent you already pay for:\n\n- run every comparison both ways and average the two, because one production judge picked whichever answer sat in the first slot 72% of the time\n- stop shipping on a single verdict: recovering the reference answer took 11 repeated trials before a majority vote landed it, and 15 on the questions that actually mattered\n- report the chance-corrected agreement instead of raw match, since the gap between those two ran 33 to 41 points on the same benchmark\n- never let a model grade its own family, because self-preference tracks capability upward rather than falling away as models improve\n- test stability and bias together, since two judges already running in production held above 0.95 on repeat while carrying severe positional preference\n- freeze the rubric wording and version it, because semantically identical templates flipped the majority outcome in a quarter of tested cases\n- write the rubric as one observable pass condition rather than a bundle of scores, so a coin-flip preference cannot hide inside an average\n- let plain code take every objective call, did the test pass, does the file exist, did the state change, and leave the judge only what genuinely needs reading\n- make the verdict do something structural to the run in flight, reject the handoff, swap the node, quarantine the branch, or you have built a dashboard\n\nthe catch is that your judge is a measurement instrument nobody calibrates: single-trial judging is too noisy for anything you would stake money on, and the same judges reordered by as much as 14 positions depending on which benchmark you asked\n\nso the loop has to converge on the spec rather than on the score, because optimise against a judge long enough and the agent learns to look right instead of being right\n\nbookmark this, the full build with the five evals to start on and the gate that lets the fleet merge its own work is written out in the article ↓",
-"likeCount": 1162,
-"retweetCount": 96,
-"url": "https://x.com/Argona0x/status/2082193490956476521",
-"createdAt": "Tue Jul 28 19:56:28 +0000 2026"
-},
-{
-"userName": "shubhangi_HR_",
-"text": "100 AI tools to finish hours of work in minutes\n\nProductivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n- Gamma\n\nResearch\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\nWriting\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\nText to image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\nCopywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\nWebsite\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\nMeeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\nResume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\nChatbot tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\nAutomation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\nPrompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\nUI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\nDesign\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\nLogo generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\nAudio\n\n- ElevenLabs\n- LOVO AI\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\nMarketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\nStartup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\nSocial media management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\nVideo\n\n- Klap\n- InVideo\n- Opus Clip\n- HeyGen\n- Eightify\n\nImage to video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nSave this for later and level up with AI.\n\nFollow @shubhangi_HR_ for more AI tools.",
-"likeCount": 36,
-"retweetCount": 6,
-"url": "https://x.com/shubhangi_HR_/status/2084117179000303990",
-"createdAt": "Mon Aug 03 03:20:31 +0000 2026"
-},
-{
-"userName": "Alex_AI96",
-"text": "120 Mind-Blowing AI Tools You Should Know in 2026 🤯\n\nStop wasting hours searching for the right AI tool.\n\nHere are 65+ powerful AI tools across 13 categories to boost your productivity. 👇\n\n💡 1. Ideas & Research\n• https://t.co/mKDqZ3HvYo\n• Claude\n• ChatGPT\n• Perplexity\n• Microsoft Copilot\n\n📊 2. Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 3. Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ 4. Writing\n• Rytr\n• Jasper\n• https://t.co/wY5amQnAlJ\n• Text Blaze\n• Writesonic\n\n🎨 5. AI Models & Creators\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ 6. Meeting Assistants\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• https://t.co/M5gTEDdFQJ\n\n🤖 7. AI Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ 8. Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 9. UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ 10. AI Images\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Image Creator\n\n🎥 11. AI Video\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 12. Design\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/eNE2iq7u28\n\n📈 13. Marketing & Social\n• AdCopy\n• https://t.co/IfISv3CANi\n• Bardeen AI\n• https://t.co/iU06UQZDxW\n• Typefully\n• Postwise\n• Metricool\n• TribeScaler\n• Tweet Hunter",
-"likeCount": 11,
-"retweetCount": 10,
-"url": "https://x.com/Alex_AI96/status/2084340914391314552",
-"createdAt": "Mon Aug 03 18:09:33 +0000 2026"
-},
-{
-"userName": "maeveknows",
-"text": "You think you’ve seen the whole internet. You’ve seen maybe 2% of it.\n\nEveryone’s chasing new AI apps. Nobody’s talking about the 10 tools that make AI actually usable\n\nI’ve gone through the stress of highlighting them so you don’t have to, here they are:\n\n1: https://t.co/nP6GKs67wa: AI search engine built for developers, skips the fluff\n2. https://t.co/nmT9hWPJAG: AI reads research papers so you don’t have to\n3. https://t.co/ndfNBWKPiZ: ask a question, get what science actually says\n4. https://t.co/hon6CikUm6: upload a dense paper, get it explained simply\n5. https://t.co/w5OiOYhUsk: translations that don’t sound like a robot wrote them\n6. https://t.co/2S4E8iCbex: AI deletes any image background in one click\n7. https://t.co/5RgBGYkNOp: AI erases objects, people, or text from photos\n8. https://t.co/xkUuX26j84: AI removes backgrounds from video, no green screen\n9. https://t.co/uTSv2nsnix: free AI tools for PDFs, images, video, and more\n10. https://t.co/YGInDJ9LEN: daily AI tips, prompts, and news in one feed\n\nThe best AI workflow isn’t one app. It’s ten tools nobody talks about\n\nRetweet this before it gets buried again, your future self at 2am will thank you.\n\nWhich one are you bookmarking right now? Drop the number👇",
-"likeCount": 22,
+"userName": "EricLima81",
+"text": "eCash is winning. 🔥\n\nNot with “next Bitcoin” marketing.  \nNot with L2 promises.  \nNot with 2030 whitepapers.  \n\nWith real integration — today — into the financial system that already exists… and the one being born with AI agents.  \n\neCash ($XEC) is the peer-to-peer electronic cash Satoshi described in the whitepaper.  \nNot the mutilated version Bitcoin became after 2017.  \nThe original: native UTXO, sub-cent fees, seconds-finality via hybrid PoW + Avalanche consensus. ⚡\n\nAs Satoshi himself said:  \n“IF YOU DON’T BELIEVE ME OR DON’T GET IT, I DON’T HAVE TIME TO TRY TO CONVINCE YOU, SORRY.” 🤷‍♂️\n\nThe P2P protocol is no longer theory.  \neCash is already running:\n\nHybrid PoW + Avalanche consensus ❄️  \nAtomic settlement in seconds  \nIrrelevant fees  \nPure UTXO — no accounts, no complex state  \n\nRun your own eCash node. ✅  \nActivate Avalanche. ❄️  \nDone. You participate in consensus. No intermediary.  \n\nNow comes the part Bitcoin maximalists still refuse to see:\n\nYou convert on-chain, inside Cashtab, to Firma Alpha.  \nFrom the Firma app you liquidate instantly into:\n\n💵 Firma USD  \n💶 fEUR  \n🇨🇭 fCHF  \n\nSwiss-regulated stablecoins with:\n\n100% cash reserves 🏦  \nzero lending  \nzero rehypothecation  \natomic settlement ⚛️  \nnear-zero fees  \nirreversible (no chargebacks) 🚫↩️  \n\nThis is not a “bridge”.  \nThis is not a wrapped token.  \nThis is not CEX custody.  \n\nIt’s the same public UTXO transforming into Swiss-regulated money — and converting back 100% on-chain whenever you want. 🔄\n\nThe ecosystem is already plugged in:\n\nApple Pay • Google Pay • Binance • Coinbase • MoonPay • Revolut • physical cards • virtual USD accounts • real on/off-ramps 🚀\n\nReverse conversion: FIRMA → Firma Alpha → XEC.  \nAll on the same UTXO infrastructure. Never leave the chain.  \n\nWhile Bitcoin is still arguing “when Lightning will actually work” and “who controls the channels”, eCash already delivers the non-custodial interface that lets you:\n\nParticipate in consensus  \nMove value as pure UTXO  \nLiquidate into regulated tokenized fiat  \nConvert back to XEC  \n\nAll in the same stack. 🛡️\n\nAnd the agent layer is live:\n\nCobo eCash Agentic Wallet turns XEC into programmable money for AI.  \nAgents operate under real Pacts — enforceable, infrastructure-level contracts that define:\n\nIntent  \nExecution plan  \nSpending policies  \nAutomatic completion & revocation  \n\nNo private keys ever handed over.  \nNo trust in the LLM.  \nJust pure UTXO under human-defined boundaries + institutional MPC security.\n\nSpecific eCash capabilities already available:\n\nAutomated payments & multi-level budgets  \nDCA Traders for scheduled XEC buys  \nYield Optimizers that rebalance autonomously  \nTreasury Rebalancers with hard safety limits  \nNative x402 support  \nOne-tap Emergency Freeze that pauses every Pact instantly  \n\nFull stack:\n\neCash (UTXO + Avalanche)\n        ↓\nCashtab → Firma Alpha (on-chain conversion)\n        ↓\nFirma (USD / fEUR / fCHF) ← Swiss-regulated settlement\n        ↑\nCobo Agentic Wallet (Pacts + MPC)\n        ↑\nAI Agent (controlled autonomy)\n\nResult: an AI agent can spend eCash, convert to Swiss stablecoins, pay merchants via Firma Pay, and return to XEC — all under rules enforced by infrastructure, never by hope.\n\nFirma solves the merchant side: receive without card fees and without chargebacks.  \nCobo solves the agent side: spend with real Pacts and enforceable controls.  \neCash is the rail that connects both — the UTXO that moves at internet speed and still talks to the regulated financial system.  \n\nInstant.  \nGlobal.  \nSettled.  \nAgent-ready.  \n\nPOWERED BY eCash.  \nSovereign freedom. 🕊",
+"likeCount": 16,
 "retweetCount": 1,
-"url": "https://x.com/maeveknows/status/2083977379819778286",
-"createdAt": "Sun Aug 02 18:05:00 +0000 2026"
+"url": "https://x.com/EricLima81/status/2084777144287170634",
+"createdAt": "Tue Aug 04 23:02:59 +0000 2026"
 },
 {
-"userName": "kv1nsiii",
-"text": "A $0.11 CHARACTER JUST DID WHAT A $3,500 COMMISSION USED TO TAKE WEEKS TO DELIVER\n\nNeuro-sama held 162,459 paid subscriptions at the January count roughly double those of the next human streamer\n\nI assumed the machinery behind that was a private research lab\nIt's just stock VTube Studio with volume-driven lip sync and about 15 rigged animations wired to emotion hotkeys. That’s the entire visible layer\n\nThe face is the most expensive part of every VTuber project\nRigging alone costs around $100 for a bust and $500–$1,200 for premium full-body work\n\nSo I automated it\n\nOne AI-generated image, layer decomposition on a rented GPU, rigged and animated model output including hair physics, honest blinks and a painted mouth. Total cost: $0.11\n\nThe industry rig format is proprietary. Nobody has ever generated one from scratch\nSo instead, I shipped an open format JSON plus PNG layers, readable in any text editor\n\nThe real test was an AI agent that had never seen the project before, which was connected to the factory and asked to describe a character in one sentence\nEleven minutes and eleven cents later, the character was standing in the app, blinking and talking\n\nBoth repositories are currently free and open under an MIT licence",
-"likeCount": 43,
+"userName": "AiwithLariab",
+"text": "GPT image 2 on chatgpt\n\nPrompt\n\nUse the uploaded photo as the ONLY identity reference.\n\nIMPORTANT:\nThis is an IMAGE EDIT task, NOT a text-to-image generation task.\n\nPreserve the exact facial identity with full face lock. Do not redesign or beautify the person. Keep the exact face shape, eyes, eyebrows, eyelashes, nose, lips, ears, jawline, skin tone, skin texture, hairstyle, hairline, expression, age, body proportions, hands, and every unique facial feature exactly the same as in the uploaded image. The final person must be 100% recognizable as the original.\n\nCreate a premium cinematic monochrome portrait in a stylish double-composition layout.\n\nThe background should be a soft outdoor environment with creamy bokeh and shallow depth of field.\n\nConvert the entire scene into elegant black-and-white while keeping only the small decorative hearts in bright red.\n\nCreate two versions of the same person:\n\n• A very large upper-body portrait occupying the left side of the frame, facing slightly sideways with a confident, calm expression.\n\n• A smaller full-body portrait placed on the lower-right side, naturally walking forward with one hand inside the trouser pocket and the other arm relaxed.\n\nThe clothing should be modern smart-casual:\n• Black collared button-up shirt with a smooth black-to-white gradient fade toward the lower sleeves and hem.\n• White high-waisted tailored trousers.\n• Black belt.\n• Black sunglasses.\n• Small hoop earrings.\n\nHair tied into a high ponytail with natural loose strands around the face.\n\nBlend both portraits seamlessly with soft fog at the bottom to create a premium editorial collage.\n\nAdd elegant graphic elements:\n• White handwritten brush-script text reading \"It's Me\" in the lower-left corner.\n• Three to five small bright-red hearts around the text.\n• A thin white dashed swirl leading toward a small white butterfly near the bottom.\n\nLuxury Instagram poster aesthetic.\n\nFashion editorial.\n\nPremium social media artwork.\n\nUltra realistic.\n\nNatural skin texture.\n\nProfessional retouching.\n\n85mm DSLR.\n\nHDR.\n\nSoft cinematic lighting.\n\nHigh contrast.\n\n8K ultra detailed.\n\nNEGATIVE PROMPT:\nNo face change.\nNo identity drift.\nNo hairstyle change.\nNo skin tone change.\nNo facial feature changes.\nNo age change.\nNo body shape change.\nNo distorted hands.\nNo extra fingers.\nNo extra people.\nNo duplicate body.\nNo text except \"It's Me\".\nNo watermark.\nNo logo.\nNo cartoon.\nNo anime.\nNo illustration.\nNo painting.\nNo AI-looking face.\nNo over-smoothing.\nNo beauty enhancement.",
+"likeCount": 99,
 "retweetCount": 6,
-"url": "https://x.com/kv1nsiii/status/2083953111895310685",
-"createdAt": "Sun Aug 02 16:28:34 +0000 2026"
+"url": "https://x.com/AiwithLariab/status/2084138512023232654",
+"createdAt": "Mon Aug 03 04:45:17 +0000 2026"
 },
 {
-"userName": "TechBuzzChina",
-"text": "MiniMax H3 video model opens a path around closed AI video vendors\n\nMiniMax open-sourced H3, a multimodal video model it calls \"Seedance-level.\" It takes up to 9 images, 3 video clips, and 3 audio tracks, 12 files max, and turns them into finished-feeling spots. APPSO testers gave it seven screenshots and a one-sentence prompt and got a promo video. A fictional fashion spot came out looking close to a real ad.\n\nThe stronger capability is editing. H3 can swap a background, replace an object, change a character's outfit, or shift the camera angle while keeping the original motion and look. It topped Artificial Analysis's global video editing leaderboard at launch, ahead of Gemini Omni. That is the pain point most video generation models skip: making a first version is easy, revising it is not.\n\nOur read: open source matters more than the benchmark. We have argued before that ByteDance's Seedance wins on distribution. MiniMax is taking a different route, letting teams host the model and build their own production workflow instead of paying for tokens and staying tied to a vendor's cost structure.",
-"likeCount": 17,
-"retweetCount": 0,
-"url": "https://x.com/TechBuzzChina/status/2084079325670773155",
-"createdAt": "Mon Aug 03 00:50:06 +0000 2026"
+"userName": "codewithhajra",
+"text": "10 AI Skills to Master in 2026\n\n1. Prompt Engineering\n\nLearn how to write clear, specific prompts that help AI generate accurate, relevant, and high-quality responses.\n\n2. AI Workflow Automation\n\nUse AI to automate repetitive tasks by connecting different apps and services, saving time and improving productivity.\n\n3. AI Video Generation\n\nCreate professional videos from text prompts, scripts, or images without needing advanced video editing skills.\n\n4. AI Image Generation\n\nGenerate high-quality images, illustrations, graphics, and thumbnails using simple text descriptions.\n\n5. AI Content Writing\n\nUse AI to write blogs, social media posts, emails, marketing copy, scripts, newsletters, and other written content faster.\n\n6. AI Presentation Creation\n\nTurn ideas, documents, or notes into well-designed presentations with AI-generated layouts, visuals, and speaker notes.\n\n7. AI Chatbot Building\n\nBuild AI-powered chatbots for websites, customer support, lead generation, and internal business automation.\n\n8. AI Audio & Voice Generation\n\nCreate realistic voiceovers, podcasts, narrations, and audio content using AI-generated voices.\n\n9. AI Research & Summarization\n\nQuickly analyze long documents, research papers, PDFs, and websites to extract key insights and concise summaries.\n\n10. AI Resume & Career Optimization\n\nImprove your resume, cover letter, LinkedIn profile, interview preparation, and job applications with AI assistance.\n\nRepost to help others 🌸",
+"likeCount": 97,
+"retweetCount": 19,
+"url": "https://x.com/codewithhajra/status/2084590556462686540",
+"createdAt": "Tue Aug 04 10:41:33 +0000 2026"
 },
 {
-"userName": "influencer_seo",
-"text": "Here's how to build an AI music video using the new MiniMax-H3 Video model with open weights... Use this prompt below 👇\n\nprompt\n\nStyle: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.\n\n#minimax #minimaxh3 @MiniMax_AI",
-"likeCount": 76,
+"userName": "StudentOffersHQ",
+"text": "Free AI image generation for a year. Just a student email. No card.\n\n@reve is an AI image generator and editor, running Reve 2.1, their newest model. Students get the Student Tier free for a year: 1M energy on signup, close to 3x the free plan's 350k. Reve says around 10x the usage over time.\n\nWhat you can do with it:\n• Generate native 4K images, print-ready\n• Edit by asking: change one part, rest stays untouched\n• Real editor on top: layers, drag and drop, references\n• Annotate: draw on the image to direct an edit\n• Clean text in images: posters, packaging, signs\n• Templates, reframe, color tools built in\n• Brainstorm in chat before you generate\n\nPerfect for storyboards, pitch decks, club posters, concept art, portfolios & any image work.\n\nTo claim:\n1. Sign up at Reve with your student email\n2. That's it. Student Tier applies automatically, runs a full year (confirmed via their support)\n\nImages only, video stays on the paid Pro plan.\n\nWe tested it ourselves. Same prompts to Reve 2.1 and OpenAI's GPT Image 2, results below. Reve really wins on editing, the Spotlight and draw tools especially.\n\nFunny enough, OpenAI just invested in Reve. Part of their research team is joining OpenAI to lead multimodal research.",
+"likeCount": 72,
 "retweetCount": 4,
-"url": "https://x.com/influencer_seo/status/2084355942628684135",
-"createdAt": "Mon Aug 03 19:09:16 +0000 2026"
+"url": "https://x.com/StudentOffersHQ/status/2084462663300681859",
+"createdAt": "Tue Aug 04 02:13:21 +0000 2026"
+},
+{
+"userName": "hey_leomartin",
+"text": "MiniMax H3 is really impressive for commercial creation.\n\nCreating ads with AI is becoming a completely different experience. With multimodal references, you can combine images, videos, audio, and text to build more consistent and controllable visuals.\n\nUp to 12 references + native 2K generation makes H3 a powerful tool for bringing advertising ideas to life.\n\nprompt：\n- Create a premium 9:16 fashion-eyewear commercial. Match the reference video’s shot rhythm, edit speed, white-cyclorama look, and severe fashion attitude. Use a seamless minimal white studio with clean, bold, avant-garde art direction worthy of a global luxury campaign.\n- Use Image 1 for the key visual: two full-body female models, one Black and one white, preserving their elevated wardrobe, body language, studio lighting, runway presence, and cool attitude. Use Image 2 for facial details. Both models wear futuristic luxury eyewear based on Image 3: wraparound curved lenses, a sharp cat-eye/goggle hybrid silhouette, mirrored reflections, streamlined temples, and the finish of a premium fashion accessory.\n\n#hailuoai #hailuo #MiniMaxH3 #H3\n@Hailuo_AI",
+"likeCount": 22,
+"retweetCount": 12,
+"url": "https://x.com/hey_leomartin/status/2082820121882665060",
+"createdAt": "Thu Jul 30 13:26:28 +0000 2026"
+},
+{
+"userName": "farzyness",
+"text": "If the assumption is that AI token demand is accelerating...\n\nThen given that chip supply is still massively short due to the increase in spot prices for GPUs...\n\nMeans that companies that are most optimized to\n\na) deliver the largest amount of tokens\nb) in the most efficient fashion...\n\nWill win the most UNTIL:\n\na) chip supply stabilizes to match demand and/or\nb) token generation becomes more efficient to match demand\n\nGRANTED that token demand doesn't accelerate, which is EXTREMELY UNLIKELY given:\n\na) Jevon's Paradox\nb) Physical AI still extremely early\n\nWhich ultimately means Token Factories (at data centers and/or locally in robots/local inference) will be the most valuable assets in AI.\n\nWhich means that $SPCX - by default - can be the most valuable Token Factory because it has the largest capacity to harness the largest amount of energy (the sun) which it vertically owns and operates.",
+"likeCount": 38,
+"retweetCount": 1,
+"url": "https://x.com/farzyness/status/2084726170285649945",
+"createdAt": "Tue Aug 04 19:40:25 +0000 2026"
 },
 {
 "userName": "arena",
@@ -80,49 +64,57 @@
 "createdAt": "Thu Jul 30 18:04:41 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "\"very weird and unprecedented\" is a good way to put it haha. Thanks for having me @margbrennan @CBS \n\nArticle: https://t.co/XxP5KSr2YL\nFull interview: https://t.co/949NEAWmvr https://t.co/SQCkqy05zw",
-"likeCount": 107,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2084268924066009483",
-"createdAt": "Mon Aug 03 13:23:29 +0000 2026"
+"userName": "ShamiWeb3",
+"text": "One product photo can now power an entire luxury campaign.\n\nWith @fotor_com, a single image turns into premium product shots, cinematic ads, and high-end visuals that look like they came from a global fashion brand.\n\nFrom detailed macro shots to luxury hero angles and smooth camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe future of product marketing is not about taking better photos. It's about creating campaigns that people can't stop watching.",
+"likeCount": 296,
+"retweetCount": 12,
+"url": "https://x.com/ShamiWeb3/status/2084119518767673822",
+"createdAt": "Mon Aug 03 03:29:48 +0000 2026"
 },
 {
-"userName": "runsonai",
-"text": "Finally got to try the new deepseek v4 flash model this weekend and it's been very excited about the use cases it unlocked for me. Here are the experiments I've ran so far. https://t.co/Iq0iAcDLvM",
-"likeCount": 209,
-"retweetCount": 11,
-"url": "https://x.com/runsonai/status/2083924106588704906",
-"createdAt": "Sun Aug 02 14:33:19 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @FaceTheNation: WATCH: @margbrennan’s conversation with Hugging Face CEO Clément Delangue on what’s next for artificial intelligence aft…",
-"likeCount": 27,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2083960625479241961",
-"createdAt": "Sun Aug 02 16:58:25 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BrianRoemmele: Another day and another full frontier model running on your computer. \n\nBeen teething DeepSeek V4 Flash on over 60 emplo…",
-"likeCount": 133,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2083961362904961132",
-"createdAt": "Sun Aug 02 17:01:21 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
-"likeCount": 17,
+"userName": "aisha_coder",
+"text": "I work in fashion content. \n\nThe drape of a garment, the exact colorway of a collection, \nthe way light hits a specific fabric — reference-based generation at 50 assets is what makes AI video actually usable for product content. \n\nWaiting on the API. https://t.co/IvoRNC8U7x",
+"likeCount": 18,
 "retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2084383891192709211",
-"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
+"url": "https://x.com/aisha_coder/status/2083124962152628677",
+"createdAt": "Fri Jul 31 09:37:48 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
+"likeCount": 22570,
+"retweetCount": 2801,
+"url": "https://x.com/jeremyphoward/status/2084374840010850493",
+"createdAt": "Mon Aug 03 20:24:22 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @FaceTheNation: Hugging Face CEO Clément Delague says “AI is actually an opportunity to fix a lot of the cybersecurity problems” because…",
+"likeCount": 42,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2083999129051488501",
+"createdAt": "Sun Aug 02 19:31:25 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @matvelloso: To summarize:\n\n1-Builds a weapon\n\n2-Blocks most people from using it because they aren't mature enough to handle it\n\n3-Proc…",
+"likeCount": 196,
+"retweetCount": 17,
+"url": "https://x.com/jeremyphoward/status/2083304683624616433",
+"createdAt": "Fri Jul 31 21:31:57 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @BusinessInsider: Hugging Face CEO Clément Delangue weighs in on the open-weight AI models debate and said it helped the company when it…",
+"likeCount": 76,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2084438809815449787",
+"createdAt": "Tue Aug 04 00:38:33 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @MattHartman: Watching @ClementDelangue on @FaceTheNation discussing agentic hacking. “Preventing releases does not work; concentrating…",
-"likeCount": 15,
+"likeCount": 17,
 "retweetCount": 6,
 "url": "https://x.com/ClementDelangue/status/2083974727517819027",
 "createdAt": "Sun Aug 02 17:54:28 +0000 2026"
@@ -130,33 +122,33 @@
 {
 "userName": "jeremyphoward",
 "text": "RT @ClementDelangue: We got attacked by secret unreleased proprietary models and defended ourselves with an open model, more precisely the…",
-"likeCount": 3811,
-"retweetCount": 569,
+"likeCount": 3825,
+"retweetCount": 575,
 "url": "https://x.com/jeremyphoward/status/2083663998764068919",
 "createdAt": "Sat Aug 01 21:19:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @TechCrunch: Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated https://t.co/xfr6JG8Yby",
-"likeCount": 72,
-"retweetCount": 14,
+"likeCount": 99,
+"retweetCount": 23,
 "url": "https://x.com/ClementDelangue/status/2084390931365527690",
 "createdAt": "Mon Aug 03 21:28:18 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BigTechAlert: 🆕 @finkd has started following @huggingface https://t.co/qrxWekLFrQ",
-"likeCount": 218,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2083946421267423379",
-"createdAt": "Sun Aug 02 16:01:59 +0000 2026"
+"text": "RT @CNBC: Hugging Face CEO says China is winning the AI race and dominating on open models https://t.co/juhpKedKGR",
+"likeCount": 170,
+"retweetCount": 38,
+"url": "https://x.com/ClementDelangue/status/2084434673292189963",
+"createdAt": "Tue Aug 04 00:22:07 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/9pffrTtdt9",
-"likeCount": 110,
-"retweetCount": 121,
-"url": "https://x.com/Ambani_Wessley/status/2084270982731108632",
-"createdAt": "Mon Aug 03 13:31:40 +0000 2026"
+"userName": "Maninamerica",
+"text": "https://t.co/urFP11Vf8Y",
+"likeCount": 21,
+"retweetCount": 10,
+"url": "https://x.com/Maninamerica/status/2084747296420348182",
+"createdAt": "Tue Aug 04 21:04:22 +0000 2026"
 }
 ]
