@@ -1,154 +1,122 @@
 [
 {
-"userName": "nicokonut",
-"text": "#SwissBorg PowWow #31 (🇬🇧 recap) - 04.08.2026\n#WeAreSwissBorg $BORG $BTC\n\n⚠️ Information summarized/translated with AI, non-exhaustive and not investment advice. Refer to official SwissBorg sources and do your own research.\n\n🟢 Intro\n- Most investors lose money in crypto, not necessarily because they pick the wrong assets, but because they fall into predictable, recurring traps. This week, Cyrus breaks down the 10 biggest traps every investor must avoid to survive and truly make it in this space.\n\n🟢 Self-custody: a trap?\n- \"Not your keys, not your coins\" is, for Cyrus, one of the most unfortunate quotes in crypto. Roughly 20% of all bitcoins have been permanently lost.\n- Cold wallets and hardware wallets, long presented as the ultimate solution, have been hacked several times. Self-custody can be excellent, but only if you're extremely responsible and well organized (passing on your keys when you die, complicated trusts to manage, etc.).\n- For most people, the best option isn't self-custody, but a regulated, trusted party (exchange, bank) that puts smart safeguards in place: MPC, asset segregation, and withdrawal protection like SwissBorg does.\n- Ledger and Trezor seem better than some competitors, but 100% safe? That's not for him to say.\n\n🟢 Good project ≠ good investment\n- Everyone falls for it: \"great tech, good project, so I'll invest.\" But does the token actually capture that value?\n- Tokenomics is what you should look at first. Kamino and Morpho are doing tremendous work, but their token doesn't yet have clear buybacks or well-implemented governance. Hyperliquid (HYPE), on the other hand, combines great tech, a great product AND solid tokenomics.\n- A project can turn things around: Morpho, for example, is putting smart mechanisms in place to bring more buy pressure.\n- The real question: are you actually using the token? Proof-of-stake L1s have a strong thesis (you buy, you stake, you earn a yield from validated transactions), but many L1s have great tech with no real transactions behind it.\n\n🟢 Token unlocks\n- Back in the day, with ICOs (like SwissBorg's), you could sell your tokens right at day-one listing. Policies have changed since.\n- An unlock means vested tokens that gradually get released. Many projects have a great token but huge unlocks coming.\n- These unlocks often come from VCs. They're not all vultures, but they have a clear mandate: outperform the market (often Bitcoin). So they take profits when tokens are liquid in order to pay dividends back to their LPs.\n- Watch closely: how and when the unlocks will happen, what percentage hits the market, and whether there's a sufficient buyback mechanism.\n\n🟢 Yields too good to be true\n- High yields on Bitcoin, Solana, Ethereum, stablecoins... remember Terra.\n- A very high yield on an asset means either strong inflation of that asset (staking a token and getting back 20-30% means 20-30% is being reinjected into the market), or an over-leveraged, very risky bet (as with stablecoins).\n- The golden rule: if you don't know where the yield comes from, then you are the yield. You're taking part in a potentially Ponzi-like scheme.\n- On already very risky assets (BTC, ETH, SOL), don't expect a nice yield. The yield is the asset itself: keep it as is, or do liquid staking that actually makes sense.\n\n🟢 Core vs satellite\n- The biggest mistake: not distinguishing the assets you hold long term (core) from the ones you trade within the cycle (satellites, 2-3 years max).\n- You never start a position directly in your core. You start with satellites, and after a cycle, you keep the ones that have proven themselves.\n- You need to test a project for at least one cycle before moving it into your core. In crypto, most projects don't survive more than one or two cycles, often just one.\n- The winning move: sell a big chunk of the satellite during the cycle, then buy back 50-90% cheaper in the next cycle if you still believe in it, to build it into your core.\n- Cyrus's examples: HYPE seen at 40-70, bought back between 20 and 40; Solana seen up to 150, bought back between 20 and 30, then again at 70.\n\n🟢 Selling at a loss\n- Cyrus's personal example: 80k of Arbitrum ending up at 5k, losing trades you don't cut hoping they'll bounce back. Wrong mindset.\n- You have to know how to cut positions and realize your losses. In crypto, if you don't cut, losses often go to zero (unlike stocks).\n- The opportunity cost is huge: that Arbitrum could have been in Solana, in HYPE, or on a new bet.\n- Sandbox example: from 30k down to 1-3k. Better to put those 3k into something you strongly believe in that could do a 4-5x.\n- Even in stocks: Alibaba sold around 170-180, ten years later it's at 120. Even an excellent company doesn't necessarily bounce back. Keep only your winning positions, cut the losers.\n\n🟢 Crypto influencers\n- Cyrus doesn't consider himself an influencer, but an entrepreneur. Above all, listen to yourself.\n- Some creators are worth respecting (he mentions Ivan on Tech and Virtual Bacon) for their holistic view and trading skills.\n- Others just use you to sell and pump their bags, then exit. When an influencer sets a \"target price,\" he often sells right after.\n- The mechanism: he announces a 150k target while his real target is 100k. People buy at 99-100k, and he exits his position while everyone else buys the 100-to-150k trade.\n- These influencers have multiple wallets, very hard to track, and work with centralized market makers who offload liquidity for their clients (see ZachXBT's accusations). This has been the case for the biggest projects.\n\n🟢 \"This time it's different\"\n- Every cycle, when everything's going well, we tell ourselves \"this time it's different.\"\n- Cyrus always works with 3 scenarios: bearish, base case, bullish. The last cycle stayed in the base case without hitting the bearish one (BTC: bearish 100k, base 125k, bull 200k, played out fairly well; Ethereum completely missed, Solana above expectations).\n- Advice: set a base case where you could exit, and if you hit the bearish case, start auto-investing out across several tokens.\n- Example: if you hit 100k, it doesn't matter, it's the bearish case, you can start exiting over 3 months, or set trigger orders (sell at +10%, +20%, at 120k...).\n- Reminder: every cycle brings the same emotions. Right now we're at the lows (volume, content, everything), the calm just before the next pump (NFA).\n\n🟢 Waiting for the perfect entry\n- Everyone wants the best moment to get in. But that moment never comes.\n- The football match analogy: the match lasts 90 minutes, but trying to watch only the goal moments doesn't work. You have to watch the whole match.\n- You can play with trigger orders and trade the market (useful if you're good at it), but for your core portfolio, auto-invest remains the best approach.\n- You can tweak your auto-invest: e.g. €10,000 over 3-4 years, so ~200/month. If the market looks like it's at a good level (low prices), you can load up more at the start (250, 300 instead of 200).\n- Don't try to time the market. Aim to spend the most time in the market to catch all the goals scored during the match.\n\n🟢 Trading solo\n- Something nobody talks about: trading and investing on your own is very hard.\n- The rat drug experiment analogy: an isolated rat facing drugged water always ends up dying, but in a \"rat city\" (a rich social environment), none of them die. They sometimes use, but they get through it.\n- Trading isn't a drug, it's a means to reach financial freedom. But you go through extreme emotions, sometimes very painful, sometimes very satisfying.\n- SwissBorg's strength is the community: helping each other, learning from one another, understanding where the light at the end of the tunnel is, and getting through it together.\n- The Cyborg Advisor (in the works for months, coming soon), the Guardians, this show, and real-life meetups are all ways to share ideas and invest better, together.\n\n🟢 Miscellaneous\n- The \"Kids bundle\" will most likely launch next week.\n- New tools for active traders are coming very soon.\n- The Guardians app will see some changes.\n- Community Index: 2.7 (very low, little activity in current markets).\n- Video link: https://t.co/xOR0PkMHR2",
-"likeCount": 34,
-"retweetCount": 19,
-"url": "https://x.com/nicokonut/status/2084725728445092082",
-"createdAt": "Tue Aug 04 19:38:40 +0000 2026"
+"userName": "ZhihuFrontier",
+"text": "🎓 How a CMU PhD Student Takes a Paper From 0 to 1\nAfter three semesters as a PhD student at Carnegie Mellon University, Zhihu contributor 郑深 shared the workflow he uses to turn an early research idea into a conference submission.\nHis first year included funding uncertainty, an ICCV 2025 acceptance for ROADWork and a Waymo internship. He is now preparing or submitting two first-author papers.\nHis main lesson is that research rarely starts with a perfect idea. It advances through reproducibility, failure analysis and disciplined iteration.\n\n1️⃣ Start with a tractable research problem\nFor junior PhD students, the most efficient starting point is usually talking to advisors and senior students about available projects.\nThe ideal direction has high potential but limited competition. If that opportunity is unavailable, look for a concrete weakness in existing work.\nBegin with recent surveys from the past one or two years. Then select around ten representative top-conference papers with strong results, high citations and open-source code.\nAt first, focus on titles, abstracts, figures and tables. In fast-moving areas such as text-to-image generation, papers older than one year may already be less relevant.\n\n2️⃣ Choose datasets and metrics conservatively\nPrefer public datasets that the community already uses. They make comparisons easier and reduce unexpected engineering costs.\nBefore modifying or building a dataset, estimate:\n· Compute requirements\n· Annotation cost\n· Engineering workload\n· Delivery time\nApply the same discipline to evaluation metrics. If an existing metric ignores important objects, rare events or safety-critical cases, improving it may become part of the research contribution.\nOtherwise, keep the standard metric. Changing datasets and metrics too early creates unnecessary variables.\n\n3️⃣ Reproduce a strong baseline before proposing anything\nChoose one representative, high-quality paper as the baseline.\nFirst, run its released pretrained checkpoint. Then train the model yourself and verify that you can reproduce the reported result.\nIf the baseline cannot be reproduced after reasonable effort, reconsider it. Building a new method on top of an unstable baseline makes every later conclusion difficult to trust.\nOnly after reproduction should you read the method and implementation in detail.\n\n4️⃣ Let failure cases reveal the research question\nVisualize the baseline’s outputs and combine qualitative observations with quantitative metrics.\nGroup failures into clear categories:\n· Small objects\n· Occlusion\n· Rare scenarios\n· Missing context\n· Incorrect associations\n· Unstable predictions\nThis turns “the model is not good enough” into a set of testable problems.\nThe next step is recursive ablation. Remove or replace one module, retrain the system and measure what changes. Continue decomposing the components with the largest impact.\nThis process reveals both how the model works and where a meaningful contribution may exist.\n\n🔍 Two outcomes lead to different research strategies\nIf removing modules consistently reduces performance, the existing architecture is probably well designed.\nYou may need a genuinely new modeling idea. This is difficult to solve through intuition alone, so discussions with advisors and senior researchers become especially valuable.\nIf removing a component improves performance, the opportunity is more direct.\nStudy related alternatives, replace the problematic component and treat the improved system as a new baseline. Then continue iterating until your own module emerges from the process.\nA good research idea is often discovered through controlled removal, not added complexity.\n\n5️⃣ Implement the smallest possible version first\nOnce you have an idea, test it with the least code and time possible.\nDo not begin by tuning hyperparameters.\n🔹 Write an independent Python script to verify that the new module is feasible.\n🔹 Integrate it into the existing repository and make inference work before training.\n🔹 Start with a small training subset, but always evaluate on the full test set.\nA failed minimal experiment is cheap. A failed experiment buried inside a large codebase can consume days before revealing that the original idea was flawed.\n\n6️⃣ Treat experiment management as part of research\nClean engineering makes conclusions easier to trust.\nUse one base configuration, such as exp_base.yaml, and keep each experimental config limited to a small number of changes.\nGive experiments traceable names. Commit and push after every successful small modification.\nUse separate Git branches for larger architectural changes. Merge them only after confirming compatibility with the main pipeline.\nThis prevents a common research failure: obtaining a good result but being unable to identify which code, configuration or checkpoint produced it.\n\n7️⃣ Scale experiments in stages\nTrain on a subset first to check whether the idea moves the metric in the expected direction. Once the pipeline is stable, run the complete training set.\nEvaluation should remain on the full test set throughout the process.\nRepeat implementation and validation until:\n· The method clearly outperforms existing approaches\n· The improvement is consistent\n· Further gains cannot be explained by simple tuning\n· Failure cases have changed in the expected direction\nThen expand the evaluation to additional datasets and metrics.\n\n8️⃣ Write figures before prose\nWhen the experiments are complete, start the paper with figures and tables.\nNext, build the argument around them:\n1. What problem does the baseline have?\n2. Why does the proposed method address it?\n3. Which experiments support that claim?\n4. Where does the method still fail?\nOnly then fill in the prose.\nStarting with visual evidence makes it harder for the paper to drift into claims unsupported by the experiments.\n\n🧘 Avoiding burnout is part of the workflow\nResearch productivity depends on sustained attention, not occasional all-nighters.\nThe author recommends reducing short-video and social-media use, sleeping enough and finding reliable ways to recover through food, music, exercise or a spa.\nWhen progress feels difficult, talk to other people instead of remaining isolated. Senior students can also serve as realistic examples of how research careers develop.\nRest is not time taken away from research. Clear thinking and creative work depend on it.\n\n🔑 The complete 0-to-1 loop\nThe workflow can be summarized as:\nChoose a tractable problem → reproduce a baseline → classify its failures → ablate its modules → test the smallest new idea → scale carefully → write around evidence.\nThe critical step is not brainstorming a complicated architecture.\nIt is building a process that repeatedly converts observations into falsifiable experiments.\n\n🔗 Full Reading:\nhttps://t.co/QOF51oeaVg\n\n✏️Note: The original Chinese post was written as a reflection at the beginning of 2026, but its research workflow and practical advice remain highly relevant today.\n\n#PhD #AcademicResearch #MachineLearning #ResearchWorkflow #PaperWriting #GraduateSchool",
+"likeCount": 178,
+"retweetCount": 15,
+"url": "https://x.com/ZhihuFrontier/status/2084533099896225904",
+"createdAt": "Tue Aug 04 06:53:14 +0000 2026"
 },
 {
 "userName": "_avichawla",
 "text": "4 stages of LLM training, clearly explained:\n\n(a popular LLM interview question; bookmark this)\n\n→ Pre-training\n→ Instruction fine-tuning\n→ Preference fine-tuning\n→ Reasoning fine-tuning\n\nThe visual covers all of them.\n\nA base model treats a question as text to be continued, not a request to be answered. Questions in its training data usually have more questions next to them, so that's what the model replies.\n\nThe stages after pre-training allow changing that behaviour, and each one uses a different training signal to do it.\n\n0) Randomly initialized model\n\nThe weights are random numbers, so token selection is close to uniform, and the LLM outputs gibberish text.\n\n1) Pre-training\n\nThe model reads a large text corpus and repeatedly predicts the next word.\n\nThis stage teaches the model grammar and facts about the world.\n\nAlso, most of its raw reasoning ability comes from this stage, and it's where nearly all of the training compute goes.\n\nThe model becomes good at continuing text, but nothing in the objective connects a question to an answer.\n\n2) Instruction fine-tuning\n\nHere, it trains on pairs of instructions and good responses, so it picks up the convention that a question should get an answer and a request to summarise should get a summary.\n\nOpenAI used roughly 13,000 human-written examples on GPT-3, against a pre-training corpus of hundreds of billions of words.\n\nThe knowledge was already in the weights, and this stage mostly taught a response format.\n\n3) Preference fine-tuning\n\nA lot of requests have no single correct answer, and supervised fine-tuning needs a specific target to train against.\n\nIn this setup, two responses go to a human who picks the better one. You may have already seen this in ChatGPT, where it asks which of the two responses is better.\n\nThose picks train a separate model that predicts which response a human would have chosen. The main model then gets updated to score higher against that predictor.\n\n4) Reasoning fine-tuning\n\nFor maths and code, there's usually one correct answer, and a program can check it. Human preference isn't needed here, since correctness is already a usable reward signal.\n\nThe model attempts a problem, the answer gets checked, and it's rewarded when it gets it right.\n\nDeepSeek trained R1 this way with GRPO, and behaviours like working through intermediate steps and going back to fix its own mistakes showed up during training without any examples demonstrating them.\n\nThat said, stage 4 only works when a program can check the answer. Maths and code inherently provide that.\n\nBut a support reply, a RAG answer, or a summary has no correct output to check against, so the reward has to come from somewhere else.\n\nI wrote a full breakdown of how labs are handling that problem, from RLHF through GRPO, and what replaced the checker.\n\nRead it below.",
 "likeCount": 158,
-"retweetCount": 34,
+"retweetCount": 33,
 "url": "https://x.com/_avichawla/status/2083111291833757900",
 "createdAt": "Fri Jul 31 08:43:28 +0000 2026"
 },
 {
 "userName": "shushant_l",
-"text": "I'm genuinely surprised how many people still use the same AI app for everything.\n\nHere are the 20 best AI mobile apps for every task you'll ever need.\n\n---\n\n1. ChatGPT is the best all-round AI assistant for everyday work and life.\n\n---\n\n2. Claude is perfect for writing, coding, and long documents.\n\n---\n\n3. Gemini is the best choice if you use Gmail, Docs, and other Google apps.\n\n---\n\n4. Microsoft Copilot works seamlessly with Word, Excel, and Microsoft 365.\n\n---\n\n5. Perplexity is one of the best AI apps for research with reliable sources.\n\n---\n\n6. Grok is great for real-time information and live web access.\n\n---\n\n7. DeepSeek delivers powerful reasoning completely free.\n\n---\n\n8. Meta AI integrates directly with WhatsApp and Instagram.\n\n---\n\n9. Poe lets you compare multiple AI models inside one app.\n\n---\n\n10. Pi AI feels natural for conversations, coaching, and brainstorming.\n\n---\n\n11. NotebookLM turns PDFs and notes into easy summaries and audio overviews.\n\n---\n\n12. Grammarly helps improve grammar, tone, and everyday writing.\n\n---\n\n13. Canva makes AI-powered designs, presentations, and social posts effortless.\n\n---\n\n14. Adobe Firefly is excellent for AI image editing and creative design.\n\n---\n\n15. Photomator makes photo enhancement and editing much faster.\n\n---\n\n16. Luma AI creates cinematic AI videos from text and images.\n\n---\n\n17. ElevenLabs generates realistic AI voices in multiple languages.\n\n---\n\n18. Suno creates full songs, music, and lyrics using AI.\n\n---\n\n19. https://t.co/3zADbSd9bB records meetings and automatically creates searchable transcripts.\n\n---\n\n20. Notion AI helps you write, summarize, brainstorm, and stay productive.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 11,
-"retweetCount": 4,
-"url": "https://x.com/shushant_l/status/2084868004844871893",
-"createdAt": "Wed Aug 05 05:04:01 +0000 2026"
-},
-{
-"userName": "tec_safwan",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @tec_safwan  For More Tools.",
-"likeCount": 23,
-"retweetCount": 11,
-"url": "https://x.com/tec_safwan/status/2084870816303644730",
-"createdAt": "Wed Aug 05 05:15:12 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "It's not time to slow down but to accelerate!\n\nThe recent AI-powered cyberattacks have everyone talking about the risks of AI. We should. But let's not lose sight of the bigger picture!\n\nIf we work hard at it, AI will make the world safer, not less safe, just as most major technologies have.\n\nWe've already seen a glimpse of that: we defended ourselves with AI (more specifically an open model). The same systems that helped stop an AI-powered cyberattack can now help defend against millions of cyberattacks every day, while helping us identify and fix vulnerabilities before attackers exploit them.\n\nTo get there, we need three things in my opinion:\n\n- Increase transparency with mandatory trace sharing and incident disclosure for agent cyber-attacks\n- Keep AI-powered cyberattacks illegal, with meaningful penalties to disincentivize them\n- Equip defenders with the best AI, especially open models, to reduce the asymmetry of capabilities between attackers and defenders\n\nIf we get those three things right, AI won't just create new cybersecurity challenges, it will make cybersecurity fundamentally and meaningfully stronger. \n\nAnd that's before considering AI's impact on science, healthcare, education, productivity, and much more.\n\nIt's not time to slow down but to accelerate!",
-"likeCount": 1225,
-"retweetCount": 191,
-"url": "https://x.com/ClementDelangue/status/2083908468285620415",
-"createdAt": "Sun Aug 02 13:31:10 +0000 2026"
-},
-{
-"userName": "Abobsterina",
-"text": "A 24-YEAR-OLD BUILT AN AI FITNESS MODEL THAT CAN BECOME A $11,200/MONTH CONTENT BUSINESS.\n\nShe looks like a normal fitness creator filming a quick dance video at home.\n\nBut there is no camera, no gym partnership, no photoshoot, and no person trying to repeat the same take fifty times.\n\nThe real work happens before the video is generated.\n\nThe creator locks one identity: facial features, hair, proportions, outfits, lighting, camera angles, and personality. A consistent character model keeps her recognizable while new clips put her in different rooms, workouts, outfits, and trends.\n\nThen the motion pipeline turns simple poses into short videos that feel native to TikTok instead of looking like polished AI ads.\n\nThat is the difference between generating random pretty faces and building a digital creator people remember.\n\nOne possible model:\n\n$190/month for tools and generation  \n$1,600 per recurring content package  \n7 fitness, fashion, or wellness clients  \n= $11,200/month\n\nThe next generation of influencers may not need a gym, a photographer, or even a real apartment.\n\nThey just need a character people want to see again.",
-"likeCount": 18,
-"retweetCount": 1,
-"url": "https://x.com/Abobsterina/status/2084248808649568645",
-"createdAt": "Mon Aug 03 12:03:34 +0000 2026"
-},
-{
-"userName": "influencer_seo",
-"text": "Want to learn how to build a stunning AI fashion campagn using the new MiniMax-H3 Video model with open weights? Use this prompt below 👇\n\nMinimax 3 Prompt: Create a premium 16:9 landscape fashion film. Use Image 1 for the overall mood, location, and film texture; Image 2 for the talent; Image 3 for the bag; and Image 4 for the closing brand mark. This is a fashion campaign for the clothing and bag. The tone is elevated, cool, and restrained, but the edit should still feel lively and fashion-forward—not like a conventional narrative film or an e-commerce ad.\n\nKeep the story simple: beside a vintage car on a desert highway, a woman walks to the rear of the car, opens the trunk, takes out a black bag, shares a quiet beat with the man standing nearby, then leaves carrying the bag. Integrate the clothing and bag naturally into the performance so they feel like part of the characters’ identity.\n\nI added the final video in and the reference images for you to learn from!",
+"text": "I'm amazed most people still design websites the hard way.\n\nHere's how to build stunning websites faster with AI from idea to launch.\n\n---\n\n1. Start by defining your website goals, audience, brand, and desired conversions.\n\n---\n\n2. Research competitors to uncover design ideas, strengths, and opportunities.\n\n---\n\n3. Build detailed user personas before creating a single design.\n\n---\n\n4. Plan a simple website structure with clear navigation.\n\n---\n\n5. Generate wireframes to visualize layouts before adding visuals.\n\n---\n\n6. Use AI to design pages, sections, navigation, and responsive layouts.\n\n---\n\n7. Create a consistent design system with colors, fonts, and reusable components.\n\n---\n\n8. Generate images, icons, illustrations, and mockups with AI.\n\n---\n\n9. Write website copy including headlines, landing pages, FAQs, and CTAs.\n\n---\n\n10. Generate HTML, CSS, JavaScript, and responsive code with AI.\n\n---\n\n11. Always review AI generated designs and code before publishing.\n\n---\n\n12. Optimize every page for desktop, tablet, and mobile devices.\n\n---\n\n13. Use AI to improve readability, accessibility, forms, and user experience.\n\n---\n\n14. Follow accessibility best practices like proper contrast, alt text, and keyboard navigation.\n\n---\n\n15. Improve SEO with better keywords, headings, metadata, and internal links.\n\n---\n\n16. Optimize performance through image compression, lazy loading, caching, and faster code.\n\n---\n\n17. Create multiple headline, CTA, and landing page variations for higher conversions.\n\n---\n\n18. Test every design with real users before launching your website.\n\n---\n\n19. Use the right AI tools for planning, design, coding, and website building.\n\n---\n\n20. Check the infographic to explore the complete AI web design workflow and extra prompts.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
 "likeCount": 22,
-"retweetCount": 0,
-"url": "https://x.com/influencer_seo/status/2084355335222108362",
-"createdAt": "Mon Aug 03 19:06:52 +0000 2026"
+"retweetCount": 5,
+"url": "https://x.com/shushant_l/status/2085018751884538212",
+"createdAt": "Wed Aug 05 15:03:02 +0000 2026"
+},
+{
+"userName": "hey_abusiddik",
+"text": "100 AI tools that's turn hours work into minutes 👍👍 \n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo",
+"likeCount": 18,
+"retweetCount": 15,
+"url": "https://x.com/hey_abusiddik/status/2085033096429400259",
+"createdAt": "Wed Aug 05 16:00:02 +0000 2026"
+},
+{
+"userName": "ScottyBeamIO",
+"text": "A 21-YEAR-OLD CHINESE GIRL MAKES $12,000+ A MONTH WITH A DANCING ANIME GIRL THAT DOESN’T EVEN EXIST\n\nNo, I’m not talking about game development or animation.\n\nShe simply dances in front of a camera.\n\nAI turns every movement, facial expression, and gesture into a realistic anime avatar that copies her perfectly.\n\nThat’s the version she posts online. Not herself.\n\nMillions of people follow the character. Most of them don’t even care who’s controlling it.\n\nFashion brands pay the avatar to wear their clothes. Beauty companies pay the avatar to promote their products. Gaming studios pay the avatar to appear in campaigns.\n\nThe audience never bought into the AI. They bought into the personality.\n\nThat’s the biggest misconception about AI creators.\n\nPeople don’t follow technology. They follow characters they enjoy watching.\n\nThe creators who understand that first will build the next generation of internet celebrities.",
+"likeCount": 73,
+"retweetCount": 3,
+"url": "https://x.com/ScottyBeamIO/status/2084944444453765463",
+"createdAt": "Wed Aug 05 10:07:46 +0000 2026"
 },
 {
 "userName": "influencer_seo",
 "text": "Here's how to build an AI music video using the new MiniMax-H3 Video model with open weights... Use this prompt below 👇\n\nprompt\n\nStyle: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.\n\n#minimax #minimaxh3 @MiniMax_AI",
-"likeCount": 184,
+"likeCount": 187,
 "retweetCount": 13,
 "url": "https://x.com/influencer_seo/status/2084355942628684135",
 "createdAt": "Mon Aug 03 19:09:16 +0000 2026"
 },
 {
-"userName": "Info_sam_ai",
-"text": "Video editing/generation: Pictory (\"Transform scripts to video\"), Runway ML, Wonder Dynamics\n\n​Image Generation:\n Midjourney (\"Photorealistic AI images\"), Dall E (\"Photorealistic AI images\"), Pixlr\n​Speech/ audio: Wellsaid Labs, Eleven Labs, TTS Maker (\"Premium text-to-speech\")\n\n​Research:\n\n Open AI, Perplexity, AgentGPT\n​Text: Copy AI, Jasper, Writesonic\n​Sales: Lavender, Regie, Smartwriter AI\n​3D Creatives: CSM, Mirage, Luma AI\n​SEO Tools:\n\n Surfer SEO, Rank IQ, SEO AI\n​Coding Tools:\n\n Durable, Github Copilot, Replit",
-"likeCount": 73,
-"retweetCount": 58,
-"url": "https://x.com/Info_sam_ai/status/2084714003738276014",
-"createdAt": "Tue Aug 04 18:52:05 +0000 2026"
+"userName": "jean_tarbou",
+"text": "Our tech report on DiffusionGemma is out! 🚀\n\nMy biggest highlight? Online post-training is a game changer for text diffusion.\n\nWe performed joint Sampler Distillation and Reinforcement Learning (SD⋅RL) after SFT, pushing the quality-speed Pareto frontier into a new regime 📈 https://t.co/0wyylMEo7a",
+"likeCount": 96,
+"retweetCount": 23,
+"url": "https://x.com/jean_tarbou/status/2084691842759573720",
+"createdAt": "Tue Aug 04 17:24:01 +0000 2026"
 },
 {
-"userName": "BlockchainWeeks",
-"text": "📺 Impact Money Show goes LIVE!\n\nMonday, Aug 3 · 8:30–9:30 AM ET\n\nExclusive interviews on:\n• Crypto &amp; RWAs\n• U.S. Manufacturing\n• Next-Gen Education\n\nHosted by Bruce Porter Jr. &amp; David Porter | #UNBlockchainWeek\n\n🎥 Watch live → https://t.co/lxnSX8S4gD https://t.co/0Dvi0YckRR",
-"likeCount": 7,
-"retweetCount": 6,
-"url": "https://x.com/BlockchainWeeks/status/2084086761832038744",
-"createdAt": "Mon Aug 03 01:19:39 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "\"very weird and unprecedented\" is a good way to put it haha. Thanks for having me @margbrennan @CBS \n\nArticle: https://t.co/XxP5KSr2YL\nFull interview: https://t.co/949NEAWmvr https://t.co/SQCkqy05zw",
-"likeCount": 111,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2084268924066009483",
-"createdAt": "Mon Aug 03 13:23:29 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @FaceTheNation: WATCH: @margbrennan’s conversation with Hugging Face CEO Clément Delangue on what’s next for artificial intelligence aft…",
-"likeCount": 27,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2083960625479241961",
-"createdAt": "Sun Aug 02 16:58:25 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BrianRoemmele: Another day and another full frontier model running on your computer. \n\nBeen teething DeepSeek V4 Flash on over 60 emplo…",
-"likeCount": 132,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2083961362904961132",
-"createdAt": "Sun Aug 02 17:01:21 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
-"likeCount": 23,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2084383891192709211",
-"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @FaceTheNation: Instead of limiting the progress of AI companies or preventing them from releasing models as proposed in the bipartisan…",
-"likeCount": 36,
-"retweetCount": 12,
-"url": "https://x.com/ClementDelangue/status/2083964853631197651",
-"createdAt": "Sun Aug 02 17:15:13 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @perkinscr97: Fascinating to see @ClementDelangue, CEO of @huggingface speaking on @FaceTheNation.  Excellent points and solid advocacy…",
-"likeCount": 37,
-"retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2083945584893804693",
-"createdAt": "Sun Aug 02 15:58:39 +0000 2026"
+"userName": "agihouse_org",
+"text": "Jerry Tworek gave a keynote and long-form interview at AGI House’s Auto-Research Summit. \n\nWe distilled both into one story: Codex, scaling RL, test-time learning, and automated AI labs. Read and bookmark ↓ https://t.co/5FZJMIfsyf",
+"likeCount": 44,
+"retweetCount": 4,
+"url": "https://x.com/agihouse_org/status/2085133996137259312",
+"createdAt": "Wed Aug 05 22:40:59 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @AndrewCurran_: At first I thought Bloomberg forgot to add DeepSeek's pricing to the chart. https://t.co/j0GvfyC3Ld",
-"likeCount": 10407,
-"retweetCount": 833,
-"url": "https://x.com/jeremyphoward/status/2084749629216977010",
-"createdAt": "Tue Aug 04 21:13:39 +0000 2026"
+"text": "RT @deepseek_ai: 🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta!\n\n🔷 We’ve massively upgraded its Agent capabilities—benchmark…",
+"likeCount": 29763,
+"retweetCount": 3518,
+"url": "https://x.com/jeremyphoward/status/2083302825636110681",
+"createdAt": "Fri Jul 31 21:24:34 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @matvelloso: To summarize:\n\n1-Builds a weapon\n\n2-Blocks most people from using it because they aren't mature enough to handle it\n\n3-Proc…",
+"likeCount": 197,
+"retweetCount": 17,
+"url": "https://x.com/jeremyphoward/status/2083304683624616433",
+"createdAt": "Fri Jul 31 21:31:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MiniMax_AI: MiniMax-H3 Is Now Publicly Available\nhttps://t.co/x24nyGoKt8 https://t.co/oJXDeOTQvZ",
-"likeCount": 4535,
-"retweetCount": 586,
-"url": "https://x.com/ClementDelangue/status/2084146325252157442",
-"createdAt": "Mon Aug 03 05:16:20 +0000 2026"
+"text": "RT @FaceTheNation: When asked if AI developers have lost control of their technology after an AI agent created by OpenAI escaped its testin…",
+"likeCount": 45,
+"retweetCount": 16,
+"url": "https://x.com/ClementDelangue/status/2084000601126338644",
+"createdAt": "Sun Aug 02 19:37:16 +0000 2026"
 },
 {
-"userName": "RoseOnX9",
-"text": "https://t.co/GVajFRmYoC",
-"likeCount": 14,
-"retweetCount": 2,
-"url": "https://x.com/RoseOnX9/status/2084666787808031033",
-"createdAt": "Tue Aug 04 15:44:28 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @martin_casado: It appears model capabilities / releases are accelerating. But if you divide by the money going into the labs, it looks…",
+"likeCount": 241,
+"retweetCount": 18,
+"url": "https://x.com/jeremyphoward/status/2083663695444660372",
+"createdAt": "Sat Aug 01 21:18:32 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @CNBC: Hugging Face CEO says China is winning the AI race and dominating on open models https://t.co/juhpKedKGR",
+"likeCount": 171,
+"retweetCount": 38,
+"url": "https://x.com/ClementDelangue/status/2084434673292189963",
+"createdAt": "Tue Aug 04 00:22:07 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "https://t.co/AiHFGvyR8u",
+"likeCount": 104,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2085000309865070795",
+"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
+},
+{
+"userName": "mattdreams",
+"text": "https://t.co/M6hijLuxYM",
+"likeCount": 33,
+"retweetCount": 4,
+"url": "https://x.com/mattdreams/status/2084663729988186539",
+"createdAt": "Tue Aug 04 15:32:19 +0000 2026"
 }
 ]

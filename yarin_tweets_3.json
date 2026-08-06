@@ -1,59 +1,51 @@
 [
 {
-"userName": "ZhihuFrontier",
-"text": "🎓 How a CMU PhD Student Takes a Paper From 0 to 1\nAfter three semesters as a PhD student at Carnegie Mellon University, Zhihu contributor 郑深 shared the workflow he uses to turn an early research idea into a conference submission.\nHis first year included funding uncertainty, an ICCV 2025 acceptance for ROADWork and a Waymo internship. He is now preparing or submitting two first-author papers.\nHis main lesson is that research rarely starts with a perfect idea. It advances through reproducibility, failure analysis and disciplined iteration.\n\n1️⃣ Start with a tractable research problem\nFor junior PhD students, the most efficient starting point is usually talking to advisors and senior students about available projects.\nThe ideal direction has high potential but limited competition. If that opportunity is unavailable, look for a concrete weakness in existing work.\nBegin with recent surveys from the past one or two years. Then select around ten representative top-conference papers with strong results, high citations and open-source code.\nAt first, focus on titles, abstracts, figures and tables. In fast-moving areas such as text-to-image generation, papers older than one year may already be less relevant.\n\n2️⃣ Choose datasets and metrics conservatively\nPrefer public datasets that the community already uses. They make comparisons easier and reduce unexpected engineering costs.\nBefore modifying or building a dataset, estimate:\n· Compute requirements\n· Annotation cost\n· Engineering workload\n· Delivery time\nApply the same discipline to evaluation metrics. If an existing metric ignores important objects, rare events or safety-critical cases, improving it may become part of the research contribution.\nOtherwise, keep the standard metric. Changing datasets and metrics too early creates unnecessary variables.\n\n3️⃣ Reproduce a strong baseline before proposing anything\nChoose one representative, high-quality paper as the baseline.\nFirst, run its released pretrained checkpoint. Then train the model yourself and verify that you can reproduce the reported result.\nIf the baseline cannot be reproduced after reasonable effort, reconsider it. Building a new method on top of an unstable baseline makes every later conclusion difficult to trust.\nOnly after reproduction should you read the method and implementation in detail.\n\n4️⃣ Let failure cases reveal the research question\nVisualize the baseline’s outputs and combine qualitative observations with quantitative metrics.\nGroup failures into clear categories:\n· Small objects\n· Occlusion\n· Rare scenarios\n· Missing context\n· Incorrect associations\n· Unstable predictions\nThis turns “the model is not good enough” into a set of testable problems.\nThe next step is recursive ablation. Remove or replace one module, retrain the system and measure what changes. Continue decomposing the components with the largest impact.\nThis process reveals both how the model works and where a meaningful contribution may exist.\n\n🔍 Two outcomes lead to different research strategies\nIf removing modules consistently reduces performance, the existing architecture is probably well designed.\nYou may need a genuinely new modeling idea. This is difficult to solve through intuition alone, so discussions with advisors and senior researchers become especially valuable.\nIf removing a component improves performance, the opportunity is more direct.\nStudy related alternatives, replace the problematic component and treat the improved system as a new baseline. Then continue iterating until your own module emerges from the process.\nA good research idea is often discovered through controlled removal, not added complexity.\n\n5️⃣ Implement the smallest possible version first\nOnce you have an idea, test it with the least code and time possible.\nDo not begin by tuning hyperparameters.\n🔹 Write an independent Python script to verify that the new module is feasible.\n🔹 Integrate it into the existing repository and make inference work before training.\n🔹 Start with a small training subset, but always evaluate on the full test set.\nA failed minimal experiment is cheap. A failed experiment buried inside a large codebase can consume days before revealing that the original idea was flawed.\n\n6️⃣ Treat experiment management as part of research\nClean engineering makes conclusions easier to trust.\nUse one base configuration, such as exp_base.yaml, and keep each experimental config limited to a small number of changes.\nGive experiments traceable names. Commit and push after every successful small modification.\nUse separate Git branches for larger architectural changes. Merge them only after confirming compatibility with the main pipeline.\nThis prevents a common research failure: obtaining a good result but being unable to identify which code, configuration or checkpoint produced it.\n\n7️⃣ Scale experiments in stages\nTrain on a subset first to check whether the idea moves the metric in the expected direction. Once the pipeline is stable, run the complete training set.\nEvaluation should remain on the full test set throughout the process.\nRepeat implementation and validation until:\n· The method clearly outperforms existing approaches\n· The improvement is consistent\n· Further gains cannot be explained by simple tuning\n· Failure cases have changed in the expected direction\nThen expand the evaluation to additional datasets and metrics.\n\n8️⃣ Write figures before prose\nWhen the experiments are complete, start the paper with figures and tables.\nNext, build the argument around them:\n1. What problem does the baseline have?\n2. Why does the proposed method address it?\n3. Which experiments support that claim?\n4. Where does the method still fail?\nOnly then fill in the prose.\nStarting with visual evidence makes it harder for the paper to drift into claims unsupported by the experiments.\n\n🧘 Avoiding burnout is part of the workflow\nResearch productivity depends on sustained attention, not occasional all-nighters.\nThe author recommends reducing short-video and social-media use, sleeping enough and finding reliable ways to recover through food, music, exercise or a spa.\nWhen progress feels difficult, talk to other people instead of remaining isolated. Senior students can also serve as realistic examples of how research careers develop.\nRest is not time taken away from research. Clear thinking and creative work depend on it.\n\n🔑 The complete 0-to-1 loop\nThe workflow can be summarized as:\nChoose a tractable problem → reproduce a baseline → classify its failures → ablate its modules → test the smallest new idea → scale carefully → write around evidence.\nThe critical step is not brainstorming a complicated architecture.\nIt is building a process that repeatedly converts observations into falsifiable experiments.\n\n🔗 Full Reading:\nhttps://t.co/QOF51oeaVg\n\n✏️Note: The original Chinese post was written as a reflection at the beginning of 2026, but its research workflow and practical advice remain highly relevant today.\n\n#PhD #AcademicResearch #MachineLearning #ResearchWorkflow #PaperWriting #GraduateSchool",
-"likeCount": 117,
-"retweetCount": 11,
-"url": "https://x.com/ZhihuFrontier/status/2084533099896225904",
-"createdAt": "Tue Aug 04 06:53:14 +0000 2026"
+"userName": "Arina_hoqe",
+"text": "To create Ai image like this Just follow these simple steps 👇\n\n1️⃣ Open Google Gemini//Grok/ChatGPT \n2️⃣ Upload Your Photo 🤳\n3️⃣ Copy and Paste this Prompt ✍️\n\nProfessional AI Image Generation Prompt (Highly Detailed & Precise)\nPrompt:\nCreate a masterpiece-quality, ultra-photorealistic lifestyle portrait in a 4:5 vertical composition, captured in 8K Ultra HD with extraordinary realism, premium editorial photography quality, cinematic HDR lighting, natural skin texture, and exceptional micro-detail. The image should seamlessly blend real-world photography with expressive monochrome hand-drawn sketch art, creating the illusion that the illustrated version of the subject has stepped out of her imagination onto the wall beside her.\nThe scene takes place inside a modern, warm-toned minimalist home with soft beige walls, polished ivory marble flooring, and elegant Scandinavian-inspired wooden furniture. On the left side of the frame is a light oak wooden cabinet with framed botanical artwork and a small green indoor plant, contributing to a calm, cozy, contemporary atmosphere. A woven jute rug occupies the foreground, enhancing the home's natural aesthetic.\nThe primary subject is a beautiful young South Asian woman standing naturally beside a plain wall. She has a soft oval face, warm wheatish-fair complexion, expressive dark brown eyes, delicately arched eyebrows, a small straight nose, naturally pink lips, and subtle everyday makeup. Her dark brown hair is loosely tied into a casual low ponytail with soft face-framing strands falling naturally around her cheeks.\nShe wears an elegant pastel lavender embroidered Indian kurta set featuring intricate white floral thread embroidery throughout the fabric. The kurta has a round neckline, full-length semi-sheer sleeves with embroidered cuffs, matching straight pants, and traditional embroidered jutti flats. Small floral earrings, a delicate gold chain necklace, and minimal accessories complete the refined ethnic look.\nThe woman leans gently against the wall with a shy, playful posture. Her hands are softly clasped together in front of her body, shoulders slightly raised, one leg bent backward with only the toe touching the floor, creating an adorable, feminine pose. She gazes affectionately toward the illustrated version beside her with a subtle smile, conveying warmth, innocence, and curiosity.\nOccupying the right half of the composition is a large monochrome ink sketch of the same woman drawn directly on the wall. The sketch perfectly matches her hairstyle, facial features, clothing, jewelry, proportions, and overall identity while transforming her personality into a lively cartoon-style illustration. The drawing is created using expressive black ink lines, loose cross-hatching, confident brush strokes, and sketchbook-style detailing.\nUnlike the real subject's reserved pose, the illustrated character is energetic and playful. She balances on one leg with the opposite leg lifted backward, sticks out her tongue mischievously, winks one eye, and raises both hands making cheerful peace signs. Around the drawing are small hand-drawn doodles including hearts, stars, sparkle icons, motion lines, and playful accent marks that enhance the whimsical personality without overwhelming the composition.\nThe lighting is soft natural window light from the left, producing smooth shadows, beautiful dimensionality, realistic skin tones, subtle fabric translucency, and gentle highlights on the embroidery. The sketch should appear naturally integrated into the wall with crisp black ink contrast while remaining clearly hand-drawn rather than digitally rendered.\nCamera & Photography Settings:\nFull-frame professional DSLR or medium-format camera\n85mm prime portrait lens\nAperture: f/2.8\nISO 100\nShutter Speed: 1/200 sec\nEye-level perspective\nSoft natural daylight\nHigh dynamic range\nEditorial interior photography\nRazor-sharp focus on the subject\nClean background separation\nRealistic depth of field\nPremium fashion campaign quality\nStyle Keywords: Ultra-photorealistic, editorial lifestyle photography, luxury ethnic fashion, minimalist interior, Indian traditional elegance, monochrome ink illustration, playful wall sketch, cozy home aesthetic, cinematic lighting, realistic fabric texture, expressive line art, seamless photo-illustration blend, premium commercial photography, magazine-quality, hyper-detailed, 8K UHD, flawless realism.",
+"likeCount": 35,
+"retweetCount": 6,
+"url": "https://x.com/Arina_hoqe/status/2083395231366427044",
+"createdAt": "Sat Aug 01 03:31:45 +0000 2026"
 },
 {
 "userName": "EricLima81",
 "text": "eCash is winning. 🔥\n\nNot with “next Bitcoin” marketing.  \nNot with L2 promises.  \nNot with 2030 whitepapers.  \n\nWith real integration — today — into the financial system that already exists… and the one being born with AI agents.  \n\neCash ($XEC) is the peer-to-peer electronic cash Satoshi described in the whitepaper.  \nNot the mutilated version Bitcoin became after 2017.  \nThe original: native UTXO, sub-cent fees, seconds-finality via hybrid PoW + Avalanche consensus. ⚡\n\nAs Satoshi himself said:  \n“IF YOU DON’T BELIEVE ME OR DON’T GET IT, I DON’T HAVE TIME TO TRY TO CONVINCE YOU, SORRY.” 🤷‍♂️\n\nThe P2P protocol is no longer theory.  \neCash is already running:\n\nHybrid PoW + Avalanche consensus ❄️  \nAtomic settlement in seconds  \nIrrelevant fees  \nPure UTXO — no accounts, no complex state  \n\nRun your own eCash node. ✅  \nActivate Avalanche. ❄️  \nDone. You participate in consensus. No intermediary.  \n\nNow comes the part Bitcoin maximalists still refuse to see:\n\nYou convert on-chain, inside Cashtab, to Firma Alpha.  \nFrom the Firma app you liquidate instantly into:\n\n💵 Firma USD  \n💶 fEUR  \n🇨🇭 fCHF  \n\nSwiss-regulated stablecoins with:\n\n100% cash reserves 🏦  \nzero lending  \nzero rehypothecation  \natomic settlement ⚛️  \nnear-zero fees  \nirreversible (no chargebacks) 🚫↩️  \n\nThis is not a “bridge”.  \nThis is not a wrapped token.  \nThis is not CEX custody.  \n\nIt’s the same public UTXO transforming into Swiss-regulated money — and converting back 100% on-chain whenever you want. 🔄\n\nThe ecosystem is already plugged in:\n\nApple Pay • Google Pay • Binance • Coinbase • MoonPay • Revolut • physical cards • virtual USD accounts • real on/off-ramps 🚀\n\nReverse conversion: FIRMA → Firma Alpha → XEC.  \nAll on the same UTXO infrastructure. Never leave the chain.  \n\nWhile Bitcoin is still arguing “when Lightning will actually work” and “who controls the channels”, eCash already delivers the non-custodial interface that lets you:\n\nParticipate in consensus  \nMove value as pure UTXO  \nLiquidate into regulated tokenized fiat  \nConvert back to XEC  \n\nAll in the same stack. 🛡️\n\nAnd the agent layer is live:\n\nCobo eCash Agentic Wallet turns XEC into programmable money for AI.  \nAgents operate under real Pacts — enforceable, infrastructure-level contracts that define:\n\nIntent  \nExecution plan  \nSpending policies  \nAutomatic completion & revocation  \n\nNo private keys ever handed over.  \nNo trust in the LLM.  \nJust pure UTXO under human-defined boundaries + institutional MPC security.\n\nSpecific eCash capabilities already available:\n\nAutomated payments & multi-level budgets  \nDCA Traders for scheduled XEC buys  \nYield Optimizers that rebalance autonomously  \nTreasury Rebalancers with hard safety limits  \nNative x402 support  \nOne-tap Emergency Freeze that pauses every Pact instantly  \n\nFull stack:\n\neCash (UTXO + Avalanche)\n        ↓\nCashtab → Firma Alpha (on-chain conversion)\n        ↓\nFirma (USD / fEUR / fCHF) ← Swiss-regulated settlement\n        ↑\nCobo Agentic Wallet (Pacts + MPC)\n        ↑\nAI Agent (controlled autonomy)\n\nResult: an AI agent can spend eCash, convert to Swiss stablecoins, pay merchants via Firma Pay, and return to XEC — all under rules enforced by infrastructure, never by hope.\n\nFirma solves the merchant side: receive without card fees and without chargebacks.  \nCobo solves the agent side: spend with real Pacts and enforceable controls.  \neCash is the rail that connects both — the UTXO that moves at internet speed and still talks to the regulated financial system.  \n\nInstant.  \nGlobal.  \nSettled.  \nAgent-ready.  \n\nPOWERED BY eCash.  \nSovereign freedom. 🕊",
-"likeCount": 16,
-"retweetCount": 1,
+"likeCount": 25,
+"retweetCount": 4,
 "url": "https://x.com/EricLima81/status/2084777144287170634",
 "createdAt": "Tue Aug 04 23:02:59 +0000 2026"
 },
 {
-"userName": "AiwithLariab",
-"text": "GPT image 2 on chatgpt\n\nPrompt\n\nUse the uploaded photo as the ONLY identity reference.\n\nIMPORTANT:\nThis is an IMAGE EDIT task, NOT a text-to-image generation task.\n\nPreserve the exact facial identity with full face lock. Do not redesign or beautify the person. Keep the exact face shape, eyes, eyebrows, eyelashes, nose, lips, ears, jawline, skin tone, skin texture, hairstyle, hairline, expression, age, body proportions, hands, and every unique facial feature exactly the same as in the uploaded image. The final person must be 100% recognizable as the original.\n\nCreate a premium cinematic monochrome portrait in a stylish double-composition layout.\n\nThe background should be a soft outdoor environment with creamy bokeh and shallow depth of field.\n\nConvert the entire scene into elegant black-and-white while keeping only the small decorative hearts in bright red.\n\nCreate two versions of the same person:\n\n• A very large upper-body portrait occupying the left side of the frame, facing slightly sideways with a confident, calm expression.\n\n• A smaller full-body portrait placed on the lower-right side, naturally walking forward with one hand inside the trouser pocket and the other arm relaxed.\n\nThe clothing should be modern smart-casual:\n• Black collared button-up shirt with a smooth black-to-white gradient fade toward the lower sleeves and hem.\n• White high-waisted tailored trousers.\n• Black belt.\n• Black sunglasses.\n• Small hoop earrings.\n\nHair tied into a high ponytail with natural loose strands around the face.\n\nBlend both portraits seamlessly with soft fog at the bottom to create a premium editorial collage.\n\nAdd elegant graphic elements:\n• White handwritten brush-script text reading \"It's Me\" in the lower-left corner.\n• Three to five small bright-red hearts around the text.\n• A thin white dashed swirl leading toward a small white butterfly near the bottom.\n\nLuxury Instagram poster aesthetic.\n\nFashion editorial.\n\nPremium social media artwork.\n\nUltra realistic.\n\nNatural skin texture.\n\nProfessional retouching.\n\n85mm DSLR.\n\nHDR.\n\nSoft cinematic lighting.\n\nHigh contrast.\n\n8K ultra detailed.\n\nNEGATIVE PROMPT:\nNo face change.\nNo identity drift.\nNo hairstyle change.\nNo skin tone change.\nNo facial feature changes.\nNo age change.\nNo body shape change.\nNo distorted hands.\nNo extra fingers.\nNo extra people.\nNo duplicate body.\nNo text except \"It's Me\".\nNo watermark.\nNo logo.\nNo cartoon.\nNo anime.\nNo illustration.\nNo painting.\nNo AI-looking face.\nNo over-smoothing.\nNo beauty enhancement.",
-"likeCount": 99,
-"retweetCount": 6,
-"url": "https://x.com/AiwithLariab/status/2084138512023232654",
-"createdAt": "Mon Aug 03 04:45:17 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Some people are surprised that APIs (aka what Anthropic, OpenAI, and others provide) are treated differently than open weights in the new AI model framework. \n\nI'm not surprised at all, and it's actually very good policy. Let me explain:\n\nModel weights, APIs, and apps are three very different layers of the stack. Treating them the same would be a recipe for bad regulation.\n\nThink about how we handle cars. We don't regulate steel, we crash-test cars. Nobody asks a steel mill to guarantee that nothing dangerous will ever be built with its steel. Obligations sit with the carmaker and rules of the road with the driver, because that's where risk becomes real and where someone can actually act on it.\n\nModel weights are the steel of AI. They're raw research output, closer to science than product: no user, no interface, no deployment. They don't do anything on their own. And because everything else is built on top of them, this is the layer where regulation does the most damage. Restrict weights and you slow down all progress downstream, and you prevent countless positive use cases from ever emerging: the lab fine-tuning an open model for rare diseases, the startup serving a language big providers ignore, the safety researchers who can only audit models because the weights are open. You don't reduce risk, you just kill open source and concentrate power in a few big labs.\n\nAPIs are the middle layer, the parts and engine suppliers of AI: a commercial service where a provider serves a model at scale. Here you have a business relationship, terms of service, the ability to monitor for abuse. It makes sense to expect transparency, security standards, and accountability from providers at this layer, because they can actually enforce things.\n\nApps are the car on the road: where AI meets the real world. A medical assistant, a hiring tool, a companion for kids, a financial advisor. This is where concrete harm can happen, and conveniently, it's where we already have decades of regulation. Health, finance, employment, consumer protection. An AI hiring tool should comply with employment law whether it's powered by an open model, an API, or a spreadsheet.\n\nThe principle is simple: regulate at the layer where risk actually materializes and where actors can act on it. Push obligations to the deployment layer, keep the research layer open. We don't regulate steel, we crash-test cars. Well done @realDonaldTrump @DavidSacks @mkratsios47!",
+"likeCount": 494,
+"retweetCount": 92,
+"url": "https://x.com/ClementDelangue/status/2084992457674990033",
+"createdAt": "Wed Aug 05 13:18:33 +0000 2026"
 },
 {
-"userName": "codewithhajra",
-"text": "10 AI Skills to Master in 2026\n\n1. Prompt Engineering\n\nLearn how to write clear, specific prompts that help AI generate accurate, relevant, and high-quality responses.\n\n2. AI Workflow Automation\n\nUse AI to automate repetitive tasks by connecting different apps and services, saving time and improving productivity.\n\n3. AI Video Generation\n\nCreate professional videos from text prompts, scripts, or images without needing advanced video editing skills.\n\n4. AI Image Generation\n\nGenerate high-quality images, illustrations, graphics, and thumbnails using simple text descriptions.\n\n5. AI Content Writing\n\nUse AI to write blogs, social media posts, emails, marketing copy, scripts, newsletters, and other written content faster.\n\n6. AI Presentation Creation\n\nTurn ideas, documents, or notes into well-designed presentations with AI-generated layouts, visuals, and speaker notes.\n\n7. AI Chatbot Building\n\nBuild AI-powered chatbots for websites, customer support, lead generation, and internal business automation.\n\n8. AI Audio & Voice Generation\n\nCreate realistic voiceovers, podcasts, narrations, and audio content using AI-generated voices.\n\n9. AI Research & Summarization\n\nQuickly analyze long documents, research papers, PDFs, and websites to extract key insights and concise summaries.\n\n10. AI Resume & Career Optimization\n\nImprove your resume, cover letter, LinkedIn profile, interview preparation, and job applications with AI assistance.\n\nRepost to help others 🌸",
-"likeCount": 97,
-"retweetCount": 19,
-"url": "https://x.com/codewithhajra/status/2084590556462686540",
-"createdAt": "Tue Aug 04 10:41:33 +0000 2026"
-},
-{
-"userName": "StudentOffersHQ",
-"text": "Free AI image generation for a year. Just a student email. No card.\n\n@reve is an AI image generator and editor, running Reve 2.1, their newest model. Students get the Student Tier free for a year: 1M energy on signup, close to 3x the free plan's 350k. Reve says around 10x the usage over time.\n\nWhat you can do with it:\n• Generate native 4K images, print-ready\n• Edit by asking: change one part, rest stays untouched\n• Real editor on top: layers, drag and drop, references\n• Annotate: draw on the image to direct an edit\n• Clean text in images: posters, packaging, signs\n• Templates, reframe, color tools built in\n• Brainstorm in chat before you generate\n\nPerfect for storyboards, pitch decks, club posters, concept art, portfolios & any image work.\n\nTo claim:\n1. Sign up at Reve with your student email\n2. That's it. Student Tier applies automatically, runs a full year (confirmed via their support)\n\nImages only, video stays on the paid Pro plan.\n\nWe tested it ourselves. Same prompts to Reve 2.1 and OpenAI's GPT Image 2, results below. Reve really wins on editing, the Spotlight and draw tools especially.\n\nFunny enough, OpenAI just invested in Reve. Part of their research team is joining OpenAI to lead multimodal research.",
-"likeCount": 72,
-"retweetCount": 4,
-"url": "https://x.com/StudentOffersHQ/status/2084462663300681859",
-"createdAt": "Tue Aug 04 02:13:21 +0000 2026"
-},
-{
-"userName": "hey_leomartin",
-"text": "MiniMax H3 is really impressive for commercial creation.\n\nCreating ads with AI is becoming a completely different experience. With multimodal references, you can combine images, videos, audio, and text to build more consistent and controllable visuals.\n\nUp to 12 references + native 2K generation makes H3 a powerful tool for bringing advertising ideas to life.\n\nprompt：\n- Create a premium 9:16 fashion-eyewear commercial. Match the reference video’s shot rhythm, edit speed, white-cyclorama look, and severe fashion attitude. Use a seamless minimal white studio with clean, bold, avant-garde art direction worthy of a global luxury campaign.\n- Use Image 1 for the key visual: two full-body female models, one Black and one white, preserving their elevated wardrobe, body language, studio lighting, runway presence, and cool attitude. Use Image 2 for facial details. Both models wear futuristic luxury eyewear based on Image 3: wraparound curved lenses, a sharp cat-eye/goggle hybrid silhouette, mirrored reflections, streamlined temples, and the finish of a premium fashion accessory.\n\n#hailuoai #hailuo #MiniMaxH3 #H3\n@Hailuo_AI",
-"likeCount": 22,
+"userName": "Noha_Coder",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Noha_Coder For More Tools.",
+"likeCount": 18,
 "retweetCount": 12,
-"url": "https://x.com/hey_leomartin/status/2082820121882665060",
-"createdAt": "Thu Jul 30 13:26:28 +0000 2026"
+"url": "https://x.com/Noha_Coder/status/2085215509276983448",
+"createdAt": "Thu Aug 06 04:04:53 +0000 2026"
 },
 {
-"userName": "farzyness",
-"text": "If the assumption is that AI token demand is accelerating...\n\nThen given that chip supply is still massively short due to the increase in spot prices for GPUs...\n\nMeans that companies that are most optimized to\n\na) deliver the largest amount of tokens\nb) in the most efficient fashion...\n\nWill win the most UNTIL:\n\na) chip supply stabilizes to match demand and/or\nb) token generation becomes more efficient to match demand\n\nGRANTED that token demand doesn't accelerate, which is EXTREMELY UNLIKELY given:\n\na) Jevon's Paradox\nb) Physical AI still extremely early\n\nWhich ultimately means Token Factories (at data centers and/or locally in robots/local inference) will be the most valuable assets in AI.\n\nWhich means that $SPCX - by default - can be the most valuable Token Factory because it has the largest capacity to harness the largest amount of energy (the sun) which it vertically owns and operates.",
-"likeCount": 38,
-"retweetCount": 1,
-"url": "https://x.com/farzyness/status/2084726170285649945",
-"createdAt": "Tue Aug 04 19:40:25 +0000 2026"
+"userName": "ml_angelopoulos",
+"text": "Today, we are announcing Arena's factuality leaderboards, which evaluate the objective performance of AI models in reality and guard against hallucinations.\n\nArena's chat leaderboard has historically focused on human preference. Although our style control methodology adjusts for the effect of emojis, response length, and other stylistic factors, we wanted a more direct way of measuring objective signals of chatbot utility and anti-hallucination.\n\nHence, we developed the factuality leaderboards, which speak to the fraction of correct factual claims that a model makes. We basically extract all factual claims and cross-reference them against the internet to ensure they are based in evidence. Models that are supporting their claims with stronger evidence get a better score, and this gives a strong basis for objective performance beyond preference alone.\n\nThe big winners, as you can see on this plot, are OpenAI and Grok. Notably, Claude models, as well as Ernie and Muse-Spark-1.1, decrease in ranking.\n\nWe're so excited to share this with you! Hope you enjoy!",
+"likeCount": 70,
+"retweetCount": 9,
+"url": "https://x.com/ml_angelopoulos/status/2085134740693422379",
+"createdAt": "Wed Aug 05 22:43:56 +0000 2026"
+},
+{
+"userName": "influencer_seo",
+"text": "Want to learn how to build a stunning AI fashion campagn using the new MiniMax-H3 Video model with open weights? Use this prompt below 👇\n\nMinimax 3 Prompt: Create a premium 16:9 landscape fashion film. Use Image 1 for the overall mood, location, and film texture; Image 2 for the talent; Image 3 for the bag; and Image 4 for the closing brand mark. This is a fashion campaign for the clothing and bag. The tone is elevated, cool, and restrained, but the edit should still feel lively and fashion-forward—not like a conventional narrative film or an e-commerce ad.\n\nKeep the story simple: beside a vintage car on a desert highway, a woman walks to the rear of the car, opens the trunk, takes out a black bag, shares a quiet beat with the man standing nearby, then leaves carrying the bag. Integrate the clothing and bag naturally into the performance so they feel like part of the characters’ identity.\n\nI added the final video in and the reference images for you to learn from!",
+"likeCount": 22,
+"retweetCount": 0,
+"url": "https://x.com/influencer_seo/status/2084355335222108362",
+"createdAt": "Mon Aug 03 19:06:52 +0000 2026"
 },
 {
 "userName": "arena",
@@ -64,12 +56,12 @@
 "createdAt": "Thu Jul 30 18:04:41 +0000 2026"
 },
 {
-"userName": "ShamiWeb3",
-"text": "One product photo can now power an entire luxury campaign.\n\nWith @fotor_com, a single image turns into premium product shots, cinematic ads, and high-end visuals that look like they came from a global fashion brand.\n\nFrom detailed macro shots to luxury hero angles and smooth camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe future of product marketing is not about taking better photos. It's about creating campaigns that people can't stop watching.",
-"likeCount": 296,
-"retweetCount": 12,
-"url": "https://x.com/ShamiWeb3/status/2084119518767673822",
-"createdAt": "Mon Aug 03 03:29:48 +0000 2026"
+"userName": "siralexanderj",
+"text": "No prompt.\nNo complicated workflow.\n\nThis entire fashion ad was created using @ImagineArt_X  Ad Studio's Pro Virtual Try-On mode.\n\nI also recorded the complete creation process so you can see exactly how it was made.\n\nCheck the first reply for the full workflow.\n\nWhat do you think—would you use AI like this for your brand?",
+"likeCount": 12,
+"retweetCount": 6,
+"url": "https://x.com/siralexanderj/status/2084981805707628897",
+"createdAt": "Wed Aug 05 12:36:14 +0000 2026"
 },
 {
 "userName": "aisha_coder",
@@ -82,31 +74,15 @@
 {
 "userName": "jeremyphoward",
 "text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
-"likeCount": 22570,
-"retweetCount": 2801,
+"likeCount": 22653,
+"retweetCount": 2812,
 "url": "https://x.com/jeremyphoward/status/2084374840010850493",
 "createdAt": "Mon Aug 03 20:24:22 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @FaceTheNation: Hugging Face CEO Clément Delague says “AI is actually an opportunity to fix a lot of the cybersecurity problems” because…",
-"likeCount": 42,
-"retweetCount": 23,
-"url": "https://x.com/ClementDelangue/status/2083999129051488501",
-"createdAt": "Sun Aug 02 19:31:25 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @matvelloso: To summarize:\n\n1-Builds a weapon\n\n2-Blocks most people from using it because they aren't mature enough to handle it\n\n3-Proc…",
-"likeCount": 196,
-"retweetCount": 17,
-"url": "https://x.com/jeremyphoward/status/2083304683624616433",
-"createdAt": "Fri Jul 31 21:31:57 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
 "text": "RT @BusinessInsider: Hugging Face CEO Clément Delangue weighs in on the open-weight AI models debate and said it helped the company when it…",
-"likeCount": 76,
+"likeCount": 78,
 "retweetCount": 17,
 "url": "https://x.com/ClementDelangue/status/2084438809815449787",
 "createdAt": "Tue Aug 04 00:38:33 +0000 2026"
@@ -120,35 +96,27 @@
 "createdAt": "Sun Aug 02 17:54:28 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @ClementDelangue: We got attacked by secret unreleased proprietary models and defended ourselves with an open model, more precisely the…",
-"likeCount": 3825,
-"retweetCount": 575,
-"url": "https://x.com/jeremyphoward/status/2083663998764068919",
-"createdAt": "Sat Aug 01 21:19:44 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
 "text": "RT @TechCrunch: Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated https://t.co/xfr6JG8Yby",
-"likeCount": 99,
-"retweetCount": 23,
+"likeCount": 103,
+"retweetCount": 24,
 "url": "https://x.com/ClementDelangue/status/2084390931365527690",
 "createdAt": "Mon Aug 03 21:28:18 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @CNBC: Hugging Face CEO says China is winning the AI race and dominating on open models https://t.co/juhpKedKGR",
-"likeCount": 170,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2084434673292189963",
-"createdAt": "Tue Aug 04 00:22:07 +0000 2026"
+"text": "RT @Jason: The difference between the open source models I'm using and Frontier models is negligible already",
+"likeCount": 3085,
+"retweetCount": 123,
+"url": "https://x.com/ClementDelangue/status/2084266177837089114",
+"createdAt": "Mon Aug 03 13:12:35 +0000 2026"
 },
 {
-"userName": "Maninamerica",
-"text": "https://t.co/urFP11Vf8Y",
-"likeCount": 21,
-"retweetCount": 10,
-"url": "https://x.com/Maninamerica/status/2084747296420348182",
-"createdAt": "Tue Aug 04 21:04:22 +0000 2026"
+"userName": "HeyGurisaroy",
+"text": "https://t.co/8CegET5pc9",
+"likeCount": 12,
+"retweetCount": 9,
+"url": "https://x.com/HeyGurisaroy/status/2084988131498230113",
+"createdAt": "Wed Aug 05 13:01:22 +0000 2026"
 }
 ]

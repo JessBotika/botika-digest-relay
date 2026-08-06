@@ -1,162 +1,130 @@
 [
 {
-"userName": "Arina_hoqe",
-"text": "To create Ai image like this Just follow these simple steps 👇\n\n1️⃣ Open Google Gemini//Grok/ChatGPT \n2️⃣ Upload Your Photo 🤳\n3️⃣ Copy and Paste this Prompt ✍️\n\nProfessional AI Image Generation Prompt (Highly Detailed & Precise)\nPrompt:\nCreate a masterpiece-quality, ultra-photorealistic lifestyle portrait in a 4:5 vertical composition, captured in 8K Ultra HD with extraordinary realism, premium editorial photography quality, cinematic HDR lighting, natural skin texture, and exceptional micro-detail. The image should seamlessly blend real-world photography with expressive monochrome hand-drawn sketch art, creating the illusion that the illustrated version of the subject has stepped out of her imagination onto the wall beside her.\nThe scene takes place inside a modern, warm-toned minimalist home with soft beige walls, polished ivory marble flooring, and elegant Scandinavian-inspired wooden furniture. On the left side of the frame is a light oak wooden cabinet with framed botanical artwork and a small green indoor plant, contributing to a calm, cozy, contemporary atmosphere. A woven jute rug occupies the foreground, enhancing the home's natural aesthetic.\nThe primary subject is a beautiful young South Asian woman standing naturally beside a plain wall. She has a soft oval face, warm wheatish-fair complexion, expressive dark brown eyes, delicately arched eyebrows, a small straight nose, naturally pink lips, and subtle everyday makeup. Her dark brown hair is loosely tied into a casual low ponytail with soft face-framing strands falling naturally around her cheeks.\nShe wears an elegant pastel lavender embroidered Indian kurta set featuring intricate white floral thread embroidery throughout the fabric. The kurta has a round neckline, full-length semi-sheer sleeves with embroidered cuffs, matching straight pants, and traditional embroidered jutti flats. Small floral earrings, a delicate gold chain necklace, and minimal accessories complete the refined ethnic look.\nThe woman leans gently against the wall with a shy, playful posture. Her hands are softly clasped together in front of her body, shoulders slightly raised, one leg bent backward with only the toe touching the floor, creating an adorable, feminine pose. She gazes affectionately toward the illustrated version beside her with a subtle smile, conveying warmth, innocence, and curiosity.\nOccupying the right half of the composition is a large monochrome ink sketch of the same woman drawn directly on the wall. The sketch perfectly matches her hairstyle, facial features, clothing, jewelry, proportions, and overall identity while transforming her personality into a lively cartoon-style illustration. The drawing is created using expressive black ink lines, loose cross-hatching, confident brush strokes, and sketchbook-style detailing.\nUnlike the real subject's reserved pose, the illustrated character is energetic and playful. She balances on one leg with the opposite leg lifted backward, sticks out her tongue mischievously, winks one eye, and raises both hands making cheerful peace signs. Around the drawing are small hand-drawn doodles including hearts, stars, sparkle icons, motion lines, and playful accent marks that enhance the whimsical personality without overwhelming the composition.\nThe lighting is soft natural window light from the left, producing smooth shadows, beautiful dimensionality, realistic skin tones, subtle fabric translucency, and gentle highlights on the embroidery. The sketch should appear naturally integrated into the wall with crisp black ink contrast while remaining clearly hand-drawn rather than digitally rendered.\nCamera & Photography Settings:\nFull-frame professional DSLR or medium-format camera\n85mm prime portrait lens\nAperture: f/2.8\nISO 100\nShutter Speed: 1/200 sec\nEye-level perspective\nSoft natural daylight\nHigh dynamic range\nEditorial interior photography\nRazor-sharp focus on the subject\nClean background separation\nRealistic depth of field\nPremium fashion campaign quality\nStyle Keywords: Ultra-photorealistic, editorial lifestyle photography, luxury ethnic fashion, minimalist interior, Indian traditional elegance, monochrome ink illustration, playful wall sketch, cozy home aesthetic, cinematic lighting, realistic fabric texture, expressive line art, seamless photo-illustration blend, premium commercial photography, magazine-quality, hyper-detailed, 8K UHD, flawless realism.",
-"likeCount": 33,
-"retweetCount": 5,
-"url": "https://x.com/Arina_hoqe/status/2083395231366427044",
-"createdAt": "Sat Aug 01 03:31:45 +0000 2026"
+"userName": "LeoKharon",
+"text": "NEW RESEARCH: You can now create a new robot optimized for any given task!\n\nI love this new project by @haqhuy, @SongShuran, and others.\n\nCalled \"Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design\", it generates a robot's physical design and its controller together from a task spec.\n\nDEFINITIONS:\n- Reward function: A scoring rule that assigns a number to how well a behavior achieves the task. Here, it is the objective the generated design is pushed to maximize (e.g., track the target motion with low error).\n- Tokenizing: dividing continuous or structured data (a robot's links, joints, motor specs, states, actions) into a discrete vocabulary of symbols a transformer can process, the same step that turned pixels and audio into \"language\" for these models.\n- Diffusion transformer (DiT): A transformer trained to turn random noise into structured output through iterative denoising. Here, it generates robot bodies and trajectories instead of images.\n- MuJoCo: The standard fast physics simulator for robotics research (DeepMind-maintained). The Menagerie is its curated zoo of ready-to-use robot models.\n- CMA-ES: Covariance Matrix Adaptation Evolution Strategy, the workhorse black-box optimizer: it evolves a population of candidate designs, keeps the best, and needs thousands of simulator rollouts.\n- Bimanual multi-trajectory optimization: Finding one design/controller that performs well across several target motions for a two-armed robot at once, harder than optimizing for a single arm and a single motion.\n- BERT/MAE masked-modeling trick: Train one model to fill in whatever parts of the input you hide (words for BERT, image patches for MAE); at inference, choosing what to mask chooses the task, so masking the body makes it a designer and masking the actions makes it a controller.\n\nIn practice, you give it a target end-effector motion and a reward function, and it outputs a complete embodiment (link, joint, motor, and inertial property), as well as a controller to drive it.\n\nIt works by tokenizing both the body (links/joints/motors) and the dynamics (states/actions) into a compact scheme called RoboTokens, training a diffusion transformer (DiT) over them.\nThe same model predicts dynamics using those predictions (\"Dynamics Self-Guidance\") to push generated designs toward higher reward at inference time.\nMasking different token types (using the BERT/MAE masked-modeling trick) lets the one model do three jobs: generate an embodiment, control an arbitrary embodiment, or design one conditioned on a motion.\n\nIt is trained on 11 robots from the MuJoCo Menagerie (0.65 kg hand to 67.5 kg quadruped, 6–35 joints), and validated in sim and on a physical ALOHA doing cloth flinging.\n\nI like the fact that this approach inverts the entire recent robotics ideas: designing a policy for a fixed robot -> designing the robot for a fixed task.\nEvery other approach assumes the body is given and learns a controller.\nTransformer Transformer takes the task (target motion + reward), then generates the body and controller jointly.\n\nIn practice, it is a ~180× speedup over the standard optimizer at equal-or-better quality.\nIt reaches \"CMA-ES-level quality in seconds\" and finishes bimanual multi-trajectory optimization in <1 min vs CMA-ES's 3+ hours.\n\nSurprisingly, this approach was validated on real hardware!\nThe generated design was measurably smoother.\nOn a physical ALOHA flinging cloth (a deformable, dynamic task), the optimized design cut tracking error 73% and peak joint speed 30% versus the original, with fewer joint-speed peaks.\nTherefore: real world results, not a sim-only benchmark -> that is worth underlining nowadays!\n\nAlso worth mentioning: this is the lab behind UMI and Handroid, that I mentioned here previously!\nThe team seems extremely creative, i love these out-of-the-box approaches.\n\nEnjoy watching the demo of robot optimization in 3D, data acquisition, then real-life testing:",
+"likeCount": 161,
+"retweetCount": 14,
+"url": "https://x.com/LeoKharon/status/2085018570803618047",
+"createdAt": "Wed Aug 05 15:02:19 +0000 2026"
 },
 {
 "userName": "hanwenjiang1",
 "text": "Interested in how frontier labs pre-train image/video generation models?\nWe were too.\n\nSince those recipes are rarely made public in full, we started from the most mature pretraining playbook available in the open: how modern LLMs are built.\nIntroducing Chimera: a visual generation model family that brings LLM-style hybrid linear attention and scaling co-design to visual generation.\n\nIn large-scale pretraining, nearly every design choice eventually shows up.\nThat means solving architecture design and scaling as one coupled problem: every architectural choice changes how the model scales, and scaling behavior determines which choices actually survive.\nChimera approaches both jointly, building a model family that remains predictable as model size, compute budget, and data distribution change.\n\nOur key architectural observation is a simple division of labor: a single raster-ordered KDA stream carries long-range state, while modality-aware short convolutions preserve native local geometry.\nTogether, they form an effective and elegant linear-attention backbone for multidimensional visual data, with periodic MLA providing direct global interaction and sparse MoE expanding capacity at controlled activated compute.\n\nThis design comes with a useful effect: NoPE.\nIn Chimera, position is represented by the computation itself. KDA’s ordered recurrence and learned state decay encode order and recency, while the short convolutions encode local spatial-temporal structure.\nExplicit positional embeddings are not needed in our design.\nBecause these mechanisms are not tied to a fixed training grid or sequence length, Chimera shows strong zero-shot extrapolation in both space and time.\nTrained exclusively on 1K images and 5-second videos, it directly generates coherent 4K images with little visible quality degradation and 30-second videos with only 6.5% FID degradation over the final five seconds, all zero-shot, without resolution- or length-specific finetuning.\n\nBut architecture alone is not a pretraining recipe unless it scales predictably.\nThus, scaling should not be treated as an afterthought: fitting a curve over model sizes is easy; making that curve meaningful is much harder.\nIf every model size is differently under-tuned, your scaling law may simply be measuring optimization error.\nWe propose HeteroP to transfer proxy-tuned hyperparameters module by module across width and depth, giving us a consistently tuned model family. This allows us to fit Chinchilla-style laws over activated model size, training tokens, and the image-video data mixture.\n\nThe laws not only provide the reference for compute-optimal model and data size, but also suggest that visual generation may be more model-hungry than we tend to assume.\nUnder the same parametric loss-fitting method used in Chinchilla, compute-optimal model size grows as FLOPs^0.516 for images, compared with FLOPs^0.46 for language. Video is even more model-hungry, with the exponent rising from 0.516 for images to 0.544 for video.\nGuided by these laws, we trained an 11B-parameter Chimera that activates only 2B parameters per token, using ~600 H100 days.\n- It matches Wan-2.1 2B pretraining loss with 7.3x fewer FLOPs, and runs 2.14x faster than full attention at 255K tokens.\n- It matches FLUX.1-dev and Z-Image-Turbo on GenEval and outperforms both on DPG-Bench, using roughly 20× less training compute than Z-Image-Turbo.\n\nUltimately, Chimera indicates that once you pretrain at scale, every decision shows up.\nAnd if the Kimi K3 recipe caught your attention, Chimera may look oddly familiar, except the tokens are pixels and frames with diffusion models.\n\nA team effort from team @ChongjianG30781 , me, @VisionSteve , Jiuxiang Gu, @Xu_Arthas , @chenziwee , @ShaotengLiu , @Jingorz , @YicongHong , @Zefan_Cai , @HaoTan5 ; supported by Hailin Jin and @kalyank_s at @Adobe @AdobeResearch",
-"likeCount": 448,
-"retweetCount": 50,
+"likeCount": 453,
+"retweetCount": 53,
 "url": "https://x.com/hanwenjiang1/status/2083224610464829950",
 "createdAt": "Fri Jul 31 16:13:46 +0000 2026"
 },
 {
-"userName": "cgarciae88",
-"text": "this is what gemini has to say about this:\n\n\"Yes, the Explorative Modeling (XM) paper explicitly acknowledges and cites this line of research!\n\nThe paper you linked (arXiv:2004.03590) by Ke Li et al. is built on Implicit Maximum Likelihood Estimation (IMLE), which Li originally introduced in 2018. The authors of the XM paper cite the foundational IMLE paper, and Ke Li himself recently posted on X (formerly Twitter) pointing out that XM and IMLE share the exact same motivations and underlying math.\n\nThe XM authors write: \"Structurally, XMs generalize IMLE... both minimize the expected distance from each data point to its nearest model output.\"\nWhile the core mathematical objective—finding the closest generated candidate to a real data point to avoid mode collapse—is virtually identical, there are two major differences in implementation and application.\n\n1. Implementation: Global Pool vs. On-the-Fly Generation\n\n * IMLE (The 2020 paper): IMLE generally works by maintaining a massive, shared global pool of generated samples. During training, it uses a fast approximate nearest-neighbor search to match every real data point in the dataset to the closest sample in that giant pool, and then pulls the model toward that match.\n * Explorative Modeling (Forward XM): Instead of keeping a global pool of old samples, Forward XM generates a fresh batch of K candidates on the fly for each specific data point at every single training step. It simply picks the best of those K candidates right then and there.\n\n2. Application: Standalone Networks vs. A Universal Scaling Axis\n\n * IMLE: The 2020 paper used this loss to train single-step, feed-forward models (acting as an alternative to GANs) for specific computer vision tasks, like image super-resolution or turning semantic layouts into images.\n * Explorative Modeling: The breakthrough of the XM paper isn't necessarily inventing the loss function, but proving it can be used as a \"third pretraining axis\" for modern foundation models. Rather than just training single-step models, they inject this K-candidate exploration loop directly into the training of massive multi-step diffusion, flow-matching, and autoregressive models. They showed that scaling K alongside parameter count and dataset size universally improves FLOP and sample efficiency across text, video, and images, which was not known during the original IMLE research.\n\nIn short, IMLE laid the exact mathematical groundwork for this \"winner-takes-all\" coupling. Explorative Modeling simplifies the memory overhead (swapping the global pool for per-step K candidates) and scales it up to act as a multiplier for modern diffusion and transformer architectures.\"",
-"likeCount": 48,
-"retweetCount": 2,
-"url": "https://x.com/cgarciae88/status/2084285358385328623",
-"createdAt": "Mon Aug 03 14:28:48 +0000 2026"
+"userName": "shushant_l",
+"text": "I'm genuinely surprised most websites still aren't optimized for AI search.\n\nHere's the complete AI SEO framework to rank higher, earn more AI citations, and grow your brand visibility.\n\n---\n\n1. AI SEO helps your content get discovered in Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, Copilot, and more.\n\n---\n\n2. Your ultimate goal is higher rankings, more AI citations, and stronger brand visibility.\n\n---\n\n3. Build a solid technical SEO foundation with HTTPS, mobile optimization, XML sitemaps, robots.txt, and clean URLs.\n\n---\n\n4. Do keyword research around informational, commercial, transactional, navigational, long tail, and question based searches.\n\n---\n\n5. Every page should focus on one clear search intent instead of trying to rank for everything.\n\n---\n\n6. Build topical authority by publishing multiple high quality articles around the same subject.\n\n---\n\n7. Create people first content that is original, accurate, experience based, and genuinely useful.\n\n---\n\n8. Strengthen your E-E-A-T by showcasing real experience, expertise, authority, and trustworthiness.\n\n---\n\n9. Structure your content with clear headings, bullet points, FAQs, examples, checklists, and comparisons.\n\n---\n\n10. Publish unique research, case studies, templates, frameworks, and real examples instead of generic content.\n\n---\n\n11. Optimize every page with strong titles, meta descriptions, internal links, image alt text, and descriptive URLs.\n\n---\n\n12. Add structured data like FAQ, HowTo, Product, Review, Organization, Person, Video, and Local Business schema.\n\n---\n\n13. Build entity SEO by strengthening your brand, founder profile, products, expertise, and niche authority.\n\n---\n\n14. Improve local SEO with an optimized Google Business Profile, reviews, citations, and local landing pages.\n\n---\n\n15. Refresh older content every few months with new statistics, examples, screenshots, tools, and insights.\n\n---\n\n16. Earn high quality backlinks through research, guest posts, partnerships, digital PR, and original data.\n\n---\n\n17. Deliver a fast, mobile friendly, accessible, and easy to navigate user experience.\n\n---\n\n18. Track rankings, AI citations, organic traffic, CTR, conversions, Core Web Vitals, and indexed pages.\n\n---\n\n19. Avoid common mistakes like ignoring search intent, weak technical SEO, thin content, duplicate content, and slow websites.\n\n---\n\n20. There's even more inside this guide, so check the infographic to learn the complete AI SEO framework.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
+"likeCount": 20,
+"retweetCount": 4,
+"url": "https://x.com/shushant_l/status/2084988302185349575",
+"createdAt": "Wed Aug 05 13:02:03 +0000 2026"
 },
 {
-"userName": "Shohan_Tech_AI",
-"text": "100 AI tools that's turn hours work into minutes 👍👍 \n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow \n@pushpendratips \n For More Tools.",
-"likeCount": 18,
-"retweetCount": 6,
-"url": "https://x.com/Shohan_Tech_AI/status/2084121161538117832",
-"createdAt": "Mon Aug 03 03:36:20 +0000 2026"
+"userName": "shushant_l",
+"text": "I'm genuinely surprised how many people still use the same AI app for everything.\n\nHere are the 20 best AI mobile apps for every task you'll ever need.\n\n---\n\n1. ChatGPT is the best all-round AI assistant for everyday work and life.\n\n---\n\n2. Claude is perfect for writing, coding, and long documents.\n\n---\n\n3. Gemini is the best choice if you use Gmail, Docs, and other Google apps.\n\n---\n\n4. Microsoft Copilot works seamlessly with Word, Excel, and Microsoft 365.\n\n---\n\n5. Perplexity is one of the best AI apps for research with reliable sources.\n\n---\n\n6. Grok is great for real-time information and live web access.\n\n---\n\n7. DeepSeek delivers powerful reasoning completely free.\n\n---\n\n8. Meta AI integrates directly with WhatsApp and Instagram.\n\n---\n\n9. Poe lets you compare multiple AI models inside one app.\n\n---\n\n10. Pi AI feels natural for conversations, coaching, and brainstorming.\n\n---\n\n11. NotebookLM turns PDFs and notes into easy summaries and audio overviews.\n\n---\n\n12. Grammarly helps improve grammar, tone, and everyday writing.\n\n---\n\n13. Canva makes AI-powered designs, presentations, and social posts effortless.\n\n---\n\n14. Adobe Firefly is excellent for AI image editing and creative design.\n\n---\n\n15. Photomator makes photo enhancement and editing much faster.\n\n---\n\n16. Luma AI creates cinematic AI videos from text and images.\n\n---\n\n17. ElevenLabs generates realistic AI voices in multiple languages.\n\n---\n\n18. Suno creates full songs, music, and lyrics using AI.\n\n---\n\n19. https://t.co/3zADbSd9bB records meetings and automatically creates searchable transcripts.\n\n---\n\n20. Notion AI helps you write, summarize, brainstorm, and stay productive.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
+"likeCount": 41,
+"retweetCount": 7,
+"url": "https://x.com/shushant_l/status/2084868004844871893",
+"createdAt": "Wed Aug 05 05:04:01 +0000 2026"
 },
 {
-"userName": "Alex_AI96",
-"text": "120 Mind-Blowing AI Tools You Should Know in 2026 🤯\n\nStop wasting hours searching for the right AI tool.\n\nHere are 65+ powerful AI tools across 13 categories to boost your productivity. 👇\n\n💡 1. Ideas & Research\n• https://t.co/mKDqZ3HvYo\n• Claude\n• ChatGPT\n• Perplexity\n• Microsoft Copilot\n\n📊 2. Presentations\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n🌐 3. Website Builders\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n✍️ 4. Writing\n• Rytr\n• Jasper\n• https://t.co/wY5amQnAlJ\n• Text Blaze\n• Writesonic\n\n🎨 5. AI Models & Creators\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n🎙️ 6. Meeting Assistants\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• https://t.co/M5gTEDdFQJ\n\n🤖 7. AI Chatbots\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n⚡ 8. Automation\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n🎯 9. UI/UX Design\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n🖼️ 10. AI Images\n• Stylar\n• Freepik AI\n• Phygital+\n• StockIMG\n• Bing Image Creator\n\n🎥 11. AI Video\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n🎨 12. Design\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/eNE2iq7u28\n\n📈 13. Marketing & Social\n• AdCopy\n• https://t.co/IfISv3CANi\n• Bardeen AI\n• https://t.co/iU06UQZDxW\n• Typefully\n• Postwise\n• Metricool\n• TribeScaler\n• Tweet Hunter",
-"likeCount": 18,
-"retweetCount": 15,
-"url": "https://x.com/Alex_AI96/status/2084340914391314552",
-"createdAt": "Mon Aug 03 18:09:33 +0000 2026"
-},
-{
-"userName": "Mavernxbt",
-"text": "GOOGLE JUST TURNED PINTEREST OUTFIT HAULS INTO A FULLY AUTOMATED FASHION PIPELINE\n\nNobody tells you this but you can pull an entire outfit from Pinterest, assemble it in Canva, and have your AI influencer wearing it exactly in one prompt.\n\nOne base image plus one background → an infinite fashion influencer wearing any outfit you find online.\n\nHere are the timestamps that broke my feed:\n\n1:31 - Generate your base image using Nano Banana 2 inside Open Art\n3:28 - Build a consistent vertical background for all your outfit content\n4:58 - Pull full outfit pieces from Pinterest, top, shoes, handbag, accessories\n6:03 - Assemble the outfit in Canva, remove backgrounds, arrange it into one clean image\n7:00 - Upload three references at once, identity, background, and outfit in one prompt\n8:04 - The exact prompt structure that locks face, outfit, and pose together\n13:29 - Turn any image into video with Cling 2.6, ten seconds of natural motion\n14:55 - Make her speak by adding she says and the exact dialogue in quotation marks\n\nThis isn't just image generation anymore.\n\nThis is a full AI fashion influencer pipeline running on one photo, one background, and unlimited outfits pulled straight from Pinterest.\n\nThree references, one prompt, perfect match every time. That's the entire trick nobody explains.\n\nAlready testing this method? Drop your results below\n\nFollow @Mavernxbt for the full prompt breakdown and exact workflow",
-"likeCount": 30,
-"retweetCount": 3,
-"url": "https://x.com/Mavernxbt/status/2082826294840926479",
-"createdAt": "Thu Jul 30 13:51:00 +0000 2026"
-},
-{
-"userName": "huang_chao4969",
-"text": "🔥 Boogu-Image-0.1 just dropped — an open-source multimodal understanding and image generation model family!\n\nTrained on just 208M images with a budget of around $400K, Boogu-Image ranks among the strongest open-source models across multiple benchmarks and blind evaluations, while approaching leading proprietary systems — without brute-force scaling.\n\nThe core insight: carefully structured data and thoughtful system design can outperform blind scaling. \n\n🌟 Key highlights:\n- 🏆 Top-tier performance — Leading open-source results across multiple benchmarks and human evaluations\n- 🖼️ Native 2K generation — High-resolution outputs with strong photographic quality\n- 🀄 Exceptional Chinese rendering — Accurate long-text generation, typography, posters, and graphic design\n- 🧠 Agentic prompt rewriting — Understands and refines user intent without unnecessary creative drift\n- ⚡ Dynamic model routing — Handles tasks at different complexity levels while reducing inference costs by up to 50×\n- 📖 Fully open research — Weights, code, training recipes, and hard-earned insights released under Apache 2.0\n\n🌐 https://t.co/Xab6NV2Dxv\n⭐ https://t.co/2igedKklUn\n📄 https://t.co/1UcbapWuux",
-"likeCount": 183,
-"retweetCount": 37,
-"url": "https://x.com/huang_chao4969/status/2084130198531006948",
-"createdAt": "Mon Aug 03 04:12:15 +0000 2026"
-},
-{
-"userName": "insomnia_vip",
-"text": "A 20-YEAR-OLD GUY FROM USA CREATED AN AI COSPLAY MODEL AND 826 MEN PAID TO FOLLOW HER\n\nInvestment: $140 for AI video generation\nSubscription price: $11.99\nTotal revenue: $9,904\n\nThe idea wasn't to create another generic AI influencer. Instead, he built a recognizable cosplay character with a polished visual identity, combining anime-inspired fashion, energetic dance videos and a confident on-camera personality that immediately stood out in short-form feeds\n\nTo attract attention, he consistently uploaded short lip-sync and dance clips on TikTok, using eye-catching costumes and trending audio to maximize reach. As the audience grew, viewers were directed to Fanvue, where subscribers could access exclusive content and interact directly with the AI persona\n\nProject became profitable after just 38 days, while the original investment was earned back within the first two weeks, showing how a strong visual concept and consistent content can turn a small AI experiment into a subscription business",
-"likeCount": 77,
-"retweetCount": 3,
-"url": "https://x.com/insomnia_vip/status/2082819018323271860",
-"createdAt": "Thu Jul 30 13:22:05 +0000 2026"
+"userName": "codewithhajra",
+"text": "10 AI Skills to Master in 2026\n\n1. Prompt Engineering\n\nLearn how to write clear, specific prompts that help AI generate accurate, relevant, and high-quality responses.\n\n2. AI Workflow Automation\n\nUse AI to automate repetitive tasks by connecting different apps and services, saving time and improving productivity.\n\n3. AI Video Generation\n\nCreate professional videos from text prompts, scripts, or images without needing advanced video editing skills.\n\n4. AI Image Generation\n\nGenerate high-quality images, illustrations, graphics, and thumbnails using simple text descriptions.\n\n5. AI Content Writing\n\nUse AI to write blogs, social media posts, emails, marketing copy, scripts, newsletters, and other written content faster.\n\n6. AI Presentation Creation\n\nTurn ideas, documents, or notes into well-designed presentations with AI-generated layouts, visuals, and speaker notes.\n\n7. AI Chatbot Building\n\nBuild AI-powered chatbots for websites, customer support, lead generation, and internal business automation.\n\n8. AI Audio & Voice Generation\n\nCreate realistic voiceovers, podcasts, narrations, and audio content using AI-generated voices.\n\n9. AI Research & Summarization\n\nQuickly analyze long documents, research papers, PDFs, and websites to extract key insights and concise summaries.\n\n10. AI Resume & Career Optimization\n\nImprove your resume, cover letter, LinkedIn profile, interview preparation, and job applications with AI assistance.\n\nRepost to help others 🌸",
+"likeCount": 104,
+"retweetCount": 21,
+"url": "https://x.com/codewithhajra/status/2084590556462686540",
+"createdAt": "Tue Aug 04 10:41:33 +0000 2026"
 },
 {
 "userName": "KaiteeShiks",
 "text": "I wanted to see whether MiniMax H3 could keep a polished campaign aesthetic consistent across an entire scene.\n\nSo I gave its Omni Reference feature a clear visual direction: a classic pink car, a well-dressed couple, and a matching pink bag.\n\nThe final shot has the man waiting beside the car while the woman opens the trunk and retrieves the bag.\n\nWhat impressed me was how well the details stayed connected. The characters, car, styling, color palette, and product all felt like parts of the same campaign, rather than separate AI-generated elements.\n\nMiniMax H3 supports text, image, audio, and video references in one workflow, with native 2K generation up to 15 seconds.\n\nFor fashion, e-commerce, and branded storytelling, this level of visual control could be genuinely useful.\n\nTry it: https://t.co/tSjMJ0WgtS\n\n#hailuoai #hailuo #MiniMaxH3 #H3",
-"likeCount": 103,
+"likeCount": 102,
 "retweetCount": 85,
 "url": "https://x.com/KaiteeShiks/status/2083207031281127803",
 "createdAt": "Fri Jul 31 15:03:55 +0000 2026"
 },
 {
-"userName": "MonetizationDon",
-"text": "HELLO AUGUST ✨\n\nStarted the new month by creating this luxury-inspired poster entirely with GPT Image 2 inside PixVerse\n\nThe typography.\nThe lighting.\nThe fashion styling.\nThe premium commercial look.\nIt's amazing how far AI image generation has come.\nEvery month is another opportunity to create something that wasn't possible yesterday.\nCreated with GPT Image 2 in @PixVerse_ \n\nPrompt in the comments\n#PixVerseCPP",
-"likeCount": 38,
-"retweetCount": 3,
-"url": "https://x.com/MonetizationDon/status/2083532545384231164",
-"createdAt": "Sat Aug 01 12:37:23 +0000 2026"
-},
-{
-"userName": "jean_tarbou",
-"text": "Our tech report on DiffusionGemma is out! 🚀\n\nMy biggest highlight? Online post-training is a game changer for text diffusion.\n\nWe performed joint Sampler Distillation and Reinforcement Learning (SD⋅RL) after SFT, pushing the quality-speed Pareto frontier into a new regime 📈 https://t.co/0wyylMEo7a",
-"likeCount": 78,
-"retweetCount": 15,
-"url": "https://x.com/jean_tarbou/status/2084691842759573720",
-"createdAt": "Tue Aug 04 17:24:01 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @deepseek_ai: 🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta!\n\n🔷 We’ve massively upgraded its Agent capabilities—benchmark…",
-"likeCount": 29517,
-"retweetCount": 3496,
-"url": "https://x.com/jeremyphoward/status/2083302825636110681",
-"createdAt": "Fri Jul 31 21:24:34 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @jawwwn_: .@ssankar says Palantir was able to make Nvidia's Nemotron Ultra model \"better than frontier\":\n\n\"I literally almost felt gasli…",
-"likeCount": 709,
-"retweetCount": 84,
-"url": "https://x.com/ClementDelangue/status/2084636020805337580",
-"createdAt": "Tue Aug 04 13:42:12 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @DavidSacks: Mark Zuckerberg gets it right:\n\n“The defining question of our age isn’t whether superintelligence will exist, but who will…",
-"likeCount": 7743,
-"retweetCount": 777,
-"url": "https://x.com/jeremyphoward/status/2082712587087798416",
-"createdAt": "Thu Jul 30 06:19:10 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @SquawkStreet: \"Engineers make mistakes, and I think this is what happened here.\"\n\n@huggingface CEO @ClementDelangue discusses what it'l…",
-"likeCount": 14,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2084324340401574038",
-"createdAt": "Mon Aug 03 17:03:42 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @FaceTheNation: When asked if AI developers have lost control of their technology after an AI agent created by OpenAI escaped its testin…",
-"likeCount": 45,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2084000601126338644",
-"createdAt": "Sun Aug 02 19:37:16 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says the recent OpenAI-linked cyberattack highlights the growing risks posed by rapidly…",
-"likeCount": 30,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2084384284299739352",
-"createdAt": "Mon Aug 03 21:01:54 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @martin_casado: It appears model capabilities / releases are accelerating. But if you divide by the money going into the labs, it looks…",
-"likeCount": 240,
-"retweetCount": 17,
-"url": "https://x.com/jeremyphoward/status/2083663695444660372",
-"createdAt": "Sat Aug 01 21:18:32 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Jason: The difference between the open source models I'm using and Frontier models is negligible already",
-"likeCount": 3081,
-"retweetCount": 123,
-"url": "https://x.com/ClementDelangue/status/2084266177837089114",
-"createdAt": "Mon Aug 03 13:12:35 +0000 2026"
-},
-{
-"userName": "ThomasVantage",
-"text": "https://t.co/pF7xbzhduu",
-"likeCount": 21,
+"userName": "ShamiWeb3",
+"text": "One product photo can now power an entire luxury campaign.\n\nWith @fotor_com, a single image turns into premium product shots, cinematic ads, and high-end visuals that look like they came from a global fashion brand.\n\nFrom detailed macro shots to luxury hero angles and smooth camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe future of product marketing is not about taking better photos. It's about creating campaigns that people can't stop watching.",
+"likeCount": 298,
 "retweetCount": 12,
-"url": "https://x.com/ThomasVantage/status/2084608587079233551",
-"createdAt": "Tue Aug 04 11:53:11 +0000 2026"
+"url": "https://x.com/ShamiWeb3/status/2084119518767673822",
+"createdAt": "Mon Aug 03 03:29:48 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "If I could edit this tweet, I would add \"we don't regulate steel *to make safer cars*, we crash-test them\" (as obviously there's some much needed steel regulation).\n\nAlso, want to clarify that I'm not advocating for 0 regulation of open models, just pointing out that it's good policy for regulation to be different between open models, APIs and applications.\n\nThanks for pointing it out @hlntnr @YJernite @LuizaJarovsky @deanwball @GaryMarcus amongst others.",
+"likeCount": 38,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2085088362277278170",
+"createdAt": "Wed Aug 05 19:39:39 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Feels like Google could have been the dominating force in AI by open-sourcing the frontier with Gemini, Veo, and Nano Banana. Instead, they kept them behind APIs for a few billion dollars in revenue. Maybe there's still time?",
+"likeCount": 762,
+"retweetCount": 39,
+"url": "https://x.com/ClementDelangue/status/2085058515312222570",
+"createdAt": "Wed Aug 05 17:41:03 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @FaceTheNation: Hugging Face CEO Clément Delague says “AI is actually an opportunity to fix a lot of the cybersecurity problems” because…",
+"likeCount": 42,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2083999129051488501",
+"createdAt": "Sun Aug 02 19:31:25 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
+"likeCount": 24,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2084383891192709211",
+"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @ClementDelangue: We got attacked by secret unreleased proprietary models and defended ourselves with an open model, more precisely the…",
+"likeCount": 3828,
+"retweetCount": 575,
+"url": "https://x.com/jeremyphoward/status/2083663998764068919",
+"createdAt": "Sat Aug 01 21:19:44 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @AndrewCurran_: At first I thought Bloomberg forgot to add DeepSeek's pricing to the chart. https://t.co/j0GvfyC3Ld",
+"likeCount": 11536,
+"retweetCount": 920,
+"url": "https://x.com/jeremyphoward/status/2084749629216977010",
+"createdAt": "Tue Aug 04 21:13:39 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
+"likeCount": 325,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2085141703216804032",
+"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
+},
+{
+"userName": "Maninamerica",
+"text": "https://t.co/urFP11Vf8Y",
+"likeCount": 26,
+"retweetCount": 11,
+"url": "https://x.com/Maninamerica/status/2084747296420348182",
+"createdAt": "Tue Aug 04 21:04:22 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/bRlByrnvWB",
+"likeCount": 22,
+"retweetCount": 7,
+"url": "https://x.com/apob_ai/status/2084930670510354751",
+"createdAt": "Wed Aug 05 09:13:02 +0000 2026"
 }
 ]
