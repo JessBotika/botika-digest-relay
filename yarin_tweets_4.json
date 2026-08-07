@@ -1,128 +1,128 @@
 [
 {
-"userName": "LeoKharon",
-"text": "NEW RESEARCH: You can now create a new robot optimized for any given task!\n\nI love this new project by @haqhuy, @SongShuran, and others.\n\nCalled \"Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design\", it generates a robot's physical design and its controller together from a task spec.\n\nDEFINITIONS:\n- Reward function: A scoring rule that assigns a number to how well a behavior achieves the task. Here, it is the objective the generated design is pushed to maximize (e.g., track the target motion with low error).\n- Tokenizing: dividing continuous or structured data (a robot's links, joints, motor specs, states, actions) into a discrete vocabulary of symbols a transformer can process, the same step that turned pixels and audio into \"language\" for these models.\n- Diffusion transformer (DiT): A transformer trained to turn random noise into structured output through iterative denoising. Here, it generates robot bodies and trajectories instead of images.\n- MuJoCo: The standard fast physics simulator for robotics research (DeepMind-maintained). The Menagerie is its curated zoo of ready-to-use robot models.\n- CMA-ES: Covariance Matrix Adaptation Evolution Strategy, the workhorse black-box optimizer: it evolves a population of candidate designs, keeps the best, and needs thousands of simulator rollouts.\n- Bimanual multi-trajectory optimization: Finding one design/controller that performs well across several target motions for a two-armed robot at once, harder than optimizing for a single arm and a single motion.\n- BERT/MAE masked-modeling trick: Train one model to fill in whatever parts of the input you hide (words for BERT, image patches for MAE); at inference, choosing what to mask chooses the task, so masking the body makes it a designer and masking the actions makes it a controller.\n\nIn practice, you give it a target end-effector motion and a reward function, and it outputs a complete embodiment (link, joint, motor, and inertial property), as well as a controller to drive it.\n\nIt works by tokenizing both the body (links/joints/motors) and the dynamics (states/actions) into a compact scheme called RoboTokens, training a diffusion transformer (DiT) over them.\nThe same model predicts dynamics using those predictions (\"Dynamics Self-Guidance\") to push generated designs toward higher reward at inference time.\nMasking different token types (using the BERT/MAE masked-modeling trick) lets the one model do three jobs: generate an embodiment, control an arbitrary embodiment, or design one conditioned on a motion.\n\nIt is trained on 11 robots from the MuJoCo Menagerie (0.65 kg hand to 67.5 kg quadruped, 6–35 joints), and validated in sim and on a physical ALOHA doing cloth flinging.\n\nI like the fact that this approach inverts the entire recent robotics ideas: designing a policy for a fixed robot -> designing the robot for a fixed task.\nEvery other approach assumes the body is given and learns a controller.\nTransformer Transformer takes the task (target motion + reward), then generates the body and controller jointly.\n\nIn practice, it is a ~180× speedup over the standard optimizer at equal-or-better quality.\nIt reaches \"CMA-ES-level quality in seconds\" and finishes bimanual multi-trajectory optimization in <1 min vs CMA-ES's 3+ hours.\n\nSurprisingly, this approach was validated on real hardware!\nThe generated design was measurably smoother.\nOn a physical ALOHA flinging cloth (a deformable, dynamic task), the optimized design cut tracking error 73% and peak joint speed 30% versus the original, with fewer joint-speed peaks.\nTherefore: real world results, not a sim-only benchmark -> that is worth underlining nowadays!\n\nAlso worth mentioning: this is the lab behind UMI and Handroid, that I mentioned here previously!\nThe team seems extremely creative, i love these out-of-the-box approaches.\n\nEnjoy watching the demo of robot optimization in 3D, data acquisition, then real-life testing:",
-"likeCount": 161,
-"retweetCount": 14,
-"url": "https://x.com/LeoKharon/status/2085018570803618047",
-"createdAt": "Wed Aug 05 15:02:19 +0000 2026"
-},
-{
 "userName": "hanwenjiang1",
 "text": "Interested in how frontier labs pre-train image/video generation models?\nWe were too.\n\nSince those recipes are rarely made public in full, we started from the most mature pretraining playbook available in the open: how modern LLMs are built.\nIntroducing Chimera: a visual generation model family that brings LLM-style hybrid linear attention and scaling co-design to visual generation.\n\nIn large-scale pretraining, nearly every design choice eventually shows up.\nThat means solving architecture design and scaling as one coupled problem: every architectural choice changes how the model scales, and scaling behavior determines which choices actually survive.\nChimera approaches both jointly, building a model family that remains predictable as model size, compute budget, and data distribution change.\n\nOur key architectural observation is a simple division of labor: a single raster-ordered KDA stream carries long-range state, while modality-aware short convolutions preserve native local geometry.\nTogether, they form an effective and elegant linear-attention backbone for multidimensional visual data, with periodic MLA providing direct global interaction and sparse MoE expanding capacity at controlled activated compute.\n\nThis design comes with a useful effect: NoPE.\nIn Chimera, position is represented by the computation itself. KDA’s ordered recurrence and learned state decay encode order and recency, while the short convolutions encode local spatial-temporal structure.\nExplicit positional embeddings are not needed in our design.\nBecause these mechanisms are not tied to a fixed training grid or sequence length, Chimera shows strong zero-shot extrapolation in both space and time.\nTrained exclusively on 1K images and 5-second videos, it directly generates coherent 4K images with little visible quality degradation and 30-second videos with only 6.5% FID degradation over the final five seconds, all zero-shot, without resolution- or length-specific finetuning.\n\nBut architecture alone is not a pretraining recipe unless it scales predictably.\nThus, scaling should not be treated as an afterthought: fitting a curve over model sizes is easy; making that curve meaningful is much harder.\nIf every model size is differently under-tuned, your scaling law may simply be measuring optimization error.\nWe propose HeteroP to transfer proxy-tuned hyperparameters module by module across width and depth, giving us a consistently tuned model family. This allows us to fit Chinchilla-style laws over activated model size, training tokens, and the image-video data mixture.\n\nThe laws not only provide the reference for compute-optimal model and data size, but also suggest that visual generation may be more model-hungry than we tend to assume.\nUnder the same parametric loss-fitting method used in Chinchilla, compute-optimal model size grows as FLOPs^0.516 for images, compared with FLOPs^0.46 for language. Video is even more model-hungry, with the exponent rising from 0.516 for images to 0.544 for video.\nGuided by these laws, we trained an 11B-parameter Chimera that activates only 2B parameters per token, using ~600 H100 days.\n- It matches Wan-2.1 2B pretraining loss with 7.3x fewer FLOPs, and runs 2.14x faster than full attention at 255K tokens.\n- It matches FLUX.1-dev and Z-Image-Turbo on GenEval and outperforms both on DPG-Bench, using roughly 20× less training compute than Z-Image-Turbo.\n\nUltimately, Chimera indicates that once you pretrain at scale, every decision shows up.\nAnd if the Kimi K3 recipe caught your attention, Chimera may look oddly familiar, except the tokens are pixels and frames with diffusion models.\n\nA team effort from team @ChongjianG30781 , me, @VisionSteve , Jiuxiang Gu, @Xu_Arthas , @chenziwee , @ShaotengLiu , @Jingorz , @YicongHong , @Zefan_Cai , @HaoTan5 ; supported by Hailin Jin and @kalyank_s at @Adobe @AdobeResearch",
-"likeCount": 453,
+"likeCount": 462,
 "retweetCount": 53,
 "url": "https://x.com/hanwenjiang1/status/2083224610464829950",
 "createdAt": "Fri Jul 31 16:13:46 +0000 2026"
 },
 {
-"userName": "shushant_l",
-"text": "I'm genuinely surprised most websites still aren't optimized for AI search.\n\nHere's the complete AI SEO framework to rank higher, earn more AI citations, and grow your brand visibility.\n\n---\n\n1. AI SEO helps your content get discovered in Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, Copilot, and more.\n\n---\n\n2. Your ultimate goal is higher rankings, more AI citations, and stronger brand visibility.\n\n---\n\n3. Build a solid technical SEO foundation with HTTPS, mobile optimization, XML sitemaps, robots.txt, and clean URLs.\n\n---\n\n4. Do keyword research around informational, commercial, transactional, navigational, long tail, and question based searches.\n\n---\n\n5. Every page should focus on one clear search intent instead of trying to rank for everything.\n\n---\n\n6. Build topical authority by publishing multiple high quality articles around the same subject.\n\n---\n\n7. Create people first content that is original, accurate, experience based, and genuinely useful.\n\n---\n\n8. Strengthen your E-E-A-T by showcasing real experience, expertise, authority, and trustworthiness.\n\n---\n\n9. Structure your content with clear headings, bullet points, FAQs, examples, checklists, and comparisons.\n\n---\n\n10. Publish unique research, case studies, templates, frameworks, and real examples instead of generic content.\n\n---\n\n11. Optimize every page with strong titles, meta descriptions, internal links, image alt text, and descriptive URLs.\n\n---\n\n12. Add structured data like FAQ, HowTo, Product, Review, Organization, Person, Video, and Local Business schema.\n\n---\n\n13. Build entity SEO by strengthening your brand, founder profile, products, expertise, and niche authority.\n\n---\n\n14. Improve local SEO with an optimized Google Business Profile, reviews, citations, and local landing pages.\n\n---\n\n15. Refresh older content every few months with new statistics, examples, screenshots, tools, and insights.\n\n---\n\n16. Earn high quality backlinks through research, guest posts, partnerships, digital PR, and original data.\n\n---\n\n17. Deliver a fast, mobile friendly, accessible, and easy to navigate user experience.\n\n---\n\n18. Track rankings, AI citations, organic traffic, CTR, conversions, Core Web Vitals, and indexed pages.\n\n---\n\n19. Avoid common mistakes like ignoring search intent, weak technical SEO, thin content, duplicate content, and slow websites.\n\n---\n\n20. There's even more inside this guide, so check the infographic to learn the complete AI SEO framework.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 20,
-"retweetCount": 4,
-"url": "https://x.com/shushant_l/status/2084988302185349575",
-"createdAt": "Wed Aug 05 13:02:03 +0000 2026"
+"userName": "hey_abusiddik",
+"text": "80+ AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n51. Napkin AI — Turn ideas into visual diagrams\n52. Recraft — Generate professional graphics\n53. Krea AI — Real-time AI image generation\n54. Magnific AI — Upscale and enhance images\n55. Topaz AI — Enhance photos and videos\n56. Descript — Edit videos and podcasts with text\n57. OpusClip — Turn long videos into shorts\n58. Captions — Create AI-powered videos\n59. VEED — Edit videos with AI\n60. Sora — Generate videos from text\n61. Higgsfield — Create cinematic AI videos\n62. PixVerse — Generate creative AI videos\n63. Freepik AI — Generate images and creative assets\n64. Tome — Create AI-powered presentations\n65. Beautiful ai — Design presentations automatically\n66. Copy ai — Generate marketing content\n67. Jasper — Create brand-focused content\n68. Writesonic — Write and optimize content\n69. Surfer SEO — Optimize content for search\n70. Semrush — AI-powered SEO research\n71. Consensus — Find answers from research papers\n72. Scite — Verify and analyze research citations\n73. Humata — Chat with PDFs and documents\n74. ChatPDF — Ask questions about PDFs\n75. Rewind — Search and remember everything on your computer\n76. Mem — AI-powered knowledge management\n77. Superhuman AI — AI-powered email productivity\n78. Lindy — Build AI agents and automate tasks\n79. Relay app — Automate workflows with AI\n80. Gamma — Turn ideas into polished content\n\n✅ Save this list — you'll probably use it more than you think.",
+"likeCount": 127,
+"retweetCount": 46,
+"url": "https://x.com/hey_abusiddik/status/2085392425389023721",
+"createdAt": "Thu Aug 06 15:47:53 +0000 2026"
 },
 {
-"userName": "shushant_l",
-"text": "I'm genuinely surprised how many people still use the same AI app for everything.\n\nHere are the 20 best AI mobile apps for every task you'll ever need.\n\n---\n\n1. ChatGPT is the best all-round AI assistant for everyday work and life.\n\n---\n\n2. Claude is perfect for writing, coding, and long documents.\n\n---\n\n3. Gemini is the best choice if you use Gmail, Docs, and other Google apps.\n\n---\n\n4. Microsoft Copilot works seamlessly with Word, Excel, and Microsoft 365.\n\n---\n\n5. Perplexity is one of the best AI apps for research with reliable sources.\n\n---\n\n6. Grok is great for real-time information and live web access.\n\n---\n\n7. DeepSeek delivers powerful reasoning completely free.\n\n---\n\n8. Meta AI integrates directly with WhatsApp and Instagram.\n\n---\n\n9. Poe lets you compare multiple AI models inside one app.\n\n---\n\n10. Pi AI feels natural for conversations, coaching, and brainstorming.\n\n---\n\n11. NotebookLM turns PDFs and notes into easy summaries and audio overviews.\n\n---\n\n12. Grammarly helps improve grammar, tone, and everyday writing.\n\n---\n\n13. Canva makes AI-powered designs, presentations, and social posts effortless.\n\n---\n\n14. Adobe Firefly is excellent for AI image editing and creative design.\n\n---\n\n15. Photomator makes photo enhancement and editing much faster.\n\n---\n\n16. Luma AI creates cinematic AI videos from text and images.\n\n---\n\n17. ElevenLabs generates realistic AI voices in multiple languages.\n\n---\n\n18. Suno creates full songs, music, and lyrics using AI.\n\n---\n\n19. https://t.co/3zADbSd9bB records meetings and automatically creates searchable transcripts.\n\n---\n\n20. Notion AI helps you write, summarize, brainstorm, and stay productive.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 41,
-"retweetCount": 7,
-"url": "https://x.com/shushant_l/status/2084868004844871893",
-"createdAt": "Wed Aug 05 05:04:01 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Some people are surprised that APIs (aka what Anthropic, OpenAI, and others provide) are treated differently than open weights in the new AI model framework. \n\nI'm not surprised at all, and it's actually very good policy. Let me explain:\n\nModel weights, APIs, and apps are three very different layers of the stack. Treating them the same would be a recipe for bad regulation.\n\nThink about how we handle cars. We don't regulate steel, we crash-test cars. Nobody asks a steel mill to guarantee that nothing dangerous will ever be built with its steel. Obligations sit with the carmaker and rules of the road with the driver, because that's where risk becomes real and where someone can actually act on it.\n\nModel weights are the steel of AI. They're raw research output, closer to science than product: no user, no interface, no deployment. They don't do anything on their own. And because everything else is built on top of them, this is the layer where regulation does the most damage. Restrict weights and you slow down all progress downstream, and you prevent countless positive use cases from ever emerging: the lab fine-tuning an open model for rare diseases, the startup serving a language big providers ignore, the safety researchers who can only audit models because the weights are open. You don't reduce risk, you just kill open source and concentrate power in a few big labs.\n\nAPIs are the middle layer, the parts and engine suppliers of AI: a commercial service where a provider serves a model at scale. Here you have a business relationship, terms of service, the ability to monitor for abuse. It makes sense to expect transparency, security standards, and accountability from providers at this layer, because they can actually enforce things.\n\nApps are the car on the road: where AI meets the real world. A medical assistant, a hiring tool, a companion for kids, a financial advisor. This is where concrete harm can happen, and conveniently, it's where we already have decades of regulation. Health, finance, employment, consumer protection. An AI hiring tool should comply with employment law whether it's powered by an open model, an API, or a spreadsheet.\n\nThe principle is simple: regulate at the layer where risk actually materializes and where actors can act on it. Push obligations to the deployment layer, keep the research layer open. We don't regulate steel, we crash-test cars. Well done @realDonaldTrump @DavidSacks @mkratsios47!",
+"likeCount": 565,
+"retweetCount": 109,
+"url": "https://x.com/ClementDelangue/status/2084992457674990033",
+"createdAt": "Wed Aug 05 13:18:33 +0000 2026"
 },
 {
-"userName": "codewithhajra",
-"text": "10 AI Skills to Master in 2026\n\n1. Prompt Engineering\n\nLearn how to write clear, specific prompts that help AI generate accurate, relevant, and high-quality responses.\n\n2. AI Workflow Automation\n\nUse AI to automate repetitive tasks by connecting different apps and services, saving time and improving productivity.\n\n3. AI Video Generation\n\nCreate professional videos from text prompts, scripts, or images without needing advanced video editing skills.\n\n4. AI Image Generation\n\nGenerate high-quality images, illustrations, graphics, and thumbnails using simple text descriptions.\n\n5. AI Content Writing\n\nUse AI to write blogs, social media posts, emails, marketing copy, scripts, newsletters, and other written content faster.\n\n6. AI Presentation Creation\n\nTurn ideas, documents, or notes into well-designed presentations with AI-generated layouts, visuals, and speaker notes.\n\n7. AI Chatbot Building\n\nBuild AI-powered chatbots for websites, customer support, lead generation, and internal business automation.\n\n8. AI Audio & Voice Generation\n\nCreate realistic voiceovers, podcasts, narrations, and audio content using AI-generated voices.\n\n9. AI Research & Summarization\n\nQuickly analyze long documents, research papers, PDFs, and websites to extract key insights and concise summaries.\n\n10. AI Resume & Career Optimization\n\nImprove your resume, cover letter, LinkedIn profile, interview preparation, and job applications with AI assistance.\n\nRepost to help others 🌸",
-"likeCount": 104,
-"retweetCount": 21,
-"url": "https://x.com/codewithhajra/status/2084590556462686540",
-"createdAt": "Tue Aug 04 10:41:33 +0000 2026"
+"userName": "tec_safwan",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @tec_safwan  For More Tools.",
+"likeCount": 103,
+"retweetCount": 41,
+"url": "https://x.com/tec_safwan/status/2084870816303644730",
+"createdAt": "Wed Aug 05 05:15:12 +0000 2026"
+},
+{
+"userName": "tyhho0",
+"text": "Just launched Kavela on Product Hunt!\n\nI realised the \"Building of Agents\" is not sufficient. Kavela is where you can manage context across powerful agents, schedule automations (Researching, etc) and wire skills/system prompts and connectors.\n\nI want people to realize the genuine benefit of a virtual cloud file-based system for humans and agents:\n\n1. Feed context into your projects through agents or API\n2. Get agents to use said context, to deliver results/information to you\n3. Make it periodic (Automated)\n\nAnd since its shared across entire organizations, its basically the equivalent of a freeform context brain for any enterprise.\n\nThink about it: Most \"AI Memory Systems\" don't get deployed to production. First, you don't know how its creating memory, storing memory, and it is a proactive assembling of structure.\n\nEnterprise cares more about the \"Preemptive and the Proactive\". A system prompt paired with a file system works splendid locally. We simply made it available, on the cloud, for cross collaboration among teammates.\n\nSo kavela isn't just another \"Sloppy ai agent builder\" It's mission is to completely overtake any other agent platform by being the \"Right Shape\" of agents and the infrastructure around them.\n\nGive it a try, free to use. Spin up an automation, tell your agent to save context/research into files, and watch it perform literal magic.\n\nDo support our ProductHunt release! \nAll upvotes appreciated :)\n\nhttps://t.co/tXWYuUZwyE",
+"likeCount": 32,
+"retweetCount": 5,
+"url": "https://x.com/tyhho0/status/2085266844253040757",
+"createdAt": "Thu Aug 06 07:28:52 +0000 2026"
+},
+{
+"userName": "RIslam775",
+"text": "🚀 Free vs Paid AI Tools: Which One Should You Choose?\n\nYou don't always need the most expensive AI tool to get great results.\n\nHere are some excellent free alternatives to popular paid tools:\n\n🔍 Research: Perplexity AI → Silatus\n\n💻 Progra\nmming: Codota → GitHub Copilot\n\n🎨 Graphic Design: Canva → Adobe Creative Studio\n\n🖼️ Image Generation: BlueWillow → Midjourney\n\n🎬 Text-to-Video: Vidnoz → Runway\n\n📱 AI Short Videos: Ossa AI → Vsub\n\n📋 Project Management: Notion → Forecast\n\n📸 Photo Editing: Photopea → PicWish\n\n📊 Data Analytics: KNIME → Power BI\n\n📧 Email Marketing: Moosend → Omnisend\n\n🔑 Keyword Research: Moz Keyword Explorer → Semrush\n\n🎥 Video Editing: Vmaker → Adobe Premiere Pro\n\n✍️ Writing: ChatGPT → Jasper\n\n📢 Marketing: Claude → Writesonic\n\n📩 Email Management: Gemini in Gmail → Superhuman\n\n☁️ File Management: Google Drive → Dropbox Business\n\n🎵 AI Music: Mubert → Soundraw\n\n📄 Document Analysis: PDF AI → Adobe Acrobat Pro\n\n🧠 AI Development: Hugging Face → Replicate\n\n💡 The best AI tool isn't always the paid one—it's the one that fits your workflow and helps you get the job done.\n\nWhich AI tool do you use every day? Let me know in the comments! 👇\n\n#AI #ArtificialIntelligence #AITools #Productivity #Tech #Automation",
+"likeCount": 11,
+"retweetCount": 9,
+"url": "https://x.com/RIslam775/status/2085414439948595696",
+"createdAt": "Thu Aug 06 17:15:22 +0000 2026"
 },
 {
 "userName": "KaiteeShiks",
 "text": "I wanted to see whether MiniMax H3 could keep a polished campaign aesthetic consistent across an entire scene.\n\nSo I gave its Omni Reference feature a clear visual direction: a classic pink car, a well-dressed couple, and a matching pink bag.\n\nThe final shot has the man waiting beside the car while the woman opens the trunk and retrieves the bag.\n\nWhat impressed me was how well the details stayed connected. The characters, car, styling, color palette, and product all felt like parts of the same campaign, rather than separate AI-generated elements.\n\nMiniMax H3 supports text, image, audio, and video references in one workflow, with native 2K generation up to 15 seconds.\n\nFor fashion, e-commerce, and branded storytelling, this level of visual control could be genuinely useful.\n\nTry it: https://t.co/tSjMJ0WgtS\n\n#hailuoai #hailuo #MiniMaxH3 #H3",
 "likeCount": 102,
-"retweetCount": 85,
+"retweetCount": 84,
 "url": "https://x.com/KaiteeShiks/status/2083207031281127803",
 "createdAt": "Fri Jul 31 15:03:55 +0000 2026"
 },
 {
-"userName": "ShamiWeb3",
-"text": "One product photo can now power an entire luxury campaign.\n\nWith @fotor_com, a single image turns into premium product shots, cinematic ads, and high-end visuals that look like they came from a global fashion brand.\n\nFrom detailed macro shots to luxury hero angles and smooth camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe future of product marketing is not about taking better photos. It's about creating campaigns that people can't stop watching.",
-"likeCount": 298,
-"retweetCount": 12,
-"url": "https://x.com/ShamiWeb3/status/2084119518767673822",
-"createdAt": "Mon Aug 03 03:29:48 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
 "text": "If I could edit this tweet, I would add \"we don't regulate steel *to make safer cars*, we crash-test them\" (as obviously there's some much needed steel regulation).\n\nAlso, want to clarify that I'm not advocating for 0 regulation of open models, just pointing out that it's good policy for regulation to be different between open models, APIs and applications.\n\nThanks for pointing it out @hlntnr @YJernite @LuizaJarovsky @deanwball @GaryMarcus amongst others.",
-"likeCount": 38,
+"likeCount": 50,
 "retweetCount": 2,
 "url": "https://x.com/ClementDelangue/status/2085088362277278170",
 "createdAt": "Wed Aug 05 19:39:39 +0000 2026"
 },
 {
+"userName": "agihouse_org",
+"text": "Jerry Tworek gave a keynote and long-form interview at AGI House’s Auto-Research Summit. \n\nWe distilled both into one story: Codex, scaling RL, test-time learning, and automated AI labs. Read and bookmark ↓ https://t.co/5FZJMIfsyf",
+"likeCount": 87,
+"retweetCount": 9,
+"url": "https://x.com/agihouse_org/status/2085133996137259312",
+"createdAt": "Wed Aug 05 22:40:59 +0000 2026"
+},
+{
 "userName": "ClementDelangue",
 "text": "Feels like Google could have been the dominating force in AI by open-sourcing the frontier with Gemini, Veo, and Nano Banana. Instead, they kept them behind APIs for a few billion dollars in revenue. Maybe there's still time?",
-"likeCount": 762,
-"retweetCount": 39,
+"likeCount": 1405,
+"retweetCount": 73,
 "url": "https://x.com/ClementDelangue/status/2085058515312222570",
 "createdAt": "Wed Aug 05 17:41:03 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @FaceTheNation: Hugging Face CEO Clément Delague says “AI is actually an opportunity to fix a lot of the cybersecurity problems” because…",
-"likeCount": 42,
-"retweetCount": 23,
-"url": "https://x.com/ClementDelangue/status/2083999129051488501",
-"createdAt": "Sun Aug 02 19:31:25 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @matvelloso: To summarize:\n\n1-Builds a weapon\n\n2-Blocks most people from using it because they aren't mature enough to handle it\n\n3-Proc…",
+"likeCount": 197,
+"retweetCount": 17,
+"url": "https://x.com/jeremyphoward/status/2083304683624616433",
+"createdAt": "Fri Jul 31 21:31:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
-"likeCount": 24,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2084383891192709211",
-"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
+"text": "RT @ddimolfetta: LAS VEGAS — The Trump admin wants US-built open-source AI to become a top technology of choice around the world, National…",
+"likeCount": 64,
+"retweetCount": 19,
+"url": "https://x.com/ClementDelangue/status/2085052757740859675",
+"createdAt": "Wed Aug 05 17:18:10 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @ClementDelangue: We got attacked by secret unreleased proprietary models and defended ourselves with an open model, more precisely the…",
-"likeCount": 3828,
-"retweetCount": 575,
+"likeCount": 3830,
+"retweetCount": 576,
 "url": "https://x.com/jeremyphoward/status/2083663998764068919",
 "createdAt": "Sat Aug 01 21:19:44 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @AndrewCurran_: At first I thought Bloomberg forgot to add DeepSeek's pricing to the chart. https://t.co/j0GvfyC3Ld",
-"likeCount": 11536,
-"retweetCount": 920,
+"likeCount": 11584,
+"retweetCount": 930,
 "url": "https://x.com/jeremyphoward/status/2084749629216977010",
 "createdAt": "Tue Aug 04 21:13:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
-"likeCount": 325,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2085141703216804032",
-"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
-},
-{
-"userName": "Maninamerica",
-"text": "https://t.co/urFP11Vf8Y",
-"likeCount": 26,
-"retweetCount": 11,
-"url": "https://x.com/Maninamerica/status/2084747296420348182",
-"createdAt": "Tue Aug 04 21:04:22 +0000 2026"
+"text": "https://t.co/AiHFGvyR8u",
+"likeCount": 122,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2085000309865070795",
+"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
 },
 {
 "userName": "apob_ai",
 "text": "https://t.co/bRlByrnvWB",
-"likeCount": 22,
+"likeCount": 26,
 "retweetCount": 7,
 "url": "https://x.com/apob_ai/status/2084930670510354751",
 "createdAt": "Wed Aug 05 09:13:02 +0000 2026"

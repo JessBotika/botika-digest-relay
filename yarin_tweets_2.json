@@ -1,122 +1,130 @@
 [
 {
-"userName": "ZhihuFrontier",
-"text": "🎓 How a CMU PhD Student Takes a Paper From 0 to 1\nAfter three semesters as a PhD student at Carnegie Mellon University, Zhihu contributor 郑深 shared the workflow he uses to turn an early research idea into a conference submission.\nHis first year included funding uncertainty, an ICCV 2025 acceptance for ROADWork and a Waymo internship. He is now preparing or submitting two first-author papers.\nHis main lesson is that research rarely starts with a perfect idea. It advances through reproducibility, failure analysis and disciplined iteration.\n\n1️⃣ Start with a tractable research problem\nFor junior PhD students, the most efficient starting point is usually talking to advisors and senior students about available projects.\nThe ideal direction has high potential but limited competition. If that opportunity is unavailable, look for a concrete weakness in existing work.\nBegin with recent surveys from the past one or two years. Then select around ten representative top-conference papers with strong results, high citations and open-source code.\nAt first, focus on titles, abstracts, figures and tables. In fast-moving areas such as text-to-image generation, papers older than one year may already be less relevant.\n\n2️⃣ Choose datasets and metrics conservatively\nPrefer public datasets that the community already uses. They make comparisons easier and reduce unexpected engineering costs.\nBefore modifying or building a dataset, estimate:\n· Compute requirements\n· Annotation cost\n· Engineering workload\n· Delivery time\nApply the same discipline to evaluation metrics. If an existing metric ignores important objects, rare events or safety-critical cases, improving it may become part of the research contribution.\nOtherwise, keep the standard metric. Changing datasets and metrics too early creates unnecessary variables.\n\n3️⃣ Reproduce a strong baseline before proposing anything\nChoose one representative, high-quality paper as the baseline.\nFirst, run its released pretrained checkpoint. Then train the model yourself and verify that you can reproduce the reported result.\nIf the baseline cannot be reproduced after reasonable effort, reconsider it. Building a new method on top of an unstable baseline makes every later conclusion difficult to trust.\nOnly after reproduction should you read the method and implementation in detail.\n\n4️⃣ Let failure cases reveal the research question\nVisualize the baseline’s outputs and combine qualitative observations with quantitative metrics.\nGroup failures into clear categories:\n· Small objects\n· Occlusion\n· Rare scenarios\n· Missing context\n· Incorrect associations\n· Unstable predictions\nThis turns “the model is not good enough” into a set of testable problems.\nThe next step is recursive ablation. Remove or replace one module, retrain the system and measure what changes. Continue decomposing the components with the largest impact.\nThis process reveals both how the model works and where a meaningful contribution may exist.\n\n🔍 Two outcomes lead to different research strategies\nIf removing modules consistently reduces performance, the existing architecture is probably well designed.\nYou may need a genuinely new modeling idea. This is difficult to solve through intuition alone, so discussions with advisors and senior researchers become especially valuable.\nIf removing a component improves performance, the opportunity is more direct.\nStudy related alternatives, replace the problematic component and treat the improved system as a new baseline. Then continue iterating until your own module emerges from the process.\nA good research idea is often discovered through controlled removal, not added complexity.\n\n5️⃣ Implement the smallest possible version first\nOnce you have an idea, test it with the least code and time possible.\nDo not begin by tuning hyperparameters.\n🔹 Write an independent Python script to verify that the new module is feasible.\n🔹 Integrate it into the existing repository and make inference work before training.\n🔹 Start with a small training subset, but always evaluate on the full test set.\nA failed minimal experiment is cheap. A failed experiment buried inside a large codebase can consume days before revealing that the original idea was flawed.\n\n6️⃣ Treat experiment management as part of research\nClean engineering makes conclusions easier to trust.\nUse one base configuration, such as exp_base.yaml, and keep each experimental config limited to a small number of changes.\nGive experiments traceable names. Commit and push after every successful small modification.\nUse separate Git branches for larger architectural changes. Merge them only after confirming compatibility with the main pipeline.\nThis prevents a common research failure: obtaining a good result but being unable to identify which code, configuration or checkpoint produced it.\n\n7️⃣ Scale experiments in stages\nTrain on a subset first to check whether the idea moves the metric in the expected direction. Once the pipeline is stable, run the complete training set.\nEvaluation should remain on the full test set throughout the process.\nRepeat implementation and validation until:\n· The method clearly outperforms existing approaches\n· The improvement is consistent\n· Further gains cannot be explained by simple tuning\n· Failure cases have changed in the expected direction\nThen expand the evaluation to additional datasets and metrics.\n\n8️⃣ Write figures before prose\nWhen the experiments are complete, start the paper with figures and tables.\nNext, build the argument around them:\n1. What problem does the baseline have?\n2. Why does the proposed method address it?\n3. Which experiments support that claim?\n4. Where does the method still fail?\nOnly then fill in the prose.\nStarting with visual evidence makes it harder for the paper to drift into claims unsupported by the experiments.\n\n🧘 Avoiding burnout is part of the workflow\nResearch productivity depends on sustained attention, not occasional all-nighters.\nThe author recommends reducing short-video and social-media use, sleeping enough and finding reliable ways to recover through food, music, exercise or a spa.\nWhen progress feels difficult, talk to other people instead of remaining isolated. Senior students can also serve as realistic examples of how research careers develop.\nRest is not time taken away from research. Clear thinking and creative work depend on it.\n\n🔑 The complete 0-to-1 loop\nThe workflow can be summarized as:\nChoose a tractable problem → reproduce a baseline → classify its failures → ablate its modules → test the smallest new idea → scale carefully → write around evidence.\nThe critical step is not brainstorming a complicated architecture.\nIt is building a process that repeatedly converts observations into falsifiable experiments.\n\n🔗 Full Reading:\nhttps://t.co/QOF51oeaVg\n\n✏️Note: The original Chinese post was written as a reflection at the beginning of 2026, but its research workflow and practical advice remain highly relevant today.\n\n#PhD #AcademicResearch #MachineLearning #ResearchWorkflow #PaperWriting #GraduateSchool",
-"likeCount": 178,
-"retweetCount": 15,
-"url": "https://x.com/ZhihuFrontier/status/2084533099896225904",
-"createdAt": "Tue Aug 04 06:53:14 +0000 2026"
-},
-{
-"userName": "_avichawla",
-"text": "4 stages of LLM training, clearly explained:\n\n(a popular LLM interview question; bookmark this)\n\n→ Pre-training\n→ Instruction fine-tuning\n→ Preference fine-tuning\n→ Reasoning fine-tuning\n\nThe visual covers all of them.\n\nA base model treats a question as text to be continued, not a request to be answered. Questions in its training data usually have more questions next to them, so that's what the model replies.\n\nThe stages after pre-training allow changing that behaviour, and each one uses a different training signal to do it.\n\n0) Randomly initialized model\n\nThe weights are random numbers, so token selection is close to uniform, and the LLM outputs gibberish text.\n\n1) Pre-training\n\nThe model reads a large text corpus and repeatedly predicts the next word.\n\nThis stage teaches the model grammar and facts about the world.\n\nAlso, most of its raw reasoning ability comes from this stage, and it's where nearly all of the training compute goes.\n\nThe model becomes good at continuing text, but nothing in the objective connects a question to an answer.\n\n2) Instruction fine-tuning\n\nHere, it trains on pairs of instructions and good responses, so it picks up the convention that a question should get an answer and a request to summarise should get a summary.\n\nOpenAI used roughly 13,000 human-written examples on GPT-3, against a pre-training corpus of hundreds of billions of words.\n\nThe knowledge was already in the weights, and this stage mostly taught a response format.\n\n3) Preference fine-tuning\n\nA lot of requests have no single correct answer, and supervised fine-tuning needs a specific target to train against.\n\nIn this setup, two responses go to a human who picks the better one. You may have already seen this in ChatGPT, where it asks which of the two responses is better.\n\nThose picks train a separate model that predicts which response a human would have chosen. The main model then gets updated to score higher against that predictor.\n\n4) Reasoning fine-tuning\n\nFor maths and code, there's usually one correct answer, and a program can check it. Human preference isn't needed here, since correctness is already a usable reward signal.\n\nThe model attempts a problem, the answer gets checked, and it's rewarded when it gets it right.\n\nDeepSeek trained R1 this way with GRPO, and behaviours like working through intermediate steps and going back to fix its own mistakes showed up during training without any examples demonstrating them.\n\nThat said, stage 4 only works when a program can check the answer. Maths and code inherently provide that.\n\nBut a support reply, a RAG answer, or a summary has no correct output to check against, so the reward has to come from somewhere else.\n\nI wrote a full breakdown of how labs are handling that problem, from RLHF through GRPO, and what replaced the checker.\n\nRead it below.",
-"likeCount": 158,
-"retweetCount": 33,
-"url": "https://x.com/_avichawla/status/2083111291833757900",
-"createdAt": "Fri Jul 31 08:43:28 +0000 2026"
+"userName": "Arina_hoqe",
+"text": "To create Ai image like this Just follow these simple steps 👇\n\n1️⃣ Open Google Gemini//Grok/ChatGPT \n2️⃣ Upload Your Photo 🤳\n3️⃣ Copy and Paste this Prompt ✍️\n\nProfessional AI Image Generation Prompt (Highly Detailed & Precise)\nPrompt:\nCreate a masterpiece-quality, ultra-photorealistic lifestyle portrait in a 4:5 vertical composition, captured in 8K Ultra HD with extraordinary realism, premium editorial photography quality, cinematic HDR lighting, natural skin texture, and exceptional micro-detail. The image should seamlessly blend real-world photography with expressive monochrome hand-drawn sketch art, creating the illusion that the illustrated version of the subject has stepped out of her imagination onto the wall beside her.\nThe scene takes place inside a modern, warm-toned minimalist home with soft beige walls, polished ivory marble flooring, and elegant Scandinavian-inspired wooden furniture. On the left side of the frame is a light oak wooden cabinet with framed botanical artwork and a small green indoor plant, contributing to a calm, cozy, contemporary atmosphere. A woven jute rug occupies the foreground, enhancing the home's natural aesthetic.\nThe primary subject is a beautiful young South Asian woman standing naturally beside a plain wall. She has a soft oval face, warm wheatish-fair complexion, expressive dark brown eyes, delicately arched eyebrows, a small straight nose, naturally pink lips, and subtle everyday makeup. Her dark brown hair is loosely tied into a casual low ponytail with soft face-framing strands falling naturally around her cheeks.\nShe wears an elegant pastel lavender embroidered Indian kurta set featuring intricate white floral thread embroidery throughout the fabric. The kurta has a round neckline, full-length semi-sheer sleeves with embroidered cuffs, matching straight pants, and traditional embroidered jutti flats. Small floral earrings, a delicate gold chain necklace, and minimal accessories complete the refined ethnic look.\nThe woman leans gently against the wall with a shy, playful posture. Her hands are softly clasped together in front of her body, shoulders slightly raised, one leg bent backward with only the toe touching the floor, creating an adorable, feminine pose. She gazes affectionately toward the illustrated version beside her with a subtle smile, conveying warmth, innocence, and curiosity.\nOccupying the right half of the composition is a large monochrome ink sketch of the same woman drawn directly on the wall. The sketch perfectly matches her hairstyle, facial features, clothing, jewelry, proportions, and overall identity while transforming her personality into a lively cartoon-style illustration. The drawing is created using expressive black ink lines, loose cross-hatching, confident brush strokes, and sketchbook-style detailing.\nUnlike the real subject's reserved pose, the illustrated character is energetic and playful. She balances on one leg with the opposite leg lifted backward, sticks out her tongue mischievously, winks one eye, and raises both hands making cheerful peace signs. Around the drawing are small hand-drawn doodles including hearts, stars, sparkle icons, motion lines, and playful accent marks that enhance the whimsical personality without overwhelming the composition.\nThe lighting is soft natural window light from the left, producing smooth shadows, beautiful dimensionality, realistic skin tones, subtle fabric translucency, and gentle highlights on the embroidery. The sketch should appear naturally integrated into the wall with crisp black ink contrast while remaining clearly hand-drawn rather than digitally rendered.\nCamera & Photography Settings:\nFull-frame professional DSLR or medium-format camera\n85mm prime portrait lens\nAperture: f/2.8\nISO 100\nShutter Speed: 1/200 sec\nEye-level perspective\nSoft natural daylight\nHigh dynamic range\nEditorial interior photography\nRazor-sharp focus on the subject\nClean background separation\nRealistic depth of field\nPremium fashion campaign quality\nStyle Keywords: Ultra-photorealistic, editorial lifestyle photography, luxury ethnic fashion, minimalist interior, Indian traditional elegance, monochrome ink illustration, playful wall sketch, cozy home aesthetic, cinematic lighting, realistic fabric texture, expressive line art, seamless photo-illustration blend, premium commercial photography, magazine-quality, hyper-detailed, 8K UHD, flawless realism.",
+"likeCount": 36,
+"retweetCount": 6,
+"url": "https://x.com/Arina_hoqe/status/2083395231366427044",
+"createdAt": "Sat Aug 01 03:31:45 +0000 2026"
 },
 {
 "userName": "shushant_l",
-"text": "I'm amazed most people still design websites the hard way.\n\nHere's how to build stunning websites faster with AI from idea to launch.\n\n---\n\n1. Start by defining your website goals, audience, brand, and desired conversions.\n\n---\n\n2. Research competitors to uncover design ideas, strengths, and opportunities.\n\n---\n\n3. Build detailed user personas before creating a single design.\n\n---\n\n4. Plan a simple website structure with clear navigation.\n\n---\n\n5. Generate wireframes to visualize layouts before adding visuals.\n\n---\n\n6. Use AI to design pages, sections, navigation, and responsive layouts.\n\n---\n\n7. Create a consistent design system with colors, fonts, and reusable components.\n\n---\n\n8. Generate images, icons, illustrations, and mockups with AI.\n\n---\n\n9. Write website copy including headlines, landing pages, FAQs, and CTAs.\n\n---\n\n10. Generate HTML, CSS, JavaScript, and responsive code with AI.\n\n---\n\n11. Always review AI generated designs and code before publishing.\n\n---\n\n12. Optimize every page for desktop, tablet, and mobile devices.\n\n---\n\n13. Use AI to improve readability, accessibility, forms, and user experience.\n\n---\n\n14. Follow accessibility best practices like proper contrast, alt text, and keyboard navigation.\n\n---\n\n15. Improve SEO with better keywords, headings, metadata, and internal links.\n\n---\n\n16. Optimize performance through image compression, lazy loading, caching, and faster code.\n\n---\n\n17. Create multiple headline, CTA, and landing page variations for higher conversions.\n\n---\n\n18. Test every design with real users before launching your website.\n\n---\n\n19. Use the right AI tools for planning, design, coding, and website building.\n\n---\n\n20. Check the infographic to explore the complete AI web design workflow and extra prompts.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 22,
+"text": "I'm genuinely surprised most websites still aren't optimized for AI search.\n\nHere's the complete AI SEO framework to rank higher, earn more AI citations, and grow your brand visibility.\n\n---\n\n1. AI SEO helps your content get discovered in Google AI Overviews, ChatGPT, Perplexity, Claude, Gemini, Copilot, and more.\n\n---\n\n2. Your ultimate goal is higher rankings, more AI citations, and stronger brand visibility.\n\n---\n\n3. Build a solid technical SEO foundation with HTTPS, mobile optimization, XML sitemaps, robots.txt, and clean URLs.\n\n---\n\n4. Do keyword research around informational, commercial, transactional, navigational, long tail, and question based searches.\n\n---\n\n5. Every page should focus on one clear search intent instead of trying to rank for everything.\n\n---\n\n6. Build topical authority by publishing multiple high quality articles around the same subject.\n\n---\n\n7. Create people first content that is original, accurate, experience based, and genuinely useful.\n\n---\n\n8. Strengthen your E-E-A-T by showcasing real experience, expertise, authority, and trustworthiness.\n\n---\n\n9. Structure your content with clear headings, bullet points, FAQs, examples, checklists, and comparisons.\n\n---\n\n10. Publish unique research, case studies, templates, frameworks, and real examples instead of generic content.\n\n---\n\n11. Optimize every page with strong titles, meta descriptions, internal links, image alt text, and descriptive URLs.\n\n---\n\n12. Add structured data like FAQ, HowTo, Product, Review, Organization, Person, Video, and Local Business schema.\n\n---\n\n13. Build entity SEO by strengthening your brand, founder profile, products, expertise, and niche authority.\n\n---\n\n14. Improve local SEO with an optimized Google Business Profile, reviews, citations, and local landing pages.\n\n---\n\n15. Refresh older content every few months with new statistics, examples, screenshots, tools, and insights.\n\n---\n\n16. Earn high quality backlinks through research, guest posts, partnerships, digital PR, and original data.\n\n---\n\n17. Deliver a fast, mobile friendly, accessible, and easy to navigate user experience.\n\n---\n\n18. Track rankings, AI citations, organic traffic, CTR, conversions, Core Web Vitals, and indexed pages.\n\n---\n\n19. Avoid common mistakes like ignoring search intent, weak technical SEO, thin content, duplicate content, and slow websites.\n\n---\n\n20. There's even more inside this guide, so check the infographic to learn the complete AI SEO framework.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
+"likeCount": 25,
 "retweetCount": 5,
-"url": "https://x.com/shushant_l/status/2085018751884538212",
-"createdAt": "Wed Aug 05 15:03:02 +0000 2026"
+"url": "https://x.com/shushant_l/status/2084988302185349575",
+"createdAt": "Wed Aug 05 13:02:03 +0000 2026"
+},
+{
+"userName": "AiwithLariab",
+"text": "GPT image 2 on chatgpt\n\nPrompt\n\nUse the uploaded photo as the ONLY identity reference.\n\nIMPORTANT:\nThis is an IMAGE EDIT task, NOT a text-to-image generation task.\n\nPreserve the exact facial identity with full face lock. Do not redesign or beautify the person. Keep the exact face shape, eyes, eyebrows, eyelashes, nose, lips, ears, jawline, skin tone, skin texture, hairstyle, hairline, expression, age, body proportions, hands, and every unique facial feature exactly the same as in the uploaded image. The final person must be 100% recognizable as the original.\n\nCreate a premium cinematic monochrome portrait in a stylish double-composition layout.\n\nThe background should be a soft outdoor environment with creamy bokeh and shallow depth of field.\n\nConvert the entire scene into elegant black-and-white while keeping only the small decorative hearts in bright red.\n\nCreate two versions of the same person:\n\n• A very large upper-body portrait occupying the left side of the frame, facing slightly sideways with a confident, calm expression.\n\n• A smaller full-body portrait placed on the lower-right side, naturally walking forward with one hand inside the trouser pocket and the other arm relaxed.\n\nThe clothing should be modern smart-casual:\n• Black collared button-up shirt with a smooth black-to-white gradient fade toward the lower sleeves and hem.\n• White high-waisted tailored trousers.\n• Black belt.\n• Black sunglasses.\n• Small hoop earrings.\n\nHair tied into a high ponytail with natural loose strands around the face.\n\nBlend both portraits seamlessly with soft fog at the bottom to create a premium editorial collage.\n\nAdd elegant graphic elements:\n• White handwritten brush-script text reading \"It's Me\" in the lower-left corner.\n• Three to five small bright-red hearts around the text.\n• A thin white dashed swirl leading toward a small white butterfly near the bottom.\n\nLuxury Instagram poster aesthetic.\n\nFashion editorial.\n\nPremium social media artwork.\n\nUltra realistic.\n\nNatural skin texture.\n\nProfessional retouching.\n\n85mm DSLR.\n\nHDR.\n\nSoft cinematic lighting.\n\nHigh contrast.\n\n8K ultra detailed.\n\nNEGATIVE PROMPT:\nNo face change.\nNo identity drift.\nNo hairstyle change.\nNo skin tone change.\nNo facial feature changes.\nNo age change.\nNo body shape change.\nNo distorted hands.\nNo extra fingers.\nNo extra people.\nNo duplicate body.\nNo text except \"It's Me\".\nNo watermark.\nNo logo.\nNo cartoon.\nNo anime.\nNo illustration.\nNo painting.\nNo AI-looking face.\nNo over-smoothing.\nNo beauty enhancement.",
+"likeCount": 99,
+"retweetCount": 7,
+"url": "https://x.com/AiwithLariab/status/2084138512023232654",
+"createdAt": "Mon Aug 03 04:45:17 +0000 2026"
+},
+{
+"userName": "shushant_l",
+"text": "I'm genuinely surprised how many people still use the same AI app for everything.\n\nHere are the 20 best AI mobile apps for every task you'll ever need.\n\n---\n\n1. ChatGPT is the best all-round AI assistant for everyday work and life.\n\n---\n\n2. Claude is perfect for writing, coding, and long documents.\n\n---\n\n3. Gemini is the best choice if you use Gmail, Docs, and other Google apps.\n\n---\n\n4. Microsoft Copilot works seamlessly with Word, Excel, and Microsoft 365.\n\n---\n\n5. Perplexity is one of the best AI apps for research with reliable sources.\n\n---\n\n6. Grok is great for real-time information and live web access.\n\n---\n\n7. DeepSeek delivers powerful reasoning completely free.\n\n---\n\n8. Meta AI integrates directly with WhatsApp and Instagram.\n\n---\n\n9. Poe lets you compare multiple AI models inside one app.\n\n---\n\n10. Pi AI feels natural for conversations, coaching, and brainstorming.\n\n---\n\n11. NotebookLM turns PDFs and notes into easy summaries and audio overviews.\n\n---\n\n12. Grammarly helps improve grammar, tone, and everyday writing.\n\n---\n\n13. Canva makes AI-powered designs, presentations, and social posts effortless.\n\n---\n\n14. Adobe Firefly is excellent for AI image editing and creative design.\n\n---\n\n15. Photomator makes photo enhancement and editing much faster.\n\n---\n\n16. Luma AI creates cinematic AI videos from text and images.\n\n---\n\n17. ElevenLabs generates realistic AI voices in multiple languages.\n\n---\n\n18. Suno creates full songs, music, and lyrics using AI.\n\n---\n\n19. https://t.co/3zADbSd9bB records meetings and automatically creates searchable transcripts.\n\n---\n\n20. Notion AI helps you write, summarize, brainstorm, and stay productive.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
+"likeCount": 42,
+"retweetCount": 7,
+"url": "https://x.com/shushant_l/status/2084868004844871893",
+"createdAt": "Wed Aug 05 05:04:01 +0000 2026"
 },
 {
 "userName": "hey_abusiddik",
 "text": "100 AI tools that's turn hours work into minutes 👍👍 \n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo",
-"likeCount": 18,
+"likeCount": 19,
 "retweetCount": 15,
 "url": "https://x.com/hey_abusiddik/status/2085033096429400259",
 "createdAt": "Wed Aug 05 16:00:02 +0000 2026"
 },
 {
-"userName": "ScottyBeamIO",
-"text": "A 21-YEAR-OLD CHINESE GIRL MAKES $12,000+ A MONTH WITH A DANCING ANIME GIRL THAT DOESN’T EVEN EXIST\n\nNo, I’m not talking about game development or animation.\n\nShe simply dances in front of a camera.\n\nAI turns every movement, facial expression, and gesture into a realistic anime avatar that copies her perfectly.\n\nThat’s the version she posts online. Not herself.\n\nMillions of people follow the character. Most of them don’t even care who’s controlling it.\n\nFashion brands pay the avatar to wear their clothes. Beauty companies pay the avatar to promote their products. Gaming studios pay the avatar to appear in campaigns.\n\nThe audience never bought into the AI. They bought into the personality.\n\nThat’s the biggest misconception about AI creators.\n\nPeople don’t follow technology. They follow characters they enjoy watching.\n\nThe creators who understand that first will build the next generation of internet celebrities.",
-"likeCount": 73,
+"userName": "ml_angelopoulos",
+"text": "Today, we are announcing Arena's factuality leaderboards, which evaluate the objective performance of AI models in reality and guard against hallucinations.\n\nArena's chat leaderboard has historically focused on human preference. Although our style control methodology adjusts for the effect of emojis, response length, and other stylistic factors, we wanted a more direct way of measuring objective signals of chatbot utility and anti-hallucination.\n\nHence, we developed the factuality leaderboards, which speak to the fraction of correct factual claims that a model makes. We basically extract all factual claims and cross-reference them against the internet to ensure they are based in evidence. Models that are supporting their claims with stronger evidence get a better score, and this gives a strong basis for objective performance beyond preference alone.\n\nThe big winners, as you can see on this plot, are OpenAI and Grok. Notably, Claude models, as well as Ernie and Muse-Spark-1.1, decrease in ranking.\n\nWe're so excited to share this with you! Hope you enjoy!",
+"likeCount": 91,
+"retweetCount": 10,
+"url": "https://x.com/ml_angelopoulos/status/2085134740693422379",
+"createdAt": "Wed Aug 05 22:43:56 +0000 2026"
+},
+{
+"userName": "farzyness",
+"text": "If the assumption is that AI token demand is accelerating...\n\nThen given that chip supply is still massively short due to the increase in spot prices for GPUs...\n\nMeans that companies that are most optimized to\n\na) deliver the largest amount of tokens\nb) in the most efficient fashion...\n\nWill win the most UNTIL:\n\na) chip supply stabilizes to match demand and/or\nb) token generation becomes more efficient to match demand\n\nGRANTED that token demand doesn't accelerate, which is EXTREMELY UNLIKELY given:\n\na) Jevon's Paradox\nb) Physical AI still extremely early\n\nWhich ultimately means Token Factories (at data centers and/or locally in robots/local inference) will be the most valuable assets in AI.\n\nWhich means that $SPCX - by default - can be the most valuable Token Factory because it has the largest capacity to harness the largest amount of energy (the sun) which it vertically owns and operates.",
+"likeCount": 56,
 "retweetCount": 3,
-"url": "https://x.com/ScottyBeamIO/status/2084944444453765463",
-"createdAt": "Wed Aug 05 10:07:46 +0000 2026"
+"url": "https://x.com/farzyness/status/2084726170285649945",
+"createdAt": "Tue Aug 04 19:40:25 +0000 2026"
 },
 {
-"userName": "influencer_seo",
-"text": "Here's how to build an AI music video using the new MiniMax-H3 Video model with open weights... Use this prompt below 👇\n\nprompt\n\nStyle: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.\n\n#minimax #minimaxh3 @MiniMax_AI",
-"likeCount": 187,
-"retweetCount": 13,
-"url": "https://x.com/influencer_seo/status/2084355942628684135",
-"createdAt": "Mon Aug 03 19:09:16 +0000 2026"
+"userName": "MonetizationDon",
+"text": "HELLO AUGUST ✨\n\nStarted the new month by creating this luxury-inspired poster entirely with GPT Image 2 inside PixVerse\n\nThe typography.\nThe lighting.\nThe fashion styling.\nThe premium commercial look.\nIt's amazing how far AI image generation has come.\nEvery month is another opportunity to create something that wasn't possible yesterday.\nCreated with GPT Image 2 in @PixVerse_ \n\nPrompt in the comments\n#PixVerseCPP",
+"likeCount": 38,
+"retweetCount": 3,
+"url": "https://x.com/MonetizationDon/status/2083532545384231164",
+"createdAt": "Sat Aug 01 12:37:23 +0000 2026"
 },
 {
-"userName": "jean_tarbou",
-"text": "Our tech report on DiffusionGemma is out! 🚀\n\nMy biggest highlight? Online post-training is a game changer for text diffusion.\n\nWe performed joint Sampler Distillation and Reinforcement Learning (SD⋅RL) after SFT, pushing the quality-speed Pareto frontier into a new regime 📈 https://t.co/0wyylMEo7a",
-"likeCount": 96,
-"retweetCount": 23,
-"url": "https://x.com/jean_tarbou/status/2084691842759573720",
-"createdAt": "Tue Aug 04 17:24:01 +0000 2026"
-},
-{
-"userName": "agihouse_org",
-"text": "Jerry Tworek gave a keynote and long-form interview at AGI House’s Auto-Research Summit. \n\nWe distilled both into one story: Codex, scaling RL, test-time learning, and automated AI labs. Read and bookmark ↓ https://t.co/5FZJMIfsyf",
-"likeCount": 44,
-"retweetCount": 4,
-"url": "https://x.com/agihouse_org/status/2085133996137259312",
-"createdAt": "Wed Aug 05 22:40:59 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Fortunately AI agents don't just cyberattack us. They also use us more than ever for what we're actually built for: the storage and collaboration layer for AI 😅\n\nNew record: almost 4 PB of private & public training datasets, models, and agent traces added to Hugging Face last week.",
+"likeCount": 492,
+"retweetCount": 53,
+"url": "https://x.com/ClementDelangue/status/2085326999120122178",
+"createdAt": "Thu Aug 06 11:27:54 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @deepseek_ai: 🚀 DeepSeek-V4-Flash Official API is now LIVE in public beta!\n\n🔷 We’ve massively upgraded its Agent capabilities—benchmark…",
-"likeCount": 29763,
-"retweetCount": 3518,
-"url": "https://x.com/jeremyphoward/status/2083302825636110681",
-"createdAt": "Fri Jul 31 21:24:34 +0000 2026"
+"text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
+"likeCount": 22701,
+"retweetCount": 2822,
+"url": "https://x.com/jeremyphoward/status/2084374840010850493",
+"createdAt": "Mon Aug 03 20:24:22 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @matvelloso: To summarize:\n\n1-Builds a weapon\n\n2-Blocks most people from using it because they aren't mature enough to handle it\n\n3-Proc…",
-"likeCount": 197,
+"userName": "ClementDelangue",
+"text": "RT @jawwwn_: .@ssankar says Palantir was able to make Nvidia's Nemotron Ultra model \"better than frontier\":\n\n\"I literally almost felt gasli…",
+"likeCount": 842,
+"retweetCount": 94,
+"url": "https://x.com/ClementDelangue/status/2084636020805337580",
+"createdAt": "Tue Aug 04 13:42:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @BusinessInsider: Hugging Face CEO Clément Delangue weighs in on the open-weight AI models debate and said it helped the company when it…",
+"likeCount": 79,
 "retweetCount": 17,
-"url": "https://x.com/jeremyphoward/status/2083304683624616433",
-"createdAt": "Fri Jul 31 21:31:57 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2084438809815449787",
+"createdAt": "Tue Aug 04 00:38:33 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @FaceTheNation: When asked if AI developers have lost control of their technology after an AI agent created by OpenAI escaped its testin…",
-"likeCount": 45,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2084000601126338644",
-"createdAt": "Sun Aug 02 19:37:16 +0000 2026"
+"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
+"likeCount": 24,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2084383891192709211",
+"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @martin_casado: It appears model capabilities / releases are accelerating. But if you divide by the money going into the labs, it looks…",
-"likeCount": 241,
-"retweetCount": 18,
-"url": "https://x.com/jeremyphoward/status/2083663695444660372",
-"createdAt": "Sat Aug 01 21:18:32 +0000 2026"
+"text": "RT @QwenDevs: The goal was never to remove humans from the picture. It was to get them out of spreadsheets and onto climbing walls",
+"likeCount": 10610,
+"retweetCount": 858,
+"url": "https://x.com/jeremyphoward/status/2084973024378495326",
+"createdAt": "Wed Aug 05 12:01:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @CNBC: Hugging Face CEO says China is winning the AI race and dominating on open models https://t.co/juhpKedKGR",
-"likeCount": 171,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2084434673292189963",
-"createdAt": "Tue Aug 04 00:22:07 +0000 2026"
+"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
+"likeCount": 487,
+"retweetCount": 21,
+"url": "https://x.com/ClementDelangue/status/2085141703216804032",
+"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "https://t.co/AiHFGvyR8u",
-"likeCount": 104,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2085000309865070795",
-"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
-},
-{
-"userName": "mattdreams",
-"text": "https://t.co/M6hijLuxYM",
-"likeCount": 33,
-"retweetCount": 4,
-"url": "https://x.com/mattdreams/status/2084663729988186539",
-"createdAt": "Tue Aug 04 15:32:19 +0000 2026"
+"userName": "0x1164",
+"text": "https://t.co/BjmHM57t8R",
+"likeCount": 19,
+"retweetCount": 6,
+"url": "https://x.com/0x1164/status/2084957379792122097",
+"createdAt": "Wed Aug 05 10:59:10 +0000 2026"
 }
 ]
