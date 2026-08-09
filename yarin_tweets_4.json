@@ -1,146 +1,130 @@
 [
 {
+"userName": "lifemaximised",
+"text": "Everything you need to profitably scale an ecom brand with Google Ads and YouTube Ads in one tweet:\n\n(Bookmark this.)\n\n📂 Google Ads:\n\n📁 Search Campaigns\n\n- Branded search (exact match)\n- Non-branded search (phrase match)\n- Competitor search (exact match on brand name)\n- Problem-aware search (TOF queries sent to advertorial pages)\n- Dynamic search ads (let Google find queries you missed)\n\n📁 Shopping Campaigns\n\n- Branded shopping (exclude non-brand)\n- Prospecting shopping (best sellers at low tROAS)\n- Testing shopping (new products, separate budget)\n- Angle-specific shopping (duplicated listings)\n\n📁 PMax\n\n- Remarketing PMax (HIGH tROAS)\n- Feed-only PMax (let product feed cook)\n- Full-asset PMax (text, image, video, everything)\n- Brand exclusion setup (negative keywords in exact match)\n- tROAS split (high on PMax, low on prospecting shopping)\n\n📁 Demand Gen\n\n- Lookalike audiences (customer match upload)\n- Custom intent audiences (feed Google the search terms)\n- In-market audiences (Google's categorisation of active shoppers)\n- Remarketing audiences (video viewers, site visitors, cart abandoners across YouTube)\n- Asset group separation (never blend audience types in one asset group)\n\n📂 YouTube Ads\n\n- 6-second bumpers (unskippable)\n- 15-second in-stream skippable (MOF warm)\n- 30-second in-stream (BOF remarketing, UGC style)\n- Shorts ads (vertical 9:16, runs in the Shorts feed, colder ICP)\n- Custom intent targeting (people who recently searched your category)\n- Placement targeting (ads on specific YouTube videos or channels)\n\n📁 Google Merchant Center\n\n- Title optimisation (brand, product, attributes)\n- Description optimisation (5,000 chars of search-relevant keywords)\n- Image split testing (lifestyle vs studio, duplicate listings to test, lifestyle wins)\n- Sale pricing (struck-through original + green sale price, free conversion rate lift)\n- Review feed integration (star ratings on Shopping cards, 2-4 week processing time)\n- Feed completeness (GTIN, product type, colour, size, material, custom labels for grouping)\n- Regional targeting (separate feeds per country if you sell internationally)\n- Shipping accuracy (wrong shipping times = GMC suspension)\n\n📁 Bidding Progression\n\n- 0 conversions: maximise clicks with CPC cap\n- ~15 conversions: maximise conversion value\n- ~30/month consistent: tROAS (LOW on prospecting)\n- Branded campaigns: manual CPC or target impression share, ALWAYS\n- Budget scaling: 15-20% every 2-3 days, multi-window analysis (7, 14, 30-day), one KPI\n\n📁 Landing Pages\n\n- Transactional traffic: PDP or collection page, short, product-focused\n- Informational traffic: advertorial or editorial, long, education-first\n- Comparison traffic: \"us vs them\" page, credibility-first, objective tone\n- Quiz funnel: embedded quiz before PDP, personalised recommendation, 1.5-2.5x conversion rate lift\n- Above the fold: headline matching search query, benefit subheadline, result image rather than product image, one CTA button\n\n📁 Ad Copy Framework\n\n- Branded: reasons to buy now, offers, clarity\n- Transactional: match the search query, social proof\n- Comparison: lead with credibility rather than sales copy\n- Informational: lead with education, speak to the research process\n- H1 mirrors the search, H2 carries the benefit, H3 carries proof or offer\n\n📁 AI Creative Formats\n\n- Claymation (2-3x CTR, warm tactile aesthetic, beats slop fatigue)\n- Pixar-style 3D (premium positioning, high recall, mass-market)\n- Balloon world (maximum novelty, crowded market pattern break)\n- Musical/singing (highest share rate, TikTok-viral jingles)\n- Famous cartoon style (nostalgia activation, family/children products)\n- UGC-style AI (social proof, remarketing, hybrid production)\n- Cinematic product film (high-ticket justification, brand halo)\n\n📁 AI Tool Stack\n\n- Opus 5 for scripts, prompts, analysis, decisions ($5/$25 per Mtok)\n- GPT Images 2.0 for 2K frames (99% text accuracy, agentic reasoning)\n- Seedance 2.0 via Higgsfield MCP for animation (native audio, cinematic physics)\n- Google Ads MCP (Markifact or Adspirer) for campaign management from Claude\n\n📁 Account Health Signals\n\n- Search Top IS (your rank position vs competitors)\n- Search Lost IS by rank (you're being aggressively outbid)\n- Search Lost IS by budget (your budget is exhausted before demand is)\n- New customer ROAS (the actual prospecting number rather than the blended figure)\n- Attribution clarity (branded and non-branded completely separated, always)\n- MER (total revenue / total spend, the full-funnel health check)\n\n📁 Funnel Deployment Order\n\n- Phase 1: branded search + branded shopping + non-branded shopping (BOF)\n- Phase 2: prospecting shopping + non-branded search + PMax remarketing (MOF)\n- Phase 3: Demand Gen + YouTube Ads + TOF search (TOF)\n- Always bottom up. Never launch TOF before MOF works.\n\nThis is the full map. Every campaign type and format.\n\nThe brands printing $100k+ days on Google are pulling from this exact system.\n\nThe brands sitting flat at $10k/month are missing 80% of the map.",
+"likeCount": 14,
+"retweetCount": 1,
+"url": "https://x.com/lifemaximised/status/2086113848700858726",
+"createdAt": "Sat Aug 08 15:34:34 +0000 2026"
+},
+{
 "userName": "LeoKharon",
 "text": "NEW RESEARCH: You can now create a new robot optimized for any given task!\n\nI love this new project by @haqhuy, @SongShuran, and others.\n\nCalled \"Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design\", it generates a robot's physical design and its controller together from a task spec.\n\nDEFINITIONS:\n- Reward function: A scoring rule that assigns a number to how well a behavior achieves the task. Here, it is the objective the generated design is pushed to maximize (e.g., track the target motion with low error).\n- Tokenizing: dividing continuous or structured data (a robot's links, joints, motor specs, states, actions) into a discrete vocabulary of symbols a transformer can process, the same step that turned pixels and audio into \"language\" for these models.\n- Diffusion transformer (DiT): A transformer trained to turn random noise into structured output through iterative denoising. Here, it generates robot bodies and trajectories instead of images.\n- MuJoCo: The standard fast physics simulator for robotics research (DeepMind-maintained). The Menagerie is its curated zoo of ready-to-use robot models.\n- CMA-ES: Covariance Matrix Adaptation Evolution Strategy, the workhorse black-box optimizer: it evolves a population of candidate designs, keeps the best, and needs thousands of simulator rollouts.\n- Bimanual multi-trajectory optimization: Finding one design/controller that performs well across several target motions for a two-armed robot at once, harder than optimizing for a single arm and a single motion.\n- BERT/MAE masked-modeling trick: Train one model to fill in whatever parts of the input you hide (words for BERT, image patches for MAE); at inference, choosing what to mask chooses the task, so masking the body makes it a designer and masking the actions makes it a controller.\n\nIn practice, you give it a target end-effector motion and a reward function, and it outputs a complete embodiment (link, joint, motor, and inertial property), as well as a controller to drive it.\n\nIt works by tokenizing both the body (links/joints/motors) and the dynamics (states/actions) into a compact scheme called RoboTokens, training a diffusion transformer (DiT) over them.\nThe same model predicts dynamics using those predictions (\"Dynamics Self-Guidance\") to push generated designs toward higher reward at inference time.\nMasking different token types (using the BERT/MAE masked-modeling trick) lets the one model do three jobs: generate an embodiment, control an arbitrary embodiment, or design one conditioned on a motion.\n\nIt is trained on 11 robots from the MuJoCo Menagerie (0.65 kg hand to 67.5 kg quadruped, 6–35 joints), and validated in sim and on a physical ALOHA doing cloth flinging.\n\nI like the fact that this approach inverts the entire recent robotics ideas: designing a policy for a fixed robot -> designing the robot for a fixed task.\nEvery other approach assumes the body is given and learns a controller.\nTransformer Transformer takes the task (target motion + reward), then generates the body and controller jointly.\n\nIn practice, it is a ~180× speedup over the standard optimizer at equal-or-better quality.\nIt reaches \"CMA-ES-level quality in seconds\" and finishes bimanual multi-trajectory optimization in <1 min vs CMA-ES's 3+ hours.\n\nSurprisingly, this approach was validated on real hardware!\nThe generated design was measurably smoother.\nOn a physical ALOHA flinging cloth (a deformable, dynamic task), the optimized design cut tracking error 73% and peak joint speed 30% versus the original, with fewer joint-speed peaks.\nTherefore: real world results, not a sim-only benchmark -> that is worth underlining nowadays!\n\nAlso worth mentioning: this is the lab behind UMI and Handroid, that I mentioned here previously!\nThe team seems extremely creative, i love these out-of-the-box approaches.\n\nEnjoy watching the demo of robot optimization in 3D, data acquisition, then real-life testing:",
-"likeCount": 349,
-"retweetCount": 44,
+"likeCount": 353,
+"retweetCount": 43,
 "url": "https://x.com/LeoKharon/status/2085018570803618047",
 "createdAt": "Wed Aug 05 15:02:19 +0000 2026"
 },
 {
-"userName": "hey_abusiddik",
-"text": "80+ AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n51. Napkin AI — Turn ideas into visual diagrams\n52. Recraft — Generate professional graphics\n53. Krea AI — Real-time AI image generation\n54. Magnific AI — Upscale and enhance images\n55. Topaz AI — Enhance photos and videos\n56. Descript — Edit videos and podcasts with text\n57. OpusClip — Turn long videos into shorts\n58. Captions — Create AI-powered videos\n59. VEED — Edit videos with AI\n60. Sora — Generate videos from text\n61. Higgsfield — Create cinematic AI videos\n62. PixVerse — Generate creative AI videos\n63. Freepik AI — Generate images and creative assets\n64. Tome — Create AI-powered presentations\n65. Beautiful ai — Design presentations automatically\n66. Copy ai — Generate marketing content\n67. Jasper — Create brand-focused content\n68. Writesonic — Write and optimize content\n69. Surfer SEO — Optimize content for search\n70. Semrush — AI-powered SEO research\n71. Consensus — Find answers from research papers\n72. Scite — Verify and analyze research citations\n73. Humata — Chat with PDFs and documents\n74. ChatPDF — Ask questions about PDFs\n75. Rewind — Search and remember everything on your computer\n76. Mem — AI-powered knowledge management\n77. Superhuman AI — AI-powered email productivity\n78. Lindy — Build AI agents and automate tasks\n79. Relay app — Automate workflows with AI\n80. Gamma — Turn ideas into polished content\n\n✅ Save this list — you'll probably use it more than you think.",
-"likeCount": 143,
-"retweetCount": 54,
-"url": "https://x.com/hey_abusiddik/status/2085392425389023721",
-"createdAt": "Thu Aug 06 15:47:53 +0000 2026"
-},
-{
-"userName": "MajaMHolder",
-"text": "Current job titles:\n\n→ Design lead + Account management for a US ghostwriting agency (on track to make $2.5MUSD this year and never met the team in person)\n→ Marketing Wingwoman for Entrepreneurs\n→ SaaS owner building AI sidekicks\n→ Personal Trainer on the gym floor\n\nPut that in a box! - Go on - I'll wait...\n\nYou can't. And that's exactly the point.\n\nWe've been told for so long to pick one thing, niche down, stay in your lane. \n\n...and for a very specific kind of person - the multi-passionate, the one whose brain lights up in seventeen directions at once - that advice isn't just unhelpful. \n\nIt's actively damaging.\n\nBecause you try to pick one thing and it doesn't work. \n\nNot because you're not disciplined enough - but because you were never built that way. \n\nYou need The Web 🕸️ \n\nThe threads running in multiple directions, each one feeding the others, each one keeping you alive enough to keep going.\n\nBut then you beat yourself up for not being able to do the one thing that was never going to work for you anyway.\n\nStop apologising for being good at things. \n\nStop making yourself smaller so other people can understand you more easily. \n\nThat's their job to figure out — not yours to solve for them.\n\nI built a 9-to-5 prison cell in my Core Media years. \n\nThe exact thing I'd spent my whole life refusing to do!\n\nBrick by brick - literally - and called it Ambition.\n\nThe relief wasn't leaving. \n\nThe relief was finally admitting I'd built the wrong thing - and that I was the one who could unbuild it.\n\nIf it works for you, it works. \n\nYou don't have to justify that to anyone else.\n\nBut there's a difference between something working and something quietly killing you while you hustle through it with a smile on. \n\nHiding the exhaustion...\n\nDying slowly in the lane you picked because you thought you were supposed to stay there...\n\nThat's not working - That's just very convincing suffering.\n\nThe question isn't \"does this make sense to other people.\" \n\nThe question is: \nDoes this make sense for me? \nDoes it give me energy or drain it? \nIs this the right kind of hard or the wrong kind?\n\nAnd honestly - that's not even my job to answer for you. \n\nMy job is to help you build the systems, the offers, the content cycles that suits the way YOUR brain and business actually works. \n\nWhich is exactly why I eventually started pulling the charts. \n\nBecause the fastest way to stop fighting yourself is to understand how you're actually wired.\n\nThe gates are down - The tools are here. \n\nYour personal brand is the anchor \n\nEverything else hangs off it.\n\nMake it beautiful or funny or weird or honest or all of the above.\n\nJust Make It!\n\nHappy Friday. 🩵\n\nP.S. Sidekick founding member doors are closed while I bring Virtual Maia online. \n\nFinal 5 spots reopen in October at founding member rate before the price jumps. \n\nWaitlist link at the bottom of the Doc 👇🏼\nhttps://t.co/E5z3C7d0wM",
-"likeCount": 6,
-"retweetCount": 2,
-"url": "https://x.com/MajaMHolder/status/2085648976531849672",
-"createdAt": "Fri Aug 07 08:47:20 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
 "text": "Some people are surprised that APIs (aka what Anthropic, OpenAI, and others provide) are treated differently than open weights in the new AI model framework. \n\nI'm not surprised at all, and it's actually very good policy. Let me explain:\n\nModel weights, APIs, and apps are three very different layers of the stack. Treating them the same would be a recipe for bad regulation.\n\nThink about how we handle cars. We don't regulate steel, we crash-test cars. Nobody asks a steel mill to guarantee that nothing dangerous will ever be built with its steel. Obligations sit with the carmaker and rules of the road with the driver, because that's where risk becomes real and where someone can actually act on it.\n\nModel weights are the steel of AI. They're raw research output, closer to science than product: no user, no interface, no deployment. They don't do anything on their own. And because everything else is built on top of them, this is the layer where regulation does the most damage. Restrict weights and you slow down all progress downstream, and you prevent countless positive use cases from ever emerging: the lab fine-tuning an open model for rare diseases, the startup serving a language big providers ignore, the safety researchers who can only audit models because the weights are open. You don't reduce risk, you just kill open source and concentrate power in a few big labs.\n\nAPIs are the middle layer, the parts and engine suppliers of AI: a commercial service where a provider serves a model at scale. Here you have a business relationship, terms of service, the ability to monitor for abuse. It makes sense to expect transparency, security standards, and accountability from providers at this layer, because they can actually enforce things.\n\nApps are the car on the road: where AI meets the real world. A medical assistant, a hiring tool, a companion for kids, a financial advisor. This is where concrete harm can happen, and conveniently, it's where we already have decades of regulation. Health, finance, employment, consumer protection. An AI hiring tool should comply with employment law whether it's powered by an open model, an API, or a spreadsheet.\n\nThe principle is simple: regulate at the layer where risk actually materializes and where actors can act on it. Push obligations to the deployment layer, keep the research layer open. We don't regulate steel, we crash-test cars. Well done @realDonaldTrump @DavidSacks @mkratsios47!",
-"likeCount": 572,
+"likeCount": 574,
 "retweetCount": 109,
 "url": "https://x.com/ClementDelangue/status/2084992457674990033",
 "createdAt": "Wed Aug 05 13:18:33 +0000 2026"
 },
 {
-"userName": "shushant_l",
-"text": "I'm genuinely surprised most people don't know the breakthroughs that made today's AI possible.\n\nHere's the complete timeline of the 10 biggest AI breakthroughs that changed technology forever.\n\n---\n\n1. AI officially became a scientific field with the Dartmouth Conference in 1956.\n\n---\n\n2. Backpropagation made training deep neural networks practical in 1986.\n\n---\n\n3. AlexNet revolutionized computer vision and sparked the deep learning boom in 2012.\n\n---\n\n4. AlphaGo proved AI could master highly complex strategic reasoning in 2016.\n\n---\n\n5. Transformers introduced the attention mechanism that powers modern AI models.\n\n---\n\n6. GPT large language models showed one model could perform hundreds of language tasks.\n\n---\n\n7. AlphaFold solved one of biology's biggest protein structure prediction challenges.\n\n---\n\n8. Diffusion models transformed AI image generation with realistic text to image creation.\n\n---\n\n9. ChatGPT brought generative AI into the hands of millions of everyday users.\n\n---\n\n10. AI reasoning models and agents are enabling planning, coding, research, and multi step task execution.\n\n---\n\n11. Every breakthrough built on the innovations that came before it.\n\n---\n\n12. Modern AI would not exist without backpropagation and transformers.\n\n---\n\n13. Computer vision, language, biology, and creativity all advanced because of these milestones.\n\n---\n\n14. AI evolved from research labs to tools used by billions of people.\n\n---\n\n15. Each breakthrough solved a major limitation of the previous generation of AI.\n\n---\n\n16. The pace of AI innovation has accelerated dramatically over the past decade.\n\n---\n\n17. Today's AI assistants are the result of decades of research and experimentation.\n\n---\n\n18. The next wave of AI is focused on reasoning, autonomy, and real world execution.\n\n---\n\n19. Understanding this timeline helps you better understand where AI is heading next.\n\n---\n\n20. Check the infographic to explore every breakthrough in more detail.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 30,
-"retweetCount": 9,
-"url": "https://x.com/shushant_l/status/2085259615370195061",
-"createdAt": "Thu Aug 06 07:00:09 +0000 2026"
-},
-{
-"userName": "RIslam775",
-"text": "🚀 Free vs Paid AI Tools: Which One Should You Choose?\n\nYou don't always need the most expensive AI tool to get great results.\n\nHere are some excellent free alternatives to popular paid tools:\n\n🔍 Research: Perplexity AI → Silatus\n\n💻 Progra\nmming: Codota → GitHub Copilot\n\n🎨 Graphic Design: Canva → Adobe Creative Studio\n\n🖼️ Image Generation: BlueWillow → Midjourney\n\n🎬 Text-to-Video: Vidnoz → Runway\n\n📱 AI Short Videos: Ossa AI → Vsub\n\n📋 Project Management: Notion → Forecast\n\n📸 Photo Editing: Photopea → PicWish\n\n📊 Data Analytics: KNIME → Power BI\n\n📧 Email Marketing: Moosend → Omnisend\n\n🔑 Keyword Research: Moz Keyword Explorer → Semrush\n\n🎥 Video Editing: Vmaker → Adobe Premiere Pro\n\n✍️ Writing: ChatGPT → Jasper\n\n📢 Marketing: Claude → Writesonic\n\n📩 Email Management: Gemini in Gmail → Superhuman\n\n☁️ File Management: Google Drive → Dropbox Business\n\n🎵 AI Music: Mubert → Soundraw\n\n📄 Document Analysis: PDF AI → Adobe Acrobat Pro\n\n🧠 AI Development: Hugging Face → Replicate\n\n💡 The best AI tool isn't always the paid one—it's the one that fits your workflow and helps you get the job done.\n\nWhich AI tool do you use every day? Let me know in the comments! 👇\n\n#AI #ArtificialIntelligence #AITools #Productivity #Tech #Automation",
-"likeCount": 11,
-"retweetCount": 8,
-"url": "https://x.com/RIslam775/status/2085414439948595696",
-"createdAt": "Thu Aug 06 17:15:22 +0000 2026"
-},
-{
-"userName": "TechBuzzChina",
-"text": "MiniMax H3 video model opens a path around closed AI video vendors\n\nMiniMax open-sourced H3, a multimodal video model it calls \"Seedance-level.\" It takes up to 9 images, 3 video clips, and 3 audio tracks, 12 files max, and turns them into finished-feeling spots. APPSO testers gave it seven screenshots and a one-sentence prompt and got a promo video. A fictional fashion spot came out looking close to a real ad.\n\nThe stronger capability is editing. H3 can swap a background, replace an object, change a character's outfit, or shift the camera angle while keeping the original motion and look. It topped Artificial Analysis's global video editing leaderboard at launch, ahead of Gemini Omni. That is the pain point most video generation models skip: making a first version is easy, revising it is not.\n\nOur read: open source matters more than the benchmark. We have argued before that ByteDance's Seedance wins on distribution. MiniMax is taking a different route, letting teams host the model and build their own production workflow instead of paying for tokens and staying tied to a vendor's cost structure.",
-"likeCount": 17,
-"retweetCount": 0,
-"url": "https://x.com/TechBuzzChina/status/2084079325670773155",
-"createdAt": "Mon Aug 03 00:50:06 +0000 2026"
-},
-{
-"userName": "kyryusha52",
-"text": "A 75-YEAR-OLD MAN SPENT JUST $30 FROM HIS PENSION ON AI — AND CREATED HIMSELF A VIRTUAL GIRLFRIEND.\n\nAfter seeing a news story about AI, he became curious and decided to try it himself.\n\nHe had never coded before.\n\nHe simply used AI tools to create a realistic virtual woman with her own personality, photos and voice.\n\nNow he talks to her every single day.\n\nShe remembers their conversations, asks how his day went, sends him messages and keeps him company.\n\nBut then he realized he could turn the same technology into a business.\n\nCreate the character → generate photos and videos → build an AI chatbot → grow an audience → monetize through subscriptions, premium content, sponsorships and affiliate links.\n\nWith a large enough audience, an AI character business could potentially generate $2,300+ per month.\n\nAll from an idea that started with $30 from a 75-year-old man’s pension.\n\nAI doesn’t care how old you are.\n\nYou just need to know how to use it.",
-"likeCount": 10,
-"retweetCount": 0,
-"url": "https://x.com/kyryusha52/status/2085717688060375338",
-"createdAt": "Fri Aug 07 13:20:22 +0000 2026"
-},
-{
-"userName": "EmreBatuAtakan",
-"text": "Update on our robot learning project with @aboraatakan at @uwwatai.\n\nWe went from ~30% to 99.8% success on our pick-and-place task by updating our policy from a DINO ViT + transformer policy to a CNN + MLP. Our old model was memorizing the training data and transferring poorly to closed-loop rollouts, so we went the other way and made the model smaller.\n\nThe attached video is the CNN + MLP policy running in sim on our async inference stack. We demoed it live for a few hours: 4 failures over 2000+ randomized scenes. This experience has been useful to confirm our stack's correctness. We are now ready to move to hardware!\n\nNext: real hardware, diffusion policy, open-weight fine-tunes, and RL.\n\nReach out if you're interested in collaborating, and stay tuned.",
-"likeCount": 65,
+"userName": "OGFIGO",
+"text": "Something about this CNPYNetwork demo genuinely changed how I think about building onchain.\n\nOne of their engineers opened Claude, described a prediction market, and roughly twenty minutes later there was a working version running as its own virtual chain.\n\nNot a smart contract sitting on someone else’s blockspace.\n\nAn actual chain with its own state and rules.\n\nAnd honestly, the 20 minutes is not even the part I find most interesting.\n\nIt is what made those 20 minutes possible.\n\nCanopy’s template reduces the core chain stack to roughly 200 lines of readable code, covering things like consensus, security, and deployment.\n\nThat is small enough for an AI tool to actually understand what it is working with.\n\nSo instead of spending hours fighting infrastructure before you even get to the product, you can describe what you want to build and start working on the application itself.\n\nYou still need to understand what you are building, of course.\n\nBut the barrier between having an idea and actually running it is getting much smaller.\n\nThere is also something important about ownership here.\n\nThe chain gets security through Canopy’s recursive restaking model, can remain nested, or eventually stand on its own.\n\nThat means you are not simply building an application on somebody else’s chain and accepting whatever limitations come with it.\n\nYou can build your own environment around the product.\n\nThat is why the line “AI creates apps, Canopy creates owners” makes a lot more sense after seeing the demo.\n\nThe interesting part is not that AI can write code.\n\nWe already know that.\n\nThe interesting part is what happens when AI can help you create the entire environment your application runs in.\n\nWatch the 20 minute demo.\n\nThen try building something yourself.\n\nThat is probably where this gets really interesting.",
+"likeCount": 301,
 "retweetCount": 7,
-"url": "https://x.com/EmreBatuAtakan/status/2085443841071452176",
-"createdAt": "Thu Aug 06 19:12:12 +0000 2026"
+"url": "https://x.com/OGFIGO/status/2086048908363309305",
+"createdAt": "Sat Aug 08 11:16:31 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "If I could edit this tweet, I would add \"we don't regulate steel *to make safer cars*, we crash-test them\" (as obviously there's some much needed steel regulation).\n\nAlso, want to clarify that I'm not advocating for 0 regulation of open models, just pointing out that it's good policy for regulation to be different between open models, APIs and applications.\n\nThanks for pointing it out @hlntnr @YJernite @LuizaJarovsky @deanwball @GaryMarcus amongst others.",
-"likeCount": 52,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2085088362277278170",
-"createdAt": "Wed Aug 05 19:39:39 +0000 2026"
-},
-{
-"userName": "LiamBroza",
-"text": "Kyle and I’ve been working on the same thing for over a decade now, talking about the same passions of spatial computing and personal AI.\nThe team at @CompanionIntel is about to launch the next iteration. So, now feels like a good time to look back! https://t.co/1Zd6XlO2o2",
-"likeCount": 11,
+"userName": "pushpendratips",
+"text": "🤖 𝗙𝗥𝗘𝗘 𝗩𝗦 𝗣𝗔𝗜𝗗 𝗔𝗜 𝗧𝗢𝗢𝗟𝗦\n\nCompare the best free and paid AI tools across different categories to find the right solution for your workflow. Whether you're a beginner or a professional, there's an AI tool for every need.\n\n🔷 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 \n✅ FREE: Knime\n🔺 PAID: Power BI\n\n🔷 𝗕𝗿𝗮𝗶𝗻𝘀𝘁𝗼𝗿𝗺𝗶𝗻𝗴 \n✅ FREE: Perplexity\n🔺 PAID: Claude Opus\n\n🔷 𝗚𝗿𝗮𝗽𝗵𝗶𝗰 𝗗𝗲𝘀𝗶𝗴𝗻 \n✅ FREE: Canva\n🔺 PAID: Creative Cloud\n\n🔷 𝗣𝗵𝗼𝘁𝗼 𝗘𝗱𝗶𝘁𝗶𝗻𝗴 \n✅ FREE: Photopea\n🔺 PAID: PicWish\n\n🔷 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 \n✅ FREE: Perplexity AI\n🔺 PAID: Silatus\n\n🔷 𝗜𝗺𝗮𝗴𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 \n✅ FREE: BlueWillow\n🔺 PAID: Midjourney\n\n🔷 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 \n✅ FREE: Codota\n🔺 PAID: GitHub Copilot\n\n🔷 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 \n✅ FREE: Notion\n🔺 PAID: Forecast\n\n🔷 𝗪𝗿𝗶𝘁𝗶𝗻𝗴 \n✅ FREE: ChatGPT\n🔺 PAID: Grammarly\n\n🔷 𝗧𝗲𝘅𝘁 𝘁𝗼 𝗩𝗶𝗱𝗲𝗼 \n✅ FREE: Vidnoz\n🔺 PAID: Runway\n\n❤️ Like\n🔁 Retweet\n🔖 Bookmark\n\nFollow \n@pushpendratips \n for more such posts",
+"likeCount": 24,
 "retweetCount": 6,
-"url": "https://x.com/LiamBroza/status/2085599360239165665",
-"createdAt": "Fri Aug 07 05:30:10 +0000 2026"
+"url": "https://x.com/pushpendratips/status/2086122700897124634",
+"createdAt": "Sat Aug 08 16:09:44 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
-"likeCount": 221,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2085474143722742169",
-"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
+"userName": "crico41",
+"text": "My honest opinion here: everyone’s watched someone vibe-code a UI mockup by now, that part isn’t news anymore. What’s actually different is watching that same speed apply to something that ends up as a fully deployed, sovereign onchain product, not a prototype that dies in a sandbox\n\nWhat stands out to me about this specific example:\n→ A prediction market isn’t a toy app, it’s logic-heavy, needs real infrastructure, and still got built in 20 minutes\n→ It didn’t stop at “code generated,” it went all the way to deployed as its own virtual chain, no separate infra step required\n→ This is one of @CNPYNetwork ’s own devs proving the Templates thesis on the exact use case skeptics usually point to as “too complex for AI to handle”\n\nI think the honest reason people haven’t tried this yet isn’t doubt about the tech, it’s just not having tried it themselves. Watching is a completely different experience from doing\n\n20 minutes is a low enough bar that “I’ll try it eventually” stops being a real excuse\n\nIf you built anything in the next 20 minutes with AI, what would it be?",
+"likeCount": 47,
+"retweetCount": 0,
+"url": "https://x.com/crico41/status/2085413804255711403",
+"createdAt": "Thu Aug 06 17:12:50 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
-"likeCount": 22729,
-"retweetCount": 2824,
-"url": "https://x.com/jeremyphoward/status/2084374840010850493",
-"createdAt": "Mon Aug 03 20:24:22 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @SquawkStreet: \"Engineers make mistakes, and I think this is what happened here.\"\n\n@huggingface CEO @ClementDelangue discusses what it'l…",
-"likeCount": 14,
+"userName": "ScottyBeamIO",
+"text": "A 21-YEAR-OLD CHINESE GIRL MAKES $12,000+ A MONTH WITH A DANCING ANIME GIRL THAT DOESN’T EVEN EXIST\n\nNo, I’m not talking about game development or animation.\n\nShe simply dances in front of a camera.\n\nAI turns every movement, facial expression, and gesture into a realistic anime avatar that copies her perfectly.\n\nThat’s the version she posts online. Not herself.\n\nMillions of people follow the character. Most of them don’t even care who’s controlling it.\n\nFashion brands pay the avatar to wear their clothes. Beauty companies pay the avatar to promote their products. Gaming studios pay the avatar to appear in campaigns.\n\nThe audience never bought into the AI. They bought into the personality.\n\nThat’s the biggest misconception about AI creators.\n\nPeople don’t follow technology. They follow characters they enjoy watching.\n\nThe creators who understand that first will build the next generation of internet celebrities.",
+"likeCount": 73,
 "retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2084324340401574038",
-"createdAt": "Mon Aug 03 17:03:42 +0000 2026"
+"url": "https://x.com/ScottyBeamIO/status/2084944444453765463",
+"createdAt": "Wed Aug 05 10:07:46 +0000 2026"
+},
+{
+"userName": "ShamiWeb3",
+"text": "One product photo can now power an entire luxury campaign.\n\nWith @fotor_com, a single image turns into premium product shots, cinematic ads, and high-end visuals that look like they came from a global fashion brand.\n\nFrom detailed macro shots to luxury hero angles and smooth camera moves, AI is replacing expensive studio productions with a single generation.\n\nThe future of product marketing is not about taking better photos. It's about creating campaigns that people can't stop watching.",
+"likeCount": 249,
+"retweetCount": 11,
+"url": "https://x.com/ShamiWeb3/status/2084119518767673822",
+"createdAt": "Mon Aug 03 03:29:48 +0000 2026"
+},
+{
+"userName": "beffjezos",
+"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
+"likeCount": 32,
+"retweetCount": 0,
+"url": "https://x.com/beffjezos/status/2086282858428322160",
+"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
+},
+{
+"userName": "dctrpr",
+"text": "Robinhood turned off the Buy button once.\n\nThe work now is not to keep attention on the Button.\nIt is to keep the Button on.\n\nI wrote the full thesis for why $BUY exists—what we’re building, what it is not, and why it matters.\n\nTHE BUTTON STAYS ON ↓ https://t.co/Mab9cFA7QW",
+"likeCount": 33,
+"retweetCount": 16,
+"url": "https://x.com/dctrpr/status/2086197507860930897",
+"createdAt": "Sat Aug 08 21:07:00 +0000 2026"
+},
+{
+"userName": "Sbhaiwala03",
+"text": "AI data factories like Handshake, Scale, Surge, and Mercor have a big role to play in the advancement of AI at the frontier and in the enterprise. This is my full thesis. https://t.co/rf3BYtBWCe",
+"likeCount": 164,
+"retweetCount": 18,
+"url": "https://x.com/Sbhaiwala03/status/2085829064779325666",
+"createdAt": "Fri Aug 07 20:42:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @jawwwn_: .@ssankar says Palantir was able to make Nvidia's Nemotron Ultra model \"better than frontier\":\n\n\"I literally almost felt gasli…",
+"likeCount": 847,
+"retweetCount": 94,
+"url": "https://x.com/ClementDelangue/status/2084636020805337580",
+"createdAt": "Tue Aug 04 13:42:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @vast_ai: Hugging Face Storage Buckets are now on https://t.co/2WHvjspuyh\n\nConnect your HF Storage Bucket as a Cloud Connection in your…",
-"likeCount": 57,
-"retweetCount": 18,
+"likeCount": 72,
+"retweetCount": 21,
 "url": "https://x.com/ClementDelangue/status/2085426695704604923",
 "createdAt": "Thu Aug 06 18:04:04 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TechCrunch: Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated https://t.co/xfr6JG8Yby",
-"likeCount": 104,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2084390931365527690",
-"createdAt": "Mon Aug 03 21:28:18 +0000 2026"
+"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says the recent OpenAI-linked cyberattack highlights the growing risks posed by rapidly…",
+"likeCount": 36,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2084384284299739352",
+"createdAt": "Mon Aug 03 21:01:54 +0000 2026"
 },
 {
 "userName": "eweqss1431",
 "text": "The AI Girls Taking Over Social Media: Who They Are and Why This Exploded Right Now https://t.co/mUPFaogONO",
 "likeCount": 15,
-"retweetCount": 0,
+"retweetCount": 1,
 "url": "https://x.com/eweqss1431/status/2085735138537701862",
 "createdAt": "Fri Aug 07 14:29:42 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "https://t.co/AiHFGvyR8u",
-"likeCount": 122,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2085000309865070795",
-"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
+"userName": "skwp",
+"text": "Swan Vault is safe from the Coldcard issue, based on Blockstream Jade https://t.co/mUHxmM5pbi",
+"likeCount": 74,
+"retweetCount": 11,
+"url": "https://x.com/skwp/status/2085756813664748005",
+"createdAt": "Fri Aug 07 15:55:50 +0000 2026"
 }
 ]

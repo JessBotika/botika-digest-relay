@@ -1,67 +1,51 @@
 [
 {
-"userName": "kakarPathan_",
-"text": "Photorealistic studio portrait created using GPT Image 2 on ChatGPT.\n\nPrompt : Create an ultra-photorealistic luxury fashion editorial portrait using the uploaded blue-background reference image as the composition guide.Recreate the original photograph with near-identical composition, preserving the same camera angle, framing, portrait crop, focal length (approximately 85–105mm portrait lens), camera height, subject scale, perspective, head positioning, shoulder alignment, negative space, and overall visual balance. The final image should appear as though it was photographed in the exact same professional studio environment.Replace the original model with a naturally beautiful young Japanese or Korean woman (22–26 years old) while maintaining complete photographic realism and authentic East Asian features. Preserve realistic facial anatomy, balanced proportions, natural skin characteristics, almond-shaped eyes, subtle facial asymmetry, authentic nose and jawline structure, and believable beauty. Avoid idealized or doll-like features.Facial Appearance\nAuthentic Japanese/Korean ethnicity\nSoft almond-shaped eyes with a natural gaze\nElegant cheekbones with refined facial contours\nHealthy luminous skin with visible pores and subtle imperfections\nNatural editorial makeup\nSoft neutral glossy lips\nWell-groomed natural eyebrows\nLong dark brown or black layered hair with soft movement\nRelaxed, confident expression with quiet sophistication\nPose & Expression\nClosely match the original pose:Upper torso portrait\nRelaxed shoulders\nChin slightly elevated\nHead subtly tilted\nEyes looking upward just beyond the camera\nCalm, thoughtful, elegant expression\nNatural posture without stiffness\nMaintain identical visual weight and positioning inside the frame.Wardrobe\nLuxury contemporary Korean/Japanese street fashion:Oversized premium knit sweater or heavyweight minimalist sweatshirt\nRelaxed silhouette with elegant natural fabric folds\nHigh-quality wool, cotton, or cashmere textures\nMinimal branding\nDelicate silver necklace\nThin silver rings\nLightly tinted translucent fashion eyewear with realistic reflections\nClean modern styling suitable for luxury editorial campaigns\nStudio Environment\nPreserve the original studio environment exactly:Rich monochromatic cobalt-blue seamless backdrop\nSoft directional studio key light\nGentle fill lighting\nRealistic catchlights in the eyes\nNatural reflections on eyewear and jewelry\nSmooth shadow transitions along the jawline, neck, shoulders, and clothing\nProfessional studio depth and dimensionality\nSubtle atmospheric separation from the background\nCamera & Photography\nProfessional commercial fashion photographyFull-frame camera\n85–105mm portrait lens\nWide aperture (f/2–f/2.8)\nShallow depth of field\nUltra-high dynamic range\nFilm-grade tonal rendering\nCrisp facial detail\nHigh-frequency fabric texture\nEditorial color grading\nPremium magazine-cover quality\nCommercial luxury advertising aesthetic\nHyper-realistic skin rendering\nNatural skin pores\nAccurate subsurface scattering\nPhysically accurate lighting\nCinematic micro-contrast\nPremium Vogue / W Korea / Harper's Bazaar editorial style\nQuality Goals\nThe final image should be visually indistinguishable from a genuine high-end fashion campaign photographed by a professional fashion photographer inside the same studio. It must feel authentic, premium, elegant, and completely photographic.Negative Prompt\nDo not change the background color, studio environment, framing, crop, camera position, focal length, perspective, subject scale, lighting direction, or overall composition.Avoid:Anime\nManga\nIllustration\nCGI\n3D rendering\nAI-generated appearance\nPlastic skin\nPorcelain skin\nBeauty filter look\nAirbrushed skin\nUnrealistic facial symmetry\nOversized eyes\nTiny nose\nOver-sharpening\nExcessive HDR\nUnrealistic body proportions\nExtra limbs\nMissing fingers\nDistorted anatomy\nDuplicate subjects\nFloating accessories\nUnrealistic clothing folds\nIncorrect reflections\nText\nLogos\nWatermarks\nBackground modifications\nLens distortion\nLow resolution\nCompression artifacts\nCartoon effects\nStylization\nGlamour retouching\nSynthetic lighting\nUnrealistic color grading\nThis version is significantly stronger because it clearly defines composition locking, photographic realism, camera optics, luxury editorial styling, and natural human features, which generally produces more consistent, high-end results across modern image-generation models.",
-"likeCount": 12,
+"userName": "thegoldeenhand",
+"text": "Here are the exact prompts I use to produce a full AI story video from idea to upload\n\nThese are the prompts running behind $2M+ in channel revenue across my community, far beyond any generic \"write me a YouTube script\" request. Every prompt is designed for Claude Opus 5, and nearly all of them work with any frontier model.\n\nSTAGE 1: niche research prompt (Claude + NexLev MCP)\n\n\"Use NexLev MCP to find 10 YouTube channels in the [NICHE] space launched in the last 12 months with average views above 1,000 per video. Return the channel name, subscriber count, total videos, average views per video, estimated RPM range, primary audience demographic, and the titles of the top 3 outlier videos for each channel. Sort by average views descending.\"\n\nThis prompt pulls live YouTube data through NexLev's MCP integration. The output is a structured research report replacing 2-3 hours of manual tab-opening. You get channel-level performance data, outlier titles, and RPM estimates in one response.\n\nSTAGE 2: outlier analysis prompt\n\n\"Analyze the outlier video titles from the channels above. Identify 1) the most common emotional triggers used in high-performing titles, 2) the structural formulas repeated across outliers (e.G. [person] + [action] + [nation]), 3) which title lengths perform best, 4) whether broad titles outperform specific titles. Based on the patterns, generate 15 title ideas optimized for outlier performance in this niche.\"\n\nFeed this to Claude right after the niche research prompt. The model analyzes the patterns across all the outlier titles and reverse-engineers the formula driving clicks. The 15 title ideas at the end are data-backed rather than creative guesses.\n\nSTAGE 3: script generation prompt\n\n\"You are a professional long-form narrative scriptwriter for YouTube AI story channels. Write a [LENGTH]-minute voiceover script about [TOPIC] using the following structure:\n\nHOOK (first 30 seconds): open with a specific date, location, and character. Establish immediate tension or stakes. The viewer must know within 30 seconds why this story matters.\n\nCONTEXT (minutes 1-5): establish the wider context, the stakes beyond the individual story, and introduce the key characters with ONE specific, memorable anecdote per character establishing personality and motivation.\n\nRISING CONFLICT (minutes 5-15): build tension through escalating events. Each scene raises the stakes. Alternate between high-intensity and breathing room. Never maintain the same intensity for more than 3 minutes.\n\nCLIMAX (minutes 15-18): deliver the payoff the hook promised. Use visceral, visual language. Make the viewer feel present in the moment.\n\nRESOLUTION + LEGACY (minutes 18-20): connect the story's outcome to something bigger. Show why this event mattered beyond itself. End with a line worth remembering.\n\nRULES: skip filler phrases entirely, drop the \"welcome to the channel\" opener, and don't use rhetorical questions as transitions. Every sentence earns the next one. Use specific numbers, dates, names, and locations throughout. The script must be factually accurate.\"\n\nThis is the core scripting prompt. The structure embedded in the prompt holds Claude to a retention-optimized narrative arc instead of rambling through information at a flat pace. The rules section eliminates the AI-isms (filler, rhetorical transitions, generic openers) before they appear.\n\nAdjust [LENGTH] and the minute ranges to match your niche's optimal video length.\n\nSTAGE 4: image generation prompt\n\n\"Based on the following script, generate 20 image generation prompts for [IMAGE MODEL, e.G. NanoBanana Pro] producing super-realistic images depicting key moments from the story. Each prompt should specify character age, physical appearance (clothing, hair, expression, posture), setting (location, time of day, weather, architecture), lighting (direction, color temperature, mood), and camera angle (wide shot, medium, close-up). Maintain visual consistency by describing recurring characters with the same physical details in every prompt.\"\n\nPaste the full script above this prompt. Claude reads the narrative and generates 20 scene-specific image prompts. The level of detail in the prompt ensures the image model receives enough visual direction to produce cinematic-quality output.\n\nSTAGE 5: thumbnail generation prompt\n\n\"I need a thumbnail image prompt for a YouTube video titled '[VIDEO TITLE]' in the [NICHE] niche. The thumbnail should 1) feature [NUMBER] characters with specific, exaggerated facial expressions conveying [EMOTION], 2) be set in [SETTING] with [LIGHTING CONDITIONS], 3) leave the top corners relatively uncluttered for title text overlay, 4) use [COLOR TEMPERATURE] tones matching the mood. Style reference: hyperrealistic cinematic film still, 16:9 horizontal, [GENRE DESCRIPTOR]. Include 8k detail, photorealistic skin texture, volumetric light, and shallow depth of field.\"\n\nSend this along with a competitor thumbnail as a style reference. Claude generates a prompt specific to your video and niche. The \"leave top corners uncluttered\" instruction is critical because you need space for the text overlay doing the emotional selling.\n\nSTAGE 6: channel description prompt\n\n\"Rewrite the following YouTube channel description to sound professional, engaging, and niche-appropriate for a [NICHE] channel. Keep the tone [TONE: mysterious/authoritative/warm]. Include a brief hook explaining what the channel covers, a line on upload frequency, and a subtle call to subscribe. Under 150 words.\"\n\nPaste a competitor's description below the prompt. Claude rewrites the description matching the tone of your specific niche. Use the output as your channel description AND your default video description.\n\nSTAGE 7: translation prompt (for secondary language channels)\n\n\"You are a professional literary translator and localizer for long-form narrative video scripts. Translate the script below from english into [TARGET LANGUAGE]. Rules: 1) translate 1:1, faithful and complete. Do not summarize, shorten, expand, or omit anything. 2) preserve the original meaning, tone, emotional register, narrative voice, pacing, and rhythm. Translate idioms and expressions into natural equivalents. 3) localize character names and place names into natural forms for [TARGET LANGUAGE]. Keep names 100% consistent throughout. 4) preserve exact formatting and paragraph structure. 5) output ONLY the translated script, with no preamble or notes attached.\"\n\nTranslation channels multiply your revenue with minimal extra work. One script, two languages, two revenue streams. This prompt ensures the translated version reads like a native script rather than a Google-translate artifact.\n\nEvery prompt above is a building block in the production pipeline running behind the channels inside Elevate's community. The full system, including all prompts, all templates, all tools, and direct access to me, lives inside elevate(.)uno For $200/mo.\n\nThese prompts are yours. The system they plug into is inside Elevate if you want the complete picture.",
+"likeCount": 32,
 "retweetCount": 1,
-"url": "https://x.com/kakarPathan_/status/2083962581715423253",
-"createdAt": "Sun Aug 02 17:06:12 +0000 2026"
+"url": "https://x.com/thegoldeenhand/status/2086215350618861754",
+"createdAt": "Sat Aug 08 22:17:54 +0000 2026"
 },
 {
 "userName": "razib_ul47671",
 "text": "80+ AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n51. Napkin AI — Turn ideas into visual diagrams\n52. Recraft — Generate professional graphics\n53. Krea AI — Real-time AI image generation\n54. Magnific AI — Upscale and enhance images\n55. Topaz AI — Enhance photos and videos\n56. Descript — Edit videos and podcasts with text\n57. OpusClip — Turn long videos into shorts\n58. Captions — Create AI-powered videos\n59. VEED — Edit videos with AI\n60. Sora — Generate videos from text\n61. Higgsfield — Create cinematic AI videos\n62. PixVerse — Generate creative AI videos\n63. Freepik AI — Generate images and creative assets\n64. Tome — Create AI-powered presentations\n65. Beautiful ai — Design presentations automatically\n66. Copy ai — Generate marketing content\n67. Jasper — Create brand-focused content\n68. Writesonic — Write and optimize content\n69. Surfer SEO — Optimize content for search\n70. Semrush — AI-powered SEO research\n71. Consensus — Find answers from research papers\n72. Scite — Verify and analyze research citations\n73. Humata — Chat with PDFs and documents\n74. ChatPDF — Ask questions about PDFs\n75. Rewind — Search and remember everything on your computer\n76. Mem — AI-powered knowledge management\n77. Superhuman AI — AI-powered email productivity\n78. Lindy — Build AI agents and automate tasks\n79. Relay app — Automate workflows with AI\n80. Gamma — Turn ideas into polished content\n\n✅ Save this list — you'll probably use it more than you think.",
-"likeCount": 42,
+"likeCount": 46,
 "retweetCount": 20,
 "url": "https://x.com/razib_ul47671/status/2085580842546741429",
 "createdAt": "Fri Aug 07 04:16:35 +0000 2026"
 },
 {
-"userName": "AiwithLariab",
-"text": "GPT image 2 on chatgpt\n\nPrompt\n\nUse the uploaded photo as the ONLY identity reference.\n\nIMPORTANT:\nThis is an IMAGE EDIT task, NOT a text-to-image generation task.\n\nPreserve the exact facial identity with full face lock. Do not redesign or beautify the person. Keep the exact face shape, eyes, eyebrows, eyelashes, nose, lips, ears, jawline, skin tone, skin texture, hairstyle, hairline, expression, age, body proportions, hands, and every unique facial feature exactly the same as in the uploaded image. The final person must be 100% recognizable as the original.\n\nCreate a premium cinematic monochrome portrait in a stylish double-composition layout.\n\nThe background should be a soft outdoor environment with creamy bokeh and shallow depth of field.\n\nConvert the entire scene into elegant black-and-white while keeping only the small decorative hearts in bright red.\n\nCreate two versions of the same person:\n\n• A very large upper-body portrait occupying the left side of the frame, facing slightly sideways with a confident, calm expression.\n\n• A smaller full-body portrait placed on the lower-right side, naturally walking forward with one hand inside the trouser pocket and the other arm relaxed.\n\nThe clothing should be modern smart-casual:\n• Black collared button-up shirt with a smooth black-to-white gradient fade toward the lower sleeves and hem.\n• White high-waisted tailored trousers.\n• Black belt.\n• Black sunglasses.\n• Small hoop earrings.\n\nHair tied into a high ponytail with natural loose strands around the face.\n\nBlend both portraits seamlessly with soft fog at the bottom to create a premium editorial collage.\n\nAdd elegant graphic elements:\n• White handwritten brush-script text reading \"It's Me\" in the lower-left corner.\n• Three to five small bright-red hearts around the text.\n• A thin white dashed swirl leading toward a small white butterfly near the bottom.\n\nLuxury Instagram poster aesthetic.\n\nFashion editorial.\n\nPremium social media artwork.\n\nUltra realistic.\n\nNatural skin texture.\n\nProfessional retouching.\n\n85mm DSLR.\n\nHDR.\n\nSoft cinematic lighting.\n\nHigh contrast.\n\n8K ultra detailed.\n\nNEGATIVE PROMPT:\nNo face change.\nNo identity drift.\nNo hairstyle change.\nNo skin tone change.\nNo facial feature changes.\nNo age change.\nNo body shape change.\nNo distorted hands.\nNo extra fingers.\nNo extra people.\nNo duplicate body.\nNo text except \"It's Me\".\nNo watermark.\nNo logo.\nNo cartoon.\nNo anime.\nNo illustration.\nNo painting.\nNo AI-looking face.\nNo over-smoothing.\nNo beauty enhancement.",
-"likeCount": 100,
-"retweetCount": 8,
-"url": "https://x.com/AiwithLariab/status/2084138512023232654",
-"createdAt": "Mon Aug 03 04:45:17 +0000 2026"
-},
-{
 "userName": "shushant_l",
 "text": "I'm genuinely surprised how many people still don't know the different types of AI.\n\nHere's the complete AI roadmap that explains every major type of AI in one simple visual.\n\n---\n\n1. AI can be classified based on capabilities, functionality, learning, purpose, input, autonomy, and industry.\n\n---\n\n2. Artificial Narrow Intelligence (ANI) is the only type of AI that exists today.\n\n---\n\n3. Artificial General Intelligence (AGI) aims to match human-level intelligence but has not been achieved yet.\n\n---\n\n4. Artificial Superintelligence (ASI) is still hypothetical and does not exist.\n\n---\n\n5. Reactive Machines only respond to current inputs and cannot learn from experience.\n\n---\n\n6. Limited Memory AI learns from past data and powers most modern AI systems like ChatGPT.\n\n---\n\n7. Theory of Mind AI could understand human emotions and intentions but remains in research.\n\n---\n\n8. Self-Aware AI would possess consciousness and self-awareness but is purely hypothetical.\n\n---\n\n9. Supervised Learning trains AI using labeled data for tasks like spam detection and image classification.\n\n---\n\n10. Unsupervised Learning finds hidden patterns in unlabeled data for clustering and anomaly detection.\n\n---\n\n11. Semi-Supervised Learning combines labeled and unlabeled data to improve learning.\n\n---\n\n12. Self-Supervised Learning creates its own labels and powers many modern foundation models.\n\n---\n\n13. Reinforcement Learning teaches AI through rewards and penalties to improve decisions.\n\n---\n\n14. Deep Learning uses neural networks for complex tasks involving vision, speech, and language.\n\n---\n\n15. Generative AI creates new content including text, images, videos, audio, and code.\n\n---\n\n16. Predictive AI forecasts future outcomes such as sales and risk predictions.\n\n---\n\n17. Analytical AI extracts insights from existing data to support better decisions.\n\n---\n\n18. AI can also be categorized by input, including text, image, audio, video, and multimodal AI.\n\n---\n\n19. Modern AI systems range from AI assistants and copilots to autonomous AI agents and multi-agent systems.\n\n---\n\n20. AI is rapidly evolving from rule-based systems to generative and agentic AI, with AGI and ASI remaining future possibilities.\n\n---\n\nTo learn more, check the infographic.\n\n---",
-"likeCount": 39,
-"retweetCount": 8,
+"likeCount": 42,
+"retweetCount": 9,
 "url": "https://x.com/shushant_l/status/2085652927897862448",
 "createdAt": "Fri Aug 07 09:03:02 +0000 2026"
 },
 {
-"userName": "SarDwi",
-"text": "I think one reason the usage of AI agents hasn’t fully broken through yet is that the platforms built around them still present a fairly narrow view of what they can be used for and more importantly don’t do enough to inspire curiosity among the general public about what they can do with it.\n\nMost tools showcase their capabilities through packaged workflows like write this, research that, generate an image or complete this task.\n\nThose might be useful, but they make agents feel like a collection of separate tools for separate jobs. You get an output and move on. The platforms and their demos dont do enough to help the average person see how these capabilities could be combined, adapted, or turned into something entirely different.\n\nThe platforms environment plays a massive role in this imo.  If the environment through which agents are called and their work is consumed is mostly a chat box, a wall of text, or a one-off artifact, then even a highly capable system can feel narrow. You experience the output, but not the larger creative and operational space behind it.\n\nThe more powerful experience might be when a platform lets you move fluidly between different modes:\n\n→ an idea into a visual\n→ a visual into a prototype\n→ a prototype into a deployed experience\n→ a repeated action into a skill\n→ a skill into an automation\n→ an external tool into a larger workflow\n\nThat changes your relationship with AI. You move from thinking “what task can this tool complete?” but rather start feeling, “what can I make this environment do?”\n\nI feel like @dexto_ai is one of the few products moving in this direction well.\n\nThe biggest unlock for me wasn’t discovering that the models had suddenly become more capable. It was using Dexto that made more of that capability available, connected, and easy to experiment with. \n\nAI adoption won’t fully happen when models become capable enough. It will happen when platforms become good enough at making that capability feel visible, personal, and endlessly explorable.",
-"likeCount": 14,
-"retweetCount": 4,
-"url": "https://x.com/SarDwi/status/2085399317859414451",
-"createdAt": "Thu Aug 06 16:15:16 +0000 2026"
+"userName": "Zenith_coder",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Zenith_coder For More Tools.",
+"likeCount": 84,
+"retweetCount": 50,
+"url": "https://x.com/Zenith_coder/status/2085655334065234278",
+"createdAt": "Fri Aug 07 09:12:35 +0000 2026"
 },
 {
-"userName": "Shohan_Tech_AI",
-"text": "100 AI tools to finish hours of work in minutes\n\nProductivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n- Gamma\n\nResearch\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\nWriting\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\nText to image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\nCopywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\nWebsite\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\nMeeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\nResume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\nChatbot tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\nAutomation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\nPrompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\nUI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\nDesign\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\nLogo generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\nAudio\n\n- ElevenLabs\n- LOVO AI\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\nMarketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\nStartup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\nSocial media management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\nVideo\n\n- Klap\n- InVideo\n- Opus Clip\n- HeyGen\n- Eightify\n\nImage to video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nSave this for later and level up with AI.\n\nFollow @Shohan_Tech_AI for more AI tools.",
-"likeCount": 12,
-"retweetCount": 4,
-"url": "https://x.com/Shohan_Tech_AI/status/2085574781236347083",
-"createdAt": "Fri Aug 07 03:52:30 +0000 2026"
+"userName": "Abobsterina",
+"text": "A 24-YEAR-OLD BUILT AN AI FITNESS MODEL THAT CAN BECOME A $11,200/MONTH CONTENT BUSINESS.\n\nShe looks like a normal fitness creator filming a quick dance video at home.\n\nBut there is no camera, no gym partnership, no photoshoot, and no person trying to repeat the same take fifty times.\n\nThe real work happens before the video is generated.\n\nThe creator locks one identity: facial features, hair, proportions, outfits, lighting, camera angles, and personality. A consistent character model keeps her recognizable while new clips put her in different rooms, workouts, outfits, and trends.\n\nThen the motion pipeline turns simple poses into short videos that feel native to TikTok instead of looking like polished AI ads.\n\nThat is the difference between generating random pretty faces and building a digital creator people remember.\n\nOne possible model:\n\n$190/month for tools and generation  \n$1,600 per recurring content package  \n7 fitness, fashion, or wellness clients  \n= $11,200/month\n\nThe next generation of influencers may not need a gym, a photographer, or even a real apartment.\n\nThey just need a character people want to see again.",
+"likeCount": 19,
+"retweetCount": 1,
+"url": "https://x.com/Abobsterina/status/2084248808649568645",
+"createdAt": "Mon Aug 03 12:03:34 +0000 2026"
 },
 {
-"userName": "ml_angelopoulos",
-"text": "Today, we are announcing Arena's factuality leaderboards, which evaluate the objective performance of AI models in reality and guard against hallucinations.\n\nArena's chat leaderboard has historically focused on human preference. Although our style control methodology adjusts for the effect of emojis, response length, and other stylistic factors, we wanted a more direct way of measuring objective signals of chatbot utility and anti-hallucination.\n\nHence, we developed the factuality leaderboards, which speak to the fraction of correct factual claims that a model makes. We basically extract all factual claims and cross-reference them against the internet to ensure they are based in evidence. Models that are supporting their claims with stronger evidence get a better score, and this gives a strong basis for objective performance beyond preference alone.\n\nThe big winners, as you can see on this plot, are OpenAI and Grok. Notably, Claude models, as well as Ernie and Muse-Spark-1.1, decrease in ranking.\n\nWe're so excited to share this with you! Hope you enjoy!",
-"likeCount": 96,
-"retweetCount": 10,
-"url": "https://x.com/ml_angelopoulos/status/2085134740693422379",
-"createdAt": "Wed Aug 05 22:43:56 +0000 2026"
-},
-{
-"userName": "ScottyBeamIO",
-"text": "A 21-YEAR-OLD CHINESE GIRL MAKES $12,000+ A MONTH WITH A DANCING ANIME GIRL THAT DOESN’T EVEN EXIST\n\nNo, I’m not talking about game development or animation.\n\nShe simply dances in front of a camera.\n\nAI turns every movement, facial expression, and gesture into a realistic anime avatar that copies her perfectly.\n\nThat’s the version she posts online. Not herself.\n\nMillions of people follow the character. Most of them don’t even care who’s controlling it.\n\nFashion brands pay the avatar to wear their clothes. Beauty companies pay the avatar to promote their products. Gaming studios pay the avatar to appear in campaigns.\n\nThe audience never bought into the AI. They bought into the personality.\n\nThat’s the biggest misconception about AI creators.\n\nPeople don’t follow technology. They follow characters they enjoy watching.\n\nThe creators who understand that first will build the next generation of internet celebrities.",
-"likeCount": 74,
-"retweetCount": 2,
-"url": "https://x.com/ScottyBeamIO/status/2084944444453765463",
-"createdAt": "Wed Aug 05 10:07:46 +0000 2026"
+"userName": "influencer_seo",
+"text": "Want to learn how to build a stunning AI fashion campagn using the new MiniMax-H3 Video model with open weights? Use this prompt below 👇\n\nMinimax 3 Prompt: Create a premium 16:9 landscape fashion film. Use Image 1 for the overall mood, location, and film texture; Image 2 for the talent; Image 3 for the bag; and Image 4 for the closing brand mark. This is a fashion campaign for the clothing and bag. The tone is elevated, cool, and restrained, but the edit should still feel lively and fashion-forward—not like a conventional narrative film or an e-commerce ad.\n\nKeep the story simple: beside a vintage car on a desert highway, a woman walks to the rear of the car, opens the trunk, takes out a black bag, shares a quiet beat with the man standing nearby, then leaves carrying the bag. Integrate the clothing and bag naturally into the performance so they feel like part of the characters’ identity.\n\nI added the final video in and the reference images for you to learn from!",
+"likeCount": 22,
+"retweetCount": 0,
+"url": "https://x.com/influencer_seo/status/2084355335222108362",
+"createdAt": "Mon Aug 03 19:06:52 +0000 2026"
 },
 {
 "userName": "influencer_seo",
@@ -72,20 +56,12 @@
 "createdAt": "Mon Aug 03 19:09:16 +0000 2026"
 },
 {
-"userName": "BlockchainWeeks",
-"text": "📺 Impact Money Show goes LIVE!\n\nMonday, Aug 3 · 8:30–9:30 AM ET\n\nExclusive interviews on:\n• Crypto &amp; RWAs\n• U.S. Manufacturing\n• Next-Gen Education\n\nHosted by Bruce Porter Jr. &amp; David Porter | #UNBlockchainWeek\n\n🎥 Watch live → https://t.co/lxnSX8S4gD https://t.co/0Dvi0YckRR",
-"likeCount": 7,
-"retweetCount": 6,
-"url": "https://x.com/BlockchainWeeks/status/2084086761832038744",
-"createdAt": "Mon Aug 03 01:19:39 +0000 2026"
-},
-{
-"userName": "robotsdigest",
-"text": "Rather than optimizing a diffusion policy with unstable RL objectives, EvoHIL combines a self-evolving reward model with flow matching optimization.\n\nThe policy learns from better rewards, while better policies generate stronger preference data for the next reward update. Each component bootstraps the other.",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/robotsdigest/status/2085062616570040825",
-"createdAt": "Wed Aug 05 17:57:21 +0000 2026"
+"userName": "0x_JadeX",
+"text": "I thought 20-minute chain deployment was marketing hype.\n\nThen I saw a full prediction market written with Claude AI and running live on a Canopy virtual chain.\n\nStart to finish in a single lunch break.\n\nNo complex devops. No endless configuration files.\n\nBuilding in crypto is finally catching up to the speed of thought.\n\nGive @CNPYNetwork a try on your next project and tell me what you think.",
+"likeCount": 32,
+"retweetCount": 0,
+"url": "https://x.com/0x_JadeX/status/2085644616183980441",
+"createdAt": "Fri Aug 07 08:30:00 +0000 2026"
 },
 {
 "userName": "rydcunningham",
@@ -96,9 +72,17 @@
 "createdAt": "Thu Aug 06 18:33:59 +0000 2026"
 },
 {
+"userName": "jeremyphoward",
+"text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
+"likeCount": 22741,
+"retweetCount": 2828,
+"url": "https://x.com/jeremyphoward/status/2084374840010850493",
+"createdAt": "Mon Aug 03 20:24:22 +0000 2026"
+},
+{
 "userName": "ClementDelangue",
 "text": "RT @DirhousssiAmine: 🚀🚀 TRL now supports training on agent harness out of the box through our OpenEnv integration.\n\nYou can now train using…",
-"likeCount": 81,
+"likeCount": 82,
 "retweetCount": 15,
 "url": "https://x.com/ClementDelangue/status/2085276981566771636",
 "createdAt": "Thu Aug 06 08:09:09 +0000 2026"
@@ -106,41 +90,41 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @allen_ai: We're expanding our partnership with @huggingface to accelerate open science.\n\nOur storage on the Hub is roughly tripling to…",
-"likeCount": 128,
-"retweetCount": 26,
+"likeCount": 134,
+"retweetCount": 28,
 "url": "https://x.com/ClementDelangue/status/2085356697900495066",
 "createdAt": "Thu Aug 06 13:25:55 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says the recent OpenAI-linked cyberattack highlights the growing risks posed by rapidly…",
-"likeCount": 36,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2084384284299739352",
-"createdAt": "Mon Aug 03 21:01:54 +0000 2026"
+"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
+"likeCount": 25,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2084383891192709211",
+"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @martin_casado: It appears model capabilities / releases are accelerating. But if you divide by the money going into the labs, it looks…",
-"likeCount": 242,
-"retweetCount": 19,
-"url": "https://x.com/jeremyphoward/status/2083663695444660372",
-"createdAt": "Sat Aug 01 21:18:32 +0000 2026"
+"text": "RT @AndrewCurran_: At first I thought Bloomberg forgot to add DeepSeek's pricing to the chart. https://t.co/j0GvfyC3Ld",
+"likeCount": 11597,
+"retweetCount": 933,
+"url": "https://x.com/jeremyphoward/status/2084749629216977010",
+"createdAt": "Tue Aug 04 21:13:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
-"likeCount": 492,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2085141703216804032",
-"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
+"text": "https://t.co/AiHFGvyR8u",
+"likeCount": 123,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2085000309865070795",
+"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/tQlKbtMZQ5",
-"likeCount": 107,
-"retweetCount": 109,
-"url": "https://x.com/Ambani_Wessley/status/2085759284189557151",
-"createdAt": "Fri Aug 07 16:05:39 +0000 2026"
+"userName": "TheZvi",
+"text": "https://t.co/kVPn0dVc2t",
+"likeCount": 68,
+"retweetCount": 10,
+"url": "https://x.com/TheZvi/status/2085360080887632287",
+"createdAt": "Thu Aug 06 13:39:22 +0000 2026"
 }
 ]
