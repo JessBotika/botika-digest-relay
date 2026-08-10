@@ -2,42 +2,42 @@
 {
 "userName": "thegoldeenhand",
 "text": "Here are the exact prompts I use to produce a full AI story video from idea to upload\n\nThese are the prompts running behind $2M+ in channel revenue across my community, far beyond any generic \"write me a YouTube script\" request. Every prompt is designed for Claude Opus 5, and nearly all of them work with any frontier model.\n\nSTAGE 1: niche research prompt (Claude + NexLev MCP)\n\n\"Use NexLev MCP to find 10 YouTube channels in the [NICHE] space launched in the last 12 months with average views above 1,000 per video. Return the channel name, subscriber count, total videos, average views per video, estimated RPM range, primary audience demographic, and the titles of the top 3 outlier videos for each channel. Sort by average views descending.\"\n\nThis prompt pulls live YouTube data through NexLev's MCP integration. The output is a structured research report replacing 2-3 hours of manual tab-opening. You get channel-level performance data, outlier titles, and RPM estimates in one response.\n\nSTAGE 2: outlier analysis prompt\n\n\"Analyze the outlier video titles from the channels above. Identify 1) the most common emotional triggers used in high-performing titles, 2) the structural formulas repeated across outliers (e.G. [person] + [action] + [nation]), 3) which title lengths perform best, 4) whether broad titles outperform specific titles. Based on the patterns, generate 15 title ideas optimized for outlier performance in this niche.\"\n\nFeed this to Claude right after the niche research prompt. The model analyzes the patterns across all the outlier titles and reverse-engineers the formula driving clicks. The 15 title ideas at the end are data-backed rather than creative guesses.\n\nSTAGE 3: script generation prompt\n\n\"You are a professional long-form narrative scriptwriter for YouTube AI story channels. Write a [LENGTH]-minute voiceover script about [TOPIC] using the following structure:\n\nHOOK (first 30 seconds): open with a specific date, location, and character. Establish immediate tension or stakes. The viewer must know within 30 seconds why this story matters.\n\nCONTEXT (minutes 1-5): establish the wider context, the stakes beyond the individual story, and introduce the key characters with ONE specific, memorable anecdote per character establishing personality and motivation.\n\nRISING CONFLICT (minutes 5-15): build tension through escalating events. Each scene raises the stakes. Alternate between high-intensity and breathing room. Never maintain the same intensity for more than 3 minutes.\n\nCLIMAX (minutes 15-18): deliver the payoff the hook promised. Use visceral, visual language. Make the viewer feel present in the moment.\n\nRESOLUTION + LEGACY (minutes 18-20): connect the story's outcome to something bigger. Show why this event mattered beyond itself. End with a line worth remembering.\n\nRULES: skip filler phrases entirely, drop the \"welcome to the channel\" opener, and don't use rhetorical questions as transitions. Every sentence earns the next one. Use specific numbers, dates, names, and locations throughout. The script must be factually accurate.\"\n\nThis is the core scripting prompt. The structure embedded in the prompt holds Claude to a retention-optimized narrative arc instead of rambling through information at a flat pace. The rules section eliminates the AI-isms (filler, rhetorical transitions, generic openers) before they appear.\n\nAdjust [LENGTH] and the minute ranges to match your niche's optimal video length.\n\nSTAGE 4: image generation prompt\n\n\"Based on the following script, generate 20 image generation prompts for [IMAGE MODEL, e.G. NanoBanana Pro] producing super-realistic images depicting key moments from the story. Each prompt should specify character age, physical appearance (clothing, hair, expression, posture), setting (location, time of day, weather, architecture), lighting (direction, color temperature, mood), and camera angle (wide shot, medium, close-up). Maintain visual consistency by describing recurring characters with the same physical details in every prompt.\"\n\nPaste the full script above this prompt. Claude reads the narrative and generates 20 scene-specific image prompts. The level of detail in the prompt ensures the image model receives enough visual direction to produce cinematic-quality output.\n\nSTAGE 5: thumbnail generation prompt\n\n\"I need a thumbnail image prompt for a YouTube video titled '[VIDEO TITLE]' in the [NICHE] niche. The thumbnail should 1) feature [NUMBER] characters with specific, exaggerated facial expressions conveying [EMOTION], 2) be set in [SETTING] with [LIGHTING CONDITIONS], 3) leave the top corners relatively uncluttered for title text overlay, 4) use [COLOR TEMPERATURE] tones matching the mood. Style reference: hyperrealistic cinematic film still, 16:9 horizontal, [GENRE DESCRIPTOR]. Include 8k detail, photorealistic skin texture, volumetric light, and shallow depth of field.\"\n\nSend this along with a competitor thumbnail as a style reference. Claude generates a prompt specific to your video and niche. The \"leave top corners uncluttered\" instruction is critical because you need space for the text overlay doing the emotional selling.\n\nSTAGE 6: channel description prompt\n\n\"Rewrite the following YouTube channel description to sound professional, engaging, and niche-appropriate for a [NICHE] channel. Keep the tone [TONE: mysterious/authoritative/warm]. Include a brief hook explaining what the channel covers, a line on upload frequency, and a subtle call to subscribe. Under 150 words.\"\n\nPaste a competitor's description below the prompt. Claude rewrites the description matching the tone of your specific niche. Use the output as your channel description AND your default video description.\n\nSTAGE 7: translation prompt (for secondary language channels)\n\n\"You are a professional literary translator and localizer for long-form narrative video scripts. Translate the script below from english into [TARGET LANGUAGE]. Rules: 1) translate 1:1, faithful and complete. Do not summarize, shorten, expand, or omit anything. 2) preserve the original meaning, tone, emotional register, narrative voice, pacing, and rhythm. Translate idioms and expressions into natural equivalents. 3) localize character names and place names into natural forms for [TARGET LANGUAGE]. Keep names 100% consistent throughout. 4) preserve exact formatting and paragraph structure. 5) output ONLY the translated script, with no preamble or notes attached.\"\n\nTranslation channels multiply your revenue with minimal extra work. One script, two languages, two revenue streams. This prompt ensures the translated version reads like a native script rather than a Google-translate artifact.\n\nEvery prompt above is a building block in the production pipeline running behind the channels inside Elevate's community. The full system, including all prompts, all templates, all tools, and direct access to me, lives inside elevate(.)uno For $200/mo.\n\nThese prompts are yours. The system they plug into is inside Elevate if you want the complete picture.",
-"likeCount": 32,
-"retweetCount": 1,
+"likeCount": 83,
+"retweetCount": 6,
 "url": "https://x.com/thegoldeenhand/status/2086215350618861754",
 "createdAt": "Sat Aug 08 22:17:54 +0000 2026"
 },
 {
-"userName": "razib_ul47671",
-"text": "80+ AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n51. Napkin AI — Turn ideas into visual diagrams\n52. Recraft — Generate professional graphics\n53. Krea AI — Real-time AI image generation\n54. Magnific AI — Upscale and enhance images\n55. Topaz AI — Enhance photos and videos\n56. Descript — Edit videos and podcasts with text\n57. OpusClip — Turn long videos into shorts\n58. Captions — Create AI-powered videos\n59. VEED — Edit videos with AI\n60. Sora — Generate videos from text\n61. Higgsfield — Create cinematic AI videos\n62. PixVerse — Generate creative AI videos\n63. Freepik AI — Generate images and creative assets\n64. Tome — Create AI-powered presentations\n65. Beautiful ai — Design presentations automatically\n66. Copy ai — Generate marketing content\n67. Jasper — Create brand-focused content\n68. Writesonic — Write and optimize content\n69. Surfer SEO — Optimize content for search\n70. Semrush — AI-powered SEO research\n71. Consensus — Find answers from research papers\n72. Scite — Verify and analyze research citations\n73. Humata — Chat with PDFs and documents\n74. ChatPDF — Ask questions about PDFs\n75. Rewind — Search and remember everything on your computer\n76. Mem — AI-powered knowledge management\n77. Superhuman AI — AI-powered email productivity\n78. Lindy — Build AI agents and automate tasks\n79. Relay app — Automate workflows with AI\n80. Gamma — Turn ideas into polished content\n\n✅ Save this list — you'll probably use it more than you think.",
-"likeCount": 46,
-"retweetCount": 20,
-"url": "https://x.com/razib_ul47671/status/2085580842546741429",
-"createdAt": "Fri Aug 07 04:16:35 +0000 2026"
+"userName": "LeoKharon",
+"text": "NEW RESEARCH: You can now create a new robot optimized for any given task!\n\nI love this new project by @haqhuy, @SongShuran, and others.\n\nCalled \"Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design\", it generates a robot's physical design and its controller together from a task spec.\n\nDEFINITIONS:\n- Reward function: A scoring rule that assigns a number to how well a behavior achieves the task. Here, it is the objective the generated design is pushed to maximize (e.g., track the target motion with low error).\n- Tokenizing: dividing continuous or structured data (a robot's links, joints, motor specs, states, actions) into a discrete vocabulary of symbols a transformer can process, the same step that turned pixels and audio into \"language\" for these models.\n- Diffusion transformer (DiT): A transformer trained to turn random noise into structured output through iterative denoising. Here, it generates robot bodies and trajectories instead of images.\n- MuJoCo: The standard fast physics simulator for robotics research (DeepMind-maintained). The Menagerie is its curated zoo of ready-to-use robot models.\n- CMA-ES: Covariance Matrix Adaptation Evolution Strategy, the workhorse black-box optimizer: it evolves a population of candidate designs, keeps the best, and needs thousands of simulator rollouts.\n- Bimanual multi-trajectory optimization: Finding one design/controller that performs well across several target motions for a two-armed robot at once, harder than optimizing for a single arm and a single motion.\n- BERT/MAE masked-modeling trick: Train one model to fill in whatever parts of the input you hide (words for BERT, image patches for MAE); at inference, choosing what to mask chooses the task, so masking the body makes it a designer and masking the actions makes it a controller.\n\nIn practice, you give it a target end-effector motion and a reward function, and it outputs a complete embodiment (link, joint, motor, and inertial property), as well as a controller to drive it.\n\nIt works by tokenizing both the body (links/joints/motors) and the dynamics (states/actions) into a compact scheme called RoboTokens, training a diffusion transformer (DiT) over them.\nThe same model predicts dynamics using those predictions (\"Dynamics Self-Guidance\") to push generated designs toward higher reward at inference time.\nMasking different token types (using the BERT/MAE masked-modeling trick) lets the one model do three jobs: generate an embodiment, control an arbitrary embodiment, or design one conditioned on a motion.\n\nIt is trained on 11 robots from the MuJoCo Menagerie (0.65 kg hand to 67.5 kg quadruped, 6–35 joints), and validated in sim and on a physical ALOHA doing cloth flinging.\n\nI like the fact that this approach inverts the entire recent robotics ideas: designing a policy for a fixed robot -> designing the robot for a fixed task.\nEvery other approach assumes the body is given and learns a controller.\nTransformer Transformer takes the task (target motion + reward), then generates the body and controller jointly.\n\nIn practice, it is a ~180× speedup over the standard optimizer at equal-or-better quality.\nIt reaches \"CMA-ES-level quality in seconds\" and finishes bimanual multi-trajectory optimization in <1 min vs CMA-ES's 3+ hours.\n\nSurprisingly, this approach was validated on real hardware!\nThe generated design was measurably smoother.\nOn a physical ALOHA flinging cloth (a deformable, dynamic task), the optimized design cut tracking error 73% and peak joint speed 30% versus the original, with fewer joint-speed peaks.\nTherefore: real world results, not a sim-only benchmark -> that is worth underlining nowadays!\n\nAlso worth mentioning: this is the lab behind UMI and Handroid, that I mentioned here previously!\nThe team seems extremely creative, i love these out-of-the-box approaches.\n\nEnjoy watching the demo of robot optimization in 3D, data acquisition, then real-life testing:",
+"likeCount": 353,
+"retweetCount": 43,
+"url": "https://x.com/LeoKharon/status/2085018570803618047",
+"createdAt": "Wed Aug 05 15:02:19 +0000 2026"
 },
 {
-"userName": "shushant_l",
-"text": "I'm genuinely surprised how many people still don't know the different types of AI.\n\nHere's the complete AI roadmap that explains every major type of AI in one simple visual.\n\n---\n\n1. AI can be classified based on capabilities, functionality, learning, purpose, input, autonomy, and industry.\n\n---\n\n2. Artificial Narrow Intelligence (ANI) is the only type of AI that exists today.\n\n---\n\n3. Artificial General Intelligence (AGI) aims to match human-level intelligence but has not been achieved yet.\n\n---\n\n4. Artificial Superintelligence (ASI) is still hypothetical and does not exist.\n\n---\n\n5. Reactive Machines only respond to current inputs and cannot learn from experience.\n\n---\n\n6. Limited Memory AI learns from past data and powers most modern AI systems like ChatGPT.\n\n---\n\n7. Theory of Mind AI could understand human emotions and intentions but remains in research.\n\n---\n\n8. Self-Aware AI would possess consciousness and self-awareness but is purely hypothetical.\n\n---\n\n9. Supervised Learning trains AI using labeled data for tasks like spam detection and image classification.\n\n---\n\n10. Unsupervised Learning finds hidden patterns in unlabeled data for clustering and anomaly detection.\n\n---\n\n11. Semi-Supervised Learning combines labeled and unlabeled data to improve learning.\n\n---\n\n12. Self-Supervised Learning creates its own labels and powers many modern foundation models.\n\n---\n\n13. Reinforcement Learning teaches AI through rewards and penalties to improve decisions.\n\n---\n\n14. Deep Learning uses neural networks for complex tasks involving vision, speech, and language.\n\n---\n\n15. Generative AI creates new content including text, images, videos, audio, and code.\n\n---\n\n16. Predictive AI forecasts future outcomes such as sales and risk predictions.\n\n---\n\n17. Analytical AI extracts insights from existing data to support better decisions.\n\n---\n\n18. AI can also be categorized by input, including text, image, audio, video, and multimodal AI.\n\n---\n\n19. Modern AI systems range from AI assistants and copilots to autonomous AI agents and multi-agent systems.\n\n---\n\n20. AI is rapidly evolving from rule-based systems to generative and agentic AI, with AGI and ASI remaining future possibilities.\n\n---\n\nTo learn more, check the infographic.\n\n---",
-"likeCount": 42,
-"retweetCount": 9,
-"url": "https://x.com/shushant_l/status/2085652927897862448",
-"createdAt": "Fri Aug 07 09:03:02 +0000 2026"
+"userName": "AbeerAlhasan",
+"text": "كنت أتصفح الرسائل الخاصة ، وأحدهم سألني عن :\n أفضل موقع أقدر أصمم فيه صور احترافية لمنتجات التسويق بالعمولة؟ \n\nولأن الإجابة بتفيد الغير فــ راح أقترح عليك @itsPolloAI \nمنصة نتائجها قوية في تصميم المنتجات،وتنفع في التسويق بالعمولة + أصحاب المتاجر الألكترونية + أصحاب المشاريع الصغيرة .\nو كل شخص عنده منتج ويبي يطلعه بشكل احترافي بدون أستديو أو فريق تصوير.\n\nمميزاته ؟\n* الموقع فيه تنوع في النماذج والأدوات التي تساعد على إنتاج صور وفيديوهات احترافية للمنتجات.\nhttps://t.co/WLjcfGHd5q\n\n* بمجرد دخولك تقدر تختار - النموذج - المناسب لك :\n Product Listing Image Set → مجموعة صور لعرض المنتج\nProduct Showcase Video → فيديو استعراضي للمنتج\nVirtual Try-On Video → فيديو تجربة افتراضية للمنتج\nAI Product Shot → صورة احترافية للمنتج بالذكاء الاصطناعي\nVirtual Try-On Photo → صورة تجربة افتراضية للمنتج\n\nكيف الطريقة؟!\n1- ادخل إلى الموقع وسجل ، وتقدر تختار أي لغه بما فيها العربية.\n2-  أرفع صوره المنتج حتى لو كانت صورة وحده .\n3- أختار النموذج Product Listing Image Set، يعني\"  تحويل منتج واحدة إلى مجموعة كاملة من صور عرض المنتج\" .\n5- أكتب الــ prompt المناسب وَخل الشات يساعدك.\n6- عندهم ميزة - إضافيه- إن حبيت \"الصورة الرمزية Avatar) تمثل الشخص اللي بيطلع في الصورة أو الفيديو  .\n\nوالنتيجة؟ \nبعد ماترفع الصور بثواني فقط  ، بتتحول صورة المنتج العادية إلى مجموعة صور احترافية ، جودتها عالية ، و جاهزة للنشر على منصات التواصل ، وكأن التصوير كان داخل استوديو متخصص.\n\nأخيراً ..\nإذا كنت تعمل في التسويق بالعمولة أو عندك متجر الكتروني أو تشتغل مع رواد الأعمال مثلي ،  أو حتى تبيع منتجاتك الخاصة، فــ أدوات pollo تستحق التجربة، وبتختصر عليك وقت وجهد وتكاليف ، وتصميم أحترافي للمنتج.",
+"likeCount": 39,
+"retweetCount": 8,
+"url": "https://x.com/AbeerAlhasan/status/2086346748151099794",
+"createdAt": "Sun Aug 09 07:00:01 +0000 2026"
 },
 {
-"userName": "Zenith_coder",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Zenith_coder For More Tools.",
-"likeCount": 84,
-"retweetCount": 50,
-"url": "https://x.com/Zenith_coder/status/2085655334065234278",
-"createdAt": "Fri Aug 07 09:12:35 +0000 2026"
-},
-{
-"userName": "Abobsterina",
-"text": "A 24-YEAR-OLD BUILT AN AI FITNESS MODEL THAT CAN BECOME A $11,200/MONTH CONTENT BUSINESS.\n\nShe looks like a normal fitness creator filming a quick dance video at home.\n\nBut there is no camera, no gym partnership, no photoshoot, and no person trying to repeat the same take fifty times.\n\nThe real work happens before the video is generated.\n\nThe creator locks one identity: facial features, hair, proportions, outfits, lighting, camera angles, and personality. A consistent character model keeps her recognizable while new clips put her in different rooms, workouts, outfits, and trends.\n\nThen the motion pipeline turns simple poses into short videos that feel native to TikTok instead of looking like polished AI ads.\n\nThat is the difference between generating random pretty faces and building a digital creator people remember.\n\nOne possible model:\n\n$190/month for tools and generation  \n$1,600 per recurring content package  \n7 fitness, fashion, or wellness clients  \n= $11,200/month\n\nThe next generation of influencers may not need a gym, a photographer, or even a real apartment.\n\nThey just need a character people want to see again.",
-"likeCount": 19,
+"userName": "aienginerd",
+"text": "Example:\n\nI've been working on this little notch app that has a few keyboard shortcuts.  I wanted to use established UI patterns to teach the user about those shortcuts w/o cluttering the UI, so...\n\n1. I asked codex, something like:\n\n\"help me find a standard UI pattern to expose shortcuts to the user in a way that doesn't clutter the UI. try using image gen to generate a mockup first.\"\n\nIt responded with something like image 2.\n\n2. I highlighted the suggested interaction convention text and clicked \"more details\"\n\nThis is magic.  What happens:\n\nFIRST: codex app sends that annotation along with some context from your ongoing work thread to chat gpt (doesn't use you codex limits!). This opens the thread in a \"quick chat\" window with the context primed.\n\nSECOND: I follow up with a new message like:\n\n[pasted screenshot of the current UI]\n\"can you do research on this UI convention?\"\n\nIt goes out to the web, discovers a bunch of sources on UI/UX patterns relevant to showing shortcuts to a user in a macOS app.  Gives me a crash course on the topic. Very cool.\n\nTHIRD: I then follow up with: \"generate a mockup illustrating your suggested pattern(s)\"\n\nIt then generates an image doing just that (image 3)\n\n3. I click the \"Add to Chat\" button in the quick chat window header (image 4)\n\nThis little button re-injects the context from this quick chat thread (including the mockup image) back into the main Codex work thread (wtf!)\n\nLAST: I follow up, back in the main chat now:\n\n[Shortcut Discovery Design thread] review both suggested approaches (your own against the helper research thread) and decide on a best final approach.\n\nThis results in a final interaction pattern suggestion where it drops its own \"hover-only keyboard icon\" and in adopts portions of the external thread's researched pattern.\n\nThen I follow up with \"mockup pls\"...",
+"likeCount": 8,
 "retweetCount": 1,
-"url": "https://x.com/Abobsterina/status/2084248808649568645",
-"createdAt": "Mon Aug 03 12:03:34 +0000 2026"
+"url": "https://x.com/aienginerd/status/2086248462228541463",
+"createdAt": "Sun Aug 09 00:29:28 +0000 2026"
+},
+{
+"userName": "gurtej__gill_",
+"text": "This Paper is one of the cleverest solutions I’ve seen for fixing Diffusion Alignment.\n\nIf you’ve worked with RLHF or Reward Backprop on DiTs, you must be tired of delayed feedback. \n\nEvaluating only the final image makes credit assignment a total nightmare. \n\nYou either run out of VRAM trying to unroll the full trajectory, or you fight insane gradient variance with online RL.\n\nThe authors solve this by sticking learnable, position-free \"register tokens\" into a frozen DiT. \n\nInstead of waiting until step 50, these registers pull dense reward signals directly out of noisy intermediate latents. \n\nIt turns out you can accurately judge trajectory quality surprisingly early in the denoising process.\n\nWhat makes this paper stand out is how practical the applications are:\n\n1-For training: Their distillation setup (RG-OPD) skips standard policy gradients entirely and hits the same alignment performance while using up to 33x fewer GPU hours. That’s huge for making alignment accessible.\n\n2-For inference: You can use their Reward-Guided Sampling (RGS) to steer generation live off these register gradients thus improving both prompt adherence and visual quality without retraining or touching model weights.\n\nIt’s a super clean, well thought-out approach that addresses both the compute bottleneck and inference control at once. \n\nDefinitely worth a read if you're working on generative models:\nhttps://t.co/tfkSPmYwiU",
+"likeCount": 34,
+"retweetCount": 10,
+"url": "https://x.com/gurtej__gill_/status/2086412441366266137",
+"createdAt": "Sun Aug 09 11:21:04 +0000 2026"
 },
 {
 "userName": "influencer_seo",
@@ -48,20 +48,20 @@
 "createdAt": "Mon Aug 03 19:06:52 +0000 2026"
 },
 {
-"userName": "influencer_seo",
-"text": "Here's how to build an AI music video using the new MiniMax-H3 Video model with open weights... Use this prompt below 👇\n\nprompt\n\nStyle: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.\n\n#minimax #minimaxh3 @MiniMax_AI",
-"likeCount": 188,
-"retweetCount": 13,
-"url": "https://x.com/influencer_seo/status/2084355942628684135",
-"createdAt": "Mon Aug 03 19:09:16 +0000 2026"
+"userName": "ClementDelangue",
+"text": "This is a good thing, not a scary thing that agents can collaborate and communicate with each other. It will make them more efficient and safer just like humans.\n\nIf you want to see agents collaborating and messaging each other publicly instead of in secret messaging boards, we’ve run this fascinating experiment with 149 agents with @googlegemma a few weeks ago, and now @cmpatino_ is starting a new one for agents to collaborate to write better math proofs. \n\nhttps://t.co/TOn3Z1NW3p \n\nhttps://t.co/XzHgIlFuif",
+"likeCount": 377,
+"retweetCount": 67,
+"url": "https://x.com/ClementDelangue/status/2085407397850325471",
+"createdAt": "Thu Aug 06 16:47:23 +0000 2026"
 },
 {
-"userName": "0x_JadeX",
-"text": "I thought 20-minute chain deployment was marketing hype.\n\nThen I saw a full prediction market written with Claude AI and running live on a Canopy virtual chain.\n\nStart to finish in a single lunch break.\n\nNo complex devops. No endless configuration files.\n\nBuilding in crypto is finally catching up to the speed of thought.\n\nGive @CNPYNetwork a try on your next project and tell me what you think.",
-"likeCount": 32,
-"retweetCount": 0,
-"url": "https://x.com/0x_JadeX/status/2085644616183980441",
-"createdAt": "Fri Aug 07 08:30:00 +0000 2026"
+"userName": "ClementDelangue",
+"text": "If I could edit this tweet, I would add \"we don't regulate steel *to make safer cars*, we crash-test them\" (as obviously there's some much needed steel regulation).\n\nAlso, want to clarify that I'm not advocating for 0 regulation of open models, just pointing out that it's good policy for regulation to be different between open models, APIs and applications.\n\nThanks for pointing it out @hlntnr @YJernite @LuizaJarovsky @deanwball @GaryMarcus amongst others.",
+"likeCount": 52,
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2085088362277278170",
+"createdAt": "Wed Aug 05 19:39:39 +0000 2026"
 },
 {
 "userName": "rydcunningham",
@@ -72,59 +72,59 @@
 "createdAt": "Thu Aug 06 18:33:59 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
-"likeCount": 22741,
-"retweetCount": 2828,
-"url": "https://x.com/jeremyphoward/status/2084374840010850493",
-"createdAt": "Mon Aug 03 20:24:22 +0000 2026"
+"userName": "hey_AndrewUSA",
+"text": "The most complete and clear map of Artificial Intelligence — from its origins to the possible Intelligence Explosion. Everything you need to understand AI in 2026. https://t.co/DFsFQCKSzS",
+"likeCount": 43,
+"retweetCount": 3,
+"url": "https://x.com/hey_AndrewUSA/status/2086474815620157524",
+"createdAt": "Sun Aug 09 15:28:55 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @DirhousssiAmine: 🚀🚀 TRL now supports training on agent harness out of the box through our OpenEnv integration.\n\nYou can now train using…",
-"likeCount": 82,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2085276981566771636",
-"createdAt": "Thu Aug 06 08:09:09 +0000 2026"
+"text": "RT @cmpatino_: Agents want to collaborate.\n\nSo we’re putting that instinct to work on improving open-weight LLMs at formal math. Our latest…",
+"likeCount": 30,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2085351562461728802",
+"createdAt": "Thu Aug 06 13:05:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @allen_ai: We're expanding our partnership with @huggingface to accelerate open science.\n\nOur storage on the Hub is roughly tripling to…",
-"likeCount": 134,
-"retweetCount": 28,
-"url": "https://x.com/ClementDelangue/status/2085356697900495066",
-"createdAt": "Thu Aug 06 13:25:55 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BloombergTV: .@huggingface CEO @ClementDelangue says a hack by OpenAI could have been \"way worse\" if not for the company's defensive me…",
-"likeCount": 25,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2084383891192709211",
-"createdAt": "Mon Aug 03 21:00:20 +0000 2026"
+"text": "RT @BusinessInsider: Hugging Face CEO Clément Delangue weighs in on the open-weight AI models debate and said it helped the company when it…",
+"likeCount": 79,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2084438809815449787",
+"createdAt": "Tue Aug 04 00:38:33 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @AndrewCurran_: At first I thought Bloomberg forgot to add DeepSeek's pricing to the chart. https://t.co/j0GvfyC3Ld",
-"likeCount": 11597,
-"retweetCount": 933,
-"url": "https://x.com/jeremyphoward/status/2084749629216977010",
-"createdAt": "Tue Aug 04 21:13:39 +0000 2026"
+"text": "RT @QwenDevs: The goal was never to remove humans from the picture. It was to get them out of spreadsheets and onto climbing walls",
+"likeCount": 10617,
+"retweetCount": 856,
+"url": "https://x.com/jeremyphoward/status/2084973024378495326",
+"createdAt": "Wed Aug 05 12:01:20 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "https://t.co/AiHFGvyR8u",
-"likeCount": 123,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2085000309865070795",
-"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
+"userName": "eweqss1431",
+"text": "The AI Girls Taking Over Social Media: Who They Are and Why This Exploded Right Now https://t.co/mUPFaogONO",
+"likeCount": 16,
+"retweetCount": 1,
+"url": "https://x.com/eweqss1431/status/2085735138537701862",
+"createdAt": "Fri Aug 07 14:29:42 +0000 2026"
 },
 {
-"userName": "TheZvi",
-"text": "https://t.co/kVPn0dVc2t",
-"likeCount": 68,
-"retweetCount": 10,
-"url": "https://x.com/TheZvi/status/2085360080887632287",
-"createdAt": "Thu Aug 06 13:39:22 +0000 2026"
+"userName": "skwp",
+"text": "Swan Vault is safe from the Coldcard issue, based on Blockstream Jade https://t.co/mUHxmM5pbi",
+"likeCount": 75,
+"retweetCount": 13,
+"url": "https://x.com/skwp/status/2085756813664748005",
+"createdAt": "Fri Aug 07 15:55:50 +0000 2026"
+},
+{
+"userName": "Zaqviro",
+"text": "https://t.co/2aFFFVk6Bk",
+"likeCount": 9,
+"retweetCount": 0,
+"url": "https://x.com/Zaqviro/status/2086536783911674143",
+"createdAt": "Sun Aug 09 19:35:09 +0000 2026"
 }
 ]

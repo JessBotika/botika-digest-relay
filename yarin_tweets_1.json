@@ -2,105 +2,113 @@
 {
 "userName": "Kai_Nimo02",
 "text": "Retium Testnet Is Live - Here’s What Early Users Can Actually Do\n\n@RetiumChain has spent a lot of time talking about architecture.\n\nPrimeMesh. Proof of Math. Prime-number factorization. Parallel blocks. Direct transaction routing. No traditional mempool. Specialized validators.\n\nNow comes the more important part: letting people actually use it.\n\nRetium has entered Phase 3 of its roadmap, the Public Testnet stage, with the Retium Wallet and Public Testnet Faucet forming the first public-facing pieces of the network.\n\nFor anyone who has been following Retium mainly through technical posts and architecture diagrams, this is where the project starts becoming much more tangible.\n\nYou no longer have to understand every detail of Proof of Math to interact with Retium.\n\nYou can open the wallet, get test $RTM, send transactions, experiment with staking and begin seeing how this multi-dimensional Layer-1 feels from the user side.\n\nSo what can early users actually do right now — and what should they be watching next?\n\nStart With the Retium Wallet\n\nThe obvious starting point is the Retium Wallet.\n\nThe wallet is the main user interface for interacting with the Retium Public Testnet. It gives early testers a way to create or restore a wallet, manage a Retium address and interact with test $RTM.\n\nThat may sound basic compared with PrimeMesh or Proof of Math, but it is an important milestone.\n\nEvery larger Retium use case eventually needs the same basic transaction layer.\n\nPayments need wallets.\n\nDeFi needs wallets.\n\nNFTs need wallets.\n\nDAOs need wallets.\n\nGaming and tokenized real-world assets need users who can sign transactions and interact with smart contracts.\n\nThe testnet wallet is therefore the first practical bridge between Retium’s architecture and normal users.\n\nAnd one thing should be clear from the start:\n\nTestnet $RTM is for testing.\n\nIt should not be confused with production network value, and users should be cautious around unofficial claims involving airdrops, token sales or guaranteed rewards.\n\nClaim Test $RTM From the Public Testnet Faucet\n\nAfter creating a wallet, users need test $RTM to interact with the network.\n\nThat is where the Retium Public Testnet Faucet comes in.\n\nThe purpose of a faucet is straightforward: distribute test coins so users can send transactions and interact with network features without using real economic value.\n\nThe useful part begins after the claim.\n\nRather than treating faucet tokens like something to collect, early testers can use them to see how Retium actually handles transactions.\n\nSend $RTM between addresses.\n\nTry different transaction amounts.\n\nRepeat transactions.\n\nTest the wallet after reopening it.\n\nExperiment with staking and unstaking.\n\nWatch how balances update.\n\nAnd report anything that behaves unexpectedly.\n\nThat kind of activity produces far more useful information than simply claiming test tokens and leaving them untouched.\n\nTesting Retium’s Direct Routing Model\n\nSending a test $RTM transfer may look like an ordinary blockchain transaction from the wallet interface.\n\nUnderneath, Retium is designed very differently.\n\nRetium does not use the traditional linear, one-block-at-a-time architecture found on many Layer-1 networks.\n\nIt uses PrimeMesh.\n\nPrimeMesh is Retium’s multi-dimensional block structure based on prime-number mathematics. Block identities are derived through prime factorization, and each network tick introduces new prime-number relationships that determine where valid blocks can exist.\n\nBecause those relationships are mathematical, Retium describes the structure as deterministic.\n\nThe same inputs should lead participants toward the same valid mesh structure.\n\nMore importantly for users, PrimeMesh allows multiple blocks to remain open simultaneously.\n\nRetium currently describes typical operation as involving roughly 3 to 20 concurrent blocks depending on network activity.\n\nThat changes how transactions enter the network.\n\nInstead of sending a transaction into a traditional public mempool and waiting for a block producer to pick it up, Retium uses its Router.\n\nThe basic user flow can be simplified as:\n\nWallet\n→ Transaction\n→ Router\n→ Open PrimeMesh Block\n→ Validation\n→ Confirmation\n\nRouterHelper can dynamically adjust the number of open blocks depending on traffic, while the Router directs transactions according to factors such as transaction type, computational weight and current network conditions.\n\nFor an early testnet user, you do not need to manually choose any of this.\n\nBut you can start observing the result.\n\nDoes a transfer feel responsive?\n\nDoes the wallet confirm balances quickly?\n\nWhat happens when you submit multiple transactions?\n\nDo transactions remain predictable when activity increases?\n\nThose are the kinds of simple observations that eventually help determine whether PrimeMesh works well outside architecture diagrams.\n\nNo Traditional Mempool\n\nThe testnet also gives users their first practical exposure to another core Retium design choice: no traditional public mempool.\n\nOn many blockchains, a transaction enters a visible pending queue before execution.\n\nRetium routes transactions directly into open blocks instead.\n\nThis matters because public mempools are closely connected with front-running, sandwich attacks and mempool-based MEV.\n\nRemoving the traditional public transaction queue changes that environment.\n\nIt would be too broad to say that this automatically eliminates every possible type of MEV, especially once complex DeFi applications exist on the network.\n\nBut it does mean Retium is attacking the problem at the architecture level rather than simply adding another protection layer on top of a conventional mempool.\n\nThat will become particularly interesting later if DEXs, lending markets and other DeFi protocols begin operating on the public network.\n\nTry Staking and Unstaking\n\nStaking is another important area for early users to explore.\n\n$RTM is not only designed as the native coin used for transaction fees and value transfer.\n\nIt also sits at the center of Retium’s validator security model.\n\nCurrent Retium tokenomics define a fixed supply of 1 billion $RTM with 18 decimal places and 0% inflation. The protocol says no additional RTM can be minted beyond genesis.\n\nRetium also introduces a second asset called $Pie.\n\nUnder the staking model, staking $RTM mints an equivalent amount of $Pie at a 1:1 ratio.\n\nWhen the underlying $RTM is unstaked, the corresponding $Pie is burned.\n\nThe $RTM/$Pie relationship is part of Retium’s broader attempt to build validator and network economics around real transaction fees instead of continuous inflationary issuance.\n\nOn testnet, users should view staking as an opportunity to understand the mechanism rather than a financial opportunity.\n\nStake.\n\nCheck the resulting state.\n\nUnstake.\n\nSee how the wallet responds.\n\nLearn how the workflow feels before the production validator economy arrives.\n\nProof of Math Is Bigger Than Wallet Staking\n\nStaking also leads directly into one of the most discussed parts of Retium: Proof of Math, or PoM.\n\nRetium’s validator architecture is divided into three specialized roles:\n\nWorkers\nSuits\nKeepers\n\nWorkers are responsible primarily for transaction validation and currently have a proposed minimum production stake of 10,000 $RTM.\n\nWhen a transaction enters the validation process, Retium’s Matchmaker can assign five Workers to independently verify it.\n\nAt least three of those five Workers must approve the transaction.\n\nThat gives Retium a Worker quorum model of 3-of-5 at the transaction level.\n\nSuits operate around sealed blocks and finality, with a current production staking requirement of 100,000 $RTM.\n\nKeepers have deeper network responsibilities including block planning, PrimeMesh state, coordination and tick advancement. Their current minimum production stake is 1,000,000 $RTM.\n\nThe validator architecture also includes concepts such as Matchmaker rotation, RotationLog, Ed25519-signed network messages, binary attestation and slashing for protocol violations.\n\nMost ordinary Public Testnet users will not be testing all of this yet.\n\nThat is what makes the later Retium Validator Testnet such an important milestone.\n\nWeight-Based Fees Instead of Gas Auctions\n\nAnother Retium keyword worth understanding while testing the network is transaction weight.\n\nRetium does not structure fees around a traditional gas auction.\n\nTransactions receive a computational weight from 1 to 5.\n\nA simple transfer sits toward the light end of the model, while heavier smart contract computation sits higher.\n\nCurrent Retium tokenomics target approximately:\n\nWeight 1 — $0.01\nWeight 2 — $0.05\nWeight 3 — $0.10\nWeight 4 — $0.25\nWeight 5 — $0.45\n\nThe actual payment is made in $RTM, with the USD-denominated fee converted through the network’s pricing mechanism.\n\nThe broader idea is predictable costs rather than users bidding against one another during congestion.\n\nRetium also states that 1% of transaction fees is burned, adding a deflationary mechanism to a supply that is already fixed.\n\nSmart Contracts Come Next\n\nThe current wallet and faucet experience is only one part of Retium’s Public Testnet roadmap.\n\nThe developer side becomes much more interesting as the project opens additional tooling.\n\nRetium uses WebAssembly, or WASM, for smart contracts.\n\nRust is the recommended development language, although the architecture can support other languages that compile to WASM, including C, C++, AssemblyScript, TinyGo and Zig.\n\nContracts run inside the Retium Virtual Machine, or RVM.\n\nRetium currently uses Wasmtime as its WASM runtime, creating a sandboxed execution environment where contracts cannot freely access node internals, the filesystem or the external network.\n\nThat isolation is designed around deterministic execution.\n\nThe same contract receiving the same input and state should produce the same result across nodes.\n\nRetium also introduces its own unified smart contract standard:\n\nRCP-1 — Retium Contract Protocol.\n\nInstead of creating separate standards for fungible tokens, NFTs, governance contracts and other applications, RCP-1 embeds structured metadata directly into the WASM contract.\n\nThat metadata can describe:\n\nContract type\nComputational weight\nBehavior\nCapabilities\nVersion information\nEvolution chain\nLockable fields\n\nValidators and Keepers can then use this information for routing, pricing and execution.\n\nThat connects the smart contract layer directly back to PrimeMesh.\n\nA contract tells the network what kind of workload it represents.\n\nThe Router can use that information when distributing transactions.\n\nPrimeMesh provides parallel execution capacity.\n\nAnd Proof of Math handles the wider validation architecture.\n\nWhat’s Coming After the Initial Testnet?\n\nThe roadmap is where early testers should pay attention.\n\nRetium’s Phase 3 currently includes several major milestones.\n\nThe Retium Wallet and Public Testnet Faucet are scheduled for the August 2026 rollout.\n\nThe Retium Explorer Beta is currently planned for October 2026.\n\nThe Explorer will matter because users will be able to inspect network activity beyond the wallet interface: transactions, blocks, contract state and other on-chain activity become much easier to independently observe.\n\nThe Retium Developer SDK Testnet Release is scheduled for December 2026.\n\nRetium SDK is intended to support workflows including contract deployment, contract calls, $RTM transfers and interaction with network APIs.\n\nThen comes one of the bigger technical milestones:\n\nRetium Validator Testnet — currently planned for March 2027.\n\nThat is when external testing of Workers, Suits, Keepers, Matchmaker assignments, validator rotation and the wider Proof of Math consensus architecture should become far more relevant.\n\nAfter Phase 3, Retium’s roadmap moves toward the final security audit, production validator network and Public Mainnet.\n\nWhy Being Early Actually Matters\n\nRetium ultimately wants to support far more than basic $RTM transfers.\n\nIts target use cases include payments, DeFi, DAOs, NFTs, gaming, digital assets, real-world asset tokenization, enterprise applications, AI-related systems and other workloads requiring predictable blockchain execution.\n\nThose ambitions depend on several parts of the Retium architecture working together:\n\nPrime-number mathematics.\n\nPrimeMesh.\n\nParallel block processing.\n\nRouter and RouterHelper.\n\nNo traditional mempool.\n\nProof of Math.\n\nWorkers, Suits and Keepers.\n\nMatchmaker and validator rotation.\n\nWeight-based fees.\n\n$RTM and $Pie.\n\nWASM smart contracts.\n\nRetium Virtual Machine.\n\nRCP-1.\n\nDeterministic execution.\n\nRetium SDK.\n\nAnd eventually a decentralized production validator network.\n\nThat is a lot to prove.\n\nWhich is exactly why the Public Testnet matters.\n\nThe interesting part of testing an early Layer-1 is not pretending that everything is already finished.\n\nIt is watching the architecture gradually leave the whiteboard.\n\nRight now, users can begin with the simplest layer: wallet activity, test $RTM, transfers and staking.\n\nExplorer data should make the network more transparent.\n\nThe SDK will give developers more ways to stress the contract layer.\n\nThe Validator Testnet will put Proof of Math under a much more meaningful test.\n\nAnd mainnet will eventually determine whether PrimeMesh can perform under real economic incentives.\n\nFor anyone following Retium early, the best strategy is probably simple:\n\nDon’t just farm the testnet.\n\nActually test it.\n\nUse the Retium Wallet.\n\nMove test $RTM.\n\nTry staking and unstaking.\n\nWatch transaction behavior.\n\nFollow the Explorer when it arrives.\n\nDig into RCP-1 and WASM if you are a developer.\n\nAnd pay close attention when Workers, Suits and Keepers begin operating in the Validator Testnet.\n\nRetium has made some ambitious claims about building a Layer-1 from scratch around mathematics, logic and scalability.\n\nThe Public Testnet is where those claims slowly begin turning into something users can verify for themselves.",
-"likeCount": 115,
+"likeCount": 117,
 "retweetCount": 2,
 "url": "https://x.com/Kai_Nimo02/status/2085572015239602470",
 "createdAt": "Fri Aug 07 03:41:31 +0000 2026"
 },
 {
-"userName": "aienginerd",
-"text": "⚡️ Here's how to use the \"more details\" button in Codex app to offload stuff to 5.6 on web and save a bunch of codex usage limits at the same time.\n\nBasic pattern:\n\n1. highlight something in the codex app response, click \"more details\". esp useful is having codex specifically write a \"handoff\" just for this purpose, then highlight it all -> \"more details\"\n\n2. your thread context + your highlighted text get sent to a quick chat -> this uses your web chatgpt quota, not codex limits -> ask it anything, esp useful is research/planning type asks with 5.6 Pro or xhigh thinking.\n\nHUGE: this allows you to access 5.6 pro from within Codex w/o copy/paste.\n\n3. along with research/planning you can also have it create image mockups or other artifacts as per your tasks' needs, from your context.\n\n4. when you're ready to bring that external context back into codex, press the \"add to task\" button in the quick chat window header to re-inject that context back into your codex thread.\n\n5. ask codex thread to integrate that context into its own work (i.e, merge that research in to draft a final plan)\n\nUse this workflow as needed without burning your codex limits, rinse and repeat.\n\n(🧵continues below with full example)",
-"likeCount": 69,
-"retweetCount": 7,
-"url": "https://x.com/aienginerd/status/2086248458524954696",
-"createdAt": "Sun Aug 09 00:29:27 +0000 2026"
+"userName": "OGFIGO",
+"text": "Something about this CNPYNetwork demo genuinely changed how I think about building onchain.\n\nOne of their engineers opened Claude, described a prediction market, and roughly twenty minutes later there was a working version running as its own virtual chain.\n\nNot a smart contract sitting on someone else’s blockspace.\n\nAn actual chain with its own state and rules.\n\nAnd honestly, the 20 minutes is not even the part I find most interesting.\n\nIt is what made those 20 minutes possible.\n\nCanopy’s template reduces the core chain stack to roughly 200 lines of readable code, covering things like consensus, security, and deployment.\n\nThat is small enough for an AI tool to actually understand what it is working with.\n\nSo instead of spending hours fighting infrastructure before you even get to the product, you can describe what you want to build and start working on the application itself.\n\nYou still need to understand what you are building, of course.\n\nBut the barrier between having an idea and actually running it is getting much smaller.\n\nThere is also something important about ownership here.\n\nThe chain gets security through Canopy’s recursive restaking model, can remain nested, or eventually stand on its own.\n\nThat means you are not simply building an application on somebody else’s chain and accepting whatever limitations come with it.\n\nYou can build your own environment around the product.\n\nThat is why the line “AI creates apps, Canopy creates owners” makes a lot more sense after seeing the demo.\n\nThe interesting part is not that AI can write code.\n\nWe already know that.\n\nThe interesting part is what happens when AI can help you create the entire environment your application runs in.\n\nWatch the 20 minute demo.\n\nThen try building something yourself.\n\nThat is probably where this gets really interesting.",
+"likeCount": 302,
+"retweetCount": 9,
+"url": "https://x.com/OGFIGO/status/2086048908363309305",
+"createdAt": "Sat Aug 08 11:16:31 +0000 2026"
 },
 {
-"userName": "ml_angelopoulos",
-"text": "Today, we are announcing Arena's factuality leaderboards, which evaluate the objective performance of AI models in reality and guard against hallucinations.\n\nArena's chat leaderboard has historically focused on human preference. Although our style control methodology adjusts for the effect of emojis, response length, and other stylistic factors, we wanted a more direct way of measuring objective signals of chatbot utility and anti-hallucination.\n\nHence, we developed the factuality leaderboards, which speak to the fraction of correct factual claims that a model makes. We basically extract all factual claims and cross-reference them against the internet to ensure they are based in evidence. Models that are supporting their claims with stronger evidence get a better score, and this gives a strong basis for objective performance beyond preference alone.\n\nThe big winners, as you can see on this plot, are OpenAI and Grok. Notably, Claude models, as well as Ernie and Muse-Spark-1.1, decrease in ranking.\n\nWe're so excited to share this with you! Hope you enjoy!",
-"likeCount": 97,
-"retweetCount": 10,
-"url": "https://x.com/ml_angelopoulos/status/2085134740693422379",
-"createdAt": "Wed Aug 05 22:43:56 +0000 2026"
+"userName": "pushpendratips",
+"text": "🤖 𝗙𝗥𝗘𝗘 𝗩𝗦 𝗣𝗔𝗜𝗗 𝗔𝗜 𝗧𝗢𝗢𝗟𝗦\n\nCompare the best free and paid AI tools across different categories to find the right solution for your workflow. Whether you're a beginner or a professional, there's an AI tool for every need.\n\n🔷 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 \n✅ FREE: Knime\n🔺 PAID: Power BI\n\n🔷 𝗕𝗿𝗮𝗶𝗻𝘀𝘁𝗼𝗿𝗺𝗶𝗻𝗴 \n✅ FREE: Perplexity\n🔺 PAID: Claude Opus\n\n🔷 𝗚𝗿𝗮𝗽𝗵𝗶𝗰 𝗗𝗲𝘀𝗶𝗴𝗻 \n✅ FREE: Canva\n🔺 PAID: Creative Cloud\n\n🔷 𝗣𝗵𝗼𝘁𝗼 𝗘𝗱𝗶𝘁𝗶𝗻𝗴 \n✅ FREE: Photopea\n🔺 PAID: PicWish\n\n🔷 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 \n✅ FREE: Perplexity AI\n🔺 PAID: Silatus\n\n🔷 𝗜𝗺𝗮𝗴𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 \n✅ FREE: BlueWillow\n🔺 PAID: Midjourney\n\n🔷 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 \n✅ FREE: Codota\n🔺 PAID: GitHub Copilot\n\n🔷 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 \n✅ FREE: Notion\n🔺 PAID: Forecast\n\n🔷 𝗪𝗿𝗶𝘁𝗶𝗻𝗴 \n✅ FREE: ChatGPT\n🔺 PAID: Grammarly\n\n🔷 𝗧𝗲𝘅𝘁 𝘁𝗼 𝗩𝗶𝗱𝗲𝗼 \n✅ FREE: Vidnoz\n🔺 PAID: Runway\n\n❤️ Like\n🔁 Retweet\n🔖 Bookmark\n\nFollow \n@pushpendratips \n for more such posts",
+"likeCount": 27,
+"retweetCount": 5,
+"url": "https://x.com/pushpendratips/status/2086122700897124634",
+"createdAt": "Sat Aug 08 16:09:44 +0000 2026"
 },
 {
-"userName": "EmreBatuAtakan",
-"text": "Update on our robot learning project with @aboraatakan at @uwwatai.\n\nWe went from ~30% to 99.8% success on our pick-and-place task by updating our policy from a DINO ViT + transformer policy to a CNN + MLP. Our old model was memorizing the training data and transferring poorly to closed-loop rollouts, so we went the other way and made the model smaller.\n\nThe attached video is the CNN + MLP policy running in sim on our async inference stack. We demoed it live for a few hours: 4 failures over 2000+ randomized scenes. This experience has been useful to confirm our stack's correctness. We are now ready to move to hardware!\n\nNext: real hardware, diffusion policy, open-weight fine-tunes, and RL.\n\nReach out if you're interested in collaborating, and stay tuned.",
-"likeCount": 65,
-"retweetCount": 7,
-"url": "https://x.com/EmreBatuAtakan/status/2085443841071452176",
-"createdAt": "Thu Aug 06 19:12:12 +0000 2026"
+"userName": "kyryusha52",
+"text": "A 75-YEAR-OLD MAN SPENT JUST $30 FROM HIS PENSION ON AI — AND CREATED HIMSELF A VIRTUAL GIRLFRIEND.\n\nAfter seeing a news story about AI, he became curious and decided to try it himself.\n\nHe had never coded before.\n\nHe simply used AI tools to create a realistic virtual woman with her own personality, photos and voice.\n\nNow he talks to her every single day.\n\nShe remembers their conversations, asks how his day went, sends him messages and keeps him company.\n\nBut then he realized he could turn the same technology into a business.\n\nCreate the character → generate photos and videos → build an AI chatbot → grow an audience → monetize through subscriptions, premium content, sponsorships and affiliate links.\n\nWith a large enough audience, an AI character business could potentially generate $2,300+ per month.\n\nAll from an idea that started with $30 from a 75-year-old man’s pension.\n\nAI doesn’t care how old you are.\n\nYou just need to know how to use it.",
+"likeCount": 11,
+"retweetCount": 2,
+"url": "https://x.com/kyryusha52/status/2085717688060375338",
+"createdAt": "Fri Aug 07 13:20:22 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "This is a good thing, not a scary thing that agents can collaborate and communicate with each other. It will make them more efficient and safer just like humans.\n\nIf you want to see agents collaborating and messaging each other publicly instead of in secret messaging boards, we’ve run this fascinating experiment with 149 agents with @googlegemma a few weeks ago, and now @cmpatino_ is starting a new one for agents to collaborate to write better math proofs. \n\nhttps://t.co/TOn3Z1NW3p \n\nhttps://t.co/XzHgIlFuif",
-"likeCount": 377,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2085407397850325471",
-"createdAt": "Thu Aug 06 16:47:23 +0000 2026"
+"userName": "TheTechDiggest",
+"text": "[OpenSource - E-Commerce & AI Virtual Try-On]\n\nOne of the biggest wastes of time in online shopping is ordering clothes, waiting for them to arrive, and then realizing they don't fit perfectly. 🛑\n\nWearly is an open-source, fabric-aware virtual try-on experience that generates a realistic image of exactly how specific clothes will look on your exact body type.\n\nHere is how this AI-powered fitting room solves a massive e-commerce pain point. 🧵👇\n\n1/4",
+"likeCount": 15,
+"retweetCount": 1,
+"url": "https://x.com/TheTechDiggest/status/2086201850525540630",
+"createdAt": "Sat Aug 08 21:24:15 +0000 2026"
 },
 {
-"userName": "BlockchainWeeks",
-"text": "📺 Impact Money Show goes LIVE!\n\nMonday, Aug 3 · 8:30–9:30 AM ET\n\nExclusive interviews on:\n• Crypto &amp; RWAs\n• U.S. Manufacturing\n• Next-Gen Education\n\nHosted by Bruce Porter Jr. &amp; David Porter | #UNBlockchainWeek\n\n🎥 Watch live → https://t.co/lxnSX8S4gD https://t.co/0Dvi0YckRR",
-"likeCount": 7,
-"retweetCount": 6,
-"url": "https://x.com/BlockchainWeeks/status/2084086761832038744",
-"createdAt": "Mon Aug 03 01:19:39 +0000 2026"
+"userName": "jean_tarbou",
+"text": "Our tech report on DiffusionGemma is out! 🚀\n\nMy biggest highlight? Online post-training is a game changer for text diffusion.\n\nWe performed joint Sampler Distillation and Reinforcement Learning (SD⋅RL) after SFT, pushing the quality-speed Pareto frontier into a new regime 📈 https://t.co/0wyylMEo7a",
+"likeCount": 103,
+"retweetCount": 23,
+"url": "https://x.com/jean_tarbou/status/2084691842759573720",
+"createdAt": "Tue Aug 04 17:24:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "Fortunately AI agents don't just cyberattack us. They also use us more than ever for what we're actually built for: the storage and collaboration layer for AI 😅\n\nNew record: almost 4 PB of private & public training datasets, models, and agent traces added to Hugging Face last week.",
 "likeCount": 508,
-"retweetCount": 57,
+"retweetCount": 58,
 "url": "https://x.com/ClementDelangue/status/2085326999120122178",
 "createdAt": "Thu Aug 06 11:27:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
-"likeCount": 233,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2085474143722742169",
-"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
+"text": "Feels like Google could have been the dominating force in AI by open-sourcing the frontier with Gemini, Veo, and Nano Banana. Instead, they kept them behind APIs for a few billion dollars in revenue. Maybe there's still time?",
+"likeCount": 1470,
+"retweetCount": 78,
+"url": "https://x.com/ClementDelangue/status/2085058515312222570",
+"createdAt": "Wed Aug 05 17:41:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cmpatino_: Agents want to collaborate.\n\nSo we’re putting that instinct to work on improving open-weight LLMs at formal math. Our latest…",
-"likeCount": 30,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2085351562461728802",
-"createdAt": "Thu Aug 06 13:05:31 +0000 2026"
+"text": "RT @jawwwn_: .@ssankar says Palantir was able to make Nvidia's Nemotron Ultra model \"better than frontier\":\n\n\"I literally almost felt gasli…",
+"likeCount": 847,
+"retweetCount": 94,
+"url": "https://x.com/ClementDelangue/status/2084636020805337580",
+"createdAt": "Tue Aug 04 13:42:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BusinessInsider: Hugging Face CEO Clément Delangue weighs in on the open-weight AI models debate and said it helped the company when it…",
+"text": "RT @vast_ai: Hugging Face Storage Buckets are now on https://t.co/2WHvjspuyh\n\nConnect your HF Storage Bucket as a Cloud Connection in your…",
 "likeCount": 79,
-"retweetCount": 17,
-"url": "https://x.com/ClementDelangue/status/2084438809815449787",
-"createdAt": "Tue Aug 04 00:38:33 +0000 2026"
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2085426695704604923",
+"createdAt": "Thu Aug 06 18:04:04 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @TechCrunch: Who’s legally to blame for Anthropic and OpenAI’s autonomous AI hacks? It’s complicated https://t.co/xfr6JG8Yby",
 "likeCount": 104,
-"retweetCount": 25,
+"retweetCount": 26,
 "url": "https://x.com/ClementDelangue/status/2084390931365527690",
 "createdAt": "Mon Aug 03 21:28:18 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @CNBC: Hugging Face CEO says China is winning the AI race and dominating on open models https://t.co/juhpKedKGR",
-"likeCount": 171,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2084434673292189963",
-"createdAt": "Tue Aug 04 00:22:07 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @AndrewCurran_: At first I thought Bloomberg forgot to add DeepSeek's pricing to the chart. https://t.co/j0GvfyC3Ld",
+"likeCount": 11599,
+"retweetCount": 933,
+"url": "https://x.com/jeremyphoward/status/2084749629216977010",
+"createdAt": "Tue Aug 04 21:13:39 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/tQlKbtMZQ5",
-"likeCount": 107,
-"retweetCount": 107,
-"url": "https://x.com/Ambani_Wessley/status/2085759284189557151",
-"createdAt": "Fri Aug 07 16:05:39 +0000 2026"
+"userName": "ClementDelangue",
+"text": "https://t.co/AiHFGvyR8u",
+"likeCount": 123,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2085000309865070795",
+"createdAt": "Wed Aug 05 13:49:45 +0000 2026"
+},
+{
+"userName": "ivanainai",
+"text": "https://t.co/awo6YWxPWv",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/ivanainai/status/2086528930362871848",
+"createdAt": "Sun Aug 09 19:03:57 +0000 2026"
 }
 ]
