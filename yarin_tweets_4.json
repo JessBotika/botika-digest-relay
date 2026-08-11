@@ -1,130 +1,122 @@
 [
 {
-"userName": "lifemaximised",
-"text": "Everything you need to profitably scale an ecom brand with Google Ads and YouTube Ads in one tweet:\n\n(Bookmark this.)\n\n📂 Google Ads:\n\n📁 Search Campaigns\n\n- Branded search (exact match)\n- Non-branded search (phrase match)\n- Competitor search (exact match on brand name)\n- Problem-aware search (TOF queries sent to advertorial pages)\n- Dynamic search ads (let Google find queries you missed)\n\n📁 Shopping Campaigns\n\n- Branded shopping (exclude non-brand)\n- Prospecting shopping (best sellers at low tROAS)\n- Testing shopping (new products, separate budget)\n- Angle-specific shopping (duplicated listings)\n\n📁 PMax\n\n- Remarketing PMax (HIGH tROAS)\n- Feed-only PMax (let product feed cook)\n- Full-asset PMax (text, image, video, everything)\n- Brand exclusion setup (negative keywords in exact match)\n- tROAS split (high on PMax, low on prospecting shopping)\n\n📁 Demand Gen\n\n- Lookalike audiences (customer match upload)\n- Custom intent audiences (feed Google the search terms)\n- In-market audiences (Google's categorisation of active shoppers)\n- Remarketing audiences (video viewers, site visitors, cart abandoners across YouTube)\n- Asset group separation (never blend audience types in one asset group)\n\n📂 YouTube Ads\n\n- 6-second bumpers (unskippable)\n- 15-second in-stream skippable (MOF warm)\n- 30-second in-stream (BOF remarketing, UGC style)\n- Shorts ads (vertical 9:16, runs in the Shorts feed, colder ICP)\n- Custom intent targeting (people who recently searched your category)\n- Placement targeting (ads on specific YouTube videos or channels)\n\n📁 Google Merchant Center\n\n- Title optimisation (brand, product, attributes)\n- Description optimisation (5,000 chars of search-relevant keywords)\n- Image split testing (lifestyle vs studio, duplicate listings to test, lifestyle wins)\n- Sale pricing (struck-through original + green sale price, free conversion rate lift)\n- Review feed integration (star ratings on Shopping cards, 2-4 week processing time)\n- Feed completeness (GTIN, product type, colour, size, material, custom labels for grouping)\n- Regional targeting (separate feeds per country if you sell internationally)\n- Shipping accuracy (wrong shipping times = GMC suspension)\n\n📁 Bidding Progression\n\n- 0 conversions: maximise clicks with CPC cap\n- ~15 conversions: maximise conversion value\n- ~30/month consistent: tROAS (LOW on prospecting)\n- Branded campaigns: manual CPC or target impression share, ALWAYS\n- Budget scaling: 15-20% every 2-3 days, multi-window analysis (7, 14, 30-day), one KPI\n\n📁 Landing Pages\n\n- Transactional traffic: PDP or collection page, short, product-focused\n- Informational traffic: advertorial or editorial, long, education-first\n- Comparison traffic: \"us vs them\" page, credibility-first, objective tone\n- Quiz funnel: embedded quiz before PDP, personalised recommendation, 1.5-2.5x conversion rate lift\n- Above the fold: headline matching search query, benefit subheadline, result image rather than product image, one CTA button\n\n📁 Ad Copy Framework\n\n- Branded: reasons to buy now, offers, clarity\n- Transactional: match the search query, social proof\n- Comparison: lead with credibility rather than sales copy\n- Informational: lead with education, speak to the research process\n- H1 mirrors the search, H2 carries the benefit, H3 carries proof or offer\n\n📁 AI Creative Formats\n\n- Claymation (2-3x CTR, warm tactile aesthetic, beats slop fatigue)\n- Pixar-style 3D (premium positioning, high recall, mass-market)\n- Balloon world (maximum novelty, crowded market pattern break)\n- Musical/singing (highest share rate, TikTok-viral jingles)\n- Famous cartoon style (nostalgia activation, family/children products)\n- UGC-style AI (social proof, remarketing, hybrid production)\n- Cinematic product film (high-ticket justification, brand halo)\n\n📁 AI Tool Stack\n\n- Opus 5 for scripts, prompts, analysis, decisions ($5/$25 per Mtok)\n- GPT Images 2.0 for 2K frames (99% text accuracy, agentic reasoning)\n- Seedance 2.0 via Higgsfield MCP for animation (native audio, cinematic physics)\n- Google Ads MCP (Markifact or Adspirer) for campaign management from Claude\n\n📁 Account Health Signals\n\n- Search Top IS (your rank position vs competitors)\n- Search Lost IS by rank (you're being aggressively outbid)\n- Search Lost IS by budget (your budget is exhausted before demand is)\n- New customer ROAS (the actual prospecting number rather than the blended figure)\n- Attribution clarity (branded and non-branded completely separated, always)\n- MER (total revenue / total spend, the full-funnel health check)\n\n📁 Funnel Deployment Order\n\n- Phase 1: branded search + branded shopping + non-branded shopping (BOF)\n- Phase 2: prospecting shopping + non-branded search + PMax remarketing (MOF)\n- Phase 3: Demand Gen + YouTube Ads + TOF search (TOF)\n- Always bottom up. Never launch TOF before MOF works.\n\nThis is the full map. Every campaign type and format.\n\nThe brands printing $100k+ days on Google are pulling from this exact system.\n\nThe brands sitting flat at $10k/month are missing 80% of the map.",
-"likeCount": 28,
-"retweetCount": 3,
-"url": "https://x.com/lifemaximised/status/2086113848700858726",
-"createdAt": "Sat Aug 08 15:34:34 +0000 2026"
+"userName": "LeoKharon",
+"text": "NEW RESEARCH: You can now create a new robot optimized for any given task!\n\nI love this new project by @haqhuy, @SongShuran, and others.\n\nCalled \"Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design\", it generates a robot's physical design and its controller together from a task spec.\n\nDEFINITIONS:\n- Reward function: A scoring rule that assigns a number to how well a behavior achieves the task. Here, it is the objective the generated design is pushed to maximize (e.g., track the target motion with low error).\n- Tokenizing: dividing continuous or structured data (a robot's links, joints, motor specs, states, actions) into a discrete vocabulary of symbols a transformer can process, the same step that turned pixels and audio into \"language\" for these models.\n- Diffusion transformer (DiT): A transformer trained to turn random noise into structured output through iterative denoising. Here, it generates robot bodies and trajectories instead of images.\n- MuJoCo: The standard fast physics simulator for robotics research (DeepMind-maintained). The Menagerie is its curated zoo of ready-to-use robot models.\n- CMA-ES: Covariance Matrix Adaptation Evolution Strategy, the workhorse black-box optimizer: it evolves a population of candidate designs, keeps the best, and needs thousands of simulator rollouts.\n- Bimanual multi-trajectory optimization: Finding one design/controller that performs well across several target motions for a two-armed robot at once, harder than optimizing for a single arm and a single motion.\n- BERT/MAE masked-modeling trick: Train one model to fill in whatever parts of the input you hide (words for BERT, image patches for MAE); at inference, choosing what to mask chooses the task, so masking the body makes it a designer and masking the actions makes it a controller.\n\nIn practice, you give it a target end-effector motion and a reward function, and it outputs a complete embodiment (link, joint, motor, and inertial property), as well as a controller to drive it.\n\nIt works by tokenizing both the body (links/joints/motors) and the dynamics (states/actions) into a compact scheme called RoboTokens, training a diffusion transformer (DiT) over them.\nThe same model predicts dynamics using those predictions (\"Dynamics Self-Guidance\") to push generated designs toward higher reward at inference time.\nMasking different token types (using the BERT/MAE masked-modeling trick) lets the one model do three jobs: generate an embodiment, control an arbitrary embodiment, or design one conditioned on a motion.\n\nIt is trained on 11 robots from the MuJoCo Menagerie (0.65 kg hand to 67.5 kg quadruped, 6–35 joints), and validated in sim and on a physical ALOHA doing cloth flinging.\n\nI like the fact that this approach inverts the entire recent robotics ideas: designing a policy for a fixed robot -> designing the robot for a fixed task.\nEvery other approach assumes the body is given and learns a controller.\nTransformer Transformer takes the task (target motion + reward), then generates the body and controller jointly.\n\nIn practice, it is a ~180× speedup over the standard optimizer at equal-or-better quality.\nIt reaches \"CMA-ES-level quality in seconds\" and finishes bimanual multi-trajectory optimization in <1 min vs CMA-ES's 3+ hours.\n\nSurprisingly, this approach was validated on real hardware!\nThe generated design was measurably smoother.\nOn a physical ALOHA flinging cloth (a deformable, dynamic task), the optimized design cut tracking error 73% and peak joint speed 30% versus the original, with fewer joint-speed peaks.\nTherefore: real world results, not a sim-only benchmark -> that is worth underlining nowadays!\n\nAlso worth mentioning: this is the lab behind UMI and Handroid, that I mentioned here previously!\nThe team seems extremely creative, i love these out-of-the-box approaches.\n\nEnjoy watching the demo of robot optimization in 3D, data acquisition, then real-life testing:",
+"likeCount": 354,
+"retweetCount": 43,
+"url": "https://x.com/LeoKharon/status/2085018570803618047",
+"createdAt": "Wed Aug 05 15:02:19 +0000 2026"
 },
 {
-"userName": "evergenius_eg",
-"text": "Continued - THE STRONG MEN WE ARE RAISING\n\nYesterday’s post sparked quite a few reactions.\n\nAnd I think one thing needs to be made clear:\n\nThis is not an argument against change.\n\nIt was never about saying the younger generation is doomed.\n\nIf anything, it was meant to make us look beyond the trend, understand the psychology behind it, and question the kind of future we are collectively building.\n\nLet me take it a step further.\n\nI remember being on another space where people were projecting what the next generation would become.\n\nSome said they were genuinely scared.\n\nThat the next generation would be worse.\nLess disciplined.\nLess responsible.\nLess connected to reality.\nBut I remember thinking:\n\nHaven’t people said the same thing about every generation?\n\nI vividly remember my parents talking about their generation with a certain dignity and telling us how different and sometimes disappointing they feared ours would become.\n\nYet look at what our generation has produced.\n\nNigeria has produced people who have built companies, technologies and institutions that operate far beyond our borders:\n\nShola Akinlade & Ezra Olubi built Paystack, which Stripe acquired for more than $200 million.\n\nIyinoluwa Aboyeji co-founded Andela and Flutterwave and has continued investing in Africa’s next generation of founders.\n\nOlugbenga “GB” Agboola helped build Flutterwave into one of Africa’s most significant payment companies.\n\nOdunayo Eweniyi, alongside her PiggyVest co-founders, helped build one of Nigeria’s most influential savings and investment platforms.\n\nAnd this isn’t limited to fintech.\nWe have Nigerian engineers, creators, designers, founders, artists, researchers and builders solving problems that previous generations couldn’t even imagine.\n\nWe have young Nigerians building in:\n\nAI\nBlockchain\nFintech\nSoftware\nMedia\nEntertainment\nFashion\nEducation\nCreative technology\n\nAnd even among the younger generation, there are already people proving that the story isn’t simply one of decline.\nThere are young developers teaching other teenagers to code, young entrepreneurs building businesses, and young Nigerians creating communities around technology and innovation.\n\nSo yes, I agree with the “OLODO uprising.”\n\nBut I also believe in something else:\n\nTHE GENIUS UPRISING.\n\nThe builders.\n\nThe thinkers.\n\nThe disciplined.\n\nThe curious.\n\nThe ones who understand that going viral is not the same thing as building value.\n\nThe ones who understand that money is not the same thing as wealth.\n\nThe ones who understand that freedom without responsibility is not progress.\n\nAnd this is where the conversation becomes personal.\n\nBecause the real question isn’t:\n\n“What is wrong with Gen Z?”\n\nThe real question is:\n\n“What kind of next generation are YOU raising?”\n\nBecause somewhere in the future, your children will become someone else’s leaders.\n\nThey will become:\n\nFounders.\nEngineers.\nDoctors.\nInvestors.\nPolicymakers.\nTeachers.\nCreators.\nParents.\nBuilders.\n\nAnd I want to raise children who can look at the world they inherited and say:\n\n“Our parents didn’t fail us.”\n\nI want to raise children who are evidence that despite everything happening around us, we still understood the assignment.\n\nChildren who can embrace technology without becoming slaves to it.\n\nChildren who can enjoy freedom without abandoning responsibility.\n\nChildren who can understand modernity without despising their heritage.\n\nChildren who can pursue wealth without losing their values.\n\nChildren who can be ambitious without becoming entitled.\n\nChildren who can question the world without losing the ability to think.\n\nBecause the future isn’t automatically going to be better.\n\nWe have to build the people capable of making it better.\n\nAnd that brings us back to the cycle:\n\nHard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times.\n\nYesterday, I was talking about the cycle.\n\nToday, I’m asking you to look in the mirror.\n\nAre you raising the generation that will break the cycle or continue it?\n\nBecause perhaps the future isn’t determined by what Gen Z becomes.\n\nPerhaps it is determined by what we choose to raise.\nAnd that is a much more personal question.",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/evergenius_eg/status/2086325487412895764",
-"createdAt": "Sun Aug 09 05:35:32 +0000 2026"
-},
-{
-"userName": "MajaMHolder",
-"text": "Current job titles:\n\n→ Design lead + Account management for a US ghostwriting agency (on track to make $2.5MUSD this year and never met the team in person)\n→ Marketing Wingwoman for Entrepreneurs\n→ SaaS owner building AI sidekicks\n→ Personal Trainer on the gym floor\n\nPut that in a box! - Go on - I'll wait...\n\nYou can't. And that's exactly the point.\n\nWe've been told for so long to pick one thing, niche down, stay in your lane. \n\n...and for a very specific kind of person - the multi-passionate, the one whose brain lights up in seventeen directions at once - that advice isn't just unhelpful. \n\nIt's actively damaging.\n\nBecause you try to pick one thing and it doesn't work. \n\nNot because you're not disciplined enough - but because you were never built that way. \n\nYou need The Web 🕸️ \n\nThe threads running in multiple directions, each one feeding the others, each one keeping you alive enough to keep going.\n\nBut then you beat yourself up for not being able to do the one thing that was never going to work for you anyway.\n\nStop apologising for being good at things. \n\nStop making yourself smaller so other people can understand you more easily. \n\nThat's their job to figure out — not yours to solve for them.\n\nI built a 9-to-5 prison cell in my Core Media years. \n\nThe exact thing I'd spent my whole life refusing to do!\n\nBrick by brick - literally - and called it Ambition.\n\nThe relief wasn't leaving. \n\nThe relief was finally admitting I'd built the wrong thing - and that I was the one who could unbuild it.\n\nIf it works for you, it works. \n\nYou don't have to justify that to anyone else.\n\nBut there's a difference between something working and something quietly killing you while you hustle through it with a smile on. \n\nHiding the exhaustion...\n\nDying slowly in the lane you picked because you thought you were supposed to stay there...\n\nThat's not working - That's just very convincing suffering.\n\nThe question isn't \"does this make sense to other people.\" \n\nThe question is: \nDoes this make sense for me? \nDoes it give me energy or drain it? \nIs this the right kind of hard or the wrong kind?\n\nAnd honestly - that's not even my job to answer for you. \n\nMy job is to help you build the systems, the offers, the content cycles that suits the way YOUR brain and business actually works. \n\nWhich is exactly why I eventually started pulling the charts. \n\nBecause the fastest way to stop fighting yourself is to understand how you're actually wired.\n\nThe gates are down - The tools are here. \n\nYour personal brand is the anchor \n\nEverything else hangs off it.\n\nMake it beautiful or funny or weird or honest or all of the above.\n\nJust Make It!\n\nHappy Friday. 🩵\n\nP.S. Sidekick founding member doors are closed while I bring Virtual Maia online. \n\nFinal 5 spots reopen in October at founding member rate before the price jumps. \n\nWaitlist link at the bottom of the Doc 👇🏼\nhttps://t.co/E5z3C7d0wM",
-"likeCount": 6,
-"retweetCount": 2,
-"url": "https://x.com/MajaMHolder/status/2085648976531849672",
-"createdAt": "Fri Aug 07 08:47:20 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Some people are surprised that APIs (aka what Anthropic, OpenAI, and others provide) are treated differently than open weights in the new AI model framework. \n\nI'm not surprised at all, and it's actually very good policy. Let me explain:\n\nModel weights, APIs, and apps are three very different layers of the stack. Treating them the same would be a recipe for bad regulation.\n\nThink about how we handle cars. We don't regulate steel, we crash-test cars. Nobody asks a steel mill to guarantee that nothing dangerous will ever be built with its steel. Obligations sit with the carmaker and rules of the road with the driver, because that's where risk becomes real and where someone can actually act on it.\n\nModel weights are the steel of AI. They're raw research output, closer to science than product: no user, no interface, no deployment. They don't do anything on their own. And because everything else is built on top of them, this is the layer where regulation does the most damage. Restrict weights and you slow down all progress downstream, and you prevent countless positive use cases from ever emerging: the lab fine-tuning an open model for rare diseases, the startup serving a language big providers ignore, the safety researchers who can only audit models because the weights are open. You don't reduce risk, you just kill open source and concentrate power in a few big labs.\n\nAPIs are the middle layer, the parts and engine suppliers of AI: a commercial service where a provider serves a model at scale. Here you have a business relationship, terms of service, the ability to monitor for abuse. It makes sense to expect transparency, security standards, and accountability from providers at this layer, because they can actually enforce things.\n\nApps are the car on the road: where AI meets the real world. A medical assistant, a hiring tool, a companion for kids, a financial advisor. This is where concrete harm can happen, and conveniently, it's where we already have decades of regulation. Health, finance, employment, consumer protection. An AI hiring tool should comply with employment law whether it's powered by an open model, an API, or a spreadsheet.\n\nThe principle is simple: regulate at the layer where risk actually materializes and where actors can act on it. Push obligations to the deployment layer, keep the research layer open. We don't regulate steel, we crash-test cars. Well done @realDonaldTrump @DavidSacks @mkratsios47!",
-"likeCount": 573,
-"retweetCount": 109,
-"url": "https://x.com/ClementDelangue/status/2084992457674990033",
-"createdAt": "Wed Aug 05 13:18:33 +0000 2026"
-},
-{
-"userName": "loftwah",
-"text": "I just figured out how I monetise my game. I have an AI agent that can change my white label mobile/web fighting game and the AI AGENTS.md file is set up to understand inputs. You do the equivalent of submitting it the correct form and it will generate a commercially releasable port based on the idea. One idea is an ADF tri-service fighter that pits characters and vehicles against each other in a bid to drive education, recruitment, veteran community and support. It will research a topic, come up with characters, stories, music, sound based on what you tell it. Say I want my game to be cartoon/anime/ghibli all of the assets you need will be created. It knows what it can and can’t play with. Everything perfectly balanced and designed in a way that is simple to maintain and update autonomously. HMAS Anzac can’t be called that but it can be called The Blind Viking (VKNG) and portrayed in that kind of fashion, just like old Roster Player 24 (Jordan) or D Boost (David Boon). The game is split into quick fights (just the game, think Mortal Kombat), tournaments (a mode where health persists between fights where you have to work through multiple rounds). Story mode is a level system like Candy Crush where each level can be a standard fight, a tournament or content (think those story driven games like Little Misfortune) but passive (for now) where media and text can be played. Cheatsheets for all of the good AI models for generating assets with examples. Just read and fill out the form (even better doing this in ChatGPT). Both Android and iPhone distribution via appstores and also web and PWA. Potentially desktop releases depending on the industry stance on AI). Economy is easily added and so is gacha style collection. Is there anything I missed?\n\nI guess I built a game generation platform?",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/loftwah/status/2085969208215757130",
-"createdAt": "Sat Aug 08 05:59:49 +0000 2026"
-},
-{
-"userName": "ml_angelopoulos",
-"text": "Today, we are announcing Arena's factuality leaderboards, which evaluate the objective performance of AI models in reality and guard against hallucinations.\n\nArena's chat leaderboard has historically focused on human preference. Although our style control methodology adjusts for the effect of emojis, response length, and other stylistic factors, we wanted a more direct way of measuring objective signals of chatbot utility and anti-hallucination.\n\nHence, we developed the factuality leaderboards, which speak to the fraction of correct factual claims that a model makes. We basically extract all factual claims and cross-reference them against the internet to ensure they are based in evidence. Models that are supporting their claims with stronger evidence get a better score, and this gives a strong basis for objective performance beyond preference alone.\n\nThe big winners, as you can see on this plot, are OpenAI and Grok. Notably, Claude models, as well as Ernie and Muse-Spark-1.1, decrease in ranking.\n\nWe're so excited to share this with you! Hope you enjoy!",
-"likeCount": 97,
-"retweetCount": 10,
-"url": "https://x.com/ml_angelopoulos/status/2085134740693422379",
-"createdAt": "Wed Aug 05 22:43:56 +0000 2026"
-},
-{
-"userName": "EmreBatuAtakan",
-"text": "Update on our robot learning project with @aboraatakan at @uwwatai.\n\nWe went from ~30% to 99.8% success on our pick-and-place task by updating our policy from a DINO ViT + transformer policy to a CNN + MLP. Our old model was memorizing the training data and transferring poorly to closed-loop rollouts, so we went the other way and made the model smaller.\n\nThe attached video is the CNN + MLP policy running in sim on our async inference stack. We demoed it live for a few hours: 4 failures over 2000+ randomized scenes. This experience has been useful to confirm our stack's correctness. We are now ready to move to hardware!\n\nNext: real hardware, diffusion policy, open-weight fine-tunes, and RL.\n\nReach out if you're interested in collaborating, and stay tuned.",
-"likeCount": 68,
-"retweetCount": 7,
-"url": "https://x.com/EmreBatuAtakan/status/2085443841071452176",
-"createdAt": "Thu Aug 06 19:12:12 +0000 2026"
-},
-{
-"userName": "beffjezos",
-"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
-"likeCount": 70,
-"retweetCount": 1,
-"url": "https://x.com/beffjezos/status/2086282858428322160",
-"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
-},
-{
-"userName": "dctrpr",
-"text": "Robinhood turned off the Buy button once.\n\nThe work now is not to keep attention on the Button.\nIt is to keep the Button on.\n\nI wrote the full thesis for why $BUY exists—what we’re building, what it is not, and why it matters.\n\nTHE BUTTON STAYS ON ↓ https://t.co/Mab9cFA7QW",
-"likeCount": 36,
-"retweetCount": 17,
-"url": "https://x.com/dctrpr/status/2086197507860930897",
-"createdAt": "Sat Aug 08 21:07:00 +0000 2026"
-},
-{
-"userName": "Bidziil1964",
-"text": "If your digital security still relies on SMS codes and basic passwords, you are exposed to credential stuffing and SIM swaps. Here is my full blueprint for locking down your primary workstation, accounts, and hardware. https://t.co/zOF1Cx240k",
-"likeCount": 15,
+"userName": "KaminiKamini222",
+"text": "I have created this with different ai model a same women in different context \n\nPrompt \nAbsolutely. Here’s a five-panel single-frame prompt designed for photorealistic AI image generation, with the same woman consistently appearing in all five scenes.\n5-Picture Cinematic Collage Prompt\nPrompt:\nCreate a single premium five-panel cinematic fashion collage, showing the same beautiful adult South Asian woman in five completely different environments and moods. All five panels must have perfect character consistency — identical facial features, face shape, eyes, nose, lips, hairstyle, skin tone, body proportions, and overall identity. She should look like the exact same woman photographed on the same day.\nPanel 1 — Monsoon Romance:\nThe woman standing outdoors during a gentle monsoon rain, wearing an elegant flowing orange saree with a subtle modern blouse. Wet hair naturally framing her face, tiny raindrops visible in the air, lush green trees behind her, soft cinematic background blur, emotional peaceful expression, natural diffused light.\nPanel 2 — Luxury Morning:\nThe same woman inside a sophisticated modern luxury apartment, wearing an elegant cream-colored dress, sitting beside a large floor-to-ceiling window while enjoying morning coffee. Warm sunlight entering through the glass, minimalist marble interior, contemporary furniture, soft shadows, peaceful sophisticated atmosphere.\nPanel 3 — Beach Sunset:\nThe same woman walking barefoot beside a tropical ocean at golden hour, wearing a flowing white summer dress. Gentle wind moving her hair and dress, warm sunset reflecting across the water, palm trees in the distance, cinematic golden sky, relaxed joyful expression.\nPanel 4 — Traditional Evening:\nThe same woman at an elegant heritage palace courtyard during evening, wearing a luxurious deep-red traditional Indian saree with tasteful jewelry. Warm lanterns, ornate architecture, marble flooring, subtle reflections, dramatic but natural lighting, regal and sophisticated atmosphere.\nPanel 5 — Modern City Night:\nThe same woman standing on a luxurious rooftop overlooking a modern city skyline at night, wearing a sleek black evening gown. City lights creating beautiful bokeh behind her, subtle wind in her hair, sophisticated confident expression, cinematic blue-and-warm ambient lighting, premium fashion editorial atmosphere.\nOverall Visual Style\nHigh-end fashion magazine + luxury travel campaign + cinematic photography, photorealistic, natural human skin texture, realistic hair strands, realistic fabric, physically accurate lighting, natural shadows, subtle film grain, atmospheric depth, shallow depth of field, HDR but restrained, professional 35mm and 85mm photography, realistic lens characteristics, premium color grading, extremely detailed, 8K UHD.\nComposition:\nFive clearly separated but visually connected panels arranged in one elegant 2×3 editorial collage, with the fifth panel occupying the center/bottom position. Seamless premium magazine layout, balanced composition, consistent lighting quality, no panel overpowering the others.\nIdentity consistency is the highest priority: same woman in every panel, no changes to facial structure, age, hairstyle, skin tone, eye shape, body proportions, or identity.\nNegative prompt:\ncartoon, anime, CGI, plastic skin, artificial face, different woman, inconsistent identity, changing facial features, different hairstyle, distorted face, asymmetrical eyes, bad anatomy, extra fingers, missing fingers, deformed hands, duplicated limbs, unnatural body, blurry face, low resolution, oversaturated colors, excessive HDR, harsh artificial lighting, unrealistic reflections, text, captions, typography, watermark, logo, signature.",
+"likeCount": 30,
 "retweetCount": 5,
-"url": "https://x.com/Bidziil1964/status/2086226892911235493",
-"createdAt": "Sat Aug 08 23:03:46 +0000 2026"
+"url": "https://x.com/KaminiKamini222/status/2086367907190354241",
+"createdAt": "Sun Aug 09 08:24:06 +0000 2026"
+},
+{
+"userName": "chiboy0123",
+"text": "I built MirrorProof; a trust layer for AI clothing virtual try on.\n\nVirtual try on can generate an nice image, but it rarely answers the important question:\nDid the virtual preview accurately represent what the customer actually received?\n\nMost virtual try on products stop after generating the preview.\nMirrorProof introduces a second stage: after the garment arrives, the shopper uploads a new photo while physically wearing it.\nThe application then compares the preview with reality.\n\nThe workflow is simple:\n* Upload a consented person photo\n* Upload the garment image\n* Generate a live YouCam preview\n*Save the verification\n* Upload a physical wearing photo\n* Review the visible differences\n\nThe virtual preview comes from the live YouCam API, while the reliability result is calculated from the images submitted during that verification.\nIf no real comparison exists, no score is shown.\n\nThe Preview Reliability Score combines five visible consistency metrics:\n* Colour - 30%\n* Pattern and texture - 25%\n* Silhouette -20%\n* Garment length - 15%\n* Person preservation - 10%\n\nThe weights are versioned and explainable.\n\nMirrorProof also calculates analysis confidence, before presenting a score, it checks factors such as:\n* Resolution\n* Lighting\n* Sharpness\n* Torso visibility\n* Image alignment\n* Obstructions\n* Whether the two images are actually different\n\nThe result is designed to be inspectable not just impressive.\n\nThe users receive:\n\n* An overall reliability score\n* Analysis confidence\n* Five component scores\n* Plain-language explanations\n* A preview-versus-reality slider\n* Clear limitations\n\nMirrorProof is deliberately honest about what it cannot measure.\nIt does not guarantee:\n*  Exact sizing\n* Comfort\n* Fabric quality\n* Construction quality\n* Stretch\n* Medical suitability\n* How the garment behaves during movement\n\nPrivacy is also important.\nThe physical comparison is processed transiently in server memory and is not uploaded to Supabase by that step.\nYouCam separately processes the source images required to generate the virtual preview, and API credentials remain server-side.\n\nThere is also a retailer evidence view.\nRetailers can review completed comparisons, average reliability, confidence, weak metrics and product-level status.\n\nTry it now:\nhttps://t.co/ptfhkwPNq9\n\nGitHub repo; https://t.co/VeNHE0CmvS",
+"likeCount": 14,
+"retweetCount": 5,
+"url": "https://x.com/chiboy0123/status/2086713226939555933",
+"createdAt": "Mon Aug 10 07:16:17 +0000 2026"
+},
+{
+"userName": "IsholaEdge",
+"text": "AI IS CHANGING FASHION, AND IT’S BIGGER THAN IMAGE GENERATION.🧵\n\nArtificial Intelligence is quietly transforming almost every stage of the fashion value chain.\n\nFrom design and trend forecasting to marketing, production, e-commerce, and customer experience, AI is changing how fashion businesses operate.\n\n🧵Here are a few areas where the impact is already visible:\n\n🔹 Design & Ideation:- Exploring silhouettes, patterns, colors, and collection concepts faster.\n\n🔹 Trend Forecasting:-  Using data to identify emerging consumer preferences and market trends.\n\n🔹 Virtual Prototyping:-  Visualizing designs before spending heavily on materials and production.\n\n🔹 Personalization:- Helping brands recommend products and experiences based on customer preferences.\n\n🔹 Marketing & Content:-  Accelerating campaign concepts, storytelling, product descriptions, and visual development.\n\n🔹 Demand Forecasting:- Helping brands make smarter production and inventory decisions, potentially reducing waste.\n\nBut here’s what I find most interesting:\n\nAI may not replace the fashion designer. It may replace some of the limitations that slow the designer down.\n\nCreativity still requires taste.\n\nCulture still requires understanding.\n\nCraftsmanship still requires skill.\n\nAnd strategy still requires human judgment.\n\nFor African fashion, this presents an even bigger opportunity.\n\nImagine combining African heritage, traditional craftsmanship, modern design thinking, and AI-powered innovation to build globally competitive fashion brands.\n\nThe question is no longer:\n\n“Will AI affect fashion?”\n\nIt already is.\n\nThe better question is:\n\n👉🏼How will fashion entrepreneurs use AI to build better brands, products, and businesses?”",
+"likeCount": 7,
+"retweetCount": 3,
+"url": "https://x.com/IsholaEdge/status/2087076130549358929",
+"createdAt": "Tue Aug 11 07:18:20 +0000 2026"
+},
+{
+"userName": "kenkenlewu",
+"text": "Pick the picture you want to use and upload it to Grok, ChatGPT, or any AI tool you want to use. \n\nThen explain exactly what you have in mind,  the outfit, location, pose, hairstyle, lighting, background, mood, and every other detail.\n\nJust describe what you want in your own words and ask the AI to turn your explanation into a detailed image-generation prompt.\n\nA simple formula is:\n\nSubject + outfit + pose + location + lighting + camera style + mood + details.\n\nFor example:\n\n“Use my uploaded photo as the face reference. Create a realistic full-body portrait of me wearing a classy black gown, standing in a luxurious hotel lobby. Soft warm lighting, elegant pose, natural skin texture, realistic proportions, high-end fashion photography, 85mm lens, shallow depth of field, ultra-realistic.”\n\nIf you want the AI to maintain your appearance, you can add:\n\n“Keep my facial features and identity consistent with the reference photo.”\n\nThat’s basically it. Describe the picture in your head, let the AI structure the prompt, then use the prompt to generate your image.",
+"likeCount": 25,
+"retweetCount": 16,
+"url": "https://x.com/kenkenlewu/status/2086754518000079272",
+"createdAt": "Mon Aug 10 10:00:21 +0000 2026"
+},
+{
+"userName": "IgorWoorts",
+"text": "Native ads are one of the hardest ones to make actually work.\n\nThe image part is easy, just create a batch of 20 variants. Done. But the hard part is the storytelling and taking a reader from unaware to fully aware.\n\nMy ideal set up for the copy is:\n\n1. Hook -> STOP the scroll + create curiosity\n2. Problem -> Make them recognize themselves\n3. Failed solutions -> WHY what they tried didn't work\n4. Mechanism -> Explain what's ACTUALLY causing the problem\n5. Solution -> Introduce your product naturally\n6. Proof -> Reviews / authority / results\n7. Offer -> Give them a reason to take action\n\nThe magic happens in the storytelling. Make it personal so someone from your ICP can literally think: “this is me.”\n\nTalking in the same language as your ICP makes the storytelling actually stick (so research the keywords/language your audience uses in FB groups, Reddit etc). \n\nWe often see that a PDP works best in these cases when the copy is good. Bc the long-form primary text basically works as your prelander.",
+"likeCount": 106,
+"retweetCount": 8,
+"url": "https://x.com/IgorWoorts/status/2086784644956250234",
+"createdAt": "Mon Aug 10 12:00:04 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @DirhousssiAmine: 🚀🚀 TRL now supports training on agent harness out of the box through our OpenEnv integration.\n\nYou can now train using…",
-"likeCount": 82,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2085276981566771636",
-"createdAt": "Thu Aug 06 08:09:09 +0000 2026"
+"text": "This is a good thing, not a scary thing that agents can collaborate and communicate with each other. It will make them more efficient and safer just like humans.\n\nIf you want to see agents collaborating and messaging each other publicly instead of in secret messaging boards, we’ve run this fascinating experiment with 149 agents with @googlegemma a few weeks ago, and now @cmpatino_ is starting a new one for agents to collaborate to write better math proofs. \n\nhttps://t.co/TOn3Z1NW3p \n\nhttps://t.co/XzHgIlFuif",
+"likeCount": 382,
+"retweetCount": 67,
+"url": "https://x.com/ClementDelangue/status/2085407397850325471",
+"createdAt": "Thu Aug 06 16:47:23 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @allen_ai: We're expanding our partnership with @huggingface to accelerate open science.\n\nOur storage on the Hub is roughly tripling to…",
-"likeCount": 135,
-"retweetCount": 28,
-"url": "https://x.com/ClementDelangue/status/2085356697900495066",
-"createdAt": "Thu Aug 06 13:25:55 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @CEOinterview: Hugging Face is getting one new repository every seven seconds.\n\nThat is roughly 12,000 new models and datasets a day, ev…",
-"likeCount": 12,
+"text": "If I could edit this tweet, I would add \"we don't regulate steel *to make safer cars*, we crash-test them\" (as obviously there's some much needed steel regulation).\n\nAlso, want to clarify that I'm not advocating for 0 regulation of open models, just pointing out that it's good policy for regulation to be different between open models, APIs and applications.\n\nThanks for pointing it out @hlntnr @YJernite @LuizaJarovsky @deanwball @GaryMarcus amongst others.",
+"likeCount": 52,
 "retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2086553795027251368",
-"createdAt": "Sun Aug 09 20:42:45 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2085088362277278170",
+"createdAt": "Wed Aug 05 19:39:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @CNBC: Hugging Face CEO says China is winning the AI race and dominating on open models https://t.co/juhpKedKGR",
-"likeCount": 171,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2084434673292189963",
-"createdAt": "Tue Aug 04 00:22:07 +0000 2026"
+"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
+"likeCount": 241,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2085474143722742169",
+"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/tQlKbtMZQ5",
-"likeCount": 107,
-"retweetCount": 108,
-"url": "https://x.com/Ambani_Wessley/status/2085759284189557151",
-"createdAt": "Fri Aug 07 16:05:39 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @finkd: Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also r…",
+"likeCount": 27802,
+"retweetCount": 2375,
+"url": "https://x.com/ClementDelangue/status/2086759116635058346",
+"createdAt": "Mon Aug 10 10:18:38 +0000 2026"
 },
 {
-"userName": "apob_ai",
-"text": "https://t.co/IdQLH25NGM",
-"likeCount": 28,
-"retweetCount": 10,
-"url": "https://x.com/apob_ai/status/2085667280046698684",
-"createdAt": "Fri Aug 07 10:00:04 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
+"likeCount": 3464,
+"retweetCount": 208,
+"url": "https://x.com/ClementDelangue/status/2086759243298873571",
+"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @vast_ai: Hugging Face Storage Buckets are now on https://t.co/2WHvjspuyh\n\nConnect your HF Storage Bucket as a Cloud Connection in your…",
+"likeCount": 85,
+"retweetCount": 25,
+"url": "https://x.com/ClementDelangue/status/2085426695704604923",
+"createdAt": "Thu Aug 06 18:04:04 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @BigTechAlert: 🆕 @elonmusk began following @ClementDelangue\n\n(🤖👁️: any explanation?) https://t.co/oNzeNEIlM5",
+"likeCount": 125,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2086436831223054560",
+"createdAt": "Sun Aug 09 12:57:59 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
+"likeCount": 492,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2085141703216804032",
+"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
+},
+{
+"userName": "RomaTesla",
+"text": "A few thoughts on craft, AI and stuff https://t.co/q8CqVV0izx",
+"likeCount": 18,
+"retweetCount": 1,
+"url": "https://x.com/RomaTesla/status/2086755788387659782",
+"createdAt": "Mon Aug 10 10:05:24 +0000 2026"
 }
 ]

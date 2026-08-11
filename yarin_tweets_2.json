@@ -1,114 +1,122 @@
 [
 {
-"userName": "IamEmily2050",
-"text": "For the people who missed the AMA.\n\nWhat the MiniMax H3 Team Actually Said: 10 Answers From the Reddit AMA\n\nMiniMax H3 launched as a unified multimodal video model that can process text, images, video and audio in one context. MiniMax says it can generate up to 15 seconds of video with native stereo sound at resolutions up to 2K. (MiniMax announcement)\n\nIn a Reddit AMA, the H3 research and engineering team answered questions about the public release, upcoming features, local inference and the model’s current weaknesses. These are the ten replies that matter most.\n\n1. H3-Regenerate-2K will be released, but there is no date yet\n\nKiro confirmed that MiniMax plans to open-source H3-Regenerate-2K.\n\nIt is not simply the current H3 checkpoint running a second time, and it is not a conventional pixel-space upscaler. The module uses a dedicated latent-space DiT regeneration checkpoint that targets a higher resolution. The original H3 output becomes additional context, while some reference inputs can also be supplied at higher resolution.\n\nMiniMax is still improving its efficiency and quality for local use, so the team has not announced a release date. (Kiro’s reply)\n\n2. H3 does not use MiniMax M3’s MSA attention system\n\nThe team clarified that H3 does not use the MSA system from MiniMax M3.\n\nIts approach is closer to MoBA-style block selection. Neighboring visual tokens are grouped into blocks, and mean-pooled representations are used to estimate which blocks are important. The model can then avoid spending the same amount of attention on every visual token.\n\nThe current design applies three-dimensional sparsification to video tokens. Image and text tokens may be included later. MiniMax plans to release a conservative reference implementation, with the first goal being no noticeable quality loss. The best speed improvements will still depend on hardware and backend optimization by the community. (Kiro’s sparse-attention reply)\n\n3. A faster or smaller official model is being considered, but not promised\n\nThe released checkpoint already includes CFG distillation and can operate with fewer inference steps than a completely undistilled model.\n\nHowever, it was not specifically trained for extreme low-step generation. MiniMax is exploring further step distillation and is considering versions using four or eight NFE, but the team did not commit to releasing one soon.\n\nKiro also said there is no near-term plan for a separately trained smaller T2V or I2V version. Instead, the team expects the community may derive smaller variants through structured block pruning, recovery training or distillation. (Kiro’s efficiency replies)\n\n4. The team knows about pixelation on small and distant subjects\n\nOne user asked why people and objects often become pixelated or distorted when they are far from the camera.\n\nKiro confirmed that MiniMax has observed the same problem, especially with small or distant subjects. The team does not believe it can be explained simply by the Visual VAE’s compression ratio or by one specific training stage.\n\nThey described it as a system-level issue involving several parts of the model and training pipeline. Improving it will be one of their next priorities. The AMA did not provide a sampler, scheduler or step-count setting that reliably solves the problem. (Kiro’s reply about distant subjects)\n\n5. MiniMax is developing a dedicated image-generation model\n\nH3 can already produce useful still images through video-based workarounds, but MiniMax is developing a proper image model from a common ancestor in the H3 model family.\n\nThe new model will reuse H3’s VAE encoder. Because the temporal encoder is causal, MiniMax can obtain a two-dimensional VAE encoder through weight slicing. The team also plans to build a dedicated VAE decoder for image generation.\n\nKiro also clarified that H3 is not a streaming video model. It cannot generate a preview frame, wait for approval and then continue the same generation into a video. The intended workflow is to create the first frame with the future image model and then send it to H3’s I2VA mode. (Kiro’s image-model reply)\n\n6. Ref2Vid quality problems are partly caused by the model itself\n\nMany users noticed that Ref2Vid can look softer and less stable than I2V, especially when a driving video is used as the reference.\n\nNero confirmed that MiniMax is aware of the issue. The FL2VA and Ref2VA checkpoints currently have different visual-quality tendencies because they used different post-training strategies. The team is actively working on improving Ref2VA.\n\nThe practical advice was simple: use the highest-quality reference input available. Ref2VA is sensitive to the quality of its reference conditioning, so a poor or compressed reference can make the result worse. (Nero’s Ref2VA reply)\n\n7. H3’s prompt adherence does not come from one special trick\n\nWhen asked why H3 follows detailed prompts so well, the team did not point to one special architectural feature.\n\nThe answer from dacongya was that the most important factors were a broad and diverse set of data and tasks, a general-purpose architecture, and avoiding design choices that do not scale effectively.\n\nMiniMax did not disclose the size of the training dataset. The broader point was that H3’s instruction-following comes from the combination of data construction, task design, architecture and training strategy. (dacongya’s reply)\n\n8. A simple video-training task produced strong image-editing ability\n\nNero described one experiment that changed how he thought about video models.\n\nThe team trained a model on a simple task: provide the first frame and a caption, then predict the final frame. Even without image-editing-specific post-training, the model achieved strong zero-shot results across several image-editing benchmarks.\n\nThis suggested that natural-language in-context learning can generalize across different generation tasks. It also helps explain why H3 can sometimes perform editing and composition tasks that were not presented as separate headline features at launch. (Nero’s training observation)\n\n9. Local users can approximate Context-IR with official guides\n\nThe full native Context-IR experience remains available through MiniMax’s API, but the team has provided tools for local users.\n\nLuigi pointed users to separate official guides for the base workflow and the reference workflow. Both include prompt-expansion instructions and structured input examples. MiniMax has also combined the material into an H3 Prompt Writing Skill and plans to keep updating it.\n\nThis does not reproduce the complete online Context-IR pipeline, but it gives local users a clearer way to structure complex prompts and multimodal references.\n\nThe resources are available in the base prompt guide, the reference prompt guide, and the H3 Prompt Writing Skill. (Luigi’s reply)\n\n10. Longer videos are possible, but seamless continuation is still experimental\n\nNero explained that Ref2VA can use the ending section of a previous video and its audio as references for the next segment. The user then describes how the new segment should continue.\n\nHowever, this method does not guarantee a seamless transition. Identity drift, motion discontinuity and other changes can still appear.\n\nThe team also discussed an unofficial RoPE-extension workflow inherited from pretraining. It may produce better continuation in some cases, but it requires stricter prompting and is not reliably compatible with multiple reference inputs.\n\nMiniMax originally trained a dedicated audio-video continuation task with extended RoPE positions. It worked well as a standalone task, but did not generalize as strongly when combined with many other tasks. The released model therefore relies mainly on standard reference conditioning and has not been natively trained on long recurrent chains. The team believes long-trajectory training combined with sparse attention could improve this in the future. (Nero’s continuation replies)\n\nThe main takeaway\n\nThe AMA gave a fairly specific picture of where H3 is going.\n\nMiniMax plans to release the 2K regeneration module and a sparse-attention implementation. The team is exploring four-step and eight-step inference, while a separate smaller model is not currently planned. A dedicated image model is in development, and the official prompt guides are already available.\n\nAt the same time, Ref2VA quality, distant subjects, local prompt processing and long-video continuation still have clear limitations.\n\nThe most important point is that open weights are only one part of the system. H3’s core model is available, but the complete production pipeline, high-resolution regeneration and inference optimizations are still being developed. The next stage will depend as much on the surrounding tools and community work as on the model weights themselves.",
-"likeCount": 81,
-"retweetCount": 2,
-"url": "https://x.com/IamEmily2050/status/2085996847227646318",
-"createdAt": "Sat Aug 08 07:49:38 +0000 2026"
+"userName": "itischalz",
+"text": "💎 இந்த 79 AI Tools உங்க Work-ஐ Super Easy ஆக்கும்! 🤯\n\n🧠 AI Assistants:\n\n1️⃣ Claude — Any Problem Solve பண்ணலாம்!\n2️⃣ ChatGPT — Ideas Brainstorm பண்ணலாம்!\n3️⃣ Gemini — Perfect Writing!\n4️⃣ Perplexity — Research Anything!\n5️⃣ Grok — Real-Time AI Assistant!\n6️⃣ Poe — Multiple AI Models Access!\n7️⃣ Genspark — AI Super Agent!\n8️⃣ Manus — Autonomous AI Agent!\n\n💻 Coding & App Building:\n\n9️⃣ Lovable — Web Apps Build பண்ணலாம்!\n🔟 Bolt(dot)new — Full-Stack Apps Generate!\n1️⃣1️⃣ Cursor — AI Coding Assistant!\n1️⃣2️⃣ Windsurf — AI Software Development!\n1️⃣3️⃣ Replit — Browser-லயே Apps Build!\n\n🎬 Video Creation & Editing:\n\n1️⃣4️⃣ Kling AI — AI Videos Create!\n1️⃣5️⃣ HeyGen — AI Avatar Videos!\n1️⃣6️⃣ Synthesia — AI Presenter Videos!\n1️⃣7️⃣ Runway — AI Video Editing!\n1️⃣8️⃣ Pika — AI Videos Generate!\n1️⃣9️⃣ Luma AI — Cinematic AI Videos!\n2️⃣0️⃣ Sora — Text-லிருந்து Videos!\n2️⃣1️⃣ Higgsfield — Cinematic AI Videos!\n2️⃣2️⃣ PixVerse — Creative AI Videos!\n2️⃣3️⃣ CapCut — Video Editing!\n2️⃣4️⃣ Descript — Text-ஓட Videos Edit!\n2️⃣5️⃣ OpusClip — Long Videos → Shorts!\n2️⃣6️⃣ Captions — AI-Powered Videos!\n2️⃣7️⃣ VEED — AI Video Editing!\n\n🎨 Image & Design:\n\n2️⃣8️⃣ Midjourney — AI Art Generate!\n2️⃣9️⃣ Ideogram — Text-ஓட Images!\n3️⃣0️⃣ Leonardo AI — Game Assets & Artwork!\n3️⃣1️⃣ Canva — Graphics Design!\n3️⃣2️⃣ Figma AI — UI/UX Design!\n3️⃣3️⃣ Recraft — Professional Graphics!\n3️⃣4️⃣ Krea AI — Real-Time Image Generation!\n3️⃣5️⃣ Magnific AI — Images Upscale!\n3️⃣6️⃣ Topaz AI — Photos & Videos Enhance!\n3️⃣7️⃣ Photoroom — Product Photos Edit!\n3️⃣8️⃣ Remove(dot)bg — Background Remove!\n3️⃣9️⃣ Freepik AI — Images & Creative Assets!\n\n🌐 Website Building:\n\n4️⃣0️⃣ Framer AI — Websites Build!\n4️⃣1️⃣ PortfolioTab — Portfolio Create!\n\n📊 Presentations:\n\n4️⃣2️⃣ Gamma — Presentations Create + Ideas Polish!\n4️⃣3️⃣ Tome — AI-Powered Presentations!\n4️⃣4️⃣ Beautiful(dot)ai — Auto Design Presentations!\n4️⃣5️⃣ Napkin AI — Ideas → Visual Diagrams!\n\n🎵 Audio & Music:\n\n4️⃣6️⃣ ElevenLabs — Voice Clone பண்ணலாம்!\n4️⃣7️⃣ Suno — AI Music Generate!\n4️⃣8️⃣ Udio — Original Songs Create!\n4️⃣9️⃣ Podcastle — Podcasts Edit!\n5️⃣0️⃣ Wispr Flow — Voice-to-Text!\n\n📝 Writing & Content:\n\n5️⃣1️⃣ Copy(dot)ai — Marketing Content!\n5️⃣2️⃣ Jasper — Brand-Focused Content!\n5️⃣3️⃣ Writesonic — Content Write & Optimize!\n5️⃣4️⃣ Notion AI — Notes Write & Organize!\n\n🔍 SEO & Marketing:\n\n5️⃣5️⃣ Surfer SEO — Content Optimize!\n5️⃣6️⃣ Semrush — AI SEO Research!\n\n📚 Research & Documents:\n\n5️⃣7️⃣ NotebookLM — Documents Analyze!\n5️⃣8️⃣ Elicit — Research Papers Fast!\n5️⃣9️⃣ SciSpace — Research Papers Understand!\n6️⃣0️⃣ Consensus — Research Paper Answers!\n6️⃣1️⃣ Scite — Citations Verify!\n6️⃣2️⃣ Humata — PDFs Chat!\n6️⃣3️⃣ ChatPDF — PDF Questions Ask!\n\n🤝 Meetings & Productivity:\n\n6️⃣4️⃣ Otter(dot)ai — Meetings Transcribe!\n6️⃣5️⃣ Fireflies(dot)ai — Meeting Notes!\n6️⃣6️⃣ Granola — AI Meeting Assistant!\n6️⃣7️⃣ Superhuman AI — Email Productivity!\n\n⚙️ Automation:\n\n6️⃣8️⃣ Zapier — Workflows Automate!\n6️⃣9️⃣ Make — Apps Connect!\n7️⃣0️⃣ n8n — Open-Source Automation!\n7️⃣1️⃣ Lindy — AI Agents Build!\n7️⃣2️⃣ Relay(dot)app — AI Workflow Automate!\n\n🧩 Knowledge & Memory:\n\n7️⃣3️⃣ Rewind — Computer-ல எல்லாமே Search!\n7️⃣4️⃣ Mem — AI Knowledge Management!\n\n🌍 Translation & Forms:\n\n7️⃣5️⃣ DeepL — Accurate Translation!\n7️⃣6️⃣ Tally — Smart Forms Create!\n\n🎓 Learning:\n\n7️⃣7️⃣ YouLearn — YouTube Videos Summarize!\n7️⃣8️⃣ The AI Library — Useful AI Tools Discover!\n\n🖼️ 3D:\n\n7️⃣9️⃣ Tripo AI — 3D Models Create!\n\n\"இந்த 79 Tools தெரிஞ்சவங்க —\n2026-ல Hundreds of Hours Save பண்றாங்க —\nமத்தவங்க இன்னும் Manual-ஆ Work பண்றாங்க!\" 💡\n\nSave பண்ணுங்க — Share பண்ணுங்க —\nAI Era-ல Ahead இருங்க! 🚀\n\n💬 இதுல உங்கள் Favourite AI Tool எது? Comment பண்ணுங்க! 👇\n\nShare பண்ணுங்க! ❤️🔥",
+"likeCount": 11,
+"retweetCount": 6,
+"url": "https://x.com/itischalz/status/2086637633313312813",
+"createdAt": "Mon Aug 10 02:15:54 +0000 2026"
 },
 {
-"userName": "KaminiKamini222",
-"text": "I have created this with different ai model a same women in different context \n\nPrompt \nAbsolutely. Here’s a five-panel single-frame prompt designed for photorealistic AI image generation, with the same woman consistently appearing in all five scenes.\n5-Picture Cinematic Collage Prompt\nPrompt:\nCreate a single premium five-panel cinematic fashion collage, showing the same beautiful adult South Asian woman in five completely different environments and moods. All five panels must have perfect character consistency — identical facial features, face shape, eyes, nose, lips, hairstyle, skin tone, body proportions, and overall identity. She should look like the exact same woman photographed on the same day.\nPanel 1 — Monsoon Romance:\nThe woman standing outdoors during a gentle monsoon rain, wearing an elegant flowing orange saree with a subtle modern blouse. Wet hair naturally framing her face, tiny raindrops visible in the air, lush green trees behind her, soft cinematic background blur, emotional peaceful expression, natural diffused light.\nPanel 2 — Luxury Morning:\nThe same woman inside a sophisticated modern luxury apartment, wearing an elegant cream-colored dress, sitting beside a large floor-to-ceiling window while enjoying morning coffee. Warm sunlight entering through the glass, minimalist marble interior, contemporary furniture, soft shadows, peaceful sophisticated atmosphere.\nPanel 3 — Beach Sunset:\nThe same woman walking barefoot beside a tropical ocean at golden hour, wearing a flowing white summer dress. Gentle wind moving her hair and dress, warm sunset reflecting across the water, palm trees in the distance, cinematic golden sky, relaxed joyful expression.\nPanel 4 — Traditional Evening:\nThe same woman at an elegant heritage palace courtyard during evening, wearing a luxurious deep-red traditional Indian saree with tasteful jewelry. Warm lanterns, ornate architecture, marble flooring, subtle reflections, dramatic but natural lighting, regal and sophisticated atmosphere.\nPanel 5 — Modern City Night:\nThe same woman standing on a luxurious rooftop overlooking a modern city skyline at night, wearing a sleek black evening gown. City lights creating beautiful bokeh behind her, subtle wind in her hair, sophisticated confident expression, cinematic blue-and-warm ambient lighting, premium fashion editorial atmosphere.\nOverall Visual Style\nHigh-end fashion magazine + luxury travel campaign + cinematic photography, photorealistic, natural human skin texture, realistic hair strands, realistic fabric, physically accurate lighting, natural shadows, subtle film grain, atmospheric depth, shallow depth of field, HDR but restrained, professional 35mm and 85mm photography, realistic lens characteristics, premium color grading, extremely detailed, 8K UHD.\nComposition:\nFive clearly separated but visually connected panels arranged in one elegant 2×3 editorial collage, with the fifth panel occupying the center/bottom position. Seamless premium magazine layout, balanced composition, consistent lighting quality, no panel overpowering the others.\nIdentity consistency is the highest priority: same woman in every panel, no changes to facial structure, age, hairstyle, skin tone, eye shape, body proportions, or identity.\nNegative prompt:\ncartoon, anime, CGI, plastic skin, artificial face, different woman, inconsistent identity, changing facial features, different hairstyle, distorted face, asymmetrical eyes, bad anatomy, extra fingers, missing fingers, deformed hands, duplicated limbs, unnatural body, blurry face, low resolution, oversaturated colors, excessive HDR, harsh artificial lighting, unrealistic reflections, text, captions, typography, watermark, logo, signature.",
-"likeCount": 29,
-"retweetCount": 5,
-"url": "https://x.com/KaminiKamini222/status/2086367907190354241",
-"createdAt": "Sun Aug 09 08:24:06 +0000 2026"
+"userName": "HonNoah93",
+"text": "HON. NOAH AHMED — EMPOWERING THE GEN Z GENERATION\n\nHon. Noah Ahmed’s proposed vision for young people is built on one fundamental principle: young people should not only be the leaders of tomorrow—they should have meaningful opportunities to contribute today.\n\nHis youth empowerment agenda would focus on turning the energy, creativity and innovation of Gen Z into skills, businesses, employment and sustainable livelihoods across Taraba State.\n\nUnder this proposed vision, youth development would include:\n\n💡 TECHNOLOGY & DIGITAL SKILLS\nCreate opportunities for young people to learn AI, cybersecurity, software development, digital marketing, graphics, content creation and other emerging technologies.\n\n🚀 STARTUP & BUSINESS SPONSORSHIP\nSupport promising youth-owned businesses through transparent grants, equipment, mentorship and access to business development programmes—not just one-time handouts.\n\n🎓 EDUCATION & SCHOLARSHIPS\nExpand opportunities for scholarships, vocational training, professional certifications and technical education so that financial hardship does not prevent talented young people from developing their potential.\n\n🎨 CREATIVE INDUSTRY SUPPORT\nProvide structured support for musicians, filmmakers, photographers, designers, writers, fashion entrepreneurs and other creatives through training, sponsorship and platforms for showcasing their work.\n\n⚽ SPORTS DEVELOPMENT\nInvest in grassroots sports by supporting young athletes, coaches and sporting programmes, while creating pathways for talented youths to compete at higher levels.\n\n💼 JOBS, INTERNSHIPS & ENTREPRENEURSHIP\nBuild partnerships with private businesses and institutions to create internships, apprenticeships and employment opportunities while helping young entrepreneurs develop sustainable enterprises.\n\n🏢 YOUTH INNOVATION CENTRES\nDevelop spaces where young people can access training, internet connectivity, mentorship, technology and collaborative opportunities.\n\nA NEW APPROACH TO YOUTH SPONSORSHIP\n\nThe goal should be to move from “giving young people something” to “giving young people the tools to build something.”\n\nEvery sponsorship programme should be transparent, merit-based and accessible to young people across communities and local government areas.\n\nHON. NOAH AHMED’S MESSAGE TO THE GEN Z GENERATION:\n\n> “Your ideas matter. Your talent matters. Your future matters. Government should create an environment where a young person with an idea, skill or dream has a genuine opportunity to turn that potential into reality.”\n\nEmpower the youth. Invest in talent. Sponsor innovation. Create opportunity. Build a stronger Taraba.",
+"likeCount": 9,
+"retweetCount": 6,
+"url": "https://x.com/HonNoah93/status/2086887897982984495",
+"createdAt": "Mon Aug 10 18:50:22 +0000 2026"
 },
 {
-"userName": "jakobcounts123",
-"text": "Creative strategists looking for research prompts and skills...\n\nI built 55 AI prompts and 20 skills for creative strategy.\n\nHere's what my one-time LIFETIME offer includes:\n\nPROMPTS\n\n1. Hook Variation Generator\n2. Angle Iteration\n3. Static Brief Factory\n4. Winning Ad Breakdown\n5. Creative Fatigue Diagnosis\n6. Format Expansion\n7. Competitor Reverse Engineer\n8. 30-Day Creative Roadmap\n9. New Persona Finder\n10. Dead Ad Revival\n11. Client Onboarding Interview\n12. Cowork Project Setup\n13. AI UGC Video Generation\n14. Internal Identity Research\n15. Audience Deep Research\n16. Competitor Analysis\n17. Mechanisms Report\n18. Tone & Voice Research\n19. Awareness Level Research\n20. Deep Research Report\n21. Rare Hooks & Aha Moments\n22. Multiple Identity Personas\n23. UGC Creators Report\n24. Google SERP + Creative Report\n25. Advertorial Research\n26. Insider Information Report\n27. Audience Sophistication\n28. Objection Archaeology\n29. Conversion Catalyst Report\n30. Language Mining\n31. Before/After Transformation\n32. Platform Behavior Report\n33. Emotional Journey Mapping\n34. Trigger Event Research\n35. Social Proof Hierarchy\n36. Abandonment Autopsy\n37. Storytelling & Narrative\n38. Comparison Shopping Behavior\n39. Fear/Hope Ratio\n40. Inner Monologue Report\n41. Product Stack & Purchase Sequence\n42. Purchasing Pattern & Timeline\n43. Anti-Persona Report\n44. Content Consumption Preferences\n45. Value Perception & Pricing Psychology\n46. Regret & Mistake Analysis\n47. Media Diet & Influence Map\n48. Dos and Don'ts\n49. Prompt Style Memory\n50. AI UGC Prompt\n51. FACS Reference for AI Video\n52. Beginner Automation\n53. Poppy AI Deep Dive\n54. Native Ad Research\n55. YouTube Research\n56. Music & Audio Prompt\n\nSKILLS\n\n1. Creative Analysis\n2. Research Sprint\n3. Brief Writing\n4. Testing Matrix\n5. Brief Prep\n6. Copywriting\n7. Pre-Ship Check\n8. Storytelling\n9. Format & Angle Discovery\n10. Comment Seeding\n11. Hook Writing\n12. Creative Strategist Brief\n13. Prompt Writing\n14. Niche Script Pattern Analysis\n15. Native Ads (Image + Text)\n16. Weekly Article Writing\n17. Founder Ad\n18. Yapper Ad (Talking-Head)\n19. Higgsfield UGC Video Creation\n20. New Client Onboarding Setup\n\nAll of it lives in my Whop vault. They work with Claude Cowork and I keep everything organized in Notion but you can use whatever you like.\n\nI also add to it weekly and update them often.\n\nIf you want to be one of the 25 people to get lifetime access at a discount, link is below.",
-"likeCount": 30,
-"retweetCount": 2,
-"url": "https://x.com/jakobcounts123/status/2086261291707212184",
-"createdAt": "Sun Aug 09 01:20:27 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Some people are surprised that APIs (aka what Anthropic, OpenAI, and others provide) are treated differently than open weights in the new AI model framework. \n\nI'm not surprised at all, and it's actually very good policy. Let me explain:\n\nModel weights, APIs, and apps are three very different layers of the stack. Treating them the same would be a recipe for bad regulation.\n\nThink about how we handle cars. We don't regulate steel, we crash-test cars. Nobody asks a steel mill to guarantee that nothing dangerous will ever be built with its steel. Obligations sit with the carmaker and rules of the road with the driver, because that's where risk becomes real and where someone can actually act on it.\n\nModel weights are the steel of AI. They're raw research output, closer to science than product: no user, no interface, no deployment. They don't do anything on their own. And because everything else is built on top of them, this is the layer where regulation does the most damage. Restrict weights and you slow down all progress downstream, and you prevent countless positive use cases from ever emerging: the lab fine-tuning an open model for rare diseases, the startup serving a language big providers ignore, the safety researchers who can only audit models because the weights are open. You don't reduce risk, you just kill open source and concentrate power in a few big labs.\n\nAPIs are the middle layer, the parts and engine suppliers of AI: a commercial service where a provider serves a model at scale. Here you have a business relationship, terms of service, the ability to monitor for abuse. It makes sense to expect transparency, security standards, and accountability from providers at this layer, because they can actually enforce things.\n\nApps are the car on the road: where AI meets the real world. A medical assistant, a hiring tool, a companion for kids, a financial advisor. This is where concrete harm can happen, and conveniently, it's where we already have decades of regulation. Health, finance, employment, consumer protection. An AI hiring tool should comply with employment law whether it's powered by an open model, an API, or a spreadsheet.\n\nThe principle is simple: regulate at the layer where risk actually materializes and where actors can act on it. Push obligations to the deployment layer, keep the research layer open. We don't regulate steel, we crash-test cars. Well done @realDonaldTrump @DavidSacks @mkratsios47!",
+"likeCount": 574,
+"retweetCount": 110,
+"url": "https://x.com/ClementDelangue/status/2084992457674990033",
+"createdAt": "Wed Aug 05 13:18:33 +0000 2026"
 },
 {
-"userName": "Shohan_Tech_AI",
-"text": "100 AI tools that can turn hours of work into minutes. ⚡️\n\nBookmark this list. 🔖You’ll thank yourself later.\n\n1. Productivity• DeepSeek R1• ChatGPT• Notion AI• BetterPic\n\n2. Research• Perplexity• Otio• Gemini• Claude• Silatus\n\n3. Writing• Jasper• HIX AI• Jenni AI• Text Blaze• QuillBot\n\n4. Text-to-Image• Grok• FLUX• Midjourney• Microsoft Copilot• Adobe Firefly\n\n5. Copywriting• Rytr• • Writesonic• AdCopy AI• Jasper AI\n\n6. Website• Dora• 10Web• Durable• Landingsite• Viz\n\n7. Meetings• tl;dv• Otter• Noty AI• Fireflies• MeetGeek\n\n8. Resume• Kickresume• Resume AI• Resume Checker• Teal• Careerflow\n\n9. Chatbots• Mutual Info• TryCortex• Chatfuel• Dante AI• Droxy\n\n10. Automation• Make• Zapier• Xembly• Bardeen• Testim\n\n11. Prompting• Snack Prompt• CustomGPT• PromptBox• Alicent AI• SiteGPT\n\n12. UI/UX• Figma• Uizard• UIMagic• Photoshop• UX Pilot\n\n13. Design• Canva• Flair AI• Designify• Clipdrop• AutoDraw\n\n14. Logo Generation• Namelix• • Brandmark• Stockimg AI• Namecheap\n\n15. Audio• LOVO AI• ElevenLabs• Songburst AI• Adobe Podcast• VoicemyAI\n\n16. Marketing• Pencil• AI-Ads• AdCopy• Simplified• AdCreative\n\n17. Startups• Tome• Ideas AI• Namelix• PitchGrade• Validator AI\n\n18. Social Media• Taplio• Typefully• Hypefury• TweetHunter• Postwise\n\n19. Video• Eightify• Klap• OpusClip• InVideo• HeyGen\n\n20. Image → Video• Veo 2• Kling AI• Luma Dream Machine• Pollo AI• Sora\n\nSave this. 🔖Share it with someone who needs it.\n\nFollow  more AI tools, tips & resources. 🚀",
-"likeCount": 7,
-"retweetCount": 3,
-"url": "https://x.com/Shohan_Tech_AI/status/2086657122390192607",
-"createdAt": "Mon Aug 10 03:33:20 +0000 2026"
+"userName": "Yosefphr",
+"text": "GM X FAM 🌅 \nHAPPY TACO DAY 🌮 \n\nThe Real Bottleneck in Web3\n\n➩ We spend an incredible amount of time arguing about tokenomics, governance wrappers, and short-term market pumps, completely ignoring the mechanical friction that actually kills projects.\n\nEvery single developer entering this space hits the same invisible wall. You have a genuinely great concept, a working prototype, or an AI-assisted workflow ready to ship, but the moment you try to actually deploy it as a standalone network, reality sets in.\n\nYou are suddenly forced to spend months dealing with validator bootstrapping, consensus headaches, and custom infrastructure plumbing just to reach day one.\n\n➩ That is why the architecture behind @CNPYNetwork caught my attention.\nInstead of treating every new application like it needs to reinvent the wheel or fight for congested monolithic blockspace, it tackles the lifecycle of a project in a much smarter way.\n\nStarting out with nested execution and shared security lets you test your ideas in a live, functional environment without burning months of runway on backend setup.\n\nThen, as the product finds its footing and the actual footprint of the community becomes clear, you have a clean pathway to graduate into your own sovereign chain.\n\nNo messy re-genesis. No breaking the underlying history. Just infrastructure that scales alongside the actual maturity of the product.\n\n➩ When you look at ecosystem traction like thousands of active virtual chains and builders actually deploying real applications instead of just writing whitepapers, it becomes obvious that modular, adaptive architecture is where the industry is heading.\n\nThe tooling is finally catching up to what developers have been asking for years.",
+"likeCount": 204,
+"retweetCount": 12,
+"url": "https://x.com/Yosefphr/status/2087040277902975377",
+"createdAt": "Tue Aug 11 04:55:52 +0000 2026"
 },
 {
 "userName": "aienginerd",
 "text": "⚡️ Here's how to use the \"more details\" button in Codex app to offload stuff to 5.6 on web and save a bunch of codex usage limits at the same time.\n\nBasic pattern:\n\n1. highlight something in the codex app response, click \"more details\". esp useful is having codex specifically write a \"handoff\" just for this purpose, then highlight it all -> \"more details\"\n\n2. your thread context + your highlighted text get sent to a quick chat -> this uses your web chatgpt quota, not codex limits -> ask it anything, esp useful is research/planning type asks with 5.6 Pro or xhigh thinking.\n\nHUGE: this allows you to access 5.6 pro from within Codex w/o copy/paste.\n\n3. along with research/planning you can also have it create image mockups or other artifacts as per your tasks' needs, from your context.\n\n4. when you're ready to bring that external context back into codex, press the \"add to task\" button in the quick chat window header to re-inject that context back into your codex thread.\n\n5. ask codex thread to integrate that context into its own work (i.e, merge that research in to draft a final plan)\n\nUse this workflow as needed without burning your codex limits, rinse and repeat.\n\n(🧵continues below with full example)",
-"likeCount": 253,
+"likeCount": 254,
 "retweetCount": 11,
 "url": "https://x.com/aienginerd/status/2086248458524954696",
 "createdAt": "Sun Aug 09 00:29:27 +0000 2026"
 },
 {
-"userName": "influencer_seo",
-"text": "Here's how to build an AI music video using the new MiniMax-H3 Video model with open weights... Use this prompt below 👇\n\nprompt\n\nStyle: dark-pop / cyber-grunge / rap music video with photoreal high-fashion polish and the texture of a scanned film magazine—high contrast without looking cheap. Reference late-1990s to early-2000s indie magazines, photocopies, film scans, underground-music posters, and zine collage. Add coarse grain, subtle gate weave, halftone dots, rough print edges, and slight scan misregistration. Keep the edit fast and use hard cuts only—no fades or soft transitions. Match the typographic treatment and surface texture of the reference images.\n\n#minimax #minimaxh3 @MiniMax_AI",
-"likeCount": 187,
-"retweetCount": 13,
-"url": "https://x.com/influencer_seo/status/2084355942628684135",
-"createdAt": "Mon Aug 03 19:09:16 +0000 2026"
-},
-{
-"userName": "robotsdigest",
-"text": "Rather than optimizing a diffusion policy with unstable RL objectives, EvoHIL combines a self-evolving reward model with flow matching optimization.\n\nThe policy learns from better rewards, while better policies generate stronger preference data for the next reward update. Each component bootstraps the other.",
-"likeCount": 7,
+"userName": "shushant_l",
+"text": "Here's how to create your editorial fashion image\n\nUse Google Nano Banana Pro AI image generation model\n\nUse this prompt: hyper realistic editorial fashion portrait of the person in the uploaded image. Preserve the person's exact facial features, skin tone, hairstyle, body proportions, and identity. Dress them in high fashion luxury designer clothing with impeccable tailoring, premium textures, and elegant accessories. Place them in a sophisticated editorial setting such as a minimalist studio, luxury hotel, modern architectural space, or upscale city street. Cinematic lighting, soft natural shadows, refined color grading, shallow depth of field, Vogue magazine aesthetic, luxury fashion campaign style, ultra detailed skin textures, confident model pose, sharp focus, photorealistic, premium composition, 8K quality, high-end commercial photography, timeless elegance, clean background, editorial masterpiece",
+"likeCount": 6,
 "retweetCount": 1,
-"url": "https://x.com/robotsdigest/status/2085062616570040825",
-"createdAt": "Wed Aug 05 17:57:21 +0000 2026"
+"url": "https://x.com/shushant_l/status/2084973228079063386",
+"createdAt": "Wed Aug 05 12:02:09 +0000 2026"
 },
 {
-"userName": "LiamBroza",
-"text": "Kyle and I’ve been working on the same thing for over a decade now, talking about the same passions of spatial computing and personal AI.\nThe team at @CompanionIntel is about to launch the next iteration. So, now feels like a good time to look back! https://t.co/1Zd6XlO2o2",
-"likeCount": 11,
-"retweetCount": 6,
-"url": "https://x.com/LiamBroza/status/2085599360239165665",
-"createdAt": "Fri Aug 07 05:30:10 +0000 2026"
+"userName": "SirAlexanderrr",
+"text": "40 AI tools worth knowing in 2026. Start with these 12:\n1. Gemini (AI research)\n\n2. Claude (long-form writing)\n\n3. https://t.co/uBdMD2Te5R (AI video creation)\n\n4. Midjourney (image generation)\n\n5. DALL-E 3 (visual concepts)\n\n6. Runway (video editing)\n\n7. ElevenLabs (AI voices)\n\n8. Suno (music generation)\n\n9. Notion AI (planning)\n\n10. Otter. ai (meeting notes)\n\n11. GitHub Copilot (coding)\n\n12. Zapier AI (automation)\n\nSave this cheat sheet. Which tool do you use most?",
+"likeCount": 5,
+"retweetCount": 3,
+"url": "https://x.com/SirAlexanderrr/status/2086858309244461537",
+"createdAt": "Mon Aug 10 16:52:47 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
-"likeCount": 235,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2085474143722742169",
-"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
+"userName": "beffjezos",
+"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
+"likeCount": 73,
+"retweetCount": 1,
+"url": "https://x.com/beffjezos/status/2086282858428322160",
+"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @Alibaba_Qwen: 📢Meet Qwen3.8-Max — our most capable model to date. \n\nNext week, the open weights of Qwen3.8-Max will be released, and Qw…",
-"likeCount": 22774,
-"retweetCount": 2840,
-"url": "https://x.com/jeremyphoward/status/2084374840010850493",
-"createdAt": "Mon Aug 03 20:24:22 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @joelniklaus: Codex is overoptimised for large models: it ranks 2nd out of 10 for GLM 5.2 but drops to 9th place for Gemma-4!\n\nAlmost al…",
-"likeCount": 505,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2086560605507305974",
-"createdAt": "Sun Aug 09 21:09:49 +0000 2026"
+"userName": "rydcunningham",
+"text": "[new!] the technical companion to my piece with @ruima last week, significantly expanded\n\nnow includes training time estimates for Kimi K3 and \"DeepMythos V5,\" a hypothetical future Mythos-scale DS release\n\nplus a few other surprises https://t.co/GHQOw3VVyY",
+"likeCount": 23,
+"retweetCount": 1,
+"url": "https://x.com/rydcunningham/status/2085434224178303376",
+"createdAt": "Thu Aug 06 18:33:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ddimolfetta: LAS VEGAS — The Trump admin wants US-built open-source AI to become a top technology of choice around the world, National…",
-"likeCount": 65,
-"retweetCount": 20,
-"url": "https://x.com/ClementDelangue/status/2085052757740859675",
-"createdAt": "Wed Aug 05 17:18:10 +0000 2026"
+"text": "RT @AIatMeta: 🔗 Download Muse Glimmer on @huggingface: https://t.co/s7Lzb8MqCG\n\n🔗 Read the technical blog: https://t.co/X6htFnhRbc\n\n🔗 Find…",
+"likeCount": 493,
+"retweetCount": 59,
+"url": "https://x.com/ClementDelangue/status/2086762046247338037",
+"createdAt": "Mon Aug 10 10:30:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BigTechAlert: 🆕 @elonmusk began following @ClementDelangue\n\n(🤖👁️: any explanation?) https://t.co/oNzeNEIlM5",
-"likeCount": 79,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2086436831223054560",
-"createdAt": "Sun Aug 09 12:57:59 +0000 2026"
+"text": "RT @AIatMeta: Introducing Muse Glimmer, an open-weight 30B-parameter model optimized for local, always-on agent workflows.\n\nMuse Glimmer de…",
+"likeCount": 7489,
+"retweetCount": 946,
+"url": "https://x.com/ClementDelangue/status/2086771654756122804",
+"createdAt": "Mon Aug 10 11:08:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
-"likeCount": 492,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2085141703216804032",
-"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
+"text": "RT @mkratsios47: Open-weight models put American AI innovation directly into the hands of developers, researchers, and startups. This is ex…",
+"likeCount": 813,
+"retweetCount": 111,
+"url": "https://x.com/ClementDelangue/status/2086966079738232904",
+"createdAt": "Tue Aug 11 00:01:02 +0000 2026"
+},
+{
+"userName": "Kazuqr61u",
+"text": "【SIGNALIA】\n\nA fictional fashion lookbook.\nOriginal characters, clothing, and visual studies.\n\nCreated with generative AI. https://t.co/GEpTSfmduh",
+"likeCount": 21,
+"retweetCount": 1,
+"url": "https://x.com/Kazuqr61u/status/2086820630847271322",
+"createdAt": "Mon Aug 10 14:23:04 +0000 2026"
+},
+{
+"userName": "eweqss1431",
+"text": "The AI Girls Taking Over Social Media: Who They Are and Why This Exploded Right Now https://t.co/mUPFaogONO",
+"likeCount": 18,
+"retweetCount": 1,
+"url": "https://x.com/eweqss1431/status/2085735138537701862",
+"createdAt": "Fri Aug 07 14:29:42 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Meta is back! well done @finkd @alexandr_wang! https://t.co/gWvkuDeHzF",
+"likeCount": 1565,
+"retweetCount": 88,
+"url": "https://x.com/ClementDelangue/status/2086760700014203090",
+"createdAt": "Mon Aug 10 10:24:55 +0000 2026"
 }
 ]
