@@ -1,122 +1,122 @@
 [
 {
-"userName": "LeoKharon",
-"text": "NEW RESEARCH: You can now create a new robot optimized for any given task!\n\nI love this new project by @haqhuy, @SongShuran, and others.\n\nCalled \"Transformer Transformer: A Unified Model for Motion-Conditioned Robot Co-design\", it generates a robot's physical design and its controller together from a task spec.\n\nDEFINITIONS:\n- Reward function: A scoring rule that assigns a number to how well a behavior achieves the task. Here, it is the objective the generated design is pushed to maximize (e.g., track the target motion with low error).\n- Tokenizing: dividing continuous or structured data (a robot's links, joints, motor specs, states, actions) into a discrete vocabulary of symbols a transformer can process, the same step that turned pixels and audio into \"language\" for these models.\n- Diffusion transformer (DiT): A transformer trained to turn random noise into structured output through iterative denoising. Here, it generates robot bodies and trajectories instead of images.\n- MuJoCo: The standard fast physics simulator for robotics research (DeepMind-maintained). The Menagerie is its curated zoo of ready-to-use robot models.\n- CMA-ES: Covariance Matrix Adaptation Evolution Strategy, the workhorse black-box optimizer: it evolves a population of candidate designs, keeps the best, and needs thousands of simulator rollouts.\n- Bimanual multi-trajectory optimization: Finding one design/controller that performs well across several target motions for a two-armed robot at once, harder than optimizing for a single arm and a single motion.\n- BERT/MAE masked-modeling trick: Train one model to fill in whatever parts of the input you hide (words for BERT, image patches for MAE); at inference, choosing what to mask chooses the task, so masking the body makes it a designer and masking the actions makes it a controller.\n\nIn practice, you give it a target end-effector motion and a reward function, and it outputs a complete embodiment (link, joint, motor, and inertial property), as well as a controller to drive it.\n\nIt works by tokenizing both the body (links/joints/motors) and the dynamics (states/actions) into a compact scheme called RoboTokens, training a diffusion transformer (DiT) over them.\nThe same model predicts dynamics using those predictions (\"Dynamics Self-Guidance\") to push generated designs toward higher reward at inference time.\nMasking different token types (using the BERT/MAE masked-modeling trick) lets the one model do three jobs: generate an embodiment, control an arbitrary embodiment, or design one conditioned on a motion.\n\nIt is trained on 11 robots from the MuJoCo Menagerie (0.65 kg hand to 67.5 kg quadruped, 6–35 joints), and validated in sim and on a physical ALOHA doing cloth flinging.\n\nI like the fact that this approach inverts the entire recent robotics ideas: designing a policy for a fixed robot -> designing the robot for a fixed task.\nEvery other approach assumes the body is given and learns a controller.\nTransformer Transformer takes the task (target motion + reward), then generates the body and controller jointly.\n\nIn practice, it is a ~180× speedup over the standard optimizer at equal-or-better quality.\nIt reaches \"CMA-ES-level quality in seconds\" and finishes bimanual multi-trajectory optimization in <1 min vs CMA-ES's 3+ hours.\n\nSurprisingly, this approach was validated on real hardware!\nThe generated design was measurably smoother.\nOn a physical ALOHA flinging cloth (a deformable, dynamic task), the optimized design cut tracking error 73% and peak joint speed 30% versus the original, with fewer joint-speed peaks.\nTherefore: real world results, not a sim-only benchmark -> that is worth underlining nowadays!\n\nAlso worth mentioning: this is the lab behind UMI and Handroid, that I mentioned here previously!\nThe team seems extremely creative, i love these out-of-the-box approaches.\n\nEnjoy watching the demo of robot optimization in 3D, data acquisition, then real-life testing:",
-"likeCount": 355,
-"retweetCount": 43,
-"url": "https://x.com/LeoKharon/status/2085018570803618047",
-"createdAt": "Wed Aug 05 15:02:19 +0000 2026"
-},
-{
-"userName": "shushant_l",
-"text": "I'm shocked most MacBook users paid premium money just to use it like a very expensive Google Chrome machine.\n\nHere are 10 MacBook hacks that'll make your Mac wonder where this version of you was hiding.\n\n---\n\n1. Press ⌘ + Space and Spotlight becomes your calculator, file finder, app launcher, unit converter, and unpaid intern.\n\n---\n\n2. Set up Hot Corners so throwing your cursor into a corner actually accomplishes something for once.\n\n---\n\n3. Three-finger swipe between desktops and suddenly you look like someone who definitely has their life together.\n\n---\n\n4. Swipe three fingers up to see every open window, including the 37 you forgot existed.\n\n---\n\n5. Pinch your trackpad to open apps because apparently clicking icons is too mainstream now.\n\n---\n\n6. Use Apple Intelligence to rewrite, summarize, and improve text while you take full credit at the meeting.\n\n---\n\n7. Create multiple desktops for work, research, editing, and the YouTube tab you're absolutely using for \"research.\"\n\n---\n\n8. Use Universal Clipboard to copy something on your iPhone and paste it on your Mac like actual technological witchcraft.\n\n---\n\n9. Press ⌘ + Shift + 5 and your Mac becomes a screenshot and screen-recording machine without downloading another random app.\n\n---\n\n10. Turn on Stage Manager when your desktop starts looking like someone dropped 46 windows down a staircase.\n\n---\n\n11. Use Low Power Mode when your battery percentage starts falling faster than your motivation after lunch.\n\n---\n\n12. Enable Optimized Battery Charging so your MacBook battery gets treated better than most New Year's resolutions.\n\n---\n\n13. Lower your screen brightness because your MacBook does not need to illuminate the entire neighborhood.\n\n---\n\n14. Close unused apps instead of keeping everything open like you're running NASA Mission Control.\n\n---\n\n15. Reduce unnecessary background tasks and stop letting invisible apps throw a private battery-draining party.\n\n---\n\n16. Open the Shortcuts app and automate repetitive workflows before your fingers file a workplace complaint.\n\n---\n\n17. Create shortcuts to organize files automatically because \"final_FINAL_v7_REAL.pdf\" is not a filing system.\n\n---\n\n18. Automate image resizing and stop manually resizing 27 images like it's still 2009.\n\n---\n\n19. Build shortcuts for format conversions and let your Mac handle the boring digital paperwork.\n\n---\n\n20. Combine Spotlight, gestures, desktops, Stage Manager, Shortcuts, and Apple Intelligence and your MacBook finally starts earning its price tag.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 12,
-"retweetCount": 3,
-"url": "https://x.com/shushant_l/status/2087403965654942034",
-"createdAt": "Wed Aug 12 05:01:02 +0000 2026"
-},
-{
-"userName": "HonNoah93",
-"text": "HON. NOAH AHMED — EMPOWERING THE GEN Z GENERATION\n\nHon. Noah Ahmed’s proposed vision for young people is built on one fundamental principle: young people should not only be the leaders of tomorrow—they should have meaningful opportunities to contribute today.\n\nHis youth empowerment agenda would focus on turning the energy, creativity and innovation of Gen Z into skills, businesses, employment and sustainable livelihoods across Taraba State.\n\nUnder this proposed vision, youth development would include:\n\n💡 TECHNOLOGY & DIGITAL SKILLS\nCreate opportunities for young people to learn AI, cybersecurity, software development, digital marketing, graphics, content creation and other emerging technologies.\n\n🚀 STARTUP & BUSINESS SPONSORSHIP\nSupport promising youth-owned businesses through transparent grants, equipment, mentorship and access to business development programmes—not just one-time handouts.\n\n🎓 EDUCATION & SCHOLARSHIPS\nExpand opportunities for scholarships, vocational training, professional certifications and technical education so that financial hardship does not prevent talented young people from developing their potential.\n\n🎨 CREATIVE INDUSTRY SUPPORT\nProvide structured support for musicians, filmmakers, photographers, designers, writers, fashion entrepreneurs and other creatives through training, sponsorship and platforms for showcasing their work.\n\n⚽ SPORTS DEVELOPMENT\nInvest in grassroots sports by supporting young athletes, coaches and sporting programmes, while creating pathways for talented youths to compete at higher levels.\n\n💼 JOBS, INTERNSHIPS & ENTREPRENEURSHIP\nBuild partnerships with private businesses and institutions to create internships, apprenticeships and employment opportunities while helping young entrepreneurs develop sustainable enterprises.\n\n🏢 YOUTH INNOVATION CENTRES\nDevelop spaces where young people can access training, internet connectivity, mentorship, technology and collaborative opportunities.\n\nA NEW APPROACH TO YOUTH SPONSORSHIP\n\nThe goal should be to move from “giving young people something” to “giving young people the tools to build something.”\n\nEvery sponsorship programme should be transparent, merit-based and accessible to young people across communities and local government areas.\n\nHON. NOAH AHMED’S MESSAGE TO THE GEN Z GENERATION:\n\n> “Your ideas matter. Your talent matters. Your future matters. Government should create an environment where a young person with an idea, skill or dream has a genuine opportunity to turn that potential into reality.”\n\nEmpower the youth. Invest in talent. Sponsor innovation. Create opportunity. Build a stronger Taraba.",
-"likeCount": 7,
-"retweetCount": 5,
-"url": "https://x.com/HonNoah93/status/2086887661378347354",
-"createdAt": "Mon Aug 10 18:49:25 +0000 2026"
-},
-{
-"userName": "IsholaEdge",
-"text": "AI IS CHANGING FASHION, AND IT’S BIGGER THAN IMAGE GENERATION.🧵\n\nArtificial Intelligence is quietly transforming almost every stage of the fashion value chain.\n\nFrom design and trend forecasting to marketing, production, e-commerce, and customer experience, AI is changing how fashion businesses operate.\n\n🧵Here are a few areas where the impact is already visible:\n\n🔹 Design & Ideation:- Exploring silhouettes, patterns, colors, and collection concepts faster.\n\n🔹 Trend Forecasting:-  Using data to identify emerging consumer preferences and market trends.\n\n🔹 Virtual Prototyping:-  Visualizing designs before spending heavily on materials and production.\n\n🔹 Personalization:- Helping brands recommend products and experiences based on customer preferences.\n\n🔹 Marketing & Content:-  Accelerating campaign concepts, storytelling, product descriptions, and visual development.\n\n🔹 Demand Forecasting:- Helping brands make smarter production and inventory decisions, potentially reducing waste.\n\nBut here’s what I find most interesting:\n\nAI may not replace the fashion designer. It may replace some of the limitations that slow the designer down.\n\nCreativity still requires taste.\n\nCulture still requires understanding.\n\nCraftsmanship still requires skill.\n\nAnd strategy still requires human judgment.\n\nFor African fashion, this presents an even bigger opportunity.\n\nImagine combining African heritage, traditional craftsmanship, modern design thinking, and AI-powered innovation to build globally competitive fashion brands.\n\nThe question is no longer:\n\n“Will AI affect fashion?”\n\nIt already is.\n\nThe better question is:\n\n👉🏼How will fashion entrepreneurs use AI to build better brands, products, and businesses?”",
-"likeCount": 18,
-"retweetCount": 14,
-"url": "https://x.com/IsholaEdge/status/2087076130549358929",
-"createdAt": "Tue Aug 11 07:18:20 +0000 2026"
-},
-{
-"userName": "kenkenlewu",
-"text": "Pick the picture you want to use and upload it to Grok, ChatGPT, or any AI tool you want to use. \n\nThen explain exactly what you have in mind,  the outfit, location, pose, hairstyle, lighting, background, mood, and every other detail.\n\nJust describe what you want in your own words and ask the AI to turn your explanation into a detailed image-generation prompt.\n\nA simple formula is:\n\nSubject + outfit + pose + location + lighting + camera style + mood + details.\n\nFor example:\n\n“Use my uploaded photo as the face reference. Create a realistic full-body portrait of me wearing a classy black gown, standing in a luxurious hotel lobby. Soft warm lighting, elegant pose, natural skin texture, realistic proportions, high-end fashion photography, 85mm lens, shallow depth of field, ultra-realistic.”\n\nIf you want the AI to maintain your appearance, you can add:\n\n“Keep my facial features and identity consistent with the reference photo.”\n\nThat’s basically it. Describe the picture in your head, let the AI structure the prompt, then use the prompt to generate your image.",
-"likeCount": 26,
-"retweetCount": 16,
-"url": "https://x.com/kenkenlewu/status/2086754518000079272",
-"createdAt": "Mon Aug 10 10:00:21 +0000 2026"
-},
-{
-"userName": "EmreBatuAtakan",
-"text": "Update on our robot learning project with @aboraatakan at @uwwatai.\n\nWe went from ~30% to 99.8% success on our pick-and-place task by updating our policy from a DINO ViT + transformer policy to a CNN + MLP. Our old model was memorizing the training data and transferring poorly to closed-loop rollouts, so we went the other way and made the model smaller.\n\nThe attached video is the CNN + MLP policy running in sim on our async inference stack. We demoed it live for a few hours: 4 failures over 2000+ randomized scenes. This experience has been useful to confirm our stack's correctness. We are now ready to move to hardware!\n\nNext: real hardware, diffusion policy, open-weight fine-tunes, and RL.\n\nReach out if you're interested in collaborating, and stay tuned.",
-"likeCount": 34,
-"retweetCount": 7,
-"url": "https://x.com/EmreBatuAtakan/status/2085443841071452176",
-"createdAt": "Thu Aug 06 19:12:12 +0000 2026"
-},
-{
-"userName": "beffjezos",
-"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
-"likeCount": 73,
+"userName": "rubenhassid",
+"text": "It's crazy how my entire Linkedin feed is about Claude but no one actually properly explains it. I made this quick note for my team on how to start:\n\n1. Models change all of the time. Today, use this:\n\n☑ Fable-5-High on the first 1/2 prompts.\n☑ Then switch to Opus-5-High (or Low).\n☑ If it's a quick search, Grok or ChatGPT.\n\nYes, we pay for everything. And we have the $100/mo tier from Claude (and we never hit limits).\n\nIf you can't pay for anything, ChatGPT's model is pretty good (August 2026). Claude never tried to serve the free tiers people, so don't bother.\n\n2. I stopped with .md files months ago. Instead:\n\n☑ Skills for anything task you do more than twice.\n☑ One Project per thing you work on weekly.\n☑ Files only if it's a one-off doc I'll not open again.\n\nEvery skill I (personally) use is free to download. Just subscribe at https://t.co/psB7XxAv8w & I'll email you the link. \n\n3. Ignore the advice of 'write instructions':\n\n☑ No custom instructions.\n☑ No \"you are an expert in…\" paragraph.\n☑ No context I paste into chats.\n\nEvery instruction you add is a rule Claude follows instead of thinking (outside of the box). You're paying for the smartest thing on the planet & then telling it to stay in a box.\n\n4. Claude is not an image model (yet). So:\n\n☑ Use ChatGPT for images (August 2026).\n☑ If you still want Claude, ask for the image as HTML code.\n\nThe HTML thing sounds weird, but text in a generated image comes out incorrect. In HTML it's just text, so it's always right.\n\n5. Your chat gets worse the longer it is. Instead:\n\n☑ New task, new chat.\n☑ It forgot something from 20 prompts ago? New chat.\n\nAnthropic's own engineers said this. People keep one chat open for 3 weeks & then complain that Claude doesn't get them. \n\n6. Stop obsessing over prompts. Instead:\n\n☑ \"Ask me 10 questions before you start.\"\n☑ Answer them badly, in the \"Something else\" option with your context.\n☑ Then let it run.\n\nThe stuff in your head that you didn't type is the main problem. This is the highest ROI line in this whole note & it takes 4 mins.\n\n7. Research mode is already in your app. The beast:\n\n☑ Use it for anything you'd Google for 40 mins.\n☑ Don't use it for quick stuff, it's slow.\n\nHuge difference between \"here's a summary\" & \"here's 40 sources I actually went & read.\" I don't know why this is hidden.\n\n8. When it gives you a link, click it:\n\n☑ AI writes the answer first, then goes looking for a page that agrees with it.\n☑ 60% of high-credibility sites now block AI crawlers.\n☑ 1 in 6 sources cited by AI search was written by another AI.\n\nSo it's reading AI slop. This is bonkers & almost nobody knows it. \n\n9. Don't be stupid with access:\n\n☑ Never paste logins, passwords, or keys.\n☑ Not explaining this one.\n\nEveryone connects 14 tools on day one & then panics about permissions.\n\nIf you do one thing from this, do # 2. Download my skills at https://t.co/psB7XxAv8w. Upload them in Claude. Stop unnecessarily wasting 6 months figuring out which ones matter.",
+"likeCount": 20,
 "retweetCount": 1,
-"url": "https://x.com/beffjezos/status/2086282858428322160",
-"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
+"url": "https://x.com/rubenhassid/status/2087766094517805315",
+"createdAt": "Thu Aug 13 05:00:00 +0000 2026"
 },
 {
-"userName": "DrGhattasMD",
-"text": "After losing 4 to 5 month of studying for my boards and my medical and all three my Omni pro AGI Medical OS with biological synthetic organisms, Jarvis-Kernal and Claude home my AI-OS with up to 620-640 Semi ASI, Local only I remained attacked. Read. https://t.co/vtF9KkMmWO",
-"likeCount": 6,
+"userName": "babycamilaai",
+"text": "This is what brand-safe AI content generation looks like at scale. See how Orior powers consistent AI influencer campaigns. https://t.co/4jsBBmx5xA\n\nNo studio. No shoot day. No scheduling conflicts. Just consistent, on-brand content — generated\n\nBrands are quietly testing AI influencers for a reason ✨🔥\n\n{\n  \"prompt\": \"Vertical portrait photo of Camila, a young woman with a sleek dark bob haircut featuring a subtle blonde highlight streak framing her face, olive skin tone, hazel-green eyes, standing on an outdoor rooftop terrace at night. She is captured mid-turn, looking back over her shoulder directly at the camera with a warm, genuine smile showing teeth. Her right hand rests on her hip. She wears a long-sleeve, form-fitting black bodycon midi dress with a dramatic white streaked/brushstroke pattern radiating vertically down the torso and hips, creating an optical linear gradient effect. A thin gold layered necklace is visible at her collarbone. Background: a dense downtown city skyline at night, illuminated skyscrapers with lit windows, deep navy-blue sky, a low stone parapet wall in the foreground separating her from the city view below, string of street lights and a plaza visible far below. Lighting: soft ambient city glow mixed with warm frontal fill light on her face and dress, creating gentle highlights on the fabric's white streaks. Shot on a phone camera aesthetic, shallow natural depth of field, slightly candid influencer-style composition, 9:16 aspect ratio.\",\n  \"negative_prompt\": \"blurry, distorted face, extra limbs, deformed hands, low resolution, overexposed, plastic skin, asymmetrical face, watermark, text overlay\",\n  \"style\": \"photorealistic, editorial fashion, candid influencer photography\",\n  \"aspect_ratio\": \"9:16\",\n  \"model\": \"Flux 1.1 Pro\",\n  \"face_lock\": true,\n  \"character\": \"Camila\",\n  \"scene_tags\": [\"nightlife\", \"city skyline\", \"rooftop\", \"fashion\", \"evening glam\"]\n}",
+"likeCount": 27,
+"retweetCount": 5,
+"url": "https://x.com/babycamilaai/status/2087561306496811345",
+"createdAt": "Wed Aug 12 15:26:15 +0000 2026"
+},
+{
+"userName": "Noha_Coder",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Noha_Coder For More Tools.",
+"likeCount": 41,
+"retweetCount": 28,
+"url": "https://x.com/Noha_Coder/status/2087584503632208071",
+"createdAt": "Wed Aug 12 16:58:25 +0000 2026"
+},
+{
+"userName": "arsalannazir07",
+"text": "Image Generation Prompt\n\nUltra-realistic luxury fashion editorial portrait of a handsome young man with thick, voluminous dark brown hair styled in a refined textured quiff, neatly faded sides, and a full, sharply groomed beard. He is shown in a sophisticated three-quarter close-up profile, looking downward with a calm, confident expression. He wears classic black rectangular sunglasses with subtle premium detailing, a textured black waffle-knit cardigan worn slightly open at the chest, and a minimalist luxury wristwatch with a black dial, slim silver case, and black leather strap.\n\nHis right hand naturally adjusts the collar of the cardigan, bringing attention to the watch and refined styling. Warm natural skin tones, realistic beard and individual hair strands, detailed skin texture, subtle facial pores, elegant masculine aesthetic. Clean turquoise-blue studio background with a softly blurred beige foreground, creating a premium contemporary contrast. Soft directional daylight from the upper left, gentle highlights along the face and hair, subtle shadows, cinematic depth of field, shallow background blur, sophisticated luxury campaign photography, premium menswear advertisement, understated elegance, photorealistic, high-end editorial photography, 85mm portrait lens, f/1.8, natural bokeh, crisp subject separation, realistic proportions, 8K detail, vertical composition, no text, no watermark.\n\nNegative prompt: cartoon, CGI, plastic skin, over-smoothed face, distorted hands, extra fingers, malformed watch, asymmetrical sunglasses, exaggerated muscles, oversaturated colors, artificial lighting, blurry face, low detail, duplicate accessories, warped anatomy.",
+"likeCount": 71,
+"retweetCount": 4,
+"url": "https://x.com/arsalannazir07/status/2087398384659525636",
+"createdAt": "Wed Aug 12 04:38:51 +0000 2026"
+},
+{
+"userName": "jiqizhixin",
+"text": "Ever wonder why training AI to create images and videos eats up so much computing power?\n\nResearchers at the University of Science and Technology of China and https://t.co/411myyJ4gs present DMSampler!\n\nDMSampler replaces slow 50-step sampling with a fast 4-to-8-step distilled model that acts as a quick proxy for the AI policy. It keeps updating itself alongside the policy so the samples stay accurate and aligned throughout training.\n\nIt outperforms previous diffusion RL methods on OCR, GenEval, and VBench benchmarks while cutting GPU hours by an order of magnitude.\n\nDistillation Models are Good Samplers for Diffusion Reinforcement Learning\n\nPaper: https://t.co/idngRaCxxW\nProject: https://t.co/32p38s0PMk\n\nOur report: https://t.co/LmozRHEFpi\n\n📬 #PapersAccepted by Jiqizhixin",
+"likeCount": 9,
 "retweetCount": 2,
-"url": "https://x.com/DrGhattasMD/status/2087049311435501929",
-"createdAt": "Tue Aug 11 05:31:46 +0000 2026"
+"url": "https://x.com/jiqizhixin/status/2087290713302335551",
+"createdAt": "Tue Aug 11 21:31:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AIatMeta: 🔗 Download Muse Glimmer on @huggingface: https://t.co/s7Lzb8MqCG\n\n🔗 Read the technical blog: https://t.co/X6htFnhRbc\n\n🔗 Find…",
-"likeCount": 561,
-"retweetCount": 73,
-"url": "https://x.com/ClementDelangue/status/2086762046247338037",
-"createdAt": "Mon Aug 10 10:30:16 +0000 2026"
+"text": "Local AI is exploding!\n\nTransformers.js, that we've been building @huggingface for the past three years has now become the most popular open-source library to run AI models directly in your browser and crossed 10 million (!!) monthly downloads, close to 10x from just six months ago.\n\nMore generally, I'm excited to see a meaningful percentage of AI workloads move to local because it's free & fully private! At a time of compute shortage & increased cyber-attack risks, we need it more than ever.\n\nLet's go!",
+"likeCount": 357,
+"retweetCount": 52,
+"url": "https://x.com/ClementDelangue/status/2087518483718545533",
+"createdAt": "Wed Aug 12 12:36:05 +0000 2026"
+},
+{
+"userName": "AleaSoft_EN",
+"text": "🤖 You can now try our virtual assistant on the AleaSoft website.\nAsk it, in any language, about our services and solutions for the energy sector.\n💬 Try it and let us know what you think:\n 👉 https://t.co/7i9AbrzJtm\n#AleaSoft #AI #Chatbot https://t.co/59XV6uFMIe",
+"likeCount": 1,
+"retweetCount": 3,
+"url": "https://x.com/AleaSoft_EN/status/2087441455887405259",
+"createdAt": "Wed Aug 12 07:30:00 +0000 2026"
+},
+{
+"userName": "rydcunningham",
+"text": "[new!] the technical companion to my piece with @ruima last week, significantly expanded\n\nnow includes training time estimates for Kimi K3 and \"DeepMythos V5,\" a hypothetical future Mythos-scale DS release\n\nplus a few other surprises https://t.co/GHQOw3VVyY",
+"likeCount": 24,
+"retweetCount": 2,
+"url": "https://x.com/rydcunningham/status/2085434224178303376",
+"createdAt": "Thu Aug 06 18:33:59 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
+"likeCount": 238,
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2085474143722742169",
+"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @AIatMeta: Introducing Muse Glimmer, an open-weight 30B-parameter model optimized for local, always-on agent workflows.\n\nMuse Glimmer de…",
-"likeCount": 8122,
-"retweetCount": 1043,
+"likeCount": 8188,
+"retweetCount": 1052,
 "url": "https://x.com/ClementDelangue/status/2086771654756122804",
 "createdAt": "Mon Aug 10 11:08:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cmpatino_: Agents want to collaborate.\n\nSo we’re putting that instinct to work on improving open-weight LLMs at formal math. Our latest…",
-"likeCount": 31,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2085351562461728802",
-"createdAt": "Thu Aug 06 13:05:31 +0000 2026"
+"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
+"likeCount": 3741,
+"retweetCount": 219,
+"url": "https://x.com/ClementDelangue/status/2086759243298873571",
+"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @allen_ai: We're expanding our partnership with @huggingface to accelerate open science.\n\nOur storage on the Hub is roughly tripling to…",
-"likeCount": 138,
-"retweetCount": 28,
+"likeCount": 139,
+"retweetCount": 29,
 "url": "https://x.com/ClementDelangue/status/2085356697900495066",
 "createdAt": "Thu Aug 06 13:25:55 +0000 2026"
 },
 {
 "userName": "Kazuqr61u",
 "text": "【SIGNALIA】\n\nA fictional fashion lookbook.\nOriginal characters, clothing, and visual studies.\n\nCreated with generative AI. https://t.co/GEpTSfmduh",
-"likeCount": 25,
+"likeCount": 28,
 "retweetCount": 1,
 "url": "https://x.com/Kazuqr61u/status/2086820630847271322",
 "createdAt": "Mon Aug 10 14:23:04 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Let’s go! Is Meta/@finkd coming back to the right side of history? https://t.co/20w16xzh25",
-"likeCount": 492,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2085141703216804032",
-"createdAt": "Wed Aug 05 23:11:36 +0000 2026"
+"userName": "MichaelGannotti",
+"text": "Check out the new Hermes Pixel Office https://t.co/b0WRbwciia",
+"likeCount": 4,
+"retweetCount": 1,
+"url": "https://x.com/MichaelGannotti/status/2087034182518132836",
+"createdAt": "Tue Aug 11 04:31:38 +0000 2026"
 },
 {
-"userName": "ivanainai",
-"text": "https://t.co/awo6YWxPWv",
-"likeCount": 11,
-"retweetCount": 4,
-"url": "https://x.com/ivanainai/status/2086528930362871848",
-"createdAt": "Sun Aug 09 19:03:57 +0000 2026"
+"userName": "RomaTesla",
+"text": "A few thoughts on craft, AI and stuff https://t.co/q8CqVV0izx",
+"likeCount": 18,
+"retweetCount": 1,
+"url": "https://x.com/RomaTesla/status/2086755788387659782",
+"createdAt": "Mon Aug 10 10:05:24 +0000 2026"
 }
 ]

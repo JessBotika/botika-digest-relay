@@ -1,122 +1,122 @@
 [
 {
-"userName": "petsreid_",
-"text": "POV ur my gf. \n\nI’m using -  @bfl_ai \n\nAn ultra-realistic handheld travel vlog filmed by a friend following the main character throughout the day in Bandung, Indonesia. Use the woman from the reference image as the main subject. Portray her as an Indonesian woman naturally exploring Bandung. Maintain her exact facial identity, hairstyle, facial features, skin tone, and body proportions consistently throughout the entire video.\n\nThe camera should feel like a genuine personal vlog camera rather than a commercial production. Use natural handheld movement, casual framing, subtle imperfections in human camera operation, and an authentic everyday Indonesian atmosphere. Avoid scripted acting. The woman behaves naturally, interacting with her surroundings as she would in a real travel vlog.\n\n**Morning departure — Bandung neighborhood**\n\nThe woman leaves a cozy modern apartment or guesthouse in Bandung carrying a small backpack. She checks her phone, smiles toward the camera, adjusts her hair, and begins walking outside. The camera follows her from behind with slight natural shakiness, as if a close friend is casually filming her.\n\nThe morning atmosphere should immediately feel like Bandung: cool fresh air, cloudy-bright morning light, green trees, quiet residential streets, motorcycles passing occasionally, local residents starting their day, and authentic Indonesian architecture. Avoid tropical beach scenery.\n\n**Exploring Bandung**\n\nThe camera follows her through the streets of Bandung. She visits a cozy local café with a modern Bandung aesthetic, orders an iced coffee or local drink, briefly talks to the camera, and laughs naturally.\n\nShe then continues walking through a lively Bandung neighborhood, passing small local shops, street food vendors, motorcycles, pedestrians, and vintage-style buildings. Include recognizable Bandung atmosphere inspired by areas such as Braga and Dago without making the scene feel like a tourist advertisement.\n\nShe casually takes photos with her phone while looking around. The camera remains close to her, capturing spontaneous everyday moments.\n\n**Golden-hour ending**\n\nGolden-hour light begins to appear over the Bandung hills.\n\nShe sits at an outdoor viewpoint overlooking the city, holding a drink while quietly watching the sunset. The atmosphere becomes calm and intimate.\n\nThe camera slowly moves backward, gradually revealing her, the café terrace, surrounding trees, the Bandung skyline, distant hills, and the warm evening atmosphere.\n\nThe final moment should feel like a genuine personal travel memory captured spontaneously by a close friend.\n\n**Visual style:**\n\nUltra-realistic authentic Indonesian travel-vlog footage. Ultra-realistic smartphone or mirrorless-camera appearance. Natural Bandung daylight and believable environmental lighting. Cool morning atmosphere transitioning into warm golden-hour light.\n\nCasual handheld movement with subtle camera shake and imperfect human operation. Genuine human reactions and spontaneous interactions. Documentary-level realism with highly detailed skin, hair, clothing, Indonesian streets, café interiors, vegetation, motorcycles, buildings, food, and natural environmental textures.\n\nAuthentic Bandung atmosphere. Modern Indonesian lifestyle. Natural Indonesian fashion. Realistic local people and everyday activity.\n\nNo cinematic commercial aesthetic. No dramatic posing. No artificial transitions. No text overlays. No logos. No face changes. No identity changes. No exaggerated beauty filters. No unrealistic skin smoothing.\n\nThe entire 30-second generation should feel like one continuous, coherent day in Bandung captured by a real friend — not a collection of disconnected AI-generated scenes.\n\nMaintain the exact same woman, facial identity, hairstyle, clothing, body proportions, and visual appearance throughout the entire video.",
-"likeCount": 22,
-"retweetCount": 0,
-"url": "https://x.com/petsreid_/status/2087399691147489379",
-"createdAt": "Wed Aug 12 04:44:03 +0000 2026"
-},
-{
-"userName": "shushant_l",
-"text": "I'm shocked most people use an Android phone like it's still 2014.\n\nHere are 10 Android hacks that'll make your phone feel like it secretly got promoted.\n\n---\n\n1. Circle to Search lets you search whatever is on your screen without doing the sacred ritual of opening 17 apps.\n\n---\n\n2. Circle an image, product, place, or text and Google basically goes, \"Yep, I know that thing.\"\n\n---\n\n3. Use AI features for photo editing, rewriting, summaries, translation, transcription, and pretending manual work never existed.\n\n---\n\n4. Automate routines so your phone changes settings by itself instead of waiting for its human manager.\n\n---\n\n5. Make WiFi, battery saver, silent mode, and apps trigger automatically because tapping buttons is apparently a full-time job.\n\n---\n\n6. Turn on Adaptive Battery and limit background apps so your battery stops disappearing like your weekend.\n\n---\n\n7. Dark mode can also help reduce power consumption on phones with OLED displays while making everything look 73% cooler.\n\n---\n\n8. Unlock Developer Options by tapping Build Number seven times, which sounds suspiciously like entering a cheat code.\n\n---\n\n9. Developer Options give you access to animation tweaks, debugging tools, and advanced controls your grandma definitely shouldn't touch.\n\n---\n\n10. Review camera, microphone, location, and app permissions because your calculator probably doesn't need to know where you had lunch.\n\n---\n\n11. Split Screen lets you watch something while taking notes, bringing desktop-level procrastination straight to your pocket.\n\n---\n\n12. Research and write side by side instead of switching apps every six seconds and forgetting why you switched.\n\n---\n\n13. Check Notification History to find that notification you accidentally swiped away at Formula 1 speed.\n\n---\n\n14. Use priority alerts and silent notifications so your phone stops screaming about every discount, meme, and app update.\n\n---\n\n15. Enable Find My Device because \"I'll never lose my phone\" is famous last-words material.\n\n---\n\n16. Theft Detection Lock can help protect your phone when someone decides your Android should become their Android.\n\n---\n\n17. Offline Lock adds protection even when your phone loses connectivity, because thieves aren't always generous with WiFi.\n\n---\n\n18. Keep security updates installed because \"Update later\" should not become a five-year personal philosophy.\n\n---\n\n19. Learn gestures for screenshots, one-handed mode, Quick Tap, camera launching, and other tiny shortcuts that save ridiculous amounts of tapping.\n\n---\n\n20. Customize Quick Settings so the controls you actually use are available before your thumb files a workplace complaint.\n\n---\n\nTo learn more, check the infographic.\n\n---\n\nGet all my visual guides for free here: https://t.co/p3DBZe1GLQ\n\n---",
-"likeCount": 23,
-"retweetCount": 4,
-"url": "https://x.com/shushant_l/status/2086798979656978722",
-"createdAt": "Mon Aug 10 12:57:02 +0000 2026"
-},
-{
-"userName": "chiboy0123",
-"text": "I built MirrorProof; a trust layer for AI clothing virtual try on.\n\nVirtual try on can generate an nice image, but it rarely answers the important question:\nDid the virtual preview accurately represent what the customer actually received?\n\nMost virtual try on products stop after generating the preview.\nMirrorProof introduces a second stage: after the garment arrives, the shopper uploads a new photo while physically wearing it.\nThe application then compares the preview with reality.\n\nThe workflow is simple:\n* Upload a consented person photo\n* Upload the garment image\n* Generate a live YouCam preview\n*Save the verification\n* Upload a physical wearing photo\n* Review the visible differences\n\nThe virtual preview comes from the live YouCam API, while the reliability result is calculated from the images submitted during that verification.\nIf no real comparison exists, no score is shown.\n\nThe Preview Reliability Score combines five visible consistency metrics:\n* Colour - 30%\n* Pattern and texture - 25%\n* Silhouette -20%\n* Garment length - 15%\n* Person preservation - 10%\n\nThe weights are versioned and explainable.\n\nMirrorProof also calculates analysis confidence, before presenting a score, it checks factors such as:\n* Resolution\n* Lighting\n* Sharpness\n* Torso visibility\n* Image alignment\n* Obstructions\n* Whether the two images are actually different\n\nThe result is designed to be inspectable not just impressive.\n\nThe users receive:\n\n* An overall reliability score\n* Analysis confidence\n* Five component scores\n* Plain-language explanations\n* A preview-versus-reality slider\n* Clear limitations\n\nMirrorProof is deliberately honest about what it cannot measure.\nIt does not guarantee:\n*  Exact sizing\n* Comfort\n* Fabric quality\n* Construction quality\n* Stretch\n* Medical suitability\n* How the garment behaves during movement\n\nPrivacy is also important.\nThe physical comparison is processed transiently in server memory and is not uploaded to Supabase by that step.\nYouCam separately processes the source images required to generate the virtual preview, and API credentials remain server-side.\n\nThere is also a retailer evidence view.\nRetailers can review completed comparisons, average reliability, confidence, weak metrics and product-level status.\n\nTry it now:\nhttps://t.co/ptfhkwPNq9\n\nGitHub repo; https://t.co/VeNHE0CmvS",
-"likeCount": 14,
-"retweetCount": 5,
-"url": "https://x.com/chiboy0123/status/2086713226939555933",
-"createdAt": "Mon Aug 10 07:16:17 +0000 2026"
-},
-{
-"userName": "maeveknows",
-"text": "15 Free AI Tools From Google\n\nGoogle quietly ships more free AI tooling than almost anyone else in the game.\n\nMost people know Gemini. Fewer know the other 14 tools sitting right next to it, free to start, no subscription required.\n\nLet’s dive into the list:\n\nCREATE\n\n1. Imagen - Google's dedicated text-to-image model. Simple prompt, high-quality image.\n\n2. Nano Banana 2 - Gemini's native image generator and editor. Create and remix images in one chat thread, with consistent characters across edits.\n\n3. Veo - Turns a text prompt into a short video clip or animation.\n\n4. Google Flow - An AI filmmaking studio for cinematic scenes and stories. Absorbed Whisk's remixing tools in early 2026.\n\nBUILD\n\n5. Firebase Studio - Prompt an app or website into existence and launch it.\n\n6. Google Stitch - Describe or sketch a screen, get a working UI design plus exportable code. A free first draft before Figma.\n\n7. Opal- Chain prompts into shareable AI mini-apps. No code required.\n\n8. Jules- An autonomous coding agent that reads your codebase, fixes bugs, and ships pull requests on its own.\n\n9. Google Colab - Free notebooks with GPU/TPU access for running AI and data science code.\n\nLEARN & RESEARCH\n\n10. NotebookLM - Upload your own sources and get summaries, mind maps, audio/video overviews, and quizzes grounded only in your material.\n\n11. Gemini Ask on YouTube - Chat with any video to pull out chapters, answers, and key insights.\n\n 12. Google AI Studio - Test Gemini models, tune settings, and compare prompt outputs side by side.\n\nEVERYDAY WORK\n\n13. Gemini in Google Sheets - Generate formulas, text, and insights without leaving the spreadsheet.\n\n14. Gems in Gemini - Build a custom AI assistant trained on your own files and instructions.\n\n15. Gemini Live - Real-time voice conversations with screen sharing, for meetings and walkthroughs.\n\nDon't pay for tools Google already gives away for free. Free tiers are usage-capped and change often, so double-check current limits before you build a workflow around one.\n\nStart building, creating, and exploring today.",
-"likeCount": 24,
-"retweetCount": 0,
-"url": "https://x.com/maeveknows/status/2087208673726906830",
-"createdAt": "Tue Aug 11 16:05:00 +0000 2026"
-},
-{
-"userName": "ml_angelopoulos",
-"text": "Today, we are announcing Arena's factuality leaderboards, which evaluate the objective performance of AI models in reality and guard against hallucinations.\n\nArena's chat leaderboard has historically focused on human preference. Although our style control methodology adjusts for the effect of emojis, response length, and other stylistic factors, we wanted a more direct way of measuring objective signals of chatbot utility and anti-hallucination.\n\nHence, we developed the factuality leaderboards, which speak to the fraction of correct factual claims that a model makes. We basically extract all factual claims and cross-reference them against the internet to ensure they are based in evidence. Models that are supporting their claims with stronger evidence get a better score, and this gives a strong basis for objective performance beyond preference alone.\n\nThe big winners, as you can see on this plot, are OpenAI and Grok. Notably, Claude models, as well as Ernie and Muse-Spark-1.1, decrease in ranking.\n\nWe're so excited to share this with you! Hope you enjoy!",
-"likeCount": 97,
-"retweetCount": 10,
-"url": "https://x.com/ml_angelopoulos/status/2085134740693422379",
-"createdAt": "Wed Aug 05 22:43:56 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "This is a good thing, not a scary thing that agents can collaborate and communicate with each other. It will make them more efficient and safer just like humans.\n\nIf you want to see agents collaborating and messaging each other publicly instead of in secret messaging boards, we’ve run this fascinating experiment with 149 agents with @googlegemma a few weeks ago, and now @cmpatino_ is starting a new one for agents to collaborate to write better math proofs. \n\nhttps://t.co/TOn3Z1NW3p \n\nhttps://t.co/XzHgIlFuif",
-"likeCount": 382,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2085407397850325471",
-"createdAt": "Thu Aug 06 16:47:23 +0000 2026"
-},
-{
-"userName": "SirAlexanderrr",
-"text": "40 AI tools worth knowing in 2026. Start with these 12:\n1. Gemini (AI research)\n\n2. Claude (long-form writing)\n\n3. https://t.co/uBdMD2Te5R (AI video creation)\n\n4. Midjourney (image generation)\n\n5. DALL-E 3 (visual concepts)\n\n6. Runway (video editing)\n\n7. ElevenLabs (AI voices)\n\n8. Suno (music generation)\n\n9. Notion AI (planning)\n\n10. Otter. ai (meeting notes)\n\n11. GitHub Copilot (coding)\n\n12. Zapier AI (automation)\n\nSave this cheat sheet. Which tool do you use most?",
-"likeCount": 5,
+"userName": "Axel_bitblaze69",
+"text": "Elon is really making moves with xAI and Cursor merger.. \n\nin less than a week we've gotten:\n\n- Image 2.0 - Grok Bot - and now Grok 4.6 today\n\nand these aren't 3 random AI launches either.\n\nImage 2.0 creates and edits the visuals. i’d say the best.. better than even GPT image 2.0\n\nGrok 4.6 does the harder thinking, research and building.\n\nCursor + Grok Build give it a place to actually work..\n\nGrok Bot takes that work into the apps and websites you already use.\n\nthey're basically assembling the whole stack at once.\n\nbut coming back to Grok 4.6\n\nyou probably won't see 4.6 in the regular Grok model picker yet.\n\nright now it's available inside Cursor, Grok Build, the xAI API, OpenRouter, Vercel and Cloudflare.\n\nso what actually got better?\n\nthe simple answer is that 4.6 is built for the jobs where AI usually starts well, works for 20 minutes and then completely loses the plot..\n\nyou can give it a rough idea and it can research the problem, make a plan, work across a large codebase, build the first version, test it and keep fixing what doesn't work.\n\nthe useful parts for us:\n\n500k context, so you can hand it a huge pile of files, research or code without constantly explaining everything again\n\nit can understand screenshots, charts and images along with text\n\nmuch better at turning a rough app idea into a working first version\n\nbetter at long research or coding tasks with many steps.. more likely to test its own work before claiming it's finished..\n\nwhat i'd actually try with it:\n\n“here's my entire research folder, these charts and the project docs. find the strongest thesis, challenge it and build me a dashboard around the result.”\n\nor:\n\n“here's an app idea. research the market, plan the product, build the first version and keep testing until the core flow works.”\n\nthat's the type of prompt 4.6 is made for.\n\nhow you can use it right now:\n\nthe easiest way is Cursor. \n\nopen the model picker and choose Grok 4.6.\n\nor install Grok Build from https://t.co/IikKAUaJS0 and use it from your terminal.\n\ndevelopers can use grok-4.6 through the xAI API.\n\nCursor and Grok Build are also giving 2x included usage for the first week.\n\nAPI pricing starts at $2 per million input tokens and $6 per million output tokens. \n\nthe fast version costs twice as much.\n\none thing worth understanding though..\n\nGrok 4.6 is the model. \n\nGrok Bot is the product that goes into your apps and does the job.\n\nand 4.6 itself doesn't generate images or videos. that's still handled by Grok Imagine/Image 2.0.\n\nso if you only use AI to rewrite one paragraph or ask a quick question, this launch probably changes nothing for you.\n\nbut if you're using AI to research, code or keep working until an actual thing is finished..\n\nthat's where i'd test 4.6.\n\ndon't ask it to write an email… nahhh \n\ngive it the annoying 60-minute job your current AI always falls apart halfway through..",
+"likeCount": 25,
 "retweetCount": 3,
-"url": "https://x.com/SirAlexanderrr/status/2086858309244461537",
-"createdAt": "Mon Aug 10 16:52:47 +0000 2026"
+"url": "https://x.com/Axel_bitblaze69/status/2087572644061425733",
+"createdAt": "Wed Aug 12 16:11:18 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Fortunately AI agents don't just cyberattack us. They also use us more than ever for what we're actually built for: the storage and collaboration layer for AI 😅\n\nNew record: almost 4 PB of private & public training datasets, models, and agent traces added to Hugging Face last week.",
-"likeCount": 513,
-"retweetCount": 57,
-"url": "https://x.com/ClementDelangue/status/2085326999120122178",
-"createdAt": "Thu Aug 06 11:27:54 +0000 2026"
+"userName": "HonNoah93",
+"text": "HON. NOAH AHMED — EMPOWERING THE GEN Z GENERATION\n\nHon. Noah Ahmed’s proposed vision for young people is built on one fundamental principle: young people should not only be the leaders of tomorrow—they should have meaningful opportunities to contribute today.\n\nHis youth empowerment agenda would focus on turning the energy, creativity and innovation of Gen Z into skills, businesses, employment and sustainable livelihoods across Taraba State.\n\nUnder this proposed vision, youth development would include:\n\n💡 TECHNOLOGY & DIGITAL SKILLS\nCreate opportunities for young people to learn AI, cybersecurity, software development, digital marketing, graphics, content creation and other emerging technologies.\n\n🚀 STARTUP & BUSINESS SPONSORSHIP\nSupport promising youth-owned businesses through transparent grants, equipment, mentorship and access to business development programmes—not just one-time handouts.\n\n🎓 EDUCATION & SCHOLARSHIPS\nExpand opportunities for scholarships, vocational training, professional certifications and technical education so that financial hardship does not prevent talented young people from developing their potential.\n\n🎨 CREATIVE INDUSTRY SUPPORT\nProvide structured support for musicians, filmmakers, photographers, designers, writers, fashion entrepreneurs and other creatives through training, sponsorship and platforms for showcasing their work.\n\n⚽ SPORTS DEVELOPMENT\nInvest in grassroots sports by supporting young athletes, coaches and sporting programmes, while creating pathways for talented youths to compete at higher levels.\n\n💼 JOBS, INTERNSHIPS & ENTREPRENEURSHIP\nBuild partnerships with private businesses and institutions to create internships, apprenticeships and employment opportunities while helping young entrepreneurs develop sustainable enterprises.\n\n🏢 YOUTH INNOVATION CENTRES\nDevelop spaces where young people can access training, internet connectivity, mentorship, technology and collaborative opportunities.\n\nA NEW APPROACH TO YOUTH SPONSORSHIP\n\nThe goal should be to move from “giving young people something” to “giving young people the tools to build something.”\n\nEvery sponsorship programme should be transparent, merit-based and accessible to young people across communities and local government areas.\n\nHON. NOAH AHMED’S MESSAGE TO THE GEN Z GENERATION:\n\n> “Your ideas matter. Your talent matters. Your future matters. Government should create an environment where a young person with an idea, skill or dream has a genuine opportunity to turn that potential into reality.”\n\nEmpower the youth. Invest in talent. Sponsor innovation. Create opportunity. Build a stronger Taraba.",
+"likeCount": 7,
+"retweetCount": 5,
+"url": "https://x.com/HonNoah93/status/2086887661378347354",
+"createdAt": "Mon Aug 10 18:49:25 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
-"likeCount": 241,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2085474143722742169",
-"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
+"userName": "Yosefphr",
+"text": "GM X FAM 🌅 \nHAPPY TACO DAY 🌮 \n\nThe Real Bottleneck in Web3\n\n➩ We spend an incredible amount of time arguing about tokenomics, governance wrappers, and short-term market pumps, completely ignoring the mechanical friction that actually kills projects.\n\nEvery single developer entering this space hits the same invisible wall. You have a genuinely great concept, a working prototype, or an AI-assisted workflow ready to ship, but the moment you try to actually deploy it as a standalone network, reality sets in.\n\nYou are suddenly forced to spend months dealing with validator bootstrapping, consensus headaches, and custom infrastructure plumbing just to reach day one.\n\n➩ That is why the architecture behind @CNPYNetwork caught my attention.\nInstead of treating every new application like it needs to reinvent the wheel or fight for congested monolithic blockspace, it tackles the lifecycle of a project in a much smarter way.\n\nStarting out with nested execution and shared security lets you test your ideas in a live, functional environment without burning months of runway on backend setup.\n\nThen, as the product finds its footing and the actual footprint of the community becomes clear, you have a clean pathway to graduate into your own sovereign chain.\n\nNo messy re-genesis. No breaking the underlying history. Just infrastructure that scales alongside the actual maturity of the product.\n\n➩ When you look at ecosystem traction like thousands of active virtual chains and builders actually deploying real applications instead of just writing whitepapers, it becomes obvious that modular, adaptive architecture is where the industry is heading.\n\nThe tooling is finally catching up to what developers have been asking for years.",
+"likeCount": 308,
+"retweetCount": 23,
+"url": "https://x.com/Yosefphr/status/2087040277902975377",
+"createdAt": "Tue Aug 11 04:55:52 +0000 2026"
+},
+{
+"userName": "gurtej__gill_",
+"text": "This Paper is one of the cleverest solutions I’ve seen for fixing Diffusion Alignment.\n\nIf you’ve worked with RLHF or Reward Backprop on DiTs, you must be tired of delayed feedback. \n\nEvaluating only the final image makes credit assignment a total nightmare. \n\nYou either run out of VRAM trying to unroll the full trajectory, or you fight insane gradient variance with online RL.\n\nThe authors solve this by sticking learnable, position-free \"register tokens\" into a frozen DiT. \n\nInstead of waiting until step 50, these registers pull dense reward signals directly out of noisy intermediate latents. \n\nIt turns out you can accurately judge trajectory quality surprisingly early in the denoising process.\n\nWhat makes this paper stand out is how practical the applications are:\n\n1-For training: Their distillation setup (RG-OPD) skips standard policy gradients entirely and hits the same alignment performance while using up to 33x fewer GPU hours. That’s huge for making alignment accessible.\n\n2-For inference: You can use their Reward-Guided Sampling (RGS) to steer generation live off these register gradients thus improving both prompt adherence and visual quality without retraining or touching model weights.\n\nIt’s a super clean, well thought-out approach that addresses both the compute bottleneck and inference control at once. \n\nDefinitely worth a read if you're working on generative models:\nhttps://t.co/tfkSPmYwiU",
+"likeCount": 41,
+"retweetCount": 10,
+"url": "https://x.com/gurtej__gill_/status/2086412441366266137",
+"createdAt": "Sun Aug 09 11:21:04 +0000 2026"
+},
+{
+"userName": "itsPolloAI",
+"text": "Take complete control of your commercial video ads with https://t.co/POwZa8nySK.\nOur multi-reference generation tool allows creators and brands to seamlessly translate detailed fashion references into high-definition, dynamic video spots with unmatched precision. \n\nRight now, all you have to do is like this post, follow @itsPolloAI, and comment “Pollo” below, and we’ll send you the 50% OFF Seedance 2.5 offer link via DM, so don’t forget to check your inbox! \n\nExperience the future of commercial production at https://t.co/POwZa8nySK.",
+"likeCount": 86,
+"retweetCount": 4,
+"url": "https://x.com/itsPolloAI/status/2086799734627528880",
+"createdAt": "Mon Aug 10 13:00:02 +0000 2026"
+},
+{
+"userName": "Vtrivedy10",
+"text": "we’re in for another boom of cool interpretability research like The Lottery Ticket Hypothesis & Manifold Hypothesis with the rise of frontier open models\n\nget to really dig into how frontier intelligence is able to model concepts across modalities (text, image, video, audio)\n\nand how LLMs mechanistically execute search programs during rollouts to find the right trajectories across tasks",
+"likeCount": 17,
+"retweetCount": 1,
+"url": "https://x.com/Vtrivedy10/status/2087640239472840938",
+"createdAt": "Wed Aug 12 20:39:54 +0000 2026"
+},
+{
+"userName": "beffjezos",
+"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
+"likeCount": 73,
+"retweetCount": 1,
+"url": "https://x.com/beffjezos/status/2086282858428322160",
+"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
+},
+{
+"userName": "hasantoxr",
+"text": "The model also predicts how long a video should be before diffusion begins.\n\nA dedicated duration head reads the prompt and chooses a suitable clip length.\n\nTraining now uses a larger dataset, followed by RL post-training tuned to human preference. https://t.co/JH39Kp848I",
+"likeCount": 3,
+"retweetCount": 1,
+"url": "https://x.com/hasantoxr/status/2087264006298059193",
+"createdAt": "Tue Aug 11 19:44:53 +0000 2026"
+},
+{
+"userName": "guillermoyns",
+"text": "Stablecoin neobanks are becoming incredibly easy to build, and increasingly hard to tell apart.\n\nI spent the last few days thinking about what remains genuinely hard to copy. I call it UnAPIable. https://t.co/esMNEDQ4lG",
+"likeCount": 16,
+"retweetCount": 0,
+"url": "https://x.com/guillermoyns/status/2087165898620641504",
+"createdAt": "Tue Aug 11 13:15:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @finkd: Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also r…",
-"likeCount": 30023,
-"retweetCount": 2539,
+"likeCount": 30278,
+"retweetCount": 2551,
 "url": "https://x.com/ClementDelangue/status/2086759116635058346",
 "createdAt": "Mon Aug 10 10:18:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
-"likeCount": 3723,
-"retweetCount": 219,
-"url": "https://x.com/ClementDelangue/status/2086759243298873571",
-"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
+"text": "RT @mkratsios47: Open-weight models put American AI innovation directly into the hands of developers, researchers, and startups. This is ex…",
+"likeCount": 1041,
+"retweetCount": 138,
+"url": "https://x.com/ClementDelangue/status/2086966079738232904",
+"createdAt": "Tue Aug 11 00:01:02 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @vast_ai: Hugging Face Storage Buckets are now on https://t.co/2WHvjspuyh\n\nConnect your HF Storage Bucket as a Cloud Connection in your…",
-"likeCount": 83,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2085426695704604923",
-"createdAt": "Thu Aug 06 18:04:04 +0000 2026"
+"userName": "DevDsgn",
+"text": "How I turned random references into a consistent set of AI hero images.\n\nHere’s the full process, prompts, and revisions I used 👇 https://t.co/og9qc7Swxv",
+"likeCount": 132,
+"retweetCount": 8,
+"url": "https://x.com/DevDsgn/status/2087414239174783064",
+"createdAt": "Wed Aug 12 05:41:51 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
-"likeCount": 69,
-"retweetCount": 4,
+"likeCount": 112,
+"retweetCount": 8,
 "url": "https://x.com/jeremyphoward/status/2087412546232070195",
 "createdAt": "Wed Aug 12 05:35:07 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "Meta is back! well done @finkd @alexandr_wang! https://t.co/gWvkuDeHzF",
-"likeCount": 1652,
-"retweetCount": 96,
+"likeCount": 1655,
+"retweetCount": 95,
 "url": "https://x.com/ClementDelangue/status/2086760700014203090",
 "createdAt": "Mon Aug 10 10:24:55 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/GxHWXxwJOE",
-"likeCount": 125,
-"retweetCount": 132,
-"url": "https://x.com/Ambani_Wessley/status/2086866627447173620",
-"createdAt": "Mon Aug 10 17:25:50 +0000 2026"
+"userName": "ShifuBroke",
+"text": "https://t.co/NpQPUh9TRx",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/ShifuBroke/status/2087474700309922282",
+"createdAt": "Wed Aug 12 09:42:06 +0000 2026"
 }
 ]

@@ -1,122 +1,122 @@
 [
 {
-"userName": "Rukkssss__",
-"text": "𝟭𝟰.𝟯𝟱 𝗯𝗶𝗹𝗹𝗶𝗼𝗻 𝘁𝗼𝗸𝗲𝗻𝘀 𝗶𝗻 𝗼𝗻𝗲 𝗱𝗮𝘆 𝗶𝘀 𝗻𝗼𝘁 𝗷𝘂𝘀𝘁 𝗮 𝘂𝘀𝗮𝗴𝗲 𝘀𝘁𝗮𝘁𝗶𝘀𝘁𝗶𝗰.\n\nIt is what happens when an AI platform stops behaving like a showroom for models and starts behaving like infrastructure.\n\nOn August 4, https://t.co/YpD1NBsBFD reported that after integrating Qwen3.8-Max, daily compute throughput for the model surpassed 14.35 billion tokens—a recent high for the ecosystem.\n\nThink about what 14.35 billion tokens actually means.\n\nNot one impressive prompt.\n\nNot one developer testing a new model.\n\nMillions of fragments of work moving through the same access layer:\n\nCode being inspected.\n\nDocuments being analysed.\n\nImages being understood.\n\nAgents planning their next action.\n\nRepositories being searched.\n\nResearch being synthesised.\n\nApplications making API calls while their users never even see the model underneath.\n\nThat is the part of the AI economy people often miss.\n\n𝗧𝗵𝗲 𝗺𝗼𝗱𝗲𝗹 𝗶𝘀 𝗼𝗻𝗹𝘆 𝗼𝗻𝗲 𝗹𝗮𝘆𝗲𝗿.\n\nSomeone still has to make the model reachable.\n\nBill the request.\n\nMeasure the tokens.\n\nHandle different providers.\n\nExpose a usable API.\n\nGive developers visibility into consumption.\n\nAllow another model to take over when the workload changes.\n\nAnd keep doing this when demand suddenly becomes enormous.\n\nhttps://t.co/YpD1NBsBFD is positioning itself around that layer.\n\nIts current catalogue already spans model families from OpenAI, Anthropic, Google, DeepSeek, xAI, https://t.co/wARwt37KQR, Moonshot and Qwen rather than forcing every developer into one intelligence provider.\n\nNow imagine an AI company processing 100,000 tasks.\n\nTask 1 is simple extraction.\n\nUsing the most expensive reasoning model would waste money.\n\nTask 2 requires analysis across an enormous codebase.\n\nA lightweight model may fail.\n\nTask 3 contains images and text.\n\nTask 4 is an agent running a long sequence of tool calls.\n\nTask 5 needs a fast answer because a human is waiting.\n\nThe intelligent decision is not:\n\n“Which model is the best?”\n\nThere is no universally best model.\n\nThe useful question is:\n\nWhich model gives this particular workload the right combination of capability, speed and cost?\n\nThis is why https://t.co/YpD1NBsBFD’s expanding model layer matters.\n\nQwen3.8-Max itself illustrates the direction.\n\nhttps://t.co/YpD1NBsBFD documents it with a Mixture-of-Experts architecture, multimodal text/image/video input and long-context capabilities intended for coding, professional knowledge work and agentic workloads.\n\nBut tomorrow the strongest model for another job may come from somewhere else.\n\nThat should not require the developer to rebuild the entire product.\n\nThe application should remain.\n\nThe workflow should remain.\n\nThe API relationship should remain manageable.\n\nThe intelligence underneath should be replaceable.\n\nThat becomes even more important for AI agents.\n\nA serious agent may perform twenty different cognitive jobs during one objective.\n\nClassification.\n\nSearch.\n\nPlanning.\n\nCoding.\n\nVision.\n\nReasoning.\n\nSummarisation.\n\nVerification.\n\nWhy should all twenty automatically go through the same model?\n\nhttps://t.co/YpD1NBsBFD’s Auto Mode already moves toward request-level model selection, while its billing records charge according to the model actually used, tokens consumed and applicable tool usage rather than pretending “Auto” is one mysterious model.\n\nThis creates something much more interesting than another AI chat interface.\n\n𝗜𝘁 𝗰𝗿𝗲𝗮𝘁𝗲𝘀 𝗮 𝗺𝗮𝗿𝗸𝗲𝘁 𝗳𝗼𝗿 𝗶𝗻𝘁𝗲𝗹𝗹𝗶𝗴𝗲𝗻𝗰𝗲.\n\nModels compete on:\n\nCapability.\n\nLatency.\n\nContext.\n\nMultimodality.\n\nReasoning depth.\n\nAnd cost.\n\nDevelopers consume whichever intelligence fits the workload.\n\nUsers pay for actual usage.\n\nAgents can eventually treat models as interchangeable computational resources rather than personalities they are permanently married to.\n\nAnd that is why the 14.35 billion-token day matters.\n\nThe number is not impressive because tokens are inherently valuable.\n\nIt is impressive because every token represents demand passing through an abstraction layer connecting users, applications and different forms of machine intelligence.\n\nThe future AI platform may not win by building the one model that defeats every other model.\n\nIt may win by becoming the place where every useful model can compete to perform the next job.\n\nThat is the infrastructure game https://t.co/YpD1NBsBFD is beginning to play.\n\n@BAI_AGI @justinsuntron\n\n #TRONEcoStar",
-"likeCount": 25,
+"userName": "petsreid_",
+"text": "POV ur my gf. \n\nI’m using -  @bfl_ai \n\nAn ultra-realistic handheld travel vlog filmed by a friend following the main character throughout the day in Bandung, Indonesia. Use the woman from the reference image as the main subject. Portray her as an Indonesian woman naturally exploring Bandung. Maintain her exact facial identity, hairstyle, facial features, skin tone, and body proportions consistently throughout the entire video.\n\nThe camera should feel like a genuine personal vlog camera rather than a commercial production. Use natural handheld movement, casual framing, subtle imperfections in human camera operation, and an authentic everyday Indonesian atmosphere. Avoid scripted acting. The woman behaves naturally, interacting with her surroundings as she would in a real travel vlog.\n\n**Morning departure — Bandung neighborhood**\n\nThe woman leaves a cozy modern apartment or guesthouse in Bandung carrying a small backpack. She checks her phone, smiles toward the camera, adjusts her hair, and begins walking outside. The camera follows her from behind with slight natural shakiness, as if a close friend is casually filming her.\n\nThe morning atmosphere should immediately feel like Bandung: cool fresh air, cloudy-bright morning light, green trees, quiet residential streets, motorcycles passing occasionally, local residents starting their day, and authentic Indonesian architecture. Avoid tropical beach scenery.\n\n**Exploring Bandung**\n\nThe camera follows her through the streets of Bandung. She visits a cozy local café with a modern Bandung aesthetic, orders an iced coffee or local drink, briefly talks to the camera, and laughs naturally.\n\nShe then continues walking through a lively Bandung neighborhood, passing small local shops, street food vendors, motorcycles, pedestrians, and vintage-style buildings. Include recognizable Bandung atmosphere inspired by areas such as Braga and Dago without making the scene feel like a tourist advertisement.\n\nShe casually takes photos with her phone while looking around. The camera remains close to her, capturing spontaneous everyday moments.\n\n**Golden-hour ending**\n\nGolden-hour light begins to appear over the Bandung hills.\n\nShe sits at an outdoor viewpoint overlooking the city, holding a drink while quietly watching the sunset. The atmosphere becomes calm and intimate.\n\nThe camera slowly moves backward, gradually revealing her, the café terrace, surrounding trees, the Bandung skyline, distant hills, and the warm evening atmosphere.\n\nThe final moment should feel like a genuine personal travel memory captured spontaneously by a close friend.\n\n**Visual style:**\n\nUltra-realistic authentic Indonesian travel-vlog footage. Ultra-realistic smartphone or mirrorless-camera appearance. Natural Bandung daylight and believable environmental lighting. Cool morning atmosphere transitioning into warm golden-hour light.\n\nCasual handheld movement with subtle camera shake and imperfect human operation. Genuine human reactions and spontaneous interactions. Documentary-level realism with highly detailed skin, hair, clothing, Indonesian streets, café interiors, vegetation, motorcycles, buildings, food, and natural environmental textures.\n\nAuthentic Bandung atmosphere. Modern Indonesian lifestyle. Natural Indonesian fashion. Realistic local people and everyday activity.\n\nNo cinematic commercial aesthetic. No dramatic posing. No artificial transitions. No text overlays. No logos. No face changes. No identity changes. No exaggerated beauty filters. No unrealistic skin smoothing.\n\nThe entire 30-second generation should feel like one continuous, coherent day in Bandung captured by a real friend — not a collection of disconnected AI-generated scenes.\n\nMaintain the exact same woman, facial identity, hairstyle, clothing, body proportions, and visual appearance throughout the entire video.",
+"likeCount": 81,
 "retweetCount": 4,
-"url": "https://x.com/Rukkssss__/status/2086867866884747653",
-"createdAt": "Mon Aug 10 17:30:46 +0000 2026"
+"url": "https://x.com/petsreid_/status/2087399691147489379",
+"createdAt": "Wed Aug 12 04:44:03 +0000 2026"
 },
 {
-"userName": "HonNoah93",
-"text": "HON. NOAH AHMED — EMPOWERING THE GEN Z GENERATION\n\nHon. Noah Ahmed’s proposed vision for young people is built on one fundamental principle: young people should not only be the leaders of tomorrow—they should have meaningful opportunities to contribute today.\n\nHis youth empowerment agenda would focus on turning the energy, creativity and innovation of Gen Z into skills, businesses, employment and sustainable livelihoods across Taraba State.\n\nUnder this proposed vision, youth development would include:\n\n💡 TECHNOLOGY & DIGITAL SKILLS\nCreate opportunities for young people to learn AI, cybersecurity, software development, digital marketing, graphics, content creation and other emerging technologies.\n\n🚀 STARTUP & BUSINESS SPONSORSHIP\nSupport promising youth-owned businesses through transparent grants, equipment, mentorship and access to business development programmes—not just one-time handouts.\n\n🎓 EDUCATION & SCHOLARSHIPS\nExpand opportunities for scholarships, vocational training, professional certifications and technical education so that financial hardship does not prevent talented young people from developing their potential.\n\n🎨 CREATIVE INDUSTRY SUPPORT\nProvide structured support for musicians, filmmakers, photographers, designers, writers, fashion entrepreneurs and other creatives through training, sponsorship and platforms for showcasing their work.\n\n⚽ SPORTS DEVELOPMENT\nInvest in grassroots sports by supporting young athletes, coaches and sporting programmes, while creating pathways for talented youths to compete at higher levels.\n\n💼 JOBS, INTERNSHIPS & ENTREPRENEURSHIP\nBuild partnerships with private businesses and institutions to create internships, apprenticeships and employment opportunities while helping young entrepreneurs develop sustainable enterprises.\n\n🏢 YOUTH INNOVATION CENTRES\nDevelop spaces where young people can access training, internet connectivity, mentorship, technology and collaborative opportunities.\n\nA NEW APPROACH TO YOUTH SPONSORSHIP\n\nThe goal should be to move from “giving young people something” to “giving young people the tools to build something.”\n\nEvery sponsorship programme should be transparent, merit-based and accessible to young people across communities and local government areas.\n\nHON. NOAH AHMED’S MESSAGE TO THE GEN Z GENERATION:\n\n> “Your ideas matter. Your talent matters. Your future matters. Government should create an environment where a young person with an idea, skill or dream has a genuine opportunity to turn that potential into reality.”\n\nEmpower the youth. Invest in talent. Sponsor innovation. Create opportunity. Build a stronger Taraba.",
-"likeCount": 13,
-"retweetCount": 7,
-"url": "https://x.com/HonNoah93/status/2086887897982984495",
-"createdAt": "Mon Aug 10 18:50:22 +0000 2026"
+"userName": "CryptooGG_",
+"text": "20 AI TOOLS YOU SHOULD KNOW IN 2026 🧠\n\nYou don’t need to know every AI tool.\n\nJust know the ones that can actually save you time.\n\nEveryone knows ChatGPT, Claude and Gemini.\n\nI've also included some underrated ones.\n\n1. ChatGPT: Research, writing, coding, analysis and everyday work.\n\n2. Claude: Strong for writing, reasoning, coding and handling long documents.\n\n3. Perplexity: Research and web search when you want answers with sources.\n\n4. Gemini: Useful for research and working across Google’s ecosystem.\n\n5. NotebookLM: Turn your own PDFs, documents and research into an interactive knowledge base.\n\n6. Grok: Useful for real-time conversations, trends and information on X.\n\n7. Cursor: AI-powered coding environment for building and editing software faster.\n\n8. Lovable: Create functional web apps from natural-language instructions.\n\n9. Replit: Build, test and deploy applications with AI assistance.\n\n10. Midjourney: Generate high-quality visuals and creative concepts.\n\n11. Krea: Real-time image generation, enhancement and creative workflows.\n\n12. Ideogram: Particularly good for designs that require accurate text inside images.\n\n13. Runway: AI video generation and editing for creators and teams.\n\n14. Kling AI: Generate realistic AI videos from text and images.\n\n15. ElevenLabs: AI voice generation, dubbing and audio creation.\n\n16. Gamma: Create presentations, documents and visual content quickly.\n\n17. Napkin AI: Turn written ideas into diagrams and visual explanations.\n\n18. Granola: AI meeting notes designed around your actual meetings.\n\n19. Genspark: AI agents that can handle research and multi-step tasks.\n\n20. n8n: Build powerful AI automations by connecting models, APIs and different tools.\n\nYou don’t need all 20.\n\nStart with the tools that solve problems you already have.\n\nLearn the workflow, not just the tool.\n\nBookmark this list. It’ll be useful as you explore more into AI",
+"likeCount": 72,
+"retweetCount": 12,
+"url": "https://x.com/CryptooGG_/status/2087532425324941450",
+"createdAt": "Wed Aug 12 13:31:29 +0000 2026"
 },
 {
-"userName": "tec_marco10",
-"text": "🤯 50 powerful AI tools worth trying.\n\nHere are 50 tools to boost your productivity, creativity, and workflow:\n\n1. ChatGPT — AI assistant & ideas\n\n2. Claude — Writing & analysis\n\n3. Gemini — Research & productivity\n\n4. Perplexity — AI search\n\n5. Grok — Research & real-time insights\n\n6. Cursor — AI coding\n\n7. GitHub Copilot — Code assistance\n\n8. Replit — AI app development\n\n9. Midjourney — AI images\n\n10. Ideogram — Text & image generation\n\n11. Adobe Firefly — Creative assets\n\n12. Leonardo AI — Image generation\n\n13. Flux — AI image generation\n\n14. Runway — AI video creation\n\n15. Kling AI — AI video generation\n\n16. Veo — AI video generation\n\n17. Pika — AI video effects\n\n18. Synthesia — AI avatars\n\n19. HeyGen — AI avatar videos\n\n20. ElevenLabs — AI voice generation\n\n21. Suno — AI music\n\n22. Udio — AI music creation\n\n23. RecCloud — Video generation & editing\n\n24. CapCut — AI video editing\n\n25. Descript — AI video & audio editing\n\n26. OpusClip — Long videos → shorts\n\n27. VidIQ — YouTube growth\n\n28. Beehiiv — AI newsletters\n\n29. https://t.co/SPTOghQGDX — Marketing copy\n\n30. Jasper — AI marketing\n\n31. Grammarly— AI writing assistant\n\n32. Notion AI — Productivity & notes\n\n33. Gamma — AI presentations\n\n34. Canva — AI design\n\n35. Napkin AI — Visual storytelling\n\n36. Tome — AI presentations\n\n37. https://t.co/L0RPNfkWeC — Meeting transcription\n\n38. https://t.co/zESRWZElqY — Meeting notes\n\n39. Perplexity Labs — Research & projects\n\n40. NotebookLM — AI research assistant\n\n41. Zapier — AI automation\n\n42. Make — Workflow automation\n\n43. n8n — AI workflows\n\n44. Lovable — AI app building\n\n45. Bolt — AI web development\n\n46. v0 — AI UI generation\n\n47. Phind — Developer-focused AI\n\n48. Mistral Le Chat — AI assistant\n\n49. Hugging Face — AI models & tools\n\n50. Poe — Access multiple AI models\n\nBookmark this list for future reference.🔖\n\nWhich AI tool do you rely on the most in your daily workflow? 👇",
-"likeCount": 67,
-"retweetCount": 25,
-"url": "https://x.com/tec_marco10/status/2087025666713850267",
-"createdAt": "Tue Aug 11 03:57:48 +0000 2026"
+"userName": "digitalskillsws",
+"text": "If I were starting remote work today, here's exactly what I would do:\n\n1️⃣ Choose ONE skill.\nDon't try to learn everything at once. Start with Virtual Assistance, Customer Support, Data Entry, Social Media Management, Graphic Design, Writing, or another skill that matches your strengths.\n\n2️⃣ Learn the skill.\nUse free resources, YouTube, courses, and practical tutorials. Don't just watch—practice.\n\n3️⃣ Build proof of your skills.\nCreate 2–3 sample projects, even if you don't have a client yet. Your portfolio should show people what you can actually do.\n\n4️⃣ Set up your professional presence.\nCreate or optimize your LinkedIn profile and profiles on relevant freelance platforms. Use a clear photo, strong headline, good bio, and showcase your skills.\n\n5️⃣ Start networking.\nConnect with people in your industry. Comment thoughtfully on posts. Join communities. Tell people what you do.\n\n6️⃣ Start applying.\nDon't wait until you feel 100% ready. Apply for suitable opportunities and tailor your proposal/application to each client.\n\n7️⃣ Keep improving while you earn.\nYour first client isn't the finish line. Use every project to gain experience, testimonials, confidence, and better skills.\n\n8️⃣ Be consistent.\nRemote work isn't overnight success. You may get ignored, rejected, or hear nothing at first.\n\nKeep going.\n\nIf I were starting again, I'd focus less on “How quickly can I make money?” and more on “How valuable can I become?”\n\nBecause when your skills become valuable, opportunities become easier to find. 🚀\n\nIf you were starting remote work today, what skill would you choose first? Drop it in the comments. 👇",
+"likeCount": 16,
+"retweetCount": 5,
+"url": "https://x.com/digitalskillsws/status/2087480578270433284",
+"createdAt": "Wed Aug 12 10:05:28 +0000 2026"
 },
 {
-"userName": "arsalannazir07",
-"text": "Image Generation Prompt\n\nUltra-realistic luxury fashion editorial portrait of a handsome young man with thick, voluminous dark brown hair styled in a refined textured quiff, neatly faded sides, and a full, sharply groomed beard. He is shown in a sophisticated three-quarter close-up profile, looking downward with a calm, confident expression. He wears classic black rectangular sunglasses with subtle premium detailing, a textured black waffle-knit cardigan worn slightly open at the chest, and a minimalist luxury wristwatch with a black dial, slim silver case, and black leather strap.\n\nHis right hand naturally adjusts the collar of the cardigan, bringing attention to the watch and refined styling. Warm natural skin tones, realistic beard and individual hair strands, detailed skin texture, subtle facial pores, elegant masculine aesthetic. Clean turquoise-blue studio background with a softly blurred beige foreground, creating a premium contemporary contrast. Soft directional daylight from the upper left, gentle highlights along the face and hair, subtle shadows, cinematic depth of field, shallow background blur, sophisticated luxury campaign photography, premium menswear advertisement, understated elegance, photorealistic, high-end editorial photography, 85mm portrait lens, f/1.8, natural bokeh, crisp subject separation, realistic proportions, 8K detail, vertical composition, no text, no watermark.\n\nNegative prompt: cartoon, CGI, plastic skin, over-smoothed face, distorted hands, extra fingers, malformed watch, asymmetrical sunglasses, exaggerated muscles, oversaturated colors, artificial lighting, blurry face, low detail, duplicate accessories, warped anatomy.",
-"likeCount": 28,
-"retweetCount": 1,
-"url": "https://x.com/arsalannazir07/status/2087398384659525636",
-"createdAt": "Wed Aug 12 04:38:51 +0000 2026"
-},
-{
-"userName": "IgorWoorts",
-"text": "Native ads are one of the hardest ones to make actually work.\n\nThe image part is easy, just create a batch of 20 variants. Done. But the hard part is the storytelling and taking a reader from unaware to fully aware.\n\nMy ideal set up for the copy is:\n\n1. Hook -> STOP the scroll + create curiosity\n2. Problem -> Make them recognize themselves\n3. Failed solutions -> WHY what they tried didn't work\n4. Mechanism -> Explain what's ACTUALLY causing the problem\n5. Solution -> Introduce your product naturally\n6. Proof -> Reviews / authority / results\n7. Offer -> Give them a reason to take action\n\nThe magic happens in the storytelling. Make it personal so someone from your ICP can literally think: “this is me.”\n\nTalking in the same language as your ICP makes the storytelling actually stick (so research the keywords/language your audience uses in FB groups, Reddit etc). \n\nWe often see that a PDP works best in these cases when the copy is good. Bc the long-form primary text basically works as your prelander.",
-"likeCount": 125,
-"retweetCount": 8,
-"url": "https://x.com/IgorWoorts/status/2086784644956250234",
-"createdAt": "Mon Aug 10 12:00:04 +0000 2026"
-},
-{
-"userName": "itsPolloAI",
-"text": "Take complete control of your commercial video ads with https://t.co/POwZa8nySK.\nOur multi-reference generation tool allows creators and brands to seamlessly translate detailed fashion references into high-definition, dynamic video spots with unmatched precision. \n\nRight now, all you have to do is like this post, follow @itsPolloAI, and comment “Pollo” below, and we’ll send you the 50% OFF Seedance 2.5 offer link via DM, so don’t forget to check your inbox! \n\nExperience the future of commercial production at https://t.co/POwZa8nySK.",
-"likeCount": 44,
-"retweetCount": 3,
-"url": "https://x.com/itsPolloAI/status/2086799734627528880",
-"createdAt": "Mon Aug 10 13:00:02 +0000 2026"
-},
-{
-"userName": "PamWestmor85243",
-"text": "Seraphis Prime  This image  from the prompt has a Stargate  so maybe better choice for video generation story.  So I put the text prompt into Grok type to imagine and Grok createdthe initial 4 images. I download all 4 before choosing which one to take forward for more editing with more stereoscopic layers for the 3d effects. And add more 3d Textures. To improve the immersion of your final video you need to improve your starting image with  3D effects  that can be added.   Think in  3d (Research this)",
-"likeCount": 14,
+"userName": "cjzafir",
+"text": "I love building products.\n\nBut I hate marketing. I know I can do it, but it's just so boring.\n\nSo I designed a virtual office using Hermes.\n\n> brainstorming department\n> deep research department\n> content writing department\n\nAll departments are managed by the CEO (Fable 5).\n\nNo AI slop. Each role works with a set of tested skills.\n\n(will wtite a detailed post on how they work)\n\nThe office runs 16 hours a day. I get messages from the CEO on Telegram when they need something from me.\n\nThey plan their own work, initiate on their own, learn from my feedback, and try to be better next time.\n\nMy aim is to truly make this autonomous, where I just drop in to share my raw thoughts as a direction, and the rest is all done by office workers.\n\n> Fable 5 is my CEO\n> GPT 5.6 is the manager of each department (orchestrator, you can say)\n> DeepSeek Flash 0731 does all the work (its research is unmatched)\n\nI've been running it for the last 5 days, and they are surprising me with something wonderful every day.\n\nI'll mature it and share my findings. Peace.",
+"likeCount": 89,
 "retweetCount": 2,
-"url": "https://x.com/PamWestmor85243/status/2087101698703507928",
-"createdAt": "Tue Aug 11 08:59:56 +0000 2026"
+"url": "https://x.com/cjzafir/status/2087556596754948170",
+"createdAt": "Wed Aug 12 15:07:32 +0000 2026"
 },
 {
-"userName": "MartinElKhouri",
-"text": "Imagine you were able to invest in Unitree when a robot still cost 30 bucks instead of having to try to get into a 8000x oversubscribed IPO. \n\nRobotics needs democratization on the capital level. That is why @peaq and @codecopenflow build @machinedotfun. https://t.co/9wG2bKB75o",
-"likeCount": 20,
-"retweetCount": 4,
-"url": "https://x.com/MartinElKhouri/status/2087191681263091984",
-"createdAt": "Tue Aug 11 14:57:29 +0000 2026"
+"userName": "EmreBatuAtakan",
+"text": "Update on our robot learning project with @aboraatakan at @uwwatai.\n\nWe went from ~30% to 99.8% success on our pick-and-place task by updating our policy from a DINO ViT + transformer policy to a CNN + MLP. Our old model was memorizing the training data and transferring poorly to closed-loop rollouts, so we went the other way and made the model smaller.\n\nThe attached video is the CNN + MLP policy running in sim on our async inference stack. We demoed it live for a few hours: 4 failures over 2000+ randomized scenes. This experience has been useful to confirm our stack's correctness. We are now ready to move to hardware!\n\nNext: real hardware, diffusion policy, open-weight fine-tunes, and RL.\n\nReach out if you're interested in collaborating, and stay tuned.",
+"likeCount": 33,
+"retweetCount": 7,
+"url": "https://x.com/EmreBatuAtakan/status/2085443841071452176",
+"createdAt": "Thu Aug 06 19:12:12 +0000 2026"
 },
 {
-"userName": "guillermoyns",
-"text": "Stablecoin neobanks are becoming incredibly easy to build, and increasingly hard to tell apart.\n\nI spent the last few days thinking about what remains genuinely hard to copy. I call it UnAPIable. https://t.co/esMNEDQ4lG",
-"likeCount": 10,
+"userName": "ThinkwithGoogle",
+"text": "Fashion and luxury have historically been resistant to generative AI – until now 👗✨\n\nWhen Power Digital Marketing joined Google’s Creative Lighthouse program, they partnered with LoveShackFancy to test the boundaries of generative creative. Instead of forcing tech onto the creative process, they anchored the campaign in the brand's authentic story.  \n\nThe result? A shared creative language, faster iteration, and a powerful competitive moat. #CannesLions2026",
+"likeCount": 3,
+"retweetCount": 1,
+"url": "https://x.com/ThinkwithGoogle/status/2085765684298961170",
+"createdAt": "Fri Aug 07 16:31:05 +0000 2026"
+},
+{
+"userName": "silentinfotech",
+"text": "What if shoppers could try before they buy—online?\nAI Virtual Try-On is making e-commerce more interactive by helping customers visualize products, shop with confidence, and discover personalized experiences.\nhttps://t.co/A0HFspqvjQ\n#AIVirtualTryOn #AI #Ecommerce #RetailTech https://t.co/F24pyajA43",
+"likeCount": 12,
+"retweetCount": 1,
+"url": "https://x.com/silentinfotech/status/2087154605347983715",
+"createdAt": "Tue Aug 11 12:30:10 +0000 2026"
+},
+{
+"userName": "AItryon_art",
+"text": "The ultimate beach vacation energy! ☀️🌴\nI had to rewatch this 10 times to process that transition 🥰\nMade by Seedance 2.5 at AITryOn.\n#aitryon #swimwear #stunning #dancechallenge #summervibes #seedance25 https://t.co/hDasWfpabA",
+"likeCount": 7,
 "retweetCount": 0,
-"url": "https://x.com/guillermoyns/status/2087165898620641504",
-"createdAt": "Tue Aug 11 13:15:02 +0000 2026"
+"url": "https://x.com/AItryon_art/status/2087489314150371468",
+"createdAt": "Wed Aug 12 10:40:10 +0000 2026"
+},
+{
+"userName": "fashn_ai",
+"text": "FASHN powered the virtual try-on technology behind two FIFA World Cup fan activations for KIA Canada ⚽\n\nLearn how the FASHN API enables real-time experiences that people love:\nhttps://t.co/wRPnZLOx1S",
+"likeCount": 2,
+"retweetCount": 1,
+"url": "https://x.com/fashn_ai/status/2087613314788381018",
+"createdAt": "Wed Aug 12 18:52:54 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @AIatMeta: 🔗 Download Muse Glimmer on @huggingface: https://t.co/s7Lzb8MqCG\n\n🔗 Read the technical blog: https://t.co/X6htFnhRbc\n\n🔗 Find…",
+"likeCount": 566,
+"retweetCount": 74,
+"url": "https://x.com/ClementDelangue/status/2086762046247338037",
+"createdAt": "Mon Aug 10 10:30:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @alexandr_wang: 1/ big announcement today: we will be releasing an open weight version of muse spark 1.2 soon.\n\nwe also are releasing mu…",
-"likeCount": 9450,
-"retweetCount": 727,
+"likeCount": 9505,
+"retweetCount": 728,
 "url": "https://x.com/ClementDelangue/status/2086767973365137526",
 "createdAt": "Mon Aug 10 10:53:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @mkratsios47: Open-weight models put American AI innovation directly into the hands of developers, researchers, and startups. This is ex…",
-"likeCount": 1008,
-"retweetCount": 129,
-"url": "https://x.com/ClementDelangue/status/2086966079738232904",
-"createdAt": "Tue Aug 11 00:01:02 +0000 2026"
+"text": "RT @joelniklaus: Codex is overoptimised for large models: it ranks 2nd out of 10 for GLM 5.2 but drops to 9th place for Gemma-4!\n\nAlmost al…",
+"likeCount": 561,
+"retweetCount": 79,
+"url": "https://x.com/ClementDelangue/status/2086560605507305974",
+"createdAt": "Sun Aug 09 21:09:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @CEOinterview: Hugging Face is getting one new repository every seven seconds.\n\nThat is roughly 12,000 new models and datasets a day, ev…",
-"likeCount": 16,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2086553795027251368",
-"createdAt": "Sun Aug 09 20:42:45 +0000 2026"
+"text": "RT @vast_ai: Hugging Face Storage Buckets are now on https://t.co/2WHvjspuyh\n\nConnect your HF Storage Bucket as a Cloud Connection in your…",
+"likeCount": 84,
+"retweetCount": 26,
+"url": "https://x.com/ClementDelangue/status/2085426695704604923",
+"createdAt": "Thu Aug 06 18:04:04 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @QwenDevs: The goal was never to remove humans from the picture. It was to get them out of spreadsheets and onto climbing walls",
-"likeCount": 10616,
-"retweetCount": 858,
-"url": "https://x.com/jeremyphoward/status/2084973024378495326",
-"createdAt": "Wed Aug 05 12:01:20 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @BigTechAlert: 🆕 @elonmusk began following @ClementDelangue\n\n(🤖👁️: any explanation?) https://t.co/oNzeNEIlM5",
+"likeCount": 132,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2086436831223054560",
+"createdAt": "Sun Aug 09 12:57:59 +0000 2026"
 },
 {
-"userName": "samigrows",
-"text": "Are you looking to buy a SEO automation tool? \n\nRead this: https://t.co/HDlHNsIemU",
-"likeCount": 8,
+"userName": "0x_rimi",
+"text": "https://t.co/zpswLrLohR",
+"likeCount": 14,
 "retweetCount": 1,
-"url": "https://x.com/samigrows/status/2086857535395676599",
-"createdAt": "Mon Aug 10 16:49:43 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "https://t.co/kddkkHc6NK",
-"likeCount": 47,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2086760754548547695",
-"createdAt": "Mon Aug 10 10:25:08 +0000 2026"
+"url": "https://x.com/0x_rimi/status/2087569955235471823",
+"createdAt": "Wed Aug 12 16:00:37 +0000 2026"
 }
 ]
