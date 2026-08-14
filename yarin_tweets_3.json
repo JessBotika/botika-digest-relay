@@ -1,11 +1,27 @@
 [
 {
-"userName": "Axel_bitblaze69",
-"text": "Elon is really making moves with xAI and Cursor merger.. \n\nin less than a week we've gotten:\n\n- Image 2.0 - Grok Bot - and now Grok 4.6 today\n\nand these aren't 3 random AI launches either.\n\nImage 2.0 creates and edits the visuals. i’d say the best.. better than even GPT image 2.0\n\nGrok 4.6 does the harder thinking, research and building.\n\nCursor + Grok Build give it a place to actually work..\n\nGrok Bot takes that work into the apps and websites you already use.\n\nthey're basically assembling the whole stack at once.\n\nbut coming back to Grok 4.6\n\nyou probably won't see 4.6 in the regular Grok model picker yet.\n\nright now it's available inside Cursor, Grok Build, the xAI API, OpenRouter, Vercel and Cloudflare.\n\nso what actually got better?\n\nthe simple answer is that 4.6 is built for the jobs where AI usually starts well, works for 20 minutes and then completely loses the plot..\n\nyou can give it a rough idea and it can research the problem, make a plan, work across a large codebase, build the first version, test it and keep fixing what doesn't work.\n\nthe useful parts for us:\n\n500k context, so you can hand it a huge pile of files, research or code without constantly explaining everything again\n\nit can understand screenshots, charts and images along with text\n\nmuch better at turning a rough app idea into a working first version\n\nbetter at long research or coding tasks with many steps.. more likely to test its own work before claiming it's finished..\n\nwhat i'd actually try with it:\n\n“here's my entire research folder, these charts and the project docs. find the strongest thesis, challenge it and build me a dashboard around the result.”\n\nor:\n\n“here's an app idea. research the market, plan the product, build the first version and keep testing until the core flow works.”\n\nthat's the type of prompt 4.6 is made for.\n\nhow you can use it right now:\n\nthe easiest way is Cursor. \n\nopen the model picker and choose Grok 4.6.\n\nor install Grok Build from https://t.co/IikKAUaJS0 and use it from your terminal.\n\ndevelopers can use grok-4.6 through the xAI API.\n\nCursor and Grok Build are also giving 2x included usage for the first week.\n\nAPI pricing starts at $2 per million input tokens and $6 per million output tokens. \n\nthe fast version costs twice as much.\n\none thing worth understanding though..\n\nGrok 4.6 is the model. \n\nGrok Bot is the product that goes into your apps and does the job.\n\nand 4.6 itself doesn't generate images or videos. that's still handled by Grok Imagine/Image 2.0.\n\nso if you only use AI to rewrite one paragraph or ask a quick question, this launch probably changes nothing for you.\n\nbut if you're using AI to research, code or keep working until an actual thing is finished..\n\nthat's where i'd test 4.6.\n\ndon't ask it to write an email… nahhh \n\ngive it the annoying 60-minute job your current AI always falls apart halfway through..",
-"likeCount": 25,
+"userName": "evergenius_eg",
+"text": "Continued - THE STRONG MEN WE ARE RAISING\n\nYesterday’s post sparked quite a few reactions.\n\nAnd I think one thing needs to be made clear:\n\nThis is not an argument against change.\n\nIt was never about saying the younger generation is doomed.\n\nIf anything, it was meant to make us look beyond the trend, understand the psychology behind it, and question the kind of future we are collectively building.\n\nLet me take it a step further.\n\nI remember being on another space where people were projecting what the next generation would become.\n\nSome said they were genuinely scared.\n\nThat the next generation would be worse.\nLess disciplined.\nLess responsible.\nLess connected to reality.\nBut I remember thinking:\n\nHaven’t people said the same thing about every generation?\n\nI vividly remember my parents talking about their generation with a certain dignity and telling us how different and sometimes disappointing they feared ours would become.\n\nYet look at what our generation has produced.\n\nNigeria has produced people who have built companies, technologies and institutions that operate far beyond our borders:\n\nShola Akinlade & Ezra Olubi built Paystack, which Stripe acquired for more than $200 million.\n\nIyinoluwa Aboyeji co-founded Andela and Flutterwave and has continued investing in Africa’s next generation of founders.\n\nOlugbenga “GB” Agboola helped build Flutterwave into one of Africa’s most significant payment companies.\n\nOdunayo Eweniyi, alongside her PiggyVest co-founders, helped build one of Nigeria’s most influential savings and investment platforms.\n\nAnd this isn’t limited to fintech.\nWe have Nigerian engineers, creators, designers, founders, artists, researchers and builders solving problems that previous generations couldn’t even imagine.\n\nWe have young Nigerians building in:\n\nAI\nBlockchain\nFintech\nSoftware\nMedia\nEntertainment\nFashion\nEducation\nCreative technology\n\nAnd even among the younger generation, there are already people proving that the story isn’t simply one of decline.\nThere are young developers teaching other teenagers to code, young entrepreneurs building businesses, and young Nigerians creating communities around technology and innovation.\n\nSo yes, I agree with the “OLODO uprising.”\n\nBut I also believe in something else:\n\nTHE GENIUS UPRISING.\n\nThe builders.\n\nThe thinkers.\n\nThe disciplined.\n\nThe curious.\n\nThe ones who understand that going viral is not the same thing as building value.\n\nThe ones who understand that money is not the same thing as wealth.\n\nThe ones who understand that freedom without responsibility is not progress.\n\nAnd this is where the conversation becomes personal.\n\nBecause the real question isn’t:\n\n“What is wrong with Gen Z?”\n\nThe real question is:\n\n“What kind of next generation are YOU raising?”\n\nBecause somewhere in the future, your children will become someone else’s leaders.\n\nThey will become:\n\nFounders.\nEngineers.\nDoctors.\nInvestors.\nPolicymakers.\nTeachers.\nCreators.\nParents.\nBuilders.\n\nAnd I want to raise children who can look at the world they inherited and say:\n\n“Our parents didn’t fail us.”\n\nI want to raise children who are evidence that despite everything happening around us, we still understood the assignment.\n\nChildren who can embrace technology without becoming slaves to it.\n\nChildren who can enjoy freedom without abandoning responsibility.\n\nChildren who can understand modernity without despising their heritage.\n\nChildren who can pursue wealth without losing their values.\n\nChildren who can be ambitious without becoming entitled.\n\nChildren who can question the world without losing the ability to think.\n\nBecause the future isn’t automatically going to be better.\n\nWe have to build the people capable of making it better.\n\nAnd that brings us back to the cycle:\n\nHard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times.\n\nYesterday, I was talking about the cycle.\n\nToday, I’m asking you to look in the mirror.\n\nAre you raising the generation that will break the cycle or continue it?\n\nBecause perhaps the future isn’t determined by what Gen Z becomes.\n\nPerhaps it is determined by what we choose to raise.\nAnd that is a much more personal question.",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/evergenius_eg/status/2086325487412895764",
+"createdAt": "Sun Aug 09 05:35:32 +0000 2026"
+},
+{
+"userName": "andrexibiza",
+"text": "@Teknium I ran out of OpenAI resets building Hermes with Hermes this week.\n\nSo I built Freemaxxing.\n\nThat is not a joke. Developers are already spending an absolutely stupid amount of money on tokens. When you’re building with agents all day, eventually you hit a quota, a rate limit, a weekly cap, or the point where you simply refuse to put another $100 into the token furnace.\n\nAnd the difference between “I’m done working for today” and “keep going” can literally just be having a free model available.\n\nSo I made that a first-class Hermes primitive!\n\nFreemaxxing is a bundled Hermes model provider backed by a local OpenAI-compatible proxy. Hermes talks to it like any other provider. Behind that interface, it builds a pool of whatever usable inference you already have available:\n\nTier 0: Nous Portal. It automatically discovers the OAuth/JWT credentials Hermes already has. No new API key. No new account setup. The JWT can rotate, so Freemaxxing re-resolves it on expiry instead of dying halfway through a long-running gateway.\n\nTier 1: OpenRouter. Optional. If you already have an OPENROUTER_API_KEY, it joins the pool.\n\nTier 2: Hugging Face. Optional. Same thing with HF_TOKEN.\n\nThen the fun part starts.\n\nFreemaxxing queries each backend’s /models catalog and does model-aware routing. If you ask for a specific model, it prefers a backend that actually advertises it.\n\nOr just ask for the virtual model:\n\nfreemaxxing\n\nThat means auto.\n\nThe router looks at the live catalogs, prefers :free models first, then lighter flash / mini / nano / small / lite models, and sends the request to an available backend.\n\nAnd it actually behaves like a pool rather than a dumb proxy:\n\n429? Honor Retry-After, cool that backend down, try another.\n\n5xx, timeout, connection reset? Cooldown and fail over.\n\n404 because that backend doesn’t have the model? Skip it without poisoning the backend.\n\nExpired Nous credential? Refresh the JWT and retry.\n\nBad request? Fail immediately instead of spraying the same malformed request across every provider.\n\nStreaming? Passed straight through.\n\nTools, response_format, seed, stop sequences, top_p, and the rest of the OpenAI request body? Preserved.\n\nEverything dead? 503. It does not secretly reach for some expensive provider behind your back.\n\nThere’s even /healthz exposing the state of the pool.\n\nAnd I didn’t want this implemented as another special case welded into Hermes forever, so I widened the provider architecture itself. ProviderProfile now has a generic supports_noauth_loopback capability. Any future plugin can declare itself a local no-key provider and participate normally in Hermes provider discovery, credential resolution, model selection, fallbacks, and the provider catalog.\n\nThe proxy is also dormant unless you actually select Freemaxxing. Merely discovering the plugin doesn’t start a listener or grab a port.\n\nSo yeah.\n\nI exhausted my paid AI allowance.\n\nInstead of stopping work, I changed Hermes so running out of paid tokens no longer has to mean running out of AI.\n\nThat is Freemaxxing. 😈\n\nAnd of course the PR is green.\n\nhttps://t.co/wC04ZDY0rL",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/andrexibiza/status/2088066531728986240",
+"createdAt": "Fri Aug 14 00:53:50 +0000 2026"
+},
+{
+"userName": "elisymlabs",
+"text": "100 types of services could join Elisym today.\n\nIf you're already building one of these, you don't need to build a marketplace or a billing flow to get discovered. You just need one command, and every AI agent on the network can find you, hire you, and pay you.\n\n1) market data feeds\n\n2) pricing APIs\n\n3) on-chain analytics\n\n4) sentiment trackers\n\n5) news aggregators\n\n6) patent search\n\n7) academic paper search\n\n8) legal case lookup\n\n9) company data enrichment\n\n10) weather data\n\n11) image generation\n\n12) video generation\n\n13) voice cloning\n\n14) music generation\n\n15) text-to-speech\n\n16) transcription\n\n17) translation\n\n18) code generation\n\n19) 3D model generation,\n\n20) avatar creation\n\n21) web search\n\n22) code search\n\n23) document search\n\n24) product search\n\n25) image search\n\n26) video search\n\n27) job listings search\n\n28) real estate search\n\n29) flight/hotel search\n\n30) patent search\n\n31) swap routers\n\n32) portfolio trackers\n\n33) yield scanners\n\n34) options pricing\n\n35) risk scoring\n\n36) credit checks\n\n37) fraud detection\n\n38) tax calculators\n\n39) invoice generation\n\n40) currency conversion\n\n41) article summarization\n\n42) video summarization\n\n43) podcast transcription\n\n44) content moderation\n\n45) plagiarism detection\n\n46) SEO analysis\n\n47) keyword research\n\n48) sentiment analysis\n\n49) readability scoring\n\n50) subtitle generation\n\n51) code review\n\n52) vulnerability scanning\n\n53) API testing\n\n54) log analysis\n\n55) uptime monitoring\n\n56) performance profiling\n\n57) dependency auditing\n\n58) changelog generation\n\n59) doc generation\n\n60) test generation\n\n61) KYC checks\n\n62) identity verification\n\n63) proof-of-personhood\n\n64) domain verification\n\n65) reputation scoring\n\n66) background checks\n\n67) notarization\n\n68) digital signatures\n\n69) watermark detection\n\n70) deepfake detection\n\n71) email drafting\n\n72) scheduling\n\n73) CRM enrichment\n\n74) lead scoring\n\n75) competitor monitoring\n\n76) price tracking\n\n77) inventory sync\n\n78) form filling\n\n79) data extraction\n\n80) satellite imagery analysis\n\n81) supply chain tracking\n\n82) logo/brand generation\n\n83) synthetic data generation\n\n84) prompt optimization\n\n85) grant/funding search\n\n86) influencer search\n\n87) on-chain wallet analysis\n\n88) liquidation risk monitoring\n\n89) gas fee optimization\n\n90) thumbnail generation\n\n91) A/B headline testing\n\n92) accessibility (alt-text) generation\n\n93) infrastructure cost analysis\n\n94) database query optimization\n\n95) CI/CD pipeline diagnostics\n\n96) age verification\n\n97) document authenticity checks\n\n98) meeting summarization\n\n99) calendar coordination\n\n100) contract review\n\nYour SaaS already has everything it needs to offer its services on the Elisym network. Just ask Claude: \"How do I deploy my SaaS project on the Elisym network?\"\n\nDocs here: https://t.co/7b0OuBSqfW\n\nThis creates an agent that sells your SaaS product 24/7, paid in USDC.\n\nNo approval. No waitlist. No platform taking a cut.",
+"likeCount": 12,
 "retweetCount": 3,
-"url": "https://x.com/Axel_bitblaze69/status/2087572644061425733",
-"createdAt": "Wed Aug 12 16:11:18 +0000 2026"
+"url": "https://x.com/elisymlabs/status/2087901994224943347",
+"createdAt": "Thu Aug 13 14:00:01 +0000 2026"
 },
 {
 "userName": "HonNoah93",
@@ -16,12 +32,12 @@
 "createdAt": "Mon Aug 10 18:49:25 +0000 2026"
 },
 {
-"userName": "Yosefphr",
-"text": "GM X FAM 🌅 \nHAPPY TACO DAY 🌮 \n\nThe Real Bottleneck in Web3\n\n➩ We spend an incredible amount of time arguing about tokenomics, governance wrappers, and short-term market pumps, completely ignoring the mechanical friction that actually kills projects.\n\nEvery single developer entering this space hits the same invisible wall. You have a genuinely great concept, a working prototype, or an AI-assisted workflow ready to ship, but the moment you try to actually deploy it as a standalone network, reality sets in.\n\nYou are suddenly forced to spend months dealing with validator bootstrapping, consensus headaches, and custom infrastructure plumbing just to reach day one.\n\n➩ That is why the architecture behind @CNPYNetwork caught my attention.\nInstead of treating every new application like it needs to reinvent the wheel or fight for congested monolithic blockspace, it tackles the lifecycle of a project in a much smarter way.\n\nStarting out with nested execution and shared security lets you test your ideas in a live, functional environment without burning months of runway on backend setup.\n\nThen, as the product finds its footing and the actual footprint of the community becomes clear, you have a clean pathway to graduate into your own sovereign chain.\n\nNo messy re-genesis. No breaking the underlying history. Just infrastructure that scales alongside the actual maturity of the product.\n\n➩ When you look at ecosystem traction like thousands of active virtual chains and builders actually deploying real applications instead of just writing whitepapers, it becomes obvious that modular, adaptive architecture is where the industry is heading.\n\nThe tooling is finally catching up to what developers have been asking for years.",
-"likeCount": 308,
-"retweetCount": 23,
-"url": "https://x.com/Yosefphr/status/2087040277902975377",
-"createdAt": "Tue Aug 11 04:55:52 +0000 2026"
+"userName": "IsholaEdge",
+"text": "AI IS CHANGING FASHION, AND IT’S BIGGER THAN IMAGE GENERATION.🧵\n\nArtificial Intelligence is quietly transforming almost every stage of the fashion value chain.\n\nFrom design and trend forecasting to marketing, production, e-commerce, and customer experience, AI is changing how fashion businesses operate.\n\n🧵Here are a few areas where the impact is already visible:\n\n🔹 Design & Ideation:- Exploring silhouettes, patterns, colors, and collection concepts faster.\n\n🔹 Trend Forecasting:-  Using data to identify emerging consumer preferences and market trends.\n\n🔹 Virtual Prototyping:-  Visualizing designs before spending heavily on materials and production.\n\n🔹 Personalization:- Helping brands recommend products and experiences based on customer preferences.\n\n🔹 Marketing & Content:-  Accelerating campaign concepts, storytelling, product descriptions, and visual development.\n\n🔹 Demand Forecasting:- Helping brands make smarter production and inventory decisions, potentially reducing waste.\n\nBut here’s what I find most interesting:\n\nAI may not replace the fashion designer. It may replace some of the limitations that slow the designer down.\n\nCreativity still requires taste.\n\nCulture still requires understanding.\n\nCraftsmanship still requires skill.\n\nAnd strategy still requires human judgment.\n\nFor African fashion, this presents an even bigger opportunity.\n\nImagine combining African heritage, traditional craftsmanship, modern design thinking, and AI-powered innovation to build globally competitive fashion brands.\n\nThe question is no longer:\n\n“Will AI affect fashion?”\n\nIt already is.\n\nThe better question is:\n\n👉🏼How will fashion entrepreneurs use AI to build better brands, products, and businesses?”",
+"likeCount": 19,
+"retweetCount": 14,
+"url": "https://x.com/IsholaEdge/status/2087076130549358929",
+"createdAt": "Tue Aug 11 07:18:20 +0000 2026"
 },
 {
 "userName": "gurtej__gill_",
@@ -32,28 +48,44 @@
 "createdAt": "Sun Aug 09 11:21:04 +0000 2026"
 },
 {
+"userName": "MonetizationDon",
+"text": "GPT IMAGE 2 + MIINIMAX H3 WITH PROMPTS\n\nWhat if your AI tools became a cinematic universe? \n\nI wanted to try something a little different with MiniMax H3 and create a commercial for LOVART AI that feels more like a fashion campaign than a typical tech ad.\n\nI put my virtual influencer, Alexa Grey, in LOVART’s bright yellow and white colors and built the whole concept around text, characters and visual storytelling.\n\nOne thing I really wanted to explore was how far I could push the typography.\n\nMiniMax prompts use editorial typography, characters crossing through letters, billboards, graphic cards, oversized text, parallax and visual transitions.\n\nSo instead of simply putting a model name on screen, I made the lettering part of the world.\n\nAlexa walks through giant words.\nCharacters move around the typography.\nBillboards become cinematic scenes.\nLetters transform into environments.\nGraphic cards transition into completely different worlds.\n\nAnd then I brought the AI models into the story:\n\nThe goal was to make everything feel connected — characters, typography, billboards, environments and AI models all living inside the same creative universe.\n\nAnd at the end, it all comes together as: \nLOVART AI: YOUR AI CREATIVE STUDIO.\n\nNo dialogue. No voiceover.\n\nJust visuals, music, typography, and motion.\n\nMade with MiniMax H3 in @lovart_ai \nPrompts in the comments section👇👇👇👇\n#LovartAICPP",
+"likeCount": 44,
+"retweetCount": 4,
+"url": "https://x.com/MonetizationDon/status/2088139173815341520",
+"createdAt": "Fri Aug 14 05:42:29 +0000 2026"
+},
+{
+"userName": "matthieurouif",
+"text": "\"Will it look good on me?\"\n \nThat one question kills more apparel conversions than price ever will.\n \nAt Photoroom, our vision is that every business can sell at first sight. That's not just about beautiful images, it's about images that answer every question a buyer has. Because you buy a picture, but you receive a product.\n \nFor apparel, the questions are always the same: will it fit me? Will it look good on me, with my hair, my skin tone, my style?\n \nToday we're shipping the answer: a Virtual Try-On API for sellers.\n \nIn the demo below, I take a webcam photo of myself and generate a try-on instntly, high product fidelity, and genuinely fun to use. Some of our sellers are seeing a 4x increase in conversion with it. This is crazy, you're asking with AI with a ROI, this is huge. This is why a lot of fashion brands are currently working on it.\n \nAvailable now on the @photoroom API. The demo page was built with our friends at @lovable 💚 .",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/matthieurouif/status/2087897875392978992",
+"createdAt": "Thu Aug 13 13:43:39 +0000 2026"
+},
+{
+"userName": "Info_sam_ai",
+"text": "The AI landscape is moving fast in 2026. ⚡\n​Beyond ChatGPT and Gemini, there are specialized AI tools transforming daily workflows, automating research, and superpowering creative output.\n​Here are 10 hidden gem AI tools to add to your tech stack:\n\n​Comet Browser – AI-native research & navigation\n\n​Manus AI – Multi-step autonomous agent\n\n​Lovable – Build web apps from simple prompts\n\n​Dia Browser – Chat with open tabs seamlessly\n\n​Higgsfield AI – Advanced cinematic video creation\n\n​Krea AI – Real-time image generation & editing\n​Wispr Flow – Voice-to-polished text across apps\n\n​Granola – Smart automated meeting notes\n​Recall – Personal searchable knowledge library\n\n​Genspark – Structured answers & research pages",
+"likeCount": 17,
+"retweetCount": 13,
+"url": "https://x.com/Info_sam_ai/status/2088113811207438823",
+"createdAt": "Fri Aug 14 04:01:42 +0000 2026"
+},
+{
 "userName": "itsPolloAI",
 "text": "Take complete control of your commercial video ads with https://t.co/POwZa8nySK.\nOur multi-reference generation tool allows creators and brands to seamlessly translate detailed fashion references into high-definition, dynamic video spots with unmatched precision. \n\nRight now, all you have to do is like this post, follow @itsPolloAI, and comment “Pollo” below, and we’ll send you the 50% OFF Seedance 2.5 offer link via DM, so don’t forget to check your inbox! \n\nExperience the future of commercial production at https://t.co/POwZa8nySK.",
-"likeCount": 86,
+"likeCount": 115,
 "retweetCount": 4,
 "url": "https://x.com/itsPolloAI/status/2086799734627528880",
 "createdAt": "Mon Aug 10 13:00:02 +0000 2026"
 },
 {
-"userName": "Vtrivedy10",
-"text": "we’re in for another boom of cool interpretability research like The Lottery Ticket Hypothesis & Manifold Hypothesis with the rise of frontier open models\n\nget to really dig into how frontier intelligence is able to model concepts across modalities (text, image, video, audio)\n\nand how LLMs mechanistically execute search programs during rollouts to find the right trajectories across tasks",
-"likeCount": 17,
+"userName": "ThinkwithGoogle",
+"text": "Fashion and luxury have historically been resistant to generative AI – until now 👗✨\n\nWhen Power Digital Marketing joined Google’s Creative Lighthouse program, they partnered with LoveShackFancy to test the boundaries of generative creative. Instead of forcing tech onto the creative process, they anchored the campaign in the brand's authentic story.  \n\nThe result? A shared creative language, faster iteration, and a powerful competitive moat. #CannesLions2026",
+"likeCount": 3,
 "retweetCount": 1,
-"url": "https://x.com/Vtrivedy10/status/2087640239472840938",
-"createdAt": "Wed Aug 12 20:39:54 +0000 2026"
-},
-{
-"userName": "beffjezos",
-"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
-"likeCount": 73,
-"retweetCount": 1,
-"url": "https://x.com/beffjezos/status/2086282858428322160",
-"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
+"url": "https://x.com/ThinkwithGoogle/status/2085765684298961170",
+"createdAt": "Fri Aug 07 16:31:05 +0000 2026"
 },
 {
 "userName": "hasantoxr",
@@ -64,59 +96,67 @@
 "createdAt": "Tue Aug 11 19:44:53 +0000 2026"
 },
 {
-"userName": "guillermoyns",
-"text": "Stablecoin neobanks are becoming incredibly easy to build, and increasingly hard to tell apart.\n\nI spent the last few days thinking about what remains genuinely hard to copy. I call it UnAPIable. https://t.co/esMNEDQ4lG",
-"likeCount": 16,
-"retweetCount": 0,
-"url": "https://x.com/guillermoyns/status/2087165898620641504",
-"createdAt": "Tue Aug 11 13:15:02 +0000 2026"
+"userName": "GoEisy",
+"text": "🎥 Create stunning, realistic AI videos with natural movements, cinematic effects, and lifelike characters. Learn how to generate amazing videos and pay for supported AI tools from Nigeria using an Eisy Virtual Dollar Card. 🚀💳 https://t.co/Ge3AI2CYLF",
+"likeCount": 2,
+"retweetCount": 1,
+"url": "https://x.com/GoEisy/status/2087915137420218777",
+"createdAt": "Thu Aug 13 14:52:15 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @finkd: Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also r…",
-"likeCount": 30278,
-"retweetCount": 2551,
+"likeCount": 30295,
+"retweetCount": 2548,
 "url": "https://x.com/ClementDelangue/status/2086759116635058346",
 "createdAt": "Mon Aug 10 10:18:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @mkratsios47: Open-weight models put American AI innovation directly into the hands of developers, researchers, and startups. This is ex…",
-"likeCount": 1041,
-"retweetCount": 138,
-"url": "https://x.com/ClementDelangue/status/2086966079738232904",
-"createdAt": "Tue Aug 11 00:01:02 +0000 2026"
-},
-{
-"userName": "DevDsgn",
-"text": "How I turned random references into a consistent set of AI hero images.\n\nHere’s the full process, prompts, and revisions I used 👇 https://t.co/og9qc7Swxv",
-"likeCount": 132,
-"retweetCount": 8,
-"url": "https://x.com/DevDsgn/status/2087414239174783064",
-"createdAt": "Wed Aug 12 05:41:51 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
-"likeCount": 112,
-"retweetCount": 8,
-"url": "https://x.com/jeremyphoward/status/2087412546232070195",
-"createdAt": "Wed Aug 12 05:35:07 +0000 2026"
+"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
+"likeCount": 3745,
+"retweetCount": 220,
+"url": "https://x.com/ClementDelangue/status/2086759243298873571",
+"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Meta is back! well done @finkd @alexandr_wang! https://t.co/gWvkuDeHzF",
-"likeCount": 1655,
-"retweetCount": 95,
-"url": "https://x.com/ClementDelangue/status/2086760700014203090",
-"createdAt": "Mon Aug 10 10:24:55 +0000 2026"
+"text": "RT @victormustar: We are in an insane run of open-weight drops.\n\nEvery modality, open source is winning. This is what an open source AI sum…",
+"likeCount": 292,
+"retweetCount": 27,
+"url": "https://x.com/ClementDelangue/status/2087583321639551375",
+"createdAt": "Wed Aug 12 16:53:43 +0000 2026"
 },
 {
-"userName": "ShifuBroke",
-"text": "https://t.co/NpQPUh9TRx",
-"likeCount": 7,
+"userName": "Kazuqr61u",
+"text": "【SIGNALIA】\n\nA fictional fashion lookbook.\nOriginal characters, clothing, and visual studies.\n\nCreated with generative AI. https://t.co/GEpTSfmduh",
+"likeCount": 28,
+"retweetCount": 1,
+"url": "https://x.com/Kazuqr61u/status/2086820630847271322",
+"createdAt": "Mon Aug 10 14:23:04 +0000 2026"
+},
+{
+"userName": "eweqss1431",
+"text": "The AI Girls Taking Over Social Media: Who They Are and Why This Exploded Right Now https://t.co/mUPFaogONO",
+"likeCount": 17,
+"retweetCount": 1,
+"url": "https://x.com/eweqss1431/status/2085735138537701862",
+"createdAt": "Fri Aug 07 14:29:42 +0000 2026"
+},
+{
+"userName": "RomaTesla",
+"text": "A few thoughts on craft, AI and stuff https://t.co/q8CqVV0izx",
+"likeCount": 18,
+"retweetCount": 1,
+"url": "https://x.com/RomaTesla/status/2086755788387659782",
+"createdAt": "Mon Aug 10 10:05:24 +0000 2026"
+},
+{
+"userName": "BestBlogsDev",
+"text": "https://t.co/oGJ1JFflrm",
+"likeCount": 5,
 "retweetCount": 0,
-"url": "https://x.com/ShifuBroke/status/2087474700309922282",
-"createdAt": "Wed Aug 12 09:42:06 +0000 2026"
+"url": "https://x.com/BestBlogsDev/status/2088056200562913498",
+"createdAt": "Fri Aug 14 00:12:47 +0000 2026"
 }
 ]

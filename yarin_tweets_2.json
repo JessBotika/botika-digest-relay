@@ -1,35 +1,51 @@
 [
 {
-"userName": "rubenhassid",
-"text": "It's crazy how my entire Linkedin feed is about Claude but no one actually properly explains it. I made this quick note for my team on how to start:\n\n1. Models change all of the time. Today, use this:\n\n☑ Fable-5-High on the first 1/2 prompts.\n☑ Then switch to Opus-5-High (or Low).\n☑ If it's a quick search, Grok or ChatGPT.\n\nYes, we pay for everything. And we have the $100/mo tier from Claude (and we never hit limits).\n\nIf you can't pay for anything, ChatGPT's model is pretty good (August 2026). Claude never tried to serve the free tiers people, so don't bother.\n\n2. I stopped with .md files months ago. Instead:\n\n☑ Skills for anything task you do more than twice.\n☑ One Project per thing you work on weekly.\n☑ Files only if it's a one-off doc I'll not open again.\n\nEvery skill I (personally) use is free to download. Just subscribe at https://t.co/psB7XxAv8w & I'll email you the link. \n\n3. Ignore the advice of 'write instructions':\n\n☑ No custom instructions.\n☑ No \"you are an expert in…\" paragraph.\n☑ No context I paste into chats.\n\nEvery instruction you add is a rule Claude follows instead of thinking (outside of the box). You're paying for the smartest thing on the planet & then telling it to stay in a box.\n\n4. Claude is not an image model (yet). So:\n\n☑ Use ChatGPT for images (August 2026).\n☑ If you still want Claude, ask for the image as HTML code.\n\nThe HTML thing sounds weird, but text in a generated image comes out incorrect. In HTML it's just text, so it's always right.\n\n5. Your chat gets worse the longer it is. Instead:\n\n☑ New task, new chat.\n☑ It forgot something from 20 prompts ago? New chat.\n\nAnthropic's own engineers said this. People keep one chat open for 3 weeks & then complain that Claude doesn't get them. \n\n6. Stop obsessing over prompts. Instead:\n\n☑ \"Ask me 10 questions before you start.\"\n☑ Answer them badly, in the \"Something else\" option with your context.\n☑ Then let it run.\n\nThe stuff in your head that you didn't type is the main problem. This is the highest ROI line in this whole note & it takes 4 mins.\n\n7. Research mode is already in your app. The beast:\n\n☑ Use it for anything you'd Google for 40 mins.\n☑ Don't use it for quick stuff, it's slow.\n\nHuge difference between \"here's a summary\" & \"here's 40 sources I actually went & read.\" I don't know why this is hidden.\n\n8. When it gives you a link, click it:\n\n☑ AI writes the answer first, then goes looking for a page that agrees with it.\n☑ 60% of high-credibility sites now block AI crawlers.\n☑ 1 in 6 sources cited by AI search was written by another AI.\n\nSo it's reading AI slop. This is bonkers & almost nobody knows it. \n\n9. Don't be stupid with access:\n\n☑ Never paste logins, passwords, or keys.\n☑ Not explaining this one.\n\nEveryone connects 14 tools on day one & then panics about permissions.\n\nIf you do one thing from this, do # 2. Download my skills at https://t.co/psB7XxAv8w. Upload them in Claude. Stop unnecessarily wasting 6 months figuring out which ones matter.",
-"likeCount": 20,
-"retweetCount": 1,
-"url": "https://x.com/rubenhassid/status/2087766094517805315",
-"createdAt": "Thu Aug 13 05:00:00 +0000 2026"
+"userName": "LianwenJ",
+"text": "Hugging Face Daily Papers - Aug 11, 2026\n\n35 papers today, with 20 including code links. Full list:\n\n1. BDH-CQ: In-Context Learning with Recurrent Latent Reasoning\n   Highlight: We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time contin\n   arXiv: https://t.co/Q8ckuFfsHH\n\n2. Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA\n   Highlight: Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after\n   arXiv: https://t.co/SyEZszptbw\n\n3. SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring\n   Highlight: As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their eva\n   arXiv: https://t.co/E3K8XBUojY\n\n4. Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution\n   Highlight: We present Ouroboros, a self-developing agent harness whose tools, prompts, context assembly, and core implementation improve through reviewed comm\n   arXiv: https://t.co/47GT4eJOss\n\n5. On-Policy Self-Distillation without Any Supervision\n   Highlight: On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods sti\n   arXiv: https://t.co/1OQSXapa8Y\n\n6. Motif 3: Technical Report\n   Highlight: We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billion activated per token. Each\n   arXiv: https://t.co/H9ArBnkSLH\n\n7. Stealing Reasoning Traces from Proprietary LLM APIs\n   Highlight: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and\n   arXiv: https://t.co/C6I54VZ0Ij\n\n8. Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory\n   Highlight: Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for small language models, which\n   arXiv: https://t.co/6xF8cCC5Ei\n\n9. Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains\n   Highlight: We introduce Sci-VBench, a comprehensive benchmark for evaluating knowledge- and reasoning-intensive video generation across scientific domains. It\n   arXiv: https://t.co/Uyk9lDcMYF\n\n10. What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems\n   Highlight: Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primarily target text-only interac\n   arXiv: https://t.co/ddKxB73Lcp\n\n11. OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching\n   Highlight: Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context and long-form reasoning wor\n   arXiv: https://t.co/wpGsnj8HYA\n\n12. SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation\n   Highlight: On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse-KL training can assign insu\n   arXiv: https://t.co/UkItpnHgFn\n\n13. Scaling Inherently Interpretable Language Models\n   Highlight: Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with method\n   arXiv: https://t.co/oqxtelte8V\n\n14. Evo-Bench: Can Language Models Improve Agent Harness?\n   Highlight: Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined to static task solving. An e\n   arXiv: https://t.co/ffYy8KY1Ha\n\n15. RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States\n   Highlight: Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-indexed utilities grow with the i\n   arXiv: https://t.co/uFFACcewEb\n\n16. Evidence-RL: Towards Evidence-intensive Visual Reasoning\n   Highlight: Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts, or irrelevant visual conte\n   arXiv: https://t.co/BPe944qC00\n\n17. RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance\n   Highlight: General-purpose reward models are increasingly the bottleneck for scaling robot learning, yet the recipe for learning value-related capabilities fr\n   arXiv: https://t.co/lnXS8AF8Cz\n\n18. A^2E: An End-to-End Agent Auditing Engine\n   Highlight: With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range\n   arXiv: https://t.co/sdZsvfzf2i\n\n19. Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation\n   Highlight: User simulators are widely used as scalable environments for training and evaluating interactive assistants. Generating the next user turn is inher\n   arXiv: https://t.co/QSjBR9cn7D\n\n20. Business Arena: Benchmarking LLM Agents in a Realistic Marketplace\n   Highlight: Running a business is a challenging form of intelligent work. Operators must infer opportunities from partial signals, commit capital under uncerta\n   arXiv: https://t.co/GbTWmGAtLB\n\n21. Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval\n   Highlight: Large-taxonomy retrieval often assumes that the input already expresses the target concept. In many settings, however, the input is indirect eviden\n   arXiv: https://t.co/ncISgFN8AJ\n\n22. The Loss Does Not See the Basis, but Adam Does\n   Highlight: Gradient descent on a factored model W = UV^T is implicitly biased toward low-rank solutions, while Adam, starting from the same small initial\n   arXiv: https://t.co/IWOd5v56yb\n\n23. Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness\n   Highlight: Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of ev\n   arXiv: https://t.co/LyY3yQU3c5\n\n24. Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization\n   Highlight: Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own.\n   arXiv: https://t.co/ZlamKbPodq\n\n25. Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure\n   Highlight: Benchmarks for systems that are optimized against the evaluation signal measure something different from what they claim. We document this concrete\n   arXiv: https://t.co/poWUPHy2CU\n\n26. SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification\n   Highlight: Large language models (LLMs) increasingly serve as data-driven reasoners, yet their chains-of-thought (CoT) can be unfaithful even when final answe\n   arXiv: https://t.co/C1qCSZ5rBq\n\n27. A Hybrid Nested Harness for Decoupling Structure and Parameters in LLM-Driven Optimization\n   Highlight: In evolutionary algorithms powered by language models, the LLM acts as a single operator that simultaneously updates structural components (like co\n   arXiv: https://t.co/bl66qgYuzj\n\n28. Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation\n   Highlight: Artist-grounded image generation requires more than appending an artist name to a prompt. Image models often respond to artist names through canoni\n   arXiv: https://t.co/f6RuPusFIA\n\n29. WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks\n   Highlight: Recent advances in persistent personal-agent frameworks are making human-centered agent networks realistic deployment targets: each user can be ser\n   arXiv: https://t.co/BTjJX9JSf7\n\n30. MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models\n   Highlight: Multimodal Large Language Models (MLLMs) have achieved strong performance on a wide range of vision-language tasks, but often fail under imperfect\n   arXiv: https://t.co/te3yfudKLo\n\n31. CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems\n   Highlight: The development of embodied Intelligent Virtual Agents (IVAs) that have cognitive capabilities in real-time interactive virtual environments remain\n   arXiv: https://t.co/ZvPehi7bja\n\n32. Ego-OSCAR: Egocentric Open source Stereo CAptuRe System\n   Highlight: We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial capture device for egocentric data collection in the wild. EgoOSCAR\n   arXiv: https://t.co/wXOeOKkuen\n\n33. Vision-Language Grounding as Bidirectional Concept Correspondence\n   Highlight: Vision-language grounding connects language to visual content, yet most existing formulations reduce grounding to a unidirectional localization pro\n   arXiv: https://t.co/sQTBCjv0Yf\n\n34. MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation\n   Highlight: Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challen\n   arXiv: https://t.co/c1E8tGF5ad\n\n35. Omega-S: A Functional Resilience Index for LLM Fine-Tuning\n   Highlight: Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight\n   arXiv: https://t.co/MCNByyr2Bh\n\nTrend summary:\n- learning / optimization: 8\n- vision / multimodal: 8\n- NLP / language agents: 7\n- agents / general AI: 7\n- other: 1\n- coding / software engineering: 1\n- security / model protection: 1\n- systems / inference infrastructure: 1\n- robotics / embodied AI: 1\n\nOverall: agents, reasoning, memory, benchmarks, and multimodal generation dominate the day, with a strong practical tilt toward coding agents, evaluation, and inference systems.",
+"likeCount": 4,
+"retweetCount": 0,
+"url": "https://x.com/LianwenJ/status/2087321484494827802",
+"createdAt": "Tue Aug 11 23:33:17 +0000 2026"
+},
+{
+"userName": "iamchrisani",
+"text": "One of the things I find most fascinating about AI  is image generation. You may take this for granted but the thing dey burst my head I swear down 🔥🥰😅\n\nEspecially when it comes to photoshoots, studio pictures, avatars and creative photography.\n\nThink about it.\n\nA few years ago, if you wanted to see yourself in five different studio concepts, different outfits, different environments and different creative directions, you would need a photographer, studio, clothes, makeup, lighting, editing and probably multiple sessions.\n\nToday, with the right picture, the right idea and the right prompt, you can bring that imagination to life with AI.\n\nAnd for me, this is bigger than simply saying, “You don’t have to pay for a studio photoshoot.”\nJust like the image attached to this post .. this is AI and that’s my product VALOAI on the jersey \n\nSeee ehn \n\nIt is about creative freedom. You can imagine something and actually see yourself in it.\n\nA corporate executive photoshoot.\n\nA podcast studio.\n\nA fashion campaign.\n\nA cinematic scene.\n\nA professional website headshot.\n\nAn avatar.\n\nA flyer for your business.\n\nA product campaign.\n\nEntertainment content.\n\nPersonal branding.\n\nYou can experiment with concepts that would normally be difficult, expensive or almost impossible to produce physically.\n\nSomeone who cannot afford a professional studio can now create quality images.\n\nBut even someone who can afford the studio now has another powerful creative tool. Because AI gives you the ability to explore ideas before they ever exist in the real world.\n\nThat is what excites me.\n\nThe combination of technology + imagination + creativity.\n\nAI image generation has become so good that sometimes you look at what you created and think:\n“This is too good to be true.” \n\nBut like every powerful AI tool, your result depends heavily on knowing how to use it.\n\nThe reference images you use.\n\nHow you describe what you want.\n\nHow you structure your prompts.\n\nHow you maintain your face and body consistency.\n\nLighting.\n\nCamera angles.\n\nComposition.\n\nStyling.\n\nRealism.\n\nAll these things matter.\n\nAnd this Saturday, I will be teaching IMAGE GENERATION  plus how to create stunning graphics on a new level live inside Daba AI Money Club.\n\nI will show you practically how to create images with AI for yourself, your brand and your business.\n\nAnd I will also be giving members 50+ practical image-generation prompts they can use, edit and practice with.\n\nSaturday - 8PM WAT / 8PM UK time 3PM US time \n\nThis is not just about generating pretty pictures.\n\nIt is about learning another powerful way to use AI creatively and practically \n\nRush now Join us inside Daba AI Money Club.\nUse the link in the comment section to get access",
+"likeCount": 3,
+"retweetCount": 2,
+"url": "https://x.com/iamchrisani/status/2088144934591189452",
+"createdAt": "Fri Aug 14 06:05:22 +0000 2026"
 },
 {
 "userName": "babycamilaai",
 "text": "This is what brand-safe AI content generation looks like at scale. See how Orior powers consistent AI influencer campaigns. https://t.co/4jsBBmx5xA\n\nNo studio. No shoot day. No scheduling conflicts. Just consistent, on-brand content — generated\n\nBrands are quietly testing AI influencers for a reason ✨🔥\n\n{\n  \"prompt\": \"Vertical portrait photo of Camila, a young woman with a sleek dark bob haircut featuring a subtle blonde highlight streak framing her face, olive skin tone, hazel-green eyes, standing on an outdoor rooftop terrace at night. She is captured mid-turn, looking back over her shoulder directly at the camera with a warm, genuine smile showing teeth. Her right hand rests on her hip. She wears a long-sleeve, form-fitting black bodycon midi dress with a dramatic white streaked/brushstroke pattern radiating vertically down the torso and hips, creating an optical linear gradient effect. A thin gold layered necklace is visible at her collarbone. Background: a dense downtown city skyline at night, illuminated skyscrapers with lit windows, deep navy-blue sky, a low stone parapet wall in the foreground separating her from the city view below, string of street lights and a plaza visible far below. Lighting: soft ambient city glow mixed with warm frontal fill light on her face and dress, creating gentle highlights on the fabric's white streaks. Shot on a phone camera aesthetic, shallow natural depth of field, slightly candid influencer-style composition, 9:16 aspect ratio.\",\n  \"negative_prompt\": \"blurry, distorted face, extra limbs, deformed hands, low resolution, overexposed, plastic skin, asymmetrical face, watermark, text overlay\",\n  \"style\": \"photorealistic, editorial fashion, candid influencer photography\",\n  \"aspect_ratio\": \"9:16\",\n  \"model\": \"Flux 1.1 Pro\",\n  \"face_lock\": true,\n  \"character\": \"Camila\",\n  \"scene_tags\": [\"nightlife\", \"city skyline\", \"rooftop\", \"fashion\", \"evening glam\"]\n}",
-"likeCount": 27,
-"retweetCount": 5,
+"likeCount": 31,
+"retweetCount": 6,
 "url": "https://x.com/babycamilaai/status/2087561306496811345",
 "createdAt": "Wed Aug 12 15:26:15 +0000 2026"
-},
-{
-"userName": "Noha_Coder",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Noha_Coder For More Tools.",
-"likeCount": 41,
-"retweetCount": 28,
-"url": "https://x.com/Noha_Coder/status/2087584503632208071",
-"createdAt": "Wed Aug 12 16:58:25 +0000 2026"
 },
 {
 "userName": "arsalannazir07",
 "text": "Image Generation Prompt\n\nUltra-realistic luxury fashion editorial portrait of a handsome young man with thick, voluminous dark brown hair styled in a refined textured quiff, neatly faded sides, and a full, sharply groomed beard. He is shown in a sophisticated three-quarter close-up profile, looking downward with a calm, confident expression. He wears classic black rectangular sunglasses with subtle premium detailing, a textured black waffle-knit cardigan worn slightly open at the chest, and a minimalist luxury wristwatch with a black dial, slim silver case, and black leather strap.\n\nHis right hand naturally adjusts the collar of the cardigan, bringing attention to the watch and refined styling. Warm natural skin tones, realistic beard and individual hair strands, detailed skin texture, subtle facial pores, elegant masculine aesthetic. Clean turquoise-blue studio background with a softly blurred beige foreground, creating a premium contemporary contrast. Soft directional daylight from the upper left, gentle highlights along the face and hair, subtle shadows, cinematic depth of field, shallow background blur, sophisticated luxury campaign photography, premium menswear advertisement, understated elegance, photorealistic, high-end editorial photography, 85mm portrait lens, f/1.8, natural bokeh, crisp subject separation, realistic proportions, 8K detail, vertical composition, no text, no watermark.\n\nNegative prompt: cartoon, CGI, plastic skin, over-smoothed face, distorted hands, extra fingers, malformed watch, asymmetrical sunglasses, exaggerated muscles, oversaturated colors, artificial lighting, blurry face, low detail, duplicate accessories, warped anatomy.",
 "likeCount": 71,
-"retweetCount": 4,
+"retweetCount": 5,
 "url": "https://x.com/arsalannazir07/status/2087398384659525636",
 "createdAt": "Wed Aug 12 04:38:51 +0000 2026"
+},
+{
+"userName": "gurtej__gill_",
+"text": "This Paper is one of the cleverest solutions I’ve seen for fixing Diffusion Alignment.\n\nIf you’ve worked with RLHF or Reward Backprop on DiTs, you must be tired of delayed feedback. \n\nEvaluating only the final image makes credit assignment a total nightmare. \n\nYou either run out of VRAM trying to unroll the full trajectory, or you fight insane gradient variance with online RL.\n\nThe authors solve this by sticking learnable, position-free \"register tokens\" into a frozen DiT. \n\nInstead of waiting until step 50, these registers pull dense reward signals directly out of noisy intermediate latents. \n\nIt turns out you can accurately judge trajectory quality surprisingly early in the denoising process.\n\nWhat makes this paper stand out is how practical the applications are:\n\n1-For training: Their distillation setup (RG-OPD) skips standard policy gradients entirely and hits the same alignment performance while using up to 33x fewer GPU hours. That’s huge for making alignment accessible.\n\n2-For inference: You can use their Reward-Guided Sampling (RGS) to steer generation live off these register gradients thus improving both prompt adherence and visual quality without retraining or touching model weights.\n\nIt’s a super clean, well thought-out approach that addresses both the compute bottleneck and inference control at once. \n\nDefinitely worth a read if you're working on generative models:\nhttps://t.co/tfkSPmYwiU",
+"likeCount": 41,
+"retweetCount": 10,
+"url": "https://x.com/gurtej__gill_/status/2086412441366266137",
+"createdAt": "Sun Aug 09 11:21:04 +0000 2026"
+},
+{
+"userName": "onlyAshiaHo",
+"text": "Art geek here before I turned hottest thing you saw on the Internet. Did you know many working artists now treat AI as a collaborative partner rather than a pure replacement? They fire up generative tools for rapid ideation, wild style exploration, and solid base compositions, then dive in by hand to refine, reshape, and make every piece unmistakably theirs. This hybrid workflow is already inventing new job titles and creative processes while sparking big questions about authorship and originality. And honestly? The artists who lean into it aren’t losing their edge, they’re sharpening it, proving that the future of art still belongs to the human hand that chooses what stays.🪄✨️\n\nMore travel videos, daily solos, wealth tips, and wisdom talks on Tiktok💜 and Instagram🤎 @jullianaskyy.ph\n \n#fyp #fashioninfluencer #wh0recouture #fulltimesolotraveler #🇵🇭 \nfyp, fashion influencer, fulltime solotraveler, siquijor, philippines, filipina, asian, model, bob, fashion designer, business owner, bop, entertainer, content creator, traveler",
+"likeCount": 3,
+"retweetCount": 1,
+"url": "https://x.com/onlyAshiaHo/status/2086149978573934763",
+"createdAt": "Sat Aug 08 17:58:08 +0000 2026"
 },
 {
 "userName": "jiqizhixin",
@@ -40,83 +56,99 @@
 "createdAt": "Tue Aug 11 21:31:00 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Local AI is exploding!\n\nTransformers.js, that we've been building @huggingface for the past three years has now become the most popular open-source library to run AI models directly in your browser and crossed 10 million (!!) monthly downloads, close to 10x from just six months ago.\n\nMore generally, I'm excited to see a meaningful percentage of AI workloads move to local because it's free & fully private! At a time of compute shortage & increased cyber-attack risks, we need it more than ever.\n\nLet's go!",
-"likeCount": 357,
-"retweetCount": 52,
-"url": "https://x.com/ClementDelangue/status/2087518483718545533",
-"createdAt": "Wed Aug 12 12:36:05 +0000 2026"
+"userName": "FutureGirlAi",
+"text": "🚨 THE AI TOOL LIST YOU NEED IN 2026\n\nNot sure which AI tool to use for your next project?\n\nHere’s a quick category-by-category list 👇\n\n🤖 Chat / LLM → Claude Fable 5\n🎨 Image Generation → GPT Image 2\n🎬 Video Generation → Gemini Omni Flash\n📊 Presentations → Gamma\n⚡ Automation / Agents → n8n\n🎭 AI Avatar → HeyGen\n🔊 Text-to-Speech → Qwen-Audio 3.0 Plus\n🔎 AI Research → Perplexity\n💻 Coding → Claude Code\n✂️ Video Editing → Runway\n🎵 Music Generation → Suno v5.5\n📢 Ad Creatives → https://t.co/8TIgQjo2V0\n🌍 Translation → DeepL\n🎮 Game Generation → Rosebud AI\n🧊 3D Generation → Meshy AI\n\nSave this list for later. 🔖\n\nWhich AI tool would you add to this list?",
+"likeCount": 54,
+"retweetCount": 44,
+"url": "https://x.com/FutureGirlAi/status/2087927329872130237",
+"createdAt": "Thu Aug 13 15:40:41 +0000 2026"
 },
 {
-"userName": "AleaSoft_EN",
-"text": "🤖 You can now try our virtual assistant on the AleaSoft website.\nAsk it, in any language, about our services and solutions for the energy sector.\n💬 Try it and let us know what you think:\n 👉 https://t.co/7i9AbrzJtm\n#AleaSoft #AI #Chatbot https://t.co/59XV6uFMIe",
-"likeCount": 1,
-"retweetCount": 3,
-"url": "https://x.com/AleaSoft_EN/status/2087441455887405259",
-"createdAt": "Wed Aug 12 07:30:00 +0000 2026"
-},
-{
-"userName": "rydcunningham",
-"text": "[new!] the technical companion to my piece with @ruima last week, significantly expanded\n\nnow includes training time estimates for Kimi K3 and \"DeepMythos V5,\" a hypothetical future Mythos-scale DS release\n\nplus a few other surprises https://t.co/GHQOw3VVyY",
-"likeCount": 24,
-"retweetCount": 2,
-"url": "https://x.com/rydcunningham/status/2085434224178303376",
-"createdAt": "Thu Aug 06 18:33:59 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "In Seattle and SF with @julien_c to get some compute for HF and our customers. Let us know if you need GPUs with ultra fast connection to HF models and datasets! https://t.co/Ct3AEwL12E",
-"likeCount": 238,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2085474143722742169",
-"createdAt": "Thu Aug 06 21:12:36 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @AIatMeta: Introducing Muse Glimmer, an open-weight 30B-parameter model optimized for local, always-on agent workflows.\n\nMuse Glimmer de…",
-"likeCount": 8188,
-"retweetCount": 1052,
-"url": "https://x.com/ClementDelangue/status/2086771654756122804",
-"createdAt": "Mon Aug 10 11:08:27 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
-"likeCount": 3741,
-"retweetCount": 219,
-"url": "https://x.com/ClementDelangue/status/2086759243298873571",
-"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @allen_ai: We're expanding our partnership with @huggingface to accelerate open science.\n\nOur storage on the Hub is roughly tripling to…",
-"likeCount": 139,
-"retweetCount": 29,
-"url": "https://x.com/ClementDelangue/status/2085356697900495066",
-"createdAt": "Thu Aug 06 13:25:55 +0000 2026"
-},
-{
-"userName": "Kazuqr61u",
-"text": "【SIGNALIA】\n\nA fictional fashion lookbook.\nOriginal characters, clothing, and visual studies.\n\nCreated with generative AI. https://t.co/GEpTSfmduh",
-"likeCount": 28,
+"userName": "beffjezos",
+"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
+"likeCount": 73,
 "retweetCount": 1,
-"url": "https://x.com/Kazuqr61u/status/2086820630847271322",
-"createdAt": "Mon Aug 10 14:23:04 +0000 2026"
+"url": "https://x.com/beffjezos/status/2086282858428322160",
+"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
 },
 {
-"userName": "MichaelGannotti",
-"text": "Check out the new Hermes Pixel Office https://t.co/b0WRbwciia",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/MichaelGannotti/status/2087034182518132836",
-"createdAt": "Tue Aug 11 04:31:38 +0000 2026"
+"userName": "dctrpr",
+"text": "bagwork has been software for too long.\n\nso we designed two physical BUY buttons:\n\nBUY/0: pure ritual.\nBUY/1: one press, one bounded $BUY attempt.\n350,000 modeled configs later, the meme entered hardware.\n\nproof of bagwork: https://t.co/xli5sxCCof https://t.co/DP0Rreckqv",
+"likeCount": 22,
+"retweetCount": 10,
+"url": "https://x.com/dctrpr/status/2087961734229413953",
+"createdAt": "Thu Aug 13 17:57:24 +0000 2026"
 },
 {
-"userName": "RomaTesla",
-"text": "A few thoughts on craft, AI and stuff https://t.co/q8CqVV0izx",
-"likeCount": 18,
+"userName": "timboloman",
+"text": "AI watermarks can carry more than provenance. Explore hidden data, covert channels, code backdoors, model bias, and open-weight watermark removal. https://t.co/DqzoBeRNyo",
+"likeCount": 3,
 "retweetCount": 1,
-"url": "https://x.com/RomaTesla/status/2086755788387659782",
-"createdAt": "Mon Aug 10 10:05:24 +0000 2026"
+"url": "https://x.com/timboloman/status/2087558977890529336",
+"createdAt": "Wed Aug 12 15:16:59 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @NVIDIAAI: Introducing NVIDIA Nemotron 3.5 Lightning⚡\n\nAn open 30B MoE model with 3B active parameters, built for always-on agents to co…",
+"likeCount": 5635,
+"retweetCount": 649,
+"url": "https://x.com/ClementDelangue/status/2087514878970077677",
+"createdAt": "Wed Aug 12 12:21:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @alexandr_wang: 1/ big announcement today: we will be releasing an open weight version of muse spark 1.2 soon.\n\nwe also are releasing mu…",
+"likeCount": 9516,
+"retweetCount": 731,
+"url": "https://x.com/ClementDelangue/status/2086767973365137526",
+"createdAt": "Mon Aug 10 10:53:49 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @mkratsios47: Open-weight models put American AI innovation directly into the hands of developers, researchers, and startups. This is ex…",
+"likeCount": 1043,
+"retweetCount": 138,
+"url": "https://x.com/ClementDelangue/status/2086966079738232904",
+"createdAt": "Tue Aug 11 00:01:02 +0000 2026"
+},
+{
+"userName": "DevDsgn",
+"text": "How I turned random references into a consistent set of AI hero images.\n\nHere’s the full process, prompts, and revisions I used 👇 https://t.co/og9qc7Swxv",
+"likeCount": 135,
+"retweetCount": 8,
+"url": "https://x.com/DevDsgn/status/2087414239174783064",
+"createdAt": "Wed Aug 12 05:41:51 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
+"likeCount": 114,
+"retweetCount": 8,
+"url": "https://x.com/jeremyphoward/status/2087412546232070195",
+"createdAt": "Wed Aug 12 05:35:07 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Let's go!\n\nhttps://t.co/BAJlYIJqDQ https://t.co/FYTH5MrTBG",
+"likeCount": 1664,
+"retweetCount": 116,
+"url": "https://x.com/ClementDelangue/status/2087562019788697818",
+"createdAt": "Wed Aug 12 15:29:05 +0000 2026"
+},
+{
+"userName": "mvanhorn",
+"text": "https://t.co/58R3aJ4Hbn",
+"likeCount": 95,
+"retweetCount": 7,
+"url": "https://x.com/mvanhorn/status/2087941850456076696",
+"createdAt": "Thu Aug 13 16:38:23 +0000 2026"
+},
+{
+"userName": "TheZvi",
+"text": "https://t.co/w8Nre60m23",
+"likeCount": 23,
+"retweetCount": 1,
+"url": "https://x.com/TheZvi/status/2087921844703678575",
+"createdAt": "Thu Aug 13 15:18:54 +0000 2026"
 }
 ]
