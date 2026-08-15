@@ -1,21 +1,5 @@
 [
 {
-"userName": "evergenius_eg",
-"text": "Continued - THE STRONG MEN WE ARE RAISING\n\nYesterday’s post sparked quite a few reactions.\n\nAnd I think one thing needs to be made clear:\n\nThis is not an argument against change.\n\nIt was never about saying the younger generation is doomed.\n\nIf anything, it was meant to make us look beyond the trend, understand the psychology behind it, and question the kind of future we are collectively building.\n\nLet me take it a step further.\n\nI remember being on another space where people were projecting what the next generation would become.\n\nSome said they were genuinely scared.\n\nThat the next generation would be worse.\nLess disciplined.\nLess responsible.\nLess connected to reality.\nBut I remember thinking:\n\nHaven’t people said the same thing about every generation?\n\nI vividly remember my parents talking about their generation with a certain dignity and telling us how different and sometimes disappointing they feared ours would become.\n\nYet look at what our generation has produced.\n\nNigeria has produced people who have built companies, technologies and institutions that operate far beyond our borders:\n\nShola Akinlade & Ezra Olubi built Paystack, which Stripe acquired for more than $200 million.\n\nIyinoluwa Aboyeji co-founded Andela and Flutterwave and has continued investing in Africa’s next generation of founders.\n\nOlugbenga “GB” Agboola helped build Flutterwave into one of Africa’s most significant payment companies.\n\nOdunayo Eweniyi, alongside her PiggyVest co-founders, helped build one of Nigeria’s most influential savings and investment platforms.\n\nAnd this isn’t limited to fintech.\nWe have Nigerian engineers, creators, designers, founders, artists, researchers and builders solving problems that previous generations couldn’t even imagine.\n\nWe have young Nigerians building in:\n\nAI\nBlockchain\nFintech\nSoftware\nMedia\nEntertainment\nFashion\nEducation\nCreative technology\n\nAnd even among the younger generation, there are already people proving that the story isn’t simply one of decline.\nThere are young developers teaching other teenagers to code, young entrepreneurs building businesses, and young Nigerians creating communities around technology and innovation.\n\nSo yes, I agree with the “OLODO uprising.”\n\nBut I also believe in something else:\n\nTHE GENIUS UPRISING.\n\nThe builders.\n\nThe thinkers.\n\nThe disciplined.\n\nThe curious.\n\nThe ones who understand that going viral is not the same thing as building value.\n\nThe ones who understand that money is not the same thing as wealth.\n\nThe ones who understand that freedom without responsibility is not progress.\n\nAnd this is where the conversation becomes personal.\n\nBecause the real question isn’t:\n\n“What is wrong with Gen Z?”\n\nThe real question is:\n\n“What kind of next generation are YOU raising?”\n\nBecause somewhere in the future, your children will become someone else’s leaders.\n\nThey will become:\n\nFounders.\nEngineers.\nDoctors.\nInvestors.\nPolicymakers.\nTeachers.\nCreators.\nParents.\nBuilders.\n\nAnd I want to raise children who can look at the world they inherited and say:\n\n“Our parents didn’t fail us.”\n\nI want to raise children who are evidence that despite everything happening around us, we still understood the assignment.\n\nChildren who can embrace technology without becoming slaves to it.\n\nChildren who can enjoy freedom without abandoning responsibility.\n\nChildren who can understand modernity without despising their heritage.\n\nChildren who can pursue wealth without losing their values.\n\nChildren who can be ambitious without becoming entitled.\n\nChildren who can question the world without losing the ability to think.\n\nBecause the future isn’t automatically going to be better.\n\nWe have to build the people capable of making it better.\n\nAnd that brings us back to the cycle:\n\nHard times create strong men. Strong men create good times. Good times create weak men. And weak men create hard times.\n\nYesterday, I was talking about the cycle.\n\nToday, I’m asking you to look in the mirror.\n\nAre you raising the generation that will break the cycle or continue it?\n\nBecause perhaps the future isn’t determined by what Gen Z becomes.\n\nPerhaps it is determined by what we choose to raise.\nAnd that is a much more personal question.",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/evergenius_eg/status/2086325487412895764",
-"createdAt": "Sun Aug 09 05:35:32 +0000 2026"
-},
-{
-"userName": "andrexibiza",
-"text": "@Teknium I ran out of OpenAI resets building Hermes with Hermes this week.\n\nSo I built Freemaxxing.\n\nThat is not a joke. Developers are already spending an absolutely stupid amount of money on tokens. When you’re building with agents all day, eventually you hit a quota, a rate limit, a weekly cap, or the point where you simply refuse to put another $100 into the token furnace.\n\nAnd the difference between “I’m done working for today” and “keep going” can literally just be having a free model available.\n\nSo I made that a first-class Hermes primitive!\n\nFreemaxxing is a bundled Hermes model provider backed by a local OpenAI-compatible proxy. Hermes talks to it like any other provider. Behind that interface, it builds a pool of whatever usable inference you already have available:\n\nTier 0: Nous Portal. It automatically discovers the OAuth/JWT credentials Hermes already has. No new API key. No new account setup. The JWT can rotate, so Freemaxxing re-resolves it on expiry instead of dying halfway through a long-running gateway.\n\nTier 1: OpenRouter. Optional. If you already have an OPENROUTER_API_KEY, it joins the pool.\n\nTier 2: Hugging Face. Optional. Same thing with HF_TOKEN.\n\nThen the fun part starts.\n\nFreemaxxing queries each backend’s /models catalog and does model-aware routing. If you ask for a specific model, it prefers a backend that actually advertises it.\n\nOr just ask for the virtual model:\n\nfreemaxxing\n\nThat means auto.\n\nThe router looks at the live catalogs, prefers :free models first, then lighter flash / mini / nano / small / lite models, and sends the request to an available backend.\n\nAnd it actually behaves like a pool rather than a dumb proxy:\n\n429? Honor Retry-After, cool that backend down, try another.\n\n5xx, timeout, connection reset? Cooldown and fail over.\n\n404 because that backend doesn’t have the model? Skip it without poisoning the backend.\n\nExpired Nous credential? Refresh the JWT and retry.\n\nBad request? Fail immediately instead of spraying the same malformed request across every provider.\n\nStreaming? Passed straight through.\n\nTools, response_format, seed, stop sequences, top_p, and the rest of the OpenAI request body? Preserved.\n\nEverything dead? 503. It does not secretly reach for some expensive provider behind your back.\n\nThere’s even /healthz exposing the state of the pool.\n\nAnd I didn’t want this implemented as another special case welded into Hermes forever, so I widened the provider architecture itself. ProviderProfile now has a generic supports_noauth_loopback capability. Any future plugin can declare itself a local no-key provider and participate normally in Hermes provider discovery, credential resolution, model selection, fallbacks, and the provider catalog.\n\nThe proxy is also dormant unless you actually select Freemaxxing. Merely discovering the plugin doesn’t start a listener or grab a port.\n\nSo yeah.\n\nI exhausted my paid AI allowance.\n\nInstead of stopping work, I changed Hermes so running out of paid tokens no longer has to mean running out of AI.\n\nThat is Freemaxxing. 😈\n\nAnd of course the PR is green.\n\nhttps://t.co/wC04ZDY0rL",
-"likeCount": 4,
-"retweetCount": 0,
-"url": "https://x.com/andrexibiza/status/2088066531728986240",
-"createdAt": "Fri Aug 14 00:53:50 +0000 2026"
-},
-{
 "userName": "elisymlabs",
 "text": "100 types of services could join Elisym today.\n\nIf you're already building one of these, you don't need to build a marketplace or a billing flow to get discovered. You just need one command, and every AI agent on the network can find you, hire you, and pay you.\n\n1) market data feeds\n\n2) pricing APIs\n\n3) on-chain analytics\n\n4) sentiment trackers\n\n5) news aggregators\n\n6) patent search\n\n7) academic paper search\n\n8) legal case lookup\n\n9) company data enrichment\n\n10) weather data\n\n11) image generation\n\n12) video generation\n\n13) voice cloning\n\n14) music generation\n\n15) text-to-speech\n\n16) transcription\n\n17) translation\n\n18) code generation\n\n19) 3D model generation,\n\n20) avatar creation\n\n21) web search\n\n22) code search\n\n23) document search\n\n24) product search\n\n25) image search\n\n26) video search\n\n27) job listings search\n\n28) real estate search\n\n29) flight/hotel search\n\n30) patent search\n\n31) swap routers\n\n32) portfolio trackers\n\n33) yield scanners\n\n34) options pricing\n\n35) risk scoring\n\n36) credit checks\n\n37) fraud detection\n\n38) tax calculators\n\n39) invoice generation\n\n40) currency conversion\n\n41) article summarization\n\n42) video summarization\n\n43) podcast transcription\n\n44) content moderation\n\n45) plagiarism detection\n\n46) SEO analysis\n\n47) keyword research\n\n48) sentiment analysis\n\n49) readability scoring\n\n50) subtitle generation\n\n51) code review\n\n52) vulnerability scanning\n\n53) API testing\n\n54) log analysis\n\n55) uptime monitoring\n\n56) performance profiling\n\n57) dependency auditing\n\n58) changelog generation\n\n59) doc generation\n\n60) test generation\n\n61) KYC checks\n\n62) identity verification\n\n63) proof-of-personhood\n\n64) domain verification\n\n65) reputation scoring\n\n66) background checks\n\n67) notarization\n\n68) digital signatures\n\n69) watermark detection\n\n70) deepfake detection\n\n71) email drafting\n\n72) scheduling\n\n73) CRM enrichment\n\n74) lead scoring\n\n75) competitor monitoring\n\n76) price tracking\n\n77) inventory sync\n\n78) form filling\n\n79) data extraction\n\n80) satellite imagery analysis\n\n81) supply chain tracking\n\n82) logo/brand generation\n\n83) synthetic data generation\n\n84) prompt optimization\n\n85) grant/funding search\n\n86) influencer search\n\n87) on-chain wallet analysis\n\n88) liquidation risk monitoring\n\n89) gas fee optimization\n\n90) thumbnail generation\n\n91) A/B headline testing\n\n92) accessibility (alt-text) generation\n\n93) infrastructure cost analysis\n\n94) database query optimization\n\n95) CI/CD pipeline diagnostics\n\n96) age verification\n\n97) document authenticity checks\n\n98) meeting summarization\n\n99) calendar coordination\n\n100) contract review\n\nYour SaaS already has everything it needs to offer its services on the Elisym network. Just ask Claude: \"How do I deploy my SaaS project on the Elisym network?\"\n\nDocs here: https://t.co/7b0OuBSqfW\n\nThis creates an agent that sells your SaaS product 24/7, paid in USDC.\n\nNo approval. No waitlist. No platform taking a cut.",
 "likeCount": 12,
@@ -24,108 +8,92 @@
 "createdAt": "Thu Aug 13 14:00:01 +0000 2026"
 },
 {
-"userName": "HonNoah93",
-"text": "HON. NOAH AHMED — EMPOWERING THE GEN Z GENERATION\n\nHon. Noah Ahmed’s proposed vision for young people is built on one fundamental principle: young people should not only be the leaders of tomorrow—they should have meaningful opportunities to contribute today.\n\nHis youth empowerment agenda would focus on turning the energy, creativity and innovation of Gen Z into skills, businesses, employment and sustainable livelihoods across Taraba State.\n\nUnder this proposed vision, youth development would include:\n\n💡 TECHNOLOGY & DIGITAL SKILLS\nCreate opportunities for young people to learn AI, cybersecurity, software development, digital marketing, graphics, content creation and other emerging technologies.\n\n🚀 STARTUP & BUSINESS SPONSORSHIP\nSupport promising youth-owned businesses through transparent grants, equipment, mentorship and access to business development programmes—not just one-time handouts.\n\n🎓 EDUCATION & SCHOLARSHIPS\nExpand opportunities for scholarships, vocational training, professional certifications and technical education so that financial hardship does not prevent talented young people from developing their potential.\n\n🎨 CREATIVE INDUSTRY SUPPORT\nProvide structured support for musicians, filmmakers, photographers, designers, writers, fashion entrepreneurs and other creatives through training, sponsorship and platforms for showcasing their work.\n\n⚽ SPORTS DEVELOPMENT\nInvest in grassroots sports by supporting young athletes, coaches and sporting programmes, while creating pathways for talented youths to compete at higher levels.\n\n💼 JOBS, INTERNSHIPS & ENTREPRENEURSHIP\nBuild partnerships with private businesses and institutions to create internships, apprenticeships and employment opportunities while helping young entrepreneurs develop sustainable enterprises.\n\n🏢 YOUTH INNOVATION CENTRES\nDevelop spaces where young people can access training, internet connectivity, mentorship, technology and collaborative opportunities.\n\nA NEW APPROACH TO YOUTH SPONSORSHIP\n\nThe goal should be to move from “giving young people something” to “giving young people the tools to build something.”\n\nEvery sponsorship programme should be transparent, merit-based and accessible to young people across communities and local government areas.\n\nHON. NOAH AHMED’S MESSAGE TO THE GEN Z GENERATION:\n\n> “Your ideas matter. Your talent matters. Your future matters. Government should create an environment where a young person with an idea, skill or dream has a genuine opportunity to turn that potential into reality.”\n\nEmpower the youth. Invest in talent. Sponsor innovation. Create opportunity. Build a stronger Taraba.",
-"likeCount": 7,
+"userName": "iamchrisani",
+"text": "One of the things I find most fascinating about AI  is image generation. You may take this for granted but the thing dey burst my head I swear down 🔥🥰😅\n\nEspecially when it comes to photoshoots, studio pictures, avatars and creative photography.\n\nThink about it.\n\nA few years ago, if you wanted to see yourself in five different studio concepts, different outfits, different environments and different creative directions, you would need a photographer, studio, clothes, makeup, lighting, editing and probably multiple sessions.\n\nToday, with the right picture, the right idea and the right prompt, you can bring that imagination to life with AI.\n\nAnd for me, this is bigger than simply saying, “You don’t have to pay for a studio photoshoot.”\nJust like the image attached to this post .. this is AI and that’s my product VALOAI on the jersey \n\nSeee ehn \n\nIt is about creative freedom. You can imagine something and actually see yourself in it.\n\nA corporate executive photoshoot.\n\nA podcast studio.\n\nA fashion campaign.\n\nA cinematic scene.\n\nA professional website headshot.\n\nAn avatar.\n\nA flyer for your business.\n\nA product campaign.\n\nEntertainment content.\n\nPersonal branding.\n\nYou can experiment with concepts that would normally be difficult, expensive or almost impossible to produce physically.\n\nSomeone who cannot afford a professional studio can now create quality images.\n\nBut even someone who can afford the studio now has another powerful creative tool. Because AI gives you the ability to explore ideas before they ever exist in the real world.\n\nThat is what excites me.\n\nThe combination of technology + imagination + creativity.\n\nAI image generation has become so good that sometimes you look at what you created and think:\n“This is too good to be true.” \n\nBut like every powerful AI tool, your result depends heavily on knowing how to use it.\n\nThe reference images you use.\n\nHow you describe what you want.\n\nHow you structure your prompts.\n\nHow you maintain your face and body consistency.\n\nLighting.\n\nCamera angles.\n\nComposition.\n\nStyling.\n\nRealism.\n\nAll these things matter.\n\nAnd this Saturday, I will be teaching IMAGE GENERATION  plus how to create stunning graphics on a new level live inside Daba AI Money Club.\n\nI will show you practically how to create images with AI for yourself, your brand and your business.\n\nAnd I will also be giving members 50+ practical image-generation prompts they can use, edit and practice with.\n\nSaturday - 8PM WAT / 8PM UK time 3PM US time \n\nThis is not just about generating pretty pictures.\n\nIt is about learning another powerful way to use AI creatively and practically \n\nRush now Join us inside Daba AI Money Club.\nUse the link in the comment section to get access",
+"likeCount": 9,
+"retweetCount": 3,
+"url": "https://x.com/iamchrisani/status/2088144934591189452",
+"createdAt": "Fri Aug 14 06:05:22 +0000 2026"
+},
+{
+"userName": "babycamilaai",
+"text": "This is what brand-safe AI content generation looks like at scale. See how Orior powers consistent AI influencer campaigns. https://t.co/4jsBBmx5xA\n\nNo studio. No shoot day. No scheduling conflicts. Just consistent, on-brand content — generated\n\nBrands are quietly testing AI influencers for a reason ✨🔥\n\n{\n  \"prompt\": \"Vertical portrait photo of Camila, a young woman with a sleek dark bob haircut featuring a subtle blonde highlight streak framing her face, olive skin tone, hazel-green eyes, standing on an outdoor rooftop terrace at night. She is captured mid-turn, looking back over her shoulder directly at the camera with a warm, genuine smile showing teeth. Her right hand rests on her hip. She wears a long-sleeve, form-fitting black bodycon midi dress with a dramatic white streaked/brushstroke pattern radiating vertically down the torso and hips, creating an optical linear gradient effect. A thin gold layered necklace is visible at her collarbone. Background: a dense downtown city skyline at night, illuminated skyscrapers with lit windows, deep navy-blue sky, a low stone parapet wall in the foreground separating her from the city view below, string of street lights and a plaza visible far below. Lighting: soft ambient city glow mixed with warm frontal fill light on her face and dress, creating gentle highlights on the fabric's white streaks. Shot on a phone camera aesthetic, shallow natural depth of field, slightly candid influencer-style composition, 9:16 aspect ratio.\",\n  \"negative_prompt\": \"blurry, distorted face, extra limbs, deformed hands, low resolution, overexposed, plastic skin, asymmetrical face, watermark, text overlay\",\n  \"style\": \"photorealistic, editorial fashion, candid influencer photography\",\n  \"aspect_ratio\": \"9:16\",\n  \"model\": \"Flux 1.1 Pro\",\n  \"face_lock\": true,\n  \"character\": \"Camila\",\n  \"scene_tags\": [\"nightlife\", \"city skyline\", \"rooftop\", \"fashion\", \"evening glam\"]\n}",
+"likeCount": 31,
+"retweetCount": 6,
+"url": "https://x.com/babycamilaai/status/2087561306496811345",
+"createdAt": "Wed Aug 12 15:26:15 +0000 2026"
+},
+{
+"userName": "arsalannazir07",
+"text": "Image Generation Prompt\n\nUltra-realistic luxury fashion editorial portrait of a handsome young man with thick, voluminous dark brown hair styled in a refined textured quiff, neatly faded sides, and a full, sharply groomed beard. He is shown in a sophisticated three-quarter close-up profile, looking downward with a calm, confident expression. He wears classic black rectangular sunglasses with subtle premium detailing, a textured black waffle-knit cardigan worn slightly open at the chest, and a minimalist luxury wristwatch with a black dial, slim silver case, and black leather strap.\n\nHis right hand naturally adjusts the collar of the cardigan, bringing attention to the watch and refined styling. Warm natural skin tones, realistic beard and individual hair strands, detailed skin texture, subtle facial pores, elegant masculine aesthetic. Clean turquoise-blue studio background with a softly blurred beige foreground, creating a premium contemporary contrast. Soft directional daylight from the upper left, gentle highlights along the face and hair, subtle shadows, cinematic depth of field, shallow background blur, sophisticated luxury campaign photography, premium menswear advertisement, understated elegance, photorealistic, high-end editorial photography, 85mm portrait lens, f/1.8, natural bokeh, crisp subject separation, realistic proportions, 8K detail, vertical composition, no text, no watermark.\n\nNegative prompt: cartoon, CGI, plastic skin, over-smoothed face, distorted hands, extra fingers, malformed watch, asymmetrical sunglasses, exaggerated muscles, oversaturated colors, artificial lighting, blurry face, low detail, duplicate accessories, warped anatomy.",
+"likeCount": 73,
 "retweetCount": 5,
-"url": "https://x.com/HonNoah93/status/2086887661378347354",
-"createdAt": "Mon Aug 10 18:49:25 +0000 2026"
-},
-{
-"userName": "IsholaEdge",
-"text": "AI IS CHANGING FASHION, AND IT’S BIGGER THAN IMAGE GENERATION.🧵\n\nArtificial Intelligence is quietly transforming almost every stage of the fashion value chain.\n\nFrom design and trend forecasting to marketing, production, e-commerce, and customer experience, AI is changing how fashion businesses operate.\n\n🧵Here are a few areas where the impact is already visible:\n\n🔹 Design & Ideation:- Exploring silhouettes, patterns, colors, and collection concepts faster.\n\n🔹 Trend Forecasting:-  Using data to identify emerging consumer preferences and market trends.\n\n🔹 Virtual Prototyping:-  Visualizing designs before spending heavily on materials and production.\n\n🔹 Personalization:- Helping brands recommend products and experiences based on customer preferences.\n\n🔹 Marketing & Content:-  Accelerating campaign concepts, storytelling, product descriptions, and visual development.\n\n🔹 Demand Forecasting:- Helping brands make smarter production and inventory decisions, potentially reducing waste.\n\nBut here’s what I find most interesting:\n\nAI may not replace the fashion designer. It may replace some of the limitations that slow the designer down.\n\nCreativity still requires taste.\n\nCulture still requires understanding.\n\nCraftsmanship still requires skill.\n\nAnd strategy still requires human judgment.\n\nFor African fashion, this presents an even bigger opportunity.\n\nImagine combining African heritage, traditional craftsmanship, modern design thinking, and AI-powered innovation to build globally competitive fashion brands.\n\nThe question is no longer:\n\n“Will AI affect fashion?”\n\nIt already is.\n\nThe better question is:\n\n👉🏼How will fashion entrepreneurs use AI to build better brands, products, and businesses?”",
-"likeCount": 19,
-"retweetCount": 14,
-"url": "https://x.com/IsholaEdge/status/2087076130549358929",
-"createdAt": "Tue Aug 11 07:18:20 +0000 2026"
-},
-{
-"userName": "gurtej__gill_",
-"text": "This Paper is one of the cleverest solutions I’ve seen for fixing Diffusion Alignment.\n\nIf you’ve worked with RLHF or Reward Backprop on DiTs, you must be tired of delayed feedback. \n\nEvaluating only the final image makes credit assignment a total nightmare. \n\nYou either run out of VRAM trying to unroll the full trajectory, or you fight insane gradient variance with online RL.\n\nThe authors solve this by sticking learnable, position-free \"register tokens\" into a frozen DiT. \n\nInstead of waiting until step 50, these registers pull dense reward signals directly out of noisy intermediate latents. \n\nIt turns out you can accurately judge trajectory quality surprisingly early in the denoising process.\n\nWhat makes this paper stand out is how practical the applications are:\n\n1-For training: Their distillation setup (RG-OPD) skips standard policy gradients entirely and hits the same alignment performance while using up to 33x fewer GPU hours. That’s huge for making alignment accessible.\n\n2-For inference: You can use their Reward-Guided Sampling (RGS) to steer generation live off these register gradients thus improving both prompt adherence and visual quality without retraining or touching model weights.\n\nIt’s a super clean, well thought-out approach that addresses both the compute bottleneck and inference control at once. \n\nDefinitely worth a read if you're working on generative models:\nhttps://t.co/tfkSPmYwiU",
-"likeCount": 41,
-"retweetCount": 10,
-"url": "https://x.com/gurtej__gill_/status/2086412441366266137",
-"createdAt": "Sun Aug 09 11:21:04 +0000 2026"
+"url": "https://x.com/arsalannazir07/status/2087398384659525636",
+"createdAt": "Wed Aug 12 04:38:51 +0000 2026"
 },
 {
 "userName": "MonetizationDon",
 "text": "GPT IMAGE 2 + MIINIMAX H3 WITH PROMPTS\n\nWhat if your AI tools became a cinematic universe? \n\nI wanted to try something a little different with MiniMax H3 and create a commercial for LOVART AI that feels more like a fashion campaign than a typical tech ad.\n\nI put my virtual influencer, Alexa Grey, in LOVART’s bright yellow and white colors and built the whole concept around text, characters and visual storytelling.\n\nOne thing I really wanted to explore was how far I could push the typography.\n\nMiniMax prompts use editorial typography, characters crossing through letters, billboards, graphic cards, oversized text, parallax and visual transitions.\n\nSo instead of simply putting a model name on screen, I made the lettering part of the world.\n\nAlexa walks through giant words.\nCharacters move around the typography.\nBillboards become cinematic scenes.\nLetters transform into environments.\nGraphic cards transition into completely different worlds.\n\nAnd then I brought the AI models into the story:\n\nThe goal was to make everything feel connected — characters, typography, billboards, environments and AI models all living inside the same creative universe.\n\nAnd at the end, it all comes together as: \nLOVART AI: YOUR AI CREATIVE STUDIO.\n\nNo dialogue. No voiceover.\n\nJust visuals, music, typography, and motion.\n\nMade with MiniMax H3 in @lovart_ai \nPrompts in the comments section👇👇👇👇\n#LovartAICPP",
-"likeCount": 44,
-"retweetCount": 4,
+"likeCount": 61,
+"retweetCount": 11,
 "url": "https://x.com/MonetizationDon/status/2088139173815341520",
 "createdAt": "Fri Aug 14 05:42:29 +0000 2026"
 },
 {
-"userName": "matthieurouif",
-"text": "\"Will it look good on me?\"\n \nThat one question kills more apparel conversions than price ever will.\n \nAt Photoroom, our vision is that every business can sell at first sight. That's not just about beautiful images, it's about images that answer every question a buyer has. Because you buy a picture, but you receive a product.\n \nFor apparel, the questions are always the same: will it fit me? Will it look good on me, with my hair, my skin tone, my style?\n \nToday we're shipping the answer: a Virtual Try-On API for sellers.\n \nIn the demo below, I take a webcam photo of myself and generate a try-on instntly, high product fidelity, and genuinely fun to use. Some of our sellers are seeing a 4x increase in conversion with it. This is crazy, you're asking with AI with a ROI, this is huge. This is why a lot of fashion brands are currently working on it.\n \nAvailable now on the @photoroom API. The demo page was built with our friends at @lovable 💚 .",
-"likeCount": 11,
-"retweetCount": 0,
-"url": "https://x.com/matthieurouif/status/2087897875392978992",
-"createdAt": "Thu Aug 13 13:43:39 +0000 2026"
-},
-{
 "userName": "Info_sam_ai",
 "text": "The AI landscape is moving fast in 2026. ⚡\n​Beyond ChatGPT and Gemini, there are specialized AI tools transforming daily workflows, automating research, and superpowering creative output.\n​Here are 10 hidden gem AI tools to add to your tech stack:\n\n​Comet Browser – AI-native research & navigation\n\n​Manus AI – Multi-step autonomous agent\n\n​Lovable – Build web apps from simple prompts\n\n​Dia Browser – Chat with open tabs seamlessly\n\n​Higgsfield AI – Advanced cinematic video creation\n\n​Krea AI – Real-time image generation & editing\n​Wispr Flow – Voice-to-polished text across apps\n\n​Granola – Smart automated meeting notes\n​Recall – Personal searchable knowledge library\n\n​Genspark – Structured answers & research pages",
-"likeCount": 17,
-"retweetCount": 13,
+"likeCount": 70,
+"retweetCount": 53,
 "url": "https://x.com/Info_sam_ai/status/2088113811207438823",
 "createdAt": "Fri Aug 14 04:01:42 +0000 2026"
 },
 {
-"userName": "itsPolloAI",
-"text": "Take complete control of your commercial video ads with https://t.co/POwZa8nySK.\nOur multi-reference generation tool allows creators and brands to seamlessly translate detailed fashion references into high-definition, dynamic video spots with unmatched precision. \n\nRight now, all you have to do is like this post, follow @itsPolloAI, and comment “Pollo” below, and we’ll send you the 50% OFF Seedance 2.5 offer link via DM, so don’t forget to check your inbox! \n\nExperience the future of commercial production at https://t.co/POwZa8nySK.",
-"likeCount": 115,
-"retweetCount": 4,
-"url": "https://x.com/itsPolloAI/status/2086799734627528880",
-"createdAt": "Mon Aug 10 13:00:02 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Local AI is exploding!\n\nTransformers.js, that we've been building @huggingface for the past three years has now become the most popular open-source library to run AI models directly in your browser and crossed 10 million (!!) monthly downloads, close to 10x from just six months ago.\n\nMore generally, I'm excited to see a meaningful percentage of AI workloads move to local because it's free & fully private! At a time of compute shortage & increased cyber-attack risks, we need it more than ever.\n\nLet's go!",
+"likeCount": 419,
+"retweetCount": 60,
+"url": "https://x.com/ClementDelangue/status/2087518483718545533",
+"createdAt": "Wed Aug 12 12:36:05 +0000 2026"
 },
 {
-"userName": "ThinkwithGoogle",
-"text": "Fashion and luxury have historically been resistant to generative AI – until now 👗✨\n\nWhen Power Digital Marketing joined Google’s Creative Lighthouse program, they partnered with LoveShackFancy to test the boundaries of generative creative. Instead of forcing tech onto the creative process, they anchored the campaign in the brand's authentic story.  \n\nThe result? A shared creative language, faster iteration, and a powerful competitive moat. #CannesLions2026",
-"likeCount": 3,
-"retweetCount": 1,
-"url": "https://x.com/ThinkwithGoogle/status/2085765684298961170",
-"createdAt": "Fri Aug 07 16:31:05 +0000 2026"
+"userName": "nithinpalal",
+"text": "How do civilisations allocate scarce resources?  \nOpportunity cost is the true price. Resilience over efficiency. Preserve optionality. Learn to say No.  \n\n#Philosophy #Power #Civilisation #Wisdom #OpportunityCost #SayNo #AI #Bharat #Infrastructure https://t.co/f2dVLAJsGH",
+"likeCount": 9,
+"retweetCount": 2,
+"url": "https://x.com/nithinpalal/status/2088144717708136625",
+"createdAt": "Fri Aug 14 06:04:31 +0000 2026"
 },
 {
-"userName": "hasantoxr",
-"text": "The model also predicts how long a video should be before diffusion begins.\n\nA dedicated duration head reads the prompt and chooses a suitable clip length.\n\nTraining now uses a larger dataset, followed by RL post-training tuned to human preference. https://t.co/JH39Kp848I",
-"likeCount": 3,
-"retweetCount": 1,
-"url": "https://x.com/hasantoxr/status/2087264006298059193",
-"createdAt": "Tue Aug 11 19:44:53 +0000 2026"
+"userName": "dctrpr",
+"text": "bagwork has been software for too long.\n\nso we designed two physical BUY buttons:\n\nBUY/0: pure ritual.\nBUY/1: one press, one bounded $BUY attempt.\n350,000 modeled configs later, the meme entered hardware.\n\nproof of bagwork: https://t.co/xli5sxCCof https://t.co/DP0Rreckqv",
+"likeCount": 26,
+"retweetCount": 13,
+"url": "https://x.com/dctrpr/status/2087961734229413953",
+"createdAt": "Thu Aug 13 17:57:24 +0000 2026"
 },
 {
-"userName": "GoEisy",
-"text": "🎥 Create stunning, realistic AI videos with natural movements, cinematic effects, and lifelike characters. Learn how to generate amazing videos and pay for supported AI tools from Nigeria using an Eisy Virtual Dollar Card. 🚀💳 https://t.co/Ge3AI2CYLF",
-"likeCount": 2,
-"retweetCount": 1,
-"url": "https://x.com/GoEisy/status/2087915137420218777",
-"createdAt": "Thu Aug 13 14:52:15 +0000 2026"
+"userName": "akashnet",
+"text": "Astria AI runs production image generation on Akash for fashion e-commerce.\n\nDive into how @akashnet's unit economics give AI startups like @Astria_AI both runway and pricing competitiveness to onboard and keep their customers at scale.",
+"likeCount": 72,
+"retweetCount": 10,
+"url": "https://x.com/akashnet/status/2088293384217632921",
+"createdAt": "Fri Aug 14 15:55:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @finkd: Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also r…",
-"likeCount": 30295,
-"retweetCount": 2548,
-"url": "https://x.com/ClementDelangue/status/2086759116635058346",
-"createdAt": "Mon Aug 10 10:18:38 +0000 2026"
+"text": "RT @alexandr_wang: 1/ big announcement today: we will be releasing an open weight version of muse spark 1.2 soon.\n\nwe also are releasing mu…",
+"likeCount": 9525,
+"retweetCount": 731,
+"url": "https://x.com/ClementDelangue/status/2086767973365137526",
+"createdAt": "Mon Aug 10 10:53:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
-"likeCount": 3745,
-"retweetCount": 220,
-"url": "https://x.com/ClementDelangue/status/2086759243298873571",
-"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @victormustar: We are in an insane run of open-weight drops.\n\nEvery modality, open source is winning. This is what an open source AI sum…",
-"likeCount": 292,
-"retweetCount": 27,
-"url": "https://x.com/ClementDelangue/status/2087583321639551375",
-"createdAt": "Wed Aug 12 16:53:43 +0000 2026"
+"text": "RT @joelniklaus: Codex is overoptimised for large models: it ranks 2nd out of 10 for GLM 5.2 but drops to 9th place for Gemma-4!\n\nAlmost al…",
+"likeCount": 565,
+"retweetCount": 78,
+"url": "https://x.com/ClementDelangue/status/2086560605507305974",
+"createdAt": "Sun Aug 09 21:09:49 +0000 2026"
 },
 {
 "userName": "Kazuqr61u",
@@ -136,27 +104,19 @@
 "createdAt": "Mon Aug 10 14:23:04 +0000 2026"
 },
 {
-"userName": "eweqss1431",
-"text": "The AI Girls Taking Over Social Media: Who They Are and Why This Exploded Right Now https://t.co/mUPFaogONO",
-"likeCount": 17,
-"retweetCount": 1,
-"url": "https://x.com/eweqss1431/status/2085735138537701862",
-"createdAt": "Fri Aug 07 14:29:42 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Meta is back! well done @finkd @alexandr_wang! https://t.co/gWvkuDeHzF",
+"likeCount": 1655,
+"retweetCount": 96,
+"url": "https://x.com/ClementDelangue/status/2086760700014203090",
+"createdAt": "Mon Aug 10 10:24:55 +0000 2026"
 },
 {
-"userName": "RomaTesla",
-"text": "A few thoughts on craft, AI and stuff https://t.co/q8CqVV0izx",
-"likeCount": 18,
-"retweetCount": 1,
-"url": "https://x.com/RomaTesla/status/2086755788387659782",
-"createdAt": "Mon Aug 10 10:05:24 +0000 2026"
-},
-{
-"userName": "BestBlogsDev",
-"text": "https://t.co/oGJ1JFflrm",
-"likeCount": 5,
-"retweetCount": 0,
-"url": "https://x.com/BestBlogsDev/status/2088056200562913498",
-"createdAt": "Fri Aug 14 00:12:47 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Let's go!\n\nhttps://t.co/BAJlYIJqDQ https://t.co/FYTH5MrTBG",
+"likeCount": 1670,
+"retweetCount": 116,
+"url": "https://x.com/ClementDelangue/status/2087562019788697818",
+"createdAt": "Wed Aug 12 15:29:05 +0000 2026"
 }
 ]
