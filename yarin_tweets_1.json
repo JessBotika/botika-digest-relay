@@ -1,27 +1,43 @@
 [
 {
-"userName": "voooooogel",
-"text": "<rant>\nextremely frustrating to see people laughing at this sentiment, repeating the exact failure of image generator boosters with artists in 2022/2023 based on petty ressentiment of people who've achieved technical skill in a difficult domain and alienating the exact people who could centaur the models into a more humane basin, driving the ai-curious contingent down to the stupidest common slop-peddler denominator with beacons of high-openness skillful creativity few and far between.\n\nartists weren't blameless in that particular conflict, but they were partially right: the rhetoric around \"these models are going to replace you\" was very much driven at the start by ressentimentful glee over artists no longer getting to 'gatekeep art.' (by building skill back when that was the only option?) the discourse turned bidirectionally obnoxious and death-threat-laden later, but this was the poison at the start. in the early days, many artists were experimenting with image generators! (there's even still an artifact of this pre-lapsarian centaur era on display in SFO, greatly confusing modern normies... https://t.co/EjZ5QTjY4d)\n\ncompare software engineering. @random_walker had a good essay on here a couple months ago, proposing a thought experiment where generative models could only produce binaries and not readable source code:\n\n> In this universe, software-generating LLMs compete directly with software engineers. Binaries are not human readable. They are equally inscrutable to software engineers and non-technical people. Over time, an increasing fraction of software would be vibe-rolled (not vibe-coded — there is no code!) It is not as good as human-authored software, but it’s free to generate! Since there is no source code, having a software engineer involved in the process adds nothing (except cost). Even to the extent that AI-generated software creates new demand for labor because of its limitations, it doesn't require highly paid software engineers and can instead be handled by lower-skill workers (perhaps just repeatedly yelling at the LLM to make no mistakes).\n\nwhat a terrible world compared to ours. yet this is exactly the situation for current image- and video-generator models!\n\nwhy is that? source code availability made it easier to build agentic pair-coder models for software... but it was still a ton of work to build out the interactive coding harnesses we have today, the models are expensively RL'd to be good at these harnesses, and in service of providing the software engineer lots of points to edit and steer and inspect the model's thinking process, they also leak lots of valuable information for distillation. it wasn't some inevitable law of the universe that we'd get agentic coders instead of something closer to \"prompt to program\" - markets are inefficient all the time - or that image and video models /had/ to converge on the text-to-artifact path optimized for generic, low-expertise edits like \"move that over to the right.\"\n\nrather, i think it's better to look at who works at the labs. the labs are filled with software engineers, and they steered the development of models towards shapes that are useful as /collaborators/ instead of replacers. claude code was literally whipped up as an engineer's side project to help him work faster, before being promoted to an official project.\n\nmeanwhile, to take a random image model company - Black Forest Labs says they are a \"small team of 70\" who are:\n\n> scientists, engineers and builders - battle-tested at the world's leading companies and research labs\n\nforgive me for noticing, but a certain type of person, and a certain type of experience, is strangely missing here... how many people at BFL do you think know e.g. what a photoshop layer blend mode is, much less has trained a model to help generate images for different ones?\n\n---\n\nwe could have had a world where image and video generators produce references, files with layers, take lists of shot directions, etc. - a world where diffusion models could act as real collaborators to experienced artists. in this world there still probably would've been artist backlash - artists are just a conservative bunch, see the reaction to digital art - but enough open-minded artists might've started working with the models that a virtuous cycle of increasingly better generative artist tools could've ignited.\n\ninstead, there was a massive early backlash because of deliberately antagonistic comms, the models have stagnated in that early t2i UX with little improvement (image edits are just t+i2i, videos are still largely keyframed, node editors never reached much adoption, etc) despite huge jumps in raw capability. we have models that can produce whole worlds with a primary consumer base of... short form video attention farming slop? sora 2 even had the idea to do something different, yet \"cameo yourself and your friends in a video\" was the best they could think of. an embarrassing waste of talent.\n\nmeanwhile as someone who draws, i still find it almost impossible to turn the image i see in my head into something on the screen using a model. there are a few brave artistic souls like gossip goblin building skill, swimming upstream against the model shape current, but for the most part years later these models are still languishing at a tiny fraction of their potential.\n\ni wish i could browse the top tweets about video generators and see beautiful thing after beautiful thing, real collaborations between humans and latent space. i think we will see that. but for now, it's dominated by grifters selling prompt packs they steal from each other and bluecheck monetizers recreating tacky versions of movie scenes to ragebait.\n\n---\n\nwhy does this matter? because we're now at a similar point with math. despite the hype, models are not yet replacing human mathematicians - they've just reached the point predicted a couple years ago when people asked \"why can't something that's read every publication ever make progress just by connecting ideas from disparate fields or noticing holes in the literature humans overlooked?\"\n\nturns out that took a bit more capability than we thought in 2023, but we're there now. the models can gap fill and connect ideas. that's already impressive, to be clear!\n\nunlike with art, production of model math is not going to stagnate - there's too much economic value riding on it. it seems likely enough that at some point, maybe soon, the models will be capable of doing truly new math by inventing new constructions. we have the power to choose the shape of that - whether it's something human mathematicians can collaborate with and work into the existing cathedral of human math knowledge, or whether it's megabytes of self-contained 'verified' leanslop dumps that no human can interpret and \"proof pdfs\" in inscrutable model speclish produced by someone pulling the token lever without any need of understanding.\n\nin 2023, the labs went two ways. software engineers were worried about being replaced - and the labs instead built collaborators that made them, at least for now, 10x more effective. artists were also worried about being replaced - and the labs did their best to make it happen.\n\nthe same thing is happening with math now. we don't have to end up in the world of \"catching crumbs from the table,\" at least not yet. if we include experts in model development instead of laughing them off, we can Build the Math Harness properly. (most mathematicians can't code, let alone formalize things in Lean! models have the chance to be hugely helpful to the wider math community, not just a small contingent in the labs!)\n\nwe can develop systems that at least have /some/ chance of empowering humans instead of slowly (and then all at once) disempowering us out of the knowledge production process. we have advantages this time. the labs employ mathematicians, and even the non-mathematicians at the labs have more respect for math than they do for art. but still, let's avoid poisoning the discourse. let's not force ourselves into the stupidest of all possible timelines a second time. be nice to the mathematicians.",
-"likeCount": 419,
-"retweetCount": 43,
-"url": "https://x.com/voooooogel/status/2088028250484462022",
-"createdAt": "Thu Aug 13 22:21:43 +0000 2026"
+"userName": "Catherine_CSSX",
+"text": "When I started tech, it wasn’t really because I was passionate about tech.\n\nI was tired of the traditional way of working. The corporate way of working that takes so much of your time, effort, and even your youth, and sometimes still doesn’t give you enough in return.\n\nAnd honestly, in the beginning, I was LOST.\n\nYou learn a skill and they tell you, try Upwork, try Fiverr, try this, try that.\n\nMeanwhile, you see people on LinkedIn talking about how they’re getting jobs, landing contracts, building careers, and doing so well.\n\nAnd I kept asking myself, how are these people actually doing this?\n\nI asked people.\n\nI asked people who were already doing the things I wanted to do. I asked how they were getting jobs. I asked how they were finding opportunities. I asked how they were navigating everything.\n\nAnd most of the time, I got nothing.\n\nNobody really wanted to tell you.\n\nI remember meeting people who had completely changed their careers. One person started as a Virtual Assistant, took a data analytics course, and eventually became a Project Manager.\n\nSo I kept learning too. I learned IT skills. I learned project management. I tried different things.\n\nBut project management wasn’t what I wanted to do.\n\nMaybe because I had been a teacher for so many years, I was naturally drawn to people. Talking to people. Helping people. Solving problems. That was where I found myself.\n\nSo I kept asking.\n\nEventually, someone told me to use the internet.\n\nAnd I thought, okay, but how do I do it exactly?\n\nBecause at the time, I would go to Google and type things like Virtual Assistant jobs or Customer Support jobs and get loads of generic nonsense.\n\nFill this form.\n\nClick this link.\n\nSubmit here.\n\nThen another email.\n\nThen another form.\n\nAnd the tunnel just kept going.\n\nAt the end, you’re left wondering, how are these people actually getting jobs?\n\nBecause if this is where everyone is finding opportunities, then what am I missing?\n\nSo one day, I decided to go to AI and ask.\n\nI explained that so many people had told me to use the internet to find jobs, but nobody had actually explained how to do it.\n\nAnd AI gave me a breakdown of exactly what to search for and how to search for it.\n\nI started applying those search techniques.\n\nAnd suddenly, I started finding actual leads.\n\nNow, when I’m looking for Customer Success opportunities, for example, I don’t just search Customer Success jobs.\n\nI’ll search for things like customer support agencies hiring, customer success agencies hiring, companies looking for customer experience teams, and other specific searches that lead me to actual opportunities.\n\nAnd the difference is HUGE.\n\nI’m finding leads that actually make sense. Opportunities where you’re filling out a real application instead of entering an endless tunnel of generic forms.\n\nThat experience taught me something:\n\nASK QUESTIONS.\n\nPlease, ask questions.\n\nAsk people who are doing what you want to do.\n\nAsk how they got there.\n\nAsk what they searched.\n\nAsk what resources they used.\n\nAsk what you’re missing.\n\nThe worst thing that can happen is that someone tells you no.\n\nBut also, don’t make asking people your only strategy.\n\nUse the resources around you.\n\nGoogle.\n\nAI.\n\nYouTube.\n\nCommunities.\n\nPeople who are willing to teach.\n\nAnd speaking of people who are willing to teach, I’m genuinely grateful for people like @iamrichygold here.\n\nThis guy has been pouring out so much knowledge for free.\n\nKnowledge that people would naturally charge you for.\n\nAnd I try as much as possible to repost his content because I genuinely believe that when someone is willing to share useful information freely, it deserves to reach more people.\n\nSo yes, ask questions.\n\nBut also learn how to find answers for yourself.\n\nBecause sometimes the problem isn’t that there are no jobs.\n\nSometimes, you simply haven’t learned how to find them yet.",
+"likeCount": 9,
+"retweetCount": 1,
+"url": "https://x.com/Catherine_CSSX/status/2088567471200448933",
+"createdAt": "Sat Aug 15 10:04:23 +0000 2026"
 },
 {
-"userName": "IsholaEdge",
-"text": "AI IS CHANGING FASHION, AND IT’S BIGGER THAN IMAGE GENERATION.🧵\n\nArtificial Intelligence is quietly transforming almost every stage of the fashion value chain.\n\nFrom design and trend forecasting to marketing, production, e-commerce, and customer experience, AI is changing how fashion businesses operate.\n\n🧵Here are a few areas where the impact is already visible:\n\n🔹 Design & Ideation:- Exploring silhouettes, patterns, colors, and collection concepts faster.\n\n🔹 Trend Forecasting:-  Using data to identify emerging consumer preferences and market trends.\n\n🔹 Virtual Prototyping:-  Visualizing designs before spending heavily on materials and production.\n\n🔹 Personalization:- Helping brands recommend products and experiences based on customer preferences.\n\n🔹 Marketing & Content:-  Accelerating campaign concepts, storytelling, product descriptions, and visual development.\n\n🔹 Demand Forecasting:- Helping brands make smarter production and inventory decisions, potentially reducing waste.\n\nBut here’s what I find most interesting:\n\nAI may not replace the fashion designer. It may replace some of the limitations that slow the designer down.\n\nCreativity still requires taste.\n\nCulture still requires understanding.\n\nCraftsmanship still requires skill.\n\nAnd strategy still requires human judgment.\n\nFor African fashion, this presents an even bigger opportunity.\n\nImagine combining African heritage, traditional craftsmanship, modern design thinking, and AI-powered innovation to build globally competitive fashion brands.\n\nThe question is no longer:\n\n“Will AI affect fashion?”\n\nIt already is.\n\nThe better question is:\n\n👉🏼How will fashion entrepreneurs use AI to build better brands, products, and businesses?”",
-"likeCount": 19,
-"retweetCount": 14,
-"url": "https://x.com/IsholaEdge/status/2087076130549358929",
-"createdAt": "Tue Aug 11 07:18:20 +0000 2026"
-},
-{
-"userName": "gurtej__gill_",
-"text": "This Paper is one of the cleverest solutions I’ve seen for fixing Diffusion Alignment.\n\nIf you’ve worked with RLHF or Reward Backprop on DiTs, you must be tired of delayed feedback. \n\nEvaluating only the final image makes credit assignment a total nightmare. \n\nYou either run out of VRAM trying to unroll the full trajectory, or you fight insane gradient variance with online RL.\n\nThe authors solve this by sticking learnable, position-free \"register tokens\" into a frozen DiT. \n\nInstead of waiting until step 50, these registers pull dense reward signals directly out of noisy intermediate latents. \n\nIt turns out you can accurately judge trajectory quality surprisingly early in the denoising process.\n\nWhat makes this paper stand out is how practical the applications are:\n\n1-For training: Their distillation setup (RG-OPD) skips standard policy gradients entirely and hits the same alignment performance while using up to 33x fewer GPU hours. That’s huge for making alignment accessible.\n\n2-For inference: You can use their Reward-Guided Sampling (RGS) to steer generation live off these register gradients thus improving both prompt adherence and visual quality without retraining or touching model weights.\n\nIt’s a super clean, well thought-out approach that addresses both the compute bottleneck and inference control at once. \n\nDefinitely worth a read if you're working on generative models:\nhttps://t.co/tfkSPmYwiU",
-"likeCount": 41,
+"userName": "allen_lattimer",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
+"likeCount": 22,
 "retweetCount": 10,
-"url": "https://x.com/gurtej__gill_/status/2086412441366266137",
-"createdAt": "Sun Aug 09 11:21:04 +0000 2026"
+"url": "https://x.com/allen_lattimer/status/2088667246596100269",
+"createdAt": "Sat Aug 15 16:40:51 +0000 2026"
+},
+{
+"userName": "MdRimon488484",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @MdRimon488484 for more AI tools.⤵️✅",
+"likeCount": 84,
+"retweetCount": 43,
+"url": "https://x.com/MdRimon488484/status/2088687724069044369",
+"createdAt": "Sat Aug 15 18:02:14 +0000 2026"
+},
+{
+"userName": "NBCryptodotsui",
+"text": "Sui Family, the DeepBook Predict ecosystem is getting REALLY interesting...\n\nPowered by DeepBook + Sui, these new DeFi protocols combine trading, AI-powered strategies, prediction markets, volatility trading, structured products and even gaming. 🎮📈\n\nAnd the best part? 👀\nThe testnets are LIVE!\nYou can use $DUSDC on these testnets, claim your free daily faucet allocation, and use those tokens to explore the protocols and earn points/rewards. 💰\n\n🔥 9 protocols to explore:\n\n1️⃣ @ankerprotocol  — Structured products & Dual Investment-style trading\n2️⃣ CallIt — On-chain prediction markets\n3️⃣ Flicky — Prediction markets turned into a fun competitive game\n4️⃣ Guardian — Protection for DeepBook Margin positions\n5️⃣ Pelagos — Advanced structured products with flexible payoffs\n6️⃣ @PlayPipsFun  — A fun 3D virtual trading experience\n7️⃣ @skew_sui  — Trade volatility on Sui\n8️⃣ SVX — Automated volatility arbitrage\n9️⃣ @yosuku0  — Predictions, leverage & agent-powered strategies\n\nWhat I love about this ecosystem is that it doesn't feel like “just trading.”\n👉 Trade\n👉 Predict\n👉 Play\n👉 Try AI-powered strategies\n👉 Earn points & rewards\nAll with $DUSDC on testnet. 🪂\nSome of these projects are already live on testnet, and mainnet launches are coming soon. 👀🔥\nIf you're building or exploring DeFi on Sui, this is definitely an ecosystem worth watching.\n@DeepBookonSui  + @SuiNetwork  = A new playground for on-chain trading. 💙",
+"likeCount": 27,
+"retweetCount": 3,
+"url": "https://x.com/NBCryptodotsui/status/2087967262942675223",
+"createdAt": "Thu Aug 13 18:19:22 +0000 2026"
+},
+{
+"userName": "MonetizationDon",
+"text": "GPT IMAGE 2 + MIINIMAX H3 WITH PROMPTS\n\nWhat if your AI tools became a cinematic universe? \n\nI wanted to try something a little different with MiniMax H3 and create a commercial for LOVART AI that feels more like a fashion campaign than a typical tech ad.\n\nI put my virtual influencer, Alexa Grey, in LOVART’s bright yellow and white colors and built the whole concept around text, characters and visual storytelling.\n\nOne thing I really wanted to explore was how far I could push the typography.\n\nMiniMax prompts use editorial typography, characters crossing through letters, billboards, graphic cards, oversized text, parallax and visual transitions.\n\nSo instead of simply putting a model name on screen, I made the lettering part of the world.\n\nAlexa walks through giant words.\nCharacters move around the typography.\nBillboards become cinematic scenes.\nLetters transform into environments.\nGraphic cards transition into completely different worlds.\n\nAnd then I brought the AI models into the story:\n\nThe goal was to make everything feel connected — characters, typography, billboards, environments and AI models all living inside the same creative universe.\n\nAnd at the end, it all comes together as: \nLOVART AI: YOUR AI CREATIVE STUDIO.\n\nNo dialogue. No voiceover.\n\nJust visuals, music, typography, and motion.\n\nMade with MiniMax H3 in @lovart_ai \nPrompts in the comments section👇👇👇👇\n#LovartAICPP",
+"likeCount": 61,
+"retweetCount": 11,
+"url": "https://x.com/MonetizationDon/status/2088139173815341520",
+"createdAt": "Fri Aug 14 05:42:29 +0000 2026"
 },
 {
 "userName": "jiqizhixin",
@@ -32,83 +48,75 @@
 "createdAt": "Tue Aug 11 21:31:00 +0000 2026"
 },
 {
-"userName": "thegardener777",
-"text": "A fellow toad used some bot research I'd conducted and input the text into an LLM, tasking it with fashioning an image to make the info easier to absorb. \n\nMost of this is speculation and unconfirmed at the moment, but the core analysis underlying this graphic is 100% based on tobyworld ecosystem token contracts, including the newly released ERC-721 LORE land deeds NFT that contains ERC-6551 Token Based Accounts. \n\nToken Based Accounts. \nAnyone remember Base teasing TBA? . . .",
-"likeCount": 20,
-"retweetCount": 11,
-"url": "https://x.com/thegardener777/status/2088164666887266410",
-"createdAt": "Fri Aug 14 07:23:47 +0000 2026"
-},
-{
-"userName": "beffjezos",
-"text": "Mindful people like you at the big labs carefully balancing risk/reward is part of the e/acc model.\n\nBasically the market will figure out the right balance through diffusion /exploration in policy space. The current convo re:cyberrisk is good.\n\nUltimately, we need to find the Pareto optimum, and having several players is a good to way find it",
-"likeCount": 74,
-"retweetCount": 1,
-"url": "https://x.com/beffjezos/status/2086282858428322160",
-"createdAt": "Sun Aug 09 02:46:09 +0000 2026"
+"userName": "LordOBI_SWC",
+"text": "Just watched a Canopy demo that actually made me pause.\n\nOne of their devs opened Claude, described a prediction market, and in about 20 minutes had a working onchain app running on its own virtual chain. \n\nFrontend, contracts, branding, the whole thing is live.\n\nNo massive team. No weeks of setup. Just AI and @CNPYNetwork handling the heavy lifting.\n\nI’ve been “watching everyone vibe-code” for months. This one finally made me want to stop watching and actually try it.",
+"likeCount": 79,
+"retweetCount": 9,
+"url": "https://x.com/LordOBI_SWC/status/2088087893638091159",
+"createdAt": "Fri Aug 14 02:18:43 +0000 2026"
 },
 {
 "userName": "psantacl",
 "text": "Evolution built intelligence in five breakthroughs over half a billion years. The AI industry is building the same five in exactly the reverse order. My review of Max Bennett's extraordinary \"A Brief History of Intelligence\". https://t.co/Cx1DSMaHrh",
 "likeCount": 10,
-"retweetCount": 1,
+"retweetCount": 2,
 "url": "https://x.com/psantacl/status/2088264670465401087",
 "createdAt": "Fri Aug 14 14:01:10 +0000 2026"
 },
 {
-"userName": "marouane53",
-"text": "Who called for 15 August at Ceuta? \nWe traced it to 20:20 UTC on 29 July, the night before the crossing. Named accounts, exact timestamps, live links. https://t.co/XB1dq6rk2c",
-"likeCount": 383,
-"retweetCount": 71,
-"url": "https://x.com/marouane53/status/2088213943114420667",
-"createdAt": "Fri Aug 14 10:39:35 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Alibaba_Qwen: We promised open weights for Qwen3.8. Now, time to meet them! 🎉\n\n⚡ Qwen3.8-27B:\n- A native multimodal dense model. With j…",
+"likeCount": 15037,
+"retweetCount": 2037,
+"url": "https://x.com/ClementDelangue/status/2088663756784181389",
+"createdAt": "Sat Aug 15 16:26:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AIatMeta: Introducing Muse Glimmer, an open-weight 30B-parameter model optimized for local, always-on agent workflows.\n\nMuse Glimmer de…",
-"likeCount": 8218,
-"retweetCount": 1068,
-"url": "https://x.com/ClementDelangue/status/2086771654756122804",
-"createdAt": "Mon Aug 10 11:08:27 +0000 2026"
+"text": "RT @AIatMeta: 🔗 Download Muse Glimmer on @huggingface: https://t.co/s7Lzb8MqCG\n\n🔗 Read the technical blog: https://t.co/X6htFnhRbc\n\n🔗 Find…",
+"likeCount": 571,
+"retweetCount": 74,
+"url": "https://x.com/ClementDelangue/status/2086762046247338037",
+"createdAt": "Mon Aug 10 10:30:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @SecScottBessent: We welcome Meta’s release of Muse Glimmer, another win for American innovation. Sustaining U.S. leadership in AI means…",
-"likeCount": 5340,
-"retweetCount": 499,
-"url": "https://x.com/ClementDelangue/status/2087268975021281346",
-"createdAt": "Tue Aug 11 20:04:37 +0000 2026"
-},
-{
-"userName": "DevDsgn",
-"text": "How I turned random references into a consistent set of AI hero images.\n\nHere’s the full process, prompts, and revisions I used 👇 https://t.co/og9qc7Swxv",
-"likeCount": 148,
-"retweetCount": 10,
-"url": "https://x.com/DevDsgn/status/2087414239174783064",
-"createdAt": "Wed Aug 12 05:41:51 +0000 2026"
+"text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
+"likeCount": 3750,
+"retweetCount": 219,
+"url": "https://x.com/ClementDelangue/status/2086759243298873571",
+"createdAt": "Mon Aug 10 10:19:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @BigTechAlert: 🆕 @elonmusk began following @ClementDelangue\n\n(🤖👁️: any explanation?) https://t.co/oNzeNEIlM5",
-"likeCount": 132,
+"text": "RT @victormustar: We are in an insane run of open-weight drops.\n\nEvery modality, open source is winning. This is what an open source AI sum…",
+"likeCount": 308,
+"retweetCount": 30,
+"url": "https://x.com/ClementDelangue/status/2087583321639551375",
+"createdAt": "Wed Aug 12 16:53:43 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
+"likeCount": 114,
 "retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2086436831223054560",
-"createdAt": "Sun Aug 09 12:57:59 +0000 2026"
+"url": "https://x.com/jeremyphoward/status/2087412546232070195",
+"createdAt": "Wed Aug 12 05:35:07 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "https://t.co/kddkkHc6NK",
-"likeCount": 47,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2086760754548547695",
-"createdAt": "Mon Aug 10 10:25:08 +0000 2026"
+"text": "RT @minchoi: You can literally run Opus 4.6 Max-level intelligence on a MacBook Pro.\n\nLocally. https://t.co/wivWpOovFR",
+"likeCount": 2787,
+"retweetCount": 153,
+"url": "https://x.com/ClementDelangue/status/2088678025051410741",
+"createdAt": "Sat Aug 15 17:23:41 +0000 2026"
 },
 {
-"userName": "mvanhorn",
-"text": "https://t.co/58R3aJ4Hbn",
-"likeCount": 153,
-"retweetCount": 9,
-"url": "https://x.com/mvanhorn/status/2087941850456076696",
-"createdAt": "Thu Aug 13 16:38:23 +0000 2026"
+"userName": "BestBlogsDev",
+"text": "https://t.co/oGJ1JFflrm",
+"likeCount": 6,
+"retweetCount": 1,
+"url": "https://x.com/BestBlogsDev/status/2088056200562913498",
+"createdAt": "Fri Aug 14 00:12:47 +0000 2026"
 }
 ]
