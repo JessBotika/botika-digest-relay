@@ -1,122 +1,122 @@
 [
 {
-"userName": "petsreid_",
-"text": "POV ur my gf. \n\nI’m using -  @bfl_ai \n\nAn ultra-realistic handheld travel vlog filmed by a friend following the main character throughout the day in Bandung, Indonesia. Use the woman from the reference image as the main subject. Portray her as an Indonesian woman naturally exploring Bandung. Maintain her exact facial identity, hairstyle, facial features, skin tone, and body proportions consistently throughout the entire video.\n\nThe camera should feel like a genuine personal vlog camera rather than a commercial production. Use natural handheld movement, casual framing, subtle imperfections in human camera operation, and an authentic everyday Indonesian atmosphere. Avoid scripted acting. The woman behaves naturally, interacting with her surroundings as she would in a real travel vlog.\n\n**Morning departure — Bandung neighborhood**\n\nThe woman leaves a cozy modern apartment or guesthouse in Bandung carrying a small backpack. She checks her phone, smiles toward the camera, adjusts her hair, and begins walking outside. The camera follows her from behind with slight natural shakiness, as if a close friend is casually filming her.\n\nThe morning atmosphere should immediately feel like Bandung: cool fresh air, cloudy-bright morning light, green trees, quiet residential streets, motorcycles passing occasionally, local residents starting their day, and authentic Indonesian architecture. Avoid tropical beach scenery.\n\n**Exploring Bandung**\n\nThe camera follows her through the streets of Bandung. She visits a cozy local café with a modern Bandung aesthetic, orders an iced coffee or local drink, briefly talks to the camera, and laughs naturally.\n\nShe then continues walking through a lively Bandung neighborhood, passing small local shops, street food vendors, motorcycles, pedestrians, and vintage-style buildings. Include recognizable Bandung atmosphere inspired by areas such as Braga and Dago without making the scene feel like a tourist advertisement.\n\nShe casually takes photos with her phone while looking around. The camera remains close to her, capturing spontaneous everyday moments.\n\n**Golden-hour ending**\n\nGolden-hour light begins to appear over the Bandung hills.\n\nShe sits at an outdoor viewpoint overlooking the city, holding a drink while quietly watching the sunset. The atmosphere becomes calm and intimate.\n\nThe camera slowly moves backward, gradually revealing her, the café terrace, surrounding trees, the Bandung skyline, distant hills, and the warm evening atmosphere.\n\nThe final moment should feel like a genuine personal travel memory captured spontaneously by a close friend.\n\n**Visual style:**\n\nUltra-realistic authentic Indonesian travel-vlog footage. Ultra-realistic smartphone or mirrorless-camera appearance. Natural Bandung daylight and believable environmental lighting. Cool morning atmosphere transitioning into warm golden-hour light.\n\nCasual handheld movement with subtle camera shake and imperfect human operation. Genuine human reactions and spontaneous interactions. Documentary-level realism with highly detailed skin, hair, clothing, Indonesian streets, café interiors, vegetation, motorcycles, buildings, food, and natural environmental textures.\n\nAuthentic Bandung atmosphere. Modern Indonesian lifestyle. Natural Indonesian fashion. Realistic local people and everyday activity.\n\nNo cinematic commercial aesthetic. No dramatic posing. No artificial transitions. No text overlays. No logos. No face changes. No identity changes. No exaggerated beauty filters. No unrealistic skin smoothing.\n\nThe entire 30-second generation should feel like one continuous, coherent day in Bandung captured by a real friend — not a collection of disconnected AI-generated scenes.\n\nMaintain the exact same woman, facial identity, hairstyle, clothing, body proportions, and visual appearance throughout the entire video.",
-"likeCount": 82,
-"retweetCount": 4,
-"url": "https://x.com/petsreid_/status/2087399691147489379",
-"createdAt": "Wed Aug 12 04:44:03 +0000 2026"
+"userName": "lifemaximised",
+"text": "You could run 80% of your Google Ads operation inside Claude Opus 5…\n\nSo here’s our 10-stage prompting workflow to do so:\n\n(Save this)\n\nStage 0: Build the project brain\n\nBefore asking for anything, create a Claude Project and feed it everything.\n\n- Product pages\n- Best sellers\n- Customer reviews\n- Objection docs\n- Competitor URLs\n- Meta ads\n- Google Ads Transparency Center links\n- Search terms reports\n- Winning ad copy\n- Offer details\n- Brand guidelines\n- Past landing pages\n- Performance exports\n\nThen run this prompt\n\n“Act as the Google Ads strategy brain for this brand. Read all uploaded context and create a working brand profile covering: ICP, core pain points, buying triggers, objections, emotional language customers use, top products, strongest offers, competitor positioning, current funnel gaps, and Google Ads opportunities. Do not make recommendations yet. First summarise the context and ask me what is missing.”\n\nThe quality of the outputs you’ll get from this AI workflow will directly correlate with the quality of the context you give it here.\n\nAnd also the quality of the Claude model you use, since newer models have more context tokens and better reasoning skills.\n\nStage 1: Customer language mining\n\n“Search Reddit, YouTube comments, Amazon reviews, TikTok comments, and niche forums for people discussing problems related to [PRODUCT CATEGORY]. Extract the exact words they use when describing the problem, what they have tried, why those solutions failed, what outcome they want, and what would make them buy. Format this as: Quote / Pain Point / Desired Outcome / Funnel Stage / Possible Ad Angle.”\n\nThis gives you the language that keyword tools would never show you.\n\nIf someone writes:\n\n“I’m tired of wasting money on supplements that do nothing.”\n\nThat can be a winning ad angle right there.\n\nStage 2: Competitor angle map\n\n“Research these competitors: [COMPETITOR 1], [COMPETITOR 2], [COMPETITOR 3]. Use Google Ads Transparency Center, Meta Ad Library, their landing pages, product pages, offers, guarantees, reviews, and email capture flows. Build a table showing: offer, main promise, ad hooks, landing page angle, proof used, objections handled, pricing position, and what they are NOT saying.”\n\nThen run:\n\n“Based on this competitor research, identify the 5 most validated market angles and the 5 biggest white-space angles we can own. For each angle, explain which funnel stage it belongs to and what campaign type should test it first.”\n\nIf 3 competitors are all running the same hook, that angle is validated.\n\nYou don’t even need to be original. Just add your unique spin to what’s already working. \n\nStage 3: Keyword research\n\n“Using the customer language, competitor research, product pages, and search intent data, build a full Google Ads keyword universe for [BRAND]. Split it into: branded, competitor, high-intent product, problem-aware, solution-aware, comparison, ingredient/material, use-case, gift/occasion, and negative keywords. For each keyword, include funnel stage, intent level, match type, campaign/ad group recommendation, and landing page angle.”\n\nThen run:\n\n“Now prioritise this keyword research report into a 30-day launch plan. Separate must-launch keywords from phase 2 tests. Flag any keywords that are high volume but low commercial intent.”\n\nThis stops the campaign from becoming a messy keyword dump.\n\nStage 4: Campaign architecture\n\n“Turn the finalized keyword research report into a complete Google Ads account structure. Include campaign names, ad group names, keyword match types, bidding strategy, starting budget split, exclusions, negative keyword rules, and when each campaign should launch. Use this structure: branded search, branded shopping, non-branded shopping, non-branded search, competitor search, PMax remarketing with brand exclusions, display remarketing, Demand Gen, and TOF search tests.”\n\nThen add:\n\n“Explain why each campaign exists, what signal it is meant to produce, and what metric decides whether it scales, holds, or gets cut.”\n\nEvery campaign needs to play a role in your ecosystem. If it doesn’t, you should just stop running it.\n\nStage 5: RSA copy production\n\n“Write responsive search ad copy for [PRODUCT] targeting [KEYWORD]. Funnel stage: [BOF/MOF/TOF]. Use the customer language and competitor gap analysis above. Give me 15 headlines under 30 characters and 4 descriptions under 90 characters. Include: benefit-led headlines, problem-led headlines, proof-led headlines, offer-led headlines, and urgency-led headlines. Make sure headline 1 matches the search intent.”\n\nThen run:\n\n“Create 3 ad variations for this keyword: one direct-response version, one proof-heavy version, and one problem-agitation version. Explain which audience each variation is for.”\n\nBOF copy should sound like the product is the obvious answer.\n\nMOF copy should make the benefit feel believable.\n\nTOF copy should make the problem impossible to ignore.\n\nStage 6: Merchant Center feed optimization\n\n“Rewrite this product title for Google Shopping using the structure: Brand + Product Type + Core Keyword + Key Feature + Use Case/Benefit. Stay under 150 characters. Give me 10 variations ranked by likely search intent.”\n\nThen:\n\n“Write a Merchant Center description for [PRODUCT]. Use up to 5,000 characters. Include all relevant buyer keywords naturally, cover features, benefits, use cases, materials/ingredients, sizing/specs, objections, and reasons to choose this product. Do not include irrelevant keywords or products we do not sell.”\n\nThen:\n\n“Audit this product feed for missed Google Shopping opportunities. Check title, description, product type, Google product category, images, variants, pricing, promotions, shipping, reviews, and attributes. Tell me exactly what to change.”\n\nStage 7: Landing page angles\n\n“Build a landing page brief for [PRODUCT] targeting people searching [KEYWORD]. Awareness stage: [PROBLEM-AWARE/SOLUTION-AWARE/PRODUCT-AWARE]. Structure it as: hero headline, subheadline, proof bar, problem section using customer language, mechanism section, product section, comparison section, reviews, objection handling, FAQ, CTA. Make sure the first screen matches the search query.”\n\nThen run:\n\n“Create 5 landing page angle variations for this product based on different search intents. For each one, give me the hero, core promise, proof required, objections to handle, and CTA.”\n\nSend the best one into Claude Code.\n\nNow you have an intent-specific page created instead of 1 generic PDP trying to convert everyone.\n\nStage 8: Creative production\n\nConnect Higgsfield MCP inside Claude.\n\nThen run:\n\n“Create a 9-shot YouTube ad concept for [PRODUCT] based on this angle: [ANGLE]. Style can be claymation / UGC / cinematic product demo. For each shot, include scene description, voiceover, on-screen text. Use GPT Images 2.0 for the statics.”\n\nThen:\n\n“Create 5 new creative concepts from the strongest customer pain points in the research. Each concept should include hook, visual metaphor, script, image prompts, animation prompts, and CTA.”\n\nIf you wanna run video ads, animate your statics with Seedance 2.5\n\nUse Opus to write the scripts.\n\nShouldn’t cost more than $3 per ad.\n\nStage 9: Daily campaign audit\n\nConnect Google Ads MCP (or just export report CSV)\n\nThen run:\n\n“Pull the last 7 days of Google Ads performance and compare it to the previous 7 days. For each campaign show spend, revenue, ROAS, conversions, CPA, CPC, CTR, impression share, search lost IS rank, search lost IS budget, and top search terms. Flag: ROAS down 20%+, CPA up 20%+, budget-limited winners, rank-limited campaigns, branded leakage in non-branded campaigns, wasted spend queries, and products spending with no conversions.”\n\nNext up:\n\n“Turn this audit into an action list. For each action, include the campaign, issue, evidence, recommended change, risk level, and expected impact.”\n\nStage 10: Weekly scaling plan\n\n“Compare performance across 7, 14, and 30-day windows. Identify campaigns, products, keywords, ads, and landing pages with consistent green signals. Recommend which budgets to increase by 15-20%, which to hold, which to decrease, and which tests to launch next. Do not recommend scaling anything unless the signal is consistent across multiple windows.”\n\nThen:\n\n“Create next week’s testing roadmap. Include 3 keyword tests, 3 creative tests, 2 landing page tests, 2 feed tests, and 1 campaign structure test. Rank them by expected impact and implementation difficulty.”\n\nAnd this is how you get your full ecosystem set up:\n\n- Research feeds keywords\n- Keywords feed campaigns\n- Campaign data feeds landing pages\n- Landing pages feed creative\n- Creative feeds new angles\n- Audits feed the next week of tests\n\nIf you want me to build this full AI Google Ads production system for your brand btw, DM me “OPUS” and I’ll show you what it’d look like",
+"likeCount": 22,
+"retweetCount": 0,
+"url": "https://x.com/lifemaximised/status/2088959001656492337",
+"createdAt": "Sun Aug 16 12:00:11 +0000 2026"
 },
 {
-"userName": "sabra_the",
-"text": "🇬🇧 LONDON BOOKSHOP ACCUSED OF GIVING HITLER’S MEIN KAMPF “DANGEROUS NEW POWER”\n\nAafaq Bookstore on London’s Edgware Road has been found selling Arabic-language copies of Adolf Hitler’s Mein Kampf, reportedly displayed with a photograph of Hitler giving the Nazi salute.\n\nThe book’s ideological importance is beyond dispute: Mein Kampf laid out central elements of Hitler’s National Socialist worldview and foreshadowed the genocidal policies and wars that followed. More than 12 million copies were sold before the fall of Nazi Germany.\n\nThe issue, argues writer Robin Schäfer, is not simply whether the book is available—but how it is presented and contextualized.\n\nSchäfer writes:\n\n“There is a difference between preserving a poisonous historical text and peddling it.”\n\nHe points to Germany’s Institute for Contemporary History (IfZ), which produced a critical edition with more than 3,500 scholarly annotations designed to expose Hitler’s distortions and place his claims against historical research.\n\nSchäfer argues:\n\n“Availability is not the same as endorsement.”\n\nBut he warns that an unannotated translation, particularly one marketed with Hitler’s image in a Nazi salute, can strip away the historical context and potentially turn the text into a vehicle for modern propaganda.\n\n“There is no scholarly reason to reproduce Hitler’s image in mid-salute.”\n\nAnd his conclusion is blunt:\n\n“It is imperative to deconstruct Hitler and his propaganda thoroughly, thereby depriving this dangerous book of its symbolic power. Aafaq Bookstore has done the opposite.”\n\nThe debate is not about banning history. It is about whether a text responsible for helping articulate a genocidal ideology should be presented as serious historical material—or marketed with the very imagery that helped create its cultic power.\n\nMein Kampf in Arabic is precisely what they teach in the Muslim countries, and this is why it’s now the Islamic Republic of Britain.\n\nVia: Mossad National Intel Desk",
-"likeCount": 12,
-"retweetCount": 3,
-"url": "https://x.com/sabra_the/status/2088694412444668310",
-"createdAt": "Sat Aug 15 18:28:48 +0000 2026"
+"userName": "MdRimon488484",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @MdRimon488484 for more AI tools.⤵️✅",
+"likeCount": 127,
+"retweetCount": 60,
+"url": "https://x.com/MdRimon488484/status/2088687724069044369",
+"createdAt": "Sat Aug 15 18:02:14 +0000 2026"
 },
 {
-"userName": "arsalannazir07",
-"text": "Image Generation Prompt\n\nUltra-realistic luxury fashion editorial portrait of a handsome young man with thick, voluminous dark brown hair styled in a refined textured quiff, neatly faded sides, and a full, sharply groomed beard. He is shown in a sophisticated three-quarter close-up profile, looking downward with a calm, confident expression. He wears classic black rectangular sunglasses with subtle premium detailing, a textured black waffle-knit cardigan worn slightly open at the chest, and a minimalist luxury wristwatch with a black dial, slim silver case, and black leather strap.\n\nHis right hand naturally adjusts the collar of the cardigan, bringing attention to the watch and refined styling. Warm natural skin tones, realistic beard and individual hair strands, detailed skin texture, subtle facial pores, elegant masculine aesthetic. Clean turquoise-blue studio background with a softly blurred beige foreground, creating a premium contemporary contrast. Soft directional daylight from the upper left, gentle highlights along the face and hair, subtle shadows, cinematic depth of field, shallow background blur, sophisticated luxury campaign photography, premium menswear advertisement, understated elegance, photorealistic, high-end editorial photography, 85mm portrait lens, f/1.8, natural bokeh, crisp subject separation, realistic proportions, 8K detail, vertical composition, no text, no watermark.\n\nNegative prompt: cartoon, CGI, plastic skin, over-smoothed face, distorted hands, extra fingers, malformed watch, asymmetrical sunglasses, exaggerated muscles, oversaturated colors, artificial lighting, blurry face, low detail, duplicate accessories, warped anatomy.",
-"likeCount": 75,
-"retweetCount": 5,
-"url": "https://x.com/arsalannazir07/status/2087398384659525636",
-"createdAt": "Wed Aug 12 04:38:51 +0000 2026"
+"userName": "Rubycryptoz",
+"text": "𝗔𝗖𝗖𝗘𝗟𝗘𝗥𝗔𝗧𝗜𝗡𝗚 𝗧𝗛𝗘 𝗔𝗗𝗩𝗘𝗡𝗧 𝗢𝗙 𝗔𝗚𝗜: 𝗣𝗢𝗪𝗘𝗥𝗜𝗡𝗚 𝗡𝗘𝗫𝗧-𝗚𝗘𝗡 𝗔𝗜 𝗡𝗣𝗖𝘀\n\nThe gaming world is shifting from pre-scripted interactions to living, autonomous Non-Player Characters.\n\nIn-game NPCs now trade assets, forge alliances, and adapt dynamically to player actions in real time.\n\nSustaining thousands of interactive NPCs requires continuous API connectivity and ultra-low costs.\n\n𝗕.𝗔𝗜 provides the scalable computational and financial infrastructure for autonomous gaming worlds.\n\n- 𝗔𝟮𝗔 Micro-Trades: In-game NPCs trade items and services using native crypto rails.\n\n- 𝗨𝗹𝘁𝗿𝗮-𝗟𝗼𝘄 Latency: Direct route connections ensure instant, natural conversational responses.\n\n- 𝟵𝟬% 𝗖𝗼𝘀𝘁 Reduction: Deploy custom mode pipelines to keep high-volume games profitable.\n\n- 𝗠𝘂𝗹𝘁𝗶-𝗠𝗼𝗱𝗲 🧠: Switch models dynamically based on NPC dialogue complexity.\n\nBuild living, breathing virtual economies powered by autonomous AI characters today.\n\n𝗚𝗲𝘁𝘁𝗶𝗻𝗴 𝗦𝘁𝗮𝗿𝘁𝗲𝗱\n\n1️⃣ Review 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 Docs: Integrate BAI endpoints into your Web3 game engine.\n\n2️⃣ Deploy 𝗡𝗣𝗖 Vaults: Enable crypto self-custody for in-game AI entities.\n\n3️⃣ Scale 𝗧𝗵𝗲 World: Launch persistent virtual worlds with living digital populations.\n\nTry it now: https://t.co/tra9ZIjomi | Visit: https://t.co/mCNX2MfE8r\n\n@BAI_AGI @justinsuntron #TRONEcoStar",
+"likeCount": 9,
+"retweetCount": 0,
+"url": "https://x.com/Rubycryptoz/status/2088663432296116288",
+"createdAt": "Sat Aug 15 16:25:42 +0000 2026"
 },
 {
-"userName": "OGFIGO",
-"text": "I’ve been using @sleepagotchi for a while, and what keeps me interested is how much the product has evolved.\n\nIt started with the sleep to earn idea, but it feels like they’re building something much broader now.\n\nInstead of opening an app, checking a sleep score, looking at a few charts, and moving on, the AI Sleep Coach actually gives you some context around your night. It points out changes, explains what might have caused them, and gives you a couple of practical things to try.\n\nThat part feels far more useful to me than the usual “sleep more” advice.\n\nWhat I find even more interesting is how the different coaches are starting to connect. Sleep data can lead into conversations around energy, stress, daily habits, food, and recovery. The Meal Planner and Shopping Agent are still being rolled out, but you can already see where the product is heading.\n\nThe privacy side is also worth mentioning. Your biometric data stays on your phone, while anything processed externally is anonymized and not retained. That matters when you’re dealing with something as personal as health and recovery data.\n\nPersonally, I’ve noticed small changes. I’m more deliberate about when I go to bed, I pay more attention to recovery instead of just counting hours, and the feedback makes it easier to stay consistent.\n\nAnd yes, 2.2 million users is impressive.\n\nBut I think the bigger story is whether people keep opening the app every day because it genuinely helps them. That kind of retention says far more than points, rewards, or a virtual pet ever could.",
-"likeCount": 473,
-"retweetCount": 10,
-"url": "https://x.com/OGFIGO/status/2088536813744840764",
-"createdAt": "Sat Aug 15 08:02:34 +0000 2026"
+"userName": "GuyShea21824",
+"text": "Bediz is a virtual closet app with photorealistic AI try-on — see any outfit on YOUR photo before you buy it.\nPhoto-dump your clothes once and your whole digital wardrobe is cataloged automatically — every piece searchable, tagged, and ready to mix. Want to try on clothes online without the guesswork? Bediz shows the outfit on your own full-body photo, not an avatar.\nIt's an outfit planner for clothes you don't own yet, too. Spot something in a store, screenshot an outfit idea, add it to your wishlist — and see it on you before you spend a dollar. Try before you buy, for real.\nThe built-in AI stylist builds outfits from what's actually hanging in your closet and tells you why they work. Cost-per-wear tracking shows what every piece really costs you — the $90 jacket you wore twice is a $45-per-wear jacket.\nFree trial, no card required. The no-signup demo is live at https://t.co/fnsL5uKCWQ",
+"likeCount": 2,
+"retweetCount": 2,
+"url": "https://x.com/GuyShea21824/status/2088472219944878552",
+"createdAt": "Sat Aug 15 03:45:53 +0000 2026"
 },
 {
-"userName": "gurtej__gill_",
-"text": "This Paper is one of the cleverest solutions I’ve seen for fixing Diffusion Alignment.\n\nIf you’ve worked with RLHF or Reward Backprop on DiTs, you must be tired of delayed feedback. \n\nEvaluating only the final image makes credit assignment a total nightmare. \n\nYou either run out of VRAM trying to unroll the full trajectory, or you fight insane gradient variance with online RL.\n\nThe authors solve this by sticking learnable, position-free \"register tokens\" into a frozen DiT. \n\nInstead of waiting until step 50, these registers pull dense reward signals directly out of noisy intermediate latents. \n\nIt turns out you can accurately judge trajectory quality surprisingly early in the denoising process.\n\nWhat makes this paper stand out is how practical the applications are:\n\n1-For training: Their distillation setup (RG-OPD) skips standard policy gradients entirely and hits the same alignment performance while using up to 33x fewer GPU hours. That’s huge for making alignment accessible.\n\n2-For inference: You can use their Reward-Guided Sampling (RGS) to steer generation live off these register gradients thus improving both prompt adherence and visual quality without retraining or touching model weights.\n\nIt’s a super clean, well thought-out approach that addresses both the compute bottleneck and inference control at once. \n\nDefinitely worth a read if you're working on generative models:\nhttps://t.co/tfkSPmYwiU",
-"likeCount": 40,
-"retweetCount": 10,
-"url": "https://x.com/gurtej__gill_/status/2086412441366266137",
-"createdAt": "Sun Aug 09 11:21:04 +0000 2026"
-},
-{
-"userName": "TokenGremlin",
-"text": "A quick reality check for anyone worried that OpenAI is about to watermark every ChatGPT response.\n\nOpenAI has signed the EU transparency code and has been expanding provenance systems, but the confirmed rollout so far is focused mainly on generated images and supported audio through C2PA/SynthID.\n\nOpenAI has researched invisible text watermarking and developed experimental methods for it, but it has not announced plans to deploy text watermarks in ChatGPT. In fact, OpenAI has previously acknowledged that this could unfairly affect people who use AI for legitimate writing assistance, especially non-native speakers.\n\nSo for now:\n\n→ Image/audio watermarking: confirmed\n→ Text watermarking research: confirmed\n→ Invisible watermarks coming to ChatGPT text: speculation, not an announced feature\n\nNo reason to panic yet.",
-"likeCount": 47,
-"retweetCount": 1,
-"url": "https://x.com/TokenGremlin/status/2088719848587100323",
-"createdAt": "Sat Aug 15 20:09:53 +0000 2026"
-},
-{
-"userName": "PSA_Austria",
-"text": "🌐↻ ·\n\nFor anyone who still hasn’t found their way out of Paragon Hall, you can come hang around at Fashion Hall for another round at THE NEW XPENG L03 EXCLUSIVE DEBUT.\n\n#THENEWXPENGL03 Next-Gen AI SUV COUPE under the concept #BornIntelligent, born for the new generation.\n\nSiam Paragon, Fashion Hall, 1st Floor | 18 Aug | 5:00–8:00 PM\n\n#THENEWL03 #XPENGThailand #XPENG #เพิร์ธแซนต้า #SiamParagon",
+"userName": "jiqizhixin",
+"text": "Ever wonder why training AI to create images and videos eats up so much computing power?\n\nResearchers at the University of Science and Technology of China and https://t.co/411myyJ4gs present DMSampler!\n\nDMSampler replaces slow 50-step sampling with a fast 4-to-8-step distilled model that acts as a quick proxy for the AI policy. It keeps updating itself alongside the policy so the samples stay accurate and aligned throughout training.\n\nIt outperforms previous diffusion RL methods on OCR, GenEval, and VBench benchmarks while cutting GPU hours by an order of magnitude.\n\nDistillation Models are Good Samplers for Diffusion Reinforcement Learning\n\nPaper: https://t.co/idngRaCxxW\nProject: https://t.co/32p38s0PMk\n\nOur report: https://t.co/LmozRHEFpi\n\n📬 #PapersAccepted by Jiqizhixin",
 "likeCount": 9,
 "retweetCount": 2,
-"url": "https://x.com/PSA_Austria/status/2088507107481907376",
-"createdAt": "Sat Aug 15 06:04:31 +0000 2026"
+"url": "https://x.com/jiqizhixin/status/2087290713302335551",
+"createdAt": "Tue Aug 11 21:31:00 +0000 2026"
 },
 {
-"userName": "akashnet",
-"text": "Astria AI runs production image generation on Akash for fashion e-commerce.\n\nDive into how @akashnet's unit economics give AI startups like @Astria_AI both runway &amp; pricing competitiveness to onboard and keep their customers at scale. https://t.co/zTyKUcnVci",
-"likeCount": 126,
-"retweetCount": 21,
-"url": "https://x.com/akashnet/status/2088282245542916594",
-"createdAt": "Fri Aug 14 15:11:00 +0000 2026"
+"userName": "rammcodes",
+"text": "WTF... run a Linux virtual machine in your browser? 🤯\n\nThis wild open-source project lets you run a full Linux environment directly inside your browser using WebAssembly.\n\nYou can run an unmodified Debian system with native development tools, entirely client-side.\n\nAnd the crazy part? You can literally try it right now without installing a VM on your computer. 💀\n\nSource 🔗: github(DOT)com/leaningtech/webvm\n\nFollow me for more amazing AI, Coding & Web Dev insights 💎",
+"likeCount": 18,
+"retweetCount": 2,
+"url": "https://x.com/rammcodes/status/2088870979246416026",
+"createdAt": "Sun Aug 16 06:10:25 +0000 2026"
 },
 {
-"userName": "akashnet",
-"text": "Astria AI runs production image generation on Akash for fashion e-commerce.\n\nDive into how @akashnet's unit economics give AI startups like @Astria_AI both runway and pricing competitiveness to onboard and keep their customers at scale.",
-"likeCount": 86,
-"retweetCount": 12,
-"url": "https://x.com/akashnet/status/2088293384217632921",
-"createdAt": "Fri Aug 14 15:55:16 +0000 2026"
+"userName": "psantacl",
+"text": "Evolution built intelligence in five breakthroughs over half a billion years. The AI industry is building the same five in exactly the reverse order. My review of Max Bennett's extraordinary \"A Brief History of Intelligence\". https://t.co/Cx1DSMaHrh",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/psantacl/status/2088264670465401087",
+"createdAt": "Fri Aug 14 14:01:10 +0000 2026"
+},
+{
+"userName": "nastvch",
+"text": "You're generating random AI faces and getting 47 views. One guy locked a single character and cleared $14,900 last month. Here's what you're doing wrong. https://t.co/tw4s7U2XuG",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/nastvch/status/2088956231700414575",
+"createdAt": "Sun Aug 16 11:49:11 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @finkd: Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also r…",
-"likeCount": 30333,
-"retweetCount": 2557,
-"url": "https://x.com/ClementDelangue/status/2086759116635058346",
-"createdAt": "Mon Aug 10 10:18:38 +0000 2026"
+"text": "RT @NVIDIAAI: Introducing NVIDIA Nemotron 3.5 Lightning⚡\n\nAn open 30B MoE model with 3B active parameters, built for always-on agents to co…",
+"likeCount": 5703,
+"retweetCount": 656,
+"url": "https://x.com/ClementDelangue/status/2087514878970077677",
+"createdAt": "Wed Aug 12 12:21:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @alexandr_wang: 1/ big announcement today: we will be releasing an open weight version of muse spark 1.2 soon.\n\nwe also are releasing mu…",
+"likeCount": 9531,
+"retweetCount": 732,
+"url": "https://x.com/ClementDelangue/status/2086767973365137526",
+"createdAt": "Mon Aug 10 10:53:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @mkratsios47: Open-weight models put American AI innovation directly into the hands of developers, researchers, and startups. This is ex…",
-"likeCount": 1046,
+"likeCount": 1047,
 "retweetCount": 139,
 "url": "https://x.com/ClementDelangue/status/2086966079738232904",
 "createdAt": "Tue Aug 11 00:01:02 +0000 2026"
 },
 {
-"userName": "DevDsgn",
-"text": "How I turned random references into a consistent set of AI hero images.\n\nHere’s the full process, prompts, and revisions I used 👇 https://t.co/og9qc7Swxv",
-"likeCount": 148,
-"retweetCount": 10,
-"url": "https://x.com/DevDsgn/status/2087414239174783064",
-"createdAt": "Wed Aug 12 05:41:51 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @BigTechAlert: 🆕 @elonmusk began following @ClementDelangue\n\n(🤖👁️: any explanation?) https://t.co/oNzeNEIlM5",
-"likeCount": 132,
+"userName": "jeremyphoward",
+"text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
+"likeCount": 114,
 "retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2086436831223054560",
-"createdAt": "Sun Aug 09 12:57:59 +0000 2026"
+"url": "https://x.com/jeremyphoward/status/2087412546232070195",
+"createdAt": "Wed Aug 12 05:35:07 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Meta is back! well done @finkd @alexandr_wang! https://t.co/gWvkuDeHzF",
-"likeCount": 1655,
-"retweetCount": 96,
-"url": "https://x.com/ClementDelangue/status/2086760700014203090",
-"createdAt": "Mon Aug 10 10:24:55 +0000 2026"
+"userName": "iamdomprompt",
+"text": "Stop Making Plastic AI Art: The JSON Blueprint to Seduction 🖤✨ https://t.co/gUiQVGYO3s",
+"likeCount": 6,
+"retweetCount": 1,
+"url": "https://x.com/iamdomprompt/status/2088268358219137140",
+"createdAt": "Fri Aug 14 14:15:49 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "https://t.co/kddkkHc6NK",
-"likeCount": 47,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2086760754548547695",
-"createdAt": "Mon Aug 10 10:25:08 +0000 2026"
+"userName": "RomaTesla",
+"text": "A few thoughts on craft, AI and stuff https://t.co/q8CqVV0izx",
+"likeCount": 18,
+"retweetCount": 1,
+"url": "https://x.com/RomaTesla/status/2086755788387659782",
+"createdAt": "Mon Aug 10 10:05:24 +0000 2026"
+},
+{
+"userName": "TejasThange3",
+"text": "https://t.co/2FYWnVY7hy",
+"likeCount": 17,
+"retweetCount": 5,
+"url": "https://x.com/TejasThange3/status/2088962657600905582",
+"createdAt": "Sun Aug 16 12:14:43 +0000 2026"
 }
 ]

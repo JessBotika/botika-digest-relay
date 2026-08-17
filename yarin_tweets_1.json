@@ -1,122 +1,106 @@
 [
 {
-"userName": "Catherine_CSSX",
-"text": "When I started tech, it wasn’t really because I was passionate about tech.\n\nI was tired of the traditional way of working. The corporate way of working that takes so much of your time, effort, and even your youth, and sometimes still doesn’t give you enough in return.\n\nAnd honestly, in the beginning, I was LOST.\n\nYou learn a skill and they tell you, try Upwork, try Fiverr, try this, try that.\n\nMeanwhile, you see people on LinkedIn talking about how they’re getting jobs, landing contracts, building careers, and doing so well.\n\nAnd I kept asking myself, how are these people actually doing this?\n\nI asked people.\n\nI asked people who were already doing the things I wanted to do. I asked how they were getting jobs. I asked how they were finding opportunities. I asked how they were navigating everything.\n\nAnd most of the time, I got nothing.\n\nNobody really wanted to tell you.\n\nI remember meeting people who had completely changed their careers. One person started as a Virtual Assistant, took a data analytics course, and eventually became a Project Manager.\n\nSo I kept learning too. I learned IT skills. I learned project management. I tried different things.\n\nBut project management wasn’t what I wanted to do.\n\nMaybe because I had been a teacher for so many years, I was naturally drawn to people. Talking to people. Helping people. Solving problems. That was where I found myself.\n\nSo I kept asking.\n\nEventually, someone told me to use the internet.\n\nAnd I thought, okay, but how do I do it exactly?\n\nBecause at the time, I would go to Google and type things like Virtual Assistant jobs or Customer Support jobs and get loads of generic nonsense.\n\nFill this form.\n\nClick this link.\n\nSubmit here.\n\nThen another email.\n\nThen another form.\n\nAnd the tunnel just kept going.\n\nAt the end, you’re left wondering, how are these people actually getting jobs?\n\nBecause if this is where everyone is finding opportunities, then what am I missing?\n\nSo one day, I decided to go to AI and ask.\n\nI explained that so many people had told me to use the internet to find jobs, but nobody had actually explained how to do it.\n\nAnd AI gave me a breakdown of exactly what to search for and how to search for it.\n\nI started applying those search techniques.\n\nAnd suddenly, I started finding actual leads.\n\nNow, when I’m looking for Customer Success opportunities, for example, I don’t just search Customer Success jobs.\n\nI’ll search for things like customer support agencies hiring, customer success agencies hiring, companies looking for customer experience teams, and other specific searches that lead me to actual opportunities.\n\nAnd the difference is HUGE.\n\nI’m finding leads that actually make sense. Opportunities where you’re filling out a real application instead of entering an endless tunnel of generic forms.\n\nThat experience taught me something:\n\nASK QUESTIONS.\n\nPlease, ask questions.\n\nAsk people who are doing what you want to do.\n\nAsk how they got there.\n\nAsk what they searched.\n\nAsk what resources they used.\n\nAsk what you’re missing.\n\nThe worst thing that can happen is that someone tells you no.\n\nBut also, don’t make asking people your only strategy.\n\nUse the resources around you.\n\nGoogle.\n\nAI.\n\nYouTube.\n\nCommunities.\n\nPeople who are willing to teach.\n\nAnd speaking of people who are willing to teach, I’m genuinely grateful for people like @iamrichygold here.\n\nThis guy has been pouring out so much knowledge for free.\n\nKnowledge that people would naturally charge you for.\n\nAnd I try as much as possible to repost his content because I genuinely believe that when someone is willing to share useful information freely, it deserves to reach more people.\n\nSo yes, ask questions.\n\nBut also learn how to find answers for yourself.\n\nBecause sometimes the problem isn’t that there are no jobs.\n\nSometimes, you simply haven’t learned how to find them yet.",
-"likeCount": 9,
-"retweetCount": 1,
-"url": "https://x.com/Catherine_CSSX/status/2088567471200448933",
-"createdAt": "Sat Aug 15 10:04:23 +0000 2026"
+"userName": "LianwenJ",
+"text": "Hugging Face Daily Papers - Aug 11, 2026\n\n35 papers today, with 20 including code links. Full list:\n\n1. BDH-CQ: In-Context Learning with Recurrent Latent Reasoning\n   Highlight: We introduce BDH-CQ, a reasoning model that combines in-context learning with recurrent latent reasoning. Inputs presented at inference time contin\n   arXiv: https://t.co/Q8ckuFfsHH\n\n2. Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA\n   Highlight: Macaron-V1 is an open agent-model family for experiential intelligence: learning from experience in real environments and continuing to learn after\n   arXiv: https://t.co/SyEZszptbw\n\n3. SWE-Bench ProMax: Benchmarking Agents on Large-Scale Multilingual Code Refactoring\n   Highlight: As AI coding agents take on increasingly complex, long-horizon software engineering tasks, existing benchmarks are rapidly saturating and their eva\n   arXiv: https://t.co/E3K8XBUojY\n\n4. Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution\n   Highlight: We present Ouroboros, a self-developing agent harness whose tools, prompts, context assembly, and core implementation improve through reviewed comm\n   arXiv: https://t.co/47GT4eJOss\n\n5. On-Policy Self-Distillation without Any Supervision\n   Highlight: On-policy (Self-)Distillation (OPD / OPSD) has shown strong potential for post-training large language models (LLMs). However, existing methods sti\n   arXiv: https://t.co/1OQSXapa8Y\n\n6. Motif 3: Technical Report\n   Highlight: We introduce Motif 3, a decoder-only Mixture-of-Experts language model with 314 billion total parameters and 13.2 billion activated per token. Each\n   arXiv: https://t.co/H9ArBnkSLH\n\n7. Stealing Reasoning Traces from Proprietary LLM APIs\n   Highlight: Leading large language model providers now conceal their models' step-by-step reasoning, or chain-of-thought, to protect intellectual property and\n   arXiv: https://t.co/C6I54VZ0Ij\n\n8. Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory\n   Highlight: Memory systems have shown promise for improving agent performance, but their potential remains largely unexplored for small language models, which\n   arXiv: https://t.co/6xF8cCC5Ei\n\n9. Sci-VBench: Evaluating Knowledge- and Reasoning-Intensive Video Generation in Science Domains\n   Highlight: We introduce Sci-VBench, a comprehensive benchmark for evaluating knowledge- and reasoning-intensive video generation across scientific domains. It\n   arXiv: https://t.co/Uyk9lDcMYF\n\n10. What to Edit Next: Visually Aligned Image-Editing Follow-Up Suggestions in Conversational Systems\n   Highlight: Conversational assistants increasingly recommend follow-up edits to help users continue a task. Existing systems primarily target text-only interac\n   arXiv: https://t.co/ddKxB73Lcp\n\n11. OasisKV: Scaling In-Decode KV Cache Beyond HBM with Lookahead Sparse Prefetching\n   Highlight: Large language model (LLM) inference serving is increasingly constrained by memory rather than compute. As long-context and long-form reasoning wor\n   arXiv: https://t.co/wpGsnj8HYA\n\n12. SPOT: Sparse Probing and Outcome Calibration for On-Policy Distillation\n   Highlight: On-policy distillation (OPD) provides dense teacher supervision on student-generated trajectories, but standard reverse-KL training can assign insu\n   arXiv: https://t.co/UkItpnHgFn\n\n13. Scaling Inherently Interpretable Language Models\n   Highlight: Interpretability is often treated as a tax on capability: language models are trained as opaque systems, then explained after the fact, with method\n   arXiv: https://t.co/oqxtelte8V\n\n14. Evo-Bench: Can Language Models Improve Agent Harness?\n   Highlight: Large Language Models (LLMs) have driven rapid progress in autonomous agents, yet standard evaluations remain confined to static task solving. An e\n   arXiv: https://t.co/ffYy8KY1Ha\n\n15. RoMeRL: Balancing Feedback Coverage and the Memory-Reward Trap in Self-Evolving Agent Memory via Reduced-Order Utility States\n   Highlight: Learning-based memory systems for self-evolving LLM agents face two tightly coupled challenges. First, trajectory-indexed utilities grow with the i\n   arXiv: https://t.co/uFFACcewEb\n\n16. Evidence-RL: Towards Evidence-intensive Visual Reasoning\n   Highlight: Vision-Language Models (VLMs) should answer from concrete image evidence rather than language priors, dataset shortcuts, or irrelevant visual conte\n   arXiv: https://t.co/BPe944qC00\n\n17. RynnValue: Scaling Robotic Value Foundation Models with Temporal Distance\n   Highlight: General-purpose reward models are increasingly the bottleneck for scaling robot learning, yet the recipe for learning value-related capabilities fr\n   arXiv: https://t.co/lnXS8AF8Cz\n\n18. A^2E: An End-to-End Agent Auditing Engine\n   Highlight: With the rapid advancement of large language models (LLMs), harnesses have become essential infrastructure for deploying agents across a wide range\n   arXiv: https://t.co/sdZsvfzf2i\n\n19. Intent Speaks Louder: Controllable User Simulation Beyond Response Imitation\n   Highlight: User simulators are widely used as scalable environments for training and evaluating interactive assistants. Generating the next user turn is inher\n   arXiv: https://t.co/QSjBR9cn7D\n\n20. Business Arena: Benchmarking LLM Agents in a Realistic Marketplace\n   Highlight: Running a business is a challenging form of intelligent work. Operators must infer opportunities from partial signals, commit capital under uncerta\n   arXiv: https://t.co/GbTWmGAtLB\n\n21. Factorized Hypothesis Search for Evidence-to-Taxonomy Retrieval\n   Highlight: Large-taxonomy retrieval often assumes that the input already expresses the target concept. In many settings, however, the input is indirect eviden\n   arXiv: https://t.co/ncISgFN8AJ\n\n22. The Loss Does Not See the Basis, but Adam Does\n   Highlight: Gradient descent on a factored model W = UV^T is implicitly biased toward low-rank solutions, while Adam, starting from the same small initial\n   arXiv: https://t.co/IWOd5v56yb\n\n23. Cultivar: A Contrastive and Locale-Oriented Translation Benchmark for Investigating Contamination and Localisation Robustness\n   Highlight: Multilingual translation benchmarks are typically sourced in English and translated into other languages, treating language pairs as the unit of ev\n   arXiv: https://t.co/LyY3yQU3c5\n\n24. Don't Scroll Back: Missing-Evidence Memory for Streaming Dialogue Summarization\n   Highlight: Users of modern platforms repeatedly need summaries of recent dialogue, but the window rarely contains enough context to be interpreted on its own.\n   arXiv: https://t.co/ZlamKbPodq\n\n25. Gaming Without an Attacker: Benchmark Fingerprinting in LLM-Driven Search Under Selection Pressure\n   Highlight: Benchmarks for systems that are optimized against the evaluation signal measure something different from what they claim. We document this concrete\n   arXiv: https://t.co/poWUPHy2CU\n\n26. SymDiag: Explainable Diagnosis for LLM Reasoning via Neuro-Symbolic Verification\n   Highlight: Large language models (LLMs) increasingly serve as data-driven reasoners, yet their chains-of-thought (CoT) can be unfaithful even when final answe\n   arXiv: https://t.co/C1qCSZ5rBq\n\n27. A Hybrid Nested Harness for Decoupling Structure and Parameters in LLM-Driven Optimization\n   Highlight: In evolutionary algorithms powered by language models, the LLM acts as a single operator that simultaneously updates structural components (like co\n   arXiv: https://t.co/bl66qgYuzj\n\n28. Beyond Starry Night: Shortcut-Aware Control-State Planning for Artist-Grounded Text to Image Generation\n   Highlight: Artist-grounded image generation requires more than appending an artist name to a prompt. Image models often respond to artist names through canoni\n   arXiv: https://t.co/f6RuPusFIA\n\n29. WeClawArena: An Auditable Sandbox and Benchmark for Cross-User Agents Collaboration and Security in Human-Centered Agent Networks\n   Highlight: Recent advances in persistent personal-agent frameworks are making human-centered agent networks realistic deployment targets: each user can be ser\n   arXiv: https://t.co/BTjJX9JSf7\n\n30. MMOOC: A Comprehensive Benchmark for Out-of-Context Evaluation in Multimodal Large Language Models\n   Highlight: Multimodal Large Language Models (MLLMs) have achieved strong performance on a wide range of vision-language tasks, but often fail under imperfect\n   arXiv: https://t.co/te3yfudKLo\n\n31. CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems\n   Highlight: The development of embodied Intelligent Virtual Agents (IVAs) that have cognitive capabilities in real-time interactive virtual environments remain\n   arXiv: https://t.co/ZvPehi7bja\n\n32. Ego-OSCAR: Egocentric Open source Stereo CAptuRe System\n   Highlight: We present Ego-OSCAR, an open-hardware, low-cost, head-mounted stereo-inertial capture device for egocentric data collection in the wild. EgoOSCAR\n   arXiv: https://t.co/wXOeOKkuen\n\n33. Vision-Language Grounding as Bidirectional Concept Correspondence\n   Highlight: Vision-language grounding connects language to visual content, yet most existing formulations reduce grounding to a unidirectional localization pro\n   arXiv: https://t.co/sQTBCjv0Yf\n\n34. MirrorWorld: Taming Video Diffusion Models for Mirror Reflection Generation\n   Highlight: Recent advances in video diffusion models (VDMs) have enabled high-fidelity video synthesis. However, generating mirror reflections remains challen\n   arXiv: https://t.co/c1E8tGF5ad\n\n35. Omega-S: A Functional Resilience Index for LLM Fine-Tuning\n   Highlight: Fine-tuning a large language model on new data degrades what it previously learned. We present Omega-S, a drop-in penalty computed from the weight\n   arXiv: https://t.co/MCNByyr2Bh\n\nTrend summary:\n- learning / optimization: 8\n- vision / multimodal: 8\n- NLP / language agents: 7\n- agents / general AI: 7\n- other: 1\n- coding / software engineering: 1\n- security / model protection: 1\n- systems / inference infrastructure: 1\n- robotics / embodied AI: 1\n\nOverall: agents, reasoning, memory, benchmarks, and multimodal generation dominate the day, with a strong practical tilt toward coding agents, evaluation, and inference systems.",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/LianwenJ/status/2087321484494827802",
+"createdAt": "Tue Aug 11 23:33:17 +0000 2026"
 },
 {
-"userName": "allen_lattimer",
-"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
-"likeCount": 22,
-"retweetCount": 10,
-"url": "https://x.com/allen_lattimer/status/2088667246596100269",
-"createdAt": "Sat Aug 15 16:40:51 +0000 2026"
-},
-{
-"userName": "MdRimon488484",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @MdRimon488484 for more AI tools.⤵️✅",
-"likeCount": 84,
-"retweetCount": 43,
-"url": "https://x.com/MdRimon488484/status/2088687724069044369",
-"createdAt": "Sat Aug 15 18:02:14 +0000 2026"
-},
-{
-"userName": "NBCryptodotsui",
-"text": "Sui Family, the DeepBook Predict ecosystem is getting REALLY interesting...\n\nPowered by DeepBook + Sui, these new DeFi protocols combine trading, AI-powered strategies, prediction markets, volatility trading, structured products and even gaming. 🎮📈\n\nAnd the best part? 👀\nThe testnets are LIVE!\nYou can use $DUSDC on these testnets, claim your free daily faucet allocation, and use those tokens to explore the protocols and earn points/rewards. 💰\n\n🔥 9 protocols to explore:\n\n1️⃣ @ankerprotocol  — Structured products & Dual Investment-style trading\n2️⃣ CallIt — On-chain prediction markets\n3️⃣ Flicky — Prediction markets turned into a fun competitive game\n4️⃣ Guardian — Protection for DeepBook Margin positions\n5️⃣ Pelagos — Advanced structured products with flexible payoffs\n6️⃣ @PlayPipsFun  — A fun 3D virtual trading experience\n7️⃣ @skew_sui  — Trade volatility on Sui\n8️⃣ SVX — Automated volatility arbitrage\n9️⃣ @yosuku0  — Predictions, leverage & agent-powered strategies\n\nWhat I love about this ecosystem is that it doesn't feel like “just trading.”\n👉 Trade\n👉 Predict\n👉 Play\n👉 Try AI-powered strategies\n👉 Earn points & rewards\nAll with $DUSDC on testnet. 🪂\nSome of these projects are already live on testnet, and mainnet launches are coming soon. 👀🔥\nIf you're building or exploring DeFi on Sui, this is definitely an ecosystem worth watching.\n@DeepBookonSui  + @SuiNetwork  = A new playground for on-chain trading. 💙",
-"likeCount": 27,
-"retweetCount": 3,
-"url": "https://x.com/NBCryptodotsui/status/2087967262942675223",
-"createdAt": "Thu Aug 13 18:19:22 +0000 2026"
+"userName": "Alex_AI96",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow @Alex_AI96 for more AI tools.⤵️✅",
+"likeCount": 21,
+"retweetCount": 14,
+"url": "https://x.com/Alex_AI96/status/2088945255660032284",
+"createdAt": "Sun Aug 16 11:05:34 +0000 2026"
 },
 {
 "userName": "MonetizationDon",
 "text": "GPT IMAGE 2 + MIINIMAX H3 WITH PROMPTS\n\nWhat if your AI tools became a cinematic universe? \n\nI wanted to try something a little different with MiniMax H3 and create a commercial for LOVART AI that feels more like a fashion campaign than a typical tech ad.\n\nI put my virtual influencer, Alexa Grey, in LOVART’s bright yellow and white colors and built the whole concept around text, characters and visual storytelling.\n\nOne thing I really wanted to explore was how far I could push the typography.\n\nMiniMax prompts use editorial typography, characters crossing through letters, billboards, graphic cards, oversized text, parallax and visual transitions.\n\nSo instead of simply putting a model name on screen, I made the lettering part of the world.\n\nAlexa walks through giant words.\nCharacters move around the typography.\nBillboards become cinematic scenes.\nLetters transform into environments.\nGraphic cards transition into completely different worlds.\n\nAnd then I brought the AI models into the story:\n\nThe goal was to make everything feel connected — characters, typography, billboards, environments and AI models all living inside the same creative universe.\n\nAnd at the end, it all comes together as: \nLOVART AI: YOUR AI CREATIVE STUDIO.\n\nNo dialogue. No voiceover.\n\nJust visuals, music, typography, and motion.\n\nMade with MiniMax H3 in @lovart_ai \nPrompts in the comments section👇👇👇👇\n#LovartAICPP",
-"likeCount": 61,
+"likeCount": 62,
 "retweetCount": 11,
 "url": "https://x.com/MonetizationDon/status/2088139173815341520",
 "createdAt": "Fri Aug 14 05:42:29 +0000 2026"
 },
 {
-"userName": "jiqizhixin",
-"text": "Ever wonder why training AI to create images and videos eats up so much computing power?\n\nResearchers at the University of Science and Technology of China and https://t.co/411myyJ4gs present DMSampler!\n\nDMSampler replaces slow 50-step sampling with a fast 4-to-8-step distilled model that acts as a quick proxy for the AI policy. It keeps updating itself alongside the policy so the samples stay accurate and aligned throughout training.\n\nIt outperforms previous diffusion RL methods on OCR, GenEval, and VBench benchmarks while cutting GPU hours by an order of magnitude.\n\nDistillation Models are Good Samplers for Diffusion Reinforcement Learning\n\nPaper: https://t.co/idngRaCxxW\nProject: https://t.co/32p38s0PMk\n\nOur report: https://t.co/LmozRHEFpi\n\n📬 #PapersAccepted by Jiqizhixin",
+"userName": "TokenGremlin",
+"text": "A quick reality check for anyone worried that OpenAI is about to watermark every ChatGPT response.\n\nOpenAI has signed the EU transparency code and has been expanding provenance systems, but the confirmed rollout so far is focused mainly on generated images and supported audio through C2PA/SynthID.\n\nOpenAI has researched invisible text watermarking and developed experimental methods for it, but it has not announced plans to deploy text watermarks in ChatGPT. In fact, OpenAI has previously acknowledged that this could unfairly affect people who use AI for legitimate writing assistance, especially non-native speakers.\n\nSo for now:\n\n→ Image/audio watermarking: confirmed\n→ Text watermarking research: confirmed\n→ Invisible watermarks coming to ChatGPT text: speculation, not an announced feature\n\nNo reason to panic yet.",
+"likeCount": 100,
+"retweetCount": 8,
+"url": "https://x.com/TokenGremlin/status/2088719848587100323",
+"createdAt": "Sat Aug 15 20:09:53 +0000 2026"
+},
+{
+"userName": "PSA_Austria",
+"text": "🌐↻ ·\n\nFor anyone who still hasn’t found their way out of Paragon Hall, you can come hang around at Fashion Hall for another round at THE NEW XPENG L03 EXCLUSIVE DEBUT.\n\n#THENEWXPENGL03 Next-Gen AI SUV COUPE under the concept #BornIntelligent, born for the new generation.\n\nSiam Paragon, Fashion Hall, 1st Floor | 18 Aug | 5:00–8:00 PM\n\n#THENEWL03 #XPENGThailand #XPENG #เพิร์ธแซนต้า #SiamParagon",
 "likeCount": 9,
 "retweetCount": 2,
-"url": "https://x.com/jiqizhixin/status/2087290713302335551",
-"createdAt": "Tue Aug 11 21:31:00 +0000 2026"
+"url": "https://x.com/PSA_Austria/status/2088507107481907376",
+"createdAt": "Sat Aug 15 06:04:31 +0000 2026"
 },
 {
-"userName": "LordOBI_SWC",
-"text": "Just watched a Canopy demo that actually made me pause.\n\nOne of their devs opened Claude, described a prediction market, and in about 20 minutes had a working onchain app running on its own virtual chain. \n\nFrontend, contracts, branding, the whole thing is live.\n\nNo massive team. No weeks of setup. Just AI and @CNPYNetwork handling the heavy lifting.\n\nI’ve been “watching everyone vibe-code” for months. This one finally made me want to stop watching and actually try it.",
-"likeCount": 79,
-"retweetCount": 9,
-"url": "https://x.com/LordOBI_SWC/status/2088087893638091159",
-"createdAt": "Fri Aug 14 02:18:43 +0000 2026"
+"userName": "akashnet",
+"text": "Astria AI runs production image generation on Akash for fashion e-commerce.\n\nDive into how @akashnet's unit economics give AI startups like @Astria_AI both runway &amp; pricing competitiveness to onboard and keep their customers at scale. https://t.co/zTyKUcnVci",
+"likeCount": 127,
+"retweetCount": 21,
+"url": "https://x.com/akashnet/status/2088282245542916594",
+"createdAt": "Fri Aug 14 15:11:00 +0000 2026"
 },
 {
-"userName": "psantacl",
-"text": "Evolution built intelligence in five breakthroughs over half a billion years. The AI industry is building the same five in exactly the reverse order. My review of Max Bennett's extraordinary \"A Brief History of Intelligence\". https://t.co/Cx1DSMaHrh",
-"likeCount": 10,
-"retweetCount": 2,
-"url": "https://x.com/psantacl/status/2088264670465401087",
-"createdAt": "Fri Aug 14 14:01:10 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Alibaba_Qwen: We promised open weights for Qwen3.8. Now, time to meet them! 🎉\n\n⚡ Qwen3.8-27B:\n- A native multimodal dense model. With j…",
-"likeCount": 15037,
-"retweetCount": 2037,
-"url": "https://x.com/ClementDelangue/status/2088663756784181389",
-"createdAt": "Sat Aug 15 16:26:59 +0000 2026"
+"userName": "gargiuvacha",
+"text": "A few days ago, I had to sit and hear, as a Brahmin, that “Brahmins were the reason Hindus converted.”\nIs it really the case? \nLet's see... https://t.co/2VX8Uow33z",
+"likeCount": 39,
+"retweetCount": 11,
+"url": "https://x.com/gargiuvacha/status/2088880420414947775",
+"createdAt": "Sun Aug 16 06:47:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @AIatMeta: 🔗 Download Muse Glimmer on @huggingface: https://t.co/s7Lzb8MqCG\n\n🔗 Read the technical blog: https://t.co/X6htFnhRbc\n\n🔗 Find…",
-"likeCount": 571,
+"likeCount": 573,
 "retweetCount": 74,
 "url": "https://x.com/ClementDelangue/status/2086762046247338037",
 "createdAt": "Mon Aug 10 10:30:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
+"text": "RT @finkd: Today we're also opening the weights for Muse Glimmer, a great 30B parameter dense model that can run locally. Soon we'll also r…",
+"likeCount": 30352,
+"retweetCount": 2553,
+"url": "https://x.com/ClementDelangue/status/2086759116635058346",
+"createdAt": "Mon Aug 10 10:18:38 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
 "text": "RT @alexandr_wang: excited to be releasing open weights for muse glimmer today, a 30b model that runs on a single consumer gpu, with open w…",
-"likeCount": 3750,
-"retweetCount": 219,
+"likeCount": 3751,
+"retweetCount": 220,
 "url": "https://x.com/ClementDelangue/status/2086759243298873571",
 "createdAt": "Mon Aug 10 10:19:08 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @victormustar: We are in an insane run of open-weight drops.\n\nEvery modality, open source is winning. This is what an open source AI sum…",
-"likeCount": 308,
-"retweetCount": 30,
-"url": "https://x.com/ClementDelangue/status/2087583321639551375",
-"createdAt": "Wed Aug 12 16:53:43 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
-"likeCount": 114,
-"retweetCount": 8,
-"url": "https://x.com/jeremyphoward/status/2087412546232070195",
-"createdAt": "Wed Aug 12 05:35:07 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @minchoi: You can literally run Opus 4.6 Max-level intelligence on a MacBook Pro.\n\nLocally. https://t.co/wivWpOovFR",
-"likeCount": 2787,
-"retweetCount": 153,
-"url": "https://x.com/ClementDelangue/status/2088678025051410741",
-"createdAt": "Sat Aug 15 17:23:41 +0000 2026"
-},
-{
-"userName": "BestBlogsDev",
-"text": "https://t.co/oGJ1JFflrm",
-"likeCount": 6,
+"userName": "Kazuqr61u",
+"text": "【SIGNALIA】\n\nA fictional fashion lookbook.\nOriginal characters, clothing, and visual studies.\n\nCreated with generative AI. https://t.co/GEpTSfmduh",
+"likeCount": 28,
 "retweetCount": 1,
-"url": "https://x.com/BestBlogsDev/status/2088056200562913498",
-"createdAt": "Fri Aug 14 00:12:47 +0000 2026"
+"url": "https://x.com/Kazuqr61u/status/2086820630847271322",
+"createdAt": "Mon Aug 10 14:23:04 +0000 2026"
+},
+{
+"userName": "AndyNosretep",
+"text": "THE TECHNO-OPTIMIST MANIFESTO 🔥🔥\n\nREAD !!!🤩🔥🔥💯 https://t.co/zhHA9STES5",
+"likeCount": 22,
+"retweetCount": 5,
+"url": "https://x.com/AndyNosretep/status/2088302915937079681",
+"createdAt": "Fri Aug 14 16:33:08 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Let's go!\n\nhttps://t.co/BAJlYIJqDQ https://t.co/FYTH5MrTBG",
+"likeCount": 1670,
+"retweetCount": 115,
+"url": "https://x.com/ClementDelangue/status/2087562019788697818",
+"createdAt": "Wed Aug 12 15:29:05 +0000 2026"
 }
 ]
