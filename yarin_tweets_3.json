@@ -1,5 +1,13 @@
 [
 {
+"userName": "lifemaximised",
+"text": "You could run 80% of your Google Ads operation inside Claude Opus 5…\n\nSo here’s our 10-stage prompting workflow to do so:\n\n(Save this)\n\nStage 0: Build the project brain\n\nBefore asking for anything, create a Claude Project and feed it everything.\n\n- Product pages\n- Best sellers\n- Customer reviews\n- Objection docs\n- Competitor URLs\n- Meta ads\n- Google Ads Transparency Center links\n- Search terms reports\n- Winning ad copy\n- Offer details\n- Brand guidelines\n- Past landing pages\n- Performance exports\n\nThen run this prompt\n\n“Act as the Google Ads strategy brain for this brand. Read all uploaded context and create a working brand profile covering: ICP, core pain points, buying triggers, objections, emotional language customers use, top products, strongest offers, competitor positioning, current funnel gaps, and Google Ads opportunities. Do not make recommendations yet. First summarise the context and ask me what is missing.”\n\nThe quality of the outputs you’ll get from this AI workflow will directly correlate with the quality of the context you give it here.\n\nAnd also the quality of the Claude model you use, since newer models have more context tokens and better reasoning skills.\n\nStage 1: Customer language mining\n\n“Search Reddit, YouTube comments, Amazon reviews, TikTok comments, and niche forums for people discussing problems related to [PRODUCT CATEGORY]. Extract the exact words they use when describing the problem, what they have tried, why those solutions failed, what outcome they want, and what would make them buy. Format this as: Quote / Pain Point / Desired Outcome / Funnel Stage / Possible Ad Angle.”\n\nThis gives you the language that keyword tools would never show you.\n\nIf someone writes:\n\n“I’m tired of wasting money on supplements that do nothing.”\n\nThat can be a winning ad angle right there.\n\nStage 2: Competitor angle map\n\n“Research these competitors: [COMPETITOR 1], [COMPETITOR 2], [COMPETITOR 3]. Use Google Ads Transparency Center, Meta Ad Library, their landing pages, product pages, offers, guarantees, reviews, and email capture flows. Build a table showing: offer, main promise, ad hooks, landing page angle, proof used, objections handled, pricing position, and what they are NOT saying.”\n\nThen run:\n\n“Based on this competitor research, identify the 5 most validated market angles and the 5 biggest white-space angles we can own. For each angle, explain which funnel stage it belongs to and what campaign type should test it first.”\n\nIf 3 competitors are all running the same hook, that angle is validated.\n\nYou don’t even need to be original. Just add your unique spin to what’s already working. \n\nStage 3: Keyword research\n\n“Using the customer language, competitor research, product pages, and search intent data, build a full Google Ads keyword universe for [BRAND]. Split it into: branded, competitor, high-intent product, problem-aware, solution-aware, comparison, ingredient/material, use-case, gift/occasion, and negative keywords. For each keyword, include funnel stage, intent level, match type, campaign/ad group recommendation, and landing page angle.”\n\nThen run:\n\n“Now prioritise this keyword research report into a 30-day launch plan. Separate must-launch keywords from phase 2 tests. Flag any keywords that are high volume but low commercial intent.”\n\nThis stops the campaign from becoming a messy keyword dump.\n\nStage 4: Campaign architecture\n\n“Turn the finalized keyword research report into a complete Google Ads account structure. Include campaign names, ad group names, keyword match types, bidding strategy, starting budget split, exclusions, negative keyword rules, and when each campaign should launch. Use this structure: branded search, branded shopping, non-branded shopping, non-branded search, competitor search, PMax remarketing with brand exclusions, display remarketing, Demand Gen, and TOF search tests.”\n\nThen add:\n\n“Explain why each campaign exists, what signal it is meant to produce, and what metric decides whether it scales, holds, or gets cut.”\n\nEvery campaign needs to play a role in your ecosystem. If it doesn’t, you should just stop running it.\n\nStage 5: RSA copy production\n\n“Write responsive search ad copy for [PRODUCT] targeting [KEYWORD]. Funnel stage: [BOF/MOF/TOF]. Use the customer language and competitor gap analysis above. Give me 15 headlines under 30 characters and 4 descriptions under 90 characters. Include: benefit-led headlines, problem-led headlines, proof-led headlines, offer-led headlines, and urgency-led headlines. Make sure headline 1 matches the search intent.”\n\nThen run:\n\n“Create 3 ad variations for this keyword: one direct-response version, one proof-heavy version, and one problem-agitation version. Explain which audience each variation is for.”\n\nBOF copy should sound like the product is the obvious answer.\n\nMOF copy should make the benefit feel believable.\n\nTOF copy should make the problem impossible to ignore.\n\nStage 6: Merchant Center feed optimization\n\n“Rewrite this product title for Google Shopping using the structure: Brand + Product Type + Core Keyword + Key Feature + Use Case/Benefit. Stay under 150 characters. Give me 10 variations ranked by likely search intent.”\n\nThen:\n\n“Write a Merchant Center description for [PRODUCT]. Use up to 5,000 characters. Include all relevant buyer keywords naturally, cover features, benefits, use cases, materials/ingredients, sizing/specs, objections, and reasons to choose this product. Do not include irrelevant keywords or products we do not sell.”\n\nThen:\n\n“Audit this product feed for missed Google Shopping opportunities. Check title, description, product type, Google product category, images, variants, pricing, promotions, shipping, reviews, and attributes. Tell me exactly what to change.”\n\nStage 7: Landing page angles\n\n“Build a landing page brief for [PRODUCT] targeting people searching [KEYWORD]. Awareness stage: [PROBLEM-AWARE/SOLUTION-AWARE/PRODUCT-AWARE]. Structure it as: hero headline, subheadline, proof bar, problem section using customer language, mechanism section, product section, comparison section, reviews, objection handling, FAQ, CTA. Make sure the first screen matches the search query.”\n\nThen run:\n\n“Create 5 landing page angle variations for this product based on different search intents. For each one, give me the hero, core promise, proof required, objections to handle, and CTA.”\n\nSend the best one into Claude Code.\n\nNow you have an intent-specific page created instead of 1 generic PDP trying to convert everyone.\n\nStage 8: Creative production\n\nConnect Higgsfield MCP inside Claude.\n\nThen run:\n\n“Create a 9-shot YouTube ad concept for [PRODUCT] based on this angle: [ANGLE]. Style can be claymation / UGC / cinematic product demo. For each shot, include scene description, voiceover, on-screen text. Use GPT Images 2.0 for the statics.”\n\nThen:\n\n“Create 5 new creative concepts from the strongest customer pain points in the research. Each concept should include hook, visual metaphor, script, image prompts, animation prompts, and CTA.”\n\nIf you wanna run video ads, animate your statics with Seedance 2.5\n\nUse Opus to write the scripts.\n\nShouldn’t cost more than $3 per ad.\n\nStage 9: Daily campaign audit\n\nConnect Google Ads MCP (or just export report CSV)\n\nThen run:\n\n“Pull the last 7 days of Google Ads performance and compare it to the previous 7 days. For each campaign show spend, revenue, ROAS, conversions, CPA, CPC, CTR, impression share, search lost IS rank, search lost IS budget, and top search terms. Flag: ROAS down 20%+, CPA up 20%+, budget-limited winners, rank-limited campaigns, branded leakage in non-branded campaigns, wasted spend queries, and products spending with no conversions.”\n\nNext up:\n\n“Turn this audit into an action list. For each action, include the campaign, issue, evidence, recommended change, risk level, and expected impact.”\n\nStage 10: Weekly scaling plan\n\n“Compare performance across 7, 14, and 30-day windows. Identify campaigns, products, keywords, ads, and landing pages with consistent green signals. Recommend which budgets to increase by 15-20%, which to hold, which to decrease, and which tests to launch next. Do not recommend scaling anything unless the signal is consistent across multiple windows.”\n\nThen:\n\n“Create next week’s testing roadmap. Include 3 keyword tests, 3 creative tests, 2 landing page tests, 2 feed tests, and 1 campaign structure test. Rank them by expected impact and implementation difficulty.”\n\nAnd this is how you get your full ecosystem set up:\n\n- Research feeds keywords\n- Keywords feed campaigns\n- Campaign data feeds landing pages\n- Landing pages feed creative\n- Creative feeds new angles\n- Audits feed the next week of tests\n\nIf you want me to build this full AI Google Ads production system for your brand btw, DM me “OPUS” and I’ll show you what it’d look like",
+"likeCount": 25,
+"retweetCount": 0,
+"url": "https://x.com/lifemaximised/status/2088959001656492337",
+"createdAt": "Sun Aug 16 12:00:11 +0000 2026"
+},
+{
 "userName": "Catherine_CSSX",
 "text": "When I started tech, it wasn’t really because I was passionate about tech.\n\nI was tired of the traditional way of working. The corporate way of working that takes so much of your time, effort, and even your youth, and sometimes still doesn’t give you enough in return.\n\nAnd honestly, in the beginning, I was LOST.\n\nYou learn a skill and they tell you, try Upwork, try Fiverr, try this, try that.\n\nMeanwhile, you see people on LinkedIn talking about how they’re getting jobs, landing contracts, building careers, and doing so well.\n\nAnd I kept asking myself, how are these people actually doing this?\n\nI asked people.\n\nI asked people who were already doing the things I wanted to do. I asked how they were getting jobs. I asked how they were finding opportunities. I asked how they were navigating everything.\n\nAnd most of the time, I got nothing.\n\nNobody really wanted to tell you.\n\nI remember meeting people who had completely changed their careers. One person started as a Virtual Assistant, took a data analytics course, and eventually became a Project Manager.\n\nSo I kept learning too. I learned IT skills. I learned project management. I tried different things.\n\nBut project management wasn’t what I wanted to do.\n\nMaybe because I had been a teacher for so many years, I was naturally drawn to people. Talking to people. Helping people. Solving problems. That was where I found myself.\n\nSo I kept asking.\n\nEventually, someone told me to use the internet.\n\nAnd I thought, okay, but how do I do it exactly?\n\nBecause at the time, I would go to Google and type things like Virtual Assistant jobs or Customer Support jobs and get loads of generic nonsense.\n\nFill this form.\n\nClick this link.\n\nSubmit here.\n\nThen another email.\n\nThen another form.\n\nAnd the tunnel just kept going.\n\nAt the end, you’re left wondering, how are these people actually getting jobs?\n\nBecause if this is where everyone is finding opportunities, then what am I missing?\n\nSo one day, I decided to go to AI and ask.\n\nI explained that so many people had told me to use the internet to find jobs, but nobody had actually explained how to do it.\n\nAnd AI gave me a breakdown of exactly what to search for and how to search for it.\n\nI started applying those search techniques.\n\nAnd suddenly, I started finding actual leads.\n\nNow, when I’m looking for Customer Success opportunities, for example, I don’t just search Customer Success jobs.\n\nI’ll search for things like customer support agencies hiring, customer success agencies hiring, companies looking for customer experience teams, and other specific searches that lead me to actual opportunities.\n\nAnd the difference is HUGE.\n\nI’m finding leads that actually make sense. Opportunities where you’re filling out a real application instead of entering an endless tunnel of generic forms.\n\nThat experience taught me something:\n\nASK QUESTIONS.\n\nPlease, ask questions.\n\nAsk people who are doing what you want to do.\n\nAsk how they got there.\n\nAsk what they searched.\n\nAsk what resources they used.\n\nAsk what you’re missing.\n\nThe worst thing that can happen is that someone tells you no.\n\nBut also, don’t make asking people your only strategy.\n\nUse the resources around you.\n\nGoogle.\n\nAI.\n\nYouTube.\n\nCommunities.\n\nPeople who are willing to teach.\n\nAnd speaking of people who are willing to teach, I’m genuinely grateful for people like @iamrichygold here.\n\nThis guy has been pouring out so much knowledge for free.\n\nKnowledge that people would naturally charge you for.\n\nAnd I try as much as possible to repost his content because I genuinely believe that when someone is willing to share useful information freely, it deserves to reach more people.\n\nSo yes, ask questions.\n\nBut also learn how to find answers for yourself.\n\nBecause sometimes the problem isn’t that there are no jobs.\n\nSometimes, you simply haven’t learned how to find them yet.",
 "likeCount": 10,
@@ -8,123 +16,107 @@
 "createdAt": "Sat Aug 15 10:04:23 +0000 2026"
 },
 {
-"userName": "Mayaahh_h",
-"text": "Grok is absolutely amazing 😍 \nI created this with @grok  \n\nPrompt \nPrompt for AI video generation (Runway / Kling / Luma / Hailuo / etc.)\n\nA vertical 9:16 cinematic AI art video, 10 seconds long, smooth continuous morphing transformation of a hyper-detailed surreal fashion portrait of a beautiful woman.\n\nThe face is always split vertically down the middle: left side porcelain-white skin with icy blue eyes and glossy red lips, right side deep matte black skin with glowing red eyes and metallic silver lips. High-fashion editorial beauty, sharp features, intense gaze looking straight at camera.\n\nThroughout the video the face constantly shatters and recomposes with floating geometric fragments: sharp white and black triangular shards, cracked porcelain pieces, paper-like geometric planes, and bold red triangular cutouts that slide across the eyes, cheek, and lips. Large delicate white flowers (cosmos/peony style) bloom and dissolve over the head and face. A small delicate white bird occasionally appears perched on a flower or flying across the composition. Soft smoke and abstract black-and-white fabric shapes swirl around.\n\nSequence of elegant morphs:\n- Start with cracked geometric glasses and floating white cubes\n- Transition into flower-crowned face with bird and shattered glass\n- Minimalist black/white face with pure white triangles\n- Bold red geometric cutouts over the mouth and cheek\n- Full floral headdress with bird and red triangle accent\n- Abstract fragmented flower-covered face with single red eye\n- Cracked flower-over-face composition with flying bird\n- Dualistic face with black/white flowers and red diagonal slash\n- Final intense geometric shatter with red triangles and floating petals\n\nUltra-detailed skin texture, dramatic high-contrast lighting, dark abstract background, cinematic depth of field, smooth slow morphing animation, dreamlike and elegant, no text, no watermark.\n\n**Music / audio:**\nDark elegant ethereal ambient track — soft melancholic piano, subtle low strings, atmospheric pads, and delicate glassy textures. Mysterious, sophisticated, slightly haunting mood that perfectly matches the black/white dualism and red accents. Soft dynamic swells that follow the morphing transformations. No vocals, high-quality stereo, cinematic and intimate.",
-"likeCount": 338,
-"retweetCount": 9,
-"url": "https://x.com/Mayaahh_h/status/2088628589055054316",
-"createdAt": "Sat Aug 15 14:07:15 +0000 2026"
+"userName": "iamchrisani",
+"text": "One of the things I find most fascinating about AI  is image generation. You may take this for granted but the thing dey burst my head I swear down 🔥🥰😅\n\nEspecially when it comes to photoshoots, studio pictures, avatars and creative photography.\n\nThink about it.\n\nA few years ago, if you wanted to see yourself in five different studio concepts, different outfits, different environments and different creative directions, you would need a photographer, studio, clothes, makeup, lighting, editing and probably multiple sessions.\n\nToday, with the right picture, the right idea and the right prompt, you can bring that imagination to life with AI.\n\nAnd for me, this is bigger than simply saying, “You don’t have to pay for a studio photoshoot.”\nJust like the image attached to this post .. this is AI and that’s my product VALOAI on the jersey \n\nSeee ehn \n\nIt is about creative freedom. You can imagine something and actually see yourself in it.\n\nA corporate executive photoshoot.\n\nA podcast studio.\n\nA fashion campaign.\n\nA cinematic scene.\n\nA professional website headshot.\n\nAn avatar.\n\nA flyer for your business.\n\nA product campaign.\n\nEntertainment content.\n\nPersonal branding.\n\nYou can experiment with concepts that would normally be difficult, expensive or almost impossible to produce physically.\n\nSomeone who cannot afford a professional studio can now create quality images.\n\nBut even someone who can afford the studio now has another powerful creative tool. Because AI gives you the ability to explore ideas before they ever exist in the real world.\n\nThat is what excites me.\n\nThe combination of technology + imagination + creativity.\n\nAI image generation has become so good that sometimes you look at what you created and think:\n“This is too good to be true.” \n\nBut like every powerful AI tool, your result depends heavily on knowing how to use it.\n\nThe reference images you use.\n\nHow you describe what you want.\n\nHow you structure your prompts.\n\nHow you maintain your face and body consistency.\n\nLighting.\n\nCamera angles.\n\nComposition.\n\nStyling.\n\nRealism.\n\nAll these things matter.\n\nAnd this Saturday, I will be teaching IMAGE GENERATION  plus how to create stunning graphics on a new level live inside Daba AI Money Club.\n\nI will show you practically how to create images with AI for yourself, your brand and your business.\n\nAnd I will also be giving members 50+ practical image-generation prompts they can use, edit and practice with.\n\nSaturday - 8PM WAT / 8PM UK time 3PM US time \n\nThis is not just about generating pretty pictures.\n\nIt is about learning another powerful way to use AI creatively and practically \n\nRush now Join us inside Daba AI Money Club.\nUse the link in the comment section to get access",
+"likeCount": 9,
+"retweetCount": 3,
+"url": "https://x.com/iamchrisani/status/2088144934591189452",
+"createdAt": "Fri Aug 14 06:05:22 +0000 2026"
 },
 {
-"userName": "allen_lattimer",
+"userName": "hey_abusiddik",
 "text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
-"likeCount": 27,
-"retweetCount": 7,
-"url": "https://x.com/allen_lattimer/status/2088667246596100269",
-"createdAt": "Sat Aug 15 16:40:51 +0000 2026"
+"likeCount": 29,
+"retweetCount": 15,
+"url": "https://x.com/hey_abusiddik/status/2089359280516546668",
+"createdAt": "Mon Aug 17 14:30:45 +0000 2026"
 },
 {
-"userName": "alexpagepilot",
-"text": "467K/month. 3.83% conversion. here's what every AI page does that produces these numbers:\n\nthe headline: \"stop [specific pain]\" at 5th grade. not \"premium [product description]\" at college level. 11.1% vs 5.3%. the AI doesn't care about sounding professional. it cares about what converts. 771,000 pages of data say simple wins\n\nthe image: lifestyle shot, not supplier photo. product on a kitchen counter, in a real bathroom, held by someone the buyer's age. the brain registers the supplier photo as \"ad\" in 50ms. the lifestyle photo registers as \"real person owns this.\" 133% lift from one image swap\n\nthe layout: matched to product type automatically. supplements get advertorial (education first). kitchen tools get direct-pain (problem → solution → proof). impulse gets single-screen (no scrolling needed). the AI learned which structure works for which category from 771,000 pages. your template gives every product the same layout. that's why it converts at 1.4%\n\nthe proof: \"4.8/5 from 2,400+ reviews\" in the hero section. visible without scrolling. 64% never scroll past the first screen. reviews in section 5 are invisible to 64% of traffic. 34% lift from moving one line of text to the top\n\nthe speed: 1.8 seconds on the free dawn theme. 53% of mobile visitors leave at 3 seconds. the AI page is selling before the $180 premium theme finishes loading\n\nthe CTA: \"start sleeping better\" not \"add to cart.\" benefit-driven. 15-25% more clicks. with the guarantee directly under the button: \"don't love it? full refund. no questions\"\n\nevery element is data-driven from 771,000 pages. the AI doesn't guess. it applies what it learned. 3.83%. $467K/month\n\nthe full AI page system is in a 36-page guide. plus product research. demographics. testing. scaling. backend. international\n\nComment \"PAGE\" and I'll send it over (must be following)",
-"likeCount": 102,
-"retweetCount": 1,
-"url": "https://x.com/alexpagepilot/status/2088566378584547406",
-"createdAt": "Sat Aug 15 10:00:02 +0000 2026"
+"userName": "arsalannazir07",
+"text": "Image Generation Prompt\n\nUltra-realistic luxury fashion editorial portrait of a handsome young man with thick, voluminous dark brown hair styled in a refined textured quiff, neatly faded sides, and a full, sharply groomed beard. He is shown in a sophisticated three-quarter close-up profile, looking downward with a calm, confident expression. He wears classic black rectangular sunglasses with subtle premium detailing, a textured black waffle-knit cardigan worn slightly open at the chest, and a minimalist luxury wristwatch with a black dial, slim silver case, and black leather strap.\n\nHis right hand naturally adjusts the collar of the cardigan, bringing attention to the watch and refined styling. Warm natural skin tones, realistic beard and individual hair strands, detailed skin texture, subtle facial pores, elegant masculine aesthetic. Clean turquoise-blue studio background with a softly blurred beige foreground, creating a premium contemporary contrast. Soft directional daylight from the upper left, gentle highlights along the face and hair, subtle shadows, cinematic depth of field, shallow background blur, sophisticated luxury campaign photography, premium menswear advertisement, understated elegance, photorealistic, high-end editorial photography, 85mm portrait lens, f/1.8, natural bokeh, crisp subject separation, realistic proportions, 8K detail, vertical composition, no text, no watermark.\n\nNegative prompt: cartoon, CGI, plastic skin, over-smoothed face, distorted hands, extra fingers, malformed watch, asymmetrical sunglasses, exaggerated muscles, oversaturated colors, artificial lighting, blurry face, low detail, duplicate accessories, warped anatomy.",
+"likeCount": 77,
+"retweetCount": 5,
+"url": "https://x.com/arsalannazir07/status/2087398384659525636",
+"createdAt": "Wed Aug 12 04:38:51 +0000 2026"
 },
 {
-"userName": "hey_Jessicaai",
+"userName": "pushpendratips",
 "text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow for more AI tools.⤵️✅",
-"likeCount": 135,
-"retweetCount": 56,
-"url": "https://x.com/hey_Jessicaai/status/2089017488906563592",
-"createdAt": "Sun Aug 16 15:52:36 +0000 2026"
+"likeCount": 41,
+"retweetCount": 12,
+"url": "https://x.com/pushpendratips/status/2089259588310999084",
+"createdAt": "Mon Aug 17 07:54:37 +0000 2026"
 },
 {
-"userName": "MonetizationDon",
-"text": "Did you know that Seedance 2.5 understands eras? \n\nI mean the ’60s, ’70s, ’80s — the fashion, atmosphere, music, hairstyles, environments, and even the way characters carry themselves.\n\nSo I decided to test it with a 1960s Mafia movie. 🎬\n\nA gangster steps out of a classic ’60s car, walks through a smoky luxury club, climbs the grand staircase into a private room, and joins a table where the stakes are HIGH.\n\nPoker.\nRussian roulette.\nCigars.\nWhiskey.\n\n🔥 SEEDANCE 2.5 IS NOW LIVE IN LOVART AI\nWhat I wanted to test:\n\n🎩 Era-aware styling — 1960s fashion, suits, gowns & environments\n🎵 Era-appropriate music & atmosphere\n🎬 Cinematic storytelling & camera movement\n📝 Text rendering directly inside the scene\n🖼️ Multi-reference consistency\n⏱️ Up to 30 seconds per generation\n🎞️ Long-video mode up to 180 seconds\n\nThis is where AI video gets really interesting.\n\nYou’re not just generating a character.\n\nYou’re generating an entire era.\n\nMade with Seedance 2.5 in @lovart_ai  \n\nWhat era should I recreate next — ’70s, ’80s, ’90s?\n#LovartCPP",
-"likeCount": 155,
-"retweetCount": 9,
-"url": "https://x.com/MonetizationDon/status/2087867181711147480",
-"createdAt": "Thu Aug 13 11:41:41 +0000 2026"
+"userName": "rame9040",
+"text": "Good morning everyone \n\nA New Era of Wellness Tracking Powered by Agentic @sleepagotchi AI! \nWe all know how essential 7–8 hours of sound sleep every day is for our bodies. However, with work stress and late-night screen scrolling, that healthy sleep often fades away! \n\nWhat if you were rewarded like a game just for sleeping on time, while a smart AI actively looked after your health?\nSleepagotchi is making this possible in an all-new, modern way! \nAgentic AI: Moving from Tracking to Action!\n\nYour sleep data won't just sit idle on a dashboard! Sleepagotchi's new Agentic AI understands your health signals and helps decide the best actionable next steps for your sleep and overall wellness.\nWhy Sleepagotchi is Great:\nSleep Target: Easily set a personalized schedule for going to bed and waking up.\n\n Digital Containers & Rewards: Unlock special reward boxes every day just by meeting your sleep goals.\nVirtual Room Customization: Use your earned rewards to decorate your virtual room and metaverse space with stylish furniture.\n\nSmart Syncing: Effortlessly sync data directly from Apple Health and other tracking devices.\nOver 2.2 million users have already joined this gamified health journey! \n\nTake care of your sleep, simplify your life with cutting-edge AI features, and design your virtual world every day. Give Sleepagotchi a try today!",
+"likeCount": 114,
+"retweetCount": 22,
+"url": "https://x.com/rame9040/status/2089529274361626712",
+"createdAt": "Tue Aug 18 01:46:15 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Local AI is exploding!\n\nTransformers.js, that we've been building @huggingface for the past three years has now become the most popular open-source library to run AI models directly in your browser and crossed 10 million (!!) monthly downloads, close to 10x from just six months ago.\n\nMore generally, I'm excited to see a meaningful percentage of AI workloads move to local because it's free & fully private! At a time of compute shortage & increased cyber-attack risks, we need it more than ever.\n\nLet's go!",
-"likeCount": 422,
-"retweetCount": 61,
-"url": "https://x.com/ClementDelangue/status/2087518483718545533",
-"createdAt": "Wed Aug 12 12:36:05 +0000 2026"
+"userName": "PSA_Austria",
+"text": "🌐↻ ·\n\nFor anyone who still hasn’t found their way out of Paragon Hall, you can come hang around at Fashion Hall for another round at THE NEW XPENG L03 EXCLUSIVE DEBUT.\n\n#THENEWXPENGL03 Next-Gen AI SUV COUPE under the concept #BornIntelligent, born for the new generation.\n\nSiam Paragon, Fashion Hall, 1st Floor | 18 Aug | 5:00–8:00 PM\n\n#THENEWL03 #XPENGThailand #XPENG #เพิร์ธแซนต้า #SiamParagon",
+"likeCount": 9,
+"retweetCount": 2,
+"url": "https://x.com/PSA_Austria/status/2088507107481907376",
+"createdAt": "Sat Aug 15 06:04:31 +0000 2026"
 },
 {
-"userName": "LordOBI_SWC",
-"text": "Just watched a Canopy demo that actually made me pause.\n\nOne of their devs opened Claude, described a prediction market, and in about 20 minutes had a working onchain app running on its own virtual chain. \n\nFrontend, contracts, branding, the whole thing is live.\n\nNo massive team. No weeks of setup. Just AI and @CNPYNetwork handling the heavy lifting.\n\nI’ve been “watching everyone vibe-code” for months. This one finally made me want to stop watching and actually try it.",
-"likeCount": 79,
-"retweetCount": 9,
-"url": "https://x.com/LordOBI_SWC/status/2088087893638091159",
-"createdAt": "Fri Aug 14 02:18:43 +0000 2026"
-},
-{
-"userName": "AIFrontliner",
-"text": "@ltx_io Training now uses a larger dataset and RL post-training aligned with human preferences.\n\nA duration head also predicts the ideal clip length from the prompt before diffusion begins.\n\nThe goal is fewer failed generations and less time spent struggling with the model. https://t.co/jc5LyEwALU",
-"likeCount": 11,
-"retweetCount": 0,
-"url": "https://x.com/AIFrontliner/status/2087477780971724998",
-"createdAt": "Wed Aug 12 09:54:21 +0000 2026"
+"userName": "LaPrimeDuPut",
+"text": "After dozens of hours of research, here is my full $ONDS deep dive in English: history, acquisitions, technologies, leadership, Q2 results, dilution, risks and my 2027–2030 scenarios.\n\nInterested in the name ? Take a look and let me know what you think  👇 https://t.co/ced8yxOdHq",
+"likeCount": 9,
+"retweetCount": 2,
+"url": "https://x.com/LaPrimeDuPut/status/2088959080715219048",
+"createdAt": "Sun Aug 16 12:00:30 +0000 2026"
 },
 {
 "userName": "akashnet",
 "text": "Astria AI runs production image generation on Akash for fashion e-commerce.\n\nDive into how @akashnet's unit economics give AI startups like @Astria_AI both runway and pricing competitiveness to onboard and keep their customers at scale.",
-"likeCount": 89,
+"likeCount": 91,
 "retweetCount": 12,
 "url": "https://x.com/akashnet/status/2088293384217632921",
 "createdAt": "Fri Aug 14 15:55:16 +0000 2026"
 },
 {
-"userName": "timboloman",
-"text": "AI watermarks can carry more than provenance. Explore hidden data, covert channels, code backdoors, model bias, and open-weight watermark removal. https://t.co/DqzoBeRNyo",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/timboloman/status/2087558977890529336",
-"createdAt": "Wed Aug 12 15:16:59 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Alibaba_Qwen: We promised open weights for Qwen3.8. Now, time to meet them! 🎉\n\n⚡ Qwen3.8-27B:\n- A native multimodal dense model. With j…",
+"likeCount": 15699,
+"retweetCount": 2106,
+"url": "https://x.com/ClementDelangue/status/2088663756784181389",
+"createdAt": "Sat Aug 15 16:26:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AIatMeta: Introducing Muse Glimmer, an open-weight 30B-parameter model optimized for local, always-on agent workflows.\n\nMuse Glimmer de…",
-"likeCount": 8247,
-"retweetCount": 1072,
-"url": "https://x.com/ClementDelangue/status/2086771654756122804",
-"createdAt": "Mon Aug 10 11:08:27 +0000 2026"
+"text": "RT @simonw: Here’s my review of Qwen 3.8 27B - I can't remember the last time I've had this much fun playing with a local model that runs o…",
+"likeCount": 2425,
+"retweetCount": 198,
+"url": "https://x.com/ClementDelangue/status/2089119153378517019",
+"createdAt": "Sun Aug 16 22:36:34 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @SecScottBessent: We welcome Meta’s release of Muse Glimmer, another win for American innovation. Sustaining U.S. leadership in AI means…",
-"likeCount": 5352,
-"retweetCount": 499,
-"url": "https://x.com/ClementDelangue/status/2087268975021281346",
-"createdAt": "Tue Aug 11 20:04:37 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @xz_keg: @_can1357 And they're even trying to indicate GLM 5.2 (released in June) distills GPT 5.6 sol (released in July). https://t.co/…",
+"likeCount": 114,
+"retweetCount": 8,
+"url": "https://x.com/jeremyphoward/status/2087412546232070195",
+"createdAt": "Wed Aug 12 05:35:07 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @arcee_ai: Today we're open-sourcing nac, an agent harness for long-running tasks, and launching the Arcee open models API beta.\n\nNac is…",
-"likeCount": 543,
-"retweetCount": 46,
-"url": "https://x.com/ClementDelangue/status/2088659946825228570",
-"createdAt": "Sat Aug 15 16:11:51 +0000 2026"
+"userName": "Ambani_Wessley",
+"text": "https://t.co/ALDbe4d69I",
+"likeCount": 87,
+"retweetCount": 88,
+"url": "https://x.com/Ambani_Wessley/status/2089395038178427192",
+"createdAt": "Mon Aug 17 16:52:50 +0000 2026"
 },
 {
-"userName": "HuntlerX",
-"text": "Qenis as an Emerging Cultural Format: Early Evidence\nof Memetic Diffusion, Lexicalization, and\nCross-Community Adoption https://t.co/ZReXdJO3Ix",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/HuntlerX/status/2089125321777795191",
-"createdAt": "Sun Aug 16 23:01:05 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Meta is back! well done @finkd @alexandr_wang! https://t.co/gWvkuDeHzF",
-"likeCount": 1656,
-"retweetCount": 96,
-"url": "https://x.com/ClementDelangue/status/2086760700014203090",
-"createdAt": "Mon Aug 10 10:24:55 +0000 2026"
+"userName": "AbhijayArora",
+"text": "https://t.co/1ihaEr0svl",
+"likeCount": 2,
+"retweetCount": 2,
+"url": "https://x.com/AbhijayArora/status/2089396492394254784",
+"createdAt": "Mon Aug 17 16:58:37 +0000 2026"
 }
 ]
