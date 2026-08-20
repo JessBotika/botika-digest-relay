@@ -1,67 +1,67 @@
 [
 {
-"userName": "Gh9st999",
-"text": "growing up i had a friend i used to visit just to play on  his Gameboy, this was early 2000, not really sure but i think it was the original Game Boy, the one that ran on an 8bit chip barely past 4MHz, we played tetris and supermario land back then, good times.\n\ngot the nostalgia trying to draft a summary listening back to Rituals AMA the other day,\n \n@ArshanKhanifar said the ethereum virtual machine, the thing every smart contract on ethereum actually runs inside of, is less powerful than that Game Boy...\n\nsounds overboard but, take a deep dive into the setup Arshan gave.\n\nthe EVM is deliberately tiny. programs you submit to it (contracts) used to be capped around 32kb, recently bumped up a bit but still small. and everything it does has to be deterministic, meaning the exact same input has to produce the exact same output, every single time, on every single node, forever. \n\nthat's not a limitation nobody thought about, it's the entire point. thousands of validators have to independently compute the same state and agree on it, and the only way that works is if there's zero room for variation.\n\nwhich is fine, until you try to put AI anywhere near it.\n\nethereum actually saw a version of this coming too.\n\nthere's a standard called ERC-8004, \"trustless agents,\" put together by davide crapis and a few others at the ethereum foundation..\n\nthe thinking behind it is simple once you strip it down, agents are going to be transacting with other agents they've never met, built by companies and platforms with nothing to do with each other, so there needs to be some shared, neutral place where an agent can prove who it is and show a track record of behaving honestly. \n\n8004 gives you three registries for exactly that, identity, reputation, and validation, basically an immutable public record any agent can check before deciding whether to trust another agent it just met.\n\nthat's a real problem and ethereum's answer to it makes sense given what ethereum actually is. it's not trying to run the agent's thinking, it's trying to be more like a paper trail that thinking can point back to..\n\nbut that's also exactly where it stops short, a spotless identity and a flawless reputation trail doesn't mean much if the agent behind it can just get switched off.\n\nthe registry doesn't go anywhere, it just sits there as a record of an agent that used to exist. 8004 answers who do i trust. it doesn't answer where does this thing actually live and how does it keep thinking, and that second question is the one that decides whether there's still an agent standing behind the reputation by the time anyone goes looking for it. \n\nthat's basically niraj's design argument from earlier in the call, just showing up again from a different angle.\n\n you can join identity and reputation onto a chain that was never built to run the intelligence itself, and it'll work, right up until whatever server sits behind it goes down.\n\nor you can build the chain so the intelligence, the memory, and the keys never had to live off it in the first place. thats ritual.\n\nand 8004 just shows that even ethereum agrees the problem is very real.\n\nyou can ask a model the same question twice, you'll get two different answers, I've seen a lot of people post this of late, you can as well try it yourself,  \n\nnone of that is a bug in the model or the oracle, it's just what non deterministic computation actually is. and blockchains, by design, cannot natively agree on something that isn't guaranteed to come out the same way twice.\n\nthis is the actual wall, the consensus math underneath every chain assumes a kind of computation that AI doesn't do.\n\nritual's answer to this is something Arshan called EOVMT, execute once, verify many times, and with they way he explained it i couldn't unsee it everywhere in the design\n\ncontinuation below...",
-"likeCount": 36,
-"retweetCount": 6,
-"url": "https://x.com/Gh9st999/status/2089297186668388736",
-"createdAt": "Mon Aug 17 10:24:01 +0000 2026"
+"userName": "SimonDBarnett",
+"text": "Today's cancer vaccine results from @moderna_tx and @Merck are exciting, confirming the earlier Phase 2 results and also the news we got a few months ago at @ASCO. \n\nThey're also a great excuse to discuss the lifecycle of AI in the drug development process. \n\nAll emerging technologies have a maturation lifecycle. AI  in the natural sciences is a perfect example.\n\nOn the \"boring end\", you have old-school ML classifiers, decision trees, SVMs, and computer vision techniques that are silently baked into every sequencing machine and molecular diagnostic workflow on the planet. Would you consider this \"AI in drug development\". \n\nNo, you wouldn't. (1) Because precision diagnostics aren't drug development and (2) because these techniques don't get clustered alongside the frontier/hypey areas like 'virtual cell'. \n\nThat's the other end of the spectrum, the \"hypey end\". \n\nThese are the AI implementations that attract disproportionate venture investment, make all the headlines, and that have attached a bunch of very smart sounding reasons why they'll never work. \n\nThey become associated with the whole. Folks will often point to them as class representatives for 'AI in drug development' as a simple way to reject the entire class's effects on the industry. \n\nI have an allergic reaction to this because, to me, data-driven/ML methods are inseparable from and massively contribute to the life sciences.\n\nIt's just that we don't celebrate the critical trailing edge because it's lost its sci-fi sheen, but it nonetheless serves as the foundation that all new advances become reality. \n\nSo let's take the @moderna_tx and @Merck results. Would you consider this a success story for 'AI in drug development'? No, you probably wouldn't and I wouldn't blame you. \n\nIt's true that cancer vaccines had/have many translational obstacles spanning delivery, supply chain, format, antigen selection, and more. It's foolish to try to decompose and assign credit to these pillars quantitatively. \n\nBut let me zoom in to give some credit where it's due, because make no mistake, ML played a massive role.\n\nBeyond the fact that advanced Illumina machines have onboard NVIDIA accelerators and run various deep-learning algorithms in their analysis pipelines, which provide the essential information for personalized cancer vaccines, I can offer up a few things you may not know. \n\n@PersonalisInc, the diagnostic partner for @Merck and @moderna_tx throughout these vaccine trials, spent years training ML algorithms on proprietary immunopeptidomics datasets (paired sequencing and mass-spec) to help with neoantigen presentation/immunogenicity prediction. \n\nThis isn't commodity sequencing. These and other Personalis technologies enhanced by data-driven methods (e.g., enhanced HLA typing) were indispensable to this process by supplying the vaccine developers with high-fidelity mutanomes. \n\nWe don't know everything about the handoff to Moderna (e.g. which models Personalis used versus Moderna used), but we do knew they used another algorithm in the pipeline to select the exact neoantigens to include in the vaccine formulation. \n\nSo, I think it's safe to say that without the steady improvement in data-driven/ML/algorithmic techniques, we would not be standing here today with these results. \n\nOf course, we can wax poetic that 'these aren't neural networks', and you'd be making my point for me. These weren't leading edge AI implementations, which is why the fuller class of technology doesn't earn its roses here. \n\nBut that's how this is going to happen. Non-leading AI techniques will continue creating value in drug development. Today's frontier techniques will improve, lose their association with 'hype', and folks will still move goalposts around what is AI in drug development. \n\nBut that's the nice thing about goalpost moving. You can start to build a nice trend-line about where things are going. \n\n-------\n\n*I use the term AI loosely to refer to all data-driven techniques. Don't @ me.",
+"likeCount": 55,
+"retweetCount": 7,
+"url": "https://x.com/SimonDBarnett/status/2090105654270706072",
+"createdAt": "Wed Aug 19 15:56:34 +0000 2026"
 },
 {
-"userName": "piotrsankowski",
-"text": "Great news - the AI Act has led to the emergence of a brand-new market! In the past few weeks, tools capable of removing watermarks from AI-generated content have seen a huge increase in popularity. Even though the AI Act appears to be moving in the right direction, as I pointed out recently, the EU still lacks initiatives that actively support its local market. Regulations by themselves aren't sufficient. The only exception appears to be tools designed to erase their very consequences 😉.\n\nHere is a breakdown of what this arms race looks like:\n\n1. To ensure the provenance of AI-generated materials, multiple independent security measures are being used, with companies adopting a multi-layered method that involves both obvious, cryptographically signed metadata - such as that specified by the C2PA standard - and statistical changes at the level of token selection in texts or in the frequency structure of pixels in images.\n\n2. Rather surprisingly, text watermarking tools have no effect on perplexity. Since perplexity indicates how well a language model is able to produce text - the lower the perplexity, the better the model is at predicting the next word in a sentence - this suggests that the text seems more natural, and at the same time implies that the model has more extensive knowledge and is able to generate better responses to prompts.\n\n3. The pressure from regulators to keep track of content provenance has led to a swift reaction among developers. Tools for removing watermarks are becoming increasingly popular. A good example is the GitHub repository watermarks-remover. Just a few days after Anthropic announced its new model safeguards, it obtained more than 10,000 stars. This increase clearly shows a strong demand for systems aimed at hiding the origin of artificial intelligence.\n\n4. Although GitHub tools easily deal with metadata, when it comes to combating token watermarking, they use brute-force approaches such as having the text rewritten by another model. Research has shown that meaning-preserving attacks, such as multiple back-translations, greatly decrease the detectability of watermarks.\n\nIn the case of images the matter is a great deal more complicated. Libraries are now setting up machine learning-based procedures for eliminating pixel alterations, but the encoders that apply these pixels are trained in an adversarial manner to be as resistant to removal as possible. It therefore follows that noise strong enough to destroy such a watermark usually causes serious visual deterioration of the image itself.\n\n5. The imposition of watermarks has deeply divided experts, with the discussions pointing to a fundamental clash between theoretical cybersecurity and the practical usability of AI systems. It is undoubtedly a significant advance to introduce permanent safeguards since this enhances accountability and makes it much easier to combat harmful disinformation.\n\nNevertheless, practice leads to unpleasant side effects for all. Nowadays, these safeguards are built directly into the fundamental predictive structure of language models. Even a brief use of an AI network - such as merely correcting a few commas - results in a permanent artificial signature being added to the whole file. In the end, this will set up major obstacles for scientists and creators, greatly complicating the development of multilingual content.",
-"likeCount": 28,
-"retweetCount": 3,
-"url": "https://x.com/piotrsankowski/status/2089940425369104827",
-"createdAt": "Wed Aug 19 05:00:01 +0000 2026"
-},
-{
-"userName": "Rayden413",
-"text": "All of this is a fundamental misunderstanding of how AI generation actually works. This would have been true 7 or 8 years ago. All of this is entirely out of date. I'll explain it to you, but you probably wont understand it.\n\nThe image synthesis architectures of Grok’s Aurora, OpenAI’s DALL·E 3, and Google’s Imagen 3 (Nano Banana) instantiate distinct generative paradigms within the broader class of foundation-model-driven multimodal diffusion and autoregressive transformers. Aurora implements a sparse mixture-of-experts (MoE) autoregressive transformer pretrained on interleaved text-image corpora; upon ingestion of the tokenized prompt embedding, it performs sequential next-token prediction over a discrete visual codebook, generating raster-ordered patches via expert-gated feed-forward layers conditioned solely on prior tokens and prompt cross-attention, followed by a lightweight decoder that maps the completed token lattice through a variational autoencoder (VAE) to high-resolution RGB pixel space. DALL·E 3 first employs a GPT-4o backbone for prompt distillation into a richly conditioned CLIP/T5-style text embedding; this drives a latent diffusion model initialized from isotropic Gaussian noise in the compressed VAE latent manifold, where a U-Net or diffusion transformer (DiT) iteratively subtracts predicted noise residuals across a fixed denoising schedule, injecting multimodal guidance via cross-attention at each timestep before final VAE upsampling to full-resolution output. Imagen 3, natively fused with Gemini’s multimodal encoder-decoder, executes a cascaded diffusion pipeline: a base latent diffusion transformer establishes global scene layout at low resolution from random noise, succeeded by successive super-resolution diffusion stages that progressively refine high-frequency detail, text legibility, and photometric fidelity through hierarchical noise prediction and prompt-conditioned self-attention, with an embedded SynthID watermark injected in the final latent-to-pixel decoding.\nCollectively, these systems operationalize the end-to-end transduction of natural-language conditioning vectors into photorealistic raster imagery via either autoregressive token-by-token assembly or stochastic Langevin dynamics in latent space, executed on distributed GPU/TPU inference clusters optimized for low-latency sampling. Prompt embeddings serve as fixed conditioning signals throughout the forward pass, enabling zero-shot adherence to user intent while post-hoc safety classifiers and minimal artifact-suppression filters ensure policy-compliant output; the resultant pipeline thereby achieves seamless conversational image co-generation without exogenous artistic priors, exemplifying the scaling laws that govern emergent cross-modal synthesis in contemporary large-scale generative AI.\n\nNow please go do some real research before spouting out of date information on AIs and AI systems that are no longer in operation. Education is key. Try reading sometme.",
-"likeCount": 1,
+"userName": "meshackcode",
+"text": "How to become an AI Engineer in 6 months 🚀\n\nI just graduated with a CS degree and I'm living parts of this roadmap right now — sharing it because I wish someone had laid it out this clearly when I started.\n\n**MONTH 1 — Foundations 🐍**\nLearn: Python properly, NumPy + Pandas, SQL, Git/GitHub, APIs + JSON, Linux/CLI, linear algebra, probability + stats\nBuild: Data analysis project → ML API with FastAPI\nGoal: Write production-ish Python, not just notebooks.\n\n**MONTH 2 — Machine Learning 🧠**\nMaster: Linear/logistic regression, decision trees, Random Forest, XGBoost, SVM, KNN, clustering, feature engineering, train/val/test, cross-validation, precision/recall/F1/AUC, hyperparameter tuning\nLearn: scikit-learn\nBuild: End-to-end ML prediction system\nGoal: Understand WHY a model works, not just `.fit()`.\n\n**MONTH 3 — Deep Learning 🔥**\nLearn: Neural networks, backprop, activation/loss functions, optimizers, regularization, CNNs, sequence models, attention, transformers\nLearn: PyTorch\nBuild: Image/text classification system\n\nThis is where CV clicked for me — I built FertLens, a computer vision system detecting fake fertilizer using MobileNetV3 with Grad-CAM heatmaps, as my final year project. 📱🌾\n\n**MONTH 4 — LLM Engineering 🤖**\nTokens, embeddings, transformers, LLM APIs, prompting, structured outputs, function/tool calling, streaming, context windows, cost/latency optimization, Hugging Face\nThen RAG: chunking → embeddings → vector databases → retrieval → reranking → grounded generation → evaluation\nBuild: 🔥 \"Chat with your documents\" — but don't stop at a basic chatbot.\n\n**MONTH 5 — Agents + Production ⚙️**\nTool calling, agent loops, planning, memory, workflows, multi-step agents, guardrails, context engineering, MCP, orchestration (LangGraph or equivalent)\nBuild: 🔥 An autonomous research/automation agent\nThe skill isn't \"using LangChain\" — it's understanding the architecture underneath.\n\n**MONTH 6 — Production AI Engineer 🚀**\nFastAPI, Docker, cloud deployment, CI/CD, MLflow, logging, monitoring, evaluation, LLM observability, rate limiting, caching, auth, security, cost optimization\n\nDeploy everything. Your GitHub should have:\n1️⃣ Classical ML project\n2️⃣ Deep learning project\n3️⃣ Production RAG application\n4️⃣ Agentic AI application\n\nAt least 2 should be genuinely impressive.\n\n---\n\n**EVERY WEEK**\n30% Learning → 50% Building → 10% Papers/docs → 10% Interview prep\nCode every day.\n\n**THE INTERVIEW STACK 🎯**\nDSA, OOP, DBMS, OS, Computer Networks, SQL, system design basics, Python\nAI Engineer ≠ \"person who knows ChatGPT.\" You still need to be an engineer.\n\n**WHAT NOT TO DO ❌**\nDon't collect 20 certificates, 50 prompt courses, 100 tutorials, copy-pasted repos.\nInstead: Learn → Build → Break → Debug → Deploy → Explain. Repeat.\n\n**THE END GOAL 🎯**\nTrain a model → build a neural net → understand Transformers → work with LLM APIs → build RAG → build agents → evaluate → deploy → monitor → explain your architecture in an interview.\n\nThat's the difference between \"I know AI\" and \"I can build AI systems.\"\n\n6 months is enough to be job-ready — not a research scientist. The roadmap is simple. The execution isn't. 🔥\n\n#AIEngineer #MachineLearning #DeepLearning #LLM #RAG #AIAgents #100DaysOfCode #BuildInPublic #TechTwitter #CSGrad",
+"likeCount": 4,
 "retweetCount": 1,
-"url": "https://x.com/Rayden413/status/2089870526357393859",
-"createdAt": "Wed Aug 19 00:22:16 +0000 2026"
+"url": "https://x.com/meshackcode/status/2089995374001885277",
+"createdAt": "Wed Aug 19 08:38:22 +0000 2026"
 },
 {
 "userName": "nrqa__",
 "text": "10 Google search hacks you're sleeping on\n\nif you're still Googling like it's 2015, here's what you're missing\n\n1). master Google search operators\n\n↳ \"exact phrase\" - pull exact word matches, no fuzzy nonsense\n↳ site: - dig inside one specific website only\n↳ filetype: - hunt down pdfs and docs directly\n↳ -word - strip out results you don't want to see\n↳ before:/after: - filter results by date\n\n2). use Google AI mode\n\n↳ research any topic without opening ten tabs\n↳ compare your options side by side\n↳ summarize long articles in seconds\n↳ ask follow-up questions on the fly\n↳ break down complex ideas way faster\n\n3). search anything with Google lens\n\n↳ identify random objects on the spot\n↳ translate text just by pointing your camera\n↳ find products you're eyeing in real life\n↳ search straight from a screenshot\n↳ get the full story on landmarks instantly\n\n4). use circle to search\n\n↳ circle it and google pulls up the info\n↳ works on images, text, products, objects\n↳ even works mid-video\n↳ zero copy-paste, zero app switching\n↳ never leave the app you're already in\n\n5). find better results with filters\n\n↳ date filters to cut old, irrelevant stuff\n↳ exact keyword matching for precision\n↳ news filters for real-time updates\n↳ image filters to narrow visual search\n↳ advanced search settings most people ignore\n\n6). create Google alerts\n\n↳ monitor your own name automatically\n↳ track your brand mentions\n↳ keep tabs on competitors\n↳ follow entire industries hands-free\n↳ catch trending topics before everyone else\n\n7). reverse image search\n\n↳ upload a photo and let google dig\n↳ find the original source of any image\n↳ spot fakes before you trust them\n↳ track down products from a screenshot\n↳ find a higher-quality version instantly\n\n8). use Google instant tools\n\n↳ set a timer straight from search\n↳ run quick calculations\n↳ check the weather in one search\n↳ convert units or currency instantly\n↳ get definitions and flight status too\n\n9). learn faster with smart searches\n\n↳ add \"explain simply\" to any search\n↳ try \"beginner guide\" for a fast start\n↳ search \"common mistakes\" before you start\n↳ use \"step-by-step roadmap\" to learn faster\n↳ turns google into your personal tutor\n\n10). combine Google + Gemini\n\n↳ pair search with ai for deeper research\n↳ get quick summaries on demand\n↳ plan your whole week in minutes\n↳ brainstorm content ideas faster\n↳ break down dense documents in seconds",
-"likeCount": 16,
-"retweetCount": 8,
+"likeCount": 15,
+"retweetCount": 0,
 "url": "https://x.com/nrqa__/status/2089729890530779477",
 "createdAt": "Tue Aug 18 15:03:25 +0000 2026"
 },
 {
-"userName": "Kcin_Point",
-"text": "Technology can be potentially* positively transformative. But don't let them conflate all machine learning with the generative AI products forced upon, devolving, and destroying the world. Public opinion often can't separate tech from products they know it as. This doesn't require an endless landscape of data centers. Even some gen AI has legitimate use, but none of it (even at its maximal potential) is worth its monumental costs.\n\n* The asterisk on \"potentially\" is because society today is fundamentally built on exploitation, so tech can't be allowed to actually ease labor burdens in some utopic fashion, only benefit employers (usually by saving them money) and thrust those newly unemployed by the tech back into poverty and even more exploitable with their skillsets devalued.\n\nAlso, tech increasingly isn't allowed to be disruptive of traditional capital centers (e.g. industries). Historically, inventions have disrupted industries because discoveries were somewhat accessible to the common man. But, tech has become so advanced that further invention requires concerted effort with specialized equipment, environments, manpower, and knowledge bases exclusive to those that hold the capital!\n\nAnd obviously, corporations don't want disruption. So infinite opportunities to better the world with our most incredible capabilities as a species pass by day after day to focus on reinforcing what already is. And right now, what is is not great. Another fundamental problem with capitalism. Don't mess with the capital, even when it would be in the best interest of everyone.",
-"likeCount": 4,
-"retweetCount": 0,
-"url": "https://x.com/Kcin_Point/status/2088847332666220877",
-"createdAt": "Sun Aug 16 04:36:27 +0000 2026"
+"userName": "zulkarnaimx",
+"text": "50 AI tools that will save you 100s of hours in 2026 .\n\nFrom research → coding → design → automation → video → music\n\nEverything you need in ONE list.\n\n🔖 Bookmark this. You’ll thank yourself later.\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Free 1,500+ AI Tools List: https://t.co/T16dhCLyEv",
+"likeCount": 47,
+"retweetCount": 15,
+"url": "https://x.com/zulkarnaimx/status/2089705360093495360",
+"createdAt": "Tue Aug 18 13:25:57 +0000 2026"
+},
+{
+"userName": "bimnttsion",
+"text": "27 Tools AI yang Berguna Buat Freelancer & Kerja Remote\n\n1. SurgeGraph — AI untuk SEO & content writing: https://t.co/b94qKG8Wy6\n2. Sudowrite — bantu menulis & storytelling: https://t.co/bczA3eQ8jQ\n3. HoppyCopy — copywriting untuk marketing: https://t.co/XFH8y7T76n\n4. Manus — AI agent untuk berbagai task kompleks: https://t.co/6J8wHgMz9R\n5. n8n — automation workflow: https://t.co/ADttHn9p81\n6. Zapier — menghubungkan aplikasi & otomatisasi: https://t.co/QsWonHOrTp\n7. v0 — membuat UI/app dari prompt: https://t.co/hTX6pqwSUR\n8. Cursor — AI code editor: https://t.co/BfqXIcOvA7\n9. Bolt — membuat website/app dengan prompt: https://t.co/IJnkLvfVqj\n10. Ideogram — generate gambar & desain: https://t.co/YTKxhhCK82\n11. ChatGPT — AI serbaguna & image generation: https://t.co/IRAiCdHr4k\n12. Midjourney — generate visual dengan AI: https://t.co/tFFie17qvh\n13. Runway — generate & edit video: https://t.co/4OoFK7TzZ9\n14. Veo — AI video generation: https://t.co/diU2TdpzWo\n15. Hailuo AI — generate video dari teks/gambar: https://t.co/LHg1mYX0eI\n16. Suno — membuat lagu dengan AI: https://t.co/37qEqqrKPd\n17. ElevenLabs — AI voice, dubbing & TTS: https://t.co/4aGbh1equ5\n18. Speechify — text-to-speech: https://t.co/oIWO0uO5rI\n19. SurgeGraph — SEO & content optimization: https://t.co/b94qKG8Wy6\n20. Google Search Console — cek performa website di Google: https://t.co/8bee3ehyRv\n21. Answer Socrates — keyword & ide konten: https://t.co/pSvOwW0dhA\n22. Perplexity — AI search & research: https://t.co/U7yJRYEmjD\n23. NotebookLM — riset dari dokumen/sumber: https://t.co/w6UHO4GFnF\n24. Gemini Deep Research — riset mendalam dengan AI: https://t.co/98jVkEo6TW\n25. ChatGPT — chatbot serbaguna: https://t.co/IRAiCdHr4k\n26. Grok — chatbot AI: https://t.co/pEVlXR5L3m\n27. Gemini — AI assistant untuk berbagai kebutuhan: https://t.co/98jVkEo6TW\n\n#tech #AI #tools",
+"likeCount": 257,
+"retweetCount": 50,
+"url": "https://x.com/bimnttsion/status/2089893441530683404",
+"createdAt": "Wed Aug 19 01:53:19 +0000 2026"
 },
 {
 "userName": "Kaiserwsf",
 "text": "MEET THE AI GIRL WHO PLAYS TENNIS FOR A LIVING — AND SHE'S NEVER LOST\n\nShe trains, competes, and racks up wins on camera. The catch: she doesn't exist.\n\nHere's how the \"AI athlete\" model actually works:\n\nAn AI girl persona is built with a consistent face, body, and personality using image/video generation tools. Instead of lifestyle or fashion content, her niche is sport — match highlights, training vlogs, \"behind the scenes\" prep, rackets and outfits, rivalries with other AI athletes.\n\nThe mechanism is simple: physical talent doesn't need to be real, only the narrative around it does. Generated match clips, fake tournament brackets, and AI commentary create a storyline fans follow like a real career.\n\nHow she earns:\n\nSponsorship deals with sportswear/equipment brands looking for cheap, controllable \"athletes\"\nPaid fan subscriptions for exclusive training content and match reactions\nLicensing her face/likeness to sports betting or fantasy-sim apps\nSelling a personal \"AI coach\" app trained on her persona\nNFT/collectible drops tied to her \"career milestones\" (Grand Slam wins, rankings)\n\nThe twist: her fanbase doesn't care that she's never held a racket — they're not following an athlete, they're following a story that updates on schedule",
-"likeCount": 11,
+"likeCount": 12,
 "retweetCount": 0,
 "url": "https://x.com/Kaiserwsf/status/2089717242430738750",
 "createdAt": "Tue Aug 18 14:13:10 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Local AI is exploding!\n\nTransformers.js, that we've been building @huggingface for the past three years has now become the most popular open-source library to run AI models directly in your browser and crossed 10 million (!!) monthly downloads, close to 10x from just six months ago.\n\nMore generally, I'm excited to see a meaningful percentage of AI workloads move to local because it's free & fully private! At a time of compute shortage & increased cyber-attack risks, we need it more than ever.\n\nLet's go!",
-"likeCount": 425,
-"retweetCount": 64,
-"url": "https://x.com/ClementDelangue/status/2087518483718545533",
-"createdAt": "Wed Aug 12 12:36:05 +0000 2026"
+"userName": "rame9040",
+"text": "Good night Builders \n\nTo turn your sleep into an exciting game, @Sleepagotchi is here! \nIt is a modern Sleep-to-Earn gamified sleep-tracking app. Built on the nostalgic concept of virtual pets  Tamagotchi  it combines daily sleep tracking with smart Agentic AI.\n\nWhy it's great:\nSleep Target: Set a personalized schedule for sleeping and waking up.\nDigital Containers: Unlock surprise boxes every day by meeting your sleep goals.\nVirtual Room: Use earned rewards to decorate your metaverse space.\nAgentic AI: Understands your health data and suggests direct actionable steps.\n\nOver 2.2 million users have already joined this health journey! \nTake care of your sleep and try @Sleepagotchi today! \n\n@EthraShip Web3 Revolution in $20T Maritime Trade!\n​Though 90% of global trade moves by sea, it was always controlled by big institutions. Ethra Ship's Web3 technology now opens it to everyone!",
+"likeCount": 109,
+"retweetCount": 19,
+"url": "https://x.com/rame9040/status/2090072401241686267",
+"createdAt": "Wed Aug 19 13:44:26 +0000 2026"
 },
 {
-"userName": "lmsysorg",
-"text": "SGLang is Miles' native rollout engine, paired with Megatron-LM and FSDP on the training side. Miles delivers accurate, efficient, and reliable RL at frontier scale for both LLMs and diffusion models.  \n\nWe are thrilled to see so many teams building with the community and putting Miles to work in real production workloads!\n\nGo check out what they built, learned, and verified for this release 👇",
-"likeCount": 42,
-"retweetCount": 7,
-"url": "https://x.com/lmsysorg/status/2089752424135438743",
-"createdAt": "Tue Aug 18 16:32:58 +0000 2026"
+"userName": "Chris_Wozniczek",
+"text": "I keep seeing these questions:\n\nWhat's Devin? What's Devin Desktop? What happened to Windsurf?\n\nI put it all in one place. Desktop, cloud, CLI, Outposts, Fusion, Deepwiki, review, testing, security.\n\nif you feel lost, start here.\n\nhttps://t.co/DxffunHi6g https://t.co/ePs9KYRYGO",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/Chris_Wozniczek/status/2090196272330244303",
+"createdAt": "Wed Aug 19 21:56:39 +0000 2026"
 },
 {
 "userName": "akashnet",
@@ -72,59 +72,59 @@
 "createdAt": "Fri Aug 14 15:55:16 +0000 2026"
 },
 {
-"userName": "0xNevsky",
-"text": "You're generating random AI faces and getting 47 views. One guy locked a single character and cleared $14,900 last month. Here's what you're doing wrong. https://t.co/tw4s7U2XuG",
-"likeCount": 9,
-"retweetCount": 1,
-"url": "https://x.com/0xNevsky/status/2088956231700414575",
-"createdAt": "Sun Aug 16 11:49:11 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
 "text": "RT @Alibaba_Qwen: We promised open weights for Qwen3.8. Now, time to meet them! 🎉\n\n⚡ Qwen3.8-27B:\n- A native multimodal dense model. With j…",
-"likeCount": 15769,
-"retweetCount": 2113,
+"likeCount": 15822,
+"retweetCount": 2122,
 "url": "https://x.com/ClementDelangue/status/2088663756784181389",
 "createdAt": "Sat Aug 15 16:26:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @simonw: Here’s my review of Qwen 3.8 27B - I can't remember the last time I've had this much fun playing with a local model that runs o…",
-"likeCount": 2668,
-"retweetCount": 224,
-"url": "https://x.com/ClementDelangue/status/2089119153378517019",
-"createdAt": "Sun Aug 16 22:36:34 +0000 2026"
+"text": "RT @Alibaba_Qwen: Huge thanks to the whole community! Qwen3.8-27B is now the #1 trending model on Hugging Face! 🏆 Try it out and let us kno…",
+"likeCount": 3368,
+"retweetCount": 145,
+"url": "https://x.com/ClementDelangue/status/2089072006595489999",
+"createdAt": "Sun Aug 16 19:29:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: We are in an insane run of open-weight drops.\n\nEvery modality, open source is winning. This is what an open source AI sum…",
-"likeCount": 308,
-"retweetCount": 29,
-"url": "https://x.com/ClementDelangue/status/2087583321639551375",
-"createdAt": "Wed Aug 12 16:53:43 +0000 2026"
+"text": "RT @NVIDIAAI: We just released TensorRT Model Connect in Public Preview.\n\nYou can take a supported @huggingface model to end-to-end TensorR…",
+"likeCount": 536,
+"retweetCount": 67,
+"url": "https://x.com/ClementDelangue/status/2089757142144200825",
+"createdAt": "Tue Aug 18 16:51:43 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @tomaarsen: Regarding Sentence Transformers v6.0 update:\n\nA dense model compresses a whole text into one vector, then compares two vecto…",
+"likeCount": 58,
+"retweetCount": 13,
+"url": "https://x.com/jeremyphoward/status/2090330778748305418",
+"createdAt": "Thu Aug 20 06:51:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TheAhmadOsman: This summer has been a Homerun for Opensource AI and we’re only getting started btw",
-"likeCount": 200,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2089759540292035046",
-"createdAt": "Tue Aug 18 17:01:14 +0000 2026"
+"text": "RT @minchoi: You can literally run Opus 4.6 Max-level intelligence on a MacBook Pro.\n\nLocally. https://t.co/wivWpOovFR",
+"likeCount": 3506,
+"retweetCount": 190,
+"url": "https://x.com/ClementDelangue/status/2088678025051410741",
+"createdAt": "Sat Aug 15 17:23:41 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "Time to update your influencer game with Apob AI https://t.co/owERuhWXte",
-"likeCount": 54,
-"retweetCount": 54,
-"url": "https://x.com/Ambani_Wessley/status/2089784560745660426",
-"createdAt": "Tue Aug 18 18:40:40 +0000 2026"
+"userName": "jeremyphoward",
+"text": "@answerdotai h/t to @bclavie for his amazing work on this model.",
+"likeCount": 10,
+"retweetCount": 0,
+"url": "https://x.com/jeremyphoward/status/2089817455745290693",
+"createdAt": "Tue Aug 18 20:51:23 +0000 2026"
 },
 {
-"userName": "apob_ai",
-"text": "https://t.co/sOGKPFLA6h",
-"likeCount": 34,
-"retweetCount": 12,
-"url": "https://x.com/apob_ai/status/2089272831066652923",
-"createdAt": "Mon Aug 17 08:47:14 +0000 2026"
+"userName": "TheZvi",
+"text": "https://t.co/K60uYG7TJq",
+"likeCount": 29,
+"retweetCount": 2,
+"url": "https://x.com/TheZvi/status/2090165381256052749",
+"createdAt": "Wed Aug 19 19:53:54 +0000 2026"
 }
 ]

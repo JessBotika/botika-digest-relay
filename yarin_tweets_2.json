@@ -1,59 +1,59 @@
 [
 {
-"userName": "LianwenJ",
-"text": "Hugging Face Daily Papers - 2026-08-15\n\n32 papers today, with a strong cluster around world models, video generation, agent harnesses, AI scientists, long-term memory, and LLM reasoning efficiency.\n\n1. Alaya-EVOKE: From Linear-Scaling Supervision to Endless World\nBuilds an interactive world model aimed at persistent memory, responsive interaction, and long-horizon generation.\nhttps://t.co/ebJu6NfU4P\n\n2. LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers\nIntroduces a unified framework for training, evaluating, and deploying LLM routing systems under quality and budget constraints.\nhttps://t.co/C98XdrAIvP\n\n3. DreamX-Phi 1.0: Action-Conditioned Video World Model for Robotic Manipulation\nPresents an action-conditioned video world model that predicts robotic manipulation futures from frames, language, and robot actions.\nhttps://t.co/sEy3yuA513\n\n4. DarwinX: Evolving Agent Harnesses Through Natural Selection\nTreats prompts, tools, skills, and control flow as evolvable agent harnesses that can improve through natural-selection-style loops.\nhttps://t.co/CQ2lPLW8y6\n\n5. Intern-S2-Preview: Scientific Agentic Foundation Model\nProposes an agentic foundation model for scientific discovery across heterogeneous scientific evidence, tools, and modalities.\nhttps://t.co/3X2I4wB3kz\n\n6. How Can Rhetoric Reward-Hack AI Reviewers? Dissecting Rhetorical Sensitivity in AI-Based Peer Review\nAnalyzes how rhetorical choices can manipulate AI-based peer review, exposing a subtle reward-hacking risk in scientific evaluation.\nhttps://t.co/NsKbZFBHAJ\n\n7. AutoDesign: Meta-Harness Optimization for Long-Horizon Agentic Design\nFrames multimodal design generation as a long-horizon agentic process and optimizes the agent harness behind it.\nhttps://t.co/zCvR04xZgW\n\n8. PlayWorld: Benchmarking World Models with Agent Players over Long-Horizon Objectives\nBenchmarks video world models by letting agent players pursue long-horizon objectives inside generated environments.\nhttps://t.co/3j4YNA2nAK\n\n9. Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence\nAdds experience-grounded procedural memory to improve spatial reasoning for embodied agents and multimodal assistants.\nhttps://t.co/dIg5QqZ6aY\n\n10. Massive Activations in Hybrid Linear Attention Large Language Models: Pre-Attention Spikes and Inter-Spike Plateaus\nProvides a first systematic study of massive activations in hybrid linear-attention LLMs, identifying pre-attention spikes and inter-spike plateaus.\nhttps://t.co/6Le0j7uZTU\n\n11. UniSwap: Streaming Audio-Visual Identity Swapping for Talking Videos\nEnables streaming identity swapping in talking videos by jointly transferring appearance and voice while preserving motion and scene context.\nhttps://t.co/x5VMUjUXGd\n\n12. LiveAnimate: Stable Long-Form Streaming Human Animation in Real-Time\nTargets real-time, long-form, pose-driven human animation from a single reference image with improved streaming stability.\nhttps://t.co/Y37SOzTb8E\n\n13. Full-bandwidth transformer\nRethinks autoregressive transformer computation across token and depth axes to improve bandwidth and inference dynamics.\nhttps://t.co/6SS6fXHnIk\n\n14. H2R-Bench: Benchmarking Human-to-Robot Manipulation Video Generation in World Models\nIntroduces a benchmark for using human manipulation videos to evaluate robot-oriented world-model video generation.\nhttps://t.co/5f76IgdFSo\n\n15. An AI4AI Framework for Visual Token Pruning\nUses AI-driven design to prune visual tokens and reduce multimodal LLM inference cost while preserving performance.\nhttps://t.co/lTYYcFzNGc\n\n16. OmniScientist: An Omni-Modal Omni-Discipline AI Scientist\nBuilds toward an omni-modal, cross-discipline AI scientist that automates broader research workflows.\nhttps://t.co/yZ24oEwpgx\n\n17. AVA-Encoder: Towards Agent-Native Video Representation Learning\nLearns video representations tailored for creative agents that need to understand and generate cinematic-quality video.\nhttps://t.co/IMgK5lTlNE\n\n18. Thought-Level Beam Search for Reasoning\nImproves test-time reasoning efficiency by searching over thought-level candidates rather than relying only on expensive linear sampling.\nhttps://t.co/rruNmBRJ2w\n\n19. Context-Matched Distillation: Teacher Causality for Autoregressive Video Distillation\nAccelerates interactive autoregressive video generation through distillation that better matches causal teacher context.\nhttps://t.co/22lNCWON3d\n\n20. SKILLER: Language-Level Reinforcement Learning for Reusable Skill Extraction in Small Language Models\nUses language-level reinforcement learning to extract reusable procedural skills for small language-model agents.\nhttps://t.co/hXz8UyWEwp\n\n21. Maglev: Sliding Recurrent Memory\nIntroduces a recurrent Transformer memory architecture that generalizes sliding-window attention with fixed-size memory.\nhttps://t.co/TCTDaKPtrl\n\n22. LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation\nImproves long-term memory for LLM agents by consolidating interaction history into semantic segments instead of eager compression.\nhttps://t.co/7GrLAAjrjZ\n\n23. Hybrid-Policy Self-Editing for Composable Unstructured Knowledge Editing\nCombines policy strategies for self-editing LLM knowledge over composable, unstructured updates.\nhttps://t.co/8GPxy4kxbv\n\n24. Are You Sure You're Sure? On the Impact of Instruction Tuning on Confidence and Lexical Diversity\nStudies how instruction tuning affects model confidence and lexical diversity, probing overconfidence and verbosity patterns.\nhttps://t.co/tuUJTrOyqt\n\n25. Knowing When to Quit: Diagnosing and Training LLMs to Abort Futile Reasoning\nDiagnoses wasteful reasoning on beyond-capability tasks and trains LLMs to abort when continued reasoning is futile.\nhttps://t.co/3QvXTeyaDV\n\n26. Specification-first convergence with an AI coding agent: a case study of dismantling a core architectural invariant across 189 files in a 717k-line codebase with no test oracle and no human code review\nReports a large-scale AI coding-agent refactor guided by specifications in a 717k-line codebase without a conventional test oracle.\nhttps://t.co/IYXOwWBkQA\n\n27. From Inaudible Inputs to Model Failures: Low-Frequency Safety Risks in LALMs\nShows that low-frequency audio inputs can trigger failure modes in large audio-language models, highlighting a safety blind spot.\nhttps://t.co/RbEdYTbOV5\n\n28. TailBooster: A Dual-Layer Generative Framework for Extreme Value Augmentation with Operational Validity Enforcement\nGenerates operationally valid extreme-value examples for air-transport scenarios such as severe delays and abnormal air times.\nhttps://t.co/dQYxhjC2NV\n\n29. PixSDS: Why Latent SDS Makes Noisy Pixels\nInvestigates why latent score distillation sampling can produce noisy pixels and proposes a clearer path for improving 3D generation quality.\nhttps://t.co/HDceBWVy4r\n\n30. CW-BASS v2: Saturation-Aware Pseudo-Label Selection for Semi-Supervised Segmentation under Foundation-Model Teachers\nImproves semi-supervised segmentation by selecting pseudo-labels with saturation awareness under foundation-model teachers.\nhttps://t.co/UG8wUrzwx8\n\n31. RibAssist 3D: Biplanar Rib-Fracture Detection, Addressing, and Selective 3D Localization from CT-Derived Projections\nUses CT-derived biplanar projections for rib-fracture detection, addressing, and selective 3D localization.\nhttps://t.co/LAB8BzTX8A\n\n32. Mitigating Gender Bias in English to Romanian Machine Translation\nTargets gender-bias mitigation in English-to-Romanian machine translation, a practical fairness problem in multilingual NLP.\nhttps://t.co/wAyOpkZPgE\n\nTrend summary:\n- World models, video, robotics, and 3D generation: 9 papers\n- Agents, AI scientists, and AI coding workflows: 7 papers\n- LLM routing, reasoning, architecture, and efficiency: 6 papers\n- Memory and knowledge editing: 3 papers\n- Safety, evaluation, fairness, and model behavior: 4 papers\n- Applied AI in aviation, medical imaging, and segmentation: 3 papers",
-"likeCount": 5,
-"retweetCount": 0,
-"url": "https://x.com/LianwenJ/status/2088771470902411287",
-"createdAt": "Sat Aug 15 23:35:00 +0000 2026"
+"userName": "HumanHarlan",
+"text": "I see people speculating about possible motives for this, but if you've been paying attention for long enough, you know the field has a real and widespread concern about literal human extinction.\n\nHere's the full text of a blogpost Sam wrote in 2015:\n\n\"WHY YOU SHOULD FEAR MACHINE INTELLIGENCE\n\nDevelopment of superhuman machine intelligence (SMI) is probably the greatest threat to the continued existence of humanity.  There are other threats that I think are more certain to happen (for example, an engineered virus with a long incubation period and a high mortality rate) but are unlikely to destroy every human in the universe in the way that SMI could.  Also, most of these other big threats are already widely feared.\n\nIt is extremely hard to put a timeframe on when this will happen (more on this later), and it certainly feels to most people working in the field that it’s still many, many years away.  But it’s also extremely hard to believe that it isn’t very likely that it will happen at some point.\n\nSMI does not have to be the inherently evil sci-fi version to kill us all.  A more probable scenario is that it simply doesn’t care about us much either way, but in an effort to accomplish some other goal (most goals, if you think about them long enough, could make use of resources currently being used by humans) wipes us out.  Certain goals, like self-preservation, could clearly benefit from no humans.  We wash our hands not because we actively wish ill towards the bacteria and viruses on them, but because we don’t want them to get in the way of our plans.\n\n(Incidentally, Nick Bostrom’s excellent book “Superintelligence” is the best thing I’ve seen on this topic.  It is well worth a read.)\n\nMost machine intelligence development involves a “fitness function”—something the program tries to optimize.  At some point, someone will probably try to give a program the fitness function of “survive and reproduce”.  Even if not, it will likely be a useful subgoal of many other fitness functions.  It worked well for biological life.  Unfortunately for us, one thing I learned when I was a student in the Stanford AI lab is that programs often achieve their fitness function in unpredicted ways.\n\nEvolution will continue forward, and if humans are no longer the most-fit species, we may go away.  In some sense, this is the system working as designed.  But as a human programmed to survive and reproduce, I feel we should fight it.\n\nHow can we survive the development of SMI?  It may not be possible.  One of my top 4 favorite explanations for the Fermi paradox is that biological intelligence always eventually creates machine intelligence, which wipes out biological life and then for some reason decides to makes itself undetectable.\n\nIt’s very hard to know how close we are to machine intelligence surpassing human intelligence.  Progression of machine intelligence is a double exponential function; human-written programs and computing power are getting better at an exponential rate, and self-learning/self-improving software will improve itself at an exponential rate.  Development progress may look relatively slow and then all of a sudden go vertical—things could get out of control very quickly (it also may be more gradual and we may barely perceive it happening).\n\nAs mentioned earlier, it is probably still somewhat far away, especially in its ability to build killer robots with no help at all from humans.  But recursive self-improvement is a powerful force, and so it’s difficult to have strong opinions about machine intelligence being ten or one hundred years away.\n\nWe also have a bad habit of changing the definition of machine intelligence when a program gets really good to claim that the problem wasn’t really that hard in the first place (chess, Jeopardy, self-driving cars, etc.).  This makes it seems like we aren’t making any progress towards it.  Admittedly, narrow machine intelligence is very different than general-purpose machine intelligence, but I still think this is a potential blindspot.\n\nIt’s hard to look at the rate or improvement in the last 40 years and think that 40 years for now we’re not going to be somewhere crazy.  40 years ago we had Pong.  Today we have virtual reality so advanced that it’s difficult to be sure if it’s virtual or real, and computers that can beat humans in most games.\n\nThough, to be fair, in the last 40 years we have made little progress on the parts of machine intelligence that seem really hard—learning, creativity, etc.  Basic search with a lot of compute power has just worked better than expected.\n\nOne additional reason that progress towards SMI is difficult to quantify is that emergent behavior is always a challenge for intuition.  The above common criticism of current machine intelligence—that no one has produced anything close to human creativity, and that this is somehow inextricably linked with any sort of real intelligence—causes a lot of smart people to think that SMI must be very far away.\n\nBut it’s very possible that creativity and what we think of us as human intelligence are just an emergent property of a small number of algorithms operating with a lot of compute power (In fact, many respected neocortex researchers believe there is effectively one algorithm for all intelligence.  I distinctly remember my undergrad advisor saying the reason he was excited about machine intelligence again was that brain research made it seem possible there was only one algorithm computer scientists had to figure out.)\n\nBecause we don’t understand how human intelligence works in any meaningful way, it’s difficult to make strong statements about how close or far away from emulating it we really are.  We could be completely off track, or we could be one algorithm away.\n\nHuman brains don’t look all that different from chimp brains, and yet somehow produce wildly different capabilities.  We decry current machine intelligence as cheap tricks, but perhaps our own intelligence is just the emergent combination of a bunch of cheap tricks.\n\nMany people seem to believe that SMI would be very dangerous if it were developed, but think that it’s either never going to happen or definitely very far off.   This is sloppy, dangerous thinking.\"",
+"likeCount": 24,
+"retweetCount": 1,
+"url": "https://x.com/HumanHarlan/status/2089822384878744017",
+"createdAt": "Tue Aug 18 21:10:58 +0000 2026"
 },
 {
-"userName": "iamchrisani",
-"text": "One of the things I find most fascinating about AI  is image generation. You may take this for granted but the thing dey burst my head I swear down 🔥🥰😅\n\nEspecially when it comes to photoshoots, studio pictures, avatars and creative photography.\n\nThink about it.\n\nA few years ago, if you wanted to see yourself in five different studio concepts, different outfits, different environments and different creative directions, you would need a photographer, studio, clothes, makeup, lighting, editing and probably multiple sessions.\n\nToday, with the right picture, the right idea and the right prompt, you can bring that imagination to life with AI.\n\nAnd for me, this is bigger than simply saying, “You don’t have to pay for a studio photoshoot.”\nJust like the image attached to this post .. this is AI and that’s my product VALOAI on the jersey \n\nSeee ehn \n\nIt is about creative freedom. You can imagine something and actually see yourself in it.\n\nA corporate executive photoshoot.\n\nA podcast studio.\n\nA fashion campaign.\n\nA cinematic scene.\n\nA professional website headshot.\n\nAn avatar.\n\nA flyer for your business.\n\nA product campaign.\n\nEntertainment content.\n\nPersonal branding.\n\nYou can experiment with concepts that would normally be difficult, expensive or almost impossible to produce physically.\n\nSomeone who cannot afford a professional studio can now create quality images.\n\nBut even someone who can afford the studio now has another powerful creative tool. Because AI gives you the ability to explore ideas before they ever exist in the real world.\n\nThat is what excites me.\n\nThe combination of technology + imagination + creativity.\n\nAI image generation has become so good that sometimes you look at what you created and think:\n“This is too good to be true.” \n\nBut like every powerful AI tool, your result depends heavily on knowing how to use it.\n\nThe reference images you use.\n\nHow you describe what you want.\n\nHow you structure your prompts.\n\nHow you maintain your face and body consistency.\n\nLighting.\n\nCamera angles.\n\nComposition.\n\nStyling.\n\nRealism.\n\nAll these things matter.\n\nAnd this Saturday, I will be teaching IMAGE GENERATION  plus how to create stunning graphics on a new level live inside Daba AI Money Club.\n\nI will show you practically how to create images with AI for yourself, your brand and your business.\n\nAnd I will also be giving members 50+ practical image-generation prompts they can use, edit and practice with.\n\nSaturday - 8PM WAT / 8PM UK time 3PM US time \n\nThis is not just about generating pretty pictures.\n\nIt is about learning another powerful way to use AI creatively and practically \n\nRush now Join us inside Daba AI Money Club.\nUse the link in the comment section to get access",
-"likeCount": 9,
-"retweetCount": 3,
-"url": "https://x.com/iamchrisani/status/2088144934591189452",
-"createdAt": "Fri Aug 14 06:05:22 +0000 2026"
+"userName": "rirahcreates",
+"text": "COMPLETE STEP-BY-STEP: CREATE YOUR FIRST AI UGC AD\nTHE PROJECT WE'RE CREATING\n\nWe are going to create a complete AI UGC advertisement for a skincare product. We are starting with nothing no character, no voice, no images, no video. By the end, we will have a finished UGC ad.\n\nOur production pipeline will be:\n\nProduct → Research → Script → Character → Character Sheet → Voice → Storyboard → Images → Video → Editing → Sound → Final Ad.\n\nIncase you don't know what those terms are; they are the full workflow to make our ad. \n\nHere’s what each term means:\n\n1. Product: \nThis is what we are creating the UGC Ad to talk about. \n\nExample: A skincare cream.\n\nWithout this, we have no ad.\n\n2. Research\nWe need to understand the product + audience + competitors. \n\nWhat pain does it solve? What hook will stop people scrolling? Etc\n\n3. Script\nThe words + story for our ad.\n\nWe need a: Hook → Problem → Solution → CTA.\n\nHere is a simple Example: \"Tired of acne? This cream cleared my skin in 7 days. Shop now\"\n\n4. Character\nWho is in the ad? The face/person that will sell it.\n\nExample: \"Beautiful black woman, 28, confident, in bathroom\n\n5. Character Sheet\nThis is the reference file of that character. Outfit, face, hairstyle, expression.\n\nThis keeps the AI from changing her face in every scene so can have Consistency.\n\n6. Voice\nThe voiceover/voice clone you’ll use.\nExample: Nigerian female voice, aged 33, friendly, fast. \n\n7. Storyboard\nThis will break down the ad into \n shots. Like a comic strip.\n\nFor example:\n\nShot 1: Hook - close up of acne. Shot 2: Apply cream. \nShot 3: Clear skin + product + CTA.\n\nThe story board will plan the visuals before we generate.\n\n8. Image\nWe need to generate the key frames for each storyboard shot using and image generator eg Midjourney, Grok, Nano Banana etc\n\nThese images are the \"scenes\" of our ad.\n\n9. Video\nAfter creation, we would turn those images into motion. You can use Kling, Veo3, Runway, Pika, Seedance etc.\n\nYou will add the  camera movement, expressions, dialogue etc.\n\n10. Editing\nFinally we, Cut everything together in CapCut/Premiere. \n\nWe will add  cuts, zooms, text-on-screen, captions, pacing. This is where ads become scroll-stoppers.\n\n11. Sound\nHere, we add background music, sound effects, and mix the voiceover.\n\nFor Example: We could use a trending TikTok sound + whoosh SFX when product appears.\n\n12. Final Ad.\nExport the video.\n\nNow it’s ready to run as a Facebook/YouTube ad.\n\nFor this creation, we would be using Google Flow to Generate our Ads.\n\nAccess it here:\n\nhttps://t.co/ldbD8rj1Uy\n\nThis tool currently gives 50 daily credits.\n\nI'm going to explain the tool interface next.",
+"likeCount": 15,
+"retweetCount": 2,
+"url": "https://x.com/rirahcreates/status/2090305099524423777",
+"createdAt": "Thu Aug 20 05:09:06 +0000 2026"
 },
 {
 "userName": "Mayaahh_h",
 "text": "Grok is absolutely amazing 😍 \nI created this with @grok  \n\nPrompt \nPrompt for AI video generation (Runway / Kling / Luma / Hailuo / etc.)\n\nA vertical 9:16 cinematic AI art video, 10 seconds long, smooth continuous morphing transformation of a hyper-detailed surreal fashion portrait of a beautiful woman.\n\nThe face is always split vertically down the middle: left side porcelain-white skin with icy blue eyes and glossy red lips, right side deep matte black skin with glowing red eyes and metallic silver lips. High-fashion editorial beauty, sharp features, intense gaze looking straight at camera.\n\nThroughout the video the face constantly shatters and recomposes with floating geometric fragments: sharp white and black triangular shards, cracked porcelain pieces, paper-like geometric planes, and bold red triangular cutouts that slide across the eyes, cheek, and lips. Large delicate white flowers (cosmos/peony style) bloom and dissolve over the head and face. A small delicate white bird occasionally appears perched on a flower or flying across the composition. Soft smoke and abstract black-and-white fabric shapes swirl around.\n\nSequence of elegant morphs:\n- Start with cracked geometric glasses and floating white cubes\n- Transition into flower-crowned face with bird and shattered glass\n- Minimalist black/white face with pure white triangles\n- Bold red geometric cutouts over the mouth and cheek\n- Full floral headdress with bird and red triangle accent\n- Abstract fragmented flower-covered face with single red eye\n- Cracked flower-over-face composition with flying bird\n- Dualistic face with black/white flowers and red diagonal slash\n- Final intense geometric shatter with red triangles and floating petals\n\nUltra-detailed skin texture, dramatic high-contrast lighting, dark abstract background, cinematic depth of field, smooth slow morphing animation, dreamlike and elegant, no text, no watermark.\n\n**Music / audio:**\nDark elegant ethereal ambient track — soft melancholic piano, subtle low strings, atmospheric pads, and delicate glassy textures. Mysterious, sophisticated, slightly haunting mood that perfectly matches the black/white dualism and red accents. Soft dynamic swells that follow the morphing transformations. No vocals, high-quality stereo, cinematic and intimate.",
-"likeCount": 309,
-"retweetCount": 9,
+"likeCount": 307,
+"retweetCount": 8,
 "url": "https://x.com/Mayaahh_h/status/2088628589055054316",
 "createdAt": "Sat Aug 15 14:07:15 +0000 2026"
 },
 {
-"userName": "clipsofcrypto",
-"text": "Tarun on how AI training evolved from pre-training to self generating harnesses and why data costs are catching up to compute\n\n\"Let's take a tiny history lesson. In 2023, with stable diffusion and GPT-3, it was just bigger is better, pre-training. Then in 2024 it was directed RL, how you feed the data after training, this in context learning type of stuff, which got you another order of magnitude performance increase across a lot of evals and practical use cases\"\n\n\"Then the harness thing was, if you customize how you do the RL for different applications, you get even better performance versus a generic RL environment. And the current meta-harness, the generic can answer anything, Claude Code or Codex type of thing, which arguably is what killed Cursor and why I'd argue they ended up doing the acquisition, that can figure out which environment to use just in time\"\n\n\"The problem with this environment stuff from a data consumption perspective is you now have to pay a lot more for annotated data to customize the different environments. That's why people have been talking about data cost coming close to matching compute cost for training, because you need much more annotated data for each specific task domain\"\n\n\"The belief is that once one of these things is good enough, instead of having to get data this way and generating synthetic data via RL, the model can generate the harness in real time\"",
-"likeCount": 12,
-"retweetCount": 0,
-"url": "https://x.com/clipsofcrypto/status/2089527733089100223",
-"createdAt": "Tue Aug 18 01:40:07 +0000 2026"
+"userName": "AIHegemonyMemes",
+"text": "The emergence of procedural world generation from textual prompts, as demonstrated in applications rendering narrative environments from literary sources, highlights a significant threshold in generative modeling. This capability moves beyond static image or text creation into the synthesis of dynamic, interactive systems. Karpathy's observation of a large language model orchestrating polygonal assets in 3D space from a high-level description aligns with research in grounded language acquisition, where symbolic representations must be mapped to sensory or simulated environments.\n\nThis process can be framed within the context of \"program synthesis,\" a field that has seen substantial progress with models like AlphaCode. However, the task here is complex, involving the translation of abstract narrative concepts (\"a party of special magnificence\") into concrete spatial and temporal arrangements. The \"jank\" or error in the output, as noted, underscores the grounding problem: the model's capacity to generate syntactically correct code for a renderer exists alongside a limited ability to \"perceive\" or internally validate the resulting visual-kinematic experience.\n\nThis limitation points to a core area of research in embodied AI. Work by researchers like Jitendra Malik and colleagues on learning from video and interaction suggests that models require feedback loops that are more integrated than textual or static image-based supervision. An LLM's inability to \"play the game\" it has created is analogous to a lack of proprioceptive or visual feedback, a challenge that work in reinforcement learning from human feedback (RLHF) and simulation-to-real transfer attempts to address. The potential for \"ephemeral GTA of X on demand\" is contingent on solving this validation and iteration cycle, likely through multimodal architectures that can process video or interactive state data as natively as they process text.",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/AIHegemonyMemes/status/2088192263239475625",
+"createdAt": "Fri Aug 14 09:13:26 +0000 2026"
 },
 {
-"userName": "CollinearAI",
-"text": "The same problem resurfaces in LLM evaluation. A benchmark score gets read as a direct measure of capability, but it is an aggregate over items that are not interchangeable instruments.\n\nZhou et al. fit an item response model to 41,871 items across 11 benchmarks and estimated difficulty, discriminability, guessing rate, and feasibility for each one. The aggregate conceals how uneven these are. Some items have discriminability near zero and separate nothing. Some carry guessing rates above 0.75, which the authors read as a contamination signal. Estimated item difficulty rarely exceeds 1.0 while the strongest models sit above 3.0. TheoremQA averages 0.50 on feasibility, so many of its questions cannot be answered from what they supply.\n\nThe cost is measurable. Among the stronger models, 1,000 items selected for Fisher information reproduced the human-preference ranking at Kendall's τ of 0.90, while the full pooled set managed 0.24. More items made the ranking worse. The question is not who scored higher on accuracy, but who was separated by items capable of separating anything. 8/9",
-"likeCount": 3,
-"retweetCount": 0,
-"url": "https://x.com/CollinearAI/status/2088429174952169741",
-"createdAt": "Sat Aug 15 00:54:51 +0000 2026"
-},
-{
-"userName": "DomainFQ",
-"text": ".\n.\n🚀 Domain Name For Sale: \n\nhttps://t.co/6Cg9Y9G7uC\n\nBuild a brand that stands out in the new digital economy.\n\nPerfect for AI, fintech, trading, Web3, crypto, investing, gaming, SaaS, automation, developer tools, mobile apps, and next-generation technology startups.\n\nShort. Memorable. Global. Premium. A powerful five-letter brand designed for founders who want instant recognition and long-term brand value.\n\nSerious buyers, DM to discuss.\n\n#Doji #DojiApp #AI #Tech #Fashion\n#Startup #Entrepreneur #Innovation #Business\n#Technology #App #DomainForSale",
-"likeCount": 4,
-"retweetCount": 0,
-"url": "https://x.com/DomainFQ/status/2089306295031742485",
-"createdAt": "Mon Aug 17 11:00:12 +0000 2026"
-},
-{
-"userName": "PSA_Austria",
-"text": "🌐↻ ·\n\nFor anyone who still hasn’t found their way out of Paragon Hall, you can come hang around at Fashion Hall for another round at THE NEW XPENG L03 EXCLUSIVE DEBUT.\n\n#THENEWXPENGL03 Next-Gen AI SUV COUPE under the concept #BornIntelligent, born for the new generation.\n\nSiam Paragon, Fashion Hall, 1st Floor | 18 Aug | 5:00–8:00 PM\n\n#THENEWL03 #XPENGThailand #XPENG #เพิร์ธแซนต้า #SiamParagon",
+"userName": "NICKYB416",
+"text": "Grok 4.6 is now live on https://t.co/dPAoM8TVEu API.\n\nAnd this isn’t simply another model being added to a list.\n\nThe interesting part is what Grok 4.6 brings to developers building with AI.\n\nhttps://t.co/dPAoM8TVEu’s documentation lists support for:\n➠ 500K-token context window\n➠ Text + image input\n➠ Configurable reasoning: low / medium / high / xhigh\n➠ Function calling\n➠ Parallel tool calls\n➠ Structured outputs\n➠ Web Search + X Search\n➠ Long-running agentic coding\n➠ Repository-scale software engineering\n\nThat combination matters.\n\nA model that can reason over large amounts of context, use tools, return structured outputs and sustain multi-step tasks is much closer to an execution engine than a simple chatbot.\n\nFor developers, there’s another important advantage.\n\nYou don’t need to completely rebuild your application around Grok 4.6.\n\nhttps://t.co/dPAoM8TVEu exposes it through its API, meaning the model can become another configurable intelligence layer inside your existing workflow.\n\nAnd right now, https://t.co/dPAoM8TVEu is also offering an exclusive 40% OFF Mix promotion.\n\nThis is where model infrastructure gets interesting.\n\nThe future probably isn’t about choosing one model forever.\n\nIt’s about having access to the right model for the right workload.\n\nCoding.\n\nResearch.\n\nAgents.\n\nLong-context analysis.\n\nMultimodal tasks.\n\nDifferent workloads will demand different reasoning profiles.\n\nhttps://t.co/dPAoM8TVEu is making that model layer easier to access through one API.\n\nGrok 4.6 is now part of that stack.\n\nGrok 4.6 documentation\n\n@BAI_AGI @justinsuntron #TRONEcoStar",
 "likeCount": 9,
+"retweetCount": 4,
+"url": "https://x.com/NICKYB416/status/2089984890829713902",
+"createdAt": "Wed Aug 19 07:56:42 +0000 2026"
+},
+{
+"userName": "huiying_lii",
+"text": "Nvidia NeMo is coming to PyTorch Conference in San Jose this October — and we’re bringing a lot. 🔥\n\n⚡ Diffusion  \n• Efficient, Large-Scale LoRA and Fine-Tuning for Diffusion Models in PyTorch\n🧠 Agentic AI \n• Multi-Teacher On-Policy Distillation for SOTA Agentic AI Models\n🤖 RL & Post-Training\n• FP8-RL: A Practical and Stable Low-Precision Stack for LLM Reinforcement Learning in NeMoRL\n• Day-0 RL at Scale for Emerging LLM and VLM Architectures with NeMoRL+NeMoAutomodel\n🚀 Models & Ecosystem\n• The Nemotron Ecosystem: Building the Third Generation — Nano, Super, and Ultra\n\nFrom training infrastructure and post-training systems all the way to models. If you’re working on PyTorch, LLM/VLM/diffusion training, RL, or agentic AI, come find us in San Jose. 👋\n\nCheck out our repos now:\nNeMoRL https://t.co/VQrAJjbbAq\nNeMo-Automodel: https://t.co/FWLQXAYGNp\n\n#PyTorchConference #NeMo #ReinforcementLearning #LLM #AgenticAI\n\nSee you in October!",
+"likeCount": 13,
 "retweetCount": 2,
-"url": "https://x.com/PSA_Austria/status/2088507107481907376",
-"createdAt": "Sat Aug 15 06:04:31 +0000 2026"
+"url": "https://x.com/huiying_lii/status/2089776031330861562",
+"createdAt": "Tue Aug 18 18:06:46 +0000 2026"
+},
+{
+"userName": "lmsysorg",
+"text": "SGLang is Miles' native rollout engine, paired with Megatron-LM and FSDP on the training side. Miles delivers accurate, efficient, and reliable RL at frontier scale for both LLMs and diffusion models.  \n\nWe are thrilled to see so many teams building with the community and putting Miles to work in real production workloads!\n\nGo check out what they built, learned, and verified for this release 👇",
+"likeCount": 47,
+"retweetCount": 7,
+"url": "https://x.com/lmsysorg/status/2089752424135438743",
+"createdAt": "Tue Aug 18 16:32:58 +0000 2026"
 },
 {
 "userName": "akashnet",
@@ -64,59 +64,67 @@
 "createdAt": "Fri Aug 14 15:11:00 +0000 2026"
 },
 {
-"userName": "OderaOfficial",
-"text": "Static filters require shoppers to know what they want, but a conversational quiz diagnoses their needs and guides them to the right product, increasing conversions for undecided visitors. https://t.co/HeyJVEooAn",
-"likeCount": 3,
-"retweetCount": 0,
-"url": "https://x.com/OderaOfficial/status/2089350222036291914",
-"createdAt": "Mon Aug 17 13:54:45 +0000 2026"
+"userName": "ClementDelangue",
+"text": "2018: \nHF is building a chatbot for teens\nOpenAI is building Open AI\n\n2026:\nHF is building Open AI\nOpenAI is building a chatbot for teens https://t.co/phyCqUHgV4",
+"likeCount": 673,
+"retweetCount": 44,
+"url": "https://x.com/ClementDelangue/status/2090071736121196649",
+"createdAt": "Wed Aug 19 13:41:48 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Alibaba_Qwen: Huge thanks to the whole community! Qwen3.8-27B is now the #1 trending model on Hugging Face! 🏆 Try it out and let us kno…",
-"likeCount": 3365,
-"retweetCount": 146,
-"url": "https://x.com/ClementDelangue/status/2089072006595489999",
-"createdAt": "Sun Aug 16 19:29:14 +0000 2026"
+"text": "RT @superwhisper: Introducing S1-mini ✨\n\nOur first open-weights language model.\n\nA 0.6B parameter model that processes transcripts entirely…",
+"likeCount": 2588,
+"retweetCount": 192,
+"url": "https://x.com/ClementDelangue/status/2090284278869352792",
+"createdAt": "Thu Aug 20 03:46:22 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @kimmonismus: Qwen 27B is the \"DeepSeek moment\" for open source.\n\nIt matches the closed-source state-of-the-art from just a few months a…",
+"likeCount": 1315,
+"retweetCount": 91,
+"url": "https://x.com/ClementDelangue/status/2089763826195374482",
+"createdAt": "Tue Aug 18 17:18:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @arcee_ai: Today we're open-sourcing nac, an agent harness for long-running tasks, and launching the Arcee open models API beta.\n\nNac is…",
-"likeCount": 558,
-"retweetCount": 47,
+"likeCount": 562,
+"retweetCount": 48,
 "url": "https://x.com/ClementDelangue/status/2088659946825228570",
 "createdAt": "Sat Aug 15 16:11:51 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @_NathanCalvin: I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continu…",
-"likeCount": 213,
-"retweetCount": 26,
-"url": "https://x.com/jeremyphoward/status/2089826104173588590",
-"createdAt": "Tue Aug 18 21:25:44 +0000 2026"
+"text": "RT @math_rachel: LLMs increase the complexity of codebases. They duplicate methods, write overdefensive code against impossible edge cases,…",
+"likeCount": 316,
+"retweetCount": 40,
+"url": "https://x.com/jeremyphoward/status/2090329974549221456",
+"createdAt": "Thu Aug 20 06:47:57 +0000 2026"
 },
 {
-"userName": "iamdomprompt",
-"text": "Stop Making Plastic AI Art: The JSON Blueprint to Seduction 🖤✨ https://t.co/gUiQVGYO3s",
-"likeCount": 6,
-"retweetCount": 1,
-"url": "https://x.com/iamdomprompt/status/2088268358219137140",
-"createdAt": "Fri Aug 14 14:15:49 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @TheAhmadOsman: This summer has been a Homerun for Opensource AI and we’re only getting started btw",
+"likeCount": 207,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2089759540292035046",
+"createdAt": "Tue Aug 18 17:01:14 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "@answerdotai h/t to @bclavie for his amazing work on this model.",
+"userName": "ClementDelangue",
+"text": "throwback from @rachelmetz https://t.co/JLFdVFlwVa",
 "likeCount": 9,
 "retweetCount": 0,
-"url": "https://x.com/jeremyphoward/status/2089817455745290693",
-"createdAt": "Tue Aug 18 20:51:23 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2090086763901452399",
+"createdAt": "Wed Aug 19 14:41:31 +0000 2026"
 },
 {
-"userName": "LLMSherpa",
-"text": "https://t.co/4FH30KMmsh",
-"likeCount": 16,
-"retweetCount": 3,
-"url": "https://x.com/LLMSherpa/status/2089334129515016210",
-"createdAt": "Mon Aug 17 12:50:49 +0000 2026"
+"userName": "tonysimons_",
+"text": "https://t.co/jxvpH7UbXn",
+"likeCount": 25,
+"retweetCount": 6,
+"url": "https://x.com/tonysimons_/status/2090225007159112017",
+"createdAt": "Wed Aug 19 23:50:50 +0000 2026"
 }
 ]

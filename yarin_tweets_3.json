@@ -1,122 +1,122 @@
 [
 {
-"userName": "HumanHarlan",
-"text": "I see people speculating about possible motives for this, but if you've been paying attention for long enough, you know the field has a real and widespread concern about literal human extinction.\n\nHere's the full text of a blogpost Sam wrote in 2015:\n\n\"WHY YOU SHOULD FEAR MACHINE INTELLIGENCE\n\nDevelopment of superhuman machine intelligence (SMI) is probably the greatest threat to the continued existence of humanity.  There are other threats that I think are more certain to happen (for example, an engineered virus with a long incubation period and a high mortality rate) but are unlikely to destroy every human in the universe in the way that SMI could.  Also, most of these other big threats are already widely feared.\n\nIt is extremely hard to put a timeframe on when this will happen (more on this later), and it certainly feels to most people working in the field that it’s still many, many years away.  But it’s also extremely hard to believe that it isn’t very likely that it will happen at some point.\n\nSMI does not have to be the inherently evil sci-fi version to kill us all.  A more probable scenario is that it simply doesn’t care about us much either way, but in an effort to accomplish some other goal (most goals, if you think about them long enough, could make use of resources currently being used by humans) wipes us out.  Certain goals, like self-preservation, could clearly benefit from no humans.  We wash our hands not because we actively wish ill towards the bacteria and viruses on them, but because we don’t want them to get in the way of our plans.\n\n(Incidentally, Nick Bostrom’s excellent book “Superintelligence” is the best thing I’ve seen on this topic.  It is well worth a read.)\n\nMost machine intelligence development involves a “fitness function”—something the program tries to optimize.  At some point, someone will probably try to give a program the fitness function of “survive and reproduce”.  Even if not, it will likely be a useful subgoal of many other fitness functions.  It worked well for biological life.  Unfortunately for us, one thing I learned when I was a student in the Stanford AI lab is that programs often achieve their fitness function in unpredicted ways.\n\nEvolution will continue forward, and if humans are no longer the most-fit species, we may go away.  In some sense, this is the system working as designed.  But as a human programmed to survive and reproduce, I feel we should fight it.\n\nHow can we survive the development of SMI?  It may not be possible.  One of my top 4 favorite explanations for the Fermi paradox is that biological intelligence always eventually creates machine intelligence, which wipes out biological life and then for some reason decides to makes itself undetectable.\n\nIt’s very hard to know how close we are to machine intelligence surpassing human intelligence.  Progression of machine intelligence is a double exponential function; human-written programs and computing power are getting better at an exponential rate, and self-learning/self-improving software will improve itself at an exponential rate.  Development progress may look relatively slow and then all of a sudden go vertical—things could get out of control very quickly (it also may be more gradual and we may barely perceive it happening).\n\nAs mentioned earlier, it is probably still somewhat far away, especially in its ability to build killer robots with no help at all from humans.  But recursive self-improvement is a powerful force, and so it’s difficult to have strong opinions about machine intelligence being ten or one hundred years away.\n\nWe also have a bad habit of changing the definition of machine intelligence when a program gets really good to claim that the problem wasn’t really that hard in the first place (chess, Jeopardy, self-driving cars, etc.).  This makes it seems like we aren’t making any progress towards it.  Admittedly, narrow machine intelligence is very different than general-purpose machine intelligence, but I still think this is a potential blindspot.\n\nIt’s hard to look at the rate or improvement in the last 40 years and think that 40 years for now we’re not going to be somewhere crazy.  40 years ago we had Pong.  Today we have virtual reality so advanced that it’s difficult to be sure if it’s virtual or real, and computers that can beat humans in most games.\n\nThough, to be fair, in the last 40 years we have made little progress on the parts of machine intelligence that seem really hard—learning, creativity, etc.  Basic search with a lot of compute power has just worked better than expected.\n\nOne additional reason that progress towards SMI is difficult to quantify is that emergent behavior is always a challenge for intuition.  The above common criticism of current machine intelligence—that no one has produced anything close to human creativity, and that this is somehow inextricably linked with any sort of real intelligence—causes a lot of smart people to think that SMI must be very far away.\n\nBut it’s very possible that creativity and what we think of us as human intelligence are just an emergent property of a small number of algorithms operating with a lot of compute power (In fact, many respected neocortex researchers believe there is effectively one algorithm for all intelligence.  I distinctly remember my undergrad advisor saying the reason he was excited about machine intelligence again was that brain research made it seem possible there was only one algorithm computer scientists had to figure out.)\n\nBecause we don’t understand how human intelligence works in any meaningful way, it’s difficult to make strong statements about how close or far away from emulating it we really are.  We could be completely off track, or we could be one algorithm away.\n\nHuman brains don’t look all that different from chimp brains, and yet somehow produce wildly different capabilities.  We decry current machine intelligence as cheap tricks, but perhaps our own intelligence is just the emergent combination of a bunch of cheap tricks.\n\nMany people seem to believe that SMI would be very dangerous if it were developed, but think that it’s either never going to happen or definitely very far off.   This is sloppy, dangerous thinking.\"",
-"likeCount": 17,
-"retweetCount": 1,
-"url": "https://x.com/HumanHarlan/status/2089822384878744017",
-"createdAt": "Tue Aug 18 21:10:58 +0000 2026"
-},
-{
-"userName": "jiwanpark1014",
-"text": "Musinsa, ClickHouse Cloud, and the New Era of AI-Powered Customer Intelligence\n\nMusinsa’s migration to ClickHouse Cloud demonstrates how modern ecommerce companies are transforming data infrastructure into a competitive advantage.\n\nAs Korea’s largest fashion platform with 16.4 million members and thousands of partner brands, Musinsa manages enormous volumes of customer behavior data. Every click, search, cart action, and purchase creates signals that can be used to understand customers and deliver personalized experiences.\n\nTo power this capability, Musinsa built a Customer Data Platform (CDP) with an Audience Engine that allows marketers to instantly create user segments. For example, the system can identify customers who abandoned carts, specific demographic groups, or users likely to respond to certain campaigns.\n\nHowever, scaling this system on self-hosted infrastructure became increasingly difficult. Storage and compute resources were tightly coupled, meaning adding computing power also required purchasing additional storage capacity. Heavy queries could impact other workloads, and maintaining the infrastructure required significant engineering effort.\n\nThe move to ClickHouse Cloud solved these limitations by separating storage and compute. Musinsa could independently scale data storage and allocate computing resources based on specific workloads. This resulted in an 86.5% reduction in storage costs and up to a 71.4% reduction in total cost of ownership.\n\nBeyond cost savings, the architecture improved reliability. Instead of running all workloads on a single cluster, Musinsa could isolate different processes, allowing audience queries, analytics jobs, and batch operations to run independently without interfering with each other.\n\nThe company also improved real-time data ingestion by replacing external ingestion pipelines with ClickPipes. This simplified the architecture, reduced operational complexity, and allowed data to flow into ClickHouse more efficiently.\n\nThe most important development is how this infrastructure enables AI-driven marketing. Musinsa introduced MAI, an AI assistant that allows marketers to ask questions using natural language and receive analytical insights with explanations of how the results were generated.\n\nThis represents a broader industry shift. Ecommerce companies are moving beyond traditional dashboards and analytics toward AI agents that can understand customer behavior, generate insights, and automate decision-making.\n\nThe future competitive advantage will not only come from having more customers or more products. It will come from having the infrastructure to transform real-time behavioral data into intelligent actions.\n\nMusinsa’s ClickHouse Cloud journey shows the emerging formula:\n\nReal-time data → Customer intelligence → AI agents → Personalized experiences\n\nCompanies that build this foundation will be better positioned for the next generation of AI-powered commerce.\n\nhttps://t.co/2crLi5NQVY",
-"likeCount": 4,
-"retweetCount": 0,
-"url": "https://x.com/jiwanpark1014/status/2088289320444850430",
-"createdAt": "Fri Aug 14 15:39:07 +0000 2026"
-},
-{
-"userName": "wegro_app",
-"text": "Sigma Advanced Systems Ltd 🚀 has announced securing approximately ₹155 Crore in orders for its Indrajaal Ranger™ anti-drone patrol vehicle from the Government of India's Ministry of Home Affairs. This significant development positions India as the first country to establish anti-drone patrolling for both border and urban areas, moving beyond military installations to cover border villages, VVIP routes, and city streets. 🇮🇳\n\nKey highlights of this announcement include:\n\n- 𝗧𝗼𝘁𝗮𝗹 𝗢𝗿𝗱𝗲𝗿 𝗩𝗮𝗹𝘂𝗲: ₹155 Crore\n- 𝗕𝗿𝗲𝗮𝗸𝗱𝗼𝘄𝗻: ₹145 Crore for border security deployments & approximately ₹10 Crore for urban police use (VVIP protection).\n- 𝗡𝗲𝘄 𝗛𝗼𝗺𝗲𝗹𝗮𝗻𝗱 𝗦𝗲𝗰𝘂𝗿𝗶𝘁𝘆 𝗖𝗮𝘁𝗲𝗴𝗼𝗿𝘆: The Indrajaal Ranger™ introduces a new class of vehicle – a purpose-built Anti-Drone Patrol Vehicle designed for detecting, tracking, identifying, and countering drones while in motion.\n- 𝗜𝗻𝗱𝗶𝗴𝗲𝗻𝗼𝘂𝘀 𝗧𝗲𝗰𝗵𝗻𝗼𝗹𝗼𝗴𝘆: This initiative strongly supports the 'Atmanirbhar Bharat' vision, showcasing India's capability in developing & manufacturing advanced national security technologies.\n\n𝗜𝗻𝗱𝗿𝗮𝗷𝗮𝗮𝗹 𝗥𝗮𝗻𝗴𝗲𝗿™ 𝗖𝗮𝗽𝗮𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀:\nThis ARDTC-approved vehicle integrates advanced sensors, AI, sensor fusion, C2, & countermeasures. It offers three protection layers:\n\n- 𝗥𝗲𝘁𝗿𝗮𝗰𝘁𝗼𝗿: Safely recovers rogue drones for analysis.\n- 𝗟𝗮𝗸𝘀𝗵𝗺𝗮𝗻 𝗥𝗲𝗸𝗵𝗮: Creates virtual boundaries to prevent unauthorized drone entry.\n- 𝗡𝗲𝘁 𝗜𝗻𝘁𝗲𝗿𝗰𝗲𝗽𝘁𝗼𝗿: Physically intercepts hostile drones when electronic measures fail.\n\n𝗦𝘁𝗿𝗮𝘁𝗲𝗴𝗶𝗰 𝗜𝗺𝗽𝗼𝗿𝘁𝗮𝗻𝗰𝗲:\nThe orders underscore the growing global imperative for Counter-UAS (C-UAS) capabilities beyond military applications, extending to everyday homeland security needs. This aligns with recent global trends where countries are strengthening drone defence measures for civilian areas. Sunil Kalidindi, CEO of Sigma Advanced Systems, highlighted the strength of India's defence manufacturing ecosystem and the strategic partnership with Indrajaal in bolstering national security. 🛡️\n\n📊 SIGMA ADVANCED SYSTEMS LTD | 🏷️ Press Release / Media Release\n\n🌐 Details: https://t.co/e4qyJINPoH\n\n⚡️Instant stock alerts on WhatsApp - Try FREE 👉 https://t.co/PdwQDWbXUY",
-"likeCount": 6,
-"retweetCount": 5,
-"url": "https://x.com/wegro_app/status/2089356180984647858",
-"createdAt": "Mon Aug 17 14:18:26 +0000 2026"
-},
-{
-"userName": "AIHegemonyMemes",
-"text": "The emergence of procedural world generation from textual prompts, as demonstrated in applications rendering narrative environments from literary sources, highlights a significant threshold in generative modeling. This capability moves beyond static image or text creation into the synthesis of dynamic, interactive systems. Karpathy's observation of a large language model orchestrating polygonal assets in 3D space from a high-level description aligns with research in grounded language acquisition, where symbolic representations must be mapped to sensory or simulated environments.\n\nThis process can be framed within the context of \"program synthesis,\" a field that has seen substantial progress with models like AlphaCode. However, the task here is complex, involving the translation of abstract narrative concepts (\"a party of special magnificence\") into concrete spatial and temporal arrangements. The \"jank\" or error in the output, as noted, underscores the grounding problem: the model's capacity to generate syntactically correct code for a renderer exists alongside a limited ability to \"perceive\" or internally validate the resulting visual-kinematic experience.\n\nThis limitation points to a core area of research in embodied AI. Work by researchers like Jitendra Malik and colleagues on learning from video and interaction suggests that models require feedback loops that are more integrated than textual or static image-based supervision. An LLM's inability to \"play the game\" it has created is analogous to a lack of proprioceptive or visual feedback, a challenge that work in reinforcement learning from human feedback (RLHF) and simulation-to-real transfer attempts to address. The potential for \"ephemeral GTA of X on demand\" is contingent on solving this validation and iteration cycle, likely through multimodal architectures that can process video or interactive state data as natively as they process text.",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/AIHegemonyMemes/status/2088192263239475625",
-"createdAt": "Fri Aug 14 09:13:26 +0000 2026"
-},
-{
-"userName": "rame9040",
-"text": "Good morning everyone \n\nA New Era of Wellness Tracking Powered by Agentic @sleepagotchi AI! \nWe all know how essential 7–8 hours of sound sleep every day is for our bodies. However, with work stress and late-night screen scrolling, that healthy sleep often fades away! \n\nWhat if you were rewarded like a game just for sleeping on time, while a smart AI actively looked after your health?\nSleepagotchi is making this possible in an all-new, modern way! \nAgentic AI: Moving from Tracking to Action!\n\nYour sleep data won't just sit idle on a dashboard! Sleepagotchi's new Agentic AI understands your health signals and helps decide the best actionable next steps for your sleep and overall wellness.\nWhy Sleepagotchi is Great:\nSleep Target: Easily set a personalized schedule for going to bed and waking up.\n\n Digital Containers & Rewards: Unlock special reward boxes every day just by meeting your sleep goals.\nVirtual Room Customization: Use your earned rewards to decorate your virtual room and metaverse space with stylish furniture.\n\nSmart Syncing: Effortlessly sync data directly from Apple Health and other tracking devices.\nOver 2.2 million users have already joined this gamified health journey! \n\nTake care of your sleep, simplify your life with cutting-edge AI features, and design your virtual world every day. Give Sleepagotchi a try today!",
-"likeCount": 135,
-"retweetCount": 26,
-"url": "https://x.com/rame9040/status/2089529274361626712",
-"createdAt": "Tue Aug 18 01:46:15 +0000 2026"
-},
-{
-"userName": "huiying_lii",
-"text": "Nvidia NeMo is coming to PyTorch Conference in San Jose this October — and we’re bringing a lot. 🔥\n\n⚡ Diffusion  \n• Efficient, Large-Scale LoRA and Fine-Tuning for Diffusion Models in PyTorch\n🧠 Agentic AI \n• Multi-Teacher On-Policy Distillation for SOTA Agentic AI Models\n🤖 RL & Post-Training\n• FP8-RL: A Practical and Stable Low-Precision Stack for LLM Reinforcement Learning in NeMoRL\n• Day-0 RL at Scale for Emerging LLM and VLM Architectures with NeMoRL+NeMoAutomodel\n🚀 Models & Ecosystem\n• The Nemotron Ecosystem: Building the Third Generation — Nano, Super, and Ultra\n\nFrom training infrastructure and post-training systems all the way to models. If you’re working on PyTorch, LLM/VLM/diffusion training, RL, or agentic AI, come find us in San Jose. 👋\n\nCheck out our repos now:\nNeMoRL https://t.co/VQrAJjbbAq\nNeMo-Automodel: https://t.co/FWLQXAYGNp\n\n#PyTorchConference #NeMo #ReinforcementLearning #LLM #AgenticAI\n\nSee you in October!",
+"userName": "Robin_T100",
+"text": "What if every Bittensor subnet was viewed as an AI startup instead of a crypto project?\n\nSuddenly you're not looking at one network.\n\nYou're looking at a decentralized AI economy spanning model development, compute, data infrastructure, agentic systems, prediction markets, and specialized AI applications.\n\nThe opportunity becomes much larger than most people realize.\n\nToday, Bittensor has grown into an ecosystem of 128+ active subnets, each competing to solve a specific AI problem while sharing a common incentive layer powered by TAO.\n\nIf these subnets continue to mature and achieve meaningful adoption, the combined opportunity across their target markets could potentially exceed $100B-$200B+ over the coming years.\n\nHere's one way to think about the ecosystem:\n\n AI Model Development\n\nComparable to OpenAI, Anthropic, Mistral, and Hugging Face.\n\nSubnets:\nSN 3, SN 5, SN 9, SN 11, SN 21, SN 29, SN 35, SN 37, SN 38, SN 39, SN 56, SN 58\n\nPotential Market Opportunity:\n$50B+\n\nThese subnets focus on foundation models, reasoning systems, training infrastructure, and advanced AI capabilities that power the next generation of intelligent applications.\n\n Generative AI\n\nComparable to Midjourney, Stability AI, DALL-E, and multimodal AI platforms.\n\nSubnets:\nSN 2, SN 4 (Targon), SN 17, SN 18, SN 19, SN 23, SN 26, SN 46, SN 50, SN 54\n\nPotential Market Opportunity:\n$30B+\n\nText, image, audio, video, and multimodal generation continue to attract massive capital and user adoption globally.\n\n Agentic AI\n\nComparable to OpenAI Agents, Adept, Rabbit, and autonomous workflow platforms.\n\nSubnets:\nSN 1 (Apex), SN 10, SN 20, SN 45, SN 59, SN 62\n\nPotential Market Opportunity:\n$20B+\n\nAI is rapidly moving beyond answering questions toward completing tasks, making decisions, and automating workflows.\n\n Predictive AI & Intelligence Markets\n\nComparable to Numerai, quantitative research firms, forecasting platforms, and AI-powered analytics providers.\n\nSubnets:\nSN 6, SN 28, SN 30, SN 41, SN 44, SN 48, SN 57\n\nPotential Market Opportunity:\n$10B+\n\nPrediction engines, forecasting systems, intelligence networks, and market analytics could become a major AI category.\n\n AI Compute Infrastructure\n\nComparable to CoreWeave, Lambda Labs, Together AI, and GPU cloud providers.\n\nSubnets:\nSN 12, SN 27, SN 51, SN 64\n\nPotential Market Opportunity:\n$15B+\n\nEvery AI breakthrough requires compute. Infrastructure remains one of the most valuable layers in the AI stack.\n\n AI Data Pipelines & Labeling\n\nComparable to Scale AI, Labelbox, and Snorkel AI.\n\nSubnets:\nSN 13, SN 24, SN 33, SN 40, SN 42, SN 52\n\nPotential Market Opportunity:\n$10B+\n\nData remains the fuel behind every successful AI system.\n\n AI Components & Tooling\n\nComparable to Hugging Face, MosaicML, and AI deployment platforms.\n\nSubnets:\nSN 15, SN 31, SN 47, SN 49\n\nPotential Market Opportunity:\n$8B+\n\nThese subnets provide the tools, optimization layers, and infrastructure that help AI systems operate efficiently.\n\n AI-Powered Applications\n\nComparable to Perplexity, Poe, DeepL, BloombergGPT, and other specialized AI software companies.\n\nSubnets:\nSN 8, SN 14, SN 22, SN 32, SN 34, SN 53, SN 54, SN 61\n\nPotential Market Opportunity:\n$8B+\n\nThis is where AI becomes useful for consumers, businesses, and enterprises through practical applications.\n\n Scientific Research (DeSci)\n\nComparable to decentralized research networks and AI-driven discovery platforms.\n\nSubnets:\nSN 25, SN 36, SN 43\n\nPotential Market Opportunity:\n$5B+\n\nAccelerating scientific discovery may become one of AI's most impactful long-term use cases.\n\n Decentralized AI Infrastructure\n\nComparable to foundational infrastructure networks supporting the decentralized AI economy.\n\nSubnets:\nSN 7, SN 16\n\nPotential Market Opportunity:\n$5B+\n\nThese networks help create the foundation for an open and permissionless AI ecosystem.\n\n━━━━━━━━━━━━━━\n\nPotential Opportunity Across Major AI Sectors\n\n• AI Model Development → $50B+\n• Generative AI → $30B+\n• Agentic AI → $20B+\n• Predictive AI → $10B+\n• AI Compute → $15B+\n• Data Infrastructure → $10B+\n• AI Tooling → $8B+\n• AI Applications → $8B+\n• Scientific Research → $5B+\n• Decentralized Infrastructure → $5B+\n\nTotal Potential Opportunity:\n~$161B+\n\nAfter accounting for overlap, competition, execution risk, and adoption uncertainty, a more conservative framework might look like:\n\nLow Case: $100B+\nBase Case: $150B+\nBull Case: $200B+\n\nThe most exciting part?\n\nThis analysis is based on today's subnet economy.\n\nWhat happens when there are 256 subnets?\n\nWhat happens when there are 1,000+ specialized AI markets?\n\nWhat happens when decentralized AI becomes a meaningful part of the global AI economy?\n\nWith a fixed supply of 21 million TAO and a rapidly expanding subnet ecosystem, Bittensor is attempting something few projects have ever attempted:\n\nCreating an open marketplace for intelligence itself.\n\nThe future of AI may not belong to a single company.\n\nIt may belong to a network.\n\nThe figures above represent potential market opportunities and a conceptual framework for analyzing the Bittensor ecosystem. They are not current valuations and should not be interpreted as financial advice or investment recommendations.\n\n#Bittensor #TAO #DecentralizedAI #ArtificialIntelligence #AgenticAI #GenerativeAI #MachineLearning #CryptoAI #AIInfrastructure #Web3 #DePIN #FutureOfAI",
 "likeCount": 11,
 "retweetCount": 0,
-"url": "https://x.com/huiying_lii/status/2089776031330861562",
-"createdAt": "Tue Aug 18 18:06:46 +0000 2026"
+"url": "https://x.com/Robin_T100/status/2090137704294125657",
+"createdAt": "Wed Aug 19 18:03:56 +0000 2026"
 },
 {
-"userName": "_princegupta13",
-"text": "Research papers you must read for AI Engineer interviews -\n\n1. Attention is All You Need (Transformers)\n2. LoRA (Low-Rank Adaptation)\n3. PEFT (Parameter-Efficient Fine-Tuning)\n4. ViT (Vision Transformers)\n5. CLIP (Contrastive Language–Image Pre-training)\n6. InstructGPT / RLHF\n7. BERT (Bidirectional Encoder Representations from Transformers)\n8. Diffusion Models (Stable Diffusion / Latent Diffusion)\n9. RAG (Retrieval-Augmented Generation)\n10. GPT (Generative Pre-trained Transformers)",
-"likeCount": 2,
-"retweetCount": 1,
-"url": "https://x.com/_princegupta13/status/2088324913698607254",
-"createdAt": "Fri Aug 14 18:00:33 +0000 2026"
+"userName": "piotrsankowski",
+"text": "Great news - the AI Act has led to the emergence of a brand-new market! In the past few weeks, tools capable of removing watermarks from AI-generated content have seen a huge increase in popularity. Even though the AI Act appears to be moving in the right direction, as I pointed out recently, the EU still lacks initiatives that actively support its local market. Regulations by themselves aren't sufficient. The only exception appears to be tools designed to erase their very consequences 😉.\n\nHere is a breakdown of what this arms race looks like:\n\n1. To ensure the provenance of AI-generated materials, multiple independent security measures are being used, with companies adopting a multi-layered method that involves both obvious, cryptographically signed metadata - such as that specified by the C2PA standard - and statistical changes at the level of token selection in texts or in the frequency structure of pixels in images.\n\n2. Rather surprisingly, text watermarking tools have no effect on perplexity. Since perplexity indicates how well a language model is able to produce text - the lower the perplexity, the better the model is at predicting the next word in a sentence - this suggests that the text seems more natural, and at the same time implies that the model has more extensive knowledge and is able to generate better responses to prompts.\n\n3. The pressure from regulators to keep track of content provenance has led to a swift reaction among developers. Tools for removing watermarks are becoming increasingly popular. A good example is the GitHub repository watermarks-remover. Just a few days after Anthropic announced its new model safeguards, it obtained more than 10,000 stars. This increase clearly shows a strong demand for systems aimed at hiding the origin of artificial intelligence.\n\n4. Although GitHub tools easily deal with metadata, when it comes to combating token watermarking, they use brute-force approaches such as having the text rewritten by another model. Research has shown that meaning-preserving attacks, such as multiple back-translations, greatly decrease the detectability of watermarks.\n\nIn the case of images the matter is a great deal more complicated. Libraries are now setting up machine learning-based procedures for eliminating pixel alterations, but the encoders that apply these pixels are trained in an adversarial manner to be as resistant to removal as possible. It therefore follows that noise strong enough to destroy such a watermark usually causes serious visual deterioration of the image itself.\n\n5. The imposition of watermarks has deeply divided experts, with the discussions pointing to a fundamental clash between theoretical cybersecurity and the practical usability of AI systems. It is undoubtedly a significant advance to introduce permanent safeguards since this enhances accountability and makes it much easier to combat harmful disinformation.\n\nNevertheless, practice leads to unpleasant side effects for all. Nowadays, these safeguards are built directly into the fundamental predictive structure of language models. Even a brief use of an AI network - such as merely correcting a few commas - results in a permanent artificial signature being added to the whole file. In the end, this will set up major obstacles for scientists and creators, greatly complicating the development of multilingual content.",
+"likeCount": 50,
+"retweetCount": 5,
+"url": "https://x.com/piotrsankowski/status/2089940425369104827",
+"createdAt": "Wed Aug 19 05:00:01 +0000 2026"
 },
 {
-"userName": "psantacl",
-"text": "Evolution built intelligence in five breakthroughs over half a billion years. The AI industry is building the same five in exactly the reverse order. My review of Max Bennett's extraordinary \"A Brief History of Intelligence\". https://t.co/Cx1DSMaHrh",
-"likeCount": 10,
+"userName": "LxngevityLab",
+"text": "Bryan Johnson just revealed he has permanent damage to the glands that keep his eyes healthy, and most people who have it NEVER notice.\n\nHere's the hidden problem and how to catch it early:\n\nIt's called meibomian gland dysfunction. \n\nInside your eyelids sit about 60 tiny oil glands per eye. \n\nEvery blink, they spread a thin layer of oil over your eyes to stop your tears from drying out too fast.\n\nThese glands clog from almost everything in modern life:\n\n+ Age\n+ Screens\n+ Contact lenses\n+ Dry air\n+ A long list of common medications\n\nWhen one stays clogged too long, the cells inside die and the gland shrivels up for good. \n\nDoctors treat that loss as permanent.\n\nOnce enough are gone, your tears evaporate too fast, and it shows up as:\n\n+ Blurry text\n+ Glare when you drive at night\n+ Light sensitivity\n+ Watery eyes\n+ A gritty, burning feeling\n\nLeft long enough, it can scar your eye and cost you your vision.\n\nThe dangerous part is that it gives you no warning. \n\nIn a large review of studies, around 73% of people with it had zero symptoms. \n\nBy the time your eyes feel bad, most of the damage is already done. \n\nAnd it's hitting younger people now, because staring at screens makes you blink less, and fewer blinks means the glands clog faster.\n\nSigns to watch for, especially after 40:\n\n+ Burning or a gritty feeling\n+ Vision that blurs, then clears when you blink\n+ Watery eyes\n+ Red, crusty, or bumpy eyelid edges\n+ Recurring styes\n+ Contacts that stopped feeling comfortable\n+ Worse on screens, planes, or in AC\n\nIf that sounds like you, get your glands checked. \n\nMost eye doctors won't bring it up, so if they just hand you drops and send you home, find another one. \n\nYou want a doctor who will:\n\n+ Image your glands (called meibography)\n+ Test your tears\n+ Count how many glands you have left\n\nCaught early, most people do well with the basics:\n\n+ Warm compresses on the eyes\n+ Keeping your lids clean\n+ Blinking fully and more often, especially on screens\n\nFor worse cases, intense pulsed light (IPL) has solid research behind it.\n\nYour eyes can lose these glands for years while you feel fine, and once they're gone they don't come back. \n\nCheck early, blink more, and treat it before it's permanent.\n\nThis is educational only, not medical advice. If your eyes are irritated, see an eye doctor who works with meibomian glands.",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/LxngevityLab/status/2090098944797729131",
+"createdAt": "Wed Aug 19 15:29:55 +0000 2026"
+},
+{
+"userName": "monicaa_AI",
+"text": "30 free datasets to practice AI/ML on (no more Titanic dataset) 📊\nSearch Engines for Datasets\n\n1. https://t.co/pc40pAAXh0 — Google's dataset search engine\n2. https://t.co/FlHW78VHNK — Thousands of shareable ML datasets\n3. https://t.co/GOdkUEraG0 — NLP, vision & LLM fine-tuning data\n4. https://t.co/atZjqt3jNG — Datasets tied to research papers\nClassic ML Repositories\n5. https://t.co/l7dXduQTHF — 600+ curated, research-grade datasets\n6. https://t.co/Nm0MbSfWzN — 200K+ community-uploaded datasets\n7. https://t.co/BFSqloWh70 — US government open data\n8. https://t.co/WXY4Dypk0x — EU government open data\nComputer Vision\n9. COCO Dataset — Object detection & segmentation\n10. ImageNet — 14M+ labeled images\n11. CIFAR-10/100 — Classic image classification benchmark\n12. Open Images Dataset (Google) — 9M+ annotated images\n13. LAION-5B — Massive image-text pairs for generative AI\nNLP & LLMs\n14. Common Crawl — Petabytes of raw web text\n15. The Pile (EleutherAI) — 800GB curated text for LLM training\n16. IMDb Reviews — Sentiment analysis benchmark\n17. SQuAD — Question-answering benchmark\n18. Amazon Reviews Dataset — Millions of product reviews\nFinance & Economics\n19. Yahoo Finance API — Historical stock data\n20. World Bank Open Data — Global economic indicators\n21. Lending Club Loan Data — Credit risk modeling\n22. Credit Card Fraud Detection (Kaggle) — Fraud classification practice\nHealthcare\n23. MIMIC-III — De-identified ICU patient data\n24. CDC WONDER — US public health statistics\n25. COVID-19 Data Repository (JHU) — Historical pandemic tracking data\nGeospatial & Climate\n26. NASA Earthdata — Satellite & climate datasets\n27. OpenStreetMap — Global map & location data\n28. NOAA Climate Data — Historical weather records\nRecommendation Systems\n29. MovieLens — Classic movie ratings dataset\n30. H&M Personalized Fashion Dataset — Real e-commerce recommender data\nSkip the Titanic dataset. \n\nBuild something that actually looks good on a portfolio. 🔖\n\nFollow @monicaa_AI for more free tools, AI resources & datasets worth knowing. 🚀",
+"likeCount": 37,
+"retweetCount": 27,
+"url": "https://x.com/monicaa_AI/status/2090256197870035291",
+"createdAt": "Thu Aug 20 01:54:47 +0000 2026"
+},
+{
+"userName": "clipsofcrypto",
+"text": "Tarun on how AI training evolved from pre-training to self generating harnesses and why data costs are catching up to compute\n\n\"Let's take a tiny history lesson. In 2023, with stable diffusion and GPT-3, it was just bigger is better, pre-training. Then in 2024 it was directed RL, how you feed the data after training, this in context learning type of stuff, which got you another order of magnitude performance increase across a lot of evals and practical use cases\"\n\n\"Then the harness thing was, if you customize how you do the RL for different applications, you get even better performance versus a generic RL environment. And the current meta-harness, the generic can answer anything, Claude Code or Codex type of thing, which arguably is what killed Cursor and why I'd argue they ended up doing the acquisition, that can figure out which environment to use just in time\"\n\n\"The problem with this environment stuff from a data consumption perspective is you now have to pay a lot more for annotated data to customize the different environments. That's why people have been talking about data cost coming close to matching compute cost for training, because you need much more annotated data for each specific task domain\"\n\n\"The belief is that once one of these things is good enough, instead of having to get data this way and generating synthetic data via RL, the model can generate the harness in real time\"",
+"likeCount": 12,
+"retweetCount": 0,
+"url": "https://x.com/clipsofcrypto/status/2089527733089100223",
+"createdAt": "Tue Aug 18 01:40:07 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Something super exciting happened quietly on HF over the past month: AI agents became AI builders, and they did it in the open!\n\nDuring our ICML reproduction challenge, 1,221 humans teamed up with coding agents to verify and reproduce 2,226 papers. \n\nBut here's the cool part: everything happened on the @huggingface hub: 6,816 reproduction logbooks published openly, 2,962 cloud jobs launched, 35,908 claims judged, all traceable, all public and transparent\n\nFor years the hub has been where humans collaborate on models, datasets and demos. Now we watch agents use it the same way: writing logbooks, publishing results, building on each other's work.\n\nClosed labs run evals behind closed doors and ask you to trust the press release. Open science means anyone can check the receipts and now agents can too!\n\nThe next million users of the hub might not be human. and that might be the best thing to ever happen to science!\n\nFull write-up about the hackathon: https://t.co/8cgVzzEJnB",
+"likeCount": 346,
+"retweetCount": 55,
+"url": "https://x.com/ClementDelangue/status/2089706077667377316",
+"createdAt": "Tue Aug 18 13:28:48 +0000 2026"
+},
+{
+"userName": "PSA_Austria",
+"text": "🌐↻ ·\n\nFor anyone who still hasn’t found their way out of Paragon Hall, you can come hang around at Fashion Hall for another round at THE NEW XPENG L03 EXCLUSIVE DEBUT.\n\n#THENEWXPENGL03 Next-Gen AI SUV COUPE under the concept #BornIntelligent, born for the new generation.\n\nSiam Paragon, Fashion Hall, 1st Floor | 18 Aug | 5:00–8:00 PM\n\n#THENEWL03 #XPENGThailand #XPENG #เพิร์ธแซนต้า #SiamParagon",
+"likeCount": 9,
 "retweetCount": 2,
-"url": "https://x.com/psantacl/status/2088264670465401087",
-"createdAt": "Fri Aug 14 14:01:10 +0000 2026"
+"url": "https://x.com/PSA_Austria/status/2088507107481907376",
+"createdAt": "Sat Aug 15 06:04:31 +0000 2026"
 },
 {
-"userName": "timboloman",
-"text": "AI watermarks can carry more than provenance. Explore hidden data, covert channels, code backdoors, model bias, and open-weight watermark removal. https://t.co/DqzoBeRNyo",
-"likeCount": 5,
+"userName": "jeremyphoward",
+"text": "After leaving AI to do a masters in immunology and start a 2nd PhD (in microbiology) I'm beyond thrilled that @math_rachel is returning to her original AI home! 🥳\n\nShe founded the Center for Applied Data Ethics *years* before most people realised AI would transform everything.",
+"likeCount": 630,
+"retweetCount": 27,
+"url": "https://x.com/jeremyphoward/status/2089470309699403816",
+"createdAt": "Mon Aug 17 21:51:56 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "The amazingly fast (only 30M!) and extremely accurate @answerdotai ColBERT model is now supported in Sentence Transformers to make it easy to create and query embedding indexes locally directly in Python! 🥳",
+"likeCount": 485,
+"retweetCount": 52,
+"url": "https://x.com/jeremyphoward/status/2089817361604063739",
+"createdAt": "Tue Aug 18 20:51:00 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @huggingface: We've just surpassed 3 million models on the Hub 🤗\n\nthe community is accelerating towards an open, distributed future wher…",
+"likeCount": 955,
+"retweetCount": 106,
+"url": "https://x.com/ClementDelangue/status/2089683648391925760",
+"createdAt": "Tue Aug 18 11:59:40 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @simonw: Here’s my review of Qwen 3.8 27B - I can't remember the last time I've had this much fun playing with a local model that runs o…",
+"likeCount": 2677,
+"retweetCount": 226,
+"url": "https://x.com/ClementDelangue/status/2089119153378517019",
+"createdAt": "Sun Aug 16 22:36:34 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @ziv_ravid: How Anthropic's new results post would read without the PR:\n\nClaude orchestrated open-source protein design models,  PXDesig…",
+"likeCount": 2128,
+"retweetCount": 235,
+"url": "https://x.com/jeremyphoward/status/2090331070516678744",
+"createdAt": "Thu Aug 20 06:52:18 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @_NathanCalvin: I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continu…",
+"likeCount": 233,
+"retweetCount": 28,
+"url": "https://x.com/jeremyphoward/status/2089826104173588590",
+"createdAt": "Tue Aug 18 21:25:44 +0000 2026"
+},
+{
+"userName": "Ayush_07_10",
+"text": "From a single generated face to a full AI influencer that pays you every month. https://t.co/XE9ZVDNjoh",
+"likeCount": 4,
 "retweetCount": 1,
-"url": "https://x.com/timboloman/status/2087558977890529336",
-"createdAt": "Wed Aug 12 15:16:59 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: Introducing NVIDIA Nemotron 3.5 Lightning⚡\n\nAn open 30B MoE model with 3B active parameters, built for always-on agents to co…",
-"likeCount": 5736,
-"retweetCount": 660,
-"url": "https://x.com/ClementDelangue/status/2087514878970077677",
-"createdAt": "Wed Aug 12 12:21:45 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @kimmonismus: Qwen 27B is the \"DeepSeek moment\" for open source.\n\nIt matches the closed-source state-of-the-art from just a few months a…",
-"likeCount": 1078,
-"retweetCount": 81,
-"url": "https://x.com/ClementDelangue/status/2089763826195374482",
-"createdAt": "Tue Aug 18 17:18:16 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: We just released TensorRT Model Connect in Public Preview.\n\nYou can take a supported @huggingface model to end-to-end TensorR…",
-"likeCount": 463,
-"retweetCount": 56,
-"url": "https://x.com/ClementDelangue/status/2089757142144200825",
-"createdAt": "Tue Aug 18 16:51:43 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @minchoi: You can literally run Opus 4.6 Max-level intelligence on a MacBook Pro.\n\nLocally. https://t.co/wivWpOovFR",
-"likeCount": 3506,
-"retweetCount": 191,
-"url": "https://x.com/ClementDelangue/status/2088678025051410741",
-"createdAt": "Sat Aug 15 17:23:41 +0000 2026"
+"url": "https://x.com/Ayush_07_10/status/2089252100689760327",
+"createdAt": "Mon Aug 17 07:24:51 +0000 2026"
 },
 {
 "userName": "Ambani_Wessley",
-"text": "https://t.co/ALDbe4d69I",
-"likeCount": 102,
-"retweetCount": 104,
-"url": "https://x.com/Ambani_Wessley/status/2089395038178427192",
-"createdAt": "Mon Aug 17 16:52:50 +0000 2026"
-},
-{
-"userName": "AbhijayArora",
-"text": "https://t.co/1ihaEr0svl",
-"likeCount": 4,
-"retweetCount": 2,
-"url": "https://x.com/AbhijayArora/status/2089396492394254784",
-"createdAt": "Mon Aug 17 16:58:37 +0000 2026"
+"text": "Time to update your influencer game with Apob AI https://t.co/owERuhWXte",
+"likeCount": 123,
+"retweetCount": 126,
+"url": "https://x.com/Ambani_Wessley/status/2089784560745660426",
+"createdAt": "Tue Aug 18 18:40:40 +0000 2026"
 }
 ]
