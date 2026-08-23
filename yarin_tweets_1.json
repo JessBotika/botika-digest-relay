@@ -8,91 +8,107 @@
 "createdAt": "Thu Aug 20 18:24:45 +0000 2026"
 },
 {
-"userName": "Adidotdev",
-"text": "🚨 Ox Alpha isn’t just a mystery model anymore -  it’s a pattern\n\n5th anonymous “stealth” model to appear in 6 months.\nThe last 4? All Chinese labs. Zhipu, Xiaomi, Ant Group, Meituan.\nEvery single one.\n\nThe evidence on this one:\n\n• Tokenizer fingerprint matches GLM-5.3 almost exactly (off by a constant 75-token wrapper, every time)\n• Video encoder spends identical token budgets to GLM-5V-Turbo\n• Early DeepSWE coding runs look extremely strong (one 10-task subset hit 80% vs Fable 5’s 65% / GPT-5.6 Sol’s 52%)\n• 1M context, text + image + video, reasoning built in\n• Nous Research claiming capacity for 1 quadrillion tokens/day\n\nMultiple independent fingerprinting teams are landing on the same conclusion. Researcher Ben Davis is at 99%.\n\nFree period ends around Aug 27. That’s usually when the lab steps forward.\n\nNo one burns this much compute on a free trial for fun.\n\nWhat’s actually being tested at this scale?",
-"likeCount": 15,
+"userName": "hollyyy",
+"text": "Physical AI has a data problem. LLMs had the entire internet to learn from. Robots don’t have that luxury.\n\nA robot learning to grasp an object, pour water or navigate a room needs much more than videos. It needs actual action data ~ movement, positioning, contact forces, joint states and 6-DoF poses.\n\nCollecting all of this in the real world is expensive, slow and difficult to scale.\n\nThis is the problem @axisrobotics is trying to solve.\n\nThe idea is surprisingly simple:\n\n-> Open Axis in your browser\n-> Connect your wallet\n-> Control a simulated robotic arm\n-> Complete tasks almost like playing a game\n-> Every successful task becomes a verified data trajectory\n-> Those trajectories can be used to build datasets for Physical AI\n-> Contributors are rewarded on Base\n\nBut the part I find interesting isn't really the game.\nIt's the distribution model behind it.\n\nTraditional teleoperation requires physical robots, workstations and human operators. If you want 10x more data, you basically need significantly more hardware and labor.\n\n@axisrobotics is trying to change that equation.\nInstead of bringing humans to robots, they bring simulated robots to humans through the browser.\nPotentially thousands of contributors can generate different trajectories from different environments without owning a robot themselves.\n\nAnd simulation solves another important problem. Internet video might show a robotic arm picking up a cup, but the video doesn't naturally give a model all the underlying information about forces, joints and precise spatial movement required to reproduce that action.\n\nSimulation can.\n\nMy bet is that robotics data networks will become much more important over the next few years.\n\nCompute is becoming easier to access and models will continue improving, but useful Physical AI still needs enormous amounts of diverse interaction data. The projects that figure out how to collect that data cheaply and at global scale could end up owning a very valuable layer of the robotics stack. That’s why I’m following Axis. Today it looks like a browser game where you control virtual robots.\n\nLong term, I think the more interesting question is whether @axisrobotics can turn thousands of people doing these tasks into a continuously growing data engine for Physical AI.\n\nIf they can, the game is just the interface. The dataset is the real product.\n\nTry it here:\nhttps://t.co/z8xrZPL60R",
+"likeCount": 149,
+"retweetCount": 10,
+"url": "https://x.com/hollyyy/status/2090816079148744968",
+"createdAt": "Fri Aug 21 14:59:33 +0000 2026"
+},
+{
+"userName": "Kaiserwsf",
+"text": "MEET THE AI GIRL WHO PLAYS TENNIS FOR A LIVING — AND SHE'S NEVER LOST\n\nShe trains, competes, and racks up wins on camera. The catch: she doesn't exist.\n\nHere's how the \"AI athlete\" model actually works:\n\nAn AI girl persona is built with a consistent face, body, and personality using image/video generation tools. Instead of lifestyle or fashion content, her niche is sport — match highlights, training vlogs, \"behind the scenes\" prep, rackets and outfits, rivalries with other AI athletes.\n\nThe mechanism is simple: physical talent doesn't need to be real, only the narrative around it does. Generated match clips, fake tournament brackets, and AI commentary create a storyline fans follow like a real career.\n\nHow she earns:\n\nSponsorship deals with sportswear/equipment brands looking for cheap, controllable \"athletes\"\nPaid fan subscriptions for exclusive training content and match reactions\nLicensing her face/likeness to sports betting or fantasy-sim apps\nSelling a personal \"AI coach\" app trained on her persona\nNFT/collectible drops tied to her \"career milestones\" (Grand Slam wins, rankings)\n\nThe twist: her fanbase doesn't care that she's never held a racket — they're not following an athlete, they're following a story that updates on schedule",
+"likeCount": 12,
 "retweetCount": 0,
-"url": "https://x.com/Adidotdev/status/2090943816119492871",
-"createdAt": "Fri Aug 21 23:27:08 +0000 2026"
+"url": "https://x.com/Kaiserwsf/status/2089717242430738750",
+"createdAt": "Tue Aug 18 14:13:10 +0000 2026"
 },
 {
-"userName": "shhotsAI",
-"text": "real estate agents can now save $1000+ on home tours and virtual staging\n\nhere is how👇\n1. create property on Real Estate Studio on Shhots AI\n2. pick the images and order\n3. AI writes the script (you can edit)\n4. include agent name, address, price in the script\n\nhit generate ✨\n\nthat's the whole workflow, try it today!\n\nuse code AGENT20 to get 20% OFF on Pro and Scale plans 🔥",
-"likeCount": 14,
+"userName": "riyadrafi50",
+"text": "How to work on @axisrobotics ? \n\nI made a quick video showing the process step by step.\n\nYou basically:\n\n1. Open Axis\n2. Choose a task\n3. Control the virtual robot\n4. Complete the required action\n5. Submit & sign your contribution on Base\n\nYour completed task generates a trajectory that contributes to Physical AI training data.\n\nIf you want to try it, join through my referral:\nhttps://t.co/6OHc6MCcof\n\nWatch the video and try it yourself.\n\n#AxisRobotics #PhysicalAI #Kaito",
+"likeCount": 38,
+"retweetCount": 3,
+"url": "https://x.com/riyadrafi50/status/2090839777683878343",
+"createdAt": "Fri Aug 21 16:33:43 +0000 2026"
+},
+{
+"userName": "EssamOptNames",
+"text": "🤖👗 https://t.co/WfLbAKgXSq — A premium .com domain for an AI-powered personal stylist.\nImagine an AI that analyzes your wardrobe, understands your style, and recommends the perfect outfit for every occasion.\n🤖 Built for the next generation of AI fashion, styling & wardrobe-tech startups.\n#AI #FashionTech #GenerativeAI #PersonalStylist #FashionAI #Startups #Founders #CEOs #Entrepreneurs #SaaS #AITech #Ecommerce #FashionStartup #DomainNames",
+"likeCount": 5,
 "retweetCount": 2,
-"url": "https://x.com/shhotsAI/status/2090503677601783931",
-"createdAt": "Thu Aug 20 18:18:11 +0000 2026"
-},
-{
-"userName": "mikepat711",
-"text": "Here's a Grok Bot step-by-step for how I fixed my inbox and setup a lifetime automation for keeping it clean.\n\nThis workflow is done now, and this will be my last post about it, but many asked how to do it, so here is the final summary. https://t.co/FKHeTUyVkQ",
-"likeCount": 69,
-"retweetCount": 5,
-"url": "https://x.com/mikepat711/status/2090443789642895721",
-"createdAt": "Thu Aug 20 14:20:12 +0000 2026"
+"url": "https://x.com/EssamOptNames/status/2090854752900780122",
+"createdAt": "Fri Aug 21 17:33:13 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "2018: \nHF is building a chatbot for teens\nOpenAI is building Open AI\n\n2026:\nHF is building Open AI\nOpenAI is building a chatbot for teens https://t.co/phyCqUHgV4",
-"likeCount": 800,
+"text": "NVIDIA built its own coding harness to optimize CUDA GPU kernels and achieved a 100% score on ARC-AGI-3’s 25 public games, solving all 183 levels.\n\nWith agents, we'll move from a world where it's quite hard to run, optimize, post-train your own AI models and kernels to a world where virtually everybody can do it. \n\n100 million AI builders when?",
+"likeCount": 314,
 "retweetCount": 48,
-"url": "https://x.com/ClementDelangue/status/2090071736121196649",
-"createdAt": "Wed Aug 19 13:41:48 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2091273855415492806",
+"createdAt": "Sat Aug 22 21:18:35 +0000 2026"
+},
+{
+"userName": "arvinaq",
+"text": "https://t.co/EoTLZPkLiY looks like another AI video generator. The more interesting product is its distribution machine: paid search, competitor terms, localized pages, affiliates, and creator campaigns.\n\nThe growth is impressive. Trust is the real test. https://t.co/O37aAagdOC",
+"likeCount": 10,
+"retweetCount": 1,
+"url": "https://x.com/arvinaq/status/2090643204161122784",
+"createdAt": "Fri Aug 21 03:32:36 +0000 2026"
+},
+{
+"userName": "ClassicsCrypto",
+"text": "For 3 years, @niftyisland gave our community somewhere to meet, build, compete, stream, fish, raid, and occasionally break things.\n\nThe platform has closed. The work, friendships, and worlds we made there deserve to live on... https://t.co/2PHCoT8YuU",
+"likeCount": 93,
+"retweetCount": 39,
+"url": "https://x.com/ClassicsCrypto/status/2090532061664747540",
+"createdAt": "Thu Aug 20 20:10:58 +0000 2026"
+},
+{
+"userName": "0xNevsky",
+"text": "You're generating random AI faces and getting 47 views. One guy locked a single character and cleared $14,900 last month. Here's what you're doing wrong. https://t.co/tw4s7U2XuG",
+"likeCount": 10,
+"retweetCount": 1,
+"url": "https://x.com/0xNevsky/status/2088956231700414575",
+"createdAt": "Sun Aug 16 11:49:11 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @superwhisper: Introducing S1-mini ✨\n\nOur first open-weights language model.\n\nA 0.6B parameter model that processes transcripts entirely…",
-"likeCount": 3606,
-"retweetCount": 254,
-"url": "https://x.com/ClementDelangue/status/2090284278869352792",
-"createdAt": "Thu Aug 20 03:46:22 +0000 2026"
+"text": "RT @Alibaba_Qwen: Huge thanks to the whole community! Qwen3.8-27B is now the #1 trending model on Hugging Face! 🏆 Try it out and let us kno…",
+"likeCount": 3363,
+"retweetCount": 145,
+"url": "https://x.com/ClementDelangue/status/2089072006595489999",
+"createdAt": "Sun Aug 16 19:29:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @kimmonismus: Qwen 27B is the \"DeepSeek moment\" for open source.\n\nIt matches the closed-source state-of-the-art from just a few months a…",
-"likeCount": 1322,
-"retweetCount": 92,
-"url": "https://x.com/ClementDelangue/status/2089763826195374482",
-"createdAt": "Tue Aug 18 17:18:16 +0000 2026"
+"text": "RT @amir: open source AI is...happening? :)\n\nAnthropic &amp; OpenAI better hope AT&amp;T is the exception, not the rule https://t.co/Bc2KwCTMh1",
+"likeCount": 618,
+"retweetCount": 62,
+"url": "https://x.com/ClementDelangue/status/2090541128571371672",
+"createdAt": "Thu Aug 20 20:47:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @DavidSacks: Harvey is a great example of how American companies are building world-class specialized models: they took an open-source b…",
-"likeCount": 6474,
-"retweetCount": 487,
-"url": "https://x.com/ClementDelangue/status/2090797790871830608",
-"createdAt": "Fri Aug 21 13:46:53 +0000 2026"
+"text": "RT @chadwahl: I think 90% of the conversations I am having with executives in the last two weeks they have told me they are reducing spend…",
+"likeCount": 987,
+"retweetCount": 89,
+"url": "https://x.com/ClementDelangue/status/2091288358764880214",
+"createdAt": "Sat Aug 22 22:16:13 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @ziv_ravid: How Anthropic's new results post would read without the PR:\n\nClaude orchestrated open-source protein design models,  PXDesig…",
-"likeCount": 2268,
-"retweetCount": 252,
-"url": "https://x.com/jeremyphoward/status/2090331070516678744",
-"createdAt": "Thu Aug 20 06:52:18 +0000 2026"
+"userName": "ClementDelangue",
+"text": "throwback from @rachelmetz https://t.co/JLFdVFlwVa",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/ClementDelangue/status/2090086763901452399",
+"createdAt": "Wed Aug 19 14:41:31 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @_NathanCalvin: I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continu…",
-"likeCount": 235,
-"retweetCount": 28,
-"url": "https://x.com/jeremyphoward/status/2089826104173588590",
-"createdAt": "Tue Aug 18 21:25:44 +0000 2026"
-},
-{
-"userName": "Ambani_Wessley",
-"text": "Time to update your influencer game with Apob AI https://t.co/owERuhWXte",
-"likeCount": 125,
-"retweetCount": 126,
-"url": "https://x.com/Ambani_Wessley/status/2089784560745660426",
-"createdAt": "Tue Aug 18 18:40:40 +0000 2026"
-},
-{
-"userName": "Grayscale",
-"text": "https://t.co/XfQm058sS2",
-"likeCount": 436,
-"retweetCount": 97,
-"url": "https://x.com/Grayscale/status/2090467500009906281",
-"createdAt": "Thu Aug 20 15:54:25 +0000 2026"
+"userName": "apob_ai",
+"text": "https://t.co/bhbBiLOwUU",
+"likeCount": 13,
+"retweetCount": 1,
+"url": "https://x.com/apob_ai/status/2091088085761343639",
+"createdAt": "Sat Aug 22 09:00:24 +0000 2026"
 }
 ]
