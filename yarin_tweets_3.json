@@ -1,51 +1,43 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
-"likeCount": 7,
-"retweetCount": 3,
-"url": "https://x.com/junfanzhu98/status/2091416256205488328",
-"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
+"userName": "ElijahSchaffer",
+"text": "The 3rd world ruined X algorithms & payouts have rewarded the lowest quality content from the laziest \"creators\" sharing the same clips w/ no added context\n\nThe more you try to create original content, the less you see growth, financial incentives, & often can't find your audience that already follows you\n\nSocial media used to be about expressing authenticity & that's why people loved it. The public followed you to hear your genuine thoughts & understand how you came to those conclusions. Every niche was available. \n\nOne day you could give a rant on the Iran War and the next moment you could be playing piano. It was never about the money or clout. YouTube's own motto used to be \"express yourself\"\n\nBut then the money started flowing, the followers started rising, advertisers & governments demanded censorship to remain \"brand safe\" and greedy people saw the opportunity to produce content like they were a machine instead of a human being. \n\nCorporations soon followed to control the \"talent\" and now our online experience is a curated algorithm intended to lower our IQs and keep us consuming low quality content that fries our dopamine receptors. \n\nBut it seems people are picking up on the scam. The 3rd world came on the coat tails, feeding us AI fruit videos and AI voice over movie clips - as a result the consumers are checking out.\n\nWhat was meant to be an answer to challenging the MSM & providing personalized content Hollywood refused to deliver ended up becoming the new mainstream slop factory. \"Creators\" are now just actors putting on a show & it's clear the public understands what happened, rejecting the current content & instead going back to the movies, watching Apple TV & focusing on health / wellness in the real world.\n\nAt least with Hollywood you know what you're consuming is fake, there's no LARPING trad wives or bald red pill gurus giving you pointless advice that clouds your mind with black pills & fantasies of life you'll never live. \n\nBut something is changing in all the authentic producers of online content still lurking in the shadows of the broken code poisoning boomers on Facebook & impressionable minds on TikTok. \n\nThey're realizing that re-hashing the same Fox News clips on X or following the same dance trends on Instagram are neither fulfilling personally nor adds anything meaningful to the world \n\nThe desire to hear real people, genuine opinions, and explore interests outside of politics, gossip, & nothingness seems to be brewing in the masses. I'm not sure where this industry is going, but I'll never give into the temptation to sellout and stop being a real, openly flawed, complex human being.\n\nWe are so online and attached to this toxic simulation we often forget to remain grounded. The fix to this is focusing less on the conversations the algo is pushing, stop comparing yourself to people who are faking their day to day, and start becoming a better version of yourself, whether you're posting content online or not. \n\nPrivacy is a thing of the past with Flock cameras, data centers, & self driving cars with AI cameras built into the cabins. But one thing we've lost and need to gain back, is improving our genuine selves for the sake of finding peace and aligning with God's plan for our lives.\n\nNo audience needed. The world isn't worth trying to please. The social media algorithms aren't our God. A virtual rebirth is upon us. Don't miss out by staying black pilled. Instead of likes, followers, & constant breaking news - pursue spiritual wholeness, physical wellness, quality relationships IRL, & explore the things that drive creativity, help you express your heart, and are the pillars of Western Civilization.\n\nThe next renaissance isn't in a great hall or public square, it's inside your heart, soul and mind. So I'm just going to continue posting online who I am in the real world. Take it or leave it. Life is better lived free from corporate control, financial handcuffs & to please people you've never met that will never accept the real you. Spontaneous song writing is one of my favorite things to do every day in between tasks, going to share more of it because the news cycle takes more from us than it gives. Music is healing. Find what you love to do and share it with the world so content gets back to what it was intended to do, connect & unite us in our isolated little lives.",
+"likeCount": 91,
+"retweetCount": 1,
+"url": "https://x.com/ElijahSchaffer/status/2090871424143499542",
+"createdAt": "Fri Aug 21 18:39:28 +0000 2026"
 },
 {
-"userName": "Rosey_watson",
-"text": "AI-powered sportswear, engineered for the next generation. ⚡️\nTEAM AI , Play With Intelligence 🤝\nGenerated this with @budgetpixel \n\nPrompt \n15-SECOND PREMIUM SPORTS JERSEY COMMERCIAL — TEAM AI\n\nCreate a 15-second ultra-premium sportswear advertisement showcasing a sophisticated performance jersey available in three signature colorways: black, pink, and white, each featuring a refined front logo reading “TEAM AI.”\n\nThe entire film should look like a high-budget international sportswear campaign with elite cinematography, premium studio lighting, realistic fabric physics, sophisticated product styling, dynamic camera movement, and photorealistic detail.\n\n0–3 SEC — BLACK | POWER\n\nOpen with an extreme macro shot of the black TEAM AI jersey suspended in a dark premium studio.\n\nA controlled breeze gently moves the fabric. Dramatic directional lighting reveals the jersey's technical weave, stitching, breathable panels, and subtle texture.\n\nCamera slowly pushes toward the chest area, revealing the elegant TEAM AI logo.\n\nDeep shadows, sharp highlights, powerful athletic mood.\n\n3–6 SEC — PINK | ENERGY\n\nSeamless cinematic transition into the pink TEAM AI jersey.\n\nThe jersey rotates slowly in mid-air as soft studio light sweeps across the fabric.\n\nClose-up details reveal the premium stitching, athletic cut, smooth collar, sleeve construction, and subtle fabric texture.\n\nThe TEAM AI logo remains perfectly sharp and centered.\n\nBright, energetic, modern sports-fashion aesthetic.\n\n6–9 SEC — WHITE | PRECISION\n\nMatch-cut into the white TEAM AI jersey.\n\nThe camera glides around the jersey in elegant slow motion while the fabric naturally responds to subtle airflow.\n\nClean white studio environment with sophisticated shadows and controlled highlights.\n\nMacro detail of the fabric weave and embroidered TEAM AI logo creates a premium luxury-sportswear feel.\n\n9–12 SEC — THREE-COLOR HERO SHOT\n\nAll three jerseys—black, pink, and white—appear together in a dramatic triangular composition.\n\nThe camera performs a smooth cinematic orbit around them.\n\nThe three colorways move subtly as if suspended in a professional product studio.\n\nBlack represents power, pink represents energy, and white represents precision.\n\nPremium lighting creates elegant reflections and dimensional fabric shadows.\n\n12–15 SEC — FINAL BRAND REVEAL\n\nThe three jerseys transition into a clean hero composition against a sophisticated minimalist background.\n\nThe TEAM AI logo is clearly visible on every jersey.\n\nCamera slowly pushes forward as a refined light sweep travels across the three products.\n\nElegant final typography appears:\n\nTEAM AI\nPLAY WITH INTELLIGENCE.\n\nHold the final frame for a clean, premium brand finish.\n\nVISUAL STYLE\n\nLuxury international sportswear campaign, premium athletic-fashion commercial, photorealistic product cinematography, cinematic 4K/8K quality, realistic technical fabric, physically accurate cloth movement, detailed stitching, premium embroidery, sophisticated studio lighting, dramatic highlights, soft shadows, shallow depth of field, macro product shots, smooth motion-control camera movement, elegant transitions, high-end color grading, polished commercial aesthetic, modern athletic identity, professional advertising photography.\n\nPRODUCT REQUIREMENTS\n\nThree distinct jersey colorways: matte black, vibrant premium pink, and clean white.\n\nThe front logo must consistently read exactly:\n\nTEAM AI\n\nLogo should be crisp, centered, professionally integrated into the jersey design, and remain consistent across all shots.\n\nJerseys should feature a modern athletic silhouette, premium breathable fabric, refined collar, realistic seams, professional stitching, subtle performance-panel detailing, and an unmistakably high-end sportswear finish.",
-"likeCount": 344,
-"retweetCount": 6,
-"url": "https://x.com/Rosey_watson/status/2091093197237665811",
-"createdAt": "Sat Aug 22 09:20:43 +0000 2026"
+"userName": "copenzafan",
+"text": "Elon Musk (Super) Created a New ChatGPT\n\nI changed my mind about Grok in the most expensive and coolest way possible, through Grok Bot.\n\nI paid an extra $100 for the subscription so I could try their new product, an autonomous agent. I had just been building Pi, and I’ve been using Hermes for a long time already.\n\nAnd you know what’s cool? \n\nWhen the Grok Build agent creates an app for itself so Grok Bot can run on Linux.\n\nWithin five minutes, I had a working window on my machine and opened my Meet Grok Bot. In other words, I had already started building my own personal agent.\n\nThen I started giving it its first audits while I was still going through the Grok Bot onboarding and learning how it worked.\n\nGrok went online with no instructions or skills, found all the relevant bug reports and references on its own, and fixed the issues.\n\nThat surprised me. Their starter harness understood the full chain of actions needed for a fix. It sounds obvious, but many agents, including Claude, are too overconfident and too lazy.\n\nWhat disappointed me, though, was how much the subscription tier affects the model’s reasoning. The demo behind the Twitter checkmark, without a Super subscription, didn’t even understand its own browser use.\n\nBut everyone does this kind of “manipulation,” so I’m not going to take karma away from the authors. That’s not the important part.\n\nWhat matters is that, in the best ChatGPT tradition, computer use is applied immediately. The agent looks at the app, analyzes it, and tests hypotheses.\n\nThen I had a wild experience. After getting the initial context, including the apps I need, the agent started a conversation with me on its own. They configured the agent to be proactive.\n\nIt immediately asks questions and runs a short interview to bring you up to speed. I don’t personally need that, but it might be the best onboarding into working with agents that I’ve seen.\n\nI was genuinely shocked when I realized I could see the virtual desktop the agent sees on the right, and throw routines and recurring tasks straight onto it.\n\nThe whole design is built to take control away from you, so everything gets handled by itself. That’s the meta in AI right now. Every top model is being designed around this exact idea.\n\nI’m still a control freak, though. But I understand why this approach will feel absolutely insane to most people.\n\nOn the other hand, I can organize work across branches, chats, and agents. That also makes sense to me and feels familiar, but I have to give them credit for the minimalist design. I absolutely love that.\n\nSo overall, my impression is extremely positive. If you haven’t used AI before and you’re ready to spend hundreds of dollars, this is for you.\n\nWhat I really, really loved about this workflow is that you just keep messaging the agent. It sees the message and immediately picks it up as work.\n\nThe lack of commands and buttons makes me a little uneasy, but that’s the whole philosophy: work without stopping.\n\nFor everyone else, it’s too expensive. But it’s beautiful.\n\nAnd most importantly, this is a full autonomous agent. No need to install your own server or rent more powerful hardware.\n\nThen I asked it to understand my workflow, find all of my agent settings and tools, and go make a video. I deliberately gave it a task where it has to figure everything out and do the work itself.",
+"likeCount": 14,
+"retweetCount": 0,
+"url": "https://x.com/copenzafan/status/2091239246216806660",
+"createdAt": "Sat Aug 22 19:01:04 +0000 2026"
 },
 {
-"userName": "Web3pr0f",
-"text": "𝗕𝗧𝗧𝗜𝗡𝗙𝗘𝗥𝗚𝗥𝗜𝗗 𝗜𝗦 𝗘𝗫𝗣𝗔𝗡𝗗𝗜𝗡𝗚 𝗜𝗧𝗦 𝗔𝗜 𝗠𝗢𝗗𝗘𝗟 𝗟𝗜𝗡𝗘𝗨𝗣.\n\nThe BitTorrent ecosystem continues to explore the intersection of decentralized infrastructure and artificial intelligence, with Qwen3.8 27B now available on #BTTInferGrid through @BAI_AGI.\n\nDeveloped by the Alibaba Qwen team, this open weight vision language model brings 27 billion parameters and multimodal capabilities into an expanding AI inference environment.\n\nBut why does that matter?\n\nBecause modern AI is moving beyond simple text conversations.\n\n𝗧𝗘𝗫𝗧 + 𝗜𝗠𝗔𝗚𝗘 𝗨𝗡𝗗𝗘𝗥𝗦𝗧𝗔𝗡𝗗𝗜𝗡𝗚 → 𝗥𝗜𝗖𝗛𝗘𝗥 𝗖𝗢𝗡𝗧𝗘𝗫𝗧 → 𝗠𝗢𝗥𝗘 𝗨𝗦𝗘 𝗖𝗔𝗦𝗘𝗦\n\nVision language models can process different types of information, allowing developers to build applications that understand both what users write and what they provide visually.\n\nThat opens possibilities across image analysis, document processing, visual assistants, content workflows, research and other multimodal applications.\n\nThe more interesting part is how these models are becoming accessible through infrastructure designed around decentralized inference.\n\n𝗔𝗜 𝗠𝗢𝗗𝗘𝗟𝗦 𝗔𝗥𝗘 𝗢𝗡𝗟𝗬 𝗣𝗔𝗥𝗧 𝗢𝗙 𝗧𝗛𝗘 𝗘𝗤𝗨𝗔𝗧𝗜𝗢𝗡. 𝗧𝗛𝗘 𝗥𝗘𝗔𝗟 𝗖𝗛𝗔𝗟𝗟𝗘𝗡𝗚𝗘 𝗜𝗦 𝗗𝗘𝗟𝗜𝗩𝗘𝗥𝗜𝗡𝗚 𝗧𝗛𝗘 𝗖𝗢𝗠𝗣𝗨𝗧𝗜𝗡𝗚 𝗣𝗢𝗪𝗘𝗥 𝗧𝗛𝗘𝗬 𝗥𝗘𝗤𝗨𝗜𝗥𝗘.\n\nThat is where #BTTInferGrid becomes interesting.\n\nBy exploring decentralized approaches to AI inference, the ecosystem is looking at how distributed computing resources can contribute to the growing demand for AI workloads.\n\nhttps://t.co/s3VxHo4gp1 then provides a practical access point for users and developers to interact with these models.\n\n𝗗𝗜𝗦𝗧𝗥𝗜𝗕𝗨𝗧𝗘𝗗 𝗖𝗢𝗠𝗣𝗨𝗧𝗜𝗡𝗚 → 𝗔𝗜 𝗜𝗡𝗙𝗘𝗥𝗘𝗡𝗖𝗘 → 𝗠𝗢𝗗𝗘𝗟 𝗔𝗖𝗖𝗘𝗦𝗦 → 𝗣𝗥𝗔𝗖𝗧𝗜𝗖𝗔𝗟 𝗔𝗣𝗣𝗟𝗜𝗖𝗔𝗧𝗜𝗢𝗡𝗦\n\nThis is also another example of how the broader TRON ecosystem is connecting blockchain infrastructure with emerging technology.\n\nThe goal should not simply be to have more AI models.\n\nThe goal is to make those models useful.\n\nTo give developers tools they can experiment with.\n\nTo give users accessible AI experiences.\n\nAnd to create infrastructure capable of supporting the next generation of applications.\n\n𝗧𝗛𝗘 𝗙𝗨𝗧𝗨𝗥𝗘 𝗢𝗙 𝗔𝗜 𝗪𝗜𝗟𝗟 𝗗𝗘𝗣𝗘𝗡𝗗 𝗢𝗡 𝗕𝗢𝗧𝗛 𝗜𝗡𝗧𝗘𝗟𝗟𝗜𝗚𝗘𝗡𝗧 𝗠𝗢𝗗𝗘𝗟𝗦 𝗔𝗡𝗗 𝗧𝗛𝗘 𝗜𝗡𝗙𝗥𝗔𝗦𝗧𝗥𝗨𝗖𝗧𝗨𝗥𝗘 𝗧𝗛𝗔𝗧 𝗣𝗢𝗪𝗘𝗥𝗦 𝗧𝗛𝗘𝗠.\n\nQwen3.8 27B adds another capability to that growing stack.\n\nNow the interesting part begins.\n\n𝗧𝗘𝗦𝗧 𝗜𝗧. 𝗕𝗘𝗡𝗖𝗛𝗠𝗔𝗥𝗞 𝗜𝗧. 𝗕𝗨𝗜𝗟𝗗 𝗪𝗜𝗧𝗛 𝗜𝗧.\n\n@BitTorrent @BAI_AGI @trondao @justinsuntron",
-"likeCount": 9,
-"retweetCount": 4,
-"url": "https://x.com/Web3pr0f/status/2091283031965454423",
-"createdAt": "Sat Aug 22 21:55:03 +0000 2026"
+"userName": "Orion_Vers7x",
+"text": "🚨 STOP SCROLLING — YOU’RE PROBABLY WASTING HOURS ON TOOLS YOU DON’T KNOW EXIST.\n\nI found 25 websites that can make your work MUCH easier. 👇\n\nFrom AI + design to productivity, coding, privacy & research…\n\n1. Excalidraw → https://t.co/RMlonx4PHW\n   ✍️ Create hand-drawn diagrams, flowcharts & wireframes.\n\n2. TinyWow → https://t.co/cUuy6SoxtW\n   🛠️ Free tools for PDFs, images, videos & text.\n\n3. Snapdrop → https://t.co/jhpTGE9b7Z\n   📲 Share files between devices over Wi-Fi without cloud storage.\n\n4. Coolors → https://t.co/xxGDwI7aOn\n   🎨 Generate beautiful color palettes instantly.\n\n5. DeepL → https://t.co/tziMSFf8tx\n   🌍 Powerful AI-powered translation.\n\n6. Bitwarden → https://t.co/5lXpVPZrSK\n   🔐 Free & open-source password manager.\n\n7. https://t.co/NZz96aD3qL → https://t.co/ejRRg51RQm\n   📊 Create professional diagrams & flowcharts for free.\n\n8. Unsplash → https://t.co/4zm0oBhfy9\n   📸 High-quality free stock photos.\n\n9. Pexels → https://t.co/Lk9epCjskm\n   🎥 Free stock photos + videos.\n\n10. SimpleLogin → https://t.co/IDNo4h1F8Q\n    📧 Create email aliases and reduce spam.\n\n11. Proton → https://t.co/4ayl5VjtAh\n    🔒 Private email, cloud storage & VPN services.\n\n12. Witeboard → https://t.co/BoHNSUiLw2\n    📝 Instant online whiteboard — no signup required.\n\n13. MindMup → https://t.co/5LAfWhXE2q\n    🧠 Simple mind-mapping tool.\n\n14. Gamma → https://t.co/LZV2vMxRvm\n    🤖 Create beautiful AI-powered presentations.\n\n15. Carrd → https://t.co/Z7Q4pbSobM\n    🌐 Build simple one-page websites quickly.\n\n16. tldraw → https://t.co/ohgHUM2U75\n    🖊️ Collaborative online whiteboard for ideas & diagrams.\n\n17. Can I Use → https://t.co/qll0uhWzUw\n    💻 Check browser support for CSS & JavaScript features.\n\n18. Crontab Guru → https://t.co/VSTecn1iSy\n    ⏰ Easily create and understand cron expressions.\n\n19. Iconify → https://t.co/oRaqomGi8v\n    🎯 Find thousands of free icons in one place.\n\n20. ChatPDF → https://t.co/8gvE6YqY2B\n    📚 Upload a PDF and chat with it.\n\n21. Perplexity → https://t.co/a1lFToeS5Z\n    🔎 AI search with cited sources.\n\n22. https://t.co/pbvdFi7SmK → https://t.co/HadT57tFds\n    🤖 AI-powered search and productivity tools.\n\n23. Fontjoy → https://t.co/8S84mt2EJa\n    🔤 Generate great font combinations.\n\n24. https://t.co/rhlAh81K7C → https://t.co/MEB1rB9WZG\n    🖼️ Remove image backgrounds quickly.\n\n25. Open Library → https://t.co/w0AVoGIJ3H\n    📖 Explore millions of books through a free digital library.\n\nWhich one did you NOT know about? 👇\n\nAnd if this list saved you even 10 minutes, repost it so someone else can save 10 hoHacks\n\n🔖 Bookmark this.\n📌 Save it before you forget.\n⚡ Share it with someone who needs it.\n\nFollow @Orion_Vers7x for more:\n🤖 AI Tools\n💻 Tech Resources\n📚 Useful Websites\n🚀 Productivity Hacks",
+"likeCount": 29,
+"retweetCount": 17,
+"url": "https://x.com/Orion_Vers7x/status/2091736171911237740",
+"createdAt": "Mon Aug 24 03:55:40 +0000 2026"
 },
 {
-"userName": "ethancoder0",
-"text": "35 WEBSITES GOOGLE DOESN'T WANT YOU TO KNOW\n\n1. Explee .com — sends cold emails on autopilot\nhttps://t.co/EFHRasEK0U\n\n2. NoteGPT — turns docs into podcasts\nhttps://t.co/pQK6NXCjNj\n\n3. Napkin AI — turns text into diagrams\nhttps://t.co/5lteKbAoTW\n\n4. Ideogram — generates text in images perfectly\nhttps://t.co/CFyRCsViWx\n\n5. Suno — makes full songs from a prompt\nhttps://t.co/VHKTZ7oogw\n\n6. HeyGen — clones your face into videos\nhttps://t.co/lmVZYZqzhF\n\n7. Kling AI — best AI video generation\nhttps://t.co/CWJLmfvHpF\n\n8. ElevenLabs — clone any voice instantly\nhttps://t.co/oWTRNoaoyR\n\n9. Gamma — AI presentations in seconds\nhttps://t.co/8hpwOGcTjn\n\n10. Perplexity — AI search with real sources\nhttps://t.co/lSiUQUGgX9\n\n11. Pika — animate any image into video\nhttps://t.co/RpOSpJqnPa\n\n12. Runway — cinematic AI video generation\nhttps://t.co/dj82ghgRNr\n\n13. Cursor — AI code editor that builds for you\nhttps://t.co/3uk8ARPbT7\n\n14. v0 — generate UI components with AI\nhttps://t.co/zRub4DN9p8\n\n15. Lovable — turn ideas into working apps\nhttps://t.co/BB8kT2EO8K\n\n16. Descript — edit video by editing text\nhttps://t.co/sc1JxvaQS2\n\n17. Opus Clip — auto cut long videos into shorts\nhttps://t.co/QCI5wcugcH\n\n18. Krea AI — real time AI image generation\nhttps://t.co/junTLGCLcD\n\n19. Magnific — upscale any image with AI\nhttps://t.co/Q31x4eiX6n\n\n20. Viggle — make characters move realistically\nhttps://t.co/bvZJ807Ybe\n\n21. tl;dv — record and summarize any meeting\nhttps://t.co/mAp1L46hl4\n\n22. Fireflies — AI meeting notes automatically\nhttps://t.co/vDVS8iRg5j\n\n23. Castmagic — turn audio into content pieces\nhttps://t.co/p1cFldsnAt\n\n24. Replit — code and deploy from browser\nhttps://t.co/uQr8RjYyk6\n\n25. Leonardo AI — generate images for free\nhttps://t.co/gwUtOZnk3r\n\n26. Synthesia — AI avatar videos no camera needed\nhttps://t.co/U08jOMSZ8j\n\n27. Fliki — turn text into videos with AI\nhttps://t.co/CztIYaVOig\n\n28. Photoroom — AI product photography\nhttps://t.co/RwYG4XszKn\n\n29. Invideo AI — turn prompts into full videos\nhttps://t.co/VYLiMqtqKD\n\n30. Consensus — search what science agrees on\nhttps://t.co/A4Xv1Ie0Eq\n\n31. SciSpace — understand any research paper\nhttps://t.co/0GfYMHZDfH\n\n32. Tome — AI builds your pitch decks\nhttps://t.co/sWuHzzU7gF\n\n33. Beautiful AI — smart presentation design\nhttps://t.co/C8MNgYnmG0\n\n34. Meshy — turn text into 3D models\nhttps://t.co/Qs1qPIcd1X\n\n35. Vizcom — turn sketches into renders\nhttps://t.co/qtVZQGvaAE\n\nThe AI revolution isn't coming.\n\nIt already happened and you missed half of it.",
-"likeCount": 214,
-"retweetCount": 88,
-"url": "https://x.com/ethancoder0/status/2091187409111470545",
-"createdAt": "Sat Aug 22 15:35:05 +0000 2026"
+"userName": "bimnttsion",
+"text": "📌MAU APPLY KERJA AI FREELANCE? SESUAIKAN SKILL DI CV SAMA ROLE-NYA.\n\n1. GENERALIST\n→ Critical Thinking\n→ Research & Fact-Checking\n→ Analytical Reasoning\n→ AI Response Evaluation\n→ Content Evaluation\n→ Prompt Writing\n→ Strong Writing\n→ Attention to Detail\n\n2. ENGINEERING\n→ Engineering Fundamentals\n→ Technical Problem-Solving\n→ Technical Writing\n→ Data Analysis\n→ Quality Evaluation\n→ Technical Documentation\n→ Sesuaikan dengan spesialisasi: Mechanical / Electrical / Civil / Chemical\n\n3. SOFTWARE / CODING\n→ Python / JavaScript / Java / C++\n→ Debugging\n→ Code Review\n→ Algorithms & Data Structures\n→ Software Development\n→ Problem-Solving\n→ Code Evaluation\n\n4. MATH / STEM\n→ Mathematics\n→ Statistics\n→ Probability\n→ Algebra\n→ Calculus\n→ Logical Reasoning\n→ Mathematical Problem-Solving\n\n5. LANGUAGE\n→ Native Indonesian / Bahasa sesuai role\n→ English Proficiency\n→ Translation\n→ Localization\n→ Linguistic Evaluation\n→ Grammar & Spelling\n→ Transcription\n→ Content Evaluation\n\n6. WRITING / CONTENT\n→ Content Writing\n→ Copywriting\n→ Creative Writing\n→ Editing\n→ Proofreading\n→ Research\n→ Fact-Checking\n→ AI Content Evaluation\n\n7. DATA / AI DATA\n→ Data Annotation\n→ Data Labeling\n→ Data Collection\n→ Data Validation\n→ Quality Assurance\n→ Data Categorization\n→ Text / Image / Audio Annotation\n→ Attention to Detail\n\n8. BUSINESS / FINANCE\n→ Business Analysis\n→ Financial Analysis\n→ Market Research\n→ Data Analysis\n→ Excel\n→ Financial Modeling\n→ Accounting / Economics\n→ Critical Thinking\n\n9. AUDIO / VOICE AI\n→ Voice Recording\n→ Speech Evaluation\n→ Audio Evaluation\n→ Pronunciation\n→ Transcription\n→ Linguistic Annotation\n→ Audio Quality Assessment\n\nNOTE:\n→ Nggak semua role membutuhkan skill atau pengalaman khusus.\n→ Beberapa role lebih fokus ke bahasa, kemampuan reasoning, writing, atau general knowledge\n#freelance #remote",
+"likeCount": 123,
+"retweetCount": 11,
+"url": "https://x.com/bimnttsion/status/2091729772787454059",
+"createdAt": "Mon Aug 24 03:30:14 +0000 2026"
 },
 {
-"userName": "RidiTechAI",
-"text": "30 free datasets to practice AI/ML on (no more Titanic dataset) 📊\nSearch Engines for Datasets\n\n1. https://t.co/TBiEwXieMW — Google's dataset search engine\n2. https://t.co/DAyFwxRjHX — Thousands of shareable ML datasets\n3. https://t.co/1ta0oOytc1 — NLP, vision & LLM fine-tuning data\n4. https://t.co/X3PrphM9z1 — Datasets tied to research papers\nClassic ML Repositories\n5. https://t.co/q1KHKcFXm7 — 600+ curated, research-grade datasets\n6. https://t.co/2EVv41VQLQ — 200K+ community-uploaded datasets\n7. https://t.co/6b52k7XX8a — US government open data\n8. https://t.co/T25CRbHKnc — EU government open data\nComputer Vision\n9. COCO Dataset — Object detection & segmentation\n10. ImageNet — 14M+ labeled images\n11. CIFAR-10/100 — Classic image classification benchmark\n12. Open Images Dataset (Google) — 9M+ annotated images\n13. LAION-5B — Massive image-text pairs for generative AI\nNLP & LLMs\n14. Common Crawl — Petabytes of raw web text\n15. The Pile (EleutherAI) — 800GB curated text for LLM training\n16. IMDb Reviews — Sentiment analysis benchmark\n17. SQuAD — Question-answering benchmark\n18. Amazon Reviews Dataset — Millions of product reviews\nFinance & Economics\n19. Yahoo Finance API — Historical stock data\n20. World Bank Open Data — Global economic indicators\n21. Lending Club Loan Data — Credit risk modeling\n22. Credit Card Fraud Detection (Kaggle) — Fraud classification practice\nHealthcare\n23. MIMIC-III — De-identified ICU patient data\n24. CDC WONDER — US public health statistics\n25. COVID-19 Data Repository (JHU) — Historical pandemic tracking data\nGeospatial & Climate\n26. NASA Earthdata — Satellite & climate datasets\n27. OpenStreetMap — Global map & location data\n28. NOAA Climate Data — Historical weather records\nRecommendation Systems\n29. MovieLens — Classic movie ratings dataset\n30. H&M Personalized Fashion Dataset — Real e-commerce recommender data\nSkip the Titanic dataset. \n\nBuild something that actually looks good on a portfolio. 🔖\n\nFollow \n@RidiTechAI \n for more free tools, AI resources & datasets worth knowing. 🚀",
-"likeCount": 7,
-"retweetCount": 6,
-"url": "https://x.com/RidiTechAI/status/2090836256800612468",
-"createdAt": "Fri Aug 21 16:19:44 +0000 2026"
-},
-{
-"userName": "jonson_coder",
-"text": "🚀 25 AI Tools You Can’t Ignore in 2026\n\nFrom content creation to coding, marketing, research, design, and automation—these tools can seriously upgrade your workflow. 🤖🔥\n\n1. Claude — AI for deep work & coding\n2. Ranked — Improve visibility across search & AI\n3. Syllaby — Create AI-powered videos\n4. Wispr Flow — AI speech-to-text\n5. Skysnail — Create YouTube thumbnails\n6. Viktor — AI employee for Slack\n7. Threadmaster — Create engaging social posts\n8. Submagic — Turn long videos into shorts\n9. Hellowarrant — Marketing compliance\n10. Gemini — AI-powered image editing\n11. Fastread — Create ebooks & audiobooks\n12. Bibley — AI Bible study\n13. Manus — Autonomous AI agent\n14. HeyGen — Create AI avatars\n15. WebinarKit — AI-powered webinars\n16. CreatorUnlock — YouTube growth tools\n17. Maker AI — Build & sell software\n18. AdCreative — AI-powered advertising\n19. Canva — Design almost anything\n20. BrandButler — Build brand identities\n21. Replit — AI-powered coding\n22. Perplexity — AI research & agents\n23. v0 — Generate frontend interfaces\n24. Suno — Create AI music\n25. Notion AI — Your AI-powered second brain\n\n🔖 Save this list for later.\n\nFollow for more AI tools, workflows & resources. 🚀",
-"likeCount": 44,
-"retweetCount": 28,
-"url": "https://x.com/jonson_coder/status/2091188247787696360",
-"createdAt": "Sat Aug 22 15:38:25 +0000 2026"
+"userName": "Kaiserwsf",
+"text": "MEET THE AI GIRL WHO PLAYS TENNIS FOR A LIVING — AND SHE'S NEVER LOST\n\nShe trains, competes, and racks up wins on camera. The catch: she doesn't exist.\n\nHere's how the \"AI athlete\" model actually works:\n\nAn AI girl persona is built with a consistent face, body, and personality using image/video generation tools. Instead of lifestyle or fashion content, her niche is sport — match highlights, training vlogs, \"behind the scenes\" prep, rackets and outfits, rivalries with other AI athletes.\n\nThe mechanism is simple: physical talent doesn't need to be real, only the narrative around it does. Generated match clips, fake tournament brackets, and AI commentary create a storyline fans follow like a real career.\n\nHow she earns:\n\nSponsorship deals with sportswear/equipment brands looking for cheap, controllable \"athletes\"\nPaid fan subscriptions for exclusive training content and match reactions\nLicensing her face/likeness to sports betting or fantasy-sim apps\nSelling a personal \"AI coach\" app trained on her persona\nNFT/collectible drops tied to her \"career milestones\" (Grand Slam wins, rankings)\n\nThe twist: her fanbase doesn't care that she's never held a racket — they're not following an athlete, they're following a story that updates on schedule",
+"likeCount": 12,
+"retweetCount": 0,
+"url": "https://x.com/Kaiserwsf/status/2089717242430738750",
+"createdAt": "Tue Aug 18 14:13:10 +0000 2026"
 },
 {
 "userName": "huiying_lii",
@@ -56,75 +48,83 @@
 "createdAt": "Tue Aug 18 18:06:46 +0000 2026"
 },
 {
-"userName": "shhotsAI",
-"text": "real estate agents can now save $1000+ on home tours and virtual staging\n\nhere is how👇\n1. create property on Real Estate Studio on Shhots AI\n2. pick the images and order\n3. AI writes the script (you can edit)\n4. include agent name, address, price in the script\n\nhit generate ✨\n\nthat's the whole workflow, try it today!\n\nuse code AGENT20 to get 20% OFF on Pro and Scale plans 🔥",
-"likeCount": 14,
-"retweetCount": 2,
-"url": "https://x.com/shhotsAI/status/2090503677601783931",
-"createdAt": "Thu Aug 20 18:18:11 +0000 2026"
+"userName": "ClementDelangue",
+"text": "NVIDIA built its own coding harness to optimize CUDA GPU kernels and achieved a 100% score on ARC-AGI-3’s 25 public games, solving all 183 levels.\n\nWith agents, we'll move from a world where it's quite hard to run, optimize, post-train your own AI models and kernels to a world where virtually everybody can do it. \n\n100 million AI builders when?",
+"likeCount": 543,
+"retweetCount": 72,
+"url": "https://x.com/ClementDelangue/status/2091273855415492806",
+"createdAt": "Sat Aug 22 21:18:35 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "After leaving AI to do a masters in immunology and start a 2nd PhD (in microbiology) I'm beyond thrilled that @math_rachel is returning to her original AI home! 🥳\n\nShe founded the Center for Applied Data Ethics *years* before most people realised AI would transform everything.",
+"likeCount": 632,
+"retweetCount": 28,
+"url": "https://x.com/jeremyphoward/status/2089470309699403816",
+"createdAt": "Mon Aug 17 21:51:56 +0000 2026"
 },
 {
 "userName": "arvinaq",
 "text": "https://t.co/EoTLZPkLiY looks like another AI video generator. The more interesting product is its distribution machine: paid search, competitor terms, localized pages, affiliates, and creator campaigns.\n\nThe growth is impressive. Trust is the real test. https://t.co/O37aAagdOC",
-"likeCount": 10,
+"likeCount": 11,
 "retweetCount": 1,
 "url": "https://x.com/arvinaq/status/2090643204161122784",
 "createdAt": "Fri Aug 21 03:32:36 +0000 2026"
 },
 {
-"userName": "mikepat711",
-"text": "Here's a Grok Bot step-by-step for how I fixed my inbox and setup a lifetime automation for keeping it clean.\n\nThis workflow is done now, and this will be my last post about it, but many asked how to do it, so here is the final summary. https://t.co/FKHeTUyVkQ",
-"likeCount": 70,
-"retweetCount": 5,
-"url": "https://x.com/mikepat711/status/2090443789642895721",
-"createdAt": "Thu Aug 20 14:20:12 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Agree with @gdb that we need to arm cyber defenders much more than they are now, both with APIs and open models. The real cybersecurity risk of AI is asymmetry of power, capabilities and ressources between attackers and defenders!",
-"likeCount": 58,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2090428723828772870",
-"createdAt": "Thu Aug 20 13:20:20 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
 "text": "RT @ornith_: Aloha! 🌺Introducing Ornith-1.5, a family of open-source LLMs spanning 9B Dense, 35B MoE, and 397B MoE, trained with self-impro…",
-"likeCount": 6721,
+"likeCount": 6746,
 "retweetCount": 942,
 "url": "https://x.com/ClementDelangue/status/2090085024242565419",
 "createdAt": "Wed Aug 19 14:34:36 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @simonw: Here’s my review of Qwen 3.8 27B - I can't remember the last time I've had this much fun playing with a local model that runs o…",
-"likeCount": 2679,
-"retweetCount": 230,
-"url": "https://x.com/ClementDelangue/status/2089119153378517019",
-"createdAt": "Sun Aug 16 22:36:34 +0000 2026"
+"text": "RT @DavidSacks: Harvey is a great example of how American companies are building world-class specialized models: they took an open-source b…",
+"likeCount": 7931,
+"retweetCount": 583,
+"url": "https://x.com/ClementDelangue/status/2090797790871830608",
+"createdAt": "Fri Aug 21 13:46:53 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: We just released TensorRT Model Connect in Public Preview.\n\nYou can take a supported @huggingface model to end-to-end TensorR…",
-"likeCount": 540,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2089757142144200825",
-"createdAt": "Tue Aug 18 16:51:43 +0000 2026"
+"text": "RT @chadwahl: I think 90% of the conversations I am having with executives in the last two weeks they have told me they are reducing spend…",
+"likeCount": 1079,
+"retweetCount": 98,
+"url": "https://x.com/ClementDelangue/status/2091288358764880214",
+"createdAt": "Sat Aug 22 22:16:13 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @_NathanCalvin: I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continu…",
+"likeCount": 237,
+"retweetCount": 28,
+"url": "https://x.com/jeremyphoward/status/2089826104173588590",
+"createdAt": "Tue Aug 18 21:25:44 +0000 2026"
 },
 {
 "userName": "Ambani_Wessley",
 "text": "Time to update your influencer game with Apob AI https://t.co/owERuhWXte",
 "likeCount": 125,
-"retweetCount": 126,
+"retweetCount": 127,
 "url": "https://x.com/Ambani_Wessley/status/2089784560745660426",
 "createdAt": "Tue Aug 18 18:40:40 +0000 2026"
 },
 {
 "userName": "RetroChainer",
 "text": "https://t.co/vRA1B0RK6H",
-"likeCount": 29,
-"retweetCount": 0,
+"likeCount": 43,
+"retweetCount": 1,
 "url": "https://x.com/RetroChainer/status/2091204446394929533",
 "createdAt": "Sat Aug 22 16:42:47 +0000 2026"
+},
+{
+"userName": "alexwg",
+"text": "https://t.co/hZ2VCKxoOB",
+"likeCount": 233,
+"retweetCount": 23,
+"url": "https://x.com/alexwg/status/2091528530366451984",
+"createdAt": "Sun Aug 23 14:10:35 +0000 2026"
 }
 ]
