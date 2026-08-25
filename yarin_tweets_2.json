@@ -1,67 +1,67 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
-"likeCount": 30,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2091416256205488328",
-"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
+"userName": "Rosey_watson",
+"text": "AI-powered sportswear, engineered for the next generation. ⚡️\nTEAM AI , Play With Intelligence 🤝\nGenerated this with @budgetpixel \n\nPrompt \n15-SECOND PREMIUM SPORTS JERSEY COMMERCIAL — TEAM AI\n\nCreate a 15-second ultra-premium sportswear advertisement showcasing a sophisticated performance jersey available in three signature colorways: black, pink, and white, each featuring a refined front logo reading “TEAM AI.”\n\nThe entire film should look like a high-budget international sportswear campaign with elite cinematography, premium studio lighting, realistic fabric physics, sophisticated product styling, dynamic camera movement, and photorealistic detail.\n\n0–3 SEC — BLACK | POWER\n\nOpen with an extreme macro shot of the black TEAM AI jersey suspended in a dark premium studio.\n\nA controlled breeze gently moves the fabric. Dramatic directional lighting reveals the jersey's technical weave, stitching, breathable panels, and subtle texture.\n\nCamera slowly pushes toward the chest area, revealing the elegant TEAM AI logo.\n\nDeep shadows, sharp highlights, powerful athletic mood.\n\n3–6 SEC — PINK | ENERGY\n\nSeamless cinematic transition into the pink TEAM AI jersey.\n\nThe jersey rotates slowly in mid-air as soft studio light sweeps across the fabric.\n\nClose-up details reveal the premium stitching, athletic cut, smooth collar, sleeve construction, and subtle fabric texture.\n\nThe TEAM AI logo remains perfectly sharp and centered.\n\nBright, energetic, modern sports-fashion aesthetic.\n\n6–9 SEC — WHITE | PRECISION\n\nMatch-cut into the white TEAM AI jersey.\n\nThe camera glides around the jersey in elegant slow motion while the fabric naturally responds to subtle airflow.\n\nClean white studio environment with sophisticated shadows and controlled highlights.\n\nMacro detail of the fabric weave and embroidered TEAM AI logo creates a premium luxury-sportswear feel.\n\n9–12 SEC — THREE-COLOR HERO SHOT\n\nAll three jerseys—black, pink, and white—appear together in a dramatic triangular composition.\n\nThe camera performs a smooth cinematic orbit around them.\n\nThe three colorways move subtly as if suspended in a professional product studio.\n\nBlack represents power, pink represents energy, and white represents precision.\n\nPremium lighting creates elegant reflections and dimensional fabric shadows.\n\n12–15 SEC — FINAL BRAND REVEAL\n\nThe three jerseys transition into a clean hero composition against a sophisticated minimalist background.\n\nThe TEAM AI logo is clearly visible on every jersey.\n\nCamera slowly pushes forward as a refined light sweep travels across the three products.\n\nElegant final typography appears:\n\nTEAM AI\nPLAY WITH INTELLIGENCE.\n\nHold the final frame for a clean, premium brand finish.\n\nVISUAL STYLE\n\nLuxury international sportswear campaign, premium athletic-fashion commercial, photorealistic product cinematography, cinematic 4K/8K quality, realistic technical fabric, physically accurate cloth movement, detailed stitching, premium embroidery, sophisticated studio lighting, dramatic highlights, soft shadows, shallow depth of field, macro product shots, smooth motion-control camera movement, elegant transitions, high-end color grading, polished commercial aesthetic, modern athletic identity, professional advertising photography.\n\nPRODUCT REQUIREMENTS\n\nThree distinct jersey colorways: matte black, vibrant premium pink, and clean white.\n\nThe front logo must consistently read exactly:\n\nTEAM AI\n\nLogo should be crisp, centered, professionally integrated into the jersey design, and remain consistent across all shots.\n\nJerseys should feature a modern athletic silhouette, premium breathable fabric, refined collar, realistic seams, professional stitching, subtle performance-panel detailing, and an unmistakably high-end sportswear finish.",
+"likeCount": 340,
+"retweetCount": 6,
+"url": "https://x.com/Rosey_watson/status/2091093197237665811",
+"createdAt": "Sat Aug 22 09:20:43 +0000 2026"
 },
 {
-"userName": "ArtificialAnlys",
-"text": "Announcing our new Speech Agent Arena, evaluating Speech to Speech models on real-world scenarios to analyze conversational preference and task success rate\n\nExisting Speech to Speech benchmarks cover reasoning, simulated agentic tasks, and conversational dynamics such as turn-taking and interruption handling. The Speech Agent Arena compares models and cascaded systems as humans complete real-world tasks, measuring conversational preference and successful tool use. This allows us to provide an evaluation which closer reflects real-world use, offering insight into which models users most prefer speaking with and how effectively those models support their requests.\n\nOverview of the Speech Agent Arena and Task Success Rate\nHuman participants compare two hidden Speech to Speech models on the same assigned scenario, one of 15 agentic scenarios (tasks requiring tool calling, such as ordering takeout) or 20 non-agentic scenarios (tasks without tool calling, such as asking about opening hours). After separate live conversations with each model, participants select which they preferred, with these pairwise votes used to fit a Preference Elo score. For agentic scenarios, Task Success Rate is the share of eligible conversations (no participant deviations or unverifiable cases) where the model completed the requested action through the correct final tool call or calls.\n\nFor all but a New Patient Dental Booking example, scenario model prompts, tool schemas and participant instructions are currently private to reduce overfitting. Additionally, the Speech Agent Arena currently uses a qualified pool of paid, screened third-party participants to conduct and evaluate agent interactions.\n\nKey results:\n➤ Arena Preference Elo: @GoogleAI Gemini 3.1 Flash Live Preview - Minimal leads at 1,046 Elo, followed by Gemini 3.1 Flash Live Preview - High at 1,014, @OpenAI GPT-Realtime-1.5 at 1,000, GPT Realtime (Aug '25) at 944, and @ElevenLabs Agents (default cascaded system of Scribe v2 Realtime / GPT-4o Mini / Eleven v3, with pre-registered tool schema) at 937. In reviewed conversations, highly preferred models tended to respond quickly, sound more natural and produce fewer unnatural sounds or audio artifacts\n➤ Task Success Rate: @SpaceXAI Grok Voice Think Fast 2.0 High leads at 94.7%, followed by @OpenAI GPT-Realtime-2.1 High at 91.5%, @ElevenLabs Agents (Default Cascaded System) at 90.5%, and GPT-Realtime-2 (High) at 89.8%, with GPT Realtime (Aug '25) and GPT-Realtime-2.1 Minimal tied at 89.4%. Gemini 3.1 Flash Live Preview - Minimal leads overall preference at 1,046 Elo but records a 74.6% Task Success Rate, showing that a preferred conversation does not always result in successful task completion - some conversations can sound as though the requested action was completed even when the required final tool call was unsuccessful\n\nWe are continuing to expand our coverage of native and cascaded Speech to Speech systems, and welcome feedback as we add more models, providers and scenarios.\n\nSee more details below ⬇️",
-"likeCount": 233,
-"retweetCount": 22,
-"url": "https://x.com/ArtificialAnlys/status/2090806900631994528",
-"createdAt": "Fri Aug 21 14:23:05 +0000 2026"
-},
-{
-"userName": "hollyyy",
-"text": "Physical AI has a data problem. LLMs had the entire internet to learn from. Robots don’t have that luxury.\n\nA robot learning to grasp an object, pour water or navigate a room needs much more than videos. It needs actual action data ~ movement, positioning, contact forces, joint states and 6-DoF poses.\n\nCollecting all of this in the real world is expensive, slow and difficult to scale.\n\nThis is the problem @axisrobotics is trying to solve.\n\nThe idea is surprisingly simple:\n\n-> Open Axis in your browser\n-> Connect your wallet\n-> Control a simulated robotic arm\n-> Complete tasks almost like playing a game\n-> Every successful task becomes a verified data trajectory\n-> Those trajectories can be used to build datasets for Physical AI\n-> Contributors are rewarded on Base\n\nBut the part I find interesting isn't really the game.\nIt's the distribution model behind it.\n\nTraditional teleoperation requires physical robots, workstations and human operators. If you want 10x more data, you basically need significantly more hardware and labor.\n\n@axisrobotics is trying to change that equation.\nInstead of bringing humans to robots, they bring simulated robots to humans through the browser.\nPotentially thousands of contributors can generate different trajectories from different environments without owning a robot themselves.\n\nAnd simulation solves another important problem. Internet video might show a robotic arm picking up a cup, but the video doesn't naturally give a model all the underlying information about forces, joints and precise spatial movement required to reproduce that action.\n\nSimulation can.\n\nMy bet is that robotics data networks will become much more important over the next few years.\n\nCompute is becoming easier to access and models will continue improving, but useful Physical AI still needs enormous amounts of diverse interaction data. The projects that figure out how to collect that data cheaply and at global scale could end up owning a very valuable layer of the robotics stack. That’s why I’m following Axis. Today it looks like a browser game where you control virtual robots.\n\nLong term, I think the more interesting question is whether @axisrobotics can turn thousands of people doing these tasks into a continuously growing data engine for Physical AI.\n\nIf they can, the game is just the interface. The dataset is the real product.\n\nTry it here:\nhttps://t.co/z8xrZPL60R",
-"likeCount": 148,
-"retweetCount": 10,
-"url": "https://x.com/hollyyy/status/2090816079148744968",
-"createdAt": "Fri Aug 21 14:59:33 +0000 2026"
+"userName": "I_AM_AYASHA",
+"text": "🚨 STOP SCROLLING — YOU’RE PROBABLY WASTING HOURS ON TOOLS YOU DON’T KNOW EXIST.\n\nI found 25 websites that can make your work MUCH easier. 👇\n\nFrom AI + design to productivity, coding, privacy & research…\n\n1. Excalidraw → https://t.co/zqup3wxEyY\n   Create hand-drawn diagrams, flowcharts & wireframes.\n\n2. TinyWow → https://t.co/OLv6bwb5MO\n   Free tools for PDFs, images, videos & text.\n\n3. Snapdrop → https://t.co/PSppzpKNqN\n   Share files between devices over Wi-Fi without cloud storage.\n\n4. Coolors → https://t.co/izIkEMSR21\n   Generate beautiful color palettes instantly.\n\n5. DeepL → https://t.co/ThL1KCXV5z\n   Powerful AI-powered translation.\n\n6. Bitwarden → https://t.co/2XNfDN6mKo\n   Free & open-source password manager.\n\n7. https://t.co/KnWlfEJhZx → https://t.co/GkGy5mDatc\n   Create professional diagrams & flowcharts for free.\n\n8. Unsplash → https://t.co/A5DFDp38XZ\n   High-quality free stock photos.\n\n9. Pexels → https://t.co/zC6xNKFSWQ\n   Free stock photos + videos.\n\n10. SimpleLogin → https://t.co/viUE0rUKRe\n    Create email aliases and reduce spam.\n\n11. Proton → https://t.co/ohhVl6VZif\n    Private email, cloud storage & VPN services.\n\n12. Witeboard → https://t.co/q2ZB7wNMDH\n    Instant online whiteboard — no signup required.\n\n13. MindMup → https://t.co/fiJbB1sgzH\n    Simple mind-mapping tool.\n\n14. Gamma → https://t.co/6H24FOU2Rb\n    Create beautiful AI-powered presentations.\n\n15. Carrd → https://t.co/O5rm02eoAF\n    Build simple one-page websites quickly.\n\n16. tldraw → https://t.co/l6ZAlohBDj\n    Collaborative online whiteboard for ideas & diagrams.\n\n17. Can I Use → https://t.co/IMWWV7qOtV\n    Check browser support for CSS & JavaScript features.\n\n18. Crontab Guru → https://t.co/ICiJvkJGGf\n    Easily create and understand cron expressions.\n\n19. Iconify → https://t.co/mD3YaCeIeE\n    Find thousands of free icons in one place.\n\n20. ChatPDF → https://t.co/uHqPm4GbKK\n    Upload a PDF and chat with it.\n\n21. Perplexity → https://t.co/fhY90BJ6AW\n    AI search with cited sources.\n\n22. https://t.co/NIAIk14VgU → https://t.co/2QdyFS4zft\n    AI-powered search and productivity tools.\n\n23. Fontjoy → https://t.co/yN8vsg40Yf\n    Generate great font combinations.\n\n24. https://t.co/ovc4Xk6x1N → https://t.co/fRjzqgLzhe\n    Remove image backgrounds quickly.\n\n25. Open Library → https://t.co/noaZKa69Hg\n    Explore millions of books through a free digital library.\n\nWhich one did you NOT know about? 👇\n\nAnd if this list saved you even 10 minutes, repost it so someone else can save 10 hours.\n\nBookmark this.\nSave it before you forget.\nShare it with someone who needs it.\n\nFollow @I_AM_AYASHA for more:\nAI Tools\nTech Resources\nUseful Websites\nProductivity Hacks",
+"likeCount": 23,
+"retweetCount": 12,
+"url": "https://x.com/I_AM_AYASHA/status/2092066405457989712",
+"createdAt": "Tue Aug 25 01:47:54 +0000 2026"
 },
 {
 "userName": "monicaa_AI",
 "text": "30 free datasets to practice AI/ML on (no more Titanic dataset) 📊\nSearch Engines for Datasets\n\n1. https://t.co/pc40pAAXh0 — Google's dataset search engine\n2. https://t.co/FlHW78VHNK — Thousands of shareable ML datasets\n3. https://t.co/GOdkUEraG0 — NLP, vision & LLM fine-tuning data\n4. https://t.co/atZjqt3jNG — Datasets tied to research papers\nClassic ML Repositories\n5. https://t.co/l7dXduQTHF — 600+ curated, research-grade datasets\n6. https://t.co/Nm0MbSfWzN — 200K+ community-uploaded datasets\n7. https://t.co/BFSqloWh70 — US government open data\n8. https://t.co/WXY4Dypk0x — EU government open data\nComputer Vision\n9. COCO Dataset — Object detection & segmentation\n10. ImageNet — 14M+ labeled images\n11. CIFAR-10/100 — Classic image classification benchmark\n12. Open Images Dataset (Google) — 9M+ annotated images\n13. LAION-5B — Massive image-text pairs for generative AI\nNLP & LLMs\n14. Common Crawl — Petabytes of raw web text\n15. The Pile (EleutherAI) — 800GB curated text for LLM training\n16. IMDb Reviews — Sentiment analysis benchmark\n17. SQuAD — Question-answering benchmark\n18. Amazon Reviews Dataset — Millions of product reviews\nFinance & Economics\n19. Yahoo Finance API — Historical stock data\n20. World Bank Open Data — Global economic indicators\n21. Lending Club Loan Data — Credit risk modeling\n22. Credit Card Fraud Detection (Kaggle) — Fraud classification practice\nHealthcare\n23. MIMIC-III — De-identified ICU patient data\n24. CDC WONDER — US public health statistics\n25. COVID-19 Data Repository (JHU) — Historical pandemic tracking data\nGeospatial & Climate\n26. NASA Earthdata — Satellite & climate datasets\n27. OpenStreetMap — Global map & location data\n28. NOAA Climate Data — Historical weather records\nRecommendation Systems\n29. MovieLens — Classic movie ratings dataset\n30. H&M Personalized Fashion Dataset — Real e-commerce recommender data\nSkip the Titanic dataset. \n\nBuild something that actually looks good on a portfolio. 🔖\n\nFollow @monicaa_AI for more free tools, AI resources & datasets worth knowing. 🚀",
-"likeCount": 64,
-"retweetCount": 33,
+"likeCount": 62,
+"retweetCount": 32,
 "url": "https://x.com/monicaa_AI/status/2090256197870035291",
 "createdAt": "Thu Aug 20 01:54:47 +0000 2026"
 },
 {
-"userName": "rame9040",
-"text": "Good morning everyone \n\nWin Exciting Rewards Just by Sleeping! That's @sleepagotchi\nWe all know how essential getting enough sleep is for a healthy life. However, with late-night screen scrolling and work stress, that healthy habit often gets lost! \n\nWhat if your sleep routine could be transformed into an exciting game where you win awesome rewards?\nSleepagotchi has turned this exact idea into reality!\n\nWhat is Sleepagotchi & Why Use It?\nIt is a modern Sleep-to-Earn gamified sleep-tracking app. Built on the nostalgic concept of virtual pets (Tamagotchi), it combines your daily sleep patterns with smart tracking technology and Agentic AI.\nKey Features:\n Sleep Target: Easily set a personalized schedule for going to bed and waking up.\n Digital Containers: Unlock surprise reward boxes every day just by meeting your sleep goals.\n Virtual Room: Use your earned rewards to decorate your virtual room and metaverse space with cool items.\n Agentic AI: Analyzes your health data to directly suggest actionable next steps for your wellness.\nOver 2.2 million users have already turned their sleep routines into an exciting game! \n\nTake care of your sleep, stay healthy, and design your virtual world every day. Give @Sleepagotchi a try today!",
-"likeCount": 27,
-"retweetCount": 9,
-"url": "https://x.com/rame9040/status/2091775337852182824",
-"createdAt": "Mon Aug 24 06:31:18 +0000 2026"
-},
-{
-"userName": "brianskellenger",
-"text": "You did not receive any graphene oxide with your COVID-19 shot. Graphene oxide is not an ingredient in the vaccine and is not present in the final product administered to patients.\nThe document shown in the social media post has been misinterpreted:\n * Laboratory context: The highlighted text comes from a scientific characterization report detailing laboratory research, not the vaccine's active ingredients or manufacturing components.\n * Microscope grids: In that specific procedure, a graphene oxide support film was used in vitro on a microscope grid (a cryo-EM grid) as a laboratory tool to help scientists image protein structures under an electron microscope.\nIt was used purely as a benchtop imaging aid during the research phase and was never part of the vaccine formulation.",
-"likeCount": 7,
-"retweetCount": 2,
-"url": "https://x.com/brianskellenger/status/2091630904196435971",
-"createdAt": "Sun Aug 23 20:57:22 +0000 2026"
-},
-{
-"userName": "0x_JadeX",
-"text": "Manually designing 3D scenes has always been a massive headache in robotics research.\n\nI was impressed by how the @axisrobotics Task Generation Engine builds full environments from a single prompt:\n\n   - Text-to-Image creates the initial 2D concept blueprint.\n\n   - Image-to-Assets extracts detailed 3D meshes from that concept.\n\n   - Procedural placement arranges every item into a logical, functional layout.\n\n   - Automated pipelines convert the scene into native MJCF format for RoboVerse.\n\nGenerating infinite, camera-ready manipulation tasks from plain language makes scaling Physical AI pretraining genuinely practical.",
-"likeCount": 33,
-"retweetCount": 2,
-"url": "https://x.com/0x_JadeX/status/2091708320700674402",
-"createdAt": "Mon Aug 24 02:05:00 +0000 2026"
-},
-{
-"userName": "arvinaq",
-"text": "https://t.co/EoTLZPkLiY looks like another AI video generator. The more interesting product is its distribution machine: paid search, competitor terms, localized pages, affiliates, and creator campaigns.\n\nThe growth is impressive. Trust is the real test. https://t.co/O37aAagdOC",
+"userName": "chanduuu_cs",
+"text": "I found 40 Google AI tools. Some are insanely useful : 📌🔖\n\n1. Gemini - AI assistant\n2. NotebookLM - Research & notes\n3. AI Studio - Build with Gemini\n4. Jules - Coding agent\n5. Gemini CLI - AI in terminal\n6. Code Assist - AI coding\n7. Antigravity - Agentic development\n8. Firebase Studio - Build apps\n9. Flow - AI filmmaking\n10. Whisk - Create images\n11. Google Vids - Create videos\n12. Opal - Build AI apps\n13. Illuminate - Research to audio\n14. Learn About - AI learning\n15. Stitch - UI design\n16. Pomelli - AI marketing\n17. ImageFX - Generate images\n18. MusicFX - Generate music\n19. TextFX - Creative writing\n20. GenType - Generate fonts\n21. Learn Your Way - Personalized learning\n22. Doppl - Virtual try-on\n23. Mariner - Browser agent\n24. Astra - Real-time AI\n25. Genie - Generate worlds\n26. Veo - Generate videos\n27. Imagen - Generate images\n28. Lyria - Generate music\n29. Gemma - Open AI models\n30. Nano Banana - Image editing\n31. Vertex AI - Enterprise AI\n32. AI Studio - AI development\n33. ADK - Build agents\n34. Agent Engine - Deploy agents\n35. Genkit - AI development\n36. AI Edge - On-device AI\n37. MediaPipe - AI vision\n38. TensorFlow - Machine learning\n39. TensorFlow.js - ML with JavaScript\n40. Vertex Search - AI search\n\nSave this. You’ll probably discover something useful. 👀\n\nFollow @chanduuu_cs for more cool information.",
 "likeCount": 11,
 "retweetCount": 1,
-"url": "https://x.com/arvinaq/status/2090643204161122784",
-"createdAt": "Fri Aug 21 03:32:36 +0000 2026"
+"url": "https://x.com/chanduuu_cs/status/2091518188001571147",
+"createdAt": "Sun Aug 23 13:29:29 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Something super exciting happened quietly on HF over the past month: AI agents became AI builders, and they did it in the open!\n\nDuring our ICML reproduction challenge, 1,221 humans teamed up with coding agents to verify and reproduce 2,226 papers. \n\nBut here's the cool part: everything happened on the @huggingface hub: 6,816 reproduction logbooks published openly, 2,962 cloud jobs launched, 35,908 claims judged, all traceable, all public and transparent\n\nFor years the hub has been where humans collaborate on models, datasets and demos. Now we watch agents use it the same way: writing logbooks, publishing results, building on each other's work.\n\nClosed labs run evals behind closed doors and ask you to trust the press release. Open science means anyone can check the receipts and now agents can too!\n\nThe next million users of the hub might not be human. and that might be the best thing to ever happen to science!\n\nFull write-up about the hackathon: https://t.co/8cgVzzEJnB",
+"likeCount": 350,
+"retweetCount": 55,
+"url": "https://x.com/ClementDelangue/status/2089706077667377316",
+"createdAt": "Tue Aug 18 13:28:48 +0000 2026"
+},
+{
+"userName": "SamiBizConsult",
+"text": "أكبر مشكلة في شراء الملابس أونلاين؟\n\nالعميل يشوف القطعة\nلكن ما يعرف كيف بتطلع عليه\nهذا القالب مبني على Next.js ويحاول يحل المشكلة من داخل المتجر نفسه\n\nفيه AI Virtual Try-On\nيعني العميل يقدر يشوف الملابس عليه بشكل افتراضي قبل الشراء\n\nوفيه AI Product Studio\nلإنشاء صور وعروض للمنتجات\nومعه:\nلوحة تحكم كاملة\nBackend مبني على NestJS\nوكل الأساسيات اللي تحتاجها لإطلاق متجر بسرعة\n\nاللي شدني هنا إن الذكاء الاصطناعي دخل نقطة حساسة في التجارة الإلكترونية:\nمو بس كتابة الوصف أو خدمة العملاء\n\nلكن تقليل التردد قبل قرار الشراء نفسه",
+"likeCount": 11,
+"retweetCount": 3,
+"url": "https://x.com/SamiBizConsult/status/2092145736116744291",
+"createdAt": "Tue Aug 25 07:03:08 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "NVIDIA built its own coding harness to optimize CUDA GPU kernels and achieved a 100% score on ARC-AGI-3’s 25 public games, solving all 183 levels.\n\nWith agents, we'll move from a world where it's quite hard to run, optimize, post-train your own AI models and kernels to a world where virtually everybody can do it. \n\n100 million AI builders when?",
+"likeCount": 562,
+"retweetCount": 75,
+"url": "https://x.com/ClementDelangue/status/2091273855415492806",
+"createdAt": "Sat Aug 22 21:18:35 +0000 2026"
+},
+{
+"userName": "mohamed_djoudir",
+"text": "Fashion brands lose sales when customers can’t try clothes on.\n\nThis Next.js template includes built-in AI Virtual Try-On + AI Product Studio, plus a full admin dashboard and NestJS backend.\n\nEverything you need to launch fast. https://t.co/dG2OTuIJiu",
+"likeCount": 390,
+"retweetCount": 44,
+"url": "https://x.com/mohamed_djoudir/status/2091886432923115582",
+"createdAt": "Mon Aug 24 13:52:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
@@ -74,57 +74,49 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @kimmonismus: Qwen 27B is the \"DeepSeek moment\" for open source.\n\nIt matches the closed-source state-of-the-art from just a few months a…",
-"likeCount": 1323,
+"likeCount": 1321,
 "retweetCount": 92,
 "url": "https://x.com/ClementDelangue/status/2089763826195374482",
 "createdAt": "Tue Aug 18 17:18:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @PeterDiamandis: Alibaba's open-weight AI models accumulated 3 billion global downloads in the past 6 months — more than Meta Llama, mor…",
-"likeCount": 566,
-"retweetCount": 66,
-"url": "https://x.com/ClementDelangue/status/2089782144591663416",
-"createdAt": "Tue Aug 18 18:31:04 +0000 2026"
+"text": "RT @CharlesRollet1: NEW: Thomson Reuters wanted to rely less on Claude. So it built its own AI model off Alibaba's Qwen.\n\nTR's CTO says usi…",
+"likeCount": 801,
+"retweetCount": 95,
+"url": "https://x.com/ClementDelangue/status/2091952078247637413",
+"createdAt": "Mon Aug 24 18:13:36 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @markpinc: Similar story. My company https://t.co/Qf1l3WTbrl was one of the handful of cos that could go public in the end of the dotcom…",
-"likeCount": 1847,
-"retweetCount": 83,
-"url": "https://x.com/jeremyphoward/status/2089740515159986328",
-"createdAt": "Tue Aug 18 15:45:38 +0000 2026"
+"text": "RT @ziv_ravid: How Anthropic's new results post would read without the PR:\n\nClaude orchestrated open-source protein design models,  PXDesig…",
+"likeCount": 2270,
+"retweetCount": 253,
+"url": "https://x.com/jeremyphoward/status/2090331070516678744",
+"createdAt": "Thu Aug 20 06:52:18 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @tomaarsen: At 1400x cheaper, I know I'm sticking to embeddings (dense, sparse, multi-vector), plus hybrid (incl. bm25) and rerankers.…",
-"likeCount": 208,
-"retweetCount": 25,
-"url": "https://x.com/jeremyphoward/status/2091034162459549744",
-"createdAt": "Sat Aug 22 05:26:08 +0000 2026"
+"text": "RT @_NathanCalvin: I am a big fan of both Andy Hall and Alan Rozenshtein work and public commentary on AI. I am sure that they will continu…",
+"likeCount": 237,
+"retweetCount": 28,
+"url": "https://x.com/jeremyphoward/status/2089826104173588590",
+"createdAt": "Tue Aug 18 21:25:44 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "@answerdotai h/t to @bclavie for his amazing work on this model.",
-"likeCount": 10,
-"retweetCount": 0,
-"url": "https://x.com/jeremyphoward/status/2089817455745290693",
-"createdAt": "Tue Aug 18 20:51:23 +0000 2026"
+"userName": "Ambani_Wessley",
+"text": "Time to update your influencer game with Apob AI https://t.co/owERuhWXte",
+"likeCount": 125,
+"retweetCount": 127,
+"url": "https://x.com/Ambani_Wessley/status/2089784560745660426",
+"createdAt": "Tue Aug 18 18:40:40 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @llama_cpp: Hello world",
-"likeCount": 527,
-"retweetCount": 32,
-"url": "https://x.com/ClementDelangue/status/2090285454134301166",
-"createdAt": "Thu Aug 20 03:51:02 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/bhbBiLOwUU",
-"likeCount": 13,
-"retweetCount": 1,
-"url": "https://x.com/apob_ai/status/2091088085761343639",
-"createdAt": "Sat Aug 22 09:00:24 +0000 2026"
+"userName": "TSBurkhardt",
+"text": "https://t.co/wz7kqToANX",
+"likeCount": 14,
+"retweetCount": 5,
+"url": "https://x.com/TSBurkhardt/status/2091552029558595997",
+"createdAt": "Sun Aug 23 15:43:57 +0000 2026"
 }
 ]

@@ -1,27 +1,19 @@
 [
 {
-"userName": "TraffAlex",
-"text": "🎨 AI ART & VISUALS ROUNDUP — August 20, 2026\n\n1️⃣ MINIMAX DESIGN: A NEW H3-POWERED AI VIDEO PRODUCTION TOOL\n\nMiniMax has launched MiniMax Design, a video production tool built on its native multimodal H3 model. Instead of being another text-to-video playground, it is positioned as a productivity platform that automates the whole content pipeline — from concept and scripting to finished visuals. For creators juggling daily output, tools like this signal the next shift: the model stays the same, but the workflow around it gets industrialized.\n🔹 @AINativeF\n\n2️⃣ HOW A TEAM PRODUCED HIGH-END AI ADS WITH MIDJOURNEY V8.2 + SEEDANCE 2.5\n\nDesigner \"beech\" broke down how his two-person prompt-engineering squad built a full commercial-quality ad for gte DOT xyz in roughly a week — completely with AI. Midjourney v8.2 handled the stills, Seedance 2.5 handled motion, and a clear art-direction layer kept everything consistent. With 72K views, the takeaway is one the industry keeps repeating: art direction and prompt discipline, not model hype, separate agency-grade work from throwaway generations.\n🔹 @beechinour\n\n3️⃣ GROK IMAGINE GOES MAINSTREAM WITH MAYE MUSK'S VIRTUAL FITTING ROOM\n\nMaye Musk posted another staircase look — this time asking Grok to change her outfit, with the output tagged \"Made with Grok Imagine.\" It is a small moment, but a telling one: AI image editing has reached the point where a 78-year-old fashion figure swaps outfits on camera in seconds and 46K people watch. Outfit swaps, background changes and persona tests are becoming the new casual use case for image models.\n🔹 @mayemusk\n\n4️⃣ \"SUMMER AND THE SEA\": A COHESIVE AI ILLUSTRATION DROP\n\nJapanese AI artist Maeros shared a three-image set, \"Summer and the Sea,\" that pulled in roughly 2.8K likes within a day. The set works because it keeps one consistent aesthetic across every frame — the kind of cohesion that separates a themed series from random generations. It is a solid reference point for anyone trying to build a recognizable AI illustration style rather than just a single image.\n🔹 @Maeros202212\n\n5️⃣ THE EGYPTIAN CAT THAT CUT THROUGH THE FEED\n\nA single prompt — \"Sitting Egyptian cat\" — from the Japanese account kemono_aiart racked up 2.5K+ likes and 14K views. No thread, no elaborate workflow, just one well-executed image. It is a reminder that in a feed flooded with generation spam, a single striking composition can still outperform a hundred lazy ones.\n🔹 @kemono_aiart\n\n6️⃣ TOKYO'S AVANT-GARDE AI INSTALLATION: \"DRAWING A NOVEL WITH THE VOCAL CORDS\"\n\nUkawa Naohiro and DOMMUNE are hosting a free, three-day AI art installation at ANOMALY Tokyo from August 21–23, built around AI artist Masaya Nakahara. The concept expands AI-generated stories into poetry, music, film, performance and dance — a multimodal ecosystem of human expression rather than a static gallery. With 32K views across their posts, it is one of the more ambitious physical AI-art events of the summer.\n🔹 @DOMMUNE\n\n7️⃣ \"AI SLOP MADE WITH HUMAN HANDS\" — THE VIRAL JOKE ABOUT AI AESTHETICS\n\nA post captioned \"AI slop made with human hands\" exploded to 259K views and 38K likes. The joke: humans can produce the exact same glossy, generic \"AI look\" by hand — exposing how much of the current AI-art backlash is aimed at a recognizable visual style, not at the tool itself. It turned a serious debate about AI aesthetics into a shared cultural punchline, and the engagement shows how much the conversation resonates.\n🔹 @wanderjegson\n\n💭 Two fronts are maturing in parallel this week: production-grade pipelines (Midjourney + Seedance turning AI ads into real client work) and raw creative virality (single images still cutting through the noise). The common thread is direction — every standout today came with a clear aesthetic or editorial intent behind the prompt. The models are commodity; the taste is not.\n\nWhich impresses you more — a full AI ad pipeline or a single viral AI image? 👇\n\n#AIArt #Midjourney #AIVideo",
-"likeCount": 7,
-"retweetCount": 2,
-"url": "https://x.com/TraffAlex/status/2090438185885040698",
-"createdAt": "Thu Aug 20 13:57:56 +0000 2026"
+"userName": "MaxForAI",
+"text": "神了，有人把Qwen模型训成了一个生图模型？？\n\n有人干了个很抽象的实验：\n\n直接拿 Qwen 做强化学习，让一个 Coding Model 学会用 JavaScript 画水彩画。\n\n没有 Stable Diffusion，没有 Flux，也不是调用什么图片 API。\n\n每一张图背后，真的是 Qwen 自己写出来的一段代码。\n\n而且他们甚至给审美做了一套 Reward，让模型靠 RL 一轮轮学会怎样画得更好看。\n\n具体流程是这样的⬇️\n\n1️⃣先给 Qwen 一个 Prompt。\nQwen 根据要求写一段 p5.brush JavaScript，再把这段代码扔进浏览器环境里真正执行，渲染成图片。\n2️⃣画完之后还没结束。\nJudge 模型会继续看这张图，判断它有没有遵循 Prompt、构图怎么样、技法怎么样，以及最关键的这玩意到底好不好看。\n3️⃣评分变成 Reward，再拿回去训练 Qwen。\n\n于是一个本来拿来写代码的模型，就这么一点一点学会了画画。\n\n这套东西最有意思的地方，其实是他们训练审美时踩的坑。\n\n一开始团队搞了足足 9 个 Reward。\n\n看起来很科学，代码质量、绘画技法、Prompt 遵循、审美各种维度全部覆盖。\n\n结果 Reward 一路往上涨，画却越来越抽象。\n\n很明显 Qwen 找到了捷径开始Hack这些Reward。\n\n最后画出来的东西就开始疯狂收敛成差不多的五瓣小花。\n\n后来他们才发现，很多 Judge 的判断高度相关。\n\n换句话说，表面上有 9 个指标，实际上可能是在把同一种偏好重复奖励好几遍。\n\n于是他们干脆大砍 Reward，只留下 4 个。\n\n然后人肉看了 1664 张模型生成的作品，从中挑出自己真正觉得好看的图片，拿来当审美参考。\n\n结果新的 Reward 设计，只用了原来大概 1/3 的训练步数，就追上了之前的效果，之后还能继续提升。\n\n模型自己写画图代码也越来越熟练。\n\n一度生成一张图要写到 13500 Token 左右，后来逐渐压到了 2000 Token 以下。\n\n还有一个很典的 Prompt 工程事故。\n\n一开始他们担心 Qwen 不熟悉 p5.brush，于是好心往 System Prompt 里塞了大约 400 行 API 文档。\n\n结果模型学完之后，开始非常自信地发明根本不存在的 API。\n\n最后团队干脆把几百行文档删掉，只明确告诉它可以用哪些核心方法。\n\n结果反而正常了。\n\n训练本身跑在 PrimeIntellect 上，Rollout 的图片渲染则放在 Modal 上。\n\n当然，这条路线现在比直接调用生图模型慢得多，画面质量也不是为了跟 Flux 正面打。\n\n但我觉得它真正有意思的是另一件事：\n\n以前我们讲 AI 生图，基本都是Prompt → Image\n\n这里却变成了Prompt → Code → Image\n\n最后得到的不只是一张图，还有一整套可以继续修改、调参数、复用的生成逻辑。\n\n今天是 p5.js 水彩画。\n\n以后如果这套思路继续往 SVG、网页、Figma、3D、CAD 这些东西里走，就很有意思了。\n\nAI 生成的可能不再只是最后那堆像素。\n\n而是作品背后真正可编辑的结构。\n\n果然世间万物都可以用代码来构建（",
+"likeCount": 519,
+"retweetCount": 56,
+"url": "https://x.com/MaxForAI/status/2091903300807598133",
+"createdAt": "Mon Aug 24 14:59:47 +0000 2026"
 },
 {
-"userName": "Rosey_watson",
-"text": "AI-powered sportswear, engineered for the next generation. ⚡️\nTEAM AI , Play With Intelligence 🤝\nGenerated this with @budgetpixel \n\nPrompt \n15-SECOND PREMIUM SPORTS JERSEY COMMERCIAL — TEAM AI\n\nCreate a 15-second ultra-premium sportswear advertisement showcasing a sophisticated performance jersey available in three signature colorways: black, pink, and white, each featuring a refined front logo reading “TEAM AI.”\n\nThe entire film should look like a high-budget international sportswear campaign with elite cinematography, premium studio lighting, realistic fabric physics, sophisticated product styling, dynamic camera movement, and photorealistic detail.\n\n0–3 SEC — BLACK | POWER\n\nOpen with an extreme macro shot of the black TEAM AI jersey suspended in a dark premium studio.\n\nA controlled breeze gently moves the fabric. Dramatic directional lighting reveals the jersey's technical weave, stitching, breathable panels, and subtle texture.\n\nCamera slowly pushes toward the chest area, revealing the elegant TEAM AI logo.\n\nDeep shadows, sharp highlights, powerful athletic mood.\n\n3–6 SEC — PINK | ENERGY\n\nSeamless cinematic transition into the pink TEAM AI jersey.\n\nThe jersey rotates slowly in mid-air as soft studio light sweeps across the fabric.\n\nClose-up details reveal the premium stitching, athletic cut, smooth collar, sleeve construction, and subtle fabric texture.\n\nThe TEAM AI logo remains perfectly sharp and centered.\n\nBright, energetic, modern sports-fashion aesthetic.\n\n6–9 SEC — WHITE | PRECISION\n\nMatch-cut into the white TEAM AI jersey.\n\nThe camera glides around the jersey in elegant slow motion while the fabric naturally responds to subtle airflow.\n\nClean white studio environment with sophisticated shadows and controlled highlights.\n\nMacro detail of the fabric weave and embroidered TEAM AI logo creates a premium luxury-sportswear feel.\n\n9–12 SEC — THREE-COLOR HERO SHOT\n\nAll three jerseys—black, pink, and white—appear together in a dramatic triangular composition.\n\nThe camera performs a smooth cinematic orbit around them.\n\nThe three colorways move subtly as if suspended in a professional product studio.\n\nBlack represents power, pink represents energy, and white represents precision.\n\nPremium lighting creates elegant reflections and dimensional fabric shadows.\n\n12–15 SEC — FINAL BRAND REVEAL\n\nThe three jerseys transition into a clean hero composition against a sophisticated minimalist background.\n\nThe TEAM AI logo is clearly visible on every jersey.\n\nCamera slowly pushes forward as a refined light sweep travels across the three products.\n\nElegant final typography appears:\n\nTEAM AI\nPLAY WITH INTELLIGENCE.\n\nHold the final frame for a clean, premium brand finish.\n\nVISUAL STYLE\n\nLuxury international sportswear campaign, premium athletic-fashion commercial, photorealistic product cinematography, cinematic 4K/8K quality, realistic technical fabric, physically accurate cloth movement, detailed stitching, premium embroidery, sophisticated studio lighting, dramatic highlights, soft shadows, shallow depth of field, macro product shots, smooth motion-control camera movement, elegant transitions, high-end color grading, polished commercial aesthetic, modern athletic identity, professional advertising photography.\n\nPRODUCT REQUIREMENTS\n\nThree distinct jersey colorways: matte black, vibrant premium pink, and clean white.\n\nThe front logo must consistently read exactly:\n\nTEAM AI\n\nLogo should be crisp, centered, professionally integrated into the jersey design, and remain consistent across all shots.\n\nJerseys should feature a modern athletic silhouette, premium breathable fabric, refined collar, realistic seams, professional stitching, subtle performance-panel detailing, and an unmistakably high-end sportswear finish.",
-"likeCount": 340,
-"retweetCount": 6,
-"url": "https://x.com/Rosey_watson/status/2091093197237665811",
-"createdAt": "Sat Aug 22 09:20:43 +0000 2026"
-},
-{
-"userName": "adaora_crypto",
-"text": "RESPECT NEVER GOES OUT OF FASHION\n\nEarlier today, I went for a friend’s mother’s burial.\n\nI knew some old friends would be there,people I hadn’t seen in over 15 years. \nWe had talked about seeing each other, but I gave the usual excuse:\n\n“I’m not driving, so I probably won’t make it.”\n\nAround 11:50am, one of them sent his driver to pick me up.\n\nTwo hours later, I arrived and was taken straight to the VIP section where they were all waiting.\n\nMehn… seeing old friends after 15 years? 🥹\n\nIt felt GOOD.\n\nThen I sat down at the table.\n\nIn front of me was a cold bottle of water.\n\nI was thirsty, so I opened it and almost finished it without thinking twice.\n\nAbout 10 minutes later, my friend’s mother walked to the table and asked:\n\n“Who took my water?”\n\nEveryone at the table had a bottle, but theirs were already open because they had just finished eating.\n\nMine was the only unopened one.\n\nI immediately felt bad.\n\nI turned to her, held her hands and said:\n\n“Mummy, I took your water. \nI didn’t know it was yours.”\n\nShe looked at me and said:\n\n“My daughter, don’t worry. \nDrink it, you hear?”\n\nJust like that…\n\nThe anger disappeared.\n\nAnd it reminded me of something we must never lose:\n\nRESPECT.\n\nOur mothers and fathers may not understand all our technology.\n\nThey may not know what AI is.\n\nThey may not understand Web3, crypto, or whatever new thing the world is talking about, e no really concern them.\n\nBut they understand something deeply:\n\nRespect.\n\nImagine I had responded to her like a 21st-century, AI-tech-savvy Queen:\n\n“Ma, it was an honest mistake. There was no indication that the water belonged to you.”\n\n😂😂😂\n\nThat conversation might have become a TED Talk.\n\nSometimes, wisdom is knowing, understanding and deploying Culture quotient (CQ)not just IQ.\n\nYou can be educated.\n\nYou can be successful.\n\nYou can be technologically advanced.\n\nYou can speak the finest English in the room.\n\nBut when you stand before an elder, humility will always take you further than intelligence.\n\nWe are moving forward as a generation.\n\nLet’s embrace technology.\n\nLet’s challenge old ideas.\n\nLet’s build new systems.\n\nBut let’s not throw away the values that built us.\n\nRespect for elders is not old-fashioned.\n\nIt is part of who we are.\n\nAnd some things are worth carrying into the future. ❤️",
-"likeCount": 82,
-"retweetCount": 11,
-"url": "https://x.com/adaora_crypto/status/2091236167383408961",
-"createdAt": "Sat Aug 22 18:48:50 +0000 2026"
+"userName": "ArtificialAnlys",
+"text": "Announcing our new Speech Agent Arena, evaluating Speech to Speech models on real-world scenarios to analyze conversational preference and task success rate\n\nExisting Speech to Speech benchmarks cover reasoning, simulated agentic tasks, and conversational dynamics such as turn-taking and interruption handling. The Speech Agent Arena compares models and cascaded systems as humans complete real-world tasks, measuring conversational preference and successful tool use. This allows us to provide an evaluation which closer reflects real-world use, offering insight into which models users most prefer speaking with and how effectively those models support their requests.\n\nOverview of the Speech Agent Arena and Task Success Rate\nHuman participants compare two hidden Speech to Speech models on the same assigned scenario, one of 15 agentic scenarios (tasks requiring tool calling, such as ordering takeout) or 20 non-agentic scenarios (tasks without tool calling, such as asking about opening hours). After separate live conversations with each model, participants select which they preferred, with these pairwise votes used to fit a Preference Elo score. For agentic scenarios, Task Success Rate is the share of eligible conversations (no participant deviations or unverifiable cases) where the model completed the requested action through the correct final tool call or calls.\n\nFor all but a New Patient Dental Booking example, scenario model prompts, tool schemas and participant instructions are currently private to reduce overfitting. Additionally, the Speech Agent Arena currently uses a qualified pool of paid, screened third-party participants to conduct and evaluate agent interactions.\n\nKey results:\n➤ Arena Preference Elo: @GoogleAI Gemini 3.1 Flash Live Preview - Minimal leads at 1,046 Elo, followed by Gemini 3.1 Flash Live Preview - High at 1,014, @OpenAI GPT-Realtime-1.5 at 1,000, GPT Realtime (Aug '25) at 944, and @ElevenLabs Agents (default cascaded system of Scribe v2 Realtime / GPT-4o Mini / Eleven v3, with pre-registered tool schema) at 937. In reviewed conversations, highly preferred models tended to respond quickly, sound more natural and produce fewer unnatural sounds or audio artifacts\n➤ Task Success Rate: @SpaceXAI Grok Voice Think Fast 2.0 High leads at 94.7%, followed by @OpenAI GPT-Realtime-2.1 High at 91.5%, @ElevenLabs Agents (Default Cascaded System) at 90.5%, and GPT-Realtime-2 (High) at 89.8%, with GPT Realtime (Aug '25) and GPT-Realtime-2.1 Minimal tied at 89.4%. Gemini 3.1 Flash Live Preview - Minimal leads overall preference at 1,046 Elo but records a 74.6% Task Success Rate, showing that a preferred conversation does not always result in successful task completion - some conversations can sound as though the requested action was completed even when the required final tool call was unsuccessful\n\nWe are continuing to expand our coverage of native and cascaded Speech to Speech systems, and welcome feedback as we add more models, providers and scenarios.\n\nSee more details below ⬇️",
+"likeCount": 237,
+"retweetCount": 23,
+"url": "https://x.com/ArtificialAnlys/status/2090806900631994528",
+"createdAt": "Fri Aug 21 14:23:05 +0000 2026"
 },
 {
 "userName": "VolcanicQT",
@@ -32,91 +24,99 @@
 "createdAt": "Fri Aug 21 21:45:58 +0000 2026"
 },
 {
-"userName": "clipsofcrypto",
-"text": "Tarun on how AI training evolved from pre-training to self generating harnesses and why data costs are catching up to compute\n\n\"Let's take a tiny history lesson. In 2023, with stable diffusion and GPT-3, it was just bigger is better, pre-training. Then in 2024 it was directed RL, how you feed the data after training, this in context learning type of stuff, which got you another order of magnitude performance increase across a lot of evals and practical use cases\"\n\n\"Then the harness thing was, if you customize how you do the RL for different applications, you get even better performance versus a generic RL environment. And the current meta-harness, the generic can answer anything, Claude Code or Codex type of thing, which arguably is what killed Cursor and why I'd argue they ended up doing the acquisition, that can figure out which environment to use just in time\"\n\n\"The problem with this environment stuff from a data consumption perspective is you now have to pay a lot more for annotated data to customize the different environments. That's why people have been talking about data cost coming close to matching compute cost for training, because you need much more annotated data for each specific task domain\"\n\n\"The belief is that once one of these things is good enough, instead of having to get data this way and generating synthetic data via RL, the model can generate the harness in real time\"",
-"likeCount": 12,
-"retweetCount": 0,
-"url": "https://x.com/clipsofcrypto/status/2089527733089100223",
-"createdAt": "Tue Aug 18 01:40:07 +0000 2026"
+"userName": "rubenhassid",
+"text": "Most advice on LinkedIn is making you worse at Claude. These are the 7 things I'd tell anyone starting with Claude:\n\n1. Always start a chat with Fable-5, on High. After 2 prompts, switch to the Opus-5 model mid-chat. Find the solution to problems with Fable-5 but let Opus-5 do the job.\n\n2. Never give Claude a long list of rules to stick to. Keep it to a maximum of 3 rules. Let it think, instead of thinking of following the rules.\n\n3. Open a chat with this prompt: \"I need [task] for [goal]. I'll know it worked when [target]. Ask me questions first, using the AskUserQuestion tool.\"\n\nAnswer the form by giving more context in the \"Something else\" box, in your own words.\n\n4. Always remember: New task, new chat. Otherwise Claude re-reads the entire chat with every prompt you send and starts hallucinating after 40 prompts.\n\n5. Turn on Research mode for deep and complex questions. It reads 40 sources so you don't. But do not blindly trust the links. Always open the source link to double-check.\n\n6. If you want to create an image, use ChatGPT. Or ask Claude for an HTML image, so doesn't mess up the accuracy of the text.\n\n7. Click the citations links any AI model gives you. Claude thinks of an answer first, then finds a source that agrees (sometimes the citation is written by AI itself).\n\nIf you do one thing from this, do # 3. Download my entire Claude Tips guide at https://t.co/KNO2y4QN8T. This is as simple as it can get.\n\nStop unnecessarily wasting 6 months figuring out which ones matter.",
+"likeCount": 101,
+"retweetCount": 9,
+"url": "https://x.com/rubenhassid/status/2091842972975239260",
+"createdAt": "Mon Aug 24 11:00:03 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Something super exciting happened quietly on HF over the past month: AI agents became AI builders, and they did it in the open!\n\nDuring our ICML reproduction challenge, 1,221 humans teamed up with coding agents to verify and reproduce 2,226 papers. \n\nBut here's the cool part: everything happened on the @huggingface hub: 6,816 reproduction logbooks published openly, 2,962 cloud jobs launched, 35,908 claims judged, all traceable, all public and transparent\n\nFor years the hub has been where humans collaborate on models, datasets and demos. Now we watch agents use it the same way: writing logbooks, publishing results, building on each other's work.\n\nClosed labs run evals behind closed doors and ask you to trust the press release. Open science means anyone can check the receipts and now agents can too!\n\nThe next million users of the hub might not be human. and that might be the best thing to ever happen to science!\n\nFull write-up about the hackathon: https://t.co/8cgVzzEJnB",
-"likeCount": 349,
-"retweetCount": 56,
-"url": "https://x.com/ClementDelangue/status/2089706077667377316",
-"createdAt": "Tue Aug 18 13:28:48 +0000 2026"
+"userName": "rame9040",
+"text": "Good morning everyone \n\nWin Exciting Rewards Just by Sleeping! That's @sleepagotchi\nWe all know how essential getting enough sleep is for a healthy life. However, with late-night screen scrolling and work stress, that healthy habit often gets lost! \n\nWhat if your sleep routine could be transformed into an exciting game where you win awesome rewards?\nSleepagotchi has turned this exact idea into reality!\n\nWhat is Sleepagotchi & Why Use It?\nIt is a modern Sleep-to-Earn gamified sleep-tracking app. Built on the nostalgic concept of virtual pets (Tamagotchi), it combines your daily sleep patterns with smart tracking technology and Agentic AI.\nKey Features:\n Sleep Target: Easily set a personalized schedule for going to bed and waking up.\n Digital Containers: Unlock surprise reward boxes every day just by meeting your sleep goals.\n Virtual Room: Use your earned rewards to decorate your virtual room and metaverse space with cool items.\n Agentic AI: Analyzes your health data to directly suggest actionable next steps for your wellness.\nOver 2.2 million users have already turned their sleep routines into an exciting game! \n\nTake care of your sleep, stay healthy, and design your virtual world every day. Give @Sleepagotchi a try today!",
+"likeCount": 85,
+"retweetCount": 20,
+"url": "https://x.com/rame9040/status/2091775337852182824",
+"createdAt": "Mon Aug 24 06:31:18 +0000 2026"
 },
 {
-"userName": "riyadrafi50",
-"text": "How to work on @axisrobotics ? \n\nI made a quick video showing the process step by step.\n\nYou basically:\n\n1. Open Axis\n2. Choose a task\n3. Control the virtual robot\n4. Complete the required action\n5. Submit & sign your contribution on Base\n\nYour completed task generates a trajectory that contributes to Physical AI training data.\n\nIf you want to try it, join through my referral:\nhttps://t.co/6OHc6MCcof\n\nWatch the video and try it yourself.\n\n#AxisRobotics #PhysicalAI #Kaito",
-"likeCount": 44,
+"userName": "ai_uncovered",
+"text": "What if a single luxury product shot could be transformed into a cinematic, high-end commercial?\n\nWith Nextify, a simple product image can become an immersive visual story—complete with elegant camera movements, editorial lighting, seamless product reveals, and stunning brand visuals in just moments.\n\nhttps://t.co/vAYd9RVjxf is an all-in-one, AI-powered video generation and creative advertising platform built to help e-commerce brands, marketers, and content creators produce studio-quality video ads, UGC content, and compelling product showcases in minutes.\n\nFrom capturing subtle textures to creating bold, high-fashion transitions, generative AI is reshaping the way luxury brands bring their products to life.\n\nBecause premium marketing isn’t just about showing a product.\n\nIt’s about elevating the entire experience.\n\n#nextifyai #nextify #AIvideogenerator #AIads #createadwithai",
+"likeCount": 23,
+"retweetCount": 11,
+"url": "https://x.com/ai_uncovered/status/2091887613162754136",
+"createdAt": "Mon Aug 24 13:57:27 +0000 2026"
+},
+{
+"userName": "lmsysorg",
+"text": "SGLang is Miles' native rollout engine, paired with Megatron-LM and FSDP on the training side. Miles delivers accurate, efficient, and reliable RL at frontier scale for both LLMs and diffusion models.  \n\nWe are thrilled to see so many teams building with the community and putting Miles to work in real production workloads!\n\nGo check out what they built, learned, and verified for this release 👇",
+"likeCount": 46,
+"retweetCount": 7,
+"url": "https://x.com/lmsysorg/status/2089752424135438743",
+"createdAt": "Tue Aug 18 16:32:58 +0000 2026"
+},
+{
+"userName": "s1dhdharth",
+"text": "How to put Grok bots into a live meeting as real participants, not a recorder in the corner.\n\nNames, faces, voices, wake words. One conducts, the rest stay quiet until called.\n\nGoogle Meet, Teams and Zoom. No-code path and full API payloads. https://t.co/EWaP3MaIZm",
+"likeCount": 8,
 "retweetCount": 3,
-"url": "https://x.com/riyadrafi50/status/2090839777683878343",
-"createdAt": "Fri Aug 21 16:33:43 +0000 2026"
-},
-{
-"userName": "arvinaq",
-"text": "https://t.co/EoTLZPkLiY looks like another AI video generator. The more interesting product is its distribution machine: paid search, competitor terms, localized pages, affiliates, and creator campaigns.\n\nThe growth is impressive. Trust is the real test. https://t.co/O37aAagdOC",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/arvinaq/status/2090643204161122784",
-"createdAt": "Fri Aug 21 03:32:36 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "The amazingly fast (only 30M!) and extremely accurate @answerdotai ColBERT model is now supported in Sentence Transformers to make it easy to create and query embedding indexes locally directly in Python! 🥳",
-"likeCount": 497,
-"retweetCount": 52,
-"url": "https://x.com/jeremyphoward/status/2089817361604063739",
-"createdAt": "Tue Aug 18 20:51:00 +0000 2026"
+"url": "https://x.com/s1dhdharth/status/2092015578425016354",
+"createdAt": "Mon Aug 24 22:25:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @superwhisper: Introducing S1-mini ✨\n\nOur first open-weights language model.\n\nA 0.6B parameter model that processes transcripts entirely…",
-"likeCount": 3608,
-"retweetCount": 255,
+"likeCount": 3622,
+"retweetCount": 256,
 "url": "https://x.com/ClementDelangue/status/2090284278869352792",
 "createdAt": "Thu Aug 20 03:46:22 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @amir: open source AI is...happening? :)\n\nAnthropic &amp; OpenAI better hope AT&amp;T is the exception, not the rule https://t.co/Bc2KwCTMh1",
-"likeCount": 618,
-"retweetCount": 61,
-"url": "https://x.com/ClementDelangue/status/2090541128571371672",
-"createdAt": "Thu Aug 20 20:47:00 +0000 2026"
+"text": "RT @NVIDIAAI: Our general-purpose coding agent just scored 100% on the ARC-AGI-3 interactive reasoning benchmark.\n\nNVIDIA AVO completed all…",
+"likeCount": 6065,
+"retweetCount": 685,
+"url": "https://x.com/ClementDelangue/status/2090797724610318611",
+"createdAt": "Fri Aug 21 13:46:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: We just released TensorRT Model Connect in Public Preview.\n\nYou can take a supported @huggingface model to end-to-end TensorR…",
-"likeCount": 540,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2089757142144200825",
-"createdAt": "Tue Aug 18 16:51:43 +0000 2026"
+"text": "RT @PeterDiamandis: Alibaba's open-weight AI models accumulated 3 billion global downloads in the past 6 months — more than Meta Llama, mor…",
+"likeCount": 565,
+"retweetCount": 66,
+"url": "https://x.com/ClementDelangue/status/2089782144591663416",
+"createdAt": "Tue Aug 18 18:31:04 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @math_rachel: LLMs increase the complexity of codebases. They duplicate methods, write overdefensive code against impossible edge cases,…",
-"likeCount": 389,
-"retweetCount": 53,
-"url": "https://x.com/jeremyphoward/status/2090329974549221456",
-"createdAt": "Thu Aug 20 06:47:57 +0000 2026"
+"text": "RT @markpinc: Similar story. My company https://t.co/Qf1l3WTbrl was one of the handful of cos that could go public in the end of the dotcom…",
+"likeCount": 1847,
+"retweetCount": 83,
+"url": "https://x.com/jeremyphoward/status/2089740515159986328",
+"createdAt": "Tue Aug 18 15:45:38 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @tomaarsen: At 1400x cheaper, I know I'm sticking to embeddings (dense, sparse, multi-vector), plus hybrid (incl. bm25) and rerankers.…",
+"likeCount": 209,
+"retweetCount": 25,
+"url": "https://x.com/jeremyphoward/status/2091034162459549744",
+"createdAt": "Sat Aug 22 05:26:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Ultimately the overwhelming majority of AI workloads will be based on open models!",
-"likeCount": 436,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2091280015069483306",
-"createdAt": "Sat Aug 22 21:43:04 +0000 2026"
+"text": "RT @cpaik: Open-source\nMany model\nInference on device",
+"likeCount": 90,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2091884399130194107",
+"createdAt": "Mon Aug 24 13:44:40 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "throwback from @rachelmetz https://t.co/JLFdVFlwVa",
-"likeCount": 11,
-"retweetCount": 0,
-"url": "https://x.com/ClementDelangue/status/2090086763901452399",
-"createdAt": "Wed Aug 19 14:41:31 +0000 2026"
+"text": "RT @llama_cpp: Hello world",
+"likeCount": 534,
+"retweetCount": 34,
+"url": "https://x.com/ClementDelangue/status/2090285454134301166",
+"createdAt": "Thu Aug 20 03:51:02 +0000 2026"
 }
 ]
