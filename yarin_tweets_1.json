@@ -1,51 +1,51 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
-"likeCount": 32,
-"retweetCount": 5,
-"url": "https://x.com/junfanzhu98/status/2091416256205488328",
-"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
+"userName": "Kai_Nimo02",
+"text": "The more I read about robotics, the less I think the next big breakthrough will come from a prettier robot demo.\n\nThe hardware is already getting good.\n\nRobotic arms can move with incredible precision. Humanoids can walk, run, carry boxes, sort objects and recover their balance. Models are getting better too.\n\nBut there’s still one awkward problem:\n\nWhere does all the training data come from?\n\nThis sounds boring compared with watching a humanoid do a backflip.\n\nI think it might be the more important question.\n\nThink about how modern language models were built.\n\nBefore ChatGPT became useful, there was already an absurd amount of text sitting on the internet. Books, websites, forums, code, Wikipedia, conversations.\n\nThe raw material existed.\n\nRobotics doesn’t have that luxury.\n\nThere isn’t a public internet containing billions of examples of someone opening every type of drawer, picking up every oddly shaped object, recovering from every failed grasp, or operating inside every factory and kitchen layout.\n\nA robot needs experience with the physical world.\n\nThat experience is expensive.\n\nIf a company wants to collect everything using real robots, it needs the hardware, operators, cameras, workspace, maintenance, safety procedures and time.\n\nThen the environment changes.\n\nMove the camera.\n\nReplace the object.\n\nPut the same robot in a different room.\n\nSuddenly the policy that looked great in the demo starts making stupid mistakes.\n\nThis is one reason I’ve been paying attention to Axis Robotics.\n\nAxis is basically betting that a meaningful chunk of this experience can be manufactured.\n\nInstead of waiting for thousands of physical robots to collect everything, Axis creates simulated tasks and distributes them to people through the browser.\n\nThose people generate trajectories.\n\nThe environment can then be changed again and again.\n\nDifferent layouts.\n\nDifferent object positions.\n\nDifferent observations.\n\nDifferent ways of completing the same task.\n\nTheir current site describes the goal pretty directly: build a growing data engine where tasks, demonstrations and failures keep feeding back into the system instead of producing a static dataset once and stopping.\n\nThis is where “more data” gets a little misleading though.\n\nI don’t think the robotics race will be won by whoever can put the biggest trajectory number on a dashboard.\n\nAxis itself is already past 3 million trajectories generated by more than 123,000 contributors, according to its August update.\n\nThree million sounds huge.\n\nBut three million versions of basically the same easy motion wouldn’t be very interesting.\n\nWhat matters is whether the data covers the situations where a model actually breaks.\n\nThat could be a weird camera angle.\n\nA slightly different object.\n\nA bad approach to a grasp.\n\nA robot arm drifting toward the wrong target.\n\nOr the last five centimeters of a task where everything suddenly falls apart.\n\nThis is why the correction loop I wrote about yesterday matters.\n\nOnce a model can already handle the easy part, collecting another full human demonstration becomes less useful.\n\nLet the model try.\n\nFind the failure.\n\nCorrect the failure.\n\nTrain on that.\n\nRepeat.\n\nAxis calls its newer approach human-gated DAgger. The robot handles what it can, while people intervene around the parts it still gets wrong.\n\nThere’s already an interesting example of why this data problem deserves attention.\n\nAxis recently published results from work with Booster Robotics.\n\nThey took a real robot setup, built task-aligned simulation around it and generated 42,046 filtered simulation episodes.\n\nThe important part wasn’t simply that simulation data helped.\n\nIt was how the data was mixed.\n\nIn one experiment, using 10 real demonstrations together with 50 simulated demonstrations produced successful target contact in 17 out of 20 rollouts.\n\nUsing the same 10 real demonstrations without that simulation data produced 0 out of 20.\n\nIn another comparison, a Booster-specific model that had gone through continued pretraining with Axis data beat the original π0.5 checkpoint even when the generic model received twice as many demonstrations for the downstream task.\n\nI find that much more interesting than “we collected X million trajectories.”\n\nBecause it gets closer to the question that actually matters:\n\nCan the right data reduce how much expensive real-world training a robot needs?\n\nIf the answer keeps moving toward yes, simulation becomes more than a cheap substitute for reality.\n\nIt becomes a way to generate variation at a scale that physical collection probably can’t match.\n\nReal-world data still matters. A simulated grasp doesn’t perfectly reproduce friction, contact, sensor noise or all the other messy things that happen when metal touches the real world.\n\nThe Booster results actually make that point too. The strongest outcomes came from deliberate mixtures of simulation and real demonstrations, rather than blindly maximizing one source.\n\nThat changes how I look at Axis.\n\nThe long-term value probably isn’t “a website where people control virtual robots.”\n\nIt’s whether @axisrobotics  can figure out which experiences a robot needs next, generate those experiences cheaply, and feed the useful ones back into training.\n\nThat’s a much harder problem.\n\nAnd if Physical AI keeps growing, it may become a very valuable one to solve.\n\nNext I want to go deeper into Axis V2, because the move from collecting demonstrations to collecting targeted corrections might be the most important change they’ve made so far. \nJoin on @KaitoAI",
+"likeCount": 73,
+"retweetCount": 2,
+"url": "https://x.com/Kai_Nimo02/status/2092195956909654429",
+"createdAt": "Tue Aug 25 10:22:41 +0000 2026"
 },
 {
-"userName": "adaora_crypto",
-"text": "RESPECT NEVER GOES OUT OF FASHION\n\nEarlier today, I went for a friend’s mother’s burial.\n\nI knew some old friends would be there,people I hadn’t seen in over 15 years. \nWe had talked about seeing each other, but I gave the usual excuse:\n\n“I’m not driving, so I probably won’t make it.”\n\nAround 11:50am, one of them sent his driver to pick me up.\n\nTwo hours later, I arrived and was taken straight to the VIP section where they were all waiting.\n\nMehn… seeing old friends after 15 years? 🥹\n\nIt felt GOOD.\n\nThen I sat down at the table.\n\nIn front of me was a cold bottle of water.\n\nI was thirsty, so I opened it and almost finished it without thinking twice.\n\nAbout 10 minutes later, my friend’s mother walked to the table and asked:\n\n“Who took my water?”\n\nEveryone at the table had a bottle, but theirs were already open because they had just finished eating.\n\nMine was the only unopened one.\n\nI immediately felt bad.\n\nI turned to her, held her hands and said:\n\n“Mummy, I took your water. \nI didn’t know it was yours.”\n\nShe looked at me and said:\n\n“My daughter, don’t worry. \nDrink it, you hear?”\n\nJust like that…\n\nThe anger disappeared.\n\nAnd it reminded me of something we must never lose:\n\nRESPECT.\n\nOur mothers and fathers may not understand all our technology.\n\nThey may not know what AI is.\n\nThey may not understand Web3, crypto, or whatever new thing the world is talking about, e no really concern them.\n\nBut they understand something deeply:\n\nRespect.\n\nImagine I had responded to her like a 21st-century, AI-tech-savvy Queen:\n\n“Ma, it was an honest mistake. There was no indication that the water belonged to you.”\n\n😂😂😂\n\nThat conversation might have become a TED Talk.\n\nSometimes, wisdom is knowing, understanding and deploying Culture quotient (CQ)not just IQ.\n\nYou can be educated.\n\nYou can be successful.\n\nYou can be technologically advanced.\n\nYou can speak the finest English in the room.\n\nBut when you stand before an elder, humility will always take you further than intelligence.\n\nWe are moving forward as a generation.\n\nLet’s embrace technology.\n\nLet’s challenge old ideas.\n\nLet’s build new systems.\n\nBut let’s not throw away the values that built us.\n\nRespect for elders is not old-fashioned.\n\nIt is part of who we are.\n\nAnd some things are worth carrying into the future. ❤️",
-"likeCount": 84,
-"retweetCount": 11,
-"url": "https://x.com/adaora_crypto/status/2091236167383408961",
-"createdAt": "Sat Aug 22 18:48:50 +0000 2026"
+"userName": "KirstiMiller30",
+"text": "Sporting bodies worldwide have been rewriting the rules for trans and gender diverse athletes, most recently the IOC's March 2026 policy requiring SRY gene screening. Our new review in the International Journal of Sports Medicine asks a simple question: What evidence are these policies built on?\n\nThe short answer is not much.\n\nWe traced the history of eligibility rules from 2003 to now, mapped current policies across 16 sports, and assessed them against the science. What we found:\n\n🔬 Gender-affirming hormone therapy does produce real physiological changes. Within three months of starting estradiol, haemoglobin and haematocrit fall into female reference ranges.\n\n📊 The most comprehensive evidence to date, a meta-analysis of 52 studies and 6,485 people, found that trans women on hormone therapy have comparable upper body strength, lower body strength, and VO2max to cisgender women. Certainty of that evidence is graded low to very low, which is exactly why more research is needed.\n\n🧬 SRY is a gene that switches on briefly during embryonic development to initiate testis formation. It has no known function in adult tissue and does not determine adult muscle mass, strength, or athletic performance. Using it as a universal eligibility test is not supported by biology.\n\n🏅 Despite more than 20 years of eligibility at Olympic and elite level, trans women have neither medalled nor dominated any women's sport.\n\nWe argue that fairness and safety cannot be settled by biology alone, and propose a framework where inclusion is the default, restrictions are proportionate to the actual demands of each sport, and policies are reviewed as evidence improves.\n\nTrans and gender diverse people already participate in sport and physical activity at lower rates, with real consequences for physical and mental health.\n\nLastly, these policies do not only affect trans athletes. Highly policed eligibility rules increase scrutiny of all women's bodies, particularly women who do not fit narrow expectations of femininity.\n\nOpen access and free to read: https://t.co/jPYNeoewXi\n\nLed by Ananya Krishna and Séverine Lamon at Deakin University, with Carlie Bauer, Kimberley Way, Bernadette Jones-Freeman and our own Prof Ada Cheung.\n\nImage description: Text summarising the study premise, as previously written, displayed alongside the Trans Health Research logo and two photos. Left photo, taken by Yuya Parker (Adobe Stock), shows a trans woman stretching indoors, wearing a sleeveless white crop top, black shorts, and a silver necklace; she has straight brown hair, tied back, and is looking into the distance with a neutral or determined expression. Right photo shows a non-binary trans woman sitting on an inflated gym ball indoors, looking at her watch with a mild smile; she is wearing black yoga pants, a black polyester jacket, a tan t-shirt, and grey headphones. She has straight brown hair, tied back. End description.\n\n#transhealth #transresearch #sportscience #sportresearch #trans #nonbinary #transwomen #letthemplay",
+"likeCount": 7,
+"retweetCount": 2,
+"url": "https://x.com/KirstiMiller30/status/2092399202592751912",
+"createdAt": "Tue Aug 25 23:50:19 +0000 2026"
 },
 {
-"userName": "philosophy36l",
-"text": "🔥 35 Websites That Are Actually Useful\n\nBookmark this list — you’ll probably need more than a few of these 👇\n\n1. https://t.co/R3ccZIL3hp — Access old & archived content\n2. WolframAlpha — Solve complex questions & calculations\n3. https://t.co/aMB2T674Eg — Remove image backgrounds\n4. TinyPNG — Compress images without losing quality\n5. Smallpdf — Edit and manage PDFs\n6. iLovePDF — Merge, split & convert PDFs\n7. DeepL — High-quality online translation\n8. Grammarly — Improve your writing\n9. Hemingway Editor — Make writing clearer & simpler\n10. ChatGPT — AI-powered answers & assistance\n11. Perplexity — AI-powered search & research\n12. Notion — Organize notes, tasks & projects\n13. Trello — Manage projects visually\n14. Canva — Create designs easily\n15. Unsplash — Free high-quality photos\n16. Pexels — Free photos & videos\n17. Flaticon — Find useful icons\n18. Coolors — Generate color palettes\n19. Google Fonts — Free fonts for your projects\n20. Namecheap — Buy domains affordably\n21. GitHub — Host and manage code\n22. Replit — Code directly from your browser\n23. Regex101 — Test & debug regular expressions\n24. ExplainShell — Understand Linux commands\n25. https://t.co/nb8iBbdJgc — Check your internet speed\n26. Have I Been Pwned? — Check if your data was leaked\n27. VirusTotal — Scan files and URLs for threats\n28. Downdetector — Check whether a service is down\n29. 10MinuteMail — Create a temporary email\n30. https://t.co/8zK5CBxvkg — Share text instantly\n31. Screely — Create beautiful screenshots\n32. Carbon — Turn code into beautiful images\n33. Squoosh — Compress & optimize images\n34. SimilarSites — Discover similar websites\n35. DesignList — Find useful design resources\n\n💾 Save this post. You’ll thank yourself later.\n\n🔁 Repost to help someone discover a useful tool today.",
-"likeCount": 17,
-"retweetCount": 15,
-"url": "https://x.com/philosophy36l/status/2092101328130678953",
-"createdAt": "Tue Aug 25 04:06:40 +0000 2026"
+"userName": "monicaa_AI",
+"text": "30 free datasets to practice AI/ML on (no more Titanic dataset) 📊\nSearch Engines for Datasets\n\n1. https://t.co/pc40pAAXh0 — Google's dataset search engine\n2. https://t.co/FlHW78VHNK — Thousands of shareable ML datasets\n3. https://t.co/GOdkUEraG0 — NLP, vision & LLM fine-tuning data\n4. https://t.co/atZjqt3jNG — Datasets tied to research papers\nClassic ML Repositories\n5. https://t.co/l7dXduQTHF — 600+ curated, research-grade datasets\n6. https://t.co/Nm0MbSfWzN — 200K+ community-uploaded datasets\n7. https://t.co/BFSqloWh70 — US government open data\n8. https://t.co/WXY4Dypk0x — EU government open data\nComputer Vision\n9. COCO Dataset — Object detection & segmentation\n10. ImageNet — 14M+ labeled images\n11. CIFAR-10/100 — Classic image classification benchmark\n12. Open Images Dataset (Google) — 9M+ annotated images\n13. LAION-5B — Massive image-text pairs for generative AI\nNLP & LLMs\n14. Common Crawl — Petabytes of raw web text\n15. The Pile (EleutherAI) — 800GB curated text for LLM training\n16. IMDb Reviews — Sentiment analysis benchmark\n17. SQuAD — Question-answering benchmark\n18. Amazon Reviews Dataset — Millions of product reviews\nFinance & Economics\n19. Yahoo Finance API — Historical stock data\n20. World Bank Open Data — Global economic indicators\n21. Lending Club Loan Data — Credit risk modeling\n22. Credit Card Fraud Detection (Kaggle) — Fraud classification practice\nHealthcare\n23. MIMIC-III — De-identified ICU patient data\n24. CDC WONDER — US public health statistics\n25. COVID-19 Data Repository (JHU) — Historical pandemic tracking data\nGeospatial & Climate\n26. NASA Earthdata — Satellite & climate datasets\n27. OpenStreetMap — Global map & location data\n28. NOAA Climate Data — Historical weather records\nRecommendation Systems\n29. MovieLens — Classic movie ratings dataset\n30. H&M Personalized Fashion Dataset — Real e-commerce recommender data\nSkip the Titanic dataset. \n\nBuild something that actually looks good on a portfolio. 🔖\n\nFollow @monicaa_AI for more free tools, AI resources & datasets worth knowing. 🚀",
+"likeCount": 62,
+"retweetCount": 32,
+"url": "https://x.com/monicaa_AI/status/2090256197870035291",
+"createdAt": "Thu Aug 20 01:54:47 +0000 2026"
 },
 {
-"userName": "Kaiserwsf",
-"text": "MEET THE AI GIRL WHO PLAYS TENNIS FOR A LIVING — AND SHE'S NEVER LOST\n\nShe trains, competes, and racks up wins on camera. The catch: she doesn't exist.\n\nHere's how the \"AI athlete\" model actually works:\n\nAn AI girl persona is built with a consistent face, body, and personality using image/video generation tools. Instead of lifestyle or fashion content, her niche is sport — match highlights, training vlogs, \"behind the scenes\" prep, rackets and outfits, rivalries with other AI athletes.\n\nThe mechanism is simple: physical talent doesn't need to be real, only the narrative around it does. Generated match clips, fake tournament brackets, and AI commentary create a storyline fans follow like a real career.\n\nHow she earns:\n\nSponsorship deals with sportswear/equipment brands looking for cheap, controllable \"athletes\"\nPaid fan subscriptions for exclusive training content and match reactions\nLicensing her face/likeness to sports betting or fantasy-sim apps\nSelling a personal \"AI coach\" app trained on her persona\nNFT/collectible drops tied to her \"career milestones\" (Grand Slam wins, rankings)\n\nThe twist: her fanbase doesn't care that she's never held a racket — they're not following an athlete, they're following a story that updates on schedule",
-"likeCount": 12,
-"retweetCount": 0,
-"url": "https://x.com/Kaiserwsf/status/2089717242430738750",
-"createdAt": "Tue Aug 18 14:13:10 +0000 2026"
-},
-{
-"userName": "huiying_lii",
-"text": "Nvidia NeMo is coming to PyTorch Conference in San Jose this October — and we’re bringing a lot. 🔥\n\n⚡ Diffusion  \n• Efficient, Large-Scale LoRA and Fine-Tuning for Diffusion Models in PyTorch\n🧠 Agentic AI \n• Multi-Teacher On-Policy Distillation for SOTA Agentic AI Models\n🤖 RL & Post-Training\n• FP8-RL: A Practical and Stable Low-Precision Stack for LLM Reinforcement Learning in NeMoRL\n• Day-0 RL at Scale for Emerging LLM and VLM Architectures with NeMoRL+NeMoAutomodel\n🚀 Models & Ecosystem\n• The Nemotron Ecosystem: Building the Third Generation — Nano, Super, and Ultra\n\nFrom training infrastructure and post-training systems all the way to models. If you’re working on PyTorch, LLM/VLM/diffusion training, RL, or agentic AI, come find us in San Jose. 👋\n\nCheck out our repos now:\nNeMoRL https://t.co/VQrAJjbbAq\nNeMo-Automodel: https://t.co/FWLQXAYGNp\n\n#PyTorchConference #NeMo #ReinforcementLearning #LLM #AgenticAI\n\nSee you in October!",
-"likeCount": 14,
+"userName": "Kontentsukpi",
+"text": "LINKEDIN IS TEACHING PEOPLE TO MICROMANAGE CLAUDE.\n\nthe better system is almost the opposite:\n\n1. start with Fable-5 on High.\n\ngive it 2 prompts to solve the problem.\n\nthen switch to Opus-5 in the same chat and let it do the work.\n\nstrategy first.\nproduction second.\n\n2. stop writing constitutions.\n\nClaude gets a maximum of 3 rules.\n\nafter that, it spends more effort obeying the rulebook than thinking about the task.\n\n3. open every serious session with this:\n\n“I need [task] for [goal].\nI’ll know it worked when [target].\nAsk me questions first, using AskUserQuestion.”\n\nwhen the form appears, use “Something else” to add the context in your own words.\n\n4. new task = new chat.\n\nClaude re-reads the entire thread every time you send another prompt.\n\nkeep pushing the same conversation past 40 prompts and the old context starts working against you.\n\n5. use Research mode when the question is deep enough to deserve 40 sources.\n\nthen open the links yourself.\n\nresearch is delegated.\ntrust is not.\n\n6. for images, use ChatGPT.\n\nor ask Claude to build the image in HTML when the text needs to stay accurate.\n\n7. click every citation.\n\nClaude can form the answer first and then find a link that agrees with it.\n\nsometimes that link was written by AI too.\n\nthe rule beneath all 7:\n\ngive Claude room to think.\n\nthen verify everything it asks you to trust.\n\nsave this before your next session.",
+"likeCount": 26,
 "retweetCount": 3,
-"url": "https://x.com/huiying_lii/status/2089776031330861562",
-"createdAt": "Tue Aug 18 18:06:46 +0000 2026"
+"url": "https://x.com/Kontentsukpi/status/2092182894894575701",
+"createdAt": "Tue Aug 25 09:30:47 +0000 2026"
 },
 {
-"userName": "simplifyinAI",
-"text": "There's an open-source project that reimplements almost every major text-to-3D AI paper in one place.\n\nIt's called threestudio. 3 things worth knowing:\n\n1. It's not one method, it's a shared framework\n2. It outputs an actual 3D object, not just an image\n3. You can try it free on Hugging Face Spaces\n\nIf you've ever wanted to type a sentence and get a 3D model out, this is where most of the research behind that actually lives.",
-"likeCount": 58,
-"retweetCount": 9,
-"url": "https://x.com/simplifyinAI/status/2092080234153820619",
-"createdAt": "Tue Aug 25 02:42:51 +0000 2026"
+"userName": "oliviscusAI",
+"text": "this repo beat Runway Gen-3 and Luma 1.6 in blind human evaluation. it also needs 60GB of VRAM for one video.\n\n- text alignment: 61.8%, best of the 6\n- motion quality: 66.5%, best of the 6\n- overall preference score: 41.3%, ranked #1\n\na 13B parameter model, largest open-source video model at release, using a decoder-only LLM as the text encoder instead of CLIP+T5.\n\nthis is the original HunyuanVideo though. \n\nTencent's own HunyuanVideo-1.5 replaced it since, same lineage, far lighter to run.",
+"likeCount": 19,
+"retweetCount": 5,
+"url": "https://x.com/oliviscusAI/status/2092279270672613487",
+"createdAt": "Tue Aug 25 15:53:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "NVIDIA built its own coding harness to optimize CUDA GPU kernels and achieved a 100% score on ARC-AGI-3’s 25 public games, solving all 183 levels.\n\nWith agents, we'll move from a world where it's quite hard to run, optimize, post-train your own AI models and kernels to a world where virtually everybody can do it. \n\n100 million AI builders when?",
+"likeCount": 565,
+"retweetCount": 75,
+"url": "https://x.com/ClementDelangue/status/2091273855415492806",
+"createdAt": "Sat Aug 22 21:18:35 +0000 2026"
 },
 {
 "userName": "arvinaq",
@@ -56,20 +56,20 @@
 "createdAt": "Fri Aug 21 03:32:36 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Agree with @gdb that we need to arm cyber defenders much more than they are now, both with APIs and open models. The real cybersecurity risk of AI is asymmetry of power, capabilities and ressources between attackers and defenders!",
-"likeCount": 59,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2090428723828772870",
-"createdAt": "Thu Aug 20 13:20:20 +0000 2026"
+"userName": "SKatalystAI",
+"text": "I put 10 Grok Bots inside one world. Four try to win. Six observe, measure, provoke, judge, and evolve the environment. The game is the demo. The idea is a decision wind tunnel for products and companies.\n\nDemo ↓ https://t.co/GDyzw1n62l",
+"likeCount": 12,
+"retweetCount": 1,
+"url": "https://x.com/SKatalystAI/status/2092367214221353162",
+"createdAt": "Tue Aug 25 21:43:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @huggingface: We've just surpassed 3 million models on the Hub 🤗\n\nthe community is accelerating towards an open, distributed future wher…",
-"likeCount": 1004,
-"retweetCount": 115,
-"url": "https://x.com/ClementDelangue/status/2089683648391925760",
-"createdAt": "Tue Aug 18 11:59:40 +0000 2026"
+"text": "RT @NVIDIAAI: Our general-purpose coding agent just scored 100% on the ARC-AGI-3 interactive reasoning benchmark.\n\nNVIDIA AVO completed all…",
+"likeCount": 6076,
+"retweetCount": 688,
+"url": "https://x.com/ClementDelangue/status/2090797724610318611",
+"createdAt": "Fri Aug 21 13:46:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
@@ -80,43 +80,35 @@
 "createdAt": "Thu Aug 20 20:47:00 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: We just released TensorRT Model Connect in Public Preview.\n\nYou can take a supported @huggingface model to end-to-end TensorR…",
-"likeCount": 540,
-"retweetCount": 67,
-"url": "https://x.com/ClementDelangue/status/2089757142144200825",
-"createdAt": "Tue Aug 18 16:51:43 +0000 2026"
-},
-{
 "userName": "jeremyphoward",
-"text": "RT @tomaarsen: Regarding Sentence Transformers v6.0 update:\n\nA dense model compresses a whole text into one vector, then compares two vecto…",
-"likeCount": 86,
-"retweetCount": 15,
-"url": "https://x.com/jeremyphoward/status/2090330778748305418",
-"createdAt": "Thu Aug 20 06:51:08 +0000 2026"
+"text": "RT @ziv_ravid: How Anthropic's new results post would read without the PR:\n\nClaude orchestrated open-source protein design models,  PXDesig…",
+"likeCount": 2270,
+"retweetCount": 253,
+"url": "https://x.com/jeremyphoward/status/2090331070516678744",
+"createdAt": "Thu Aug 20 06:52:18 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TheAhmadOsman: This summer has been a Homerun for Opensource AI and we’re only getting started btw",
-"likeCount": 209,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2089759540292035046",
-"createdAt": "Tue Aug 18 17:01:14 +0000 2026"
+"text": "RT @MiaAI_lab: 22 hours to go for Qwen3.8 Flash 🔥\n\nThere is NO sleep in local AI !\n\nhttps://t.co/Xxe9PEE26z https://t.co/ygyDA2Y0gz",
+"likeCount": 721,
+"retweetCount": 50,
+"url": "https://x.com/ClementDelangue/status/2092297534555230353",
+"createdAt": "Tue Aug 25 17:06:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "throwback from @rachelmetz https://t.co/JLFdVFlwVa",
-"likeCount": 12,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2090086763901452399",
-"createdAt": "Wed Aug 19 14:41:31 +0000 2026"
+"text": "Who's excited? https://t.co/jiKFk0vwJn https://t.co/tfK3kqGmxk",
+"likeCount": 1283,
+"retweetCount": 80,
+"url": "https://x.com/ClementDelangue/status/2092275117539655835",
+"createdAt": "Tue Aug 25 15:37:15 +0000 2026"
 },
 {
-"userName": "alexwg",
-"text": "https://t.co/hZ2VCKxoOB",
-"likeCount": 262,
-"retweetCount": 26,
-"url": "https://x.com/alexwg/status/2091528530366451984",
-"createdAt": "Sun Aug 23 14:10:35 +0000 2026"
+"userName": "MojeebMotion",
+"text": "https://t.co/ei2Or0Y3kz",
+"likeCount": 11,
+"retweetCount": 5,
+"url": "https://x.com/MojeebMotion/status/2091991281685635403",
+"createdAt": "Mon Aug 24 20:49:23 +0000 2026"
 }
 ]
