@@ -1,130 +1,130 @@
 [
 {
-"userName": "Rosey_watson",
-"text": "AI-powered sportswear, engineered for the next generation. ⚡️\nTEAM AI , Play With Intelligence 🤝\nGenerated this with @budgetpixel \n\nPrompt \n15-SECOND PREMIUM SPORTS JERSEY COMMERCIAL — TEAM AI\n\nCreate a 15-second ultra-premium sportswear advertisement showcasing a sophisticated performance jersey available in three signature colorways: black, pink, and white, each featuring a refined front logo reading “TEAM AI.”\n\nThe entire film should look like a high-budget international sportswear campaign with elite cinematography, premium studio lighting, realistic fabric physics, sophisticated product styling, dynamic camera movement, and photorealistic detail.\n\n0–3 SEC — BLACK | POWER\n\nOpen with an extreme macro shot of the black TEAM AI jersey suspended in a dark premium studio.\n\nA controlled breeze gently moves the fabric. Dramatic directional lighting reveals the jersey's technical weave, stitching, breathable panels, and subtle texture.\n\nCamera slowly pushes toward the chest area, revealing the elegant TEAM AI logo.\n\nDeep shadows, sharp highlights, powerful athletic mood.\n\n3–6 SEC — PINK | ENERGY\n\nSeamless cinematic transition into the pink TEAM AI jersey.\n\nThe jersey rotates slowly in mid-air as soft studio light sweeps across the fabric.\n\nClose-up details reveal the premium stitching, athletic cut, smooth collar, sleeve construction, and subtle fabric texture.\n\nThe TEAM AI logo remains perfectly sharp and centered.\n\nBright, energetic, modern sports-fashion aesthetic.\n\n6–9 SEC — WHITE | PRECISION\n\nMatch-cut into the white TEAM AI jersey.\n\nThe camera glides around the jersey in elegant slow motion while the fabric naturally responds to subtle airflow.\n\nClean white studio environment with sophisticated shadows and controlled highlights.\n\nMacro detail of the fabric weave and embroidered TEAM AI logo creates a premium luxury-sportswear feel.\n\n9–12 SEC — THREE-COLOR HERO SHOT\n\nAll three jerseys—black, pink, and white—appear together in a dramatic triangular composition.\n\nThe camera performs a smooth cinematic orbit around them.\n\nThe three colorways move subtly as if suspended in a professional product studio.\n\nBlack represents power, pink represents energy, and white represents precision.\n\nPremium lighting creates elegant reflections and dimensional fabric shadows.\n\n12–15 SEC — FINAL BRAND REVEAL\n\nThe three jerseys transition into a clean hero composition against a sophisticated minimalist background.\n\nThe TEAM AI logo is clearly visible on every jersey.\n\nCamera slowly pushes forward as a refined light sweep travels across the three products.\n\nElegant final typography appears:\n\nTEAM AI\nPLAY WITH INTELLIGENCE.\n\nHold the final frame for a clean, premium brand finish.\n\nVISUAL STYLE\n\nLuxury international sportswear campaign, premium athletic-fashion commercial, photorealistic product cinematography, cinematic 4K/8K quality, realistic technical fabric, physically accurate cloth movement, detailed stitching, premium embroidery, sophisticated studio lighting, dramatic highlights, soft shadows, shallow depth of field, macro product shots, smooth motion-control camera movement, elegant transitions, high-end color grading, polished commercial aesthetic, modern athletic identity, professional advertising photography.\n\nPRODUCT REQUIREMENTS\n\nThree distinct jersey colorways: matte black, vibrant premium pink, and clean white.\n\nThe front logo must consistently read exactly:\n\nTEAM AI\n\nLogo should be crisp, centered, professionally integrated into the jersey design, and remain consistent across all shots.\n\nJerseys should feature a modern athletic silhouette, premium breathable fabric, refined collar, realistic seams, professional stitching, subtle performance-panel detailing, and an unmistakably high-end sportswear finish.",
-"likeCount": 332,
+"userName": "junfanzhu98",
+"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
+"likeCount": 33,
 "retweetCount": 6,
-"url": "https://x.com/Rosey_watson/status/2091093197237665811",
-"createdAt": "Sat Aug 22 09:20:43 +0000 2026"
+"url": "https://x.com/junfanzhu98/status/2091416256205488328",
+"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
 },
 {
-"userName": "MaxForAI",
-"text": "神了，有人把Qwen模型训成了一个生图模型？？\n\n有人干了个很抽象的实验：\n\n直接拿 Qwen 做强化学习，让一个 Coding Model 学会用 JavaScript 画水彩画。\n\n没有 Stable Diffusion，没有 Flux，也不是调用什么图片 API。\n\n每一张图背后，真的是 Qwen 自己写出来的一段代码。\n\n而且他们甚至给审美做了一套 Reward，让模型靠 RL 一轮轮学会怎样画得更好看。\n\n具体流程是这样的⬇️\n\n1️⃣先给 Qwen 一个 Prompt。\nQwen 根据要求写一段 p5.brush JavaScript，再把这段代码扔进浏览器环境里真正执行，渲染成图片。\n2️⃣画完之后还没结束。\nJudge 模型会继续看这张图，判断它有没有遵循 Prompt、构图怎么样、技法怎么样，以及最关键的这玩意到底好不好看。\n3️⃣评分变成 Reward，再拿回去训练 Qwen。\n\n于是一个本来拿来写代码的模型，就这么一点一点学会了画画。\n\n这套东西最有意思的地方，其实是他们训练审美时踩的坑。\n\n一开始团队搞了足足 9 个 Reward。\n\n看起来很科学，代码质量、绘画技法、Prompt 遵循、审美各种维度全部覆盖。\n\n结果 Reward 一路往上涨，画却越来越抽象。\n\n很明显 Qwen 找到了捷径开始Hack这些Reward。\n\n最后画出来的东西就开始疯狂收敛成差不多的五瓣小花。\n\n后来他们才发现，很多 Judge 的判断高度相关。\n\n换句话说，表面上有 9 个指标，实际上可能是在把同一种偏好重复奖励好几遍。\n\n于是他们干脆大砍 Reward，只留下 4 个。\n\n然后人肉看了 1664 张模型生成的作品，从中挑出自己真正觉得好看的图片，拿来当审美参考。\n\n结果新的 Reward 设计，只用了原来大概 1/3 的训练步数，就追上了之前的效果，之后还能继续提升。\n\n模型自己写画图代码也越来越熟练。\n\n一度生成一张图要写到 13500 Token 左右，后来逐渐压到了 2000 Token 以下。\n\n还有一个很典的 Prompt 工程事故。\n\n一开始他们担心 Qwen 不熟悉 p5.brush，于是好心往 System Prompt 里塞了大约 400 行 API 文档。\n\n结果模型学完之后，开始非常自信地发明根本不存在的 API。\n\n最后团队干脆把几百行文档删掉，只明确告诉它可以用哪些核心方法。\n\n结果反而正常了。\n\n训练本身跑在 PrimeIntellect 上，Rollout 的图片渲染则放在 Modal 上。\n\n当然，这条路线现在比直接调用生图模型慢得多，画面质量也不是为了跟 Flux 正面打。\n\n但我觉得它真正有意思的是另一件事：\n\n以前我们讲 AI 生图，基本都是Prompt → Image\n\n这里却变成了Prompt → Code → Image\n\n最后得到的不只是一张图，还有一整套可以继续修改、调参数、复用的生成逻辑。\n\n今天是 p5.js 水彩画。\n\n以后如果这套思路继续往 SVG、网页、Figma、3D、CAD 这些东西里走，就很有意思了。\n\nAI 生成的可能不再只是最后那堆像素。\n\n而是作品背后真正可编辑的结构。\n\n果然世间万物都可以用代码来构建（",
-"likeCount": 755,
-"retweetCount": 80,
-"url": "https://x.com/MaxForAI/status/2091903300807598133",
-"createdAt": "Mon Aug 24 14:59:47 +0000 2026"
+"userName": "saniaspeaks_",
+"text": "Created with GPT image 2\n\nPrompt ↓\nCreate a premium illustrated travel postcard for {{CITY_NAME}} in a refined Japanese tourism-magazine aesthetic.\nAutomatically research and determine the city’s country, local-language name, most iconic landmark, authentic surrounding environment, distinctive local architecture, geography, vegetation, transportation, and secondary visual details. The landmark must be geographically accurate and instantly recognizable.\nVisual style: elegant Japanese travel editorial illustration, handcrafted layered paper collage combined with delicate gouache and watercolor textures, sophisticated Japanese tourism brochure aesthetic, calm and poetic atmosphere, refined composition, tactile matte paper, subtle handmade edges, soft physical paper shadows, delicate atmospheric depth.\nComposition: premium postcard. Use a cinematic elevated viewpoint with the iconic landmark as the main focal point. Surround it with accurately styled local buildings, streets, waterfronts, hills, mountains, parks, or other authentic geographic elements appropriate to the city. Keep the upper portion spacious with generous negative space for typography.\nColor palette: soft powder blue, warm ivory, cream, muted sage, dusty green, pale beige, soft gray, restrained terracotta. Low-to-medium saturation, gentle tonal transitions, no harsh contrast.\nArchitecture: precise and believable local architecture with carefully simplified shapes, accurate proportions, characteristic materials and rooflines. Avoid generic buildings and random skyscrapers.\nPeople: include only a few tiny simplified paper-cut travelers and pedestrians naturally interacting with the environment—walking, sightseeing, sitting, or looking toward the landmark. They should provide scale without becoming the focus.\nNature: delicate layered foliage, subtle trees, grasses and regional vegetation appropriate to the city. Add water, mountains, coastline, rivers, or other geographic features only when genuinely associated with the location.\nTypography: place elegant minimalist Japanese editorial typography in the upper-left with generous spacing:\n- CITY NAME — large uppercase geometric sans-serif\n- LOCAL CITY NAME · COUNTRY/REGION — small refined sans-serif\n- PRIMARY LANDMARK — small uppercase text with wide letter spacing\nTypography should feel integrated into the artwork, not like an overlay.\nLighting: soft natural daytime light, slightly hazy atmosphere, gentle matte highlights, subtle layered shadows, peaceful and nostalgic mood.\nMaterial: high-quality matte art paper, fine tactile grain, layered paper construction, delicate watercolor pigment variation, slightly imperfect handcrafted cut edges, premium offset-print character.\nCamera feel: 40–50mm equivalent, natural perspective, minimal distortion, strong foreground/midground/background separation, carefully art-directed travel photography composition translated into an illustration.\nOverall mood: quiet, elegant, contemplative, authentic, sophisticated Japanese travel magazine, collectible destination postcard, premium tourism campaign quality.\nAvoid: photorealistic photography, CGI, plastic rendering, flat vector art, anime, cartoon caricature, generic skyline, inaccurate landmark, fictional architecture, geographically impossible scenery, duplicated buildings, excessive people, oversized people, neon colors, oversaturation, harsh black shadows, glossy surfaces, clutter, excessive outlines, random text, misspelled typography, watermark, logo, border, frame, UI elements.\nGenerate the entire scene dynamically from {{CITY_NAME}} while maintaining this exact refined Japanese tourism-magazine visual identity.",
+"likeCount": 226,
+"retweetCount": 24,
+"url": "https://x.com/saniaspeaks_/status/2092211629232468073",
+"createdAt": "Tue Aug 25 11:24:58 +0000 2026"
 },
 {
-"userName": "adaora_crypto",
-"text": "RESPECT NEVER GOES OUT OF FASHION\n\nEarlier today, I went for a friend’s mother’s burial.\n\nI knew some old friends would be there,people I hadn’t seen in over 15 years. \nWe had talked about seeing each other, but I gave the usual excuse:\n\n“I’m not driving, so I probably won’t make it.”\n\nAround 11:50am, one of them sent his driver to pick me up.\n\nTwo hours later, I arrived and was taken straight to the VIP section where they were all waiting.\n\nMehn… seeing old friends after 15 years? 🥹\n\nIt felt GOOD.\n\nThen I sat down at the table.\n\nIn front of me was a cold bottle of water.\n\nI was thirsty, so I opened it and almost finished it without thinking twice.\n\nAbout 10 minutes later, my friend’s mother walked to the table and asked:\n\n“Who took my water?”\n\nEveryone at the table had a bottle, but theirs were already open because they had just finished eating.\n\nMine was the only unopened one.\n\nI immediately felt bad.\n\nI turned to her, held her hands and said:\n\n“Mummy, I took your water. \nI didn’t know it was yours.”\n\nShe looked at me and said:\n\n“My daughter, don’t worry. \nDrink it, you hear?”\n\nJust like that…\n\nThe anger disappeared.\n\nAnd it reminded me of something we must never lose:\n\nRESPECT.\n\nOur mothers and fathers may not understand all our technology.\n\nThey may not know what AI is.\n\nThey may not understand Web3, crypto, or whatever new thing the world is talking about, e no really concern them.\n\nBut they understand something deeply:\n\nRespect.\n\nImagine I had responded to her like a 21st-century, AI-tech-savvy Queen:\n\n“Ma, it was an honest mistake. There was no indication that the water belonged to you.”\n\n😂😂😂\n\nThat conversation might have become a TED Talk.\n\nSometimes, wisdom is knowing, understanding and deploying Culture quotient (CQ)not just IQ.\n\nYou can be educated.\n\nYou can be successful.\n\nYou can be technologically advanced.\n\nYou can speak the finest English in the room.\n\nBut when you stand before an elder, humility will always take you further than intelligence.\n\nWe are moving forward as a generation.\n\nLet’s embrace technology.\n\nLet’s challenge old ideas.\n\nLet’s build new systems.\n\nBut let’s not throw away the values that built us.\n\nRespect for elders is not old-fashioned.\n\nIt is part of who we are.\n\nAnd some things are worth carrying into the future. ❤️",
-"likeCount": 85,
-"retweetCount": 11,
-"url": "https://x.com/adaora_crypto/status/2091236167383408961",
-"createdAt": "Sat Aug 22 18:48:50 +0000 2026"
+"userName": "KirstiMiller30",
+"text": "Sporting bodies worldwide have been rewriting the rules for trans and gender diverse athletes, most recently the IOC's March 2026 policy requiring SRY gene screening. Our new review in the International Journal of Sports Medicine asks a simple question: What evidence are these policies built on?\n\nThe short answer is not much.\n\nWe traced the history of eligibility rules from 2003 to now, mapped current policies across 16 sports, and assessed them against the science. What we found:\n\n🔬 Gender-affirming hormone therapy does produce real physiological changes. Within three months of starting estradiol, haemoglobin and haematocrit fall into female reference ranges.\n\n📊 The most comprehensive evidence to date, a meta-analysis of 52 studies and 6,485 people, found that trans women on hormone therapy have comparable upper body strength, lower body strength, and VO2max to cisgender women. Certainty of that evidence is graded low to very low, which is exactly why more research is needed.\n\n🧬 SRY is a gene that switches on briefly during embryonic development to initiate testis formation. It has no known function in adult tissue and does not determine adult muscle mass, strength, or athletic performance. Using it as a universal eligibility test is not supported by biology.\n\n🏅 Despite more than 20 years of eligibility at Olympic and elite level, trans women have neither medalled nor dominated any women's sport.\n\nWe argue that fairness and safety cannot be settled by biology alone, and propose a framework where inclusion is the default, restrictions are proportionate to the actual demands of each sport, and policies are reviewed as evidence improves.\n\nTrans and gender diverse people already participate in sport and physical activity at lower rates, with real consequences for physical and mental health.\n\nLastly, these policies do not only affect trans athletes. Highly policed eligibility rules increase scrutiny of all women's bodies, particularly women who do not fit narrow expectations of femininity.\n\nOpen access and free to read: https://t.co/jPYNeoewXi\n\nLed by Ananya Krishna and Séverine Lamon at Deakin University, with Carlie Bauer, Kimberley Way, Bernadette Jones-Freeman and our own Prof Ada Cheung.\n\nImage description: Text summarising the study premise, as previously written, displayed alongside the Trans Health Research logo and two photos. Left photo, taken by Yuya Parker (Adobe Stock), shows a trans woman stretching indoors, wearing a sleeveless white crop top, black shorts, and a silver necklace; she has straight brown hair, tied back, and is looking into the distance with a neutral or determined expression. Right photo shows a non-binary trans woman sitting on an inflated gym ball indoors, looking at her watch with a mild smile; she is wearing black yoga pants, a black polyester jacket, a tan t-shirt, and grey headphones. She has straight brown hair, tied back. End description.\n\n#transhealth #transresearch #sportscience #sportresearch #trans #nonbinary #transwomen #letthemplay",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/KirstiMiller30/status/2092399202592751912",
+"createdAt": "Tue Aug 25 23:50:19 +0000 2026"
 },
 {
-"userName": "hey_abusiddik",
-"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
-"likeCount": 35,
-"retweetCount": 21,
-"url": "https://x.com/hey_abusiddik/status/2092280150134259929",
-"createdAt": "Tue Aug 25 15:57:15 +0000 2026"
+"userName": "VolcanicQT",
+"text": "One AI training task tells a company almost nothing about you\n\nIt takes hundreds before they can trust you at all\nA single voice clip, gameplay session, or preference ranking can't prove you're consistent, careful, or reliable\n\nOnly a pattern across many contributions can show that\n\nThe problem is most platforms only track that pattern inside one task category\n\nSwitch to a different type of work and your history resets to zero, even though you're the same contributor\n\n@KGeN_IO takes a different approach\n> It treats reputation as one continuous profile instead of something that resets per task. Gameplay, voice data, social activity,\nall of it feeds into the same identity instead of living in separate silos\n\nThe scoring itself breaks into five parts:\nproof you're human, proof of consistency, proof of skill, proof of economic participation, and proof of network. Each one measures something different, but they combine into a single score that travels with you across every task type you touch,\n\nThat reputation layer isn't just theoretical\nIt's the same infrastructure Humyn Labs is building on for its Proof of Expert system, which sources verified human data to train AI models\n\nSo the more you contribute on KGeN, the stronger your standing gets everywhere that reputation is used, not just in the specific task where you earned it.\n\nThat's a meaningfully different definition of \"putting in the work\" than most Web3 platforms operate on. Most systems treat every task as its own isolated transaction: you show up, you deliver, you get paid, and your history doesn't follow you anywhere else\n\nKGeN is betting that reputation should compound instead of reset, the same way trust works between actual people\n\nWhether that bet pays off depends on adoption outside KGeN's own ecosystem\nA portable reputation score is only as valuable as the number of platforms willing to read and respect it, Right now that list includes @Teamhumynlabs , but the real test is whether more AI labs and Web3 platforms start treating this as a standard rather than a nice to have\n\nShould reputation always carry over like this, or does it make more sense for platforms to reset per task type?",
+"likeCount": 109,
+"retweetCount": 0,
+"url": "https://x.com/VolcanicQT/status/2090918357868642756",
+"createdAt": "Fri Aug 21 21:45:58 +0000 2026"
+},
+{
+"userName": "nifercheks",
+"text": "Think about how humans learn a new skill.\n\nYou don’t become good at something by reading about it once.\n\nYou practice.\nYou make mistakes.\nYou try again.\nYou repeat the same task in different ways until your brain starts to understand what to do.\n\nRobots need that same kind of experience.\n\nThe problem is, teaching a robot how to perform real world tasks requires A LOT of training data  and collecting that data in labs is slow, expensive and difficult to scale.\n\nThis is where @axisrobotics comes in.\n\nInstead of keeping robot training inside expensive labs, Axis lets ordinary people contribute to the process.\n\nAnd you contribute to the process by:\n\n→ Open a website and control a virtual robot with your keyboard or mouse\n\n→ Perform simple tasks like picking up and arranging objects\n\n→ And your actions become training data that can help real robots learn.\n\nThey’re also using phones to capture real human movements and building tools that can automatically generate thousands of different scenarios for robots to practice.\n\nAnd honestly, this is the part I find interesting.\n\nAxis is basically turning human experience into robot experience.\n\nEvery small movement we make like picking something up, moving it, arranging it, reaching for something can become another example a robot learns from.\n\nIt’s almost like giving robots the opportunity to learn from millions of people instead of relying on a handful of robotics labs.\n\nThat’s the bigger idea behind Axis.\n\nRobot intelligence shouldn’t be built by a few people in a lab.\n\nIt can be built from the everyday actions and experiences of people everywhere.\n\nAnd Axis is building the data engine to make that possible.",
+"likeCount": 103,
+"retweetCount": 28,
+"url": "https://x.com/nifercheks/status/2092682985892171829",
+"createdAt": "Wed Aug 26 18:37:58 +0000 2026"
 },
 {
 "userName": "ai_uncovered",
 "text": "What if a single luxury product shot could be transformed into a cinematic, high-end commercial?\n\nWith Nextify, a simple product image can become an immersive visual story—complete with elegant camera movements, editorial lighting, seamless product reveals, and stunning brand visuals in just moments.\n\nhttps://t.co/vAYd9RVjxf is an all-in-one, AI-powered video generation and creative advertising platform built to help e-commerce brands, marketers, and content creators produce studio-quality video ads, UGC content, and compelling product showcases in minutes.\n\nFrom capturing subtle textures to creating bold, high-fashion transitions, generative AI is reshaping the way luxury brands bring their products to life.\n\nBecause premium marketing isn’t just about showing a product.\n\nIt’s about elevating the entire experience.\n\n#nextifyai #nextify #AIvideogenerator #AIads #createadwithai",
-"likeCount": 24,
-"retweetCount": 11,
+"likeCount": 22,
+"retweetCount": 9,
 "url": "https://x.com/ai_uncovered/status/2091887613162754136",
 "createdAt": "Mon Aug 24 13:57:27 +0000 2026"
 },
 {
-"userName": "arthurallshire",
-"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
-"likeCount": 52,
+"userName": "oliviscusAI",
+"text": "this repo beat Runway Gen-3 and Luma 1.6 in blind human evaluation. it also needs 60GB of VRAM for one video.\n\n- text alignment: 61.8%, best of the 6\n- motion quality: 66.5%, best of the 6\n- overall preference score: 41.3%, ranked #1\n\na 13B parameter model, largest open-source video model at release, using a decoder-only LLM as the text encoder instead of CLIP+T5.\n\nthis is the original HunyuanVideo though. \n\nTencent's own HunyuanVideo-1.5 replaced it since, same lineage, far lighter to run.",
+"likeCount": 20,
+"retweetCount": 5,
+"url": "https://x.com/oliviscusAI/status/2092279270672613487",
+"createdAt": "Tue Aug 25 15:53:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "NVIDIA built its own coding harness to optimize CUDA GPU kernels and achieved a 100% score on ARC-AGI-3’s 25 public games, solving all 183 levels.\n\nWith agents, we'll move from a world where it's quite hard to run, optimize, post-train your own AI models and kernels to a world where virtually everybody can do it. \n\n100 million AI builders when?",
+"likeCount": 568,
+"retweetCount": 75,
+"url": "https://x.com/ClementDelangue/status/2091273855415492806",
+"createdAt": "Sat Aug 22 21:18:35 +0000 2026"
+},
+{
+"userName": "trythreews",
+"text": "The First 19 Weeks. Everything we have shipped, week by week, from the first commit to today.\n\n9,508 commits. 21 contributors. 725 pages. 101 npm packages. 72 MCP servers @AnthropicAI. 4,519 @x402 endpoints. 110,416 on-chain settlements on @Solana. https://t.co/4npNY2VLt6",
+"likeCount": 159,
+"retweetCount": 51,
+"url": "https://x.com/trythreews/status/2092315351401050267",
+"createdAt": "Tue Aug 25 18:17:07 +0000 2026"
+},
+{
+"userName": "vmrmax",
+"text": "A research associate costs $60,000 a year. Grok Bot runs 50 bots for $300 a month.\n\nAlmost everyone stops at layer one of six.\n\nFull framework: every charter and schedule, ready to copy. Plus the 5 things it doesn't solve. https://t.co/vxZuP8frYX",
+"likeCount": 22,
 "retweetCount": 0,
-"url": "https://x.com/arthurallshire/status/2092306772396839206",
-"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
-},
-{
-"userName": "ArjunRakeshKO",
-"text": "Sharing a thought experiment about a future where AI makes it easier for more people to build something of their own, whether that’s a solo practice, a tiny studio, a small restaurant, or a niche business around something they’re unusually good at. https://t.co/NFYXKcMY9n",
-"likeCount": 5,
-"retweetCount": 3,
-"url": "https://x.com/ArjunRakeshKO/status/2092426987432460769",
-"createdAt": "Wed Aug 26 01:40:43 +0000 2026"
-},
-{
-"userName": "mohamed_djoudir",
-"text": "Fashion brands lose sales when customers can’t try clothes on.\n\nThis Next.js template includes built-in AI Virtual Try-On + AI Product Studio, plus a full admin dashboard and NestJS backend.\n\nEverything you need to launch fast. https://t.co/dG2OTuIJiu",
-"likeCount": 594,
-"retweetCount": 73,
-"url": "https://x.com/mohamed_djoudir/status/2091886432923115582",
-"createdAt": "Mon Aug 24 13:52:45 +0000 2026"
+"url": "https://x.com/vmrmax/status/2092704597102190655",
+"createdAt": "Wed Aug 26 20:03:51 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @atomic_chat_hq: We officially surpassed 1M model downloads on @huggingface 🔥\n\nYour 5 most downloaded models:\n\n1. Qwen3.8 27B — 261K\n2.…",
-"likeCount": 179,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2092277761779855701",
-"createdAt": "Tue Aug 25 15:47:45 +0000 2026"
+"text": "RT @cryptopunk7213: i’m seeing SO many US companies shift away from frontier models to open source in the last 4 weeks.\n\ncost and privacy a…",
+"likeCount": 203,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2092253907812569412",
+"createdAt": "Tue Aug 25 14:12:58 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @CharlesRollet1: NEW: Thomson Reuters wanted to rely less on Claude. So it built its own AI model off Alibaba's Qwen.\n\nTR's CTO says usi…",
-"likeCount": 1093,
-"retweetCount": 123,
-"url": "https://x.com/ClementDelangue/status/2091952078247637413",
-"createdAt": "Mon Aug 24 18:13:36 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @DavidSacks: Harvey is a great example of how American companies are building world-class specialized models: they took an open-source b…",
-"likeCount": 7952,
-"retweetCount": 587,
-"url": "https://x.com/ClementDelangue/status/2090797790871830608",
-"createdAt": "Fri Aug 21 13:46:53 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @schwarzjn_: Hi @GaryMarcus, I'm the Research Lead for this model.  It's even more consequential than just Anthropic's IPO: This paper i…",
-"likeCount": 406,
-"retweetCount": 36,
-"url": "https://x.com/ClementDelangue/status/2092252763954544803",
-"createdAt": "Tue Aug 25 14:08:25 +0000 2026"
+"text": "RT @Thom_Wolf: Today we are launching the \"Rare Disease, Real Kid\" Hackathon together with @sagebio in which you can literally save a life…",
+"likeCount": 132,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2092406831020667251",
+"createdAt": "Wed Aug 26 00:20:38 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @math_rachel: LLMs increase the complexity of codebases. They duplicate methods, write overdefensive code against impossible edge cases,…",
-"likeCount": 389,
-"retweetCount": 53,
-"url": "https://x.com/jeremyphoward/status/2090329974549221456",
-"createdAt": "Thu Aug 20 06:47:57 +0000 2026"
+"text": "RT @tomaarsen: At 1400x cheaper, I know I'm sticking to embeddings (dense, sparse, multi-vector), plus hybrid (incl. bm25) and rerankers.…",
+"likeCount": 209,
+"retweetCount": 25,
+"url": "https://x.com/jeremyphoward/status/2091034162459549744",
+"createdAt": "Sat Aug 22 05:26:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cpaik: Open-source\nMany model\nInference on device",
-"likeCount": 94,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2091884399130194107",
-"createdAt": "Mon Aug 24 13:44:40 +0000 2026"
+"text": "Ultimately the overwhelming majority of AI workloads will be based on open models!",
+"likeCount": 447,
+"retweetCount": 41,
+"url": "https://x.com/ClementDelangue/status/2091280015069483306",
+"createdAt": "Sat Aug 22 21:43:04 +0000 2026"
 },
 {
-"userName": "Damir_Akaza",
-"text": "https://t.co/NM0aHJMlNi",
-"likeCount": 19,
-"retweetCount": 0,
-"url": "https://x.com/Damir_Akaza/status/2092275414550876341",
-"createdAt": "Tue Aug 25 15:38:26 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Who's excited? https://t.co/jiKFk0vwJn https://t.co/tfK3kqGmxk",
+"likeCount": 1415,
+"retweetCount": 85,
+"url": "https://x.com/ClementDelangue/status/2092275117539655835",
+"createdAt": "Tue Aug 25 15:37:15 +0000 2026"
 },
 {
-"userName": "apob_ai",
-"text": "https://t.co/M0Iee2UQ9J",
-"likeCount": 27,
-"retweetCount": 5,
-"url": "https://x.com/apob_ai/status/2092199846459711739",
-"createdAt": "Tue Aug 25 10:38:09 +0000 2026"
+"userName": "blocmates",
+"text": "https://t.co/VKoeHuIFkJ",
+"likeCount": 23,
+"retweetCount": 4,
+"url": "https://x.com/blocmates/status/2092582971467509906",
+"createdAt": "Wed Aug 26 12:00:33 +0000 2026"
 }
 ]
