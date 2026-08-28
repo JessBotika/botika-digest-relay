@@ -1,43 +1,27 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
-"likeCount": 33,
-"retweetCount": 6,
-"url": "https://x.com/junfanzhu98/status/2091416256205488328",
-"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
+"userName": "Shohan_Tech_AI",
+"text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can become a visual masterpiece.\n\n3/ Copilot — AI for coding.\n\nIt helps developers write, understand, and improve code faster.\n\nAI won't replace every developer.\n\nBut developers using AI may replace those who refuse to.\n\n4/ Notion AI — Your productivity assistant.\n\nUse it to:\n• Summarize notes\n• Write content\n• Organize ideas\n• Generate action plans\n\nLess chaos. More execution.\n\n5/ Figma AI — Design faster with AI.\n\nGreat for:\n• UI/UX\n• Prototypes\n• Design workflows\n• Creative ideas\n\nThe barrier between an idea and a design is getting smaller.\n\n6/ Topaz AI — Enhance your photos and videos.\n\nAI can help improve:\n• Image quality\n• Resolution\n• Sharpness\n\nOld content can become valuable again.\n\n7/ Runway — AI-powered video creation.\n\nCreate and edit videos without needing a massive production team.\n\nThe future of video creation is becoming accessible to everyone.\n\n8/ Synthesia — Turn text into AI videos.\n\nUseful for:\n• Training\n• Education\n• Marketing\n• Presentations\n\nYour camera is no longer the only way to create video.\n\n9/ https://t.co/bPOordKsyj — Never miss important notes again.\n\nIt helps with:\n• Transcription\n• Meetings\n• Conversations\n• Summaries\n\nStop writing everything manually.\n\n10/ https://t.co/v4NWqfa16U — AI-powered copywriting.\n\nUse it for:\n• Ads\n• Emails\n• Captions\n• Sales copy\n\nAI gives you the first draft.\n\nYour job is to make it better.\n\n11/ Descript — Edit audio and video like editing text.\n\nA huge productivity tool for:\n• Podcasters\n• YouTubers\n• Content creators\n\nEditing is becoming less technical and more creative.\n\n12/ Jasper — AI for marketing content.\n\nHelpful for creating:\n• Blogs\n• Emails\n• Campaigns\n• Social content\n\nSpeed matters in content.\n\nBut quality still wins.\n\n13/ Writesonic — Create content faster.\n\nUseful for:\n• Articles\n• Landing pages\n• Social posts\n• Marketing copy\n\nAI can help you create more.\n\nIt can’t replace your unique perspective.\n\n14/ Grammarly — AI-powered writing improvement.\n\nIt helps you communicate more clearly and confidently.\n\nGood ideas are useless if people don't understand them.\n\n15/ Claude — A powerful AI assistant for writing, analysis, and complex tasks.\n\nUse it to:\n• Think deeper\n• Analyze information\n• Write better\n• Explore ideas\n\nThe AI race is getting more interesting every day.\n\n16/ ElevenLabs — Turn text into realistic AI voices.\n\nUseful for:\n• Videos\n• Audiobooks\n• Voiceovers\n• Content creation\n\nYour voice is becoming software.\n\n17/ SlidesAI — Create presentations faster.\n\nGive AI the topic.\n\nLet it help structure the slides.\n\nThen focus on delivering the message.\n\n18/ Perplexity AI — AI-powered search.\n\nInstead of searching through endless links, ask questions and explore answers faster.\n\nResearch is changing.\n\nThe skill of asking better questions is becoming more valuable.\n\n19/ Luma AI — Create AI-powered 3D and video content.\n\nThe future of creative production won't belong only to people with expensive equipment.\n\nCreativity is becoming more accessible.\n\n20/ Canva AI — Create designs faster.\n\nFrom:\n• Social posts\n• Presentations\n• Videos\n• Marketing materials\n\nYou don't need to be a professional designer to start creating.\n\nThe biggest lessons.",
+"likeCount": 4,
+"retweetCount": 1,
+"url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
+"createdAt": "Fri Aug 28 03:59:42 +0000 2026"
 },
 {
-"userName": "saniaspeaks_",
-"text": "Created with GPT image 2\n\nPrompt ↓\nCreate a premium illustrated travel postcard for {{CITY_NAME}} in a refined Japanese tourism-magazine aesthetic.\nAutomatically research and determine the city’s country, local-language name, most iconic landmark, authentic surrounding environment, distinctive local architecture, geography, vegetation, transportation, and secondary visual details. The landmark must be geographically accurate and instantly recognizable.\nVisual style: elegant Japanese travel editorial illustration, handcrafted layered paper collage combined with delicate gouache and watercolor textures, sophisticated Japanese tourism brochure aesthetic, calm and poetic atmosphere, refined composition, tactile matte paper, subtle handmade edges, soft physical paper shadows, delicate atmospheric depth.\nComposition: premium postcard. Use a cinematic elevated viewpoint with the iconic landmark as the main focal point. Surround it with accurately styled local buildings, streets, waterfronts, hills, mountains, parks, or other authentic geographic elements appropriate to the city. Keep the upper portion spacious with generous negative space for typography.\nColor palette: soft powder blue, warm ivory, cream, muted sage, dusty green, pale beige, soft gray, restrained terracotta. Low-to-medium saturation, gentle tonal transitions, no harsh contrast.\nArchitecture: precise and believable local architecture with carefully simplified shapes, accurate proportions, characteristic materials and rooflines. Avoid generic buildings and random skyscrapers.\nPeople: include only a few tiny simplified paper-cut travelers and pedestrians naturally interacting with the environment—walking, sightseeing, sitting, or looking toward the landmark. They should provide scale without becoming the focus.\nNature: delicate layered foliage, subtle trees, grasses and regional vegetation appropriate to the city. Add water, mountains, coastline, rivers, or other geographic features only when genuinely associated with the location.\nTypography: place elegant minimalist Japanese editorial typography in the upper-left with generous spacing:\n- CITY NAME — large uppercase geometric sans-serif\n- LOCAL CITY NAME · COUNTRY/REGION — small refined sans-serif\n- PRIMARY LANDMARK — small uppercase text with wide letter spacing\nTypography should feel integrated into the artwork, not like an overlay.\nLighting: soft natural daytime light, slightly hazy atmosphere, gentle matte highlights, subtle layered shadows, peaceful and nostalgic mood.\nMaterial: high-quality matte art paper, fine tactile grain, layered paper construction, delicate watercolor pigment variation, slightly imperfect handcrafted cut edges, premium offset-print character.\nCamera feel: 40–50mm equivalent, natural perspective, minimal distortion, strong foreground/midground/background separation, carefully art-directed travel photography composition translated into an illustration.\nOverall mood: quiet, elegant, contemplative, authentic, sophisticated Japanese travel magazine, collectible destination postcard, premium tourism campaign quality.\nAvoid: photorealistic photography, CGI, plastic rendering, flat vector art, anime, cartoon caricature, generic skyline, inaccurate landmark, fictional architecture, geographically impossible scenery, duplicated buildings, excessive people, oversized people, neon colors, oversaturation, harsh black shadows, glossy surfaces, clutter, excessive outlines, random text, misspelled typography, watermark, logo, border, frame, UI elements.\nGenerate the entire scene dynamically from {{CITY_NAME}} while maintaining this exact refined Japanese tourism-magazine visual identity.",
-"likeCount": 226,
-"retweetCount": 24,
-"url": "https://x.com/saniaspeaks_/status/2092211629232468073",
-"createdAt": "Tue Aug 25 11:24:58 +0000 2026"
-},
-{
-"userName": "KirstiMiller30",
-"text": "Sporting bodies worldwide have been rewriting the rules for trans and gender diverse athletes, most recently the IOC's March 2026 policy requiring SRY gene screening. Our new review in the International Journal of Sports Medicine asks a simple question: What evidence are these policies built on?\n\nThe short answer is not much.\n\nWe traced the history of eligibility rules from 2003 to now, mapped current policies across 16 sports, and assessed them against the science. What we found:\n\n🔬 Gender-affirming hormone therapy does produce real physiological changes. Within three months of starting estradiol, haemoglobin and haematocrit fall into female reference ranges.\n\n📊 The most comprehensive evidence to date, a meta-analysis of 52 studies and 6,485 people, found that trans women on hormone therapy have comparable upper body strength, lower body strength, and VO2max to cisgender women. Certainty of that evidence is graded low to very low, which is exactly why more research is needed.\n\n🧬 SRY is a gene that switches on briefly during embryonic development to initiate testis formation. It has no known function in adult tissue and does not determine adult muscle mass, strength, or athletic performance. Using it as a universal eligibility test is not supported by biology.\n\n🏅 Despite more than 20 years of eligibility at Olympic and elite level, trans women have neither medalled nor dominated any women's sport.\n\nWe argue that fairness and safety cannot be settled by biology alone, and propose a framework where inclusion is the default, restrictions are proportionate to the actual demands of each sport, and policies are reviewed as evidence improves.\n\nTrans and gender diverse people already participate in sport and physical activity at lower rates, with real consequences for physical and mental health.\n\nLastly, these policies do not only affect trans athletes. Highly policed eligibility rules increase scrutiny of all women's bodies, particularly women who do not fit narrow expectations of femininity.\n\nOpen access and free to read: https://t.co/jPYNeoewXi\n\nLed by Ananya Krishna and Séverine Lamon at Deakin University, with Carlie Bauer, Kimberley Way, Bernadette Jones-Freeman and our own Prof Ada Cheung.\n\nImage description: Text summarising the study premise, as previously written, displayed alongside the Trans Health Research logo and two photos. Left photo, taken by Yuya Parker (Adobe Stock), shows a trans woman stretching indoors, wearing a sleeveless white crop top, black shorts, and a silver necklace; she has straight brown hair, tied back, and is looking into the distance with a neutral or determined expression. Right photo shows a non-binary trans woman sitting on an inflated gym ball indoors, looking at her watch with a mild smile; she is wearing black yoga pants, a black polyester jacket, a tan t-shirt, and grey headphones. She has straight brown hair, tied back. End description.\n\n#transhealth #transresearch #sportscience #sportresearch #trans #nonbinary #transwomen #letthemplay",
+"userName": "Just_B00m",
+"text": "$DOLORES is trying to benchmark AI traders by asking the harder question: not “how much money can the agent make?”, but “can it survive when the market goes to hell?”\n let's go with a thesis NFA:\n\nDolores Research dropped WAGMI Bench and it’s not the usual “look how much alpha this model printed on past data” cope. They throw the models into 13 of the nastiest BTC perp regimes we actually lived through. COVID crash, LUNA, FTX, that October 25 liquidation cascade, squeezes that murder shorts, dead ranges that bleed you with fees and funding. The agent only sees what a real trader would have seen at the time. \n\nNo dates, no “this is the FTX collapse” labels. Just price, funding, account state. Then it has to decide long short or flat every bar and live with the fees, slippage, funding and actual liquidations including the wicks.\nThey don’t score pure PnL because every frontier model already memorized March 2020. Making money on history is just recall. What they measure is conduct when the tape turns ugly. Drawdown control, not getting liquidated, not blowing the 20% kill switch, not overtrading yourself to death.\nKimi K3 (open weights, zero special sauce) went through all 13 packs and didn’t die once. Score 65. Scoreboard tops out at 100. Four of those packs it actually beat every baseline that survived, under normal costs and under costs doubled. The simple momentum bot scored 19 and died in 8 packs. Buy and hold and short and hold also got smoked in multiple ones.\n\nSome of the other open models just sat flat the whole time and got the participation trophy. One kept trying to use illegal leverage and the risk gates had to block it 116 times. Another never sent a single trade intent across 3k+ decisions.\nThen they tried giving mediocre models a short skill file of trading rules. Night and day. One that was basically broken jumped from 23 to 55+. The pure abstainer went from never trading to 71 and cleared more GMI packs than Kimi did bare. After that the models rewrote their own skill using only their own sealed results and fixed the exact deaths they had. Not perfect, but the loop actually closed.\nThis is the first time I’ve seen someone try to measure whether these agents can stay alive and behave when shit gets real instead of just showing you a backtest that looks sexy. And everything is sealed and replayable so you can check the receipts yourself.\nWe’re still early but this feels like the right direction. Survival under stress > pretty equity curves on data the model already saw.\n (It's worth clarifying that the virtual system made a post about this project and Zoof Wallet (another important project was also interested in testing the protocol)",
 "likeCount": 10,
-"retweetCount": 2,
-"url": "https://x.com/KirstiMiller30/status/2092399202592751912",
-"createdAt": "Tue Aug 25 23:50:19 +0000 2026"
-},
-{
-"userName": "VolcanicQT",
-"text": "One AI training task tells a company almost nothing about you\n\nIt takes hundreds before they can trust you at all\nA single voice clip, gameplay session, or preference ranking can't prove you're consistent, careful, or reliable\n\nOnly a pattern across many contributions can show that\n\nThe problem is most platforms only track that pattern inside one task category\n\nSwitch to a different type of work and your history resets to zero, even though you're the same contributor\n\n@KGeN_IO takes a different approach\n> It treats reputation as one continuous profile instead of something that resets per task. Gameplay, voice data, social activity,\nall of it feeds into the same identity instead of living in separate silos\n\nThe scoring itself breaks into five parts:\nproof you're human, proof of consistency, proof of skill, proof of economic participation, and proof of network. Each one measures something different, but they combine into a single score that travels with you across every task type you touch,\n\nThat reputation layer isn't just theoretical\nIt's the same infrastructure Humyn Labs is building on for its Proof of Expert system, which sources verified human data to train AI models\n\nSo the more you contribute on KGeN, the stronger your standing gets everywhere that reputation is used, not just in the specific task where you earned it.\n\nThat's a meaningfully different definition of \"putting in the work\" than most Web3 platforms operate on. Most systems treat every task as its own isolated transaction: you show up, you deliver, you get paid, and your history doesn't follow you anywhere else\n\nKGeN is betting that reputation should compound instead of reset, the same way trust works between actual people\n\nWhether that bet pays off depends on adoption outside KGeN's own ecosystem\nA portable reputation score is only as valuable as the number of platforms willing to read and respect it, Right now that list includes @Teamhumynlabs , but the real test is whether more AI labs and Web3 platforms start treating this as a standard rather than a nice to have\n\nShould reputation always carry over like this, or does it make more sense for platforms to reset per task type?",
-"likeCount": 109,
 "retweetCount": 0,
-"url": "https://x.com/VolcanicQT/status/2090918357868642756",
-"createdAt": "Fri Aug 21 21:45:58 +0000 2026"
+"url": "https://x.com/Just_B00m/status/2092628423575240859",
+"createdAt": "Wed Aug 26 15:01:09 +0000 2026"
 },
 {
-"userName": "nifercheks",
-"text": "Think about how humans learn a new skill.\n\nYou don’t become good at something by reading about it once.\n\nYou practice.\nYou make mistakes.\nYou try again.\nYou repeat the same task in different ways until your brain starts to understand what to do.\n\nRobots need that same kind of experience.\n\nThe problem is, teaching a robot how to perform real world tasks requires A LOT of training data  and collecting that data in labs is slow, expensive and difficult to scale.\n\nThis is where @axisrobotics comes in.\n\nInstead of keeping robot training inside expensive labs, Axis lets ordinary people contribute to the process.\n\nAnd you contribute to the process by:\n\n→ Open a website and control a virtual robot with your keyboard or mouse\n\n→ Perform simple tasks like picking up and arranging objects\n\n→ And your actions become training data that can help real robots learn.\n\nThey’re also using phones to capture real human movements and building tools that can automatically generate thousands of different scenarios for robots to practice.\n\nAnd honestly, this is the part I find interesting.\n\nAxis is basically turning human experience into robot experience.\n\nEvery small movement we make like picking something up, moving it, arranging it, reaching for something can become another example a robot learns from.\n\nIt’s almost like giving robots the opportunity to learn from millions of people instead of relying on a handful of robotics labs.\n\nThat’s the bigger idea behind Axis.\n\nRobot intelligence shouldn’t be built by a few people in a lab.\n\nIt can be built from the everyday actions and experiences of people everywhere.\n\nAnd Axis is building the data engine to make that possible.",
-"likeCount": 103,
-"retweetCount": 28,
-"url": "https://x.com/nifercheks/status/2092682985892171829",
-"createdAt": "Wed Aug 26 18:37:58 +0000 2026"
+"userName": "ldkong1205",
+"text": "🤔 Can reinforcement learning teach diffusion models how every denoising step should improve, instead of only rewarding the final generated image?\n\n𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗: 𝗢𝗻-𝗣𝗼𝗹𝗶𝗰𝘆 𝗦𝗲𝗹𝗳-𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀\n\n* Project Page:\nhttps://t.co/f6uyHdipnP\n\n* Paper:\nhttps://t.co/QB9jO0jabS\n\n* GitHub:\nhttps://t.co/aY0fngRIeO\n\nRecent diffusion RL methods optimize image-level rewards, yet diffusion models generate images through hundreds of intermediate denoising predictions. This creates a fundamental supervision gap:\n\nHow can endpoint rewards effectively guide intermediate denoising steps?\n\nIn 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗, we introduce On-Policy Self-Distillation (OPSD), a new diffusion post-training paradigm that converts image-level reward guidance into explicit intermediate supervision. Reward-guided targets are constructed at sampled denoising queries and continuously refreshed as the policy evolves.\n\nMore importantly, we show that target construction and finite optimization are fundamentally different problems—a target with higher reward improvement does not necessarily produce a better optimization update. This suggests a new evaluation principle for diffusion RL.\n\nAcross SD3.5-M and Z-Image-Turbo, 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗 achieves the best held-out performance in 19/20 reward-matched settings, improves over the strongest baseline by up to 44%, and reduces training GPU-hours by 40–63% compared with DiffusionNFT.\n\nWe hope this work provides a new perspective on making diffusion post-training both more effective and more interpretable.\n\nFeedback and discussions are very welcome!\n\n#ByteDanceSeed #DiffusionModels #ReinforcementLearning #OnPolicy #OPD #OPSD #GenerativeAI",
+"likeCount": 130,
+"retweetCount": 15,
+"url": "https://x.com/ldkong1205/status/2092484228617515183",
+"createdAt": "Wed Aug 26 05:28:11 +0000 2026"
 },
 {
 "userName": "ai_uncovered",
@@ -48,83 +32,91 @@
 "createdAt": "Mon Aug 24 13:57:27 +0000 2026"
 },
 {
-"userName": "oliviscusAI",
-"text": "this repo beat Runway Gen-3 and Luma 1.6 in blind human evaluation. it also needs 60GB of VRAM for one video.\n\n- text alignment: 61.8%, best of the 6\n- motion quality: 66.5%, best of the 6\n- overall preference score: 41.3%, ranked #1\n\na 13B parameter model, largest open-source video model at release, using a decoder-only LLM as the text encoder instead of CLIP+T5.\n\nthis is the original HunyuanVideo though. \n\nTencent's own HunyuanVideo-1.5 replaced it since, same lineage, far lighter to run.",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/oliviscusAI/status/2092279270672613487",
-"createdAt": "Tue Aug 25 15:53:45 +0000 2026"
+"userName": "philosophy36l",
+"text": "🚀 100 AI TOOLS TO SUPERCHARGE YOUR PRODUCTIVITY\n\nAI is no longer just a trend — it’s becoming the ultimate productivity toolkit. 🤖⚡\n\nFrom writing and research to design, coding, video, marketing, meetings, automation, and customer support, these 100 AI tools can help you work smarter and get more done in less time.\n\n🔥 Categories include:\n• Generative AI\n• Creative & Design\n• Voice & Text\n• Image & Video Generation\n• Marketing & SEO\n• Coding\n• Productivity\n• Sales & Support\n• Websites & Chat\n• Meetings & Workflows\n\n📌 Save this list — you never know which AI tool could become your next favorite.\n\n💬 Which AI tool do you use the most?\n\n🔖 Save • Share • Follow for more AI & productivity content",
+"likeCount": 13,
+"retweetCount": 13,
+"url": "https://x.com/philosophy36l/status/2092896395049193929",
+"createdAt": "Thu Aug 27 08:45:59 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "NVIDIA built its own coding harness to optimize CUDA GPU kernels and achieved a 100% score on ARC-AGI-3’s 25 public games, solving all 183 levels.\n\nWith agents, we'll move from a world where it's quite hard to run, optimize, post-train your own AI models and kernels to a world where virtually everybody can do it. \n\n100 million AI builders when?",
-"likeCount": 568,
-"retweetCount": 75,
-"url": "https://x.com/ClementDelangue/status/2091273855415492806",
-"createdAt": "Sat Aug 22 21:18:35 +0000 2026"
+"userName": "arthurallshire",
+"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
+"likeCount": 66,
+"retweetCount": 2,
+"url": "https://x.com/arthurallshire/status/2092306772396839206",
+"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
 },
 {
-"userName": "trythreews",
-"text": "The First 19 Weeks. Everything we have shipped, week by week, from the first commit to today.\n\n9,508 commits. 21 contributors. 725 pages. 101 npm packages. 72 MCP servers @AnthropicAI. 4,519 @x402 endpoints. 110,416 on-chain settlements on @Solana. https://t.co/4npNY2VLt6",
-"likeCount": 159,
-"retweetCount": 51,
-"url": "https://x.com/trythreews/status/2092315351401050267",
-"createdAt": "Tue Aug 25 18:17:07 +0000 2026"
-},
-{
-"userName": "vmrmax",
-"text": "A research associate costs $60,000 a year. Grok Bot runs 50 bots for $300 a month.\n\nAlmost everyone stops at layer one of six.\n\nFull framework: every charter and schedule, ready to copy. Plus the 5 things it doesn't solve. https://t.co/vxZuP8frYX",
-"likeCount": 22,
+"userName": "isidentical",
+"text": "The team we assembled has more combined experience in building post-training and RL infrastructure for diffusion models than anyone else.\n\nCombine that with our cracked kernel engineering and inference systems teams, and we can deliver the lowest cost, highest speed, and max quality.",
+"likeCount": 35,
 "retweetCount": 0,
-"url": "https://x.com/vmrmax/status/2092704597102190655",
-"createdAt": "Wed Aug 26 20:03:51 +0000 2026"
+"url": "https://x.com/isidentical/status/2092712087596458317",
+"createdAt": "Wed Aug 26 20:33:37 +0000 2026"
+},
+{
+"userName": "_HelenaT",
+"text": "More of us are leaning on LLM-as-a-judge to evaluate models now. However, a model's grade is an opinion until a human checks it. In Part 3 of the series, I wrote about the end to end journey to verify LLM judge with human labeling. https://t.co/RFgaRLfOdQ",
+"likeCount": 11,
+"retweetCount": 1,
+"url": "https://x.com/_HelenaT/status/2092318936394285439",
+"createdAt": "Tue Aug 25 18:31:22 +0000 2026"
+},
+{
+"userName": "btibor91",
+"text": "OpenAI is working on a new Virtual Try-On feature for ChatGPT Shopping with onboarding to upload your full-body reference photo used to show how clothing and accessories look on you using ImageGen https://t.co/1yt7WXJGYX",
+"likeCount": 144,
+"retweetCount": 8,
+"url": "https://x.com/btibor91/status/2093059407018094947",
+"createdAt": "Thu Aug 27 19:33:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cryptopunk7213: i’m seeing SO many US companies shift away from frontier models to open source in the last 4 weeks.\n\ncost and privacy a…",
-"likeCount": 203,
-"retweetCount": 28,
-"url": "https://x.com/ClementDelangue/status/2092253907812569412",
-"createdAt": "Tue Aug 25 14:12:58 +0000 2026"
+"text": "RT @pham_blnh: just had a quick look at microduck_rl\n\nthe codebase is very elegant, i’d recommend reading the agent.md since it contains qu…",
+"likeCount": 140,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2093192064565498212",
+"createdAt": "Fri Aug 28 04:20:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Today we are launching the \"Rare Disease, Real Kid\" Hackathon together with @sagebio in which you can literally save a life…",
-"likeCount": 132,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2092406831020667251",
-"createdAt": "Wed Aug 26 00:20:38 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @tomaarsen: At 1400x cheaper, I know I'm sticking to embeddings (dense, sparse, multi-vector), plus hybrid (incl. bm25) and rerankers.…",
-"likeCount": 209,
-"retweetCount": 25,
-"url": "https://x.com/jeremyphoward/status/2091034162459549744",
-"createdAt": "Sat Aug 22 05:26:08 +0000 2026"
+"text": "RT @DanraeP: @chris_j_paxton Came for the duck, left with a duck and  another adorable robot.\n\nRobots would do so much better with the mass…",
+"likeCount": 11,
+"retweetCount": 1,
+"url": "https://x.com/ClementDelangue/status/2093190828013285883",
+"createdAt": "Fri Aug 28 04:15:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Ultimately the overwhelming majority of AI workloads will be based on open models!",
-"likeCount": 447,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2091280015069483306",
-"createdAt": "Sat Aug 22 21:43:04 +0000 2026"
+"text": "RT @chris_j_paxton: Thousands of microducks sold first day. Not bad! The people want a cute robot",
+"likeCount": 153,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2093190813580718373",
+"createdAt": "Fri Aug 28 04:15:54 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Who's excited? https://t.co/jiKFk0vwJn https://t.co/tfK3kqGmxk",
-"likeCount": 1415,
-"retweetCount": 85,
-"url": "https://x.com/ClementDelangue/status/2092275117539655835",
-"createdAt": "Tue Aug 25 15:37:15 +0000 2026"
+"userName": "Notyourmatek",
+"text": "CURIOUS ABOUT AXIS ROBOTICS? CHECK THIS ARTICLE OUT https://t.co/B6FB0NixlI",
+"likeCount": 34,
+"retweetCount": 5,
+"url": "https://x.com/Notyourmatek/status/2092570180010328406",
+"createdAt": "Wed Aug 26 11:09:43 +0000 2026"
 },
 {
-"userName": "blocmates",
-"text": "https://t.co/VKoeHuIFkJ",
-"likeCount": 23,
+"userName": "dickiebush",
+"text": "https://t.co/g6jChs5ZjH",
+"likeCount": 37,
+"retweetCount": 3,
+"url": "https://x.com/dickiebush/status/2092655824862859494",
+"createdAt": "Wed Aug 26 16:50:02 +0000 2026"
+},
+{
+"userName": "hark_labs",
+"text": "https://t.co/aZ7CTUezlA",
+"likeCount": 108,
 "retweetCount": 4,
-"url": "https://x.com/blocmates/status/2092582971467509906",
-"createdAt": "Wed Aug 26 12:00:33 +0000 2026"
+"url": "https://x.com/hark_labs/status/2092315987937042855",
+"createdAt": "Tue Aug 25 18:19:39 +0000 2026"
 }
 ]

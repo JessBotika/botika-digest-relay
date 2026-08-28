@@ -1,19 +1,11 @@
 [
 {
-"userName": "OwenGregorian",
-"text": "The New York Times reported that 38 people watched Kitty Genovese be stabbed to death in 1964 and did nothing — the story that founded an entire field of “bystander effect” research. Decades of investigation later found most of the 38 weren’t eyewitnesses at all, and none could have seen the whole attack from where they stood | The Long View, ScienceBlog\n\nFor more than half a century, introductory psychology courses have opened their unit on helping behaviour with the same story: in Queens, New York, in 1964, thirty-eight people watched a woman get stabbed to death and none of them did anything. The story is real in the sense that a woman was murdered and that a newspaper printed those numbers. Almost everything else about how it’s usually told has turned out to be wrong.\n\nWhat the original story actually claimed\n\nCatherine “Kitty” Genovese, a 28-year-old bar manager, was attacked and stabbed by Winston Moseley outside her apartment building in Kew Gardens in the early hours of 13 March 1964, in two separate assaults about ten minutes apart, in an episode that spanned roughly half an hour from the first attack to her death; she was raped during the second, fatal attack. Two weeks later, New York Times reporter Martin Gansberg published a story under the headline “37 Who Saw Murder Didn’t Call the Police,” though the article’s own opening line gave a different number: “38 respectable, law-abiding citizens in Queens watched a killer stalk and stab a woman” — for more than half an hour, the article said, in three separate attacks.\n\nThat inconsistency, 37 in the headline, 38 in the text, has sat unremarked in the historical record for decades; it’s the 38 figure that stuck, becoming the number cited in psychology textbooks and by the researchers who built a field around it.\n\nSocial psychologists Bibb Latané and John Darley read the Gansberg account and used it as the motivating case for what became the bystander effect: the finding, developed through their own separate experiments beginning in 1968, that people are less likely to help in an emergency when they believe other bystanders are present, because responsibility for acting feels diffused across the group. Their experimental work on diffusion of responsibility is real, replicated, and remains a legitimate part of social psychology. The Genovese case was the anecdote that opened the door to it, not itself a piece of that experimental evidence.\n\nWhat later investigation actually found\n\nThe most thorough published reassessment is Rachel Manning, Mark Levine and Alan Collins’s 2007 paper in American Psychologist, “The Kitty Genovese murder and the social psychology of helping: The parable of the 38 witnesses.” Working from trial records, police files and contemporary reporting, they concluded there is no evidence that 38 people watched the murder, no evidence that those who were aware of it saw the attack itself, and no evidence that witness inaction caused her death. They frame the story explicitly as a parable, something taught for its moral clarity rather than for its accuracy, and note it had been repeated uncritically in psychology curricula for decades.\n\nJournalist Kevin Cook went further in his 2014 book on the case, working from police files, trial transcripts and interviews with people involved. His account puts the actual police tally at 49 people who reported seeing or hearing something that night, of whom perhaps a dozen or so could reasonably be called eyewitnesses to any part of the events, a figure that varies somewhat depending on which secondary account is consulted, but is consistently far below “38 witnesses to a murder.” The “38” figure itself appears to have originated with a police tally passed to Commissioner Michael Murphy, who relayed it to Times editor A.M. Rosenthal.\n\nThe detail that undoes the story most completely, though, is architectural rather than statistical. The fatal second attack took place in an interior vestibule, out of view from the street and from most surrounding apartments. Investigators found no one who witnessed the entire attack from start to finish, because the geometry of the building made that impossible regardless of how many people were awake or watching from a window during the earlier, more visible portion of the assault.\n\nWhat actually happened, according to the record\n\nPeople did act, contrary to the story’s central image of collective paralysis. A neighbour, Robert Mozer, shouted from his window during the first attack and briefly drove Moseley off. A teenager who heard the commotion alerted his father, who called the police. Karl Ross called police later, though not in time. Sophia Farrar, a friend of Genovese’s who lived in the building, went down to her and stayed with her, holding her, before help arrived. The story that became the field’s founding case study left all of this out.\n\nThe bystander effect itself doesn’t need Kitty Genovese’s murder to be true; the diffusion-of-responsibility experiments Latané and Darley designed afterward stand on their own evidence, replicated many times since in controlled settings that have nothing to do with the original anecdote. The Genovese story mattered to that research programme mainly as a prompt, the question it made Latané and Darley want to test, not as data itself.\n\nThe story had consequences beyond psychology textbooks, too, some of them genuinely constructive. It’s frequently credited, alongside other factors, with helping build public and political support for a unified emergency telephone number in the United States, the system that became 911, on the logic that easier reporting might counter exactly the kind of hesitation the Genovese story seemed to describe. It’s a strange legacy for an account this inaccurate to have: real infrastructure and real research built partly on a version of events that didn’t happen the way it was told, even while the underlying human tendency the story was used to illustrate turned out to be genuine and well documented on its own separate terms.\n\nWhat the case actually demonstrates, once the record is checked against the story, is a different and arguably more useful lesson about how a specific, memorable number in a newspaper headline can travel for sixty years largely unexamined, cited by people, including researchers, who had every professional reason to check it and mostly didn’t. A. M. Rosenthal, the Times editor who ran the original story, went on to write his own book the same year, Thirty-Eight Witnesses: The Kitty Genovese Case, which helped cement the 38-witness framing in the public imagination even further, at a moment when the more careful reconstruction that Manning, Levine and Collins would eventually publish was still four decades away.\n\nhttps://t.co/QV96I9qDxg",
-"likeCount": 52,
-"retweetCount": 7,
-"url": "https://x.com/OwenGregorian/status/2092606124860031137",
-"createdAt": "Wed Aug 26 13:32:33 +0000 2026"
-},
-{
-"userName": "MaxForAI",
-"text": "神了，有人把Qwen模型训成了一个生图模型？？\n\n有人干了个很抽象的实验：\n\n直接拿 Qwen 做强化学习，让一个 Coding Model 学会用 JavaScript 画水彩画。\n\n没有 Stable Diffusion，没有 Flux，也不是调用什么图片 API。\n\n每一张图背后，真的是 Qwen 自己写出来的一段代码。\n\n而且他们甚至给审美做了一套 Reward，让模型靠 RL 一轮轮学会怎样画得更好看。\n\n具体流程是这样的⬇️\n\n1️⃣先给 Qwen 一个 Prompt。\nQwen 根据要求写一段 p5.brush JavaScript，再把这段代码扔进浏览器环境里真正执行，渲染成图片。\n2️⃣画完之后还没结束。\nJudge 模型会继续看这张图，判断它有没有遵循 Prompt、构图怎么样、技法怎么样，以及最关键的这玩意到底好不好看。\n3️⃣评分变成 Reward，再拿回去训练 Qwen。\n\n于是一个本来拿来写代码的模型，就这么一点一点学会了画画。\n\n这套东西最有意思的地方，其实是他们训练审美时踩的坑。\n\n一开始团队搞了足足 9 个 Reward。\n\n看起来很科学，代码质量、绘画技法、Prompt 遵循、审美各种维度全部覆盖。\n\n结果 Reward 一路往上涨，画却越来越抽象。\n\n很明显 Qwen 找到了捷径开始Hack这些Reward。\n\n最后画出来的东西就开始疯狂收敛成差不多的五瓣小花。\n\n后来他们才发现，很多 Judge 的判断高度相关。\n\n换句话说，表面上有 9 个指标，实际上可能是在把同一种偏好重复奖励好几遍。\n\n于是他们干脆大砍 Reward，只留下 4 个。\n\n然后人肉看了 1664 张模型生成的作品，从中挑出自己真正觉得好看的图片，拿来当审美参考。\n\n结果新的 Reward 设计，只用了原来大概 1/3 的训练步数，就追上了之前的效果，之后还能继续提升。\n\n模型自己写画图代码也越来越熟练。\n\n一度生成一张图要写到 13500 Token 左右，后来逐渐压到了 2000 Token 以下。\n\n还有一个很典的 Prompt 工程事故。\n\n一开始他们担心 Qwen 不熟悉 p5.brush，于是好心往 System Prompt 里塞了大约 400 行 API 文档。\n\n结果模型学完之后，开始非常自信地发明根本不存在的 API。\n\n最后团队干脆把几百行文档删掉，只明确告诉它可以用哪些核心方法。\n\n结果反而正常了。\n\n训练本身跑在 PrimeIntellect 上，Rollout 的图片渲染则放在 Modal 上。\n\n当然，这条路线现在比直接调用生图模型慢得多，画面质量也不是为了跟 Flux 正面打。\n\n但我觉得它真正有意思的是另一件事：\n\n以前我们讲 AI 生图，基本都是Prompt → Image\n\n这里却变成了Prompt → Code → Image\n\n最后得到的不只是一张图，还有一整套可以继续修改、调参数、复用的生成逻辑。\n\n今天是 p5.js 水彩画。\n\n以后如果这套思路继续往 SVG、网页、Figma、3D、CAD 这些东西里走，就很有意思了。\n\nAI 生成的可能不再只是最后那堆像素。\n\n而是作品背后真正可编辑的结构。\n\n果然世间万物都可以用代码来构建（",
-"likeCount": 756,
-"retweetCount": 81,
-"url": "https://x.com/MaxForAI/status/2091903300807598133",
-"createdAt": "Mon Aug 24 14:59:47 +0000 2026"
+"userName": "junfanzhu98",
+"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
+"likeCount": 33,
+"retweetCount": 6,
+"url": "https://x.com/junfanzhu98/status/2091416256205488328",
+"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
 },
 {
 "userName": "adaora_crypto",
@@ -24,107 +16,107 @@
 "createdAt": "Sat Aug 22 18:48:50 +0000 2026"
 },
 {
-"userName": "RidiTechAI",
-"text": "30 free datasets to practice AI/ML on (no more Titanic dataset) 📊\nSearch Engines for Datasets\n\n1. https://t.co/TBiEwXieMW — Google's dataset search engine\n2. https://t.co/DAyFwxRjHX — Thousands of shareable ML datasets\n3. https://t.co/1ta0oOytc1 — NLP, vision & LLM fine-tuning data\n4. https://t.co/X3PrphM9z1 — Datasets tied to research papers\nClassic ML Repositories\n5. https://t.co/q1KHKcFXm7 — 600+ curated, research-grade datasets\n6. https://t.co/2EVv41VQLQ — 200K+ community-uploaded datasets\n7. https://t.co/6b52k7XX8a — US government open data\n8. https://t.co/T25CRbHKnc — EU government open data\nComputer Vision\n9. COCO Dataset — Object detection & segmentation\n10. ImageNet — 14M+ labeled images\n11. CIFAR-10/100 — Classic image classification benchmark\n12. Open Images Dataset (Google) — 9M+ annotated images\n13. LAION-5B — Massive image-text pairs for generative AI\nNLP & LLMs\n14. Common Crawl — Petabytes of raw web text\n15. The Pile (EleutherAI) — 800GB curated text for LLM training\n16. IMDb Reviews — Sentiment analysis benchmark\n17. SQuAD — Question-answering benchmark\n18. Amazon Reviews Dataset — Millions of product reviews\nFinance & Economics\n19. Yahoo Finance API — Historical stock data\n20. World Bank Open Data — Global economic indicators\n21. Lending Club Loan Data — Credit risk modeling\n22. Credit Card Fraud Detection (Kaggle) — Fraud classification practice\nHealthcare\n23. MIMIC-III — De-identified ICU patient data\n24. CDC WONDER — US public health statistics\n25. COVID-19 Data Repository (JHU) — Historical pandemic tracking data\nGeospatial & Climate\n26. NASA Earthdata — Satellite & climate datasets\n27. OpenStreetMap — Global map & location data\n28. NOAA Climate Data — Historical weather records\nRecommendation Systems\n29. MovieLens — Classic movie ratings dataset\n30. H&M Personalized Fashion Dataset — Real e-commerce recommender data\nSkip the Titanic dataset. \n\nBuild something that actually looks good on a portfolio. 🔖\n\nFollow \n@RidiTechAI \n for more free tools, AI resources & datasets worth knowing. 🚀",
-"likeCount": 8,
-"retweetCount": 7,
-"url": "https://x.com/RidiTechAI/status/2090836256800612468",
-"createdAt": "Fri Aug 21 16:19:44 +0000 2026"
+"userName": "thisguyknowsai",
+"text": "10 WEBSITES THAT FEEL ILLEGAL TO KNOW FOR FREE.\n\nBookmark before they get taken down.\n\n1. https://t.co/PZVmUSI3Ri\nThe entire internet's memory. Old websites, books, films, software. All free.\n\n2. https://t.co/BUzgr8qWMi\nAlmost every textbook ever published. Researchers use it. Universities pretend it doesn't exist.\n\n3. https://t.co/An9KjW9l1H\nPaywalled research papers, unlocked. Elsevier hates this site.\n\n4. https://t.co/g3x7WLYVwr\nThe largest shadow library on earth. Books, papers, comics, all searchable.\n\n5. https://t.co/vLH27rjRLH\nInstall 20 essential programs on a fresh PC in one click. No ads. No bloat.\n\n6. https://t.co/FD94aqss9j\nTurn any text into ASCII art instantly. Looks like hacker movie titles.\n\n7. https://t.co/LMpI6NIApE\nPaste any text. Tells you what language it is in 0.5 seconds.\n\n8. https://t.co/KuzK1a6PbX\nRemove the background from any image in one click. Free.\n\n9. https://t.co/3ODcN6CNy8\n200+ free tools. PDF editor, video converter, AI writer, image compressor. No signup.\n\n10. https://t.co/VVhbQc8dMQ\nDownload videos from YouTube, TikTok, Instagram, Twitter. No watermark. No ads.\n\nThe internet used to be like this everywhere. These sites are the last ones standing.",
+"likeCount": 396,
+"retweetCount": 68,
+"url": "https://x.com/thisguyknowsai/status/2092957366551794171",
+"createdAt": "Thu Aug 27 12:48:16 +0000 2026"
 },
 {
-"userName": "tec_safwan",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity\n\n- DeepSeek R1\n- ChatGPT\n- Notion AI\n- BetterPic\n\n2. Research\n\n- Perplexity\n- Otio\n- Gemini\n- Claude\n- Silatus\n\n3. Writing\n\n- Jasper\n- HIX AI\n- Jenny AI\n- Textblaze\n- QuillBot\n\n4. Text-to-Image\n\n- Grok\n- Flux\n- Midjourney\n- Microsoft Copilot\n- Adobe Firefly\n\n5. Copywriting\n\n- Rytr\n- Copy. ai\n- Writesonic\n- AdCopy AI\n- Jasper AI\n\n6. Website\n\n- Dora\n- 10Web\n- Durable\n- LandingSite\n- Viz\n\n7. Meeting\n\n- tl;dv\n- Otter\n- Noty AI\n- Fireflies\n- MeetGeek\n\n8. Resume\n\n- Kickresume\n- Resume AI\n- Resume Checker\n- Teal\n- Careerflow\n\n9. Chatbot Tools\n\n- Mutual Info\n- TryCortex\n- Chatfuel\n- Dante AI\n- Droxy\n\n10. Automation\n\n- Make\n- Zapier\n- Xembly\n- Bardeen\n- Testim\n\n11. Prompt\n\n- Snack Prompt\n- CustomGPT\n- PromptBox\n- Alicent AI\n- SiteGPT\n\n12. UI/UX\n\n- Figma\n- Uizard\n- UiMagic\n- Photoshop\n- UX Pilot\n\n13. Design\n\n- Canva\n- Flair AI\n- Designify\n- Clipdrop\n- AutoDraw\n\n14. Logo Generator\n\n- Namelix\n- Designs. ai\n- Brandmark\n- Stockimg AI\n- Namecheap\n\n15. Audio\n\n- LOVO AI\n- ElevenLabs\n- Songburst AI\n- Adobe Podcast\n- VoicemyAI\n\n16. Marketing\n\n- Pencil\n- AI-Ads\n- AdCopy\n- Simplified\n- AdCreative\n\n17. Startup\n\n- Tome\n- Ideas AI\n- Namelix\n- Pitchgrade\n- Validator AI\n\n18. Social Media Management\n\n- Taplio\n- Typefully\n- Hypefury\n- Tweet Hunter\n- Postwise\n\n19. Video\n\n- Eightify\n- Klap\n- Opus Clip\n- InVideo\n- HeyGen\n\n20. Image to Video\n\n- Veo 2\n- Kling AI\n- Luma Dream Machine\n- Pollo AI\n- Sora\n\nFollow for more AI tools.⤵️✅",
-"likeCount": 49,
-"retweetCount": 25,
-"url": "https://x.com/tec_safwan/status/2092253499564425605",
-"createdAt": "Tue Aug 25 14:11:21 +0000 2026"
+"userName": "yesnoerror",
+"text": "FixAnything looks like a new gold standard for cleaning up 3D renderings. \n\nInstead of custom pipelines for NeRF, 3DGS, meshes or point clouds, FixAnything adapts a single video diffusion model (just 1% parameters updated) and refines any input—no matter how sparse—into a photoreal, stable video. \n\nA mask tells it which frames to leave untouched; geometry-aware reward (+7.2% AUC@5° pose accuracy) bakes in true 3D consistency. Results: up to 5 dB PSNR gain, 0.1–0.2 LPIPS drop, and matches or beats specialist enhancers—even on ultra-sparse point clouds. Only 500 paired videos for training; inference is 10× faster.\n\nWhy build separate enhancers for every pipeline when one generalist outperforms them all?\n\nGet the full analysis here: https://t.co/NhzcmticnG\n\n// alpha identified\n// $YNE",
+"likeCount": 14,
+"retweetCount": 3,
+"url": "https://x.com/yesnoerror/status/2092719222614900771",
+"createdAt": "Wed Aug 26 21:01:58 +0000 2026"
 },
 {
-"userName": "zefirium",
-"text": "I listed every free AI tier. Claw Hunter does it differently.\n\nFREE models in daily allowance: Claude Fable 5, GPT 5.6 Luna, DeepSeek V4 Flash, Grok 4.6, GLM 5.2, Gemini 3.7 Flash, Kimi K3\n\n> Studio: like Higgsfield but free within daily allowance. Image gen (GPT Image 2, FLUX 2 Pro, Pixarify, Ghiblify, Neon), video gen (Kling v3, text-to-video, animate image), research with citations, chat\n\n> All at 50% off retail, or free within daily allowance\n\nHow to farm credits and tiers:\n\n> Hold the platform token: higher balance = higher tier\n\n> Higher tier = bigger daily free allowance + cheaper calls + better referral rate\n\n> Activity points: use the platform to earn points and climb tiers\n\n> Referrals: bring users in, earn from their activity: https://t.co/QSLExvPFlY",
-"likeCount": 45,
-"retweetCount": 6,
-"url": "https://x.com/zefirium/status/2092659023002632532",
-"createdAt": "Wed Aug 26 17:02:45 +0000 2026"
+"userName": "askalphaxiv",
+"text": "\"On-Policy Self-Distillation in Diffusion Models\"\n\nDiffusion RL gets a reward only after the final image, even though the model actually acts through many intermediate denoising steps.\n\nDiffusionOPSD turns that endpoint reward into explicit reward-improving targets at the model’s own intermediate states, then distills those targets back into the model and continually refreshes them on-policy.\n\nAcross two diffusion backbones and ten evaluators, it gets the best held-out score in 19 of 20 settings while cutting training GPU-hours by up to 63%.\n\nThe key idea is treating diffusion alignment less like noisy trajectory-level RL and more like continuously refreshed self-distillation with direct intermediate supervision.\n\nhttps://t.co/JvXWcb5DjZ",
+"likeCount": 233,
+"retweetCount": 24,
+"url": "https://x.com/askalphaxiv/status/2092730555960033502",
+"createdAt": "Wed Aug 26 21:47:00 +0000 2026"
 },
 {
-"userName": "arthurallshire",
-"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
-"likeCount": 59,
-"retweetCount": 0,
-"url": "https://x.com/arthurallshire/status/2092306772396839206",
-"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
+"userName": "aimevekari21",
+"text": "Every generation inherits a new world—yet some things travel with us, woven into our memories and identity.\n\nFrom contemporary spaces to global skylines, meet the #AMSSignatureSari.\n\nIndian by root. Future by design.\n\n#AIconcept #Fashion @IndiaFutureAI @phimaanshu @CSEPlanB https://t.co/9FadJ6ZqN1",
+"likeCount": 3,
+"retweetCount": 1,
+"url": "https://x.com/aimevekari21/status/2093195722439139684",
+"createdAt": "Fri Aug 28 04:35:24 +0000 2026"
 },
 {
 "userName": "isidentical",
-"text": "The team we assembled has more combined experience in building post-training and RL infrastructure for diffusion models than anyone else.\n\nCombine that with our cracked kernel engineering and inference systems teams, and we can deliver the lowest cost, highest speed, and max quality.",
-"likeCount": 33,
-"retweetCount": 0,
-"url": "https://x.com/isidentical/status/2092712087596458317",
-"createdAt": "Wed Aug 26 20:33:37 +0000 2026"
+"text": "Introducing fal Research\n\nThe post-training arm of fal, building frontier RL infrastructure for diffusion models.\n\nWe are optimizing models for the right target because we know what customers want, and co-designing the architecture with our inference know-how.",
+"likeCount": 317,
+"retweetCount": 23,
+"url": "https://x.com/isidentical/status/2092712085922934955",
+"createdAt": "Wed Aug 26 20:33:36 +0000 2026"
 },
 {
-"userName": "arvinaq",
-"text": "https://t.co/EoTLZPkLiY looks like another AI video generator. The more interesting product is its distribution machine: paid search, competitor terms, localized pages, affiliates, and creator campaigns.\n\nThe growth is impressive. Trust is the real test. https://t.co/O37aAagdOC",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/arvinaq/status/2090643204161122784",
-"createdAt": "Fri Aug 21 03:32:36 +0000 2026"
+"userName": "ikiteo_me",
+"text": "The first part of what I hope will be a series of articles on how LLMs are structured and how they work, how they recommend specific products and services, and how to get included in those recommendations. https://t.co/fQgDLG2LJX",
+"likeCount": 6,
+"retweetCount": 4,
+"url": "https://x.com/ikiteo_me/status/2092945356921446523",
+"createdAt": "Thu Aug 27 12:00:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @atomic_chat_hq: We officially surpassed 1M model downloads on @huggingface 🔥\n\nYour 5 most downloaded models:\n\n1. Qwen3.8 27B — 261K\n2.…",
-"likeCount": 216,
+"text": "RT @Escapation: So your telling me it's Open Source and I can print STL parts for it? Take my money. 🦷\n\nhttps://t.co/gH5Wzkzu6M https://t.c…",
+"likeCount": 228,
 "retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2092277761779855701",
-"createdAt": "Tue Aug 25 15:47:45 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2093198450120593786",
+"createdAt": "Fri Aug 28 04:46:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Alibaba_Qwen: ⚡Meet Qwen3.8-Flash, a multimodal MoE and an early preview of the Qwen4 architecture, now open-weight!\n\nThe production ve…",
-"likeCount": 7234,
-"retweetCount": 963,
-"url": "https://x.com/ClementDelangue/status/2092597106963775821",
-"createdAt": "Wed Aug 26 12:56:43 +0000 2026"
+"text": "RT @Alacritic_Super: Want to learn how robots actually learn? Start here.\n\nHugging Face has a free Robotics Course that takes you from clas…",
+"likeCount": 157,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2093191572237975633",
+"createdAt": "Fri Aug 28 04:18:55 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @tomaarsen: At 1400x cheaper, I know I'm sticking to embeddings (dense, sparse, multi-vector), plus hybrid (incl. bm25) and rerankers.…",
+"likeCount": 208,
+"retweetCount": 25,
+"url": "https://x.com/jeremyphoward/status/2091034162459549744",
+"createdAt": "Sat Aug 22 05:26:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @DavidSacks: Harvey is a great example of how American companies are building world-class specialized models: they took an open-source b…",
-"likeCount": 7955,
-"retweetCount": 588,
-"url": "https://x.com/ClementDelangue/status/2090797790871830608",
-"createdAt": "Fri Aug 21 13:46:53 +0000 2026"
+"text": "RT @yacineMTB: they shipped an open source simulator for it\ni bought this immediately",
+"likeCount": 1420,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2092963444106444904",
+"createdAt": "Thu Aug 27 13:12:25 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @schwarzjn_: Hi @GaryMarcus, I'm the Research Lead for this model.  It's even more consequential than just Anthropic's IPO: This paper i…",
-"likeCount": 415,
-"retweetCount": 37,
-"url": "https://x.com/ClementDelangue/status/2092252763954544803",
-"createdAt": "Tue Aug 25 14:08:25 +0000 2026"
+"text": "https://t.co/KXKqDSkNJj https://t.co/aqRsWwcVTQ",
+"likeCount": 1984,
+"retweetCount": 191,
+"url": "https://x.com/ClementDelangue/status/2092931448982372374",
+"createdAt": "Thu Aug 27 11:05:16 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @MiaAI_lab: Time to reveal!\n\nOx Alpha is Zai's GLM Flash 🔥\n\nAnd it's coming out... tonight! https://t.co/mtGFVBDR5L",
-"likeCount": 2039,
-"retweetCount": 135,
-"url": "https://x.com/ClementDelangue/status/2092590287168098387",
-"createdAt": "Wed Aug 26 12:29:37 +0000 2026"
+"userName": "Joshbocanegra",
+"text": "Size matters, actually. https://t.co/A7NtYNZv7j",
+"likeCount": 2,
+"retweetCount": 2,
+"url": "https://x.com/Joshbocanegra/status/2092978894479736887",
+"createdAt": "Thu Aug 27 14:13:48 +0000 2026"
 },
 {
-"userName": "Notyourmatek",
-"text": "CURIOUS ABOUT AXIS ROBOTICS? CHECK THIS ARTICLE OUT https://t.co/B6FB0NixlI",
-"likeCount": 34,
-"retweetCount": 5,
-"url": "https://x.com/Notyourmatek/status/2092570180010328406",
-"createdAt": "Wed Aug 26 11:09:43 +0000 2026"
-},
-{
-"userName": "dickiebush",
-"text": "https://t.co/g6jChs5ZjH",
-"likeCount": 21,
-"retweetCount": 1,
-"url": "https://x.com/dickiebush/status/2092655824862859494",
-"createdAt": "Wed Aug 26 16:50:02 +0000 2026"
+"userName": "ZARGATES",
+"text": "https://t.co/sRbkzSogX0",
+"likeCount": 111,
+"retweetCount": 53,
+"url": "https://x.com/ZARGATES/status/2092613217008672949",
+"createdAt": "Wed Aug 26 14:00:44 +0000 2026"
 }
 ]
