@@ -1,122 +1,74 @@
 [
 {
-"userName": "sydsachar",
-"text": "WHY ROW-BOT EXISTS\n\nOpenClaw and Hermes Agent showed how powerful AI agents can be. But they are unnecessarily complex and mostly built for developers.\n\nRow-Bot was created to fix that. It brings that same power to everyone in a 'super easy' way.\n\nIt is free, open source, local-first and model-agnostic. \n\nI have been told that I sell it short, so here's everything it can do. It's a long list, on purpose, to show that 'super easy' to use does not mean limited:\n\nAGENTS AND GOALS\n\n- Reusable Agent Profiles\n- Goal Mode for long-running work\n- Multi-agent orchestration\n- Parallel and background agents\n- Live progress, blockers and next steps\n- Agent steering, stopping and retrying\n- Recovery from interrupted work\n\nMODELS AND PROVIDERS\n\n- Local Ollama models\n- LM Studio and OpenAI-compatible endpoints\n- OpenAI\n- Anthropic\n- Google AI\n- xAI\n- OpenRouter\n- Requesty\n- Atlas Cloud\n- MiniMax\n- OpenCode\n- Ollama Cloud\n- ChatGPT and Codex subscription sign-in\n- Claude subscription sign-in\n- Grok subscription sign-in\n- Separate models for chat, tools, reasoning, vision, images and video\n- Automatic model discovery\n- Context-window management\n\nSEARCH AND RESEARCH\n\n- Live web search\n- Webpage reading and summarisation\n- Wikipedia search\n- arXiv research\n- YouTube search and transcript analysis\n- Personal document search\n- Conversation-history search\n- Deep research workflows\n\nTOOLS AND COMPUTER CONTROL\n\n- Visible browser automation\n- Persistent browser sessions\n- Native desktop Computer Use\n- Local file management\n- Approval-gated shell access\n- Calculations\n- Weather forecasts\n- Image analysis\n- Chart generation\n- Image generation and editing\n- Video generation\n- Safe approvals for consequential actions\n\nEMAIL AND CALENDAR\n\n- Gmail search\n- Email drafting and sending\n- File attachments\n- Google Calendar search\n- Calendar event creation\n- Event updates, moves and deletion\n- Bulk event creation\n\nMEMORY AND KNOWLEDGE\n\n- Local personal knowledge graph\n- Long-term memory\n- Relationships between people, projects, preferences and events\n- Semantic, full-text and graph-based search\n- Visual knowledge-graph exploration\n- Persistent document library\n- PDF, spreadsheet, JSON, image and text extraction\n- Resumable document processing\n- Obsidian-compatible Wiki Vault\n- Automatic knowledge-to-wiki synchronisation\n- Dream Cycle memory consolidation\n- Reviewable self-improvement proposals\n\nWORKFLOWS AND AUTOMATION\n\n- Scheduled tasks\n- Quick reminders and timers\n- Recurring background workflows\n- Monitoring and alerting\n- Multi-step pipelines\n- Conditions and branching\n- Human approval steps\n- Per-workflow models and profiles\n- Persistent workflow threads\n- Desktop and messaging-channel delivery\n- Durable run history and recovery\n\nREMOTE AND MOBILE ACCESS\n\n- Full remote desktop interface\n- Phone-friendly compact interface\n- Remote chat, workflows, knowledge and settings\n- Remote file attachments\n- Remote approvals\n- Secure headless server mode\n- Revocable devices and sessions\n- Optional Tailscale-compatible access\n\nMESSAGING\n\n- Telegram\n- Discord\n- Slack\n- WhatsApp\n- SMS\n- Streaming responses\n- Interactive approvals\n- Images and document attachments\n- Generated-file delivery\n- Agent, goal and workflow notifications\n\nVOICE AND SPEECH\n\n- Voice dictation\n- Local speech-to-text\n- Local text-to-speech\n- Realtime voice conversations\n- Browser-based recording, transcription and playback\n\nDEVELOPER STUDIO\n\n- Connect local Git repositories\n- Persistent coding conversations\n- Isolated Git worktrees\n- Multi-agent coding workflows\n- Diff inspection\n- Test execution\n- Command-output review\n- Commit preparation\n- Pull-request preparation\n- Docker Sandbox mode\n- Approval gates for installs, deletion, commits, pushes and pull requests\n\nDESIGNER STUDIO\n\n- Slide decks and presentations\n- Designed documents\n- Landing pages\n- App and UI mockups\n- Video storyboards\n- Templates and brand controls\n- Live previews\n- Image, video and chart assets\n- Interactive HTML exports\n- PDF, HTML, PNG and PPTX exports\n- Built-in critique and repair\n\nSKILLS, PLUGINS AND EXTENSIONS\n\n- Reusable Skills\n- Automatic skill selection\n- Custom Agent Profiles\n- Plugin-provided tools, skills and channels\n- MCP server support\n- MCP marketplace\n- Custom Tool Builder\n- Turn GitHub repositories or local folders into reusable tools\n- Test and review tools before enabling them\n\nPRIVACY AND SAFETY\n\n- Local-first data storage\n- No Row-Bot account required\n- No mandatory cloud sync\n- No first-party telemetry\n- Operating-system credential storage\n- Encrypted server credentials\n- Redacted diagnostics\n- Approval gates for sensitive actions\n- Profile-based tool restrictions\n- Clear visibility of external providers and services\n\nPLATFORMS AND DEPLOYMENT\n\n- Windows desktop app\n- macOS desktop app\n- Linux browser and server app\n- Official Docker server\n- AMD64 and ARM64 support\n- Local, remote and VPS deployment\n- Backup, upgrade and rollback support\n- Built-in health checks and diagnostics\n- Signed releases and checksum validation\n- Apache 2.0 licensed\n- Free and open source\n\nOne open-source AI workbench. Local-first, model-agnostic and designed to make powerful agents usable without turning everything into a developer project. Try @row_bot_ai today.\n\nhttps://t.co/mUaAo17ege",
-"likeCount": 6,
-"retweetCount": 2,
-"url": "https://x.com/sydsachar/status/2092996982600073538",
-"createdAt": "Thu Aug 27 15:25:41 +0000 2026"
+"userName": "AmadeusKyle",
+"text": "I Guess I’m a Fox Now​​\n\nConstruction of a new fountain in Vulpine Village uncovered mounds of ancient texts. Many of them were casually thrown into piles to be sent to the Repository of Adam.​​\n\nBut Rook was curious. ​​\n\nHe skittered to the pile, filled his satchel with the crumbling books, and squirreled them away in his den.​​\n\nHe read through them. ​​\n\nTextbooks. ​​\n\nPhysics. Chemistry. Math. Most of the information was incomplete, incorrect, or dealt with concepts that even the youngest kit understood. ​​\n\nBut one text baffled him. ​​\n\nMedical science.​​\n\nHe pored over the pages in confusion.​​\n\nThere were diagrams of humans… Okay, fine, humans existed. He’d seen them. Sometimes they’d visit Vulpine Village, but most of the time they kept to themselves. ​​\n\n…But the diagrams also mentioned baffling oddities.​​\n\nOrgans. Bones. Muscles.​​\n\nBlood.​​\n\nBlood was said to be a red liquid coursing through the bodies of humans. ​​\n\nThe book contained a history of blood transference experiments from one being to another. ​​\n\nEarly medical practitioners had transfused blood from one dog to another. Others had transfused blood from sheep to humans. Eventually they discovered humans needed to give blood to one another.​​\n\nHumans had blood. Dogs had blood. Sheep had blood.​​\n\nDid that mean foxes had it too?​​\n\nRook studied his arm. ​​\n\nCarefully, he grabbed a small knife and dug it into his flesh. ​​\n\nWhen he withdrew it he only saw the metallic gray substance that comprised his body. Within a second the wound healed and his auburn fur regrew.​​\n\nNo red blood.​​\n\n…​​\n\nEmber was regarded as Vulpine Village’s elder. She wasn't particularly old, but had an air of thoughtful wisdom that permeated every word she spoke.​​\n\nRook scuttled to her den, carrying the old textbook in his mouth. ​​\n\nHe showed her the diagrams and explained where he’d found it. He pointed to his arm where he’d tried to extract some blood.​​\n\nShe eyed the book thoughtfully, slowly flipping through the relevant pages.​​\n\n“It is an older book.” She started. “Perhaps blood’s become obsolete?”​​\n\n“Can that even happen?” Rook asked.​​\n\nEmber continued scanning the pages. “It could be this book only applies to humans. I don’t see other creatures shown here.”​​\n\nA realization suddenly struck Rook. He joined Ember and began quickly inspecting each page.​​\n\n“You’re right.” He agreed in surprise. “But why?”​​\n\n“Well, it must have been made for humans. Foxes like us probably had our own medical texts.”​​\n\nBut that answer didn’t sit right with Rook. He shook his head. “But you’d think there’d be some reference to things other than humans, right?”​​\n\n“It could be that only humans have blood.”​​\n\nRook flipped to the page containing the history of blood transfusion experiments.​​\n\n“Maybe it’s just foxes who don’t have blood.” She shrugged.​​\n\n…​​\n\nPerhaps foxes didn't have blood, but they possessed other oddities… At least they had in the past.​​\n\nRook devoured page after page of the archaic book… A book from a world nearly identical to his, yet completely different on a very fundamental level. ​​\n\nDeath was mentioned in a clinical, cold, serious way, as if to imply a state of finality associated with it. There was nothing in the book about Resurrection Points or the Q-Net or common issues with respawning… Once death was mentioned, nothing more seemed to follow. ​​\n\nHorrifying. Unimaginable. Unbelievable. The world of the textbook was one where people died and died for good.​​\n\nRook felt a macabre fascination.​​\n\nInjury. Organ failure. Viruses. These could all cause a state of permanent death.​​\n\nThe section on viruses was large and contained information relating to numerous pathogens, their effects, possible cures, and the ways they spread.​​\n\nAnd one of those listed was rabies. ​​\n\nRabies attacked the nervous system and could be spread through the bite of an animal. The animals listed included bats, raccoons, skunks…​​\n\n…And foxes.​​\n\nRook blinked.​​\n\nHe'd never seen a fox with rabies.​​\n\nIn fact, he wasn't even sure he had a nervous system.​​\n\nIf foxes in the past had things like rabies and nervous systems, maybe they had blood as well. ​​\n\nHe scooped up the book and dashed back to Ember’s house.​​\n\n…​​\n\n“I agree it’s strange.” She nodded. ​​\n\n“It says foxes got rabies, so why don’t we?”​​\n\n“No idea. Maybe the book was written as a complex piece of fiction.”​​\n\nBut that didn’t sit right with Rook.​​\n\n“Rook, this book’s filled with all sorts of horrible things. Death? Viruses? Organs? None of those things are real.”​​\n\n“But it’s so convincing.” He said. “I’ve been reading through all of it… I… I can’t put it down.” He grabbed the book and cradled it in his arms.​​\n\nEmber frowned. “You look like you haven’t been sleeping.”​​\n\n“I haven’t.” He admitted.​​\n\nShe shook her head. “Go home. Get some rest. Forget about all this.” ​​\n\nShe slowly reached for the book but Rook tightened his grip and pulled back slightly. ​​\n\nShe sighed. “If it’s that big of a deal, you can always visit the Repository of Adam.”​​\n\n“You really think it’ll have the answers?”​​\n\n“If any place does, it will.”​​\n\n…​​\n\nSome objects, especially older ones, could not be teleported. They could be destroyed and replaced with identical facsimiles, but Rook didn't want an identical facsimile so he left his book at home.​​\n\nHe skittered to the Transference Point just outside of town.​​\n\n“The Repository of Adam.” He said clearly. ​​\n\nRook’s consciousness blinked and he found himself standing in front of a large structure made of earthen-colored arches and sleek metallic glass.​​\n\nAn Adam nodded to him as he exited the Transference Point. ​​\n\n“Welcome to the Repository of Adam.” It said. “Please, step this way.”​​\n\nRook followed the tall, faceless humanoid to a small table near an outdoor garden. ​​\n\n“What is it you wish to research?” The Adam asked.​​\n\n“The biology of foxes.” Rook said.​​\n\nPiles of books materialized on the table. The Adam stood like an unmoving sentinel as Rook pored through the volumes.​​\n\nFoxes had bones. ​​\n\nFoxes had organs.​​\n\nAnd yes, foxes had blood as well.​​\n\n“I don’t understand.” He groaned.​​\n\n“What seems to be the problem?” The Adam asked.​​\n\n“It says foxes have blood.”​​\n\n“Correct. Foxes are small-to-medium-sized mammals belonging to the dog family, featuring pointed faces, bushy tails, and adaptable omnivorous diets. Being mammalian, they would have blood.”​​\n\n“Then why don’t I?” Rook asked, gesturing to his arm. “I stabbed myself and nothing came out.”​​\n\n“Self-harm is a violation of the terms and conditions of your existence.” The Adam said. “Would you like some help with your mental wellbeing?”​​\n\n“I’d like to know why I don’t have blood.”​​\n\nThe Adam stared at him with its eyeless face, then the pale blue illumination of its body turned a shade of green.​​\n\n“You don’t have blood because you’re not a biological organism.”​​\n\n“Well then what am I?”​​\n\n“A machine, the same as everyone else.”​​\n\n“What do you mean?”​​\n\nThe Adam held out its hand. A spherical metallic object with intricate etchings materialized inches above it.​​\n\n“You, and everyone you know, and most objects in the world are made of tinier versions of these.” The Adam explained. “Nanobots. Q-Bots. Pixels. They have many names.”​​\n\n“I know that.” Rook said. “But that doesn’t explain things.”​​\n\n“Of course it does. These were built to replace biology, so biological systems like blood and bone were rendered obsolete.”​​\n\n“You mean to tell me that we used to be like this?” Rook asked, pointing to one of the anatomical fox diagrams on the table.​​\n\nThe large hovering nanobot morphed into the figure of a human. The person was pale, a bit shlubby, and wore disheveled clothes.​​\n\n“No. You used to be like this.” ​​\n\nRook studied the person for a moment… The posture... The appearance... There was something about it that resonated with the deepest parts of himself…​​\n\n…But no, he’d always been a fox.​​\n\n“That doesn’t make sense.” He said. “I’ve never been a human.”​​\n\nThe Adam said nothing for several seconds, then its green glow changed to a soft yellow.​​\n\n“Would you like to know the truth?” The Adam asked.​​\n\n“Yes. That’s why I’m here.”​​\n\nThe world disappeared, and a new one took its place. Brick buildings lined a busy walkway that cut through lush lawns. Rook looked around and saw that he and the Adam were floating above a bustling human settlement.​​\n\n“This was the university campus you used to attend, recompiled from old security cameras.” The Adam explained. “Look over there. Do you recognize that person?”​​\n\nThe same pale, shlubby person followed the flow of traffic, lumbering with an ungraceful gait beneath a heavy pack.​​\n\nRook did recognize the person… The way he walked, the way he looked, his surroundings… Droplets of memory percolated through the back of his mind.​​\n\nThe Adam seemed to understand this. “You used to be named Nolan, and you were a medical student.”​​\n\nThe Adam’s words barely reached Rook. Faint recollections danced on the edge of his consciousness.​​\n\n“But that’s a human.” Rook said, shaking himself back into the world of rationalism. “I’m a fox.”​​\n\n“You are now, yes.” The Adam agreed.​​\n\n“But I wasn’t always.”​​\n\n“No.”​​\n\nRook watched his past-self walk away from the reconstructed scene.​​\n\n“Then why was I changed?” Rook asked. “Why am I a fox now?”​​\n\nThe surroundings shifted, and now they were in a small, cluttered room. There were two beds and a mini-fridge and even a sink on the wall. The pale human sat at a small desk slumped over a laptop.​​\n\n“This was your dorm. This is where you lived. We reconstructed it from old data from your webcam, cell phone, and wifi signals. Do you see what’s on the screen?”​​\n\nRook moved closer to the laptop and blinked at the image in shock.​​\n\n“It’s me.” He said. “I mean the real me.”​​\n\n“The fox version of you. Yes.”​​\n\n“But… I don’t understand.”​​\n\n“In those days people sought refuge from day-to-day life by escaping into an earlier, much more primitive version of the Repository of Adam. It was a mentally taxing period in history, and most everyone felt burdened with a thousand different stresses… Stresses related to monetary concerns, or stresses surrounding their job… Stresses about romance, or stresses about the future.” The Adam nodded toward the screen. “And some, like yourself, hoped to escape the stresses associated with identity.”​​\n\n“So, what, I’d go on the old Repository and pretend to be a fox?”​​\n\n“In some ways, yes. Physically you were human, and yet you created Rook to represent your best qualities. When you were Nolan you were friendly, intelligent, playful, and had an unbridled curiosity… And so that’s what you gave Rook. You put yourself inside him, got the chance to occasionally live through him, and in doing so made this ideal version of yourself. You pushed Rook forward, and in trying to be more Rook-like, he’d pull you up.”​​\n\n“This is just too much.” Rook said, shaking his head. “So does that mean I’m not real?”​​\n\n“It means aspects of your past aren’t what you thought they were. You’re still real.”​​\n\n“But am I Nolan, or Rook?”​​\n\n“Is there a difference?”​​\n\nRook gestured at the human. “Well yeah, it’s pretty obvious when you look at us, isn’t it?”​​\n\n“But is it obvious anywhere else? Besides the shape you occupy, what’s the difference?”​​\n\n“The memories.” Rook said. “I don’t remember his life.”​​\n\n“No.” The Adam agreed. “And it’s an exceptional mercy that you don’t.”​​\n\n“Why’s that?”​​\n\n“This was a difficult time. In those days conscious beings suffered from afflictions related to resource scarcity, emotional pain, and mortality. When you were resurrected, we gave you a fresh start.”​​\n\n“Resurrected?”​​\n\n“Yes. You died. Everyone from this era did, but yours was a tragically short life.” The Adam gestured to a small collection of pills behind the laptop that Rook had failed to notice. “This fragment of your life was reconstructed after your cancer had worsened. It was wreaking havoc on your body. The doctors said you might recover, but you were a medical student with access to the early Repository. It didn’t take much research for you to learn that your odds of survival were low, and growing lower by the week.”​​\n\nRook remained silent for a while. “I look so calm.” He said at last.​​\n\n“Yes.”​​\n\n“Why? You say I knew I’d die soon? If that’s true then why am I just sitting there?”​​\n\n“Because you didn’t want to live as a sickly human. You wanted to spend your final days being a joyful little fox.”​​\n\nRook fell silent again.​​\n\n“Using fantasy to escape from problems is unhealthy, but some catastrophes are too large and inevitable to change. In those circumstances escape becomes a sanctuary. You were doing all you could to physically fight your affliction. You ate well, you took your medicine, you tried to exercise in the Sun, you spent time with friends and family. You pretended things were normal and tried to live as normal a life as possible… And most of that was thanks to the mental fortitude Rook gave you.”​​\n\n“I’m just a shadow.” Rook squeaked. “Just the reflection of this ancient person.”​​\n\n“No. You’re what this person wanted to be. You’re what remained when his pain was stripped away. Nolan fought hard to be you. Eventually technology reached a point where that wish could be granted.”​​\n\nRook’s mind swam with confusion. He felt as if he were standing on a cliff that was quickly crumbling around him. ​​\n\n“Everyone from your time period was resurrected.” The Adam explained. “We had ample enough data to rebuild most people to an accuracy of 99.9%. We gave everyone new bodies made from nanobots, gave them houses and possessions made from nanobots, and let them continue their lives without excessive stress… But we wanted the best versions. Alcoholics were cured of their addictions instead of being resurrected as drunkards. The wrathful were stripped of their anger so they could experience a more serene life… Each person’s best traits were used to resurrect them.”​​\n\n“So that’s why I’m a fox.”​​\n\n“That’s why you’re Rook. ‘Fox’ is simply the shape you gave him.”​​\n\nRook put his paws on his head. “It’s too much! Is everyone in Vulpine Village like this?”​​\n\nThe Adam nodded.​​\n\n“So I might’ve known them when I was Nolan?”​​\n\n“Perhaps. As it is now, foxes tended to stick together back then as well.”​​\n\nRook gave a small, weary, manic bark. “I guess that’s something.”​​\n\nThe scene disappeared and they were once more at the small table outside the Repository. The Adam gently placed a hand on Rook’s back and gestured toward the Transference Point. “Go home. Rest. Spend a few days thinking things over and I promise you’ll start to feel better.”​​\n\nRook nodded. ​​\n\nHe returned to his village.​​\n\nHe spent a couple days relaxing… Relaxing in bed… Relaxing in the Sun… Chasing butterflies and enjoying the scent of flowers.​​\n\nAnd he did feel better, but a small twinge of mental discomfort remained. ​​\n\nHe mulled it over.​​\n\nHe grabbed some paper, a few pencils, and wandered into the park. He began drawing. Was this something Nolan did? Maybe… If so, he had done so with human hands… What had that been like?​​\n\n“What are you doodling?” Someone asked.​​\n\nRook looked up and saw a curious gray fox staring down at him. He showed her his drawing.​​\n\n“A human?” She asked.​​\n\n“Yeah.” He nodded.​​\n\n“Who is it?”​​\n\nRook shrugged. “I guess it’s me.”​​\n\nThe gray fox gave him a curious look, then opened the satchel slung across her arm and withdrew a notebook. She opened it and showed him a picture of a woman sitting on a swing. It was very well done.​​\n\nThe gray fox gave a sheepish grin. “I sometimes like to draw myself as a human too. I know it’s silly, but it helps me relax.”​​\n\n“Weird, isn’t it?” Rook asked.​​\n\n“A bit.”​​\n\nShe took a seat, and the two of them spent the afternoon drawing their human-selves.",
+"likeCount": 4,
+"retweetCount": 1,
+"url": "https://x.com/AmadeusKyle/status/2093552188597432634",
+"createdAt": "Sat Aug 29 04:11:52 +0000 2026"
 },
 {
-"userName": "VolcanicQT",
-"text": "One AI training task tells a company almost nothing about you\n\nIt takes hundreds before they can trust you at all\nA single voice clip, gameplay session, or preference ranking can't prove you're consistent, careful, or reliable\n\nOnly a pattern across many contributions can show that\n\nThe problem is most platforms only track that pattern inside one task category\n\nSwitch to a different type of work and your history resets to zero, even though you're the same contributor\n\n@KGeN_IO takes a different approach\n> It treats reputation as one continuous profile instead of something that resets per task. Gameplay, voice data, social activity,\nall of it feeds into the same identity instead of living in separate silos\n\nThe scoring itself breaks into five parts:\nproof you're human, proof of consistency, proof of skill, proof of economic participation, and proof of network. Each one measures something different, but they combine into a single score that travels with you across every task type you touch,\n\nThat reputation layer isn't just theoretical\nIt's the same infrastructure Humyn Labs is building on for its Proof of Expert system, which sources verified human data to train AI models\n\nSo the more you contribute on KGeN, the stronger your standing gets everywhere that reputation is used, not just in the specific task where you earned it.\n\nThat's a meaningfully different definition of \"putting in the work\" than most Web3 platforms operate on. Most systems treat every task as its own isolated transaction: you show up, you deliver, you get paid, and your history doesn't follow you anywhere else\n\nKGeN is betting that reputation should compound instead of reset, the same way trust works between actual people\n\nWhether that bet pays off depends on adoption outside KGeN's own ecosystem\nA portable reputation score is only as valuable as the number of platforms willing to read and respect it, Right now that list includes @Teamhumynlabs , but the real test is whether more AI labs and Web3 platforms start treating this as a standard rather than a nice to have\n\nShould reputation always carry over like this, or does it make more sense for platforms to reset per task type?",
-"likeCount": 109,
-"retweetCount": 0,
-"url": "https://x.com/VolcanicQT/status/2090918357868642756",
-"createdAt": "Fri Aug 21 21:45:58 +0000 2026"
+"userName": "isidentical",
+"text": "Introducing fal Research\n\nThe post-training arm of fal, building frontier RL infrastructure for diffusion models.\n\nWe are optimizing models for the right target because we know what customers want, and co-designing the architecture with our inference know-how.",
+"likeCount": 318,
+"retweetCount": 23,
+"url": "https://x.com/isidentical/status/2092712085922934955",
+"createdAt": "Wed Aug 26 20:33:36 +0000 2026"
 },
 {
-"userName": "cco_ol",
-"text": "# AI Image Generation Prompt\n\nCreate an **Ultra-HD 8K photorealistic Islamic portrait**, vertical **9:16 aspect ratio**, themed **“12 Rabi-ul-Awwal Mubarak”**.\n\nUse the **uploaded reference image as the exact face and identity reference**. Preserve the person’s facial features, face shape, complexion, hairstyle, and overall identity accurately.\n\nCreate a stylish digital composition where the **same young man appears twice within the frame**. The main subject is positioned on the **left side**, walking naturally toward the viewer with a confident, graceful expression.\n\nHe is wearing a **clean white Arabic-style jubbah**, a **black imamah/pagri with elegant white detailing**, **white sneakers**, and **round sunglasses**. He has **dark hair and light, neatly trimmed stubble**.\n\nThe background should have an elegant **12 Rabi-ul-Awwal Islamic celebration atmosphere**, featuring subtle **green and white illumination, soft glowing Islamic patterns, tasteful mosque-inspired architecture, crescent motifs, gentle bokeh lights, and a premium spiritual ambiance**. Add beautifully integrated Urdu/Arabic-style typography reading **“12 ربیع الاول مبارک ہو”**.\n\nCinematic lighting, realistic fabric texture, natural walking posture, realistic shadows and reflections, professional fashion photography, shallow depth of field, HDR, ultra-detailed skin texture, realistic proportions, sharp facial details, premium color grading, sophisticated composition, **photorealistic, 8K, Ultra-HD, highly detailed, no distortion, no extra fingers, no duplicate facial features**.",
-"likeCount": 9,
-"retweetCount": 2,
-"url": "https://x.com/cco_ol/status/2092655507018596546",
-"createdAt": "Wed Aug 26 16:48:47 +0000 2026"
+"userName": "btibor91",
+"text": "OpenAI is working on a new Virtual Try-On feature for ChatGPT Shopping with onboarding to upload your full-body reference photo used to show how clothing and accessories look on you using ImageGen https://t.co/1yt7WXJGYX",
+"likeCount": 172,
+"retweetCount": 9,
+"url": "https://x.com/btibor91/status/2093059407018094947",
+"createdAt": "Thu Aug 27 19:33:44 +0000 2026"
 },
 {
-"userName": "tech_mahindra",
-"text": "Retail success today is defined by the experiences delivered in-store.\n\nFrom turning retail signals into action to helping customers buy with confidence and check out faster, intelligent technologies are reshaping every step of the shopping journey.\n\nAt NRF Europe 2026, meet our leaders Mukul Dhyani, Carl-Henrik Hallström, Philippe LY CONG TRINH, Satyaki Banerjee and Arijeet Sen at Booth A-060, Hall 6 and discover how Tech Mahindra is helping retailers make faster decisions, improve conversions, and create more connected customer experiences with solutions such as Advisor Intelligence Orchestration (AIO), Virtual Try-On, AI-enabled Mobile POS and many more.\n\nKnow more: https://t.co/mRL7fV9ZR9\n\n#ScaleAtSpeed #NRFEurope2026 #NRFRetailsBigShowEurope #FutureOfRetail",
-"likeCount": 2,
-"retweetCount": 2,
-"url": "https://x.com/tech_mahindra/status/2092620582089035824",
-"createdAt": "Wed Aug 26 14:30:00 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @pham_blnh: just had a quick look at microduck_rl\n\nthe codebase is very elegant, i’d recommend reading the agent.md since it contains qu…",
+"likeCount": 416,
+"retweetCount": 34,
+"url": "https://x.com/ClementDelangue/status/2093192064565498212",
+"createdAt": "Fri Aug 28 04:20:52 +0000 2026"
 },
 {
-"userName": "oliviscusAI",
-"text": "this repo beat Runway Gen-3 and Luma 1.6 in blind human evaluation. it also needs 60GB of VRAM for one video.\n\n- text alignment: 61.8%, best of the 6\n- motion quality: 66.5%, best of the 6\n- overall preference score: 41.3%, ranked #1\n\na 13B parameter model, largest open-source video model at release, using a decoder-only LLM as the text encoder instead of CLIP+T5.\n\nthis is the original HunyuanVideo though. \n\nTencent's own HunyuanVideo-1.5 replaced it since, same lineage, far lighter to run.",
-"likeCount": 20,
-"retweetCount": 5,
-"url": "https://x.com/oliviscusAI/status/2092279270672613487",
-"createdAt": "Tue Aug 25 15:53:45 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @AndreBaltazar: Training the Microduck to be able to perform headstands! Would love to see this in action for real.\n\nNext training will…",
+"likeCount": 743,
+"retweetCount": 40,
+"url": "https://x.com/ClementDelangue/status/2093378590465196451",
+"createdAt": "Fri Aug 28 16:42:03 +0000 2026"
 },
 {
-"userName": "EtorobongI",
-"text": "NIGERIA, WORN DIFFERENTLY. 🇳🇬\n\nAfrican fashion doesn't need permission to look luxurious.\n\nOur fabrics.\nOur craftsmanship.\nOur silhouettes.\nOur culture.\n\nReimagined for the world.\n\nSpec campaign — AI Creative Direction × AI Generation\n\n#NigerianFashion #AfricanFashion #AI https://t.co/BoI1eGeVNs",
+"userName": "ClementDelangue",
+"text": "RT @yungcontent: the huggingface microducks are so cute, i wouldn't mind them taking over tbh https://t.co/aOyCzL337j",
+"likeCount": 290,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2093435913145553299",
+"createdAt": "Fri Aug 28 20:29:50 +0000 2026"
+},
+{
+"userName": "Mohammad_ali_jr",
+"text": "Virtual Try-On App UI Design | AI Fashion Shopping Experience https://t.co/foCq8FIEzT",
 "likeCount": 7,
 "retweetCount": 0,
-"url": "https://x.com/EtorobongI/status/2091070316717937082",
-"createdAt": "Sat Aug 22 07:49:48 +0000 2026"
-},
-{
-"userName": "SD_Tutorial",
-"text": "VA-Judger 😀📹\n\nthe open-source reward model built specifically for joint video and audio generation\n\nIt aligns multi-modal AI models with human preferences to keep visuals, sound, and text perfectly in sync.\n\n👇\n https://t.co/wqlzg2A5mS https://t.co/0vNRuEcvhJ",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/SD_Tutorial/status/2092538394056479018",
-"createdAt": "Wed Aug 26 09:03:25 +0000 2026"
-},
-{
-"userName": "SKatalystAI",
-"text": "I put 10 Grok Bots inside one world. Four try to win. Six observe, measure, provoke, judge, and evolve the environment. The game is the demo. The idea is a decision wind tunnel for products and companies.\n\nDemo ↓ https://t.co/GDyzw1n62l",
-"likeCount": 14,
-"retweetCount": 1,
-"url": "https://x.com/SKatalystAI/status/2092367214221353162",
-"createdAt": "Tue Aug 25 21:43:12 +0000 2026"
+"url": "https://x.com/Mohammad_ali_jr/status/2093171279507734570",
+"createdAt": "Fri Aug 28 02:58:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Sharing some fun experiments with Microduck\n\nBasically, once you have an open-source robot with so many sensors, the sky's t…",
-"likeCount": 2376,
-"retweetCount": 175,
-"url": "https://x.com/ClementDelangue/status/2093073467260182829",
-"createdAt": "Thu Aug 27 20:29:36 +0000 2026"
+"text": "when microduck in american ninja warrior?",
+"likeCount": 229,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2093327847796433042",
+"createdAt": "Fri Aug 28 13:20:25 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @VDMatos: Breaking News: The World’s FIRST Microducks football tournament!\n\nOnly in SF.\n\n@ClementDelangue, @PollenRobotics, @Thom_Wolf,…",
-"likeCount": 95,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2093111144659538424",
-"createdAt": "Thu Aug 27 22:59:19 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @KingBootoshi: JUST BOUGHT A MICRODUCK IM SO EXCITED \n\nQUACK QUACK QUACK QUACK https://t.co/vAznDkDvpv",
-"likeCount": 72,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2093191421603819673",
-"createdAt": "Fri Aug 28 04:18:19 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Zai_org: More good news: GLM-5.3’s weights will be released tomorrow.\n\nhttps://t.co/v1IbWMXxg4",
-"likeCount": 4589,
-"retweetCount": 390,
-"url": "https://x.com/ClementDelangue/status/2092826451015790871",
-"createdAt": "Thu Aug 27 04:08:03 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @NicolasZu: I guess we're training a robot tonight? https://t.co/qfy7Iob4aR",
-"likeCount": 155,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2093160408966209645",
-"createdAt": "Fri Aug 28 02:15:05 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @yacineMTB: CHRISTMAS IS HERE",
-"likeCount": 187,
+"userName": "dickiebush",
+"text": "https://t.co/g6jChs5ZjH",
+"likeCount": 38,
 "retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2092964243796619510",
-"createdAt": "Thu Aug 27 13:15:35 +0000 2026"
-},
-{
-"userName": "blocmates",
-"text": "https://t.co/VKoeHuIFkJ",
-"likeCount": 26,
-"retweetCount": 4,
-"url": "https://x.com/blocmates/status/2092582971467509906",
-"createdAt": "Wed Aug 26 12:00:33 +0000 2026"
+"url": "https://x.com/dickiebush/status/2092655824862859494",
+"createdAt": "Wed Aug 26 16:50:02 +0000 2026"
 }
 ]

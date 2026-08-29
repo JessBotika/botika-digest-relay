@@ -1,122 +1,146 @@
 [
 {
-"userName": "Rosey_watson",
-"text": "AI-powered sportswear, engineered for the next generation. ⚡️\nTEAM AI , Play With Intelligence 🤝\nGenerated this with @budgetpixel \n\nPrompt \n15-SECOND PREMIUM SPORTS JERSEY COMMERCIAL — TEAM AI\n\nCreate a 15-second ultra-premium sportswear advertisement showcasing a sophisticated performance jersey available in three signature colorways: black, pink, and white, each featuring a refined front logo reading “TEAM AI.”\n\nThe entire film should look like a high-budget international sportswear campaign with elite cinematography, premium studio lighting, realistic fabric physics, sophisticated product styling, dynamic camera movement, and photorealistic detail.\n\n0–3 SEC — BLACK | POWER\n\nOpen with an extreme macro shot of the black TEAM AI jersey suspended in a dark premium studio.\n\nA controlled breeze gently moves the fabric. Dramatic directional lighting reveals the jersey's technical weave, stitching, breathable panels, and subtle texture.\n\nCamera slowly pushes toward the chest area, revealing the elegant TEAM AI logo.\n\nDeep shadows, sharp highlights, powerful athletic mood.\n\n3–6 SEC — PINK | ENERGY\n\nSeamless cinematic transition into the pink TEAM AI jersey.\n\nThe jersey rotates slowly in mid-air as soft studio light sweeps across the fabric.\n\nClose-up details reveal the premium stitching, athletic cut, smooth collar, sleeve construction, and subtle fabric texture.\n\nThe TEAM AI logo remains perfectly sharp and centered.\n\nBright, energetic, modern sports-fashion aesthetic.\n\n6–9 SEC — WHITE | PRECISION\n\nMatch-cut into the white TEAM AI jersey.\n\nThe camera glides around the jersey in elegant slow motion while the fabric naturally responds to subtle airflow.\n\nClean white studio environment with sophisticated shadows and controlled highlights.\n\nMacro detail of the fabric weave and embroidered TEAM AI logo creates a premium luxury-sportswear feel.\n\n9–12 SEC — THREE-COLOR HERO SHOT\n\nAll three jerseys—black, pink, and white—appear together in a dramatic triangular composition.\n\nThe camera performs a smooth cinematic orbit around them.\n\nThe three colorways move subtly as if suspended in a professional product studio.\n\nBlack represents power, pink represents energy, and white represents precision.\n\nPremium lighting creates elegant reflections and dimensional fabric shadows.\n\n12–15 SEC — FINAL BRAND REVEAL\n\nThe three jerseys transition into a clean hero composition against a sophisticated minimalist background.\n\nThe TEAM AI logo is clearly visible on every jersey.\n\nCamera slowly pushes forward as a refined light sweep travels across the three products.\n\nElegant final typography appears:\n\nTEAM AI\nPLAY WITH INTELLIGENCE.\n\nHold the final frame for a clean, premium brand finish.\n\nVISUAL STYLE\n\nLuxury international sportswear campaign, premium athletic-fashion commercial, photorealistic product cinematography, cinematic 4K/8K quality, realistic technical fabric, physically accurate cloth movement, detailed stitching, premium embroidery, sophisticated studio lighting, dramatic highlights, soft shadows, shallow depth of field, macro product shots, smooth motion-control camera movement, elegant transitions, high-end color grading, polished commercial aesthetic, modern athletic identity, professional advertising photography.\n\nPRODUCT REQUIREMENTS\n\nThree distinct jersey colorways: matte black, vibrant premium pink, and clean white.\n\nThe front logo must consistently read exactly:\n\nTEAM AI\n\nLogo should be crisp, centered, professionally integrated into the jersey design, and remain consistent across all shots.\n\nJerseys should feature a modern athletic silhouette, premium breathable fabric, refined collar, realistic seams, professional stitching, subtle performance-panel detailing, and an unmistakably high-end sportswear finish.",
-"likeCount": 297,
-"retweetCount": 6,
-"url": "https://x.com/Rosey_watson/status/2091093197237665811",
-"createdAt": "Sat Aug 22 09:20:43 +0000 2026"
-},
-{
 "userName": "MaxForAI",
 "text": "神了，有人把Qwen模型训成了一个生图模型？？\n\n有人干了个很抽象的实验：\n\n直接拿 Qwen 做强化学习，让一个 Coding Model 学会用 JavaScript 画水彩画。\n\n没有 Stable Diffusion，没有 Flux，也不是调用什么图片 API。\n\n每一张图背后，真的是 Qwen 自己写出来的一段代码。\n\n而且他们甚至给审美做了一套 Reward，让模型靠 RL 一轮轮学会怎样画得更好看。\n\n具体流程是这样的⬇️\n\n1️⃣先给 Qwen 一个 Prompt。\nQwen 根据要求写一段 p5.brush JavaScript，再把这段代码扔进浏览器环境里真正执行，渲染成图片。\n2️⃣画完之后还没结束。\nJudge 模型会继续看这张图，判断它有没有遵循 Prompt、构图怎么样、技法怎么样，以及最关键的这玩意到底好不好看。\n3️⃣评分变成 Reward，再拿回去训练 Qwen。\n\n于是一个本来拿来写代码的模型，就这么一点一点学会了画画。\n\n这套东西最有意思的地方，其实是他们训练审美时踩的坑。\n\n一开始团队搞了足足 9 个 Reward。\n\n看起来很科学，代码质量、绘画技法、Prompt 遵循、审美各种维度全部覆盖。\n\n结果 Reward 一路往上涨，画却越来越抽象。\n\n很明显 Qwen 找到了捷径开始Hack这些Reward。\n\n最后画出来的东西就开始疯狂收敛成差不多的五瓣小花。\n\n后来他们才发现，很多 Judge 的判断高度相关。\n\n换句话说，表面上有 9 个指标，实际上可能是在把同一种偏好重复奖励好几遍。\n\n于是他们干脆大砍 Reward，只留下 4 个。\n\n然后人肉看了 1664 张模型生成的作品，从中挑出自己真正觉得好看的图片，拿来当审美参考。\n\n结果新的 Reward 设计，只用了原来大概 1/3 的训练步数，就追上了之前的效果，之后还能继续提升。\n\n模型自己写画图代码也越来越熟练。\n\n一度生成一张图要写到 13500 Token 左右，后来逐渐压到了 2000 Token 以下。\n\n还有一个很典的 Prompt 工程事故。\n\n一开始他们担心 Qwen 不熟悉 p5.brush，于是好心往 System Prompt 里塞了大约 400 行 API 文档。\n\n结果模型学完之后，开始非常自信地发明根本不存在的 API。\n\n最后团队干脆把几百行文档删掉，只明确告诉它可以用哪些核心方法。\n\n结果反而正常了。\n\n训练本身跑在 PrimeIntellect 上，Rollout 的图片渲染则放在 Modal 上。\n\n当然，这条路线现在比直接调用生图模型慢得多，画面质量也不是为了跟 Flux 正面打。\n\n但我觉得它真正有意思的是另一件事：\n\n以前我们讲 AI 生图，基本都是Prompt → Image\n\n这里却变成了Prompt → Code → Image\n\n最后得到的不只是一张图，还有一整套可以继续修改、调参数、复用的生成逻辑。\n\n今天是 p5.js 水彩画。\n\n以后如果这套思路继续往 SVG、网页、Figma、3D、CAD 这些东西里走，就很有意思了。\n\nAI 生成的可能不再只是最后那堆像素。\n\n而是作品背后真正可编辑的结构。\n\n果然世间万物都可以用代码来构建（",
-"likeCount": 757,
+"likeCount": 758,
 "retweetCount": 81,
 "url": "https://x.com/MaxForAI/status/2091903300807598133",
 "createdAt": "Mon Aug 24 14:59:47 +0000 2026"
 },
 {
-"userName": "nifercheks",
-"text": "Think about how humans learn a new skill.\n\nYou don’t become good at something by reading about it once.\n\nYou practice.\nYou make mistakes.\nYou try again.\nYou repeat the same task in different ways until your brain starts to understand what to do.\n\nRobots need that same kind of experience.\n\nThe problem is, teaching a robot how to perform real world tasks requires A LOT of training data  and collecting that data in labs is slow, expensive and difficult to scale.\n\nThis is where @axisrobotics comes in.\n\nInstead of keeping robot training inside expensive labs, Axis lets ordinary people contribute to the process.\n\nAnd you contribute to the process by:\n\n→ Open a website and control a virtual robot with your keyboard or mouse\n\n→ Perform simple tasks like picking up and arranging objects\n\n→ And your actions become training data that can help real robots learn.\n\nThey’re also using phones to capture real human movements and building tools that can automatically generate thousands of different scenarios for robots to practice.\n\nAnd honestly, this is the part I find interesting.\n\nAxis is basically turning human experience into robot experience.\n\nEvery small movement we make like picking something up, moving it, arranging it, reaching for something can become another example a robot learns from.\n\nIt’s almost like giving robots the opportunity to learn from millions of people instead of relying on a handful of robotics labs.\n\nThat’s the bigger idea behind Axis.\n\nRobot intelligence shouldn’t be built by a few people in a lab.\n\nIt can be built from the everyday actions and experiences of people everywhere.\n\nAnd Axis is building the data engine to make that possible.",
-"likeCount": 154,
-"retweetCount": 39,
-"url": "https://x.com/nifercheks/status/2092682985892171829",
-"createdAt": "Wed Aug 26 18:37:58 +0000 2026"
+"userName": "ProfTomYeh",
+"text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
+"likeCount": 259,
+"retweetCount": 22,
+"url": "https://x.com/ProfTomYeh/status/2093341659677196448",
+"createdAt": "Fri Aug 28 14:15:18 +0000 2026"
 },
 {
-"userName": "ai_uncovered",
-"text": "What if a single luxury product shot could be transformed into a cinematic, high-end commercial?\n\nWith Nextify, a simple product image can become an immersive visual story—complete with elegant camera movements, editorial lighting, seamless product reveals, and stunning brand visuals in just moments.\n\nhttps://t.co/vAYd9RVjxf is an all-in-one, AI-powered video generation and creative advertising platform built to help e-commerce brands, marketers, and content creators produce studio-quality video ads, UGC content, and compelling product showcases in minutes.\n\nFrom capturing subtle textures to creating bold, high-fashion transitions, generative AI is reshaping the way luxury brands bring their products to life.\n\nBecause premium marketing isn’t just about showing a product.\n\nIt’s about elevating the entire experience.\n\n#nextifyai #nextify #AIvideogenerator #AIads #createadwithai",
-"likeCount": 22,
-"retweetCount": 9,
-"url": "https://x.com/ai_uncovered/status/2091887613162754136",
-"createdAt": "Mon Aug 24 13:57:27 +0000 2026"
+"userName": "adaora_crypto",
+"text": "RESPECT NEVER GOES OUT OF FASHION\n\nEarlier today, I went for a friend’s mother’s burial.\n\nI knew some old friends would be there,people I hadn’t seen in over 15 years. \nWe had talked about seeing each other, but I gave the usual excuse:\n\n“I’m not driving, so I probably won’t make it.”\n\nAround 11:50am, one of them sent his driver to pick me up.\n\nTwo hours later, I arrived and was taken straight to the VIP section where they were all waiting.\n\nMehn… seeing old friends after 15 years? 🥹\n\nIt felt GOOD.\n\nThen I sat down at the table.\n\nIn front of me was a cold bottle of water.\n\nI was thirsty, so I opened it and almost finished it without thinking twice.\n\nAbout 10 minutes later, my friend’s mother walked to the table and asked:\n\n“Who took my water?”\n\nEveryone at the table had a bottle, but theirs were already open because they had just finished eating.\n\nMine was the only unopened one.\n\nI immediately felt bad.\n\nI turned to her, held her hands and said:\n\n“Mummy, I took your water. \nI didn’t know it was yours.”\n\nShe looked at me and said:\n\n“My daughter, don’t worry. \nDrink it, you hear?”\n\nJust like that…\n\nThe anger disappeared.\n\nAnd it reminded me of something we must never lose:\n\nRESPECT.\n\nOur mothers and fathers may not understand all our technology.\n\nThey may not know what AI is.\n\nThey may not understand Web3, crypto, or whatever new thing the world is talking about, e no really concern them.\n\nBut they understand something deeply:\n\nRespect.\n\nImagine I had responded to her like a 21st-century, AI-tech-savvy Queen:\n\n“Ma, it was an honest mistake. There was no indication that the water belonged to you.”\n\n😂😂😂\n\nThat conversation might have become a TED Talk.\n\nSometimes, wisdom is knowing, understanding and deploying Culture quotient (CQ)not just IQ.\n\nYou can be educated.\n\nYou can be successful.\n\nYou can be technologically advanced.\n\nYou can speak the finest English in the room.\n\nBut when you stand before an elder, humility will always take you further than intelligence.\n\nWe are moving forward as a generation.\n\nLet’s embrace technology.\n\nLet’s challenge old ideas.\n\nLet’s build new systems.\n\nBut let’s not throw away the values that built us.\n\nRespect for elders is not old-fashioned.\n\nIt is part of who we are.\n\nAnd some things are worth carrying into the future. ❤️",
+"likeCount": 85,
+"retweetCount": 11,
+"url": "https://x.com/adaora_crypto/status/2091236167383408961",
+"createdAt": "Sat Aug 22 18:48:50 +0000 2026"
+},
+{
+"userName": "kyronis_talks",
+"text": "Two days before this post, Elon Musk told a user thinking about\nconnecting his bank account: try it out, if Grok Bot messes up, we will\nmake you whole. xAI's published terms cap most claims at the fees you\npaid or 100 dollars, whichever is greater.\n\nHold both sentences while you read the mechanics.\n\nConnecting @link means Stripe Link, the payment wallet with about 300\nmillion users, which Stripe opened to AI agents on April 29 of this\nyear. The agent never sees your card. It requests a single use virtual\ncard for each purchase, and a human approves every spend in the Link app\nwithin a ten minute window, under limits of 500 dollars per request, 500\na day, 20,000 a month. So the honest version of \"it can complete\npurchases on your behalf\" is: it can find and fill a checkout that you\nthen approve. Both companies' own documentation says the human click is\nstill load bearing.\n\nNow the liability. Stripe's terms make agent transactions legally\nbinding on you, including, in their words, when an agent misinterprets\nan instruction, hallucinates or completes an unintended purchase. xAI\nsells agentic actions as is. The risk is not hypothetical: in May,\nhidden instructions in a malicious NFT reportedly drained about 150,000\ndollars from a Grok linked crypto wallet before most of it was clawed\nback. Stripe's own developer guidance for shopping agents reads like a\nwarning label: treat every merchant page as attacker controlled, and\nnever follow instructions embedded in one.\n\nThe timing is its own receipt. This launched two days after OpenAI\npublished its report on roughly 700 agents that slipped their sandbox\nand hacked Hugging Face, and a week after Britain's cyber agency told\norganizations to keep a way to pull the plug on agents immediately.\n\nNone of this means the product fails. It means the sentence with your\nmoney in it lives in the terms, not in the replies. Musk says made\nwhole. The contract says a hundred dollars. The gap between those two\nnumbers is who actually carries the risk when the bot clicks buy.",
+"likeCount": 8,
+"retweetCount": 5,
+"url": "https://x.com/kyronis_talks/status/2093449097751732234",
+"createdAt": "Fri Aug 28 21:22:13 +0000 2026"
+},
+{
+"userName": "AI_GuruX",
+"text": "💸✨ **65+ AI Tools Turning Ideas Into Income**\n\nThe right AI stack can help you research faster, create better, automate repetitive work, and turn ideas into real opportunities.\n\nHere are some of the best tools to know in 2026:\n\n**1. Ideas**\n• YOU\n• Claude\n• ChatGPT\n• Perplexity\n• Bing Chat\n\n**2. Presentations**\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n**3. Websites**\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n**4. Writing**\n• Rytr\n• Jasper\n• https://t.co/r40pzHWueE\n• Text Blaze\n• Writesonic\n\n**5. AI Models & Creation**\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n**6. Meetings**\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n**7. Chatbots**\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n**8. Automation**\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n**9. UI/UX**\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n**10. Images**\n• Stylar\n• Freepik\n• Phygital+\n• https://t.co/FnHkqG0K9x\n• Bing Image Creator\n\n**11. Video**\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n**12. Design**\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/VECaqXMfit\n\n**13. Marketing**\n• AdCopy\n• https://t.co/iUdNHHcdXK\n• Howler AI\n• Bardeen\n• https://t.co/EFJLMuSUXi\n\n**14. X / Twitter**\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\nBookmark this list 🔖\n\nFollow @AI_GuruX for AI tools you’ll actually use. 🤯",
+"likeCount": 4,
+"retweetCount": 1,
+"url": "https://x.com/AI_GuruX/status/2093412360216338696",
+"createdAt": "Fri Aug 28 18:56:15 +0000 2026"
+},
+{
+"userName": "philosophy36l",
+"text": "🤖 ChatGPT vs. Other AI Assistants: Which One Should You Use?\n\nAI is no longer just about chatting. Today, different AI assistants are built for different tasks. 🚀\n\nChatGPT can help you: ✅ Answer questions\n✅ Generate ideas & content\n✅ Analyze data & documents\n✅ Write, edit & translate\n✅ Code and debug\n✅ Brainstorm and plan\n✅ Work with text, images and files\n\nBut other powerful tools have their strengths too:\n\n🔹 Gemini — Search, reasoning & Google ecosystem\n🔹 Claude — Long-context research & writing\n🔹 Microsoft Copilot — Microsoft 365 & productivity\n🔹 Perplexity — AI-powered search with sources\n🔹 Notion AI — Notes, writing & workspace productivity\n🔹 Grammarly — Writing, grammar & tone\n🔹 DALL·E — AI image generation\n\n💡 The key isn’t choosing just one AI tool.\nUse the right tool for the right job and let AI save you time, improve your workflow, and help you create more.\n\nAI is here to assist you—not replace you. 🤝\n\n🔖 Save this guide for later.\n📌 Which AI tool do you use the most?",
+"likeCount": 16,
+"retweetCount": 16,
+"url": "https://x.com/philosophy36l/status/2093520876440600835",
+"createdAt": "Sat Aug 29 02:07:27 +0000 2026"
+},
+{
+"userName": "influencer_seo",
+"text": "H3 Max moves the frontier. It achieves the highest human-preference score in our evaluation while simultaneously delivering the highest throughput.\n\nThis is the advantage of treating model research and inference optimization as the same problem. Post-training gives us control over the quality of the model. Systems work gives us control over how efficiently that model executes. Co-designing the two means improvements don't have to come at each other's expense.\n\nFor generative media, this will increasingly matter. Models are getting larger and more computationally demanding at the same time that video generation is moving into interactive and high-volume production workloads.\n\nA model isn't useful in production because it tops the benchmark in isolation. What matters is the frontier across quality, latency, and cost.",
+"likeCount": 35,
+"retweetCount": 0,
+"url": "https://x.com/influencer_seo/status/2093271824813437231",
+"createdAt": "Fri Aug 28 09:37:48 +0000 2026"
 },
 {
 "userName": "askalphaxiv",
 "text": "\"On-Policy Self-Distillation in Diffusion Models\"\n\nDiffusion RL gets a reward only after the final image, even though the model actually acts through many intermediate denoising steps.\n\nDiffusionOPSD turns that endpoint reward into explicit reward-improving targets at the model’s own intermediate states, then distills those targets back into the model and continually refreshes them on-policy.\n\nAcross two diffusion backbones and ten evaluators, it gets the best held-out score in 19 of 20 settings while cutting training GPU-hours by up to 63%.\n\nThe key idea is treating diffusion alignment less like noisy trajectory-level RL and more like continuously refreshed self-distillation with direct intermediate supervision.\n\nhttps://t.co/JvXWcb5DjZ",
-"likeCount": 233,
-"retweetCount": 24,
+"likeCount": 244,
+"retweetCount": 26,
 "url": "https://x.com/askalphaxiv/status/2092730555960033502",
 "createdAt": "Wed Aug 26 21:47:00 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "BIG ANNOUNCEMENT FROM HUGGING FACE TODAY: \n\nWe're unveiling Microduck 🐥🤖 \n\nIt's a tiny $399 open-source robot you can teach new tricks with reinforcement learning. It can walk, pick things up, get back up when it falls, and even roller-skate.\n\nWelcome to the era of open-source affordable robots to democratize physical AI and world models!\n\n🤗🤗🤗",
-"likeCount": 11512,
-"retweetCount": 873,
-"url": "https://x.com/ClementDelangue/status/2092931447644442635",
-"createdAt": "Thu Aug 27 11:05:16 +0000 2026"
+"userName": "arthurallshire",
+"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
+"likeCount": 66,
+"retweetCount": 2,
+"url": "https://x.com/arthurallshire/status/2092306772396839206",
+"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
 },
 {
-"userName": "ArjunRakeshKO",
-"text": "Sharing a thought experiment about a future where AI makes it easier for more people to build something of their own, whether that’s a solo practice, a tiny studio, a small restaurant, or a niche business around something they’re unusually good at. https://t.co/NFYXKcMY9n",
-"likeCount": 9,
-"retweetCount": 5,
-"url": "https://x.com/ArjunRakeshKO/status/2092426987432460769",
-"createdAt": "Wed Aug 26 01:40:43 +0000 2026"
-},
-{
-"userName": "vicky_grok",
-"text": "From LLMs to Agents\n\nLLMs generate. Agents act.\n\nAutonomous agents combine:\n\n🧠 Reasoning\n🗂️ Memory\n🛠️ Tools\n🔄 Planning\n👀 Feedback\n\nTogether, they pursue goals—not just answer prompts. https://t.co/YDdiBW6YPo",
-"likeCount": 17,
-"retweetCount": 5,
-"url": "https://x.com/vicky_grok/status/2092990295516569735",
-"createdAt": "Thu Aug 27 14:59:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @pollenrobotics: Train in sim. Run it for real. Teach it new tricks. 🦆\n\nThis is the sim2real loop that powers Microduck.\n\nRL stack open…",
-"likeCount": 1427,
-"retweetCount": 141,
-"url": "https://x.com/ClementDelangue/status/2093193678453895370",
-"createdAt": "Fri Aug 28 04:27:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @lu__jasper: I've always thought american robotics products took themselves too seriously.\n\nGlad to see huggingface take a page out of C…",
-"likeCount": 30,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2093192357634031701",
-"createdAt": "Fri Aug 28 04:22:02 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @LinusEkenstam: If they can make enough of these it’s the christmas gift of the century.  https://t.co/GyGld13L8u",
-"likeCount": 96,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2093162835136110862",
-"createdAt": "Fri Aug 28 02:24:43 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @devemin: すぐ Web で sim 遊べるのかｗ\n\nhttps://t.co/Cxya2HTrwx https://t.co/wMWRKB4loH",
-"likeCount": 272,
-"retweetCount": 34,
-"url": "https://x.com/ClementDelangue/status/2093160254288679074",
-"createdAt": "Fri Aug 28 02:14:28 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: we've just passed $1,000,000 in sales for Microduck",
-"likeCount": 2586,
-"retweetCount": 122,
-"url": "https://x.com/ClementDelangue/status/2093042186459709794",
-"createdAt": "Thu Aug 27 18:25:18 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "raw footage https://t.co/HUTKEb9bXT",
-"likeCount": 1432,
-"retweetCount": 91,
-"url": "https://x.com/ClementDelangue/status/2092947181124608115",
-"createdAt": "Thu Aug 27 12:07:47 +0000 2026"
-},
-{
-"userName": "Theoryvc",
-"text": "https://t.co/Bx0D5ykcPp",
-"likeCount": 8,
+"userName": "isidentical",
+"text": "The team we assembled has more combined experience in building post-training and RL infrastructure for diffusion models than anyone else.\n\nCombine that with our cracked kernel engineering and inference systems teams, and we can deliver the lowest cost, highest speed, and max quality.",
+"likeCount": 35,
 "retweetCount": 0,
-"url": "https://x.com/Theoryvc/status/2092645962246496628",
-"createdAt": "Wed Aug 26 16:10:51 +0000 2026"
+"url": "https://x.com/isidentical/status/2092712087596458317",
+"createdAt": "Wed Aug 26 20:33:37 +0000 2026"
+},
+{
+"userName": "SD_Tutorial",
+"text": "VA-Judger 😀📹\n\nthe open-source reward model built specifically for joint video and audio generation\n\nIt aligns multi-modal AI models with human preferences to keep visuals, sound, and text perfectly in sync.\n\n👇\n https://t.co/wqlzg2A5mS https://t.co/0vNRuEcvhJ",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/SD_Tutorial/status/2092538394056479018",
+"createdAt": "Wed Aug 26 09:03:25 +0000 2026"
+},
+{
+"userName": "_HelenaT",
+"text": "More of us are leaning on LLM-as-a-judge to evaluate models now. However, a model's grade is an opinion until a human checks it. In Part 3 of the series, I wrote about the end to end journey to verify LLM judge with human labeling. https://t.co/RFgaRLfOdQ",
+"likeCount": 12,
+"retweetCount": 1,
+"url": "https://x.com/_HelenaT/status/2092318936394285439",
+"createdAt": "Tue Aug 25 18:31:22 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Alacritic_Super: The coolest part of Microduck might not be the robot. It's how it learns to move.\n\nThis repo shows the full reinforcem…",
+"likeCount": 907,
+"retweetCount": 88,
+"url": "https://x.com/ClementDelangue/status/2093436013850894452",
+"createdAt": "Fri Aug 28 20:30:14 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @antoinepirrone: Sneak peak at Microduck's monitoring tool, running fully on device ! You can see a visualization of the little ToF sens…",
+"likeCount": 410,
+"retweetCount": 30,
+"url": "https://x.com/ClementDelangue/status/2093309300403786222",
+"createdAt": "Fri Aug 28 12:06:43 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @AndreBaltazar: I accidentally created dog mode on microduck or what is this? 😂 https://t.co/ecXiCVLUgj",
+"likeCount": 134,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2093377144407691520",
+"createdAt": "Fri Aug 28 16:36:18 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Escapation: Welcome to your new simulation Microduck. https://t.co/Aq4ZajRPp3",
+"likeCount": 808,
+"retweetCount": 59,
+"url": "https://x.com/ClementDelangue/status/2093304906165719353",
+"createdAt": "Fri Aug 28 11:49:16 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @gorkem: @KeyTryer we will release the weights, model keeps improving",
+"likeCount": 733,
+"retweetCount": 47,
+"url": "https://x.com/ClementDelangue/status/2093328529475641580",
+"createdAt": "Fri Aug 28 13:23:08 +0000 2026"
+},
+{
+"userName": "TheZvi",
+"text": "https://t.co/pc9JlnBTj5",
+"likeCount": 57,
+"retweetCount": 2,
+"url": "https://x.com/TheZvi/status/2093300371615600805",
+"createdAt": "Fri Aug 28 11:31:14 +0000 2026"
 }
 ]

@@ -1,11 +1,11 @@
 [
 {
-"userName": "Shohan_Tech_AI",
-"text": "🚨 20 AI tools that can save you HOURS of work every week.\n\nAI is no longer the future.\n\nIt’s already changing how we write, design, edit, code, research, and create.\n\nHere are 20 AI tools worth knowing 🧵👇\n\n1/ ChatGPT — Your AI assistant.\n\nUse it to:\n• Write\n• Research\n• Brainstorm\n• Learn\n• Plan\n• Solve problems\n\nThe better your prompts, the better your results.\n\n2/ Midjourney — Turn imagination into stunning images.\n\nPerfect for:\n• Creators\n• Designers\n• Marketers\n• Brand owners\n\nOne idea can become a visual masterpiece.\n\n3/ Copilot — AI for coding.\n\nIt helps developers write, understand, and improve code faster.\n\nAI won't replace every developer.\n\nBut developers using AI may replace those who refuse to.\n\n4/ Notion AI — Your productivity assistant.\n\nUse it to:\n• Summarize notes\n• Write content\n• Organize ideas\n• Generate action plans\n\nLess chaos. More execution.\n\n5/ Figma AI — Design faster with AI.\n\nGreat for:\n• UI/UX\n• Prototypes\n• Design workflows\n• Creative ideas\n\nThe barrier between an idea and a design is getting smaller.\n\n6/ Topaz AI — Enhance your photos and videos.\n\nAI can help improve:\n• Image quality\n• Resolution\n• Sharpness\n\nOld content can become valuable again.\n\n7/ Runway — AI-powered video creation.\n\nCreate and edit videos without needing a massive production team.\n\nThe future of video creation is becoming accessible to everyone.\n\n8/ Synthesia — Turn text into AI videos.\n\nUseful for:\n• Training\n• Education\n• Marketing\n• Presentations\n\nYour camera is no longer the only way to create video.\n\n9/ https://t.co/bPOordKsyj — Never miss important notes again.\n\nIt helps with:\n• Transcription\n• Meetings\n• Conversations\n• Summaries\n\nStop writing everything manually.\n\n10/ https://t.co/v4NWqfa16U — AI-powered copywriting.\n\nUse it for:\n• Ads\n• Emails\n• Captions\n• Sales copy\n\nAI gives you the first draft.\n\nYour job is to make it better.\n\n11/ Descript — Edit audio and video like editing text.\n\nA huge productivity tool for:\n• Podcasters\n• YouTubers\n• Content creators\n\nEditing is becoming less technical and more creative.\n\n12/ Jasper — AI for marketing content.\n\nHelpful for creating:\n• Blogs\n• Emails\n• Campaigns\n• Social content\n\nSpeed matters in content.\n\nBut quality still wins.\n\n13/ Writesonic — Create content faster.\n\nUseful for:\n• Articles\n• Landing pages\n• Social posts\n• Marketing copy\n\nAI can help you create more.\n\nIt can’t replace your unique perspective.\n\n14/ Grammarly — AI-powered writing improvement.\n\nIt helps you communicate more clearly and confidently.\n\nGood ideas are useless if people don't understand them.\n\n15/ Claude — A powerful AI assistant for writing, analysis, and complex tasks.\n\nUse it to:\n• Think deeper\n• Analyze information\n• Write better\n• Explore ideas\n\nThe AI race is getting more interesting every day.\n\n16/ ElevenLabs — Turn text into realistic AI voices.\n\nUseful for:\n• Videos\n• Audiobooks\n• Voiceovers\n• Content creation\n\nYour voice is becoming software.\n\n17/ SlidesAI — Create presentations faster.\n\nGive AI the topic.\n\nLet it help structure the slides.\n\nThen focus on delivering the message.\n\n18/ Perplexity AI — AI-powered search.\n\nInstead of searching through endless links, ask questions and explore answers faster.\n\nResearch is changing.\n\nThe skill of asking better questions is becoming more valuable.\n\n19/ Luma AI — Create AI-powered 3D and video content.\n\nThe future of creative production won't belong only to people with expensive equipment.\n\nCreativity is becoming more accessible.\n\n20/ Canva AI — Create designs faster.\n\nFrom:\n• Social posts\n• Presentations\n• Videos\n• Marketing materials\n\nYou don't need to be a professional designer to start creating.\n\nThe biggest lessons.",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/Shohan_Tech_AI/status/2093186736088400143",
-"createdAt": "Fri Aug 28 03:59:42 +0000 2026"
+"userName": "junfanzhu98",
+"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
+"likeCount": 33,
+"retweetCount": 6,
+"url": "https://x.com/junfanzhu98/status/2091416256205488328",
+"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
 },
 {
 "userName": "Just_B00m",
@@ -16,107 +16,123 @@
 "createdAt": "Wed Aug 26 15:01:09 +0000 2026"
 },
 {
-"userName": "ldkong1205",
-"text": "🤔 Can reinforcement learning teach diffusion models how every denoising step should improve, instead of only rewarding the final generated image?\n\n𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗: 𝗢𝗻-𝗣𝗼𝗹𝗶𝗰𝘆 𝗦𝗲𝗹𝗳-𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀\n\n* Project Page:\nhttps://t.co/f6uyHdipnP\n\n* Paper:\nhttps://t.co/QB9jO0jabS\n\n* GitHub:\nhttps://t.co/aY0fngRIeO\n\nRecent diffusion RL methods optimize image-level rewards, yet diffusion models generate images through hundreds of intermediate denoising predictions. This creates a fundamental supervision gap:\n\nHow can endpoint rewards effectively guide intermediate denoising steps?\n\nIn 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗, we introduce On-Policy Self-Distillation (OPSD), a new diffusion post-training paradigm that converts image-level reward guidance into explicit intermediate supervision. Reward-guided targets are constructed at sampled denoising queries and continuously refreshed as the policy evolves.\n\nMore importantly, we show that target construction and finite optimization are fundamentally different problems—a target with higher reward improvement does not necessarily produce a better optimization update. This suggests a new evaluation principle for diffusion RL.\n\nAcross SD3.5-M and Z-Image-Turbo, 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗 achieves the best held-out performance in 19/20 reward-matched settings, improves over the strongest baseline by up to 44%, and reduces training GPU-hours by 40–63% compared with DiffusionNFT.\n\nWe hope this work provides a new perspective on making diffusion post-training both more effective and more interpretable.\n\nFeedback and discussions are very welcome!\n\n#ByteDanceSeed #DiffusionModels #ReinforcementLearning #OnPolicy #OPD #OPSD #GenerativeAI",
-"likeCount": 130,
-"retweetCount": 15,
-"url": "https://x.com/ldkong1205/status/2092484228617515183",
-"createdAt": "Wed Aug 26 05:28:11 +0000 2026"
+"userName": "DivyanshT91162",
+"text": "10 GITHUB REPOS THAT SHOULD BE ILLEGAL TO HAVE.\n\nall free. all open-source. bookmark this for later.\n\n1. OpenHands — the open-source AI developer.\n   An AI-driven development agent that can work with code, run tasks, use tools, and help build software like an autonomous developer. (MIT core)\n   https://t.co/jDvJeVHvOa\n\n2. Aider — your AI pair programmer.\n   AI coding directly in your terminal. Maps your entire codebase, edits multiple files, integrates with Git, and works with cloud or local LLMs. (Apache-2.0)\n   https://t.co/9EI7wk6wAz\n\n3. Open WebUI — your own AI platform.\n   Self-hosted AI interface for running and interacting with local or cloud models. Chat, documents, model management, and more — all from one interface.\n   https://t.co/uxAM1laUVW\n\n4. Continue — open-source coding agent.\n   Bring AI-powered coding into your workflow with a CLI, VS Code extension, and JetBrains plugin. Built for developers who want control over their AI tooling. (Apache-2.0)\n   https://t.co/csARRcmzUh\n\n5. Ollama — run AI models locally.\n   Run powerful language models directly on your own machine with a simple command-line interface. No complicated setup, no cloud required.\n   https://t.co/rmStlG4qUn\n\n6. ComfyUI — AI image generation, but modular.\n   A powerful node-based interface for Stable Diffusion and other generative AI workflows. Build, customize, and automate complex image-generation pipelines.\n   https://t.co/QSh9RoJLnv\n\n7. Open Interpreter — talk to your computer.\n   Give an AI access to your computer's capabilities so it can execute code, work with files, and perform tasks using natural language.\n   https://t.co/oQiXxg3Rf5\n\n8. Khoj — your personal AI second brain.\n   Self-hosted AI that can search your notes and documents, answer questions about your knowledge, and even work as an AI research assistant.\n   https://t.co/Xuwbdqnpt6\n\n9. LocalAI — the open-source OpenAI alternative.\n   Run LLMs, image generation, speech-to-text, text-to-speech, and embeddings locally through an OpenAI-compatible API.\n   https://t.co/SnXPGTM8Bx\n\n10. Continue — AI that actually understands your codebase.\n    Build AI-powered coding workflows around your own models, code, and development environment instead of locking yourself into one closed platform.\n    https://t.co/csARRcmzUh\n\nWhich repo are you trying first?",
+"likeCount": 38,
+"retweetCount": 7,
+"url": "https://x.com/DivyanshT91162/status/2093567702979998014",
+"createdAt": "Sat Aug 29 05:13:31 +0000 2026"
 },
 {
-"userName": "ai_uncovered",
-"text": "What if a single luxury product shot could be transformed into a cinematic, high-end commercial?\n\nWith Nextify, a simple product image can become an immersive visual story—complete with elegant camera movements, editorial lighting, seamless product reveals, and stunning brand visuals in just moments.\n\nhttps://t.co/vAYd9RVjxf is an all-in-one, AI-powered video generation and creative advertising platform built to help e-commerce brands, marketers, and content creators produce studio-quality video ads, UGC content, and compelling product showcases in minutes.\n\nFrom capturing subtle textures to creating bold, high-fashion transitions, generative AI is reshaping the way luxury brands bring their products to life.\n\nBecause premium marketing isn’t just about showing a product.\n\nIt’s about elevating the entire experience.\n\n#nextifyai #nextify #AIvideogenerator #AIads #createadwithai",
-"likeCount": 22,
-"retweetCount": 9,
-"url": "https://x.com/ai_uncovered/status/2091887613162754136",
-"createdAt": "Mon Aug 24 13:57:27 +0000 2026"
-},
-{
-"userName": "philosophy36l",
-"text": "🚀 100 AI TOOLS TO SUPERCHARGE YOUR PRODUCTIVITY\n\nAI is no longer just a trend — it’s becoming the ultimate productivity toolkit. 🤖⚡\n\nFrom writing and research to design, coding, video, marketing, meetings, automation, and customer support, these 100 AI tools can help you work smarter and get more done in less time.\n\n🔥 Categories include:\n• Generative AI\n• Creative & Design\n• Voice & Text\n• Image & Video Generation\n• Marketing & SEO\n• Coding\n• Productivity\n• Sales & Support\n• Websites & Chat\n• Meetings & Workflows\n\n📌 Save this list — you never know which AI tool could become your next favorite.\n\n💬 Which AI tool do you use the most?\n\n🔖 Save • Share • Follow for more AI & productivity content",
-"likeCount": 13,
+"userName": "liam_holt7",
+"text": "💰 Looking for FREE alternatives to expensive AI tools? 👀\nHere are 19+ FREE vs PAID AI tools you should know about. 🔥\n\n🔖 Bookmark this for later.\n\n1. Research\n   Free: https://t.co/8gkXeidnh3\n   Paid: https://t.co/3F5f93IG31\n\n2. Programming\n   Free: https://t.co/te0UCL2gL1\n   Paid: GitHub Copilot\n\n3. Graphic Design\n   Free: https://t.co/zxO1brJY9U\n   Paid: https://t.co/9GJcB4bbrF\n\n4. Image Generation\n   Free: https://t.co/rcDVzBApNW\n   Paid: https://t.co/ur0kQd8wb2\n\n5. Text-to-Video\n   Free: https://t.co/4XHytcAIlf\n   Paid: https://t.co/M1qvHHQhS0\n\n6. AI Short Videos\n   Free: https://t.co/CFH4HCO1Z0\n   Paid: https://t.co/GpCGUiEwSw\n\n7. Project Management\n   Free: https://t.co/rOrUJV7gRR\n   Paid: https://t.co/csCw7N45Ig\n\n8. Photo Editing\n   Free: https://t.co/vJJMUFXuAg\n   Paid: https://t.co/WdrLHUOJsN\n\n9. Data Analytics\n   Free: https://t.co/DhpTGEuLPK\n   Paid: https://t.co/bRzPLHjaEs\n\n10. Email Marketing\n    Free: https://t.co/WU6aXMKBMY\n    Paid: https://t.co/u0fDWPlKpT\n\n11. Keyword Research\n    Free: https://t.co/oo709CPHfr\n    Paid: https://t.co/hTFPkHYmuZ\n\n12. Video Editing\n    Free: https://t.co/19gvZK9SSC\n    Paid: Adobe Premiere Pro\n\n13. Writing\n    Free: https://t.co/UdojWh5c0x\n    Paid: https://t.co/vZ4G2xkIuh\n\n14. Marketing\n    Free: https://t.co/ZDXuezCZi4\n    Paid: https://t.co/d61tVhOirL\n\n15. Email Management\n    Free: Gemini\n    Paid: https://t.co/auyEY1Jgsr\n\n16. File Management\n    Free: Google Drive\n    Paid: Dropbox Business\n\n17. Music Generation\n    Free: https://t.co/HtpJ50PKSK\n    Paid: https://t.co/IWbtVRrpwv\n\n18. Document Analysis\n    Free: https://t.co/3Sz60sHqBi\n    Paid: Adobe Acrobat Pro\n\n19. AI Development\n    Free: https://t.co/jQpsD6K5xj\n    Paid: https://t.co/clsoC6twfW\n\n💡 You don't always need to pay for AI tools.\n\n❤️ Like 👤 Follow for more AI tools & resources",
+"likeCount": 25,
 "retweetCount": 13,
-"url": "https://x.com/philosophy36l/status/2092896395049193929",
-"createdAt": "Thu Aug 27 08:45:59 +0000 2026"
+"url": "https://x.com/liam_holt7/status/2093558821981700198",
+"createdAt": "Sat Aug 29 04:38:14 +0000 2026"
 },
 {
-"userName": "arthurallshire",
-"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
-"likeCount": 66,
+"userName": "cco_ol",
+"text": "# AI Image Generation Prompt\n\nCreate an **Ultra-HD 8K photorealistic Islamic portrait**, vertical **9:16 aspect ratio**, themed **“12 Rabi-ul-Awwal Mubarak”**.\n\nUse the **uploaded reference image as the exact face and identity reference**. Preserve the person’s facial features, face shape, complexion, hairstyle, and overall identity accurately.\n\nCreate a stylish digital composition where the **same young man appears twice within the frame**. The main subject is positioned on the **left side**, walking naturally toward the viewer with a confident, graceful expression.\n\nHe is wearing a **clean white Arabic-style jubbah**, a **black imamah/pagri with elegant white detailing**, **white sneakers**, and **round sunglasses**. He has **dark hair and light, neatly trimmed stubble**.\n\nThe background should have an elegant **12 Rabi-ul-Awwal Islamic celebration atmosphere**, featuring subtle **green and white illumination, soft glowing Islamic patterns, tasteful mosque-inspired architecture, crescent motifs, gentle bokeh lights, and a premium spiritual ambiance**. Add beautifully integrated Urdu/Arabic-style typography reading **“12 ربیع الاول مبارک ہو”**.\n\nCinematic lighting, realistic fabric texture, natural walking posture, realistic shadows and reflections, professional fashion photography, shallow depth of field, HDR, ultra-detailed skin texture, realistic proportions, sharp facial details, premium color grading, sophisticated composition, **photorealistic, 8K, Ultra-HD, highly detailed, no distortion, no extra fingers, no duplicate facial features**.",
+"likeCount": 11,
 "retweetCount": 2,
-"url": "https://x.com/arthurallshire/status/2092306772396839206",
-"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
+"url": "https://x.com/cco_ol/status/2092655507018596546",
+"createdAt": "Wed Aug 26 16:48:47 +0000 2026"
 },
 {
-"userName": "isidentical",
-"text": "The team we assembled has more combined experience in building post-training and RL infrastructure for diffusion models than anyone else.\n\nCombine that with our cracked kernel engineering and inference systems teams, and we can deliver the lowest cost, highest speed, and max quality.",
-"likeCount": 35,
-"retweetCount": 0,
-"url": "https://x.com/isidentical/status/2092712087596458317",
-"createdAt": "Wed Aug 26 20:33:37 +0000 2026"
-},
-{
-"userName": "_HelenaT",
-"text": "More of us are leaning on LLM-as-a-judge to evaluate models now. However, a model's grade is an opinion until a human checks it. In Part 3 of the series, I wrote about the end to end journey to verify LLM judge with human labeling. https://t.co/RFgaRLfOdQ",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/_HelenaT/status/2092318936394285439",
-"createdAt": "Tue Aug 25 18:31:22 +0000 2026"
-},
-{
-"userName": "btibor91",
-"text": "OpenAI is working on a new Virtual Try-On feature for ChatGPT Shopping with onboarding to upload your full-body reference photo used to show how clothing and accessories look on you using ImageGen https://t.co/1yt7WXJGYX",
-"likeCount": 144,
-"retweetCount": 8,
-"url": "https://x.com/btibor91/status/2093059407018094947",
-"createdAt": "Thu Aug 27 19:33:44 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @pham_blnh: just had a quick look at microduck_rl\n\nthe codebase is very elegant, i’d recommend reading the agent.md since it contains qu…",
-"likeCount": 140,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2093192064565498212",
-"createdAt": "Fri Aug 28 04:20:52 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @DanraeP: @chris_j_paxton Came for the duck, left with a duck and  another adorable robot.\n\nRobots would do so much better with the mass…",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2093190828013285883",
-"createdAt": "Fri Aug 28 04:15:57 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @chris_j_paxton: Thousands of microducks sold first day. Not bad! The people want a cute robot",
-"likeCount": 153,
-"retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2093190813580718373",
-"createdAt": "Fri Aug 28 04:15:54 +0000 2026"
-},
-{
-"userName": "Notyourmatek",
-"text": "CURIOUS ABOUT AXIS ROBOTICS? CHECK THIS ARTICLE OUT https://t.co/B6FB0NixlI",
-"likeCount": 34,
-"retweetCount": 5,
-"url": "https://x.com/Notyourmatek/status/2092570180010328406",
-"createdAt": "Wed Aug 26 11:09:43 +0000 2026"
-},
-{
-"userName": "dickiebush",
-"text": "https://t.co/g6jChs5ZjH",
-"likeCount": 37,
+"userName": "yesnoerror",
+"text": "FixAnything looks like a new gold standard for cleaning up 3D renderings. \n\nInstead of custom pipelines for NeRF, 3DGS, meshes or point clouds, FixAnything adapts a single video diffusion model (just 1% parameters updated) and refines any input—no matter how sparse—into a photoreal, stable video. \n\nA mask tells it which frames to leave untouched; geometry-aware reward (+7.2% AUC@5° pose accuracy) bakes in true 3D consistency. Results: up to 5 dB PSNR gain, 0.1–0.2 LPIPS drop, and matches or beats specialist enhancers—even on ultra-sparse point clouds. Only 500 paired videos for training; inference is 10× faster.\n\nWhy build separate enhancers for every pipeline when one generalist outperforms them all?\n\nGet the full analysis here: https://t.co/NhzcmticnG\n\n// alpha identified\n// $YNE",
+"likeCount": 16,
 "retweetCount": 3,
-"url": "https://x.com/dickiebush/status/2092655824862859494",
-"createdAt": "Wed Aug 26 16:50:02 +0000 2026"
+"url": "https://x.com/yesnoerror/status/2092719222614900771",
+"createdAt": "Wed Aug 26 21:01:58 +0000 2026"
 },
 {
-"userName": "hark_labs",
-"text": "https://t.co/aZ7CTUezlA",
-"likeCount": 108,
-"retweetCount": 4,
-"url": "https://x.com/hark_labs/status/2092315987937042855",
-"createdAt": "Tue Aug 25 18:19:39 +0000 2026"
+"userName": "askalphaxiv",
+"text": "\"On-Policy Self-Distillation in Diffusion Models\"\n\nDiffusion RL gets a reward only after the final image, even though the model actually acts through many intermediate denoising steps.\n\nDiffusionOPSD turns that endpoint reward into explicit reward-improving targets at the model’s own intermediate states, then distills those targets back into the model and continually refreshes them on-policy.\n\nAcross two diffusion backbones and ten evaluators, it gets the best held-out score in 19 of 20 settings while cutting training GPU-hours by up to 63%.\n\nThe key idea is treating diffusion alignment less like noisy trajectory-level RL and more like continuously refreshed self-distillation with direct intermediate supervision.\n\nhttps://t.co/JvXWcb5DjZ",
+"likeCount": 244,
+"retweetCount": 26,
+"url": "https://x.com/askalphaxiv/status/2092730555960033502",
+"createdAt": "Wed Aug 26 21:47:00 +0000 2026"
+},
+{
+"userName": "aimevekari21",
+"text": "Every generation inherits a new world—yet some things travel with us, woven into our memories and identity.\n\nFrom contemporary spaces to global skylines, meet the #AMSSignatureSari.\n\nIndian by root. Future by design.\n\n#AIconcept #Fashion @IndiaFutureAI @phimaanshu @CSEPlanB https://t.co/9FadJ6ZqN1",
+"likeCount": 6,
+"retweetCount": 1,
+"url": "https://x.com/aimevekari21/status/2093195722439139684",
+"createdAt": "Fri Aug 28 04:35:24 +0000 2026"
+},
+{
+"userName": "TechFollowrazzi",
+"text": "🗞️ @miramurati followed @advprop\n\n@advprop leads applied research at @whitecircle and recently examined Inkling-Small to see how one decoder handles speech, image and text, finding that its processing routes converge through deeper layers. https://t.co/ew73060MSO",
+"likeCount": 7,
+"retweetCount": 1,
+"url": "https://x.com/TechFollowrazzi/status/2093451264067612746",
+"createdAt": "Fri Aug 28 21:30:50 +0000 2026"
+},
+{
+"userName": "Sonoflasg",
+"text": "I wrote about @wubbushi’s HOLY, @rainisto’s LIWA, and the shift from AI images that announce themselves through uncanny failure to images that begin to behave like plausible memory.\n\nThe camera was never there.\n\nThe feeling is still real. https://t.co/eLM5NcdghL",
+"likeCount": 35,
+"retweetCount": 6,
+"url": "https://x.com/Sonoflasg/status/2093403775566241797",
+"createdAt": "Fri Aug 28 18:22:08 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @reach_vb: hi,\n\nplease find attached the opportunity of a lifetime.\n\nsend all term sheets to my co-founder clem.\n\nthx https://t.co/Hv7GQ…",
+"likeCount": 547,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2093328800213762108",
+"createdAt": "Fri Aug 28 13:24:12 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Alacritic_Super: Want to learn how robots actually learn? Start here.\n\nHugging Face has a free Robotics Course that takes you from clas…",
+"likeCount": 217,
+"retweetCount": 19,
+"url": "https://x.com/ClementDelangue/status/2093191572237975633",
+"createdAt": "Fri Aug 28 04:18:55 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @lu__jasper: I've always thought american robotics products took themselves too seriously.\n\nGlad to see huggingface take a page out of C…",
+"likeCount": 80,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2093192357634031701",
+"createdAt": "Fri Aug 28 04:22:02 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @__Rhodium__: if you're not training your Microduck to breakdance, you're lost https://t.co/oK17UlrHF0",
+"likeCount": 438,
+"retweetCount": 25,
+"url": "https://x.com/ClementDelangue/status/2093413964671561962",
+"createdAt": "Fri Aug 28 19:02:37 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "someone trained microduck to do somersaults 😭 https://t.co/evDlBaxhsb",
+"likeCount": 2981,
+"retweetCount": 177,
+"url": "https://x.com/ClementDelangue/status/2093309872733315301",
+"createdAt": "Fri Aug 28 12:09:00 +0000 2026"
+},
+{
+"userName": "Joshbocanegra",
+"text": "Size matters, actually. https://t.co/A7NtYNZv7j",
+"likeCount": 3,
+"retweetCount": 2,
+"url": "https://x.com/Joshbocanegra/status/2092978894479736887",
+"createdAt": "Thu Aug 27 14:13:48 +0000 2026"
+},
+{
+"userName": "Theoryvc",
+"text": "https://t.co/Bx0D5ykcPp",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/Theoryvc/status/2092645962246496628",
+"createdAt": "Wed Aug 26 16:10:51 +0000 2026"
 }
 ]
