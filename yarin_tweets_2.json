@@ -8,44 +8,36 @@
 "createdAt": "Thu Aug 27 23:34:07 +0000 2026"
 },
 {
-"userName": "ldkong1205",
-"text": "🤔 Can reinforcement learning teach diffusion models how every denoising step should improve, instead of only rewarding the final generated image?\n\n𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗: 𝗢𝗻-𝗣𝗼𝗹𝗶𝗰𝘆 𝗦𝗲𝗹𝗳-𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀\n\n* Project Page:\nhttps://t.co/f6uyHdipnP\n\n* Paper:\nhttps://t.co/QB9jO0jabS\n\n* GitHub:\nhttps://t.co/aY0fngRIeO\n\nRecent diffusion RL methods optimize image-level rewards, yet diffusion models generate images through hundreds of intermediate denoising predictions. This creates a fundamental supervision gap:\n\nHow can endpoint rewards effectively guide intermediate denoising steps?\n\nIn 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗, we introduce On-Policy Self-Distillation (OPSD), a new diffusion post-training paradigm that converts image-level reward guidance into explicit intermediate supervision. Reward-guided targets are constructed at sampled denoising queries and continuously refreshed as the policy evolves.\n\nMore importantly, we show that target construction and finite optimization are fundamentally different problems—a target with higher reward improvement does not necessarily produce a better optimization update. This suggests a new evaluation principle for diffusion RL.\n\nAcross SD3.5-M and Z-Image-Turbo, 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗 achieves the best held-out performance in 19/20 reward-matched settings, improves over the strongest baseline by up to 44%, and reduces training GPU-hours by 40–63% compared with DiffusionNFT.\n\nWe hope this work provides a new perspective on making diffusion post-training both more effective and more interpretable.\n\nFeedback and discussions are very welcome!\n\n#ByteDanceSeed #DiffusionModels #ReinforcementLearning #OnPolicy #OPD #OPSD #GenerativeAI",
-"likeCount": 131,
-"retweetCount": 15,
-"url": "https://x.com/ldkong1205/status/2092484228617515183",
-"createdAt": "Wed Aug 26 05:28:11 +0000 2026"
+"userName": "DCrypto171",
+"text": "💥💥🚀🚀💥💥👽👽🥰💥🚀🚀💥💥\nYou’ve got AI that’s powerful… and locked behind a handful of companies.  \nYou’ve got blockchains that are transparent… and spend most of their energy on busywork.\n\nLightchain AI is the stack that says: why not make the network itself useful?\n\nHere’s the idea, clean and real:\n\n🧠 Proof of Intelligence (PoI)\nNodes don’t just mine hashes or park tokens. They do actual AI work—training, inference, optimization—and that work helps secure the chain. Security and progress pull in the same direction.\n\n⚙️ AIVM (Artificial Intelligence Virtual Machine) \nA dedicated layer for running AI tasks on-chain, built to play nice with tools developers already use (think TensorFlow and PyTorch), not just another smart-contract box.\n\n🔒 Privacy by design\nPrompts can be encrypted before they leave your machine. You pay from your wallet. Workers get paid to compute—not to snoop.\n\n🚀 It’s not just a whitepaper\nMainnet is live. There’s a chat you can try, models served by real GPUs, a desktop hub, explorer, DAO, DEX, faucet, and bridge. Devnet is already pushing faster blocks and more models on-chain.\n\nThe mission is simple and honest: democratize AI—so builders, users, and orgs can collaborate without handing the keys to a single company.\n\nLCAI is the native token that pays for AI jobs, gas, and governance. Utility first. No magic numbers. No “guaranteed moon.”\n\nIf you want AI that’s yours to use, yours to verify, and not trapped in someone else’s cloud—this is the conversation worth having.\n\nCurious? Start at https://t.co/rLCB3HpIea and the docs. Come see the product, not just the pitch. ⚡🌐\n\nNot financial advice. Do your own research.",
+"likeCount": 22,
+"retweetCount": 4,
+"url": "https://x.com/DCrypto171/status/2093704695910949174",
+"createdAt": "Sat Aug 29 14:17:53 +0000 2026"
 },
 {
-"userName": "nifercheks",
-"text": "Think about how humans learn a new skill.\n\nYou don’t become good at something by reading about it once.\n\nYou practice.\nYou make mistakes.\nYou try again.\nYou repeat the same task in different ways until your brain starts to understand what to do.\n\nRobots need that same kind of experience.\n\nThe problem is, teaching a robot how to perform real world tasks requires A LOT of training data  and collecting that data in labs is slow, expensive and difficult to scale.\n\nThis is where @axisrobotics comes in.\n\nInstead of keeping robot training inside expensive labs, Axis lets ordinary people contribute to the process.\n\nAnd you contribute to the process by:\n\n→ Open a website and control a virtual robot with your keyboard or mouse\n\n→ Perform simple tasks like picking up and arranging objects\n\n→ And your actions become training data that can help real robots learn.\n\nThey’re also using phones to capture real human movements and building tools that can automatically generate thousands of different scenarios for robots to practice.\n\nAnd honestly, this is the part I find interesting.\n\nAxis is basically turning human experience into robot experience.\n\nEvery small movement we make like picking something up, moving it, arranging it, reaching for something can become another example a robot learns from.\n\nIt’s almost like giving robots the opportunity to learn from millions of people instead of relying on a handful of robotics labs.\n\nThat’s the bigger idea behind Axis.\n\nRobot intelligence shouldn’t be built by a few people in a lab.\n\nIt can be built from the everyday actions and experiences of people everywhere.\n\nAnd Axis is building the data engine to make that possible.",
-"likeCount": 160,
-"retweetCount": 40,
-"url": "https://x.com/nifercheks/status/2092682985892171829",
-"createdAt": "Wed Aug 26 18:37:58 +0000 2026"
+"userName": "HermesWatcher",
+"text": "Hermes can go from the idea to the image without sending you off to another app.\n\nOnce Image Generation is configured, you can ask Hermes for the visual in normal language and let the image_generate tool handle the backend.\n\nSetup is straightforward:\n\nhermes tools\n\n→ Image Generation\n\n→ choose your provider\n\n→ choose the model\n\n→ add the required credentials\n\nAfter that, the workflow can stay in one place.\n\nWrite the post → ask Hermes for the image.\n\nResearch a product → generate a concept visual.\n\nBuild a guide → create the supporting graphic.\n\nAnd it is not limited to text-to-image.\n\nIf the active model supports editing, the same tool can take an existing image plus your instructions and modify it. You do not need a separate editing workflow just because the input changed.\n\nThe provider layer is also swappable. Hermes currently has built-in image backends, and its provider-plugin system can add others without changing the image_generate surface the agent uses.\n\nOne thing to check before assuming an edit will work: image editing is model-dependent. A text-to-image-only model will not suddenly become an editor because Hermes is calling it.\n\nThe useful part here is not simply that Hermes can generate images.\n\nIt is that the visual step can become part of the same agent workflow that created the idea, research, copy, or asset in the first place.\n\n@url:https://t.co/Jx8pucD9uW",
+"likeCount": 20,
+"retweetCount": 1,
+"url": "https://x.com/HermesWatcher/status/2093930463903752580",
+"createdAt": "Sun Aug 30 05:15:00 +0000 2026"
 },
 {
 "userName": "ai_uncovered",
 "text": "What if a single luxury product shot could be transformed into a cinematic, high-end commercial?\n\nWith Nextify, a simple product image can become an immersive visual story—complete with elegant camera movements, editorial lighting, seamless product reveals, and stunning brand visuals in just moments.\n\nhttps://t.co/vAYd9RVjxf is an all-in-one, AI-powered video generation and creative advertising platform built to help e-commerce brands, marketers, and content creators produce studio-quality video ads, UGC content, and compelling product showcases in minutes.\n\nFrom capturing subtle textures to creating bold, high-fashion transitions, generative AI is reshaping the way luxury brands bring their products to life.\n\nBecause premium marketing isn’t just about showing a product.\n\nIt’s about elevating the entire experience.\n\n#nextifyai #nextify #AIvideogenerator #AIads #createadwithai",
 "likeCount": 22,
-"retweetCount": 9,
+"retweetCount": 7,
 "url": "https://x.com/ai_uncovered/status/2091887613162754136",
 "createdAt": "Mon Aug 24 13:57:27 +0000 2026"
 },
 {
-"userName": "ai_uncovered",
-"text": "What if a single luxury product shot could be transformed into a cinematic, high-end commercial?\n\nWith Nextify, a simple product image can become an immersive visual story—complete with elegant camera movements, editorial lighting, seamless product reveals, and stunning brand visuals in just moments.\n\nhttps://t.co/vAYd9RVjxf is an all-in-one, AI-powered video generation and creative advertising platform built to help e-commerce brands, marketers, and content creators produce studio-quality video ads, UGC content, and compelling product showcases in minutes.\n\nFrom capturing subtle textures to creating bold, high-fashion transitions, generative AI is reshaping the way luxury brands bring their products to life.\n\nBecause premium marketing isn’t just about showing a product.\n\nIt’s about elevating the entire experience.\n\n#nextifyai #nextify #AIvideogenerator #AIads #createadwithai",
-"likeCount": 22,
-"retweetCount": 9,
-"url": "https://x.com/ai_uncovered/status/2091887613162754136",
-"createdAt": "Mon Aug 24 13:57:27 +0000 2026"
-},
-{
-"userName": "tech_mahindra",
-"text": "Retail success today is defined by the experiences delivered in-store.\n\nFrom turning retail signals into action to helping customers buy with confidence and check out faster, intelligent technologies are reshaping every step of the shopping journey.\n\nAt NRF Europe 2026, meet our leaders Mukul Dhyani, Carl-Henrik Hallström, Philippe LY CONG TRINH, Satyaki Banerjee and Arijeet Sen at Booth A-060, Hall 6 and discover how Tech Mahindra is helping retailers make faster decisions, improve conversions, and create more connected customer experiences with solutions such as Advisor Intelligence Orchestration (AIO), Virtual Try-On, AI-enabled Mobile POS and many more.\n\nKnow more: https://t.co/mRL7fV9ZR9\n\n#ScaleAtSpeed #NRFEurope2026 #NRFRetailsBigShowEurope #FutureOfRetail",
-"likeCount": 2,
-"retweetCount": 2,
-"url": "https://x.com/tech_mahindra/status/2092620582089035824",
-"createdAt": "Wed Aug 26 14:30:00 +0000 2026"
+"userName": "yesnoerror",
+"text": "FixAnything looks like a new gold standard for cleaning up 3D renderings. \n\nInstead of custom pipelines for NeRF, 3DGS, meshes or point clouds, FixAnything adapts a single video diffusion model (just 1% parameters updated) and refines any input—no matter how sparse—into a photoreal, stable video. \n\nA mask tells it which frames to leave untouched; geometry-aware reward (+7.2% AUC@5° pose accuracy) bakes in true 3D consistency. Results: up to 5 dB PSNR gain, 0.1–0.2 LPIPS drop, and matches or beats specialist enhancers—even on ultra-sparse point clouds. Only 500 paired videos for training; inference is 10× faster.\n\nWhy build separate enhancers for every pipeline when one generalist outperforms them all?\n\nGet the full analysis here: https://t.co/NhzcmticnG\n\n// alpha identified\n// $YNE",
+"likeCount": 16,
+"retweetCount": 3,
+"url": "https://x.com/yesnoerror/status/2092719222614900771",
+"createdAt": "Wed Aug 26 21:01:58 +0000 2026"
 },
 {
 "userName": "oliviscusAI",
@@ -58,7 +50,7 @@
 {
 "userName": "ArjunRakeshKO",
 "text": "Sharing a thought experiment about a future where AI makes it easier for more people to build something of their own, whether that’s a solo practice, a tiny studio, a small restaurant, or a niche business around something they’re unusually good at. https://t.co/NFYXKcMY9n",
-"likeCount": 9,
+"likeCount": 10,
 "retweetCount": 5,
 "url": "https://x.com/ArjunRakeshKO/status/2092426987432460769",
 "createdAt": "Wed Aug 26 01:40:43 +0000 2026"
@@ -66,65 +58,89 @@
 {
 "userName": "Sonoflasg",
 "text": "I wrote about @wubbushi’s HOLY, @rainisto’s LIWA, and the shift from AI images that announce themselves through uncanny failure to images that begin to behave like plausible memory.\n\nThe camera was never there.\n\nThe feeling is still real. https://t.co/eLM5NcdghL",
-"likeCount": 35,
+"likeCount": 45,
 "retweetCount": 6,
 "url": "https://x.com/Sonoflasg/status/2093403775566241797",
 "createdAt": "Fri Aug 28 18:22:08 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @pollenrobotics: Train in sim. Run it for real. Teach it new tricks. 🦆\n\nThis is the sim2real loop that powers Microduck.\n\nRL stack open…",
-"likeCount": 2220,
-"retweetCount": 238,
-"url": "https://x.com/ClementDelangue/status/2093193678453895370",
-"createdAt": "Fri Aug 28 04:27:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Escapation: So your telling me it's Open Source and I can print STL parts for it? Take my money. 🦷\n\nhttps://t.co/gH5Wzkzu6M https://t.c…",
-"likeCount": 797,
-"retweetCount": 46,
-"url": "https://x.com/ClementDelangue/status/2093198450120593786",
-"createdAt": "Fri Aug 28 04:46:14 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MarioNawfal: People spent more than $2.5 million in 24 hours... On a robot duck.\n\nHugging Face and Pollen Robotics put Microduck on sal…",
-"likeCount": 212,
-"retweetCount": 21,
-"url": "https://x.com/ClementDelangue/status/2093590509449015439",
-"createdAt": "Sat Aug 29 06:44:09 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @willkriski: Got Codex to download and set up the MicroDuck simulator. So much to learn about robotics! @pollenrobotics https://t.co/vdJ…",
-"likeCount": 25,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2093327633601683563",
-"createdAt": "Fri Aug 28 13:19:34 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @JesseWaites: You've heard of Microduck, but have you seen Megaduck? https://t.co/87h0WmrVXk",
-"likeCount": 163,
+"userName": "btibor91",
+"text": "OpenAI is working on a new Virtual Try-On feature for ChatGPT Shopping with onboarding to upload your full-body reference photo used to show how clothing and accessories look on you using ImageGen https://t.co/1yt7WXJGYX",
+"likeCount": 172,
 "retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2093327568308986188",
-"createdAt": "Fri Aug 28 13:19:19 +0000 2026"
+"url": "https://x.com/btibor91/status/2093059407018094947",
+"createdAt": "Thu Aug 27 19:33:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @elephant_lumps: Getting all my ducks in a row https://t.co/kdJc86Ixoy",
-"likeCount": 262,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2093319931370623159",
-"createdAt": "Fri Aug 28 12:48:58 +0000 2026"
+"text": "RT @Thom_Wolf: this is the team behind Microduck btw - the most goated team I've ever meet in robotics\n\ninsane skills - insane taste https:…",
+"likeCount": 589,
+"retweetCount": 41,
+"url": "https://x.com/ClementDelangue/status/2093710876041752940",
+"createdAt": "Sat Aug 29 14:42:26 +0000 2026"
 },
 {
-"userName": "genuenci",
-"text": "https://t.co/jFWGtGH4jX",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/genuenci/status/2093265589900857411",
-"createdAt": "Fri Aug 28 09:13:02 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @AndreBaltazar: Training the Microduck to be able to perform headstands! Would love to see this in action for real.\n\nNext training will…",
+"likeCount": 934,
+"retweetCount": 52,
+"url": "https://x.com/ClementDelangue/status/2093378590465196451",
+"createdAt": "Fri Aug 28 16:42:03 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @cdngdev: i am torturing my microduck by training it to play the game where you have to find a needle in a haystack https://t.co/XyXkvVJ…",
+"likeCount": 699,
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2093783518249644334",
+"createdAt": "Sat Aug 29 19:31:06 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @badlogicgames: my mom is using gemini on her android phone to write angry letters to companies/banks who did her wrong by law and they…",
+"likeCount": 1532,
+"retweetCount": 37,
+"url": "https://x.com/jeremyphoward/status/2093948870367862980",
+"createdAt": "Sun Aug 30 06:28:09 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @__Rhodium__: if you're not training your Microduck to breakdance, you're lost https://t.co/oK17UlrHF0",
+"likeCount": 593,
+"retweetCount": 33,
+"url": "https://x.com/ClementDelangue/status/2093413964671561962",
+"createdAt": "Fri Aug 28 19:02:37 +0000 2026"
+},
+{
+"userName": "Mohammad_ali_jr",
+"text": "Virtual Try-On App UI Design | AI Fashion Shopping Experience https://t.co/foCq8FIEzT",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/Mohammad_ali_jr/status/2093171279507734570",
+"createdAt": "Fri Aug 28 02:58:16 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "when OpenAI shuts down the message boards (sound on) https://t.co/osC5QeRIsJ",
+"likeCount": 1348,
+"retweetCount": 109,
+"url": "https://x.com/ClementDelangue/status/2093709490814165162",
+"createdAt": "Sat Aug 29 14:36:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ErenChenAI: MicroDucks singing https://t.co/suEkGF6Jga",
+"likeCount": 185,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2093867796962607253",
+"createdAt": "Sun Aug 30 01:05:59 +0000 2026"
+},
+{
+"userName": "TheZvi",
+"text": "https://t.co/0l2BNaX18W",
+"likeCount": 204,
+"retweetCount": 40,
+"url": "https://x.com/TheZvi/status/2093679099453530230",
+"createdAt": "Sat Aug 29 12:36:10 +0000 2026"
 }
 ]

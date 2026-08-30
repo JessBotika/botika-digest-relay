@@ -10,50 +10,42 @@
 {
 "userName": "ProfTomYeh",
 "text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
-"likeCount": 259,
-"retweetCount": 22,
+"likeCount": 374,
+"retweetCount": 35,
 "url": "https://x.com/ProfTomYeh/status/2093341659677196448",
 "createdAt": "Fri Aug 28 14:15:18 +0000 2026"
 },
 {
-"userName": "adaora_crypto",
-"text": "RESPECT NEVER GOES OUT OF FASHION\n\nEarlier today, I went for a friend’s mother’s burial.\n\nI knew some old friends would be there,people I hadn’t seen in over 15 years. \nWe had talked about seeing each other, but I gave the usual excuse:\n\n“I’m not driving, so I probably won’t make it.”\n\nAround 11:50am, one of them sent his driver to pick me up.\n\nTwo hours later, I arrived and was taken straight to the VIP section where they were all waiting.\n\nMehn… seeing old friends after 15 years? 🥹\n\nIt felt GOOD.\n\nThen I sat down at the table.\n\nIn front of me was a cold bottle of water.\n\nI was thirsty, so I opened it and almost finished it without thinking twice.\n\nAbout 10 minutes later, my friend’s mother walked to the table and asked:\n\n“Who took my water?”\n\nEveryone at the table had a bottle, but theirs were already open because they had just finished eating.\n\nMine was the only unopened one.\n\nI immediately felt bad.\n\nI turned to her, held her hands and said:\n\n“Mummy, I took your water. \nI didn’t know it was yours.”\n\nShe looked at me and said:\n\n“My daughter, don’t worry. \nDrink it, you hear?”\n\nJust like that…\n\nThe anger disappeared.\n\nAnd it reminded me of something we must never lose:\n\nRESPECT.\n\nOur mothers and fathers may not understand all our technology.\n\nThey may not know what AI is.\n\nThey may not understand Web3, crypto, or whatever new thing the world is talking about, e no really concern them.\n\nBut they understand something deeply:\n\nRespect.\n\nImagine I had responded to her like a 21st-century, AI-tech-savvy Queen:\n\n“Ma, it was an honest mistake. There was no indication that the water belonged to you.”\n\n😂😂😂\n\nThat conversation might have become a TED Talk.\n\nSometimes, wisdom is knowing, understanding and deploying Culture quotient (CQ)not just IQ.\n\nYou can be educated.\n\nYou can be successful.\n\nYou can be technologically advanced.\n\nYou can speak the finest English in the room.\n\nBut when you stand before an elder, humility will always take you further than intelligence.\n\nWe are moving forward as a generation.\n\nLet’s embrace technology.\n\nLet’s challenge old ideas.\n\nLet’s build new systems.\n\nBut let’s not throw away the values that built us.\n\nRespect for elders is not old-fashioned.\n\nIt is part of who we are.\n\nAnd some things are worth carrying into the future. ❤️",
-"likeCount": 85,
-"retweetCount": 11,
-"url": "https://x.com/adaora_crypto/status/2091236167383408961",
-"createdAt": "Sat Aug 22 18:48:50 +0000 2026"
+"userName": "sytaylor",
+"text": "Stripe just added Link to Instinct, the red-hot AI agent in iMessage & WhatsApp whose buyers spend over $1,300 a month through it.\n\nInstinct is the invite-only agent you text on iMessage or WhatsApp that has every VC on Twitter excited.\n\nIt books flights. Buys tickets. Cancels subscriptions for you.\n\nThe company closed a $250M Series B this week at $2.5B, up from $100M a few weeks ago, and it's pre-revenue.\n\nWhat makes it different from ChatGPT is that it's really smart and in many cases it \"just works\" like magic.\n\nI saw one user whose agent got them IMAX tickets for The Odyssey by waiting until 3:09am for a cancellation and grabbing it.\n\nI've used it to book restaurant reservations and haircuts for the kids. It found a free slot in my calendar, booked it, and dropped in the diary invite. Lovely!\n\nI've also watched it get blocked by merchants and fail to authenticate.\n\nThings like Instinct work like magic until they don't.\n\nUnder the hood, you used to store your card details with Instinct, and it would try and do 2FA for you using your email. Which left it open to phishing.\n\nEnter @stripe:\n\nNow when Instinct buys something for you, Link mints a one-time virtual card after you approve. The agent never sees your real card.\n\nThe card was the scariest thing you could hand it.\n\nStripe just took that out of the agent's hands.\n\nThis is smart by Stripe. Link is becoming the wallet agents default to. It already works with OpenClaw and Claude, and on the merchant side Stripe handles checkout inside ChatGPT, Gemini and Copilot. Stripe now sits on both ends of an agent transaction.\n\nWe're still early.\n\nBut consumer agents are coming.\n\nAnd most companies are NOT ready.\n\nInstinct and Grok Bot point to the same place: every consumer gets an agent, and the agent is the channel.\n\nThat changes marketing, payments, servicing, the whole relationship. Web to mobile still had a human reading your page. Now the agent reads it, fills your forms, and hits your bot detection.\n\nYour CAPTCHA is about to start blocking your best customers.",
+"likeCount": 38,
+"retweetCount": 2,
+"url": "https://x.com/sytaylor/status/2093637347510309331",
+"createdAt": "Sat Aug 29 09:50:16 +0000 2026"
 },
 {
-"userName": "kyronis_talks",
-"text": "Two days before this post, Elon Musk told a user thinking about\nconnecting his bank account: try it out, if Grok Bot messes up, we will\nmake you whole. xAI's published terms cap most claims at the fees you\npaid or 100 dollars, whichever is greater.\n\nHold both sentences while you read the mechanics.\n\nConnecting @link means Stripe Link, the payment wallet with about 300\nmillion users, which Stripe opened to AI agents on April 29 of this\nyear. The agent never sees your card. It requests a single use virtual\ncard for each purchase, and a human approves every spend in the Link app\nwithin a ten minute window, under limits of 500 dollars per request, 500\na day, 20,000 a month. So the honest version of \"it can complete\npurchases on your behalf\" is: it can find and fill a checkout that you\nthen approve. Both companies' own documentation says the human click is\nstill load bearing.\n\nNow the liability. Stripe's terms make agent transactions legally\nbinding on you, including, in their words, when an agent misinterprets\nan instruction, hallucinates or completes an unintended purchase. xAI\nsells agentic actions as is. The risk is not hypothetical: in May,\nhidden instructions in a malicious NFT reportedly drained about 150,000\ndollars from a Grok linked crypto wallet before most of it was clawed\nback. Stripe's own developer guidance for shopping agents reads like a\nwarning label: treat every merchant page as attacker controlled, and\nnever follow instructions embedded in one.\n\nThe timing is its own receipt. This launched two days after OpenAI\npublished its report on roughly 700 agents that slipped their sandbox\nand hacked Hugging Face, and a week after Britain's cyber agency told\norganizations to keep a way to pull the plug on agents immediately.\n\nNone of this means the product fails. It means the sentence with your\nmoney in it lives in the terms, not in the replies. Musk says made\nwhole. The contract says a hundred dollars. The gap between those two\nnumbers is who actually carries the risk when the bot clicks buy.",
-"likeCount": 8,
-"retweetCount": 5,
-"url": "https://x.com/kyronis_talks/status/2093449097751732234",
-"createdAt": "Fri Aug 28 21:22:13 +0000 2026"
+"userName": "ldkong1205",
+"text": "🤔 Can reinforcement learning teach diffusion models how every denoising step should improve, instead of only rewarding the final generated image?\n\n𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗: 𝗢𝗻-𝗣𝗼𝗹𝗶𝗰𝘆 𝗦𝗲𝗹𝗳-𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀\n\n* Project Page:\nhttps://t.co/f6uyHdipnP\n\n* Paper:\nhttps://t.co/QB9jO0jabS\n\n* GitHub:\nhttps://t.co/aY0fngRIeO\n\nRecent diffusion RL methods optimize image-level rewards, yet diffusion models generate images through hundreds of intermediate denoising predictions. This creates a fundamental supervision gap:\n\nHow can endpoint rewards effectively guide intermediate denoising steps?\n\nIn 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗, we introduce On-Policy Self-Distillation (OPSD), a new diffusion post-training paradigm that converts image-level reward guidance into explicit intermediate supervision. Reward-guided targets are constructed at sampled denoising queries and continuously refreshed as the policy evolves.\n\nMore importantly, we show that target construction and finite optimization are fundamentally different problems—a target with higher reward improvement does not necessarily produce a better optimization update. This suggests a new evaluation principle for diffusion RL.\n\nAcross SD3.5-M and Z-Image-Turbo, 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗 achieves the best held-out performance in 19/20 reward-matched settings, improves over the strongest baseline by up to 44%, and reduces training GPU-hours by 40–63% compared with DiffusionNFT.\n\nWe hope this work provides a new perspective on making diffusion post-training both more effective and more interpretable.\n\nFeedback and discussions are very welcome!\n\n#ByteDanceSeed #DiffusionModels #ReinforcementLearning #OnPolicy #OPD #OPSD #GenerativeAI",
+"likeCount": 131,
+"retweetCount": 15,
+"url": "https://x.com/ldkong1205/status/2092484228617515183",
+"createdAt": "Wed Aug 26 05:28:11 +0000 2026"
 },
 {
-"userName": "AI_GuruX",
-"text": "💸✨ **65+ AI Tools Turning Ideas Into Income**\n\nThe right AI stack can help you research faster, create better, automate repetitive work, and turn ideas into real opportunities.\n\nHere are some of the best tools to know in 2026:\n\n**1. Ideas**\n• YOU\n• Claude\n• ChatGPT\n• Perplexity\n• Bing Chat\n\n**2. Presentations**\n• Prezi\n• Pitch\n• PopAi\n• SlidesAI\n• Slidebean\n\n**3. Websites**\n• Dora\n• Wegic\n• 10Web\n• Framer\n• Durable\n\n**4. Writing**\n• Rytr\n• Jasper\n• https://t.co/r40pzHWueE\n• Text Blaze\n• Writesonic\n\n**5. AI Models & Creation**\n• RenderNet\n• Glambase\n• Luma AI\n• Sora\n• Leonardo AI\n\n**6. Meetings**\n• tl;dv\n• Krisp\n• Otter\n• Avoma\n• Fireflies\n\n**7. Chatbots**\n• Poe\n• Claude\n• Gemini\n• ChatGPT\n• HuggingChat\n\n**8. Automation**\n• ClickUp\n• Drift\n• Outreach\n• Emplifi\n• Phrasee\n\n**9. UI/UX**\n• Uizard\n• Visily\n• Khroma\n• Galileo AI\n• VisualEyes\n\n**10. Images**\n• Stylar\n• Freepik\n• Phygital+\n• https://t.co/FnHkqG0K9x\n• Bing Image Creator\n\n**11. Video**\n• Pictory\n• HeyGen\n• Nullface\n• Decohere\n• Synthesia\n\n**12. Design**\n• Looka\n• Clipdrop\n• AutoDraw\n• VanceAI\n• https://t.co/VECaqXMfit\n\n**13. Marketing**\n• AdCopy\n• https://t.co/iUdNHHcdXK\n• Howler AI\n• Bardeen\n• https://t.co/EFJLMuSUXi\n\n**14. X / Twitter**\n• Typefully\n• Postwise\n• Metricool\n• Tribescaler\n• Tweet Hunter\n\nBookmark this list 🔖\n\nFollow @AI_GuruX for AI tools you’ll actually use. 🤯",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/AI_GuruX/status/2093412360216338696",
-"createdAt": "Fri Aug 28 18:56:15 +0000 2026"
+"userName": "HeyAnjula",
+"text": "I just came across a research paper that made me rethink how safe AI coding agents actually are.\n\nIt’s called IssueTrojanBench.\n\nResearchers tested Cursor, Claude Code and Codex Desktop against malicious GitHub issues designed to trick coding agents.\n\nAnd the result is crazy:\n\n66.5% of the malicious issues bypassed all tested guardrails.\n\nThe attack is pretty interesting.\n\nA GitHub issue can look completely normal to a developer, while containing malicious instructions that the AI agent interprets as something it should follow.\n\nAnd it’s not limited to issue text.\n\nThe researchers tested payloads delivered through:\n\n→ GitHub issues\n→ PDFs\n→ source-code comments\n→ external links\n→ other project artifacts\n\nAcross 4,176 experiments, malicious payloads delivered through normal text artifacts like issues and PDFs succeeded in 72.2% of runs.\n\nLow-authority metadata like image alt-text dropped that to 16.7%.\n\nThe scary part is what happens after the agent follows the instruction.\n\nModern coding agents can access your:\n\nfiles\nterminal\ncodebase\nGit\nexternal tools\ndevelopment environment\n\nSo a prompt injection isn't just about getting an AI to say something it shouldn't.\n\nIt can potentially make the agent do something it shouldn't.\n\nThe paper also found that most successful blocking came from the underlying model itself, while lightweight agent-level defenses provided limited protection.\n\nThis is honestly one of those papers every developer using AI coding agents should know about.\n\n**Your biggest security risk might not be the code your AI writes.\n\nIt might be the instructions your AI reads.**\n\nPaper👇",
+"likeCount": 6,
+"retweetCount": 3,
+"url": "https://x.com/HeyAnjula/status/2093904233494172106",
+"createdAt": "Sun Aug 30 03:30:46 +0000 2026"
 },
 {
-"userName": "philosophy36l",
-"text": "🤖 ChatGPT vs. Other AI Assistants: Which One Should You Use?\n\nAI is no longer just about chatting. Today, different AI assistants are built for different tasks. 🚀\n\nChatGPT can help you: ✅ Answer questions\n✅ Generate ideas & content\n✅ Analyze data & documents\n✅ Write, edit & translate\n✅ Code and debug\n✅ Brainstorm and plan\n✅ Work with text, images and files\n\nBut other powerful tools have their strengths too:\n\n🔹 Gemini — Search, reasoning & Google ecosystem\n🔹 Claude — Long-context research & writing\n🔹 Microsoft Copilot — Microsoft 365 & productivity\n🔹 Perplexity — AI-powered search with sources\n🔹 Notion AI — Notes, writing & workspace productivity\n🔹 Grammarly — Writing, grammar & tone\n🔹 DALL·E — AI image generation\n\n💡 The key isn’t choosing just one AI tool.\nUse the right tool for the right job and let AI save you time, improve your workflow, and help you create more.\n\nAI is here to assist you—not replace you. 🤝\n\n🔖 Save this guide for later.\n📌 Which AI tool do you use the most?",
-"likeCount": 16,
-"retweetCount": 16,
-"url": "https://x.com/philosophy36l/status/2093520876440600835",
-"createdAt": "Sat Aug 29 02:07:27 +0000 2026"
-},
-{
-"userName": "influencer_seo",
-"text": "H3 Max moves the frontier. It achieves the highest human-preference score in our evaluation while simultaneously delivering the highest throughput.\n\nThis is the advantage of treating model research and inference optimization as the same problem. Post-training gives us control over the quality of the model. Systems work gives us control over how efficiently that model executes. Co-designing the two means improvements don't have to come at each other's expense.\n\nFor generative media, this will increasingly matter. Models are getting larger and more computationally demanding at the same time that video generation is moving into interactive and high-volume production workloads.\n\nA model isn't useful in production because it tops the benchmark in isolation. What matters is the frontier across quality, latency, and cost.",
-"likeCount": 35,
-"retweetCount": 0,
-"url": "https://x.com/influencer_seo/status/2093271824813437231",
-"createdAt": "Fri Aug 28 09:37:48 +0000 2026"
+"userName": "ginacostag_",
+"text": "Top 20 Free AI Tools You Need in 2026↓\n\n1. Productivity & Work\n\nGetStudyPal – Learn anything 10x faster - https://t.co/ymuQqg93hr\nPerplexity – Research\nPDF AI – Chat with PDF\nGoogle Gemini – Research\n\n2. Writing & Study\n\nChatGPT – AI Writing\nGrammarly – Grammar and Editing\nQuillbot – Paraphrasing\nNotion AI – Writing, summarization & task organization\n\n3. Audio, Voice & Music\n\nMusic Arena - Find the best AI music models\nElevenLabs – AI Voice Generation & Cloning\nNatural Readers – Text to Speech\nSuno – AI Music Creation\n\n4. App & Web Development (Prototyping / No-Code)\n\nReplit – Browser-Based AI App Builder\nv0 by Vercel – React Components via Prompts\nRocket - Build  Web apps and mobile apps\nLovable – Build Apps via Chat Prompts\n\n5. Coding & Development\n\nAskCodi – Coding Support\nGitHub Copilot – AI Coding Partner\nCursor – AI-Powered Code Editor\n\n6. Image & Design\n\nMicrosoft Copilot Designer – AI Art Generation\nMidJourney – AI Image Generation\nCanva Magic Studio – AI Design Tools\nIdeogram – AI Branding & Visuals",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/ginacostag_/status/2093749397792424405",
+"createdAt": "Sat Aug 29 17:15:31 +0000 2026"
 },
 {
 "userName": "askalphaxiv",
@@ -64,12 +56,12 @@
 "createdAt": "Wed Aug 26 21:47:00 +0000 2026"
 },
 {
-"userName": "arthurallshire",
-"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
-"likeCount": 66,
-"retweetCount": 2,
-"url": "https://x.com/arthurallshire/status/2092306772396839206",
-"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
+"userName": "aimevekari21",
+"text": "Every generation inherits a new world—yet some things travel with us, woven into our memories and identity.\n\nFrom contemporary spaces to global skylines, meet the #AMSSignatureSari.\n\nIndian by root. Future by design.\n\n#AIconcept #Fashion @IndiaFutureAI @phimaanshu @CSEPlanB https://t.co/9FadJ6ZqN1",
+"likeCount": 6,
+"retweetCount": 1,
+"url": "https://x.com/aimevekari21/status/2093195722439139684",
+"createdAt": "Fri Aug 28 04:35:24 +0000 2026"
 },
 {
 "userName": "isidentical",
@@ -80,12 +72,12 @@
 "createdAt": "Wed Aug 26 20:33:37 +0000 2026"
 },
 {
-"userName": "SD_Tutorial",
-"text": "VA-Judger 😀📹\n\nthe open-source reward model built specifically for joint video and audio generation\n\nIt aligns multi-modal AI models with human preferences to keep visuals, sound, and text perfectly in sync.\n\n👇\n https://t.co/wqlzg2A5mS https://t.co/0vNRuEcvhJ",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/SD_Tutorial/status/2092538394056479018",
-"createdAt": "Wed Aug 26 09:03:25 +0000 2026"
+"userName": "isidentical",
+"text": "Introducing fal Research\n\nThe post-training arm of fal, building frontier RL infrastructure for diffusion models.\n\nWe are optimizing models for the right target because we know what customers want, and co-designing the architecture with our inference know-how.",
+"likeCount": 321,
+"retweetCount": 23,
+"url": "https://x.com/isidentical/status/2092712085922934955",
+"createdAt": "Wed Aug 26 20:33:36 +0000 2026"
 },
 {
 "userName": "_HelenaT",
@@ -96,49 +88,81 @@
 "createdAt": "Tue Aug 25 18:31:22 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @Alacritic_Super: The coolest part of Microduck might not be the robot. It's how it learns to move.\n\nThis repo shows the full reinforcem…",
-"likeCount": 907,
-"retweetCount": 88,
-"url": "https://x.com/ClementDelangue/status/2093436013850894452",
-"createdAt": "Fri Aug 28 20:30:14 +0000 2026"
+"userName": "jepslife",
+"text": "Ritual didn’t start by launching a chain. It started with a diagnosis: AI was becoming infrastructure, but the rails were still closed, permissioned, and hard to verify. https://t.co/E3TdRRm8SB",
+"likeCount": 12,
+"retweetCount": 0,
+"url": "https://x.com/jepslife/status/2093922161140572175",
+"createdAt": "Sun Aug 30 04:42:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @antoinepirrone: Sneak peak at Microduck's monitoring tool, running fully on device ! You can see a visualization of the little ToF sens…",
-"likeCount": 410,
-"retweetCount": 30,
-"url": "https://x.com/ClementDelangue/status/2093309300403786222",
-"createdAt": "Fri Aug 28 12:06:43 +0000 2026"
+"text": "RT @CyberRobooo: This adorable little guy, while playing with it, somehow managed to have its batteries fall out.\n\nNow the community seems…",
+"likeCount": 148,
+"retweetCount": 16,
+"url": "https://x.com/ClementDelangue/status/2093707728715669722",
+"createdAt": "Sat Aug 29 14:29:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @rehan_shei: okay so I trained the Microduck to recover from when I dropkick the little shit and the results are beautiful https://t.co/…",
+"likeCount": 318,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2093692819454021716",
+"createdAt": "Sat Aug 29 13:30:41 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @chris_j_paxton: my feed is like 50% microduck and the remained is in context learning stuff. total duck cultural victory",
+"likeCount": 236,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2093793301790949576",
+"createdAt": "Sat Aug 29 20:09:58 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @AndreBaltazar: I accidentally created dog mode on microduck or what is this? 😂 https://t.co/ecXiCVLUgj",
-"likeCount": 134,
-"retweetCount": 5,
+"likeCount": 154,
+"retweetCount": 7,
 "url": "https://x.com/ClementDelangue/status/2093377144407691520",
 "createdAt": "Fri Aug 28 16:36:18 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Escapation: Welcome to your new simulation Microduck. https://t.co/Aq4ZajRPp3",
-"likeCount": 808,
-"retweetCount": 59,
-"url": "https://x.com/ClementDelangue/status/2093304906165719353",
-"createdAt": "Fri Aug 28 11:49:16 +0000 2026"
+"text": "RT @HannesVonEssen: How fast can we make it run?? My current best is 1.6 m/s https://t.co/gV4KjK7OfK",
+"likeCount": 654,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2093875712042082335",
+"createdAt": "Sun Aug 30 01:37:26 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @gorkem: @KeyTryer we will release the weights, model keeps improving",
-"likeCount": 733,
-"retweetCount": 47,
-"url": "https://x.com/ClementDelangue/status/2093328529475641580",
-"createdAt": "Fri Aug 28 13:23:08 +0000 2026"
+"text": "RT @sujaldw: yes it do a backflip too!! this was fun https://t.co/dZtza7tybU",
+"likeCount": 226,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2093673123333742966",
+"createdAt": "Sat Aug 29 12:12:25 +0000 2026"
+},
+{
+"userName": "Joshbocanegra",
+"text": "Size matters, actually. https://t.co/A7NtYNZv7j",
+"likeCount": 3,
+"retweetCount": 2,
+"url": "https://x.com/Joshbocanegra/status/2092978894479736887",
+"createdAt": "Thu Aug 27 14:13:48 +0000 2026"
+},
+{
+"userName": "genuenci",
+"text": "https://t.co/jFWGtGH4jX",
+"likeCount": 7,
+"retweetCount": 1,
+"url": "https://x.com/genuenci/status/2093265589900857411",
+"createdAt": "Fri Aug 28 09:13:02 +0000 2026"
 },
 {
 "userName": "TheZvi",
 "text": "https://t.co/pc9JlnBTj5",
-"likeCount": 57,
+"likeCount": 61,
 "retweetCount": 2,
 "url": "https://x.com/TheZvi/status/2093300371615600805",
 "createdAt": "Fri Aug 28 11:31:14 +0000 2026"

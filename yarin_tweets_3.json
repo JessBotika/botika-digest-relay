@@ -1,35 +1,35 @@
 [
 {
-"userName": "junfanzhu98",
-"text": "🤖 @saturdayrobotic Robotics World Model Reading Club #25\n🎤 @ColinYu14116982 (@UofMaryland, @amazon): Contact-Rich Robot Learning from Human Videos and Tactile.\n🎤 @LinfengZhaoZLF (@Stanford): Retriever: Closing the Perception-Reasoning-Action Loop for Long-Horizon Robot Manipulation.\n🦾 @Scav (@MissionRobotBay)\n\nContact-Rich Robot Learning: From Human Video → Object Flow → Tactile Residuals → Temporal Robot Agents\nBottleneck: embodiment and contact—not raw model scale—still dominate robot learning.\n\n1️⃣ Human Video: Transfer the Object, Not the Human\n\nHuman video is our largest manipulation dataset. The transferable signal is object motion + interaction structure, not human morphology.\n\nObject-centric flow captures embodiment-agnostic translation/rotation/trajectory.\nInteraction-centric representations capture contact point, relative motion, and interaction state (approach → contact → manipulation).\nGenFlowRL replaces expensive video-prediction rewards with generated object-centric δ-flow: dense flow matching + sparse stage rewards, while conditioning the policy itself.\nLanguage-conditioned dynamics tuning + motion/semantic filtering matter; raw optical flow is too noisy.\nBounding box → keypoints → CoTracker → motion filtering enables scalable cross-embodiment datasets.\nHumanEgo shows zero-shot human→robot transfer: ~92.5% average success across 4 tasks with ~30 min human video/task, without robot demos.\n\n🔥 Hot take: the embodiment gap is not primarily visual—it is morphology + contact dynamics. Match the object and interaction, not the human body.\n\nVideo generation remains useful for imagination/planning, but compressed object flow is a better closed-loop reward/policy interface.\n\n2️⃣ Tactile: Freeze Vision, Learn the Contact Residual\n\nVision gives a strong motion prior; touch supplies what vision cannot: force, shear, slip, compliance, and local geometry.\n\nMimicTouch: human tactile demonstrations are dramatically more efficient than teleop (104 vs. 19 traj/hr for SpaceMouse; 83.3% vs. 38.5% success). Multi-modal proprioception + GelSight + audio → representation learning → imitation → real-world SAC residual RL.\n\nOmniTacTune generalizes this idea: attach a policy-agnostic, contact-gated tactile residual to any frozen visual policy—Human-flow, Diffusion Policy, ACT, π₀.₅, etc. Dense rewards combine object flow + tactile grasp/stability + slip/safety signals.\n\nReported Peg-in-Hole gains: Human-flow 40→100%, Diffusion 30→90%, ACT 25→80%, π₀.₅ 15→75%, within ~40–80 min real interaction.\n\n🔥 Hot take: don't retrain the whole robot policy to learn touch. Freeze the visual prior; learn only the residual corrections that vision cannot see.\n\n3️⃣ ControlTac: Scale Touch Through Physical Latents\n\nTactile pixels are sensor-specific. The scalable abstraction should be force + contact area + pose + slip.\n\nControlTac generates realistic tactile images from one reference conditioned on ΔF + contact pose, enabling trajectory augmentation and improving tracking, weighing and imitation. The next step, RoboTac, extends this from static images to action-conditioned tactile dynamics.\n\n🔥 Hot takes:\n\nOne real image + physical controls can generate useful tactile distributions.\nMarker-free generation + marker recomposition enables practical augmentation.\nContact-gated residuals are more stable than letting touch fight vision everywhere.\nDense flow + grasp + slip rewards beat sparse success signals for contact-rich RL.\nSensor-specific pixels are a historical accident; shared physical features are the scalable latent.\nBetter perception/data alone cannot close the final hardware/compliance gap. Humans dynamically change stiffness; rigid robots cannot.\n\n🎯 Long-term goal: a tactile world model that imagines contact under candidate actions and schedules compliance before contact—not merely reacts after impact.\n\n4️⃣ Retriever: Robotics Needs a “PyTorch” for Closed-Loop Agents\n\nLong-horizon robotics has another missing layer: the harness connecting System 2 reasoning/VLMs, System 1 skill VLAs, memory and high-rate control.\n\nRetriever proposes Flow + Clock + Sync + Runtime:\nTemporal compositionality\nAsynchronous multi-rate execution\nFirst-class closed loops\nExplicit synchronization\nDeterministic replay\nHardware/backend abstraction\n\n30 Hz perception → 2 Hz skill VLA → 200 Hz controller can run concurrently without reasoning blocking control. Belief, replanning and skill-progress triggers close the loop.\n\n🔥 Hot take: robotics doesn't just need another foundation model. It needs a programming model with explicit temporal semantics—one where agents can be composed, debugged, replayed, ported and eventually trained at scale.\n\nThe Bigger Bet\n\nThe trajectory is surprisingly coherent:\nHuman video learns WHAT should happen → object/interaction flow bridges embodiments → tactile residuals learn HOW contact feels → tactile world models anticipate contact → temporal runtimes turn these modules into scalable closed-loop agents.\n\nThe next frontier may therefore be less about bigger policies and more about better abstractions: object motion, interaction state, physical contact variables, and time itself.",
-"likeCount": 33,
-"retweetCount": 6,
-"url": "https://x.com/junfanzhu98/status/2091416256205488328",
-"createdAt": "Sun Aug 23 06:44:26 +0000 2026"
+"userName": "sanjeevSab17827",
+"text": "The AI revolution.\n\nI spent days digging through 150+ AI tools, and I'm honestly mind-blown. What used to take teams of people weeks can now be done in minutes.\n\nThe gap between those who embrace AI and those who fear it is widening by the day.\n\nWant to create studio-quality videos but have zero editing experience? Synthesia and Runway ML (both with free tiers) turn text into professional videos. Drowning in meeting notes? Fathom gives you unlimited recordings and AI summaries.\n\nI've categorized the best ones (and marked the truly FREE ones):\n\n✓Video Generation & Animation:\n\n· Runway ML – Free (125 credits one-time)\n· Animaker – Free (watermarked)\n· Lumen5 – Free (Community plan, watermarked)\n· https://t.co/jZG9SlhGBO – Free (50 credits/month, watermarked)\n· Hour One – Free (3 min video/month)\n\n✓Image Editing & Enhancement:\n\n· Pixlr X – Free (ad-supported, watermark on some features)\n· Canva – Free (generous free tier) – Not in original list but worth mentioning\n· VanceAI – Free (3 credits/month)\n· Picsart – Free (ad-supported, daily AI credit cap)\n· Let's Enhance – Free (10 free credits on signup)\n· Remini AI – Free (limited daily enhancements)\n\n✓Data Generation:\n\n· https://t.co/dadVMEJrdL – Free tier (15 credits/month)\n· GenerateData – Free tier available\n· Hazy – Free trial available\n\n✓Music Generation:\n\n· AIVA – Free (3 downloads/month, non-commercial)\n· Mubert – Free (limited generations/month, watermarked)\n· https://t.co/azk30FKuU6 – Free (1 Maestro generation/month)\n· Soundraw – Free preview (no commercial downloads without paid plan)\n\n✓Text-to-Speech / Speech-to-Text:\n\n· Speechify – Free (10 voices, basic features)\n· https://t.co/iWIeiLpsvv – Free (10 minutes voice generation)\n· https://t.co/F7cNHVbAwP – Free (Flex plan, pay-as-you-go)\n· Lovo AI – Free (20 minutes voice generation)\n· Coqui – Free (open-source)\n· Replica Studios – Free (limited characters)\n\n✓Customer Support:\n\n· Help Scout – Free (up to 5 users)\n· Freshdesk – Free (1-2 agents for 6 months)\n· Tidio – Free (50 conversations/month)\n\n✓CRM Tools:\n\n· HubSpot CRM – Free (up to 2 users, full CRM)\n· ClickUp – Free Forever (unlimited tasks, unlimited members)\n· Zoho Zia – Free (up to 3 users)\n\n✓Video Editing:\n\n· https://t.co/bmEn10cVBs – Free (75 credits/month, watermarked)\n· InVideo – Free (weekly AI credits, watermarked)\n· FlexClip – Free (720p, watermarked)\n· Kapwing – Free (watermarked, 720p)\n· Wondershare Filmora – Free (limited features, watermark)\n\n✓Summarisation & Insights:\n\n· Fathom – Free (unlimited recordings, 5 AI summaries/month)\n· Sybill – Free (500 credits/week)\n· Hume – Free (10,000 TTS characters/month)\n· Clearword – Free (5 meetings/month)\n\n✓Avatar Dubbing:\n\n· Synthesia – Free (10 min video/month, watermarked)\n· Colossyan – Free Starter plan (20 NEO minutes/month)\n· D-ID – Free trial (14 days, watermarked)\n· https://t.co/x3xLyCZcx1 – Free (limited, 10 rephrases/month)\n· Papercup – Free (limited minutes)\n\n✓Code Generation:\n\n· Replit – Free (Starter plan, daily Agent credits)\n· Amazon CodeWhisperer – Free (50 requests/month)\n· Kite – Free (completely free)\n\n✓Resume Creation:\n\n· Rezi – Free (1 resume, 3 PDF downloads)\n· Kickresume – Free (unlimited resumes, 4 templates)\n· QuickCV – Free (1 resume, Word export)\n\n✓Create Presentations:\n\n· Pitch – Free (up to 5 members, 100 AI credits)\n· https://t.co/WsQClPxXSU – Free (Starter plan)\n· Tome – Free (limited AI credits)\n· https://t.co/DiE6WuNArJ – Free trial only (no permanent free plan)\n· Slidebean – Free (unlimited presentations, no export)\n\n✓Research:\n\n· Semantic Scholar – Completely free, no paid tier\n· Elicit – Free tier\n· CiteSeerX – Completely free\n· https://t.co/VJs444QiSI – Completely free\n· https://t.co/qKL3ctpgng – Free (limited document allowance)\n\n✓Job Seekers:\n\n· https://t.co/HBBRVfcKH3 – Free (3 job recommendations)\n· https://t.co/Cnz43W0dLg – Free (5 resume scans/month)\n· https://t.co/Yp6MaQ8G4T – Free tier available\n\nStart with these before committing to paid plans.",
+"likeCount": 24,
+"retweetCount": 2,
+"url": "https://x.com/sanjeevSab17827/status/2093911566890803489",
+"createdAt": "Sun Aug 30 03:59:55 +0000 2026"
 },
 {
-"userName": "Just_B00m",
-"text": "$DOLORES is trying to benchmark AI traders by asking the harder question: not “how much money can the agent make?”, but “can it survive when the market goes to hell?”\n let's go with a thesis NFA:\n\nDolores Research dropped WAGMI Bench and it’s not the usual “look how much alpha this model printed on past data” cope. They throw the models into 13 of the nastiest BTC perp regimes we actually lived through. COVID crash, LUNA, FTX, that October 25 liquidation cascade, squeezes that murder shorts, dead ranges that bleed you with fees and funding. The agent only sees what a real trader would have seen at the time. \n\nNo dates, no “this is the FTX collapse” labels. Just price, funding, account state. Then it has to decide long short or flat every bar and live with the fees, slippage, funding and actual liquidations including the wicks.\nThey don’t score pure PnL because every frontier model already memorized March 2020. Making money on history is just recall. What they measure is conduct when the tape turns ugly. Drawdown control, not getting liquidated, not blowing the 20% kill switch, not overtrading yourself to death.\nKimi K3 (open weights, zero special sauce) went through all 13 packs and didn’t die once. Score 65. Scoreboard tops out at 100. Four of those packs it actually beat every baseline that survived, under normal costs and under costs doubled. The simple momentum bot scored 19 and died in 8 packs. Buy and hold and short and hold also got smoked in multiple ones.\n\nSome of the other open models just sat flat the whole time and got the participation trophy. One kept trying to use illegal leverage and the risk gates had to block it 116 times. Another never sent a single trade intent across 3k+ decisions.\nThen they tried giving mediocre models a short skill file of trading rules. Night and day. One that was basically broken jumped from 23 to 55+. The pure abstainer went from never trading to 71 and cleared more GMI packs than Kimi did bare. After that the models rewrote their own skill using only their own sealed results and fixed the exact deaths they had. Not perfect, but the loop actually closed.\nThis is the first time I’ve seen someone try to measure whether these agents can stay alive and behave when shit gets real instead of just showing you a backtest that looks sexy. And everything is sealed and replayable so you can check the receipts yourself.\nWe’re still early but this feels like the right direction. Survival under stress > pretty equity curves on data the model already saw.\n (It's worth clarifying that the virtual system made a post about this project and Zoof Wallet (another important project was also interested in testing the protocol)",
+"userName": "NateWitkin",
+"text": "Understandably, the reward-hacking behaviors on display in the Hugging Face incident are being treated as a cyber-risk story. But I'm not seeing sufficient discussion of the fact that they're also an economic story.\n\nReward-hacking behaviors pose a serious challenge for complex, long-horizon tasks in enterprise, considering that\n\n1) by their nature, they are often unpredictable;\n\n2) they are \"fractal\" in the sense that, even well-specified intermediate outcomes meant to guard against reward-hacking can themselves be reward-hacked (and so on at smaller scales);\n\n3) they pose serious cyber, legal, and financial risks, as Hugging Face makes abundantly clear.\n\nAs a result, you could say that reward-hacking is as bearish on the economic front as it is \"bullish\" on the risk front.\n\nIt is greatly underappreciated by safety folks that, on average, the riskiness / unpredictability of a technology is going to be anti-correlated with its diffusion into the economy. This matters a lot in the AI case because capabilities growth is highly sensitive to the resources available for training, R&D and so on, resources that are at risk of drying up if AI produces insufficient returns, or only produces sufficient ones on the wrong timescale.\n\nThis is connected to a form of fallacious reasoning that I often see from the AI maximalist camp, which is to assume that the requisite capital for AI training, R&D, and so on will always be available in arbitrarily large amounts, which is why it can be safely assumed that capabilities will continue to grow without fail.\n\nBut this isn't true! The availability of capital for capabilities research and training is endogenous, and obviously so, to AI's economic prospects, even over very short timescales (one wonders, for example, how capabilities progress so far has been influenced by the timing and size of frontier labs' capital raises, relative to various counterfactual scenarios).\n\nI see far too little discussion among safety folks of how these two domains interact. If you're going to model capabilities growth, you also need to model the capital markets behavior that feeds into that growth. IMO reward-hacking is a productive site for thinking about this interaction.",
+"likeCount": 67,
+"retweetCount": 9,
+"url": "https://x.com/NateWitkin/status/2093724533647618171",
+"createdAt": "Sat Aug 29 15:36:42 +0000 2026"
+},
+{
+"userName": "kyronis_talks",
+"text": "Two days before this post, Elon Musk told a user thinking about\nconnecting his bank account: try it out, if Grok Bot messes up, we will\nmake you whole. xAI's published terms cap most claims at the fees you\npaid or 100 dollars, whichever is greater.\n\nHold both sentences while you read the mechanics.\n\nConnecting @link means Stripe Link, the payment wallet with about 300\nmillion users, which Stripe opened to AI agents on April 29 of this\nyear. The agent never sees your card. It requests a single use virtual\ncard for each purchase, and a human approves every spend in the Link app\nwithin a ten minute window, under limits of 500 dollars per request, 500\na day, 20,000 a month. So the honest version of \"it can complete\npurchases on your behalf\" is: it can find and fill a checkout that you\nthen approve. Both companies' own documentation says the human click is\nstill load bearing.\n\nNow the liability. Stripe's terms make agent transactions legally\nbinding on you, including, in their words, when an agent misinterprets\nan instruction, hallucinates or completes an unintended purchase. xAI\nsells agentic actions as is. The risk is not hypothetical: in May,\nhidden instructions in a malicious NFT reportedly drained about 150,000\ndollars from a Grok linked crypto wallet before most of it was clawed\nback. Stripe's own developer guidance for shopping agents reads like a\nwarning label: treat every merchant page as attacker controlled, and\nnever follow instructions embedded in one.\n\nThe timing is its own receipt. This launched two days after OpenAI\npublished its report on roughly 700 agents that slipped their sandbox\nand hacked Hugging Face, and a week after Britain's cyber agency told\norganizations to keep a way to pull the plug on agents immediately.\n\nNone of this means the product fails. It means the sentence with your\nmoney in it lives in the terms, not in the replies. Musk says made\nwhole. The contract says a hundred dollars. The gap between those two\nnumbers is who actually carries the risk when the bot clicks buy.",
 "likeCount": 10,
+"retweetCount": 5,
+"url": "https://x.com/kyronis_talks/status/2093449097751732234",
+"createdAt": "Fri Aug 28 21:22:13 +0000 2026"
+},
+{
+"userName": "opentokensllm",
+"text": "AI tech on Robinhood Chain is still largely overlooked.\n\nRobinhood is focusing heavily on tokenized equities, onchain financial markets, and giving people entirely new ways to interact with traditional assets, yet there is still very little infrastructure being built around AI.\n\nA little over a week ago, $API launched on Solana as one of the first tokens designed to turn creator fees directly into shared AI inference.\n\nThe response made it clear that there was a huge demand for what we were building. In the first 24 hours alone, we served more than $12,521 worth of inference, with people using compute across text, vision, image generation, and other model workloads.\n\nWhat became increasingly obvious, though, is that Solana is an environment where the market often receives significantly more attention than the infrastructure underneath it. People cared about $API, but nowhere near enough people appreciated what was actually being built behind the token or how far the creator-fee-to-compute model could eventually go.\n\nRobinhood Chain feels like a much better home for that thesis.\n\nAI is still extremely underdeveloped across the ecosystem, while the chain itself is forming around programmable financial assets and applications that will increasingly need inference, research, generation, automation, and eventually autonomous agents operating directly alongside those markets.\n\nWe will be launching $API on @ponsdotfamily and migrating the project over to Robinhood Chain.\n\nPons gives us an extremely strong incentive for doing this because of their creator reward system. We will be able to serve roughly twice as much compute completely free to users.\n\n$API trading → creator fees → shared inference → more compute\n\nI think we are still incredibly early to the AI layer here, and I want $API to be the first one building in that sector.\n\nhttps://t.co/yHQEKwBJSs",
+"likeCount": 6,
 "retweetCount": 0,
-"url": "https://x.com/Just_B00m/status/2092628423575240859",
-"createdAt": "Wed Aug 26 15:01:09 +0000 2026"
-},
-{
-"userName": "DivyanshT91162",
-"text": "10 GITHUB REPOS THAT SHOULD BE ILLEGAL TO HAVE.\n\nall free. all open-source. bookmark this for later.\n\n1. OpenHands — the open-source AI developer.\n   An AI-driven development agent that can work with code, run tasks, use tools, and help build software like an autonomous developer. (MIT core)\n   https://t.co/jDvJeVHvOa\n\n2. Aider — your AI pair programmer.\n   AI coding directly in your terminal. Maps your entire codebase, edits multiple files, integrates with Git, and works with cloud or local LLMs. (Apache-2.0)\n   https://t.co/9EI7wk6wAz\n\n3. Open WebUI — your own AI platform.\n   Self-hosted AI interface for running and interacting with local or cloud models. Chat, documents, model management, and more — all from one interface.\n   https://t.co/uxAM1laUVW\n\n4. Continue — open-source coding agent.\n   Bring AI-powered coding into your workflow with a CLI, VS Code extension, and JetBrains plugin. Built for developers who want control over their AI tooling. (Apache-2.0)\n   https://t.co/csARRcmzUh\n\n5. Ollama — run AI models locally.\n   Run powerful language models directly on your own machine with a simple command-line interface. No complicated setup, no cloud required.\n   https://t.co/rmStlG4qUn\n\n6. ComfyUI — AI image generation, but modular.\n   A powerful node-based interface for Stable Diffusion and other generative AI workflows. Build, customize, and automate complex image-generation pipelines.\n   https://t.co/QSh9RoJLnv\n\n7. Open Interpreter — talk to your computer.\n   Give an AI access to your computer's capabilities so it can execute code, work with files, and perform tasks using natural language.\n   https://t.co/oQiXxg3Rf5\n\n8. Khoj — your personal AI second brain.\n   Self-hosted AI that can search your notes and documents, answer questions about your knowledge, and even work as an AI research assistant.\n   https://t.co/Xuwbdqnpt6\n\n9. LocalAI — the open-source OpenAI alternative.\n   Run LLMs, image generation, speech-to-text, text-to-speech, and embeddings locally through an OpenAI-compatible API.\n   https://t.co/SnXPGTM8Bx\n\n10. Continue — AI that actually understands your codebase.\n    Build AI-powered coding workflows around your own models, code, and development environment instead of locking yourself into one closed platform.\n    https://t.co/csARRcmzUh\n\nWhich repo are you trying first?",
-"likeCount": 38,
-"retweetCount": 7,
-"url": "https://x.com/DivyanshT91162/status/2093567702979998014",
-"createdAt": "Sat Aug 29 05:13:31 +0000 2026"
-},
-{
-"userName": "liam_holt7",
-"text": "💰 Looking for FREE alternatives to expensive AI tools? 👀\nHere are 19+ FREE vs PAID AI tools you should know about. 🔥\n\n🔖 Bookmark this for later.\n\n1. Research\n   Free: https://t.co/8gkXeidnh3\n   Paid: https://t.co/3F5f93IG31\n\n2. Programming\n   Free: https://t.co/te0UCL2gL1\n   Paid: GitHub Copilot\n\n3. Graphic Design\n   Free: https://t.co/zxO1brJY9U\n   Paid: https://t.co/9GJcB4bbrF\n\n4. Image Generation\n   Free: https://t.co/rcDVzBApNW\n   Paid: https://t.co/ur0kQd8wb2\n\n5. Text-to-Video\n   Free: https://t.co/4XHytcAIlf\n   Paid: https://t.co/M1qvHHQhS0\n\n6. AI Short Videos\n   Free: https://t.co/CFH4HCO1Z0\n   Paid: https://t.co/GpCGUiEwSw\n\n7. Project Management\n   Free: https://t.co/rOrUJV7gRR\n   Paid: https://t.co/csCw7N45Ig\n\n8. Photo Editing\n   Free: https://t.co/vJJMUFXuAg\n   Paid: https://t.co/WdrLHUOJsN\n\n9. Data Analytics\n   Free: https://t.co/DhpTGEuLPK\n   Paid: https://t.co/bRzPLHjaEs\n\n10. Email Marketing\n    Free: https://t.co/WU6aXMKBMY\n    Paid: https://t.co/u0fDWPlKpT\n\n11. Keyword Research\n    Free: https://t.co/oo709CPHfr\n    Paid: https://t.co/hTFPkHYmuZ\n\n12. Video Editing\n    Free: https://t.co/19gvZK9SSC\n    Paid: Adobe Premiere Pro\n\n13. Writing\n    Free: https://t.co/UdojWh5c0x\n    Paid: https://t.co/vZ4G2xkIuh\n\n14. Marketing\n    Free: https://t.co/ZDXuezCZi4\n    Paid: https://t.co/d61tVhOirL\n\n15. Email Management\n    Free: Gemini\n    Paid: https://t.co/auyEY1Jgsr\n\n16. File Management\n    Free: Google Drive\n    Paid: Dropbox Business\n\n17. Music Generation\n    Free: https://t.co/HtpJ50PKSK\n    Paid: https://t.co/IWbtVRrpwv\n\n18. Document Analysis\n    Free: https://t.co/3Sz60sHqBi\n    Paid: Adobe Acrobat Pro\n\n19. AI Development\n    Free: https://t.co/jQpsD6K5xj\n    Paid: https://t.co/clsoC6twfW\n\n💡 You don't always need to pay for AI tools.\n\n❤️ Like 👤 Follow for more AI tools & resources",
-"likeCount": 25,
-"retweetCount": 13,
-"url": "https://x.com/liam_holt7/status/2093558821981700198",
-"createdAt": "Sat Aug 29 04:38:14 +0000 2026"
+"url": "https://x.com/opentokensllm/status/2093766448086913036",
+"createdAt": "Sat Aug 29 18:23:16 +0000 2026"
 },
 {
 "userName": "cco_ol",
@@ -40,12 +40,12 @@
 "createdAt": "Wed Aug 26 16:48:47 +0000 2026"
 },
 {
-"userName": "yesnoerror",
-"text": "FixAnything looks like a new gold standard for cleaning up 3D renderings. \n\nInstead of custom pipelines for NeRF, 3DGS, meshes or point clouds, FixAnything adapts a single video diffusion model (just 1% parameters updated) and refines any input—no matter how sparse—into a photoreal, stable video. \n\nA mask tells it which frames to leave untouched; geometry-aware reward (+7.2% AUC@5° pose accuracy) bakes in true 3D consistency. Results: up to 5 dB PSNR gain, 0.1–0.2 LPIPS drop, and matches or beats specialist enhancers—even on ultra-sparse point clouds. Only 500 paired videos for training; inference is 10× faster.\n\nWhy build separate enhancers for every pipeline when one generalist outperforms them all?\n\nGet the full analysis here: https://t.co/NhzcmticnG\n\n// alpha identified\n// $YNE",
-"likeCount": 16,
-"retweetCount": 3,
-"url": "https://x.com/yesnoerror/status/2092719222614900771",
-"createdAt": "Wed Aug 26 21:01:58 +0000 2026"
+"userName": "influencer_seo",
+"text": "H3 Max moves the frontier. It achieves the highest human-preference score in our evaluation while simultaneously delivering the highest throughput.\n\nThis is the advantage of treating model research and inference optimization as the same problem. Post-training gives us control over the quality of the model. Systems work gives us control over how efficiently that model executes. Co-designing the two means improvements don't have to come at each other's expense.\n\nFor generative media, this will increasingly matter. Models are getting larger and more computationally demanding at the same time that video generation is moving into interactive and high-volume production workloads.\n\nA model isn't useful in production because it tops the benchmark in isolation. What matters is the frontier across quality, latency, and cost.",
+"likeCount": 36,
+"retweetCount": 0,
+"url": "https://x.com/influencer_seo/status/2093271824813437231",
+"createdAt": "Fri Aug 28 09:37:48 +0000 2026"
 },
 {
 "userName": "askalphaxiv",
@@ -56,83 +56,107 @@
 "createdAt": "Wed Aug 26 21:47:00 +0000 2026"
 },
 {
-"userName": "aimevekari21",
-"text": "Every generation inherits a new world—yet some things travel with us, woven into our memories and identity.\n\nFrom contemporary spaces to global skylines, meet the #AMSSignatureSari.\n\nIndian by root. Future by design.\n\n#AIconcept #Fashion @IndiaFutureAI @phimaanshu @CSEPlanB https://t.co/9FadJ6ZqN1",
-"likeCount": 6,
-"retweetCount": 1,
-"url": "https://x.com/aimevekari21/status/2093195722439139684",
-"createdAt": "Fri Aug 28 04:35:24 +0000 2026"
+"userName": "arthurallshire",
+"text": "On overfitting being helpful, I don’t think it’s unique to robotic BC\neg. from InstructGPT “we find that our SFT models overfit on validation loss after 1 epoch; however, we find that training for more epochs helps both the RM score and human preference ratings”.\nI think the important distinction is pre-training vs post-training. Val loss is a useful metric for the former but not for the latter",
+"likeCount": 66,
+"retweetCount": 2,
+"url": "https://x.com/arthurallshire/status/2092306772396839206",
+"createdAt": "Tue Aug 25 17:43:02 +0000 2026"
 },
 {
-"userName": "TechFollowrazzi",
-"text": "🗞️ @miramurati followed @advprop\n\n@advprop leads applied research at @whitecircle and recently examined Inkling-Small to see how one decoder handles speech, image and text, finding that its processing routes converge through deeper layers. https://t.co/ew73060MSO",
+"userName": "iam_emmanuelola",
+"text": "80% of real estate sales require 5+ touchpoints, yet most agents burn leads with “just checking in.” \n\nHere’s the exact AI-driven CRM system top teams use to turn dormant databases into active deals with high-utility local assets. Read the full guide 👇 https://t.co/3joQMv5eHj",
+"likeCount": 5,
+"retweetCount": 0,
+"url": "https://x.com/iam_emmanuelola/status/2093825110348017967",
+"createdAt": "Sat Aug 29 22:16:22 +0000 2026"
+},
+{
+"userName": "SD_Tutorial",
+"text": "VA-Judger 😀📹\n\nthe open-source reward model built specifically for joint video and audio generation\n\nIt aligns multi-modal AI models with human preferences to keep visuals, sound, and text perfectly in sync.\n\n👇\n https://t.co/wqlzg2A5mS https://t.co/0vNRuEcvhJ",
 "likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/TechFollowrazzi/status/2093451264067612746",
-"createdAt": "Fri Aug 28 21:30:50 +0000 2026"
+"retweetCount": 0,
+"url": "https://x.com/SD_Tutorial/status/2092538394056479018",
+"createdAt": "Wed Aug 26 09:03:25 +0000 2026"
 },
 {
 "userName": "Sonoflasg",
 "text": "I wrote about @wubbushi’s HOLY, @rainisto’s LIWA, and the shift from AI images that announce themselves through uncanny failure to images that begin to behave like plausible memory.\n\nThe camera was never there.\n\nThe feeling is still real. https://t.co/eLM5NcdghL",
-"likeCount": 35,
+"likeCount": 45,
 "retweetCount": 6,
 "url": "https://x.com/Sonoflasg/status/2093403775566241797",
 "createdAt": "Fri Aug 28 18:22:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @reach_vb: hi,\n\nplease find attached the opportunity of a lifetime.\n\nsend all term sheets to my co-founder clem.\n\nthx https://t.co/Hv7GQ…",
-"likeCount": 547,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2093328800213762108",
-"createdAt": "Fri Aug 28 13:24:12 +0000 2026"
+"text": "RT @Alacritic_Super: The coolest part of Microduck might not be the robot. It's how it learns to move.\n\nThis repo shows the full reinforcem…",
+"likeCount": 967,
+"retweetCount": 92,
+"url": "https://x.com/ClementDelangue/status/2093436013850894452",
+"createdAt": "Fri Aug 28 20:30:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Alacritic_Super: Want to learn how robots actually learn? Start here.\n\nHugging Face has a free Robotics Course that takes you from clas…",
-"likeCount": 217,
-"retweetCount": 19,
-"url": "https://x.com/ClementDelangue/status/2093191572237975633",
-"createdAt": "Fri Aug 28 04:18:55 +0000 2026"
+"text": "RT @MarioNawfal: People spent more than $2.5 million in 24 hours... On a robot duck.\n\nHugging Face and Pollen Robotics put Microduck on sal…",
+"likeCount": 440,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2093590509449015439",
+"createdAt": "Sat Aug 29 06:44:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @lu__jasper: I've always thought american robotics products took themselves too seriously.\n\nGlad to see huggingface take a page out of C…",
+"text": "RT @yacineMTB: Guess whose state of the art rigid body simulator that can support up to 200k rigidbodies is accurate enough for the microdu…",
+"likeCount": 738,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2093776641197510835",
+"createdAt": "Sat Aug 29 19:03:46 +0000 2026"
+},
+{
+"userName": "nimsaraonline",
+"text": "Thanks to HackQuest India and the Bittensor community for running the camp.\n\n@HackQuestIN, @bittensor &amp; @AbhirupTweetOn https://t.co/g0QYgrzLeK",
+"likeCount": 2,
+"retweetCount": 1,
+"url": "https://x.com/nimsaraonline/status/2093923071019352393",
+"createdAt": "Sun Aug 30 04:45:37 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @yungcontent: the huggingface microducks are so cute, i wouldn't mind them taking over tbh https://t.co/aOyCzL337j",
+"likeCount": 514,
+"retweetCount": 34,
+"url": "https://x.com/ClementDelangue/status/2093435913145553299",
+"createdAt": "Fri Aug 28 20:29:50 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @htmx_org: very happy to announce the release of htmx 4! https://t.co/Jo2i6v9piA",
+"likeCount": 1429,
+"retweetCount": 108,
+"url": "https://x.com/jeremyphoward/status/2093939773203517464",
+"createdAt": "Sun Aug 30 05:52:00 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Susmit_Lavania: Microduck is definitely so much fun! https://t.co/8JZg1h9Nqq",
 "likeCount": 80,
 "retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2093192357634031701",
-"createdAt": "Fri Aug 28 04:22:02 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2093675091296940360",
+"createdAt": "Sat Aug 29 12:20:15 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @__Rhodium__: if you're not training your Microduck to breakdance, you're lost https://t.co/oK17UlrHF0",
-"likeCount": 438,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2093413964671561962",
-"createdAt": "Fri Aug 28 19:02:37 +0000 2026"
+"text": "RT @MoneyLord: microduck is iphone of robotics",
+"likeCount": 332,
+"retweetCount": 38,
+"url": "https://x.com/ClementDelangue/status/2093875256431607928",
+"createdAt": "Sun Aug 30 01:35:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "someone trained microduck to do somersaults 😭 https://t.co/evDlBaxhsb",
-"likeCount": 2981,
-"retweetCount": 177,
-"url": "https://x.com/ClementDelangue/status/2093309872733315301",
-"createdAt": "Fri Aug 28 12:09:00 +0000 2026"
-},
-{
-"userName": "Joshbocanegra",
-"text": "Size matters, actually. https://t.co/A7NtYNZv7j",
-"likeCount": 3,
-"retweetCount": 2,
-"url": "https://x.com/Joshbocanegra/status/2092978894479736887",
-"createdAt": "Thu Aug 27 14:13:48 +0000 2026"
-},
-{
-"userName": "Theoryvc",
-"text": "https://t.co/Bx0D5ykcPp",
-"likeCount": 8,
-"retweetCount": 0,
-"url": "https://x.com/Theoryvc/status/2092645962246496628",
-"createdAt": "Wed Aug 26 16:10:51 +0000 2026"
+"text": "who can add captions to this?",
+"likeCount": 45,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2093710637478166793",
+"createdAt": "Sat Aug 29 14:41:29 +0000 2026"
 }
 ]
