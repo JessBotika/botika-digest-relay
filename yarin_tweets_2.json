@@ -1,122 +1,122 @@
 [
 {
-"userName": "gudanglifehack",
-"text": "🌐 Web Development Tips for Beginners — Part 6\n\nOnce you can build basic websites, start thinking beyond \"Does it work?\"\n\nA professional developer also asks:\n\n\"Is it secure, maintainable, accessible, fast, and easy to use?\"\n\nHere are some important tips to develop that mindset. 👇\n\n1️⃣ Learn the Browser First\n\nBefore jumping into advanced frameworks, understand what the browser actually does.\n\nLearn how:\n\nHTML → DOM → CSS → JavaScript → Browser Rendering\n\nUnderstanding the browser makes debugging much easier.\n\n2️⃣ Understand the DOM\n\nJavaScript interacts with webpages through the DOM.\n\nLearn how to:\n\n• Select elements\n\n• Change content\n\n• Change styles\n\n• Create elements\n\n• Remove elements\n\n• Handle events\n\nThis foundation will also make learning React easier.\n\n3️⃣ Don't Ignore Accessibility\n\nA website should be usable by as many people as possible.\n\nLearn to use:\n\n• <button>\n\n• <label>\n\n• <nav>\n\n• <main>\n\n• <header>\n\n• <footer>\n\ninstead of using generic elements for everything.\n\nAlso consider:\n\n• Keyboard navigation\n\n• Screen readers\n\n• Focus states\n\n• Form labels\n\n• Alternative text\n\nAccessibility isn't an optional decoration.\n\n4️⃣ Learn Responsive Design Properly\n\nDon't create separate websites for every screen size.\n\nLearn techniques such as:\n\n• Flexbox\n\n• CSS Grid\n\n• Media Queries\n\n• Relative Units\n\n• Responsive Images\n\nYour layout should adapt naturally to different devices.\n\n5️⃣ Understand State\n\nAs applications become interactive, you'll need to manage changing data.\n\nFor example:\n\n• User logged in\n\n• Cart updated\n\n• Modal opened\n\n• Task completed\n\n• Theme changed\n\nLearn the difference between:\n\n• Local State\n\n• Global State\n\n• Server State\n\nThis becomes especially important when working with React.\n\n6️⃣ Learn API Error Handling\n\nDon't assume every request succeeds.\n\nA better pattern is:\n\ntry {\n  const response = await fetch(\"/api/products\");\n  if (!response.ok) {\n    throw new Error(\"Request failed\");\n  }\n  const data = await response.json();\n} catch (error) {\n  console.error(error);\n}\n\nYour application should gracefully handle failures.\n\n7️⃣ Learn About CORS\n\nWhen frontend and backend applications communicate, you may encounter: CORS Error\n\nDon't simply copy a configuration from the internet.\n\nUnderstand:\n\n• What CORS is\n\n• Why browsers enforce it\n\n• Which origins are allowed\n\n• Why credentials matter\n\nUnderstanding the reason behind the error is more valuable than memorizing the fix.\n\n8️⃣ Learn Environment Variables\n\nDifferent environments often need different configurations.\n\nFor example:\n\nDevelopment → Testing → Production\n\nEnvironment variables can store configuration such as:\n\n• API URL\n\n• Database URL\n\n• API Keys\n\n• Application Secrets\n\nNever hard-code sensitive credentials into your source code.\n\n9️⃣ Learn Security Fundamentals Early\n\nYou don't need to become a cybersecurity expert.\n\nBut understand common risks:\n\n• XSS\n\n• CSRF\n\n• SQL Injection\n\n• Broken Authentication\n\n• Insecure File Uploads\n\n• Exposed Secrets\n\nAlso remember:\n\nNever trust data simply because it came from your own frontend.\n\n🔟 Learn Database Indexing\n\nWhen your database becomes large, queries can become slow.\n\nIndexes can help frequently searched fields.\n\nFor example:\n\nUsers\n\n ├── id\n\n ├── name\n\n ├── email ← frequently searched\n\n └── created_at  \n\nBut don't add indexes everywhere.\n\nIndexes also have storage and write-performance costs.\n\n1️⃣1️⃣ Learn Pagination\n\nDon't return thousands of records to the browser at once.\n\nInstead:\n\n• Page 1 → 20 records\n\n• Page 2 → 20 records\n\n• Page 3 → 20 records\n\nPagination improves performance and user experience.\n\n1️⃣2️⃣ Optimize Images\n\nLarge images can make websites unnecessarily slow.\n\nLearn about:\n\n• Compression\n\n• Responsive Images\n\n• Modern Image Formats\n\n• Lazy Loading\n\n• Proper Dimensions\n\nOften, optimizing images provides a noticeable performance improvement.\n\n1️⃣3️⃣ Don't Optimize Without Measuring\n\nYou don't need to optimize every line of code.\n\nFirst identify the actual problem.\n\nUse:\n\n• Browser DevTools\n\n• Performance Tools\n\n• Network Tab\n\n• Database Query Analysis\n\nThen optimize the bottleneck.\n\nMeasure → Identify → Optimize → Measure Again\n\n1️⃣4️⃣ Learn Testing Gradually\n\nYou don't need to start with complex testing frameworks.\n\nBegin with:\n\nManual Testing → Unit Testing → Integration Testing → End-to-End Testing\n\nFor example, if you build a login system, test:\n\n• ✔ Correct credentials\n\n• ✔ Wrong password\n\n• ✔ Invalid email\n\n• ✔ Empty fields\n\n• ✔ Non-existent user\n\n• ✔ Network failure\n\n1️⃣5️⃣ Learn Deployment Basics\n\nA developer should understand what happens after:\n\ngit push\n\nLearn the basic deployment flow:\n\nCode → Git → Build → Deploy → Environment Variables → Database → Live Application\n\nOnce you understand this process, deploying projects becomes much less intimidating.\n\n🧠 Start Thinking Like a Developer\n\nWhen you build a feature, don't ask only:\n\n\"How do I code this?\"\n\nAlso ask:\n\n• What can go wrong?\n\n• How should the user experience it?\n\n• How will this scale?\n\n• Is it secure?\n\n• Is it accessible?\n\n• How will I test it?\n\n• How will I maintain it?\n\nThat's the shift from learning to code to learning to develop software.\n\n🚀 Remember\n\nYou don't need to master everything before building.\n\nBuild something.\n\nEncounter a problem.\n\nResearch it.\n\nFix it.\n\nUnderstand why it happened.\n\nThen move forward.\n\nEvery bug you solve is teaching you something that a tutorial cannot. 💻🔥\n\n🚀 Double Tap ❤️ For More Useful Tips",
-"likeCount": 13,
-"retweetCount": 8,
-"url": "https://x.com/gudanglifehack/status/2094623471901008034",
-"createdAt": "Tue Sep 01 03:08:46 +0000 2026"
+"userName": "lifemaximised",
+"text": "Been testing Claude Fable 5.1 for Google Ads and gotta say it's cracked...\n\nThe research, reasoning, and data analysis capabilities literally 10x'd.\n  \nSo here's a 10-stage AI workflow to automate 80% of it:\n\n(Literally every prompt you'll need. Save this)\n\nStage 0: Build the project brain\n\nBefore asking for anything, create a Claude Project and feed it everything.\n\n- Product pages\n- Best sellers\n- Customer reviews\n- Objection docs\n- Competitor URLs\n- Meta ads\n- Google Ads Transparency Center links\n- Search terms reports\n- Winning ad copy\n- Offer details\n- Brand guidelines\n- Past landing pages\n- Performance exports\n\nThen run this prompt\n\n“Act as the Google Ads strategy brain for this brand. Read all uploaded context and create a working brand profile covering: ICP, core pain points, buying triggers, objections, emotional language customers use, top products, strongest offers, competitor positioning, current funnel gaps, and Google Ads opportunities. Do not make recommendations yet. First summarise the context and ask me what is missing.”\n\nThe quality of the outputs you’ll get from this AI workflow will directly correlate with the quality of the context you give it here.\n\nAnd also the quality of the Claude model you use, since newer models have more context tokens and better reasoning skills.\n\nStage 1: Customer language mining\n\n“Search Reddit, YouTube comments, Amazon reviews, TikTok comments, and niche forums for people discussing problems related to [PRODUCT CATEGORY]. Extract the exact words they use when describing the problem, what they have tried, why those solutions failed, what outcome they want, and what would make them buy. Format this as: Quote / Pain Point / Desired Outcome / Funnel Stage / Possible Ad Angle.”\n\nThis gives you the language that keyword tools would never show you.\n\nIf someone writes:\n\n“I’m tired of wasting money on supplements that do nothing.”\n\nThat can be a winning ad angle right there.\n\nStage 2: Competitor angle map\n\n“Research these competitors: [COMPETITOR 1], [COMPETITOR 2], [COMPETITOR 3]. Use Google Ads Transparency Center, Meta Ad Library, their landing pages, product pages, offers, guarantees, reviews, and email capture flows. Build a table showing: offer, main promise, ad hooks, landing page angle, proof used, objections handled, pricing position, and what they are NOT saying.”\n\nThen run:\n\n“Based on this competitor research, identify the 5 most validated market angles and the 5 biggest white-space angles we can own. For each angle, explain which funnel stage it belongs to and what campaign type should test it first.”\n\nIf 3 competitors are all running the same hook, that angle is validated.\n\nYou don’t even need to be original. Just add your unique spin to what’s already working. \n\nStage 3: Keyword research\n\n“Using the customer language, competitor research, product pages, and search intent data, build a full Google Ads keyword universe for [BRAND]. Split it into: branded, competitor, high-intent product, problem-aware, solution-aware, comparison, ingredient/material, use-case, gift/occasion, and negative keywords. For each keyword, include funnel stage, intent level, match type, campaign/ad group recommendation, and landing page angle.”\n\nThen run:\n\n“Now prioritise this keyword research report into a 30-day launch plan. Separate must-launch keywords from phase 2 tests. Flag any keywords that are high volume but low commercial intent.”\n\nThis stops the campaign from becoming a messy keyword dump.\n\nStage 4: Campaign architecture\n\n“Turn the finalized keyword research report into a complete Google Ads account structure. Include campaign names, ad group names, keyword match types, bidding strategy, starting budget split, exclusions, negative keyword rules, and when each campaign should launch. Use this structure: branded search, branded shopping, non-branded shopping, non-branded search, competitor search, PMax remarketing with brand exclusions, display remarketing, Demand Gen, and TOF search tests.”\n\nThen add:\n\n“Explain why each campaign exists, what signal it is meant to produce, and what metric decides whether it scales, holds, or gets cut.”\n\nEvery campaign needs to play a role in your ecosystem. If it doesn’t, you should just stop running it.\n\nStage 5: RSA copy production\n\n“Write responsive search ad copy for [PRODUCT] targeting [KEYWORD]. Funnel stage: [BOF/MOF/TOF]. Use the customer language and competitor gap analysis above. Give me 15 headlines under 30 characters and 4 descriptions under 90 characters. Include: benefit-led headlines, problem-led headlines, proof-led headlines, offer-led headlines, and urgency-led headlines. Make sure headline 1 matches the search intent.”\n\nThen run:\n\n“Create 3 ad variations for this keyword: one direct-response version, one proof-heavy version, and one problem-agitation version. Explain which audience each variation is for.”\n\nBOF copy should sound like the product is the obvious answer.\n\nMOF copy should make the benefit feel believable.\n\nTOF copy should make the problem impossible to ignore.\n\nStage 6: Merchant Center feed optimization\n\n“Rewrite this product title for Google Shopping using the structure: Brand + Product Type + Core Keyword + Key Feature + Use Case/Benefit. Stay under 150 characters. Give me 10 variations ranked by likely search intent.”\n\nThen:\n\n“Write a Merchant Center description for [PRODUCT]. Use up to 5,000 characters. Include all relevant buyer keywords naturally, cover features, benefits, use cases, materials/ingredients, sizing/specs, objections, and reasons to choose this product. Do not include irrelevant keywords or products we do not sell.”\n\nThen:\n\n“Audit this product feed for missed Google Shopping opportunities. Check title, description, product type, Google product category, images, variants, pricing, promotions, shipping, reviews, and attributes. Tell me exactly what to change.”\n\nStage 7: Landing page angles\n\n“Build a landing page brief for [PRODUCT] targeting people searching [KEYWORD]. Awareness stage: [PROBLEM-AWARE/SOLUTION-AWARE/PRODUCT-AWARE]. Structure it as: hero headline, subheadline, proof bar, problem section using customer language, mechanism section, product section, comparison section, reviews, objection handling, FAQ, CTA. Make sure the first screen matches the search query.”\n\nThen run:\n\n“Create 5 landing page angle variations for this product based on different search intents. For each one, give me the hero, core promise, proof required, objections to handle, and CTA.”\n\nSend the best one into Claude Code.\n\nNow you have an intent-specific page created instead of 1 generic PDP trying to convert everyone.\n\nStage 8: Creative production\n\nConnect Higgsfield MCP inside Claude.\n\nThen run:\n\n“Create a 9-shot YouTube ad concept for [PRODUCT] based on this angle: [ANGLE]. Style can be claymation / UGC / cinematic product demo. For each shot, include scene description, voiceover, on-screen text. Use GPT Images 2.0 for the statics.”\n\nThen:\n\n“Create 5 new creative concepts from the strongest customer pain points in the research. Each concept should include hook, visual metaphor, script, image prompts, animation prompts, and CTA.”\n\nIf you wanna run video ads, animate your statics with Seedance 2.5\n\nUse Fable to write the scripts.\n\nShouldn’t cost more than $3 per ad.\n\nStage 9: Daily campaign audit\n\nConnect Google Ads MCP (or just export report CSV)\n\nThen run:\n\n“Pull the last 7 days of Google Ads performance and compare it to the previous 7 days. For each campaign show spend, revenue, ROAS, conversions, CPA, CPC, CTR, impression share, search lost IS rank, search lost IS budget, and top search terms. Flag: ROAS down 20%+, CPA up 20%+, budget-limited winners, rank-limited campaigns, branded leakage in non-branded campaigns, wasted spend queries, and products spending with no conversions.”\n\nNext up:\n\n“Turn this audit into an action list. For each action, include the campaign, issue, evidence, recommended change, risk level, and expected impact.”\n\nStage 10: Weekly scaling plan\n\n“Compare performance across 7, 14, and 30-day windows. Identify campaigns, products, keywords, ads, and landing pages with consistent green signals. Recommend which budgets to increase by 15-20%, which to hold, which to decrease, and which tests to launch next. Do not recommend scaling anything unless the signal is consistent across multiple windows.”\n\nThen:\n\n“Create next week’s testing roadmap. Include 3 keyword tests, 3 creative tests, 2 landing page tests, 2 feed tests, and 1 campaign structure test. Rank them by expected impact and implementation difficulty.”\n\nAnd this is how you get your full ecosystem set up:\n\n- Research feeds keywords\n- Keywords feed campaigns\n- Campaign data feeds landing pages\n- Landing pages feed creative\n- Creative feeds new angles\n- Audits feed the next week of tests\n\nIf you want me to build this full AI Google Ads production system for your brand btw, DM me “FABLE” and I’ll show you what it’d look like",
+"likeCount": 323,
+"retweetCount": 15,
+"url": "https://x.com/lifemaximised/status/2094966852887687492",
+"createdAt": "Wed Sep 02 01:53:14 +0000 2026"
 },
 {
-"userName": "DCrypto171",
-"text": "💥💥🚀🚀💥💥👽👽🥰💥🚀🚀💥💥\nYou’ve got AI that’s powerful… and locked behind a handful of companies.  \nYou’ve got blockchains that are transparent… and spend most of their energy on busywork.\n\nLightchain AI is the stack that says: why not make the network itself useful?\n\nHere’s the idea, clean and real:\n\n🧠 Proof of Intelligence (PoI)\nNodes don’t just mine hashes or park tokens. They do actual AI work—training, inference, optimization—and that work helps secure the chain. Security and progress pull in the same direction.\n\n⚙️ AIVM (Artificial Intelligence Virtual Machine) \nA dedicated layer for running AI tasks on-chain, built to play nice with tools developers already use (think TensorFlow and PyTorch), not just another smart-contract box.\n\n🔒 Privacy by design\nPrompts can be encrypted before they leave your machine. You pay from your wallet. Workers get paid to compute—not to snoop.\n\n🚀 It’s not just a whitepaper\nMainnet is live. There’s a chat you can try, models served by real GPUs, a desktop hub, explorer, DAO, DEX, faucet, and bridge. Devnet is already pushing faster blocks and more models on-chain.\n\nThe mission is simple and honest: democratize AI—so builders, users, and orgs can collaborate without handing the keys to a single company.\n\nLCAI is the native token that pays for AI jobs, gas, and governance. Utility first. No magic numbers. No “guaranteed moon.”\n\nIf you want AI that’s yours to use, yours to verify, and not trapped in someone else’s cloud—this is the conversation worth having.\n\nCurious? Start at https://t.co/rLCB3HpIea and the docs. Come see the product, not just the pitch. ⚡🌐\n\nNot financial advice. Do your own research.",
-"likeCount": 24,
+"userName": "NateWitkin",
+"text": "Understandably, the reward-hacking behaviors on display in the Hugging Face incident are being treated as a cyber-risk story. But I'm not seeing sufficient discussion of the fact that they're also an economic story.\n\nReward-hacking behaviors pose a serious challenge for complex, long-horizon tasks in enterprise, considering that\n\n1) by their nature, they are often unpredictable;\n\n2) they are \"fractal\" in the sense that, even well-specified intermediate outcomes meant to guard against reward-hacking can themselves be reward-hacked (and so on at smaller scales);\n\n3) they pose serious cyber, legal, and financial risks, as Hugging Face makes abundantly clear.\n\nAs a result, you could say that reward-hacking is as bearish on the economic front as it is \"bullish\" on the risk front.\n\nIt is greatly underappreciated by safety folks that, on average, the riskiness / unpredictability of a technology is going to be anti-correlated with its diffusion into the economy. This matters a lot in the AI case because capabilities growth is highly sensitive to the resources available for training, R&D and so on, resources that are at risk of drying up if AI produces insufficient returns, or only produces sufficient ones on the wrong timescale.\n\nThis is connected to a form of fallacious reasoning that I often see from the AI maximalist camp, which is to assume that the requisite capital for AI training, R&D, and so on will always be available in arbitrarily large amounts, which is why it can be safely assumed that capabilities will continue to grow without fail.\n\nBut this isn't true! The availability of capital for capabilities research and training is endogenous, and obviously so, to AI's economic prospects, even over very short timescales (one wonders, for example, how capabilities progress so far has been influenced by the timing and size of frontier labs' capital raises, relative to various counterfactual scenarios).\n\nI see far too little discussion among safety folks of how these two domains interact. If you're going to model capabilities growth, you also need to model the capital markets behavior that feeds into that growth. IMO reward-hacking is a productive site for thinking about this interaction.",
+"likeCount": 83,
+"retweetCount": 13,
+"url": "https://x.com/NateWitkin/status/2093724533647618171",
+"createdAt": "Sat Aug 29 15:36:42 +0000 2026"
+},
+{
+"userName": "cco_ol",
+"text": "# AI Image Generation Prompt\n\nCreate an **Ultra-HD 8K photorealistic Islamic portrait**, vertical **9:16 aspect ratio**, themed **“12 Rabi-ul-Awwal Mubarak”**.\n\nUse the **uploaded reference image as the exact face and identity reference**. Preserve the person’s facial features, face shape, complexion, hairstyle, and overall identity accurately.\n\nCreate a stylish digital composition where the **same young man appears twice within the frame**. The main subject is positioned on the **left side**, walking naturally toward the viewer with a confident, graceful expression.\n\nHe is wearing a **clean white Arabic-style jubbah**, a **black imamah/pagri with elegant white detailing**, **white sneakers**, and **round sunglasses**. He has **dark hair and light, neatly trimmed stubble**.\n\nThe background should have an elegant **12 Rabi-ul-Awwal Islamic celebration atmosphere**, featuring subtle **green and white illumination, soft glowing Islamic patterns, tasteful mosque-inspired architecture, crescent motifs, gentle bokeh lights, and a premium spiritual ambiance**. Add beautifully integrated Urdu/Arabic-style typography reading **“12 ربیع الاول مبارک ہو”**.\n\nCinematic lighting, realistic fabric texture, natural walking posture, realistic shadows and reflections, professional fashion photography, shallow depth of field, HDR, ultra-detailed skin texture, realistic proportions, sharp facial details, premium color grading, sophisticated composition, **photorealistic, 8K, Ultra-HD, highly detailed, no distortion, no extra fingers, no duplicate facial features**.",
+"likeCount": 11,
+"retweetCount": 2,
+"url": "https://x.com/cco_ol/status/2092655507018596546",
+"createdAt": "Wed Aug 26 16:48:47 +0000 2026"
+},
+{
+"userName": "yesnoerror",
+"text": "FixAnything looks like a new gold standard for cleaning up 3D renderings. \n\nInstead of custom pipelines for NeRF, 3DGS, meshes or point clouds, FixAnything adapts a single video diffusion model (just 1% parameters updated) and refines any input—no matter how sparse—into a photoreal, stable video. \n\nA mask tells it which frames to leave untouched; geometry-aware reward (+7.2% AUC@5° pose accuracy) bakes in true 3D consistency. Results: up to 5 dB PSNR gain, 0.1–0.2 LPIPS drop, and matches or beats specialist enhancers—even on ultra-sparse point clouds. Only 500 paired videos for training; inference is 10× faster.\n\nWhy build separate enhancers for every pipeline when one generalist outperforms them all?\n\nGet the full analysis here: https://t.co/NhzcmticnG\n\n// alpha identified\n// $YNE",
+"likeCount": 17,
+"retweetCount": 3,
+"url": "https://x.com/yesnoerror/status/2092719222614900771",
+"createdAt": "Wed Aug 26 21:01:58 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Even the choir singer jobs aren't safe from robots 😂😂😂\n\nKidding aside, this might be one of the most beautiful things I've seen from robots in a while. Each microduck has its own audio identity, tied to that individual robot that it keeps for life so that makes it even more poetic!",
+"likeCount": 302,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2094826553980989719",
+"createdAt": "Tue Sep 01 16:35:45 +0000 2026"
+},
+{
+"userName": "onlyarweave",
+"text": "We don't really know what will be incredibly valuable as a dataset into the future. \n\nThink about NFTs. They fell out of fashion for many in the past few years, now there's a renewed interest. \n\nMaybe it's because many NFTs were pre-ai image generation. It's a mark in time.",
+"likeCount": 25,
+"retweetCount": 10,
+"url": "https://x.com/onlyarweave/status/2094525062665880062",
+"createdAt": "Mon Aug 31 20:37:43 +0000 2026"
+},
+{
+"userName": "HouMuza",
+"text": "An introduction to technical AI safety research: alignment, reward hacking, robustness, agents and more, before we turn these ideas into data, Python and reproducible experiments. https://t.co/1cRZ9NvkCk",
+"likeCount": 55,
 "retweetCount": 5,
-"url": "https://x.com/DCrypto171/status/2093704695910949174",
-"createdAt": "Sat Aug 29 14:17:53 +0000 2026"
+"url": "https://x.com/HouMuza/status/2094359523527885073",
+"createdAt": "Mon Aug 31 09:39:56 +0000 2026"
 },
 {
-"userName": "Cybernews",
-"text": "What if the key to disappearing from security cameras wasn't high-tech gear, but a printed shirt?\n\nAt first glance, this brightly colored garment looks like an eccentric fashion statement, but to AI surveillance networks, the wearer is practically invisible. Berlin-based designer Simon Weckert, the artist who famously faked a Google Maps traffic jam using 99 smartphones, has developed “Digital Camouflage,” an apparel collection engineered to disrupt object-recognition algorithms.\n\nInstead of blinding cameras with LEDs, the garment uses an “adversarial attack.” Because AI models don’t conceptualize humans, they merely scan for statistical patterns like silhouettes and limb proportions, Weckert used generative AI to create seamless, high-frequency visual noise. The overlapping shapes and colors break the continuity of the body’s outline. As a result, object detectors fail to bind the visual data into a recognizable human figure, preventing the system from drawing a tracking box around the wearer. By merging computational noise with everyday apparel, Weckert has created a physical, wearable countermeasure against the expansion of automated public tracking.\n\nWould you wear adversarial clothing to protect your privacy in public, or is it a losing battle against surveillance tech? Let us know your thoughts below.\n\nMedia: Simon Weckert",
-"likeCount": 18,
-"retweetCount": 6,
-"url": "https://x.com/Cybernews/status/2094424978896929064",
-"createdAt": "Mon Aug 31 14:00:02 +0000 2026"
-},
-{
-"userName": "askalphaxiv",
-"text": "\"On-Policy Self-Distillation in Diffusion Models\"\n\nDiffusion RL gets a reward only after the final image, even though the model actually acts through many intermediate denoising steps.\n\nDiffusionOPSD turns that endpoint reward into explicit reward-improving targets at the model’s own intermediate states, then distills those targets back into the model and continually refreshes them on-policy.\n\nAcross two diffusion backbones and ten evaluators, it gets the best held-out score in 19 of 20 settings while cutting training GPU-hours by up to 63%.\n\nThe key idea is treating diffusion alignment less like noisy trajectory-level RL and more like continuously refreshed self-distillation with direct intermediate supervision.\n\nhttps://t.co/JvXWcb5DjZ",
-"likeCount": 244,
-"retweetCount": 26,
-"url": "https://x.com/askalphaxiv/status/2092730555960033502",
-"createdAt": "Wed Aug 26 21:47:00 +0000 2026"
-},
-{
-"userName": "aimevekari21",
-"text": "Every generation inherits a new world—yet some things travel with us, woven into our memories and identity.\n\nFrom contemporary spaces to global skylines, meet the #AMSSignatureSari.\n\nIndian by root. Future by design.\n\n#AIconcept #Fashion @IndiaFutureAI @phimaanshu @CSEPlanB https://t.co/9FadJ6ZqN1",
-"likeCount": 6,
-"retweetCount": 1,
-"url": "https://x.com/aimevekari21/status/2093195722439139684",
-"createdAt": "Fri Aug 28 04:35:24 +0000 2026"
+"userName": "thisiszayyy",
+"text": "✱ Axis Robotics is a Physical AI data engine company addressing a critical bottleneck: robots lack a vast, pre-existing internet-like dataset to learn from ✱ https://t.co/SSqZcqOe7i",
+"likeCount": 15,
+"retweetCount": 9,
+"url": "https://x.com/thisiszayyy/status/2094624544199717112",
+"createdAt": "Tue Sep 01 03:13:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "10,000+ microducks were pre-ordered in just five days!\n\nWe weren't expecting that many (it's more than the total number of reachy mini in a year) and it will generate delays so from now on, it will be first-ordered, first shipped to make it fair for everyone! https://t.co/3P4iFjGoFn",
-"likeCount": 809,
-"retweetCount": 64,
-"url": "https://x.com/ClementDelangue/status/2094421922159210979",
-"createdAt": "Mon Aug 31 13:47:53 +0000 2026"
+"text": "RT @victormustar: Hugging Face is (also) the best place to write about AI.\n\n&gt; Your articles are now automatically linked from your model pa…",
+"likeCount": 81,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2094896810787561758",
+"createdAt": "Tue Sep 01 21:14:55 +0000 2026"
 },
 {
-"userName": "vpicciuolo",
-"text": "I built these tools because I needed them in real production systems. After running, fixing and improving them, I decided they shouldn’t stay private.\n\nNow both are open source. 🔥\n\nOne lightweight. One AI-powered. Both built to solve real problems. https://t.co/LfIhnhP3QD",
-"likeCount": 9,
-"retweetCount": 0,
-"url": "https://x.com/vpicciuolo/status/2094495415379108307",
-"createdAt": "Mon Aug 31 18:39:55 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @chriswolfvision: Papers on recurrent transformers:  https://t.co/st9EcCxUC4 (ours): train full Tr, distill -&gt; rec Tr \nhttps://t.co/HBqE…",
+"likeCount": 305,
+"retweetCount": 47,
+"url": "https://x.com/jeremyphoward/status/2094897740669202661",
+"createdAt": "Tue Sep 01 21:18:37 +0000 2026"
 },
 {
-"userName": "_HelenaT",
-"text": "More of us are leaning on LLM-as-a-judge to evaluate models now. However, a model's grade is an opinion until a human checks it. In Part 3 of the series, I wrote about the end to end journey to verify LLM judge with human labeling. https://t.co/RFgaRLfOdQ",
-"likeCount": 12,
-"retweetCount": 1,
-"url": "https://x.com/_HelenaT/status/2092318936394285439",
-"createdAt": "Tue Aug 25 18:31:22 +0000 2026"
-},
-{
-"userName": "jepslife",
-"text": "Ritual didn’t start by launching a chain. It started with a diagnosis: AI was becoming infrastructure, but the rails were still closed, permissioned, and hard to verify. https://t.co/E3TdRRm8SB",
-"likeCount": 31,
-"retweetCount": 2,
-"url": "https://x.com/jepslife/status/2093922161140572175",
-"createdAt": "Sun Aug 30 04:42:01 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @badlogicgames: my mom is using gemini on her android phone to write angry letters to companies/banks who did her wrong by law and they…",
+"likeCount": 5548,
+"retweetCount": 134,
+"url": "https://x.com/jeremyphoward/status/2093948870367862980",
+"createdAt": "Sun Aug 30 06:28:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @YIMBYLAND: This is how the great technological stagnation ends.\n\nIn a Cambrian explosion of consumer and non-consumer hardware. It’s go…",
-"likeCount": 420,
-"retweetCount": 26,
-"url": "https://x.com/ClementDelangue/status/2094258649317183982",
-"createdAt": "Mon Aug 31 02:59:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @yacineMTB: One of the first policies successfully trained with obstacles. Am I the first person to train models in RL with this many ri…",
-"likeCount": 384,
-"retweetCount": 11,
-"url": "https://x.com/ClementDelangue/status/2094426396248388086",
-"createdAt": "Mon Aug 31 14:05:40 +0000 2026"
-},
-{
-"userName": "zbruceli",
-"text": "What if the 1991 Linus Torvalds woke up in 2026 and called the whole AI stack bad taste? And an open source approach to change that. https://t.co/OShq54Dzng",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/zbruceli/status/2094484008457625719",
-"createdAt": "Mon Aug 31 17:54:35 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @dougfeig: Yay I got MicroDuck to throw! Quite a windup https://t.co/QuTqTSxyJl",
-"likeCount": 175,
+"text": "RT @andrew_n_carr: so it turns out you can drive the Micro Duck with monocular motion capture... https://t.co/4zQimytXwQ",
+"likeCount": 127,
 "retweetCount": 8,
-"url": "https://x.com/ClementDelangue/status/2094533858951618575",
-"createdAt": "Mon Aug 31 21:12:41 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2094824887995027621",
+"createdAt": "Tue Sep 01 16:29:07 +0000 2026"
 },
 {
-"userName": "khemaridh",
-"text": "I wrote this a week ago and my Grok Bot usage has exploded since https://t.co/RmZADsGubD",
-"likeCount": 41,
-"retweetCount": 2,
-"url": "https://x.com/khemaridh/status/2093759587585573328",
-"createdAt": "Sat Aug 29 17:56:00 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Henry_J_Brew: trained a microduck to slide like a penguin https://t.co/6jcHotBczX",
+"likeCount": 180,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2094895016258773262",
+"createdAt": "Tue Sep 01 21:07:47 +0000 2026"
 },
 {
-"userName": "stariy_bogX",
-"text": "https://t.co/BxuOhVoeAh",
-"likeCount": 18,
+"userName": "ClementDelangue",
+"text": "RT @rrhoover: Microduck meetups are gonna be lit",
+"likeCount": 143,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2094942686918643754",
+"createdAt": "Wed Sep 02 00:17:13 +0000 2026"
+},
+{
+"userName": "uquidcard",
+"text": "https://t.co/4aV5tFIr3M",
+"likeCount": 37,
 "retweetCount": 0,
-"url": "https://x.com/stariy_bogX/status/2094097864146190350",
-"createdAt": "Sun Aug 30 16:20:11 +0000 2026"
+"url": "https://x.com/uquidcard/status/2094735780229034376",
+"createdAt": "Tue Sep 01 10:35:02 +0000 2026"
 }
 ]

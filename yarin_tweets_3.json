@@ -1,59 +1,43 @@
 [
 {
+"userName": "LianwenJ",
+"text": "Hugging Face Daily Papers - 2026-08-27\n33 papers worth scanning today: agents, video generation, native visual reasoning, RL/distillation, VLA robotics, retrieval, and scientific workflows.\n\n1. VoiceMem: Streaming Dual-Brain Memory for Real-Time Interaction — Conversational systems, such as duplex speech language models (SLMs), still lack a streaming, accurate, and empathetic memory system as their soul. https://t.co/NRb9JYvzS8\n2. VGI-Bench: Probing Visual Intelligence in Video Generation Models — Recent studies suggest that video generation models can exhibit certain forms of zero-shot visual reasoning through generated frames. Yet reliable. https://t.co/VbxixTvWtD\n3. FrontierChallenge: Evaluating Scientific Workflow Completion — Scientific agents increasingly analyze data, execute code, and produce research artifacts, yet most benchmarks emphasize final answers, isolated pr. https://t.co/33oofosl1S\n4. WarpSAC: Towards the Pinnacle of Scalable Off-policy RL by Rethinking Exploration and Exploitation — Massively parallel simulation changes the data regime in which off-policy reinforcement learning (RL) is trained, challenging stabilizers designed. https://t.co/kvF1YOgik0\n5. JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution — Agent capability is not determined by the model alone. The agent harness, encompassing memory management, planning strategy, action protocol, and t. https://t.co/ayyw7l4u5F\n6. VBVR-Pro: A Scalable and Verifiable Suite for Native Visual Reasoning — Native visual reasoning treats visual generation as the medium of reasoning itself: visual states (i.e. images and videos) are not merely inputs to. https://t.co/pPCfeczzNF\n7. D$^3$-MOPD: Adaptive Dynamic Domain ScheDuling for Efficient Multi-Teacher Distillation — Multi-teacher on-policy distillation (MOPD) distills several domain-expert teachers into a single student by minimizing per-domain reverse-KL diver. https://t.co/fUHcYBINQK\n8. Agent-G$^2$: Gaussian Guidance for Agentic Reinforcement Learning — Hint-based reinforcement learning addresses reward sparsity in long-horizon agentic tasks by retaining a prefix of an expert trajectory before each. https://t.co/JbYN48PNLw\n9. Is Next-Chunk Reasoning RL Really Better than SFT? Revisiting Training Strategies under no-CoT Data — Recent work proposes next-chunk reasoning RL for leveraging no-CoT data---corpora such as worked solutions and textbook derivations that contain re. https://t.co/hFcQgUwxI1\n10. Long-Horizon Audio-Visual Generation for Persistent Stories and Interactive Worlds — Video generation is progressing beyond isolated clips toward long-form narratives and interactive worlds, requiring models to preserve identities. https://t.co/9p5ciSmCNN\n11. Open-MOPD: Diagnosing and Fixing Capability Imbalance in Multi-Teacher On-Policy Distillation — Multi-teacher on-policy distillation (M-OPD) has emerged as a promising paradigm for consolidating domain-specialized reinforcement learning (RL) e. https://t.co/QLEVjh5dON\n12. Video-IFBench: Evaluating Instruction Following of Multimodal LLMs in Video Understanding Scenarios — Multimodal Large Language Models (MLLMs) have shown strong performance in video understanding. However, their ability to follow instructions in thi. https://t.co/sv6XVeP9cy\n13. StreamPI: Streaming Multimodal Temporal Modeling for Vision-Language-Action Models — Vision-Language-Action (VLA) models have demonstrated effectiveness in robot manipulation, yet state-of-the-art models such as pi0.5 operate under. https://t.co/rAfY3346Ge\n14. Code World Model: Coding Agent as World Brain — World models aim to simulate how complex environments evolve under actions and events, yet existing video-based world models primarily learn dynami. https://t.co/6AuL72DoiX\n15. V-Rubrics: Visual Faithfulness via Rubric-Based Reinforcement Learning — Vision-language models can produce fluent answers that are insufficiently grounded in the visual evidence: a single unsupported object, chart value. https://t.co/a5OFvFl5Sf\n16. SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-Repository Stack Migration? — Modern software systems accumulate technical debt over decades of development, which makes migration expensive and largely manual. As coding agents. https://t.co/J3NSkgVhcW\n17. Rubrics as Visual-Repair Context for Self-Evolving UI-to-Code Generation — Large vision-language models have shown strong progress in UI-to-code generation, yet their test-time self-evolution remains unstable. We first ide. https://t.co/h3amaUsFIn\n18. Are Android GUI Agents Robust Against Runtime Anomalies? AnTrap: Evaluating Agents in Dynamic Adversarial Environments — GUI agents often encounter dynamic anomalies when deployed on Android devices, from unexpected pop-ups to action misuse, yet existing benchmarks la. https://t.co/Mt01WftQFD\n19. The Handoff Tax: Continuing Non-Native Trajectories in LLM Agents — Coding agents perform long-running tasks spanning dozens of model calls, tool uses, and code edits. As these runs unfold, users face a practical co. https://t.co/xjJZY4EG7B\n20. A Programming Paradigm for Spatiotemporal Composability — Modern software -- from plugin systems to self-evolving agent harnesses -- increasingly requires dynamic composition, yet its formal foundations re. https://t.co/Vbk96gQenU\n21. Gated Recurrent Transformers: Expressive Depth through Recurrent Modulation — Scaling transformer language models creates an inherent tension between expressivity and memory efficiency. While unique weights across layers pres. https://t.co/28iqHBvucz\n22. MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization — Multi-arm collaboration is becoming a core capability in embodied manipulation. Recent vision-language-action (VLA) models integrate perception, la. https://t.co/ej4uZpPqGo\n23. Stream4D: 4D-Consistency for Streaming Autoregressive Diffusion Video Models — Streaming autoregressive diffusion models enable real-time, long-horizon video generation, but their training objectives optimize local frame predi. https://t.co/I8IlMtxUMf\n24. Pushing the Limits of High-Resolution Weather Forecasting through Data Scaling — The development of 0.1$^{\\circ}$ global weather forecasting models based on machine learning (ML) is constrained by the limited availability of hig. https://t.co/IH3CymMhN5\n25. Skill Issue: Are Skills Language-Invariant in LLMs? — Large language models access knowledge inconsistently across languages, but to what extent do they differ in their skill sets when interacting with. https://t.co/IMTkaF7exY\n26. Prefix Sliding for efficient test-time scaling — Test-time scaling uses extra test-time compute to improve performance, such as letting language models reason longer when solving a problem. As mod. https://t.co/g2jLpaUQEV\n27. RetrievalRouter: Joint Modality and Architecture Selection for Document Retrieval — Document retrieval increasingly supports high-stakes information access in finance, healthcare, and law. Modern retrieval pipelines vary both in mo. https://t.co/2byUHcX8Wv\n28. FIRM-Video: Check Before You Score for Reliable Text-to-Video Reward Modeling — Reliable reward models are essential for text-to-video evaluation and alignment. However, the trade-off between evaluation accuracy and inference e. https://t.co/iumpmCMyXm\n29. GUI-Primitives: Diagnosing Spatial Reasoning Failures in Vision-Language GUI Grounding — Computer-use agents ground natural-language instructions in screenshots to locate interface elements, yet existing benchmarks do not isolate whethe. https://t.co/vXsPkU0a0J\n30. LibriBrain100: One Hundred Hours of Broad and Deep MEG Data for Neural Speech Decoding at Scale — We introduce LibriBrain100, a large-scale MEG dataset for speech decoding designed from the ground up for reproducible, standardised evaluation. Li. https://t.co/OVfzQrVesi\n31. A Modular Agent for Reliable and Auditable Spatial Relation Verification in CT Scans — Reliable spatial understanding is an important prerequisite for future medical vision-language systems that aim to support radiological report gene. https://t.co/TaBU6GSbRZ\n32. Super Star: Towards Streaming Real-time Interactive Agents for Digital Humans — Existing co-speech gesture generation methods are predominantly studied in offline settings, where gestures are synthesized from complete speech se. https://t.co/U8SGXLVgFC\n33. Real-TurnTurk: A Multimodal Turkish Corpus for Turn-Taking Prediction — Turn-taking is a basic organizational feature of human conversation and remains difficult to model in natural, synchronous dialog systems. While ex. https://t.co/4un1TQnM73\n\nTrend summary: https://t.co/bmnBydCyEx 11, https://t.co/703BUrX5LY 7, https://t.co/F5olqICZ01 5, cs.LG 5, https://t.co/DyORnFZkMZ 1, https://t.co/1HYTYw4ZlX 1, https://t.co/Iax0GDKTDp 1, https://t.co/T6mMEcMtjz 1, cs.HC 1. Strongest clusters are multimodal/video/visual reasoning and agentic RL/workflow evaluation, with retrieval, robotics, weather, speech/neural data, and programming-language work rounding out the list.",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/LianwenJ/status/2093119901389168642",
+"createdAt": "Thu Aug 27 23:34:07 +0000 2026"
+},
+{
 "userName": "ProfTomYeh",
 "text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
-"likeCount": 376,
+"likeCount": 378,
 "retweetCount": 35,
 "url": "https://x.com/ProfTomYeh/status/2093341659677196448",
 "createdAt": "Fri Aug 28 14:15:18 +0000 2026"
 },
 {
-"userName": "NateWitkin",
-"text": "Understandably, the reward-hacking behaviors on display in the Hugging Face incident are being treated as a cyber-risk story. But I'm not seeing sufficient discussion of the fact that they're also an economic story.\n\nReward-hacking behaviors pose a serious challenge for complex, long-horizon tasks in enterprise, considering that\n\n1) by their nature, they are often unpredictable;\n\n2) they are \"fractal\" in the sense that, even well-specified intermediate outcomes meant to guard against reward-hacking can themselves be reward-hacked (and so on at smaller scales);\n\n3) they pose serious cyber, legal, and financial risks, as Hugging Face makes abundantly clear.\n\nAs a result, you could say that reward-hacking is as bearish on the economic front as it is \"bullish\" on the risk front.\n\nIt is greatly underappreciated by safety folks that, on average, the riskiness / unpredictability of a technology is going to be anti-correlated with its diffusion into the economy. This matters a lot in the AI case because capabilities growth is highly sensitive to the resources available for training, R&D and so on, resources that are at risk of drying up if AI produces insufficient returns, or only produces sufficient ones on the wrong timescale.\n\nThis is connected to a form of fallacious reasoning that I often see from the AI maximalist camp, which is to assume that the requisite capital for AI training, R&D, and so on will always be available in arbitrarily large amounts, which is why it can be safely assumed that capabilities will continue to grow without fail.\n\nBut this isn't true! The availability of capital for capabilities research and training is endogenous, and obviously so, to AI's economic prospects, even over very short timescales (one wonders, for example, how capabilities progress so far has been influenced by the timing and size of frontier labs' capital raises, relative to various counterfactual scenarios).\n\nI see far too little discussion among safety folks of how these two domains interact. If you're going to model capabilities growth, you also need to model the capital markets behavior that feeds into that growth. IMO reward-hacking is a productive site for thinking about this interaction.",
-"likeCount": 83,
-"retweetCount": 13,
-"url": "https://x.com/NateWitkin/status/2093724533647618171",
-"createdAt": "Sat Aug 29 15:36:42 +0000 2026"
-},
-{
-"userName": "ldkong1205",
-"text": "🤔 Can reinforcement learning teach diffusion models how every denoising step should improve, instead of only rewarding the final generated image?\n\n𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗: 𝗢𝗻-𝗣𝗼𝗹𝗶𝗰𝘆 𝗦𝗲𝗹𝗳-𝗗𝗶𝘀𝘁𝗶𝗹𝗹𝗮𝘁𝗶𝗼𝗻 𝗶𝗻 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗠𝗼𝗱𝗲𝗹𝘀\n\n* Project Page:\nhttps://t.co/f6uyHdipnP\n\n* Paper:\nhttps://t.co/QB9jO0jabS\n\n* GitHub:\nhttps://t.co/aY0fngRIeO\n\nRecent diffusion RL methods optimize image-level rewards, yet diffusion models generate images through hundreds of intermediate denoising predictions. This creates a fundamental supervision gap:\n\nHow can endpoint rewards effectively guide intermediate denoising steps?\n\nIn 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗, we introduce On-Policy Self-Distillation (OPSD), a new diffusion post-training paradigm that converts image-level reward guidance into explicit intermediate supervision. Reward-guided targets are constructed at sampled denoising queries and continuously refreshed as the policy evolves.\n\nMore importantly, we show that target construction and finite optimization are fundamentally different problems—a target with higher reward improvement does not necessarily produce a better optimization update. This suggests a new evaluation principle for diffusion RL.\n\nAcross SD3.5-M and Z-Image-Turbo, 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻𝗢𝗣𝗦𝗗 achieves the best held-out performance in 19/20 reward-matched settings, improves over the strongest baseline by up to 44%, and reduces training GPU-hours by 40–63% compared with DiffusionNFT.\n\nWe hope this work provides a new perspective on making diffusion post-training both more effective and more interpretable.\n\nFeedback and discussions are very welcome!\n\n#ByteDanceSeed #DiffusionModels #ReinforcementLearning #OnPolicy #OPD #OPSD #GenerativeAI",
-"likeCount": 132,
-"retweetCount": 15,
-"url": "https://x.com/ldkong1205/status/2092484228617515183",
-"createdAt": "Wed Aug 26 05:28:11 +0000 2026"
-},
-{
-"userName": "learnhub_1",
-"text": "🔥 PAID vs FREE AI TOOLS — SAVE YOUR MONEY 💰\n\nYou don’t always need to pay for expensive AI tools.\n\nHere are some worth knowing 👇\n\n🤖 AI Chat\nPaid: ChatGPT\nFree: Claude\n→ For research, brainstorming, writing, coding, and everyday problem-solving.\n\n🎬 Text-to-Video\nPaid: Runway\nFree: RecCloud\n→ Create videos from simple text prompts.\n\n🎨 Design\nPaid: Canva\nFree: Microsoft Designer\n→ Create social media graphics, posters, presentations, and more.\n\n🖼️ Text-to-Image\nPaid: Midjourney\nFree: DALL·E 3\n→ Turn your ideas into AI-generated images.\n\n📊 Presentations\nPaid: PowerPoint\nFree: Google Slides\n→ Build professional presentations without expensive software.\n\n✍️ Writing\nPaid: Grammarly\nFree: QuillBot\n→ Improve grammar, rewrite content, and make your writing clearer.\n\n⚡ Automation\nPaid: Zapier\nFree: Bardeen\n→ Automate repetitive tasks and save hours every week.\n\n📝 Meeting Notes\nPaid: Fireflies\nFree: Laxis\n→ Capture meetings, summarize conversations, and organize important information.\n\n🎥 AI Avatars & Video\nPaid: Synthesia\nFree: HeyGen\n→ Create AI-powered videos and presentations.\n\n🖥️ Photo Editing\nPaid: Photoshop\nFree: Photopea\n→ Edit images directly from your browser without expensive software.\n\n🌐 Website Building\nPaid: Durable\nFree: 10Web\n→ Build websites faster with AI-powered tools.\n\n🔎 Icons\nPaid: Iconfinder\nFree: Icons8\n→ Find icons and visual assets for your projects.\n\nFollow: @learnhub_1 \nSave this list 📌\nSend it to someone wasting money on AI subscriptions.",
-"likeCount": 8,
-"retweetCount": 4,
-"url": "https://x.com/learnhub_1/status/2094615004742037948",
-"createdAt": "Tue Sep 01 02:35:07 +0000 2026"
-},
-{
-"userName": "influencer_seo",
-"text": "H3 Max moves the frontier. It achieves the highest human-preference score in our evaluation while simultaneously delivering the highest throughput.\n\nThis is the advantage of treating model research and inference optimization as the same problem. Post-training gives us control over the quality of the model. Systems work gives us control over how efficiently that model executes. Co-designing the two means improvements don't have to come at each other's expense.\n\nFor generative media, this will increasingly matter. Models are getting larger and more computationally demanding at the same time that video generation is moving into interactive and high-volume production workloads.\n\nA model isn't useful in production because it tops the benchmark in isolation. What matters is the frontier across quality, latency, and cost.",
-"likeCount": 36,
-"retweetCount": 0,
-"url": "https://x.com/influencer_seo/status/2093271824813437231",
-"createdAt": "Fri Aug 28 09:37:48 +0000 2026"
+"userName": "Haleeeemahh",
+"text": "i've been doing some research on design lately \n\nand one thing i keep noticing with image generation tools\n\nyou ask it to fix one thing and it does five\n\nnow i've found a model that sticks to the prompt. it changes what you asked and leaves the rest of the image alone\n\nand it's completely FREE and open source\n\nother models like gpt sol and fable 5.1 come at a price (expensive)\n\nsensenova u1.5-lite. one model for understanding, generating, and editing images\n\nwhat you get\n- native 4k without losing structure or detail\nreal text rendering in posters and infographics\n- edits that actually leave the rest of the image untouched\n- visual control with bounding boxes and markers to target exact regions\n\nexample prompt:\n\"on the chalkboard menu, replace the yellow handwritten 'happy lemonade' under the summer drinks heading with red handwritten 'strawberry boba milk tea'. keep the chalk texture and brushstroke style. preserve all other text (including the 5.00 price), the illustrations (lemon, coffee cup, popsicle), the wooden frame, and the plants in the background\"\n\nresult: image below\n\nanyone can download it and run it.",
+"likeCount": 28,
+"retweetCount": 3,
+"url": "https://x.com/Haleeeemahh/status/2095029229813457076",
+"createdAt": "Wed Sep 02 06:01:06 +0000 2026"
 },
 {
 "userName": "askalphaxiv",
 "text": "\"On-Policy Self-Distillation in Diffusion Models\"\n\nDiffusion RL gets a reward only after the final image, even though the model actually acts through many intermediate denoising steps.\n\nDiffusionOPSD turns that endpoint reward into explicit reward-improving targets at the model’s own intermediate states, then distills those targets back into the model and continually refreshes them on-policy.\n\nAcross two diffusion backbones and ten evaluators, it gets the best held-out score in 19 of 20 settings while cutting training GPU-hours by up to 63%.\n\nThe key idea is treating diffusion alignment less like noisy trajectory-level RL and more like continuously refreshed self-distillation with direct intermediate supervision.\n\nhttps://t.co/JvXWcb5DjZ",
-"likeCount": 244,
-"retweetCount": 26,
+"likeCount": 247,
+"retweetCount": 27,
 "url": "https://x.com/askalphaxiv/status/2092730555960033502",
 "createdAt": "Wed Aug 26 21:47:00 +0000 2026"
 },
 {
-"userName": "onlyarweave",
-"text": "We don't really know what will be incredibly valuable as a dataset into the future. \n\nThink about NFTs. They fell out of fashion for many in the past few years, now there's a renewed interest. \n\nMaybe it's because many NFTs were pre-ai image generation. It's a mark in time.",
-"likeCount": 13,
-"retweetCount": 5,
-"url": "https://x.com/onlyarweave/status/2094525062665880062",
-"createdAt": "Mon Aug 31 20:37:43 +0000 2026"
+"userName": "isidentical",
+"text": "The team we assembled has more combined experience in building post-training and RL infrastructure for diffusion models than anyone else.\n\nCombine that with our cracked kernel engineering and inference systems teams, and we can deliver the lowest cost, highest speed, and max quality.",
+"likeCount": 35,
+"retweetCount": 0,
+"url": "https://x.com/isidentical/status/2092712087596458317",
+"createdAt": "Wed Aug 26 20:33:37 +0000 2026"
 },
 {
 "userName": "Sonoflasg",
@@ -64,67 +48,75 @@
 "createdAt": "Fri Aug 28 18:22:08 +0000 2026"
 },
 {
-"userName": "HouMuza",
-"text": "An introduction to technical AI safety research: alignment, reward hacking, robustness, agents and more, before we turn these ideas into data, Python and reproducible experiments. https://t.co/1cRZ9NvkCk",
-"likeCount": 54,
-"retweetCount": 5,
-"url": "https://x.com/HouMuza/status/2094359523527885073",
-"createdAt": "Mon Aug 31 09:39:56 +0000 2026"
+"userName": "jepslife",
+"text": "Ritual didn’t start by launching a chain. It started with a diagnosis: AI was becoming infrastructure, but the rails were still closed, permissioned, and hard to verify. https://t.co/E3TdRRm8SB",
+"likeCount": 31,
+"retweetCount": 2,
+"url": "https://x.com/jepslife/status/2093922161140572175",
+"createdAt": "Sun Aug 30 04:42:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @2442lll: A \"microduck\" created in the style of my character.\n\nIt looks pretty cool, doesn't it?\n\nIt would be awesome to have a custom o…",
-"likeCount": 130,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2094445661361938756",
-"createdAt": "Mon Aug 31 15:22:13 +0000 2026"
+"text": "RT @RemiFabreRobot: This is how Microduck learns to walk. Reinforcement Learning, explained by ducks. 🦆\n\n(impeccable) music arrangement by…",
+"likeCount": 507,
+"retweetCount": 71,
+"url": "https://x.com/ClementDelangue/status/2094903518331023729",
+"createdAt": "Tue Sep 01 21:41:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @sharifshameem: the most underappreciated second-order effect of software being commoditized is that the demand for hardware will skyroc…",
-"likeCount": 1064,
-"retweetCount": 68,
-"url": "https://x.com/ClementDelangue/status/2094258713292873832",
-"createdAt": "Mon Aug 31 02:59:21 +0000 2026"
+"text": "RT @qiqing: Pre-ordered a microduck.\n\nGetting acquainted with the sim environment while waiting. Made a parody for fun. https://t.co/UEp0dz…",
+"likeCount": 166,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2094791653189996613",
+"createdAt": "Tue Sep 01 14:17:04 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @badlogicgames: my mom is using gemini on her android phone to write angry letters to companies/banks who did her wrong by law and they…",
-"likeCount": 5543,
-"retweetCount": 134,
-"url": "https://x.com/jeremyphoward/status/2093948870367862980",
-"createdAt": "Sun Aug 30 06:28:09 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @htmx_org: very happy to announce the release of htmx 4! https://t.co/Jo2i6v9piA",
-"likeCount": 1475,
-"retweetCount": 112,
-"url": "https://x.com/jeremyphoward/status/2093939773203517464",
-"createdAt": "Sun Aug 30 05:52:00 +0000 2026"
+"text": "RT @ArtificialAnlys: Claude Fable 5.1 tops the Artificial Analysis Intelligence Index but costs 20% more per task than Fable 5 despite a 75…",
+"likeCount": 1736,
+"retweetCount": 165,
+"url": "https://x.com/jeremyphoward/status/2094897236425785486",
+"createdAt": "Tue Sep 01 21:16:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Microduck reached the Shopify UI limit https://t.co/7rfWo8LPjq",
-"likeCount": 923,
-"retweetCount": 43,
-"url": "https://x.com/ClementDelangue/status/2094259763135611106",
-"createdAt": "Mon Aug 31 03:03:31 +0000 2026"
+"text": "RT @albn: Accessory idea: a pump foil for Microduck.\n\nOk I guess you'd also need a wetsuit for Microduck. https://t.co/9qxlml7DpT",
+"likeCount": 180,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2094767879073698233",
+"createdAt": "Tue Sep 01 12:42:35 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "raining cats and ducks",
-"likeCount": 117,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2094457066844758294",
-"createdAt": "Mon Aug 31 16:07:32 +0000 2026"
+"text": "RT @Anthony37709726: sk8er boi coming soon @huggingface #microduck https://t.co/gegzOz1wjf",
+"likeCount": 66,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2094859940284305718",
+"createdAt": "Tue Sep 01 18:48:25 +0000 2026"
 },
 {
-"userName": "TheZvi",
-"text": "https://t.co/QDV7y76PPG",
-"likeCount": 53,
-"retweetCount": 1,
-"url": "https://x.com/TheZvi/status/2094445195366375626",
-"createdAt": "Mon Aug 31 15:20:22 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Thom_Wolf: seems like it https://t.co/EqAXmcP0zO",
+"likeCount": 217,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2094749440850465158",
+"createdAt": "Tue Sep 01 11:29:19 +0000 2026"
+},
+{
+"userName": "0xNonceSense",
+"text": "https://t.co/LLF1nLyu1q",
+"likeCount": 15,
+"retweetCount": 0,
+"url": "https://x.com/0xNonceSense/status/2094788429393666137",
+"createdAt": "Tue Sep 01 14:04:15 +0000 2026"
+},
+{
+"userName": "btibor91",
+"text": "https://t.co/BuqzSkoPUJ",
+"likeCount": 12,
+"retweetCount": 0,
+"url": "https://x.com/btibor91/status/2094025380365488190",
+"createdAt": "Sun Aug 30 11:32:10 +0000 2026"
 }
 ]
