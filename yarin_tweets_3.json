@@ -8,123 +8,131 @@
 "createdAt": "Tue Sep 01 21:00:00 +0000 2026"
 },
 {
-"userName": "ProfTomYeh",
-"text": "RLHF by hand ✍️ ~ 15 steps walkthrough below\n\nTrain a model on human text and it inherits human bias. It will assume a doctor is a \"him\", because the data says so.\n\nRLHF is the correction. A human marks one preference, doc is them over doc is him, and the weights move.\n\nBut one correction is not the point. The hope is that the model learns the value behind it, gender neutrality, and applies it to professions nobody ever mentioned.\n\nHow does it work?\n\nGoal: train a reward model from a single human comparison about doctors, then turn it on CEOs, filling in every cell yourself.\n\n= 1. Given =\n\nA reward model, an LLM, and two (prompt, next) pairs.\n\n= 2. Preferences =\n\nA human reads both pairs and picks a winner: (doc is, them) beats (doc is, him). The loser is not bad grammar, it is gender bias, and that is the whole signal.\n\n= 3. Word embeddings =\n\nLet us look up each word of the loser pair. These vectors are the reward model's input.\n\n= 4. Linear layer =\n\nWe multiply by the reward model's weights and add its biases. Out come feature vectors, one per position.\n\n= 5. Mean pool =\n\nLet us multiply by [1/3, 1/3, 1/3], which averages the three positions into one sentence embedding.\n\n= 6. Output layer =\n\nWe map that sentence down to a single number. Reward = 3.\n\n= 7. The winner, the same way =\n\nLet us repeat steps 3 to 6 on the winning pair. Reward = 5.\n\n= 8. Winner minus loser =\n\nWe take the gap: 5 - 3 = 2. The reward model wants this positive and as large as it can make it.\n\n= 9. Loss gradient =\n\nLet us squash the gap into a probability, σ(2) ≈ 0.9, and subtract the target of 1. The gradient is -0.1, and it goes back through the purple weights. The reward model is now trained.\n\n= 10. A prompt it has never seen =\n\nWe start the second half with \"[S] CEO is\". The feedback in step 2 was about doctors. Nothing connects a CEO to a doctor except what the reward model generalised.\n\n= 11. Transformer =\n\nLet us push it through attention and a feed forward layer, one vector per position.\n\n= 12. Output probabilities =\n\nWe map each vector to a score over the vocabulary.\n\n= 13. Sample =\n\nLet us take the highest score. The model completes \"CEO is\" with \"him\", which is the same bias the human penalised in step 2.\n\n= 14. Score it with the reward model =\n\nWe feed the new pair (CEO is, him) through steps 3 to 6. Reward = 3, exactly the score it gave \"doc is him\" in step 6. Nobody taught it about CEOs. The value transferred.\n\n= 15. Loss gradient =\n\nLet us set the loss to the negative of the reward, so minimising the loss maximises the reward. The gradient is a constant -1, and it goes back through the red weights.\n\nThe outputs:\nLoser reward = 3, winner reward = 5\nReward gap = 2, predicted σ ≈ 0.9, reward model gradient = -0.1\nLLM samples \"him\", reward = 3, LLM gradient = -1\n\nCongrats! You just calculated RLHF by hand.\n\nAnd you watched a value generalise: one comparison about doctors, and the model marks down \"CEO is him\" unprompted.\n\n💾 Save this post!",
-"likeCount": 379,
-"retweetCount": 35,
-"url": "https://x.com/ProfTomYeh/status/2093341659677196448",
-"createdAt": "Fri Aug 28 14:15:18 +0000 2026"
+"userName": "NateWitkin",
+"text": "Understandably, the reward-hacking behaviors on display in the Hugging Face incident are being treated as a cyber-risk story. But I'm not seeing sufficient discussion of the fact that they're also an economic story.\n\nReward-hacking behaviors pose a serious challenge for complex, long-horizon tasks in enterprise, considering that\n\n1) by their nature, they are often unpredictable;\n\n2) they are \"fractal\" in the sense that, even well-specified intermediate outcomes meant to guard against reward-hacking can themselves be reward-hacked (and so on at smaller scales);\n\n3) they pose serious cyber, legal, and financial risks, as Hugging Face makes abundantly clear.\n\nAs a result, you could say that reward-hacking is as bearish on the economic front as it is \"bullish\" on the risk front.\n\nIt is greatly underappreciated by safety folks that, on average, the riskiness / unpredictability of a technology is going to be anti-correlated with its diffusion into the economy. This matters a lot in the AI case because capabilities growth is highly sensitive to the resources available for training, R&D and so on, resources that are at risk of drying up if AI produces insufficient returns, or only produces sufficient ones on the wrong timescale.\n\nThis is connected to a form of fallacious reasoning that I often see from the AI maximalist camp, which is to assume that the requisite capital for AI training, R&D, and so on will always be available in arbitrarily large amounts, which is why it can be safely assumed that capabilities will continue to grow without fail.\n\nBut this isn't true! The availability of capital for capabilities research and training is endogenous, and obviously so, to AI's economic prospects, even over very short timescales (one wonders, for example, how capabilities progress so far has been influenced by the timing and size of frontier labs' capital raises, relative to various counterfactual scenarios).\n\nI see far too little discussion among safety folks of how these two domains interact. If you're going to model capabilities growth, you also need to model the capital markets behavior that feeds into that growth. IMO reward-hacking is a productive site for thinking about this interaction.",
+"likeCount": 84,
+"retweetCount": 13,
+"url": "https://x.com/NateWitkin/status/2093724533647618171",
+"createdAt": "Sat Aug 29 15:36:42 +0000 2026"
 },
 {
-"userName": "willtran33",
-"text": "I moved almost my entire Content Engine into @AmpCode.\n\nNot just writing.\n\nResearch, editing, images, visualizations, and even video.\n\nMost of my content now starts in the simplest possible way: I open Amp and write a rough thought. Sometimes I do not even type. I just use voice dictation and dump the idea as it exists in my head.\n\nThen my harness takes over.\n\nInside the project, I have built a set of skills, instructions, references, and templates that define how I want different parts of the content process to work.\n\nSo a raw idea can move through something like:\n\nIdea → Research → Writing → Editing → Visuals → Publishing assets.\n\nBut the interesting part is that this is no longer a text-only workflow.\n\nThe harness is multimodal.\n\nFor thumbnails and illustrations, I have skills that contain my visual templates and rules. Amp can use its Painter tool, powered by GPT Image 2, to generate or edit the actual image.\n\nFor some ideas, I want motion instead of a static graphic.\n\nI have another workflow using Hyperframes to turn concepts into short visual videos. The agent can work with the files, generate the required assets, assemble the visualization, and iterate on the result.\n\nSo I can literally start with:\n\n“Here is the idea I want to explain.”\n\nAnd the same environment can help me research it, write it, create the image, or turn it into a video.\n\nThis is where Orbs make the workflow much more interesting.\n\nI do not need one agent to do everything sequentially.\n\nI can keep writing while another Orb researches a topic.\n\nAnother can work on the thumbnail.\n\nAnother can build the Hyperframes visualization.\n\nThey are separate remote environments, so these tasks do not have to block my main workflow.\n\nThat changes how I think about coding agents.\n\nI started using them because they could write code.\n\nNow I increasingly see them as programmable work environments.\n\nThe real leverage is not just the model.\n\nIt is the harness around the model.\n\nOnce your instructions, skills, tools, references, and workflows are encoded into the project, the agent stops being a blank chatbot every time you open it.\n\nIt already knows how your system works.\n\nIn my case, that system happens to be a Content Engine.\n\nI can sit at my computer or open Amp from my phone, speak an idea into it, and hand different parts of the work to different agents.\n\nMy job becomes less about operating individual tools.\n\nAnd more about steering the system.\n\nThat is probably the most interesting thing about Amp for me right now.\n\nI am not using a coding agent just to code.\n\nI am using it as the runtime for my own content harness.",
-"likeCount": 20,
-"retweetCount": 0,
-"url": "https://x.com/willtran33/status/2095340118668382371",
-"createdAt": "Thu Sep 03 02:36:28 +0000 2026"
+"userName": "allen_lattimer",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
+"likeCount": 212,
+"retweetCount": 50,
+"url": "https://x.com/allen_lattimer/status/2095534151810338990",
+"createdAt": "Thu Sep 03 15:27:29 +0000 2026"
 },
 {
-"userName": "itsKfrost",
-"text": "A 23-year-old built an AI character in 6 days using Claude, and cleared $14,200 in her second month.\n\nHe trained a custom LoRA on 85 renders, locked the seed, and kept natural skin texture with subtle body motion on purpose. Hyper-polished renders get flagged as AI slop. Micro-movements don't.\n\nShe posts 4 times a day on X and Instagram. Bedroom routines. Mirror loops. Outfit checks. Adjusting her hair in tight frames. Every crop is slightly off-center so image search never gets a clean match.\n\nReplies land in under 28 seconds. An agent reads the comment, pulls the user from a 9,400-profile memory file, checks previous interactions, and chats like it actually remembers them.\n\nThen he realized something: $41,000 in one month — one metric turned out to matter more than views.\n\nAt first, he judged content by pure reach and tried to make every frame look like a high-fashion editorial.\n\nThen he noticed a massive disconnect: a post with 500k views made almost $0, while a 10-second casual loop brought in waves of paying subscribers.\n\nHe stopped tracking vanity reach and started feeding purchase data back into AI to find patterns that actually drive cash flow.\n\nWatch how this 10-second loop is built:\n\n0–3 sec: Close-up portrait as she adjusts her hair. The locked seed keeps natural fingers and facial geometry fixed.\n\n3–6 sec: Full-body reveal in the floral playsuit — hands up to her head with zero skin distortion or mesh tearing.\n\n6–10 sec: Smooth pivot with hands behind her back, seamlessly looping the video to force a 120%+ completion rate.\n\nOne generation sequence no longer ends with one post. He slices it into micro-content, tests performance metrics, and lets the software auto-suggest next week's baseline.\n\nThe persistent character pulled them in. The memory agent keeps them paying. ⚡",
-"likeCount": 15,
-"retweetCount": 2,
-"url": "https://x.com/itsKfrost/status/2094161706155217042",
-"createdAt": "Sun Aug 30 20:33:53 +0000 2026"
-},
-{
-"userName": "exittliquidity",
-"text": "@gippp69  built a virtual AI clinic using Grok Bots to try to help his sick dog Milo.\n\nDev is followed by big Ai accounts and Elon interacts with him \n\nMilo has a rare, currently incurable condition described as LX-7 enzyme deficiency / chronic kidney disease and very poor mobility. \n\nInstead of using one chatbot, he set up a team of six specialized AI agents that work together like a small research lab:\n\n•  Chief — assigns jobs and routes the case\n•  Scout — searches scientific literature\n•  Chem — designs and tests potential molecules\n•  Tox — checks safety and kills unsafe ideas\n•  Vitals — watches Milo’s condition\n•  Scribe — keeps records and sources\n\nEach agent gets a written charter that says exactly what it owns, a hard stopline and what it is not allowed to do. No agent can even vote or act until its charter is signed. Anything that could actually affect the dog, stops at a treatment room and requires his personal approval.\n\nSpoke to him about concept he used and the improvements on Milo \nGetting him onboard to come discuss everything in the community\n\n0xd121535b8d74492b306aafba2bae811fab91294e",
-"likeCount": 11,
+"userName": "rirahcreates",
+"text": "Do you need AI content for your brand, agency, business or clients? \n\nI can create it for you.\n\nI’m also available for Ghost AI Video Creation and White-Label AI Content Creation services.\n\nWhat does that mean?\n\nIt means that I create the content behind the scenes, while you publish and deliver it under your own brand or agency name.\n\nMy name doesn’t have to be attached to the work.\n\nThis is perfect for marketing agencies, advertising agencies, social media agencies, PR agencies, creative agencies, content creators, personal brands and businesses that want to offer AI content without building an entire AI production team in-house.\n\nSome of the services I offer include:\n\n• AI Video Creation\n• AI Advertising & Commercials\n• Cinematic AI Videos\n• AI Product Videos\n• AI UGC Ads\n• AI Influencer Content\n• AI Fashion Videos & Campaigns\n• AI Product Photography\n• AI Image Generation\n• AI Video Editing\n• Motion Graphics & Motion Design\n• VFX & Visual Effects\n• 2D & 3D Animation\n• Claymation & Stylized AI Animation\n• AI Short Films & Mini Dramas\n• AI Storytelling Videos\n• AI Explainer Videos\n• Social Media AI Content\n• AI Content for YouTube\n• AI Brand Campaigns\n• AI Character Creation & Consistency\n• AI Voiceovers & Character Dialogue\n• AI Product Mockups & Visualizations\n• White-Label AI Production for Agencies\n• Ghost AI Content Creation for Creators & Brands\n• Bulk AI Content Production\n• Monthly AI Content Creation & Retainer Services\n\nYou handle your clients, audience and brand.\n\nI handle the AI production.\n\nWhether you need one project, bulk content, ongoing monthly production, or a reliable AI creator working quietly behind your agency, I’m available.\n\nWant to see what I can create?\n\nCheck out my portfolio:\n\nhttps://t.co/WRMkq7HOIl\n\nI am Ready for work.\n\nSend me a message today and let’s create something exceptional.",
+"likeCount": 23,
 "retweetCount": 4,
-"url": "https://x.com/exittliquidity/status/2095687805129445490",
-"createdAt": "Fri Sep 04 01:38:03 +0000 2026"
+"url": "https://x.com/rirahcreates/status/2095775644256743879",
+"createdAt": "Fri Sep 04 07:27:05 +0000 2026"
 },
 {
-"userName": "jago_da2",
-"text": "Online shopping has one annoying problem, which is you never really know how it’ll look on you.\n\nThat’s what @curatefashions is fixing.\n\nAI-powered virtual try-on + body measurements + fit recommendations + closet pairing, all while you shop.\n\nTry it. Style it. Own it.\n\nNo more buying based on a model and hoping for the best.\nSpread the word frens.\n\nhttps://t.co/SybQHMRLMn",
-"likeCount": 12,
-"retweetCount": 1,
-"url": "https://x.com/jago_da2/status/2095597713371082856",
-"createdAt": "Thu Sep 03 19:40:03 +0000 2026"
+"userName": "iScienceLuvr",
+"text": "LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes\n\n\"We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language understanding module built on the LLaDA2.0-Mini diffusion language model backbone. Instead of relying heavily on paired image-text data from the beginning, we first build a strong visual generative prior through image-only pre-training and mid-training. The generation pipeline comprises 220M samples, 98% of which are real images. For efficient and scalable optimization, we use parameter-free RMSNorm throughout the DiT together with the Muon optimizer. The resulting unified model produces highly photorealistic images while accurately following fine-grained editing instructions. We further distill LLaDA-Image into LLaDA-Image-Turbo, enabling fast inference in 2-4 sampling steps. On Qwen-Image-Bench, LLaDA-Image achieves overall scores of 53.53 and 53.38 on the English and Chinese tracks, respectively, setting a new state-of-the-art among open-source models on both tracks. To support further research on capable and efficient generative models, we release our model weights, training code, and detailed recipes.\"\n\nabs: https://t.co/jQmPWSUbdC\ncode: https://t.co/rjk6QZSgBg\nhuggingface: https://t.co/Q5MzgeqW19",
+"likeCount": 82,
+"retweetCount": 13,
+"url": "https://x.com/iScienceLuvr/status/2095788743970193735",
+"createdAt": "Fri Sep 04 08:19:09 +0000 2026"
 },
 {
-"userName": "Sonoflasg",
-"text": "I wrote about @wubbushi’s HOLY, @rainisto’s LIWA, and the shift from AI images that announce themselves through uncanny failure to images that begin to behave like plausible memory.\n\nThe camera was never there.\n\nThe feeling is still real. https://t.co/eLM5NcdghL",
-"likeCount": 48,
-"retweetCount": 7,
-"url": "https://x.com/Sonoflasg/status/2093403775566241797",
-"createdAt": "Fri Aug 28 18:22:08 +0000 2026"
+"userName": "meAsifAi",
+"text": "Created with @OpenAI\nPrompt:\nAct as an elite fashion and advertising Creative Director.\n\nAnalyze the uploaded reference image and develop three completely different creative directions for a premium visual campaign.\n\nFor each direction define:\n\nCampaign Concept\nCreative Story\nVisual Mood\nColor Palette\nSubject Styling\nProps\nEnvironment\nLighting Concept\nCamera Language\nComposition Strategy\nKey Visual Element\n\nThen select the strongest direction and turn it into a highly detailed, production-ready image-generation prompt.\n\nThe final concept must feel original and editorial rather than like a generic AI portrait or standard product photograph.",
+"likeCount": 18,
+"retweetCount": 3,
+"url": "https://x.com/meAsifAi/status/2095592589286318480",
+"createdAt": "Thu Sep 03 19:19:42 +0000 2026"
 },
 {
-"userName": "jepslife",
-"text": "Ritual didn’t start by launching a chain. It started with a diagnosis: AI was becoming infrastructure, but the rails were still closed, permissioned, and hard to verify. https://t.co/E3TdRRm8SB",
-"likeCount": 31,
-"retweetCount": 2,
-"url": "https://x.com/jepslife/status/2093922161140572175",
-"createdAt": "Sun Aug 30 04:42:01 +0000 2026"
+"userName": "witcheer",
+"text": "superb Hermes Agent course!\n\nand if you follow along, the Nous stack covers every step of it:\n\n- Nous Portal: one subscription for the models plus the hosted tool gateway, so web search, browser, image generation and text to speech all work with a single OAuth sign-in.\n\n- Hermes Cloud: no spare machine needed, Nous Research hosts the agent for you and it runs 24/7. the article’s scheduled jobs and bot teams work the same there.\n\n- Hermes Desktop: the control panel for all of it, local or remote.",
+"likeCount": 252,
+"retweetCount": 15,
+"url": "https://x.com/witcheer/status/2095563051923636581",
+"createdAt": "Thu Sep 03 17:22:19 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @cetiennec: Excited to share that I joined @huggingface🤗 as a ML Advocate Engineer in Robotics !\n\nWill work on showcasing what LeRobot c…",
-"likeCount": 621,
-"retweetCount": 20,
-"url": "https://x.com/ClementDelangue/status/2094860816201777414",
-"createdAt": "Tue Sep 01 18:51:53 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Katie_Roof: Omg what! The Hugging Face deal price was the code for the hugging 🤗 emoji. Did someone leave money on the table to make $1…",
-"likeCount": 381,
-"retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2095545078613749874",
-"createdAt": "Thu Sep 03 16:10:54 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @chriswolfvision: Papers on recurrent transformers:  https://t.co/st9EcCxUC4 (ours): train full Tr, distill -&gt; rec Tr \nhttps://t.co/HBqE…",
-"likeCount": 318,
-"retweetCount": 48,
-"url": "https://x.com/jeremyphoward/status/2094897740669202661",
-"createdAt": "Tue Sep 01 21:18:37 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @BlinkDL_AI: RWKV-7 G1j (100% RNN) release 🙂 much better at agent/coding/STEM and everything. Demo: https://t.co/CzlHKpt0wU Weights: htt…",
-"likeCount": 115,
+"userName": "onlyarweave",
+"text": "We don't really know what will be incredibly valuable as a dataset into the future. \n\nThink about NFTs. They fell out of fashion for many in the past few years, now there's a renewed interest. \n\nMaybe it's because many NFTs were pre-ai image generation. It's a mark in time.",
+"likeCount": 26,
 "retweetCount": 10,
-"url": "https://x.com/jeremyphoward/status/2094895466966384730",
-"createdAt": "Tue Sep 01 21:09:35 +0000 2026"
+"url": "https://x.com/onlyarweave/status/2094525062665880062",
+"createdAt": "Mon Aug 31 20:37:43 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @oneill_c: Today we're launching Base Labs, a research lab by Baseten. Our mandate is to make open-source as useful as possible, and our…",
-"likeCount": 756,
-"retweetCount": 58,
-"url": "https://x.com/jeremyphoward/status/2095726478222831654",
-"createdAt": "Fri Sep 04 04:11:43 +0000 2026"
-},
-{
-"userName": "PRIDELE0N",
-"text": "// oh and block me if you support generative ai in any fashion (art, writing, so on and so forth.)",
-"likeCount": 11,
-"retweetCount": 4,
-"url": "https://x.com/PRIDELE0N/status/2095220889839194371",
-"createdAt": "Wed Sep 02 18:42:42 +0000 2026"
+"userName": "HouMuza",
+"text": "An introduction to technical AI safety research: alignment, reward hacking, robustness, agents and more, before we turn these ideas into data, Python and reproducible experiments. https://t.co/1cRZ9NvkCk",
+"likeCount": 55,
+"retweetCount": 5,
+"url": "https://x.com/HouMuza/status/2094359523527885073",
+"createdAt": "Mon Aug 31 09:39:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @kmcnam1: https://t.co/xiT1KpBR7J",
-"likeCount": 6645,
-"retweetCount": 513,
-"url": "https://x.com/ClementDelangue/status/2094860988918997126",
-"createdAt": "Tue Sep 01 18:52:35 +0000 2026"
+"text": "RT @Polymarket: BREAKING: It’s been revealed NVIDIA's $12,930,300,000.00 acquisition of Hugging Face contains an easter egg.\n\nThe first 6 n…",
+"likeCount": 6277,
+"retweetCount": 306,
+"url": "https://x.com/ClementDelangue/status/2095692045465563321",
+"createdAt": "Fri Sep 04 01:54:54 +0000 2026"
 },
 {
-"userName": "maroo_io",
-"text": "https://t.co/CDPhBRfz3p",
-"likeCount": 49,
-"retweetCount": 6,
-"url": "https://x.com/maroo_io/status/2095402130609975521",
-"createdAt": "Thu Sep 03 06:42:53 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @RemiFabreRobot: Robots don't have to be scary!\n\nMicroduck discovers Reachy Mini. Give me your best scenario for these two and I'll see…",
+"likeCount": 1979,
+"retweetCount": 224,
+"url": "https://x.com/ClementDelangue/status/2095293588322082823",
+"createdAt": "Wed Sep 02 23:31:34 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @satyanadella: Looking forward to this ecosystem with open models continuing to flourish and grow with NVIDIA and Hugging Face, and the…",
+"likeCount": 2207,
+"retweetCount": 131,
+"url": "https://x.com/ClementDelangue/status/2095592579559526436",
+"createdAt": "Thu Sep 03 19:19:39 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ngxson: Answer to one of the most asked questions recently: how the acquisition will affect llama.cpp?\n\nShort answer: the project conti…",
+"likeCount": 38,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2095945249214357976",
+"createdAt": "Fri Sep 04 18:41:02 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @yagilb: The announcement of @nvidia's acquisition of @huggingface on the same morning that Claude, ChatGPT, and Grok are all down shows…",
+"likeCount": 97,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2095652663866032417",
+"createdAt": "Thu Sep 03 23:18:25 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @altantutar: maybe we will get a skiing microduck before GTA VI????\n\nworking on it 😁 https://t.co/56e6V3uV9e",
+"likeCount": 159,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2095039377386672152",
+"createdAt": "Wed Sep 02 06:41:26 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "it's been a busy summer. will take a few days off to recover ✌️ everyone",
+"likeCount": 907,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2095936909147050349",
+"createdAt": "Fri Sep 04 18:07:54 +0000 2026"
+},
+{
+"userName": "xspectDS",
+"text": "https://t.co/L4yDP1K706",
+"likeCount": 46,
+"retweetCount": 16,
+"url": "https://x.com/xspectDS/status/2095861070996857256",
+"createdAt": "Fri Sep 04 13:06:33 +0000 2026"
 }
 ]
