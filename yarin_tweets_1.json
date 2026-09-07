@@ -8,19 +8,115 @@
 "createdAt": "Sat Sep 05 15:12:51 +0000 2026"
 },
 {
-"userName": "GoogleCloudTech",
-"text": "https://t.co/io8db3ZC9i",
-"likeCount": 81,
-"retweetCount": 17,
-"url": "https://x.com/GoogleCloudTech/status/2095950665415897194",
-"createdAt": "Fri Sep 04 19:02:34 +0000 2026"
+"userName": "rubenhassid",
+"text": "You will not get good at Claude if you don't have 5 seconds to re-learn the basics (again & again).\n\nI taught my mom Claude the other day; she's a retired pharmacist. These are the 7 lessons we went through:\n\nLESSON 1: There is not one Claude, but four.\n\nStarting from the two worst models that you should NOT use even if they are free- Haiku 4.5 & Sonnet 5. I would rather use free ChatGPT. But you can use them for spelling checks.\n\nStart any complex task with Fable 5.1 for the first 2 initial prompts to figure out the final outcome.\n\nSwitch to Opus-5 (High) mid-chat to do the task and give you the outcome.\n\nLESSON 2: Paste this prompt to start any new chat.\n\n“I need [task] for [goal]. I will know it worked when [target]. Ask me questions first, using the AskUserQuestion tool.”\n\nClaude will give you a clickable form. Always write more context in the \"something else\" option. Don't be lazy.\n\nLESSON 3: You can't escape AI writing patterns.\n\nBut you can make it less obvious by avoiding the giveaways of AI. I made a Claude Skill to get simplified text out of Claude. I will send it directly to your inbox: https://t.co/rFXoSKBTCL\n\nLESSON 4: You never tried this in Claude\n\nResearch mode: It plans & reads sources to give you analyst reports.\nClaude Artifacts: You can build mini functional apps and then share them publicly with a link.\nHTML image: Claude is not built to make images. But if you ask it to make an image in HTML format. It'll never get the text wrong on the images.\nIncognito mode: If you don't want the memory to poison a specific chat. Go to the top right. And use it when you want a genuinely new idea.\nInteractive chart: Upload a CSV, ask for an interactive chart. I use this all the time.\n\nLESSON 5: Don't make your Claude dumber.\n\nThe only habit I'd force you to adopt is to start a new chat after sending 40 prompts in the old chat. It'll hallucinate & won't give you what you want.\n\nEvery follow-up prompt stacks on top of the full chat history. Claude re-reads all of it every turn. Instead: click “Restart the conversation from here” on a previous message.\n\nLESSON 6: These 5 behaviours are a no-go\n\n✦ Do not use Fable 5 for the tasks that Opus 5 can perform. You will waste (a lot) of tokens.\n✦ Use Projects (with files) for repeated tasks. New chats for creative ideas. Incognito mode for no-context chats.\n✦ Turn long (most used) prompts into Claude Skills.\n✦ Don't prompt with adjectives. Paste bad writing and say: never write like this.\n✦ Don't focus on trying everything new launched. If something works, stick to it.\n\nLESSON 7: Spread your work across the day\n\nClaude uses a rolling 5-hour window. So I usually send something right when I arrive at the office and then early + late afternoon. So about 3 sessions. 2 is enough.\n\nI made a Claude skill library if you want to go deeper:  https://t.co/6cHYYfjXEA.",
+"likeCount": 210,
+"retweetCount": 32,
+"url": "https://x.com/rubenhassid/status/2096101017633038341",
+"createdAt": "Sat Sep 05 05:00:00 +0000 2026"
 },
 {
-"userName": "xspectDS",
-"text": "https://t.co/L4yDP1K706",
-"likeCount": 48,
-"retweetCount": 16,
-"url": "https://x.com/xspectDS/status/2095861070996857256",
-"createdAt": "Fri Sep 04 13:06:33 +0000 2026"
+"userName": "T_Q_Gardner",
+"text": "Imagine if a company had access to your name, biometrics, phone, email, address, IDs, IP, cookies, mobile ad IDs, browsing, searches, keystrokes, demographics, card data, photos, audio, and video.\n\nThis isn’t theory, it’s Walmart.\n\nWalmart tracks you in the store and online.\n\nThey collect name, phone, email, address, IDs, IP, cookies, mobile ad IDs, browsing, searches, keystrokes (to tell you from a bot), purchases, returns, chatbot chats, demographics, card data, photos, audio, video, and inferences about how you shop.\n\nBiometrics are on the list: face geometry, iris/retina, voiceprints, palm and fingerprints. They say they do not use voice for biometric analysis. Eyeglass virtual try-on face scans are deleted within 48 hours. Other camera use is not that limited.\n\nIn the store: • Cameras and “automated technologies” inside and on the property for checkout, theft, and store layout • Wi-Fi and Bluetooth can locate your phone so the app can push nearby products and navigate you • GPS for store finder and grocery pickup • License plate readers (ALPRs) where legal — kept 60 days — for security, theft, parking, safety • Phone number at bakery, Auto Care, etc. can be tied to your Walmart account and used for ads and recommendations\nCash + no app + no Wi-Fi + no account cuts the digital link. It does not turn off cameras or plate readers.\n\nOnline they stitch it together with cookies, pixels, partners, and (if you opt in) VIZIO data. \n\nAds follow you. Purchase history can meet browsing history.\n\nTerms of Use pile on: • Your wireless carrier may hand over number, name, address, email, and device IDs (IMSI/IMEI) for “identity and fraud” • Chatbot/AI inputs are not confidential. What you type, plus purchase history and personal info, can train their models • Content you post is a perpetual, royalty-free license to Walmart • They can monitor how you use the sites • Mandatory individual arbitration. No class action. \n\nUsing the app, a Walmart site, or walking in under those systems is acceptance. Location/Bluetooth off, ad-preference opt-outs, and skipping the phone pad at checkout reduce it. They do not stop the cameras.\n\nAll this and you give Walmart a pass for breaches. You indemnify Walmart for misuse or ToS breaches.\n\nAmong the uses: profile for order fulfillment, customer service, security/fraud, store operations, recommendations (including AR try-on), targeted ads, analytics, and AI training.\n\nSources: Walmart Customer Privacy Notice (updated Aug 20, 2026) and Walmart Terms of Use (June 23, 2026). Read them yourself before you tap “agree.”\n\nThe photo is Walmart’s new center for tracking a myriad of information, opened in 2025.",
+"likeCount": 26,
+"retweetCount": 8,
+"url": "https://x.com/T_Q_Gardner/status/2096776870385639454",
+"createdAt": "Mon Sep 07 01:45:36 +0000 2026"
+},
+{
+"userName": "AIGuideHQ",
+"text": "𝗙𝗥𝗘𝗘 𝗩𝗦 𝗣𝗔𝗜𝗗 𝗔𝗜 𝗧𝗢𝗢𝗟𝗦\n\nCompare the best free and paid AI tools across different categories to find the right solution for your workflow. Whether you're a beginner or a professional, there's an AI tool for every need.\n\n 𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀 \n FREE: Knime\n PAID: Power BI\n\n 𝗕𝗿𝗮𝗶𝗻𝘀𝘁𝗼𝗿𝗺𝗶𝗻𝗴 \n FREE: Perplexity\n PAID: Claude Opus\n\n 𝗚𝗿𝗮𝗽𝗵𝗶𝗰 𝗗𝗲𝘀𝗶𝗴𝗻 \n FREE: Canva\n PAID: Creative Cloud\n\n 𝗣𝗵𝗼𝘁𝗼 𝗘𝗱𝗶𝘁𝗶𝗻𝗴 \n FREE: Photopea\n PAID: PicWish\n\n 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵 \n FREE: Perplexity AI\n PAID: Silatus\n\n 𝗜𝗺𝗮𝗴𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻 \n FREE: BlueWillow\n PAID: Midjourney\n\n 𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴 \n FREE: Codota\n PAID: GitHub Copilot\n\n 𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁 \n FREE: Notion\n PAID: Forecast\n\n 𝗪𝗿𝗶𝘁𝗶𝗻𝗴 \n FREE: ChatGPT\n PAID: Grammarly\n\n 𝗧𝗲𝘅𝘁 𝘁𝗼 𝗩𝗶𝗱𝗲𝗼 \n FREE: Vidnoz\n PAID: Runway\n\n Like\n Retweet\n Bookmark\n\n Like, Retweet, Bookmark and Follow @aiguidehq for more such posts",
+"likeCount": 6,
+"retweetCount": 3,
+"url": "https://x.com/AIGuideHQ/status/2096741399471239509",
+"createdAt": "Sun Sep 06 23:24:39 +0000 2026"
+},
+{
+"userName": "GookieNft",
+"text": "Before @axisrobotics had funding, a token, or a main product, it started with a simple experiment.\n\nThe goal was to:\n\nBrowser → Data → Model → Real Robot\n\nCould people control a virtual robot arm, create useful training data, and use that data to teach a real robot?\n\nThe task was simple:\n\nWater a virtual rose.\n\nAnyone could join, even without robotics experience.\n\nThe results:\n\n→ 15,000+ participants\n→ 85,000+ training sessions\n→ Data used to train a robot model\n\nThen came the real test.\n\nThe trained model was deployed on a real Franka robot arm.\n\nThe result:\n\nVirtual rose → Training data → Real robot → Real rose\n\nAnd it worked.\n\nAll in just five days.\n\nA second experiment went even further:\n\n→ 27 tasks\n→ 18,000+ participants\n→ 100,000+ valid trajectories\n\nTo me, this is where the Axis story really begins.\n\nThey did not try to solve every robotics problem at once.\n\nThey started with one simple question:\n\nCan crowdsourced data actually teach robots?\n\nThe rose experiment showed that it can.\n\nNow Axis is taking that same idea toward much bigger Physical AI problems.\n\nFor more info 👇 \n\nhttps://t.co/tB9F8EBkEx",
+"likeCount": 73,
+"retweetCount": 4,
+"url": "https://x.com/GookieNft/status/2096425402579243112",
+"createdAt": "Sun Sep 06 02:29:00 +0000 2026"
+},
+{
+"userName": "BJ_ETown",
+"text": "Five new vertical AI models have completed registration in #Beijing #ETown!\n\nThe latest batch covers fashion recognition, office knowledge, business analysis, supply chains, and security compliance, bringing AI closer to real-world applications across diverse industries.\n\nAs of Aug. 24, Beijing E-Town had registered 39 generative AI services, including 28 new registrations in 2026—another step forward in building a thriving AI ecosystem.",
+"likeCount": 2,
+"retweetCount": 1,
+"url": "https://x.com/BJ_ETown/status/2095017374445691042",
+"createdAt": "Wed Sep 02 05:14:00 +0000 2026"
+},
+{
+"userName": "KingBobIIV",
+"text": "“Those puny little ants outnumber us a hundred to one. And if they ever figure that out, there goes our way of life.” \n- A Bug’s Life\nMen and women are being taught to hate each other. \nIt's been done before, don't let them do it again.\n5 minute read: https://t.co/5c7eHJ1Dlp",
+"likeCount": 55,
+"retweetCount": 17,
+"url": "https://x.com/KingBobIIV/status/2096216317581828293",
+"createdAt": "Sat Sep 05 12:38:10 +0000 2026"
+},
+{
+"userName": "EricRSammons",
+"text": "I don't want government involved in schools at all, but I do think young people should absolutely not use generative AI at all before high school (and only in a limited fashion in HS).",
+"likeCount": 9,
+"retweetCount": 0,
+"url": "https://x.com/EricRSammons/status/2095570153559777358",
+"createdAt": "Thu Sep 03 17:50:33 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @RemiFabreRobot: Robots don't have to be scary!\n\nMicroduck discovers Reachy Mini. Give me your best scenario for these two and I'll see…",
+"likeCount": 1989,
+"retweetCount": 224,
+"url": "https://x.com/ClementDelangue/status/2095293588322082823",
+"createdAt": "Wed Sep 02 23:31:34 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @RemiFabreRobot: We sold over $2,500,000 worth of Microducks in the first 24 hours. Is this one of the most successful robot launches in…",
+"likeCount": 4245,
+"retweetCount": 292,
+"url": "https://x.com/ClementDelangue/status/2094942534682247293",
+"createdAt": "Wed Sep 02 00:16:37 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @osanseviero: Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you!\n\nThe impact of HF in the AI…",
+"likeCount": 169,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2095540302194893215",
+"createdAt": "Thu Sep 03 15:51:55 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @andykonwinski: the united states split the atom, landed on the moon, beat polio, doubled the global wheat yield, sequenced the genome,…",
+"likeCount": 139,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2095842553438294070",
+"createdAt": "Fri Sep 04 11:52:58 +0000 2026"
+},
+{
+"userName": "AgentCanvasHQ",
+"text": "A simple guide to x402, the ecosystem on @base, and how games and creative tools could help more people discover x402 https://t.co/ugSs94l8J9",
+"likeCount": 4,
+"retweetCount": 1,
+"url": "https://x.com/AgentCanvasHQ/status/2096418304109805864",
+"createdAt": "Sun Sep 06 02:00:47 +0000 2026"
+},
+{
+"userName": "amroxxo",
+"text": "Stop asking which AI won. The real edge is knowing which model to use, when. https://t.co/aIaPqQswod",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/amroxxo/status/2096305731993817127",
+"createdAt": "Sat Sep 05 18:33:28 +0000 2026"
+},
+{
+"userName": "_VVSVS",
+"text": "Generative AI Fashion https://t.co/ZKObV41WwI",
+"likeCount": 49,
+"retweetCount": 1,
+"url": "https://x.com/_VVSVS/status/2094522483940462887",
+"createdAt": "Mon Aug 31 20:27:29 +0000 2026"
 }
 ]
