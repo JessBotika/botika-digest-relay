@@ -1,91 +1,91 @@
 [
 {
-"userName": "LianwenJ",
-"text": "Hugging Face Daily Papers (2026-09-06): 31 papers across agents, world models, video/3D, LLM training, evaluation, and applied AI.\n\n1. Compile by Training: Turning Natural-Language Specifications into Local Neural Functions\nHighlight: Many recurring text functions are easy to describe but difficult to implement with rules, while calling a large remote model for every input introd.\narXiv: https://t.co/kO2vSH2KUS\n\n2. Terminal-Universe: Turning Agent Trajectories into Scalable Terminal Environments\nHighlight: As terminal-based code agents become prevalent, agent trajectories have accumulated at scale, while realistic, executable environments remain scarc.\narXiv: https://t.co/IvijRwjwvW\n\n3. LLaDA-Image: Building Strong Image Generators with Fully Open Training Recipes\nHighlight: We introduce LLaDA-Image, a unified framework that pairs a 6B Diffusion Transformer (DiT) trained from scratch with a frozen vision-language unders.\narXiv: https://t.co/rfOpVmXKgm\n\n4. Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning\nHighlight: Large language models achieve superior performance on tasks that require extended reasoning, but long chains of thought make the KV cache a severe.\narXiv: https://t.co/Q4IdFnlnHW\n\n5. Knowing When Not to Reuse: Conditional Experience Transfer in Autonomous LLM Post-Training\nHighlight: Large language models offer broad capabilities, but adapting them to evolving domains, tools, and requirements often entails repeated post-training.\narXiv: https://t.co/bg2PhjZOSu\n\n6. RoboTok: An Internet-Scale Data Engine for Human Demonstration Retrieval and Dexterous Manipulation Learning\nHighlight: Robot learning increasingly depends on broad and diverse demonstrations, yet collecting robot data remains expensive and poorly suited to covering.\narXiv: https://t.co/TdVVMpVjqY\n\n7. LatentPress: Context Compression Beyond Text and Vision\nHighlight: Compressed context is usually carried as human-readable text or as rendered images that must be decoded, even when its consumer is a language model.\narXiv: https://t.co/Lru7ncUNbz\n\n8. Rethinking On-Policy Distillation of Large Language Models II: One Training Example\nHighlight: On-policy distillation (OPD) combines student-generated rollouts with dense token-level supervision from a teacher. Existing work has mainly studie.\narXiv: https://t.co/3tOYyaSCiY\n\n9. Why Gated DeltaNet Survives 4-Bit Quantization: NVFP4 W4A4 for the Recurrent Half of a Hybrid 27B LLM\nHighlight: Hybrid LLMs pair softmax attention with linear-attention layers such as Gated DeltaNet (GDN), whose recurrent state summarizes the context in fixed.\narXiv: https://t.co/Kl5ELowSZm\n\n10. Puffin-World: Scaling a Unified Multimodal Model with Native 3D World States\nHighlight: We propose Puffin-World, a unified multimodal architecture that integrates physical understanding, spatial simulation, and 3D world generation and.\narXiv: https://t.co/DR3rXhfSFY\n\n11. Scal3R: Learning Efficient Multi-Relative Pose Query for Scalable Online 3D Reconstruction\nHighlight: Online 3D reconstruction models perform poorly on long videos. This happens because regressing poses relative to a fixed first-frame anchor forces.\narXiv: https://t.co/athLaCZTrn\n\n12. Editable Visual Design\nHighlight: While diffusion base models such as GPT-Image-2 and Nano-Banana exhibit remarkable visual expressiveness, their end-to-end generation inherently yi.\narXiv: https://t.co/vHtxFleaEt\n\n13. The Missing Temporal Link: Temporal Context Routing for Script-Driven Audio-Video Generation\nHighlight: Joint audio-video generation models have made substantial progress in visual quality and audio-visual synchronization. However, they still provide.\narXiv: https://t.co/JqAqeKRVWp\n\n14. Beyond Retrieval: Progressive Latent Memory Evolution for Streaming Video Understanding\nHighlight: Streaming video understanding requires multimodal large language models (MLLMs) to process continuous visual inputs and respond to user queries und.\narXiv: https://t.co/d9caixk1aA\n\n15. Last Translation Benchmark\nHighlight: For scientific progress, we need benchmarks that test the limits of state-of-the-art models, and evaluation methods that inform us about failure ca.\narXiv: https://t.co/tLgPKU5WNZ\n\n16. RealSWE: A Compositional Evaluation of Coding Agents under Realistic User Requests\nHighlight: Coding agents are now commonly evaluated on the SWE-bench family of benchmarks, whose tasks are built from curated GitHub issues: long, structured,.\narXiv: https://t.co/bHdUZENTlB\n\n17. DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training\nHighlight: Reinforcement Learning from Verifiable Rewards works well when a task has a programmatic checker, but most long-horizon agent domains have none. We.\narXiv: https://t.co/BCXggq6SSq\n\n18. CORE: Improving Compositional Reasoning in MLLM Embedding via Reranker Distillation\nHighlight: MLLM-based embedding models remain limited in compositional retrieval, often failing to distinguish scenes containing the same concepts but differe.\narXiv: https://t.co/7pQK66l0vt\n\n19. WorldReward: Reward Modeling for Camera-Conditioned World Models\nHighlight: Camera-conditioned world models generate interactive videos in which commanded actions should induce the expected scene changes while appearance, g.\narXiv: https://t.co/AL9vnWCqlw\n\n20. PACE: Towards Surfacing Hidden Conflicts in User Requests\nHighlight: Personalized assistants should not only comply with user requests but also assess whether those requests are appropriate given the user's current c.\narXiv: https://t.co/IbflreBajE\n\n21. FlashRender: Few-Step Generative Rendering via Camera-Controlled Video MeanFlow\nHighlight: We present FlashRender, a few-step generative rendering framework that retakes a source video along a target camera trajectory in seconds. We ident.\narXiv: https://t.co/U5Kl28OLvq\n\n22. Using Grounded Theory for Agent Behavior Analysis at Scale\nHighlight: Understanding agent behavior requires methods that scale to thousands of trajectories and surface new patterns in long, often unfamiliar tasks wher.\narXiv: https://t.co/kofzIlNsUO\n\n23. Environment Evolution for Terminal Agents\nHighlight: Scaling interactive and verifiable environments is critical for training terminal agents. As frontier models become more capable, environments synt.\narXiv: https://t.co/RUVk8Xu18A\n\n24. Principia: Relational Physics Tests for Video Models\nHighlight: Evaluating physical reasoning in video models is difficult because absolute motion measurements depend on frame rate, object scale, and camera cali.\narXiv: https://t.co/ITyFS4qpna\n\n25. Select, Compress, Reinvest: A Controlled Study of Visual-Token Allocation in Long-Video MLLMs\nHighlight: Long-video language models cannot look at every frame: an hour sampled once per second is 3,600 images, and a system keeps only a small fixed slice.\narXiv: https://t.co/nTXtDD22ax\n\n26. Percolation Dynamics in Optimization : Variance Cascades and Discrete Scale Invariance\nHighlight: We study the dynamics of Stochastic Gradient Descent (SGD), which is known to steer deep neural networks toward invariant sets that correspond to s.\narXiv: https://t.co/G2QaTCkmxr\n\n27. QCell: Recombining and Aligning Cell Queries for Overlapping Instance Segmentation\nHighlight: Instance segmentation of overlapping cells in microscopy remains challenging due to semi-transparent structures that produce weak boundaries and mi.\narXiv: https://t.co/VLg4sySFV3\n\n28. Let Confidence Change, Not the Prediction: Prediction-Preserving Repair for Post-hoc Calibration\nHighlight: Post-hoc calibration corrects reported confidence, yet a multiclass calibrator can also change the associated top-1 prediction. Accuracy captures o.\narXiv: https://t.co/qyGG5L5O68\n\n29. VeriPhy: Agentic Physical Reasoning for World Model Evaluation and Refinement\nHighlight: Visual fluency in generated video does not imply physical reliability, and a scalar quality score alone is incapable of indicating the obligation a.\narXiv: https://t.co/3RZ73UDLJ5\n\n30. A Common Measure of Communication for Speech Brain-Computer Interfaces\nHighlight: Speech brain-computer interfaces (speech BCIs) translate neural activity into language, offering a path towards restoring speech for people with pa.\narXiv: https://t.co/IYkp0jQZ5B\n\n31. Locked at the Entrance, Open Inside: Where RLVR Narrows the Solution Space\nHighlight: Reinforcement learning with verifiable rewards (RLVR) substantially improves single-sample accuracy (pass@1) but causes the policy's solution space.\narXiv: https://t.co/MPUW1moQG0\n\nTrend summary:\n- LLMs / NLP / agents: 17\n- Vision / video / 3D / world models: 16\n- Learning systems / optimization / efficiency: 10\n- Reasoning / RL / rewards: 7\n- Agents / coding environments: 6\n- Embodied / bio / scientific AI: 3\n\nCode links found for 18/31 papers.",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/LianwenJ/status/2096743401064706254",
-"createdAt": "Sun Sep 06 23:32:37 +0000 2026"
+"userName": "blogsaays",
+"text": "🧵 LLMs are powerful, but generating tokens one-by-one is painfully slow.\n\nA new paper, “Unlocking Lossless Speedups in LLMs via Discrete Diffusion,” proposes Uno - a way to make autoregressive LLMs generate multiple tokens in parallel without changing the original model’s output distribution.\n\nHere’s the idea 👇\n\n1/ The problem\n\nStandard LLMs are autoregressive (AR):\n\n“The capital of France is”\n\n→ “Paris”\n→ next token\n→ next token\n→ next token...\nEach token depends on the previous one, so generation is inherently sequential.\nThis becomes expensive for:\n• long reasoning traces\n• coding agents\n• tool-using agents\n• RL rollouts\n• high-concurrency serving\nThe GPU often spends more time moving model weights/KV-cache data than doing useful computation.\n\n2/ Speculative decoding helps - but has a cost\n\nTraditional speculative decoding uses:\nSmall draft model → proposes tokens → large model verifies them\nFor example:\nDraft model proposes:\n“The Eiffel Tower is located in Paris”\nThe large model verifies the proposed sequence in parallel.\n\nIf the tokens are accepted, we get several tokens for roughly the cost of one verification step.\n\nThe catch?\n\nYou need a separate draft model, additional memory, another KV cache, and careful alignment between draft and target models.\n\n3/ Uno asks a different question\n\nWhat if we could make the same LLM act as both:\n\n🧠 Verifier: original autoregressive model\n⚡ Drafter: diffusion-based parallel generator\n\nInstead of training a second draft model, Uno adds lightweight LoRA diffusion adapters to the existing LLM.\n\nSo the architecture becomes:\n\nAR weights\n→ preserve model quality\n\nDiffusion weights\n→ optimize generation speed\n\nThe two pathways share the same underlying model.\n\n4/ How does the diffusion pathway work?\n\nImagine the model has already generated:\n\n“The Eiffel Tower is”\nInstead of predicting only:\n\n“located”\n\nthe diffusion pathway tries to draft a whole block:\n\n“located in Paris, France.”\nThese tokens are proposed in parallel.\n\nThe goal isn't for the diffusion model to be perfect.\nIt just needs to produce drafts that are close enough to what the AR model would generate.\n\n5/ The clever part: AR verification\n\nUno then sends the draft through the original AR model.\n\nSuppose the diffusion pathway proposes:\n\n“located in Paris, France and was completed”\n\nThe AR verifier might accept:\n\n“located in Paris, France”\n\nand reject the rest.\n\nOnly the valid prefix is retained.\n\nIf something is rejected, the AR model samples the correct replacement.\n\nThis is why the authors call the acceleration lossless.\n\nThe original AR model remains the final authority.\n\n6/ Ψ-Spec\n\nThe paper introduces Ψ-Spec, the sampler that combines:\n\nDiffusion drafting + AR verification + rejection sampling\n\nThe diffusion model proposes multiple tokens simultaneously.\n\nThe AR model verifies them.\n\nBecause the verifier is still the original AR model, the sampling procedure preserves its target distribution.\n\n7/ A simple example\n\nSuppose the AR model would generate:\n\n“Machine learning models learn patterns from data.”\n\nNormally:\n\nStep 1: Machine\nStep 2: learning\nStep 3: models\nStep 4: learn\nStep 5: patterns\n...\n\nUno might draft:\n\n“Machine learning models learn patterns”\n\nin parallel.\n\nThe verifier checks the proposed tokens.\n\nIf all are valid, several tokens are emitted in one iteration.\n\nSo instead of:\n\n1 token → verify → 1 token → verify → 1 token\n\nwe get:\n\nmultiple-token draft → verify → multiple accepted tokens\n\nThat is where the speedup comes from.\n\n8/ Why LoRA?\nThe diffusion pathway uses lightweight LoRA adapters rather than another full model.\nFor the Qwen3-8B experiment, the adapters add only about 0.35B trainable parameters.\nThis is significantly smaller than the 1.05B-parameter DFlash drafter used as one of the baselines.\n\nUno also shares a KV cache between drafting and verification, reducing peak memory.\n9/ Training is also interesting\nThe authors don't retrain the whole LLM.\n\nThey first train the normal AR model.\n\nThen:\n\nFreeze the AR weights\n\nAdd diffusion LoRA adapters\n\nCorrupt token blocks using discrete diffusion\n\nTrain the adapters to reconstruct/draft the tokens\n\nEncourage drafts that have high acceptance probability under the AR verifier\n\nThe paper uses Diffusion Consistency Distillation + Total Variation loss for this process.\n\n10/ Why this matters\n\nThe diffusion adapters are essentially learning:\n\n“How can I predict several tokens at once that the original AR model is likely to accept?”\n\nSo the expensive model doesn't need to change its behavior.\n\nThe additional parameters are dedicated almost entirely to making inference faster.\n\nThat separation of quality vs. speed is the core design idea.\n\n11/ The results are impressive\nFor the Qwen-based UnoQwen model:\n\n⚡ 5,733 tokens/sec system throughput\n\nvs.\n\n• EAGLE-3: 4,944 tok/s\n• DFlash: 5,351 tok/s\n\nAt maximum batch size, UnoQwen reaches about 1.6× the throughput of the base AR model.\nAt batch size 1, it reaches about 2.5× speedup over the base model.\n12/ It isn't just about batch size 1\nThis is an important point in the paper.\nMany acceleration papers emphasize single-request latency.\n\nBut real-world agentic systems often have:\n\n• multiple users\n• parallel agents\n• tool calls\n• retries\n• branching trajectories\n• RL rollouts\n\nSo the authors measure both:\n\nPer-request throughput\n\nand\n\nSystem throughput at high batch sizes.\n\nUno maintains its speed advantage across evaluated batch sizes.\n\n13/ Uno vs diffusion LLMs\n\nConventional diffusion LLMs can generate tokens in parallel, but they often introduce a quality ↔ speed tradeoff because the underlying AR model is modified or replaced.\n\nUno takes a different approach:\n\nAR model = quality\n\nDiffusion adapter = speed\nAR verifier = correctness\n\nSo the diffusion component doesn't have to become the final model.\n\nIt only needs to produce useful proposals.\n\n14/ Uno can also accelerate RL\n\nThis may be one of the most practical applications.\n\nRL training for LLMs requires huge numbers of rollouts.\n\nIf generation is faster, RL training becomes faster too.\n\nThe paper reports up to 40% end-to-end RL training speedup, particularly for mathematics and coding experts.\n\n15/ The broader idea\nThe interesting conceptual takeaway isn't just “diffusion makes LLMs faster.”\nIt's:\nSeparate the model that defines the distribution from the mechanism used to sample from it efficiently.\nThe AR model defines:\n\n“What should the model generate?”\n\nThe diffusion pathway learns:\n\n“How can we propose several tokens at once?”\n\nThe verifier guarantees:\n\n“Only outputs consistent with the AR distribution survive.”\n\n16/ Why I think this is interesting\n\nThere are three different approaches to faster LLM inference:\n\nSpeculative decoding\n\n→ separate draft model\n\nDiffusion LLMs\n\n→ parallel generation, but potentially lossy\n\nUno\n\n→ diffusion-based drafting + original AR verification\n\nThe third approach tries to combine the best properties of both.\n\n17/ The key numbers\n\n📌 UnoQwen\n• 8B base model\n• +0.35B diffusion parameters\n• ~5,733 tok/s system throughput\n• ~1.6× faster than base AR at max batch\n• ~2.5× faster at batch size 1\n• lower peak memory than EAGLE-3/DFlash\n\nAnd the full Uno model reports speedups of up to ~3×, with gains retained at high batch sizes.\n\n18/ The one-sentence summary\n\nUno turns diffusion into a lightweight “parallel proposal engine” for an autoregressive LLM, while keeping the original AR model as the exact verifier.\n\nThat gives you:\n\n⚡ parallel token generation\n🧠 original model quality\n✅ lossless verification\n💾 fewer additional parameters\n📈 better throughput\n🚀 faster RL rollouts\n\nThis is a pretty compelling direction for making long-context and agentic LLM workloads cheaper and faster.\n\n #AIResearch #MachineLearning #GenerativeAI #DiffusionModels",
+"likeCount": 3,
+"retweetCount": 1,
+"url": "https://x.com/blogsaays/status/2096951109160182234",
+"createdAt": "Mon Sep 07 13:17:58 +0000 2026"
 },
 {
-"userName": "Dineshsahu004",
-"text": "𝗙𝗿𝗲𝗲 𝘃𝘀 𝗣𝗮𝗶𝗱 𝗔𝗜 𝗧𝗼𝗼𝗹𝘀: Which one should you use? 🤖\n\nYou don’t always need a paid AI tool. Sometimes, the free alternative can get the job done just as well.\n\nHere’s a quick cheat sheet 👇\n\n𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵: Perplexity AI → Silatus\n𝗣𝗿𝗼𝗴𝗿𝗮𝗺𝗺𝗶𝗻𝗴: Codota → GitHub Copilot\n𝗚𝗿𝗮𝗽𝗵𝗶𝗰 𝗗𝗲𝘀𝗶𝗴𝗻: Canva → Adobe Creative Studio\n𝗜𝗺𝗮𝗴𝗲 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝗼𝗻: Bluewillow → Midjourney\n𝗧𝗲𝘅𝘁 𝘁𝗼 𝗩𝗶𝗱𝗲𝗼: Vidnoz → Runway\n𝗔𝗜 𝗦𝗵𝗼𝗿𝘁 𝗩𝗶𝗱𝗲𝗼: Ossa AI → Vsub\n𝗣𝗿𝗼𝗷𝗲𝗰𝘁 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁: Notion → Forecast\n𝗣𝗵𝗼𝘁𝗼 𝗘𝗱𝗶𝘁𝗶𝗻𝗴: Photopea → PicWish\n𝗗𝗮𝘁𝗮 𝗔𝗻𝗮𝗹𝘆𝘁𝗶𝗰𝘀: Knime → PowerBI\n𝗘𝗺𝗮𝗶𝗹 𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴: Moosend → Omnisend\n𝗞𝗲𝘆𝘄𝗼𝗿𝗱 𝗥𝗲𝘀𝗲𝗮𝗿𝗰𝗵: Moz Keyword Explorer → Semrush\n𝗩𝗶𝗱𝗲𝗼 𝗘𝗱𝗶𝘁𝗶𝗻𝗴: Vmaker → Adobe Premiere Pro\n𝗪𝗿𝗶𝘁𝗶𝗻𝗴: ChatGPT → Jasper\n𝗠𝗮𝗿𝗸𝗲𝘁𝗶𝗻𝗴: Claude → Writesonic\n𝗘𝗺𝗮𝗶𝗹 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁: Gemini in Gmail → Superhuman\n𝗙𝗶𝗹𝗲 𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁: Google Drive → Dropbox Business\n𝗠𝘂𝘀𝗶𝗰: Mubert → Soundraw\n𝗗𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝗔𝗻𝗮𝗹𝘆𝘀𝗶𝘀: PDF AI → Adobe Acrobat Pro\n𝗔𝗜 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁: Hugging Face → Replicate\n\n𝗧𝗵𝗲 𝘁𝗮𝗸𝗲𝗮𝘄𝗮𝘆: Pick the right tool for the right job.\n\nYou don’t always need the most expensive option. ⚡\n\n𝗦𝗮𝘃𝗲 𝘁𝗵𝗶𝘀 𝗴𝘂𝗶𝗱𝗲 𝗳𝗼𝗿 𝗹𝗮𝘁𝗲𝗿. 🔖\n\n❤️ Like\n🔁 Retweet\n🔖 Bookmark\n\nFollow @Dineshsahu004 for more such posts",
-"likeCount": 43,
-"retweetCount": 12,
-"url": "https://x.com/Dineshsahu004/status/2097236008416993377",
-"createdAt": "Tue Sep 08 08:10:03 +0000 2026"
-},
-{
-"userName": "dinisguarda",
-"text": "AI AGI Bulletproof Jobs for Humanity 2030–2050\n\nThese five sectors form what we will call the Pentagram of Human AI AGI bulletproof systems and development:\n\n1. Education and Social Care; Lifestyle, Fashion, and Personal Development; creative economy and Creative Identity. This affects each of us. What we learn, what we dress, how we define our careers in our teenage years, young adults keep changing and we have to adapt and reskilling ourselves and our new generations. This is a major part of our civilisation and what it means to be humans.\n\n2. Food, Agriculture, specialised related services and energy trades. Food and agricultural security is critical for humanity, and this sector is vital as we grow our civilisation from 1 billion at the beginning of the 20th century to 8 billion in the 21st century and to 9 to 10 billion by 2050!\n\n3. 360 Lifestyle Travel, Fashion, and Creative Identity. This is a new multi-trillion-dollar ecosystem growing at a massive scale as we dive deeper into our new lifestyle experiences.\n\n4. Health, Experiences, Entertainment and Sports. This is a radically new social and business financial sector that did not exist 50/100 years ago.\n\n5. Space and new financial and human extra-planetary expansion. The new frontier that did not exist a generation ago, Space and new financial expansion as we dive into planetary exploration as a Civilisational Augmentation.\n\nThese are the Five Pentagram Sectors that will rewrite the entire present society, its economic and political models, and radically transform the way we behave as humans, tribes, cities, and countries. \n\nMy thoughts here\nhttps://t.co/PJkljISyXX \n\nCC @Nicochan33 @NickAyton @DebmalyaBiswas\n@blakiesing @paulwrblanchard\n@WearablesExpert @VladoBotsvadze\n@1DavidClarke @DeborahmCollier\n@CyrilCoste @sallyeaves @Corix_JC @antgrasso\n@LindaGrass0 @grattongirl @QHbrcht\n@felix_holzapfel @olkonol_oa @KamLardi\n@SpirosMargaris @enricomolinari @TomRaftery",
-"likeCount": 23,
-"retweetCount": 15,
-"url": "https://x.com/dinisguarda/status/2095916176656462097",
-"createdAt": "Fri Sep 04 16:45:31 +0000 2026"
-},
-{
-"userName": "influencer_seo",
-"text": "Shoutout to fal research team for making H3 max turbo\n\nH3 Max Turbo can generate video at lightning quick speeds\n\n• 480p speed for text to video\n- 5 seconds of video generation at 480p took 0.48 seconds\n- 15 seconds of video generation at 480p took 1.71 seconds\n\n• 768p speed for text to video\n- 5 seconds of video generation at 768p took 1.59 seconds\n- 15 seconds of video generation at 768p took 8.62 seconds\n__________________________________________________\n\nImage to video h3 max turbo was also the quickest i've ever seen for image to video\n\n• 480p speed for image to video\n- 5 seconds of video generation at 480p took 0.52 seconds\n- 15 seconds of video generation at 480p took 1.76 seconds\n\n• 768p speed for image to video\n- 5 seconds of video generation at 768p took 1.72 seconds\n- 15 seconds of video generation at 768p took 8.89 seconds",
-"likeCount": 8,
-"retweetCount": 0,
-"url": "https://x.com/influencer_seo/status/2097078107048153460",
-"createdAt": "Mon Sep 07 21:42:37 +0000 2026"
+"userName": "PetaIndia",
+"text": "The future of fashion is kind. 💚✨ \n\nPETA India, as the supporting partner of ET Retail's ShopFWD Summit 2026, spotlighted innovative vegan fashion brands and next-generation materials that prove style never has to come at the cost of an animal's life. \n\nAt our stall, visitors explored a wide range of cruelty-free alternatives, discovering how conscious material choices can benefit animals, humans, and the planet. Our showcase featured pioneering vegan brands and materials that are helping reshape the future of fashion, while a powerful video featuring Karishma Tanna highlighted the suffering animals endure for leather, wool, exotic skins, and other animal-derived materials. \n\nA key highlight of the event was Jeev, PETA India’s AI-powered robo calf, who engaged attendees in meaningful one-on-one conversations about the realities of the fashion industry and inspired them to consider kinder, animal-free alternatives. \n\nAdding to the dialogue, Ashima Kukreja, PETA India’s Director of Corporate Affairs, joined a panel discussion on how material innovation, responsible sourcing, brand accountability, and evolving consumer values are driving the fashion industry's next chapter. \n\nAs consumer demand for ethical and sustainable products continues to grow, events like these demonstrate that innovation and compassion can go hand in hand. The future of fashion is what not only reflects style but also responsibility and kindness. \n\n🔗 More details: https://t.co/BceRpAFRd6    \n \n#ETShopFWD #ETShopFWD2026 #ETRetailFashionXP #FashionXP2026 #FashionXP #VeganFashion #SustainableFashion #VeganLeather #CrueltyFreeFashion #EthicalFashion #PETAIndia #Leather #Cows #Crocodiles #Snakes #Goats, #VeganLeather #Fashion",
+"likeCount": 9,
+"retweetCount": 1,
+"url": "https://x.com/PetaIndia/status/2097322091557146921",
+"createdAt": "Tue Sep 08 13:52:07 +0000 2026"
 },
 {
 "userName": "gurtej__gill_",
-"text": "This paper is definitely one of the cleanest takes on offline RL we’ve come across recently.\n\nWe’ve all seen how messy the balance is between staying on-distribution and actually maximizing reward. \n\nMost people either throw in awkward penalties or just use diffusion models and live with painful sampling latencies.\n\nThey treat behavioral constraints and value optimization as motion fields in action space, blend them, and bake the whole thing into a one step generator. \n\nYou get the expressiveness of a generative model without having to wait on multi step denoising at test time, just a single forward pass.\n\nThey tested it on 73 tasks across D4RL and OGBench and took the top average rank against some serious diffusion and flow baselines. \n\nDefinitely worth reading if you care about fast continuous control: https://t.co/FWtPTmNFiK",
-"likeCount": 44,
-"retweetCount": 9,
-"url": "https://x.com/gurtej__gill_/status/2096671771634364785",
-"createdAt": "Sun Sep 06 18:47:59 +0000 2026"
+"text": "This paper points out something that should have been obvious to all of us.\n\nWe’ve spent the last 2 years throwing massive diffusion models at offline RL actors just to handle multimodal data, and just pretending that a 50ms denoising loop per step is fine for robotics. \n\nThe reality is it isn’t.\n\nThe argument of this paper is dead simple: the critic gets thrown away the second training ends. \n\nThe actor is the only thing that actually has to run live on hardware. \n\nSo why on earth are we stuffing all the compute into the actor?\n\nPeople avoided deep critics before because offline value networks love to diverge into oblivion, but they managed to stabilize a deep residual critic using n-step targets and categorical cross-entropy. \n\nThat lets the critic do the heavy lifting during training, so runtime is left to a tiny deterministic policy that runs in a single forward pass. \n\nIt matches diffusion performance on OGBench while running 4x faster, no distillation hacks needed.\n\nAnd i feel its genuinely a great work and definitely worth a read.\n\nRead the full paper here: https://t.co/i0FVJuJUR2",
+"likeCount": 15,
+"retweetCount": 10,
+"url": "https://x.com/gurtej__gill_/status/2095955849051357668",
+"createdAt": "Fri Sep 04 19:23:10 +0000 2026"
 },
 {
-"userName": "meAsifAi",
-"text": "Created with @OpenAI\nPrompt:\nAct as an elite fashion and advertising Creative Director.\n\nAnalyze the uploaded reference image and develop three completely different creative directions for a premium visual campaign.\n\nFor each direction define:\n\nCampaign Concept\nCreative Story\nVisual Mood\nColor Palette\nSubject Styling\nProps\nEnvironment\nLighting Concept\nCamera Language\nComposition Strategy\nKey Visual Element\n\nThen select the strongest direction and turn it into a highly detailed, production-ready image-generation prompt.\n\nThe final concept must feel original and editorial rather than like a generic AI portrait or standard product photograph.",
-"likeCount": 18,
-"retweetCount": 3,
-"url": "https://x.com/meAsifAi/status/2095592589286318480",
-"createdAt": "Thu Sep 03 19:19:42 +0000 2026"
+"userName": "rohanpaul_ai",
+"text": "Uno shows a simple way to speed up existing LLMs without changing their output distribution: keep the original model in charge, and use diffusion only to draft multiple tokens in parallel.\n\nKeep the autoregressive model for quality and add diffusion for parallel drafting\n\nOn Qwen3-8B, Uno delivered 2.5X higher per-request throughput and 1.6X higher system throughput at the largest tested batch size.\n\nNormal autoregressive LLMs generate 1 token at a time, making long responses, agents, and RL rollouts slow.\n\nUno adds lightweight diffusion adapters that propose several future tokens at once, while the original model verifies them.\n\nThat avoids a separate draft model and preserves the base model’s sampling behavior.\n\nIt also sped up end-to-end RL training by up to 40% in the reported runs.",
+"likeCount": 34,
+"retweetCount": 6,
+"url": "https://x.com/rohanpaul_ai/status/2097378878000157076",
+"createdAt": "Tue Sep 08 17:37:46 +0000 2026"
 },
 {
-"userName": "haruki_web3",
-"text": "\"You can already swap USDC↔USDT on Uniswap. So what does an on-chain FX protocol actually add?\"\n\nI wrote a deep dive on @seraprotocol and on-chain FX. The short answer: it's a different problem than an AMM solves. 🧵\n\nhttps://t.co/AESQd5eo9L https://t.co/lqSffAKrU0",
-"likeCount": 8,
+"userName": "Weeleey6",
+"text": "What impresses me about Kling MCP is how naturally video generation can now fit into an existing creative process. \n\nYou can brainstorm or develop an idea inside Claude or Cursor and move straight into generating strong visuals with Kling. \n\nFor product concepts, fashion content, ads, and rapid experimentation, that kind of integration could save creators a huge amount of time.",
+"likeCount": 103,
 "retweetCount": 1,
-"url": "https://x.com/haruki_web3/status/2097355430540501370",
-"createdAt": "Tue Sep 08 16:04:36 +0000 2026"
+"url": "https://x.com/Weeleey6/status/2097937624799330815",
+"createdAt": "Thu Sep 10 06:38:02 +0000 2026"
+},
+{
+"userName": "vadooai",
+"text": "A beauty commercial doesn't need a massive production crew anymore. 👀✨\n\nWith the right direction, AI can turn a visual concept into something cinematic, polished, and unforgettable.\n\nHigh fashion meets generative video in every frame.\n\nMade with Seedance 2.5 x Vadoo AI. 🎬 https://t.co/2ap2pQoH4A",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/vadooai/status/2096848439564755052",
+"createdAt": "Mon Sep 07 06:30:00 +0000 2026"
+},
+{
+"userName": "Theaaronnichols",
+"text": "In today’s episode, I interview Craig Morris, executive director of the Bundesverband Steckersolar (the German Plug-In Solar Association). \n\nPlug-in solar is coming to America next. This will help explain how it'll all work. https://t.co/5pymBh80j5",
+"likeCount": 7,
+"retweetCount": 2,
+"url": "https://x.com/Theaaronnichols/status/2097681284504154417",
+"createdAt": "Wed Sep 09 13:39:25 +0000 2026"
+},
+{
+"userName": "is_OwenLewis",
+"text": "With everything happening in AI, and happening so rapidly, it feels to me like we're crossing over the event horizon of the Singularity. I'm sure we'll recognize it fully only sometime after the fact. Exciting times. https://t.co/Y4ndajMAcT",
+"likeCount": 16,
+"retweetCount": 2,
+"url": "https://x.com/is_OwenLewis/status/2097661051542384831",
+"createdAt": "Wed Sep 09 12:19:02 +0000 2026"
+},
+{
+"userName": "_kutesylilulu",
+"text": "I could have sworn Generation Z talked about how horrible millennials fashion was in the 80’s and now they’re using  AI to see how they would look like in 1980.\n\nChoose a side or sit this one out.",
+"likeCount": 2,
+"retweetCount": 2,
+"url": "https://x.com/_kutesylilulu/status/2097742059927142712",
+"createdAt": "Wed Sep 09 17:40:55 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Sometimes I wonder what would have happened if we hadn't disclosed the agent cyberattack publicly.\n\nIt reinforced my conviction that we need 100x more transparency in AI. Otherwise we're going to be in big trouble!",
-"likeCount": 2451,
-"retweetCount": 167,
-"url": "https://x.com/ClementDelangue/status/2096981079940911107",
-"createdAt": "Mon Sep 07 15:17:04 +0000 2026"
+"text": "RT @julien_c: I’ve been overwhelmed and humbled by the fact that 99% of the reactions to our intent to join forces have been positive. ❤️…",
+"likeCount": 479,
+"retweetCount": 34,
+"url": "https://x.com/ClementDelangue/status/2096970005963272486",
+"createdAt": "Mon Sep 07 14:33:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MichaelDell: Open models are for everyone and how AI reaches everyone.\n\n18M developers. 3M models. 200K companies building on @huggingf…",
-"likeCount": 1767,
-"retweetCount": 152,
-"url": "https://x.com/ClementDelangue/status/2095697437662847400",
-"createdAt": "Fri Sep 04 02:16:19 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @RemiFabreRobot: Robots don't have to be scary!\n\nMicroduck discovers Reachy Mini. Give me your best scenario for these two and I'll see…",
-"likeCount": 2006,
-"retweetCount": 226,
-"url": "https://x.com/ClementDelangue/status/2095293588322082823",
-"createdAt": "Wed Sep 02 23:31:34 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ggerganov: Hugging Face has been acquired by NVIDIA\n\nIt is quite exciting to be a part of this journey! NVIDIA has been an active suppo…",
-"likeCount": 582,
-"retweetCount": 48,
-"url": "https://x.com/ClementDelangue/status/2095902278943215993",
-"createdAt": "Fri Sep 04 15:50:17 +0000 2026"
+"text": "RT @dnapway: Chamath says Nvidia's Hugging Face acquisition is as a massive move against AI becoming a closed source oligopoly\n\n\"Jensen and…",
+"likeCount": 474,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2096722416781144064",
+"createdAt": "Sun Sep 06 22:09:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
@@ -96,19 +96,27 @@
 "createdAt": "Fri Sep 04 18:41:02 +0000 2026"
 },
 {
-"userName": "LordyVisuals",
-"text": "You are wrong if you open After effects to start your project,\n\nRead this to understand what I mean. https://t.co/aBHjfU6I2F",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/LordyVisuals/status/2096973794216710519",
-"createdAt": "Mon Sep 07 14:48:07 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @BigTechAlert: 🆕 @elonmusk has started following @huggingface https://t.co/ejCQmFZVDA",
+"likeCount": 327,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2096217953003778503",
+"createdAt": "Sat Sep 05 12:44:40 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "it's been a busy summer. will take a few days off to recover ✌️ everyone",
-"likeCount": 1079,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2095936909147050349",
-"createdAt": "Fri Sep 04 18:07:54 +0000 2026"
+"userName": "iHateApplee",
+"text": "https://t.co/0t85bc2kZh",
+"likeCount": 34,
+"retweetCount": 6,
+"url": "https://x.com/iHateApplee/status/2097356382424944739",
+"createdAt": "Tue Sep 08 16:08:23 +0000 2026"
+},
+{
+"userName": "daleverett",
+"text": "https://t.co/oR5wCRSZVR",
+"likeCount": 29,
+"retweetCount": 6,
+"url": "https://x.com/daleverett/status/2097712098801582171",
+"createdAt": "Wed Sep 09 15:41:52 +0000 2026"
 }
 ]

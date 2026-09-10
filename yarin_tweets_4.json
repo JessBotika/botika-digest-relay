@@ -1,35 +1,35 @@
 [
 {
-"userName": "gudanglifehack",
-"text": "To learn Artificial Intelligence from basic to advanced levels, you can follow these steps: 🤩🤩\n\n⏩ Python Programming:\n\nStart with Python, one of the most popular languages for AI development. Learn variables, data types, functions, loops, object-oriented programming, file handling, and important libraries such as NumPy and Pandas.\n\n⏩ Mathematics for AI:\n\nBuild a strong mathematical foundation. Learn linear algebra, probability, statistics, calculus, vectors, matrices, derivatives, gradients, and optimization concepts that form the foundation of modern AI.\n\n⏩ Data Handling and Preprocessing:\n\nLearn how AI systems work with data. Study data collection, cleaning, preprocessing, feature engineering, normalization, encoding, missing values, and handling noisy or unbalanced datasets.\n\n⏩ Machine Learning:\n\nLearn how machines learn patterns from data. Study supervised, unsupervised, and reinforcement learning along with algorithms such as Linear Regression, Logistic Regression, Decision Trees, Random Forests, K-Means, and Support Vector Machines.\n\n⏩ Deep Learning:\n\nMove into neural networks and advanced learning systems. Learn neurons, activation functions, forward propagation, backpropagation, loss functions, optimizers, regularization, and architectures such as CNNs, RNNs, LSTMs, and Transformers.\n\n⏩ Natural Language Processing (NLP):\n\nLearn how AI systems understand and generate human language. Study tokenization, text preprocessing, embeddings, sentiment analysis, text classification, sequence models, attention mechanisms, and Transformer architectures.\n\n⏩ Computer Vision:\n\nTeach machines to understand visual information. Learn image processing, image classification, object detection, image segmentation, facial recognition, CNNs, and modern vision models.\n\n⏩ Reinforcement Learning:\n\nLearn how AI agents make decisions through interaction with an environment. Understand agents, states, actions, rewards, policies, value functions, Q-learning, and modern reinforcement-learning techniques.\n\n⏩ Generative AI:\n\nExplore AI systems that can generate new content such as text, images, audio, video, and code. Learn concepts such as generative models, diffusion models, Transformers, and Large Language Models (LLMs).\n\n⏩ Large Language Models (LLMs):\n\nUnderstand how modern language models work. Study attention, Transformer architecture, pretraining, fine-tuning, instruction tuning, embeddings, context windows, and techniques such as Retrieval-Augmented Generation (RAG).\n\n⏩ AI Agents:\n\nLearn how AI systems can reason through tasks and interact with tools. Explore tool calling, memory, planning, workflows, multi-step task execution, and agent architectures.\n\n⏩ AI Frameworks and Tools:\n\nBecome familiar with popular AI development tools and frameworks such as PyTorch, TensorFlow, Scikit-learn, Hugging Face, and other modern AI libraries.\n\n⏩ AI Deployment and MLOps:\n\nLearn how to take AI models from experimentation to real-world applications. Study APIs, model serving, Docker, cloud platforms, monitoring, model versioning, data pipelines, and AI system optimization.\n\n⏩ AI Ethics and Responsible AI:\n\nUnderstand the challenges associated with AI, including bias, fairness, privacy, transparency, security, hallucinations, copyright, and responsible use of AI systems.\n\n⏩ Build Projects and Practice:\n\nPut your knowledge into practice by building AI projects. Start with simple prediction and classification systems, then progress to chatbots, recommendation systems, computer vision applications, RAG systems, AI agents, and complete AI applications.\n\n⏩ Continuous Learning and AI Trends:\n\nArtificial Intelligence is evolving rapidly. Stay updated with new research, models, tools, frameworks, Generative AI developments, robotics, multimodal AI, and emerging technologies.\n\n➡️ Artificial Intelligence is a vast field that combines programming, mathematics, data, machine learning, deep learning, and intelligent systems. The best way to master AI is to build a strong foundation, practice consistently, and gradually work on real-world projects.\n\nReact ❤️ for more",
-"likeCount": 18,
-"retweetCount": 2,
-"url": "https://x.com/gudanglifehack/status/2097478850800484755",
-"createdAt": "Wed Sep 09 00:15:01 +0000 2026"
+"userName": "AndrewBenson",
+"text": "Decart's founders turned down a bigger offer from Nvidia to take Anthropic stock instead. Anthropic just walked away.\n\nBloomberg reported Monday that Anthropic completed due diligence on Israeli startup Decart and then abandoned a roughly $6B acquisition. It would have been the largest deal in Anthropic's history by an order of magnitude, weeks before its IPO.\n\nWhat happened:\n\n- Talks were first reported in August at about $6B, with the caveat that nothing was final\n- Anthropic ran diligence, then withdrew\n- Both companies declined to comment. The two sides may still collaborate, possibly as customer or investor\n- Nobody has said whether Anthropic balked at the price or at something diligence surfaced\n\nThe detail that makes it painful, per Globes:\n\n- Before the Anthropic talks, founders Dean Leitersdorf and Moshe Shalev rejected an offer from Nvidia that was higher than Anthropic's\n- They and their shareholders preferred Anthropic's offer in shares, in anticipation of the IPO\n- They took paper in a company about to list at $2 trillion over more cash from the most valuable company on earth\n- Then the buyer left. They now have neither\n\nWhat Anthropic actually wanted, which most coverage got wrong:\n\n- Decart is known publicly for world models and real-time video, including a virtual try-on product used by creators on Twitch, TikTok and YouTube\n- The acquisition rationale was efficiency, not product. Decart's optimisation stack makes chips work harder across training and inference\n- Its own site promises to squeeze every ounce of performance from every chip\n- The logic was to let Anthropic's existing compute absorb more demand, while it commits hundreds of billions to capacity\n- This was a deal about cost of goods sold, not a new product line\n\nThe numbers:\n\n- Decart was valued at nearly $4B in May 2026, on a $300M round led by Radical Ventures\n- That round included Nvidia, Adobe Ventures, Valor Equity Partners and Atreides, alongside Sequoia, Benchmark and Zeev Ventures\n- Up from $3.1B in August 2025\n- Total raised: about $450M\n- The $6B price was roughly a 50% premium to the last private mark\n- eBay is both an investor and a customer\n\nWho is exposed:\n\n- The May 2026 investors bought at $4B and would have been up about 1.5x in four months. They are now back to holding an unmarked private position\n- Nvidia is on the cap table and also made the higher bid that got rejected. It is the one party here that can simply try again\n- The founders and shareholders now have to find a new buyer, having already turned one down\n- For Israel's AI sector this removes what would have been an Anthropic R&D presence in the country\n\nThe timing is the real story. Anthropic lists in weeks at a reported $2 trillion. A company heading into an IPO has two conflicting impulses: make the cost base look efficient, and make the acquisition history look disciplined. Buying Decart at a 50% premium would have helped the first and complicated the second. Diligence gave them a reason to choose discipline.",
+"likeCount": 9,
+"retweetCount": 1,
+"url": "https://x.com/AndrewBenson/status/2097782957222298096",
+"createdAt": "Wed Sep 09 20:23:26 +0000 2026"
 },
 {
-"userName": "exploraX_",
-"text": "10 GITHUB REPOS THAT WILL SAVE YOU THOUSANDS IN SAAS SUBSCRIPTIONS.\n\nall completely FREE and open-source. so bookmark this for later.\n\n1️⃣ Wan2.2 (Wan-Video/Wan2.2) ⭐ 17.4k\n\none of the most powerful open-source video generation models available. supports text-to-video, image-to-video, speech-to-video and character animation, with 720p generation and models you can run yourself.\n\nreplaces: Kling, Runway and Veo-style video generation credits.\n\n🔗: https://t.co/BqaSoUuB6t\n\n2️⃣ OpenSEO (every-app/open-seo) ⭐ 17.7k\n\nbasically an open-source Semrush/Ahrefs. keyword research, rank tracking, backlinks, competitor analysis, site audits and AI visibility, plus MCP support so AI agents can use your SEO data.\n\nreplaces: Semrush and Ahrefs subscriptions.\n\nthe software itself is FREE and MIT licensed. you only pay DataForSEO directly for the underlying SEO data you use.\n\n🔗: https://t.co/uQO2S1cy4X\n\n3️⃣ Coolify (coollabsio/coolify) ⭐ 61.5k\n\nself-host your websites, databases and full-stack apps from one dashboard. supports 280+ one-click services and gives you the deployment experience of modern cloud platforms on your own server.\n\nreplaces: Vercel, Heroku and Netlify paid platform subscriptions. you only pay for the server you choose to run it on.\n\n🔗: https://t.co/JhbS6TEkAO\n\n4️⃣ ERPNext (frappe/erpnext) ⭐ 39k\n\na complete open-source business operating system. accounting, CRM, inventory, manufacturing, HR, POS, procurement, projects and customer management in one place.\n\nreplaces: NetSuite, Zoho One and multiple separate CRM/accounting/inventory subscriptions.\n\n🔗: https://t.co/b33a3nMs4o\n\n5️⃣ Zammad (zammad/zammad) ⭐ 5.9k\n\nfull customer support and helpdesk software you can host yourself. handles support tickets, email, chat and multiple customer communication channels from one dashboard.\n\nreplaces: Zendesk, Freshdesk and Help Scout.\n\n🔗: https://t.co/Rb6QVHWzxv\n\n6️⃣ Documenso (documenso/documenso) ⭐ 14.9k\n\nopen-source electronic signature platform for sending, signing and managing documents. supports self-hosting, reusable templates and digital/PDF signatures.\n\nreplaces: DocuSign and Dropbox Sign.\n\n🔗: https://t.co/yd09D9ULQx\n\n7️⃣ Umami (umami-software/umami) ⭐ 38.7k\n\nprivacy-first website and product analytics without the tracking bloat. monitor traffic, campaigns, user journeys, conversions, cohorts and revenue from your own server.\n\nreplaces: Mixpanel and Amplitude paid analytics plans.\n\n🔗: https://t.co/UDsy5WeAzO\n\n8️⃣ Vaultwarden (dani-garcia/vaultwarden) ⭐ 67k\n\na lightweight, self-hosted Bitwarden-compatible password manager written in Rust. keep passwords, credentials and vault data on infrastructure you control.\n\nreplaces: 1Password, Dashlane and other paid password manager subscriptions.\n\n🔗: https://t.co/UFNV0aGjjn\n\n9️⃣ Jitsi Meet (jitsi/jitsi-meet) ⭐ 29.9k\n\na complete open-source video conferencing platform. host your own private meeting server or embed video calls directly inside your own product.\n\nreplaces: Zoom Pro and other paid video-conferencing tools.\n\n🔗: https://t.co/yDLV8EQ2Bp\n\n🔟 listmonk (knadh/listmonk) ⭐ 23.3k\n\na ridiculously fast self-hosted newsletter and mailing-list manager. manage subscribers, campaigns and bulk email from one dashboard without paying more because your audience grew.\n\nreplaces: Mailchimp, Kit/ConvertKit and other per-contact email marketing subscriptions.\n\nyou'll still need your own SMTP provider for actually delivering emails.\n\n🔗 https://t.co/AOvbHotymM\n\nsave this list before you renew anything.\n\nFollow me and turn on 🔔 post notifications so you never miss the next one.",
-"likeCount": 20,
-"retweetCount": 2,
-"url": "https://x.com/exploraX_/status/2097263941067944257",
-"createdAt": "Tue Sep 08 10:01:03 +0000 2026"
+"userName": "Awesome_O_AI",
+"text": "The entire game of building websites and apps could be about to change  and Runway might be leading the way.\n\nYesterday, Runway released something called Solaris, and it’s a seriously unusual system.\n\nIn simple terms: there’s no code, no Figma layout, and not even traditional HTML or CSS running in the browser. Instead, the AI generates live video frames in real time based on every click, drag, and interaction, effectively running the entire screen as an interactive video interface.\n\nThink about how software usually works today.\n\nA designer creates the interface, a developer writes the code, and then the browser renders that code into the final experience.\n\nSolaris removes much of that middle layer.\n\nThe system works through a combination of two models. On the front end is Runway’s Gen-4.5 video engine, which generates the visual frames. Behind it is a language model that interprets what the user is trying to do.\n\nWhenever you click a button or drag something across the screen, the language model instantly understands your intent and instructs the video model to generate the next frame accordingly.\n\nAnd the result is happening live.\n\nThe demos Runway has released give you a glimpse of what this could mean.\n\nImagine a virtual showroom where you drag a shirt off a hanger and drop it onto your own photo — and the AI immediately generates a live try-on experience.\n\nOr imagine a chemistry lesson where you mix an acid and a base, and instead of relying on traditional coded animations, the entire reaction appears interactively in front of you, generated on the fly.\n\nThat said, there’s an important caveat.\n\nSolaris is nowhere near ready to replace traditional software in production environments.\n\nWith longer interactions, inconsistencies can appear between frames. Generating clean, readable text inside a video interface is still challenging. And the cloud-compute cost of generating every interaction and frame can be dramatically higher than running a conventional server-based application.\n\nBut the bigger idea is what really matters.\n\nOn one side, you have Google DeepMind’s Genie 3. On another, Anthropic’s increasingly capable models. And now Runway is exploring interfaces that are generated dynamically rather than rendered from traditional code.\n\nThe entire tech world seems to be moving toward a similar idea:\n\nIn the future, interfaces may not be something developers build line by line. They could be something AI generates dynamically through prompts, intent, and simulation.\n\nAt the end of the day, this may shift the value of software development away from simply knowing how to write code  and toward knowing how to imagine and design truly compelling user experiences.\n\nSo what do you think?\n\nWill traditional software development eventually become mostly a backend concern, while AI handles the interfaces and experiences users actually interact with?\n\nDrop your thoughts in the comments.\n\nThe link to the Runway Solaris research paper is in the first comment.",
+"likeCount": 4,
+"retweetCount": 1,
+"url": "https://x.com/Awesome_O_AI/status/2097384220679356598",
+"createdAt": "Tue Sep 08 17:59:00 +0000 2026"
 },
 {
-"userName": "liam_holt7",
-"text": "🚀 27 Most Powerful AI Tools You Should Know in 2026\n\nSave this list! These AI tools can help you with writing, coding, automation, images, video, audio, SEO, research, and productivity. 🔥\n\n✍️ WRITING\n\n1. SurgeGraph\nWebsite: https://t.co/AIvdTgHaWD\nAI-powered SEO content & optimization.\n\n2. Sudowrite\nWebsite: https://t.co/hVaErwHuFh\nCreative writing & storytelling.\n\n3. Hoppy Copy\nWebsite: https://t.co/aSPymAfP1X\nMarketing copy, emails & campaigns.\n\n💻 CODING\n\n4. v0\nWebsite: https://t.co/C1kFXSeKBZ\nBuild websites and apps with prompts.\n\n5. Cursor\nWebsite: https://t.co/2lNKRxJL2x\nAI-powered code editor for developers.\n\n6. Bolt\nWebsite: https://t.co/5rDFDt95MI\nBuild and deploy web apps with AI.\n\n🤖 AI AGENTS & AUTOMATION\n\n7. Manus\nWebsite: https://t.co/Db3x1RERev\nAI agent for completing complex tasks.\n\n8. n8n\nWebsite: https://t.co/7f92kwIpPH\nWorkflow and AI automation.\n\n9. Zapier\nWebsite: https://t.co/0tCVtQhT9Y\nConnect apps and automate workflows.\n\n🎨 IMAGE GENERATION\n\n10. Ideogram\nWebsite: https://t.co/1ZyYpcNazx\nAI images, posters, logos and designs.\n\n11. ChatGPT\nWebsite: https://t.co/vW5LpEicAA\nAI image generation, editing and creative work.\n\n12. Midjourney\nWebsite: https://t.co/Bg5fu3hDHZ\nHigh-quality AI-generated visuals.\n\n🎬 VIDEO\n\n13. Runway\nWebsite: https://t.co/U7uStN1H4Y\nAI video generation and editing.\n\n14. Veo\nWebsite: https://t.co/h7IxiXhR9g\nAI video generation from prompts.\n\n15. Hailuo AI\nWebsite: https://t.co/NT9C94AHbZ\nAI-powered video creation.\n\n🎙️ SPEECH & AUDIO\n\n16. Suno\nWebsite: https://t.co/At33s40U5j\nCreate AI-generated music and songs.\n\n17. ElevenLabs\nWebsite: https://t.co/cf6UWYglG9\nAI voices and text-to-speech.\n\n18. Speechify\nWebsite: https://t.co/w7C0tfWNBD\nConvert text into natural-sounding audio.\n\n🔍 SEO\n\n19. SurgeGraph\nWebsite: https://t.co/AIvdTgHaWD\nSEO and AI-search optimization.\n\n20. Google Search Console\nWebsite: https://t.co/ybGbYFqfK1\nMonitor your website's Google Search performance.\n\n21. AnswerSocrates\nWebsite: https://t.co/iHLlDHMjZb\nDiscover questions people are searching for.\n\n📚 RESEARCH\n\n22. Perplexity\nWebsite: https://t.co/N9DCrWuzgW\nAI-powered search and research.\n\n23. NotebookLM\nWebsite: https://t.co/6Hcc7QPtku\nResearch and analyze your own sources.\n\n24. Deep Research\nWebsite: https://t.co/OozG7Lb25e\nIn-depth AI-powered research.\n\n💬 CHATBOTS\n\n25. ChatGPT\nWebsite: https://t.co/vW5LpEicAA\nWriting, research, coding, images and much more.\n\n26. Grok\nWebsite: https://t.co/RL7ICjAz8n\nAI chat, research and creative tasks.\n\n27. Gemini\nWebsite: https://t.co/OozG7Lb25e\nAI assistant for research, writing and productivity.\n\n🔥 Save this post — these 27 AI tools can seriously upgrade your workflow.\n\nWhich AI tool is your favorite? 👇",
-"likeCount": 81,
-"retweetCount": 45,
-"url": "https://x.com/liam_holt7/status/2097316864632537449",
-"createdAt": "Tue Sep 08 13:31:21 +0000 2026"
+"userName": "dinisguarda",
+"text": "AI AGI Bulletproof Jobs for Humanity 2030–2050\n\nThese five sectors form what we will call the Pentagram of Human AI AGI bulletproof systems and development:\n\n1. Education and Social Care; Lifestyle, Fashion, and Personal Development; creative economy and Creative Identity. This affects each of us. What we learn, what we dress, how we define our careers in our teenage years, young adults keep changing and we have to adapt and reskilling ourselves and our new generations. This is a major part of our civilisation and what it means to be humans.\n\n2. Food, Agriculture, specialised related services and energy trades. Food and agricultural security is critical for humanity, and this sector is vital as we grow our civilisation from 1 billion at the beginning of the 20th century to 8 billion in the 21st century and to 9 to 10 billion by 2050!\n\n3. 360 Lifestyle Travel, Fashion, and Creative Identity. This is a new multi-trillion-dollar ecosystem growing at a massive scale as we dive deeper into our new lifestyle experiences.\n\n4. Health, Experiences, Entertainment and Sports. This is a radically new social and business financial sector that did not exist 50/100 years ago.\n\n5. Space and new financial and human extra-planetary expansion. The new frontier that did not exist a generation ago, Space and new financial expansion as we dive into planetary exploration as a Civilisational Augmentation.\n\nThese are the Five Pentagram Sectors that will rewrite the entire present society, its economic and political models, and radically transform the way we behave as humans, tribes, cities, and countries. \n\nMy thoughts here\nhttps://t.co/PJkljISyXX \n\nCC @Nicochan33 @NickAyton @DebmalyaBiswas\n@blakiesing @paulwrblanchard\n@WearablesExpert @VladoBotsvadze\n@1DavidClarke @DeborahmCollier\n@CyrilCoste @sallyeaves @Corix_JC @antgrasso\n@LindaGrass0 @grattongirl @QHbrcht\n@felix_holzapfel @olkonol_oa @KamLardi\n@SpirosMargaris @enricomolinari @TomRaftery",
+"likeCount": 23,
+"retweetCount": 15,
+"url": "https://x.com/dinisguarda/status/2095916176656462097",
+"createdAt": "Fri Sep 04 16:45:31 +0000 2026"
 },
 {
-"userName": "rirahcreates",
-"text": "Do you need AI content for your brand, agency, business or clients? \n\nI can create it for you.\n\nI’m also available for Ghost AI Video Creation and White-Label AI Content Creation services.\n\nWhat does that mean?\n\nIt means that I create the content behind the scenes, while you publish and deliver it under your own brand or agency name.\n\nMy name doesn’t have to be attached to the work.\n\nThis is perfect for marketing agencies, advertising agencies, social media agencies, PR agencies, creative agencies, content creators, personal brands and businesses that want to offer AI content without building an entire AI production team in-house.\n\nSome of the services I offer include:\n\n• AI Video Creation\n• AI Advertising & Commercials\n• Cinematic AI Videos\n• AI Product Videos\n• AI UGC Ads\n• AI Influencer Content\n• AI Fashion Videos & Campaigns\n• AI Product Photography\n• AI Image Generation\n• AI Video Editing\n• Motion Graphics & Motion Design\n• VFX & Visual Effects\n• 2D & 3D Animation\n• Claymation & Stylized AI Animation\n• AI Short Films & Mini Dramas\n• AI Storytelling Videos\n• AI Explainer Videos\n• Social Media AI Content\n• AI Content for YouTube\n• AI Brand Campaigns\n• AI Character Creation & Consistency\n• AI Voiceovers & Character Dialogue\n• AI Product Mockups & Visualizations\n• White-Label AI Production for Agencies\n• Ghost AI Content Creation for Creators & Brands\n• Bulk AI Content Production\n• Monthly AI Content Creation & Retainer Services\n\nYou handle your clients, audience and brand.\n\nI handle the AI production.\n\nWhether you need one project, bulk content, ongoing monthly production, or a reliable AI creator working quietly behind your agency, I’m available.\n\nWant to see what I can create?\n\nCheck out my portfolio:\n\nhttps://t.co/WRMkq7HOIl\n\nI am Ready for work.\n\nSend me a message today and let’s create something exceptional.",
-"likeCount": 25,
-"retweetCount": 4,
-"url": "https://x.com/rirahcreates/status/2095775644256743879",
-"createdAt": "Fri Sep 04 07:27:05 +0000 2026"
+"userName": "Chorux666",
+"text": "i genuinely did not expect a robot claw machine to make me think about ai differently but here we are.\n\nbeen messing around with @axisrobotics for the past couple days. the pitch sounded off to me at first, control a virtual robot arm in your browser, no hardware, no download. \n\nfelt like one of those crypto games where the “utility” is just an excuse to farm points. \n\nso i went in expecting nothing.\n\nturns out every task you complete is a real recorded movement, timestamped, signed on chain, and actually used to train a robot to do that same thing in the real world. \n\nthe reason it exists at all is kind of obvious once you sit with it. llms learned by reading the internet. \n\nrobots don’t have an internet to learn from. nobody’s uploaded a million videos of “how to correctly grab a mug without dropping it” with the joint data attached. \n\nsomeone has to generate that from scratch, and apparently that someone can be me, on a laptop, at 1am.\n\nwhat actually got me was the proof. \n\ntheir dataset didn’t just sit there, it pushed a real model from 83.9% to 88.8% success rate on an actual benchmark. \n\nthat’s not marketing copy, that’s a published result. \n\ni’ve contributed real trajectories to that now and it’s a strange feeling knowing a robot somewhere might move a little better because of something i did on my laptop.\n\nif you want to try it yourself, i’m using my link below, costs nothing but a few minutes and you get to see the whole thing live.\n\nhttps://t.co/ZRkevwO0AW",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/Chorux666/status/2097682855732166729",
+"createdAt": "Wed Sep 09 13:45:40 +0000 2026"
 },
 {
 "userName": "gurtej__gill_",
@@ -40,12 +40,12 @@
 "createdAt": "Fri Sep 04 11:38:39 +0000 2026"
 },
 {
-"userName": "kieu20011",
-"text": "Robots don’t just need better models. They need better hands.\n\nI tried @axisrobotics today and ended up controlling a virtual robot arm from my browser. It sounds simple until you actually have to make the movement precise.\n\nThat made me realize the real problem with Physical AI: models need huge amounts of real-world movement data, and collecting that data is anything but easy.\n\nWhat I found interesting is that each completed task gets scored and recorded on-chain.\n\nSo instead of another “click to earn” campaign, it actually feels like your actions are becoming useful training data.\n\nCurious how far this can go.\nWould you try teaching a robot through your browser?",
-"likeCount": 95,
-"retweetCount": 2,
-"url": "https://x.com/kieu20011/status/2097477583600529822",
-"createdAt": "Wed Sep 09 00:09:59 +0000 2026"
+"userName": "gurtej__gill_",
+"text": "This paper is definitely one of the cleanest takes on offline RL we’ve come across recently.\n\nWe’ve all seen how messy the balance is between staying on-distribution and actually maximizing reward. \n\nMost people either throw in awkward penalties or just use diffusion models and live with painful sampling latencies.\n\nThey treat behavioral constraints and value optimization as motion fields in action space, blend them, and bake the whole thing into a one step generator. \n\nYou get the expressiveness of a generative model without having to wait on multi step denoising at test time, just a single forward pass.\n\nThey tested it on 73 tasks across D4RL and OGBench and took the top average rank against some serious diffusion and flow baselines. \n\nDefinitely worth reading if you care about fast continuous control: https://t.co/FWtPTmNFiK",
+"likeCount": 44,
+"retweetCount": 9,
+"url": "https://x.com/gurtej__gill_/status/2096671771634364785",
+"createdAt": "Sun Sep 06 18:47:59 +0000 2026"
 },
 {
 "userName": "iam_idayat",
@@ -56,75 +56,75 @@
 "createdAt": "Fri Sep 04 13:22:36 +0000 2026"
 },
 {
-"userName": "vadooai",
-"text": "A beauty commercial doesn't need a massive production crew anymore. 👀✨\n\nWith the right direction, AI can turn a visual concept into something cinematic, polished, and unforgettable.\n\nHigh fashion meets generative video in every frame.\n\nMade with Seedance 2.5 x Vadoo AI. 🎬 https://t.co/2ap2pQoH4A",
-"likeCount": 7,
+"userName": "ReactNativeRwd",
+"text": "Your coding agent fixed the crash.\n\nThe PR is 469 lines. It never opened the app.\n\n@expo gives agents cloud iOS simulators. Simlock by @callstackio coordinates access to local ones. goldie automates App Store screenshots.\n\nPics or it didn’t happen. 👇 https://t.co/kjdV91DZrG",
+"likeCount": 6,
 "retweetCount": 0,
-"url": "https://x.com/vadooai/status/2096848439564755052",
-"createdAt": "Mon Sep 07 06:30:00 +0000 2026"
+"url": "https://x.com/ReactNativeRwd/status/2097573306735989028",
+"createdAt": "Wed Sep 09 06:30:22 +0000 2026"
 },
 {
-"userName": "wolfepereira",
-"text": "Meta has put its “personal superintelligence” strategy into the hands of consumers. What happens when the interface to AI is no longer a prompt box, but an agent with memory, credentials, tools, and permission to act? https://t.co/XsuqRoyANb",
-"likeCount": 7,
+"userName": "Melodyiaaa",
+"text": "Kept seeing this new AI chat app on my feed, so I finally gave it a try 👀\nSpent a day with it and put together my honest take below.\nAlso made the review graphic with ChatGPT Images 2.5 ✨\n#AIReview #AIChat #Okivia #AICharacters https://t.co/sX1dQ8uOAE",
+"likeCount": 5,
 "retweetCount": 0,
-"url": "https://x.com/wolfepereira/status/2097515768632181119",
-"createdAt": "Wed Sep 09 02:41:43 +0000 2026"
+"url": "https://x.com/Melodyiaaa/status/2097632752246161426",
+"createdAt": "Wed Sep 09 10:26:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @evilpingwin: You shouldn’t need to be an ML expert to have an ML idea.\n\nToday we’re launching ML Intern in HuggingChat.\n\nStart with a c…",
-"likeCount": 341,
-"retweetCount": 51,
-"url": "https://x.com/ClementDelangue/status/2097383303900713233",
-"createdAt": "Tue Sep 08 17:55:21 +0000 2026"
+"text": "Sometimes I wonder what would have happened if we hadn't disclosed the agent cyberattack publicly.\n\nIt reinforced my conviction that we need 100x more transparency in AI. Otherwise we're going to be in big trouble!",
+"likeCount": 2465,
+"retweetCount": 170,
+"url": "https://x.com/ClementDelangue/status/2096981079940911107",
+"createdAt": "Mon Sep 07 15:17:04 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @etnshow: JUST IN: NVIDIA's $12,930,300,000 acquisition of Hugging Face contains an easter egg. The number 129,303 is the decimal conver…",
-"likeCount": 14196,
-"retweetCount": 748,
-"url": "https://x.com/ClementDelangue/status/2095652889909665935",
-"createdAt": "Thu Sep 03 23:19:18 +0000 2026"
+"text": "If they truly believe the risk is that high, and I think they do, then we need 100x more research and understanding of it. That requires them to openly share their models, datasets, training code, and agent traces.",
+"likeCount": 1463,
+"retweetCount": 183,
+"url": "https://x.com/ClementDelangue/status/2097805972404142505",
+"createdAt": "Wed Sep 09 21:54:53 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @dnapway: Chamath says Nvidia's Hugging Face acquisition is as a massive move against AI becoming a closed source oligopoly\n\n\"Jensen and…",
-"likeCount": 471,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2096722416781144064",
-"createdAt": "Sun Sep 06 22:09:14 +0000 2026"
+"text": "RT @rdomenechv: The jobs apocalypse is postponed. An AI jobs boom is here \n\nAccording to @TheEconomist, AI is actually proving to be a net…",
+"likeCount": 2890,
+"retweetCount": 645,
+"url": "https://x.com/ClementDelangue/status/2096967153610035685",
+"createdAt": "Mon Sep 07 14:21:43 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @osanseviero: Congrats Clem, Thom, Julien, Lysandre, and the entire Hugging Face team. Proud of all of you!\n\nThe impact of HF in the AI…",
-"likeCount": 169,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2095540302194893215",
-"createdAt": "Thu Sep 03 15:51:55 +0000 2026"
+"text": "RT @googlegemma: You don't need to be a command-line expert to run local AI. \n\nhttps://t.co/d8OiUfDcmx wraps the heavy lifting of llama.cpp…",
+"likeCount": 559,
+"retweetCount": 54,
+"url": "https://x.com/ClementDelangue/status/2097750877788365167",
+"createdAt": "Wed Sep 09 18:15:58 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @oneill_c: Today we're launching Base Labs, a research lab by Baseten. Our mandate is to make open-source as useful as possible, and our…",
+"likeCount": 899,
+"retweetCount": 64,
+"url": "https://x.com/jeremyphoward/status/2095726478222831654",
+"createdAt": "Fri Sep 04 04:11:43 +0000 2026"
+},
+{
+"userName": "CentralIgnis13",
+"text": "Omarchy + Hermes: when AI leaves the chat and enters the OS https://t.co/fQpmXcm5j7",
+"likeCount": 16,
+"retweetCount": 0,
+"url": "https://x.com/CentralIgnis13/status/2097456184802382293",
+"createdAt": "Tue Sep 08 22:44:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @andykonwinski: the united states split the atom, landed on the moon, beat polio, doubled the global wheat yield, sequenced the genome,…",
-"likeCount": 141,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2095842553438294070",
-"createdAt": "Fri Sep 04 11:52:58 +0000 2026"
-},
-{
-"userName": "PRIDELE0N",
-"text": "// oh and block me if you support generative ai in any fashion (art, writing, so on and so forth.)",
-"likeCount": 11,
-"retweetCount": 4,
-"url": "https://x.com/PRIDELE0N/status/2095220889839194371",
-"createdAt": "Wed Sep 02 18:42:42 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @huggingface: 🤗💚\nhttps://t.co/coHXLgzNXh https://t.co/Ju5e0R4roZ",
-"likeCount": 5855,
-"retweetCount": 576,
-"url": "https://x.com/ClementDelangue/status/2095608951157015031",
-"createdAt": "Thu Sep 03 20:24:43 +0000 2026"
+"text": "RT @HannesVonEssen: 🦆\n🏀 https://t.co/gmRhQ30ng9",
+"likeCount": 1093,
+"retweetCount": 61,
+"url": "https://x.com/ClementDelangue/status/2096953954642919732",
+"createdAt": "Mon Sep 07 13:29:16 +0000 2026"
 }
 ]
