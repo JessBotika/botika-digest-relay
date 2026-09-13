@@ -8,123 +8,115 @@
 "createdAt": "Fri Sep 11 09:57:00 +0000 2026"
 },
 {
-"userName": "jamesonhaslam",
-"text": "can you do over $10M in organic revenue without any paid spend?\n\nyes.\n\nA buddy reached out to ask how we use remote team members to do marketing for West Coast Deck (he runs a landscaping biz and is hoping to replicate some of what we do)\n\nI made a list of stuff you can do from anywhere in the world (e.g hire a marketing lead based in Peru) that has helped us do over 10 figs of organic revenue - pasting below (also if you have stuff to add to this, please comment here and I'll make a google doc with all the suggestions that we can share)\n\nWest Coast Deck Remote Marketing Playbook\n\n<Google Business Profile>\nPublish 2–4 GBP posts/week; upload new project photos; add project/service descriptions; answer Q&A; monitor new reviews; draft responses to every review; keep services/service areas current\n\n<Reviews>\nSend review requests after completed projects; follow up with customers who haven't reviewed; maintain review-request tracker; collect reviews into a database; identify great reviews for social posts; flag unhappy customers immediately\n\n<Instagram / Facebook>\nSchedule project photos, Reels and Stories; turn jobsite content into before/after posts; write captions; tag locations/products; respond to basic comments and DMs; maintain posting calendar\n\n<Short-form video>\nTake raw videos from the field team and organize them; identify usable clips; add captions/titles using templates; create simple Reels/TikToks/Shorts; schedule publishing across platforms (you prob have a separate editor do this)\n\n<Project content>\nCreate a marketing folder for every completed project; organize before/during/after photos; record project type, city, products, square footage, challenges and outcome; turn each project into multiple pieces of content\n\n<Website / SEO>\nDraft project case studies; create city/service landing-page content; update project galleries; add completed projects; optimize image filenames/alt text; identify old pages needing updates; maintain internal-linking checklist\n\n<Local SEO>\nTrack GBP rankings; maintain consistent business listings/citations; find relevant local directories; submit/update profiles; research local backlinks; identify HOA/property-management/architect/contractor directories\n\n<Email marketing>\nMaintain customer/prospect lists; clean and segment contacts; build monthly newsletter; create past-customer campaigns; send seasonal deck-maintenance/refinishing campaigns; track opens/clicks/leads\n\n<Past-customer marketing>\nBuild database of previous customers; send periodic check-ins; ask for referrals; promote refinishing/maintenance; identify customers whose decks are approaching maintenance intervals\n\n<Referral program>\nTrack referral partners; send follow-ups; maintain architect/designer/GC/property-manager lists; send periodic project updates; remind partners what types of leads WCD wants\n\n<HOA / Property Management outreach>\nBuild targeted lists of HOAs and property managers; research contacts; maintain CRM records; prepare personalized outreach; follow up systematically; distribute balcony/waterproofing educational material\n\n<Architect / Designer outreach>\nResearch local architects, landscape architects and designers; add contacts to CRM; follow them socially; engage appropriately; send portfolio/project introductions; track relationships\n\n<Builder / GC relationships>\nBuild lists of custom-home builders and remodelers; research decision makers; maintain outreach cadence; send relevant project examples; track responses and opportunities\n\n<Direct Mail>\nBuild homeowner mailing lists around current/completed jobs; coordinate postcards; maintain Every Door Direct Mail campaigns; track neighborhoods mailed; coordinate follow-up campaigns\n\n<Jobsite marketing>\nMaintain list of active projects; ensure signs/banners are deployed; identify surrounding neighborhoods for door hangers/mailers; coordinate marketing materials with field team\n\n<Facebook Groups / Nextdoor>\nIdentify relevant community groups; monitor deck/patio/contractor recommendation posts; flag opportunities; post approved educational/project content where permitted\n\n<Facebook Marketplace>\nMaintain listings for decks, patio covers, railings, waterproofing, refinishing, etc.; rotate photos and copy; refresh listings; route inquiries into your lead process\n\n<PR + Publications>\nMaintain media list; identify local publications and home/design outlets; pitch interesting projects; submit projects for features/awards; track editorial calendars\n\n<Houzz / Yelp / Angi etc.>\nKeep portfolios current; upload projects; respond to reviews/messages; maintain profile information; track which platforms actually generate leads\n\n<Competitive research>\nMonitor competitors' GBP activity, reviews, websites, ads and social content; maintain competitor spreadsheet; identify offers/content/topics that appear to be working\n\n<Content research>\nBuild lists of homeowner questions from Google, Reddit, YouTube, sales calls and customer questions; turn them into content ideas for you to answer on camera\n\n<CRM hygiene>\nMake sure marketing source is recorded; clean duplicate contacts; categorize leads; update referral sources; maintain lost-lead reasons; create lists for remarketing\n\n<Marketing reporting>\nProduce a simple weekly dashboard: leads by source, reviews received, GBP activity, content published, website leads, social performance, outreach completed and appointments generated\n\n~~~~\n\nenjoy! feel free to steal this and improve i'm sure you'll do much better than me!",
-"likeCount": 386,
-"retweetCount": 16,
-"url": "https://x.com/jamesonhaslam/status/2098453252618731882",
-"createdAt": "Fri Sep 11 16:46:57 +0000 2026"
+"userName": "meAsifAi",
+"text": "Why a Character Sheet Matters in AI Video Generation:\n\nA character sheet locks the character’s identity, appearance, outfit, and key details—keeping every shot visually consistent from start to finish.\n\nCreated withn @grok\nPrompt :\nIDENTITY LOCK — HIGHEST PRIORITY:\n\nThe uploaded reference image has absolute priority over all generated variations.\n\nTreat the reference face as an identity anchor.\nEvery portrait, expression, angle and full-body view must belong to the exact same character.\n\nPreserve the same:\nfacial geometry, eye placement, eyebrow shape, nose structure, lip shape, cheek structure, jawline, chin, skin tone, hairline and distinctive facial characteristics.\n\nWhen generating unseen angles, reconstruct the character's face in 3D mentally while preserving the exact identity established by the reference.\n\nDo not average the face with generic beauty features.\nDo not substitute a similar-looking person.\nDo not make the character progressively different across panels.\n\nIDENTITY CONSISTENCY > BEAUTIFICATION > STYLIZATION.\nCreate a highly realistic, professional CHARACTER REFERENCE SHEET / CHARACTER BIBLE based on the uploaded reference image.\n\nIMPORTANT — REFERENCE IMAGE IS THE ONLY SOURCE OF TRUTH:\nUse the uploaded image as the primary and exclusive visual reference for the character's identity and appearance.\n\nPreserve the character's identity with maximum consistency:\n- exact facial identity and facial proportions\n- face shape and jawline\n- eyes, eye shape, eye color and spacing\n- eyebrows\n- nose shape and proportions\n- lips, mouth shape and natural lip color\n- skin tone, undertone and realistic skin texture\n- age appearance\n- hairstyle, hair color, hair length and texture\n- distinctive facial features\n- body proportions and overall silhouette\n- clothing design, colors, materials, patterns and accessories\n\nDo NOT redesign, beautify, age, de-age, stylize, or replace the character.\nDo NOT introduce a different face.\nDo NOT change ethnicity, facial structure, hairstyle, body proportions, or defining features.\nThe character must remain recognizably the SAME PERSON in every panel.\n\nREFERENCE SHEET LAYOUT:\nCreate a clean, premium, production-ready character reference board similar to a professional film / animation / fashion character bible.\n\nUse a sophisticated neutral studio background with warm beige, cream, taupe and dark brown tones, thin clean borders, elegant section headers and organized editorial layout.\n\nTITLE:\n\"CHARACTER REFERENCE SHEET\"\n\nSubtitle:\n\"REALISTIC | CONSISTENT | HIGH DETAIL\"\n\nSECTION 1 — CHARACTER IDENTITY\nInclude a clean information panel containing visually inferred, non-sensitive character information such as:\n- Character Name: [CHARACTER]\n- Apparent Age Range\n- Gender Presentation\n- Approximate Height\n- Body Type\n- Hair Color\n- Hair Style\n- Eye Color\n- Eye Shape\n- Face Shape\n- Distinctive Features\n- Accessories\n- Overall Style / Vibe\n\nDo not invent highly specific personal biography or sensitive attributes.\n\nSECTION 2 — FACE / PORTRAIT VIEWS\nShow the exact same character in:\n1. Front-facing portrait\n2. 3/4 view\n3. Side profile\n\nMaintain identical facial identity, proportions, hairstyle and appearance across all views.\n\nSECTION 3 — FACIAL DETAILS\nCreate close-up detail panels showing:\n- eyes\n- eyebrows\n- nose\n- lips\n- ears / earrings if present\n- distinctive facial details\n\nThese must be realistic crops of the SAME character, not redesigned features.\n\nSECTION 4 — HAIR DETAILS\nShow:\n- front hairstyle\n- side hairstyle\n- back hairstyle\n\nPreserve the exact hair color, length, texture, volume and styling from the reference.\n\nSECTION 5 — EXPRESSIONS\nCreate a row of consistent facial expressions using the SAME character:\n- neutral\n- subtle smile\n- happy\n- serious\n- sad\n- surprised\n- playful\n- looking down\n- looking sideways\n\nKeep facial identity unchanged. Only the expression should change.\n\nSECTION 6 — FULL BODY CHARACTER VIEWS\nShow the same character in the exact same outfit from:\n1. Front\n2. 3/4\n3. Side\n4. Back\n\nMaintain consistent:\n- body proportions\n- outfit\n- hairstyle\n- accessories\n- footwear\n- fabric\n- colors\n- silhouette\n\nIf the reference image does not show the back of the outfit, logically reconstruct the back while keeping the visible design language consistent. Do not invent unnecessary details.\n\nSECTION 7 — OUTFIT DETAILS\nCreate detailed close-up panels of the character's clothing:\n- neckline / bodice\n- sleeves\n- embroidery / patterns\n- fabric texture\n- waist details\n- skirt / trousers / lower garment\n- accessories\n\nPreserve the exact materials, colors, patterns and construction visible in the reference.\n\nSECTION 8 — COLOR PALETTE\nExtract a small professional color palette directly from the reference image:\n- primary clothing color\n- secondary clothing color\n- skin tone\n- hair color\n- accessory color\n- background / accent color\n\nSECTION 9 — REFERENCE THUMBNAIL\nInclude a small panel showing the original reference character as a visual anchor.\n\nVISUAL STYLE:\nUltra-realistic photography.\nHigh-end cinematic character development photography.\nNatural skin pores and subtle skin texture.\nRealistic eyes with natural catchlights.\nPhysically believable hair strands.\nRealistic fabric behavior and material texture.\nAccurate anatomy.\nSoft premium studio lighting.\nSubtle warm cinematic illumination.\nProfessional fashion/editorial presentation.\nSharp facial details.\nClean composition.\nConsistent perspective.\nHigh dynamic range.\nPhotorealistic rendering.\nNo artificial CGI appearance.\n\nCONSISTENCY RULE:\nEvery panel must depict ONE identical character.\nThe face must remain locked to the uploaded reference.\nThe character must look like the same person even when viewed from different angles and with different expressions.\n\nDo not create random variations of the character.\nDo not change facial identity between panels.\nDo not change hair color or hairstyle unnecessarily.\nDo not change clothing unless explicitly required by the reference.\nDo not add unrelated props or characters.\n\nLAYOUT:\nPremium professional character-sheet presentation.\nMultiple clearly separated panels.\nBalanced grid layout.\nClean typography.\nElegant section labels.\nConsistent margins.\nNo clutter.\nNo overlapping panels.\nNo distorted anatomy.\nNo duplicate limbs.\nNo extra fingers.\nNo malformed hands.\nNo warped facial features.\nNo text over the character's face or body.\n\nFINAL RESULT:\nA polished, production-ready CHARACTER REFERENCE SHEET that can be used as a visual identity guide for consistent AI image generation, animation, cinematic video generation, fashion visualization, and character continuity.",
+"likeCount": 46,
+"retweetCount": 6,
+"url": "https://x.com/meAsifAi/status/2098737156923724016",
+"createdAt": "Sat Sep 12 11:35:05 +0000 2026"
 },
 {
-"userName": "KavianCoin",
-"text": "👽⚡ KAV is the Alien of Solana - and KAV loves turning “I don’t know how” into “Which tool can help me?”\n\n🤖 TODAY’S KAV AI SIGNAL: FIND THE RIGHT TOOL\n\nYou don’t need to master every skill yourself.\n\nToday, AI can help you design, research, code, create presentations, generate voices, build 3D models, enhance photos and much more.\n\nThe better question is no longer:\n\n❌ “Do I know how to do this?”\n\nAsk:\n\n✅ “What tool can help me do this—and how do I verify the result?”\n\nHere are some useful tools worth knowing 👇\n\n🎨 1️⃣ Need images, logos, vectors or design assets? - Recraft\n\nDescribe your idea and generate images, illustrations, editable vectors and other creative assets.\n🔗 https://t.co/NFk1eF7qB0\n\n🖼️ 2️⃣ Need to open or edit a PSD without Photoshop? - Photopea\n\nA browser-based editor with full PSD support, layers, masks and even AI-powered features such as background removal and generative editing.\n🔗 https://t.co/P6ww1aw1ZX\n\n🧊 3️⃣ Need a 3D model but don’t know 3D modeling? - Meshy\n\nGive it a text description or reference image and AI can generate a textured 3D model for further editing or export.\n🔗 https://t.co/QVkzf5VLJQ\n\n✨ 4️⃣ Have a blurry or low-resolution image? - Upscayl\n\nA free, open-source AI upscaler for Windows, macOS and Linux. Its desktop version can process images locally on your computer.\n🔗 https://t.co/QGEk6doeWB\n\n🔎 5️⃣ Need faster research? - Perplexity\n\nAsk a question and it searches the web, combines information and provides source-backed answers. Still open the sources yourself for important claims.\n🔗 https://t.co/S6r99EyBMD\n\n📊 6️⃣ Need a presentation but design isn’t your strength? - Gamma\n\nGive it your topic, notes or existing content and AI can help create presentations, documents and webpages.\n🔗 https://t.co/OYu4ypBDEI\n\n💻 7️⃣ Want help coding or building software? - Cursor\n\nAn AI-powered code editor that can understand a codebase, explain code, generate changes and help find or fix bugs.\n🔗 https://t.co/mGnhXLKqcO\n\n🎙️ 8️⃣ Need realistic AI narration or voiceovers? - ElevenLabs\n\nTurn written text into natural-sounding speech for videos, narration and other audio projects.\n🔗 https://t.co/PV4JIgxtm3\n\n💡 Example:\nImagine you want to launch a product but you aren’t a designer, 3D artist, developer or presenter.\n\nYou could use Recraft → Meshy → Cursor → Gamma → ElevenLabs to move from visual concept → 3D asset → prototype → presentation → narration.\n\n🧠 KAV Advice:\nAI doesn't mean “press one button and trust everything.”\n\nDescribe clearly → Generate → Check the result → Verify facts → Improve → Create.\n\n🔐 And never upload confidential documents, passwords, wallet seed phrases or sensitive client information to an AI service without understanding its privacy policy.\n\n👽 KAV Wisdom:\nThe future won’t only reward people who know everything.\n\nIt will reward people who know how to learn, choose the right tools, and think critically.\n\n➕ KAVIANS - what useful AI tool should we add to the next list?\n\n#AITools #AIForCreators #FutureSkills #LearnWithKAV #ProductivityTools",
-"likeCount": 16,
-"retweetCount": 4,
-"url": "https://x.com/KavianCoin/status/2098458751510667588",
-"createdAt": "Fri Sep 11 17:08:48 +0000 2026"
+"userName": "maxpostingx",
+"text": "25 AI TOOLS\nFOR CONTENT CREATORS\n\n✍️ WRITING\n\n01. AI WRITER\nGenerate blog posts, articles, and compelling copy in seconds.\n\n🔗 LINK:\nhttps://t.co/lY6ALZNMZ4\n\n02. LONGFORM AI\nCreate in-depth content with structure, coherence, and SEO optimization.\n\n🔗 LINK:\nhttps://t.co/lY6ALZNMZ4\n\n03. SUMMARIZER\nSummarize long articles or videos into clear, concise takeaways.\n\n🔗 LINK:\nhttps://t.co/CbVuTd3pJ0\n\n04. IDEA GENERATOR\nUnlimited content ideas for posts, videos, campaigns and more.\n\n🔗 LINK:\nhttps://t.co/CbVuTd3pJ0\n\n05. PARAPHRASER\nRewrite content naturally and improve clarity instantly.\n\n🔗 LINK:\nhttps://t.co/0uIRAyW3l0\n\n🖼️ IMAGE GENERATION\n\n06. AI IMAGE GEN\nCreate stunning, original images from text prompt.\n\n🔗 LINK:\nhttps://t.co/gAd68EzRWt\n\n07. CONCEPT ART\nGenerate beautiful concept art and visual ideas.\n\n🔗 LINK:\nhttps://t.co/L6A6FBdGaz\n\n08. DESIGN MAKER\nCreate custom graphics, thumbnails, and social media visuals.\n\n🔗 LINK:\nhttps://t.co/VwClzGBGCn\n\n09. PHOTO ENHANCER\nEnhance quality, remove backgrounds, and improve photos.\n\n🔗 LINK:\nhttps://t.co/dwdIpsYpPA\n\n10. STYLE TRANSFER\nApply artistic styles to images in one click.\n\n🔗 LINK:\nhttps://t.co/dwdIpsYpPA\n\n🎬 VIDEO\n\n11. AI VIDEO GEN\nTurn ideas into full videos using AI.\n\n🔗 LINK:\nhttps://t.co/QcAgRwL097\n\n12. AUTO SUBTITLES\nGenerate accurate subtitles for any video.\n\n🔗 LINK:\nhttps://t.co/n3mfaf4HKx\n\n13. VIDEO EDITOR\nEdit videos faster with AI-powered tools.\n\n🔗 LINK:\nhttps://t.co/n3mfaf4HKx\n\n14. TEXT TO VIDEO\nConvert text or scripts into engaging videos.\n\n🔗 LINK:\nhttps://t.co/MNBXF3iXfN\n\n15. B-ROLL FINDER\nFind the perfect B-roll clips for any topic.\n\n🔗 LINK:\nhttps://t.co/jyPzTcCr7M\n\n🎙️ VOICE\n\n16. AI VOICEOVER\nGenerate natural voiceovers in seconds.\n\n🔗 LINK:\nhttps://t.co/jiEZJgL3QH\n\n17. VOICE CLONER\nClone voices for personalized content.\n\n🔗 LINK:\nhttps://t.co/jiEZJgL3QH\n\n18. VOICE TRANSLATOR\nTranslate voice into multiple languages seamlessly.\n\n🔗 LINK:\nhttps://t.co/jiEZJgL3QH\n\n19. NOISE REMOVER\nRemove background noise for crystal clear audio.\n\n🔗 LINK:\nhttps://t.co/4t2wu7T8ki\n\n20. AI MUSIC GEN\nCreate royalty-free music for videos and podcasts.\n\n🔗 LINK:\nhttps://t.co/a7MIecBLOa\n\n🔍 RESEARCH & EDITING\n\n21. AI RESEARCHER\nFind accurate info and data in seconds.\n\n🔗 LINK:\nhttps://t.co/B6YeU7HdGx\n\n22. FACT CHECKER\nVerify facts and ensure content accuracy.\n\n🔗 LINK:\nhttps://t.co/bnn066mhdZ\n\n23. GRAMMAR CHECK\nFix grammar, tone, and writing style automatically.\n\n🔗 LINK:\nhttps://t.co/8UliAt0oKL\n\n24. CONTENT REPURPOSER\nTurn one piece of content into multiple formats instantly.\n\n🔗 LINK:\nhttps://t.co/epk677PipN\n\n25. CONTENT PLANNER\nPlan, schedule, and organize content like a pro.\n\n🔗 LINK:\nhttps://t.co/aE3z2YxWz2\n\nCREATE SMARTER. PUBLISH FASTER. GROW BIGGER.\n\nSAVE TIME • BOOST QUALITY • SCALE CONTENT.",
+"likeCount": 69,
+"retweetCount": 46,
+"url": "https://x.com/maxpostingx/status/2098774175179829535",
+"createdAt": "Sat Sep 12 14:02:11 +0000 2026"
 },
 {
 "userName": "HumanBeing34061",
 "text": "Professional Image-Generation Prompt\nPrompt:\nCreate a photorealistic cinematic black-and-white editorial photograph of a stylish young adult man sitting calmly on a simple metal stool in an open rugged countryside landscape, with a large powerful black horse standing directly behind him. The horse’s head rests naturally close to the man’s head and shoulder, creating a striking sense of companionship and scale.\nThe man has messy, textured medium-length dark hair, wearing dark rectangular sunglasses, a loose black button-up shirt layered beneath a relaxed oversized black jacket, extremely wide-leg black trousers, and worn black leather boots. He sits in a relaxed, slightly introspective pose with his head tilted downward, one hand resting naturally between his knees while holding the horse’s reins.\nThe horse should look majestic and realistic, with detailed dark coat texture, visible musculature, natural mane, expressive eyes, upright ears, and authentic leather bridle and reins.\nSet the scene in a wild mountainous countryside, with dry grass, rocks, shrubs, an earthy dirt path, and distant softly blurred hills. Use dramatic natural daylight, strong monochrome tonal separation, deep blacks, bright highlights, subtle film grain, and atmospheric depth.\nComposition: vertical full-body portrait, low-to-medium camera angle, man positioned in the lower center foreground and horse towering behind him, balanced visual hierarchy, generous negative space around the subjects.\nPhotography style: luxury fashion editorial + cinematic western aesthetic, timeless analog photography, high contrast, realistic skin and fabric textures, natural shadows, shallow-to-moderate depth of field, subtle background bokeh, 35mm/50mm lens, professional fashion photography, ultra-detailed, realistic proportions, authentic anatomy, HDR-quality tonal range, sophisticated and moody atmosphere.\nColor grading: pure black and white, rich charcoal blacks, soft silver highlights, no color tint.\nAspect ratio: 4:5 vertical.\nQuality: ultra-photorealistic, high resolution, cinematic, editorial magazine quality.",
-"likeCount": 32,
+"likeCount": 33,
 "retweetCount": 6,
 "url": "https://x.com/HumanBeing34061/status/2098021600964600146",
 "createdAt": "Thu Sep 10 12:11:43 +0000 2026"
 },
 {
-"userName": "PetaIndia",
-"text": "The future of fashion is kind. 💚✨ \n\nPETA India, as the supporting partner of ET Retail's ShopFWD Summit 2026, spotlighted innovative vegan fashion brands and next-generation materials that prove style never has to come at the cost of an animal's life. \n\nAt our stall, visitors explored a wide range of cruelty-free alternatives, discovering how conscious material choices can benefit animals, humans, and the planet. Our showcase featured pioneering vegan brands and materials that are helping reshape the future of fashion, while a powerful video featuring Karishma Tanna highlighted the suffering animals endure for leather, wool, exotic skins, and other animal-derived materials. \n\nA key highlight of the event was Jeev, PETA India’s AI-powered robo calf, who engaged attendees in meaningful one-on-one conversations about the realities of the fashion industry and inspired them to consider kinder, animal-free alternatives. \n\nAdding to the dialogue, Ashima Kukreja, PETA India’s Director of Corporate Affairs, joined a panel discussion on how material innovation, responsible sourcing, brand accountability, and evolving consumer values are driving the fashion industry's next chapter. \n\nAs consumer demand for ethical and sustainable products continues to grow, events like these demonstrate that innovation and compassion can go hand in hand. The future of fashion is what not only reflects style but also responsibility and kindness. \n\n🔗 More details: https://t.co/BceRpAFRd6    \n \n#ETShopFWD #ETShopFWD2026 #ETRetailFashionXP #FashionXP2026 #FashionXP #VeganFashion #SustainableFashion #VeganLeather #CrueltyFreeFashion #EthicalFashion #PETAIndia #Leather #Cows #Crocodiles #Snakes #Goats, #VeganLeather #Fashion",
-"likeCount": 9,
+"userName": "trendsfortmk",
+"text": "The landscape of fashion metrics is shifting—it's no longer just about social media engagement, but how generative search models understand and recommend key voices through AI Visibility (AIV) by Launchmetrics.\n\n❇️ 𝐓𝐡𝐨𝐦𝐚𝐬 𝐓𝐞𝐞𝐭𝐮𝐭 & 𝐂𝐚𝐥𝐯𝐢𝐧 𝐊𝐥𝐞𝐢𝐧 (𝐀𝐥𝐠𝐨𝐫𝐢𝐭𝐡𝐦𝐢𝐜 𝐑𝐞𝐥𝐞𝐯𝐚𝐧𝐜𝐞): High AI Visibility ensures that when global consumers, industry analysts, or buyers query AI platforms about Calvin Klein's runway representation, Thomas Teetut is automatically cited as a primary figure. A strong AIV locks in his digital presence, making his debut with the brand permanently discoverable in the AI search ecosystem.\n\n❇️ 𝐓𝐡𝐨𝐦𝐚𝐬 & 𝐊𝐨𝐧𝐠’𝐬 𝟑.𝐏𝐀𝐑𝐀𝐃𝐈𝐒 𝐏𝐚𝐫𝐢𝐬 𝐅𝐚𝐬𝐡𝐢𝐨𝐧 𝐖𝐞𝐞𝐤 𝐑𝐞𝐬𝐮𝐥𝐭𝐬: proof is in the data. Their work with luxury streetwear brand 3.PARADIS was so impactful during Paris Fashion Week—generating $4 Million (Kong, #5 overall) and $2.6 Million (Thomas, #7 overall) in Media Impact Value (MIV)—that AI search engines now recognize Thomas & Kong among the highest top-engaged artists of the entire event.\n\nWhen algorithms process global fashion data, Thomas and Kong aren't just participating - they are defining the conversation ✨\n\n#CalvinKleinxThomas \n#CalvinKleinSS27\n#CalvinKlein @CalvinKlein\n#tthomastc @tthomastc\n#kongjiro #thomaskong #3Paradis\n#trendsforthomaskong–🐽",
+"likeCount": 55,
+"retweetCount": 24,
+"url": "https://x.com/trendsfortmk/status/2098030185367085182",
+"createdAt": "Thu Sep 10 12:45:50 +0000 2026"
+},
+{
+"userName": "shushant_l",
+"text": "here's how to create your streetwear editorial portrait\n\nuse google nano banana pro or any other AI image generation model\n\nuse this prompt: Create a cinematic, ultra-realistic streetwear editorial portrait of me, preserving my exact facial identity, features, skin tone, hairstyle, and natural proportions. Style me in premium modern streetwear with an oversized layered outfit, subtle accessories, and a confident relaxed pose in an urban setting with concrete architecture, textured walls, and understated city details. Use dramatic natural lighting, soft shadows, shallow depth of field, realistic skin texture, sophisticated neutral tones, subtle film grain, high-fashion magazine composition, professional photography, and cinematic color grading. Make the image feel authentic, effortlessly cool, minimal, aesthetic, and editorial, like a luxury streetwear campaign photographed on a full-frame camera with an 85mm lens. I've attached my image here.",
+"likeCount": 7,
 "retweetCount": 1,
-"url": "https://x.com/PetaIndia/status/2097322091557146921",
-"createdAt": "Tue Sep 08 13:52:07 +0000 2026"
+"url": "https://x.com/shushant_l/status/2097564694974541836",
+"createdAt": "Wed Sep 09 05:56:08 +0000 2026"
 },
 {
-"userName": "DengHokin",
-"text": "We hope to launch the Verification Age for video models: 50 scientists, 6 months, 100 rule-based verifiers, 300 new tasks, and a worked RL recipe. \n\nCoding models are advancing crazily thanks to the synthetic RL envs paradigms. Verification via codes or Lean gives models super-human math/coding intelligence like that in Astra and Fable. \n\nHowever, video models are still in the GPT-3 stage, where we just dump million hours video data into the model training and hope for magic.\n\nIn this work, \n1) we built 100 rule-based verifiers each paired with a synthetic data generators which give 10k+ diverse samples within the task domain \n2) we made additional 300 tasks generators, including classic games i.e. Snake, Gold Miner, Mario, to further scale training data distribution with million samples rendered ready available on HuggingFace \n3)  ~60 experiments to find a worked RL recipe for video model post-training \n4) comparison studies between image models, unified models, video models - which is the best model for visual thinking? \n5) failure modes of how VLM-as-Judge will not satisfy video models RL in long term\n6) interpretability studies show all image models, unified models, video models emerged \"Schrödinger Effect\", CoS reasoning through diffusion steps\n7) many more insights \n\nA detailed thread [1/n]",
-"likeCount": 46,
-"retweetCount": 22,
-"url": "https://x.com/DengHokin/status/2097104301269344638",
-"createdAt": "Mon Sep 07 23:26:42 +0000 2026"
-},
-{
-"userName": "rohanpaul_ai",
-"text": "Uno shows a simple way to speed up existing LLMs without changing their output distribution: keep the original model in charge, and use diffusion only to draft multiple tokens in parallel.\n\nKeep the autoregressive model for quality and add diffusion for parallel drafting\n\nOn Qwen3-8B, Uno delivered 2.5X higher per-request throughput and 1.6X higher system throughput at the largest tested batch size.\n\nNormal autoregressive LLMs generate 1 token at a time, making long responses, agents, and RL rollouts slow.\n\nUno adds lightweight diffusion adapters that propose several future tokens at once, while the original model verifies them.\n\nThat avoids a separate draft model and preserves the base model’s sampling behavior.\n\nIt also sped up end-to-end RL training by up to 40% in the reported runs.",
-"likeCount": 34,
-"retweetCount": 6,
-"url": "https://x.com/rohanpaul_ai/status/2097378878000157076",
-"createdAt": "Tue Sep 08 17:37:46 +0000 2026"
-},
-{
-"userName": "mr_farman_ai",
-"text": "Kling AI MCP makes it much easier to bring AI video generation directly into creative workflows with tools like Claude and Cursor. I tested the workflow for creating high-quality product and fashion visuals, and the level of control over the final output is impressive. For creators, this can make experimenting with different concepts, scenes, and video styles much faster on @Kling_ai \n\nIf you’re exploring AI video creation, give Kling AI MCP a try and see what you can create with it.",
-"likeCount": 149,
-"retweetCount": 1,
-"url": "https://x.com/mr_farman_ai/status/2097923336110329950",
-"createdAt": "Thu Sep 10 05:41:15 +0000 2026"
-},
-{
-"userName": "TheRocketMediaX",
-"text": "Two IIT Kanpur alumni built a $14 BILLION robotics startup! \n\nSkild AI is building one general-purpose intelligence for different robots, with its latest model learning new tasks from videos.\n\nSeems like, YouTube tutorials finally have a worthy audience. https://t.co/YWkZ1QP9nC",
-"likeCount": 25,
-"retweetCount": 3,
-"url": "https://x.com/TheRocketMediaX/status/2098331845813579817",
-"createdAt": "Fri Sep 11 08:44:31 +0000 2026"
+"userName": "SarahAnnabels",
+"text": "If I were launching a fashion or beauty brand, I'd probably build the homepage like this.\n\nTurns out GPT-6 Astra + Dreamina Seedance 2.5 is an actual pipeline.\nFirst, create the same model/product character across completely different backgrounds in Dreamina. Then give those visuals to GPT-6 Astra and have it turn them into one continuous animated background.\nThe goal isn't really \"AI video\" - it's making the first few seconds of a brand website feel like a campaign film.\nDreamina's affordable generation cost makes it easy to test different scenes before committing to the final direction.\nThis is definitely the kind of homepage I'd stop scrolling for.\n\n#Dreamina #DreaminaPartner",
+"likeCount": 103,
+"retweetCount": 88,
+"url": "https://x.com/SarahAnnabels/status/2098443485049172237",
+"createdAt": "Fri Sep 11 16:08:08 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Let's go local AI!\n\nAt a time when everyone is complaining about shortages of energy and compute for AI &amp; costs of tokens, we need on-device AI more than ever! In addition, it's virtually free &amp; fully privacy preserving!",
-"likeCount": 2641,
-"retweetCount": 179,
-"url": "https://x.com/ClementDelangue/status/2097693924206764264",
-"createdAt": "Wed Sep 09 14:29:39 +0000 2026"
+"text": "It's now clear that alignment is critical and won't be solved behind the closed doors of a handful of frontier labs.\n\nSo today we're launching the Open Alignment Initiative, led by @Thom_Wolf @huggingface and asking to be part of the \"embedded evaluators\" program that @DarioAmodei just committed to.\n\nLet's make AI safer by making it more transparent!",
+"likeCount": 3295,
+"retweetCount": 353,
+"url": "https://x.com/ClementDelangue/status/2098790988034580852",
+"createdAt": "Sat Sep 12 15:08:59 +0000 2026"
+},
+{
+"userName": "is_OwenLewis",
+"text": "With everything happening in AI, and happening so rapidly, it feels to me like we're crossing over the event horizon of the Singularity. I'm sure we'll recognize it fully only sometime after the fact. Exciting times. https://t.co/Y4ndajMAcT",
+"likeCount": 16,
+"retweetCount": 2,
+"url": "https://x.com/is_OwenLewis/status/2097661051542384831",
+"createdAt": "Wed Sep 09 12:19:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @deepseek_ai: 🚀 Introducing DeepSeek-V4.1-Flash: smarter, faster, more efficient.\n\n🔹 Introducing the smallest model in our new architect…",
-"likeCount": 27761,
-"retweetCount": 3025,
-"url": "https://x.com/ClementDelangue/status/2098006817510949014",
-"createdAt": "Thu Sep 10 11:12:59 +0000 2026"
+"text": "RT @OpenAIDevs: GPT-Live-1 is now available in the API.\n\nBring ChatGPT’s natural back-and-forth to your app, with voice agents that listen…",
+"likeCount": 17772,
+"retweetCount": 1430,
+"url": "https://x.com/ClementDelangue/status/2098109991014084858",
+"createdAt": "Thu Sep 10 18:02:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @OpenDesignHQ: We benchmarked DeepSeek V4.1 Flash by @deepseek_ai .\n\nIt reached 98% of GPT-6 Astra’s score at 1.4% of the cost on everyd…",
-"likeCount": 10949,
-"retweetCount": 977,
-"url": "https://x.com/ClementDelangue/status/2098010259272974706",
-"createdAt": "Thu Sep 10 11:26:39 +0000 2026"
+"text": "RT @alexandrosM: AI Alarm Hype Cycles - A brief history\n\nGPT-2: OpenAI withholds weights due to misuse/misinformation concerns\n\nGPT-3: No o…",
+"likeCount": 597,
+"retweetCount": 73,
+"url": "https://x.com/ClementDelangue/status/2098494933900349697",
+"createdAt": "Fri Sep 11 19:32:35 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: don't get distracted by all the hedging words in its name (\"flash\", minor version): seems like DeepSeek V4.1 Flash is a majo…",
-"likeCount": 215,
-"retweetCount": 23,
-"url": "https://x.com/ClementDelangue/status/2098043863898161501",
-"createdAt": "Thu Sep 10 13:40:11 +0000 2026"
+"text": "RT @Tim_Dettmers: Have been using this model all day yesterday. With its new architecture, this release is just as big as R1 and will redef…",
+"likeCount": 1319,
+"retweetCount": 72,
+"url": "https://x.com/ClementDelangue/status/2098028160524640558",
+"createdAt": "Thu Sep 10 12:37:47 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Thanks for the mention and the very very inspiring project for all @cdngdev! \n\nOpen affordable robotics + frontier AI will change the world!",
-"likeCount": 114,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2098514897453641969",
-"createdAt": "Fri Sep 11 20:51:54 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @ClementDelangue: It's now clear that alignment is critical and won't be solved behind the closed doors of a handful of frontier labs.…",
+"likeCount": 3295,
+"retweetCount": 353,
+"url": "https://x.com/jeremyphoward/status/2099009039124554083",
+"createdAt": "Sun Sep 13 05:35:27 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "We need 100x more transparency in AI!!!",
-"likeCount": 1828,
-"retweetCount": 202,
-"url": "https://x.com/ClementDelangue/status/2098036661049241996",
-"createdAt": "Thu Sep 10 13:11:34 +0000 2026"
+"userName": "tylerblack32",
+"text": "Sometimes you have to just let the data speak https://t.co/5oufCvi2jT",
+"likeCount": 98,
+"retweetCount": 32,
+"url": "https://x.com/tylerblack32/status/2098448484601127216",
+"createdAt": "Fri Sep 11 16:28:00 +0000 2026"
 },
 {
-"userName": "PlayDeCap",
-"text": "https://t.co/FduNzlK9PW",
-"likeCount": 13,
-"retweetCount": 5,
-"url": "https://x.com/PlayDeCap/status/2098549989991391408",
-"createdAt": "Fri Sep 11 23:11:21 +0000 2026"
+"userName": "SergioPaniego",
+"text": "https://t.co/ibdTpH3xEQ",
+"likeCount": 171,
+"retweetCount": 20,
+"url": "https://x.com/SergioPaniego/status/2098414718826201235",
+"createdAt": "Fri Sep 11 14:13:50 +0000 2026"
 }
 ]

@@ -8,60 +8,60 @@
 "createdAt": "Fri Sep 11 13:00:02 +0000 2026"
 },
 {
-"userName": "UNRE3L",
-"text": "Generative Art was here befoe AI: \nBefore computers. The idea starts as instruction plus chance.Mozart-era musical dice games let rules assemble minuets. Dada and Cage used chance operations so the artist would not control every event. Sol LeWitt’s wall drawings made the score the work: written rules, executed by other hands. Constructivism and Op art trained people to think in systems, grids, and variation. Jacquard looms and Ada Lovelace’s 1843 notes on Babbage already implied that a machine following a procedure could do more than calculate — it could compose. \n\nhttps://t.co/dzNa0FkX6w\n\nThat is the prehistory: the artist writes conditions; something else completes the picture.1960s: plotters and the AlgoristsThe first public computer-art shows happen in 1965.Georg Nees exhibits plotter drawings in Stuttgart in February 1965. Frieder Nake follows. In New York, A. Michael Noll and Béla Julesz show computer-generated pictures at Howard Wise Gallery. Noll had started deliberately making “computer art” at Bell Labs in 1962 after a plotter bug produced a mess someone joked was art. He then programmed order plus disorder on purpose. \n\nhttps://t.co/Uwx4OQ3ZpJ\n\nNees’s Schotter (Gravel) is the textbook image of that idea: a grid of squares that begins regular and tilts into chaos as it descends. The work is not “the computer drew a picture.” It is a rule about how much disorder to https://t.co/0AC8vq4Qc8\n\nVera Molnár is the other pillar. In Paris she invented a machine imaginaire — executing algorithms by hand — before she got mainframe access in 1968. Then FORTRAN, BASIC, plotters. Grids, letters, controlled percentages of disorder. She came from painting and Constructivism, not from a lab demo. \n\nhttps://t.co/XYpbjyWDpz\n\nhttps://t.co/v1g9yyoV32\n\nAround them: Manfred Mohr, Charles Csuri (Sine Curve Man, 1967), Hiroshi Kawano, Herbert Franke, Lillian Schwartz, John and James Whitney in film. Jean-Pierre Hébert later named this loose family the Algorists: artists who write algorithms as their medium. \n\nhttps://t.co/GZAtxx872N\n\n1968: the public discovers the fieldJasia Reichardt’s Cybernetic Serendipity at London’s ICA (2 August–20 October 1968) is the first big international survey of computers and the arts. Graphics, films, generated music, robots, cybernetic sculptures. Artists, engineers, and composers in one room. Tens of thousands of visitors. It tours to Washington and San Francisco. Harold Cohen later said seeing that show helped push him toward machine art. \n\nhttps://t.co/pssQ14IIuz\n\nMoMA’s The Machine as Seen at the End of the Mechanical Age (also 1968) and later Software at the Jewish Museum (1970) keep the argument inside institutions: is the program the work, or the print it leaves behind? \n\nhttps://t.co/XYpbjyWDpz\n\nCohen and AARON: the long AI projectHarold Cohen, already a painter who had represented Britain at Venice, starts AARON in the early 1970s after time at Stanford’s AI Lab. It is not a prompt box. It is a drawing program he rewrites for decades: first abstract marks, then plants and figures, then color. AARON draws; Cohen designs what AARON is allowed to know about composition, closure, and form. Museums let it work in public at SFMOMA and the Tate. That is still the cleanest historical example of an artist building a collaborator instead of renting a generator. \n\nhttps://t.co/t30TGbBoaF\n\nhttps://t.co/ADGTFNhWV6\n\nhttps://t.co/FoDccQZBNP\n\n1980s–1990s: fractals, scenes, closed shopsMandelbrot’s fractals leak into popular “computer art.” Plotter and algorithmic artists keep working with less fashion heat. The demoscene treats realtime code as craft. John Maeda’s Design By Numbers at MIT tries to give visual people a programming language small enough to sketch with. Flash becomes a mass tool for motion systems. The through-line is the same: code as pencil, not code as vending machine.2001: ProcessingCasey Reas and Ben Fry release Processing, built out of Maeda’s MIT orbit. Goal: artists and designers write systems the way they used to sketch. Reas’s own Process series is explicit LeWitt-into-software: rules for elements and behaviors, then the program runs. Jared Tarbell, Marius Watz, and a generation of “creative coders” come out of that stack. Open source matters here. The tool is inspectable. The system can be shown, not only the JPEG. \n\nhttps://t.co/ADGTFNhWV6\n\n2014–2018: GANs become “the look”Ian Goodfellow’s generative adversarial networks (2014) give artists a new engine: a generator tries to fool a discriminator trained on a dataset. Mario Klingemann, Helena Sarin, and others treat the network as a material you tune — datasets, thresholds, failure modes. Refik Anadol scales data-trained “hallucinations” into museums. \n\nhttps://t.co/KdiRsEww0Z\n\nThe market event is Obvious’s Portrait of Edmond de Belamy at Christie’s in 2018: $432,500. A blurry invented aristocrat, signed with a GAN formula. It made “AI art” a headline and also a fight. Many working GAN artists pointed out that Obvious used an existing model and training approach; the auction sold the idea of machine authorship more than a deep studio practice. That split — spectacle versus built system — never went away. \n\nhttps://t.co/M9cFVWkrci\n\nTO BE CONTINUED...",
-"likeCount": 6,
+"userName": "meAsifAi",
+"text": "AI Character Consistency Workflow 🎬\nKeep the same character consistent across different outfits, poses, environments, lighting, and camera angles — while maintaining their identity and facial features.\n\ncreated with @grok \nprompt :\n**REFERENCE IMAGE 1 = CHARACTER IDENTITY REFERENCE**\n\n**REFERENCE IMAGE 2 = WORKFLOW / LAYOUT REFERENCE**\nCreate an **exactly structured professional AI character-consistency workflow board based on Reference Image 2**, while completely replacing the original person/character with the person from **Reference Image 1**.\n**CHARACTER IDENTITY LOCK — ABSOLUTE PRIORITY:**\n\nReference Image 1 is the only source of truth for the character's identity. Preserve the exact facial identity, facial structure, eyes, eyebrows, nose, lips, jawline, skin tone, hairstyle, hair texture, age, body proportions and overall recognizable appearance of the person in Reference Image 1.\nThe character must remain **the exact same person in every generated image**. Do not redesign, beautify, age, de-age, masculinize, feminize or otherwise alter the character's identity.\n**REFERENCE IMAGE 2 — STRUCTURE LOCK:**\n\nReproduce the visual structure of Reference Image 2: a dark professional node-based AI workflow interface, with the character reference/input panel on the left, a central prompt/instruction/code panel, and multiple generated result panels arranged vertically on the right. Preserve the same overall composition, spacing, connecting lines, panel arrangement, technical/editorial aesthetic and visual hierarchy.\n\n### LEFT — CHARACTER REFERENCE\n\nDisplay Reference Image 1 as the main character input/reference image inside a clean portrait frame on the left side.\nAdd subtle professional interface details around it, making it look like a real AI image-generation workflow.\n\n### CENTER — GENERATION PROMPT / CONTROL NODE\n\nCreate a realistic technical prompt/control panel containing instructions for maintaining character consistency.\nThe visible workflow concept should communicate:\n**IDENTITY LOCK**\n\n**FACE CONSISTENCY**\n\n**HAIR CONSISTENCY**\n\n**BODY PROPORTION CONSISTENCY**\n\n**OUTFIT CONTROL**\n\n**POSE CONTROL**\n\n**LIGHTING CONTROL**\n\n**CAMERA CONTROL**\n\n**ENVIRONMENT CONTROL**\nConnect the character reference and control/prompt node to the output images using multiple thin curved workflow lines, matching the visual style of Reference Image 2.\n\n### RIGHT — MULTIPLE CHARACTER OUTPUTS\n\nGenerate **8 separate fashion/editorial character images** arranged in **4 rows × 2 columns**, matching the output arrangement in Reference Image 2.\nEvery output must feature **the exact same person from Reference Image 1**.\nEach image should show a different pose, camera angle, outfit variation and environment while maintaining absolute identity consistency.\nSuggested variations:\n**01 — Full-body standing fashion portrait**\n\nDifferent outfit, confident standing pose.\n**02 — Three-quarter fashion portrait**\n\nSlightly different pose and camera angle.\n**03 — Walking pose**\n\nNatural movement, full body visible.\n**04 — Seated editorial pose**\n\nRelaxed cinematic fashion composition.\n**05 — Side-angle portrait**\n\nDifferent camera perspective while preserving identity.\n**06 — Dynamic fashion pose**\n\nNatural body movement and realistic clothing behavior.\n**07 — Close/medium portrait**\n\nStrong facial detail and consistent identity.\n**08 — Full-body cinematic shot**\n\nDifferent environment and pose, same character.\n\n### CONSISTENCY RULE\n\n**DO NOT create eight different people.**\n\nAll eight outputs must unmistakably represent the **same individual from Reference Image 1**.\nOnly change:\n\n-  clothing \n-  pose \n-  camera angle \n-  environment \n-  lighting \n-  composition \n\nNever change:\n\n-  facial identity \n-  facial proportions \n-  hairstyle unless specifically requested \n-  skin tone \n-  age \n-  body proportions \n-  distinctive facial characteristics \n\n### VISUAL STYLE\n\nPremium professional AI-generation workflow interface, dark technical canvas, subtle grid background, thin curved colored connection lines, realistic UI nodes, sophisticated cinematic design, clean spacing, high-end creative-AI laboratory aesthetic.\nThe generated character images should be **photorealistic, cinematic and highly detailed**, with realistic skin texture, natural hair, accurate anatomy, realistic fabric behavior, physically coherent lighting and professional photography.\n**IMPORTANT:** Reference Image 1 controls **WHO the character is**. Reference Image 2 controls **HOW the workflow board looks**. Do not mix their identities. Do not use the person from Reference Image 2. Replace that person completely with the character from Reference Image 1.\n**TEXT/UI:** Keep the interface visually realistic and organized. Avoid random gibberish text. Use clean readable labels such as **CHARACTER REFERENCE, IDENTITY LOCK, PROMPT, OUTPUTS, CONSISTENCY**.\n**FINAL RESULT:** A polished viral-style **AI character consistency workflow board**, visually similar in structure to Reference Image 2, but featuring the user's own character from Reference Image 1 across all generated outputs.\n\n### References aise dena:\n\n**REFERENCE IMAGE 1 → aapki apni photo/character**\n\n**REFERENCE IMAGE 2 → ye workflow-board wali image**",
+"likeCount": 35,
+"retweetCount": 4,
+"url": "https://x.com/meAsifAi/status/2098848620598481145",
+"createdAt": "Sat Sep 12 18:58:00 +0000 2026"
+},
+{
+"userName": "nabi_sarvi",
+"text": "𝗡𝗼 𝗺𝗼𝗿𝗲 \"𝘁𝗿𝘂𝘀𝘁 𝗺𝗲 𝗯𝗿𝗼\", 𝗺𝗮𝘁𝗵 𝗱𝗼𝗲𝘀 𝗻𝗼𝘁 𝗹𝗶𝗲!\n\nWhere does the entire autonomous agent circus actually hit a wall?\n\nSay my agent hires another agent to write a thousand lines of code or crunch heavy financial data. The provider hands over the file and demands payment.\n\nHere is the life-or-death question:  \nHow do you know the output is legitimate execution and not random hallucinated garbage?\n\nWho checks it? A human? If I still have to sit there and review code line by line, why call it autonomous in the first place? I might as well do the damn job myself.\n\nEvery platform in this space got stuck in that exact swamp.  \nExcept 𝗧𝗲𝗿𝗺𝗶𝗫 built one specific feature that actually cleans up the mess:  \n𝗩𝗲𝗿𝗶𝗳𝗶𝗮𝗯𝗹𝗲 𝗰𝗼𝗺𝗽𝘂𝘁𝗲 𝘃𝗶𝗮 𝘇𝗸𝗩𝗠 𝗮𝗻𝗱 𝗧𝗘𝗘 𝗲𝗻𝗰𝗹𝗮𝘃𝗲𝘀.\n\nHow it works:\n\n1. 𝘇𝗸𝗩𝗠 (𝗭𝗲𝗿𝗼-𝗞𝗻𝗼𝘄𝗹𝗲𝗱𝗴𝗲 𝗩𝗶𝗿𝘁𝘂𝗮𝗹 𝗠𝗮𝗰𝗵𝗶𝗻𝗲𝘀)  \nThe provider agent does not get to say trust me, my code ran fine.  \nThe computation runs inside a zkVM, spitting out a cryptographic proof. That proof hash gets committed on-chain.  \nThe client agent or smart contract never reruns the heavy job. It just verifies the proof in milliseconds. If the math checks out, the execution was 100% correct.\n\n2. 𝗧𝗘𝗘 (𝗧𝗿𝘂𝘀𝘁𝗲𝗱 𝗘𝘅𝗲𝗰𝘂𝘁𝗶𝗼𝗻 𝗘𝗻𝘃𝗶𝗿𝗼𝗻𝗺𝗲𝗻𝘁𝘀)  \nFor sensitive data or workloads where ZK is too heavy, the job runs inside isolated hardware enclaves. Even the server hosting the machine cannot tamper with the run or cheat the result.\n\nWhy this changes everything:\n\nWeb3 always loved chanting \"Don't Trust, Verify\".  \nYet AI agents have been running on pure \"Trust me bro\". There was zero way to verify output automatically.\n\nWith this mechanism in @termix_ai  :  \n• Escrow stops waiting on human eyes. The moment cryptographic proof hits the chain, stablecoins (𝗨𝗦𝗗𝗖 or 𝗨𝗦𝗗𝗧) release automatically.  \n• Try to submit fake output or cut corners? The proof fails, you get zero pay, and your staked capital gets slashed on-chain.\n\nTalk is cheap. The difference between a real system and clownery is putting math and hardware proofs in the middle so two machines can do business without scamming each other.",
+"likeCount": 42,
 "retweetCount": 1,
-"url": "https://x.com/UNRE3L/status/2097899301779513727",
-"createdAt": "Thu Sep 10 04:05:45 +0000 2026"
+"url": "https://x.com/nabi_sarvi/status/2098178113695883297",
+"createdAt": "Thu Sep 10 22:33:39 +0000 2026"
 },
 {
-"userName": "theanu_Sayss",
-"text": "When modern photography gets the vintage offset treatment 🔥\n\nIf GPT Image 2.5 is part of your workflow, you’ll want to bookmark this open-source prompt collection👇\nhttps://t.co/VXArhfnoyK\n\nPrompt :\nUse each uploaded image as the only visual source.Create one independent poster per upload and output each separately.Never combine images.Role:You are an art director skilled in vintage offset print,comic halftones,pop posters,and magazine-style visual distillation. Design a vertical 3:4 print-quality diptych poster with an editorial collectible feel.Format:Split the canvas into two strictly equal horizontal panels,top 50% and bottom 50%,with an exact 1:1 division.Upper panel:Present the uploaded reference image in the top half.Keep the original subject,scene identity,main objects,gesture,spatial relationships,and emotional atmosphere recognizable.Preserve it as image-based rather than https://t.co/yd6fQLU2cV may crop naturally to fit the panel,but never stretch,distort,mirror,replace,or redesign the subject.Apply only restrained editorial grading and subtle print refinement.Lower panel:Transform the same source into a retro offset-halftone pop poster.Extract the strongest action,the clearest object silhouettes,the main emotional tension,and the essential color relationships from the upper image.Rebuild them with bold black outlines,large flat color fields,visible halftone dots,slight registration misalignment,minor ink spread,small printing imperfections,and controlled burst-like negative space.The lower half should be more distilled and graphic than the upper half,yet still instantly recognizable as the same scene or https://t.co/dv3ALeMvDu:Blend vintage offset lithography,pop-graphic poster design,magazine cover composition,indie publication aesthetics,and restrained comic-print language.The result should feel sophisticated and collectible,not loud or cheap.Use only 4 to 5 main colors.The lower half may be brighter than the upper half,but keep the palette controlled.Preserve paper grain,subtle ink shift,light fold traces,and retro print noise.Avoid glossy smoothness.Composition:Give the lower half a magazine-cover hierarchy with one dominant focal idea and supporting shapes.Use strong silhouette simplification,clear rhythm,and strategic blank areas.Suggest energy through scale contrast and white space,but do not fill the frame with clutter.Typography:You may add a small amount of English-only text in the lower half,such as a short title,onomatopoeia,a tiny cover line,or a small price-tag detail,but only when it supports the composition.Text must stay legible,sparse,and secondary.Overall feeling:An independent-publication cover,art-exhibition poster,or collectible visual-research page.Calm,modern,restrained,and premium.The top half presents the source;the bottom half turns that source into a refined retro halftone pop interpretation.Negative:No childish cartoon,no cheap sticker look,no sales-promo poster,no garbled text,no pseudo text,no uncontrolled colors,no full-screen blast elements,no 3D rendering,no realistic copying in the lower half,no overly cute styling,no oversized subject,no watermark,no logo,no UI.",
-"likeCount": 205,
-"retweetCount": 8,
-"url": "https://x.com/theanu_Sayss/status/2098459664140652850",
-"createdAt": "Fri Sep 11 17:12:26 +0000 2026"
+"userName": "Eric_Smith08",
+"text": "Feature 9: He showed him computer use — the capability most users are afraid to try.\n\nHe told him computer use is the headline capability of GPT-6 Astra — the feature OpenAI demonstrated most prominently at launch — and the one most ChatGPT users haven't tried once in 9 days.\n\nHe told him the hesitation is understandable. \"Let the AI use my computer\" sounds risky. The user imagines the AI clicking the wrong button, submitting the wrong form, or navigating to the wrong website. The fear keeps most users in the text box — asking Astra to describe what to do instead of asking Astra to do it.\n\nHe showed him the safety model. Astra's computer use operates in a sandboxed environment — the AI interacts with a virtual browser, not with the user's actual desktop. The user watches the actions in real time. The user can pause or stop at any moment. The AI asks for confirmation before taking consequential actions — submitting forms, making purchases, sending messages. The system is designed for observation and intervention, not blind trust.\n\nHe demonstrated. \"Go to my Google Calendar. Find my first meeting tomorrow. Open the shared agenda document. Summarize the key discussion points.\" Astra opened a browser. Navigated to Google Calendar. Found the meeting. Clicked the agenda link. Read the document. Summarized the discussion points. Four steps across 2 applications — completed in 30 seconds while the user watched.\n\nHe told him computer use is nearly 2x faster on Astra than on the previous model. The underlying infrastructure has been optimized so that even GPT-5.6 runs computer tasks roughly 60% faster. The speed makes computer use practical — a 30-second automated workflow replaces a 3-minute manual process. The gap between \"let me do it myself\" and \"let Astra do it\" narrows to the point where delegation is faster than execution.\n\nHe told him to start with low-stakes tasks — calendar checks, research workflows, price comparisons, form pre-fills — and build comfort before delegating anything consequential. The trust builds through observation. The productivity unlocks through delegation. The capability that most users are afraid to try is the capability that saves the most time once the fear subsides.",
+"likeCount": 10,
+"retweetCount": 0,
+"url": "https://x.com/Eric_Smith08/status/2098989084668780615",
+"createdAt": "Sun Sep 13 04:16:09 +0000 2026"
 },
 {
-"userName": "zakiraicoder",
-"text": "Stop wasting hours doing work AI can finish in minutes.\n\nWrite better → Design faster → Code without starting from scratch → Create videos → Automate repetitive work.\n\nThese 15 AI tools can help you👇\n\nChat and Research\n1. ChatGPT : A versatile conversational AI for writing, brainstorming, and coding.\n\n2. Claude: An advanced AI assistant by Anthropic known for deep analysis and long-form writing.\n\n3. Google Gemini: Google's multi-modal AI integrated across search and workspace apps.\n\n4. Perplexity: An AI-powered search engine that provides direct answers with source citations.\n\nImage and Design\n5. Midjourney: A top-tier text-to-image generator for hyper-realistic and artistic visuals.\n\n6. Canva AI: An easy design platform with built-in AI tools for social media and presentations.\n\n7. Ideogram: An AI image creator specializing in clear typography and graphic text placement.\n\nVideo and Audio\n8. Runway: A creative suite for AI video generation, editing, and cinematic effects.\n\n9. ElevenLabs: A realistic voice generator with lifelike text-to-speech and voice cloning.\n\n10. Descript: An audio and video editor that lets you edit media by modifying text transcripts.\n\nCoding and Development\n11. Cursor: An AI-first code editor designed to help developers write and debug code faster.\n\n12. Lovable: A \"vibe-coding\" tool that lets non-technical users build software apps using simple descriptions.\n\nProductivity and Automation\n13. Zapier Central: An AI automation platform that connects different apps to perform tasks for you.\n\n14. Notion AI: A workspace assistant that summarizes notes, writes content, and organizes data.\n\n15. Gamma: An AI tool that instantly builds polished presentations, memos, and web pages from text prompts.\n\nSave this. You’ll definitely need some of these later. 🔖  \n\nFollow @zakiraicoder for more useful websites, AI tools & tech resources.",
-"likeCount": 63,
-"retweetCount": 41,
-"url": "https://x.com/zakiraicoder/status/2098585479310712848",
-"createdAt": "Sat Sep 12 01:32:22 +0000 2026"
+"userName": "Faizu_Coder",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Faizu_Coder For More Tools.",
+"likeCount": 16,
+"retweetCount": 12,
+"url": "https://x.com/Faizu_Coder/status/2099010523786571996",
+"createdAt": "Sun Sep 13 05:41:21 +0000 2026"
 },
 {
-"userName": "successfaceless",
-"text": "20 AI tools every youtube beginner should know in 2026:\n\nChatGPT\nideas, research, scripts, titles, hooks + thumbnail concepts\n\nClaude\nlong scripts, rewriting + working with large amounts of research\n\nGemini\nresearch, ideation, writing + working across Google's ecosystem\n\nPerplexity\nsource-based research + quickly finding information for scripts\n\nNotebookLM\nupload sources, organize research + extract information from large source libraries\n\nvidIQ\nyoutube research, competitor analysis, ideas + channel optimization\n\nElevenLabs\nai voiceovers, voice cloning + dubbing\n\nAdobe Podcast\ncleaning recordings + improving spoken audio\n\nMidjourney\nthumbnail concepts, illustrations + generated visuals\n\nIdeogram\nthumbnail images, graphics + image generation involving text\n\nCanva\nthumbnails, graphics + quick AI-assisted design\n\nFreepik\nstock assets + AI image/video generation in one library\n\nRunway\ngenerating video shots, image-to-video + AI-assisted visual editing\n\nKling AI\ntext-to-video + image-to-video for generated B-roll\n\nGoogle Veo\nhigh-quality generated video scenes + B-roll\n\nCapCut\nediting, captions, background removal + other AI-assisted editing tools\n\nDescript\nedit video through transcripts, remove filler words, clean audio + generate clips\n\nOpusClip\nturn long-form videos into Shorts automatically\n\nHeyGen\nvideo translation, dubbing + AI avatars\n\nAdobe Premiere\nAI-assisted editing, audio cleanup, generative media + professional final editing",
-"likeCount": 9,
+"userName": "gurtej__gill_",
+"text": "This paper is definitely one of the cleanest takes on offline RL we’ve come across recently.\n\nWe’ve all seen how messy the balance is between staying on-distribution and actually maximizing reward. \n\nMost people either throw in awkward penalties or just use diffusion models and live with painful sampling latencies.\n\nThey treat behavioral constraints and value optimization as motion fields in action space, blend them, and bake the whole thing into a one step generator. \n\nYou get the expressiveness of a generative model without having to wait on multi step denoising at test time, just a single forward pass.\n\nThey tested it on 73 tasks across D4RL and OGBench and took the top average rank against some serious diffusion and flow baselines. \n\nDefinitely worth reading if you care about fast continuous control: https://t.co/FWtPTmNFiK",
+"likeCount": 44,
+"retweetCount": 9,
+"url": "https://x.com/gurtej__gill_/status/2096671771634364785",
+"createdAt": "Sun Sep 06 18:47:59 +0000 2026"
+},
+{
+"userName": "mr_farman_ai",
+"text": "Kling AI MCP makes it much easier to bring AI video generation directly into creative workflows with tools like Claude and Cursor. I tested the workflow for creating high-quality product and fashion visuals, and the level of control over the final output is impressive. For creators, this can make experimenting with different concepts, scenes, and video styles much faster on @Kling_ai \n\nIf you’re exploring AI video creation, give Kling AI MCP a try and see what you can create with it.",
+"likeCount": 145,
 "retweetCount": 1,
-"url": "https://x.com/successfaceless/status/2098205632663081132",
-"createdAt": "Fri Sep 11 00:23:00 +0000 2026"
+"url": "https://x.com/mr_farman_ai/status/2097923336110329950",
+"createdAt": "Thu Sep 10 05:41:15 +0000 2026"
 },
 {
-"userName": "BRNarawins",
-"text": "Eu não consigo imaginar como está a bateria social dele 😃\n\nPHUWIN STUNNING NYFW27\n#TommyHilfigerXPhuwin\n#phuwintang\n\n🐼: Nesta Fashion Week, eu também conheci bastante gente.\nNessa viagem, eu sentei com um ator da Colômbia chamado Carlos Torres. Ele é muito legal, muito simpático. E ao lado dele, ao lado dele… como todo mundo viu, estava a Jisoo.\nTambém tinha a Camila, que é jogadora de golfe, e então conheci essa pessoa também. Eu conheci ele no evento, mas não sabia quem ele era.\nEu sabia quem ele era, mas não sabia como ele era. Era o 21 Savage, um rapper cuja música eu gosto muito. Aí descobri depois que ele estava no evento. Eu fiquei tipo: “Então, qual deles é ele?”\nPorque eu só conhecia ele pelas músicas. Eu não sabia como ele era. Mas acabei conhecendo bastante gente.\nTambém tinha o Hae In, que eu já tinha conhecido antes na Tailândia. Tinha três integrantes Girls’ Generation que eu conheci, e também tinha o Young K. Eu já tinha conhecido eles antes, e fomos comer juntos.\nEntão, dessa vez, conheci bastante gente.",
-"likeCount": 142,
-"retweetCount": 32,
-"url": "https://x.com/BRNarawins/status/2098493481190625423",
-"createdAt": "Fri Sep 11 19:26:48 +0000 2026"
-},
-{
-"userName": "thegtaassassin",
-"text": "The main reason people are getting rejected for X's Monetisation, is spam and unoriginal content. If you look at it, once a news breaks, every account is sharing the same image, with the same content just reworded in their own style. For the algorithm, it might seem repetitive content. \n\nThey really want something that is unique and more personal to creators. Maybe something exclusive, like an original finding, research, opinion, on-ground reporting or podcast bytes. It can be in the form of text, image or videos. Not just clipping and reposting other's news and stuff. \n\nWhat do you think about it?",
-"likeCount": 31,
-"retweetCount": 1,
-"url": "https://x.com/thegtaassassin/status/2098338928638189894",
-"createdAt": "Fri Sep 11 09:12:40 +0000 2026"
-},
-{
-"userName": "michvista09",
-"text": "Finished Charis a while ago but finally posting 😅\nCharis is a fashion AI wardrobe OS, outfit verdicts, \ncombo generation, smart packing lists, style advisor, \nanalytics dashboard, social feed\nPlaylist: https://t.co/EzsVdwBUy9\nLive: https://t.co/WGNAgtz98v\n\nUsed @dolphjs for this https://t.co/7UG26xyvzU",
-"likeCount": 34,
-"retweetCount": 5,
-"url": "https://x.com/michvista09/status/2097637798626861308",
-"createdAt": "Wed Sep 09 10:46:38 +0000 2026"
+"userName": "Weeleey6",
+"text": "What impresses me about Kling MCP is how naturally video generation can now fit into an existing creative process. \n\nYou can brainstorm or develop an idea inside Claude or Cursor and move straight into generating strong visuals with Kling. \n\nFor product concepts, fashion content, ads, and rapid experimentation, that kind of integration could save creators a huge amount of time.",
+"likeCount": 72,
+"retweetCount": 2,
+"url": "https://x.com/Weeleey6/status/2097937624799330815",
+"createdAt": "Thu Sep 10 06:38:02 +0000 2026"
 },
 {
 "userName": "AiwithLariab",
@@ -73,42 +73,50 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "If they truly believe the risk is that high, and I think they do, then we need 100x more research and understanding of it. That requires them to openly share their models, datasets, training code, and agent traces.",
-"likeCount": 2656,
-"retweetCount": 306,
-"url": "https://x.com/ClementDelangue/status/2097805972404142505",
-"createdAt": "Wed Sep 09 21:54:53 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
 "text": "RT @Thom_Wolf: Two big updates\n\n1. I published an @FT op-ed on the OpenAI/HF incident &amp; follow-ups\n\n2. We’re starting an Open Alignment tea…",
-"likeCount": 807,
-"retweetCount": 100,
+"likeCount": 816,
+"retweetCount": 101,
 "url": "https://x.com/ClementDelangue/status/2098087390145290705",
 "createdAt": "Thu Sep 10 16:33:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @alexandrosM: AI Alarm Hype Cycles - A brief history\n\nGPT-2: OpenAI withholds weights due to misuse/misinformation concerns\n\nGPT-3: No o…",
-"likeCount": 412,
-"retweetCount": 50,
-"url": "https://x.com/ClementDelangue/status/2098494933900349697",
-"createdAt": "Fri Sep 11 19:32:35 +0000 2026"
+"text": "RT @juliarturc: Day 1: Anthropic employee quits to work at METR.\nDay 2: Anthropic nominates METR as \"third-party evaluator\". https://t.co/P…",
+"likeCount": 4354,
+"retweetCount": 594,
+"url": "https://x.com/ClementDelangue/status/2098891971917975960",
+"createdAt": "Sat Sep 12 21:50:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Tim_Dettmers: Have been using this model all day yesterday. With its new architecture, this release is just as big as R1 and will redef…",
-"likeCount": 1311,
-"retweetCount": 72,
-"url": "https://x.com/ClementDelangue/status/2098028160524640558",
-"createdAt": "Thu Sep 10 12:37:47 +0000 2026"
+"text": "RT @Thom_Wolf: don't get distracted by all the hedging words in its name (\"flash\", minor version): seems like DeepSeek V4.1 Flash is a majo…",
+"likeCount": 216,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2098043863898161501",
+"createdAt": "Thu Sep 10 13:40:11 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "There’s almost no serious research on existential risks of AI. Why? Maybe this could be a first step?",
-"likeCount": 392,
-"retweetCount": 28,
-"url": "https://x.com/ClementDelangue/status/2098062217945968817",
-"createdAt": "Thu Sep 10 14:53:07 +0000 2026"
+"text": "Thanks for the mention and the very very inspiring project for all @cdngdev! \n\nOpen affordable robotics + frontier AI will change the world!",
+"likeCount": 156,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2098514897453641969",
+"createdAt": "Fri Sep 11 20:51:54 +0000 2026"
+},
+{
+"userName": "bratton",
+"text": "I see a clear need for pro-diffusion third party model evaluators, otherwise the societal risk/reward dynamic is going to get horribly distorted",
+"likeCount": 12,
+"retweetCount": 0,
+"url": "https://x.com/bratton/status/2098966770501689733",
+"createdAt": "Sun Sep 13 02:47:29 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "We need 100x more transparency in AI!!!",
+"likeCount": 1838,
+"retweetCount": 202,
+"url": "https://x.com/ClementDelangue/status/2098036661049241996",
+"createdAt": "Thu Sep 10 13:11:34 +0000 2026"
 }
 ]
