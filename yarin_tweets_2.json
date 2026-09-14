@@ -8,115 +8,115 @@
 "createdAt": "Fri Sep 11 12:30:02 +0000 2026"
 },
 {
-"userName": "TraffAlex",
-"text": "Did a deep-dive on where local AI actually stands right now. The last ~3 months of releases, benchmarks and hardware, in one post. No vibes — just numbers.\n\n━━ THE MODELS (what people are actually running)\n\nQwen3.8-27B — the star of the quarter. Scored 52 on the Artificial Analysis index, the same level as DeepSeek V4-Pro and GPT-5.6 Luna. First local model to hit frontier-class scores. Unsloth's dynamic quants fit it in 17GB. Every tier from a 24GB 3090 to a 32GB 5090 runs it. Uncensored, agentic and abliterated variants are everywhere.\n→ https://t.co/jYAbkeBxLE\n\nDeepSeek-V4-Flash-0731 — the 304B MoE that owns the 128GB tier. On 2x DGX Sparks: near-Opus quality, 75–89 tok/s, 1M+ verified context. V4.1-Flash just rolled out (Sept 11) and it's trending again.\n→ https://t.co/lx0brZh6ag\n\nKimi K3 — launched July 22, crashed Moonshot's servers so hard they paused signups for 48h. At 1-bit it runs on a MacBook Pro and people still can't believe it. K2.8 Preview dropped this week.\n→ https://t.co/6M4pAyWPZ6\n\nGemma 4 (12B / 26B-A4B / 31B) — the small & edge tier king. 12B does text+image+audio in 8GB VRAM. 26B-A4B = \"infinite free ChatGPT\" for coding.\n→ https://t.co/Rq9hwr25A2\n→ https://t.co/3XTxNpGxuT\n\nThe heavy hitters:\n\nQwen3.8-2.4T-A95B — 4.9TB → 397GB at 1-bit, \"rivals GPT-5.6 Sol\"\n→ https://t.co/Cs8QFgRV3Z\n\nGLM-5.3\n→ https://t.co/Ahqbt5Hqvo\n\nBonsai 27B — 3.8GB, runs IN YOUR BROWSER via WebGPU\n→ https://t.co/kPFXCU85rs\n\nNemotron 3 (Nano → 550B Ultra family)\n→ https://t.co/drGxL0D9ah\n\nLaguna S 2.1 (118B-A8.5B)\n→ https://t.co/lR1SOomFIQ\n\nOrnith 1.5 35B-A3B\n→ https://t.co/IiSBWkDEpr\n\nMiniMax-M3\n→ https://t.co/teUEoUfr7O\n\ngpt-oss-120b — still the default \"big open model\". GPT-OSS-2 is long overdue.\n→ https://t.co/wrSI0Z9pN5\n\n━━ THE HARDWARE (tiers + real street prices)\n\n8–16GB — laptops, 4060 Ti, 5060: Gemma-4-12B Q4, gpt-oss-20b. Entry point, and it's actually good now.\n\n24GB — used 3090 ($1,100–2,000) / 4090 ($2,099–4,499). Still the LARGEST base in the scene. Runs Qwen3.8-27B 8-bit, DS-R1-32B, Ornith 35B at 115+ tok/s. The 5080+3090 hybrid is huge in Japan (80+ tok/s for way less).\n\n32GB — 5090: $3,599–5,199 street (AI demand + RAM price surge pushed it way past MSRP). Qwen3.8-27B at 132K context, ~60 tok/s. Real security research is being done on these.\n\n96GB — RTX Pro 6000 Blackwell. \"If you want to be serious, this is the only choice.\" 4x96GB builds are the enthusiast peak.\n\n128GB unified — the new frontier:\n• NVIDIA DGX Spark: $3,999 → hiked to $4,699 in months. 2x = 256GB = \"the frontier at home.\" Plus a whole clone war: HP ZGX, Acer GN100, MSI EdgeXpert, Lenovo PGX, Gigabyte AI TOP, Dell Pro Max — same GB10 silicon.\n• AMD's counterpunch: Strix Halo / Ryzen AI Halo boxes at $1,999–3,999. GMKtec EVO-X2 (128GB) ≈ $2,000. Half the price of a Spark, ~90% of the performance.\n• Apple (Aug 25): Mac mini M6 from $899 (up to 32GB, 2nm — the new $3/month home AI server). Mac Studio M5 Ultra from ~$7,500, up to 512GB @ 1.2TB/s — \"completely obliterated the value economics.\"\n\nBargain bin: 4x used GTX 1080 for ~$400 = 32GB VRAM. 6x used Tesla P40 for ~$2K = 144GB.\n\n━━ THE NEW BUDGET MAP\n\n$400 → 4x GTX 1080, 32GB, runs 27B at low bits\n$899 → Mac mini M6, 32GB, all-day local agents\n~$2,000 → EVO-X2 128GB (the value king right now)\n~$3,600 → 5090, fastest 32GB\n~$4,700 → DGX Spark, the scene favorite\n~$8–9,400 → 2x Spark, 256GB, frontier at home\n~$7,500–25,000 → M5 Ultra Mac Studio, up to 512GB\n\n━━ THE SOFT STACK (no longer the bottleneck)\n\nOllama is dominant and now has a zero-retention cloud. llama.cpp 0.3.0 just shipped. Berkeley's FreeToken runs 2–4x faster than Ollama (753B on 96GB). Unsloth dynamic quants, ExLlamaV3, LM Studio. One-click installers (ODS) and hardware checkers (CanIRunAI) mean normies are in. The only chaos left is 90s-PC-builder style: \"somebody changes 3 lines of code and performance jumps 40%.\"\n\n━━ TL;DR\n\n90 days ago, local AI was \"impressive demo.\" Today, ~$3,000 of hardware matches last year's frontier models on most benchmarks, and $8,000 gets you near-Opus with 1M context at home. The intelligence gap is closed for 27B–100B workloads. Cloud's real moat now is speed-at-scale, >400B frontier, and RAM prices are starting to hurt the CPU/RAM camp.\n\nWatch next: GPT-OSS-2, DeepSeek V5, Kimi K4, M7 Ultra (1.5TB unified), and the new wave of \"sell your idle Mac\" compute networks.\n\nThe permanent underclass is cancelled.",
-"likeCount": 7,
+"userName": "meAsifAi",
+"text": "Why a Character Sheet Matters in AI Video Generation:\n\nA character sheet locks the character’s identity, appearance, outfit, and key details—keeping every shot visually consistent from start to finish.\n\nCreated withn @grok\nPrompt :\nIDENTITY LOCK — HIGHEST PRIORITY:\n\nThe uploaded reference image has absolute priority over all generated variations.\n\nTreat the reference face as an identity anchor.\nEvery portrait, expression, angle and full-body view must belong to the exact same character.\n\nPreserve the same:\nfacial geometry, eye placement, eyebrow shape, nose structure, lip shape, cheek structure, jawline, chin, skin tone, hairline and distinctive facial characteristics.\n\nWhen generating unseen angles, reconstruct the character's face in 3D mentally while preserving the exact identity established by the reference.\n\nDo not average the face with generic beauty features.\nDo not substitute a similar-looking person.\nDo not make the character progressively different across panels.\n\nIDENTITY CONSISTENCY > BEAUTIFICATION > STYLIZATION.\nCreate a highly realistic, professional CHARACTER REFERENCE SHEET / CHARACTER BIBLE based on the uploaded reference image.\n\nIMPORTANT — REFERENCE IMAGE IS THE ONLY SOURCE OF TRUTH:\nUse the uploaded image as the primary and exclusive visual reference for the character's identity and appearance.\n\nPreserve the character's identity with maximum consistency:\n- exact facial identity and facial proportions\n- face shape and jawline\n- eyes, eye shape, eye color and spacing\n- eyebrows\n- nose shape and proportions\n- lips, mouth shape and natural lip color\n- skin tone, undertone and realistic skin texture\n- age appearance\n- hairstyle, hair color, hair length and texture\n- distinctive facial features\n- body proportions and overall silhouette\n- clothing design, colors, materials, patterns and accessories\n\nDo NOT redesign, beautify, age, de-age, stylize, or replace the character.\nDo NOT introduce a different face.\nDo NOT change ethnicity, facial structure, hairstyle, body proportions, or defining features.\nThe character must remain recognizably the SAME PERSON in every panel.\n\nREFERENCE SHEET LAYOUT:\nCreate a clean, premium, production-ready character reference board similar to a professional film / animation / fashion character bible.\n\nUse a sophisticated neutral studio background with warm beige, cream, taupe and dark brown tones, thin clean borders, elegant section headers and organized editorial layout.\n\nTITLE:\n\"CHARACTER REFERENCE SHEET\"\n\nSubtitle:\n\"REALISTIC | CONSISTENT | HIGH DETAIL\"\n\nSECTION 1 — CHARACTER IDENTITY\nInclude a clean information panel containing visually inferred, non-sensitive character information such as:\n- Character Name: [CHARACTER]\n- Apparent Age Range\n- Gender Presentation\n- Approximate Height\n- Body Type\n- Hair Color\n- Hair Style\n- Eye Color\n- Eye Shape\n- Face Shape\n- Distinctive Features\n- Accessories\n- Overall Style / Vibe\n\nDo not invent highly specific personal biography or sensitive attributes.\n\nSECTION 2 — FACE / PORTRAIT VIEWS\nShow the exact same character in:\n1. Front-facing portrait\n2. 3/4 view\n3. Side profile\n\nMaintain identical facial identity, proportions, hairstyle and appearance across all views.\n\nSECTION 3 — FACIAL DETAILS\nCreate close-up detail panels showing:\n- eyes\n- eyebrows\n- nose\n- lips\n- ears / earrings if present\n- distinctive facial details\n\nThese must be realistic crops of the SAME character, not redesigned features.\n\nSECTION 4 — HAIR DETAILS\nShow:\n- front hairstyle\n- side hairstyle\n- back hairstyle\n\nPreserve the exact hair color, length, texture, volume and styling from the reference.\n\nSECTION 5 — EXPRESSIONS\nCreate a row of consistent facial expressions using the SAME character:\n- neutral\n- subtle smile\n- happy\n- serious\n- sad\n- surprised\n- playful\n- looking down\n- looking sideways\n\nKeep facial identity unchanged. Only the expression should change.\n\nSECTION 6 — FULL BODY CHARACTER VIEWS\nShow the same character in the exact same outfit from:\n1. Front\n2. 3/4\n3. Side\n4. Back\n\nMaintain consistent:\n- body proportions\n- outfit\n- hairstyle\n- accessories\n- footwear\n- fabric\n- colors\n- silhouette\n\nIf the reference image does not show the back of the outfit, logically reconstruct the back while keeping the visible design language consistent. Do not invent unnecessary details.\n\nSECTION 7 — OUTFIT DETAILS\nCreate detailed close-up panels of the character's clothing:\n- neckline / bodice\n- sleeves\n- embroidery / patterns\n- fabric texture\n- waist details\n- skirt / trousers / lower garment\n- accessories\n\nPreserve the exact materials, colors, patterns and construction visible in the reference.\n\nSECTION 8 — COLOR PALETTE\nExtract a small professional color palette directly from the reference image:\n- primary clothing color\n- secondary clothing color\n- skin tone\n- hair color\n- accessory color\n- background / accent color\n\nSECTION 9 — REFERENCE THUMBNAIL\nInclude a small panel showing the original reference character as a visual anchor.\n\nVISUAL STYLE:\nUltra-realistic photography.\nHigh-end cinematic character development photography.\nNatural skin pores and subtle skin texture.\nRealistic eyes with natural catchlights.\nPhysically believable hair strands.\nRealistic fabric behavior and material texture.\nAccurate anatomy.\nSoft premium studio lighting.\nSubtle warm cinematic illumination.\nProfessional fashion/editorial presentation.\nSharp facial details.\nClean composition.\nConsistent perspective.\nHigh dynamic range.\nPhotorealistic rendering.\nNo artificial CGI appearance.\n\nCONSISTENCY RULE:\nEvery panel must depict ONE identical character.\nThe face must remain locked to the uploaded reference.\nThe character must look like the same person even when viewed from different angles and with different expressions.\n\nDo not create random variations of the character.\nDo not change facial identity between panels.\nDo not change hair color or hairstyle unnecessarily.\nDo not change clothing unless explicitly required by the reference.\nDo not add unrelated props or characters.\n\nLAYOUT:\nPremium professional character-sheet presentation.\nMultiple clearly separated panels.\nBalanced grid layout.\nClean typography.\nElegant section labels.\nConsistent margins.\nNo clutter.\nNo overlapping panels.\nNo distorted anatomy.\nNo duplicate limbs.\nNo extra fingers.\nNo malformed hands.\nNo warped facial features.\nNo text over the character's face or body.\n\nFINAL RESULT:\nA polished, production-ready CHARACTER REFERENCE SHEET that can be used as a visual identity guide for consistent AI image generation, animation, cinematic video generation, fashion visualization, and character continuity.",
+"likeCount": 70,
+"retweetCount": 12,
+"url": "https://x.com/meAsifAi/status/2098737156923724016",
+"createdAt": "Sat Sep 12 11:35:05 +0000 2026"
+},
+{
+"userName": "MdRimon488484",
+"text": "🚨 30 AI Websites That Feel “Illegal” — But They’re Completely Legal\n\nSome of these tools can generate images, videos, music, websites, presentations, code, voices and more in just a few clicks.\n\nSave this list. You’ll use it later. 🔖\n\n🖼️ AI IMAGE & DESIGN\n\n1. Raphael AI — Free AI image generation and editing\n   → https://t.co/naklNACTuV\n\n2. Krea — Real-time AI image & video creation\n   → https://t.co/Y7pfCkwqaO\n\n3. Magnific — AI image upscaling and enhancement\n   → https://t.co/c6Mi7Mh3zc\n\n4. Clipdrop — Background removal, cleanup, relighting & more\n   → https://t.co/c9SJV73phL\n\n5. https://t.co/7DeySN2Mpz — Instantly remove image backgrounds\n   → https://t.co/OaDCiAf1BL\n\n6. https://t.co/4jvCrscAc3 — Remove unwanted objects from photos\n   → https://t.co/b5up5gYK9C\n\n🎬 AI VIDEO\n\n7. Runway — Generate and edit AI videos\n   → https://t.co/Qm7MMAY8Qv\n\n8. Kling AI — High-quality AI video generation\n   → https://t.co/BavaNSn8wx\n\n9. D-ID — Create talking digital avatars from images\n   → https://t.co/e8hJwImZXi\n\n10. SadTalker — Turn a still image into a talking video\n    → https://t.co/DQdVbBrekm\n\n11. OpusClip — Automatically find highlights and create short videos\n    → https://t.co/FmPayl2hdy\n\n🎵 AI VOICE & MUSIC\n\n12. ElevenLabs — AI voice generation and cloning\n    → https://t.co/wW28A3Qg3t\n\n13. Suno — Generate complete songs from prompts\n    → https://t.co/k1dZnk8yWp\n\n14. Muisio — AI-powered music tagging and discovery\n    → https://t.co/sRQITimIrQ\n\n💻 AI CODING & WEBSITE BUILDING\n\n15. Cursor — AI-powered coding and development\n    → https://t.co/7G1NevjKpv\n\n16. Bolt — Build websites and apps with natural language\n    → https://t.co/EZm59o6k9s\n\n17. v0 — Generate modern frontend interfaces with AI\n    → https://t.co/RRQ7HUPBcN\n\n18. Replit — Code, build and deploy from your browser\n    → https://t.co/omFDq2nIxp\n\n19. Uizard — Turn ideas and sketches into UI designs\n    → https://t.co/WEdDzlqt7G\n\n🧠 AI SEARCH & RESEARCH\n\n20. Perplexity — AI search with cited answers\n    → https://t.co/OCOXUeUWDi\n\n21. Phind — AI search designed for developers\n    → https://t.co/kvBCF62oRy\n\n22. Poe — Access multiple AI models from one platform\n    → https://t.co/hUWGiyLggE\n\n23. Hugging Face Spaces — Try thousands of open-source AI demos\n    → https://t.co/VGFMCC4F0c\n\n📝 AI WRITING & PRODUCTIVITY\n\n24. Notion AI — Write, summarize, translate and organize\n    → https://t.co/WHtrYb7DcD\n\n25. Gamma — Create presentations and documents with AI\n    → https://t.co/OnKG1W9y5n\n\n26. Napkin AI — Turn text into diagrams and visual ideas\n    → https://t.co/auLioHaTab\n\n27. Jasper — AI writing and marketing assistant\n    → https://t.co/kXkMDEHxo9\n\n28. Claude — Powerful AI assistant for writing and long documents\n    → https://t.co/5h01Pa7cHD\n\n🎙️ AI MEETINGS & NOTES\n\n29. Otter — AI meeting transcription and notes\n    → https://t.co/fZWrFpzFuE\n\n🎭 AI PHOTO TOOLS\n\n30. DeepSwap — AI-powered face-swapping and image/video editing\n    → https://t.co/CKJRkmoW9d\n\n⚡ What you can do with these:\n\n• Create professional images\n• Generate AI videos\n• Clone and generate voices\n• Make music\n• Build websites\n• Write code\n• Create presentations\n• Research faster\n• Edit photos\n• Take meeting notes\n• Automate your workflow\n• Create content without expensive software\n\nYou don’t need to know all 30.\n\nJust find 3–5 that match what you do.\n\n🔖 Bookmark this.\n↗️ Share it with someone who needs these tools.\n➕ Follow @MdRimon488484  for more AI tools, tips & resources.",
+"likeCount": 91,
+"retweetCount": 63,
+"url": "https://x.com/MdRimon488484/status/2099175527009677339",
+"createdAt": "Sun Sep 13 16:37:01 +0000 2026"
+},
+{
+"userName": "ZariaTechAI",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @ZariaTechAI For More Tools.",
+"likeCount": 26,
+"retweetCount": 18,
+"url": "https://x.com/ZariaTechAI/status/2099354179173331424",
+"createdAt": "Mon Sep 14 04:26:55 +0000 2026"
+},
+{
+"userName": "BRNarawins",
+"text": "Eu não consigo imaginar como está a bateria social dele 😃\n\nPHUWIN STUNNING NYFW27\n#TommyHilfigerXPhuwin\n#phuwintang\n\n🐼: Nesta Fashion Week, eu também conheci bastante gente.\nNessa viagem, eu sentei com um ator da Colômbia chamado Carlos Torres. Ele é muito legal, muito simpático. E ao lado dele, ao lado dele… como todo mundo viu, estava a Jisoo.\nTambém tinha a Camila, que é jogadora de golfe, e então conheci essa pessoa também. Eu conheci ele no evento, mas não sabia quem ele era.\nEu sabia quem ele era, mas não sabia como ele era. Era o 21 Savage, um rapper cuja música eu gosto muito. Aí descobri depois que ele estava no evento. Eu fiquei tipo: “Então, qual deles é ele?”\nPorque eu só conhecia ele pelas músicas. Eu não sabia como ele era. Mas acabei conhecendo bastante gente.\nTambém tinha o Hae In, que eu já tinha conhecido antes na Tailândia. Tinha três integrantes Girls’ Generation que eu conheci, e também tinha o Young K. Eu já tinha conhecido eles antes, e fomos comer juntos.\nEntão, dessa vez, conheci bastante gente.",
+"likeCount": 164,
+"retweetCount": 36,
+"url": "https://x.com/BRNarawins/status/2098493481190625423",
+"createdAt": "Fri Sep 11 19:26:48 +0000 2026"
+},
+{
+"userName": "mr_farman_ai",
+"text": "Kling AI MCP makes it much easier to bring AI video generation directly into creative workflows with tools like Claude and Cursor. I tested the workflow for creating high-quality product and fashion visuals, and the level of control over the final output is impressive. For creators, this can make experimenting with different concepts, scenes, and video styles much faster on @Kling_ai \n\nIf you’re exploring AI video creation, give Kling AI MCP a try and see what you can create with it.",
+"likeCount": 139,
 "retweetCount": 1,
-"url": "https://x.com/TraffAlex/status/2098891928662110558",
-"createdAt": "Sat Sep 12 21:50:05 +0000 2026"
-},
-{
-"userName": "SCR01111",
-"text": "17 visual resources that make AI concepts MUCH easier to understand 📌\n\nIf Transformers, LLMs, embeddings and diffusion still feel abstract, bookmark these:\n\n1. Transformer Explainer\nSee a GPT-2 model process text and visualize embeddings, attention, MLPs and predictions.\nhttps://t.co/vL9GBau25t\n\n2. Brendan Bycroft's LLM Visualization\nExplore an LLM down to tensors and individual operations.\nhttps://t.co/nKyBke2zMR\n\n3. 3Blue1Brown\nVisual explanations for neural networks, backprop, attention and Transformers.\nhttps://t.co/UB77Wolbff\n\n4. The Illustrated Transformer\nOne of the best visual explanations of Transformers, embeddings and attention.\nhttps://t.co/dWFIZrpSP9\n\n5. TensorFlow Playground\nTrain a neural network in your browser and see what changes in real time.\nhttps://t.co/zX6BE2K9A6\n\n6. Google AI Explorables\nInteractive explainers for AI concepts and model behavior.\nhttps://t.co/wVweUCm3ts\n\n7. Distill\nBeautiful interactive explanations of ML concepts and research.\nhttps://t.co/ozFBLKoFQX\n\n8. Abhik Sarkar's Transformer Visualizations\nInteractive explainers for KV Cache and Transformer optimizations.\nhttps://t.co/C0C7LZuTUL\n\n9. Visual Guide to Attention Variants\nUnderstand MHA, MQA, GQA and other attention variants visually.\nhttps://t.co/t38cfwXn8Q\n\n10. Visual Guide to Mixture of Experts\nSee how routers, experts and sparse activation work.\nhttps://t.co/dU3w92JTZ6\n\n11. Modular LLM Inference Handbook\nVisual explanations of prefill, decode, KV cache, batching and inference.\nhttps://t.co/4e3GZgsNnw\n\n12. Apple Embedding Atlas\nExplore large embedding spaces visually.\nhttps://t.co/toKHeORhqj\n\n13. Diffusion Explainer\nSee how Stable Diffusion turns text into an image step by step.\nhttps://t.co/saXao8xy5L\n\n14. Neuronpedia\nExplore model internals, features, activations and interpretability.\nhttps://t.co/O2VAALcIMp\n\n15. Seeing Theory\nInteractive visualizations for probability and statistics.\nhttps://t.co/XnCXHzbb9I\n\n16. CNN Explainer\nVisualize convolutions, feature maps and activations.\nhttps://t.co/AjGQPL6xJi\n\n17. GAN Lab\nTrain and visualize GANs directly in your browser.\nhttps://t.co/m0r3oPNu4y\n\nSave this.\n\nSome AI concepts are much easier to understand when you can actually see what's happening.",
-"likeCount": 18,
-"retweetCount": 2,
-"url": "https://x.com/SCR01111/status/2098796099980914725",
-"createdAt": "Sat Sep 12 15:29:18 +0000 2026"
-},
-{
-"userName": "KBjarno",
-"text": "Apparently I’m a “gooner” now because I posted some AI cowboy art featuring attractive men.\n\nExcellent. Add it to my qualifications.\n\nAlthough, if depicting or appreciating the human body makes someone a gooner, we’re going to need to make some fairly substantial revisions to the history of art.\n\nThe ancient Greeks might need to explain all those exquisitely proportioned naked athletes they carved in marble. Michelangelo is going to have an absolutely dreadful meeting with HR over David. Botticelli put Venus naked on a shell and somehow Western civilisation staggered onward. Rubens painted flesh with glorious enthusiasm. Bernini turned marble into bodies so tactile they appear to yield beneath fingertips. Rodin gave us The Kiss. Renaissance painters filled churches and palaces with muscular saints, exposed breasts, beautiful bodies and enough strategically placed fabric to keep art historians employed for centuries.\n\nThen came photography. Cinema. Fashion illustration. Pulp covers. Pin-ups. Comics. Album covers. Digital painting. Fantasy art. Video games. CGI. And now generative art.\n\nThe medium changes. Human fascination with beauty, bodies, sensuality, masculinity and femininity does not.\n\nBut apparently an adult woman posts a handsome cowboy in 2026 and suddenly some  human on X becomes the Pornography Constable.\n\nIt’s particularly funny because reducing every depiction of an attractive human body to masturbation says considerably more about the person doing the reducing than it does about the artist.\n\nSometimes art is profound. Sometimes it is political. Sometimes it explores sexuality. Sometimes it exists because something is beautiful, strange, funny, provocative or aesthetically delicious.\n\nAnd sometimes I make hot fucking cowboys because I can.\n\nArt survived the naked Greeks.\n\nI suspect it will survive my cowboys. 🤠",
-"likeCount": 12,
-"retweetCount": 0,
-"url": "https://x.com/KBjarno/status/2098185428528668685",
-"createdAt": "Thu Sep 10 23:02:43 +0000 2026"
-},
-{
-"userName": "DengHokin",
-"text": "We hope to launch the Verification Age for video models: 50 scientists, 6 months, 100 rule-based verifiers, 300 new tasks, and a worked RL recipe. \n\nCoding models are advancing crazily thanks to the synthetic RL envs paradigms. Verification via codes or Lean gives models super-human math/coding intelligence like that in Astra and Fable. \n\nHowever, video models are still in the GPT-3 stage, where we just dump million hours video data into the model training and hope for magic.\n\nIn this work, \n1) we built 100 rule-based verifiers each paired with a synthetic data generators which give 10k+ diverse samples within the task domain \n2) we made additional 300 tasks generators, including classic games i.e. Snake, Gold Miner, Mario, to further scale training data distribution with million samples rendered ready available on HuggingFace \n3)  ~60 experiments to find a worked RL recipe for video model post-training \n4) comparison studies between image models, unified models, video models - which is the best model for visual thinking? \n5) failure modes of how VLM-as-Judge will not satisfy video models RL in long term\n6) interpretability studies show all image models, unified models, video models emerged \"Schrödinger Effect\", CoS reasoning through diffusion steps\n7) many more insights \n\nA detailed thread [1/n]",
-"likeCount": 46,
-"retweetCount": 22,
-"url": "https://x.com/DengHokin/status/2097104301269344638",
-"createdAt": "Mon Sep 07 23:26:42 +0000 2026"
-},
-{
-"userName": "rohanpaul_ai",
-"text": "Uno shows a simple way to speed up existing LLMs without changing their output distribution: keep the original model in charge, and use diffusion only to draft multiple tokens in parallel.\n\nKeep the autoregressive model for quality and add diffusion for parallel drafting\n\nOn Qwen3-8B, Uno delivered 2.5X higher per-request throughput and 1.6X higher system throughput at the largest tested batch size.\n\nNormal autoregressive LLMs generate 1 token at a time, making long responses, agents, and RL rollouts slow.\n\nUno adds lightweight diffusion adapters that propose several future tokens at once, while the original model verifies them.\n\nThat avoids a separate draft model and preserves the base model’s sampling behavior.\n\nIt also sped up end-to-end RL training by up to 40% in the reported runs.",
-"likeCount": 34,
-"retweetCount": 6,
-"url": "https://x.com/rohanpaul_ai/status/2097378878000157076",
-"createdAt": "Tue Sep 08 17:37:46 +0000 2026"
-},
-{
-"userName": "itsolelehmann",
-"text": "it's starting to leave the screen.\n\nmy mind is spinning thinking about all the things AI can already do digitally that it’ll soon do physically.\n\nimage generation → painting on an actual canvas\n3D modeling → printing actual objects for you\nfashion design → sewing actual clothes for you\nrecipe generation → cooking actual meals for you\ninterior design → rearranging your actual home\n\nimagine what you could make with a prompt once it can use the tools in your house",
-"likeCount": 29,
-"retweetCount": 6,
-"url": "https://x.com/itsolelehmann/status/2097702481233080398",
-"createdAt": "Wed Sep 09 15:03:39 +0000 2026"
-},
-{
-"userName": "TheRocketMediaX",
-"text": "Two IIT Kanpur alumni built a $14 BILLION robotics startup! \n\nSkild AI is building one general-purpose intelligence for different robots, with its latest model learning new tasks from videos.\n\nSeems like, YouTube tutorials finally have a worthy audience. https://t.co/YWkZ1QP9nC",
-"likeCount": 25,
-"retweetCount": 3,
-"url": "https://x.com/TheRocketMediaX/status/2098331845813579817",
-"createdAt": "Fri Sep 11 08:44:31 +0000 2026"
-},
-{
-"userName": "is_OwenLewis",
-"text": "With everything happening in AI, and happening so rapidly, it feels to me like we're crossing over the event horizon of the Singularity. I'm sure we'll recognize it fully only sometime after the fact. Exciting times. https://t.co/Y4ndajMAcT",
-"likeCount": 16,
-"retweetCount": 2,
-"url": "https://x.com/is_OwenLewis/status/2097661051542384831",
-"createdAt": "Wed Sep 09 12:19:02 +0000 2026"
+"url": "https://x.com/mr_farman_ai/status/2097923336110329950",
+"createdAt": "Thu Sep 10 05:41:15 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @OpenDesignHQ: We benchmarked DeepSeek V4.1 Flash by @deepseek_ai .\n\nIt reached 98% of GPT-6 Astra’s score at 1.4% of the cost on everyd…",
-"likeCount": 10976,
-"retweetCount": 979,
-"url": "https://x.com/ClementDelangue/status/2098010259272974706",
-"createdAt": "Thu Sep 10 11:26:39 +0000 2026"
+"text": "It's now clear that alignment is critical and won't be solved behind the closed doors of a handful of frontier labs.\n\nSo today we're launching the Open Alignment Initiative, led by @Thom_Wolf @huggingface and asking to be part of the \"embedded evaluators\" program that @DarioAmodei just committed to.\n\nLet's make AI safer by making it more transparent!",
+"likeCount": 3808,
+"retweetCount": 416,
+"url": "https://x.com/ClementDelangue/status/2098790988034580852",
+"createdAt": "Sat Sep 12 15:08:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: The new DeepSeek V4.1 Flash model is mindblowing - back on top of the open-source model leaderboard and extremely cheap.\n\nIt…",
-"likeCount": 722,
-"retweetCount": 99,
-"url": "https://x.com/ClementDelangue/status/2098010303057346650",
-"createdAt": "Thu Sep 10 11:26:50 +0000 2026"
+"text": "Sorry, but asking Jacob about AI extinction risk is like asking your AC guy about climate change. \n\nNot saying it's necessarily uninteresting or wrong per se but let’s keep things in perspective and hear from the full range of expertise across the ecosystem!",
+"likeCount": 7075,
+"retweetCount": 672,
+"url": "https://x.com/ClementDelangue/status/2098402382598029379",
+"createdAt": "Fri Sep 11 13:24:49 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @thdxr: this is what i was talking about earlier\n\nwhen you're young you try to design the perfect system with neat rules that guarantee…",
-"likeCount": 818,
-"retweetCount": 46,
-"url": "https://x.com/ClementDelangue/status/2098028287779877051",
-"createdAt": "Thu Sep 10 12:38:17 +0000 2026"
+"text": "RT @DavidSacks: Dario has written that we need to “pace the frontier,” and Sam has agreed. People may be surprised by my response: go ahead…",
+"likeCount": 65124,
+"retweetCount": 10941,
+"url": "https://x.com/ClementDelangue/status/2099237841251209694",
+"createdAt": "Sun Sep 13 20:44:37 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @thdxr: i don't see any solution to the ai risk problem than mass accessibility to ai\n\nif they're going to be around potentially causing…",
+"likeCount": 3006,
+"retweetCount": 293,
+"url": "https://x.com/ClementDelangue/status/2098907336895070265",
+"createdAt": "Sat Sep 12 22:51:19 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Thom_Wolf: don't get distracted by all the hedging words in its name (\"flash\", minor version): seems like DeepSeek V4.1 Flash is a majo…",
+"likeCount": 216,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2098043863898161501",
+"createdAt": "Thu Sep 10 13:40:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @joelniklaus: Same weights. $50 of harness search. 3x on Terminal-Bench.\n\nWe optimized the OpenCode harness for GPT-OSS-20B (high reason…",
+"likeCount": 51,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2098067422599115034",
+"createdAt": "Thu Sep 10 15:13:48 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @mitsuhiko: This is the type of post I might regret later, but I really had an urge to rant about the current discourse around pacing th…",
-"likeCount": 445,
-"retweetCount": 44,
+"likeCount": 640,
+"retweetCount": 69,
 "url": "https://x.com/jeremyphoward/status/2099009918905053525",
 "createdAt": "Sun Sep 13 05:38:57 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @HannesVonEssen: Tug of ducks https://t.co/BKA1GoAijP",
-"likeCount": 681,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2098186575385354307",
-"createdAt": "Thu Sep 10 23:07:16 +0000 2026"
+"userName": "tylerblack32",
+"text": "Sometimes you have to just let the data speak https://t.co/5oufCvi2jT",
+"likeCount": 120,
+"retweetCount": 43,
+"url": "https://x.com/tylerblack32/status/2098448484601127216",
+"createdAt": "Fri Sep 11 16:28:00 +0000 2026"
 },
 {
-"userName": "ottoz0r",
-"text": "https://t.co/IwDl6PqUl6",
-"likeCount": 33,
-"retweetCount": 12,
-"url": "https://x.com/ottoz0r/status/2098221898987397481",
-"createdAt": "Fri Sep 11 01:27:38 +0000 2026"
+"userName": "PlayDeCap",
+"text": "https://t.co/FduNzlK9PW",
+"likeCount": 12,
+"retweetCount": 5,
+"url": "https://x.com/PlayDeCap/status/2098549989991391408",
+"createdAt": "Fri Sep 11 23:11:21 +0000 2026"
 }
 ]
