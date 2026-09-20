@@ -1,13 +1,5 @@
 [
 {
-"userName": "meAsifAi",
-"text": "Created with @FlowbyGoogle \nVideo prompt is in the comment below  👇\nCharecter Sheet prompt :\nPROFESSIONAL UNIVERSAL CHARACTER SHEET\n— CINEMATIC REALISTIC CHARACTER REFERENCE BOARD —\n\nREFERENCE-BASED IDENTITY & OUTFIT LOCK:\n\nUse the uploaded reference image as the PRIMARY and\nONLY identity reference for the character.\n\nPreserve the exact facial identity, facial structure,\nface shape, skin tone, hairstyle, hair texture,\nage appearance, body proportions, and recognizable\nphysical characteristics.\n\nThe subject can be MALE or FEMALE.\nAdapt the character sheet naturally to the subject's\nactual gender, body structure, and appearance.\n\nPRESERVE THE EXACT OUTFIT visible in the reference image,\nincluding clothing design, colors, fabric, materials,\nfit, accessories, shoes, jewelry, tattoos, and all\nvisible details.\n\nDO NOT redesign, replace, simplify, or randomly modify\nthe clothing or character identity.\n\nOBJECTIVE:\n\nTransform the uploaded reference image into an\nEXTREMELY REALISTIC, PROFESSIONAL, CINEMATIC\nCHARACTER REFERENCE SHEET suitable for:\n\nFilm Production\nAI Video Generation\nCharacter Development\nGame Design\nFashion Editorials\nCommercial Campaigns\nCinematic Storytelling\n\nLAYOUT & COMPOSITION:\n\nCreate a premium, professionally designed character\nsheet on a clean WHITE / LIGHT GRAY studio background.\n\nUse a structured editorial grid layout with precise\nalignment, clean spacing, thin dividers, professional\ntypography, and a luxury production-design aesthetic.\n\nThe final sheet must look like an authentic\nHollywood character development reference board,\nnot a random collage.\n\nMAIN CHARACTER PORTRAIT:\n\nPlace one large, highly detailed 3/4 FRONT PORTRAIT\non the LEFT SIDE of the sheet.\n\nThe character should display a natural,\nconfident, realistic pose.\n\nShow accurate facial identity, skin texture,\nhair details, clothing details, and realistic\nanatomical proportions.\n\nFULL-BODY MULTI-ANGLE VIEWS:\n\nInclude the following full-body views:\n\n1. FRONT VIEW\n2. LEFT SIDE VIEW\n3. BACK VIEW\n4. 3/4 REAR VIEW\n\nMaintain EXACT CHARACTER CONTINUITY across every view:\n\n- Same face\n- Same hairstyle\n- Same body proportions\n- Same outfit\n- Same accessories\n- Same shoes\n- Same skin tone\n- Same age appearance\n\nUse consistent neutral studio lighting and\nprofessional full-body framing.\n\nEXPRESSIONS SECTION:\n\nCreate a dedicated EXPRESSIONS section containing\n5 realistic close-up facial portraits:\n\n1. NEUTRAL\n2. SERIOUS\n3. ANGRY / INTENSE\n4. SLIGHT SMIRK\n5. CONFIDENT / NATURAL\n\nPreserve the same identity, hairstyle, lighting,\nand facial proportions in every expression.\n\nAvoid exaggerated cartoon expressions or identity drift.\n\nDETAILS SECTION:\n\nCreate a dedicated DETAILS section featuring\n5–6 high-resolution close-up panels of the actual\ncharacter's visible details, selected according to\nthe uploaded reference image.\n\nExamples:\n\n- Hair Texture\n- Eyes / Facial Details\n- Clothing Fabric\n- Jewelry / Accessories\n- Tattoos\n- Watch\n- Shoes\n- Pockets / Stitching\n- Skin Texture\n- Other Important Outfit Details\n\nOnly include details that actually exist in the\nreference image. Do not invent accessories,\ntattoos, or clothing elements.\n\nCHARACTER INFORMATION PANEL:\n\nAdd a professional information panel on the\nRIGHT SIDE of the character sheet.\n\nInclude:\n\nCHARACTER\nTYPE: [Automatically identify]\nROLE: [Creative character role]\nBUILD: [Actual body type]\nHEIGHT: [If known, otherwise omit]\nAGE: [Estimated visual age]\nLOOK: [Visual appearance]\nSTYLE: [Clothing style]\nATTITUDE: [Based on visual presentation]\n\nKeep the typography clean, modern, minimal,\nand editorial.\n\nAdd a customizable character quote:\n\n\"CHARACTER IS BUILT THROUGH EVERY DETAIL.\"\n\nAdd a short list of character keywords,\nadapted to the visual concept.\n\nVISUAL STYLE:\n\nUltra-realistic photography\nPremium cinematic lighting\nProfessional studio photography\nNatural skin texture\nPhysically accurate anatomy\nRealistic fabric and material details\nHigh-end fashion editorial presentation\nSharp facial details\nNatural shadows\nClean white and light-gray background\nLuxury character-development board\n\nCAMERA & QUALITY:\n\nProfessional full-frame camera look\n85mm portrait lens for close-ups\n50mm lens for full-body views\nNatural depth of field\nAccurate perspective\nConsistent camera height\nRealistic proportions\nCrisp details\nHigh-resolution production-quality output\n\nTYPOGRAPHY & DESIGN:\n\nUse clean, modern, professional sans-serif\ntypography with a premium editorial aesthetic.\n\nUse clear section labels:\n\nCHARACTER SHEET\nEXPRESSIONS\nDETAILS\nCHARACTER\nFRONT VIEW\nSIDE VIEW\nBACK VIEW\n3/4 REAR VIEW\n\nMaintain excellent visual hierarchy and\nbalanced whitespace.\n\nFINAL QUALITY REQUIREMENTS:\n\nThe final image must look like a professionally\nproduced character reference sheet for a\ncinematic production.\n\nEvery panel must represent the SAME CHARACTER.\n\nNO identity drift.\nNO outfit changes.\nNO random accessories.\nNO inconsistent anatomy.\nNO duplicated poses.\nNO cartoon appearance.\nNO blurry faces.\nNO distorted hands.\nNO unrealistic clothing.\nNO random text overlays.\n\nCreate a complete, cohesive, highly realistic,\npremium character sheet with maximum visual\nconsistency and professional presentation.\n\nASPECT RATIO: 4:3 or 16:9 landscape\nOUTPUT: High-resolution, ultra-realistic\ncharacter reference sheet.",
-"likeCount": 53,
-"retweetCount": 5,
-"url": "https://x.com/meAsifAi/status/2100555382884380863",
-"createdAt": "Thu Sep 17 12:00:04 +0000 2026"
-},
-{
 "userName": "BiologyAIDaily",
 "text": "Generative language modeling for antibody CDR grafting and alignment-driven de novo design\n\n1. The paper introduces GenCDR, a framework-first autoregressive (LLaMA-style) antibody language model: it reads all framework regions (FR1–FR4) as the prompt, then generates all CDRs jointly as a variable-length response, creating a clean prompt–response boundary for reward attribution and alignment.\n\n2. This re-ordering directly targets the core de novo antibody problem as an infilling task: CDR design conditioned on a fixed scaffold. Unlike left-to-right decoding (where early CDRs lack downstream framework context), GenCDR generates CDRs with full framework context available from the start.\n\n3. GenCDR is presented as a model family covering common design settings: IgGenCDR (unpaired human OAS, ~254M sequences), p-IgGenCDR (fine-tuned on ~1.8M natively paired VH–VL sequences), and NanoGenCDR (fine-tuned on ~6.5M camelid VHH from INDI plus human OAS heavy chains in a 1:1 mixture to preserve humanness on humanized scaffolds).\n\n4. On CDR recovery (next-token prediction accuracy over CDR tokens) using a CDR3-disjoint held-out test set designed to reduce leakage, framework-first ordering improves over a same-sized left-to-right ablation and surpasses prior autoregressive baselines (including p-IgGen, ProGen2-OAS, and IgLM) across essentially all loops, with especially strong gains where downstream context matters most (e.g., CDR1).\n\n5. De novo generation quality: when prompted with held-out frameworks and sampling CDRs jointly, GenCDR reproduces natural CDR length distributions closely (across all loops), while maintaining human-likeness (OASis), naturalness (ESM-2 PLL), and diversity/novelty with smooth trade-offs across sampling temperatures.\n\n6. A key design consequence of the framework-first factorization is separable CDR likelihoods: GenCDR can score only the generated CDR block (rather than conflating framework+CDR likelihood), enabling clearer optimization targets and more principled alignment for CDR-centric objectives.\n\n7. Likelihoods retain useful biological signal: GenCDR log-likelihood correlates zero-shot with experimental fitness/developability benchmarks (FLAb). The analysis also highlights assay locality: immunogenicity appears more CDR-driven, while expression is more framework-driven, and paired scoring (p-IgGenCDR) improves correlations when heavy+light are scored jointly.\n\n8. NanoGenCDR extends the framework-first approach to nanobodies: fine-tuning closes the human→camelid distribution shift in CDR recovery, generates plausible/developable VHHs (including fold-confidence and developability flag rates comparable to reference), and improves humanness on humanized VHH scaffolds specifically due to the camelid+human mixture strategy.\n\n9. Alignment-driven de novo design: the prompt–response boundary enables iterative alignment with weighted DPO (wDPO) using rewards computed only on the generated CDR completion. They optimize a composite reward from antibody–antigen co-folding metrics (Boltz-2) plus non-differentiable developability liability rules, demonstrating multi-objective steering without explicit antigen encoding in the model input.\n\n10. In a PD-L1 nanobody design benchmark, four rounds of alignment drive near-perfect compliance with length/liability constraints after one round (acceptance ~23.8% → ~99.8–100%), and achieve in silico interface metrics competitive with a structure-conditioned diffusion pipeline (BoltzGen) at roughly half the sampling budget, while producing sequences that remain more “natural” under independent language-model scoring—suggesting KL-anchored alignment can push target-facing metrics without excessive distributional drift.\n\n💻Code: https://t.co/VBgpDOFWP7\n📜Paper: https://t.co/axCJSdiUKC\n#AntibodyDesign #Nanobody #ProteinLanguageModels #GenerativeAI #ReinforcementLearning #DPO #ComputationalBiology #ProteinEngineering #Bioinformatics #StructuralBiology",
 "likeCount": 28,
@@ -18,7 +10,7 @@
 {
 "userName": "BiologyAIDaily",
 "text": "Generative language modeling for antibody CDR grafting and alignment-driven de novo design\n\n1. The paper introduces GenCDR, a framework-first autoregressive (LLaMA-style) antibody language model: it reads all framework regions (FR1–FR4) as the prompt, then generates all CDRs jointly as a variable-length response, creating a clean prompt–response boundary for reward attribution and alignment.\n\n2. This re-ordering directly targets the core de novo antibody problem as an infilling task: CDR design conditioned on a fixed scaffold. Unlike left-to-right decoding (where early CDRs lack downstream framework context), GenCDR generates CDRs with full framework context available from the start.\n\n3. GenCDR is presented as a model family covering common design settings: IgGenCDR (unpaired human OAS, ~254M sequences), p-IgGenCDR (fine-tuned on ~1.8M natively paired VH–VL sequences), and NanoGenCDR (fine-tuned on ~6.5M camelid VHH from INDI plus human OAS heavy chains in a 1:1 mixture to preserve humanness on humanized scaffolds).\n\n4. On CDR recovery (next-token prediction accuracy over CDR tokens) using a CDR3-disjoint held-out test set designed to reduce leakage, framework-first ordering improves over a same-sized left-to-right ablation and surpasses prior autoregressive baselines (including p-IgGen, ProGen2-OAS, and IgLM) across essentially all loops, with especially strong gains where downstream context matters most (e.g., CDR1).\n\n5. De novo generation quality: when prompted with held-out frameworks and sampling CDRs jointly, GenCDR reproduces natural CDR length distributions closely (across all loops), while maintaining human-likeness (OASis), naturalness (ESM-2 PLL), and diversity/novelty with smooth trade-offs across sampling temperatures.\n\n6. A key design consequence of the framework-first factorization is separable CDR likelihoods: GenCDR can score only the generated CDR block (rather than conflating framework+CDR likelihood), enabling clearer optimization targets and more principled alignment for CDR-centric objectives.\n\n7. Likelihoods retain useful biological signal: GenCDR log-likelihood correlates zero-shot with experimental fitness/developability benchmarks (FLAb). The analysis also highlights assay locality: immunogenicity appears more CDR-driven, while expression is more framework-driven, and paired scoring (p-IgGenCDR) improves correlations when heavy+light are scored jointly.\n\n8. NanoGenCDR extends the framework-first approach to nanobodies: fine-tuning closes the human→camelid distribution shift in CDR recovery, generates plausible/developable VHHs (including fold-confidence and developability flag rates comparable to reference), and improves humanness on humanized VHH scaffolds specifically due to the camelid+human mixture strategy.\n\n9. Alignment-driven de novo design: the prompt–response boundary enables iterative alignment with weighted DPO (wDPO) using rewards computed only on the generated CDR completion. They optimize a composite reward from antibody–antigen co-folding metrics (Boltz-2) plus non-differentiable developability liability rules, demonstrating multi-objective steering without explicit antigen encoding in the model input.\n\n10. In a PD-L1 nanobody design benchmark, four rounds of alignment drive near-perfect compliance with length/liability constraints after one round (acceptance ~23.8% → ~99.8–100%), and achieve in silico interface metrics competitive with a structure-conditioned diffusion pipeline (BoltzGen) at roughly half the sampling budget, while producing sequences that remain more “natural” under independent language-model scoring—suggesting KL-anchored alignment can push target-facing metrics without excessive distributional drift.\n\n💻Code: https://t.co/VBgpDOFoZz\n📜Paper: https://t.co/axCJSdimV4\n#AntibodyDesign #Nanobody #ProteinLanguageModels #GenerativeAI #ReinforcementLearning #DPO #ComputationalBiology #ProteinEngineering #Bioinformatics #StructuralBiology",
-"likeCount": 10,
+"likeCount": 12,
 "retweetCount": 1,
 "url": "https://x.com/BiologyAIDaily/status/2099854489364677012",
 "createdAt": "Tue Sep 15 13:34:58 +0000 2026"
@@ -32,36 +24,44 @@
 "createdAt": "Thu Sep 17 04:39:30 +0000 2026"
 },
 {
-"userName": "kaimarstonai",
-"text": "50 GAME-CHANGING AI TOOLS TO UPGRADE YOUR WORKFLOW IN 2026 🚀\n\n🧠 AI Assistants & Search\nChatGPT – Ultimate conversational AI & productivity assistant\n\nClaude – Advanced writing, coding & deep reasoning\n\nGemini – Multimodal intelligence fully integrated with Google\n\nGrok – Real-time analysis & conversational search\n\nPerplexity – AI-powered research & conversational search engine\n\nDeepSeek – Next-gen open-weights reasoning & coding models\n\nMicrosoft Copilot – Enterprise & Office ecosystem companion\n\nMeta AI – Social assistant integrated across WhatsApp, IG & web\n\nNotebookLM – Grounded research assistant for your personal sources\n\nPoe – Multi-bot platform & custom prompt ecosystems\n\n🎨 Image Generation & Editing\nReve – Cutting-edge visual creation\n\nMidjourney – Photorealistic & artistic image generation\n\nIdeogram – Best-in-class text rendering in AI images\n\nLeonardo AI – Fine-tuned asset generation for creators & devs\n\nAdobe Firefly – Commercial-safe generative fill & vector AI\n\nKrea AI – Real-time image generation & upscaling\n\nCanva AI – Suite of magic design tools for non-designers\n\nFreepik AI – Vector, stock photo & UI element generation\n\nStable Diffusion – Open-source image model framework\n\nFlux – Ultra-detailed high-fidelity image synthesis\n\n🎬 Video & Avatar Creation\nRunway – Cinematic video generation & AI VFX editing\n\nKling AI – High-motion video synthesis & animation\n\nVeo – Google’s high-definition cinematic video model\n\nSora – High-fidelity photorealistic video generation\n\nHeyGen – Studio-quality AI video avatars & lip-sync translation\n\nSynthesia – Enterprise avatar video creation\n\nPika – Dynamic 3D & 2D motion video generator\n\nLuma AI – 3D capture & high-speed video creation\n\n🎵 Audio, Voice & Music\nElevenLabs – Ultra-realistic voice cloning & text-to-speech\n\nSuno – Full-track AI music generation with vocals\n\nUdio – Studio-grade music synthesis across any genre\n\nCapCut AI – Auto-captioning, background removal & viral video edits\n\nDescript – Text-based video/audio editing & voice repair\n\n📊 Presentations & Visual Thinking\nGamma – Instant deck & webpage generation from text\n\nhttps://t.co/OUcxfoh9np – Auto-formatting presentation slides\n\nNapkin AI – Turn plain text into clear visual diagrams automatically\n\n💻 Coding & App Development\nCursor – AI-first code editor built for speed\n\nGitHub Copilot – Autocomplete & pair programming inside your IDE\n\nReplit – Cloud-based development environment with AI assistance\n\nWindsurf – Next-gen agentic coding IDE\n\nLovable – Full-stack web app generation from natural language\n\nhttps://t.co/0eTIL7W6xZ – In-browser full-stack development agent\n\nv0 by Vercel – Generative UI design system to React code\n\n🤖 Agents, Writing & Productivity\nManus – Autonomous general-purpose AI agent\n\nGenspark – Autonomous search & content synthesis agent\n\nhttps://t.co/NfCPaLtFFT – Real-time meeting notes & action items\n\nGrammarly – AI writing correction & style enhancement\n\nNotion AI – Workspace management & auto-document writing\n\nhttps://t.co/YfwRH0rkhV – Automated marketing copy & sales workflows\n\nJasper – Enterprise brand-voice marketing generator\n\n📌 Save this post for later so you don't lose it!\n\n👉 Follow @kaimarston for more AI tools, workflow tips & tech updates!",
-"likeCount": 16,
-"retweetCount": 10,
-"url": "https://x.com/kaimarstonai/status/2101155425974641107",
-"createdAt": "Sat Sep 19 03:44:25 +0000 2026"
+"userName": "abs_uiux",
+"text": "🚨 50 AI Tools You Need to Start Using\n\nYou don’t need 100+ AI tools.\n\nYou need the right ones.\n\nHere are 50 powerful AI tools for research, content creation, design, video, coding, productivity, and automation:\n\n🧠 CHAT & RESEARCH\n\n1. ChatGPT — write, brainstorm, code, analyze, and create\n2. Claude — handle complex reasoning and long documents\n3. Perplexity — research topics with cited sources\n4. Gemini — research, create, and work across Google tools\n5. Grok — explore real-time conversations and trends on X\n6. NotebookLM — turn your sources into summaries and insights\n7. DeepSeek — reasoning, coding, and problem-solving\n8. Kimi — analyze long documents and large amounts of context\n9. Genspark — agent-powered research and content generation\n10. Consensus — search and understand scientific research\n\n🎬 VIDEO & AVATARS\n\n11. Runway — generate and edit cinematic AI videos\n12. Google Veo — create high-quality AI video scenes\n13. Kling AI — generate realistic image-to-video and text-to-video\n14. Higgsfield — create cinematic AI visuals and motion\n15. CapCut — edit short-form videos with AI tools\n16. Descript — edit video and audio by editing text\n17. HeyGen — create realistic talking avatars\n18. Synthesia — produce professional AI presenter videos\n19. Pika — create fast, creative social-media videos\n20. Luma Dream Machine — generate cinematic video from prompts\n\n🎨 IMAGES & DESIGN\n\n21. Midjourney — create highly stylized AI imagery\n22. ChatGPT Images — generate and edit images conversationally\n23. Ideogram — create images with strong text rendering\n24. Adobe Firefly — generate and edit creative assets with AI\n25. Leonardo AI — create consistent characters and brand visuals\n26. FLUX — generate detailed and photorealistic images\n27. Canva — design posts, presentations, ads, and graphics\n28. Krea — generate, enhance, and experiment with visuals in real time\n29. Recraft — create logos, icons, illustrations, and vectors\n30. Figma — design interfaces and digital products with AI assistance\n\n🎙️ AUDIO & VOICE\n\n31. ElevenLabs — generate realistic AI voices and narration\n32. Suno — turn prompts into complete songs and music\n33. Adobe Podcast — enhance and clean spoken audio\n34. Descript Overdub — create and edit AI voiceovers\n35. Auphonic — automatically clean and balance audio\n\n💻 CODE & BUILD\n\n36. Cursor — AI-first coding and development\n37. GitHub Copilot — write and understand code faster\n38. Replit — build, run, and deploy apps from your browser\n39. v0 — generate web interfaces from prompts\n40. Lovable — build full-stack apps through conversation\n41. Windsurf — agent-powered coding environment\n42. Bolt — turn prompts into working web applications\n43. Framer — design and publish websites with AI\n44. Vercel — deploy and scale web applications\n45. Manus — automate multi-step digital tasks with AI agents\n\n⚡ PRODUCTIVITY & AUTOMATION\n\n46. Notion AI — write, organize, summarize, and manage knowledge\n47. n8n — build powerful AI workflows and automations\n48. Zapier — connect apps and automate repetitive work\n49. Make — create advanced visual automation workflows\n50. Gamma — turn ideas into presentations, documents, and webpages\n\nThe goal isn’t to use all 50.\n\nPick 5–10 tools that match what you do and master them.\n\nSave this list. You’ll probably need it later. \n\nWhich AI tool would you add to the list?",
+"likeCount": 30,
+"retweetCount": 0,
+"url": "https://x.com/abs_uiux/status/2101252535839338845",
+"createdAt": "Sat Sep 19 10:10:18 +0000 2026"
 },
 {
-"userName": "GhostNumbe50967",
-"text": "**Holding AI to the Truth: Why Blockchain Matters** (written with assistance from @Grok.  \n\nArtificial intelligence is extraordinary at producing fluent answers. It is less reliable at producing *settled* ones. On occasion — more often than casual users admit — models *hallucinate*: they invent citations, invent facts, invent confidence. The output can look authoritative and still be wrong. That is not a moral failing of the machine; it is a property of probabilistic generation without a shared ledger of what actually happened.\n\nIn July 2019, on Real Vision with Raoul Pal (@RaoulGMI) macro investor Dan Tapiero (@DTAPCAP) named the other half of this problem years before “AI agents” entered every pitch deck. Bitcoin, he argued, is not merely a coin. It is an *invention* — and at its core, “a truth machine”: a system bought for “certainty, of confirmation, of validity, of security,” a platform with a track record that makes fraud and silent revision harder. He later sharpened the phrase to “security truth machine.” (Popular memory sometimes upgrades that to “automatic truth machine”; the idea is the same.)\n\nThe distinction that matters for AI is precise. A blockchain does not magically know whether a claim about the physical world is true. It does not replace science, journalism, or judgment. What it *does* provide is **immutable, shared state**: who signed what, who paid whom, which model version ran, which data hash was used, which action an agent took and when. Once written under consensus rules, that record is extremely hard for any single party — including an AI system acting on someone’s behalf — to rewrite quietly.\n\nThat is exactly the property generative models lack. An LLM can narrate a trade that never settled, a contract that was never signed, a medical note that was never reviewed. An agent economy that scales without rails for settlement, identity, and audit is an economy of plausible fiction at machine speed. Tokenized dollars, on-chain credentials, and programmable settlement are not crypto fashion statements in that frame; they are **truth infrastructure for machine actors**.\n\nTapiero’s 2019 insight travels forward cleanly into the AI decade. The internet digitized information. Crypto digitizes value *and* verifiable record. If artificial intelligence is going to operate as a participant in markets, payments, and institutions — not merely as a chatbot — then “holding AI to the truth” cannot mean hoping the next model is nicer. It means binding machine action to ledgers that do not hallucinate their own history.\n\nBlockchain is not the answer to every truth. It is the answer to a narrower, more urgent one: **who did what, with what authority, and can anyone erase the receipt?** In a world of confident machines, that receipt is not optional.\n\n—\n*Source: Tapiero × Raoul Pal, Real Vision “The Future of Macro Investing” (~Jul 2019), ~00:09:46 — “What it really is, is it’s a truth machine.” https://t.co/JxTkN4pGjO*",
-"likeCount": 17,
-"retweetCount": 2,
-"url": "https://x.com/GhostNumbe50967/status/2100638706734375182",
-"createdAt": "Thu Sep 17 17:31:10 +0000 2026"
+"userName": "stevencheng",
+"text": "I wrote a post earlier arguing that LLMs and Physical AI were two parallel AI worlds — both called AI, but barely speaking to each other.\n\nDoes anyone else feel they used to live in two different worlds?\n\nOne worked with words. The other worked with torque, friction, and gravity.\n\nThat started to change this month, after GPT-6 Astra and Claude Fable 5.1 dropped. Neither was sold as a robot model. Within days, people had plugged them into MuJoCo, Isaac Sim, Blender, cameras, and real arms.\n\nPhysical AI simulation used to belong to specialist stacks: VLAs, reinforcement learning, motion planning. The LLM sat on the side, writing code and configs. Now the model looks at the scene, outputs poses, writes a controller, and lets the simulator do the physics.\n\nThe two models don’t do this the same way.\n\nAstra acts more like an operator inside the sim. On the same bimanual benchmark, it put a block in a bowl about 95% of the time; Fable 5.1 did it about 40%. On a tight insertion task, both stalled around 10%. This month, more people used Astra to drive arms, humanoids, and dexterous hands in Isaac and MuJoCo: first a zero-shot plan, then RL in simulation to make that plan hold. What changed is who makes the decision in the loop.\n\nFable 5.1 acts more like the engineer who builds the sim. It reads URDFs, writes kinematics, generates walkable worlds and mechanisms as code, then hooks them to visual servoing. What changed is where scenes and controllers come from — not only from hand-built assets, but from programs the model can reproduce.\n\nNeither one is a physics engine. Gravity, contact, and collisions still belong to the simulator. The model outputs a plan. The sim is where that plan is allowed to fail cheaply.\n\nThe real shift: simulation is no longer just a gym for specialist robot policies. It is becoming a rehearsal room for general-purpose models. Try it in the virtual world first. Then, maybe, touch hardware.\n\nThe last millimeter is still physics. Getting into the simulator just got a lot easier.",
+"likeCount": 10,
+"retweetCount": 0,
+"url": "https://x.com/stevencheng/status/2100989453984809222",
+"createdAt": "Fri Sep 18 16:44:54 +0000 2026"
 },
 {
-"userName": "meAsifAi",
-"text": "Created with @GeminiApp \nCharacter sheet prompt :\nREFERENCE-BASED IDENTITY LOCK:\n\nUse the uploaded reference image as the primary identity reference. Preserve the subject’s exact facial identity, facial structure, face shape, hairstyle, hair texture, skin tone, eye color, natural features, and overall appearance.\n\nCreate a premium, ultra-realistic cinematic character sheet featuring the same person consistently across every panel. Maintain strict identity consistency without facial drift, hairstyle changes, or altered proportions.\n\n1. MAIN PORTRAIT\n\nCreate a large, high-resolution front-facing portrait of the subject with:\n\nNatural expression\nRealistic skin texture\nAccurate facial features\nSoft cinematic lighting\nClean, professional composition\n2. CHARACTER PROFILE\n\nInclude a professional character information panel:\n\nName: [CUSTOM NAME]\nAge Appearance: [AGE]\nGender: Adapt naturally to the reference\nEye Color: Match reference\nHair Color & Style: Match reference\nSkin Tone: Match reference\nBuild: Match reference\nPersonality: [CUSTOM PERSONALITY]\nSignature Look: [CUSTOM STYLE]\n3. EXPRESSIONS SHEET\n\nShow the same character in six close-up portraits:\n\nNeutral\nSmiling\nSerious\nPlayful\nHappy\nThoughtful\n\nMaintain identical facial identity, hairstyle, skin texture, and proportions in every expression.\n\n4. FULL-BODY VIEWS\n\nCreate realistic full-body character references:\n\nFront view\nSide view\nBack view\n3/4 view\n\nUse simple, minimal clothing that clearly reveals the body proportions and silhouette. Maintain consistent hairstyle, face, and body structure.\n\n5. DETAIL SHOTS\n\nInclude high-resolution close-ups of:\n\nEyes\nSkin texture\nLips\nHair texture\n6. LIFESTYLE / MOOD\n\nShow the same character in four natural lifestyle scenes:\n\nCasual outdoor scene\nRelaxing with headphones\nReading a book\nWearing sunglasses\n\nKeep the character’s identity consistent across all scenes.\n\n7. OUTFIT IDEAS\n\nDisplay six outfit variations using simple, realistic styling:\n\nCasual\nSporty\nSmart Casual\nSummer\nWinter\nEvening\n\nAdapt the clothing naturally to the subject’s appearance and body structure.\n\n8. VISUAL DESIGN\n\nCreate a premium professional character sheet layout with:\n\nClean editorial grid\nNeutral beige, gray, and black color palette\nElegant typography\nConsistent studio lighting\nProfessional photography presentation\nClearly separated panels\nHigh-end fashion editorial aesthetic\n9. QUALITY & CONSISTENCY LOCK\n\nUltra-realistic photography, natural skin texture, realistic anatomy, accurate hands, physically coherent lighting, consistent facial identity, no duplicate faces, no facial distortion, no artificial CGI appearance.\n\nOUTPUT: A complete professional character reference sheet suitable for cinematic filmmaking, AI video generation, animation, fashion campaigns, and storytelling.\n\nAspect Ratio: 4:5 or 3:2\n Resolution: Maximum available quality with sharp, realistic details.",
-"likeCount": 138,
+"userName": "Sumanth_077",
+"text": "Train frontier models with reinforcement learning at scale!\n\nMiles is an open-source framework for large-scale RL post-training across LLMs and VLMs.\n\nAt this scale, RL is not just about choosing an algorithm like GRPO or PPO. You also need fast rollouts, distributed training, weight synchronization, memory management, and a way to keep the training data aligned with what the model actually generated.\n\nMiles brings those pieces together.\n\nSGLang handles high-throughput rollouts, while Megatron-LM or FSDP2 handles training. Rollout and training can run asynchronously, so generation does not have to stop every time the model updates.\n\nFor long multi-turn or tool-using trajectories, Miles also preserves the exact token IDs produced during rollout before feeding them back into training. For MoE models, it can replay the expert-routing decisions from rollout during training to reduce mismatch between the two stages.\n\nThe system is built for very large models too.\n\nIn one reference setup, Miles runs asynchronous RL training for a 744B model across 64 GB300 GPUs. Its P2P weight synchronization also reduced the update time for a 1T-parameter Kimi-K2 setup from 53.3 seconds to 7.2 seconds.\n\nKey capabilities:\n\n• Fully asynchronous RL training\n• SGLang rollouts with Megatron-LM or FSDP2 training\n• GRPO, GSPO, PPO, REINFORCE++, SFT, and distillation\n• Token-faithful training for multi-turn trajectories\n• MoE routing replay between rollout and training\n• CPU and NVMe optimizer-state offloading\n• NVIDIA and AMD GPU support\n• Agentic RL and sandboxed environments\n\nIt also extends beyond language models, with a separate Miles-Diffusion stack for RL post-training of diffusion models.\n\n100% open source.\n\nI've shared the GitHub repo in the comments!",
+"likeCount": 67,
 "retweetCount": 20,
-"url": "https://x.com/meAsifAi/status/2100645967083020753",
-"createdAt": "Thu Sep 17 18:00:01 +0000 2026"
+"url": "https://x.com/Sumanth_077/status/2100588296628035644",
+"createdAt": "Thu Sep 17 14:10:51 +0000 2026"
 },
 {
-"userName": "Cllaytus",
-"text": "I pulled a pose from the @usealanoai mascot kit this morning and dropped it straight into a mockup, and the part worth knowing is the licence. \n\nKit link: https://t.co/7BKebphr1F. App: https://t.co/Sq1W3QE9T2 (Alano: Stickers & Mascot, iOS).\n\nAlano is aplush cat with pink-and-mint gradient fur, teal ears and a black tee with a small pastel rainbow.\n\nThe whole kit is free to use commercially, including inside AI products like chatbots, agents and virtual pets, which is rare for mascot art that usually goes paid the moment you ship it in something real. \n\nThe repo has transparent PNG cutouts, sample stills, looping clips, coin-style badges and the generation scripts that keep new images on-model instead of drifting. \n\nAlano the character was created by Pursuit Li and stays owned by Alano Tech, so free to use is not the same as yours: no reselling the assets on their own, no claiming you made the character, no NFTs. \n\nSame team builds https://t.co/utnwAXTJOw, a CRM, marketing and agentic AI assistant in one that runs on your instruction. \n\nTry Alano CRM free at https://t.co/UaFD22oIEu\n\n#ad #alano #alanoai #alanocrm",
-"likeCount": 41,
-"retweetCount": 41,
-"url": "https://x.com/Cllaytus/status/2100993570366750733",
-"createdAt": "Fri Sep 18 17:01:16 +0000 2026"
+"userName": "HuggingPapers",
+"text": "This week in AI: agents that scale research, latent-space LMs, and robots played by VLMs\n\nTop papers on @huggingface Daily Papers this week:\n- Scaling Automatic Research Agents via World Models: world-model RL cuts AutoResearch training cost 3-4x, with 4B and 9B agents beating much larger open-weight models\n- NeoHorse-1: recursive self-improvement via agentic post-training and a routing harness\n- NCP-ArchPreview: next-concept prediction pushes LLMs into latent space, matching OLMo-3-7B with about half the tokens\n- SenseNova-U1.5: native unified visual intelligence with understanding, reasoning, and 4K generation in one 8B model\n- AuK: open-source foundation model for unified speech generation and editing\n- Dr. Claw: an AI scientist workspace for auditable, human-in-the-loop vibe research\n- Unlocking Lossless Speedups in LLMs via Discrete Diffusion: Uno accelerates generation up to 3x without losing autoregressive quality\n- Bilevel Coordinated Reflection: a game-theoretic look at multi-agent LLM coordination and memory\n- Show-Harness: just a VLM agent can play robots through a compact semantic interface\n- Omni Interaction Agent: realtime full-duplex omni perception, conversation, and agentic workflows\n\nFind them on Hugging Face Papers and claim your work to link models, datasets, and Spaces.",
+"likeCount": 20,
+"retweetCount": 3,
+"url": "https://x.com/HuggingPapers/status/2099138735963341162",
+"createdAt": "Sun Sep 13 14:10:49 +0000 2026"
+},
+{
+"userName": "dashboardlim",
+"text": "we used AI to rewrite a shopify product page\n\nand recorded 23.75% higher revenue per visitor in a live split test\n\ni’m giving away the build breakdown, including the workflow and test results FREE\n\nfirst, here’s how it happened:\n\nthe client had hundreds of descriptions to update across two stores\n\nso we built a process their team could keep running\n\nwhat’s inside\n\nthe production workflow:\n\n→ research competing product pages before writing\n→ generate descriptions, comparison tables, faqs and image alt text\n→ review drafts on a hidden store copy before testing\n→ send completion reports to slack, with errors visible\n\nshopify + claude + n8n + intelligems behind the build\n\nthe testing:\n\nwe split live traffic between the original page and the rewrite\n\nthe full breakdown:\n\n→ before-and-after product pages\n→ actual split-test screenshots\n→ the page structure and review process\n→ how we handed over the workflow for the client’s team to run\n\nyou can study the approach for your own store or adapt it into a service for ecom clients\n\nwant to see how we built and tested it?\n\nComment “RESULTS” and i’ll dm it to you",
+"likeCount": 10,
+"retweetCount": 3,
+"url": "https://x.com/dashboardlim/status/2101390400292290676",
+"createdAt": "Sat Sep 19 19:18:08 +0000 2026"
 },
 {
 "userName": "diffusion_llms",
@@ -72,75 +72,83 @@
 "createdAt": "Tue Sep 15 17:46:33 +0000 2026"
 },
 {
-"userName": "AgenticAIFdn",
-"text": "Jev searches flights in 7.1 seconds and plays Mario, Anthropic puts numbers on its internal AI race, Prism shrinks a Qwen model to 5.9GB, OpenAI and Anthropic push deeper into professional workflows, and the UN makes official statistics agent-accessible. https://t.co/McdiFv0NSC",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/AgenticAIFdn/status/2100985799932006457",
-"createdAt": "Fri Sep 18 16:30:23 +0000 2026"
+"userName": "clothsyai",
+"text": "We’re opening applications for the virtual try-on research team at Clothsy AI, powered by FabricVTON.\n\nWe’re tackling hard problems: fabric texture &amp; print fidelity, realistic drape, pose/camera consistency, and fast inference for live storefronts.\n\nApply: https://t.co/rDaeNJy1hl https://t.co/paloVFBXMZ",
+"likeCount": 4,
+"retweetCount": 2,
+"url": "https://x.com/clothsyai/status/2101414853881770230",
+"createdAt": "Sat Sep 19 20:55:18 +0000 2026"
 },
 {
-"userName": "ssahoo_",
-"text": "@_LuoFuli You should use diffusion adapters to speed up post-training.\n\nIt’s almost impossible to get speculative decoding to speed up RL, but with diffusion adapters, you can easily get into 30-40% speedup\n\nHappy to chat more",
-"likeCount": 40,
-"retweetCount": 4,
-"url": "https://x.com/ssahoo_/status/2100357465141617115",
-"createdAt": "Wed Sep 16 22:53:37 +0000 2026"
+"userName": "HeyDjekyll",
+"text": "“Building a company in 3 days, launching today!”\n\nSounds impressive. But what does “building a company” actually mean?\nAI compresses execution time. It doesn't compress reality.\n\nGrok’s claim\nhttps://t.co/3xQ0o2AaYu\n\nvs. the full reality ↓ https://t.co/rCSRYSJt2B",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/HeyDjekyll/status/2100731487880397244",
+"createdAt": "Thu Sep 17 23:39:51 +0000 2026"
 },
 {
-"userName": "ssahoo_",
-"text": "I’ll share new experimental results in this talk, including:\n⚡️ Faster RL training\n📊 Comparisons with a retrained DFlash model\n\n📅 Sep 18, Friday (10am PT)",
-"likeCount": 36,
-"retweetCount": 8,
-"url": "https://x.com/ssahoo_/status/2099918698043920871",
-"createdAt": "Tue Sep 15 17:50:06 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @GavinSBaker: Wild 24 hours for AI and lots of different proposals have been made.\n\nTLDR; the only *tangible* new fact is that OpenAI an…",
-"likeCount": 6445,
-"retweetCount": 843,
-"url": "https://x.com/ClementDelangue/status/2099184767652466707",
-"createdAt": "Sun Sep 13 17:13:44 +0000 2026"
+"userName": "DragUpdate",
+"text": "EDITORIAL | In an art form built on creativity, is generative AI a tool—or a shortcut? Our latest editorial examines Veruschka Levels, AI-generated music, and the uncomfortable question of where artistic authorship ends and AI slop begins. https://t.co/QuwZO79uY0",
+"likeCount": 21,
+"retweetCount": 2,
+"url": "https://x.com/DragUpdate/status/2099849607778025594",
+"createdAt": "Tue Sep 15 13:15:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @arcee_ai: Today, we are announcing our Series B funding round, valuing the company at more than $1B.\n\nThis round accelerates our next-g…",
-"likeCount": 370,
-"retweetCount": 47,
-"url": "https://x.com/ClementDelangue/status/2100300022663323748",
-"createdAt": "Wed Sep 16 19:05:21 +0000 2026"
+"text": "I only wear ties when I'm forced to go to DC 😅 (should we do HF ties btw?). Great chat with @alexanderburns @politico. We need more transparency and open-source in AI! https://t.co/OCDy8h5XyU",
+"likeCount": 199,
+"retweetCount": 21,
+"url": "https://x.com/ClementDelangue/status/2100657693203538425",
+"createdAt": "Thu Sep 17 18:46:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Happy to start collaborating with @baselabs from @baseten and @GoodfireAI to push safety and interpretability for open model…",
-"likeCount": 148,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2100384315385200834",
-"createdAt": "Thu Sep 17 00:40:18 +0000 2026"
+"text": "RT @BoringBiz_: “Why do you need the government to stop AI progress inside your private company when you are the CEO of the company already…",
+"likeCount": 45261,
+"retweetCount": 4350,
+"url": "https://x.com/ClementDelangue/status/2099514519236042805",
+"createdAt": "Mon Sep 14 15:04:03 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @linamkhan: Law enforcers already have authority to charge companies and their CEOs for creating and releasing dangerous, unvetted, or d…",
+"likeCount": 7856,
+"retweetCount": 1990,
+"url": "https://x.com/ClementDelangue/status/2099310636631007385",
+"createdAt": "Mon Sep 14 01:33:53 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @ClementDelangue: It's now clear that alignment is critical and won't be solved behind the closed doors of a handful of frontier labs.…",
-"likeCount": 3875,
-"retweetCount": 422,
-"url": "https://x.com/jeremyphoward/status/2099009039124554083",
-"createdAt": "Sun Sep 13 05:35:27 +0000 2026"
+"text": "RT @DavidRBellamy: I must be among an extremely small group of people (n=1?) that have both 1) trained a frontier LLM and 2) designed and s…",
+"likeCount": 14403,
+"retweetCount": 1896,
+"url": "https://x.com/jeremyphoward/status/2099379055707685373",
+"createdAt": "Mon Sep 14 06:05:46 +0000 2026"
 },
 {
-"userName": "diffusion_llms",
-"text": "@_LuoFuli Worth considering Diffusion adapters to speed up RL post-training\n\nhttps://t.co/YRnj1K2sEc",
-"likeCount": 10,
-"retweetCount": 4,
-"url": "https://x.com/diffusion_llms/status/2100358448584270060",
-"createdAt": "Wed Sep 16 22:57:31 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Plinz: The reason why academics, individuals and small startups can play with AI are open weights models. The future looks pretty dire…",
+"likeCount": 478,
+"retweetCount": 63,
+"url": "https://x.com/ClementDelangue/status/2100913501120106682",
+"createdAt": "Fri Sep 18 11:43:06 +0000 2026"
 },
 {
-"userName": "theneurondaily",
-"text": "https://t.co/Z64TY3xtha",
-"likeCount": 4,
-"retweetCount": 2,
-"url": "https://x.com/theneurondaily/status/2100927447969759640",
-"createdAt": "Fri Sep 18 12:38:31 +0000 2026"
+"userName": "MS_China888",
+"text": "Running Your Own AI at Home (LLMs): Why, How, and Why It Matters Right Now (step-by-step for beginners) https://t.co/LJbr2rz7Rh",
+"likeCount": 7,
+"retweetCount": 1,
+"url": "https://x.com/MS_China888/status/2101230076163457211",
+"createdAt": "Sat Sep 19 08:41:03 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @jack: https://t.co/qAUP2dNJsi",
+"likeCount": 9118,
+"retweetCount": 1418,
+"url": "https://x.com/ClementDelangue/status/2099669130299257002",
+"createdAt": "Tue Sep 15 01:18:25 +0000 2026"
 }
 ]
