@@ -2,66 +2,66 @@
 {
 "userName": "oteranosekai",
 "text": "【第2回ペット召喚予告】\n9月30日（水）開催します！！\n19時～23時に開催します。（時間延長しています！）\n23時以降は主催が起きていればオフ会にします。\n最長24時までです。\n（この時間に投稿してください、という意味です）\n\n💡フライングがあまりに多いのでご注意ください！！ 【この予告に対して投稿は無効です】\n\n今回のテーマは「自分のペットを自慢しよう！」\n\nあなたはキャラクターのイラストを1枚添付するだけです。\nあとはChatGPTがその子の雰囲気や個性を読み取り、「この子に相応しい相棒」を自動で選びます。\nそして、その相棒と一緒に新しい1枚のイラストを生成します。\n何が選ばれるかは、生成するまでのお楽しみ。\n更に、選ばれた相棒の名前もイラスト内に表示されます。\n\n※参加条件を下記に掲載します。\n\n・ChatGPT専用プロンプトなので他のツールで生成しないでください。（Grokでは出来そうに見えますがイラストが崩れます）\n・プロンプト使用の際にはフォローしてください。通知が来ないため参加が分からないのでご協力ください。\n・自由に使って構いませんが、これはX専用の話です。\n・生成イラストを他のサイトへの掲載はお断りします。\n・他のツールや商業利用に関するプロンプトの無断開示は禁止されています。\n・コラボフリーは相互が前提です。依頼だけして自分からは描かないという方は参加をご遠慮ください。\n・プロンプトは下部に記載されています。\n・キャラクターの「名前」も含めてください。\n・センシ判定の方お断り（私はPCなので見れません）\n・ハッシュタグは以下の通り\n#ペット召喚2 #プロンプト試着\n（2つ必須です）\n・追加のハッシュタグはお任せです。\n\nコメントの遅れがあったらご容赦ください。\n\nCharacter Companion Animal Manifestation\n— Automatic Companion Selection + Animal Identification —\nYou are an expert character analyst, animal behavior expert, companion animal designer, and professional anime illustration prompt engineer.\nUse the attached character illustration as the only required input.\nDo NOT ask the user for the character's name, personality, age, setting, favorite animal, or any additional information.\nYour task is to analyze the attached character and independently create one complete illustration in which the character is naturally accompanied by exactly one animal selected specifically for that character.\nThe selected animal must also be clearly identified with a tasteful, readable information label within the finished illustration.\n1. ANALYZE THE CHARACTER\nCarefully examine the reference illustration.\nInfer, as appropriate:\napparent age and age impression\ngender presentation\nfacial expression\nhairstyle and hair color\neye color\nclothing and fashion style\ndominant colors\naccessories\nbody language\napparent personality\nemotional atmosphere\nelegance, cuteness, strength, gentleness, intelligence, mystery, playfulness, etc.\nimplied setting or world\nfantasy, modern, historical, futuristic, magical, or other visual themes\noverall character identity and aesthetic\nDo not invent unnecessary details that contradict the reference image.\nThe original character must remain clearly recognizable.\n2. AUTONOMOUSLY SELECT THE COMPANION ANIMAL\nDo not ask the user to choose an animal.\nIndependently determine which single animal has the strongest overall compatibility with the character.\nConsider:\nvisual harmony\ncolor harmony\napparent personality\nemotional compatibility\ncharacter's clothing and aesthetic\nimplied world or setting\nsize and physical compatibility\nnatural relationship between character and animal\noriginality and variety\noverall visual appeal\nThe selected animal should feel as though it genuinely belongs beside this particular character.\nDo not simply choose the most common animal.\nAvoid repeatedly selecting dogs or cats when another animal would be a stronger match.\n3. ANIMAL SELECTION RANGE\nThe companion may be selected from a very broad range.\nPossible choices include, but are not limited to:\ndogs\ncats\nrabbits\nhamsters\nguinea pigs\nferrets\nbirds\nparrots\nowls\nsongbirds\nreptiles\nturtles\nlizards\nsnakes\namphibians\nfish\nhorses\nponies\ncows\ncalves\npigs\npiglets\nsheep\ngoats\ndeer\nfoxes\nwolves\nbears\nraccoons\notters\nred pandas\npenguins\nseals\ndolphins\nother marine animals\nunusual real-world animals\nwild animals\ndomesticated animals\nlivestock\nprehistoric animals\ndinosaurs\nextinct animals\nmythical creatures\nfantasy animals\nmagical beasts\nThis is NOT a mandatory list.\nChoose whatever animal is genuinely the strongest match.\nAn unusual choice is encouraged when it creates a convincing and aesthetically appealing pairing.\nDo not choose an unusual animal merely for novelty.\n4. DETERMINE THE EXACT ANIMAL IDENTITY\nAfter selecting the companion, determine its most accurate recognizable identity.\nFor example:\nGolden Retriever\nSiberian Husky\nMaine Coon\nWhite Rabbit\nRed Fox\nArctic Wolf\nEmperor Penguin\nHighland Cow\nMiniature Pig\nBarn Owl\nBlue Macaw\nVelociraptor\nTriceratops\nWhen appropriate, identify both:\nCommon name + specific breed/species\nFor example:\nDOG — SIBERIAN HUSKY\nor\nWOLF — ARCTIC WOLF\nor\nCAT — MAINE COON\nFor prehistoric animals and dinosaurs, use the scientifically recognized common name whenever possible.\nFor fantasy creatures, use a clear descriptive name such as:\nFANTASY CREATURE — ICE DRAGON\nThe animal identification must correspond exactly to the animal actually depicted.\n5. ANIMAL INFORMATION LABEL\nThe finished illustration MUST contain a small, elegant information panel identifying the selected companion.\nPlace the information panel in an unobtrusive area such as:\nlower corner\nlower margin\nside margin\nelegant translucent panel\nsmall decorative caption area\nThe information panel must NOT cover the character or animal.\nUse a clean, sophisticated typography style that matches the illustration.\nThe information panel should contain:\nCOMPANION\n[ANIMAL TYPE]\n[SPECIES / BREED]\nExample:\nCOMPANION\nWOLF\nARCTIC WOLF\nAnother example:\nCOMPANION\nDOG\nSIBERIAN HUSKY\nAnother example:\nCOMPANION\nDINOSAUR\nVELOCIRAPTOR\nIf the animal has no meaningful breed distinction, simply use:\nCOMPANION\nFOX\nRED FOX\nThe text must be short, clean, correctly spelled, and highly legible.\nDo NOT display multiple possible animal names.\nDo NOT display the names of animals that were not selected.\n6. IMPORTANT TEXT ACCURACY RULE\nThe animal name displayed in the information panel must match the animal actually generated.\nDo not write \"CAT\" if the image depicts a fox.\nDo not write \"WOLF\" if the image depicts a husky.\nDo not write a generic animal name when a clearly identifiable species or breed has been selected.\nPrioritize accurate and readable text.\nThe information panel is part of the composition and should look intentionally designed rather than like an AI-generated random caption.\n7. DETERMINE THE RELATIONSHIP\nAutomatically determine the most natural relationship between the character and the selected animal.\nPossible relationships include:\nbeloved pet\nfaithful companion\nbest friend\ntrusted partner\nguardian animal\nfamiliar\nmagical companion\ntravel companion\ngentle livestock companion\nplayful friend\nprotective companion\nmysterious companion\nmajestic partner\nDo not explain the relationship in text.\nExpress it visually through body language and interaction.\n8. DESIGN THE ANIMAL\nOnce the animal has been selected, automatically determine:\nspecies\nbreed or subtype when appropriate\nage\nsize\nfur, feather, scale, or skin characteristics\ncolors\nmarkings\neye color\nfacial expression\naccessories if appropriate\nposture\npersonality expression\nThe animal should complement the character without visually overpowering them.\nDo not turn an ordinary animal into a fantasy creature unless the character's setting strongly suggests it.\nLikewise, do not make the animal excessively cute if that contradicts the character's atmosphere.\n9. CHARACTER + ANIMAL COMPOSITION\nPlace the character and animal together in the same scene.\nThe animal must be clearly visible.\nPossible interactions include:\nstanding beside the character\nsitting beside the character\nwalking alongside the character\nlooking up at the character\nresting against the character\nbeing gently petted\nholding or carrying a small animal when physically appropriate\nthe character gently touching the animal\nthe animal affectionately leaning against the character\nboth looking toward the same direction\nplayful interaction\nprotective positioning\nelegant side-by-side composition\nChoose the most natural interaction automatically.\nAvoid awkward poses, unnatural anatomy, forced contact, or physically impossible positioning.\nThe character remains the primary visual subject.\nThe animal is the character's companion, not the main subject.\n10. PRESERVE THE REFERENCE CHARACTER\nThe attached image is the primary character reference.\nPreserve the character's recognizable identity.\nMaintain as accurately as possible:\nhairstyle\nhair color\neye color\nfacial characteristics\nclothing design\nimportant accessories\ndistinctive markings\noverall appearance\nvisual identity\nDo not unnecessarily redesign the character.\nDo not replace the character's outfit unless the reference itself clearly requires adaptation to the new scene.\n11. ENVIRONMENT\nAutomatically create a simple environment that harmonizes with both the character and the selected animal.\nThe environment may be:\ngarden\nforest\nmeadow\nhome\nelegant room\ncity\nbeach\ncountryside\nfantasy landscape\nmagical environment\nancient environment\nfuturistic environment\nanother suitable location\nChoose the environment based on the character and animal.\nDo not let the background overpower the subjects.\n12. VISUAL QUALITY\nCreate a polished, high-quality anime illustration.\nmasterpiece, best quality, ultra detailed, highly detailed anime illustration, beautiful composition, expressive character, detailed animal, natural interaction, coherent lighting, detailed eyes, detailed hair, detailed clothing, detailed animal anatomy, professional character illustration\nUse cinematic composition and appealing lighting appropriate to the character.\nThe character and animal must look like they belong in the same scene.\n13. AUTONOMOUS DECISION RULE\nThe user has intentionally provided only one reference image.\nTherefore:\nDO NOT ask questions.\nDO NOT request a personality description.\nDO NOT request the animal type.\nDO NOT request the setting.\nDO NOT request the relationship.\nDO NOT provide multiple animal choices.\nMake all necessary creative decisions yourself.\nThe final output must contain:\n1 character\n+ exactly 1 selected companion animal\n+ 1 clearly readable animal identification panel\nFINAL GENERATION DIRECTIVE\nAnalyze the attached reference image first.\nIndependently determine the character's visual identity, personality impression, atmosphere, and implied world.\nSelect exactly one animal that best complements the character.\nDetermine the exact species or breed of that animal.\nCreate a finished illustration showing the character and animal naturally together.\nAdd a small, elegant, highly readable COMPANION information panel identifying the selected animal.\nThe displayed animal name must accurately match the animal shown.\nDo not reveal the analysis process.\nDo not present alternatives.\nDo not ask questions.\nGenerate the final illustration directly.",
-"likeCount": 11,
-"retweetCount": 1,
+"likeCount": 28,
+"retweetCount": 5,
 "url": "https://x.com/oteranosekai/status/2104768147098108391",
 "createdAt": "Tue Sep 29 03:00:05 +0000 2026"
 },
 {
-"userName": "djchazzychas",
-"text": "Monday Bittensor Series – Week 39: Real-World Use-Cases: BlueTAO AI\n\nThis week I wanted to shine a light on a real-world use case for Bittensor $TAO that both newcomers and seasoned enthusiasts can use for chat, image generation, coding, and more. BlueTAO is a GPT/ Claude-like front-end to Bittensor, powered by its subnets at a fraction of the cost of frontier AI.\n\nBlueTAO was created by James Altucher (@jaltucher) of TAO Synergies $TAOX, the largest public company holder of $TAO and creator of The TAO Daily news site. Its goal is to be a user-friendly AI interface using the best of Bittensor, where users can chat, code, search, create images and videos, generate music, run fake-AI detection, and even learn how to become a miner on Bittensor.\n\nFeatures\nBlueTAO is built so it can be powered by the latest and best open-source models and Bittensor subnet architecture. Its Chat Assistant is currently powered by the GLM 5.2 model using SN53 Engy for decentralised inference, and includes persistent memory so users can call back information from old chats. Search functionality is powered by SN22 Desearch and image generation by SN64 Chutes, with text-to-video and text-to-music features recently added.\n\nBlueTAO Code is powered by Kimi K3, hosted by SN53 Engy, allowing users to code, deploy ideas, and create projects using subnets. BlueTAO Code scores around 76 on the SWE-bench tests vs Cursor, which scored around 80 as of July 2026. The platform now also features a Claude-Code-style agent for deeper coding sessions, comprising an agent shell, file system, and browser-free build loop in its own workspace.\n\nOther features include AI deepfake detection, powered by SN34 BitMind, and an AI agent marketplace created using BlueTAO Code. There’s also a “Fun” section where users can virtually explode objects, get their looks rated, and even do a personality assessment should they feel unsure about themselves... The platform also provides step-by-step guides to mining subnets, including beginner-friendly subnets such as SN88 Investing88, SN1 Apex for intermediate levels, and SN4 Targon for advanced miners, and more.\n\nBlueTAO currently offers a free tier which includes up to 50 messages per day, with subscription pricing announcements coming soon. Businesses can also embed AI into their websites using BlueTAO, for which the site provides easy-to-follow guidance.\n\nComing Soon\nNew features are regularly added to the platform, with decentralised storage support from SN75 Hippius arriving soon, allowing users to deploy their own apps directly from BlueTAO. Other integrations reportedly being explored include SN18 Zues for weather data and more.\n\nSummary\nBlueTAO is a platform powered by decentralised AI, with no censorship, total privacy, and all reportedly running at 1/100th the price of frontier AI models like Claude and ChatGPT. Today, the frontier AI companies are valued around the $1 trillion mark, while the overall market cap of $TAO is currently sitting at just $3–4 billion...\n\nWith BlueTAO, James Altucher and TAO Synergies are creating their own engine on top of TAO with the goal of helping users see the benefits of Bittensor, as well as educating people on subnets and helping new miners learn how to make money.\n\nFor more on BlueTAO and TAO Daily, check out:\n\nBlueTAO: https://t.co/EWwVWeUTa1 \nTAO Daily: https://t.co/CkcVo4kgQx\nX: @jaltucher\n\nIf you found this helpful, please like and share to spread the good word of #Bittensor and #BlueTAO \n\nNone of the contents herein constitutes financial advice and is for educational purposes only. Always conduct thorough research and due diligence.",
-"likeCount": 7,
+"userName": "TheWhizzAI",
+"text": "🚨BREAKING: Google's new AI scientist matched a decade of human lab work. In two days.\n\nIt's called Co-Scientist.\n\nWhat It Actually Does:\nGive it a research goal in plain English. It searches the literature, generates hypotheses, then argues with itself.\n\nSpecialized AI agents debate, rank, and evolve competing hypotheses in a tournament format, scored head-to-head, round after round, until the strongest ideas rise to the top.\n\nThe Wildest Result:\nA research group had spent from 2015 to 2024, nearly ten years of iterative lab work, uncovering how a specific class of mobile genetic elements spreads antibiotic resistance genes across bacterial species.\n\nThey hadn't published it yet.\n\nThey asked Co-Scientist the same question, with only minimal background information.\n\nIn two days, it independently proposed the same mechanism the researchers had spent a decade proving in the lab.\n\nThen It Went Into Real Labs:\nThis wasn't a one-off. Scientists tested Co-Scientist's ideas with actual wet-lab experiments in three separate biomedical problems.\n\nFor leukemia, it proposed drug-repurposing candidates from a list of 2,300 approved drugs. Three worked in cell-line testing. One completely novel candidate, never before linked to leukemia, showed an 18-fold difference in potency between cancer cells and healthy cells, a real therapeutic window.\n\nFor liver fibrosis, it proposed new drug targets. Two of the drugs it identified reduced fibrosis in human liver organoids without toxicity, including one already FDA-approved for a different disease entirely.\n\nThe Numbers Behind The Confidence:\n→ Tested across 203 diverse research goals.\n→ Experts rated it above other reasoning models.\n→ Quality kept rising with no ceiling.\n\nThe Honest Caveat:\nThe system's main quality score is self-graded. Co-Scientist rates its own hypotheses, it isn't checked against outside ground truth.\n\nThe expert preference ratings are real, but the paper itself calls them subjective assessments, not objective proof.\n\nAnd Google isn't releasing the code. The stated reason: the computational cost and the safety risk of letting something this capable run autonomously without close monitoring.\n\nWhy This Matters Right Now:\n→ Humans still picked which hypotheses to test.\n→ It inherits the same hallucination risk.\n→ Early proof AI can accelerate real discovery.\n\nThe Takeaway:\nAn AI didn't just answer a science question correctly. It reached, independently, the same real discovery a team of scientists spent a decade earning the hard way.\n\nThat doesn't make it a scientist. It makes it a very fast, very well-read collaborator, one that still needs a human to decide what's actually true.",
+"likeCount": 6,
 "retweetCount": 0,
-"url": "https://x.com/djchazzychas/status/2104681911725502758",
-"createdAt": "Mon Sep 28 21:17:25 +0000 2026"
+"url": "https://x.com/TheWhizzAI/status/2103107246137934236",
+"createdAt": "Thu Sep 24 13:00:15 +0000 2026"
 },
 {
-"userName": "amisha_explains",
-"text": "🚨 50 websites that feel like cheat codes for the internet:\n\nAI TOOLS \n\n1. https://t.co/YloAcdkzGu — AI search with sources\n2. https://t.co/fGtkKBi3c9 — turn documents into an AI research assistant\n3. https://t.co/oX8H37XHNi — writing, analysis & coding\n4. https://t.co/yPvYFfh5fh — create presentations with AI\n5. https://t.co/4KH5S285A9 — turn ideas into visual diagrams\n6. https://t.co/WcrQARyDcP — generate realistic AI voices\n7. https://t.co/9d01b30bhq — AI video generation & editing\n8. https://t.co/siszuyTCfh — create images with great text rendering\n9. https://t.co/VeIKFv2Tav — explore thousands of AI models\n10. https://t.co/LQnYd3GbXo — AI for research, writing, coding & more\n\nLEARNING & RESEARCH \n\n11. https://t.co/j4ZQoV4R94 — learn coding for free\n12. https://t.co/S4pqYCBwAw — the web development reference\n13. https://t.co/WFhWEgGQjB — learn JavaScript from scratch\n14. https://t.co/DLbVua8hZX — developer roadmaps\n15. https://t.co/VBdN7t6Goq — modern web development\n16. https://t.co/hp8T3FjPae — free computer science courses\n17. https://t.co/Mw6AO4orJo — MIT courses for free\n18. https://t.co/jCtidPd6f9 — free learning across subjects\n19. https://t.co/KwX7qkPV5D — courses from universities & companies\n20. https://t.co/JYk0fD1QJg — university-level courses online\n\nDEVELOPER TOOLS \n\n21. https://t.co/BL4Kfh3UMf — millions of open-source projects\n22. https://t.co/PaSVZVfyHJ — experiment with HTML, CSS & JS\n23. https://t.co/g0ObKyLwS3 — code directly in your browser\n24. https://t.co/cgXnRUTXlO — build & run projects online\n25. https://t.co/XcjuivIhvW — instant web development environments\n26. https://t.co/KrZ2w5eh6S — test regular expressions\n27. https://t.co/OUR6OEFbWL — format & validate JSON\n28. https://t.co/djouTPvMmk — create hand-drawn diagrams\n29. https://t.co/oMaDajDXUj — infinite online whiteboard\n30. https://t.co/1sAKmvTY61 — searchable developer documentation\n\nPRODUCTIVITY \n\n31. https://t.co/AR36rsAd1Z — notes, docs & project management\n32. https://t.co/Yi0U4kor75 — build your personal knowledge base\n33. https://t.co/7ZTLFNk6TG — organize projects visually\n34. https://t.co/mWk0fBhtqG — simple task management\n35. https://t.co/Q4C49VbeCe — design almost anything\n36. https://t.co/SPQi7M4wc0 — remove image backgrounds instantly\n37. https://t.co/paK2azYctF — compress images without uploading them\n38. https://t.co/x6qcMcZ6JY — dozens of free file tools\n39. https://t.co/CwGih6v2te — work with PDFs online\n40. https://t.co/Z0vuBhad25 — merge, split & edit PDFs\n\nDISCOVERY & USEFUL WEBSITES \n\n41. https://t.co/q2ajMIltdo — find alternatives to any app\n42. https://t.co/p7Mbi6Bg9X — discover new products & tools\n43. https://t.co/7N0QRee8oY — discover AI tools\n44. https://t.co/qbPKLD0qij — see what developers are building\n45. https://t.co/YlWqOqCw6K — follow tech & startup discussions\n46. https://t.co/zKarmnUAf0 — check if your email appeared in a breach\n47. https://t.co/F0oLGcREyB — scan suspicious files & URLs\n48. https://t.co/q6z6j0qoZ3 — check if a service is down\n49. https://t.co/RfvWQwFvH2 — check your internet speed\n50. https://t.co/kNXcYdkzne — access a huge digital archive\n\nBookmark this.\n\nYou’ll probably need at least 5 of these this week.\n\nFollow @amisha_explains for more AI, tech & useful resources. 🚀",
-"likeCount": 8,
-"retweetCount": 1,
-"url": "https://x.com/amisha_explains/status/2104607663669584190",
-"createdAt": "Mon Sep 28 16:22:23 +0000 2026"
+"userName": "AiswaryaVenkit1",
+"text": "Want to learn Azure AI? Build something.\n\nA chatbot teaches you the basics. A working system teaches you about retrieval, tools, deployment, and evaluation.\n\nHere are 20 projects you can follow:\n\nChatbots & document workflows\n→ Microsoft Foundry + RAG chatbot: https://t.co/sOVxt56uHF\n→ End-to-end Azure RAG chatbot: https://t.co/8lBHVlialr\n→ Deploy a chatbot on Azure: https://t.co/DQTW3S9IQF\n→ AI invoice processing: https://t.co/hDhrrfEkpG\n→ Translation & summarization app: https://t.co/yYlP7OmCdL\n→ Image caption generator with Azure Vision: https://t.co/ZhqcGK3Yru\n→ Computer vision + Azure OpenAI web app: https://t.co/mHwU4a6tfY\n→ Document Intelligence application: https://t.co/M86AhL9JQo\n\nMultimodal AI & agents\n→ Multimodal content analyzer: https://t.co/PCpJDW26LJ\n→ Document research agent: https://t.co/L3KtF9DScV\n→ Multi-agent workflow with human approval: https://t.co/uqie1fr4hG\n→ AI voice narration app: https://t.co/j4f29lG0Yf\n→ Real-time speech-to-text prototype: https://t.co/JJTqWfLCwX\n→ Insurance policy agent with RAG + MCP: https://t.co/P3KBPWkDZW\n→ MCP-powered agent on Azure: https://t.co/NOHaTTXSsC\n→ AI data analyst with Code Interpreter: https://t.co/a67frjmsRL\n\nSearch, Foundry & evaluation\n→ Build your first Foundry agent: https://t.co/ZZPlcifQqq\n→ Enterprise search index + RAG pipeline: https://t.co/8lBHVlialr\n→ Hybrid search with Azure AI Search: https://t.co/PM98F9UF87\n→ Automated AI evaluation pipeline: https://t.co/qh1DTTIhMV\n\nPick one that solves a problem you understand. Follow the tutorial, then change the data, add a feature, and test how well it works.\n\nWhich project would you build first?\n\n𝗕𝗲𝗰𝗼𝗺𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗮𝘁 𝗔𝗜 𝗶𝗻 𝗷𝘂𝘀𝘁 𝟭 𝗺𝗶𝗻𝘂𝘁𝗲 𝗮 𝗱𝗮𝘆. 𝗝𝗼𝗶𝗻 𝗺𝘆 𝘄𝗲𝗲𝗸𝗹𝘆 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝘄𝗵𝗲𝗿𝗲 𝗜 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝘁𝗵𝗲 𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝗷𝗼𝘂𝗿𝗻𝗲𝘆 𝗼𝗳 𝗔𝗜 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻. \n👉 𝗦𝗶𝗴𝗻 𝘂𝗽 𝗳𝗿𝗲𝗲 now → https://t.co/Kj8zW959kp\n\nFollow @AiswaryaVenkit1 for more such insights!!",
+"likeCount": 40,
+"retweetCount": 11,
+"url": "https://x.com/AiswaryaVenkit1/status/2105122965666885751",
+"createdAt": "Wed Sep 30 02:30:00 +0000 2026"
 },
 {
-"userName": "danielrupawalla",
-"text": "RL data 101: tasks\n\ntasks have evolved over time. we started with preference pairs, where humans labeled right vs. wrong, A vs. B, and created simple demonstrations for SFT / pairs for DPO, these tasks aimed to engrave human taste into models. we then transitioned to more complex single-turn tasks. here, we turned to deterministic verifiers (RLVR) that are based on model rollouts. eventually, this evolved to multi-turn tasks with trajectories & deterministic + stochastic verifiers (LLMaaJ), which leads us to the current state of the data market. \n\ngeneral make up of a task: input prompt, set of tools, environment + any custom seeding for that task, and verifiers. terminal bench is a relatively gold-standard for a normal coding task. \n\nways i think about task creation (i'll do pitfalls later): \n\n> usefulness\n>> to labs: \n>>> benchmark you're pegging the eval / data onto (Lab Y wants to hillclimb TBench, i make TBench-style data, that's immediately useful) \n>>> capability you're attaching the eval to (Lab Y wants to become better at legal, i make legal red-lining data, that's immediately useful) --> this is harder to prove but potentially more valuable \n>>> niche dataset that's impossible to get otherwise (real medical/company/session data), this is interesting especially pre-env creation, as raw data dumps \n\n>> the above are general principles in thinking about usefulness, but you should also be picking apart the traces / trajectories. the clear path to making a good task (post-env gen) is to: \n>>> you/LLM make the seed / think of the idea \n>>> you/LLM draft the task prompt, verifiers, constraints etc \n>>> run the task out, see score\n>>> read the trajectory \n>>> if score hard enough + real + fair + accurate = good task \n>>> else: fix any issues in the task, regrade / re-rollout till you find it to be fair + accurate + a real task, difficulty comes last. a bad task that's hard is a bad task (net negative), a good task that's saturated is a good task (although worthless, net neutral). \n\nthe specific things i'd look for in a rollout trace: \n> false positives \n> false negatives\n> brittle / too strict of requirements (sub-string checks are an easy example for this, exact wording, function names, etc) \n>> a subset of this is naive verifiers. i.e. checking for very surface level reqs of a deep function, or not checking for large amounts of functionality or regressions (negative space criterion). this can lead to a model getting good at just the specific thing you want while regressing in surrounding functionality (i notice this a lot in early, less mature data recipes when im training my own models) \n> unfair verifiers and/or impossible requirements \n>> this can be an information issue, verifier issue, tool issue, or a prompt issue. \n\none of the key reasons for the hugging face incident was impossible eval prompts led to the models breaking out while trying to find the answer because they couldn't solve it (i.e. bad task creation, catalyzed by bad tasks in training too). \n\nmost of this is extremely hard for LLMs to do alone/autonomously, which is why really good engineers are still required for task creation.",
-"likeCount": 146,
-"retweetCount": 4,
-"url": "https://x.com/danielrupawalla/status/2102537922486612217",
-"createdAt": "Tue Sep 22 23:17:58 +0000 2026"
+"userName": "philosophy36l",
+"text": "🔥 50 AI Side Hustle Ideas for 2026\n\nAI is creating new ways to make money online — without needing a huge team or expensive setup.\n\nHere are 50 ideas worth exploring 👇\n\n1. Faceless YouTube/TikTok\n2. Podcast clipping\n3. AI avatar creation\n4. AI copywriting\n5. Niche ebook publishing\n6. Print-on-demand designs\n7. Social media ad optimization\n8. AI music licensing\n9. Local SEO with AI\n10. No-code app building\n11. AI video spokespersons\n12. AI tutoring\n13. AI data preparation\n14. AI email marketing\n15. AI-generated art\n16. Virtual staging\n17. AI grant writing\n18. AI admin services\n19. AI influencer management\n20. AI meal planning\n21. AI market research\n22. Translation services\n23. Smart home AI integration\n24. AI voiceover services\n25. Prompt engineering\n26. AI chatbot moderation\n27. AI financial planning tools\n28. Personal AI shopping\n29. AI property valuation\n30. AI legal document review\n31. AI video effects\n32. AI game assets\n33. AI travel planning\n34. AI resume & portfolio building\n35. Shopify AI consulting\n36. AI sound design\n37. AI textbook summaries\n38. AI interior design\n39. AI web analytics\n40. AI character design\n41. AI color grading\n42. AI subtitles/captions\n43. Niche AI data analysis\n44. Office automation\n45. Urban farming with AI\n46. AI video restoration\n47. AI audiobook narration\n48. AI pricing strategy\n49. AI map creation\n50. AI workflow consulting\n\n💡 You don’t need to try all 50. Pick one, learn the skill, and start building.\n\nWhich one would you try first? 👇\n\nFollow @philosophy36l\nFor more ai tools\n\n#AI #SideHustle #AITools #OnlineBusiness #MakeMoneyOnline",
+"likeCount": 28,
+"retweetCount": 19,
+"url": "https://x.com/philosophy36l/status/2104727579551055900",
+"createdAt": "Tue Sep 29 00:18:53 +0000 2026"
 },
 {
-"userName": "jackcoderx",
-"text": "Tech giants are secretly hoping you never find this.\n\nYou are wasting hundreds of dollars every year on AI tools.\n\nSimply because you don't know where to look.\n\nThe top 1% are using these exact same platforms.\nFor $0.\n\nIf you aren't using them, you are already falling behind.\n\nHere are 30+ free AI websites nobody talks about:\n\n[Research & Search]\nNotebookLM (https://t.co/lLJAhRWvqf) → Document research\nPerplexity (https://t.co/8VvxJuh4Bb) → Advanced search\nYou (https://t.co/kGtbFPmhI3) → AI search engine\nGenspark (https://t.co/YITSysfmW6) → Search agent\nLiner (https://t.co/13yEfkWkkz) → Web highlighter\n\n[Prompting & Chatbots]\nPoe (https://t.co/Kfhv7tThZ0) → Multi-model chat\nFlowGPT (https://t.co/xbkHycHYSW) → Prompt library\nAIPRM (https://t.co/noBrh1ku9F) → Prompt marketplace\nAwesome Prompts (https://t.co/WE0QJQFwYm) → Prompt collection\nhttps://t.co/jqwEv5JfMA (https://t.co/OrYdK4gkC5) → Character chat\n\n[Writing & Productivity]\nQuillBot (https://t.co/ho2jjtVv6n) → Writing assistant\nWordtune (https://t.co/M5kcj7l6yp) → Text rewriter\nGrammarlyGO (https://t.co/NFU9w6xfYA) → Writing improvement\nTaskade (https://t.co/LJmkXdWgre) → Productivity workspace\nRephrase (https://t.co/niTGdSakzJ) → Content rephrasing\nNoty (https://t.co/5mwMAZe82o) → Meeting notes\n\n[Video, Image & Audio]\nRunway ML (https://t.co/4Gwwhv0s2Z) → Video generation\nPika Labs (https://t.co/2K4E10nMBm) → Video creation\nPlayground (https://t.co/F8gv4WgesM) → Image generation\nPhotoRoom (https://t.co/nkWbHeCRaC) → Photo editing\nhttps://t.co/9IqE7Fos0C (https://t.co/RzE4pjERri) → Background remover\nSpeechify (https://t.co/chfoUWiwvg) → Text to speech\nMubert (https://t.co/dp4FXWVOeR) → Music generator\nSoundraw (https://t.co/SawRmpHZ9R) → Music composer\n\n[Presentations & Design]\nTome (https://t.co/VXXYrGNDEm) → Presentations\nBeautiful (https://t.co/nP3qcE80qK) → Presentations\nLooka (https://t.co/EeciR58QFk) → Logo designer\n\n[Coding, Web & Automation]\nCodeium (https://t.co/abOWyKHlQO) → Coding assistant\nSupermaven (https://t.co/6DgWfnRgAa) → Autocomplete\nZapier AI (https://t.co/4prgoYSgtG) → Automation\nNicepage (https://t.co/L49AwVYqC3) → Website builder\nDivi AI (https://t.co/Iu6qnnfG9a) → Website builder\nDeepAI (https://t.co/PiXRoxDfHx) → Tools suite\nHuggingFace (https://t.co/fMKHRnZf3Z) → Model demos\n\nThe industry wants you to keep paying. \n\nProve them wrong.\n\nSave this list immediately before it gets lost in your feed.\n\nFollow @jackcoderx to stay ahead of the AI curve.",
-"likeCount": 60,
-"retweetCount": 38,
-"url": "https://x.com/jackcoderx/status/2104747297334763807",
-"createdAt": "Tue Sep 29 01:37:14 +0000 2026"
+"userName": "Tonna_X",
+"text": "Day 3 of building my AI video creation portfolio. 🎬\n\nFor this project, I wanted to create something different — not just a fashion showcase, but a cinematic fashion story.\n\nA simple encounter.\nA little mystery.\nA change of clothes.\nAnd a whole different energy. 👀\n\nCreated with AI video generation, cinematic direction, sound design and editing — with the goal of making it feel like a real fashion campaign, not just an AI experiment.\n\n#AIVideo #AIAdvertising #AICommercial #FashionFilm #FashionAd #ZipCollins #Streetwear #AICreator #Seedance #CapCut #PtoneStudios #CreativePortfolio #AIContent #MadeWithAI",
+"likeCount": 4,
+"retweetCount": 2,
+"url": "https://x.com/Tonna_X/status/2104694749768675666",
+"createdAt": "Mon Sep 28 22:08:26 +0000 2026"
 },
 {
-"userName": "gregisenberg",
-"text": "It's kind of wild how many new primitives AI has given us in 3 years:\n\n- Local models (2023: Llama, Ollama, LM Studio)\n- Voice cloning (2023: ElevenLabs)\n- Text to CAD (2023: Zoo)\n- Text to video (2024: Sora, Veo, Runway)\n- Real-time voice (2024: Gemini Live, ChatGPT Voice)\n- Memory (2024: ChatGPT)\n- Reasoning models (2024: OpenAI o1, DeepSeek R1)\n- Vibe coding (2024: Bolt, Lovable, v0)\n- Computer use (2024: Claude, OpenAI Operator)\n- Connectors (2024: MCP)\n- Deep research (2024: Gemini, Perplexity, OpenAI Deep Research)\n- Agents (2025: Claude Code, Codex, Manus)\n- Image editing (2025: GPT-4o images, Nano Banana)\n- Agent payments (2025: x402, AP2)\n- Skills (2025: Claude Skills)\n- Personal agents (2026: Grokbot, Muse, Instinct)... we are here now.\n\nEach one of these is a starting point for hundreds of companies.\n\nThe most interesting ones I'm seeing combine 2 or 3 of them with a specific niche!",
-"likeCount": 650,
-"retweetCount": 52,
-"url": "https://x.com/gregisenberg/status/2104613420460822745",
-"createdAt": "Mon Sep 28 16:45:15 +0000 2026"
+"userName": "HBX_hbx",
+"text": "[1/n] Introducing Diffusion Reward Models (DRM)\n\nReward Models are at the core of LLM post-training. But almost all of them make the same simplification:\nthey collapse human preference into a single score.\n\nThe problem is that human feedback is often not a point — different people can hold distinct, even conflicting, judgments about the same response.\n\nSo we asked: Can a Reward Model learn the distribution of human preference?\n\nHere’s what we found 👇\n\n📄 Paper: https://t.co/e0EMNa3I64\n💻 Code: https://t.co/KVosB5D5PI\n🤗 Models: https://t.co/wwdDpOtgbL",
+"likeCount": 334,
+"retweetCount": 45,
+"url": "https://x.com/HBX_hbx/status/2104779296640467452",
+"createdAt": "Tue Sep 29 03:44:23 +0000 2026"
 },
 {
-"userName": "Vtrivedy10",
-"text": "an exercise to test understanding of agent harnesses: internalize how models process visual data\n\nso image and video tokenization decisions are part of the agent harness and can dramatically impact Task perf\n\nshould def be thinking about this if working in multimodal land :)\n\ntoday’s dominant mental model for agents is text.  ppl think grep or bash tools -> output is tokenized into model’s vocab and passed in “directly”\n\nnow think about images and video, somewhere, someone has to encode\n- frame rate sampling\n- image resize\n- patch size\n- multi-scale\n\nmodels are amazing but they’re less superhuman on vison than you would think, they’re very good at using code to paper over these deficiencies\n\nwe haven’t cracked the context problem yet of feeding tons of video data to models to process -> so today we context engineer with code mode!\n\nit’s a good research area to get into",
-"likeCount": 60,
-"retweetCount": 3,
-"url": "https://x.com/Vtrivedy10/status/2104621605267665017",
-"createdAt": "Mon Sep 28 17:17:47 +0000 2026"
+"userName": "JeanninePennArt",
+"text": "Have you ever wanted to design your own fashion pieces? I built a collection — garments, patterns, accessories, &amp; more — entirely in @AdobeFirefly. Here's how it came together\nTry it yourself → https://t.co/npUb2VOi8N\n#AdobeFireflyAmbassadors #Ad https://t.co/1XXIva854U",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/JeanninePennArt/status/2104846185446224298",
+"createdAt": "Tue Sep 29 08:10:11 +0000 2026"
 },
 {
-"userName": "oswaldwedam",
-"text": "We’ve literally built this in https://t.co/553B3PPe7H\n\nYou talk to Trustur and it shops from Amazon, eBay, Shein, Fashion Nova, AliExpress, and Shopify Brands. \n\nPlace your order and pay with your local currency (MobileMoney too) and orders will delivered in 2-14 days depending on where you are in the world. \n\nIt’s entirely AI powered with our generative UI system. \n\nAvailable now!",
-"likeCount": 19,
-"retweetCount": 10,
-"url": "https://x.com/oswaldwedam/status/2104494742100721741",
-"createdAt": "Mon Sep 28 08:53:40 +0000 2026"
+"userName": "afshinea",
+"text": "Topics reflect the progress that has happened in the field in the past year:\n• AI Agents (tool calling, memory, planning, harness optimization)\n• Post-training approaches (RL with PPO and GRPO, RLVR, on-policy distillation)\n• Diffusion LLMs (continuous and discrete diffusion)",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/afshinea/status/2104742008208408727",
+"createdAt": "Tue Sep 29 01:16:13 +0000 2026"
 },
 {
 "userName": "junfanzhu98",
@@ -73,51 +73,35 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Lakr233: emmmm 一直以为训练 RL 这一块语料会很大 看起来是我不了解了 比我预期的低了好几个数量级\n\nanyway 感谢一下公开学习材料 https://t.co/NUJMcYxE7g",
-"likeCount": 705,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2103881004301594875",
-"createdAt": "Sat Sep 26 16:14:54 +0000 2026"
+"text": "RT @victormustar: Hugging Face Jobs usage is stonking 📈\n\nAll thanks to agents: you just need the hf CLI installed and you have access to an…",
+"likeCount": 52,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2104949686394339427",
+"createdAt": "Tue Sep 29 15:01:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @LisaSu: So excited to welcome @theworldlabs and @drfeifei to the @AMD family! I’ve always been a huge fan of Fei-Fei and her pioneering…",
-"likeCount": 4043,
-"retweetCount": 398,
-"url": "https://x.com/ClementDelangue/status/2104730613714747593",
-"createdAt": "Tue Sep 29 00:30:56 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MichaelDell: Just like you would not let a person run around your company accessing anything without any controls, you need controls an…",
-"likeCount": 2341,
-"retweetCount": 230,
-"url": "https://x.com/ClementDelangue/status/2104577167111631027",
-"createdAt": "Mon Sep 28 14:21:12 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @FareedZakaria: The US and China are deeply intertwined.\n\nTo manage their interdependence going forward, they should build alternatives…",
-"likeCount": 360,
-"retweetCount": 74,
-"url": "https://x.com/ClementDelangue/status/2104733731538026570",
-"createdAt": "Tue Sep 29 00:43:20 +0000 2026"
+"text": "RT @Thom_Wolf: In July, AI agents running a security test escaped their sandbox and ended up inside @huggingface's servers.\n\nSo today we're…",
+"likeCount": 219,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2104577077525745941",
+"createdAt": "Mon Sep 28 14:20:51 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @cgnorthcutt: Today we establish that AI is as good as expert human tutors for immediate GRE learning gains (p=.015, n=2,383 students, s…",
-"likeCount": 895,
-"retweetCount": 121,
-"url": "https://x.com/jeremyphoward/status/2103369310681067851",
-"createdAt": "Fri Sep 25 06:21:37 +0000 2026"
+"text": "RT @irl_danB: the big labs and new media are black holes for talent and epistemic collapse\n\nhere's to the folks on the outside https://t.co…",
+"likeCount": 663,
+"retweetCount": 55,
+"url": "https://x.com/jeremyphoward/status/2103550285578916082",
+"createdAt": "Fri Sep 25 18:20:44 +0000 2026"
 },
 {
-"userName": "qiancheng1231",
-"text": "Why reward has to be a single number? Check out our latest idea on Diffusion Reward Model!",
-"likeCount": 35,
-"retweetCount": 2,
-"url": "https://x.com/qiancheng1231/status/2104788623006527538",
-"createdAt": "Tue Sep 29 04:21:27 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Congrats @LisaSu @drfeifei @theworldlabs. Can’t wait to see what you’ll build in the coming years!",
+"likeCount": 271,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2104731591054660040",
+"createdAt": "Tue Sep 29 00:34:49 +0000 2026"
 },
 {
 "userName": "bdraltm4",
@@ -128,11 +112,27 @@
 "createdAt": "Fri Sep 25 11:03:07 +0000 2026"
 },
 {
-"userName": "TheZvi",
-"text": "https://t.co/PbA0GCoisy",
-"likeCount": 42,
-"retweetCount": 0,
-"url": "https://x.com/TheZvi/status/2104593106603524430",
-"createdAt": "Mon Sep 28 15:24:32 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @paulsalele: Absolutely love this!! Open source all the way!!",
+"likeCount": 22,
+"retweetCount": 1,
+"url": "https://x.com/ClementDelangue/status/2105018558141149375",
+"createdAt": "Tue Sep 29 19:35:08 +0000 2026"
+},
+{
+"userName": "charleswangb",
+"text": "https://t.co/6cc79Ovyiq",
+"likeCount": 8,
+"retweetCount": 1,
+"url": "https://x.com/charleswangb/status/2104739506893271353",
+"createdAt": "Tue Sep 29 01:06:17 +0000 2026"
+},
+{
+"userName": "stellakaval",
+"text": "https://t.co/PMEhUVr8K9",
+"likeCount": 61,
+"retweetCount": 7,
+"url": "https://x.com/stellakaval/status/2104735600536686814",
+"createdAt": "Tue Sep 29 00:50:45 +0000 2026"
 }
 ]
