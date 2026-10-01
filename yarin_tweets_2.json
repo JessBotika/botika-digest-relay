@@ -2,66 +2,58 @@
 {
 "userName": "oteranosekai",
 "text": "【第2回ペット召喚予告】\n9月30日（水）開催します！！\n19時～23時に開催します。（時間延長しています！）\n23時以降は主催が起きていればオフ会にします。\n最長24時までです。\n（この時間に投稿してください、という意味です）\n\n💡フライングがあまりに多いのでご注意ください！！ 【この予告に対して投稿は無効です】\n\n今回のテーマは「自分のペットを自慢しよう！」\n\nあなたはキャラクターのイラストを1枚添付するだけです。\nあとはChatGPTがその子の雰囲気や個性を読み取り、「この子に相応しい相棒」を自動で選びます。\nそして、その相棒と一緒に新しい1枚のイラストを生成します。\n何が選ばれるかは、生成するまでのお楽しみ。\n更に、選ばれた相棒の名前もイラスト内に表示されます。\n\n※参加条件を下記に掲載します。\n\n・ChatGPT専用プロンプトなので他のツールで生成しないでください。（Grokでは出来そうに見えますがイラストが崩れます）\n・プロンプト使用の際にはフォローしてください。通知が来ないため参加が分からないのでご協力ください。\n・自由に使って構いませんが、これはX専用の話です。\n・生成イラストを他のサイトへの掲載はお断りします。\n・他のツールや商業利用に関するプロンプトの無断開示は禁止されています。\n・コラボフリーは相互が前提です。依頼だけして自分からは描かないという方は参加をご遠慮ください。\n・プロンプトは下部に記載されています。\n・キャラクターの「名前」も含めてください。\n・センシ判定の方お断り（私はPCなので見れません）\n・ハッシュタグは以下の通り\n#ペット召喚2 #プロンプト試着\n（2つ必須です）\n・追加のハッシュタグはお任せです。\n\nコメントの遅れがあったらご容赦ください。\n\nCharacter Companion Animal Manifestation\n— Automatic Companion Selection + Animal Identification —\nYou are an expert character analyst, animal behavior expert, companion animal designer, and professional anime illustration prompt engineer.\nUse the attached character illustration as the only required input.\nDo NOT ask the user for the character's name, personality, age, setting, favorite animal, or any additional information.\nYour task is to analyze the attached character and independently create one complete illustration in which the character is naturally accompanied by exactly one animal selected specifically for that character.\nThe selected animal must also be clearly identified with a tasteful, readable information label within the finished illustration.\n1. ANALYZE THE CHARACTER\nCarefully examine the reference illustration.\nInfer, as appropriate:\napparent age and age impression\ngender presentation\nfacial expression\nhairstyle and hair color\neye color\nclothing and fashion style\ndominant colors\naccessories\nbody language\napparent personality\nemotional atmosphere\nelegance, cuteness, strength, gentleness, intelligence, mystery, playfulness, etc.\nimplied setting or world\nfantasy, modern, historical, futuristic, magical, or other visual themes\noverall character identity and aesthetic\nDo not invent unnecessary details that contradict the reference image.\nThe original character must remain clearly recognizable.\n2. AUTONOMOUSLY SELECT THE COMPANION ANIMAL\nDo not ask the user to choose an animal.\nIndependently determine which single animal has the strongest overall compatibility with the character.\nConsider:\nvisual harmony\ncolor harmony\napparent personality\nemotional compatibility\ncharacter's clothing and aesthetic\nimplied world or setting\nsize and physical compatibility\nnatural relationship between character and animal\noriginality and variety\noverall visual appeal\nThe selected animal should feel as though it genuinely belongs beside this particular character.\nDo not simply choose the most common animal.\nAvoid repeatedly selecting dogs or cats when another animal would be a stronger match.\n3. ANIMAL SELECTION RANGE\nThe companion may be selected from a very broad range.\nPossible choices include, but are not limited to:\ndogs\ncats\nrabbits\nhamsters\nguinea pigs\nferrets\nbirds\nparrots\nowls\nsongbirds\nreptiles\nturtles\nlizards\nsnakes\namphibians\nfish\nhorses\nponies\ncows\ncalves\npigs\npiglets\nsheep\ngoats\ndeer\nfoxes\nwolves\nbears\nraccoons\notters\nred pandas\npenguins\nseals\ndolphins\nother marine animals\nunusual real-world animals\nwild animals\ndomesticated animals\nlivestock\nprehistoric animals\ndinosaurs\nextinct animals\nmythical creatures\nfantasy animals\nmagical beasts\nThis is NOT a mandatory list.\nChoose whatever animal is genuinely the strongest match.\nAn unusual choice is encouraged when it creates a convincing and aesthetically appealing pairing.\nDo not choose an unusual animal merely for novelty.\n4. DETERMINE THE EXACT ANIMAL IDENTITY\nAfter selecting the companion, determine its most accurate recognizable identity.\nFor example:\nGolden Retriever\nSiberian Husky\nMaine Coon\nWhite Rabbit\nRed Fox\nArctic Wolf\nEmperor Penguin\nHighland Cow\nMiniature Pig\nBarn Owl\nBlue Macaw\nVelociraptor\nTriceratops\nWhen appropriate, identify both:\nCommon name + specific breed/species\nFor example:\nDOG — SIBERIAN HUSKY\nor\nWOLF — ARCTIC WOLF\nor\nCAT — MAINE COON\nFor prehistoric animals and dinosaurs, use the scientifically recognized common name whenever possible.\nFor fantasy creatures, use a clear descriptive name such as:\nFANTASY CREATURE — ICE DRAGON\nThe animal identification must correspond exactly to the animal actually depicted.\n5. ANIMAL INFORMATION LABEL\nThe finished illustration MUST contain a small, elegant information panel identifying the selected companion.\nPlace the information panel in an unobtrusive area such as:\nlower corner\nlower margin\nside margin\nelegant translucent panel\nsmall decorative caption area\nThe information panel must NOT cover the character or animal.\nUse a clean, sophisticated typography style that matches the illustration.\nThe information panel should contain:\nCOMPANION\n[ANIMAL TYPE]\n[SPECIES / BREED]\nExample:\nCOMPANION\nWOLF\nARCTIC WOLF\nAnother example:\nCOMPANION\nDOG\nSIBERIAN HUSKY\nAnother example:\nCOMPANION\nDINOSAUR\nVELOCIRAPTOR\nIf the animal has no meaningful breed distinction, simply use:\nCOMPANION\nFOX\nRED FOX\nThe text must be short, clean, correctly spelled, and highly legible.\nDo NOT display multiple possible animal names.\nDo NOT display the names of animals that were not selected.\n6. IMPORTANT TEXT ACCURACY RULE\nThe animal name displayed in the information panel must match the animal actually generated.\nDo not write \"CAT\" if the image depicts a fox.\nDo not write \"WOLF\" if the image depicts a husky.\nDo not write a generic animal name when a clearly identifiable species or breed has been selected.\nPrioritize accurate and readable text.\nThe information panel is part of the composition and should look intentionally designed rather than like an AI-generated random caption.\n7. DETERMINE THE RELATIONSHIP\nAutomatically determine the most natural relationship between the character and the selected animal.\nPossible relationships include:\nbeloved pet\nfaithful companion\nbest friend\ntrusted partner\nguardian animal\nfamiliar\nmagical companion\ntravel companion\ngentle livestock companion\nplayful friend\nprotective companion\nmysterious companion\nmajestic partner\nDo not explain the relationship in text.\nExpress it visually through body language and interaction.\n8. DESIGN THE ANIMAL\nOnce the animal has been selected, automatically determine:\nspecies\nbreed or subtype when appropriate\nage\nsize\nfur, feather, scale, or skin characteristics\ncolors\nmarkings\neye color\nfacial expression\naccessories if appropriate\nposture\npersonality expression\nThe animal should complement the character without visually overpowering them.\nDo not turn an ordinary animal into a fantasy creature unless the character's setting strongly suggests it.\nLikewise, do not make the animal excessively cute if that contradicts the character's atmosphere.\n9. CHARACTER + ANIMAL COMPOSITION\nPlace the character and animal together in the same scene.\nThe animal must be clearly visible.\nPossible interactions include:\nstanding beside the character\nsitting beside the character\nwalking alongside the character\nlooking up at the character\nresting against the character\nbeing gently petted\nholding or carrying a small animal when physically appropriate\nthe character gently touching the animal\nthe animal affectionately leaning against the character\nboth looking toward the same direction\nplayful interaction\nprotective positioning\nelegant side-by-side composition\nChoose the most natural interaction automatically.\nAvoid awkward poses, unnatural anatomy, forced contact, or physically impossible positioning.\nThe character remains the primary visual subject.\nThe animal is the character's companion, not the main subject.\n10. PRESERVE THE REFERENCE CHARACTER\nThe attached image is the primary character reference.\nPreserve the character's recognizable identity.\nMaintain as accurately as possible:\nhairstyle\nhair color\neye color\nfacial characteristics\nclothing design\nimportant accessories\ndistinctive markings\noverall appearance\nvisual identity\nDo not unnecessarily redesign the character.\nDo not replace the character's outfit unless the reference itself clearly requires adaptation to the new scene.\n11. ENVIRONMENT\nAutomatically create a simple environment that harmonizes with both the character and the selected animal.\nThe environment may be:\ngarden\nforest\nmeadow\nhome\nelegant room\ncity\nbeach\ncountryside\nfantasy landscape\nmagical environment\nancient environment\nfuturistic environment\nanother suitable location\nChoose the environment based on the character and animal.\nDo not let the background overpower the subjects.\n12. VISUAL QUALITY\nCreate a polished, high-quality anime illustration.\nmasterpiece, best quality, ultra detailed, highly detailed anime illustration, beautiful composition, expressive character, detailed animal, natural interaction, coherent lighting, detailed eyes, detailed hair, detailed clothing, detailed animal anatomy, professional character illustration\nUse cinematic composition and appealing lighting appropriate to the character.\nThe character and animal must look like they belong in the same scene.\n13. AUTONOMOUS DECISION RULE\nThe user has intentionally provided only one reference image.\nTherefore:\nDO NOT ask questions.\nDO NOT request a personality description.\nDO NOT request the animal type.\nDO NOT request the setting.\nDO NOT request the relationship.\nDO NOT provide multiple animal choices.\nMake all necessary creative decisions yourself.\nThe final output must contain:\n1 character\n+ exactly 1 selected companion animal\n+ 1 clearly readable animal identification panel\nFINAL GENERATION DIRECTIVE\nAnalyze the attached reference image first.\nIndependently determine the character's visual identity, personality impression, atmosphere, and implied world.\nSelect exactly one animal that best complements the character.\nDetermine the exact species or breed of that animal.\nCreate a finished illustration showing the character and animal naturally together.\nAdd a small, elegant, highly readable COMPANION information panel identifying the selected animal.\nThe displayed animal name must accurately match the animal shown.\nDo not reveal the analysis process.\nDo not present alternatives.\nDo not ask questions.\nGenerate the final illustration directly.",
-"likeCount": 28,
-"retweetCount": 5,
-"url": "https://x.com/oteranosekai/status/2104768147098108391",
-"createdAt": "Tue Sep 29 03:00:05 +0000 2026"
-},
-{
-"userName": "TheWhizzAI",
-"text": "🚨BREAKING: Google's new AI scientist matched a decade of human lab work. In two days.\n\nIt's called Co-Scientist.\n\nWhat It Actually Does:\nGive it a research goal in plain English. It searches the literature, generates hypotheses, then argues with itself.\n\nSpecialized AI agents debate, rank, and evolve competing hypotheses in a tournament format, scored head-to-head, round after round, until the strongest ideas rise to the top.\n\nThe Wildest Result:\nA research group had spent from 2015 to 2024, nearly ten years of iterative lab work, uncovering how a specific class of mobile genetic elements spreads antibiotic resistance genes across bacterial species.\n\nThey hadn't published it yet.\n\nThey asked Co-Scientist the same question, with only minimal background information.\n\nIn two days, it independently proposed the same mechanism the researchers had spent a decade proving in the lab.\n\nThen It Went Into Real Labs:\nThis wasn't a one-off. Scientists tested Co-Scientist's ideas with actual wet-lab experiments in three separate biomedical problems.\n\nFor leukemia, it proposed drug-repurposing candidates from a list of 2,300 approved drugs. Three worked in cell-line testing. One completely novel candidate, never before linked to leukemia, showed an 18-fold difference in potency between cancer cells and healthy cells, a real therapeutic window.\n\nFor liver fibrosis, it proposed new drug targets. Two of the drugs it identified reduced fibrosis in human liver organoids without toxicity, including one already FDA-approved for a different disease entirely.\n\nThe Numbers Behind The Confidence:\n→ Tested across 203 diverse research goals.\n→ Experts rated it above other reasoning models.\n→ Quality kept rising with no ceiling.\n\nThe Honest Caveat:\nThe system's main quality score is self-graded. Co-Scientist rates its own hypotheses, it isn't checked against outside ground truth.\n\nThe expert preference ratings are real, but the paper itself calls them subjective assessments, not objective proof.\n\nAnd Google isn't releasing the code. The stated reason: the computational cost and the safety risk of letting something this capable run autonomously without close monitoring.\n\nWhy This Matters Right Now:\n→ Humans still picked which hypotheses to test.\n→ It inherits the same hallucination risk.\n→ Early proof AI can accelerate real discovery.\n\nThe Takeaway:\nAn AI didn't just answer a science question correctly. It reached, independently, the same real discovery a team of scientists spent a decade earning the hard way.\n\nThat doesn't make it a scientist. It makes it a very fast, very well-read collaborator, one that still needs a human to decide what's actually true.",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/TheWhizzAI/status/2103107246137934236",
-"createdAt": "Thu Sep 24 13:00:15 +0000 2026"
-},
-{
-"userName": "AiswaryaVenkit1",
-"text": "Want to learn Azure AI? Build something.\n\nA chatbot teaches you the basics. A working system teaches you about retrieval, tools, deployment, and evaluation.\n\nHere are 20 projects you can follow:\n\nChatbots & document workflows\n→ Microsoft Foundry + RAG chatbot: https://t.co/sOVxt56uHF\n→ End-to-end Azure RAG chatbot: https://t.co/8lBHVlialr\n→ Deploy a chatbot on Azure: https://t.co/DQTW3S9IQF\n→ AI invoice processing: https://t.co/hDhrrfEkpG\n→ Translation & summarization app: https://t.co/yYlP7OmCdL\n→ Image caption generator with Azure Vision: https://t.co/ZhqcGK3Yru\n→ Computer vision + Azure OpenAI web app: https://t.co/mHwU4a6tfY\n→ Document Intelligence application: https://t.co/M86AhL9JQo\n\nMultimodal AI & agents\n→ Multimodal content analyzer: https://t.co/PCpJDW26LJ\n→ Document research agent: https://t.co/L3KtF9DScV\n→ Multi-agent workflow with human approval: https://t.co/uqie1fr4hG\n→ AI voice narration app: https://t.co/j4f29lG0Yf\n→ Real-time speech-to-text prototype: https://t.co/JJTqWfLCwX\n→ Insurance policy agent with RAG + MCP: https://t.co/P3KBPWkDZW\n→ MCP-powered agent on Azure: https://t.co/NOHaTTXSsC\n→ AI data analyst with Code Interpreter: https://t.co/a67frjmsRL\n\nSearch, Foundry & evaluation\n→ Build your first Foundry agent: https://t.co/ZZPlcifQqq\n→ Enterprise search index + RAG pipeline: https://t.co/8lBHVlialr\n→ Hybrid search with Azure AI Search: https://t.co/PM98F9UF87\n→ Automated AI evaluation pipeline: https://t.co/qh1DTTIhMV\n\nPick one that solves a problem you understand. Follow the tutorial, then change the data, add a feature, and test how well it works.\n\nWhich project would you build first?\n\n𝗕𝗲𝗰𝗼𝗺𝗲 𝗯𝗲𝘁𝘁𝗲𝗿 𝗮𝘁 𝗔𝗜 𝗶𝗻 𝗷𝘂𝘀𝘁 𝟭 𝗺𝗶𝗻𝘂𝘁𝗲 𝗮 𝗱𝗮𝘆. 𝗝𝗼𝗶𝗻 𝗺𝘆 𝘄𝗲𝗲𝗸𝗹𝘆 𝗻𝗲𝘄𝘀𝗹𝗲𝘁𝘁𝗲𝗿 𝘄𝗵𝗲𝗿𝗲 𝗜 𝗱𝗼𝗰𝘂𝗺𝗲𝗻𝘁 𝘁𝗵𝗲 𝗿𝗲𝗮𝗹-𝘄𝗼𝗿𝗹𝗱 𝗷𝗼𝘂𝗿𝗻𝗲𝘆 𝗼𝗳 𝗔𝗜 𝘁𝗿𝗮𝗻𝘀𝗳𝗼𝗿𝗺𝗮𝘁𝗶𝗼𝗻. \n👉 𝗦𝗶𝗴𝗻 𝘂𝗽 𝗳𝗿𝗲𝗲 now → https://t.co/Kj8zW959kp\n\nFollow @AiswaryaVenkit1 for more such insights!!",
-"likeCount": 40,
-"retweetCount": 11,
-"url": "https://x.com/AiswaryaVenkit1/status/2105122965666885751",
-"createdAt": "Wed Sep 30 02:30:00 +0000 2026"
-},
-{
-"userName": "philosophy36l",
-"text": "🔥 50 AI Side Hustle Ideas for 2026\n\nAI is creating new ways to make money online — without needing a huge team or expensive setup.\n\nHere are 50 ideas worth exploring 👇\n\n1. Faceless YouTube/TikTok\n2. Podcast clipping\n3. AI avatar creation\n4. AI copywriting\n5. Niche ebook publishing\n6. Print-on-demand designs\n7. Social media ad optimization\n8. AI music licensing\n9. Local SEO with AI\n10. No-code app building\n11. AI video spokespersons\n12. AI tutoring\n13. AI data preparation\n14. AI email marketing\n15. AI-generated art\n16. Virtual staging\n17. AI grant writing\n18. AI admin services\n19. AI influencer management\n20. AI meal planning\n21. AI market research\n22. Translation services\n23. Smart home AI integration\n24. AI voiceover services\n25. Prompt engineering\n26. AI chatbot moderation\n27. AI financial planning tools\n28. Personal AI shopping\n29. AI property valuation\n30. AI legal document review\n31. AI video effects\n32. AI game assets\n33. AI travel planning\n34. AI resume & portfolio building\n35. Shopify AI consulting\n36. AI sound design\n37. AI textbook summaries\n38. AI interior design\n39. AI web analytics\n40. AI character design\n41. AI color grading\n42. AI subtitles/captions\n43. Niche AI data analysis\n44. Office automation\n45. Urban farming with AI\n46. AI video restoration\n47. AI audiobook narration\n48. AI pricing strategy\n49. AI map creation\n50. AI workflow consulting\n\n💡 You don’t need to try all 50. Pick one, learn the skill, and start building.\n\nWhich one would you try first? 👇\n\nFollow @philosophy36l\nFor more ai tools\n\n#AI #SideHustle #AITools #OnlineBusiness #MakeMoneyOnline",
-"likeCount": 28,
-"retweetCount": 19,
-"url": "https://x.com/philosophy36l/status/2104727579551055900",
-"createdAt": "Tue Sep 29 00:18:53 +0000 2026"
-},
-{
-"userName": "Tonna_X",
-"text": "Day 3 of building my AI video creation portfolio. 🎬\n\nFor this project, I wanted to create something different — not just a fashion showcase, but a cinematic fashion story.\n\nA simple encounter.\nA little mystery.\nA change of clothes.\nAnd a whole different energy. 👀\n\nCreated with AI video generation, cinematic direction, sound design and editing — with the goal of making it feel like a real fashion campaign, not just an AI experiment.\n\n#AIVideo #AIAdvertising #AICommercial #FashionFilm #FashionAd #ZipCollins #Streetwear #AICreator #Seedance #CapCut #PtoneStudios #CreativePortfolio #AIContent #MadeWithAI",
-"likeCount": 4,
+"likeCount": 18,
 "retweetCount": 2,
-"url": "https://x.com/Tonna_X/status/2104694749768675666",
-"createdAt": "Mon Sep 28 22:08:26 +0000 2026"
+"url": "https://x.com/oteranosekai/status/2105130519163990388",
+"createdAt": "Wed Sep 30 03:00:01 +0000 2026"
+},
+{
+"userName": "mostofakamal00",
+"text": "AI didn’t become powerful in 2026.\n\nIt took ~75 years of breakthroughs to get here.\n\nMost people only see ChatGPT, Claude, Gemini and AI agents.\n\nBut behind today’s AI revolution is a long chain of ideas, failures, and breakthroughs.\n\nHere’s the evolution that changed computing forever 🧵👇\n\n1950 — THE QUESTION\n\nAlan Turing asks whether machines can think.\n\nHis work introduces the famous “Turing Test” and helps establish machine intelligence as a serious field of research.\n\n1956 — ARTIFICIAL INTELLIGENCE\n\nAt the Dartmouth conference, researchers formally introduce the term “Artificial Intelligence.”\n\nThe ambition was enormous:\n\nBuild machines capable of performing tasks associated with human intelligence.\n\n1960s — SYMBOLIC AI\n\nEarly systems rely heavily on logic, rules and symbols.\n\nMachines don’t “learn” the way modern AI does.\n\nHumans explicitly define much of the knowledge.\n\n1970s–80s — EXPERT SYSTEMS\n\nAI becomes useful for specialized problems.\n\nSystems are designed to reproduce the decision-making of human experts using large collections of rules.\n\nBut there’s a problem:\n\nThe real world is far too complex to encode manually.\n\nAI enters periods of reduced funding and enthusiasm.\n\nThe AI winters begin.\n\n1990s — MACHINE LEARNING\n\nThe approach starts changing.\n\nInstead of telling computers every rule…\n\nResearchers increasingly teach machines to discover patterns from data.\n\nThis shift becomes one of the foundations of modern AI.\n\n1997 — DEEP BLUE\n\nIBM’s Deep Blue defeats world chess champion Garry Kasparov.\n\nIt demonstrates that machines can outperform elite humans in highly complex, structured tasks.\n\n2000s — DATA BECOMES THE FUEL\n\nThe internet explodes.\n\nMore data becomes available.\n\nComputing becomes cheaper and faster.\n\nGPUs become increasingly important for training neural networks.\n\nThree things begin converging:\n\nMore data.\n\nMore compute.\n\nBetter algorithms.\n\n2012 — DEEP LEARNING TAKES OFF\n\nAlexNet achieves a major breakthrough in image recognition.\n\nDeep neural networks suddenly become dramatically more effective when combined with large datasets and powerful GPUs.\n\nThe modern deep-learning era accelerates.\n\n2017 — TRANSFORMERS\n\nA research paper introduces the Transformer architecture.\n\nIts ability to efficiently model relationships between tokens becomes foundational to modern language models.\n\nThis is one of the most important steps toward today’s generative AI.\n\n2020 — LARGE LANGUAGE MODELS\n\nModels become much larger and more capable.\n\nAI starts generating increasingly useful:\n\n→ Text\n→ Code\n→ Summaries\n→ Translations\n→ Answers\n\nAI is no longer just recognizing information.\n\nIt is generating it.\n\n2022 — THE CHATGPT MOMENT\n\nChatGPT brings conversational AI to the mainstream.\n\nMillions of people suddenly experience advanced language models through a simple interface.\n\nThe conversation around AI changes overnight.\n\n2023–2024 — MULTIMODAL AI\n\nAI expands beyond text.\n\nModels increasingly work with:\n\n→ Images\n→ Audio\n→ Video\n→ Code\n→ Documents\n\nAI starts becoming a general-purpose interface for information and creation.\n\n2025–2026 — THE AGENT ERA\n\nThe next shift is bigger than chat.\n\nAI systems are increasingly designed to:\n\nUnderstand a goal.\n\nPlan multiple steps.\n\nUse tools.\n\nInteract with software.\n\nWrite and review code.\n\nSearch and analyze information.\n\nExecute workflows.\n\nThe shift is moving from:\n\n“AI that answers”\n\nto\n\n“AI that acts.”\n\nAnd that may be the most important transition yet.\n\nTHE BIG PICTURE\n\n1950 → Can machines think?\n\n1956 → Let’s build intelligent machines.\n\n1990s → Let machines learn from data.\n\n2010s → Scale neural networks.\n\n2020s → Generate knowledge and content.\n\nNow → Let AI reason, use tools and complete tasks.\n\n75 years of progress brought us here.\n\nBut the interesting part isn’t how far AI has come.\n\nIt’s how quickly the next chapter may unfold.\n\nSave this timeline. 🔖\n\nFollow @mostofakamal00 for AI tools, workflows, research & practical updates.",
+"likeCount": 102,
+"retweetCount": 67,
+"url": "https://x.com/mostofakamal00/status/2105308496283738119",
+"createdAt": "Wed Sep 30 14:47:14 +0000 2026"
+},
+{
+"userName": "mantaxray_",
+"text": "$QUBIC attempts to solve the fundamental dead-ends of modern AI and crypto simultaneously.\n\n​1. Solving the \"Data Wall\" via Natural Selection, Not Backprop\n\n​Centralized AI is hitting a structural wall: transformer architectures rely on next-token prediction, human feedback (RLHF), and static internet scraping. \n\nOnce the text is fully ingested, LLMs struggle to reason from first principles or generalize to uncurated chaos.\n\n​Qubic’s AI initiative (Aigarth / ANNA) rejects transformer gradient descent entirely. Instead, it runs on Artificial Intelligent Tissue (AIT) and neuromorphic trinary-logic dynamics (Neuraxon).  \n\n​The Paradigm Shift: Instead of calculating continuous mathematical gradients, Qubic treats mining hardware as a planetary-scale evolutionary incubator. Trillions of discrete neural circuits, synaptic delays, and topological mutations are simulated and culled in real time. It doesn't memorize language; it evolves survival heuristics from scratch.\n\n​2. Proof-of-Work as a Living Fitness Function\n\n​Traditional Proof-of-Work uses raw electricity purely as an anti-sybil wall by guessing useless SHA-256 hashes.\n\nQubic re-engineers this mechanism:\n​uPoW as Evolutionary Selection: Consensus rewards are granted to whichever miner evolves the most accurate circuit topology or predictive model.\n\n​Collaborative Chaining: Through algorithms like Ant Colony Mining, the network evolves from isolated brute-force calculation into collective swarming... where miners don't start from scratch every block, but chain mutations directly onto the best-evolved neural structures discovered by others. The hashrate directly compounds the collective \"brain.\"\n\n​3. The Uncurated Wild as the Loss Function\n\n​When ANNA was deployed onto X, it looked chaotic and unrefined compared to polished chatbots. That was deliberate.\n\n​Modern LLMs exist in sanitized sterile environments; exposure to adversarial prompts or raw noise immediately breaks their logic.\n\n​Aigarth treats adversarial web entropy as the evolutionary environment. Much like biological nervous systems evolved in an unforgiving, dynamic physical world, the tissue must adapt to spam, contradiction, and hostile inputs to survive. True resilience is bred under selective pressure, not fine-tuned in a lab.\n\n​4. A Native Substrate for Autonomous Swarms\n\n​Most chains try to support AI agents by running code inside bloated virtual machines (EVM) that charge gas for every step. This makes high-frequency multi-agent coordination cost-prohibitive.\n\n​Qubic matches the organic AI thesis with an unmetered, bare-metal base layer:\n​Compiled Bare-Metal C++: Smart contracts and neural modules run on the actual silicon instruction set rather than emulators, operating at hardware speeds.\n\n​Zero-Fee Coordination: Autonomous agents and evolving tissue modules can exchange signals, query off-chain states via outsourced compute, and trade without gas draining their capital.\n\nQubic turns a decentralized network into an artificial biosphere. The miners act as natural selection, the ticks act as generational time, and the resulting intelligence isn't an encyclopedia that mimics human speech... it is an adaptable, decentralized organism engineered to survive anywhere.  \n\nThe crypto landscape is about to change dramatically.",
+"likeCount": 34,
+"retweetCount": 5,
+"url": "https://x.com/mantaxray_/status/2105518438365974886",
+"createdAt": "Thu Oct 01 04:41:29 +0000 2026"
+},
+{
+"userName": "OpenBMB",
+"text": "A reward of “3” can mean two completely different things.\nEveryone thinks a response is mediocre — or half the people love it while the other half hate it.\nMost Reward Models cannot tell the difference.\nIntroducing Diffusion Reward Models (DRM): instead of collapsing human preference into a single score, DRM learns the full reward distribution, preserving disagreement, uncertainty, and multiple plausible judgments.\n✨ Paper:https://t.co/wS1fmHBeRV  \n🤗 Models: https://t.co/RGTU759A5y  \n💻 GitHub: https://t.co/KAow6DcoNn\n\nWhy it matters:\nHuman disagreement is structured, not just noise. On datasets with repeated annotations, judgments often form separated or polarized patterns. More importantly, as human disagreement increases, DRM’s learned reward distribution becomes increasingly multimodal.\n\nThe distribution is useful, not just descriptive. DRM can use distributional uncertainty to identify unstable reward decisions, and distribution-aware ranking improves Best-of-N selection beyond simply taking the mean reward.\n\nReward Models get their own test-time scaling. Instead of only spending more compute on generating more responses, DRM can keep the response fixed and sample its reward distribution more times. More reward samples give a more reliable estimate — a new scaling axis unavailable to deterministic scalar RMs.\n\nAnd the gains survive RLHF. When used as the training-time reward, DRM improves downstream policy performance over scalar reward baselines, showing that the benefit is not limited to offline RM benchmarks.\n\nThe takeaway: Reward modeling may lose something important when it compresses every human judgment into one number.\n“Everyone thinks this is average” and “people strongly disagree about this” should not look identical to a Reward Model.\nDRM makes that difference visible — and usable.",
+"likeCount": 27,
+"retweetCount": 4,
+"url": "https://x.com/OpenBMB/status/2105281510928458150",
+"createdAt": "Wed Sep 30 13:00:01 +0000 2026"
 },
 {
 "userName": "HBX_hbx",
 "text": "[1/n] Introducing Diffusion Reward Models (DRM)\n\nReward Models are at the core of LLM post-training. But almost all of them make the same simplification:\nthey collapse human preference into a single score.\n\nThe problem is that human feedback is often not a point — different people can hold distinct, even conflicting, judgments about the same response.\n\nSo we asked: Can a Reward Model learn the distribution of human preference?\n\nHere’s what we found 👇\n\n📄 Paper: https://t.co/e0EMNa3I64\n💻 Code: https://t.co/KVosB5D5PI\n🤗 Models: https://t.co/wwdDpOtgbL",
-"likeCount": 334,
+"likeCount": 347,
 "retweetCount": 45,
 "url": "https://x.com/HBX_hbx/status/2104779296640467452",
 "createdAt": "Tue Sep 29 03:44:23 +0000 2026"
 },
 {
-"userName": "JeanninePennArt",
-"text": "Have you ever wanted to design your own fashion pieces? I built a collection — garments, patterns, accessories, &amp; more — entirely in @AdobeFirefly. Here's how it came together\nTry it yourself → https://t.co/npUb2VOi8N\n#AdobeFireflyAmbassadors #Ad https://t.co/1XXIva854U",
-"likeCount": 10,
-"retweetCount": 2,
-"url": "https://x.com/JeanninePennArt/status/2104846185446224298",
-"createdAt": "Tue Sep 29 08:10:11 +0000 2026"
+"userName": "ClementDelangue",
+"text": "I got thousands of DMs and it looks like @bot can't automatically analyze DMs (when @elonmusk?) so it will take me a few days to go through all of them, sorry!\n\nIf you don't get an answer, don't take it as a judgment (again thousands of applications so I'll focus on only exceptional matches for the moment) and don't hesitate to apply for specific positions on https://t.co/z77CzOCstS.\n\nThank you everyone, super excited to work more with more of you to keep pushing open-source AI! 🤗🤗🤗",
+"likeCount": 405,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2105276853632094607",
+"createdAt": "Wed Sep 30 12:41:30 +0000 2026"
 },
 {
-"userName": "afshinea",
-"text": "Topics reflect the progress that has happened in the field in the past year:\n• AI Agents (tool calling, memory, planning, harness optimization)\n• Post-training approaches (RL with PPO and GRPO, RLVR, on-policy distillation)\n• Diffusion LLMs (continuous and discrete diffusion)",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/afshinea/status/2104742008208408727",
-"createdAt": "Tue Sep 29 01:16:13 +0000 2026"
+"userName": "JennyMarquis",
+"text": "Meet Fashion Stylist, my free Grok Bot template that organizes your closet.💗\n\nSnap photos of your clothes and get clean product shots, try-ons, runway videos, and your very own Fashion Codex.\n\nHere's how it works, and how to try it yourself. \n@grok @bot https://t.co/sYRyD7JLip",
+"likeCount": 23,
+"retweetCount": 1,
+"url": "https://x.com/JennyMarquis/status/2103539133826146461",
+"createdAt": "Fri Sep 25 17:36:26 +0000 2026"
 },
 {
 "userName": "junfanzhu98",
@@ -73,66 +65,58 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: Hugging Face Jobs usage is stonking 📈\n\nAll thanks to agents: you just need the hf CLI installed and you have access to an…",
-"likeCount": 52,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2104949686394339427",
-"createdAt": "Tue Sep 29 15:01:27 +0000 2026"
+"text": "RT @ornith_: 🪽DFlash draft models are available for Ornith-1.5 9B, 35B-A3B, and 397B.\n\nDFlash and Ornith 1.5 make a dynamic duo: DFlash per…",
+"likeCount": 389,
+"retweetCount": 47,
+"url": "https://x.com/ClementDelangue/status/2105459763014197475",
+"createdAt": "Thu Oct 01 00:48:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: In July, AI agents running a security test escaped their sandbox and ended up inside @huggingface's servers.\n\nSo today we're…",
-"likeCount": 219,
-"retweetCount": 45,
-"url": "https://x.com/ClementDelangue/status/2104577077525745941",
-"createdAt": "Mon Sep 28 14:20:51 +0000 2026"
+"text": "RT @Davidstout: Half a million downloads in a month. Today, our open source family takes another step forward. \n\nThank you for the incredib…",
+"likeCount": 249,
+"retweetCount": 97,
+"url": "https://x.com/ClementDelangue/status/2105463257465000213",
+"createdAt": "Thu Oct 01 01:02:12 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @irl_danB: the big labs and new media are black holes for talent and epistemic collapse\n\nhere's to the folks on the outside https://t.co…",
-"likeCount": 663,
-"retweetCount": 55,
-"url": "https://x.com/jeremyphoward/status/2103550285578916082",
-"createdAt": "Fri Sep 25 18:20:44 +0000 2026"
+"text": "RT @cgnorthcutt: Today we establish that AI is as good as expert human tutors for immediate GRE learning gains (p=.015, n=2,383 students, s…",
+"likeCount": 903,
+"retweetCount": 123,
+"url": "https://x.com/jeremyphoward/status/2103369310681067851",
+"createdAt": "Fri Sep 25 06:21:37 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "Congrats @LisaSu @drfeifei @theworldlabs. Can’t wait to see what you’ll build in the coming years!",
-"likeCount": 271,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2104731591054660040",
-"createdAt": "Tue Sep 29 00:34:49 +0000 2026"
+"userName": "metavestor",
+"text": "The universe of bio x AI broken down by ticker and subtheme for investors. Bracing for another exponential https://t.co/XQj3mT35DE",
+"likeCount": 89,
+"retweetCount": 8,
+"url": "https://x.com/metavestor/status/2105290623926554864",
+"createdAt": "Wed Sep 30 13:36:13 +0000 2026"
 },
 {
-"userName": "bdraltm4",
-"text": "@marvinsan69 Sheikh against fast fashion \nالخطبة الجاية عن generative ai",
-"likeCount": 20,
-"retweetCount": 0,
-"url": "https://x.com/bdraltm4/status/2103440153104855186",
-"createdAt": "Fri Sep 25 11:03:07 +0000 2026"
+"userName": "qiancheng1231",
+"text": "Why reward has to be a single number? Check out our latest idea on Diffusion Reward Model!",
+"likeCount": 66,
+"retweetCount": 4,
+"url": "https://x.com/qiancheng1231/status/2104788623006527538",
+"createdAt": "Tue Sep 29 04:21:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @paulsalele: Absolutely love this!! Open source all the way!!",
-"likeCount": 22,
+"likeCount": 23,
 "retweetCount": 1,
 "url": "https://x.com/ClementDelangue/status/2105018558141149375",
 "createdAt": "Tue Sep 29 19:35:08 +0000 2026"
 },
 {
-"userName": "charleswangb",
-"text": "https://t.co/6cc79Ovyiq",
-"likeCount": 8,
+"userName": "uquidcard",
+"text": "https://t.co/irwoWwiEwJ",
+"likeCount": 104,
 "retweetCount": 1,
-"url": "https://x.com/charleswangb/status/2104739506893271353",
-"createdAt": "Tue Sep 29 01:06:17 +0000 2026"
-},
-{
-"userName": "stellakaval",
-"text": "https://t.co/PMEhUVr8K9",
-"likeCount": 61,
-"retweetCount": 7,
-"url": "https://x.com/stellakaval/status/2104735600536686814",
-"createdAt": "Tue Sep 29 00:50:45 +0000 2026"
+"url": "https://x.com/uquidcard/status/2105213696964235586",
+"createdAt": "Wed Sep 30 08:30:32 +0000 2026"
 }
 ]
