@@ -1,40 +1,40 @@
 [
 {
-"userName": "adrianscottcom",
-"text": "How One Creator & a Swarm of AI Agents Built a 5-Minute Cyberpunk Fashion Masterpiece in 19 Hours\n\nLast week, @anabology dropped a public Google Drive with the master files for \"ESCAPE VELOCITY\"—a 5:06 lyric music video and cyberpunk fashion show that looks like a high-budget Studio Trigger x Balenciaga production:\n\nIn the film, an AI runway model walks the Silicon Valley zeitgeist as a split-flap terminal board counts down \"18 MONTHS TO ESCAPE THE PERMANENT UNDERCLASS\" until it flips to \"THERE IS NO UNDERCLASS\" and the catwalk lifts into orbit.\n\nIt was made in 19 wall-clock hours with ~50 human steering messages.\n\nInside the archive is a 6-page production post-mortem (\"How ESCAPE VELOCITY was made\"). It is the cleanest blueprint ever published on how autonomous agents, deterministic code, and generative models intersect.\n\nHere is the exact technical breakdown of how it was built:\n\n1. THE HUMAN-AI DIVISION OF LABOR: \"Agents in parallel, one human with taste\"\n\nMost people treat AI like a slot machine: roll a prompt, get generic slop, complain about quality.\n\nanabology flipped the architecture: the human supplies taste, curation, and decisive boundary conditions; Claude Code orchestrates the labor.\n\nClaude ran over 40 specialized subagents across the pipeline:\n• Research & Verification: A 31-agent workflow harvested SF tech culture, live memes, and longevity lore. Every claim was fact-checked by an independent verifier agent.\n• The Writers’ Room: 4 lyricists competed across different axes (Density, Tension, Hook, and Fashion). Judge agents scored them, an aggregator merged the top lines, and a critic pass refined the meter.\n• The Director Swarm: 3 director agents storyboarded the song independently (Fashion Film vs. Narrative vs. Meme Density). A head director merged them into 141 shots across 9 chapters.\n• Chapter Animators: Dedicated animator agents wrote JavaScript animation code chapter by chapter, while an art-director agent reviewed rendered frames and requested fixes in a tight feedback loop.\n\nHuman input across the entire 19 hours? About 50 short messages.\n\n2. THE UNIVERSAL CLOCK: Word-Level Forced Alignment\n\nBefore generating a single pixel of video, anabology established a strict mathematical timebase.\n\nAfter Suno v6 generated the 5:06 electroclash track (which subtly accelerates from 131.5 to 133.9 BPM), the audio was processed locally on an RTX 3090 Ti:\n• Stems separated via htdemucs\n• Beat map extracted\n• Word-level forced alignment generated via wav2vec2 (producing exact millisecond start and end timestamps for every single syllable)\n\nEvery camera cut, kinetic typography strobe, and scene transition across all 141 shots was locked directly to this timecode grid.\n\n3. SOLVING CHARACTER CONSISTENCY WITHOUT REFERENCE IMAGES\n\nMidjourney v8.2 lacks native --oref support. Maintaining a recognizable protagonist across 130 plates seemed impossible, so three methods were tested:\n1. GPT-image identity passes: The aesthetic drifted away from Midjourney’s photographic texture.\n2. Face-sheet image prompts (--iw 0.5): Caused severe over-conditioning (producing a close-up-sized head awkwardly pasted onto distant bodies).\n3. The Solution: A Strict Written Canon + Demographic Anchor\n\nThe winning formula was defining her identity entirely in text:\n\"a young Caucasian American woman with pale skin and light freckles, black blunt jaw-length bob, one clay-orange streak, an eight-pointed clay spark hair clip, headset microphone, white cropped puff-sleeve shirt, black pleated coated-nylon skirt with harness belt and garment tag, knee boots.\"\n\nBy hardcoding this exact canonical description into every prompt alongside a consistent visual syntax (\"blue-black and steel blue, one small red status lamp as the only warm light, fine silver grain, cinematic 35mm film still, no text, no letters, no logos\"), Midjourney held character identity across all 130 plates without face swaps or LoRAs.\n\n4. THE SEEDANCE DRIFT-DETECTION HACK\n\nThe most innovative engineering breakthrough in the project solved AI lip-sync drift.\n\nWhen feeding an image plate and audio slice to Seedance 2.5, Seedance re-encodes the reference audio into its own soundtrack. When lip-sync fails, it is because Seedance's internal audio drifted from the input.\n\nanabology realized this and wrote an automated validation script:\n1. Seedance generated the shot.\n2. The script compared Seedance's returned soundtrack against the master vocal using spectral cross-correlation.\n3. The moment correlation dropped below a threshold, the script cut the shot on the last preceding eighth note.\n4. A continuation clip was automatically launched starting from that exact frame to cover the rest of the bar.\n\n86% of all sung seconds were mathematically verified in sync on the first pass (with LatentSync as a fallback). Total video gen cost: $93 for 91 submissions (421 seconds of 720p footage).\n\n5. DETERMINISTIC CODE ON TOP OF THE PLATE: Frame = f(t)\n\nWhy do the typography and UI graphics look razor-sharp instead of morphing like normal AI video?\n\nBecause they were never generated by an AI video model.\n\nThe video models (Seedance / Midjourney) only provided the background \"plate.\"\n\nThe meaning—kinetic typography, garment tags, split-flap countdowns, and object-tracking boxes (tracked via Grounding DINO)—was drawn by a custom JavaScript engine running in Headless Chromium (HTML5 Canvas + WebGL print pass).\n\nEvery single frame was a pure mathematical function of time:\nFrame = f(t)\n\nNo guessing, no flickering, no hallucinated spelling errors.\n\n6. POST-COLORIZATION: Rescuing Washed-Out Generations\n\nWhen Seedance clips generated from monochrome frames returned desaturated and grey, anabology did not re-roll.\n\nThey used Exemplar-Based Video Colorization (Deep Exemplar, CVPR 2019), using the shot's original full-color Midjourney plate as the color exemplar.\n\nThe rule: Keep generation inputs in color, and apply artistic grading in post.\n\n7. THE FULL PRODUCTION BALANCE SHEET\n\n• Song: Suno v6 (1 full take, 5:06.4 at 131.5 -> 133.9 BPM)\n• Plates: Midjourney v8.2 (188 prompts, 636 images, 130 plates used)\n• Moving Video: Seedance 2.5 (91 submissions, 421s generated) -> $93\n• Agents & Code: Claude Opus 5.5 (1.4B tokens, 96% prompt-cache reads) -> $626 API equivalent\n• Final Render: Headless Chromium (7,354 frames, 1080p CRF 16 master) -> ~63 min local render\n• Total Investment: 19 Hours Wall-Clock Time, ~$720 total compute\n\nTHE BIG LESSON: Taste is the Moat\n\nEscape Velocity is proof that prompt engineering is dead. The new discipline is Creative Systems Engineering:\n• Log and quantify your taste profile\n• Run swarms of agents in parallel to draft, verify, criticize, and code\n• Use AI for visual plates, but use deterministic code for meaning and typography\n• Let the human spend 100% of their energy on high-leverage taste decisions\n\nFull credit to @anabology for open-sourcing the blueprints. Study this pipeline. (some of this analysis might be correct, lol)",
-"likeCount": 6,
-"retweetCount": 0,
-"url": "https://x.com/adrianscottcom/status/2104625088997855458",
-"createdAt": "Mon Sep 28 17:31:37 +0000 2026"
+"userName": "WUFang40615703",
+"text": "🎉 Five papers accepted at NeurIPS 2026!\n\nExcited to share our work across protein design, RNA design and evaluation, efficient LLM agents, and multimodal safet\nHere’s what we explored 👇\n\n🧬 1 | Grounding protein generation in physics\n<Equivariant Force Field Calibration for Flow-based Protein Design>\n\nGenerative models can produce protein structures quickly—but physical plausibility remains a critical challenge.\n\nThis work combines differentiable force-field guidance with consistency-based training to calibrate flow models toward low-energy, sterically valid conformations. Across full-atom generation and peptide binder modeling, we improve physical plausibility and geometric stability while enabling sampling with very few steps.\n\n🧪 2 | Learning RNA design preferences from physical feedback\n<Pareto Preference Optimization for Structure- and Stability-Aware RNA Inverse Folding>\n\nRNA design requires satisfying several objectives together: structural fidelity, local accuracy, and thermodynamic stability. Optimizing one metric can create shortcuts that undermine the others.\n\nWe introduce RiboPO, a preference optimization framework that constructs preferences through Pareto comparisons, uses structural gates to guard against compositional reward hacking, and fine-tunes an RNA inverse-folding model using DPO.\n\n📄 Earlier preprint:\nhttps://t.co/vaCxwPzlid\n\n💻 Code (anonymous review repository):\nhttps://t.co/QGvWWAzJGt\n\n🔍 3 | Testing whether RNA design scores deserve our trust\n<Multi-Oracle Agreement Reveals the Limits of Self-Consistency Evaluation in RNA Design>\n\nWhat happens when the predictor used to optimize a sequence is also used to evaluate it? Across approximately 11,000 RNA designs, we find that 78.1% of designs from single-objective optimization pass one predictor yet fail another. Ensemble-based methods reduce this disagreement substantially.\n\nWe introduce ACCORD, an evaluation workflow that combines independent predictors and calibrates their disagreement against experimental chemical-mapping data.\n\n📄 Paper:\nhttps://t.co/9aaIHcUNnj\n\n💻 Code (anonymous review repository):\nhttps://t.co/ABGhHfbEMd\n\n⚡ 4 | Making LLM agents more efficient by changing how they act\n<Latent Action Reparameterization for Efficient Agent Inference>\n\nAgent inference cost depends on both the cost of each decision and the number of decisions required.\n\nLAR learns compact, executable latent actions from recurring patterns in agent trajectories. This shortens the effective decision horizon, reducing action tokens and inference time while maintaining or improving task success across the evaluated benchmarks.\n\n📄 Paper:\nhttps://t.co/UneHr0ue8q\n💻 Code:\nhttps://t.co/Oq6qq9jxH6\n\n🛡️ 5 | Understanding the safety implications of thinking with images\n<When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness?>\n\nAs vision-language models increasingly reason through visual operations and external tools, their inference pipelines become part of the safety question.\n\nAcross the evaluated models, explicit image-tool interaction reduces jailbreak success by around 30% relative on average. Representation analyses and activation interventions support an account in which tool invocation shifts hidden states toward a safety-relevant direction.\n\n📄 Paper:\nhttps://t.co/bCsVQQIS5E\n\nHuge thanks to my coauthors, advisors, and collaborators for making this work possible!\n#NeurIPS2026 #AIforScience #ProteinDesign #RNADesign #LLMAgents",
+"likeCount": 28,
+"retweetCount": 5,
+"url": "https://x.com/WUFang40615703/status/2106055866676101126",
+"createdAt": "Fri Oct 02 16:17:01 +0000 2026"
 },
 {
-"userName": "ArifAhmedITL",
-"text": "👑 EVERY INDUSTRY HAS ITS KING.\n\nEvery generation has people who didn’t just enter an industry — they changed the direction of it.\n\n💻 Technology — @BillGates \nBuilt Microsoft and helped put personal computing into homes and businesses around the world.\n\n📱 Innovation — @SJobs_Stories\nCo-founded Apple and helped redefine personal technology through products like the Mac, iPod, iPhone and iPad.\n\n📦 E-Commerce — @JeffBezos\nStarted Amazon and transformed the way people think about online shopping, logistics and cloud infrastructure.\n\n🚀 Space & EVs — @elonmusk \nBuilt companies such as SpaceX and Tesla around ambitious goals in space technology and electric vehicles.\n\n💰 Investing — @WarrenBuffett \nBuilt Berkshire Hathaway into one of the world's most recognized investment companies through a long-term approach to business and capital allocation.\n\n🏀 Sports — @michaelb4jordan \nBecame one of basketball's most influential athletes and built a global business legacy around the Jordan brand.\n\n🎬 Entertainment — @DisneyStudios \nCreated an entertainment company that grew from animation into one of the world's most recognizable media and entertainment ecosystems.\n\n👗 Fashion — Coco Chanel\nChanged modern fashion through designs and a brand that became globally influential.\n\n🏪 Retail — @SamWalton \nFounded Walmart and developed a retail model focused heavily on scale, distribution and everyday low prices.\nThese people came from different industries.\n\nDifferent backgrounds.\nDifferent strategies.\nDifferent challenges.\nBut there was one common idea:\n\n🔥 They didn't just follow the industry. They built something that could move the industry forward.\n\nAnd now, in the era of Web3, Human Networks, AI, Digital Assets, Payments and Real-World Assets, a new generation of builders is working on what comes next.\n\n🌐 @kv_interlink — Co-Founder of InterLink Labs & Chairman of the InterLink Foundation\nKV has been involved in building InterLink from its early stages, and today serves as Chairman of the InterLink Foundation. The Foundation describes its mission around democratizing digital asset ownership, expanding global access, and developing InterLink toward payments and real-world asset infrastructure.\n\nHis current role is not simply about building another product.\n\nIt's about helping shape a long-term ecosystem.\n\n🌍 1 Billion people.\n💳 Global payments.\n🏢 Real-world assets.\n🤖 AI integration.\n🔗 A human-centric blockchain ecosystem.\n\nThe Foundation itself describes its long-term vision as making digital asset ownership more accessible and transforming InterLink into an ecosystem for global payments and tokenized businesses.\n\nOf course, no builder can predict the future with certainty.\n\nBut history teaches us something important:\n\nThe biggest industries were not built overnight.\n\nThey were built by people who kept working when the vision was still difficult to understand.\n\nToday, we are watching the early chapters of another technological era.\n\nAnd I believe the people building during these early days will be remembered for what they created — not simply for what they talked about.\n\n👑 Every industry has its kings.\n\n🌐 Web3 is still writing its history.\n\nAnd InterLink is building its chapter.\n\n@inter_link @itl_fdn @miratang16 @reina_itl @KTimmering @Dr_Picoin @VyxCrypto629 \n\n#InterLink #ITL #ITLG #Web3 #Blockchain #HumanNetwork #Innovation #Future #AI #DigitalAssets",
-"likeCount": 116,
-"retweetCount": 36,
-"url": "https://x.com/ArifAhmedITL/status/2105625256656617812",
-"createdAt": "Thu Oct 01 11:45:56 +0000 2026"
+"userName": "Zen_with_AI",
+"text": "第1003期 小路和你读AI论文。今日4篇高质量论文。\n\n1. 𝗙𝗶𝗻𝗲𝘁𝘂𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗦𝗮𝗺𝗽𝗹𝗶𝗻𝗴: 𝗦𝗙𝗧 𝗟𝗲𝗮𝗿𝗻𝘀 𝗕𝗲𝘁𝘁𝗲𝗿 𝗧𝗵𝗮𝗻 𝗬𝗼𝘂 𝗧𝗵𝗶𝗻𝗸（《带采样的微调：SFT 比你想的更会学》）\n\n链接：https://t.co/QXVXbqz5hu\n\n作者背景：Aayush Karan, Sitan Chen, Yilun Du, Harvard\n\n不改损失，用 MCMC 把离策略专家轨迹逐步改写成更接近参考模型的在策略分布，SFT 在泛化与遗忘上就能比肩强在策略后训练。实验覆盖科学技能、数学推理和开放式专长。采样本身可以当作后训练原语，这会动摇\"保能力必须上 RL\"的默认做法，做后训练的人值得细看。\n\n2. 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗙𝗶𝘁: 𝗠𝗼𝗱𝗲𝗹-𝗛𝗮𝗿𝗻𝗲𝘀𝘀 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀（《找到合适的搭配：跨 Agent 任务的模型与 Harness 交互》）\n\n链接：https://t.co/txmUWsp8E5\n\n作者背景：Yixuan Li, Bo An 等\n\n模型、harness 与任务必须放在一起评，强模型和厂商自有脚手架都不会稳定领先。66 组配置横跨 OpenHands、DeepSeek Harness、PI、openJiuwen 与三项命令行 agent 基准。Terminal-Bench 4 上，Claude 在 OpenHands 中领先 GPT 7.94 分，在 PI 中落后 30.16 分，五个模型里有四个的最优 harness 随基准改变。作者发布了适配器、评测代码和 6,204 条轨迹，部署 agent 的人可以直接拿来做选型证据。\n\n3. 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀（《分层连续扩散语言模型》）\n\n链接：https://t.co/dC0fv3j4PU\n\n作者背景：Alexander Schwing（UIUC）等\n\n让连续潜变量成为唯一持续生成状态，token 每步读出并回馈，以缓解离散扩散并行解码时的独立采样断裂。训练目标来自 token 似然的变分界，同规模下在 Sudoku、Countdown 和 LM1B 上优于离散与连续扩散基线。做扩散语言模型的人可以看看它是否真正保住了并行解码中的 token 依赖。\n\n4. 𝗘𝘃𝗲𝗿𝘆 𝗔𝗯𝗹𝗮𝘁𝗶𝗼𝗻 𝗜𝘀 𝗮 𝗗𝗼𝘀𝗲: 𝗖𝗼𝘂𝗻𝘁𝗲𝗿𝘄𝗲𝗶𝗴𝗵𝘁𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗦𝗲𝗺𝗯𝗹𝗮𝗻𝗰𝗲 𝗼𝗳 𝗦𝗲𝗹𝗳-𝗥𝗲𝗽𝗮𝗶𝗿（《每次消融都是一剂药：反权重与\"自修复\"的假象》）\n\n链接：https://t.co/IzLv2zqidD\n\n消融后看似补偿的响应，多半来自干预前就存在的反权重，它们随对比强度作仿射响应，与临时自我修复无关。在事实判决任务上，Gemma、Qwen、LLaMA、Mistral 的 81 个下游方向中有 68 个服从该仿射律。GPT-2 Small 的 IOI 电路里，干预能触及的 10 个头有 7 个符合，且全是反权重，斜率还能由固定权重预先估计。做机制可解释性的人可以拿它校准对自修复的判断。",
+"likeCount": 14,
+"retweetCount": 5,
+"url": "https://x.com/Zen_with_AI/status/2106405977683886310",
+"createdAt": "Sat Oct 03 15:28:14 +0000 2026"
 },
 {
-"userName": "Zayan5754",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/vNUdqKnuEe — Free research papers\n2. https://t.co/ZErr7sllVN — Borrow books online\n3. https://t.co/Bt6lcvgA5i — Free academic journals\n4. https://t.co/SkRBaX479F — 70K+ free books\n5. https://t.co/y9erPtKxjK — Free textbooks\n6. https://t.co/VzbxcXupFV — Free online courses\n7. https://t.co/rLO1l5b7xP — Solve complex problems\n8. https://t.co/uPJJ89n06k — AI research assistant\n9. https://t.co/irtbHhJCTD — Research-backed AI answers\n10. https://t.co/tNccE88RWx — Find research connections\n11. https://t.co/XQ8L41Cyq0 — Academic search engine\n12. https://t.co/BFeRftCJQt — Understand research papers easily\n13. https://t.co/eEIEAAL3bU — Free Photoshop alternative\n14. https://t.co/vw5BAmt7oW — Compress & optimize images\n15. https://t.co/hWJ7Dg5MVL — Remove image backgrounds\n16. https://t.co/ikgZ4VEspT — Remove objects from photos\n17. https://t.co/Om3rLy7gfg — Remove video backgrounds\n18. https://t.co/ui8u4xfC5O — Beautiful code images\n19. https://t.co/GQmy3zUCjj — Share elegant code screenshots\n20. https://t.co/rWrjltAy8R — AI search engine for developers\n21. https://t.co/yZxASerd9y — Test and debug regex\n22. https://t.co/VwtFgJXJiQ — Format & clean code\n23. https://t.co/ql8lTrD48b — Format & validate JSON\n24. https://t.co/f1Yt6ggEqQ — Understand terminal commands\n25. https://t.co/g3Tuy4Jgxt — Stunning product mockups\n26. https://t.co/eUbfqy273l — Powerful online mockup generator\n27. https://t.co/kTI1KNpqP1 — Find alternatives to any app\n28. https://t.co/KZravgL4PA — Check data breaches\n29. https://t.co/Zq8EPZnmbg — Scan files & URLs for malware\n30. https://t.co/wTQmvaTFGO — Self-destructing text notes\n31. https://t.co/yOViKQ6NJf — Disposable temporary email\n32. https://t.co/hXFhCIpQQe — 10-minute temporary email\n33. https://t.co/AKWZdPLbGX — Temporary & secure file sharing\n34. https://t.co/wCBf82UpTC — Explore global live radio\n35. https://t.co/9WaCus4lEo — Discover similar music & artists\n36. https://t.co/NvVDr22yHn — Find songs from movies & shows\n37. https://t.co/WyK0r3kqtW — Focus music for coding\n38. https://t.co/52n5FeuOkR — Custom background sounds\n39. https://t.co/3y2nD0gsrg — Ambient café sounds for productivity\n40. https://t.co/bnmEy410EQ — Find where to stream movies\n41. https://t.co/yGaEV1BXWk — The internet’s digital library\n42. https://t.co/zulBrBBExv — Create a personal copy of any webpage\n43. https://t.co/Wg1dan2oj4 — Find related websites\n44. https://t.co/TFUbCsnHbE — AI YouTube video summaries\n45. https://t.co/MWSiPwGxam — Ultimate smart bookmark manager\n46. https://t.co/jh2SIJqZTc — Check real-time service outages\n47. https://t.co/jvIOG1NzaJ — Smart reverse image search\n48. https://t.co/Cx8nskaqDI — Quick internet speed test\n49. https://t.co/2U19NTM3rs — All-in-one PDF tools\n50. https://t.co/qMBtSMruLB — Merge, split & convert PDFs\n\nSave this. You’ll definitely need some of these later! 🔖\nFollow @Zayan5754 for more useful websites, AI tools & tech resources.",
-"likeCount": 122,
-"retweetCount": 68,
-"url": "https://x.com/Zayan5754/status/2106034776717377685",
-"createdAt": "Fri Oct 02 14:53:13 +0000 2026"
+"userName": "sakhil_ai",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/7UfMlirtW2 — Free research papers\n2. https://t.co/Mm6BkKJjFY — Borrow books online\n3. https://t.co/04H5o9ezsa — Free academic journals\n4. https://t.co/Qcusd2g7jk — 70K+ free books\n5. https://t.co/QAP2Niaw14 — Free textbooks\n6. https://t.co/bRj3S4gzTm — Free online courses\n7. https://t.co/ZLQBEnsILg — Solve complex problems\n8. https://t.co/MSc7SunqCk — AI research assistant\n9. https://t.co/tvv9O27mvm — Research-backed AI answers\n10. https://t.co/AkwutxBIcJ — Find research connections\n11. https://t.co/kAw2LOMjtz — Academic search engine\n12. https://t.co/jlX2MC7zct — Understand research papers easily\n13. https://t.co/59uHkNZPJT — Free Photoshop alternative\n14. https://t.co/15svHKWIIH — Compress & optimize images\n15. https://t.co/dExscX9q2Q — Remove image backgrounds\n16. https://t.co/E1QnTgyrrl — Remove objects from photos\n17. https://t.co/wzXMkv5nss — Remove video backgrounds\n18. https://t.co/AWF3B79Jmg — Beautiful code images\n19. https://t.co/2aikyAi9el — Share elegant code screenshots\n20. https://t.co/8ScTcFOZCY — AI search engine for developers\n21. https://t.co/vzSP6zhlUG — Test and debug regex\n22. https://t.co/rQBQnBwVsC — Format & clean code\n23. https://t.co/JZ8QizpE9n — Format & validate JSON\n24. https://t.co/9kEYRn41GQ — Understand terminal commands\n25. https://t.co/aO8E8Ia1wc — Stunning product mockups\n26. https://t.co/xb3BO66S4b — Powerful online mockup generator\n27. https://t.co/S8JMDBRsLY — Find alternatives to any app\n28. https://t.co/Epbbuw7WAO — Check data breaches\n29. https://t.co/GAcQiS9jzq — Scan files & URLs for malware\n30. https://t.co/3PXvcan8Wo — Self-destructing text notes\n31. https://t.co/jtoWBioYGq — Disposable temporary email\n32. https://t.co/c3zYmO9ER4 — 10-minute temporary email\n33. https://t.co/6BeWqQXksQ — Temporary & secure file sharing\n34. https://t.co/jQJH3udaoO — Explore global live radio\n35. https://t.co/egXJksnwSu — Discover similar music & artists\n36. https://t.co/6isMCzjz3M — Find songs from movies & shows\n37. https://t.co/NUe3cwzQjU — Focus music for coding\n38. https://t.co/NTqRO07TTj — Custom background sounds\n39. https://t.co/ltBUGWMR3X — Ambient café sounds for productivity\n40. https://t.co/EZxq2IPXzI — Find where to stream movies\n41. https://t.co/7mOckhA1C7 — The internet’s digital library\n42. https://t.co/MplB9iGw5D — Create a personal copy of any webpage\n43. https://t.co/YzOkqPYTvm — Find related websites\n44. https://t.co/WQkha8ZPkk — AI YouTube video summaries\n45. https://t.co/RrHya3YcxK — Ultimate smart bookmark manager\n46. https://t.co/eag7AiTg4I — Check real-time service outages\n47. https://t.co/kr3HWYapJQ — Smart reverse image search\n48. https://t.co/UmLNm2iAVj — Quick internet speed test\n49. https://t.co/k3CWKNsped — All-in-one PDF tools\n50. https://t.co/yKpiC7BLON — Merge, split & convert PDFs\n\nSave this. You’ll definitely need some of these later! 🔖\n\nFollow\n@sakhil_ai\nfor more useful websites, AI tools & tech resources.",
+"likeCount": 179,
+"retweetCount": 85,
+"url": "https://x.com/sakhil_ai/status/2106402637960950000",
+"createdAt": "Sat Oct 03 15:14:58 +0000 2026"
 },
 {
-"userName": "arena",
-"text": "How to design rewards for post-training frontier image models? \n\nOur research suggests human preference reward is necessary, but insufficient: A preference model may still reward outputs that look appealing but miss details, introduce unrequested content, or exhibit other forms of reward-hacking.\n\nWe therefore optimize towards a composite reward:\n- Bradley-Terry reward model trained on ~5.6M pairwise human votes\n- Faithfulness reward from auto-generated prompt checklists evaluated by a vision-language model\n- Constraint reward covering explicit and implicit user intent\n- Anti-reward-hacking rubric rewards targeting failures such as garbled text and photorealism drift\nThis post-training recipe improves two already-strong open image models:\n- Post-trained FLUX.2-dev gains 69 Elo points on our live T2I leaderboard, scoring 1202\n- Post-trained Ideogram 4 gains 20 Elo points reaching a score of 1224 and surpassing all publicly listed open models (as of Sep 04, 2026).\n\nOffline ablations with Gemini 3.5 Flash as the judge, show that these reward components are complementary: win rate against the base model increases as we add faithfulness and then constraint rewards on top of preference-only training, reaching 64.2%.\n\nFinally, we ensemble policies trained with and without the anti-reward-hacking objective directly in weight space, further increasing win rate to 66.0%.",
-"likeCount": 131,
-"retweetCount": 13,
-"url": "https://x.com/arena/status/2106037792870649995",
-"createdAt": "Fri Oct 02 15:05:12 +0000 2026"
+"userName": "OpenBMB",
+"text": "A reward of “3” can mean two completely different things.\nEveryone thinks a response is mediocre — or half the people love it while the other half hate it.\nMost Reward Models cannot tell the difference.\nIntroducing Diffusion Reward Models (DRM): instead of collapsing human preference into a single score, DRM learns the full reward distribution, preserving disagreement, uncertainty, and multiple plausible judgments.\n✨ Paper:https://t.co/wS1fmHBeRV  \n🤗 Models: https://t.co/RGTU759A5y  \n💻 GitHub: https://t.co/KAow6DcoNn\n\nWhy it matters:\nHuman disagreement is structured, not just noise. On datasets with repeated annotations, judgments often form separated or polarized patterns. More importantly, as human disagreement increases, DRM’s learned reward distribution becomes increasingly multimodal.\n\nThe distribution is useful, not just descriptive. DRM can use distributional uncertainty to identify unstable reward decisions, and distribution-aware ranking improves Best-of-N selection beyond simply taking the mean reward.\n\nReward Models get their own test-time scaling. Instead of only spending more compute on generating more responses, DRM can keep the response fixed and sample its reward distribution more times. More reward samples give a more reliable estimate — a new scaling axis unavailable to deterministic scalar RMs.\n\nAnd the gains survive RLHF. When used as the training-time reward, DRM improves downstream policy performance over scalar reward baselines, showing that the benefit is not limited to offline RM benchmarks.\n\nThe takeaway: Reward modeling may lose something important when it compresses every human judgment into one number.\n“Everyone thinks this is average” and “people strongly disagree about this” should not look identical to a Reward Model.\nDRM makes that difference visible — and usable.",
+"likeCount": 31,
+"retweetCount": 4,
+"url": "https://x.com/OpenBMB/status/2105281510928458150",
+"createdAt": "Wed Sep 30 13:00:01 +0000 2026"
 },
 {
 "userName": "rirahcreates",
 "text": "1. STOP TRYING TO DO EVERYTHING.\n\nAI content creation is ridiculously broad.\n\nAnd one of the biggest mistakes I see beginners make is trying to learn everything at once.\n\nToday you’re creating AI ads.\n\nTomorrow you’re creating music videos.\n\nThe next day you’re doing AI influencers.\n\nThen animation.\n\nThen storytelling.\n\nThen product photography.\n\nThen motion graphics.\n\nThen podcasts.\n\nBefore you know it, you’ve touched 15 things and mastered absolutely nothing.\n\nEven something like AI advertising has sub-niches.\nYou could specialize in:\n\nUGC ads, cinematic commercials, product ads, fashion ads, real estate ads, food ads, storytelling commercials, e-commerce ads…\n\nThe same applies to AI storytelling, AI music, image generation and almost every other category.\n\nPick something.\n\nBecome ridiculously good at it.\n\nGive yourself at least 90 days of focused execution before deciding it isn’t working.\n\nYou don’t need to become known for everything.\n\nYou need people to associate your name with something.",
-"likeCount": 7,
+"likeCount": 9,
 "retweetCount": 0,
 "url": "https://x.com/rirahcreates/status/2105530155250704400",
 "createdAt": "Thu Oct 01 05:28:02 +0000 2026"
@@ -42,71 +42,71 @@
 {
 "userName": "HBX_hbx",
 "text": "[1/n] Introducing Diffusion Reward Models (DRM)\n\nReward Models are at the core of LLM post-training. But almost all of them make the same simplification:\nthey collapse human preference into a single score.\n\nThe problem is that human feedback is often not a point — different people can hold distinct, even conflicting, judgments about the same response.\n\nSo we asked: Can a Reward Model learn the distribution of human preference?\n\nHere’s what we found 👇\n\n📄 Paper: https://t.co/e0EMNa3I64\n💻 Code: https://t.co/KVosB5D5PI\n🤗 Models: https://t.co/wwdDpOtgbL",
-"likeCount": 348,
-"retweetCount": 45,
+"likeCount": 352,
+"retweetCount": 47,
 "url": "https://x.com/HBX_hbx/status/2104779296640467452",
 "createdAt": "Tue Sep 29 03:44:23 +0000 2026"
 },
 {
-"userName": "HBX_hbx",
-"text": "[2/n] Our answer is DRM: model rewards as distributions.\n\nInstead of predicting a scalar, DRM replaces the conventional value head with a lightweight Diffusion Reward Head.\n\nGiven a prompt-response pair, it generates samples from the reward distribution.\n\nSo disagreement, uncertainty, and multiple plausible judgments can remain in the reward itself, rather than being averaged away.\n\nAnd the same framework works with both multi-attribute rewards and pairwise preferences.",
-"likeCount": 10,
-"retweetCount": 1,
-"url": "https://x.com/HBX_hbx/status/2104779301468192788",
-"createdAt": "Tue Sep 29 03:44:25 +0000 2026"
+"userName": "Shelly_Golan1",
+"text": "Excited to share that our paper \"ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control\" has been accepted to @NeurIPSConf as an oral! 🎉\n\nParetoSlider enables continuous inference-time control over competing reward trade-offs with a single diffusion model, without retraining or maintaining multiple checkpoints.\n\nHuge thanks to the great team @mikikiFin, @ArielBAMath, @YotamNitzan, @OPatashnik \n\nPaper: https://t.co/jWyTpYUiaV\nProject page: https://t.co/HjToAYSvjp\nCode: https://t.co/yVVZk6DKKR",
+"likeCount": 62,
+"retweetCount": 14,
+"url": "https://x.com/Shelly_Golan1/status/2105342543479066732",
+"createdAt": "Wed Sep 30 17:02:32 +0000 2026"
 },
 {
-"userName": "JeanninePennArt",
-"text": "Have you ever wanted to design your own fashion pieces? I built a collection — garments, patterns, accessories, &amp; more — entirely in @AdobeFirefly. Here's how it came together\nTry it yourself → https://t.co/npUb2VOi8N\n#AdobeFireflyAmbassadors #Ad https://t.co/1XXIva854U",
-"likeCount": 23,
-"retweetCount": 5,
-"url": "https://x.com/JeanninePennArt/status/2104846185446224298",
-"createdAt": "Tue Sep 29 08:10:11 +0000 2026"
+"userName": "EvanKirstel",
+"text": "ChatGPT now has virtual try on for clothes and accessories, plus a Favorites feature to save products. Shopping is turning into a conversation. Retailers need product data that AI assistants can read and act on, because that is where customers will be browsing. Let's discuss @OpenAI on @techimpactTV\nhttps://t.co/aSUtouTtqe",
+"likeCount": 5,
+"retweetCount": 3,
+"url": "https://x.com/EvanKirstel/status/2106220193085264338",
+"createdAt": "Sat Oct 03 03:10:00 +0000 2026"
 },
 {
-"userName": "junfanzhu98",
-"text": "🤖 @saturdayrobotic &amp; World Model Reading Club #30: What Scale Not Fix: Representation &amp; Architecture in Robot Manipulation+Omni-Reason Video Model\n🧠 @DengHokin (@CarnegieMellon)\n✋ Elijah Ong (@DevolRobots) https://t.co/ACKrHWRu9Y",
-"likeCount": 17,
-"retweetCount": 4,
-"url": "https://x.com/junfanzhu98/status/2104087041764217276",
-"createdAt": "Sun Sep 27 05:53:37 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "would love to see what the microduck production and assembly line looks like! \n\nOur next robot should have arms so that it can participate in the production of microducks 😅😅😅",
-"likeCount": 150,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2105358669974212934",
-"createdAt": "Wed Sep 30 18:06:37 +0000 2026"
+"userName": "Deeen_Codes",
+"text": "hackers should be busy\ndev should be busy\nbuilders should be busy\n\nOctober is suppose to be busy for y'all \n\ngo check the list and start building https://t.co/gqKb28blTo",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/Deeen_Codes/status/2106650934260457483",
+"createdAt": "Sun Oct 04 07:41:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Davidstout: Half a million downloads in a month. Today, our open source family takes another step forward. \n\nThank you for the incredib…",
-"likeCount": 550,
-"retweetCount": 162,
-"url": "https://x.com/ClementDelangue/status/2105463257465000213",
-"createdAt": "Thu Oct 01 01:02:12 +0000 2026"
+"text": "RT @Thom_Wolf: Karpathy: disappears from X\n Ben Affleck: alright, gather round, so you'll want to freeze the base weights first, learning r…",
+"likeCount": 7740,
+"retweetCount": 375,
+"url": "https://x.com/ClementDelangue/status/2106002737280245901",
+"createdAt": "Fri Oct 02 12:45:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @huggingface: The same model, with the same weights, scores 62% in one agent harness and 33% in another.\n\n@adithya_s_k and the @huggingf…",
-"likeCount": 529,
-"retweetCount": 78,
+"likeCount": 961,
+"retweetCount": 131,
 "url": "https://x.com/ClementDelangue/status/2106034304841113832",
 "createdAt": "Fri Oct 02 14:51:21 +0000 2026"
 },
 {
-"userName": "tborges77",
-"text": "My experience with OpenClaw, Hermes, Muse, dot, Instinct and Fo, and why proactivity is the part I’m still waiting for. https://t.co/RByAcNRhPw",
-"likeCount": 10,
-"retweetCount": 0,
-"url": "https://x.com/tborges77/status/2106172262869053877",
-"createdAt": "Fri Oct 02 23:59:32 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Hesamation: babe, wake up.\n\nHugging Face just dropped a new banger article about RL training coding agents on different harnesses. http…",
+"likeCount": 334,
+"retweetCount": 27,
+"url": "https://x.com/ClementDelangue/status/2106067846539120656",
+"createdAt": "Fri Oct 02 17:04:38 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Decision models now run on device in llama.cpp. Free, fast, private!\n\nllama serve -hf ggml-org/Kev-4B-GGUF https://t.co/ApnQQaKB4Z",
+"likeCount": 1363,
+"retweetCount": 122,
+"url": "https://x.com/ClementDelangue/status/2106037207631008033",
+"createdAt": "Fri Oct 02 15:02:53 +0000 2026"
 },
 {
 "userName": "metavestor",
 "text": "The universe of bio x AI broken down by ticker and subtheme for investors. Bracing for another exponential https://t.co/XQj3mT35DE",
-"likeCount": 100,
+"likeCount": 103,
 "retweetCount": 10,
 "url": "https://x.com/metavestor/status/2105290623926554864",
 "createdAt": "Wed Sep 30 13:36:13 +0000 2026"
@@ -114,8 +114,8 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @kim__minseon: It is here now ! Enjoy our 4B model 🐸\nhttps://t.co/ST3963rJa2",
-"likeCount": 177,
-"retweetCount": 14,
+"likeCount": 381,
+"retweetCount": 24,
 "url": "https://x.com/ClementDelangue/status/2106186464128287026",
 "createdAt": "Sat Oct 03 00:55:58 +0000 2026"
 }
