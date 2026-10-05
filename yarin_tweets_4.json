@@ -1,5 +1,13 @@
 [
 {
+"userName": "WUFang40615703",
+"text": "🎉 Five papers accepted at NeurIPS 2026!\n\nExcited to share our work across protein design, RNA design and evaluation, efficient LLM agents, and multimodal safet\nHere’s what we explored 👇\n\n🧬 1 | Grounding protein generation in physics\n<Equivariant Force Field Calibration for Flow-based Protein Design>\n\nGenerative models can produce protein structures quickly—but physical plausibility remains a critical challenge.\n\nThis work combines differentiable force-field guidance with consistency-based training to calibrate flow models toward low-energy, sterically valid conformations. Across full-atom generation and peptide binder modeling, we improve physical plausibility and geometric stability while enabling sampling with very few steps.\n\n🧪 2 | Learning RNA design preferences from physical feedback\n<Pareto Preference Optimization for Structure- and Stability-Aware RNA Inverse Folding>\n\nRNA design requires satisfying several objectives together: structural fidelity, local accuracy, and thermodynamic stability. Optimizing one metric can create shortcuts that undermine the others.\n\nWe introduce RiboPO, a preference optimization framework that constructs preferences through Pareto comparisons, uses structural gates to guard against compositional reward hacking, and fine-tunes an RNA inverse-folding model using DPO.\n\n📄 Earlier preprint:\nhttps://t.co/vaCxwPzlid\n\n💻 Code (anonymous review repository):\nhttps://t.co/QGvWWAzJGt\n\n🔍 3 | Testing whether RNA design scores deserve our trust\n<Multi-Oracle Agreement Reveals the Limits of Self-Consistency Evaluation in RNA Design>\n\nWhat happens when the predictor used to optimize a sequence is also used to evaluate it? Across approximately 11,000 RNA designs, we find that 78.1% of designs from single-objective optimization pass one predictor yet fail another. Ensemble-based methods reduce this disagreement substantially.\n\nWe introduce ACCORD, an evaluation workflow that combines independent predictors and calibrates their disagreement against experimental chemical-mapping data.\n\n📄 Paper:\nhttps://t.co/9aaIHcUNnj\n\n💻 Code (anonymous review repository):\nhttps://t.co/ABGhHfbEMd\n\n⚡ 4 | Making LLM agents more efficient by changing how they act\n<Latent Action Reparameterization for Efficient Agent Inference>\n\nAgent inference cost depends on both the cost of each decision and the number of decisions required.\n\nLAR learns compact, executable latent actions from recurring patterns in agent trajectories. This shortens the effective decision horizon, reducing action tokens and inference time while maintaining or improving task success across the evaluated benchmarks.\n\n📄 Paper:\nhttps://t.co/UneHr0ue8q\n💻 Code:\nhttps://t.co/Oq6qq9jxH6\n\n🛡️ 5 | Understanding the safety implications of thinking with images\n<When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness?>\n\nAs vision-language models increasingly reason through visual operations and external tools, their inference pipelines become part of the safety question.\n\nAcross the evaluated models, explicit image-tool interaction reduces jailbreak success by around 30% relative on average. Representation analyses and activation interventions support an account in which tool invocation shifts hidden states toward a safety-relevant direction.\n\n📄 Paper:\nhttps://t.co/bCsVQQIS5E\n\nHuge thanks to my coauthors, advisors, and collaborators for making this work possible!\n#NeurIPS2026 #AIforScience #ProteinDesign #RNADesign #LLMAgents",
+"likeCount": 29,
+"retweetCount": 5,
+"url": "https://x.com/WUFang40615703/status/2106055866676101126",
+"createdAt": "Fri Oct 02 16:17:01 +0000 2026"
+},
+{
 "userName": "ArifAhmedITL",
 "text": "👑 EVERY INDUSTRY HAS ITS KING.\n\nEvery generation has people who didn’t just enter an industry — they changed the direction of it.\n\n💻 Technology — @BillGates \nBuilt Microsoft and helped put personal computing into homes and businesses around the world.\n\n📱 Innovation — @SJobs_Stories\nCo-founded Apple and helped redefine personal technology through products like the Mac, iPod, iPhone and iPad.\n\n📦 E-Commerce — @JeffBezos\nStarted Amazon and transformed the way people think about online shopping, logistics and cloud infrastructure.\n\n🚀 Space & EVs — @elonmusk \nBuilt companies such as SpaceX and Tesla around ambitious goals in space technology and electric vehicles.\n\n💰 Investing — @WarrenBuffett \nBuilt Berkshire Hathaway into one of the world's most recognized investment companies through a long-term approach to business and capital allocation.\n\n🏀 Sports — @michaelb4jordan \nBecame one of basketball's most influential athletes and built a global business legacy around the Jordan brand.\n\n🎬 Entertainment — @DisneyStudios \nCreated an entertainment company that grew from animation into one of the world's most recognizable media and entertainment ecosystems.\n\n👗 Fashion — Coco Chanel\nChanged modern fashion through designs and a brand that became globally influential.\n\n🏪 Retail — @SamWalton \nFounded Walmart and developed a retail model focused heavily on scale, distribution and everyday low prices.\nThese people came from different industries.\n\nDifferent backgrounds.\nDifferent strategies.\nDifferent challenges.\nBut there was one common idea:\n\n🔥 They didn't just follow the industry. They built something that could move the industry forward.\n\nAnd now, in the era of Web3, Human Networks, AI, Digital Assets, Payments and Real-World Assets, a new generation of builders is working on what comes next.\n\n🌐 @kv_interlink — Co-Founder of InterLink Labs & Chairman of the InterLink Foundation\nKV has been involved in building InterLink from its early stages, and today serves as Chairman of the InterLink Foundation. The Foundation describes its mission around democratizing digital asset ownership, expanding global access, and developing InterLink toward payments and real-world asset infrastructure.\n\nHis current role is not simply about building another product.\n\nIt's about helping shape a long-term ecosystem.\n\n🌍 1 Billion people.\n💳 Global payments.\n🏢 Real-world assets.\n🤖 AI integration.\n🔗 A human-centric blockchain ecosystem.\n\nThe Foundation itself describes its long-term vision as making digital asset ownership more accessible and transforming InterLink into an ecosystem for global payments and tokenized businesses.\n\nOf course, no builder can predict the future with certainty.\n\nBut history teaches us something important:\n\nThe biggest industries were not built overnight.\n\nThey were built by people who kept working when the vision was still difficult to understand.\n\nToday, we are watching the early chapters of another technological era.\n\nAnd I believe the people building during these early days will be remembered for what they created — not simply for what they talked about.\n\n👑 Every industry has its kings.\n\n🌐 Web3 is still writing its history.\n\nAnd InterLink is building its chapter.\n\n@inter_link @itl_fdn @miratang16 @reina_itl @KTimmering @Dr_Picoin @VyxCrypto629 \n\n#InterLink #ITL #ITLG #Web3 #Blockchain #HumanNetwork #Innovation #Future #AI #DigitalAssets",
 "likeCount": 118,
@@ -8,44 +16,44 @@
 "createdAt": "Thu Oct 01 11:45:56 +0000 2026"
 },
 {
-"userName": "noahaitoolstech",
-"text": "How to use Claude in 25 different ways:\n\n(takes 60 seconds to read, saves you 60 hours)\n\n1. Bookmark this image. You'll need it tomorrow.\n2. Full guide + prompts at: https://t.co/OGlu0De9lp.\n3. Don't pay anything. It's free in the email.\n\n---\n\n1. ASK → Chat\n☑️ Quick questions. Quick answers.\n☑️ Don't use Cowork for \"write a good email?\"\n\n2. THINK → Opus 4.8\n☑️ The smartest model. Always switch to it.\n☑️ For deep work, complex writing & thinking.\n\n3. SPEED → Sonnet 4.6\n☑️ Faster, cheaper, still excellent.\n☑️ Use it for grammar, summaries, short answers.\n\n4. REASON → Extended Thinking\n☑️ Toggle it on for hard problems.\n☑️ Turn it off for simple ones (saves tokens).\n\n5. BUILD → Cowork\n☑️ Where serious work happens. .docx, .xlsx, .pptx.\n☑️ Point it at a folder. It works like an employee.\n\n6. SHIP → Claude Code\n☑️ For developers (and curious non-devs).\n☑️ Build websites and apps from your terminal.\n\n7. MODEL → Claude in Excel\n☑️ Install the add-in from the Excel store.\n☑️ Real formulas, real models, no copy-paste.\n\n8. SLIDES → Gamma connector\n☑️ One prompt. Full presentation. With research.\n☑️ Connect Gamma inside Claude.\n\n9. MOCKUP → Claude Design\n☑️ Go to claude .ai/design. Build websites in 1 hour.\n☑️ Upload a DESIGN .md. Export to Canva, PDF.\n\n10. BROWSE → Claude in Chrome\n☑️ A browsing agent. Reads any page for you.\n☑️ Acts inside the browser, not just talks about it.\n\n11. CLICK → Computer Use\n☑️ Settings > Turn it on.\n☑️ Claude clicks, types, browses on your Mac.\n\n12. REMOTE → Dispatch\n☑️ Connect your phone. Text a task.\n☑️ It works on your computer while you're away.\n\n13. SEARCH → Web Search\n☑️ Click the '+'. turn it on.\n☑️ It reads the live web before answering.\n\n14. INVESTIGATE → Research\n☑️ For deep multi-source reports.\n☑️ 13 minutes. 50+ sources. One markdown file.\n\n15. TRIGGER → Skills\n☑️ \"Use the skill-creator to build a skill for [task].\"\n☑️ Type /skill. It fires automatically.\n\n16. STACK → Plugins\n☑️ Cowork > Customize > Browse Plugins.\n☑️ Bundles of skills for marketing, legal, sales.\n\n17. PERSIST → Projects\n☑️ One Project per recurring deliverable.\n☑️ Upload one gold-standard example.\n\n18. AUTOMATE → Scheduled Tasks\n☑️ Every Monday at 7am, Claude runs your report.\n☑️ Set it up once. No manual work. \n\n19. CONNECT → Connectors\n☑️ Gmail, Drive, Slack, Notion, Granola, Calendar.\n☑️ 50+ apps. Claude reads, writes & acts inside.\n\n20. RENDER → Artifacts\n☑️ Side pane where Claude opens charts, docs.\n☑️ Interactive. Editable. Shareable.\n\n21. VOICE → Custom Styles\n☑️ Set \"Concise\" or build your own.\n☑️ Saves you from re-explaining your voice.\n\n22. SHARE → Team Projects\n☑️ Same Project. Whole team inside.\n☑️ Skills, files, instructions. Shared once.\n\n23. GUARD → Global Instructions\n☑️ Settings > Cowork > Global Instructions.\n☑️ Tell Claude what to always do.\n\n24. ORGANIZE → Obsidian Vault\n☑️ Free app. Opens your Cowork folder neatly.\n☑️ Edit files like Google Docs.\n\n25. BRIEF → about-me file.\n☑️ One md. file. Under 2,000 words.\n☑️ Your style, your rules, your voice\n\nFollow @noahaitoolstech",
-"likeCount": 14,
-"retweetCount": 9,
-"url": "https://x.com/noahaitoolstech/status/2106607893294493963",
-"createdAt": "Sun Oct 04 04:50:35 +0000 2026"
+"userName": "Zen_with_AI",
+"text": "第1003期 小路和你读AI论文。今日4篇高质量论文。\n\n1. 𝗙𝗶𝗻𝗲𝘁𝘂𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗦𝗮𝗺𝗽𝗹𝗶𝗻𝗴: 𝗦𝗙𝗧 𝗟𝗲𝗮𝗿𝗻𝘀 𝗕𝗲𝘁𝘁𝗲𝗿 𝗧𝗵𝗮𝗻 𝗬𝗼𝘂 𝗧𝗵𝗶𝗻𝗸（《带采样的微调：SFT 比你想的更会学》）\n\n链接：https://t.co/QXVXbqz5hu\n\n作者背景：Aayush Karan, Sitan Chen, Yilun Du, Harvard\n\n不改损失，用 MCMC 把离策略专家轨迹逐步改写成更接近参考模型的在策略分布，SFT 在泛化与遗忘上就能比肩强在策略后训练。实验覆盖科学技能、数学推理和开放式专长。采样本身可以当作后训练原语，这会动摇\"保能力必须上 RL\"的默认做法，做后训练的人值得细看。\n\n2. 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗙𝗶𝘁: 𝗠𝗼𝗱𝗲𝗹-𝗛𝗮𝗿𝗻𝗲𝘀𝘀 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀（《找到合适的搭配：跨 Agent 任务的模型与 Harness 交互》）\n\n链接：https://t.co/txmUWsp8E5\n\n作者背景：Yixuan Li, Bo An 等\n\n模型、harness 与任务必须放在一起评，强模型和厂商自有脚手架都不会稳定领先。66 组配置横跨 OpenHands、DeepSeek Harness、PI、openJiuwen 与三项命令行 agent 基准。Terminal-Bench 4 上，Claude 在 OpenHands 中领先 GPT 7.94 分，在 PI 中落后 30.16 分，五个模型里有四个的最优 harness 随基准改变。作者发布了适配器、评测代码和 6,204 条轨迹，部署 agent 的人可以直接拿来做选型证据。\n\n3. 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀（《分层连续扩散语言模型》）\n\n链接：https://t.co/dC0fv3j4PU\n\n作者背景：Alexander Schwing（UIUC）等\n\n让连续潜变量成为唯一持续生成状态，token 每步读出并回馈，以缓解离散扩散并行解码时的独立采样断裂。训练目标来自 token 似然的变分界，同规模下在 Sudoku、Countdown 和 LM1B 上优于离散与连续扩散基线。做扩散语言模型的人可以看看它是否真正保住了并行解码中的 token 依赖。\n\n4. 𝗘𝘃𝗲𝗿𝘆 𝗔𝗯𝗹𝗮𝘁𝗶𝗼𝗻 𝗜𝘀 𝗮 𝗗𝗼𝘀𝗲: 𝗖𝗼𝘂𝗻𝘁𝗲𝗿𝘄𝗲𝗶𝗴𝗵𝘁𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗦𝗲𝗺𝗯𝗹𝗮𝗻𝗰𝗲 𝗼𝗳 𝗦𝗲𝗹𝗳-𝗥𝗲𝗽𝗮𝗶𝗿（《每次消融都是一剂药：反权重与\"自修复\"的假象》）\n\n链接：https://t.co/IzLv2zqidD\n\n消融后看似补偿的响应，多半来自干预前就存在的反权重，它们随对比强度作仿射响应，与临时自我修复无关。在事实判决任务上，Gemma、Qwen、LLaMA、Mistral 的 81 个下游方向中有 68 个服从该仿射律。GPT-2 Small 的 IOI 电路里，干预能触及的 10 个头有 7 个符合，且全是反权重，斜率还能由固定权重预先估计。做机制可解释性的人可以拿它校准对自修复的判断。",
+"likeCount": 22,
+"retweetCount": 7,
+"url": "https://x.com/Zen_with_AI/status/2106405977683886310",
+"createdAt": "Sat Oct 03 15:28:14 +0000 2026"
 },
 {
-"userName": "maxpostingx",
-"text": "**While traditional agencies charge $10,000 a month for basic deliverables, smart creators are running their entire operation on 20 free links.**\n\nStop throwing money at overhyped subscriptions when the open web gives you everything for zero dollars.\n\nHere are 20 game changing free AI tools that will save you 20 hours every week.\n\n1. ChatGPT\nVersatile assistant for deep research writing code and brainstorming ideas.\nLink: https://t.co/fkn2i8NwqX\n\n2. Google Gemini\nSmart productivity companion that connects directly with search and docs.\nLink: https://t.co/CHhmgeRFem\n\n3. Microsoft Copilot\nAI search assistant that speeds up drafting and web browsing.\nLink: https://t.co/1zPNtW59Qy\n\n4. Claude\nAdvanced writing and analytical engine for complex long form thinking.\nLink: https://t.co/j1ksSBuWTh\n\n5. Perplexity\nReal time search engine that provides cited answers to complex questions.\nLink: https://t.co/RaVVsMzCZG\n\n6. Canva AI\nGenerates visual assets social media graphics and presentation layouts.\nLink: https://t.co/Sk6fgBZS0N\n\n7. Adobe Firefly\nProduces commercially safe high quality artwork and image edits.\nLink: https://t.co/9bofHSeuH2\n\n8. Leonardo AI\nCreates production ready concept art textures and high resolution visuals.\nLink: https://t.co/bAfgY8LbXX\n\n9. Ideogram\nGenerates detailed images with perfectly rendered typography and lettering.\nLink: https://t.co/UfJoXetZOI\n\n10. Microsoft Designer\nInstant graphic design assistant for quick marketing materials and banners.\nLink: https://t.co/rb9DsrYiw1\n\n11. CapCut AI\nAutomates video editing auto captions and viral visual effects.\nLink: https://t.co/kDLJJgxjt6\n\n12. InVideo AI\nTurns written scripts directly into fully edited videos with voiceovers.\nLink: https://t.co/oUfdu8hpzu\n\n13. ElevenLabs\nGenerates ultra realistic human voiceovers with emotion and precision.\nLink: https://t.co/FxBIxm4ore\n\n14. Suno\nCreates full studio quality songs and background music from simple text.\nLink: https://t.co/pCIuS7pjE2\n\n15. Grammarly\nFixes grammatical errors polishes writing tone and improves clarity.\nLink: https://t.co/ktg25qrDTW\n\n16. QuillBot\nRewrites complex paragraphs and summarizes long text instantly.\nLink: https://t.co/9JS62ADDGJ\n\n17. Gamma\nTransforms raw text notes into beautiful presentation decks in seconds.\nLink: https://t.co/LMik1U8B8U\n\n18. NotebookLM\nTurns your personal notes and uploaded documents into a smart research hub.\nLink: https://t.co/GBCVn3iRIO\n\n19. https://t.co/WbKzAPW7gt\nErases image backgrounds instantly with extreme edge accuracy.\nLink: https://t.co/sEr7UyLlLe\n\n20. DeepL\nDelivers natural highly accurate translations across dozens of languages.\nLink: https://t.co/XKQXtvNxKt\n\nBookmark this right now before you lose it.\n\nFollow @maxpostingx to stay ahead of the curve.",
-"likeCount": 53,
-"retweetCount": 42,
-"url": "https://x.com/maxpostingx/status/2106550750264619277",
-"createdAt": "Sun Oct 04 01:03:31 +0000 2026"
+"userName": "junfanzhu98",
+"text": "Can AI agents improve how we build AI — on real projects, at real scale?\nEarly answer: an agent-designed optimizer beat the locked AdamH baseline at every rung from 550M to 2.5B params. 👇\n\nIntroducing OpenRSI Index (Preview v0.1), co-led by the MIT-IBM Watson AI Lab and Amazon A-EVO Lab — and I'm proud to be one of its task contributors.\n🔗 Index: https://t.co/bs8nVlXfHW\n\nWhat the first runs show:\n\n🧠 Pre-training: On Marin's 550M → 2.545B scaling ladder, Codex's PSPR optimizer beat the locked AdamH control at all 6 rungs, averaging +0.60%.\n\n🎨 Text-to-image: On GPIC, starting from a shared checkpoint with one pass over the same 10M images, Claude Code cut FD-DINOv2 from 1286 → 729 (−43.3%).\n\n🎯 Post-training: On Qwen3.5-122B-A10B, 2,560 agent-generated RL tasks reached a 71.51 geomean vs 71.37 for 2,560 human-designed tasks under the same GRPO recipe, with +2.45 points on LiveCodeBench v6.\n\n🤖 Robotics: In Isaac Lab peg insertion, the agent could change only the reward. Success rose from 37.8% → 60.5% with the simulator, robot, PPO recipe and budget fixed.\n\nWhat makes OpenRSI Index different:\n1️⃣ Real research problems, not toy tasks\n2️⃣ Optimization, not reproduction\n3️⃣ Scientific discovery, not parameter sweeping\n4️⃣ Production scale: from a single H100 to 256-H100 runs\n\nThe most interesting part?\nThe biggest runs don't produce sci-fi-sized gains.\nOn the ~18K H100-hour pre-training run and the ~21K H100-hour post-training run, the improvements are only +0.60% and +0.14 points.\nAnd that's exactly why I think this matters.\n\nRecursive self-improvement probably won't arrive as one spectacular breakthrough.\nIt may look like a tiny improvement that:\n→ survives a scaling ladder\n→ survives a fixed verifier\n→ survives a controlled comparison\n→ and leaves a trajectory anyone can audit.\n\nWe need instruments precise enough to see it. That's what OpenRSI Index is trying to build.\n\nAnd an index is only as good as its tasks.\nWith RSI-Anything, you bring a real research idea. An agent helps turn it into a ready-to-run research environment in about an hour, with automated review and task building.\n\nYour idea → agent-built task → your GPUs → measurable result.\nIf accepted, contributors are invited as co-authors.\n\n🤖 Robotics / embodied-AI researchers: only 1 of the current 15 tasks is robotics.\nThat's a gap — and an opportunity.\nIf you have a real robotics research problem that could become an agentic optimization task, DM me.\n\nThe question isn't just:\n“Can AI assist research?”\nIt's becoming:\n“How much of the research loop can AI actually do?”\n\n🔗 Index: https://t.co/bs8nVlXfHW\n🤝 Contribute: https://t.co/rhNPhrwWJf\n#AI #AIAgents #RecursiveSelfImprovement #FoundationModels #Robotics #OpenScience",
+"likeCount": 9,
+"retweetCount": 3,
+"url": "https://x.com/junfanzhu98/status/2106792899656786391",
+"createdAt": "Sun Oct 04 17:05:44 +0000 2026"
 },
 {
-"userName": "hey_SpencerAI",
-"text": "1. OpenClaw — An open-source computer-use agent that can actually operate your computer.    🔗 https://t.co/d4hAWSsRj5…\n\n2. Hermes — An open-source AI agent built around persistent skills and autonomous workflows.\n🔗 https://t.co/hIHm6vZYKg…\n\n3. Agent Zero — A local, self-improving agent that can create tools and delegate subtasks.\n🔗 https://t.co/shZuORGZAn…\n\n4. Firecrawl — Turn almost any website into clean, AI-ready data for agents and research.\n🔗 https://t.co/LCOFc6I03b\n\n5. Gumloop — Build surprisingly powerful AI automations without needing to code everything yourself.\n🔗 https://t.co/F5rRAwdWMU\n\n6. Browser Use — Give an AI agent a browser and let it navigate websites and complete tasks.\n🔗 https://t.co/7nyHPAwZhR\n\n7. SurfSense — An open-source AI research/knowledge system that can connect information from different sources.\n🔗 https://t.co/FNfprgMY4D…\n\n8. Scrapybara — Give AI agents full virtual computers they can interact with.\n🔗 https://t.co/ofn4raIKZS\n\n9. Jina Reader — Turn messy webpages into clean text that AI models can actually understand.\n🔗 https://t.co/dKpCTYOahb\n\n10. AnythingLLM — Run your own private AI workspace and chat with your documents locally.\n🔗 https://t.co/IBWICTh7fD\n\n11. Open WebUI — Build a ChatGPT-like interface around local and remote AI models.\n🔗 https://t.co/Zgr5c9EGJ4\n\n12. ComfyUI — A node-based AI workflow system that lets you build extremely advanced image/video pipelines.\n🔗 https://t.co/qkf3taZoc1…\n\n13. PimEyes — AI-powered face-search technology that can find where a face appears online. Use responsibly and respect privacy.\n🔗 https://t.co/3bPtGzI6qg\n\n14. Goblin Tools — Break overwhelming tasks into tiny actionable steps with AI. Surprisingly useful despite its simple interface.\n🔗 https://t.co/rbKc1ssnsB\n\n15. Continue — An open-source AI coding environment that lets you bring your own models into your development workflow.\n🔗 https://t.co/f5ME1ZTUkN",
-"likeCount": 44,
-"retweetCount": 32,
-"url": "https://x.com/hey_SpencerAI/status/2106437387152965788",
-"createdAt": "Sat Oct 03 17:33:03 +0000 2026"
+"userName": "codi_fyy",
+"text": "35 WEBSITES GOOGLE DOESN'T WANT YOU TO KNOW\n\n1. Explee .com — sends cold emails on autopilot\nhttps://t.co/Wb8ppu6CBi\n\n2. NoteGPT — turns docs into podcasts\nhttps://t.co/5guI12zfQG\n\n3. Napkin AI — turns text into diagrams\nhttps://t.co/zbZM1QwZqN\n\n4. Ideogram — generates text in images perfectly\nhttps://t.co/15aM1br0es\n\n5. Suno — makes full songs from a prompt\nhttps://t.co/oBBLkwUNif\n\n6. HeyGen — clones your face into videos\nhttps://t.co/VMPy4543Tx\n\n7. Kling AI — best AI video generation\nhttps://t.co/LVlCukZcc4\n\n8. ElevenLabs — clone any voice instantly\nhttps://t.co/CRZgiTnd7d\n\n9. Gamma — AI presentations in seconds\nhttps://t.co/iioMX6OLwc\n\n10. Perplexity — AI search with real sources\nhttps://t.co/jjIArzhr4a\n\n11. Pika — animate any image into video\nhttps://t.co/F6FVmeNqr2\n\n12. Runway — cinematic AI video generation\nhttps://t.co/iz3ysgx2Vd\n\n13. Cursor — AI code editor that builds for you\nhttps://t.co/lMBPdWDBVp\n\n14. v0 — generate UI components with AI\nhttps://t.co/HfI1SNyr0v\n\n15. Lovable — turn ideas into working apps\nhttps://t.co/UC1OLaOHzi\n\n16. Descript — edit video by editing text\nhttps://t.co/unSkPVUxTi\n\n17. Opus Clip — auto cut long videos into shorts\nhttps://t.co/ONudvbxsxf\n\n18. Krea AI — real time AI image generation\nhttps://t.co/lQ4oro7Giv\n\n19. Magnific — upscale any image with AI\nhttps://t.co/4naInvkXvS\n\n20. Viggle — make characters move realistically\nhttps://t.co/FNK9aOSv99\n\n21. tl;dv — record and summarize any meeting\nhttps://t.co/fPG4ZYq2o6\n\n22. Fireflies — AI meeting notes automatically\nhttps://t.co/Y6m2IUUpLD\n\n23. Castmagic — turn audio into content pieces\nhttps://t.co/ryhynVJeAG\n\n24. Replit — code and deploy from browser\nhttps://t.co/6k3QRnnNlP\n\n25. Leonardo AI — generate images for free\nhttps://t.co/cFKBsVUDxv\n\n26. Synthesia — AI avatar videos no camera needed\nhttps://t.co/UqOFE4CM2O\n\n27. Fliki — turn text into videos with AI\nhttps://t.co/GdoDS1i0g7\n\n28. Photoroom — AI product photography\nhttps://t.co/XsI2j61B4P\n\n29. Invideo AI — turn prompts into full videos\nhttps://t.co/zowB7n8khR\n\n30. Consensus — search what science agrees on\nhttps://t.co/D5y0Hn6iHI\n\n31. SciSpace — understand any research paper\nhttps://t.co/hexAgmr8TC\n\n32. Tome — AI builds your pitch decks\nhttps://t.co/e1V01yCzLp\n\n33. Beautiful AI — smart presentation design\nhttps://t.co/PODbjhPOY7\n\n34. Meshy — turn text into 3D models\nhttps://t.co/THlKTuvW1c\n\n35. Vizcom — turn sketches into renders\nhttps://t.co/IKAQCBLwBU\n\nThe AI revolution isn't coming.\n\nIt already happened and you missed half of it.",
+"likeCount": 1144,
+"retweetCount": 373,
+"url": "https://x.com/codi_fyy/status/2106659778068189561",
+"createdAt": "Sun Oct 04 08:16:45 +0000 2026"
+},
+{
+"userName": "arena",
+"text": "How to design rewards for post-training frontier image models? \n\nOur research suggests human preference reward is necessary, but insufficient: A preference model may still reward outputs that look appealing but miss details, introduce unrequested content, or exhibit other forms of reward-hacking.\n\nWe therefore optimize towards a composite reward:\n- Bradley-Terry reward model trained on ~5.6M pairwise human votes\n- Faithfulness reward from auto-generated prompt checklists evaluated by a vision-language model\n- Constraint reward covering explicit and implicit user intent\n- Anti-reward-hacking rubric rewards targeting failures such as garbled text and photorealism drift\nThis post-training recipe improves two already-strong open image models:\n- Post-trained FLUX.2-dev gains 69 Elo points on our live T2I leaderboard, scoring 1202\n- Post-trained Ideogram 4 gains 20 Elo points reaching a score of 1224 and surpassing all publicly listed open models (as of Sep 04, 2026).\n\nOffline ablations with Gemini 3.5 Flash as the judge, show that these reward components are complementary: win rate against the base model increases as we add faithfulness and then constraint rewards on top of preference-only training, reaching 64.2%.\n\nFinally, we ensemble policies trained with and without the anti-reward-hacking objective directly in weight space, further increasing win rate to 66.0%.",
+"likeCount": 155,
+"retweetCount": 13,
+"url": "https://x.com/arena/status/2106037792870649995",
+"createdAt": "Fri Oct 02 15:05:12 +0000 2026"
 },
 {
 "userName": "alexdoda",
 "text": "😀\n\n“Generative techniques long predate the 2000s, and governments funded and used them:\n\n•  Text: rule-based dialogue systems such as ELIZA (1966) produced novel replies from patterns. Statistical n-gram and Markov models, used for language modeling and text generation, were standard in speech research by the 1980s–90s.\n\n•  Speech: formant and early concatenative synthesizers generated spoken output; U.S. programs (DARPA speech efforts and related lab work) supported this from the 1970s onward.\n\n•  Other media: algorithmic music generation dates to the 1950s (e.g., Illiac Suite); procedural and fractal image methods were in use in graphics research by the 1980s.”",
-"likeCount": 27,
+"likeCount": 26,
 "retweetCount": 1,
 "url": "https://x.com/alexdoda/status/2106502520730255738",
 "createdAt": "Sat Oct 03 21:51:52 +0000 2026"
-},
-{
-"userName": "InstituteCicero",
-"text": "China's Minister of State Security on AI:\n\n\"Various hostile forces are abusing generative AI technologies and intelligent bot armies to fabricate political rumors in low-cost, mass-produced fashion, spread harmful information and incite antagonistic emotions, carrying out public-opinion warfare and cognitive warfare.\"\n\nChina is not afraid of the technology, but of who controls it.\n\n93% of Chinese say AI will mostly help their country.\n\n36% of Americans do, per Gallup.\n\nChina fears losing control of AI. Americans fear AI itself. \n\nOnly one of those is a strategy.",
-"likeCount": 10,
-"retweetCount": 4,
-"url": "https://x.com/InstituteCicero/status/2106519012545098237",
-"createdAt": "Sat Oct 03 22:57:24 +0000 2026"
 },
 {
 "userName": "purvaasays",
@@ -56,75 +64,75 @@
 "createdAt": "Sat Oct 03 04:01:26 +0000 2026"
 },
 {
-"userName": "StockBoxMedia",
-"text": "Coinsilium Backs Generative AI Platform BeatingHeart\n\nStockBox spoke with Eddy Travia, CEO @CoinsiliumGroup following the company’s backing of BeatingHeart, an AI-powered advertising and creative-production platform founded and initially funded by global fashion and lifestyle brand @BlvckParis.\n\nFull interview in the replies.",
-"likeCount": 4,
-"retweetCount": 2,
-"url": "https://x.com/StockBoxMedia/status/2104869807090782237",
-"createdAt": "Tue Sep 29 09:44:03 +0000 2026"
+"userName": "afshinea",
+"text": "Topics reflect the progress that has happened in the field in the past year:\n• AI Agents (tool calling, memory, planning, harness optimization)\n• Post-training approaches (RL with PPO and GRPO, RLVR, on-policy distillation)\n• Diffusion LLMs (continuous and discrete diffusion)",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/afshinea/status/2104742008208408727",
+"createdAt": "Tue Sep 29 01:16:13 +0000 2026"
 },
 {
-"userName": "onlyonealexia",
-"text": "October is loaded 👀\n\n60+ hackathons across AI, Web3 and Web2. Every one live or upcoming, every prize real.\n\nI put them all in one place so you don't have to dig 👇 https://t.co/TrdmyrBWul",
-"likeCount": 126,
-"retweetCount": 14,
-"url": "https://x.com/onlyonealexia/status/2106567216816603504",
-"createdAt": "Sun Oct 04 02:08:57 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @pham_blnh: I just made the most expressive real-time motion harness for the Reachy Mini.\n\nIt was created by:\n&gt; synthesizing a massive m…",
-"likeCount": 171,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2106563891526574329",
-"createdAt": "Sun Oct 04 01:55:44 +0000 2026"
+"userName": "AbhinavPanse",
+"text": "People are asking AI what to buy. \n\nWill it suggest your products?\n\nI wrote a practical guide for Shopify store owners on helping AI understand what you sell and what to fix first. 👇 https://t.co/62yJ1PkNZB",
+"likeCount": 14,
+"retweetCount": 0,
+"url": "https://x.com/AbhinavPanse/status/2106589323634295013",
+"createdAt": "Sun Oct 04 03:36:47 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ggerganov: Decision models in llama.cpp are now available\n\nThe `/v1/systemone` endpoint is available in the latest llama builds. Use it…",
-"likeCount": 2177,
-"retweetCount": 354,
-"url": "https://x.com/ClementDelangue/status/2106032199619207451",
-"createdAt": "Fri Oct 02 14:42:59 +0000 2026"
+"text": "RT @_brightmirror: Made with Claude Opus 5.5. \n\nThe fearmongering about AI always makes us forget that NOTHING WENT FOOM, as was always pre…",
+"likeCount": 5645,
+"retweetCount": 859,
+"url": "https://x.com/ClementDelangue/status/2106055500471341263",
+"createdAt": "Fri Oct 02 16:15:34 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @natolambert: Today we're unveiling Trillium Labs @trillium_labs, a new non-profit to foster the open science of frontier AI. We're buil…",
-"likeCount": 2945,
-"retweetCount": 274,
-"url": "https://x.com/ClementDelangue/status/2106066215483428937",
-"createdAt": "Fri Oct 02 16:58:09 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @natolambert: Today we're unveiling Trillium Labs @trillium_labs, a new non-profit to foster the open science of frontier AI. We're buil…",
-"likeCount": 2945,
-"retweetCount": 274,
-"url": "https://x.com/jeremyphoward/status/2106321507471511706",
-"createdAt": "Sat Oct 03 09:52:35 +0000 2026"
+"text": "RT @romainhuet: Thank you @huggingface and @pollenrobotics for lending us a Microduck preview unit for DevDay! 🤗\n\nJust a couple hours with…",
+"likeCount": 165,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2106179864437145836",
+"createdAt": "Sat Oct 03 00:29:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: Alert (again): Perplexity also just dropped a Jev alternative on Hugging Face 🚨\n\nhttps://t.co/41UCCnKQkL",
-"likeCount": 366,
-"retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2105780050276794627",
-"createdAt": "Thu Oct 01 22:01:02 +0000 2026"
+"text": "RT @Thom_Wolf: new roommate just moved in. walks like he's had three drinks, says no to everything. still quite cute so I might bring him e…",
+"likeCount": 1482,
+"retweetCount": 93,
+"url": "https://x.com/ClementDelangue/status/2106746611229716509",
+"createdAt": "Sun Oct 04 14:01:48 +0000 2026"
 },
 {
-"userName": "qiancheng1231",
-"text": "Why reward has to be a single number? Check out our latest idea on Diffusion Reward Model!",
-"likeCount": 66,
-"retweetCount": 4,
-"url": "https://x.com/qiancheng1231/status/2104788623006527538",
-"createdAt": "Tue Sep 29 04:21:27 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @CoastalFuturist: How it feels to ask the Chinese ai models for help on something Claude won’t agree to https://t.co/TPYgiOlvnF",
+"likeCount": 52135,
+"retweetCount": 3007,
+"url": "https://x.com/ClementDelangue/status/2106827537448124835",
+"createdAt": "Sun Oct 04 19:23:22 +0000 2026"
+},
+{
+"userName": "xileak_",
+"text": "(heartwarming) guy doesn’t use generative ai, lies about drawing the old fashion way! melts the hearts of artists everywhere 💛",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/xileak_/status/2106918626225967444",
+"createdAt": "Mon Oct 05 01:25:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @liquidai: This is beautiful work @huggingface! 🤗",
-"likeCount": 146,
+"likeCount": 152,
 "retweetCount": 10,
 "url": "https://x.com/ClementDelangue/status/2106067992857506166",
 "createdAt": "Fri Oct 02 17:05:13 +0000 2026"
+},
+{
+"userName": "btibor91",
+"text": "https://t.co/wlDblvUooy",
+"likeCount": 10,
+"retweetCount": 0,
+"url": "https://x.com/btibor91/status/2106705002228011451",
+"createdAt": "Sun Oct 04 11:16:27 +0000 2026"
 }
 ]

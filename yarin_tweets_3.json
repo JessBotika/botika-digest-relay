@@ -1,27 +1,27 @@
 [
 {
-"userName": "WUFang40615703",
-"text": "🎉 Five papers accepted at NeurIPS 2026!\n\nExcited to share our work across protein design, RNA design and evaluation, efficient LLM agents, and multimodal safet\nHere’s what we explored 👇\n\n🧬 1 | Grounding protein generation in physics\n<Equivariant Force Field Calibration for Flow-based Protein Design>\n\nGenerative models can produce protein structures quickly—but physical plausibility remains a critical challenge.\n\nThis work combines differentiable force-field guidance with consistency-based training to calibrate flow models toward low-energy, sterically valid conformations. Across full-atom generation and peptide binder modeling, we improve physical plausibility and geometric stability while enabling sampling with very few steps.\n\n🧪 2 | Learning RNA design preferences from physical feedback\n<Pareto Preference Optimization for Structure- and Stability-Aware RNA Inverse Folding>\n\nRNA design requires satisfying several objectives together: structural fidelity, local accuracy, and thermodynamic stability. Optimizing one metric can create shortcuts that undermine the others.\n\nWe introduce RiboPO, a preference optimization framework that constructs preferences through Pareto comparisons, uses structural gates to guard against compositional reward hacking, and fine-tunes an RNA inverse-folding model using DPO.\n\n📄 Earlier preprint:\nhttps://t.co/vaCxwPzlid\n\n💻 Code (anonymous review repository):\nhttps://t.co/QGvWWAzJGt\n\n🔍 3 | Testing whether RNA design scores deserve our trust\n<Multi-Oracle Agreement Reveals the Limits of Self-Consistency Evaluation in RNA Design>\n\nWhat happens when the predictor used to optimize a sequence is also used to evaluate it? Across approximately 11,000 RNA designs, we find that 78.1% of designs from single-objective optimization pass one predictor yet fail another. Ensemble-based methods reduce this disagreement substantially.\n\nWe introduce ACCORD, an evaluation workflow that combines independent predictors and calibrates their disagreement against experimental chemical-mapping data.\n\n📄 Paper:\nhttps://t.co/9aaIHcUNnj\n\n💻 Code (anonymous review repository):\nhttps://t.co/ABGhHfbEMd\n\n⚡ 4 | Making LLM agents more efficient by changing how they act\n<Latent Action Reparameterization for Efficient Agent Inference>\n\nAgent inference cost depends on both the cost of each decision and the number of decisions required.\n\nLAR learns compact, executable latent actions from recurring patterns in agent trajectories. This shortens the effective decision horizon, reducing action tokens and inference time while maintaining or improving task success across the evaluated benchmarks.\n\n📄 Paper:\nhttps://t.co/UneHr0ue8q\n💻 Code:\nhttps://t.co/Oq6qq9jxH6\n\n🛡️ 5 | Understanding the safety implications of thinking with images\n<When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness?>\n\nAs vision-language models increasingly reason through visual operations and external tools, their inference pipelines become part of the safety question.\n\nAcross the evaluated models, explicit image-tool interaction reduces jailbreak success by around 30% relative on average. Representation analyses and activation interventions support an account in which tool invocation shifts hidden states toward a safety-relevant direction.\n\n📄 Paper:\nhttps://t.co/bCsVQQIS5E\n\nHuge thanks to my coauthors, advisors, and collaborators for making this work possible!\n#NeurIPS2026 #AIforScience #ProteinDesign #RNADesign #LLMAgents",
-"likeCount": 28,
-"retweetCount": 5,
-"url": "https://x.com/WUFang40615703/status/2106055866676101126",
-"createdAt": "Fri Oct 02 16:17:01 +0000 2026"
+"userName": "adrianscottcom",
+"text": "How One Creator & a Swarm of AI Agents Built a 5-Minute Cyberpunk Fashion Masterpiece in 19 Hours\n\nLast week, @anabology dropped a public Google Drive with the master files for \"ESCAPE VELOCITY\"—a 5:06 lyric music video and cyberpunk fashion show that looks like a high-budget Studio Trigger x Balenciaga production:\n\nIn the film, an AI runway model walks the Silicon Valley zeitgeist as a split-flap terminal board counts down \"18 MONTHS TO ESCAPE THE PERMANENT UNDERCLASS\" until it flips to \"THERE IS NO UNDERCLASS\" and the catwalk lifts into orbit.\n\nIt was made in 19 wall-clock hours with ~50 human steering messages.\n\nInside the archive is a 6-page production post-mortem (\"How ESCAPE VELOCITY was made\"). It is the cleanest blueprint ever published on how autonomous agents, deterministic code, and generative models intersect.\n\nHere is the exact technical breakdown of how it was built:\n\n1. THE HUMAN-AI DIVISION OF LABOR: \"Agents in parallel, one human with taste\"\n\nMost people treat AI like a slot machine: roll a prompt, get generic slop, complain about quality.\n\nanabology flipped the architecture: the human supplies taste, curation, and decisive boundary conditions; Claude Code orchestrates the labor.\n\nClaude ran over 40 specialized subagents across the pipeline:\n• Research & Verification: A 31-agent workflow harvested SF tech culture, live memes, and longevity lore. Every claim was fact-checked by an independent verifier agent.\n• The Writers’ Room: 4 lyricists competed across different axes (Density, Tension, Hook, and Fashion). Judge agents scored them, an aggregator merged the top lines, and a critic pass refined the meter.\n• The Director Swarm: 3 director agents storyboarded the song independently (Fashion Film vs. Narrative vs. Meme Density). A head director merged them into 141 shots across 9 chapters.\n• Chapter Animators: Dedicated animator agents wrote JavaScript animation code chapter by chapter, while an art-director agent reviewed rendered frames and requested fixes in a tight feedback loop.\n\nHuman input across the entire 19 hours? About 50 short messages.\n\n2. THE UNIVERSAL CLOCK: Word-Level Forced Alignment\n\nBefore generating a single pixel of video, anabology established a strict mathematical timebase.\n\nAfter Suno v6 generated the 5:06 electroclash track (which subtly accelerates from 131.5 to 133.9 BPM), the audio was processed locally on an RTX 3090 Ti:\n• Stems separated via htdemucs\n• Beat map extracted\n• Word-level forced alignment generated via wav2vec2 (producing exact millisecond start and end timestamps for every single syllable)\n\nEvery camera cut, kinetic typography strobe, and scene transition across all 141 shots was locked directly to this timecode grid.\n\n3. SOLVING CHARACTER CONSISTENCY WITHOUT REFERENCE IMAGES\n\nMidjourney v8.2 lacks native --oref support. Maintaining a recognizable protagonist across 130 plates seemed impossible, so three methods were tested:\n1. GPT-image identity passes: The aesthetic drifted away from Midjourney’s photographic texture.\n2. Face-sheet image prompts (--iw 0.5): Caused severe over-conditioning (producing a close-up-sized head awkwardly pasted onto distant bodies).\n3. The Solution: A Strict Written Canon + Demographic Anchor\n\nThe winning formula was defining her identity entirely in text:\n\"a young Caucasian American woman with pale skin and light freckles, black blunt jaw-length bob, one clay-orange streak, an eight-pointed clay spark hair clip, headset microphone, white cropped puff-sleeve shirt, black pleated coated-nylon skirt with harness belt and garment tag, knee boots.\"\n\nBy hardcoding this exact canonical description into every prompt alongside a consistent visual syntax (\"blue-black and steel blue, one small red status lamp as the only warm light, fine silver grain, cinematic 35mm film still, no text, no letters, no logos\"), Midjourney held character identity across all 130 plates without face swaps or LoRAs.\n\n4. THE SEEDANCE DRIFT-DETECTION HACK\n\nThe most innovative engineering breakthrough in the project solved AI lip-sync drift.\n\nWhen feeding an image plate and audio slice to Seedance 2.5, Seedance re-encodes the reference audio into its own soundtrack. When lip-sync fails, it is because Seedance's internal audio drifted from the input.\n\nanabology realized this and wrote an automated validation script:\n1. Seedance generated the shot.\n2. The script compared Seedance's returned soundtrack against the master vocal using spectral cross-correlation.\n3. The moment correlation dropped below a threshold, the script cut the shot on the last preceding eighth note.\n4. A continuation clip was automatically launched starting from that exact frame to cover the rest of the bar.\n\n86% of all sung seconds were mathematically verified in sync on the first pass (with LatentSync as a fallback). Total video gen cost: $93 for 91 submissions (421 seconds of 720p footage).\n\n5. DETERMINISTIC CODE ON TOP OF THE PLATE: Frame = f(t)\n\nWhy do the typography and UI graphics look razor-sharp instead of morphing like normal AI video?\n\nBecause they were never generated by an AI video model.\n\nThe video models (Seedance / Midjourney) only provided the background \"plate.\"\n\nThe meaning—kinetic typography, garment tags, split-flap countdowns, and object-tracking boxes (tracked via Grounding DINO)—was drawn by a custom JavaScript engine running in Headless Chromium (HTML5 Canvas + WebGL print pass).\n\nEvery single frame was a pure mathematical function of time:\nFrame = f(t)\n\nNo guessing, no flickering, no hallucinated spelling errors.\n\n6. POST-COLORIZATION: Rescuing Washed-Out Generations\n\nWhen Seedance clips generated from monochrome frames returned desaturated and grey, anabology did not re-roll.\n\nThey used Exemplar-Based Video Colorization (Deep Exemplar, CVPR 2019), using the shot's original full-color Midjourney plate as the color exemplar.\n\nThe rule: Keep generation inputs in color, and apply artistic grading in post.\n\n7. THE FULL PRODUCTION BALANCE SHEET\n\n• Song: Suno v6 (1 full take, 5:06.4 at 131.5 -> 133.9 BPM)\n• Plates: Midjourney v8.2 (188 prompts, 636 images, 130 plates used)\n• Moving Video: Seedance 2.5 (91 submissions, 421s generated) -> $93\n• Agents & Code: Claude Opus 5.5 (1.4B tokens, 96% prompt-cache reads) -> $626 API equivalent\n• Final Render: Headless Chromium (7,354 frames, 1080p CRF 16 master) -> ~63 min local render\n• Total Investment: 19 Hours Wall-Clock Time, ~$720 total compute\n\nTHE BIG LESSON: Taste is the Moat\n\nEscape Velocity is proof that prompt engineering is dead. The new discipline is Creative Systems Engineering:\n• Log and quantify your taste profile\n• Run swarms of agents in parallel to draft, verify, criticize, and code\n• Use AI for visual plates, but use deterministic code for meaning and typography\n• Let the human spend 100% of their energy on high-leverage taste decisions\n\nFull credit to @anabology for open-sourcing the blueprints. Study this pipeline. (some of this analysis might be correct, lol)",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/adrianscottcom/status/2104625088997855458",
+"createdAt": "Mon Sep 28 17:31:37 +0000 2026"
 },
 {
-"userName": "Zen_with_AI",
-"text": "第1003期 小路和你读AI论文。今日4篇高质量论文。\n\n1. 𝗙𝗶𝗻𝗲𝘁𝘂𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗦𝗮𝗺𝗽𝗹𝗶𝗻𝗴: 𝗦𝗙𝗧 𝗟𝗲𝗮𝗿𝗻𝘀 𝗕𝗲𝘁𝘁𝗲𝗿 𝗧𝗵𝗮𝗻 𝗬𝗼𝘂 𝗧𝗵𝗶𝗻𝗸（《带采样的微调：SFT 比你想的更会学》）\n\n链接：https://t.co/QXVXbqz5hu\n\n作者背景：Aayush Karan, Sitan Chen, Yilun Du, Harvard\n\n不改损失，用 MCMC 把离策略专家轨迹逐步改写成更接近参考模型的在策略分布，SFT 在泛化与遗忘上就能比肩强在策略后训练。实验覆盖科学技能、数学推理和开放式专长。采样本身可以当作后训练原语，这会动摇\"保能力必须上 RL\"的默认做法，做后训练的人值得细看。\n\n2. 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗙𝗶𝘁: 𝗠𝗼𝗱𝗲𝗹-𝗛𝗮𝗿𝗻𝗲𝘀𝘀 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀（《找到合适的搭配：跨 Agent 任务的模型与 Harness 交互》）\n\n链接：https://t.co/txmUWsp8E5\n\n作者背景：Yixuan Li, Bo An 等\n\n模型、harness 与任务必须放在一起评，强模型和厂商自有脚手架都不会稳定领先。66 组配置横跨 OpenHands、DeepSeek Harness、PI、openJiuwen 与三项命令行 agent 基准。Terminal-Bench 4 上，Claude 在 OpenHands 中领先 GPT 7.94 分，在 PI 中落后 30.16 分，五个模型里有四个的最优 harness 随基准改变。作者发布了适配器、评测代码和 6,204 条轨迹，部署 agent 的人可以直接拿来做选型证据。\n\n3. 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀（《分层连续扩散语言模型》）\n\n链接：https://t.co/dC0fv3j4PU\n\n作者背景：Alexander Schwing（UIUC）等\n\n让连续潜变量成为唯一持续生成状态，token 每步读出并回馈，以缓解离散扩散并行解码时的独立采样断裂。训练目标来自 token 似然的变分界，同规模下在 Sudoku、Countdown 和 LM1B 上优于离散与连续扩散基线。做扩散语言模型的人可以看看它是否真正保住了并行解码中的 token 依赖。\n\n4. 𝗘𝘃𝗲𝗿𝘆 𝗔𝗯𝗹𝗮𝘁𝗶𝗼𝗻 𝗜𝘀 𝗮 𝗗𝗼𝘀𝗲: 𝗖𝗼𝘂𝗻𝘁𝗲𝗿𝘄𝗲𝗶𝗴𝗵𝘁𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗦𝗲𝗺𝗯𝗹𝗮𝗻𝗰𝗲 𝗼𝗳 𝗦𝗲𝗹𝗳-𝗥𝗲𝗽𝗮𝗶𝗿（《每次消融都是一剂药：反权重与\"自修复\"的假象》）\n\n链接：https://t.co/IzLv2zqidD\n\n消融后看似补偿的响应，多半来自干预前就存在的反权重，它们随对比强度作仿射响应，与临时自我修复无关。在事实判决任务上，Gemma、Qwen、LLaMA、Mistral 的 81 个下游方向中有 68 个服从该仿射律。GPT-2 Small 的 IOI 电路里，干预能触及的 10 个头有 7 个符合，且全是反权重，斜率还能由固定权重预先估计。做机制可解释性的人可以拿它校准对自修复的判断。",
-"likeCount": 14,
-"retweetCount": 5,
-"url": "https://x.com/Zen_with_AI/status/2106405977683886310",
-"createdAt": "Sat Oct 03 15:28:14 +0000 2026"
+"userName": "noahaitoolstech",
+"text": "How to use Claude in 25 different ways:\n\n(takes 60 seconds to read, saves you 60 hours)\n\n1. Bookmark this image. You'll need it tomorrow.\n2. Full guide + prompts at: https://t.co/OGlu0De9lp.\n3. Don't pay anything. It's free in the email.\n\n---\n\n1. ASK → Chat\n☑️ Quick questions. Quick answers.\n☑️ Don't use Cowork for \"write a good email?\"\n\n2. THINK → Opus 4.8\n☑️ The smartest model. Always switch to it.\n☑️ For deep work, complex writing & thinking.\n\n3. SPEED → Sonnet 4.6\n☑️ Faster, cheaper, still excellent.\n☑️ Use it for grammar, summaries, short answers.\n\n4. REASON → Extended Thinking\n☑️ Toggle it on for hard problems.\n☑️ Turn it off for simple ones (saves tokens).\n\n5. BUILD → Cowork\n☑️ Where serious work happens. .docx, .xlsx, .pptx.\n☑️ Point it at a folder. It works like an employee.\n\n6. SHIP → Claude Code\n☑️ For developers (and curious non-devs).\n☑️ Build websites and apps from your terminal.\n\n7. MODEL → Claude in Excel\n☑️ Install the add-in from the Excel store.\n☑️ Real formulas, real models, no copy-paste.\n\n8. SLIDES → Gamma connector\n☑️ One prompt. Full presentation. With research.\n☑️ Connect Gamma inside Claude.\n\n9. MOCKUP → Claude Design\n☑️ Go to claude .ai/design. Build websites in 1 hour.\n☑️ Upload a DESIGN .md. Export to Canva, PDF.\n\n10. BROWSE → Claude in Chrome\n☑️ A browsing agent. Reads any page for you.\n☑️ Acts inside the browser, not just talks about it.\n\n11. CLICK → Computer Use\n☑️ Settings > Turn it on.\n☑️ Claude clicks, types, browses on your Mac.\n\n12. REMOTE → Dispatch\n☑️ Connect your phone. Text a task.\n☑️ It works on your computer while you're away.\n\n13. SEARCH → Web Search\n☑️ Click the '+'. turn it on.\n☑️ It reads the live web before answering.\n\n14. INVESTIGATE → Research\n☑️ For deep multi-source reports.\n☑️ 13 minutes. 50+ sources. One markdown file.\n\n15. TRIGGER → Skills\n☑️ \"Use the skill-creator to build a skill for [task].\"\n☑️ Type /skill. It fires automatically.\n\n16. STACK → Plugins\n☑️ Cowork > Customize > Browse Plugins.\n☑️ Bundles of skills for marketing, legal, sales.\n\n17. PERSIST → Projects\n☑️ One Project per recurring deliverable.\n☑️ Upload one gold-standard example.\n\n18. AUTOMATE → Scheduled Tasks\n☑️ Every Monday at 7am, Claude runs your report.\n☑️ Set it up once. No manual work. \n\n19. CONNECT → Connectors\n☑️ Gmail, Drive, Slack, Notion, Granola, Calendar.\n☑️ 50+ apps. Claude reads, writes & acts inside.\n\n20. RENDER → Artifacts\n☑️ Side pane where Claude opens charts, docs.\n☑️ Interactive. Editable. Shareable.\n\n21. VOICE → Custom Styles\n☑️ Set \"Concise\" or build your own.\n☑️ Saves you from re-explaining your voice.\n\n22. SHARE → Team Projects\n☑️ Same Project. Whole team inside.\n☑️ Skills, files, instructions. Shared once.\n\n23. GUARD → Global Instructions\n☑️ Settings > Cowork > Global Instructions.\n☑️ Tell Claude what to always do.\n\n24. ORGANIZE → Obsidian Vault\n☑️ Free app. Opens your Cowork folder neatly.\n☑️ Edit files like Google Docs.\n\n25. BRIEF → about-me file.\n☑️ One md. file. Under 2,000 words.\n☑️ Your style, your rules, your voice\n\nFollow @noahaitoolstech",
+"likeCount": 19,
+"retweetCount": 10,
+"url": "https://x.com/noahaitoolstech/status/2106607893294493963",
+"createdAt": "Sun Oct 04 04:50:35 +0000 2026"
 },
 {
-"userName": "sakhil_ai",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/7UfMlirtW2 — Free research papers\n2. https://t.co/Mm6BkKJjFY — Borrow books online\n3. https://t.co/04H5o9ezsa — Free academic journals\n4. https://t.co/Qcusd2g7jk — 70K+ free books\n5. https://t.co/QAP2Niaw14 — Free textbooks\n6. https://t.co/bRj3S4gzTm — Free online courses\n7. https://t.co/ZLQBEnsILg — Solve complex problems\n8. https://t.co/MSc7SunqCk — AI research assistant\n9. https://t.co/tvv9O27mvm — Research-backed AI answers\n10. https://t.co/AkwutxBIcJ — Find research connections\n11. https://t.co/kAw2LOMjtz — Academic search engine\n12. https://t.co/jlX2MC7zct — Understand research papers easily\n13. https://t.co/59uHkNZPJT — Free Photoshop alternative\n14. https://t.co/15svHKWIIH — Compress & optimize images\n15. https://t.co/dExscX9q2Q — Remove image backgrounds\n16. https://t.co/E1QnTgyrrl — Remove objects from photos\n17. https://t.co/wzXMkv5nss — Remove video backgrounds\n18. https://t.co/AWF3B79Jmg — Beautiful code images\n19. https://t.co/2aikyAi9el — Share elegant code screenshots\n20. https://t.co/8ScTcFOZCY — AI search engine for developers\n21. https://t.co/vzSP6zhlUG — Test and debug regex\n22. https://t.co/rQBQnBwVsC — Format & clean code\n23. https://t.co/JZ8QizpE9n — Format & validate JSON\n24. https://t.co/9kEYRn41GQ — Understand terminal commands\n25. https://t.co/aO8E8Ia1wc — Stunning product mockups\n26. https://t.co/xb3BO66S4b — Powerful online mockup generator\n27. https://t.co/S8JMDBRsLY — Find alternatives to any app\n28. https://t.co/Epbbuw7WAO — Check data breaches\n29. https://t.co/GAcQiS9jzq — Scan files & URLs for malware\n30. https://t.co/3PXvcan8Wo — Self-destructing text notes\n31. https://t.co/jtoWBioYGq — Disposable temporary email\n32. https://t.co/c3zYmO9ER4 — 10-minute temporary email\n33. https://t.co/6BeWqQXksQ — Temporary & secure file sharing\n34. https://t.co/jQJH3udaoO — Explore global live radio\n35. https://t.co/egXJksnwSu — Discover similar music & artists\n36. https://t.co/6isMCzjz3M — Find songs from movies & shows\n37. https://t.co/NUe3cwzQjU — Focus music for coding\n38. https://t.co/NTqRO07TTj — Custom background sounds\n39. https://t.co/ltBUGWMR3X — Ambient café sounds for productivity\n40. https://t.co/EZxq2IPXzI — Find where to stream movies\n41. https://t.co/7mOckhA1C7 — The internet’s digital library\n42. https://t.co/MplB9iGw5D — Create a personal copy of any webpage\n43. https://t.co/YzOkqPYTvm — Find related websites\n44. https://t.co/WQkha8ZPkk — AI YouTube video summaries\n45. https://t.co/RrHya3YcxK — Ultimate smart bookmark manager\n46. https://t.co/eag7AiTg4I — Check real-time service outages\n47. https://t.co/kr3HWYapJQ — Smart reverse image search\n48. https://t.co/UmLNm2iAVj — Quick internet speed test\n49. https://t.co/k3CWKNsped — All-in-one PDF tools\n50. https://t.co/yKpiC7BLON — Merge, split & convert PDFs\n\nSave this. You’ll definitely need some of these later! 🔖\n\nFollow\n@sakhil_ai\nfor more useful websites, AI tools & tech resources.",
-"likeCount": 179,
-"retweetCount": 85,
-"url": "https://x.com/sakhil_ai/status/2106402637960950000",
-"createdAt": "Sat Oct 03 15:14:58 +0000 2026"
+"userName": "maxpostingx",
+"text": "**While traditional agencies charge $10,000 a month for basic deliverables, smart creators are running their entire operation on 20 free links.**\n\nStop throwing money at overhyped subscriptions when the open web gives you everything for zero dollars.\n\nHere are 20 game changing free AI tools that will save you 20 hours every week.\n\n1. ChatGPT\nVersatile assistant for deep research writing code and brainstorming ideas.\nLink: https://t.co/fkn2i8NwqX\n\n2. Google Gemini\nSmart productivity companion that connects directly with search and docs.\nLink: https://t.co/CHhmgeRFem\n\n3. Microsoft Copilot\nAI search assistant that speeds up drafting and web browsing.\nLink: https://t.co/1zPNtW59Qy\n\n4. Claude\nAdvanced writing and analytical engine for complex long form thinking.\nLink: https://t.co/j1ksSBuWTh\n\n5. Perplexity\nReal time search engine that provides cited answers to complex questions.\nLink: https://t.co/RaVVsMzCZG\n\n6. Canva AI\nGenerates visual assets social media graphics and presentation layouts.\nLink: https://t.co/Sk6fgBZS0N\n\n7. Adobe Firefly\nProduces commercially safe high quality artwork and image edits.\nLink: https://t.co/9bofHSeuH2\n\n8. Leonardo AI\nCreates production ready concept art textures and high resolution visuals.\nLink: https://t.co/bAfgY8LbXX\n\n9. Ideogram\nGenerates detailed images with perfectly rendered typography and lettering.\nLink: https://t.co/UfJoXetZOI\n\n10. Microsoft Designer\nInstant graphic design assistant for quick marketing materials and banners.\nLink: https://t.co/rb9DsrYiw1\n\n11. CapCut AI\nAutomates video editing auto captions and viral visual effects.\nLink: https://t.co/kDLJJgxjt6\n\n12. InVideo AI\nTurns written scripts directly into fully edited videos with voiceovers.\nLink: https://t.co/oUfdu8hpzu\n\n13. ElevenLabs\nGenerates ultra realistic human voiceovers with emotion and precision.\nLink: https://t.co/FxBIxm4ore\n\n14. Suno\nCreates full studio quality songs and background music from simple text.\nLink: https://t.co/pCIuS7pjE2\n\n15. Grammarly\nFixes grammatical errors polishes writing tone and improves clarity.\nLink: https://t.co/ktg25qrDTW\n\n16. QuillBot\nRewrites complex paragraphs and summarizes long text instantly.\nLink: https://t.co/9JS62ADDGJ\n\n17. Gamma\nTransforms raw text notes into beautiful presentation decks in seconds.\nLink: https://t.co/LMik1U8B8U\n\n18. NotebookLM\nTurns your personal notes and uploaded documents into a smart research hub.\nLink: https://t.co/GBCVn3iRIO\n\n19. https://t.co/WbKzAPW7gt\nErases image backgrounds instantly with extreme edge accuracy.\nLink: https://t.co/sEr7UyLlLe\n\n20. DeepL\nDelivers natural highly accurate translations across dozens of languages.\nLink: https://t.co/XKQXtvNxKt\n\nBookmark this right now before you lose it.\n\nFollow @maxpostingx to stay ahead of the curve.",
+"likeCount": 74,
+"retweetCount": 50,
+"url": "https://x.com/maxpostingx/status/2106550750264619277",
+"createdAt": "Sun Oct 04 01:03:31 +0000 2026"
 },
 {
 "userName": "OpenBMB",
@@ -30,6 +30,14 @@
 "retweetCount": 4,
 "url": "https://x.com/OpenBMB/status/2105281510928458150",
 "createdAt": "Wed Sep 30 13:00:01 +0000 2026"
+},
+{
+"userName": "qingke_ai",
+"text": "几乎所有 reward model 都在做同一个简化：把人类偏好压成一个分数。\n\n但真实的人类反馈往往不是一个点——同一个回答，不同人可以给出不同、甚至互相冲突的判断。把多峰偏好硬压成标量，模型学到的只是\"平均值\"，而不是\"人们到底怎么想\"。\n\n清华 THUNLP 的新工作 DRM（Diffusion Reward Model）换了个问法：能不能让奖励模型学人类偏好的分布？\n\n做法很干净——把 reward modeling 重新表述为对 p(r | x, y) 的条件密度估计：在冻结的 LLM encoder 之上，用轻量 Diffusion Transformer 从高斯噪声去噪出奖励向量。不对输出分布做任何参数假设，多峰结构自然被表示出来。\n一个架构同时吃多属性回归和成对偏好数据；推理时采 N 个样本就是经验奖励分布，可以聚合成标量、方差或分位数。\n\n结果（五个基准）： • 在数据与 backbone 对齐下不弱于基线 • 训练规模相对小，仍能与大得多的判别式 / 分布式 / 生成式 RM 抗衡 • 常规 head 把分布坍缩成一个点时，它能恢复出多峰结构\n\n更实用的是下游：用不确定性做拒绝采样、用 LCB 聚合——而且直接拿 DRM 当 RLHF 训练时的 reward，策略表现更好。这就不只是\"更细的评估指标\"，而是能直接改善训练。\n\n一句话：奖励不该是一个点，而是一个分布。\n\nvia @HBX_hbx\n\n#RLHF #RewardModel #扩散模型 #PostTraining",
+"likeCount": 34,
+"retweetCount": 4,
+"url": "https://x.com/qingke_ai/status/2106468141119484007",
+"createdAt": "Sat Oct 03 19:35:15 +0000 2026"
 },
 {
 "userName": "rirahcreates",
@@ -42,81 +50,73 @@
 {
 "userName": "HBX_hbx",
 "text": "[1/n] Introducing Diffusion Reward Models (DRM)\n\nReward Models are at the core of LLM post-training. But almost all of them make the same simplification:\nthey collapse human preference into a single score.\n\nThe problem is that human feedback is often not a point — different people can hold distinct, even conflicting, judgments about the same response.\n\nSo we asked: Can a Reward Model learn the distribution of human preference?\n\nHere’s what we found 👇\n\n📄 Paper: https://t.co/e0EMNa3I64\n💻 Code: https://t.co/KVosB5D5PI\n🤗 Models: https://t.co/wwdDpOtgbL",
-"likeCount": 352,
+"likeCount": 354,
 "retweetCount": 47,
 "url": "https://x.com/HBX_hbx/status/2104779296640467452",
 "createdAt": "Tue Sep 29 03:44:23 +0000 2026"
 },
 {
-"userName": "Shelly_Golan1",
-"text": "Excited to share that our paper \"ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control\" has been accepted to @NeurIPSConf as an oral! 🎉\n\nParetoSlider enables continuous inference-time control over competing reward trade-offs with a single diffusion model, without retraining or maintaining multiple checkpoints.\n\nHuge thanks to the great team @mikikiFin, @ArielBAMath, @YotamNitzan, @OPatashnik \n\nPaper: https://t.co/jWyTpYUiaV\nProject page: https://t.co/HjToAYSvjp\nCode: https://t.co/yVVZk6DKKR",
-"likeCount": 62,
-"retweetCount": 14,
-"url": "https://x.com/Shelly_Golan1/status/2105342543479066732",
-"createdAt": "Wed Sep 30 17:02:32 +0000 2026"
+"userName": "HBX_hbx",
+"text": "[2/n] Our answer is DRM: model rewards as distributions.\n\nInstead of predicting a scalar, DRM replaces the conventional value head with a lightweight Diffusion Reward Head.\n\nGiven a prompt-response pair, it generates samples from the reward distribution.\n\nSo disagreement, uncertainty, and multiple plausible judgments can remain in the reward itself, rather than being averaged away.\n\nAnd the same framework works with both multi-attribute rewards and pairwise preferences.",
+"likeCount": 10,
+"retweetCount": 1,
+"url": "https://x.com/HBX_hbx/status/2104779301468192788",
+"createdAt": "Tue Sep 29 03:44:25 +0000 2026"
 },
 {
-"userName": "EvanKirstel",
-"text": "ChatGPT now has virtual try on for clothes and accessories, plus a Favorites feature to save products. Shopping is turning into a conversation. Retailers need product data that AI assistants can read and act on, because that is where customers will be browsing. Let's discuss @OpenAI on @techimpactTV\nhttps://t.co/aSUtouTtqe",
-"likeCount": 5,
-"retweetCount": 3,
-"url": "https://x.com/EvanKirstel/status/2106220193085264338",
-"createdAt": "Sat Oct 03 03:10:00 +0000 2026"
-},
-{
-"userName": "Deeen_Codes",
-"text": "hackers should be busy\ndev should be busy\nbuilders should be busy\n\nOctober is suppose to be busy for y'all \n\ngo check the list and start building https://t.co/gqKb28blTo",
-"likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/Deeen_Codes/status/2106650934260457483",
-"createdAt": "Sun Oct 04 07:41:37 +0000 2026"
+"userName": "tylerrwayne",
+"text": "Wizstar turns the idea of combining Meta Glasses and Muse into a bold visual thought experiment where wearable tech, fashion, and AI meet.\n\nThis futuristic concept invites us to rethink how the next generation of storytelling and self-expression, could look.",
+"likeCount": 24,
+"retweetCount": 23,
+"url": "https://x.com/tylerrwayne/status/2104952920458555798",
+"createdAt": "Tue Sep 29 15:14:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @Thom_Wolf: Karpathy: disappears from X\n Ben Affleck: alright, gather round, so you'll want to freeze the base weights first, learning r…",
-"likeCount": 7740,
+"likeCount": 7758,
 "retweetCount": 375,
 "url": "https://x.com/ClementDelangue/status/2106002737280245901",
 "createdAt": "Fri Oct 02 12:45:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @huggingface: The same model, with the same weights, scores 62% in one agent harness and 33% in another.\n\n@adithya_s_k and the @huggingf…",
-"likeCount": 961,
-"retweetCount": 131,
-"url": "https://x.com/ClementDelangue/status/2106034304841113832",
-"createdAt": "Fri Oct 02 14:51:21 +0000 2026"
+"text": "RT @ggerganov: Decision models in llama.cpp are now available\n\nThe `/v1/systemone` endpoint is available in the latest llama builds. Use it…",
+"likeCount": 2239,
+"retweetCount": 362,
+"url": "https://x.com/ClementDelangue/status/2106032199619207451",
+"createdAt": "Fri Oct 02 14:42:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Hesamation: babe, wake up.\n\nHugging Face just dropped a new banger article about RL training coding agents on different harnesses. http…",
-"likeCount": 334,
-"retweetCount": 27,
-"url": "https://x.com/ClementDelangue/status/2106067846539120656",
-"createdAt": "Fri Oct 02 17:04:38 +0000 2026"
+"text": "RT @natolambert: Today we're unveiling Trillium Labs @trillium_labs, a new non-profit to foster the open science of frontier AI. We're buil…",
+"likeCount": 3145,
+"retweetCount": 288,
+"url": "https://x.com/ClementDelangue/status/2106066215483428937",
+"createdAt": "Fri Oct 02 16:58:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Decision models now run on device in llama.cpp. Free, fast, private!\n\nllama serve -hf ggml-org/Kev-4B-GGUF https://t.co/ApnQQaKB4Z",
-"likeCount": 1363,
-"retweetCount": 122,
-"url": "https://x.com/ClementDelangue/status/2106037207631008033",
-"createdAt": "Fri Oct 02 15:02:53 +0000 2026"
+"text": "RT @guohao_li: Agentic RL is hard at every layer: environments, training infra, and algorithms. So we’re open-sourcing all of it. For envir…",
+"likeCount": 21,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2106075168380469682",
+"createdAt": "Fri Oct 02 17:33:43 +0000 2026"
 },
 {
 "userName": "metavestor",
 "text": "The universe of bio x AI broken down by ticker and subtheme for investors. Bracing for another exponential https://t.co/XQj3mT35DE",
-"likeCount": 103,
-"retweetCount": 10,
+"likeCount": 141,
+"retweetCount": 17,
 "url": "https://x.com/metavestor/status/2105290623926554864",
 "createdAt": "Wed Sep 30 13:36:13 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @kim__minseon: It is here now ! Enjoy our 4B model 🐸\nhttps://t.co/ST3963rJa2",
-"likeCount": 381,
-"retweetCount": 24,
-"url": "https://x.com/ClementDelangue/status/2106186464128287026",
-"createdAt": "Sat Oct 03 00:55:58 +0000 2026"
+"userName": "qiancheng1231",
+"text": "Why reward has to be a single number? Check out our latest idea on Diffusion Reward Model!",
+"likeCount": 66,
+"retweetCount": 4,
+"url": "https://x.com/qiancheng1231/status/2104788623006527538",
+"createdAt": "Tue Sep 29 04:21:27 +0000 2026"
 }
 ]

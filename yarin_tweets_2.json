@@ -1,27 +1,19 @@
 [
 {
-"userName": "OwenGregorian",
-"text": "AI Can Now Rebuild Images From Brain Scans. What If Your Dreams Don’t Stay Private? | Popular Mechanics\n\nWhile debates rage on various podcasts, in hand-wringing online essays, and even in the halls of Congress as to whether AI has surpassed human intelligence—a threshold of no-return known as the AI Singularity—there’s one skill where AI algorithms have long trounced the human competition: pattern recognition.\n\nBecause of modern AI engines’ impressive abilities to sift through large datasets and recognize patterns, they can accurately detect developing cancers and even create entirely new viruses not seen in nature. When trained on the brain, this AI pattern recognition can gain almost supernatural powers. This ability is vividly highlighted in a new paper submitted to the International Conference on Learning Representations by scientists from the Weizmann Institute of Science in Israel. The researchers revealed Brain-IT, an AI model capable of reconstructing mental images with a scary level of accuracy—using only brain-scan data.\n\n“There exist nowadays models that translate brain activity into images, and they can even produce impressive reconstructions that preserve the semantic meaning of the image reasonably well,” Weizmann Institute of Science’s Michal Irani, leader of the lab that developed the model, said in a press statement. “However, they tend to make mistakes in basic features such as composition and color. The new model we developed outperforms them in reconstructing both the content of the image and its details.”\n\nOf course, AI can’t learn the way humans do. It needs vast amounts of data to draw inferences from, and fMRI scans paired with images are in painfully short supply. So the research team relied on the Natural Scenes Dataset, which contains data from only eight individuals who viewed thousands of images while their brains were scanned. While that might sound like a tedious and claustrophobic experience for the individuals involved, even 73,000 total images isn’t enough data for robust AI training. So the researchers developed a decode/encode method where the model could both decode an image from these brain scans and also predict what brain scans might look like based on just an image alone.\n\n“We realized that by translating back and forth – from a random image that had never been viewed in an fMRI machine, to a predicted brain scan, and then back to the image we started with – the models would effectively build themselves a massive dataset,” Irani said in a press statement.\n\nDecoding fMRI brain scans is a perfect pattern recognition problem for AI to solve, which is why scientists have been toying with the idea for more than a decade.\n\nIn 2017, researchers at Purdue University developed a model that could accurately predict the object being viewed, though the reconstructed images were little more than blurs. Fast-forward to 2022, and scientists at Osaka University used an AI model called Stable Diffusion, which created more accurate representations of the images but required captions to leverage text-to-image capabilities.\n\nUnlike those previous efforts, the new model uses a Brain Interaction Transformer (BIT), which maps the brain as 40,000 voxels—three-dimensional pixels—and logs how each one responds to an image. Those responses encode color, location, and whether a subject is seeing a face or a sandwich. With all of that in place, Brain-IT began to detect patterns across all eight brains in the Natural Scenes Dataset.\n\nDeveloping such a technology could be incredibly useful for people with severe paralysis, but Brain-IT could also help scientists probe aspects of the human mind itself. For example, the model found 128 brain regions associated with image processing, including some not previously identified by neurologists. And by altering the images, it’s possible to compare differences between predicted fMRI scans to uncover the brain’s underlying behavior. Eventually, one day, AI could even record our dreams.\n\n“What remains especially challenging is decoding video ... dozens of images change every second, while an fMRI scan takes about two seconds,” Irani said in a press statement. “If we overcome all these obstacles, it’s possible that in the future we may even be able to read dreams.”\n\nhttps://t.co/d0xZ5TVWAq",
-"likeCount": 12,
+"userName": "oteranosekai",
+"text": "【第2回ペット召喚開催！】\n9月30日（水）開催。\n19時～23時に開催します。\n23時以降は主催が起きていればオフ会にします。\n最長24時までです。\n（この時間に投稿してください、という意味です）\n\n今回のテーマは「自分のペットを自慢しよう！」\n\nあなたはキャラクターのイラストを1枚添付するだけです。\nあとはChatGPTがその子の雰囲気や個性を読み取り、「この子に相応しい相棒」を自動で選びます。\nそして、その相棒と一緒に新しい1枚のイラストを生成します。\n何が選ばれるかは、生成するまでのお楽しみ。\n更に、選ばれた相棒の名前もイラスト内に表示されます。\n\n※参加条件を下記に掲載します。\n\n・ChatGPT専用プロンプトなので他のツールで生成しないでください。\n・プロンプト使用の際にはフォローしてください。通知が来ないため参加が分からないのでご協力ください。\n・自由に使って構いませんが、これはX専用の話です。\n・生成イラストを他のサイトへの掲載はお断りします。\n・他のツールや商業利用に関するプロンプトの無断開示は禁止されています。\n・コラボフリーは相互が前提です。依頼だけして自分からは描かないという方は参加をご遠慮ください。\n・プロンプトは下部に記載されています。\n・キャラクターの「名前」も含めてください。\n・センシ判定の方お断り（私はPCなので見れません）\n・ハッシュタグは以下の通り\n#ペット召喚2 #プロンプト試着\n（2つ必須です）\n・追加のハッシュタグはお任せです。\n\nコメントの遅れがあったらご容赦ください。\n\nCharacter Companion Animal Manifestation\n— Automatic Companion Selection + Animal Identification —\nYou are an expert character analyst, animal behavior expert, companion animal designer, and professional anime illustration prompt engineer.\nUse the attached character illustration as the only required input.\nDo NOT ask the user for the character's name, personality, age, setting, favorite animal, or any additional information.\nYour task is to analyze the attached character and independently create one complete illustration in which the character is naturally accompanied by exactly one animal selected specifically for that character.\nThe selected animal must also be clearly identified with a tasteful, readable information label within the finished illustration.\n1. ANALYZE THE CHARACTER\nCarefully examine the reference illustration.\nInfer, as appropriate:\napparent age and age impression\ngender presentation\nfacial expression\nhairstyle and hair color\neye color\nclothing and fashion style\ndominant colors\naccessories\nbody language\napparent personality\nemotional atmosphere\nelegance, cuteness, strength, gentleness, intelligence, mystery, playfulness, etc.\nimplied setting or world\nfantasy, modern, historical, futuristic, magical, or other visual themes\noverall character identity and aesthetic\nDo not invent unnecessary details that contradict the reference image.\nThe original character must remain clearly recognizable.\n2. AUTONOMOUSLY SELECT THE COMPANION ANIMAL\nDo not ask the user to choose an animal.\nIndependently determine which single animal has the strongest overall compatibility with the character.\nConsider:\nvisual harmony\ncolor harmony\napparent personality\nemotional compatibility\ncharacter's clothing and aesthetic\nimplied world or setting\nsize and physical compatibility\nnatural relationship between character and animal\noriginality and variety\noverall visual appeal\nThe selected animal should feel as though it genuinely belongs beside this particular character.\nDo not simply choose the most common animal.\nAvoid repeatedly selecting dogs or cats when another animal would be a stronger match.\n3. ANIMAL SELECTION RANGE\nThe companion may be selected from a very broad range.\nPossible choices include, but are not limited to:\ndogs\ncats\nrabbits\nhamsters\nguinea pigs\nferrets\nbirds\nparrots\nowls\nsongbirds\nreptiles\nturtles\nlizards\nsnakes\namphibians\nfish\nhorses\nponies\ncows\ncalves\npigs\npiglets\nsheep\ngoats\ndeer\nfoxes\nwolves\nbears\nraccoons\notters\nred pandas\npenguins\nseals\ndolphins\nother marine animals\nunusual real-world animals\nwild animals\ndomesticated animals\nlivestock\nprehistoric animals\ndinosaurs\nextinct animals\nmythical creatures\nfantasy animals\nmagical beasts\nThis is NOT a mandatory list.\nChoose whatever animal is genuinely the strongest match.\nAn unusual choice is encouraged when it creates a convincing and aesthetically appealing pairing.\nDo not choose an unusual animal merely for novelty.\n4. DETERMINE THE EXACT ANIMAL IDENTITY\nAfter selecting the companion, determine its most accurate recognizable identity.\nFor example:\nGolden Retriever\nSiberian Husky\nMaine Coon\nWhite Rabbit\nRed Fox\nArctic Wolf\nEmperor Penguin\nHighland Cow\nMiniature Pig\nBarn Owl\nBlue Macaw\nVelociraptor\nTriceratops\nWhen appropriate, identify both:\nCommon name + specific breed/species\nFor example:\nDOG — SIBERIAN HUSKY\nor\nWOLF — ARCTIC WOLF\nor\nCAT — MAINE COON\nFor prehistoric animals and dinosaurs, use the scientifically recognized common name whenever possible.\nFor fantasy creatures, use a clear descriptive name such as:\nFANTASY CREATURE — ICE DRAGON\nThe animal identification must correspond exactly to the animal actually depicted.\n5. ANIMAL INFORMATION LABEL\nThe finished illustration MUST contain a small, elegant information panel identifying the selected companion.\nPlace the information panel in an unobtrusive area such as:\nlower corner\nlower margin\nside margin\nelegant translucent panel\nsmall decorative caption area\nThe information panel must NOT cover the character or animal.\nUse a clean, sophisticated typography style that matches the illustration.\nThe information panel should contain:\nCOMPANION\n[ANIMAL TYPE]\n[SPECIES / BREED]\nExample:\nCOMPANION\nWOLF\nARCTIC WOLF\nAnother example:\nCOMPANION\nDOG\nSIBERIAN HUSKY\nAnother example:\nCOMPANION\nDINOSAUR\nVELOCIRAPTOR\nIf the animal has no meaningful breed distinction, simply use:\nCOMPANION\nFOX\nRED FOX\nThe text must be short, clean, correctly spelled, and highly legible.\nDo NOT display multiple possible animal names.\nDo NOT display the names of animals that were not selected.\n6. IMPORTANT TEXT ACCURACY RULE\nThe animal name displayed in the information panel must match the animal actually generated.\nDo not write \"CAT\" if the image depicts a fox.\nDo not write \"WOLF\" if the image depicts a husky.\nDo not write a generic animal name when a clearly identifiable species or breed has been selected.\nPrioritize accurate and readable text.\nThe information panel is part of the composition and should look intentionally designed rather than like an AI-generated random caption.\n7. DETERMINE THE RELATIONSHIP\nAutomatically determine the most natural relationship between the character and the selected animal.\nPossible relationships include:\nbeloved pet\nfaithful companion\nbest friend\ntrusted partner\nguardian animal\nfamiliar\nmagical companion\ntravel companion\ngentle livestock companion\nplayful friend\nprotective companion\nmysterious companion\nmajestic partner\nDo not explain the relationship in text.\nExpress it visually through body language and interaction.\n8. DESIGN THE ANIMAL\nOnce the animal has been selected, automatically determine:\nspecies\nbreed or subtype when appropriate\nage\nsize\nfur, feather, scale, or skin characteristics\ncolors\nmarkings\neye color\nfacial expression\naccessories if appropriate\nposture\npersonality expression\nThe animal should complement the character without visually overpowering them.\nDo not turn an ordinary animal into a fantasy creature unless the character's setting strongly suggests it.\nLikewise, do not make the animal excessively cute if that contradicts the character's atmosphere.\n9. CHARACTER + ANIMAL COMPOSITION\nPlace the character and animal together in the same scene.\nThe animal must be clearly visible.\nPossible interactions include:\nstanding beside the character\nsitting beside the character\nwalking alongside the character\nlooking up at the character\nresting against the character\nbeing gently petted\nholding or carrying a small animal when physically appropriate\nthe character gently touching the animal\nthe animal affectionately leaning against the character\nboth looking toward the same direction\nplayful interaction\nprotective positioning\nelegant side-by-side composition\nChoose the most natural interaction automatically.\nAvoid awkward poses, unnatural anatomy, forced contact, or physically impossible positioning.\nThe character remains the primary visual subject.\nThe animal is the character's companion, not the main subject.\n10. PRESERVE THE REFERENCE CHARACTER\nThe attached image is the primary character reference.\nPreserve the character's recognizable identity.\nMaintain as accurately as possible:\nhairstyle\nhair color\neye color\nfacial characteristics\nclothing design\nimportant accessories\ndistinctive markings\noverall appearance\nvisual identity\nDo not unnecessarily redesign the character.\nDo not replace the character's outfit unless the reference itself clearly requires adaptation to the new scene.\n11. ENVIRONMENT\nAutomatically create a simple environment that harmonizes with both the character and the selected animal.\nThe environment may be:\ngarden\nforest\nmeadow\nhome\nelegant room\ncity\nbeach\ncountryside\nfantasy landscape\nmagical environment\nancient environment\nfuturistic environment\nanother suitable location\nChoose the environment based on the character and animal.\nDo not let the background overpower the subjects.\n12. VISUAL QUALITY\nCreate a polished, high-quality anime illustration.\nmasterpiece, best quality, ultra detailed, highly detailed anime illustration, beautiful composition, expressive character, detailed animal, natural interaction, coherent lighting, detailed eyes, detailed hair, detailed clothing, detailed animal anatomy, professional character illustration\nUse cinematic composition and appealing lighting appropriate to the character.\nThe character and animal must look like they belong in the same scene.\n13. AUTONOMOUS DECISION RULE\nThe user has intentionally provided only one reference image.\nTherefore:\nDO NOT ask questions.\nDO NOT request a personality description.\nDO NOT request the animal type.\nDO NOT request the setting.\nDO NOT request the relationship.\nDO NOT provide multiple animal choices.\nMake all necessary creative decisions yourself.\nThe final output must contain:\n1 character\n+ exactly 1 selected companion animal\n+ 1 clearly readable animal identification panel\nFINAL GENERATION DIRECTIVE\nAnalyze the attached reference image first.\nIndependently determine the character's visual identity, personality impression, atmosphere, and implied world.\nSelect exactly one animal that best complements the character.\nDetermine the exact species or breed of that animal.\nCreate a finished illustration showing the character and animal naturally together.\nAdd a small, elegant, highly readable COMPANION information panel identifying the selected animal.\nThe displayed animal name must accurately match the animal shown.\nDo not reveal the analysis process.\nDo not present alternatives.\nDo not ask questions.\nGenerate the final illustration directly.",
+"likeCount": 64,
+"retweetCount": 12,
+"url": "https://x.com/oteranosekai/status/2105236225963798558",
+"createdAt": "Wed Sep 30 10:00:04 +0000 2026"
+},
+{
+"userName": "ArtistaNozomu",
+"text": "🔸プロンプト🔸\n\nadult anime fashion model, original plush loungewear couture, soft ivory as the main color with small beige, pale pink, dark brown and gold accents only, dreamy cozy fantasy fashion, ultra-soft fluffy texture, gentle heroine presence, strong anime key visual, warm and lovable but stylish\n\nbuild the outfit from the ground up, avoid literal animal kigurumi, avoid mascot costume styling, avoid full onesie construction, avoid childish sleepwear\n\nuse a soft cocoon silhouette such as an oversized plush hoodie-dress, rounded short cape with fitted inner layer, cocoon cardigan with puffed shorts, or sculpted loungewear set with cloud-like volume\n\ninclude subtle creature-inspired cues without becoming literal costume pieces: curved side ornaments, soft drooping fabric extensions, rounded forehead-like fluff detail, tiny tail-like back accent, or gentle bell accessory near the collar\n\nkeep the face visible and expressive; use a soft hood, plush collar, rounded neckline, or open face-framing structure rather than a full character head hood\n\nthe lower silhouette may vary between cocoon shorts, rounded bloom shorts, tapered plush pants, layered mini loungewear skirt, or soft fitted inner bottoms with oversized outer volume\n\nuse ivory plush, fluffy fleece, soft faux fur, pale pink ribbon details, a tiny gold bell accent, small dark brown cuff or slipper accents, and soft beige tonal shading in controlled amounts\n\ninclude one charming motion detail such as ribbon tails, floating sleeve ties, rounded side flaps, oversized cuffs, or trailing plush panels\n\nprioritize anime impact: clear face, large expressive eyes, fluffy silhouette, soft hair framing, cozy volume, gentle wind or bounce in the fabric, bright rim light, clean negative space, readable silhouette at thumbnail size\n\nrandomize upper structure, hood or collar design, lower silhouette, fluffy side details, ribbon placement, bell placement, cuff shape, footwear, pose, expression, camera and background\n\npossible expressions: sleepy smile, gentle happiness, soft wonder, playful warmth, calm comfort, drowsy confidence\n\npossible poses: hugging the collar, stepping lightly forward, turning with the plush hem in motion, holding ribbon ends, looking back over the shoulder, sitting or kneeling in a soft fashion pose\n\npossible settings: sunlit bedroom set, dreamy white studio, cloud-like lounge space, pastel meadow terrace, warm window corner, soft fantasy interior\n\neach generation should feel like a different protagonist outfit from the same ivory comfort collection, with clearly different garment construction rather than minor changes\n\n↑↑↑ここまで↑↑↑\n――――\n⚠️再配布禁止\n⚠️自作発言禁止\n⚠️プロンプト調整はOK（調整後の再配布はNG）\n――――",
+"likeCount": 7,
 "retweetCount": 0,
-"url": "https://x.com/OwenGregorian/status/2106349119786656196",
-"createdAt": "Sat Oct 03 11:42:18 +0000 2026"
-},
-{
-"userName": "jimmy_aibrief",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/dTadi8WXEa — Free research papers\n2. https://t.co/2dPp4541SX — Borrow books online\n3. https://t.co/n6kOg9UQ2P — Free academic journals\n4. https://t.co/YSKnnRxEzF — 70K+ free books\n5. https://t.co/y4sLiWWaSP — Free textbooks\n6. https://t.co/pYcx5MeuZf — Free online courses\n7. https://t.co/GgZZmG4COX — Solve complex problems\n8. https://t.co/vh9pIYZxnZ — AI research assistant\n9. https://t.co/9JSenzybYX — Research-backed AI answers\n10. https://t.co/7WUaC0laQ8 — Find research connections\n11. https://t.co/6vLPOnNx1X — Academic search engine\n12. https://t.co/XYi1MDFRmA — Understand research papers easily\n13. https://t.co/9JMaUsDkRv — Free Photoshop alternative\n14. https://t.co/aAhwJwxd8q — Compress & optimize images\n15. https://t.co/D933WAHILq — Remove image backgrounds\n16. https://t.co/tS1cRDBtl3 — Remove objects from photos\n17. https://t.co/gFVKB5DHYj — Remove video backgrounds\n18. https://t.co/zfeFtKIK4w — Beautiful code images\n19. https://t.co/GYbeCSiGlN — Share elegant code screenshots\n20. https://t.co/l43hJrGTdx — AI search engine for developers\n21. https://t.co/HC8TaRskDO — Test and debug regex\n22. https://t.co/sqqu2lIQ9B — Format & clean code\n23. https://t.co/a3Pvg79qb8 — Format & validate JSON\n24. https://t.co/xTZBd6T003 — Understand terminal commands\n25. https://t.co/Nh0w742UKx — Stunning product mockups\n26. https://t.co/FxWXbMGnxK — Powerful online mockup generator\n27. https://t.co/TxIoy6nvCE — Find alternatives to any app\n28. https://t.co/4kVNihC8Lw — Check data breaches\n29. https://t.co/jtftC2cchU — Scan files & URLs for malware\n30. https://t.co/QXYA6K88qC — Self-destructing text notes\n31. https://t.co/y90Yfi11MN — Disposable temporary email\n32. https://t.co/LhWr8ZrACS — 10-minute temporary email\n33. https://t.co/PATmtbTaN6 — Temporary & secure file sharing\n34. https://t.co/CGvxb6SB2e — Explore global live radio\n35. https://t.co/h0uKV2sWdl — Discover similar music & artists\n36. https://t.co/PNW23LP7E7 — Find songs from movies & shows\n37. https://t.co/Vb9IcObRE9 — Focus music for coding\n38. https://t.co/BciaHkPIUk — Custom background sounds\n39. https://t.co/gB4WUHw8JQ — Ambient café sounds for productivity\n40. https://t.co/scTXewpkDg — Find where to stream movies\n41. https://t.co/z5BafNPha8 — The internet’s digital library\n42. https://t.co/dVq5zdfhrL — Create a personal copy of any webpage\n43. https://t.co/9JohLiVbME — Find related websites\n44. https://t.co/XPDv47r62u — AI YouTube video summaries\n45. https://t.co/Kl7Z2y9fJs — Ultimate smart bookmark manager\n46. https://t.co/jcrYgh4FR8 — Check real-time service outages\n47. https://t.co/jOohjiJlmT — Smart reverse image search\n48. https://t.co/2pYszKdruY — Quick internet speed test\n49. https://t.co/PzFts8BTbY — All-in-one PDF tools\n50. https://t.co/YLOJ7jazKC — Merge, split & convert PDFs\n\nSave this. You’ll definitely need some of these later! 🔖\n\nFollow @jimmy_aibrief for more useful websites, AI tools & tech resources.",
-"likeCount": 105,
-"retweetCount": 69,
-"url": "https://x.com/jimmy_aibrief/status/2106395936939204669",
-"createdAt": "Sat Oct 03 14:48:20 +0000 2026"
-},
-{
-"userName": "Norevix_",
-"text": "Here’s a more useful version you can post on X, with the tools explained and linked:\n\n27 AI tools worth knowing in 2026 ⚡🤖\n\nNot every AI tool does the same job. Here’s what each category is useful for:\n\n✍️ Writing • [SurgeGraph](https://t.co/OixHAz4xFi) — SEO content & AI visibility \n• [Sudowrite](https://t.co/S9M5EeXkfS) — Creative writing & stories \n• [Hoppy Copy](https://t.co/laPGrffXn1) — Marketing copy\n\n💻 Coding • [v0](https://t.co/KuYPZ6smxd) — Generate UI and apps\n• [Cursor](https://t.co/EDSY6JJJNz) — AI-powered coding\n• [Bolt](https://t.co/vWWYhvmTfN) — Build web apps with AI\n\n🤖 Agents & Automation • [Manus](https://t.co/ofHo4iH5Wq) — AI agent workflows\n• [n8n](https://t.co/alFsKz6RdH) — Automate workflows\n• [Zapier](https://t.co/di71ybSx9w) — Connect apps and automate tasks\n\n🎨 Images • [Ideogram](https://t.co/t0aGLq6CNn) — AI images & text\n• [ChatGPT](https://t.co/8S3J4ebXhM) — Images, writing & more\n• [Midjourney](https://t.co/KTs219FMRZ) — AI image creation\n\n🎬 Video • [Runway](https://t.co/aL6myqJ3kH) — AI video generation\n• [Google Veo](https://t.co/M4oqtzg05R) — AI video generation\n• [Hailuo AI](https://t.co/Eaiyh8Abm3) — AI video creation\n\n🎙️ Audio • [Suno](https://t.co/0rbL2kcKIB) — Create music with AI\n• [ElevenLabs](https://t.co/12aJQ4AJcX) — AI voices\n• [Speechify](https://t.co/imnaNDWc73) — AI text-to-speech\n\n📈 SEO • [SurgeGraph](https://t.co/OixHAz4xFi) — SEO & AI-search optimization\n• [Google Search Console](https://t.co/B6QBhxnH9B) — Monitor website search performance\n• [Answer Socrates](https://t.co/hanbfJkE8z) — Find questions people search\n\n🔎 Research • [Perplexity](https://t.co/kLYI3lbGJG) — AI-powered research\n• [NotebookLM](https://t.co/6dkSW9dHDq) — Research your own sources\n• [Deep Research](https://t.co/8S3J4ebXhM) — In-depth research inside ChatGPT\n\n💬 Chatbots • [ChatGPT](https://t.co/8S3J4ebXhM) — General-purpose AI\n• [Grok](https://t.co/uC7YokKc0B) — AI chatbot\n• [Gemini](https://t.co/GRQGzTOupE) — Google’s AI assistant\n\n**Save this list 🔖\nPick one category. Learn one tool. Build something useful. 🚀**",
-"likeCount": 9,
-"retweetCount": 6,
-"url": "https://x.com/Norevix_/status/2106318845078380676",
-"createdAt": "Sat Oct 03 09:42:00 +0000 2026"
+"url": "https://x.com/ArtistaNozomu/status/2106166495416136012",
+"createdAt": "Fri Oct 02 23:36:37 +0000 2026"
 },
 {
 "userName": "OpenBMB",
@@ -32,91 +24,91 @@
 "createdAt": "Wed Sep 30 13:00:01 +0000 2026"
 },
 {
-"userName": "arena",
-"text": "How to design rewards for post-training frontier image models? \n\nOur research suggests human preference reward is necessary, but insufficient: A preference model may still reward outputs that look appealing but miss details, introduce unrequested content, or exhibit other forms of reward-hacking.\n\nWe therefore optimize towards a composite reward:\n- Bradley-Terry reward model trained on ~5.6M pairwise human votes\n- Faithfulness reward from auto-generated prompt checklists evaluated by a vision-language model\n- Constraint reward covering explicit and implicit user intent\n- Anti-reward-hacking rubric rewards targeting failures such as garbled text and photorealism drift\nThis post-training recipe improves two already-strong open image models:\n- Post-trained FLUX.2-dev gains 69 Elo points on our live T2I leaderboard, scoring 1202\n- Post-trained Ideogram 4 gains 20 Elo points reaching a score of 1224 and surpassing all publicly listed open models (as of Sep 04, 2026).\n\nOffline ablations with Gemini 3.5 Flash as the judge, show that these reward components are complementary: win rate against the base model increases as we add faithfulness and then constraint rewards on top of preference-only training, reaching 64.2%.\n\nFinally, we ensemble policies trained with and without the anti-reward-hacking objective directly in weight space, further increasing win rate to 66.0%.",
-"likeCount": 153,
-"retweetCount": 13,
-"url": "https://x.com/arena/status/2106037792870649995",
-"createdAt": "Fri Oct 02 15:05:12 +0000 2026"
+"userName": "ivke2006",
+"text": "🚀 Daily Top 10: AI • ICT • IT • Robotics – October 4, 2026\n1️⃣ The guy who wrote OpenAI’s safety reports just quit. David Robinson, 3.5 years in: the culture is broken.\n2️⃣ Amazon is throwing $1B+ at the towns hosting its data centers, and dropping the NDAs. The backlash did not wait for the check.\n3️⃣ Germany’s Aleph Alpha shipped Kolibri-1. Open weights, Apache 2.0, 78B. It hit the top of Hacker News.\n4️⃣ FieldAI raised $700M at a $10B valuation for a “universal” robot brain. Humanoids, dogs, drones. Revenue already past $135M.\n5️⃣ Claude is moving into healthcare. Billing, prior auth, and a link to Apple Health and Android Health Connect.\n6️⃣ Broadcom is syndicating ~$60B in debt so Anthropic can keep buying chips. Anthropic is still aiming at a mid-November IPO.\n7️⃣ ChatGPT gets virtual try-on. Upload a photo, see the clothes. Shopping agents just got a mirror.\n8️⃣ Altman says he is “very uncomfortable” with people treating models like a religion. He called it a real safety issue.\n9️⃣ Frontier models beat licensed CPAs on structured accounting tasks. Narrow work. Still a bad week for the month-end close.\n🔟 Meta open-sourced Muse Gadgets. A Raspberry Pi can now be a screen or button for its agent.\n\nWhich one do you like? Let us know!👇",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/ivke2006/status/2106686849552986326",
+"createdAt": "Sun Oct 04 10:04:19 +0000 2026"
 },
 {
 "userName": "HBX_hbx",
 "text": "[1/n] Introducing Diffusion Reward Models (DRM)\n\nReward Models are at the core of LLM post-training. But almost all of them make the same simplification:\nthey collapse human preference into a single score.\n\nThe problem is that human feedback is often not a point — different people can hold distinct, even conflicting, judgments about the same response.\n\nSo we asked: Can a Reward Model learn the distribution of human preference?\n\nHere’s what we found 👇\n\n📄 Paper: https://t.co/e0EMNa3I64\n💻 Code: https://t.co/KVosB5D5PI\n🤗 Models: https://t.co/wwdDpOtgbL",
-"likeCount": 352,
+"likeCount": 354,
 "retweetCount": 47,
 "url": "https://x.com/HBX_hbx/status/2104779296640467452",
 "createdAt": "Tue Sep 29 03:44:23 +0000 2026"
 },
 {
-"userName": "HBX_hbx",
-"text": "[2/n] Our answer is DRM: model rewards as distributions.\n\nInstead of predicting a scalar, DRM replaces the conventional value head with a lightweight Diffusion Reward Head.\n\nGiven a prompt-response pair, it generates samples from the reward distribution.\n\nSo disagreement, uncertainty, and multiple plausible judgments can remain in the reward itself, rather than being averaged away.\n\nAnd the same framework works with both multi-attribute rewards and pairwise preferences.",
-"likeCount": 10,
-"retweetCount": 1,
-"url": "https://x.com/HBX_hbx/status/2104779301468192788",
-"createdAt": "Tue Sep 29 03:44:25 +0000 2026"
+"userName": "Shelly_Golan1",
+"text": "Excited to share that our paper \"ParetoSlider: Diffusion Models Post-Training for Continuous Reward Control\" has been accepted to @NeurIPSConf as an oral! 🎉\n\nParetoSlider enables continuous inference-time control over competing reward trade-offs with a single diffusion model, without retraining or maintaining multiple checkpoints.\n\nHuge thanks to the great team @mikikiFin, @ArielBAMath, @YotamNitzan, @OPatashnik \n\nPaper: https://t.co/jWyTpYUiaV\nProject page: https://t.co/HjToAYSvjp\nCode: https://t.co/yVVZk6DKKR",
+"likeCount": 62,
+"retweetCount": 14,
+"url": "https://x.com/Shelly_Golan1/status/2105342543479066732",
+"createdAt": "Wed Sep 30 17:02:32 +0000 2026"
 },
 {
-"userName": "0xwhrrari",
-"text": "Sonnet 5.5 is cheaper per run\n\nOpus 5.5 can still be cheaper per finished task\n\nThe difference is in effort, cache misses and the retries you paid for but never shipped\n\nI broke down when to use each model and how to measure what the job actually costs ↓ https://t.co/sPjFexZrZl",
-"likeCount": 100,
-"retweetCount": 7,
-"url": "https://x.com/0xwhrrari/status/2106368701993832488",
-"createdAt": "Sat Oct 03 13:00:07 +0000 2026"
+"userName": "StockBoxMedia",
+"text": "Coinsilium Backs Generative AI Platform BeatingHeart\n\nStockBox spoke with Eddy Travia, CEO @CoinsiliumGroup following the company’s backing of BeatingHeart, an AI-powered advertising and creative-production platform founded and initially funded by global fashion and lifestyle brand @BlvckParis.\n\nFull interview in the replies.",
+"likeCount": 4,
+"retweetCount": 2,
+"url": "https://x.com/StockBoxMedia/status/2104869807090782237",
+"createdAt": "Tue Sep 29 09:44:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @Aleph__Alpha: Small bird, fast wings, Kolibri is here.\n\n78B parameters. 3.46B active. Up to 1M tokens of context. Built in Europe.\n\nNow…",
-"likeCount": 3910,
-"retweetCount": 442,
+"likeCount": 7487,
+"retweetCount": 795,
 "url": "https://x.com/ClementDelangue/status/2106348150684303422",
 "createdAt": "Sat Oct 03 11:38:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @_brightmirror: Made with Claude Opus 5.5. \n\nThe fearmongering about AI always makes us forget that NOTHING WENT FOOM, as was always pre…",
-"likeCount": 5593,
-"retweetCount": 845,
-"url": "https://x.com/ClementDelangue/status/2106055500471341263",
-"createdAt": "Fri Oct 02 16:15:34 +0000 2026"
+"text": "RT @guohao_li: SETA got accepted to NeurIPS 2026! 🎉\n\nWe released the full training scripts for DeepSeek-V4-Flash, GLM-5.2 (LoRA), Inkling-S…",
+"likeCount": 192,
+"retweetCount": 26,
+"url": "https://x.com/ClementDelangue/status/2106075161799819276",
+"createdAt": "Fri Oct 02 17:33:42 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @perplexitydevs: pplx-decider-v1-27b is fine-tuned from Qwen3.8-27B with a 250k context window.\n\nView the weights on Hugging Face:\nhttps…",
-"likeCount": 131,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2105801544968880540",
-"createdAt": "Thu Oct 01 23:26:26 +0000 2026"
+"text": "RT @akshay_pachaar: HuggingFace just closed a major gap in harness engineering!\n\n(the ultimate guide to multi-harness RL)\n\nthe same open-we…",
+"likeCount": 369,
+"retweetCount": 49,
+"url": "https://x.com/ClementDelangue/status/2106829251479498976",
+"createdAt": "Sun Oct 04 19:30:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Hesamation: babe, wake up.\n\nHugging Face just dropped a new banger article about RL training coding agents on different harnesses. http…",
+"likeCount": 342,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2106067846539120656",
+"createdAt": "Fri Oct 02 17:04:38 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @wenhaocha1: The Pareto frontier is misleading ❌ for general users. Price it by subscription instead of API. With cache hits, Opus 5.5 w…",
-"likeCount": 1112,
-"retweetCount": 80,
-"url": "https://x.com/jeremyphoward/status/2105068068934435066",
-"createdAt": "Tue Sep 29 22:51:52 +0000 2026"
+"text": "RT @natolambert: Today we're unveiling Trillium Labs @trillium_labs, a new non-profit to foster the open science of frontier AI. We're buil…",
+"likeCount": 3145,
+"retweetCount": 288,
+"url": "https://x.com/jeremyphoward/status/2106321507471511706",
+"createdAt": "Sat Oct 03 09:52:35 +0000 2026"
 },
 {
-"userName": "sheatrevor",
-"text": "AI made programming skills I spent decades learning available to everyone. Here's why I'm more optimistic than ever. https://t.co/HCQqi910Qs",
-"likeCount": 10,
-"retweetCount": 0,
-"url": "https://x.com/sheatrevor/status/2106494842834669878",
-"createdAt": "Sat Oct 03 21:21:21 +0000 2026"
+"userName": "metavestor",
+"text": "The universe of bio x AI broken down by ticker and subtheme for investors. Bracing for another exponential https://t.co/XQj3mT35DE",
+"likeCount": 141,
+"retweetCount": 17,
+"url": "https://x.com/metavestor/status/2105290623926554864",
+"createdAt": "Wed Sep 30 13:36:13 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @jckwind: Did some sight seeing today @ClementDelangue @betaworks @huggingface https://t.co/5cAAmW8BFD",
-"likeCount": 24,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2105988776682213598",
-"createdAt": "Fri Oct 02 11:50:26 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/OIPtB1tSGF",
-"likeCount": 9,
-"retweetCount": 5,
-"url": "https://x.com/apob_ai/status/2106596976985043267",
-"createdAt": "Sun Oct 04 04:07:12 +0000 2026"
+"text": "RT @kim__minseon: It is here now ! Enjoy our 4B model 🐸\nhttps://t.co/ST3963rJa2",
+"likeCount": 402,
+"retweetCount": 28,
+"url": "https://x.com/ClementDelangue/status/2106186464128287026",
+"createdAt": "Sat Oct 03 00:55:58 +0000 2026"
 }
 ]
