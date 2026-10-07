@@ -2,113 +2,121 @@
 {
 "userName": "meAsifAi",
 "text": "Created with @ChatGPT \nPrompt :\nCreate a premium professional character reference sheet using the uploaded REFERENCE IMAGE as the ONLY identity reference for the MAIN SUBJECT.\n\nIMPORTANT:\nThe final image MUST contain EXACTLY 10 frames/panels.\nDo NOT add extra frames.\nDo NOT remove any frames.\nDo NOT change the panel arrangement.\n\nUse the following EXACT 2-ROW, 10-FRAME layout:\n\nTOP ROW = 5 FACE / HEAD-AND-SHOULERS VIEWS\nBOTTOM ROW = 5 FULL-BODY VIEWS\n\nThe composition, number of frames, pose sequence, and camera angles must remain exactly as specified below.\n\n==================================================\nREFERENCE & IDENTITY LOCK\n==================================================\n\nUse the uploaded reference image as the single source of truth for the MAIN SUBJECT'S identity.\n\nPreserve the person's exact:\n- Facial identity\n- Facial structure\n- Skin tone\n- Eye shape and natural eye color\n- Eyebrows\n- Nose\n- Lips\n- Jawline\n- Cheek structure\n- Hairstyle\n- Hairline\n- Hair color\n- Hair texture\n- Hair length\n- Age appearance\n- Natural facial features\n- Body proportions\n- Physique\n- Overall recognizable appearance\n\nThe reference may be MALE or FEMALE.\n\nIf the reference is male, keep the subject male.\nIf the reference is female, keep the subject female.\n\nDo NOT change the person's identity.\nDo NOT create a different-looking version of the person.\nDo NOT beautify or modify facial structure.\n\n==================================================\nEXACT FINAL LAYOUT — 10 FRAMES\n==================================================\n\nROW 1 — FACE REFERENCE\nExactly 5 frames:\n\nFRAME 1:\nFRONT VIEW\n- Straight-on face\n- Head facing directly toward camera\n- Neutral expression\n- Head and shoulders visible\n\nFRAME 2:\n3/4 LEFT VIEW\n- Head turned approximately 45 degrees to the subject's LEFT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 3:\nLEFT PROFILE\n- Exact left-side profile\n- Approximately 90-degree rotation\n- Nose, lips, chin, jawline and hair silhouette clearly visible\n\nFRAME 4:\n3/4 RIGHT VIEW\n- Head turned approximately 45 degrees to the subject's RIGHT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 5:\nRIGHT PROFILE\n- Exact right-side profile\n- Approximately 90-degree rotation\n- Complete facial silhouette clearly visible\n\nTOP ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | RIGHT PROFILE\n\n==================================================\nROW 2 — FULL BODY REFERENCE\n==================================================\n\nExactly 5 frames:\n\nFRAME 6:\nFRONT FULL-BODY VIEW\n- Subject standing naturally\n- Facing directly toward camera\n- Entire body visible from head to feet\n- Arms naturally relaxed beside the body\n- Feet visible\n\nFRAME 7:\n3/4 LEFT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's LEFT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 8:\nLEFT PROFILE FULL-BODY VIEW\n- Exact left-side profile\n- Body rotated approximately 90 degrees\n- Entire body visible from head to feet\n\nFRAME 9:\n3/4 RIGHT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's RIGHT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 10:\nBACK FULL-BODY VIEW\n- Subject facing completely away from camera\n- Full back visible\n- Entire body visible from head to feet\n- Hair visible from the back\n- Natural standing posture\n\nBOTTOM ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | BACK\n\n==================================================\nCRITICAL CONSISTENCY\n==================================================\n\nALL 10 FRAMES MUST SHOW EXACTLY THE SAME PERSON.\n\nMaintain identical:\n- Face\n- Hair\n- Hairline\n- Hair color\n- Facial proportions\n- Body proportions\n- Height\n- Physique\n- Skin tone\n- Age appearance\n- Clothing\n- Accessories\n\nThe person must not look like 10 different generations.\n\nThe facial identity must remain consistent between every frame.\n\nThe body proportions must remain consistent between every full-body frame.\n\n==================================================\nCLOTHING\n==================================================\n\nUse one simple, clean, fitted outfit suitable for a professional character/model reference sheet.\n\nThe EXACT SAME outfit must appear in all 10 frames.\n\nDo not change clothing between panels.\n\nDo not change hairstyle between panels.\n\nDo not change accessories between panels.\n\nIf the uploaded reference has an important recognizable hairstyle or appearance, preserve it.\n\n==================================================\nBACKGROUND & PRESENTATION\n==================================================\n\nClean professional light-gray/white studio background.\n\nMinimal environment.\n\nNo scenery.\n\nNo props.\n\nNo dramatic background.\n\nNo unnecessary objects.\n\nAll 10 frames should appear as one professionally photographed character reference sheet.\n\nUse consistent studio lighting across every frame.\n\nSoft, neutral, evenly distributed lighting.\n\nMinimal shadows.\n\n==================================================\nCAMERA CONSISTENCY\n==================================================\n\nUse consistent professional studio photography.\n\nFACE FRAMES:\nHead-and-shoulders framing.\n\nFULL-BODY FRAMES:\nHead-to-feet framing with the entire body completely visible.\n\nMaintain consistent camera height, focal length, lighting, and distance.\n\nAvoid wide-angle distortion.\n\nKeep facial proportions natural and accurate.\n\n==================================================\nPANEL DESIGN\n==================================================\n\nCreate a clean rectangular 2-row grid.\n\nExactly 5 equal-width panels on the TOP ROW.\n\nExactly 5 equal-width panels on the BOTTOM ROW.\n\nAll panels should have matching dimensions.\n\nClean spacing between panels.\n\nProfessional production-model-sheet appearance.\n\nAdd small, clean labels beneath or within each panel:\n\nTOP:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nRIGHT PROFILE\n\nBOTTOM:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nBACK\n\nLabels must be small, clean, professional, and unobtrusive.\n\n==================================================\nPOSE LOCK\n==================================================\n\nDo NOT invent additional poses.\n\nUse ONLY these specified views and poses.\n\nTOP ROW:\n1. Front\n2. 3/4 Left\n3. Left Profile\n4. 3/4 Right\n5. Right Profile\n\nBOTTOM ROW:\n6. Front\n7. 3/4 Left\n8. Left Profile\n9. 3/4 Right\n10. Back\n\nThe pose sequence must remain exactly the same.\n\n==================================================\nPROFESSIONAL USE\n==================================================\n\nThe resulting sheet should function as a professional character-consistency reference for:\n\nAI image generation\nAI video generation\nAnimation\nFilm production\nStoryboarding\nCharacter design\nFashion visualization\n3D character development\n\nEvery angle should clearly communicate the same person's identity and physical appearance.\n\n==================================================\nNEGATIVE CONSTRAINTS\n==================================================\n\nEXACTLY 10 FRAMES ONLY.\n\nNo 8 frames.\nNo 9 frames.\nNo 11 frames.\nNo extra portraits.\nNo extra poses.\nNo additional panels.\n\nNo identity change.\nNo different person.\nNo face variation.\nNo face blending.\nNo gender change.\nNo age change.\nNo hairstyle change.\nNo hair color change.\nNo body-shape change.\nNo inconsistent clothing.\nNo inconsistent proportions.\nNo duplicated panels.\nNo missing panels.\nNo distorted profile.\nNo distorted hands.\nNo extra fingers.\nNo extra limbs.\nNo cropped feet in full-body frames.\nNo cropped head in face frames.\nNo extreme camera distortion.\nNo cartoon style.\nNo CGI appearance.\nNo plastic skin.\nNo text except the specified small view labels.\nNo watermark.\nNo logo.\n\nFINAL OUTPUT:\nA single clean professional 2-row × 5-column character reference sheet containing EXACTLY 10 consistent views of the same person.\n\nRESOLUTION LOCK:\nGenerate the final image in 16K resolution — 15360 × 8640 pixels (≈132.7 million pixels), landscape 16:9 composition.",
-"likeCount": 177,
-"retweetCount": 20,
+"likeCount": 247,
+"retweetCount": 31,
 "url": "https://x.com/meAsifAi/status/2107123657734545700",
 "createdAt": "Mon Oct 05 15:00:03 +0000 2026"
 },
 {
-"userName": "Zen_with_AI",
-"text": "第1003期 小路和你读AI论文。今日4篇高质量论文。\n\n1. 𝗙𝗶𝗻𝗲𝘁𝘂𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗦𝗮𝗺𝗽𝗹𝗶𝗻𝗴: 𝗦𝗙𝗧 𝗟𝗲𝗮𝗿𝗻𝘀 𝗕𝗲𝘁𝘁𝗲𝗿 𝗧𝗵𝗮𝗻 𝗬𝗼𝘂 𝗧𝗵𝗶𝗻𝗸（《带采样的微调：SFT 比你想的更会学》）\n\n链接：https://t.co/QXVXbqz5hu\n\n作者背景：Aayush Karan, Sitan Chen, Yilun Du, Harvard\n\n不改损失，用 MCMC 把离策略专家轨迹逐步改写成更接近参考模型的在策略分布，SFT 在泛化与遗忘上就能比肩强在策略后训练。实验覆盖科学技能、数学推理和开放式专长。采样本身可以当作后训练原语，这会动摇\"保能力必须上 RL\"的默认做法，做后训练的人值得细看。\n\n2. 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗙𝗶𝘁: 𝗠𝗼𝗱𝗲𝗹-𝗛𝗮𝗿𝗻𝗲𝘀𝘀 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀（《找到合适的搭配：跨 Agent 任务的模型与 Harness 交互》）\n\n链接：https://t.co/txmUWsp8E5\n\n作者背景：Yixuan Li, Bo An 等\n\n模型、harness 与任务必须放在一起评，强模型和厂商自有脚手架都不会稳定领先。66 组配置横跨 OpenHands、DeepSeek Harness、PI、openJiuwen 与三项命令行 agent 基准。Terminal-Bench 4 上，Claude 在 OpenHands 中领先 GPT 7.94 分，在 PI 中落后 30.16 分，五个模型里有四个的最优 harness 随基准改变。作者发布了适配器、评测代码和 6,204 条轨迹，部署 agent 的人可以直接拿来做选型证据。\n\n3. 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀（《分层连续扩散语言模型》）\n\n链接：https://t.co/dC0fv3j4PU\n\n作者背景：Alexander Schwing（UIUC）等\n\n让连续潜变量成为唯一持续生成状态，token 每步读出并回馈，以缓解离散扩散并行解码时的独立采样断裂。训练目标来自 token 似然的变分界，同规模下在 Sudoku、Countdown 和 LM1B 上优于离散与连续扩散基线。做扩散语言模型的人可以看看它是否真正保住了并行解码中的 token 依赖。\n\n4. 𝗘𝘃𝗲𝗿𝘆 𝗔𝗯𝗹𝗮𝘁𝗶𝗼𝗻 𝗜𝘀 𝗮 𝗗𝗼𝘀𝗲: 𝗖𝗼𝘂𝗻𝘁𝗲𝗿𝘄𝗲𝗶𝗴𝗵𝘁𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗦𝗲𝗺𝗯𝗹𝗮𝗻𝗰𝗲 𝗼𝗳 𝗦𝗲𝗹𝗳-𝗥𝗲𝗽𝗮𝗶𝗿（《每次消融都是一剂药：反权重与\"自修复\"的假象》）\n\n链接：https://t.co/IzLv2zqidD\n\n消融后看似补偿的响应，多半来自干预前就存在的反权重，它们随对比强度作仿射响应，与临时自我修复无关。在事实判决任务上，Gemma、Qwen、LLaMA、Mistral 的 81 个下游方向中有 68 个服从该仿射律。GPT-2 Small 的 IOI 电路里，干预能触及的 10 个头有 7 个符合，且全是反权重，斜率还能由固定权重预先估计。做机制可解释性的人可以拿它校准对自修复的判断。",
-"likeCount": 22,
-"retweetCount": 7,
-"url": "https://x.com/Zen_with_AI/status/2106405977683886310",
-"createdAt": "Sat Oct 03 15:28:14 +0000 2026"
-},
-{
-"userName": "ArtistaNozomu",
-"text": "🔸プロンプト🔸\n\nadult anime fashion model, original plush loungewear couture, soft ivory as the main color with small beige, pale pink, dark brown and gold accents only, dreamy cozy fantasy fashion, ultra-soft fluffy texture, gentle heroine presence, strong anime key visual, warm and lovable but stylish\n\nbuild the outfit from the ground up, avoid literal animal kigurumi, avoid mascot costume styling, avoid full onesie construction, avoid childish sleepwear\n\nuse a soft cocoon silhouette such as an oversized plush hoodie-dress, rounded short cape with fitted inner layer, cocoon cardigan with puffed shorts, or sculpted loungewear set with cloud-like volume\n\ninclude subtle creature-inspired cues without becoming literal costume pieces: curved side ornaments, soft drooping fabric extensions, rounded forehead-like fluff detail, tiny tail-like back accent, or gentle bell accessory near the collar\n\nkeep the face visible and expressive; use a soft hood, plush collar, rounded neckline, or open face-framing structure rather than a full character head hood\n\nthe lower silhouette may vary between cocoon shorts, rounded bloom shorts, tapered plush pants, layered mini loungewear skirt, or soft fitted inner bottoms with oversized outer volume\n\nuse ivory plush, fluffy fleece, soft faux fur, pale pink ribbon details, a tiny gold bell accent, small dark brown cuff or slipper accents, and soft beige tonal shading in controlled amounts\n\ninclude one charming motion detail such as ribbon tails, floating sleeve ties, rounded side flaps, oversized cuffs, or trailing plush panels\n\nprioritize anime impact: clear face, large expressive eyes, fluffy silhouette, soft hair framing, cozy volume, gentle wind or bounce in the fabric, bright rim light, clean negative space, readable silhouette at thumbnail size\n\nrandomize upper structure, hood or collar design, lower silhouette, fluffy side details, ribbon placement, bell placement, cuff shape, footwear, pose, expression, camera and background\n\npossible expressions: sleepy smile, gentle happiness, soft wonder, playful warmth, calm comfort, drowsy confidence\n\npossible poses: hugging the collar, stepping lightly forward, turning with the plush hem in motion, holding ribbon ends, looking back over the shoulder, sitting or kneeling in a soft fashion pose\n\npossible settings: sunlit bedroom set, dreamy white studio, cloud-like lounge space, pastel meadow terrace, warm window corner, soft fantasy interior\n\neach generation should feel like a different protagonist outfit from the same ivory comfort collection, with clearly different garment construction rather than minor changes\n\n↑↑↑ここまで↑↑↑\n――――\n⚠️再配布禁止\n⚠️自作発言禁止\n⚠️プロンプト調整はOK（調整後の再配布はNG）\n――――",
-"likeCount": 7,
+"userName": "rirahcreates",
+"text": "📌 NICHE #10: AI REAL ESTATE CONTENT CREATION\n\nIf you want to work with businesses that constantly need marketing content, consider this niche:\n\nAI real estate content creation.\n\nReal estate companies need content all the time.\n\nThey need to sell properties.\n\nPromote new developments.\n\nExplain payment plans.\n\nShow locations.\n\nEducate potential buyers.\n\nGenerate leads.\n\nAnd most importantly, make people imagine themselves living in the property.\n\nThat gives AI creators a lot of opportunities.\n\nYou can create:\n\n• Property advert videos\n• Luxury real estate commercials\n• Estate launch videos\n• Virtual property tours\n• “A day in this home” lifestyle videos\n• Before-and-after renovation concepts\n• Property investment explainers\n• Mortgage explainer videos\n• Land investment content\n• Neighborhood lifestyle videos\n• Construction progress videos\n• Realtor personal-brand content\n• Client testimonial videos\n• Property listing videos\n• Social media Reels for agents\n• 3D visualization-style videos\nAnd don't think you have to wait until a real estate company sends you footage.\nYou can start building your portfolio yourself.\nCreate an imaginary real estate company.\nGive the estate a name.\nCreate the building.\nCreate the environment.\nCreate the family that would live there.\nThen create the campaign.\nFor example:\nVideo 1: “Imagine waking up here every morning.”\nVideo 2: A young couple touring their dream home.\nVideo 3: “Why buying land early can matter.”\nVideo 4: A luxury apartment commercial.\nVideo 5: A realtor explaining the payment plan.\nNow you're not just showing that you can generate houses with AI.\n\nYou're showing that you understand real estate marketing.\n\nAnd that's important.\n\nBecause a beautiful house video is not automatically a good real estate advert.\n\nYou need to understand what buyers care about.\n\nLocation.\n\nSecurity.\n\nPayment plans.\n\nAmenities.\n\nAccessibility.\n\nLifestyle.\n\nInvestment potential.\n\nThen build your content around those things.\n\nYou can monetize this niche through:\n\n• Individual property ads\n• Monthly content packages\n• Realtor personal-brand videos\n• Property launch campaigns\n• Social media content retainers\n• Virtual tour content\n• Listing videos\n• Educational real estate content\n• White-label work for agencies\n• Campaign concepts for developers\n\nYou can even specialize further.\n\nYou could become known as:\n\n“The AI content creator for real estate brands.”\n\nImagine spending the next 90 days creating nothing but amazing real estate content.\n\nLuxury homes.\n\nAffordable housing.\n\nLand investment campaigns.\n\nCommercial properties.\n\nHotels.\n\nShort-let apartments.\n\nProperty education.\n\nBy the time a real estate company lands on your page, there should be no confusion about what you can do for them.\n\nSo if you're looking for another AI niche to build around:\n\nTry AI Real Estate Content Creation.\n\nPick a style.\nBuild 10–20 strong examples.\nPost them consistently.\nThen start reaching out to realtors, developers and property companies.\nAnd yes, I'm going to create a full YouTube tutorial showing exactly how to create an AI real estate advert from scratch.",
+"likeCount": 15,
 "retweetCount": 0,
-"url": "https://x.com/ArtistaNozomu/status/2106166495416136012",
-"createdAt": "Fri Oct 02 23:36:37 +0000 2026"
+"url": "https://x.com/rirahcreates/status/2107605216442912774",
+"createdAt": "Tue Oct 06 22:53:35 +0000 2026"
 },
 {
-"userName": "PrometheanAIX",
-"text": "PROMPT SHARE: The biggest AI breakthrough isn’t realism. It’s presence.\n\n#AIVideo #Marketing #Advertising\n\nThe people, movement, noise and unpredictability give the world a sense of life beyond the camera.\n\nThat’s when generation starts becoming experience.\n\n➜ Image Prompt:\n\nPhotography & Cinematography\nCreate an ultra-realistic nighttime street portrait with the raw, spontaneous look of early-2000s nightlife photography. Direct on-camera flash illuminates the subject sharply against a much darker city background, with natural grain, slight highlight blowout, deep shadows, imperfect exposure and authentic point-and-shoot character. No fake or plastic skin, no beauty filtering, no CGI or animated appearance.\n\nCharacter & Pose\nA striking young man with rugged, high-fashion model features, lean athletic build, sharply defined jawline and cheekbones, strong brows, full lips and short dark hair styled wet and tousled with loose curls falling onto his forehead. Natural pores, subtle facial texture and realistic imperfections. He sits casually on the edge of a city curb at night, legs spread asymmetrically, one knee raised toward the camera. One forearm rests loosely across the raised knee while his other hand reaches down beside him toward a small shaggy brown dog partially entering the bottom of the frame. He looks directly into the camera with a serious, confident expression.\n\nOutfit\nFitted black long-sleeve turtleneck, faded distressed gray-blue jeans with worn areas and small rips, and a black leather belt. Silver pendant necklace, small hoop earring, chunky silver cuff bracelet, dark oversized wristwatch, and a thin bracelet. Styling feels slightly rebellious, understated and naturally lived-in rather than polished.\n\nEnvironment\nA busy urban nightlife street after dark. Several casually dressed people walk behind him, cropped naturally by the frame, while parked and passing cars create scattered headlights and small pools of distant light. The pavement is gritty and imperfect with curbs, cracks and ordinary street details visible. Keep the background activity believable and incidental—the image should feel like a real moment caught outside a club or late-night gathering, not a staged fashion shoot. Wide horizontal composition, intimate close-range flash photography, authentic real-world energy.",
-"likeCount": 22,
-"retweetCount": 1,
-"url": "https://x.com/PrometheanAIX/status/2107128547848425942",
-"createdAt": "Mon Oct 05 15:19:29 +0000 2026"
+"userName": "zakiraicoder",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/IF0e93Vsik — free research papers\n2. https://t.co/GGASDi8HCU — papers when unpaywall misses\n3. https://t.co/hJt2YM0nzp — borrow books\n4. https://t.co/9Y8pcXCzKu — 70k+ free books\n5. https://t.co/ArHCUjLAzo — audit university courses free\n6. https://t.co/evZc7gnIRO — step-by-step math\n7. https://t.co/viSOVfImJd — background removal\n8. https://t.co/YzQ27OlQ2m — object removal\n9. https://t.co/BNb6YHfBmV — quick file tools\n10. https://t.co/q35tv4QVSL — PDF merge/split\n11. https://t.co/siSTGmfU8y — free Photoshop alternative\n12. https://t.co/HpcKqPbpyZ — image compression\n13. https://t.co/7J2mBJdtgb — fast diagrams\n14. https://t.co/spsEfKcCzi — beautiful code screenshots\n15. https://t.co/DWO81MQyqe — test regex\n16. https://t.co/DhBWOvxNYH — clean JSON\n17. https://t.co/9v0uL8DCzG — terminal commands explained\n18. https://t.co/BdlNvpK4nQ — software alternatives\n19. https://t.co/HUfTXu5MjB — breach check\n20. https://t.co/tHSNS9bUnh — temp email\n21. https://t.co/JwqMSHZ311 — self-destruct notes\n22. https://t.co/7JjneNRlN5 — live global radio\n23. https://t.co/wLGPyMPVsv — focus sound\n24. https://t.co/sMHB2bOHEq — custom ambient\n25. https://t.co/XyhBiTbzTH — where to stream\n26. https://t.co/KDjOuBVmft — digital library\n27. https://t.co/LJP0LxOQ78 — old web pages\n28. https://t.co/IOGGHCewtT — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/m1FO5ZBrLK — speed test\n31. https://t.co/XDhuIUABR6 — compress images\n32. https://t.co/fknok09Rmk — file conversion\n33. https://t.co/AfGaXrouLN — compare text\n34. https://t.co/zSKCYd0ViU — disposable inbox\n35. https://t.co/50MPvV2dOF — JS obfuscate\n36. https://t.co/rRWU8KYq2b — typing practice\n37. https://t.co/9TVKZJXbf0 — typing test\n38. https://t.co/XtvRJgpsSQ — spaced repetition\n39. https://t.co/nORt5x2LS4 — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/dRO90EfwYJ — bookmark manager\n42. https://t.co/eGVMeBwkF0 — task list\n43. https://t.co/xw0dK2nZnS — boards\n44. https://t.co/N0o6mcQUYw — whiteboard\n45. https://t.co/jfkqDxT915 — design\n46. https://t.co/JGescMRI0f — quick graphics\n47. https://t.co/viSOVfImJd — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/DqZwyrzNC1 — video compress\n50. https://t.co/JNetj9tuuT — local file transfer",
+"likeCount": 116,
+"retweetCount": 75,
+"url": "https://x.com/zakiraicoder/status/2107640111454371861",
+"createdAt": "Wed Oct 07 01:12:15 +0000 2026"
 },
 {
-"userName": "planner__1",
-"text": "June AI is leveling up with  latest feature gains\nAs we all know, AI tools are evolving fast, but the latest updates to @askjuneai mark a significant way forward in expanding creative workflows, real time research.\nHere is major improvements and feature\n\n1. Direct X integration.\nResearching live trends and tracking creators used to require constant context switching. With X integration, June AI allows you to pull data directly from X in real time.\nResearch & Analysis. Conduct real time sentiment analysis, track brand mentions, and evaluate trending topics directly within your workspace.\nCreator Tracking. Easily pull posts and monitor content streams from your favorite creators to stay ahead of industry conversations.\n\n2. Advanced Media Tools\nCreative workflows often break down when AI tools lack consistency across generated assets. June AI addresses this bottleneck by introducing enhanced Media Tools:\nGreater Control: Gives creators fine-tuned control over both image and video generation outputs.\nVisual Consistency: Maintains style, character, and tone consistency across multiple generated frames and media files, making it a powerful asset for storyboarding, branding, and video production.\n\n3. Voice Chat Capabilities\nMoving beyond standard text input, Voice Chat brings a hands-free experience to interacting with top tier AI models.\nHands Free Interaction: Talk directly to your favorite AI models without needing to type out complex prompts.\nNatural Brainstorming: Ideal for dynamic brainstorming sessions, accessibility, and quick query resolution on the go.\n\nWhy These Improvements caught my attention \nBy unifying live social intelligence, consistent media generation, and fluid voice interaction, June AI transitions from a standard assistant into an end-to-end creative hub. It reduces friction for content creators, researchers, and builders who need fast data retrieval and high, quality visual outputs in a single workflow.",
+"userName": "MoescapeAi",
+"text": "MOESCAPE AI ✨\nSeedream 5.0 | IMAGE TO IMAGE + TEXT TO IMAGE\nReimagine the reference anime character as a stylish, confident fantasy fashion heroine while preserving her recognizable face, hairstyle, eye color, signature features, body proportions, silhouette and overall character identity. Create a polished anime fashion editorial inspired by high-end character illustrations and modern anime promotional artwork.\nPlace her in a clean studio-like environment with a bold saturated solid-color background such as electric blue, hot pink, violet, crimson, emerald or deep purple. Use striking compositions such as sitting confidently with one knee raised, leaning toward the camera, resting her face against one hand, crossing her arms, reclining elegantly, looking over her shoulder or posing with a relaxed but charismatic expression. Keep the character large and clearly visible as the main focal point.\nGive her a fashionable, distinctive outfit inspired by contemporary anime streetwear, gothic fashion, fantasy couture and idol/editorial styling. Use rich colors such as purple, crimson, black, emerald, cobalt, burgundy or magenta instead of white. Add elegant straps, ribbons, belts, metallic details, jewelry, layered fabrics, decorative sleeves, bows, subtle patterns and stylish accessories while keeping the outfit cohesive with the character.\nUse clean thick outlines, crisp linework, flat colors, simple controlled cel-shading and very limited rendering. Avoid photorealism, excessive gradients, painterly textures or overly detailed backgrounds. Keep anatomy clean, proportions consistent and facial features sharp and expressive.\nCreate a premium anime illustration with strong graphic contrast, polished composition, subtle highlights and a fashionable poster-like finish. Every generation should feel like a unique anime character photoshoot while maintaining the same recognizable character identity and visual quality.\nCreate your own characters, fantasy worlds and cinematic anime scenes with Moescape AI, link in bio!\n#fyp #anime #foryoupage #trend",
 "likeCount": 14,
 "retweetCount": 2,
-"url": "https://x.com/planner__1/status/2107100287525691790",
-"createdAt": "Mon Oct 05 13:27:11 +0000 2026"
+"url": "https://x.com/MoescapeAi/status/2107563008108966397",
+"createdAt": "Tue Oct 06 20:05:52 +0000 2026"
 },
 {
-"userName": "call_davide",
-"text": "Without automatic QC, is an AI image pipeline actually worth it?\n\nI'm starting to think the honest answer is: \n.. not really.\n\nGeneration is fast now. Checking isn't. If people still have to inspect every image by hand, you haven't automated production. You've moved the bottleneck from the photo studio to the review queue.\n\nA while ago I was talking with Matthias Haase and his team in Zalando about what it really takes to scale GenAI content. We kept coming back to one point: the value is not in one clever generation. It's in automating the whole pipeline, end to end.\n\nAnd manual review is not enough. An AI image can look perfect and still be wrong. One button becomes two. Tonal stitching turns into contrast stitching. The logo is almost right, which on a product page means it's wrong. Nobody notices on image 180 of 200. The customer notices when the parcel arrives.\n\nThink about it this way: every fashion brand runs QC on its products before they ship. Nobody would ship 10,000 polos without checking that the buttons match the spec. So why publish 10,000 images with nothing more than a quick look at the thumbnails?\n\nThat's why we built automatic quality control into On-Model. Every generated image is compared with your own product photos: colour, cut, closures, trims, logos, and consistency across the whole set. It flags the few images worth a second look and stays quiet when everything matches. People review only what needs attention and still make the final call.\n\nYou save on the shoot, then pay it back in review hours and returns. Without QC, that's not ROI. It's just moving the cost somewhere else.\n\nSo, for those already using AI for product images: how many hours does your team spend checking them? And do you trust what gets through?",
-"likeCount": 2,
-"retweetCount": 2,
-"url": "https://x.com/call_davide/status/2105669911888412915",
-"createdAt": "Thu Oct 01 14:43:23 +0000 2026"
+"userName": "bazdn0503",
+"text": "Why I believe it’s still early in Coinsilium’s next chapter. 🟠🟡\n\nCoinsilium has built exposure across several developing areas of crypto and AI. Each offers something different:\n\n🟡 Yellow Network — $YELLOW\nInfrastructure for clearing and settling transactions across blockchains. Coinsilium has an allocation of 50 million tokens, subject to vesting. Yellow entered live operation in March 2026.\n\n🤖 Otomato\nDeFi portfolio monitoring, intelligence and automation, helping users understand positions across different protocols. Coinsilium holds approximately 1.25% of developer Dyment Labs, plus a token warrant.\n\n🔎 Predictive Labs / Nijinn\nBrings prediction-market data together into an intelligence platform for professionals, developers and AI agents. Coinsilium’s reported investment reached US$450,000, representing approximately 14.91%.\n\n🎨 BeatingHeart\nDeveloping generative AI tools for advertising images and video, initially targeting fashion, beauty and lifestyle brands. Coinsilium agreed a convertible loan facility of up to US$250,000 alongside strategic advisory support.\n\n₿ Forza — Bitcoin exposure through $BTC\nCoinsilium’s wholly owned subsidiary manages its strategic Bitcoin treasury.\n\nFor me, “early days” means these ventures still have opportunities to develop products, attract users and build commercial revenues. Their success—and the value ultimately reaching Coinsilium shareholders—depends on execution.\n\nThat’s the longer-term story I’m watching.\n\n🇬🇧 $COIN.AQ | 🇺🇸 $CINGF\n$YELLOW $BTC\n@CoinsiliumGroup\n#Coinsilium #Otomato #Nijinn #AI #Web3",
+"likeCount": 26,
+"retweetCount": 11,
+"url": "https://x.com/bazdn0503/status/2107044879503175976",
+"createdAt": "Mon Oct 05 09:47:00 +0000 2026"
 },
 {
-"userName": "qingke_ai",
-"text": "几乎所有 reward model 都在做同一个简化：把人类偏好压成一个分数。\n\n但真实的人类反馈往往不是一个点——同一个回答，不同人可以给出不同、甚至互相冲突的判断。把多峰偏好硬压成标量，模型学到的只是\"平均值\"，而不是\"人们到底怎么想\"。\n\n清华 THUNLP 的新工作 DRM（Diffusion Reward Model）换了个问法：能不能让奖励模型学人类偏好的分布？\n\n做法很干净——把 reward modeling 重新表述为对 p(r | x, y) 的条件密度估计：在冻结的 LLM encoder 之上，用轻量 Diffusion Transformer 从高斯噪声去噪出奖励向量。不对输出分布做任何参数假设，多峰结构自然被表示出来。\n一个架构同时吃多属性回归和成对偏好数据；推理时采 N 个样本就是经验奖励分布，可以聚合成标量、方差或分位数。\n\n结果（五个基准）： • 在数据与 backbone 对齐下不弱于基线 • 训练规模相对小，仍能与大得多的判别式 / 分布式 / 生成式 RM 抗衡 • 常规 head 把分布坍缩成一个点时，它能恢复出多峰结构\n\n更实用的是下游：用不确定性做拒绝采样、用 LCB 聚合——而且直接拿 DRM 当 RLHF 训练时的 reward，策略表现更好。这就不只是\"更细的评估指标\"，而是能直接改善训练。\n\n一句话：奖励不该是一个点，而是一个分布。\n\nvia @HBX_hbx\n\n#RLHF #RewardModel #扩散模型 #PostTraining",
-"likeCount": 34,
-"retweetCount": 4,
-"url": "https://x.com/qingke_ai/status/2106468141119484007",
-"createdAt": "Sat Oct 03 19:35:15 +0000 2026"
+"userName": "Ai_YashAgrawal",
+"text": "10 GITHUB REPOS TO BUILD YOUR OWN AI VIDEO GENERATION STACK\n\nAI video is moving fast, and GitHub is full of projects worth exploring.\n\nHere are 10 repos to bookmark:\n\n1. ComfyUI\nBuild flexible AI image and video workflows.\nhttps://t.co/DKckYpaso5…\n\n2. Diffusers\nA powerful library for running and building diffusion models.\nhttps://t.co/lnw0tEeo1q…\n\n3. Open-Sora\nExplore open-source text-to-video generation.\nhttps://t.co/Y6kcQThdyy…\n\n4. Wan2.1\nOpen video generation models for creating AI videos.\nhttps://t.co/UekSbTL3HC…\n\n5. HunyuanVideo\nTencent's open-source video generation model.\nhttps://t.co/iaYBGyQw5s…\n\n6. CogVideoX\nOpen-source models for text-to-video generation.\nhttps://t.co/K7aS3Saigt\n\n7. LTX-Video\nFast open-source video generation and editing.\nhttps://t.co/GzEzEkkCdx…\n\n8. Mochi\nOpen video generation models from Genmo.\nhttps://t.co/pNBhzzt97z\n\n9. VideoCrafter\nResearch models for AI video generation.\nhttps://t.co/BkOV1uVUH1…\n\n10. AnimateDiff\nAdd motion to diffusion-based generation workflows.\nhttps://t.co/xzW7x5k7BJ…\n\nSave this stack.\n\nThe AI video ecosystem is getting seriously impressive.",
+"likeCount": 14,
+"retweetCount": 0,
+"url": "https://x.com/Ai_YashAgrawal/status/2107401697916330042",
+"createdAt": "Tue Oct 06 09:24:53 +0000 2026"
 },
 {
-"userName": "lmoroney",
-"text": "Do image models really need a VAE and a separate vision encoder?\n\nNVIDIA researchers released PixelUMM, a 15B-parameter model that handles image and video understanding and generation directly from raw pixels. Images are cut into 16x16 pixel patches and fed into a decoder-only Transformer built on Qwen3-8B, with iterative denoising for generation. That means no VAE compressing images for generation and no pretrained vision encoder for understanding. The code is Apache 2.0, and the checkpoint is licensed for non-commercial research and evaluation only.\n\nFor students, this is a great paper to read next to the standard latent-diffusion design, because it makes you ask what each component was buying. Test small text rendering and memory use on your own GPU before forming an opinion. If you want the PyTorch foundations first, my book is here: https://t.co/pbrqeSZ0N0",
-"likeCount": 3,
-"retweetCount": 1,
-"url": "https://x.com/lmoroney/status/2107303058401013903",
-"createdAt": "Tue Oct 06 02:52:55 +0000 2026"
+"userName": "purvaasays",
+"text": "one of my friends is building a D2C fashion brand. went out with last night and realised how far the rest of world is from AI right now. and it makes sense, it's not their niche. but i also realised, when rest of world talks about AI, they're still talking about generative use cases at best. social media captions, ideas for ads, maybe image generation, etc. \n\nso, if you're going to pick some ICP and build some SaaS for their convenience, you'll still have a lot of audience to cater to. one that's not interested in setting up everything manually. convenience sells.",
+"likeCount": 19,
+"retweetCount": 0,
+"url": "https://x.com/purvaasays/status/2106233138913366212",
+"createdAt": "Sat Oct 03 04:01:26 +0000 2026"
 },
 {
 "userName": "alexa_griffith_",
 "text": "My friend Phoebe is building Elysium Intelligence - a professional fashion model movement and garment behavior data company for AI. She's looking for generative video teams, digital twins + avatar companies, and virtual try-on platforms to pilot the data / test against failure cases. If you're building in this space please email phoebe@joinelysium.ai\n\nhttps://t.co/aiwT7wA4sT",
-"likeCount": 6,
+"likeCount": 7,
 "retweetCount": 0,
 "url": "https://x.com/alexa_griffith_/status/2107140437538398717",
 "createdAt": "Mon Oct 05 16:06:43 +0000 2026"
 },
 {
-"userName": "junfanzhu98",
-"text": "@saturdayrobotic Reading Club #32 × @RoboticsCtr Dexterity Day\n@junfanzhu98 + @JerryHuang: 400+ registrations\n1️⃣ @wuji_global, the hardware contract.\n2️⃣ @RLWRLD_ai, the model contract.\n3️⃣ @DynaRobotics, the prior.\n4️⃣ @RoboticsCtr, measurement.\n@1X_tech https://t.co/B7Xyk4d1mj",
-"likeCount": 18,
-"retweetCount": 3,
-"url": "https://x.com/junfanzhu98/status/2106980180459929652",
-"createdAt": "Mon Oct 05 05:29:55 +0000 2026"
+"userName": "ProfectusHldgs",
+"text": "🎥 Watch the full September 28 meeting: https://t.co/Rxi7nMHtVQ\n\n🎮 Play the TIG Trading Floor game: https://t.co/UbvKCTwUvu\n\n$JAGX, Greenland, Iran, the Fed, AI, and a lightning round on $AMD $STRL $WCC\n\nWebsite: https://t.co/f4pvgPDjN8 https://t.co/XMpAfQFJQd",
+"likeCount": 17,
+"retweetCount": 1,
+"url": "https://x.com/ProfectusHldgs/status/2107364470796279993",
+"createdAt": "Tue Oct 06 06:56:57 +0000 2026"
 },
 {
-"userName": "beniduboss",
-"text": "Here is my deep dive on why inference speed matters!\n\nIt includes everything you should know about regarding what (ultra) fast inference unlocks across agents, research and real-time AI\n\nAs promised, I also shared part of my bullish case for Cerebras! https://t.co/J0T4eK9Xzb",
-"likeCount": 196,
-"retweetCount": 16,
-"url": "https://x.com/beniduboss/status/2107225872415482190",
-"createdAt": "Mon Oct 05 21:46:13 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Super excited about this and I know weights are coming (https://t.co/svhuNNJHnZ) but just to be fair, you can't be the best open-weight model if you're not open-weight yet!",
+"likeCount": 445,
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2107525319012090301",
+"createdAt": "Tue Oct 06 17:36:06 +0000 2026"
 },
 {
-"userName": "Mayhem4Markets",
-"text": "Hey friends!\n\nI've created a beginner's guide to what AI actually is, how it learns, and how to start your learning journey, with a comprehensive list of resources.\n\nI hope this helps you all! :-) https://t.co/doFXIhYUyO",
-"likeCount": 50,
-"retweetCount": 8,
-"url": "https://x.com/Mayhem4Markets/status/2107117390228009368",
-"createdAt": "Mon Oct 05 14:35:08 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @osanseviero: Introducing EmbeddingGemma 2, our new open embeddings model for on-device use cases!\n\n👀 Code, image, video, audio, and tex…",
+"likeCount": 1244,
+"retweetCount": 90,
+"url": "https://x.com/ClementDelangue/status/2107550827527463068",
+"createdAt": "Tue Oct 06 19:17:28 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @wenhaocha1: The Pareto frontier is misleading ❌ for general users. Price it by subscription instead of API. With cache hits, Opus 5.5 w…",
-"likeCount": 1115,
-"retweetCount": 80,
-"url": "https://x.com/jeremyphoward/status/2105068068934435066",
-"createdAt": "Tue Sep 29 22:51:52 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @ben_burtenshaw: RL environments now have a home on the @huggingface  Hub.\n\nEvery RL framework has its own way to find environments. Cus…",
+"likeCount": 134,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2107130352095674401",
+"createdAt": "Mon Oct 05 15:26:39 +0000 2026"
 },
 {
-"userName": "_vhawk19_",
-"text": "https://t.co/frw3FKtCeO https://t.co/Jn483W0qoH",
-"likeCount": 22,
-"retweetCount": 6,
-"url": "https://x.com/_vhawk19_/status/2107154672071123448",
-"createdAt": "Mon Oct 05 17:03:17 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @yb2698: Excited to share that I have (re)joined @huggingface as a Opensource ML engineer!\n\nMany incredible things to come around this f…",
+"likeCount": 102,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2107463788765077560",
+"createdAt": "Tue Oct 06 13:31:36 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Clef from @Cloudflare is number trending on HF! https://t.co/dloDL2nmy6",
+"likeCount": 655,
+"retweetCount": 24,
+"url": "https://x.com/ClementDelangue/status/2107122134900166917",
+"createdAt": "Mon Oct 05 14:54:00 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Let's go https://t.co/LXil50Sr25! https://t.co/XIonqvZWoC",
+"likeCount": 716,
+"retweetCount": 53,
+"url": "https://x.com/ClementDelangue/status/2107194915130356213",
+"createdAt": "Mon Oct 05 19:43:12 +0000 2026"
 }
 ]
