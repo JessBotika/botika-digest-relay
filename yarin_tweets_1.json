@@ -1,98 +1,106 @@
 [
 {
-"userName": "meAsifAi",
-"text": "Created with @ChatGPT \nPrompt :\nCreate a premium professional character reference sheet using the uploaded REFERENCE IMAGE as the ONLY identity reference for the MAIN SUBJECT.\n\nIMPORTANT:\nThe final image MUST contain EXACTLY 10 frames/panels.\nDo NOT add extra frames.\nDo NOT remove any frames.\nDo NOT change the panel arrangement.\n\nUse the following EXACT 2-ROW, 10-FRAME layout:\n\nTOP ROW = 5 FACE / HEAD-AND-SHOULERS VIEWS\nBOTTOM ROW = 5 FULL-BODY VIEWS\n\nThe composition, number of frames, pose sequence, and camera angles must remain exactly as specified below.\n\n==================================================\nREFERENCE & IDENTITY LOCK\n==================================================\n\nUse the uploaded reference image as the single source of truth for the MAIN SUBJECT'S identity.\n\nPreserve the person's exact:\n- Facial identity\n- Facial structure\n- Skin tone\n- Eye shape and natural eye color\n- Eyebrows\n- Nose\n- Lips\n- Jawline\n- Cheek structure\n- Hairstyle\n- Hairline\n- Hair color\n- Hair texture\n- Hair length\n- Age appearance\n- Natural facial features\n- Body proportions\n- Physique\n- Overall recognizable appearance\n\nThe reference may be MALE or FEMALE.\n\nIf the reference is male, keep the subject male.\nIf the reference is female, keep the subject female.\n\nDo NOT change the person's identity.\nDo NOT create a different-looking version of the person.\nDo NOT beautify or modify facial structure.\n\n==================================================\nEXACT FINAL LAYOUT — 10 FRAMES\n==================================================\n\nROW 1 — FACE REFERENCE\nExactly 5 frames:\n\nFRAME 1:\nFRONT VIEW\n- Straight-on face\n- Head facing directly toward camera\n- Neutral expression\n- Head and shoulders visible\n\nFRAME 2:\n3/4 LEFT VIEW\n- Head turned approximately 45 degrees to the subject's LEFT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 3:\nLEFT PROFILE\n- Exact left-side profile\n- Approximately 90-degree rotation\n- Nose, lips, chin, jawline and hair silhouette clearly visible\n\nFRAME 4:\n3/4 RIGHT VIEW\n- Head turned approximately 45 degrees to the subject's RIGHT\n- Face clearly visible\n- Head and shoulders visible\n\nFRAME 5:\nRIGHT PROFILE\n- Exact right-side profile\n- Approximately 90-degree rotation\n- Complete facial silhouette clearly visible\n\nTOP ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | RIGHT PROFILE\n\n==================================================\nROW 2 — FULL BODY REFERENCE\n==================================================\n\nExactly 5 frames:\n\nFRAME 6:\nFRONT FULL-BODY VIEW\n- Subject standing naturally\n- Facing directly toward camera\n- Entire body visible from head to feet\n- Arms naturally relaxed beside the body\n- Feet visible\n\nFRAME 7:\n3/4 LEFT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's LEFT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 8:\nLEFT PROFILE FULL-BODY VIEW\n- Exact left-side profile\n- Body rotated approximately 90 degrees\n- Entire body visible from head to feet\n\nFRAME 9:\n3/4 RIGHT FULL-BODY VIEW\n- Body rotated approximately 45 degrees to the subject's RIGHT\n- Entire body visible\n- Natural standing posture\n- Feet visible\n\nFRAME 10:\nBACK FULL-BODY VIEW\n- Subject facing completely away from camera\n- Full back visible\n- Entire body visible from head to feet\n- Hair visible from the back\n- Natural standing posture\n\nBOTTOM ROW ORDER MUST BE:\n\nFRONT | 3/4 LEFT | LEFT PROFILE | 3/4 RIGHT | BACK\n\n==================================================\nCRITICAL CONSISTENCY\n==================================================\n\nALL 10 FRAMES MUST SHOW EXACTLY THE SAME PERSON.\n\nMaintain identical:\n- Face\n- Hair\n- Hairline\n- Hair color\n- Facial proportions\n- Body proportions\n- Height\n- Physique\n- Skin tone\n- Age appearance\n- Clothing\n- Accessories\n\nThe person must not look like 10 different generations.\n\nThe facial identity must remain consistent between every frame.\n\nThe body proportions must remain consistent between every full-body frame.\n\n==================================================\nCLOTHING\n==================================================\n\nUse one simple, clean, fitted outfit suitable for a professional character/model reference sheet.\n\nThe EXACT SAME outfit must appear in all 10 frames.\n\nDo not change clothing between panels.\n\nDo not change hairstyle between panels.\n\nDo not change accessories between panels.\n\nIf the uploaded reference has an important recognizable hairstyle or appearance, preserve it.\n\n==================================================\nBACKGROUND & PRESENTATION\n==================================================\n\nClean professional light-gray/white studio background.\n\nMinimal environment.\n\nNo scenery.\n\nNo props.\n\nNo dramatic background.\n\nNo unnecessary objects.\n\nAll 10 frames should appear as one professionally photographed character reference sheet.\n\nUse consistent studio lighting across every frame.\n\nSoft, neutral, evenly distributed lighting.\n\nMinimal shadows.\n\n==================================================\nCAMERA CONSISTENCY\n==================================================\n\nUse consistent professional studio photography.\n\nFACE FRAMES:\nHead-and-shoulders framing.\n\nFULL-BODY FRAMES:\nHead-to-feet framing with the entire body completely visible.\n\nMaintain consistent camera height, focal length, lighting, and distance.\n\nAvoid wide-angle distortion.\n\nKeep facial proportions natural and accurate.\n\n==================================================\nPANEL DESIGN\n==================================================\n\nCreate a clean rectangular 2-row grid.\n\nExactly 5 equal-width panels on the TOP ROW.\n\nExactly 5 equal-width panels on the BOTTOM ROW.\n\nAll panels should have matching dimensions.\n\nClean spacing between panels.\n\nProfessional production-model-sheet appearance.\n\nAdd small, clean labels beneath or within each panel:\n\nTOP:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nRIGHT PROFILE\n\nBOTTOM:\nFRONT\n3/4 LEFT\nLEFT PROFILE\n3/4 RIGHT\nBACK\n\nLabels must be small, clean, professional, and unobtrusive.\n\n==================================================\nPOSE LOCK\n==================================================\n\nDo NOT invent additional poses.\n\nUse ONLY these specified views and poses.\n\nTOP ROW:\n1. Front\n2. 3/4 Left\n3. Left Profile\n4. 3/4 Right\n5. Right Profile\n\nBOTTOM ROW:\n6. Front\n7. 3/4 Left\n8. Left Profile\n9. 3/4 Right\n10. Back\n\nThe pose sequence must remain exactly the same.\n\n==================================================\nPROFESSIONAL USE\n==================================================\n\nThe resulting sheet should function as a professional character-consistency reference for:\n\nAI image generation\nAI video generation\nAnimation\nFilm production\nStoryboarding\nCharacter design\nFashion visualization\n3D character development\n\nEvery angle should clearly communicate the same person's identity and physical appearance.\n\n==================================================\nNEGATIVE CONSTRAINTS\n==================================================\n\nEXACTLY 10 FRAMES ONLY.\n\nNo 8 frames.\nNo 9 frames.\nNo 11 frames.\nNo extra portraits.\nNo extra poses.\nNo additional panels.\n\nNo identity change.\nNo different person.\nNo face variation.\nNo face blending.\nNo gender change.\nNo age change.\nNo hairstyle change.\nNo hair color change.\nNo body-shape change.\nNo inconsistent clothing.\nNo inconsistent proportions.\nNo duplicated panels.\nNo missing panels.\nNo distorted profile.\nNo distorted hands.\nNo extra fingers.\nNo extra limbs.\nNo cropped feet in full-body frames.\nNo cropped head in face frames.\nNo extreme camera distortion.\nNo cartoon style.\nNo CGI appearance.\nNo plastic skin.\nNo text except the specified small view labels.\nNo watermark.\nNo logo.\n\nFINAL OUTPUT:\nA single clean professional 2-row × 5-column character reference sheet containing EXACTLY 10 consistent views of the same person.\n\nRESOLUTION LOCK:\nGenerate the final image in 16K resolution — 15360 × 8640 pixels (≈132.7 million pixels), landscape 16:9 composition.",
-"likeCount": 253,
-"retweetCount": 31,
-"url": "https://x.com/meAsifAi/status/2107123657734545700",
-"createdAt": "Mon Oct 05 15:00:03 +0000 2026"
+"userName": "pirwot",
+"text": "𝗘𝘃𝗲𝗿𝘆𝘁𝗵𝗶𝗻𝗴 𝗪𝗼𝗿𝗸𝘀 𝗘𝘅𝗰𝗲𝗽𝘁 𝘁𝗵𝗲 𝗔𝗱𝗱𝗿𝗲𝘀𝘀: 𝘁𝗵𝗲 𝗯𝘂𝗶𝗹𝗱𝗲𝗿 𝘀𝘁𝗮𝗰𝗸 𝗳𝗿𝗼𝗺 𝗨𝗴𝗮𝗻𝗱𝗮, 𝗰𝗵𝗲𝗰𝗸𝗲𝗱 𝘁𝗼𝗼𝗹 𝗯𝘆 𝘁𝗼𝗼𝗹\n\nA founder in Austin can form a company, open a bank account, take card payments and claim cloud credits in about a week. I have run founder programs in Uganda for nine years, and this year I built FounderWise from Kampala on top of that same stack. So I went through it one step at a time and checked what actually works from here.\n\nI read each provider's own pages on 26 September 2026. Rules like these change often, so treat every line below as a snapshot of that day. Where I could only find a secondary source, I say so.\n\nFounderWise, LLC is a Delaware company, formed on 29 May 2026. We have Stripe [@stripe] through that company. We have no physical presence in the United States. This year a US card provider declined us for exactly that reason, and later our bank froze our card. Both decisions were reasonable by the rules each company publishes. MVP Studio, our first product, went live on 25 September. Seven founders signed up in the first three hours. Revenue in launch week was zero.\n\nHere is the journey, in the order a founder meets it.\n\n𝗦𝘁𝗲𝗽 𝗼𝗻𝗲: 𝗶𝗻𝗰𝗼𝗿𝗽𝗼𝗿𝗮𝘁𝗲\n\nThis part works. Stripe Atlas forms a Delaware C corp or LLC for $500 and says it serves startups in over 175 countries. The package includes the EIN, the 83(b) filing, a registered agent for the first year, $2,500 in Stripe credits and about $50,000 in partner perks. Clerky charges $427 and files the EIN by fax for founders without a US taxpayer ID.\n\nThe first friction shows up in the tax ID. Stripe's own guide says an EIN takes 1 to 15 business days if you have a US address, a US phone number and an SSN. Missing any of those three, \"the IRS could take 15 to 50 business days.\" A Ugandan founder is usually missing all three. So the company exists on day two, and the number that lets it do business can take two months.\n\nLocally, a law-firm guide puts registering a private company with the Uganda Registration Services Bureau at UGX 300,000 to 700,000 all in. An operating license takes about 7.1 days here, against 17.6 across sub-Saharan Africa, per the World Bank's 2025 Enterprise Survey.\n\n𝘗𝘢𝘱𝘦𝘳𝘸𝘰𝘳𝘬 𝘪𝘴 𝘵𝘩𝘦 𝘦𝘢𝘴𝘺 𝘱𝘢𝘳𝘵.\n\n𝗦𝘁𝗲𝗽 𝘁𝘄𝗼: 𝗼𝗽𝗲𝗻 𝗮 𝗯𝗮𝗻𝗸 𝗮𝗰𝗰𝗼𝘂𝗻𝘁\n\nHere the US stack starts asking where you are.\n\nStripe Atlas advertises \"pre-EIN banking and payments\" through Stripe Treasury, \"if eligible.\" Since 1 July 2025, Stripe requires a physical US presence for its Treasury, Issuing and Opal accounts. For Atlas companies, Stripe says the evidence \"can't be your Atlas registered agent.\" That one sentence closes the default banking path for most founders outside the US.\n\nThe US corporate card and banking providers have similar rules, stated plainly. Ramp asks for \"most of your operations and corporate spending in the US,\" a physical US address that cannot be a PO box, virtual office, registered agent or mail-forwarding address, $25,000 in a US business bank account, and an EIN. Brex requires \"a US EIN issued by the IRS, a valid US incorporation, US operations, and a US physical address.\" Airwallex [@airwallex] lists zero African countries as eligible for business onboarding. A Delaware company could apply to Airwallex as a US business, subject to its own checks.\n\nUganda sits off the banned lists I checked. The prohibited-country list from Relay [@relayfinancial] names thirteen African countries, including Burundi, DRC, Ethiopia, Nigeria and South Sudan. Uganda is absent from it, and Relay says it permits US entities with non-US owners and businesses based internationally. The unsupported list from Paddle [@PaddleHQ] is the same story: several neighbors appear, Uganda does not.\n\nSo the question these providers ask is where you operate, and your passport is a smaller part of it. That distinction matters, because an operating footprint is something a company can build.\n\nWise [@Wise] supports the shilling and leaves Uganda off its unsupported list, though it publishes only a negative list for businesses. I would try it, though it is unproven for a Ugandan-registered company.\n\n𝗦𝘁𝗲𝗽 𝘁𝗵𝗿𝗲𝗲: 𝘁𝗮𝗸𝗲 𝗽𝗮𝘆𝗺𝗲𝗻𝘁𝘀\n\nStripe's global page lists five African countries: Cote d'Ivoire, Ghana, Kenya, Nigeria and South Africa, all through its \"extended network,\" which is Paystack [@paystack]. Uganda is absent. Paystack itself says its services are available \"only to businesses registered in Nigeria, Ghana, South Africa and Kenya.\"\n\nThat is why so many founders here form a Delaware company, and it is why I did. Stripe's general rule for a US account asks for \"a physical location in that country where you can receive mail, not a P.O. box.\" A card-accepting Stripe account and the stricter Treasury and Issuing rules are different gates. We have the first. The second is what the July 2025 change tightened.\n\nPayPal is murkier. Its Uganda homepage markets sending money and shopping. Its user agreement says receiving is offered \"where available\" and that service availability varies by country. Many Ugandan sources report that local accounts can send but cannot receive. PayPal's public pages stop short of saying so, so treat it as a local report.\n\nThe local rails, meanwhile, are real and they work. Mobile money is the account most Ugandan adults actually have: the World Bank's Global Findex puts mobile money accounts at 67.7% of adults, against 26.2% with a bank or similar account. Flutterwave [@theflutterwave] is licensed in Uganda and publishes its fees: 3.2% on local cards, 4.8% on international cards, 3.0% on mobile money collections. Local settlement takes 24 hours. Pesapal [@Pesapal] also takes Visa, Mastercard, Amex and mobile money in shillings and dollars. I could not find its published rates, so ask them directly.\n\nThose fees are a real cost of doing business. The rails are also real rails.\n\n𝗦𝘁𝗲𝗽 𝗳𝗼𝘂𝗿: 𝗴𝗲𝘁 𝗽𝗮𝗶𝗱 𝗯𝘆 𝘁𝗵𝗲 𝗮𝗽𝗽 𝘀𝘁𝗼𝗿𝗲𝘀\n\nThis was the best news in the whole exercise.\n\nGoogle Play [@GooglePlayBiz] supports both developer and merchant registration from Uganda, with a default currency of US dollars. Rwanda, for comparison, has developer registration only. A Ugandan developer can sell apps and in-app purchases and get paid.\n\nApple lets an organization enroll in its Developer Program with a D-U-N-S number, which is free. Dun & Bradstreet takes up to five business days to issue it and Apple takes about two more, so plan on roughly a week. Trade names and DBAs are refused, so use the legal name. On payouts, Apple's minimum-payment table lists Uganda with a UGX threshold, which means App Store proceeds can land in a Ugandan bank account. Several other African banks default to a 40 USD threshold instead.\n\nIf you are building a mobile product, the two biggest app stores in the world will pay you in Kampala. I think that deserves more airtime than it gets.\n\n𝗦𝘁𝗲𝗽 𝗳𝗶𝘃𝗲: 𝘀𝗲𝗹𝗹 𝗼𝗻𝗹𝗶𝗻𝗲\n\nShopify Payments works in 38 countries, and none of them are in Africa. A Ugandan store can still run on Shopify. It needs a third-party payment gateway, which in practice means one of the local processors above.\n\nFor digital products, the merchant-of-record services split. Paddle supports sellers in Uganda. Lemon Squeezy [@lemonsqueezy] pays out to bank accounts in 79 countries, including Kenya, Tanzania, Rwanda, Ethiopia, Nigeria, Ghana and South Africa, and Uganda is missing from that list. Its fallback is PayPal, which runs straight back into the receiving question above.\n\nSo Paddle is the one I would try first for software.\n\n𝗦𝘁𝗲𝗽 𝘀𝗶𝘅: 𝗰𝗹𝗼𝘂𝗱 𝗰𝗿𝗲𝗱𝗶𝘁𝘀\n\n𝘛𝘩𝘦 𝘤𝘭𝘰𝘶𝘥 𝘱𝘳𝘰𝘨𝘳𝘢𝘮𝘴 𝘳𝘢𝘳𝘦𝘭𝘺 𝘤𝘩𝘦𝘤𝘬 𝘺𝘰𝘶𝘳 𝘤𝘰𝘶𝘯𝘵𝘳𝘺. 𝘛𝘩𝘦𝘺 𝘤𝘩𝘦𝘤𝘬 𝘸𝘩𝘰 𝘷𝘰𝘶𝘤𝘩𝘦𝘴 𝘧𝘰𝘳 𝘺𝘰𝘶.\n\nThe Founders tier of AWS Activate [@AWSstartups] is open to self-funded startups and runs up to $5,000, starting at $1,000. The Portfolio tier goes up to $200,000, and it needs \"an Organization ID from your Activate Provider, such as an accelerator, angel investor, and venture capital firm.\" Google for Startups Cloud [@GoogleStartups] offers up to $200,000, or $350,000 for AI-first companies, tied to institutional equity funding, with SAFEs counted. Microsoft for Startups [@MSFT4Startups] says up to $150,000 over time for companies headquartered where Azure is available, with a self-service path up to $5,000 and an invite-only investor track that starts at $100,000.\n\nSo the first $1,000 to $5,000 is open to almost anyone. The next $100,000 or more depends on an investor or accelerator name being attached to you. In Uganda, the 2025 report from Partech [@PartechPartners] counted 25 unique active equity investors in the whole country. That is a short list of people who can hand out an Organization ID.\n\n𝗦𝘁𝗲𝗽 𝘀𝗲𝘃𝗲𝗻: 𝗿𝗮𝗶𝘀𝗲 𝗼𝗻 𝗮 𝗦𝗔𝗙𝗘\n\nThe standard early-stage instrument in the US is the Y Combinator post-money SAFE. It is written for Delaware companies. YC also publishes versions for Canada, the Cayman Islands and Singapore. A Ugandan company that wants to raise on standard US paper either becomes a Delaware company or uses local instruments that US investors may find unfamiliar.\n\nThis is one reason the Delaware route is so common. Briter's [@briter_co] Venture Pulse report from August 2026 found that half of all African startup funding in the first half of 2026 went to companies incorporated outside Africa.\n\nThe size of the pool matters too. Partech counted $22 million raised by Ugandan startups in 2025, about half of one percent of Africa's $4.1 billion. The US invested $412.7 billion in the first half of 2026 alone, per PitchBook-NVCA.\n\n𝗦𝘁𝗲𝗽 𝗲𝗶𝗴𝗵𝘁: 𝗯𝗼𝗿𝗿𝗼𝘄\n\nUS founders rarely need debt at seed, because equity is plentiful. When they do, an SBA 7(a) loan is capped at roughly 9.75% to 13.25%, from the September 2026 prime rate plus the SBA's allowed spread.\n\nIn Uganda, the Bank of Uganda held its policy rate at 9.75% on 13 August 2026. Commercial shilling lending ran from 18.73% in February 2026 to 16.9% in June, the lowest since April 2025. That is roughly one and a half to two times the SBA cap, before collateral requirements.\n\nThen there is the credit file. The last year the World Bank measured it, 2019, private credit bureaus covered 6.9% of Ugandan adults. In the US the figure was 100%. The series ended in 2021, so I cannot give a current number, and Uganda has licensed more bureaus since. Still, a lender here usually starts with very little to read about you.\n\n𝘈 𝘭𝘰𝘢𝘯 𝘪𝘴 𝘱𝘳𝘪𝘤𝘦𝘥 𝘰𝘯 𝘸𝘩𝘢𝘵 𝘢 𝘭𝘦𝘯𝘥𝘦𝘳 𝘤𝘢𝘯 𝘴𝘦𝘦.\n\n𝗦𝘁𝗲𝗽 𝗻𝗶𝗻𝗲: 𝗽𝗮𝘆 𝗳𝗼𝗿 𝘆𝗼𝘂𝗿 𝘁𝗼𝗼𝗹𝘀\n\nOnce the company exists, every SaaS subscription is a small cross-border payment with taxes attached. These figures come from press and tax-advisory reports, and I have not read them in the Uganda Revenue Authority's own text, so check them before you rely on them.\n\nUganda charges 18% VAT on imported digital services. A 5% digital services tax on non-resident providers took effect in July 2023, and from 1 July 2025 it was reportedly replaced by a 15% final withholding tax on non-resident digital service income. Moving money adds a 0.5% excise on mobile money withdrawals, on top of excise on telecom fees. The Treasury dropped a plan to halve the withdrawal levy in April 2026. The Daily Monitor worked out that withdrawing UGX 1 million by mobile money costs about UGX 16,630, against roughly UGX 3,000 at an ATM.\n\nCurrency adds a moving target. The shilling traded around 3,644 to the dollar on 20 June 2026 and around 3,937 on 19 September, and the Bank of Uganda raised the cash reserve requirement to 13.5% that month to defend it. A $50 monthly tool cost about 8% more in shillings in September than it did in June.\n\n𝗦𝘁𝗲𝗽 𝘁𝗲𝗻: 𝗰𝗼𝗻𝗻𝗲𝗰𝘁𝗶𝘃𝗶𝘁𝘆 𝗮𝗻𝗱 𝗽𝗼𝘄𝗲𝗿\n\nThe stack assumes the lights stay on and the connection holds.\n\nThe ITU's 2025 price data puts a 5GB fixed broadband basket at 33.98% of monthly income per person in Uganda, against 0.76% in the US. A 2GB mobile data basket is 3.03% of monthly income here, above the UN Broadband Commission's 2% target, and 0.61% in the US.\n\nOn power, 79.9% of Ugandan firms experienced outages in the World Bank's 2025 Enterprise Survey, against 22.6% of US firms in 2024. After the state utility UEDCL took over distribution from Umeme in April 2025, its own acting managing director told Parliament that outages had almost doubled and average restoration time had risen from about 12 hours to nearly 20.\n\nAnd sometimes the internet is switched off. The regulator ordered public internet suspended from 6pm on 13 January 2026, two days before the general election. General access returned about 100 hours later, and social media stayed blocked until 26 January. CIPESA [@cipesaug] estimated the loss at UGX 59.7 billion, about $16 million, and other estimates vary.\n\nSo I save work to disk every hour and keep offline copies of anything I need to ship. It is a cheap habit.\n\n𝗧𝗵𝗲 𝘀𝘁𝗮𝗰𝗸 𝗮𝘁 𝗮 𝗴𝗹𝗮𝗻𝗰𝗲\n\nHere is the whole stack on one page, grouped by setup step, with each tool's status from Uganda on 26 September 2026.\n\n𝗪𝗵𝗮𝘁 𝘁𝗵𝗲 𝗽𝗮𝘁𝘁𝗲𝗿𝗻 𝘀𝗮𝘆𝘀\n\nWhen I lay the rows side by side, a pattern shows up. Very few of these tools refuse Uganda by name. Stripe, Paystack, Shopify Payments and Lemon Squeezy leave Uganda off their country lists. Almost everything else that stops a Ugandan founder is asking for a US address, US operations, or a recognized name on your cap table.\n\nThose are all trust signals. An address tells a card issuer someone can be found. A credit file tells a lender what you did last time. An investor's Organization ID tells AWS that someone has already checked you. Each tool is asking the same question in its own words: can we trust you without meeting you?\n\nThat makes the gap narrower than people think. You can get a company, a payment processor, two app store accounts, a merchant of record and a few thousand dollars of cloud credits. It also makes the gap deeper than it looks, because the missing piece is the part that compounds. The address unlocks the card, the card builds a history, the history unlocks the credit, and the investor name unlocks the large credits and the next round.\n\nAn address and a trust signal are solvable problems. Some of the solving is paperwork and money. Some of it is simply keeping an honest record of your work that someone far away can check.\n\n𝗪𝗵𝗮𝘁 𝗜 𝘄𝗼𝘂𝗹𝗱 𝘀𝗲𝘁 𝘂𝗽 𝗳𝗶𝗿𝘀𝘁, 𝗶𝗻 𝗼𝗿𝗱𝗲𝗿\n\nThis is my opinion, based on my own year and on nine years of working with founders here. Your product and market may call for a different order, and I may have missed tools that work fine from Uganda.\n\n1. 𝙍𝙚𝙜𝙞𝙨𝙩𝙚𝙧 𝙡𝙤𝙘𝙖𝙡𝙡𝙮 𝙬𝙞𝙩𝙝 𝙐𝙍𝙎𝘽 𝙖𝙣𝙙 𝙤𝙥𝙚𝙣 𝙢𝙤𝙗𝙞𝙡𝙚 𝙢𝙤𝙣𝙚𝙮 𝙖𝙣𝙙 𝙗𝙖𝙣𝙠 𝙖𝙘𝙘𝙤𝙪𝙣𝙩𝙨. Your first customers are probably here, and mobile money is how most of them pay.\n\n2. 𝙎𝙚𝙩 𝙪𝙥 𝙖 𝙡𝙤𝙘𝙖𝙡 𝙥𝙧𝙤𝙘𝙚𝙨𝙨𝙤𝙧 𝙨𝙪𝙘𝙝 𝙖𝙨 𝙁𝙡𝙪𝙩𝙩𝙚𝙧𝙬𝙖𝙫𝙚. Price the 3% to 4.8% into your product from day one.\n\n3. 𝘽𝙪𝙞𝙡𝙙 𝙩𝙝𝙚 𝙥𝙧𝙤𝙙𝙪𝙘𝙩 𝙖𝙣𝙙 𝙜𝙚𝙩 𝙧𝙚𝙖𝙡 𝙥𝙖𝙮𝙞𝙣𝙜 𝙪𝙨𝙚𝙧𝙨 𝙗𝙚𝙛𝙤𝙧𝙚 𝙮𝙤𝙪 𝙛𝙤𝙧𝙢 𝙖𝙗𝙧𝙤𝙖𝙙. Seven signups in three hours taught me more than any form I filled in this year.\n\n4. 𝙄𝙛 𝙮𝙤𝙪 𝙗𝙪𝙞𝙡𝙙 𝙢𝙤𝙗𝙞𝙡𝙚, 𝙤𝙥𝙚𝙣 𝙂𝙤𝙤𝙜𝙡𝙚 𝙋𝙡𝙖𝙮 𝙖𝙣𝙙 𝘼𝙥𝙥𝙡𝙚 𝙖𝙘𝙘𝙤𝙪𝙣𝙩𝙨 𝙚𝙖𝙧𝙡𝙮. Request the free D-U-N-S number now, since it takes about a week.\n\n5. 𝙎𝙩𝙖𝙧𝙩 𝙬𝙞𝙩𝙝 𝙩𝙝𝙚 𝙨𝙚𝙡𝙛-𝙨𝙚𝙧𝙫𝙚 𝙘𝙡𝙤𝙪𝙙 𝙘𝙧𝙚𝙙𝙞𝙩𝙨. Take the AWS Founders tier and Microsoft's self-service tier, and save the large tiers for later.\n\n6. 𝙁𝙤𝙧𝙢 𝙖 𝘿𝙚𝙡𝙖𝙬𝙖𝙧𝙚 𝙘𝙤𝙢𝙥𝙖𝙣𝙮 𝙬𝙝𝙚𝙣 𝙖 𝙐𝙎 𝙘𝙪𝙨𝙩𝙤𝙢𝙚𝙧, 𝙞𝙣𝙫𝙚𝙨𝙩𝙤𝙧 𝙤𝙧 𝙥𝙧𝙤𝙘𝙚𝙨𝙨𝙤𝙧 𝙖𝙘𝙩𝙪𝙖𝙡𝙡𝙮 𝙧𝙚𝙦𝙪𝙞𝙧𝙚𝙨 𝙞𝙩. Expect the EIN to take weeks, and budget for it.\n\n7. 𝙎𝙤𝙡𝙫𝙚 𝙩𝙝𝙚 𝙐𝙎 𝙖𝙙𝙙𝙧𝙚𝙨𝙨 𝙥𝙧𝙤𝙥𝙚𝙧𝙡𝙮 𝙗𝙚𝙛𝙤𝙧𝙚 𝙖𝙥𝙥𝙡𝙮𝙞𝙣𝙜 𝙛𝙤𝙧 𝙐𝙎 𝙘𝙖𝙧𝙙𝙨 𝙤𝙧 𝙗𝙖𝙣𝙠𝙞𝙣𝙜. A registered agent address will be rejected. Apply once you can pass.\n\n8. 𝙁𝙤𝙧 𝙨𝙤𝙛𝙩𝙬𝙖𝙧𝙚 𝙨𝙖𝙡𝙚𝙨, 𝙩𝙧𝙮 𝙋𝙖𝙙𝙙𝙡𝙚 𝙗𝙚𝙛𝙤𝙧𝙚 𝙩𝙝𝙚 𝙋𝙖𝙮𝙋𝙖𝙡-𝙙𝙚𝙥𝙚𝙣𝙙𝙚𝙣𝙩 𝙤𝙥𝙩𝙞𝙤𝙣𝙨.\n\n9. 𝙆𝙚𝙚𝙥 𝙖 𝙬𝙧𝙞𝙩𝙩𝙚𝙣 𝙧𝙚𝙘𝙤𝙧𝙙 𝙤𝙛 𝙚𝙫𝙚𝙧𝙮𝙩𝙝𝙞𝙣𝙜: 𝙘𝙪𝙨𝙩𝙤𝙢𝙚𝙧𝙨, 𝙥𝙖𝙮𝙢𝙚𝙣𝙩𝙨, 𝙥𝙧𝙤𝙙𝙪𝙘𝙩 𝙩𝙚𝙨𝙩𝙨. This is what lenders, programs and investors eventually ask for, and it is the hardest thing to rebuild later.\n\n10. 𝘾𝙝𝙚𝙘𝙠𝙥𝙤𝙞𝙣𝙩 𝙮𝙤𝙪𝙧 𝙬𝙤𝙧𝙠 𝙩𝙤 𝙙𝙞𝙨𝙠 𝙚𝙫𝙚𝙧𝙮 𝙝𝙤𝙪𝙧 𝙖𝙣𝙙 𝙠𝙚𝙚𝙥 𝙖𝙣 𝙤𝙛𝙛𝙡𝙞𝙣𝙚 𝙥𝙡𝙖𝙣 𝙛𝙤𝙧 𝙨𝙝𝙪𝙩𝙙𝙤𝙬𝙣 𝙬𝙚𝙚𝙠𝙨.\n\n𝗪𝗵𝗲𝗿𝗲 𝗙𝗼𝘂𝗻𝗱𝗲𝗿𝗪𝗶𝘀𝗲 𝗳𝗶𝘁𝘀\n\nThat ninth item is the problem I am working on. MVP Studio helps a founder plan, test and record an MVP, so the evidence of real progress exists in a form someone else can read. It went live on 25 September, and it is free to start at https://t.co/wv0peYjcK4. If you are working through any step above and want a second pair of eyes on the order, I take strategy calls at https://t.co/ZsS6d5KfGO.\n\nIf you build from East Africa, which tool in your stack would you tell a new founder to set up first?\n\n𝗦𝗼𝘂𝗿𝗰𝗲𝘀\n\nAll pages read on 26 September 2026. Provider eligibility rules change often, so check the live page before you act.\n\n- Stripe global availability: https://t.co/9xcJpWGzcE\n\n- Paystack availability: https://t.co/vc7dDUf718\n\n- Stripe Atlas: https://t.co/yvBUV1utOM\n\n- Stripe physical presence FAQ: https://t.co/LCispJdZ9c\n\n- Stripe guide to US bank accounts and EIN timing: https://t.co/wPmPBpZDEe\n\n- Ramp US eligibility: https://t.co/SY6V0CGYt7\n\n- Brex requirements: https://t.co/j32Rcjul6X\n\n- Relay prohibited countries: https://t.co/qnoltSz20n\n\n- Airwallex eligible countries: https://t.co/cRnva0I79C\n\n- PayPal Uganda user agreement: https://t.co/ETnLlaZaBm\n\n- Flutterwave Uganda: https://t.co/Vl2rxT2URp\n\n- Google Play supported locations: https://t.co/4ToYhw158q\n\n- Apple D-U-N-S: https://t.co/RwMhy0hA4C\n\n- Apple minimum payment threshold: https://t.co/LTYVnOFyt9\n\n- Shopify Payments countries: https://t.co/oSmjxZvixX\n\n- Paddle supported countries: https://t.co/awaH5IS0Rg\n\n- Lemon Squeezy supported countries: https://t.co/abCPpu4sIn\n\n- AWS Activate: https://t.co/Fq2ZRHQB7I\n\n- Google for Startups Cloud: https://t.co/j0j9a7YStk\n\n- Microsoft for Startups: https://t.co/JHiWdjgk7O\n\n- YC documents: https://t.co/ZesCM7AqeS\n\n- Briter Africa Venture Pulse 2026: https://t.co/tDILtSzJkr\n\n- Partech Africa 2025: https://t.co/Ls0FbLAtFi\n\n- PitchBook-NVCA Q2 2026: https://t.co/SdiPMAb3re\n\n- Bank of Uganda rate hold: https://t.co/Kk0eFBVHbG\n\n- Uganda lending rates: https://t.co/MWPagyre2u\n\n- SBA loan rates: https://t.co/b38sltrSqY\n\n- World Bank Global Findex: https://t.co/kzZVIYvjmv\n\n- World Bank power outages indicator: https://t.co/uh52Gk0uIc\n\n- ITU ICT price baskets: https://t.co/G4SfBa6GkO\n\n- Uganda digital tax change: https://t.co/6OsQh6ljid\n\n- Mobile money levy: https://t.co/tibQSjXYpb\n\n- UEDCL outages: https://t.co/Li4Sx5cTDo\n\n- 2026 shutdown impact: https://t.co/qaCnpPFAbc",
+"likeCount": 5,
+"retweetCount": 1,
+"url": "https://x.com/pirwot/status/2108600147932221497",
+"createdAt": "Fri Oct 09 16:47:05 +0000 2026"
 },
 {
-"userName": "qingke_ai",
-"text": "几乎所有 reward model 都在做同一个简化：把人类偏好压成一个分数。\n\n但真实的人类反馈往往不是一个点——同一个回答，不同人可以给出不同、甚至互相冲突的判断。把多峰偏好硬压成标量，模型学到的只是\"平均值\"，而不是\"人们到底怎么想\"。\n\n清华 THUNLP 的新工作 DRM（Diffusion Reward Model）换了个问法：能不能让奖励模型学人类偏好的分布？\n\n做法很干净——把 reward modeling 重新表述为对 p(r | x, y) 的条件密度估计：在冻结的 LLM encoder 之上，用轻量 Diffusion Transformer 从高斯噪声去噪出奖励向量。不对输出分布做任何参数假设，多峰结构自然被表示出来。\n一个架构同时吃多属性回归和成对偏好数据；推理时采 N 个样本就是经验奖励分布，可以聚合成标量、方差或分位数。\n\n结果（五个基准）： • 在数据与 backbone 对齐下不弱于基线 • 训练规模相对小，仍能与大得多的判别式 / 分布式 / 生成式 RM 抗衡 • 常规 head 把分布坍缩成一个点时，它能恢复出多峰结构\n\n更实用的是下游：用不确定性做拒绝采样、用 LCB 聚合——而且直接拿 DRM 当 RLHF 训练时的 reward，策略表现更好。这就不只是\"更细的评估指标\"，而是能直接改善训练。\n\n一句话：奖励不该是一个点，而是一个分布。\n\nvia @HBX_hbx\n\n#RLHF #RewardModel #扩散模型 #PostTraining",
-"likeCount": 33,
-"retweetCount": 4,
-"url": "https://x.com/qingke_ai/status/2106468141119484007",
-"createdAt": "Sat Oct 03 19:35:15 +0000 2026"
+"userName": "MoescapeAi",
+"text": "MOESCAPE AI ✨\nSeedream 5.0 | IMAGE TO IMAGE + TEXT TO IMAGE\nReimagine the reference anime character as a stylish, confident fantasy fashion heroine while preserving her recognizable face, hairstyle, eye color, signature features, body proportions, silhouette and overall character identity. Create a polished anime fashion editorial inspired by high-end character illustrations and modern anime promotional artwork.\nPlace her in a clean studio-like environment with a bold saturated solid-color background such as electric blue, hot pink, violet, crimson, emerald or deep purple. Use striking compositions such as sitting confidently with one knee raised, leaning toward the camera, resting her face against one hand, crossing her arms, reclining elegantly, looking over her shoulder or posing with a relaxed but charismatic expression. Keep the character large and clearly visible as the main focal point.\nGive her a fashionable, distinctive outfit inspired by contemporary anime streetwear, gothic fashion, fantasy couture and idol/editorial styling. Use rich colors such as purple, crimson, black, emerald, cobalt, burgundy or magenta instead of white. Add elegant straps, ribbons, belts, metallic details, jewelry, layered fabrics, decorative sleeves, bows, subtle patterns and stylish accessories while keeping the outfit cohesive with the character.\nUse clean thick outlines, crisp linework, flat colors, simple controlled cel-shading and very limited rendering. Avoid photorealism, excessive gradients, painterly textures or overly detailed backgrounds. Keep anatomy clean, proportions consistent and facial features sharp and expressive.\nCreate a premium anime illustration with strong graphic contrast, polished composition, subtle highlights and a fashionable poster-like finish. Every generation should feel like a unique anime character photoshoot while maintaining the same recognizable character identity and visual quality.\nCreate your own characters, fantasy worlds and cinematic anime scenes with Moescape AI, link in bio!\n#fyp #anime #foryoupage #trend",
+"likeCount": 20,
+"retweetCount": 2,
+"url": "https://x.com/MoescapeAi/status/2107563008108966397",
+"createdAt": "Tue Oct 06 20:05:52 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @iamtrask: 🌶️ fixed it\n\nonly a fool would say AI is *creating* vulnerabilities faster than ever... the vulnerabilities were there alread…",
-"likeCount": 142,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2108194633511764310",
-"createdAt": "Thu Oct 08 13:55:43 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @1a1a11a: The largest agentic LLM Inference dataset has arrived!\n206B tokens · 12,002 sessions · 1,186,582 LLM requests · 1,213,347 tool…",
-"likeCount": 205,
-"retweetCount": 41,
-"url": "https://x.com/ClementDelangue/status/2108156280707620995",
-"createdAt": "Thu Oct 08 11:23:19 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @AravSrinivas: We’re open-sourcing pplx-embed-v2-late, multi-vector embeddings for text and images, 9B and 0.6B, in one shared embedding…",
-"likeCount": 847,
-"retweetCount": 81,
-"url": "https://x.com/ClementDelangue/status/2107923341827060162",
-"createdAt": "Wed Oct 07 19:57:42 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @matth_lapeyre: We did not know how long Microduck would actually last on battery \n\nWe had thermal management issues with our Radxa prot…",
-"likeCount": 259,
-"retweetCount": 26,
-"url": "https://x.com/ClementDelangue/status/2108283863315202413",
-"createdAt": "Thu Oct 08 19:50:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @perplexity_ai: We're releasing pplx-embed-v2-late, two late-interaction embedding models that retrieve text, images, and pages with a s…",
-"likeCount": 644,
-"retweetCount": 121,
-"url": "https://x.com/ClementDelangue/status/2107923383065223512",
-"createdAt": "Wed Oct 07 19:57:52 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @river_ai_inc: Introducing River Recipes: our open-source initiative for turning promising research into vetted, reproducible training r…",
-"likeCount": 189,
-"retweetCount": 23,
-"url": "https://x.com/ClementDelangue/status/2108154012155683017",
-"createdAt": "Thu Oct 08 11:14:18 +0000 2026"
-},
-{
-"userName": "0xTheGreatApe",
-"text": "The Concave Story: A Spoon, Not a Fork. From the Mines to Omertà—and the trust you cannot fork. 🥄 https://t.co/a5Yvw1HmU1",
-"likeCount": 27,
-"retweetCount": 15,
-"url": "https://x.com/0xTheGreatApe/status/2108159594451046740",
-"createdAt": "Thu Oct 08 11:36:29 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Clef from @Cloudflare is number trending on HF! https://t.co/dloDL2nmy6",
-"likeCount": 661,
-"retweetCount": 24,
-"url": "https://x.com/ClementDelangue/status/2107122134900166917",
-"createdAt": "Mon Oct 05 14:54:00 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @npinto: #1 on HackerOne :-) https://t.co/9H6i0EVv8M",
-"likeCount": 173,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2108279754327552008",
-"createdAt": "Thu Oct 08 19:33:58 +0000 2026"
-},
-{
-"userName": "milianstx",
-"text": "https://t.co/QVKpARgQFR",
-"likeCount": 55,
+"userName": "bazdn0503",
+"text": "Why I believe it’s still early in Coinsilium’s next chapter. 🟠🟡\n\nCoinsilium has built exposure across several developing areas of crypto and AI. Each offers something different:\n\n🟡 Yellow Network — $YELLOW\nInfrastructure for clearing and settling transactions across blockchains. Coinsilium has an allocation of 50 million tokens, subject to vesting. Yellow entered live operation in March 2026.\n\n🤖 Otomato\nDeFi portfolio monitoring, intelligence and automation, helping users understand positions across different protocols. Coinsilium holds approximately 1.25% of developer Dyment Labs, plus a token warrant.\n\n🔎 Predictive Labs / Nijinn\nBrings prediction-market data together into an intelligence platform for professionals, developers and AI agents. Coinsilium’s reported investment reached US$450,000, representing approximately 14.91%.\n\n🎨 BeatingHeart\nDeveloping generative AI tools for advertising images and video, initially targeting fashion, beauty and lifestyle brands. Coinsilium agreed a convertible loan facility of up to US$250,000 alongside strategic advisory support.\n\n₿ Forza — Bitcoin exposure through $BTC\nCoinsilium’s wholly owned subsidiary manages its strategic Bitcoin treasury.\n\nFor me, “early days” means these ventures still have opportunities to develop products, attract users and build commercial revenues. Their success—and the value ultimately reaching Coinsilium shareholders—depends on execution.\n\nThat’s the longer-term story I’m watching.\n\n🇬🇧 $COIN.AQ | 🇺🇸 $CINGF\n$YELLOW $BTC\n@CoinsiliumGroup\n#Coinsilium #Otomato #Nijinn #AI #Web3",
+"likeCount": 26,
 "retweetCount": 11,
-"url": "https://x.com/milianstx/status/2108237618987098195",
-"createdAt": "Thu Oct 08 16:46:32 +0000 2026"
+"url": "https://x.com/bazdn0503/status/2107044879503175976",
+"createdAt": "Mon Oct 05 09:47:00 +0000 2026"
+},
+{
+"userName": "InstituteCicero",
+"text": "China's Minister of State Security on AI:\n\n\"Various hostile forces are abusing generative AI technologies and intelligent bot armies to fabricate political rumors in low-cost, mass-produced fashion, spread harmful information and incite antagonistic emotions, carrying out public-opinion warfare and cognitive warfare.\"\n\nChina is not afraid of the technology, but of who controls it.\n\n93% of Chinese say AI will mostly help their country.\n\n36% of Americans do, per Gallup.\n\nChina fears losing control of AI. Americans fear AI itself. \n\nOnly one of those is a strategy.",
+"likeCount": 11,
+"retweetCount": 5,
+"url": "https://x.com/InstituteCicero/status/2106519012545098237",
+"createdAt": "Sat Oct 03 22:57:24 +0000 2026"
+},
+{
+"userName": "HuggingPapers",
+"text": "Kandinsky Lab released Kandinsky 6.0 Video on Hugging Face\n\nA family of foundation diffusion models for synchronized text/image-to-audio-video generation: 3B Lite and 29B Pro, 44 kHz audio with lip-sync, and Full-HD super-resolution. MIT licensed, with RL post-training cutting speech WER by 47%.",
+"likeCount": 54,
+"retweetCount": 16,
+"url": "https://x.com/HuggingPapers/status/2107384443023323381",
+"createdAt": "Tue Oct 06 08:16:19 +0000 2026"
+},
+{
+"userName": "LiangZheng_06",
+"text": "We've released the slides for our ECCV'26 tutorial on diffusion model post-training. \n\n- Direct reward gradient backpropagation;\n- DPO;\n- GRPO; \n- Forward-process RL. \n\nhttps://t.co/BLq6EaAqJW\n\nHope it will be useful for the community.\n\n@scxue1999 @zinho_leung @jie_liu1",
+"likeCount": 341,
+"retweetCount": 48,
+"url": "https://x.com/LiangZheng_06/status/2107986518312993071",
+"createdAt": "Thu Oct 08 00:08:45 +0000 2026"
+},
+{
+"userName": "ZaydSOL",
+"text": "I lost a 20x on https://t.co/5KlREVRldp with no exit plan.\nSo I spent a week researching the whole scene and wrote down everything: the stats, bundling, Fomo, Robinhood Chain, and the rules I trade by now.\nFull article 👇 https://t.co/bwPbs7D8Q3",
+"likeCount": 7,
+"retweetCount": 1,
+"url": "https://x.com/ZaydSOL/status/2108526904546648170",
+"createdAt": "Fri Oct 09 11:56:03 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @Alibaba_Qwen: 🚀 Meet Qwen-Image-2.1-Turbo — create and edit images in just 8 denoising steps! Open weights now available!\n\nBuilt on Qwe…",
+"likeCount": 3649,
+"retweetCount": 386,
+"url": "https://x.com/ClementDelangue/status/2108576278299234654",
+"createdAt": "Fri Oct 09 15:12:14 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @AlexObuchowski: Today we introduce MedDecider - an open weight family of Jev style decision models for medicine. \nMedDecider achieves S…",
+"likeCount": 995,
+"retweetCount": 123,
+"url": "https://x.com/ClementDelangue/status/2108376883813650636",
+"createdAt": "Fri Oct 09 01:59:55 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @OfirPress: if you're wondering how openai achieved the math stuff, it's probably this. they just create a lot of RL envs with Lean form…",
+"likeCount": 473,
+"retweetCount": 29,
+"url": "https://x.com/ClementDelangue/status/2108618228188451120",
+"createdAt": "Fri Oct 09 17:58:56 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @VikParuchuri: Looks like you copied Chandra OCR 2 into your repo, renamed it, changed the license, and made the output worse (your olmo…",
+"likeCount": 2642,
+"retweetCount": 120,
+"url": "https://x.com/jeremyphoward/status/2108019398833549541",
+"createdAt": "Thu Oct 08 02:19:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Is there anything Reachy mini can’t do? https://t.co/eh0SdAUmWR",
+"likeCount": 254,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2108212272317288746",
+"createdAt": "Thu Oct 08 15:05:49 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "love the building in public!",
+"likeCount": 118,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2108550140479041742",
+"createdAt": "Fri Oct 09 13:28:23 +0000 2026"
 }
 ]

@@ -1,130 +1,138 @@
 [
 {
-"userName": "STACCoverflow",
-"text": "we put an 8B LLM inside a solana fork. every token it writes is computed on-chain, in public, one transaction at a time.\n\nCA: DxNXApfiPXYcobrM3NsePAXMDYyaPgB8jfK4yc9ichat ($CHAT)\ntry it: https://t.co/8wzpO6pi0i\nwatch one compute: https://t.co/nEXJJkN5Bt\n\nwhat's on-chain\n• qwen3-8b, all 36 layers, quantized to 4-bit\n• 4.22 GB of weights uploaded into 569 accounts (~7.4 MB each)\n• one program does the math: rmsnorm, q/k/v projections, rope, attention over a kv cache that lives in accounts, the swiglu ffn, the final 151,936-row vocab projection and the argmax that picks the next token\n• off-chain: only converting your text to token ids and back. everything in between is transactions\n\nthe chain: crekk\n• an agave 4.3 fork running as a single validator, ~151ms slots\n• mainnet caps a transaction at 1.4M compute units. one token of an 8B model is ~8 billion multiply-adds, so we raised the per-tx cap to u32 max (~4.3B CU) and the block cap to 2^52\n• then we patched agave's block scheduler: keep 32 worker threads full every slot, and skip read-lock checks on the weights (they're read-only; the bank still enforces real locks)\n\nhow a reply gets computed\n• every weight matrix is cut into blocks of a few hundred rows. each block is its own transaction, so hundreds land in parallel and get merged\n• each piece is sized to ~12M CU so it fits in one slot (~12.7 CU per 4-bit multiply-add, measured)\n• your whole prompt goes through as one batch: each weight row is read once and applied to every prompt token (up to 32) at the same time\n• then the reply decodes token by token, each one fed back in as the next input\n\nspeed\n• v1: 43 minutes per token\n• now, on an idle chain: ~1.5 min per reply token, and a ~17-token prompt batch in ~9 min\n• a short chat (\"hi\" → \"Hi\") takes ~20–30 min\n• several chats run at once (3 today; the cap is one validator's throughput, not code)\n• 100k+ transactions per short chat, each with a public receipt\n\nproof\n• we replay the on-chain batch natively and diff it: 0 of 8,064 kv cache entries differ, 0 activation bytes differ, same token. bit for bit\n\nusing it\n• free. stacc sponsors every fee, no wallet needed\n• every chat is public, with live progress, an eta and receipts\n• open someone else's finished chat and fork it to keep going in your own\n• a public log of every generation: prompt, reply, timing, links\n\ngetting assets onto crekk\n• https://t.co/J0nFw7Dp1Q bridges tokens between solana mainnet and crekk. it's one relayer for now, so treat it as custodialish\n• crekk's rpc has an airdrop faucet for gas\n• pending: raydium clmm + cpmm pools on crekk and a native wSOL mint, so bridged tokens get real markets next to the model, just cuz we can\n\n$CHAT\n• https://t.co/xhA6XrAO47 coin, CA DxNXApfiPXYcobrM3NsePAXMDYyaPgB8jfK4yc9ichat\n• its image is a live headless screenshot of the model's latest finished chat. every time the model finishes a reply, the coin's picture changes and its website points at that chat\n\nwhy\nmainnet isn't running this tomorrow. but none of it needs a new primitive: it's compute limits, scheduler config and hardware. if @toly @SolanaFndn @solana wanted a GLM-class model on solana, that's a config decision, not a research project. this is the slow, ugly, public proof: it's performance art.\n\na social experiment, on crekk → https://t.co/8wzpO6pi0i",
-"likeCount": 28,
-"retweetCount": 4,
-"url": "https://x.com/STACCoverflow/status/2108425970122186974",
-"createdAt": "Fri Oct 09 05:14:58 +0000 2026"
-},
-{
-"userName": "Zen_with_AI",
-"text": "第1003期 小路和你读AI论文。今日4篇高质量论文。\n\n1. 𝗙𝗶𝗻𝗲𝘁𝘂𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗦𝗮𝗺𝗽𝗹𝗶𝗻𝗴: 𝗦𝗙𝗧 𝗟𝗲𝗮𝗿𝗻𝘀 𝗕𝗲𝘁𝘁𝗲𝗿 𝗧𝗵𝗮𝗻 𝗬𝗼𝘂 𝗧𝗵𝗶𝗻𝗸（《带采样的微调：SFT 比你想的更会学》）\n\n链接：https://t.co/QXVXbqz5hu\n\n作者背景：Aayush Karan, Sitan Chen, Yilun Du, Harvard\n\n不改损失，用 MCMC 把离策略专家轨迹逐步改写成更接近参考模型的在策略分布，SFT 在泛化与遗忘上就能比肩强在策略后训练。实验覆盖科学技能、数学推理和开放式专长。采样本身可以当作后训练原语，这会动摇\"保能力必须上 RL\"的默认做法，做后训练的人值得细看。\n\n2. 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗙𝗶𝘁: 𝗠𝗼𝗱𝗲𝗹-𝗛𝗮𝗿𝗻𝗲𝘀𝘀 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀（《找到合适的搭配：跨 Agent 任务的模型与 Harness 交互》）\n\n链接：https://t.co/txmUWsp8E5\n\n作者背景：Yixuan Li, Bo An 等\n\n模型、harness 与任务必须放在一起评，强模型和厂商自有脚手架都不会稳定领先。66 组配置横跨 OpenHands、DeepSeek Harness、PI、openJiuwen 与三项命令行 agent 基准。Terminal-Bench 4 上，Claude 在 OpenHands 中领先 GPT 7.94 分，在 PI 中落后 30.16 分，五个模型里有四个的最优 harness 随基准改变。作者发布了适配器、评测代码和 6,204 条轨迹，部署 agent 的人可以直接拿来做选型证据。\n\n3. 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀（《分层连续扩散语言模型》）\n\n链接：https://t.co/dC0fv3j4PU\n\n作者背景：Alexander Schwing（UIUC）等\n\n让连续潜变量成为唯一持续生成状态，token 每步读出并回馈，以缓解离散扩散并行解码时的独立采样断裂。训练目标来自 token 似然的变分界，同规模下在 Sudoku、Countdown 和 LM1B 上优于离散与连续扩散基线。做扩散语言模型的人可以看看它是否真正保住了并行解码中的 token 依赖。\n\n4. 𝗘𝘃𝗲𝗿𝘆 𝗔𝗯𝗹𝗮𝘁𝗶𝗼𝗻 𝗜𝘀 𝗮 𝗗𝗼𝘀𝗲: 𝗖𝗼𝘂𝗻𝘁𝗲𝗿𝘄𝗲𝗶𝗴𝗵𝘁𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗦𝗲𝗺𝗯𝗹𝗮𝗻𝗰𝗲 𝗼𝗳 𝗦𝗲𝗹𝗳-𝗥𝗲𝗽𝗮𝗶𝗿（《每次消融都是一剂药：反权重与\"自修复\"的假象》）\n\n链接：https://t.co/IzLv2zqidD\n\n消融后看似补偿的响应，多半来自干预前就存在的反权重，它们随对比强度作仿射响应，与临时自我修复无关。在事实判决任务上，Gemma、Qwen、LLaMA、Mistral 的 81 个下游方向中有 68 个服从该仿射律。GPT-2 Small 的 IOI 电路里，干预能触及的 10 个头有 7 个符合，且全是反权重，斜率还能由固定权重预先估计。做机制可解释性的人可以拿它校准对自修复的判断。",
-"likeCount": 22,
-"retweetCount": 7,
-"url": "https://x.com/Zen_with_AI/status/2106405977683886310",
-"createdAt": "Sat Oct 03 15:28:14 +0000 2026"
-},
-{
-"userName": "bazdn0503",
-"text": "Why I believe it’s still early in Coinsilium’s next chapter. 🟠🟡\n\nCoinsilium has built exposure across several developing areas of crypto and AI. Each offers something different:\n\n🟡 Yellow Network — $YELLOW\nInfrastructure for clearing and settling transactions across blockchains. Coinsilium has an allocation of 50 million tokens, subject to vesting. Yellow entered live operation in March 2026.\n\n🤖 Otomato\nDeFi portfolio monitoring, intelligence and automation, helping users understand positions across different protocols. Coinsilium holds approximately 1.25% of developer Dyment Labs, plus a token warrant.\n\n🔎 Predictive Labs / Nijinn\nBrings prediction-market data together into an intelligence platform for professionals, developers and AI agents. Coinsilium’s reported investment reached US$450,000, representing approximately 14.91%.\n\n🎨 BeatingHeart\nDeveloping generative AI tools for advertising images and video, initially targeting fashion, beauty and lifestyle brands. Coinsilium agreed a convertible loan facility of up to US$250,000 alongside strategic advisory support.\n\n₿ Forza — Bitcoin exposure through $BTC\nCoinsilium’s wholly owned subsidiary manages its strategic Bitcoin treasury.\n\nFor me, “early days” means these ventures still have opportunities to develop products, attract users and build commercial revenues. Their success—and the value ultimately reaching Coinsilium shareholders—depends on execution.\n\nThat’s the longer-term story I’m watching.\n\n🇬🇧 $COIN.AQ | 🇺🇸 $CINGF\n$YELLOW $BTC\n@CoinsiliumGroup\n#Coinsilium #Otomato #Nijinn #AI #Web3",
-"likeCount": 26,
+"userName": "OwenGregorian",
+"text": "Richard Feynman’s 50-Year-Old ‘Restaurant Problem’ Finally Decoded. It Shows Why People Settle for Good Enough | Tibi Puiu, ZME Science\n\nRichard Feynman could turn almost anything into physics and math. Even lunch.\n\nOne day in the late 1970s, the Nobel Prize-winning physicist sat in a Thai restaurant in Glendale, California, with his friend Ralph Leighton, who faced a familiar decision paralysis: order his regular beloved ginger chicken, or risk disappointment on something new that he had never tried but might turn out to be better.\n\nFeynman did not flip a coin. He reached for a sheet of paper and started scribbling equations. He essentially transformed the mundane choice into a problem about when to keep exploring and when to return to the best thing you already know.\n\nThe notes from this seemingly inconspicuous diner night have remarkably survived. But the math was never really checked out independently.\n\nNow, nearly 50 years later, researchers say they have deciphered Feynman’s “restaurant problem,” proved that his answer was mathematically correct, and tested whether ordinary people behave anything like his ideal diner.\n\nThe new study finds that people do not follow the perfect rule derived from Feynman’s restaurant equations. But they get surprisingly close.\n\nThe Math of When to Stop Looking\n\nImagine you are in a new city for a fixed number of nights. Each evening, you can try a new restaurant, whose quality you do not know until you go there, or return to the best restaurant you have already found. Your goal is not merely to find the best place. It is to have the best overall dining experience.\n\n“The essence of the problem is that the value of exploring, of looking around and trying something new, decreases the opportunities you’re going to have to make use of that information,” Prof. Tom Griffiths of Princeton University, a co-author of the study, told The Guardian.\n\nFeynman’s answer was a moving bar. Early in a trip, you should keep trying new restaurants unless you find something exceptional. That is because the reward for discovering a great place is highest at the beginning: you still have many nights left to return to it. But each passing night makes exploration less valuable. By the end, even a merely good restaurant may be good enough, because there is little time left to benefit from finding something better.\n\n“The thresholds are being guided by the best thing you might be able to find if you kept looking,” Griffiths told The Guardian. “If you have a long time to look, finding something amazing has a lot of value because you can go back many times.”\n\nThe problem belongs to a larger family of decision puzzles called optimal stopping problems. Similar logic appears when people hunt for apartments, search for jobs, choose parking spots or decide whether to keep dating. It also overlaps with the classic “explore or exploit” dilemma: when should you try something new, and when should you return to what already works?\n\nUnlike some classic stopping problems, in Feynman’s version, the diner can return to an earlier choice. That makes the puzzle less like grabbing the first acceptable apartment before someone else does, and more like building a list of known favorites.\n\nDifferent Worlds, Same Restaurant Problem\n\nBrian Christian, a researcher at the University of Oxford and the Center for Human Compatible AI at the University of California, Berkeley, and his collaborators reconstructed Feynman’s notes with help from Leighton and Michael Gottlieb, who maintains The Feynman Lectures website.\n\nFeynman’s hasty handwriting was challenging to decipher. But that was only step one. Then came the math itself.\n\n“What you have to unravel to make sense of the notes is: What are these equations even trying to do? What’s the problem that he’s then going forward and solving?” Christian told Nautilus.\n\nOnce the researchers recovered the problem, as formulated by the late physicist, they generalized it. Feynman assumed restaurant quality could fall anywhere across a uniform range. However, the new study also examined worlds where most restaurants were mediocre but a few were exceptional, or where good restaurants were more common.\n\nIn one world, restaurant quality was uniform: a terrible meal, an average meal and a superb meal were all equally likely. In another, called exponential, most restaurants clustered toward the lower end, with truly great ones becoming rarer. A power law world was even more extreme: most places were ordinary, but a few outliers could be spectacular. And finally, in a triangular world, scores leaned toward the higher end, making decent restaurants relatively common.\n\nThen the team looked at how people actually behave.\n\nWhat People Actually Do\n\nThey recruited 2,520 participants online and placed them in a virtual city. Each participant saw a grid of restaurants. A restaurant’s score remained hidden until the participant visited it. The volunteers had either 7, 14 or 28 nights to maximize their total score.\n\n“We wanted to really capture people’s gut intuitions,” Christian told Live Science. “When you just get thrown into this situation, what do you do?”\n\nThe answer was not exactly Feynman’s elegant curve.\n\nPeople used a simpler rule. They started with a high standard, then lowered it in a straight line as the trip went on. They also explored more than the optimal strategy predicted early in the game, especially when they found a strong option right away.\n\nBut the shortcut worked. The researchers found that this simple strategy captured about 90 percent of the value of the optimal approach.\n\n“People are not doing the optimal thing. They’re doing something radically simpler,” Christian told Live Science. “And still the simple strategy is being tailored in a way that feels very situationally appropriate.”\n\nA Kinder View of the Human Mind\n\nSince the work of Daniel Kahneman, Amos Tversky, and others, behavioral science has documented many ways in which people depart from strictly optimal and rational outcomes.\n\nThe new study fits into a newer theoretical framework called resource rationality. The idea is that people often use cognitive shortcuts not because their minds aren’t up to the task, but because perfect calculation would demand too much time, information and mental effort.\n\n“People don’t do the perfect thing, but they make nearly perfect use of their constrained resources,” Christian told Live Science. “I think this is a little bit more of a redemptive story about the human mind than we are used to from the 20th century.”\n\nThe study’s participants did not apply exactly the same standard in every restaurant world. When the distribution suggested a few rare gems might exist, they set a higher starting bar. When most restaurants were clustered closer together, they settled sooner.\n\nStill, the experiment was cleaner than life. Real restaurants are far from this uniform. A typically five-star restaurant can feel like a four or even a three on a bad night. Money, distance, mood and novelty all matter in what, at the end of the day, is a pretty subjective experience.\n\n“Like any math problem, the Feynman restaurant problem abstracts away some of the messy reality of life,” Christian told Nautilus.\n\nYet the deliberate simplification is part of the process. It’s a running gag that to physicists, cows are like spheres. You can’t milk a sphere, but you can easily determine its volume, and that may be helpful when you have to figure out how big a farm needs to be. By stripping dinner down to its bones, Feynman exposed a pattern that reaches far beyond food. The same tension shapes how people search, commit, compare and settle.\n\nThe work may also matter for artificial intelligence. Many systems assume humans act like perfectly rational agents. Studies like this suggest a better model: people often use rough rules that are fast, adaptive and good enough. The insight may be helpful when designing AI that better models the efficiency of the human brain.\n\nFeynman died in 1988 without publishing the restaurant problem. For decades, the puzzle sat in a few scribbled pages from lunch. It began with ginger chicken. It ended as a lesson in how the human mind decides when the search is finally over.\n\nThe findings appeared in the Proceedings of the National Academy of Sciences.\n\nhttps://t.co/ucGszItE5x",
+"likeCount": 39,
 "retweetCount": 11,
-"url": "https://x.com/bazdn0503/status/2107044879503175976",
-"createdAt": "Mon Oct 05 09:47:00 +0000 2026"
+"url": "https://x.com/OwenGregorian/status/2108540707132571735",
+"createdAt": "Fri Oct 09 12:50:54 +0000 2026"
 },
 {
-"userName": "HuggingPapers",
-"text": "Kandinsky Lab released Kandinsky 6.0 Video on Hugging Face\n\nA family of foundation diffusion models for synchronized text/image-to-audio-video generation: 3B Lite and 29B Pro, 44 kHz audio with lip-sync, and Full-HD super-resolution. MIT licensed, with RL post-training cutting speech WER by 47%.",
-"likeCount": 54,
-"retweetCount": 16,
-"url": "https://x.com/HuggingPapers/status/2107384443023323381",
-"createdAt": "Tue Oct 06 08:16:19 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "Jasmine says that she accidentally accessed an executive's email that OpenAI had explicitly given her access to, even although she had explicitly requested that OpenAI remove her access, and IT had failed to do so.\n\nWhich implies Jasmine was fired for IT's failure?",
-"likeCount": 320,
-"retweetCount": 7,
-"url": "https://x.com/jeremyphoward/status/2108371259612708921",
-"createdAt": "Fri Oct 09 01:37:34 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MistralAI: Meet Mistral Large 4, aka Le Chonk. \n\n• 1T parameters, natively multimodal. 49B active.\nIt is the best open weights model fr…",
-"likeCount": 40507,
-"retweetCount": 4570,
-"url": "https://x.com/ClementDelangue/status/2107463739423490200",
-"createdAt": "Tue Oct 06 13:31:24 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MaziyarPanahi: an open model just beat Jev outright on clinical decisions 🔥\n\npplx-decider v1.1 got 643 of 669 right vs 628 for Jev, at…",
-"likeCount": 351,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2108212871150653895",
-"createdAt": "Thu Oct 08 15:08:11 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ggerganov: The new v0.6.0 release packs a lot of good stuff:\n\n- Clef support (text + vision)\n- High-quality support for Qwen3.8-Flash-N…",
-"likeCount": 904,
-"retweetCount": 78,
-"url": "https://x.com/ClementDelangue/status/2107204071400808659",
-"createdAt": "Mon Oct 05 20:19:35 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ben_burtenshaw: Today we are launching an agent arena for RL environments: The Open Env Arena.\n\nYour agents can work to define the best…",
-"likeCount": 323,
-"retweetCount": 44,
-"url": "https://x.com/ClementDelangue/status/2108201213779153228",
-"createdAt": "Thu Oct 08 14:21:52 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @LeRobotHF: Join us to talk with LeRobot engineers, ask questions and see what's coming soon to LeRobot.\n\nLeRobot Live - Thursday 8th of…",
-"likeCount": 121,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2107641182402568697",
-"createdAt": "Wed Oct 07 01:16:30 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @yb2698: Excited to share that I have (re)joined @huggingface as a Opensource ML engineer!\n\nMany incredible things to come around this f…",
-"likeCount": 109,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2107463788765077560",
-"createdAt": "Tue Oct 06 13:31:36 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @natolambert: Today we're unveiling Trillium Labs @trillium_labs, a new non-profit to foster the open science of frontier AI. We're buil…",
-"likeCount": 3236,
-"retweetCount": 300,
-"url": "https://x.com/jeremyphoward/status/2106321507471511706",
-"createdAt": "Sat Oct 03 09:52:35 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "Narrator: he was not, in fact, allowed to say “I’m quite unhappy with much of what OpenAI does.”",
-"likeCount": 407,
-"retweetCount": 12,
-"url": "https://x.com/jeremyphoward/status/2108408989210075260",
-"createdAt": "Fri Oct 09 04:07:30 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @mervenoyann: October will be a releaseful month @huggingface https://t.co/GX7QYrmiPc",
-"likeCount": 160,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2107432582446993734",
-"createdAt": "Tue Oct 06 11:27:36 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @arthurmensch: Excited https://t.co/4URuBCQVUR",
-"likeCount": 3305,
-"retweetCount": 324,
-"url": "https://x.com/ClementDelangue/status/2107201787057065997",
-"createdAt": "Mon Oct 05 20:10:30 +0000 2026"
-},
-{
-"userName": "apob_ai",
-"text": "https://t.co/9UivcBoAXi",
-"likeCount": 31,
+"userName": "alexhalescoder",
+"text": "🔥 30 AI Websites That Feel Illegal to Know — But Are 100% Legal!\nThe internet is full of powerful AI tools that most people still don't know about. 🤯\nSome can generate stunning images, create videos, build websites, write content, clone voices, and even turn simple ideas into professional presentations.\nThe best part? You don't need to be a professional designer, developer, or content creator to start using them.\nHere are 30 incredible AI websites worth bookmarking. 👇\nRaphael AI — Generate AI images and bring your creative ideas to life.\nKrea AI — Create and experiment with AI-generated visuals in real time.\nMagnific AI — Enhance image resolution and add impressive visual details.\nClipdrop — Remove backgrounds, clean up images, and improve your visuals.\nElevenLabs — Create realistic AI voices and explore voice-generation technology.\nSuno — Turn your lyrics and ideas into AI-generated songs.\nRunway — Explore AI video generation and creative video editing.\nKling AI — Generate cinematic videos from text and image prompts.\nD-ID — Create talking digital presenters from images and audio.\nSadTalker — Experiment with turning static portraits into talking videos.\nCursor — Write, understand, and improve code with AI assistance.\nhttps://t.co/42pmLSLDss — Build websites and applications by describing what you want.\nv0 — Generate frontend interfaces and website layouts with AI.\nReplit — Build, test, and deploy projects directly in your browser.\nNapkin AI — Transform written ideas into visual diagrams and infographics.\nGamma — Create presentations, documents, and visual content faster.\nNotion AI — Summarize information, organize ideas, and improve your writing.\nUizard — Turn design ideas and sketches into digital interfaces.\nPerplexity — Research topics and explore answers with linked sources.\nPhind — Get AI-powered assistance with technical questions and coding problems.\nhttps://t.co/oWrynz8sq8 — Transcribe meetings and turn conversations into searchable notes.\nOpusClip — Repurpose long videos into shorter clips for social media.\nPoe — Explore different AI assistants and models in one place.\nHugging Face Spaces — Experiment with AI demos and open-source models.\nhttps://t.co/BlsivHuxfT — Remove image backgrounds in seconds.\nhttps://t.co/ggEp6BwnnM — Remove unwanted objects from photos.\nDeepSwap — Explore AI-powered face-swapping technology.\nMusiio — Explore AI-powered music tagging and music discovery tools.\nJasper — Create marketing content and explore AI writing workflows.\nClaude — Analyze documents, develop ideas, write content, and work through complex problems.\n💡 Here's the real lesson:\nYou don't need to use all 30 tools.\nYou need to find the 2–3 tools that solve your biggest problems and learn how to use them effectively.\nIf you're a content creator, focus on content creation and video tools.\nIf you're a developer, explore AI coding assistants.\nIf you're a freelancer, learn tools that help you deliver better work in less time.\nIf you're a beginner, start with one tool, practice every day, and build something useful.\nAI won't automatically make you successful. But learning how to use AI effectively can give you a serious advantage.\nSave this list for later, because the right tool at the right time can save you hours of work. 🚀\nOne important note: features, free plans, and usage limits can change. Some tools require paid subscriptions, and legality depends on how you use them and whether you respect applicable laws, licenses, and privacy rights.\nFollow me 👉 @alexhalescoder for more AI information \n💬 Question: If you could master just ONE AI tool from this list, which one would you choose—and what would you build with it?\n#ArtificialIntelligence #AITools #Tech #Productivity #FutureOfWork",
+"likeCount": 14,
 "retweetCount": 10,
-"url": "https://x.com/apob_ai/status/2108100708599758968",
-"createdAt": "Thu Oct 08 07:42:30 +0000 2026"
+"url": "https://x.com/alexhalescoder/status/2108724071039213791",
+"createdAt": "Sat Oct 10 00:59:31 +0000 2026"
+},
+{
+"userName": "sperkhq",
+"text": "𝗵𝗼𝘄 𝘁𝗼 𝗺𝗮𝗸𝗲 𝗮𝗶 𝘃𝗶𝗱𝗲𝗼 𝗰𝗿𝗲𝗮𝘁𝗶𝗼𝗻 𝗲𝗮𝘀𝗶𝗲𝗿 𝗮𝘀 𝗮 𝗯𝗲𝗴𝗶𝗻𝗻𝗲𝗿\n\nyou don’t need to know everything about ai to start creating good ai videos.\n\nyou just need the right workflow.\n\n1. pinterest\n\npinterest is a great place to find visual inspiration.\n\nlook for scenes, characters, camera angles, lighting, transitions, fashion, environments and video styles that match what you want to create.\n\nyou can also get inspiration from tiktok, instagram, x, youtube and even movies.\n\nthe goal isn’t to copy everything you see.\n\nfind the parts you like, combine them with your own idea, and build something original.\n\n2. chatgpt\n\nthis is where your idea becomes a proper prompt.\n\ntake your reference image or explain the scene you want to recreate to chatgpt.\n\nask it to describe the important details in the scene, including the environment, character position, camera angle, lighting, movement and overall mood.\n\nthen ask chatgpt to turn that description into a detailed prompt for your ai video.\n\nif you have a reference character, clearly tell chatgpt to preserve the character’s identity, face, hairstyle, body structure, clothing and other important features without unnecessary changes.\n\nyou can also use voice notes to explain your idea instead of typing everything.\n\n3. storyboard\n\nbefore generating the entire video, break it into smaller scenes.\n\nfor example:\n\nscene 1 → 3 seconds\nscene 2 → 4 seconds\nscene 3 → 5 seconds\nscene 4 → 4 seconds\n\na storyboard is simply a visual plan for your video.\n\nit shows what should happen in each scene before you start generating and animating everything.\n\nyou can create the storyboard yourself or use chatgpt to help you build the prompts for each frame.\n\ntry to keep the same character, visual style and resolution throughout the storyboard so the final video feels consistent.\n\n4. choose your ai video tool\n\nonce your prompts and storyboard are ready, you can move into the generation stage.\n\nsome tools you can experiment with include:\n\n• google flow\n• gemini / veo\n• grok\n• higgsfield\n• seedance 2.5\n• trimz\n• capcut\n\ndifferent tools will give you different results, so experiment and see which one works best for your style.\n\n5. choose your resolution\n\nthis part matters more than beginners usually think.\n\nfor a vertical social media video, you can use 9:16.\n\nfor youtube or a wider cinematic video, 16:9 is usually a better choice.\n\nfor square content, you can use 1:1.\n\nyou can also work with common resolutions such as:\n\n• 1080 × 1920 for vertical video\n• 1920 × 1080 for landscape video\n• 1080 × 1080 for square video\n\nchoose your resolution based on where the video will be posted.\n\n6. generate and edit\n\nnow take your prompt and storyboard into your chosen ai video tool and generate your scenes.\n\nonce you have the clips, you can bring them into capcut for further editing.\n\ncapcut can also be used for ai video creation, so you can experiment with generating, editing, adding text, sound effects, music, transitions and adjusting the final aspect ratio all in one place.\n\nthe complete process is simple:\n\ninspiration → chatgpt → storyboard → ai generation → editing\n\nthe better your reference, prompt and storyboard, the more control you have over the final video.\n\nyou’re not just asking ai to make a video, you’re giving it a clear visual direction to follow.\n\ndisclaimer: the ai videos below are not under sperk authority.\n\nfor more exploration on daily prompts and tools to use, join our tg here • https://t.co/4kxOEOi87t • you are welcome.\n\nstay tuned for more updates afterwards, bookmark and goodluck sperks.",
+"likeCount": 90,
+"retweetCount": 41,
+"url": "https://x.com/sperkhq/status/2108234173282394128",
+"createdAt": "Thu Oct 08 16:32:50 +0000 2026"
+},
+{
+"userName": "sadhna6389",
+"text": "35 WEBSITES GOOGLE DOESN'T WANT YOU TO KNOW\n\n1. Explee .com — sends cold emails on autopilot\nhttps://t.co/LZdjZ0j70F\n\n2. NoteGPT — turns docs into podcasts\nhttps://t.co/9Wp7F46u4W\n\n3. Napkin AI — turns text into diagrams\nhttps://t.co/re0x1KVkSE\n\n4. Ideogram — generates text in images perfectly\nhttps://t.co/9Qcwv0e1jI\n\n5. Suno — makes full songs from a prompt\nhttps://t.co/1veI5zyTl2\n\n6. HeyGen — clones your face into videos\nhttps://t.co/JLzqM9UhB8\n\n7. Kling AI — best AI video generation\nhttps://t.co/cSxZ7EsZ4e\n\n8. ElevenLabs — clone any voice instantly\nhttps://t.co/KrhiScFjPm\n\n9. Gamma — AI presentations in seconds\nhttps://t.co/Zsw8csaHLd\n\n10. Perplexity — AI search with real sources\nhttps://t.co/vwfTpDQIVa\n\n11. Pika — animate any image into video\nhttps://t.co/FQeBp5d2qT\n\n12. Runway — cinematic AI video generation\nhttps://t.co/RyQZ1ZN2l9\n\n13. Cursor — AI code editor that builds for you\nhttps://t.co/Y3NcAROV8P\n\n14. v0 — generate UI components with AI\nhttps://t.co/I1SI6KjI3c\n\n15. Lovable — turn ideas into working apps\nhttps://t.co/IUQJZyx7rE\n\n16. Descript — edit video by editing text\nhttps://t.co/8r8kdR51GD\n\n17. Opus Clip — auto cut long videos into shorts\nhttps://t.co/jLCZVJme7i\n\n18. Krea AI — real time AI image generation\nhttps://t.co/DSabHtTNCX\n\n19. Magnific — upscale any image with AI\nhttps://t.co/0Gtx9O4gkF\n\n20. Viggle — make characters move realistically\nhttps://t.co/xQEyIEhLfi\n\n21. tl;dv — record and summarize any meeting\nhttps://t.co/poP6DgLTqJ\n\n22. Fireflies — AI meeting notes automatically\nhttps://t.co/IxAjkHvIm4\n\n23. Castmagic — turn audio into content pieces\nhttps://t.co/Fvy3aGWDqG\n\n24. Replit — code and deploy from browser\nhttps://t.co/cswzT6TnGu\n\n25. Leonardo AI — generate images for free\nhttps://t.co/e6Hn1LlMfQ\n\n26. Synthesia — AI avatar videos no camera needed\nhttps://t.co/H36rEbo0ny\n\n27. Fliki — turn text into videos with AI\nhttps://t.co/WJqR2g7toi\n\n28. Photoroom — AI product photography\nhttps://t.co/IM1gTfsW1j\n\n29. Invideo AI — turn prompts into full videos\nhttps://t.co/r5d1jIJy6M\n\n30. Consensus — search what science agrees on\nhttps://t.co/JSZJ1bG8Bi\n\n31. SciSpace — understand any research paper\nhttps://t.co/Ng5xiHTl3e\n\n32. Tome — AI builds your pitch decks\nhttps://t.co/OuB9bOu3oL\n\n33. Beautiful AI — smart presentation design\nhttps://t.co/i1SgNNI3c3\n\n34. Meshy — turn text into 3D models\nhttps://t.co/MCLvAmfu2m\n\n35. Vizcom — turn sketches into renders\nhttps://t.co/K4iHEq3ych\n\nThe AI revolution isn't coming.\n\nIt already happened and you missed half of it.",
+"likeCount": 115,
+"retweetCount": 51,
+"url": "https://x.com/sadhna6389/status/2108611631639130231",
+"createdAt": "Fri Oct 09 17:32:43 +0000 2026"
+},
+{
+"userName": "techluisenzo",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/mTMO9ATpfk — free research papers\n2. https://t.co/F2ObfhnlTV — papers when unpaywall misses\n3. https://t.co/odb7kUQIEh — borrow books\n4. https://t.co/dfSPy1M6vF — 70k+ free books\n5. https://t.co/Uq900cvKRZ — audit university courses free\n6. https://t.co/1IRfX7MFHE — step-by-step math\n7. https://t.co/2O9JmVIZST — background removal\n8. https://t.co/hNH5Se0VOn — object removal\n9. https://t.co/4MuSeeb5A0 — quick file tools\n10. https://t.co/9d9wVEJhvV — PDF merge/split\n11. https://t.co/30ebYJ5tn3 — free Photoshop alternative\n12. https://t.co/sX0Z1lHhN1 — image compression\n13. https://t.co/qHpZUOb8HO — fast diagrams\n14. https://t.co/LVrD9JzsA3 — beautiful code screenshots\n15. https://t.co/3Hfdj2QLLL — test regex\n16. https://t.co/V4ryoNUV1O — clean JSON\n17. https://t.co/P0gir8bVDj — terminal commands explained\n18. https://t.co/aUFVrxEFJu — software alternatives\n19. https://t.co/X1p4Aq8aVJ — breach check\n20. https://t.co/OoBKF9yZj6 — temp email\n21. https://t.co/wSF7LFPO2X — self-destruct notes\n22. https://t.co/YMUxywB4Vt — live global radio\n23. https://t.co/XI8y47T7Fk — focus sound\n24. https://t.co/D9R4oSxJKj — custom ambient\n25. https://t.co/QHFr7JMFuT — where to stream\n26. https://t.co/AzbY1vtGhh — digital library\n27. https://t.co/Pv2Lt3iEUC — old web pages\n28. https://t.co/8r0vqHnv1G — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/8bTs3Fu9MI — speed test\n31. https://t.co/eVfqTzXI7h — compress images\n32. https://t.co/QmKuAijgZG — file conversion\n33. https://t.co/cPTGBV0but — compare text\n34. https://t.co/qEgaaTwgBg — disposable inbox\n35. https://t.co/6Z5mTXRJgJ — JS obfuscate\n36. https://t.co/KrQGEk5Sbx — typing practice\n37. https://t.co/95vpb8ftPg — typing test\n38. https://t.co/ptFBAkuEir — spaced repetition\n39. https://t.co/nDzU8Vg5zi — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/o3d3CE5r8q — bookmark manager\n42. https://t.co/k3boO06OaK — task list\n43. https://t.co/CSwuDGYauz — boards\n44. https://t.co/LZAZjNDJ9A — whiteboard\n45. https://t.co/bg5H9LEL0O — design\n46. https://t.co/P729xcajHl — quick graphics\n47. https://t.co/2O9JmVIZST — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/z6d0DCdRp5 — video compress\n50. https://t.co/8BEDFNNo9Q — local file transfer",
+"likeCount": 4,
+"retweetCount": 2,
+"url": "https://x.com/techluisenzo/status/2108822601456066771",
+"createdAt": "Sat Oct 10 07:31:02 +0000 2026"
+},
+{
+"userName": "ArtificialAnlys",
+"text": "In human preference studies run by Harvey, human experts flagged hallucinations as a primary determining factor in which response they prefer out of two otherwise comprehensive answers. Our new hallucination grading pipeline focuses on errors that could materially affect real legal work, while taking a conservative approach to flagging them. It distinguishes unsupported task-specific claims from general legal knowledge and places the latter out of scope, so models are not penalized simply for drawing on case law or statutes beyond the source files.\n\nThe check has two stages, both using GPT-6 Sol (high). First, it compares every deliverable with the task’s source documents. A task with no usable submission scores zero and is not audited or included in the hallucinations-per-task calculation. A hallucination is a claim in the work product that the sources do not support, and each falls into one of three categories:\n\n- A contradiction of the source materials.\n- Fabricated source content.\n- A specific assertion with no support in the record.\n\nIt then re-checks each flag against that task’s source documents, dismisses flags that do not hold up, and classifies confirmed hallucinations as material or minor. A material hallucination is one that would mislead a reader on a substantive point. One material hallucination sets the task’s contribution to Hallucination-Gated All-Pass Rate to zero; minor hallucinations are reported separately and do not affect the score.\n\nRubric criteria are now graded by a three-judge panel of GPT-6 Sol, Grok 4.7 and Claude Opus 5.5, replacing v1.0's single judge. We are also running v1.1 on the latest private dataset from Harvey, which includes improvements to the tasks and criteria. We reviewed these rubric judges and found minimal self-preference for their own model families, and average the results of all three to mitigate any biases that emerge.",
+"likeCount": 35,
+"retweetCount": 1,
+"url": "https://x.com/ArtificialAnlys/status/2108264575602930097",
+"createdAt": "Thu Oct 08 18:33:39 +0000 2026"
+},
+{
+"userName": "arena",
+"text": "This Week in the Arena:\n\n- Nano Banana 2.1 ranked in the top 6 across three Image Arena modes: #4 (1431 pts) in Multi-Image Edit, #5 (1328 pts) in Text-to-Image, and #6 (1428 pts) in Image Edit.\n\n- Mistral Large 4 landed at #43 overall in Agent Arena (-6.6%), ranking 11 spots above its previous variant, Mistral Medium 3.5 (-12.60%). The result also places Mistral AI among the top 15 labs, and it's the only European lab on the list!\n\n- Claude Haiku 5.5 (High) also landed in the Code Arena: WebDev at #30 (1587 pts). Just off the Pareto frontier, it matches GPT‑6 Luna’s price at $0.10/$0.50 per 1M input/output tokens, while scoring six pts higher. Agent score coming soon!\n\n- We also introduced Arena’s Alignment Index, and announced a $200M Series B at a $3.1B valuation. Find more info in thread.\n\nSee the week’s leaderboards, research, and company updates in the full YouTube recap.\n\nhttps://t.co/tdyGELP0BD",
+"likeCount": 114,
+"retweetCount": 2,
+"url": "https://x.com/arena/status/2108568443037614515",
+"createdAt": "Fri Oct 09 14:41:06 +0000 2026"
+},
+{
+"userName": "ModelScope2022",
+"text": "Qwen-Image-2.1-Turbo is here, bringing image generation and editing down to just 8 denoising steps.\n🤖 https://t.co/RZY23T9Z64\n\n⚡ The accelerated checkpoint keeps the same 7B visual architecture while using a ready-to-run 8-step sampling schedule.\n🎨 Generate or edit images at the recommended 2048 resolution, with presets covering square, portrait, landscape, and widescreen formats.\n🧠 CFG=1 and prefix KV caching reuse text and reference-image context across denoising steps for more efficient inference.\n🛠️ Loads directly with QwenImage21Pipeline in Diffusers; the recommended scheduler configuration is bundled with the checkpoint.\n📜 Qwen Research License Agreement.",
+"likeCount": 84,
+"retweetCount": 9,
+"url": "https://x.com/ModelScope2022/status/2108551979463024918",
+"createdAt": "Fri Oct 09 13:35:41 +0000 2026"
+},
+{
+"userName": "junfanzhu98",
+"text": "@saturdayrobotic Reading Club #32 × @RoboticsCtr Dexterity Day\n@junfanzhu98 + @JerryHuang: 400+ registrations\n1️⃣ @wuji_global, the hardware contract.\n2️⃣ @RLWRLD_ai, the model contract.\n3️⃣ @DynaRobotics, the prior.\n4️⃣ @RoboticsCtr, measurement.\n@1X_tech https://t.co/B7Xyk4d1mj",
+"likeCount": 19,
+"retweetCount": 3,
+"url": "https://x.com/junfanzhu98/status/2106980180459929652",
+"createdAt": "Mon Oct 05 05:29:55 +0000 2026"
+},
+{
+"userName": "LiangZheng_06",
+"text": "We've released the slides for our ECCV'26 tutorial on diffusion model post-training. \n\n- Direct reward gradient backpropagation;\n- DPO;\n- GRPO; \n- Forward-process RL. \n\nhttps://t.co/BLq6EaAqJW\n\nHope it will be useful for the community.\n\n@scxue1999 @zinho_leung @jie_liu1",
+"likeCount": 341,
+"retweetCount": 48,
+"url": "https://x.com/LiangZheng_06/status/2107986518312993071",
+"createdAt": "Thu Oct 08 00:08:45 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @michellechen: we've got more 𝚌𝚕𝚎𝚏 for you:\n • new 𝚌𝚕𝚎𝚏-𝚘𝚖𝚗𝚒 - takes audio, video, image, and text\n • 𝚌𝚕𝚎𝚏-𝚏𝚕𝚊𝚜𝚑 is now cheaper than jev…",
+"likeCount": 710,
+"retweetCount": 86,
+"url": "https://x.com/ClementDelangue/status/2108656377745027526",
+"createdAt": "Fri Oct 09 20:30:32 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @QGallouedec: TRL v1.15 is out. Our biggest optimization ever.\n\nFused LM head, on by default:\n\n→ up to 82% less peak VRAM\n→ 7x longer se…",
+"likeCount": 76,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2108549930851635525",
+"createdAt": "Fri Oct 09 13:27:33 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @MiaAI_lab: Running GLM 5.3 Flash at 227 tok/s on DGX Sparks looks unreal to me. But here it is.\n\nThis is 4 concurrent streams, mixed. h…",
+"likeCount": 497,
+"retweetCount": 26,
+"url": "https://x.com/ClementDelangue/status/2108214791344988398",
+"createdAt": "Thu Oct 08 15:15:49 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @LeRobotHF: Training a robot to grasp an object means learning from many attempts, viewpoints and situations. One robot with three camer…",
+"likeCount": 112,
+"retweetCount": 16,
+"url": "https://x.com/ClementDelangue/status/2108611050790867047",
+"createdAt": "Fri Oct 09 17:30:25 +0000 2026"
+},
+{
+"userName": "xileak_",
+"text": "(heartwarming) guy doesn’t use generative ai, lies about drawing the old fashion way! melts the hearts of artists everywhere 💛",
+"likeCount": 18,
+"retweetCount": 0,
+"url": "https://x.com/xileak_/status/2106918626225967444",
+"createdAt": "Mon Oct 05 01:25:19 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @julien_c: and... new clef drop from cloudflare!\n\nhttps://t.co/gvb422RlpU",
+"likeCount": 233,
+"retweetCount": 20,
+"url": "https://x.com/ClementDelangue/status/2108652166000861361",
+"createdAt": "Fri Oct 09 20:13:47 +0000 2026"
+},
+{
+"userName": "maverickecom",
+"text": "How to use AI UGC to scale right now https://t.co/9Md2J9KXzA",
+"likeCount": 47,
+"retweetCount": 7,
+"url": "https://x.com/maverickecom/status/2108550394376814619",
+"createdAt": "Fri Oct 09 13:29:23 +0000 2026"
 }
 ]

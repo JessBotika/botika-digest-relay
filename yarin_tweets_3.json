@@ -1,122 +1,122 @@
 [
 {
-"userName": "WUFang40615703",
-"text": "🎉 Five papers accepted at NeurIPS 2026!\n\nExcited to share our work across protein design, RNA design and evaluation, efficient LLM agents, and multimodal safet\nHere’s what we explored 👇\n\n🧬 1 | Grounding protein generation in physics\n<Equivariant Force Field Calibration for Flow-based Protein Design>\n\nGenerative models can produce protein structures quickly—but physical plausibility remains a critical challenge.\n\nThis work combines differentiable force-field guidance with consistency-based training to calibrate flow models toward low-energy, sterically valid conformations. Across full-atom generation and peptide binder modeling, we improve physical plausibility and geometric stability while enabling sampling with very few steps.\n\n🧪 2 | Learning RNA design preferences from physical feedback\n<Pareto Preference Optimization for Structure- and Stability-Aware RNA Inverse Folding>\n\nRNA design requires satisfying several objectives together: structural fidelity, local accuracy, and thermodynamic stability. Optimizing one metric can create shortcuts that undermine the others.\n\nWe introduce RiboPO, a preference optimization framework that constructs preferences through Pareto comparisons, uses structural gates to guard against compositional reward hacking, and fine-tunes an RNA inverse-folding model using DPO.\n\n📄 Earlier preprint:\nhttps://t.co/vaCxwPzlid\n\n💻 Code (anonymous review repository):\nhttps://t.co/QGvWWAzJGt\n\n🔍 3 | Testing whether RNA design scores deserve our trust\n<Multi-Oracle Agreement Reveals the Limits of Self-Consistency Evaluation in RNA Design>\n\nWhat happens when the predictor used to optimize a sequence is also used to evaluate it? Across approximately 11,000 RNA designs, we find that 78.1% of designs from single-objective optimization pass one predictor yet fail another. Ensemble-based methods reduce this disagreement substantially.\n\nWe introduce ACCORD, an evaluation workflow that combines independent predictors and calibrates their disagreement against experimental chemical-mapping data.\n\n📄 Paper:\nhttps://t.co/9aaIHcUNnj\n\n💻 Code (anonymous review repository):\nhttps://t.co/ABGhHfbEMd\n\n⚡ 4 | Making LLM agents more efficient by changing how they act\n<Latent Action Reparameterization for Efficient Agent Inference>\n\nAgent inference cost depends on both the cost of each decision and the number of decisions required.\n\nLAR learns compact, executable latent actions from recurring patterns in agent trajectories. This shortens the effective decision horizon, reducing action tokens and inference time while maintaining or improving task success across the evaluated benchmarks.\n\n📄 Paper:\nhttps://t.co/UneHr0ue8q\n💻 Code:\nhttps://t.co/Oq6qq9jxH6\n\n🛡️ 5 | Understanding the safety implications of thinking with images\n<When Think-with-Image Meets Safety: What Determines Multimodal Jailbreak Robustness?>\n\nAs vision-language models increasingly reason through visual operations and external tools, their inference pipelines become part of the safety question.\n\nAcross the evaluated models, explicit image-tool interaction reduces jailbreak success by around 30% relative on average. Representation analyses and activation interventions support an account in which tool invocation shifts hidden states toward a safety-relevant direction.\n\n📄 Paper:\nhttps://t.co/bCsVQQIS5E\n\nHuge thanks to my coauthors, advisors, and collaborators for making this work possible!\n#NeurIPS2026 #AIforScience #ProteinDesign #RNADesign #LLMAgents",
-"likeCount": 30,
-"retweetCount": 5,
-"url": "https://x.com/WUFang40615703/status/2106055866676101126",
-"createdAt": "Fri Oct 02 16:17:01 +0000 2026"
+"userName": "OwenGregorian",
+"text": "Our minds aren’t equipped to handle AI | Benjamin Riley, The Verge\n\nAI is junk food for the mind: easy, tempting and ultimately very bad for you.\n\nNorbert Wiener, godfather of cybernetics, once said, “The thought of every age is reflected in its technique.” For the past century, our thought has been reflected in our computers, including by those in the AI industry. Google’s Demis Hassabis calls the brain “a biological approximation to a Turing machine.” Elon Musk puts it more bluntly, declaring that “people should just think of the brain as a biological computer.” (Musk’s brain often worries me.)\n\nBut humans are more complex than a straightforward comparison to computers gives us credit for — and far more than most of the AI industry seems to appreciate. And as their products push ever deeper into culture, this helps explain why they’re making such a mess. AI, it turns out, is something like a cognitive version of a hot dog: It appeals to us in the moment, but undermines the health and sustainability of cognitive systems we’ve evolved over several millennia.\n\nTo understand the problem, we’ll need a little neuroscience and the entirety of human evolutionary history.\n\nThe idea that brains are computers traces back to Alan Turing. It posits thought as a three-step process, functionally an algorithm: Our minds take in information from the world (input), manipulate it in some fashion (computation), and then enact behavior (output). Perception leads to cognition, which in turn leads to action. In slightly more elaborate terms, it looks something like this chart:\n\nIn many ways, this model has been productive. Imagining our brains as computers, technologists have pushed actual computing from simple adding machines to artificial neural networks and generative AI, seeking ever more detailed mirrors of our own minds.\n\nBut this mirror’s image, while not exactly wrong, is warped and limited. John von Neumann, a seminal figure in developing computers and computer science, doubted that the computational model could possibly capture the “exceptional complexity of the human nervous system.” That is, our nervous systems evolved to help us navigate the large ecological system that we call “the world.” And we act upon the world to exercise control over it (as best we can).\n\nThe computational approach looks at the end product of our minds and tries to “reverse engineer” how they function. But instead of working backward, we might instead examine the long arc of evolutionary history to build our model from the ground up. This is the approach favored by Paul Cisek, a neuroscientist at the University of Montreal, who’s patiently developed a biological model of brain and nervous system development spanning millions of years.\n\nCisek contends that rather than information processors, our brains are better understood as feedback-control systems. Our bodies don’t just receive input, they take action to adjust what that input is, contingent on what options are available. As Cisek himself is quick to note, this is not a new idea — writing at the turn of the 20th century, philosopher John Dewey described the mind as a circuit, “more truly termed organic than reflex, because the motor response determines the stimulus, just as truly as sensory stimulus determines movement.”\n\nWhat exactly is the difference between the two approaches?\n\nHere’s a classic example from baseball: catching a fly ball in the outfield. According to the computational model, solving this problem must involve some complicated and subconscious mental calculus wherein the outfielder estimates the ball’s velocity, calculates the effect of gravity, and undertakes untold other mathematical procedures to “compute” where the ball will go.\n\nIn contrast, the feedback-control approach suggests a simple heuristic — essentially, “keep the ball in the same position within your visual field, and then move to maintain that situation.” We take action to adjust the stimulus we receive.\n\nThis is not only more true to the experiences of anyone who’s played center field, it also avoids separating out the mental process from physical movement, and avoids invoking the use of complex calculations that the computational model requires. Humans are more dynamic than that. .\n\nThis approach also neatly maps to the biological architecture of brains as they’ve evolved over time. From ancient fish to amphibians to mammals to primates and eventually modern humans, what we observe is that new behaviors emerge in response to new environmental possibilities. When dinosaurs died off, for example, this meant some nocturnal creatures could move about the world in the daytime with less risk of being eaten, giving rise to a variety of new capacities. The history of our nervous system, Cisek observes, is one of “continuous extension of control further and further into the world.” (His forthcoming book will explore all this in greater detail, and yes, I’m hoping this essay puts subtle pressure on him to finish it.)\n\nThis leads to an alternative and very different diagram than the one above. We can both lay out a map of behaviors and abilities as they emerged over time and we can overlay the specific physical components of the brain to these capabilities, like so:\n\nInstead of moving from left to right as in the computational model, this model should be seen as unfolding from top to bottom over evolutionary time. For example, a long time ago, as vertebrate animals developed more mobility, it became useful to have specialized systems for exploration — by using landmarks, say, or navigating at night. This led to the development of what we now call the hippocampus. Importantly, this also led our ancestors to remember important moments of scurrying from one spot to another, leading to the development of “episodic memory” of past experiences.\n\nWe can’t do anything remotely like this with the computational model of the mind; it simply does not sync up to observable neuroscientific structures. What’s more, it obscures that so much of what brains are doing involves controlling living organisms’ interactions within their environments. As such, Cisek suggests we need to dramatically shift the paradigm we’re using to understand the relationship between our brains and behavior, moving away from algorithmic input-outputs and toward more dynamic feedback systems.\n\nThus far, our story of human development has largely centered on feedback from the physical world. But one of humanity’s most important “feedback loops” arises from our profoundly social dispositions. The computational model, it turns out, doesn’t account for this well either — and neither does the AI industry. We’ve spent thousands of years building institutions and norms for learning from and communicating with each other, and over the course of less than a decade, Big Tech companies have systematically worked to dismantle them.\n\nHow? Again, we’ll need some historical context.\n\nAt some point around many hundreds of thousands of years ago, our distant ancestors did something incredible: They learned to imitate each other. Mimicking gestures and body movements allowed us to pass along successful practices — like chipping away at a stone tool — and coordinate more complex activities through shared ritualistic behaviors, which in turn shaped our cognition. It was the dawn of human culture.\n\nWe’ve spent thousands of years building institutions and norms for learning from and communicating with each other, and Big Tech companies are systematically working to dismantle them\n\nHumans soon progressed to imitating sounds and, in turn, to oral language. As we’ve covered previously, language is not the same as thought, but it enables us to communicate our thoughts to each other. At some point, our wandering hunter-gatherer ancestors also started to settle down into non-transient communities, developing complex agricultural practices that allowed us to cultivate food rather than migrating to find it.\n\nFinally, we started to use written marks to represent our spoken languages and other abstract ideas. We became capable of transmitting complex ideas across generations. Formal education, a process of ensuring knowledge is shared among a human group, emerged not long after. And so too in time did practices and institutions that collectivized human decision-making, such as “markets” and “law” and “democracy.”\n\nEach claim I’ve just made is contestable, and cries out for far more detail than I can provide here. But this process is continuous with our biological evolution, in the sense that both foster an ever broader range of control over the world around us.\n\nAnd sometimes this cultural change creates unintended consequences that hurt instead of help.\n\nHuman diets are perhaps the most obvious example. In our hunter-gatherer days, fatty foods were rare but precious to aid survival — just watch Alone if you doubt this — and we evolved to seek them out and store them in our bodies once found. But then we culturally developed the practice of farming and other agricultural techniques that, give or take 10,000 years, have made fatty foods plentiful today — if you want a hot dog, there’s plenty available.\n\nAI clogs up our capacity to develop the knowledge we need to navigate the world\n\nAnd that’s the problem. Hot dogs are a danger to our physical bodies, clogging our arteries with excessive fat we no longer need to store internally. AI poses a similar sort of danger to our cognitive capabilities, by clogging our capacity to develop the knowledge we need – in our heads – to navigate the world. It’s a cognitive hot dog.\n\nThe occasional hot dog won’t harm anyone, but it sure will if it becomes a regular meal at lunch or dinner. The same is true for AI — the harm is not from its occasional use, but making it part of our mental diet.\n\nYet that is exactly what Big Tech hyperscalers are trying to do.\n\nIn a July 2025 podcast about “how AI is transforming education,” OpenAI VP of education Leah Belsky boasted that “learners” made up more than half of the 900 million average monthly users of ChatGPT. The service was “the world’s largest learning platform,” she said. More recently, Anthropic announced a new initiative called “Claude for Teachers,” providing free access to premium models to practicing classroom educators.\n\nThese efforts will not benefit students, nor teachers. In fact, it’s the most obvious example of how AI weakens systems that we rely on to develop our cognition, for the benefit of convenience.\n\nFrançois Chollet, formerly a software engineer at Google, has memorably described AI as a tool of “cognitive automation,” which he defines as “encoding human abstractions in a piece of software, then using that software to automate tasks normally performed by humans.” Last year, an interdisciplinary group of scholars argued persuasively that we should view generative AI in the form of large language models not “primarily as intelligent agents, but as a new kind of cultural and social technology, allowing humans to take advantage of information other humans have accumulated” (emphasis added).\n\nAI enthusiasts have made no shortage of predictions about the advantages of this, and they’ve largely dismissed the disadvantages as comparable to previous forms of automation, such as computers, calculators, and even the written word. (I’ve had citations to Plato’s alleged opposition to writing thrown at me so many times I’ve addressed them in a separate piece — he was a writer!)\n\nNever before have we developed and broadly deployed something so explicitly intended to supplant human thinking\n\nWhatever the effects of these earlier technologies, never before have we developed and broadly deployed something so explicitly intended to supplant human thinking — that’s what AI evangelists themselves argue.\n\nLook at education. ChatGPT may be the world’s largest learning platform, but students are using it en masse to avoid the effortful thinking that’s necessary to build their durable knowledge. Evidence continues to mount demonstrating the negative impact of AI tools within education settings (and Gen Z generally hates it). A recent study from China revealed that thousands of students essentially stopped doing their homework once they started using AI (which substantially harmed their learning). There’s even evidence that when students use large language models for supposed learning purposes, they become habituated to relaxing their judgment and critical thinking in other contexts.\n\nNo other species’ brain and body develops over such an extended period as ours, and historically, we’ve complemented that with unique cultural institutions that transmit knowledge from one generation to the next. We should be zealously protective of this uniquely human endeavor, yet instead many university and school administrators, to say nothing of the Big Tech hyperscalers, are engaged in full-throated efforts to push AI as deep and as fast as they can into our education ecosystems.\n\nIf we only see the mind as a computer, AI might seem advantageous to learning — this is why many dream of building AI tutors. But already such efforts are failing, because our minds are more than just input-output devices. They exist, or rather we exist, within a broader cognitive ecosystem where we must make choices about how we choose to expend our cognitive energy. We do so to extend our agency, our control — however limited it may be — over our world.\n\nIf we only see the mind as a computer, AI might seem advantageous to learning — but this model is wrong\n\nBut this poses a challenge. Effortful thinking is hard, and if we’re offered technological off-ramps, we’ll take them — what some researchers recently called cognitive delegation. As cognitive delegation spreads, they warn, “the social environment that supports autonomous reasoning can weaken” — and as it does, such delegation “becomes still easier and more attractive.”\n\nThe researchers recommend a program of cognitive immunization from AI, one that preserves “the practices and institutions that keep human cognition active: unaided problem solving, verification, critical discussion, [and] periods of deliberate disengagement” from AI usage.\n\nWe call such institutions “schools.”\n\nPolicy levers will need to be pulled as well. I find it very interesting that Norway recently banned essentially all uses of AI in school for students under the age of 13. In the US, a major teachers’ union has likewise called for prohibiting chatbots in elementary schools, and major school districts such as Los Angeles and New York City have recently implemented bans as well. (Disclosure: I’ve provided informal advice to Schools Beyond Screens, an organization that pushed for these bans.) They won’t be the last to do so, or so I hope.\n\nThe good news, if it can be called that, is that resistance is growing — perhaps you’ve seen the many videos of college graduates booing commencement speakers praising AI? That’s no doubt in part due to job concerns, but I suspect many recognize the harm that AI has inflicted on their own cognitive development. Certainly, this is true for the students at the Oberlin Luddite Club, who wrote an open letter to their university president criticizing that institution’s embrace of AI: “As you embark on your year of AI, we’ll embark on our own year of self-actualization — of realizing the fruits of our labor, and of embracing human imperfection and raw inquiry.” Right on.\n\nThe control systems in our brains are the product of millions of years of biological evolution and several millennia of cultural evolution. We need to pull up from the computational model of the mind to see the full picture of what makes us human, and to appreciate our profoundly social nature, the driver of human culture. We have shown remarkable resiliency as a species, but gorging on cognitive hot dogs isn’t good for any of us.\n\nEat healthy, and think healthy.\n\nhttps://t.co/T5seMdAcZX",
+"likeCount": 10,
+"retweetCount": 0,
+"url": "https://x.com/OwenGregorian/status/2108549062525866101",
+"createdAt": "Fri Oct 09 13:24:06 +0000 2026"
 },
 {
-"userName": "The_techAI",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/cr8PmdXzQ3 — free research papers\n2. https://t.co/u1Y4OQzofE — papers when unpaywall misses\n3. https://t.co/AMiFzHhpIM — borrow books\n4. https://t.co/hSlNyaVFy2 — 70k+ free books\n5. https://t.co/TF13aVtirR — audit university courses free\n6. https://t.co/Q2f6XIBALL — step-by-step math\n7. https://t.co/BA6QostDUE — background removal\n8. https://t.co/ydt51BpHqu — object removal\n9. https://t.co/Vw3lkNr98m — quick file tools\n10. https://t.co/wM6uNsrmeS — PDF merge/split\n11. https://t.co/Jpupdx9qmB — free Photoshop alternative\n12. https://t.co/ekQAaVrz4o — image compression\n13. https://t.co/9Sct0vy4xG — fast diagrams\n14. https://t.co/Z3clM9gj1I — beautiful code screenshots\n15. https://t.co/ZHNm8UtTwg — test regex\n16. https://t.co/NmJPmKVLbS — clean JSON\n17. https://t.co/TXTGrbnSVV — terminal commands explained\n18. https://t.co/Fp4DfBwP53 — software alternatives\n19. https://t.co/GFZpP7IK0s — breach check\n20. https://t.co/ttAdldHv9q — temp email\n21. https://t.co/o8EpsLG8LA — self-destruct notes\n22. https://t.co/odr3ZJ78lF — live global radio\n23. https://t.co/Co1DivGStz — focus sound\n24. https://t.co/v6BDQ5YkCW — custom ambient\n25. https://t.co/ghTsTt0LM5 — where to stream\n26. https://t.co/7o82rjIOvw — digital library\n27. https://t.co/65Zriz1VQ9 — old web pages\n28. https://t.co/d7bpsRDuZE — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/bJOSaEgehr — speed test\n31. https://t.co/YqJNi8gdJC — compress images\n32. https://t.co/hin3e40dIA — file conversion\n33. https://t.co/AmhFummB77 — compare text\n34. https://t.co/zT8moYe9Tg — disposable inbox\n35. https://t.co/NHxVRFXhpQ — JS obfuscate\n36. https://t.co/Oy5YoomuVb — typing practice\n37. https://t.co/Sj8KlIeTnT — typing test\n38. https://t.co/uRa33xAC0I — spaced repetition\n39. https://t.co/GArJhJF9Vv — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/2O3e3sNetO — bookmark manager\n42. https://t.co/f4zSErNFBF — task list\n43. https://t.co/viUEdYgWad — boards\n44. https://t.co/3ffAd1B7wU — whiteboard\n45. https://t.co/Eck5egOndx — design\n46. https://t.co/PQIRy3PfB4 — quick graphics\n47. https://t.co/BA6QostDUE — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/UXBTNgdpnw — video compress\n50. https://t.co/evkkoH9QnC — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @The_techAI for more useful websites, AI tools & tech resources.",
-"likeCount": 82,
-"retweetCount": 44,
-"url": "https://x.com/The_techAI/status/2108372627882680572",
-"createdAt": "Fri Oct 09 01:43:00 +0000 2026"
+"userName": "Zen_with_AI",
+"text": "第1003期 小路和你读AI论文。今日4篇高质量论文。\n\n1. 𝗙𝗶𝗻𝗲𝘁𝘂𝗻𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗦𝗮𝗺𝗽𝗹𝗶𝗻𝗴: 𝗦𝗙𝗧 𝗟𝗲𝗮𝗿𝗻𝘀 𝗕𝗲𝘁𝘁𝗲𝗿 𝗧𝗵𝗮𝗻 𝗬𝗼𝘂 𝗧𝗵𝗶𝗻𝗸（《带采样的微调：SFT 比你想的更会学》）\n\n链接：https://t.co/QXVXbqz5hu\n\n作者背景：Aayush Karan, Sitan Chen, Yilun Du, Harvard\n\n不改损失，用 MCMC 把离策略专家轨迹逐步改写成更接近参考模型的在策略分布，SFT 在泛化与遗忘上就能比肩强在策略后训练。实验覆盖科学技能、数学推理和开放式专长。采样本身可以当作后训练原语，这会动摇\"保能力必须上 RL\"的默认做法，做后训练的人值得细看。\n\n2. 𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝘁𝗵𝗲 𝗥𝗶𝗴𝗵𝘁 𝗙𝗶𝘁: 𝗠𝗼𝗱𝗲𝗹-𝗛𝗮𝗿𝗻𝗲𝘀𝘀 𝗜𝗻𝘁𝗲𝗿𝗮𝗰𝘁𝗶𝗼𝗻𝘀 𝗮𝗰𝗿𝗼𝘀𝘀 𝗔𝗴𝗲𝗻𝘁 𝗧𝗮𝘀𝗸𝘀（《找到合适的搭配：跨 Agent 任务的模型与 Harness 交互》）\n\n链接：https://t.co/txmUWsp8E5\n\n作者背景：Yixuan Li, Bo An 等\n\n模型、harness 与任务必须放在一起评，强模型和厂商自有脚手架都不会稳定领先。66 组配置横跨 OpenHands、DeepSeek Harness、PI、openJiuwen 与三项命令行 agent 基准。Terminal-Bench 4 上，Claude 在 OpenHands 中领先 GPT 7.94 分，在 PI 中落后 30.16 分，五个模型里有四个的最优 harness 随基准改变。作者发布了适配器、评测代码和 6,204 条轨迹，部署 agent 的人可以直接拿来做选型证据。\n\n3. 𝗛𝗶𝗲𝗿𝗮𝗿𝗰𝗵𝗶𝗰𝗮𝗹 𝗖𝗼𝗻𝘁𝗶𝗻𝘂𝗼𝘂𝘀 𝗗𝗶𝗳𝗳𝘂𝘀𝗶𝗼𝗻 𝗟𝗮𝗻𝗴𝘂𝗮𝗴𝗲 𝗠𝗼𝗱𝗲𝗹𝘀（《分层连续扩散语言模型》）\n\n链接：https://t.co/dC0fv3j4PU\n\n作者背景：Alexander Schwing（UIUC）等\n\n让连续潜变量成为唯一持续生成状态，token 每步读出并回馈，以缓解离散扩散并行解码时的独立采样断裂。训练目标来自 token 似然的变分界，同规模下在 Sudoku、Countdown 和 LM1B 上优于离散与连续扩散基线。做扩散语言模型的人可以看看它是否真正保住了并行解码中的 token 依赖。\n\n4. 𝗘𝘃𝗲𝗿𝘆 𝗔𝗯𝗹𝗮𝘁𝗶𝗼𝗻 𝗜𝘀 𝗮 𝗗𝗼𝘀𝗲: 𝗖𝗼𝘂𝗻𝘁𝗲𝗿𝘄𝗲𝗶𝗴𝗵𝘁𝘀 𝗮𝗻𝗱 𝘁𝗵𝗲 𝗦𝗲𝗺𝗯𝗹𝗮𝗻𝗰𝗲 𝗼𝗳 𝗦𝗲𝗹𝗳-𝗥𝗲𝗽𝗮𝗶𝗿（《每次消融都是一剂药：反权重与\"自修复\"的假象》）\n\n链接：https://t.co/IzLv2zqidD\n\n消融后看似补偿的响应，多半来自干预前就存在的反权重，它们随对比强度作仿射响应，与临时自我修复无关。在事实判决任务上，Gemma、Qwen、LLaMA、Mistral 的 81 个下游方向中有 68 个服从该仿射律。GPT-2 Small 的 IOI 电路里，干预能触及的 10 个头有 7 个符合，且全是反权重，斜率还能由固定权重预先估计。做机制可解释性的人可以拿它校准对自修复的判断。",
+"likeCount": 22,
+"retweetCount": 7,
+"url": "https://x.com/Zen_with_AI/status/2106405977683886310",
+"createdAt": "Sat Oct 03 15:28:14 +0000 2026"
 },
 {
 "userName": "AIHighlight",
 "text": "50 AI tools and platforms that could save you hours of work every week in 2026.\n\n1. ChatGPT — Brainstorm and solve problems\n2. CapCut — Edit videos faster\n3. Perplexity — Research with cited sources\n4. The AI Library — Discover and compare useful AI tools\n5. Gamma — Create presentations in minutes\n6. ElevenLabs — Generate realistic AI voices\n7. Cursor — Write and debug code\n8. PortfolioTab — Showcase your work and get discovered by clients\n9. Canva — Design graphics and social posts\n10. NotebookLM — Analyze documents and research\n11. HeyGen — Create AI avatar videos\n12. Zapier — Automate repetitive tasks\n13. Midjourney — Generate stunning AI images\n14. Lovable — Build apps without coding\n15. Otter. ai — Transcribe meetings\n16. Tripo AI — Generate 3D models\n17. DeepL — Translate text accurately\n18. Runway — Generate and edit AI videos\n19. Figma AI — Speed up UI/UX design\n20. YouLearn — Learn from videos and PDFs\n21. Replit — Build and deploy apps online\n22. Fireflies. ai — Record and summarize meetings\n23. Suno — Create music with AI\n24. Claude — Write, analyze, and solve problems\n25. Framer AI — Design and publish websites\n26. Pika — Turn ideas into AI videos\n27. Granola — Turn conversations into meeting notes\n28. Make — Automate workflows across apps\n29. Ideogram — Generate images with readable text\n30. Synthesia — Create AI presenter videos\n31. Bolt. new — Build full-stack applications\n32. Podcastle — Record and edit podcasts\n33. Luma AI — Generate cinematic AI videos\n34. Wispr Flow — Turn speech into text\n35. Kling AI — Create realistic AI videos\n36. Notion AI — Write and organize your workspace\n37. Remove.vbg — Remove image backgrounds\n38. Genspark — Research and complete complex tasks\n39. Poe — Access multiple AI models\n40. Photoroom — Create professional product photos\n41. Gemini — Write, research, and analyze information\n42. Tally — Build forms without coding\n43. Leonardo AI — Generate artwork and game assets\n44. Manus — Delegate tasks to an AI agent\n45. n8n — Build advanced automations\n46. Udio — Generate original music\n47. Elicit — Find and summarize research papers\n48. SciSpace — Understand academic research\n49. Grok — Explore news and trending topics\n50. Windsurf — Build software with AI assistance\n\nYou don't need all 50. Find the ones that solve your biggest problems.\n\nBookmark this list for later.",
-"likeCount": 20,
-"retweetCount": 14,
+"likeCount": 138,
+"retweetCount": 70,
 "url": "https://x.com/AIHighlight/status/2108454638173241507",
 "createdAt": "Fri Oct 09 07:08:53 +0000 2026"
 },
 {
-"userName": "LiangZheng_06",
-"text": "We've released the slides for our ECCV'26 tutorial on diffusion model post-training. \n\n- Direct reward gradient backpropagation;\n- DPO;\n- GRPO; \n- Forward-process RL. \n\nhttps://t.co/BLq6EaAqJW\n\nHope it will be useful for the community.\n\n@scxue1999 @zinho_leung @jie_liu1",
-"likeCount": 299,
+"userName": "bazdn0503",
+"text": "Why I believe it’s still early in Coinsilium’s next chapter. 🟠🟡\n\nCoinsilium has built exposure across several developing areas of crypto and AI. Each offers something different:\n\n🟡 Yellow Network — $YELLOW\nInfrastructure for clearing and settling transactions across blockchains. Coinsilium has an allocation of 50 million tokens, subject to vesting. Yellow entered live operation in March 2026.\n\n🤖 Otomato\nDeFi portfolio monitoring, intelligence and automation, helping users understand positions across different protocols. Coinsilium holds approximately 1.25% of developer Dyment Labs, plus a token warrant.\n\n🔎 Predictive Labs / Nijinn\nBrings prediction-market data together into an intelligence platform for professionals, developers and AI agents. Coinsilium’s reported investment reached US$450,000, representing approximately 14.91%.\n\n🎨 BeatingHeart\nDeveloping generative AI tools for advertising images and video, initially targeting fashion, beauty and lifestyle brands. Coinsilium agreed a convertible loan facility of up to US$250,000 alongside strategic advisory support.\n\n₿ Forza — Bitcoin exposure through $BTC\nCoinsilium’s wholly owned subsidiary manages its strategic Bitcoin treasury.\n\nFor me, “early days” means these ventures still have opportunities to develop products, attract users and build commercial revenues. Their success—and the value ultimately reaching Coinsilium shareholders—depends on execution.\n\nThat’s the longer-term story I’m watching.\n\n🇬🇧 $COIN.AQ | 🇺🇸 $CINGF\n$YELLOW $BTC\n@CoinsiliumGroup\n#Coinsilium #Otomato #Nijinn #AI #Web3\n@BTCtreasuries",
+"likeCount": 23,
+"retweetCount": 9,
+"url": "https://x.com/bazdn0503/status/2107046501893468461",
+"createdAt": "Mon Oct 05 09:53:27 +0000 2026"
+},
+{
+"userName": "qingke_ai",
+"text": "几乎所有 reward model 都在做同一个简化：把人类偏好压成一个分数。\n\n但真实的人类反馈往往不是一个点——同一个回答，不同人可以给出不同、甚至互相冲突的判断。把多峰偏好硬压成标量，模型学到的只是\"平均值\"，而不是\"人们到底怎么想\"。\n\n清华 THUNLP 的新工作 DRM（Diffusion Reward Model）换了个问法：能不能让奖励模型学人类偏好的分布？\n\n做法很干净——把 reward modeling 重新表述为对 p(r | x, y) 的条件密度估计：在冻结的 LLM encoder 之上，用轻量 Diffusion Transformer 从高斯噪声去噪出奖励向量。不对输出分布做任何参数假设，多峰结构自然被表示出来。\n一个架构同时吃多属性回归和成对偏好数据；推理时采 N 个样本就是经验奖励分布，可以聚合成标量、方差或分位数。\n\n结果（五个基准）： • 在数据与 backbone 对齐下不弱于基线 • 训练规模相对小，仍能与大得多的判别式 / 分布式 / 生成式 RM 抗衡 • 常规 head 把分布坍缩成一个点时，它能恢复出多峰结构\n\n更实用的是下游：用不确定性做拒绝采样、用 LCB 聚合——而且直接拿 DRM 当 RLHF 训练时的 reward，策略表现更好。这就不只是\"更细的评估指标\"，而是能直接改善训练。\n\n一句话：奖励不该是一个点，而是一个分布。\n\nvia @HBX_hbx\n\n#RLHF #RewardModel #扩散模型 #PostTraining",
+"likeCount": 33,
+"retweetCount": 4,
+"url": "https://x.com/qingke_ai/status/2106468141119484007",
+"createdAt": "Sat Oct 03 19:35:15 +0000 2026"
+},
+{
+"userName": "alexa_griffith_",
+"text": "My friend Phoebe is building Elysium Intelligence - a professional fashion model movement and garment behavior data company for AI. She's looking for generative video teams, digital twins + avatar companies, and virtual try-on platforms to pilot the data / test against failure cases. If you're building in this space please email phoebe@joinelysium.ai\n\nhttps://t.co/aiwT7wA4sT",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/alexa_griffith_/status/2107140437538398717",
+"createdAt": "Mon Oct 05 16:06:43 +0000 2026"
+},
+{
+"userName": "aibabbler",
+"text": "Here’s how XiVVe was made: each look started as a Seedance 2.5 generation, then Hedra’s MCP let me pull everything into Claude to build, grade and finish the film without leaving the chat. Want to try AI fashion filmmaking yourself? Start with Hedra here: https://t.co/qIR0e2S7KE https://t.co/Td1eNDnAqD",
+"likeCount": 6,
+"retweetCount": 0,
+"url": "https://x.com/aibabbler/status/2108535423828197850",
+"createdAt": "Fri Oct 09 12:29:54 +0000 2026"
+},
+{
+"userName": "spencerclarkdev",
+"text": "LangChain told me three times that my model didn't exist. The request on the wire was POST /chat/completions, a 404, with no /v1 in the path.\n\nVessel is the local proxy I built to show me that layer: what my agents actually send. How it works: https://t.co/XKkbAmYnRt",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/spencerclarkdev/status/2108678233709228237",
+"createdAt": "Fri Oct 09 21:57:22 +0000 2026"
+},
+{
+"userName": "ChungMinKim",
+"text": "...and it even works on images! Treating text-to-image generation as a one-step RL problem, with a reward model as the critic, QF3 finetunes Stable Diffusion 3.5 on PickScore below https://t.co/fZaogJ1KQD",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/ChungMinKim/status/2107542347311644922",
+"createdAt": "Tue Oct 06 18:43:46 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @LysandreJik: TRL v1.15 is out, and it’s an absolute banger of a release for memory-efficient post-training.\n\nThe main change: SFT, DPO,…",
+"likeCount": 61,
+"retweetCount": 16,
+"url": "https://x.com/ClementDelangue/status/2108609998423232678",
+"createdAt": "Fri Oct 09 17:26:14 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @cgeorgiaw: Today, we're releasing the Carbon Annotation Database and the model behind it, Carbon-A. \n\nWe've used this model to discover…",
+"likeCount": 315,
+"retweetCount": 55,
+"url": "https://x.com/ClementDelangue/status/2108224367574560921",
+"createdAt": "Thu Oct 08 15:53:52 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @RemiFabreRobot: I finally have a Microduck again, so I was able to replay the emotions and compare simulation with the physical robot.…",
+"likeCount": 214,
+"retweetCount": 20,
+"url": "https://x.com/ClementDelangue/status/2108608028140282064",
+"createdAt": "Fri Oct 09 17:18:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @adithya_s_k: OpenAI math problems are now open source RL environments https://t.co/BQWhZPRGVr",
+"likeCount": 505,
 "retweetCount": 41,
-"url": "https://x.com/LiangZheng_06/status/2107986518312993071",
-"createdAt": "Thu Oct 08 00:08:45 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2108611096533716992",
+"createdAt": "Fri Oct 09 17:30:36 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Super excited about this and I know weights are coming (https://t.co/svhuNNJHnZ) but just to be fair, you can't be the best open-weight model if you're not open-weight yet!",
-"likeCount": 540,
-"retweetCount": 33,
-"url": "https://x.com/ClementDelangue/status/2107525319012090301",
-"createdAt": "Tue Oct 06 17:36:06 +0000 2026"
+"text": "RT @npinto: #1 on HackerOne :-) https://t.co/9H6i0EVv8M",
+"likeCount": 271,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2108279754327552008",
+"createdAt": "Thu Oct 08 19:33:58 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @CommandCodeAI: Introducing Agr, an open decision model by Command Code.\n\n· Agr (31B) and Agr-flash (360M)\n· 58.15 on Decision Index 0.2…",
-"likeCount": 459,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2107179925551682010",
-"createdAt": "Mon Oct 05 18:43:38 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @lucataco: You can now run Clef via llama.cpp!\n\nllama serve -hf ggml-org/Clef-GGUF\n\nOllama vs llama.cpp speed test on my M5 Max MBP: htt…",
-"likeCount": 102,
-"retweetCount": 20,
-"url": "https://x.com/ClementDelangue/status/2107432544161464597",
-"createdAt": "Tue Oct 06 11:27:27 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MiaAI_lab: Running GLM 5.3 Flash at 227 tok/s on DGX Sparks looks unreal to me. But here it is.\n\nThis is 4 concurrent streams, mixed. h…",
-"likeCount": 437,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2108214791344988398",
-"createdAt": "Thu Oct 08 15:15:49 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @ben_burtenshaw: RL environments now have a home on the @huggingface  Hub.\n\nEvery RL framework has its own way to find environments. Cus…",
-"likeCount": 136,
-"retweetCount": 23,
-"url": "https://x.com/ClementDelangue/status/2107130352095674401",
-"createdAt": "Mon Oct 05 15:26:39 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @matth_lapeyre: Microduck got its new brain!\n\nOur first fully custom SBC in a Pollen robot! It replaces the Radxa + board sandwich from…",
-"likeCount": 398,
-"retweetCount": 44,
-"url": "https://x.com/ClementDelangue/status/2107640072094765566",
-"createdAt": "Wed Oct 07 01:12:05 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Weyaxi: We're releasing TermGrade at @aiand_: high-quality RL environments for terminal agents, fully open source, along with the full…",
-"likeCount": 236,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2108271500839330067",
-"createdAt": "Thu Oct 08 19:01:10 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @XciD_: no config. no key. nothing\nchat with open models, zero setup\nssh https://t.co/xvINX5qMn9 https://t.co/8PBP6yi1n2",
-"likeCount": 64,
-"retweetCount": 17,
-"url": "https://x.com/ClementDelangue/status/2108206893101437182",
-"createdAt": "Thu Oct 08 14:44:26 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Is there anything Reachy mini can’t do? https://t.co/eh0SdAUmWR",
-"likeCount": 197,
-"retweetCount": 20,
-"url": "https://x.com/ClementDelangue/status/2108212272317288746",
-"createdAt": "Thu Oct 08 15:05:49 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Let's go https://t.co/LXil50Sr25! https://t.co/XIonqvZWoC",
-"likeCount": 720,
-"retweetCount": 53,
-"url": "https://x.com/ClementDelangue/status/2107194915130356213",
-"createdAt": "Mon Oct 05 19:43:12 +0000 2026"
-},
-{
-"userName": "Ambani_Wessley",
-"text": "https://t.co/hvLORRuYLx",
-"likeCount": 34,
-"retweetCount": 34,
-"url": "https://x.com/Ambani_Wessley/status/2108314590111027481",
-"createdAt": "Thu Oct 08 21:52:23 +0000 2026"
+"userName": "thecondia",
+"text": "https://t.co/2kmLzguARG",
+"likeCount": 3,
+"retweetCount": 3,
+"url": "https://x.com/thecondia/status/2108533307579224466",
+"createdAt": "Fri Oct 09 12:21:29 +0000 2026"
 }
 ]
