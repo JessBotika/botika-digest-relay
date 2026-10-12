@@ -8,115 +8,123 @@
 "createdAt": "Fri Oct 09 13:24:06 +0000 2026"
 },
 {
-"userName": "Forget_x0",
-"text": "One of the reasons I’m paying attention to Axis Robotics is its focus on a problem that can be easy to overlook when discussing AI. Physical AI needs data from the physical world.\n\nMost AI discussion centers on models, compute, algorithms, or internet-scale text/image data (LLMs, vision models). Physical AI robots that manipulate objects, navigate environments, or perform tasks faces a different constraint.\n\nLanguage models inherited the internet as a massive corpus. There is no equivalent “internet of robotic interactions.” Collecting real robot demonstrations is slow, expensive, embodiment-specific, and hard to scale. Even the largest open robot datasets are orders of magnitude smaller than LLM training data, and much of the field’s available high-quality interaction data remains limited.\n\nHardware and compute have improved, but without diverse, useful physical interaction data (how a robot should grasp, push, insert, recover from failure, etc.), models struggle to generalize. Axis positions itself around this data layer rather than primarily as a robot maker or pure model lab.\n\nRobots must learn how to interact with objects, perform tasks, and handle different situations. Building those capabilities requires useful demonstrations and infrastructure to process them.\n\nRobot learning (especially imitation learning / vision-language-action models) relies on trajectories: timestamped sequences of robot states, actions, object poses, observations, and success signals. These come from human demonstrations or related sources.\n\nRaw data is not enough. It needs validation (did the task succeed?), cleaning, augmentation, annotation, and formatting into training-ready samples. Traditional lab collection is narrow in coverage and does not easily produce the volume or diversity needed for robust generalization.\n\nAxis is approaching this through a contributor-driven data engine. People can complete tasks through its platform, helping generate robot trajectories that can be validated and prepared for robotics training workflows.\n\nAxis builds a Compounding Data Engine. Core idea: crowdsource collection via a browser-based platform (Axis Hub) so anyone can contribute without owning a robot or specialized hardware.\n\n- Pre-training tasks: Contributors teleoperate a simulated robot using keyboard, mouse, or gamepad to complete manipulation tasks . Each session yields a trajectory.\n- Post-training / human-gated correction: A trained policy attempts the task; the human watches and takes over when it fails, providing recovery data (a scalable form of DAgger-style correction). This is especially valuable because it targets the policy’s actual weaknesses rather than only expert successes.\n- Processing pipeline: Trajectories are verified, cleaned, augmented, and turned into training data. Contributions can be recorded on-chain (on Base) with a Data ID for provenance.\n\nAs of early October 2026, reported figures include ~229,000+ global contributors, 7.3M+ trajectories collected, 7M+ on-chain records, and 1,600+ published tasks. They have released open datasets (e.g., a Franka simulation set with 207 tasks and ~50k+ trajectories) and shown empirical gains: continual pretraining of Physical Intelligence’s π0.5 on Axis data improved LIBERO-Plus success from 83.9 to 88.8, and outperformed a volume-matched RoboCasa365 control by a large margin.\n\nThe system unifies scalable high-fidelity simulation with  ego-centric real-world human data collection via mobile devices.\n\nI find this approach interesting because it connects community participation with a real technical challenge.\n\nTraditional robot data collection is centralized, lab-bound, and limited by the number of operators and robots. Axis treats collection as a distributed, community-driven process with incentives (points, potential token rewards via $AXIS, airdrops for verified contributions). This expands the workforce geographically and in volume while tying participation to the actual technical need.\n\nThe “compounding” aspect is a closed loop: collected data trains policies → policies reveal failures → failures guide the next tasks and corrections → better data and models. Data becomes an appreciating asset rather than a one-time cost. Community involvement is framed as helping build “robot intelligence by all, not a few.”\n\nThe long-term opportunity isn’t simply about collecting more trajectories. It’s about developing the infrastructure needed to turn those contributions into useful resources for Physical AI.\n\nVolume alone is insufficient. Axis emphasizes the full stack:\n- Universal task generation.\n- Distributed collection.\n- Unified processing.\n- Provenance, evaluation oracles, and alignment of contributors, customers, and the ecosystem.\n\nThe goal is infrastructure that continuously produces useful, targeted data for Physical AI training workflows, not just a static dataset. They have commercial partnerships and supply data/pipelines to robotics and model companies.\n\nAs robotics continues to evolve, the data layer could become an increasingly important part of the ecosystem. That’s the part of Axis I’m interested in following.\n\nAs robot hardware improves and models advance, the scarcity of diverse, high-quality physical interaction data is expected to remain a key bottleneck and potential moat. Companies and research groups that control or efficiently produce the data layer may play a foundational role, analogous to how data and compute infrastructure matter in other AI domains.\n\nThe poster is specifically tracking Axis’s data-engine approach rather than any specific robot product, token, or short-term metrics. Axis has raised seed funding, launched a token ($AXIS) with contributor rewards, and is building on Base with on-chain records.\n\nIn short, the post highlights Axis as an attempt to solve Physical AI’s data problem at scale through a community-powered, compounding engine that turns human demonstrations and corrections into validated, processed training resources focusing on the often under-discussed infrastructure layer rather than just models or robots themselves. The interest is in whether and how that data layer becomes strategically important as the field advances. @axisrobotics @AxisRoboticsBD",
-"likeCount": 79,
-"retweetCount": 20,
-"url": "https://x.com/Forget_x0/status/2109111077707641103",
-"createdAt": "Sun Oct 11 02:37:20 +0000 2026"
+"userName": "chrisschmitz",
+"text": "We can now establish that most of the data in the IRGC Leak from @hey_itsmyturn was created in the time between 2010 and 2014.\nWe do not expect it to be older than 2015 the most.\n\nHere are the findings:\n\n# Corpus Timeline — Internal-Reference Dating Analysis\n\n**Method:** year-token mining (Persian 13xx–14xx, Gregorian 19xx–2020s) across all 371 deck summaries and 223 translations, with ±40-char context review; PowerPoint template metadata; deck title-page dates. 95 distinct year tokens found; the significant ones below.\n\n---\n\n## A. Hard production timestamps (the document layer itself)\n\n| Date | Evidence | Source |\n|---|---|---|\n| **Dec 2007 / Day-e 1386** | \"Study and recognition of the US Army\" deck dated on its face | دشمن شناسی/آمریکا |\n| **1386 (2007)** | Night-shooting handbook states it was produced \"by order of the respected Commander-in-Chief of the IRGC\" as part of textbook policy-making — the curriculum-production order itself is dated | رزم شبانه handbook |\n| **1388 (2009)** | Velayat-e Faqih course authored by Behzad Kazemi, dated on title | درس ولایت فقیه |\n| **1 Azar 1390 (22 Nov 2011)** | Combat pistol marksmanship deck \"prepared by Ali Rezaei\", dated on title | مهارت تیراندازی با تپانچه |\n| **1390 (2011)** | Sabrin brigade martyrs folder (NW campaign) | folder title |\n| **1/20/2014** | PowerPoint master-slide template dates (default template left in three decks: حالت گیری 4, رهایی گروگان, one more) | shooting-skills decks |\n| **≥2014–2016** | Defenders of the Shrine Syria martyr documentaries (content-based terminus post quem) | مدافعان حرم |\n\n**Synthesis:** document production clusters in **1386–1390 (2007–2011)**, with template reuse extending to **January 2014**, and the media layer extending content to **≥2014**. The corpus as assembled is a **mid-2010s artifact**.\n\n## B. Weapons-production & procurement references\n\n| Year | Reference | Source |\n|---|---|---|\n| 1376 (1997) | \"From year 1376 Iran [produces] this light weapon\" — 106 mm recoilless rifle license-production | جنگ افزار/ضد زره/106 |\n| 1379 (2000) | AK-series mass production in Iran \"by the industrial research & development group... completed by end of 1379\" | Kelash data card (PDF) |\n| 2004–2006 | Steyr HS-50: \"first employment/use in Iran... 2006\"; AM50 (Iranian copy) referenced with a 2004 date; 20-round version | HS50 data card |\n| 1963 | SVD Dragunov adoption (Soviet) | SVD history |\n| 1938/1946 | DShK design and 1946 redesign | DShK deck |\n| 1746 | First mortars (English, siege of ...) — mortar history openers on all three mortar cards | خمپاره cards |\n\n**Synthesis:** the weapon decks embed an **Iranian self-production timeline** (106 mm 1997 → AK 2000 → AM50 2004 → HS50 procurement 2006) — the curriculum tracks Iran's move from imported to domestic systems, and the \"recognition of enemy/adversary weapons\" framing coexists with pride-framed domestic production notes.\n\n## C. Historical events referenced in the texts\n\n| Date | Event | Referenced in |\n|---|---|---|\n| 1362/03/15 (1984) | First combat use of nerve gas (Iraq, attributed) | Sardasht article |\n| 1366/07/07 (1987) | Sardasht chemical bombing, 16:30, 4+3 bombs | Sardasht article |\n| 1366 (1987) | Tanker war — US navy escorts/attacks in the Persian Gulf | crisis-management deck |\n| 1367 (1989) | Shalamcheh chemical attack (\"widest CW use since WWI\": 5,000 dead / 7,000 wounded) | Sardasht article |\n| 1980/1986/1991 | BWC review conferences + VEREX | bioterrorism deck |\n| 1998 | HAARP system completion (claimed) | HAARP article |\n| 2008 | Sichuan earthquake + claimed ionospheric pre-signal | HAARP article |\n| 1386 (2007) | US Army as reference adversary; Iraqi insurgency tactics study | دشمن شناسی |\n| 1388 (2009) | Post-election unrest (اغتشاشات ۸۸ deck) | counter-riot folder |\n\n## D. Assembly-window synthesis\n\n1. **Earliest hard date in the document layer:** Dec 2007 (US Army deck; 1386 textbook order).\n2. **Peak production:** 2009–2011 (Velayat course 2009; pistol decks Nov 2011; Sabrin folder 2011; soft-war deck iterations).\n3. **Latest template reuse:** January 2014.\n4. **Latest content:** Syria documentaries ≥2014.\n5. **File-system datum:** all 2,472 file mtimes zeroed to the 1980 epoch, and **all OOXML core metadata is stripped** — across all 210 .pptx/.docx/.ppsx files, `docProps/core.xml` is deleted and `app.xml` retains only document statistics (word/slide counts) with the `Application`, `AppVersion`, `Company`, `created`, and `modified` fields removed. The archive was **deliberately sanitized** — a metadata-washer pass consistent with a deliberate export, not organic folder accretion. (Forensic corollary: the scrubbing tool kept document statistics intact, so content-based dating is the only clock.)\n\n**Conclusion:** the corpus was **produced 2007–2014 and assembled in the mid-2010s**, then transferred as a sanitized bulk copy (zeroed mtimes + stripped OOXML metadata).\n\n## E. Open items for tightening the window\n\n- OCR the 5 scans dated **1389/08/11** (Nov 2010) — already the most precisely dated artifacts in the image layer.\n- Extract creation dates embedded in the .pptx/.docx XML (`docProps/core.xml` — not extracted by the current text-only pipeline).\n- Transcribe Defenders-of-the-Shrine narration audio for campaign/event dates.",
+"likeCount": 6,
+"retweetCount": 1,
+"url": "https://x.com/chrisschmitz/status/2109367893557444766",
+"createdAt": "Sun Oct 11 19:37:50 +0000 2026"
 },
 {
 "userName": "sperkhq",
 "text": "𝗵𝗼𝘄 𝘁𝗼 𝗺𝗮𝗸𝗲 𝗮𝗶 𝘃𝗶𝗱𝗲𝗼 𝗰𝗿𝗲𝗮𝘁𝗶𝗼𝗻 𝗲𝗮𝘀𝗶𝗲𝗿 𝗮𝘀 𝗮 𝗯𝗲𝗴𝗶𝗻𝗻𝗲𝗿\n\nyou don’t need to know everything about ai to start creating good ai videos.\n\nyou just need the right workflow.\n\n1. pinterest\n\npinterest is a great place to find visual inspiration.\n\nlook for scenes, characters, camera angles, lighting, transitions, fashion, environments and video styles that match what you want to create.\n\nyou can also get inspiration from tiktok, instagram, x, youtube and even movies.\n\nthe goal isn’t to copy everything you see.\n\nfind the parts you like, combine them with your own idea, and build something original.\n\n2. chatgpt\n\nthis is where your idea becomes a proper prompt.\n\ntake your reference image or explain the scene you want to recreate to chatgpt.\n\nask it to describe the important details in the scene, including the environment, character position, camera angle, lighting, movement and overall mood.\n\nthen ask chatgpt to turn that description into a detailed prompt for your ai video.\n\nif you have a reference character, clearly tell chatgpt to preserve the character’s identity, face, hairstyle, body structure, clothing and other important features without unnecessary changes.\n\nyou can also use voice notes to explain your idea instead of typing everything.\n\n3. storyboard\n\nbefore generating the entire video, break it into smaller scenes.\n\nfor example:\n\nscene 1 → 3 seconds\nscene 2 → 4 seconds\nscene 3 → 5 seconds\nscene 4 → 4 seconds\n\na storyboard is simply a visual plan for your video.\n\nit shows what should happen in each scene before you start generating and animating everything.\n\nyou can create the storyboard yourself or use chatgpt to help you build the prompts for each frame.\n\ntry to keep the same character, visual style and resolution throughout the storyboard so the final video feels consistent.\n\n4. choose your ai video tool\n\nonce your prompts and storyboard are ready, you can move into the generation stage.\n\nsome tools you can experiment with include:\n\n• google flow\n• gemini / veo\n• grok\n• higgsfield\n• seedance 2.5\n• trimz\n• capcut\n\ndifferent tools will give you different results, so experiment and see which one works best for your style.\n\n5. choose your resolution\n\nthis part matters more than beginners usually think.\n\nfor a vertical social media video, you can use 9:16.\n\nfor youtube or a wider cinematic video, 16:9 is usually a better choice.\n\nfor square content, you can use 1:1.\n\nyou can also work with common resolutions such as:\n\n• 1080 × 1920 for vertical video\n• 1920 × 1080 for landscape video\n• 1080 × 1080 for square video\n\nchoose your resolution based on where the video will be posted.\n\n6. generate and edit\n\nnow take your prompt and storyboard into your chosen ai video tool and generate your scenes.\n\nonce you have the clips, you can bring them into capcut for further editing.\n\ncapcut can also be used for ai video creation, so you can experiment with generating, editing, adding text, sound effects, music, transitions and adjusting the final aspect ratio all in one place.\n\nthe complete process is simple:\n\ninspiration → chatgpt → storyboard → ai generation → editing\n\nthe better your reference, prompt and storyboard, the more control you have over the final video.\n\nyou’re not just asking ai to make a video, you’re giving it a clear visual direction to follow.\n\ndisclaimer: the ai videos below are not under sperk authority.\n\nfor more exploration on daily prompts and tools to use, join our tg here • https://t.co/4kxOEOi87t • you are welcome.\n\nstay tuned for more updates afterwards, bookmark and goodluck sperks.",
-"likeCount": 97,
-"retweetCount": 43,
+"likeCount": 104,
+"retweetCount": 44,
 "url": "https://x.com/sperkhq/status/2108234173282394128",
 "createdAt": "Thu Oct 08 16:32:50 +0000 2026"
 },
 {
-"userName": "Jara2426",
-"text": "🚀 30 AI WEBSITES THAT FEEL ILLEGAL TO KNOW 🤯🔥\n\nThese AI tools can help you create stunning images, generate videos, build websites, write code, make music, and boost your productivity like never before! ⚡\n\n💎 30 POWERFUL AI TOOLS YOU NEED TO BOOKMARK:\n\n1️⃣ Raphael AI — Generate stunning AI images\n\n2️⃣ Krea AI — Create real-time AI visuals\n\n3️⃣ Magnific AI — Upscale images with incredible detail\n\n4️⃣ Clipdrop — Remove backgrounds and enhance photos\n\n5️⃣ ElevenLabs — Create realistic AI voices\n\n6️⃣ Suno AI — Turn ideas into amazing music\n\n7️⃣ Runway — Generate cinematic AI videos\n\n8️⃣ Kling AI — Create impressive AI videos\n\n9️⃣ D-ID — Bring photos to life with talking avatars\n\n🔟 SadTalker — Turn static portraits into talking videos\n\n1️⃣1️⃣ Cursor — Write and improve code with AI\n\n1️⃣2️⃣ https://t.co/VswERWz1Uu — Build websites using simple prompts\n\n1️⃣3️⃣ v0 — Generate modern website interfaces\n\n1️⃣4️⃣ Replit — Build and deploy apps with AI assistance\n\n1️⃣5️⃣ Napkin AI — Turn text into visual infographics\n\n1️⃣6️⃣ Gamma — Create beautiful presentations in minutes\n\n1️⃣7️⃣ Notion AI — Write, summarize, and organize information\n\n1️⃣8️⃣ Uizard — Transform ideas into UI designs\n\n1️⃣9️⃣ Perplexity — Research topics with AI-powered answers\n\n2️⃣0️⃣ Phind — Find answers to technical questions\n\n2️⃣1️⃣ Otter AI — Transcribe meetings automatically\n\n2️⃣2️⃣ OpusClip — Turn long videos into short clips\n\n2️⃣3️⃣ Poe — Explore multiple AI assistants in one place\n\n2️⃣4️⃣ Hugging Face Spaces — Discover and test AI demos\n\n2️⃣5️⃣ https://t.co/OEMhvJV4IA — Remove image backgrounds quickly\n\n2️⃣6️⃣ https://t.co/8fQgPmVYQy — Erase unwanted objects from photos\n\n2️⃣7️⃣ DeepSwap — Explore AI face-swapping technology\n\n2️⃣8️⃣ Musiio — AI-powered music tagging and discovery\n\n2️⃣9️⃣ Jasper AI — Create marketing and written content\n\n3️⃣0️⃣ Claude AI — Write, research, analyze, and solve complex problems\n🔥 Why should you save this list?\n\n✅ Create content faster\n✅ Boost your creativity\n✅ Save hours of work\n✅ Discover powerful AI workflows\n✅ Improve your daily productivity\n\n💡 You don't need to be a professional to start using AI. \n\nThe right tools can help you turn simple ideas into incredible results!\n\n📌 YOUR TURN: How many of these 30 AI tools have you tried?\n\n👇 Comment your favorite AI tool and share this list with someone who needs it!\n\n🔖 SAVE THIS POST — your future self will thank you!\n\n♻️ Repost to help others discover these powerful AI tools.",
-"likeCount": 7,
-"retweetCount": 7,
-"url": "https://x.com/Jara2426/status/2109175736649265399",
-"createdAt": "Sun Oct 11 06:54:16 +0000 2026"
-},
-{
-"userName": "KavianCoin",
-"text": "👽💜 KAV is the Alien of Solana - and KAV Loves Solana! 🚀\n\n🔥🤖 CREATE YOUR OWN AI INFLUENCER FOR FREE - NO CODING REQUIRED!\n\nImagine creating a realistic AI character who can appear in videos, promote your brand, explain educational topics, or become your own virtual content creator! 😍\n\n🧠⚡ Today's AI Discovery: Higgsfield AI Influencer\n\nHiggsfield has introduced an updated AI Influencer Studio, offering 5 free character generations to try its creative technology!\n\n🔹 Customize your character:\nChoose facial features, hairstyle, clothing, body type, and personality-inspired appearance.\n\n🔹 No complicated prompts:\nBuild your character using simple visual settings.\n\n🔹 Consistent digital identity:\nReuse your character across different images and creative projects.\n\n🔹 Bring characters to life:\nExplore AI-powered motion transfer and video creation.\n\n🔹 Explore real use cases:\nEducational content, storytelling, digital marketing, and virtual brand ambassadors.\n\n🚀 HOW TO GET STARTED\n\n1. Visit the official Higgsfield website.\n2. Create or sign in to your account.\n3. Open AI Influencer Studio.\n4. Customize your character and generate your first images.\n5. Explore how to turn your character into engaging content!\n\n🔗 Official tool:\nhttps://t.co/U1HDZUbVCm\n\n📌 Important: Higgsfield announced 5 free character generations on October 3, 2026. Video features may require additional credits. Always check the displayed cost before generating.\n\n🛡️ KAV Smart Tip:\n\nUse your own photos or images you have permission to use. Be transparent about AI-generated influencers and never impersonate real people.\n\n👽💡 The real opportunity isn't just creating an AI influencer - it's learning how to transform creativity into valuable digital content.\n\n💜 KAVIANS, what kind of AI character would you create? An educator, futuristic musician, virtual entrepreneur, or something completely different?\n\nKeep learning. Keep creating. Keep moving forward. 👽⚡\n\n#KAV #Solana #AITools #AIInfluencer #HiggsfieldAI #LearnAI",
-"likeCount": 16,
-"retweetCount": 11,
-"url": "https://x.com/KavianCoin/status/2108739303836684682",
-"createdAt": "Sat Oct 10 02:00:03 +0000 2026"
-},
-{
-"userName": "bazdn0503",
-"text": "Why I believe it’s still early in Coinsilium’s next chapter. 🟠🟡\n\nCoinsilium has built exposure across several developing areas of crypto and AI. Each offers something different:\n\n🟡 Yellow Network — $YELLOW\nInfrastructure for clearing and settling transactions across blockchains. Coinsilium has an allocation of 50 million tokens, subject to vesting. Yellow entered live operation in March 2026.\n\n🤖 Otomato\nDeFi portfolio monitoring, intelligence and automation, helping users understand positions across different protocols. Coinsilium holds approximately 1.25% of developer Dyment Labs, plus a token warrant.\n\n🔎 Predictive Labs / Nijinn\nBrings prediction-market data together into an intelligence platform for professionals, developers and AI agents. Coinsilium’s reported investment reached US$450,000, representing approximately 14.91%.\n\n🎨 BeatingHeart\nDeveloping generative AI tools for advertising images and video, initially targeting fashion, beauty and lifestyle brands. Coinsilium agreed a convertible loan facility of up to US$250,000 alongside strategic advisory support.\n\n₿ Forza — Bitcoin exposure through $BTC\nCoinsilium’s wholly owned subsidiary manages its strategic Bitcoin treasury.\n\nFor me, “early days” means these ventures still have opportunities to develop products, attract users and build commercial revenues. Their success—and the value ultimately reaching Coinsilium shareholders—depends on execution.\n\nThat’s the longer-term story I’m watching.\n\n🇬🇧 $COIN.AQ | 🇺🇸 $CINGF\n$YELLOW $BTC\n@CoinsiliumGroup\n#Coinsilium #Otomato #Nijinn #AI #Web3\n@BTCtreasuries",
-"likeCount": 23,
-"retweetCount": 9,
-"url": "https://x.com/bazdn0503/status/2107046501893468461",
-"createdAt": "Mon Oct 05 09:53:27 +0000 2026"
-},
-{
-"userName": "alexa_griffith_",
-"text": "My friend Phoebe is building Elysium Intelligence - a professional fashion model movement and garment behavior data company for AI. She's looking for generative video teams, digital twins + avatar companies, and virtual try-on platforms to pilot the data / test against failure cases. If you're building in this space please email phoebe@joinelysium.ai\n\nhttps://t.co/aiwT7wA4sT",
-"likeCount": 7,
+"userName": "JohnSmith5912",
+"text": "Generated by chatgpt @ChatGPT\n\nAI Image Generation Prompt:\n\nCreate an ultra-realistic, high-resolution fashion portrait of a beautiful adult Indian woman with long, thick, voluminous dark brown hair featuring subtle caramel highlights, warm glowing skin, expressive brown eyes, well-defined eyebrows, a small black bindi, a delicate nose, and a confident, charming smile. Her makeup is elegant and natural, with rosy blush, soft eyeliner, and pink lipstick.\n\nShe is wearing a vibrant burnt-orange, hand-crocheted halter-neck crop top with intricate open-knit patterns, a deep V neckline, a fitted bodice, a textured high neckline, and a decorative scalloped fringe hem. She pairs it with loose, high-waisted black pleated trousers featuring an elastic waistband and a front drawstring. A delicate gold chain necklace with a circular pendant complements her outfit.\n\nPose and composition: She is seated on the edge of a bed, leaning slightly toward the camera with one arm extended to support herself on the mattress and the other hand gently touching her voluminous hair. Her head is slightly tilted, and she gazes directly into the camera with a playful, confident expression. Her long hair cascades over one shoulder and down her back. Natural anatomy, realistic proportions, detailed skin texture, and lifelike fabric.\n\nBackground: A cozy, upscale modern bedroom with a neatly arranged bed featuring beige patterned bedding, a warm glowing bedside lamp on a dark nightstand, neutral cream-colored walls, framed wall art, dark wooden doors, and a small green indoor plant. Warm ambient lighting creates an inviting atmosphere.\n\nPhotography and style: Professional indoor fashion photography, vertical 2:3 composition, medium-to-three-quarter portrait, slightly elevated eye-level camera angle, soft warm lighting, realistic shadows, natural skin tones, sharp focus on the face, detailed crochet texture, shallow depth of field, 85mm portrait lens, f/2.8, cinematic color grading, photorealistic, ultra-detailed, 4K quality.\n\nNegative prompt: Cartoon, anime, painting, CGI, artificial skin, excessive retouching, blurry face, distorted anatomy, unnatural hands, extra fingers, asymmetrical facial features, oversaturated colors, harsh flash, low resolution, text, watermark, logo.",
+"likeCount": 18,
 "retweetCount": 0,
-"url": "https://x.com/alexa_griffith_/status/2107140437538398717",
-"createdAt": "Mon Oct 05 16:06:43 +0000 2026"
+"url": "https://x.com/JohnSmith5912/status/2109194389889204408",
+"createdAt": "Sun Oct 11 08:08:24 +0000 2026"
 },
 {
-"userName": "junfanzhu98",
-"text": "@saturdayrobotic Reading Club #32 × @RoboticsCtr Dexterity Day\n@junfanzhu98 + @JerryHuang: 400+ registrations\n1️⃣ @wuji_global, the hardware contract.\n2️⃣ @RLWRLD_ai, the model contract.\n3️⃣ @DynaRobotics, the prior.\n4️⃣ @RoboticsCtr, measurement.\n@1X_tech https://t.co/B7Xyk4d1mj",
+"userName": "MoescapeAi",
+"text": "MOESCAPE AI ✨\nSeedream 5.0 | IMAGE TO IMAGE + TEXT TO IMAGE\nReimagine the reference anime character as a stylish, confident fantasy fashion heroine while preserving her recognizable face, hairstyle, eye color, signature features, body proportions, silhouette and overall character identity. Create a polished anime fashion editorial inspired by high-end character illustrations and modern anime promotional artwork.\nPlace her in a clean studio-like environment with a bold saturated solid-color background such as electric blue, hot pink, violet, crimson, emerald or deep purple. Use striking compositions such as sitting confidently with one knee raised, leaning toward the camera, resting her face against one hand, crossing her arms, reclining elegantly, looking over her shoulder or posing with a relaxed but charismatic expression. Keep the character large and clearly visible as the main focal point.\nGive her a fashionable, distinctive outfit inspired by contemporary anime streetwear, gothic fashion, fantasy couture and idol/editorial styling. Use rich colors such as purple, crimson, black, emerald, cobalt, burgundy or magenta instead of white. Add elegant straps, ribbons, belts, metallic details, jewelry, layered fabrics, decorative sleeves, bows, subtle patterns and stylish accessories while keeping the outfit cohesive with the character.\nUse clean thick outlines, crisp linework, flat colors, simple controlled cel-shading and very limited rendering. Avoid photorealism, excessive gradients, painterly textures or overly detailed backgrounds. Keep anatomy clean, proportions consistent and facial features sharp and expressive.\nCreate a premium anime illustration with strong graphic contrast, polished composition, subtle highlights and a fashionable poster-like finish. Every generation should feel like a unique anime character photoshoot while maintaining the same recognizable character identity and visual quality.\nCreate your own characters, fantasy worlds and cinematic anime scenes with Moescape AI, link in bio!\n#fyp #anime #foryoupage #trend",
 "likeCount": 20,
-"retweetCount": 3,
-"url": "https://x.com/junfanzhu98/status/2106980180459929652",
-"createdAt": "Mon Oct 05 05:29:55 +0000 2026"
+"retweetCount": 2,
+"url": "https://x.com/MoescapeAi/status/2107563008108966397",
+"createdAt": "Tue Oct 06 20:05:52 +0000 2026"
 },
 {
-"userName": "LiangZheng_06",
-"text": "We've released the slides for our ECCV'26 tutorial on diffusion model post-training. \n\n- Direct reward gradient backpropagation;\n- DPO;\n- GRPO; \n- Forward-process RL. \n\nhttps://t.co/BLq6EaAqJW\n\nHope it will be useful for the community.\n\n@scxue1999 @zinho_leung @jie_liu1",
-"likeCount": 347,
-"retweetCount": 48,
-"url": "https://x.com/LiangZheng_06/status/2107986518312993071",
-"createdAt": "Thu Oct 08 00:08:45 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Alibaba_Qwen: 🚀 Meet Qwen-Image-2.1-Turbo — create and edit images in just 8 denoising steps! Open weights now available!\n\nBuilt on Qwe…",
-"likeCount": 5061,
-"retweetCount": 510,
-"url": "https://x.com/ClementDelangue/status/2108576278299234654",
-"createdAt": "Fri Oct 09 15:12:14 +0000 2026"
+"userName": "ZohaibAi__sf",
+"text": "🤖 Free vs. Paid AI Tools: Which One Is Right for You?\n\nYou don’t need to pay for every AI tool to get great results! 🚀\n\nMany free tools can handle everyday tasks, while paid alternatives offer advanced features for specific needs.\n\nHere’s your quick guide 👇\n\n🔎 Research: Perplexity AI vs. Silatus\n💻 Coding: Codeium vs. GitHub Copilot\n🎨 Graphic Design: Canva vs. Adobe Creative Cloud\n🖼️ AI Images: Free image generators vs. Midjourney\n🎬 Text-to-Video: Vidnoz vs. Runway\n📱 Short Videos: Free video tools vs. Vsub\n📋 Project Management: Notion vs. Forecast\n🪄 Photo Editing: Photopea vs. PicWish\n📊 Data Analytics: KNIME vs. Power BI\n📧 Email Marketing: Moosend vs. Omnisend\n🔑 Keyword Research: Moz vs. Semrush\n🎥 Video Editing: Vmaker vs. Adobe Premiere Pro\n✍️ Writing: ChatGPT vs. Jasper\n📈 Marketing: Claude vs. Writesonic\n📬 Email Management: Gemini in Gmail vs. Superhuman\n☁️ File Storage: Google Drive vs. Dropbox Business\n🎵 AI Music: Mubert vs. Soundraw\n📄 PDF Analysis: AI PDF tools vs. Adobe Acrobat Pro\n🧠 AI Development: Hugging Face vs. Replicate\n\n⚡ The bottom line: Choose tools based on your needs, budget, and workflow—not just their price tag.\n\nStart with free options. Upgrade only when you need more features!\n\n🔖 Save this guide for later.\n❤️ Like | 🔁 Repost | 💬 Share your favorite AI tool below!\n\n#AITools #ArtificialIntelligence #FreeAI #Productivity #TechTips",
+"likeCount": 36,
+"retweetCount": 23,
+"url": "https://x.com/ZohaibAi__sf/status/2109494205848674529",
+"createdAt": "Mon Oct 12 03:59:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AlexObuchowski: Today we introduce MedDecider - an open weight family of Jev style decision models for medicine. \nMedDecider achieves S…",
-"likeCount": 1010,
-"retweetCount": 130,
-"url": "https://x.com/ClementDelangue/status/2108376883813650636",
-"createdAt": "Fri Oct 09 01:59:55 +0000 2026"
+"text": "We turned @OpenAI's math problems into open-source RL environments on @huggingface!\n\nEarly and rough (the verifier only accepts the exact original formalization, so an equivalent proof can still score 0), but this is what it looks like when a research release becomes executable training infrastructure for everyone.\n\nThis is an exciting direction imo: turning open research into open executable environments that anyone can build on to train better open models!\n\nhttps://t.co/CtDUzi1DPP",
+"likeCount": 1119,
+"retweetCount": 137,
+"url": "https://x.com/ClementDelangue/status/2109290775322243143",
+"createdAt": "Sun Oct 11 14:31:24 +0000 2026"
+},
+{
+"userName": "ProfectusHldgs",
+"text": "🎥 Watch the full September 28 meeting: https://t.co/Rxi7nMHtVQ\n\n🎮 Play the TIG Trading Floor game: https://t.co/UbvKCTwUvu\n\n$JAGX, Greenland, Iran, the Fed, AI, and a lightning round on $AMD $STRL $WCC\n\nWebsite: https://t.co/f4pvgPDjN8 https://t.co/XMpAfQFJQd",
+"likeCount": 21,
+"retweetCount": 1,
+"url": "https://x.com/ProfectusHldgs/status/2107364470796279993",
+"createdAt": "Tue Oct 06 06:56:57 +0000 2026"
+},
+{
+"userName": "ChungMinKim",
+"text": "...and it even works on images! Treating text-to-image generation as a one-step RL problem, with a reward model as the critic, QF3 finetunes Stable Diffusion 3.5 on PickScore below https://t.co/fZaogJ1KQD",
+"likeCount": 11,
+"retweetCount": 0,
+"url": "https://x.com/ChungMinKim/status/2107542347311644922",
+"createdAt": "Tue Oct 06 18:43:46 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Alex_tra_memory: We distilled clef-flash into a 0.6B model and supporting ANE option.\n\n1,000 support tickets triaged on a M5 pro in 57…",
-"likeCount": 249,
-"retweetCount": 24,
-"url": "https://x.com/ClementDelangue/status/2109087946825675239",
-"createdAt": "Sun Oct 11 01:05:26 +0000 2026"
+"text": "RT @mrm8488: 🧭 New model: Typed Decision, built on EmbeddingGemma 2\n\nGive it a state + any schema of questions → typed, calibrated answers…",
+"likeCount": 298,
+"retweetCount": 39,
+"url": "https://x.com/ClementDelangue/status/2109530257145631101",
+"createdAt": "Mon Oct 12 06:23:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @RemiFabreRobot: I finally have a Microduck again, so I was able to replay the emotions and compare simulation with the physical robot.…",
-"likeCount": 263,
-"retweetCount": 24,
-"url": "https://x.com/ClementDelangue/status/2108608028140282064",
-"createdAt": "Fri Oct 09 17:18:24 +0000 2026"
+"text": "RT @XunzhuoLiu: Introducing Decision 3.0: towards open multimodal foundation decision models ⚡\n\nOpen and state-of-the-art from 0.6B to 27B:…",
+"likeCount": 872,
+"retweetCount": 93,
+"url": "https://x.com/ClementDelangue/status/2109258894690140473",
+"createdAt": "Sun Oct 11 12:24:43 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @analogalok: Finetuned Qwen3.5-4B into a decision model like Jev using @UnslothAI. \n\n- 4-bit QLoRA, bf16, single A100, 15 min. \n- Train/…",
+"likeCount": 126,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2109260460914602009",
+"createdAt": "Sun Oct 11 12:30:56 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @LeRobotHF: Training a robot to grasp an object means learning from many attempts, viewpoints and situations. One robot with three camer…",
+"likeCount": 142,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2108611050790867047",
+"createdAt": "Fri Oct 09 17:30:25 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "Narrator: he was not, in fact, allowed to say “I’m quite unhappy with much of what OpenAI does.”",
+"likeCount": 1980,
+"retweetCount": 66,
+"url": "https://x.com/jeremyphoward/status/2108408989210075260",
+"createdAt": "Fri Oct 09 04:07:30 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @julien_c: and... new clef drop from cloudflare!\n\nhttps://t.co/gvb422RlpU",
-"likeCount": 393,
-"retweetCount": 28,
+"likeCount": 399,
+"retweetCount": 29,
 "url": "https://x.com/ClementDelangue/status/2108652166000861361",
 "createdAt": "Fri Oct 09 20:13:47 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @npinto: #1 on HackerOne :-) https://t.co/9H6i0EVv8M",
-"likeCount": 282,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2108279754327552008",
-"createdAt": "Thu Oct 08 19:33:58 +0000 2026"
+"userName": "apob_ai",
+"text": "https://t.co/Z0uD6IFCbk",
+"likeCount": 9,
+"retweetCount": 0,
+"url": "https://x.com/apob_ai/status/2109145349176819755",
+"createdAt": "Sun Oct 11 04:53:31 +0000 2026"
 }
 ]
