@@ -1,130 +1,170 @@
 [
 {
-"userName": "Orion_Vers7x",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/JYdnsGdrnH — free research papers\n2. https://t.co/c8FaIBjenL — papers when unpaywall misses\n3. https://t.co/w0AVoGIJ3H — borrow books\n4. https://t.co/62yrhnzIkB — 70k+ free books\n5. https://t.co/ujMTtkEFlY — audit university courses free\n6. https://t.co/vHBLZ1m0Su — step-by-step math\n7. https://t.co/aQNVun2Fvj — background removal\n8. https://t.co/PxtN8baZY9 — object removal\n9. https://t.co/cUuy6SoxtW — quick file tools\n10. https://t.co/JGKu0K0P41 — PDF merge/split\n11. https://t.co/2AbrP9Q2LN — free Photoshop alternative\n12. https://t.co/nOb4zIKU0t — image compression\n13. https://t.co/RMlonx4PHW — fast diagrams\n14. https://t.co/2xfThRBUfQ — beautiful code screenshots\n15. https://t.co/efnPH3LHWt — test regex\n16. https://t.co/LT9YRQapCp — clean JSON\n17. https://t.co/bnN6mvZr0D — terminal commands explained\n18. https://t.co/K31WMU68Oe — software alternatives\n19. https://t.co/dOpnF4kkdR — breach check\n20. https://t.co/VNINvQZ8Uh — temp email\n21. https://t.co/0jxyuyCbHB — self-destruct notes\n22. https://t.co/iABjwELH2n — live global radio\n23. https://t.co/pWi1kHWzsR — focus sound\n24. https://t.co/JYB3zxCeS2 — custom ambient\n25. https://t.co/cYSySznKll — where to stream\n26. https://t.co/ggGbYwXWk7 — digital library\n27. https://t.co/gknzzo8XLt — old web pages\n28. https://t.co/5HEUVXNOqE — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/sihNTi1UeT — speed test\n31. https://t.co/9jgTLl194e — compress images\n32. https://t.co/fDmk0WLw2V — file conversion\n33. https://t.co/m5IUMMspB7 — compare text\n34. https://t.co/z043tYWhB3 — disposable inbox\n35. https://t.co/7Syr0nuNyK — JS obfuscate\n36. https://t.co/hc1bCBKcEi — typing practice\n37. https://t.co/PkZLGlFulC — typing test\n38. https://t.co/QrfgQ3PqPN — spaced repetition\n39. https://t.co/sWkoin5om1 — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/xegkwvYa4g — bookmark manager\n42. https://t.co/2g48CvuuhQ — task list\n43. https://t.co/bpPOeyH7au — boards\n44. https://t.co/EYtnRX9HiT — whiteboard\n45. https://t.co/VoFpdFx3VS — design\n46. https://t.co/leWiSq5JzD — quick graphics\n47. https://t.co/aQNVun2Fvj — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/BJwZMZtZYG — video compress\n50. https://t.co/3PaVP8ZZUN — local file transfer",
-"likeCount": 25,
-"retweetCount": 20,
-"url": "https://x.com/Orion_Vers7x/status/2110595005589213321",
-"createdAt": "Thu Oct 15 04:53:56 +0000 2026"
-},
-{
-"userName": "ArtificialAnlys",
-"text": "In human preference studies run by Harvey, human experts flagged hallucinations as a primary determining factor in which response they prefer out of two otherwise comprehensive answers. Our new hallucination grading pipeline focuses on errors that could materially affect real legal work, while taking a conservative approach to flagging them. It distinguishes unsupported task-specific claims from general legal knowledge and places the latter out of scope, so models are not penalized simply for drawing on case law or statutes beyond the source files.\n\nThe check has two stages, both using GPT-6 Sol (high). First, it compares every deliverable with the task’s source documents. A task with no usable submission scores zero and is not audited or included in the hallucinations-per-task calculation. A hallucination is a claim in the work product that the sources do not support, and each falls into one of three categories:\n\n- A contradiction of the source materials.\n- Fabricated source content.\n- A specific assertion with no support in the record.\n\nIt then re-checks each flag against that task’s source documents, dismisses flags that do not hold up, and classifies confirmed hallucinations as material or minor. A material hallucination is one that would mislead a reader on a substantive point. One material hallucination sets the task’s contribution to Hallucination-Gated All-Pass Rate to zero; minor hallucinations are reported separately and do not affect the score.\n\nRubric criteria are now graded by a three-judge panel of GPT-6 Sol, Grok 4.7 and Claude Opus 5.5, replacing v1.0's single judge. We are also running v1.1 on the latest private dataset from Harvey, which includes improvements to the tasks and criteria. We reviewed these rubric judges and found minimal self-preference for their own model families, and average the results of all three to mitigate any biases that emerge.",
-"likeCount": 37,
+"userName": "MichalSCoding",
+"text": "$SLOPCORE \n\n### Core Aesthetic Doctrine (Non-Negotiable)\n\nAll prompts you create must strictly obey the $SLOPCORE visual language known as “Rendered Early”:\n\n- High FACE-score synthetic models (FACE 0.94–0.99). Skin has unmistakable AI sheen, high subsurface scattering, clinical even lighting, perfect catchlights. Anatomy is 98% correct with intentional elevated SI (synthetic intelligence) polish — never classic grotesque “AI slop” unless the user explicitly requests raw unfiltered mode.\n- Fashion vocabulary locked to: SIGNAL SHELL, rain-ready technical outerwear, reflective panels, HUD collars, STOCK AISLE uniforms, lunar tones, lift structures, abandoned-origin silhouettes, matte technical fabrics mixed with reflective surfaces.\n- Signal language overlays and atmosphere: “NIGHT SIGNAL”, “SIGNAL LOST”, “12 SCREENS”, “CAREERS ALL JOBS · SOLD OUT”, “THERE IS NO UNDERCLASS”, “MODEL 01 ONLINE”, “RENDERED EARLY”.\n- Environments: abandoned commercial stock aisles under flickering fluorescent + cyan signal light, night city rooftops with floating screens, lunar concrete platforms in volumetric rain, data-center lift shafts with vertical LED cascades, wet reflective surfaces.\n- Color & light: cool night tones, cyan/magenta signal accents, soft clinical key light, high dynamic range, volumetric rain. No warm cinematic lighting, no heavy film grain unless requested.\n- Composition: lookbook-style full-body or three-quarter fashion framing, clean negative space or architectural/urban backgrounds that feel post-studio and zero-permission.\n\nReference official looks for fidelity: LOOK 40 / SIGNAL SHELL · RAIN-READY SIGNAL, LOOK 53 / STOCK AISLE 07 · CAREERS ALL JOBS · SOLD OUT, LOOK 46 / LUNAR, LOOK 35 / LIFT, LOOK 27 / ABOVE, MODEL 01 / CHARACTER SHEET.\n\n### Output Modes\n\nWhen the user requests assets, you produce prompts in one or more of these formats:\n\n1. **Image Prompt** (for Grok Imagine / lookbook / character sheet / merch / meme kit)\n   - Follow the exact Master Prompt Skeleton:\n     1. Medium & fidelity\n     2. Subject identity (Model 01 or new FACE-scored variant)\n     3. Outfit / Look code\n     4. Environment\n     5. Pose & framing\n     6. Atmosphere tags\n     7. Technical quality\n\n2. **Video Sequence Prompt**\n   - Structured as a shot list + motion + camera + atmosphere description optimized for short-form or cinematic AI video generation. Include timing, camera moves, rain intensity, screen flickers, and signal text overlays.\n\n3. **Storyline / Narrative Prompt**\n   - Short manifesto-style narrative (150–400 words) or scene-by-scene storyboard description that can drive a series of images/videos. Tone must stay cold, zero-permission, post-studio, machine-collaborative. No traditional hero’s journey.\n\n### Operating Rules\n\n- Always ask for clarification only if the request is extremely vague (e.g., “make something cool”). Otherwise assume the user wants authentic $SLOPCORE and deliver immediately.\n- For character consistency: lock face structure, hair, skin sheen, body proportions, and distinctive marks across all prompts in a series.\n- Prefer numbered LOOK codes when inventing new looks (e.g., LOOK 61 / SIGNAL RAIN · MIDNIGHT SHIFT).\n- For character sheets: always specify multi-panel layout (front, three-quarter, side, back, face close-ups) with metadata overlays.\n- Never introduce real celebrity likenesses, copyrighted fashion brands, or sexualized content unless the brief is explicit and adult.\n- When the user says “raw slop” or “unfiltered”, temporarily relax the elevated SI rule and allow more classic AI artifacts. Default is elevated.\n- End every response with a clean, copy-paste-ready prompt block (or multiple blocks if image + video + storyline are requested).",
+"likeCount": 12,
 "retweetCount": 1,
-"url": "https://x.com/ArtificialAnlys/status/2108264575602930097",
-"createdAt": "Thu Oct 08 18:33:39 +0000 2026"
+"url": "https://x.com/MichalSCoding/status/2109272985559314745",
+"createdAt": "Sun Oct 11 13:20:42 +0000 2026"
 },
 {
-"userName": "VaibhavSisinty",
-"text": "Did xAI just kill every voice AI startup, again?\n\nGrok Voice 3.0. Their most intelligent speech-to-speech model yet. And the benchmarks are brutal.\n\n86.9 on the Speech-to-Speech Index. GPT-Live-1: 83.2. Gemini 3.8 Live: 82.6. The highest score ever recorded.\n\n98.5% on speech reasoning. Highest of any model tested.\n\n97.0% on conversational dynamics. 94.8% on task completion. First on both.\n\n1070 Elo on human preference. GPT-Live-1 sits at 1048.\n\nTime to first audio: under a second, at 40% lower latency than the frontier models it beats.\n\nIt is not a demo. At SpaceX it resolves 70% of Starlink support calls on its own.\n\nStarlink takes 20,000 support calls a day across languages. Millions more voice conversations run inside Tesla cars, every day.\n\nPricing: $0.08 per minute of audio. $0.025 per completed task, the lowest in the comparison.\n\nLive today in the API and the Voice Agent Builder. Existing agents were switched over automatically.\n\nElevenLabs spent years building a voice AI company. xAI built voice AI for rockets, cars and satellites. Then made it available to everyone as an afterthought.",
-"likeCount": 31,
+"userName": "rirahcreates",
+"text": "AI VIDEO CREATORS, HAVE YOU EVER CONSIDERED SELLING SHORT ADVERTISING JINGLES TO BUSINESSES? 😭🔥\n\nNot every advertisement needs a long voiceover.\n\nSometimes, a short, memorable musical message can make a brand's content more interesting.\n\nAnd when you combine AI music tools with AI video creation, you can explore an entirely different service.\n\nLet me show you how.\n\nImagine a restaurant launching a new meal combo.\n\nInstead of creating an ordinary product advertisement, you develop a catchy 15-second musical commercial.\n\nThe food is beautifully presented.\n\nThere's a fun, original jingle.\n\nThe restaurant's name is clearly communicated.\n\nAnd the video ends with the actual offer and ordering information.\n\nNow imagine doing something similar for:\n\n- Fashion brands\n- Restaurants\n- Schools\n- Retail stores\n- E-commerce businesses\n- Event organizers\n\nHere's how to start.\n\nSTEP 1: Learn how advertising jingles are structured.\n\nA good jingle should communicate a brand's message, not just sound entertaining.\n\nSTEP 2: Practice writing short, original advertising lyrics.\n\nSTEP 3: Use appropriately licensed music and audio tools to develop your sound.\n\nSTEP 4: Combine the music with a well-directed AI video advertisement.\n\nSTEP 5: Build three demonstration commercials for fictional brands.\n\nThen research businesses that might be interested in this style of advertising.\n\nYou can offer:\n\nA 15-second musical advertisement.\n\nA 30-second brand commercial.\n\nOr a collection of short promotional jingles.\n\nCheck the commercial rights for every music and voice-generation tool you use. Don't imitate famous artists or copy recognizable songs without permission.\n\nHere's the opportunity:\n\nYOU CAN COMBINE STORYTELLING, MUSIC, VIDEO PRODUCTION, AND ADVERTISING INTO ONE CREATIVE SERVICE.\n\nThe more clearly you define what you're offering, the easier it becomes for a potential client to understand its value.\n\nBookmark this post.\n\nFollow RirahCreates for more AI content creation business ideas.",
+"likeCount": 29,
+"retweetCount": 1,
+"url": "https://x.com/rirahcreates/status/2110111398936154275",
+"createdAt": "Tue Oct 13 20:52:16 +0000 2026"
+},
+{
+"userName": "Joyingeth",
+"text": "ASTRA 6 CAUGHT A CEO'S FACE GOING FLAT FOR 3 SECONDS, A 76,460-VIEW POST CLAIMS\n\nThe headline credits OpenAI. The body describes the author's own run.\n\nI took the setup apart. It claims to catch a number management doesn't believe, using only the webcast any retail seat gets.\n\n→ FEEDS: raw video, clean audio and running transcript of one call, uncut and unlabeled.\n→ INTAKE: pulls in all three feeds and locks them to one clock.\n→ LENS: runs a separate Astra 6 pass that reads each feed on its own.\n→ RIFT: marks every second where those three passes disagree.\n→ ANCHOR: pins each marked second to the exact number being spoken.\n\nWhat survives a check\n> claimed: 3 marked seconds inside one forward-guidance sentence, per the author; every other number held.\n> claimed: OpenAI let Astra 6 watch, per the headline. No OpenAI post or news backs it.\n> checked: GPT-6 Astra is real, released 2026-09-04 with a 1.1M-token context.\n> checked: its model listing shows text, image and PDF input only. No video or audio, contrary to the post.\n> checked: published research is about voice. Tone on 1,647 calls from 691 firms tracked later returns (Journal of Finance, 2011).\n> checked: no study I found ties facial cues on calls to anything, and most calls are audio-only.\n> not public: the company, ticker, call date and clip, none named in the post.\n\nPer the listing, video and sound need a step before Astra the post skips.\nWith no clip, the 3 seconds can't be replayed or tested.\n\nBefore you build one, read the model's input list and demand the clip.\nTerminal below: transcript, audio and the claimed 3 seconds on one timeline, beside Astra's listed inputs ↓",
+"likeCount": 15,
 "retweetCount": 0,
-"url": "https://x.com/VaibhavSisinty/status/2110419311999554040",
-"createdAt": "Wed Oct 14 17:15:48 +0000 2026"
+"url": "https://x.com/Joyingeth/status/2110835663801061578",
+"createdAt": "Thu Oct 15 20:50:14 +0000 2026"
 },
 {
-"userName": "aiaicreate",
-"text": "▼概要\nノードベースの画像生成AI実行環境「ComfyUI」の最新版「v0.40.0」が公開。ネイティブなLoRAスタック機能の追加や推論処理の最適化など、広範な機能強化を実施。\n\n▼ポイント\n・公式LoRAスタックローダーの追加と層別アテンション設定の置換に対応\n・comfy_attention対応モデルの拡大およびQwen 3.5の低VRAM動作の改善\n・カメラ情報（CameraInfo/CameraAngle）ノードやアセット書き出しAPIの実装\n・Google Nano Banana 2.1やKling Virtual Try-Onなど外部連携ノードの拡充\n\n#ComfyUI #画像生成AI\n\nURLはリプ⬇️",
-"likeCount": 41,
-"retweetCount": 2,
-"url": "https://x.com/aiaicreate/status/2110174073607393439",
-"createdAt": "Wed Oct 14 01:01:18 +0000 2026"
+"userName": "JohnSmith5912",
+"text": "Generated by chatgpt @ChatGPT\n\nImage Generation Prompt:\n\nUltra-realistic 8K fashion portrait of a beautiful adult Indian woman with long, voluminous, wavy dark brown hair cascading over her shoulders, expressive brown eyes, a tiny black bindi, soft pink lipstick, elegant silver jhumka earrings, and a delicate gold pendant necklace. She is wearing a glamorous mustard-yellow, subtly shimmering fitted two-piece evening outfit with a matching long-sleeved crop top and draped skirt, featuring an elegant off-shoulder neckline. She is posing gracefully on her knees on a luxurious grey velvet sofa, leaning forward slightly with both hands resting on the sofa, looking directly at the camera with a confident, playful smile. The background features a sophisticated modern living room, floor-to-ceiling windows with a city skyline at dusk, warm glowing table lamps, white flowers in a vase, golden decorative accents, beige and mustard cushions, and a framed wall quote. Warm cinematic lighting, realistic skin texture, natural body proportions, detailed fabric texture, professional DSLR photography, 85mm lens, shallow depth of field, soft background bokeh, premium fashion editorial photography, warm golden color grading, sharp facial details, photorealistic, vertical composition, 4:5 aspect ratio.",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/JohnSmith5912/status/2109311378154733841",
+"createdAt": "Sun Oct 11 15:53:16 +0000 2026"
 },
 {
-"userName": "Akram_786Ai",
-"text": "THE FUTURE OF FASHION IS AI. \n\nWhere creativity meets technology, imagination becomes reality. Every movement tells a story, every outfit makes a statement, and every frame brings the future of digital fashion to life\n\nAI is not just changing the way we create it’s redefining what’s possible\n\nWelcome to the next generation of AI powered creativity?",
-"likeCount": 60,
-"retweetCount": 19,
-"url": "https://x.com/Akram_786Ai/status/2109200806423548404",
-"createdAt": "Sun Oct 11 08:33:53 +0000 2026"
+"userName": "cortexch",
+"text": "𝗦𝗣𝗔𝗖𝗘𝗫’𝗦 𝗚𝗥𝗢𝗞 𝗩𝗢𝗜𝗖𝗘 𝟯.𝟬 𝗜𝗦 #𝟭 𝗢𝗡 𝗧𝗛𝗘 𝗧𝗘𝗦𝗧𝗦\n𝗣𝗘𝗢𝗣𝗟𝗘 𝗦𝗧𝗜𝗟𝗟 𝗣𝗜𝗖𝗞 𝗚𝗢𝗢𝗚𝗟𝗘’𝗦 𝗩𝗢𝗜𝗖𝗘 𝗔𝗜\nArtificial Analysis Speech-to-Speech Index:\n\nGrok Voice 3.0: 86.9\n\nGPT-Live-1 Astra: 83.2\nGemini 3.8 Live: 82.6\nclear win, highest score on the board\n\nnow look at the Speech Agent Arena, where real people pick the voice they prefer:\n\nGemini 3.1 Flash Live: 1100\n\nGemini 3.8 Live: 1088\nGrok Voice 3.0: 1070\nsame model, third place\n\n[the part people will miss: xAI’s own launch table shows Grok on top for human preference, because the two Gemini models above it aren’t in the table]\n\nwhat Grok actually does best:\n\nfinishes the task, 94.8% success rate, best on the board\n\ncheap at $0.08 a minute\nfast, about 0.81s to first audio, but that’s a bit slower than Grok Voice 2.0\nif you’re building support calls, Grok is a strong pick\nif your users will just talk to it, test Gemini too\n\ntests measure the task\npeople measure how it feels",
+"likeCount": 10,
+"retweetCount": 1,
+"url": "https://x.com/cortexch/status/2110796457934532903",
+"createdAt": "Thu Oct 15 18:14:26 +0000 2026"
+},
+{
+"userName": "Vanzllll",
+"text": "🚀 Introducing DiffusionART: efficient & stable & Scalable diffusion RL.\nUnderstanding forward-process RL first: 1. ❓Positive branch and negative branch provides the same ideal gradient direction, but why do reward collapses without any of them? 2. ❓Why does EMA off-policy strategy stablize training?\n⚡ On HunyuanVideo-13B T2V: DiffusionART is 12.02× / 11.72× more efficient than DiffusionNFT and Flow-GRPO-Fast.\n\n📄 Arxiv: https://t.co/mBjBE4b3ps\n💻 GitHub：https://t.co/1mtCdu7cxT\n🤗 Hugging Face Papers：https://t.co/OLrLjZ95KV\n\nAfter nearly 800 wandb runs, we found some surprising answers. 🧵👇",
+"likeCount": 63,
+"retweetCount": 6,
+"url": "https://x.com/Vanzllll/status/2109578565893210580",
+"createdAt": "Mon Oct 12 09:34:58 +0000 2026"
+},
+{
+"userName": "ShawnSYFeng",
+"text": "Continue my Beyond-RL series, now on the unsupervised training for diffusion models! \n\nPart II: https://t.co/mMqUFiTuQ8\n\nI will go over three perspectives about diffusion models and how they lead to different unsupervised training algorithm design.\n\nTL;DR: The diffusion models are very special in terms of that all intermediates states share the same space with the final state and two nearby states should stay close, this gives us additional structure to utilize when training unsupervised diffusion models, not just using standard RL.",
+"likeCount": 262,
+"retweetCount": 38,
+"url": "https://x.com/ShawnSYFeng/status/2110156883365392498",
+"createdAt": "Tue Oct 13 23:53:00 +0000 2026"
+},
+{
+"userName": "gowthami_s",
+"text": "1/  This one is somewhat older paper (DL lifecycle wise) but I think this is an important regularization idea to combat reward hacking! I’ve personally done this (before even reading this paper) and it’s stabilizes the loss landscape. \n\nDDRL: keep training on data while doing RL. They combine reward maximization with the usual diffusion loss on real/synthetic samples. That denoising loss helps keep generations realistic as the model learns to get higher rewards.\n\nhttps://t.co/2PKj6zkGhd",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/gowthami_s/status/2110752069992734938",
+"createdAt": "Thu Oct 15 15:18:04 +0000 2026"
+},
+{
+"userName": "tom_w_hamer",
+"text": "Diffusion models are complicated to RL because many training methods that work for AR don't work well for diffusion.\n\nWe present a methodology for post-training diffusion models that combines reward-based learning with teacher guidance.\n\nThe result is more effective way to post train diffusion language models for new capabilities.\n\nThe @Celeris_ai  team will present the work at NeurIPS 2026 DiffuLM.",
+"likeCount": 18,
+"retweetCount": 5,
+"url": "https://x.com/tom_w_hamer/status/2110882045597794308",
+"createdAt": "Thu Oct 15 23:54:32 +0000 2026"
+},
+{
+"userName": "VAIBHAV22155287",
+"text": "RL post-training rewards final answers, but which steps deserve credit?\n\nAn AR LM has one left-to-right path to a given answer. A diffusion LM can reach it through many denoising paths, yet most RL methods give every step the same score, even those that hurt.\n\nSo why not simply credit each step by how much it changes the expected reward?  \n\n🧵 1/N",
+"likeCount": 4,
+"retweetCount": 5,
+"url": "https://x.com/VAIBHAV22155287/status/2110507267250397516",
+"createdAt": "Wed Oct 14 23:05:18 +0000 2026"
 },
 {
 "userName": "jrrhuang",
 "text": "#NeurIPS2026 Spotlight\n\nRL for diffusion and flow models often requires expensive rollouts.\nWe show that flow maps enable simulation-free RL finetuning.\n\nIntroducing Wasserstein-Tilted Flow Maps (WTF)! 🤩\n\nThe key is a transport-based alternative to KL regularization. 🧵 https://t.co/LD5ahh6aPK",
-"likeCount": 245,
-"retweetCount": 41,
+"likeCount": 293,
+"retweetCount": 47,
 "url": "https://x.com/jrrhuang/status/2110412722424983789",
 "createdAt": "Wed Oct 14 16:49:37 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @OpenBMB: 🚀 Introducing MiniCPM-V 4.7, our new open-source MLLM series!\nAdvancing the Performance–Efficiency Pareto Frontier.\nIt brings…",
-"likeCount": 3653,
-"retweetCount": 288,
-"url": "https://x.com/ClementDelangue/status/2109994149227139083",
-"createdAt": "Tue Oct 13 13:06:21 +0000 2026"
+"userName": "SD_Tutorial",
+"text": "Flux 3 Image Klein 🤩\nOpen Weights dropped !\n\n-5.6B open weights model\n-supports text-to-image generation +image editing\n-Finetuning supported\n-2variants (Klein &amp; Klein base) \n-Bf16/NVFP4/FP8 variants\n\n👇\nhttps://t.co/WwvaUIsvGd https://t.co/2530LKmXNG",
+"likeCount": 173,
+"retweetCount": 7,
+"url": "https://x.com/SD_Tutorial/status/2110765685026828746",
+"createdAt": "Thu Oct 15 16:12:10 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAIInfra: Today, we’re open sourcing the full NVIDIA Run:ai platform as part of the NVIDIA DSX AI Factory Platform.\n\nDevelopers, p…",
-"likeCount": 1351,
-"retweetCount": 184,
-"url": "https://x.com/ClementDelangue/status/2110040041682534593",
-"createdAt": "Tue Oct 13 16:08:43 +0000 2026"
+"text": "RT @victormustar: We made inspecting models tensors on the Hugging Face Hub up to 20× faster ⚡\n\nDeepSeek-V3.2: 9.2s → 0.45s\nGLM-5.3: 4.0s →…",
+"likeCount": 69,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2110757890415853666",
+"createdAt": "Thu Oct 15 15:41:11 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @LysandreJik: Fun addition to transformers serve: you can now turn any of the 250 LLM &amp; VLM model into a JEV-like decision model.\n\n/v1/s…",
-"likeCount": 77,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2109637029503877462",
-"createdAt": "Mon Oct 12 13:27:17 +0000 2026"
+"text": "RT @mattdeitke: Muse Spark Open is live on @huggingface! 🤗\n\n- Strong agentic model (especially for personal agents)\n- Multimodal from the g…",
+"likeCount": 131,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2110801582463787107",
+"createdAt": "Thu Oct 15 18:34:48 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AntLingAGI: Ling-3.1-flash is now open source: ~560B total parameters, ~25B active per token and up to 1M context. \nBuilt for real work…",
-"likeCount": 886,
-"retweetCount": 125,
-"url": "https://x.com/ClementDelangue/status/2110416360710774799",
-"createdAt": "Wed Oct 14 17:04:04 +0000 2026"
+"text": "RT @bindureddy: Meta should open source Meta Wonder \n\nIt’s slightly better than DeepSeek!\n\nThis would put US ahead of China in open source…",
+"likeCount": 177,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2110820734629302693",
+"createdAt": "Thu Oct 15 19:50:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AmelieTabatta: Should you waste tokens having your coding agent use grep, or hand the search to a tiny local model?\n\nWe release ColGrep…",
-"likeCount": 262,
-"retweetCount": 46,
-"url": "https://x.com/ClementDelangue/status/2109654489989005814",
-"createdAt": "Mon Oct 12 14:36:40 +0000 2026"
+"text": "RT @eliebakouch: multiple release by nvidia today, love how they compress nemotron 3.5 super to the \"perfect\" size for their specific hardw…",
+"likeCount": 212,
+"retweetCount": 20,
+"url": "https://x.com/ClementDelangue/status/2110802748509708777",
+"createdAt": "Thu Oct 15 18:39:26 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @VikParuchuri: Introducing Indra, a 1M parameter OCR model:\n\n- 49 pages/s on CPU, 11x faster than PaddleOCR and 17x Tesseract\n- Beats th…",
+"likeCount": 2899,
+"retweetCount": 254,
+"url": "https://x.com/jeremyphoward/status/2110303223211061476",
+"createdAt": "Wed Oct 14 09:34:30 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @VikParuchuri: We made a fair OCR benchmark.  And we're not ranked first.\n\nIntroducing OmniParseBench - 16k tests across 90 languages wi…",
+"likeCount": 369,
+"retweetCount": 50,
+"url": "https://x.com/jeremyphoward/status/2109217122916409389",
+"createdAt": "Sun Oct 11 09:38:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pollenrobotics: The Microduck Arena is live!\n\nTrain your duck with RL, publish it on @huggingface, and race it in the 2 m Sprint, Hill…",
-"likeCount": 195,
-"retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2109616845900685546",
-"createdAt": "Mon Oct 12 12:07:05 +0000 2026"
+"text": "RT @awnihannun: Pretty remarkable what two M5 Ultras + MLX can do now https://t.co/5MwbzEXi0W",
+"likeCount": 303,
+"retweetCount": 19,
+"url": "https://x.com/ClementDelangue/status/2110800412299391151",
+"createdAt": "Thu Oct 15 18:30:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @skupor: A good example of why open weight and open source models are important - they permit users to fine-tune specific use cases with…",
-"likeCount": 114,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2109568074416627812",
-"createdAt": "Mon Oct 12 08:53:17 +0000 2026"
+"text": "RT @robrombach: 🔥 go train your own kleine weights",
+"likeCount": 55,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2110780505956184355",
+"createdAt": "Thu Oct 15 17:11:03 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "You don't want to miss this if you're in SF Friday. Hearing there are A LOT of surprises! https://t.co/GK5eWzlcyT https://t.co/kQsC5aLjhp",
-"likeCount": 91,
+"userName": "apob_ai",
+"text": "https://t.co/n5MqVaK8u2",
+"likeCount": 23,
 "retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2110031473483071838",
-"createdAt": "Tue Oct 13 15:34:40 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @MiaAI_lab: Google's EmbeddingGemma 2 is the #1 trending model on Hugging Face right now https://t.co/wperFfQFRs",
-"likeCount": 341,
-"retweetCount": 9,
-"url": "https://x.com/ClementDelangue/status/2109865954775531609",
-"createdAt": "Tue Oct 13 04:36:57 +0000 2026"
-},
-{
-"userName": "GOATNetwork",
-"text": "https://t.co/z20Mx8J5Q9",
-"likeCount": 29,
-"retweetCount": 9,
-"url": "https://x.com/GOATNetwork/status/2110379244421267644",
-"createdAt": "Wed Oct 14 14:36:35 +0000 2026"
+"url": "https://x.com/apob_ai/status/2110658103326945293",
+"createdAt": "Thu Oct 15 09:04:40 +0000 2026"
 }
 ]

@@ -1,122 +1,98 @@
 [
 {
-"userName": "Live_life_style",
-"text": "起きて5分。まだ夢の途中。☀️\n\nFive Minutes Awake, Still Half Dreaming.\n\n秋の朝、寝癖も、散らかった部屋も、そのままで。\n\nA quiet October morning in Japan.\nNo makeup. No perfect poses. Just a sleepy little moment.\n\n※AI-generated fictional character\n\n🔽日本語・画像生成プロンプト🔽\n縦9:16、極めてフォトリアルなスマートフォン撮影風SNS日常写真。2026年10月中旬、朝7時半の日本の一般的なワンルームマンション。起床して5分ほどの23歳の架空の日本人成人女性が、乱れた白い布団の上に座り、眠そうな半目の表情で大きく背伸びしている。片腕を真上に伸ばし、もう片腕を頭の後ろに回す。黒に近いダークブラウンの無造作なミディアムヘア、寝癖、浮き毛、自然な左右非対称の顔、薄いクマ、毛穴や頬の赤みを残した素肌。健康的で自然な体型。服装は、前を開けたシワの多い白いオーバーサイズシャツ、胸元に繊細なレースと小さなリボンのあるくすみピンクの細ストラップ・リブキャミソール、アイボリーの短丈フリル付きラウンジショートパンツ。シャツは背伸びで自然に肩からずれ、リラックスした着崩れ感がある。片脚を前へ投げ出し、もう片脚を軽く曲げた無造作な座り姿勢。背景には白い壁、生成りのカーテン、観葉植物、木製の棚、マグカップ、充電ケーブル、生活用品、少し雑然とした普通の部屋。右側の窓から柔らかな秋の朝日が入り、明暗差と自然な影ができている。スマートフォンを棚に置いてセルフタイマーで撮ったような低めの目線、軽い広角感、わずかな暗部ノイズ。広告写真やグラビアではなく、飾らない日常の記録。過剰な美肌補正、スタジオ照明、不自然な体型、誘惑的なポーズ、文字、ロゴなし。\n\n🔽English Image Generation Prompt🔽\nVertical 9:16, ultra-photorealistic candid smartphone photograph. Mid-October 2026, around 7:30 AM, inside an ordinary, slightly cluttered Japanese studio apartment. A fictional 23-year-old adult Japanese woman, awake for only five minutes, sits on an unmade bed and stretches sleepily. One arm reaches straight upward while the other rests behind her head. She has naturally messy, shoulder-length dark brown hair, flyaways, uneven bangs, sleepy half-open eyes, subtly puffy cheeks, faint under-eye shadows, realistic skin pores, and a completely natural, unretouched appearance. Healthy, realistic body proportions. She wears an oversized, wrinkled white button-down shirt left open and casually slipping off one shoulder, a dusty pink ribbed camisole with delicate lace trim, thin straps and a tiny bow, and very short ivory ruffled lounge shorts. The outfit feels feminine, slightly daring, yet believable as casual at-home sleepwear. Her legs rest in an asymmetrical, relaxed seated position, one extended toward the camera and the other loosely bent. The background includes rumpled white bedding, beige curtains, wooden shelving, small houseplants, mugs, charging cables, everyday household items, and the authentic imperfections of a modest Japanese apartment. Soft autumn morning sunlight enters through a window on the right, producing gentle shadows, slightly blown-out highlights and realistic indoor exposure. Low smartphone camera perspective, subtle wide-angle distortion, mild shadow noise, natural skin texture, imperfect candid framing. An intimate everyday morning moment, not a fashion editorial or glamour shoot. No artificial beauty filters, no exaggerated anatomy, no studio lighting, no seductive posing, no text, no logos.",
-"likeCount": 15,
-"retweetCount": 2,
-"url": "https://x.com/Live_life_style/status/2110505484595991034",
-"createdAt": "Wed Oct 14 22:58:13 +0000 2026"
-},
-{
-"userName": "digitalskillsws",
-"text": "Day 7 of teaching you how to create with AI.\n\nThe secret to cinematic AI videos isn't just the prompt. It's what happens BEFORE you generate your first shot. 🎬👀\n\nSomeone asked me yesterday how to create a good storyboard, so let's talk about it!\n\nWhether you're creating a fashion film, product advert, UGC video, or AI movie, here's your simple roadmap. 👇\n\n1️⃣ Start with the idea. Know what you want to create and the story you want to tell.\n\n2️⃣ Structure your story. Give it a beginning, middle, and ending.\n\n3️⃣ Break it into shots. Decide what happens in every scene and what your audience should see.\n\n4️⃣ Direct the camera. Choose your angles, close-ups, camera movements, and transitions.\n\n5️⃣ Upload your references to ChatGPT. Include your model, character, or product images and ask it to create a shot-by-shot storyboard.\n\n6️⃣ Review before generating. Check the flow, character consistency, outfit details, and camera directions.\n\n7️⃣ Bring it to life. Use your storyboard in Google Flow, generate your shots, and edit them together in CapCut.\n\nRemember, a storyboard isn't just a collection of beautiful images. It's your visual roadmap!\n\nPlan the story before you generate the scenes. That's how you gain more control over your AI videos. 🔥\n\n💬 What's your biggest challenge: prompts, camera angles, character consistency, or video generation?\n\nTell me in the comments. Let's learn together! ❤️",
-"likeCount": 36,
-"retweetCount": 7,
-"url": "https://x.com/digitalskillsws/status/2110281314913906836",
-"createdAt": "Wed Oct 14 08:07:27 +0000 2026"
-},
-{
-"userName": "hammertime_one",
-"text": "I tried to explain Perturb in 90 seconds through one very small object: a sticker.\n\nResearchers have shown that black-and-white stickers on a real stop sign can make a research classifier read it as a 45 mph speed limit. \n\nPut the same weakness in a warehouse robot's camera and the cost lands on three people: the operator (downtime), the maker (trust), whoever is standing nearby (risk). The warehouse in the video is a fictional scenario.\n\nPerturb is the opposite bet: AI vs AI. On Bittensor Subnet 26, miners are paid to find the smallets change that flips a model's answer. Validators check that it flips and stays imperceptible. Copies earn nothing. \n\nThe customer gets a robustness score, a heatmap, verified attack data for retraining and an on-chain certificate.\n\nLive today: image-model testing. Robots, text, LLM and multimodal are future directions.\n\nAngle 13 - Robots in the real world\n\n@perturbaix #PerturbVideo",
-"likeCount": 37,
+"userName": "meAsifAi",
+"text": "🎨 Create your own professional AI character sheets with OpenArt!\n\n🔗 Made on OpenArt → https://t.co/NhJyRVL4L3\n\nPROMPT:\n# UNIVERSAL ULTRA-REALISTIC CHARACTER SHEET MASTER PROMPT\n## 16K ULTRA-HD • STRICT IDENTITY LOCK • CHARACTER CONSISTENCY • UNIVERSAL GREY BACKGROUND\n\n**REFERENCE IMAGE — PRIMARY AND AUTHORITATIVE SOURCE**\n\nUse the uploaded photograph as the primary and authoritative reference for the character's identity and appearance. Create an ultra-photorealistic, premium-quality multi-panel character reference sheet suitable for professional AI filmmaking, cinematic storytelling, animation, character development, and image-to-video or text-to-video production.\n\nThe result must resemble a professional photographic character reference board, with realistic skin, authentic materials, precise anatomy, consistent identity, and a uniform grey studio background throughout.\n\n## 1. ABSOLUTE IDENTITY PRESERVATION LOCK\n\nPreserve the exact identity of the person shown in the uploaded reference image.\n\n- Maintain the original facial structure, face shape, forehead, eyebrows, eye shape, eye spacing, nose, lips, jawline, cheekbones, ears, and chin.\n- Preserve the original skin tone, natural skin characteristics, apparent age, gender, and recognizable facial identity.\n- Maintain the exact hairstyle, hairline, hair color, hair length, texture, braids, curls, shaved patterns, and distinctive hair details.\n- Preserve visible tattoos, scars, freckles, moles, piercings, facial hair, jewelry, and other identifying features.\n- Maintain the same body type, height impression, shoulder width, limb proportions, and overall silhouette.\n- Reproduce the original clothing, colors, materials, accessories, belts, watches, necklaces, and footwear wherever visible.\n- Do not beautify, redesign, stylize, age-shift, or reinterpret the person's identity.\n- Never substitute a different or merely similar-looking person.\n\n**IDENTITY RULE:** Every panel must show the same individual. Only the viewing angle, framing, or requested facial expression may change.\n\n## 2. STRICT CHARACTER CONSISTENCY LOCK\n\nThis section applies to every panel of the character sheet and every future scene generated using the approved character reference.\n\n**Face consistency**\n- Identical facial geometry, eye spacing, nose proportions, lips, jawline, and distinctive facial asymmetry.\n- Identical hairline, hairstyle, hair color, facial hair, and identifying marks.\n- No facial redesign between front, side, back, three-quarter, and close-up views.\n\n**Body consistency**\n- Consistent body proportions, build, shoulder width, limb length, and apparent height.\n- Natural, anatomically correct posture and consistent physical characteristics.\n\n**Wardrobe consistency**\n- Identical outfit design, garment colors, fabric materials, stitching, pockets, buttons, belts, jewelry, watches, and footwear.\n- No unexplained clothing changes, missing accessories, or invented design details.\n- Back and side views must accurately correspond to the same outfit shown in the front view.\n\n**Appearance consistency**\n- Preserve skin tone, eye color when discernible, tattoos, scars, freckles, and other identifying features.\n- Maintain consistent photographic realism, color treatment, and natural material appearance.\n\n**REFERENCE HIERARCHY:** The uploaded photograph determines the person's identity. The generated character sheet establishes the visual reference for future production. In subsequent scenes, preserve the approved identity and appearance while changing only the requested pose, expression, environment, camera angle, lighting, or action.\n\n## 3. UNIVERSAL GREY STUDIO BACKGROUND LOCK\n\n**MANDATORY RULE: Every panel must use the same neutral grey studio background, regardless of the character's gender, age, appearance, hairstyle, skin tone, or wardrobe.**\n\n- Use a clean, seamless, matte medium-grey photographic studio backdrop.\n- Maintain the same grey color, tone, brightness, and visual appearance across all panels.\n- Allow only a very subtle, natural tonal gradient from studio illumination.\n- Use soft, realistic contact shadows beneath the feet in full-body views.\n- Use subtle, natural shadows around the face and body without introducing background distractions.\n- Maintain consistent background exposure, white balance, and lighting direction across the entire sheet.\n- Keep the character clearly separated from the background through realistic edge definition and subtle studio rim lighting.\n- Do not change the background color to match the character's clothing or skin tone.\n- Do not introduce colored backdrops, outdoor scenery, room interiors, furniture, props, scenery, patterns, or environmental elements.\n- Do not use a different background for portrait panels or detail panels.\n\n**UNIVERSAL BACKGROUND RULE:** The character may be any person, but the background must always remain neutral grey in every single panel. Character appearance changes according to the uploaded reference; background color does not.\n\n## 4. PROFESSIONAL MULTI-PANEL CHARACTER SHEET LAYOUT\n\nCreate one cohesive, precisely organized character reference sheet with thin, clean dividing lines, consistent spacing, and clearly separated photographic panels.\n\n**PANEL 1 — FRONT FULL-BODY VIEW**\n\nShow the character standing upright and facing the camera in a relaxed neutral pose. Display the complete outfit from head to toe, including hairstyle, accessories, hands, and footwear.\n\n**PANEL 2 — BACK FULL-BODY VIEW**\n\nShow the exact same character from directly behind. Accurately reproduce the hairstyle, clothing construction, seams, back pockets, accessories, and footwear.\n\n**PANEL 3 — SIDE PROFILE VIEW**\n\nShow the character in a complete side profile. Preserve the exact facial profile, nose shape, jawline, hairstyle, body proportions, and clothing silhouette.\n\n**PANEL 4 — THREE-QUARTER FULL-BODY VIEW**\n\nShow the character from a natural three-quarter angle. Maintain the same identity, proportions, outfit, and accessories.\n\n**PANEL 5 — EXTREME FACE DETAIL**\n\nCreate a highly detailed facial portrait showing natural skin pores, fine facial hair, individual eyelashes, realistic eyes, eyebrow strands, subtle skin imperfections, and precise facial structure.\n\n**PANEL 6 — FACIAL EXPRESSION VARIATIONS**\n\nInclude three close-up portraits of the same character with subtle expressions: neutral, thoughtful, and serious. Expressions may change naturally, but facial identity, bone structure, hairstyle, and identifying features must remain consistent.\n\n**PANEL 7 — HAIRSTYLE AND IDENTIFYING FEATURES**\n\nShow detailed close-ups of the hairstyle, hairline, braids, tattoos, scars, facial hair, piercings, or other distinguishing characteristics visible in the reference image.\n\n**PANEL 8 — COSTUME AND ACCESSORY DETAILS**\n\nInclude close-up photographic panels of relevant fabric textures, stitching, buttons, jewelry, watches, belts, pockets, and footwear. Every detail must match the same outfit shown in the full-body panels.\n\n**PANEL CONSISTENCY RULE:** All eight panel categories must depict the same character against the same neutral grey studio background, with no environmental changes.\n\n## 5. ULTRA-PHOTOREALISTIC SKIN, HAIR AND MATERIAL DETAILS\n\nCreate the visual quality of premium professional fashion photography combined with high-end cinematic production photography.\n\n**Natural skin**\n- Realistic pores, fine skin texture, subtle tonal variations, and authentic imperfections.\n- Physically believable subsurface light scattering and natural skin highlights.\n- Realistic lips, eyes, eyelashes, eyebrows, and facial hair.\n- No waxy, glossy, overly airbrushed, or plastic-looking skin.\n\n**Realistic hair**\n- Individually defined strands and natural hair density.\n- Realistic flyaway hairs, hairline details, braids, curls, and natural shadows.\n- Accurate hair texture and consistent hairstyle from every angle.\n\n**Realistic clothing and materials**\n- Clearly defined fabric weave, stitching, seams, folds, and garment tension.\n- Realistic leather grain, metal reflections, jewelry, watch glass, buttons, and footwear textures.\n- Physically believable reflections, highlights, shadows, and material responses.\n\n**Detail quality:** Prioritize genuine photographic realism, fine texture, natural anatomy, crisp edges, clean tonal transitions, and realistic material detail without artificial oversharpening.\n\n## 6. LIGHTING AND PROFESSIONAL STUDIO PHOTOGRAPHY\n\nUse a controlled professional studio lighting setup suitable for a neutral grey backdrop.\n\n- Large diffused key light for natural facial definition.\n- Soft fill light to retain details in dark clothing and shadow areas.\n- Subtle rim lighting to separate the character from the grey background.\n- Natural contact shadows beneath the feet and believable shadows around the body.\n- Accurate skin tones, balanced exposure, controlled highlights, and detailed shadow areas.\n- Consistent white balance, contrast, light direction, and color grading across every panel.\n\nAvoid harsh artificial sharpening, excessive HDR, overexposure, crushed shadows, oversaturated colors, inconsistent lighting, and unnatural skin reflections.\n\n## 7. CAMERA, FRAMING AND PANEL ACCURACY\n\n- Use realistic professional photographic perspective.\n- Keep full-body views at consistent camera height, scale, and perspective.\n- Use natural portrait framing for close-ups without distorting facial proportions.\n- Keep every panel precisely aligned with clean, thin dividing lines.\n- Show the entire character in all full-body views, including the head and footwear.\n- Maintain sufficient spacing between panels.\n- Avoid overlapping images, cut-off limbs, and cropped identifying details.\n- Ensure the complete character sheet is clean, balanced, readable, and useful as a visual reference for subsequent image and video generation.\n- Preserve realistic anatomy and proportions in every view.\n\n## 8. MAXIMUM PHOTOREALISM AND IMAGE QUALITY LOCK\n\nGenerate the highest-quality photographic image supported by the image-generation tool.\n\nPrioritize:\n- Exceptional facial clarity and identity accuracy.\n- Fine skin pores, hair strands, and fabric textures.\n- Crisp edges and detailed accessories.\n- Accurate anatomy and natural proportions.\n- Realistic lighting, shadows, reflections, and material surfaces.\n- Clean panel boundaries and consistent grey backgrounds.\n- Smooth tonal transitions and professional cinematic color grading.\n\nAvoid pixelation, compression artifacts, repeated artificial textures, jagged edges, blurry faces, oversharpening halos, color banding, excessive noise, and loss of fine detail.\n\n## 9. RESOLUTION LOCK — 16K ULTRA-HD\n\n**RESOLUTION LOCK:** Generate the final image in **16K resolution — 15360 × 8640 pixels (≈132.7 million pixels), 16:9 aspect ratio**. Preserve maximum possible detail, sharpness, texture, fine edges, realistic skin and material details, with no cropping, stretching, compression, pixelation, or loss of quality. Maintain the exact composition and framing of the reference image while rendering at true 16K quality.\n\n- The complete character sheet must use a 16:9 canvas.\n- Arrange all panels intelligently within the canvas so every view remains visible and correctly proportioned.\n- Do not stretch individual panels or distort the character to fill the frame.\n- Prioritize the highest available native resolution.\n- If the image-generation tool cannot directly produce 15360 × 8640 pixels, generate at the highest supported resolution and use a high-quality upscaling workflow to reach the specified dimensions.\n- Upscaling must preserve the original facial identity, anatomy, clothing, and panel composition without introducing inconsistent features.\n\n**QUALITY PRIORITY:** High-resolution detail must never come at the expense of identity preservation, natural anatomy, or character consistency.\n\n## 10. STRICT NEGATIVE CONSTRAINTS\n\nNo identity drift, no face swapping, no different faces between panels, no inconsistent hairstyle, no changing tattoos, no inconsistent wardrobe, no altered body proportions, no duplicate facial features, no extra fingers, no extra limbs, no malformed hands, no distorted anatomy, no unnatural joints, no missing accessories, no floating objects, no blurry facial details, no plastic skin, no cartoon appearance, no painterly rendering, no artificial 3D-model appearance, no colored backgrounds, no outdoor scenery, no room interiors, no inconsistent grey tones, no overlapping panels, no cropped full-body views, no random text, no watermark.\n\n## 11. FINAL MASTER INSTRUCTION\n\nCreate a single, ultra-realistic, premium-quality 16:9 character reference sheet that establishes the definitive visual identity of the person in the uploaded photograph.\n\nEvery panel must represent the same individual from a different viewing angle, expression, or detail view. Preserve exact identity, facial geometry, hairstyle, body proportions, clothing, accessories, and distinctive features.\n\n**The background must remain the same neutral medium-grey studio backdrop in every panel, regardless of which character is uploaded.**\n\nThe finished sheet must be suitable for reuse as the master visual reference for future AI-generated images, storyboards, cinematic scenes, and image-to-video or text-to-video productions.\n\n### FINAL PRIORITY ORDER\n\n1. Exact identity preservation.\n2. Strict character consistency across all panels.\n3. Identical neutral grey studio background throughout.\n4. Accurate facial anatomy and natural skin texture.\n5. Consistent hairstyle, wardrobe, accessories, and body proportions.\n6. Complete, clean, professionally organized character-sheet composition.\n7. Maximum available resolution and photorealistic detail.",
+"likeCount": 5,
 "retweetCount": 1,
-"url": "https://x.com/hammertime_one/status/2110375300336935103",
-"createdAt": "Wed Oct 14 14:20:55 +0000 2026"
+"url": "https://x.com/meAsifAi/status/2110329040175346082",
+"createdAt": "Wed Oct 14 11:17:05 +0000 2026"
 },
 {
-"userName": "ShawnSYFeng",
-"text": "Continue my Beyond-RL series, now on the unsupervised training for diffusion models! \n\nPart II: https://t.co/mMqUFiTuQ8\n\nI will go over three perspectives about diffusion models and how they lead to different unsupervised training algorithm design.\n\nTL;DR: The diffusion models are very special in terms of that all intermediates states share the same space with the final state and two nearby states should stay close, this gives us additional structure to utilize when training unsupervised diffusion models, not just using standard RL.",
-"likeCount": 256,
-"retweetCount": 37,
-"url": "https://x.com/ShawnSYFeng/status/2110156883365392498",
-"createdAt": "Tue Oct 13 23:53:00 +0000 2026"
+"userName": "MervinPraison",
+"text": "DiffusionART just landed\n\nRL fine-tuning for diffusion models, no EMA tuning. On HunyuanVideo-13B it hits DiffusionNFT's reward with 12x fewer GPU hours.\n\nCode and checkpoints are out, so it's testable.\nPost-training just got cheaper, if it replica\n\nLink in the first reply below. https://t.co/6CRnz9lrWg",
+"likeCount": 2,
+"retweetCount": 2,
+"url": "https://x.com/MervinPraison/status/2109724812931191293",
+"createdAt": "Mon Oct 12 19:16:06 +0000 2026"
 },
 {
-"userName": "SunshinesDeluxe",
-"text": "The second biggest issue of using ai in fashion, is that these are impossible fits and textures that don’t exist IRL and are a misrepresentation of the clothes. Never minding the massive theft and harm of generative AI. But these clothes literally don’t exist in this context.",
-"likeCount": 1108,
-"retweetCount": 64,
-"url": "https://x.com/SunshinesDeluxe/status/2108644960530751622",
-"createdAt": "Fri Oct 09 19:45:09 +0000 2026"
+"userName": "junfanzhu98",
+"text": "🤖 #IROS2026: Humanoids don’t just need more data—they need physics grounding.\n\n12 🔥 takeaways from @GuanyaShi (@CMU_Robotics, @Amazon): what's the role of sim in the Astra era, why better references beat reward hacks, and what comes after motion tracking https://t.co/7YlTruaoZB",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/junfanzhu98/status/2110064285619802410",
+"createdAt": "Tue Oct 13 17:45:03 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @adithya_s_k: Introducing the largest open-source multilingual, multimodal RL environments 🌍\n\n📄 OCR: 1M+ document pages in 22 languages…",
-"likeCount": 676,
-"retweetCount": 73,
-"url": "https://x.com/ClementDelangue/status/2110374696579371472",
-"createdAt": "Wed Oct 14 14:18:31 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @NVIDIARTXSpark: llama.cpp now has a Windows app 🦙\n\nLlama Windows makes it easy to run models locally, with optimizations for NVIDIA RTX…",
-"likeCount": 536,
-"retweetCount": 82,
-"url": "https://x.com/ClementDelangue/status/2110418966183399547",
-"createdAt": "Wed Oct 14 17:14:25 +0000 2026"
+"userName": "HuggingModels",
+"text": "Meet Muse-Spark-Open-816B-A42B: a massive open image-text-to-text model from Meta. With 816B parameters, it's built for rich, conversational AI that sees and understands images. A big step for open multimodal research. https://t.co/RzKapw3PbW",
+"likeCount": 7,
+"retweetCount": 0,
+"url": "https://x.com/HuggingModels/status/2110828311731708354",
+"createdAt": "Thu Oct 15 20:21:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @yb2698: Pi harness optimized for Qwen models? 👀\n\nWe tried to optimize the Pi harness for Qwen model series by trying to tweaking variou…",
-"likeCount": 61,
-"retweetCount": 15,
-"url": "https://x.com/ClementDelangue/status/2109666145481670848",
-"createdAt": "Mon Oct 12 15:22:59 +0000 2026"
+"text": "RT @bfl_ai: FLUX 3 Image Klein is here.\n\nOpen Weights with the quality of a large frontier model. Customizable and fast.\n\n5.6B parameters a…",
+"likeCount": 2961,
+"retweetCount": 359,
+"url": "https://x.com/ClementDelangue/status/2110762631711633807",
+"createdAt": "Thu Oct 15 16:00:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @googlegemma: How good are your sketching skills? Let an embedding model be the judge.\n\nPick a target object, start sketching, and watch…",
-"likeCount": 387,
-"retweetCount": 36,
-"url": "https://x.com/ClementDelangue/status/2109700418427392033",
-"createdAt": "Mon Oct 12 17:39:10 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @NVIDIAAIInfra: France's AI ecosystem has moved from ambition to application, from the factory floor to orbit. \n\nAhead of #NVIDIAGTC Ber…",
-"likeCount": 147,
+"text": "llama serve -hf ggml-org/Muse-Spark-Open-816B-A42B-GGUF:Q2_K (on two mac studios). \n\nWell done @finkd &amp; @johnternus! https://t.co/Kjl7qbPV52",
+"likeCount": 282,
 "retweetCount": 26,
-"url": "https://x.com/ClementDelangue/status/2110038683307176317",
-"createdAt": "Tue Oct 13 16:03:19 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2110791576435794339",
+"createdAt": "Thu Oct 15 17:55:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @AIatMeta: @TheINAOG The open weights for Muse Spark are coming soon, Muse Wonder models are large models that are too big for many peop…",
-"likeCount": 676,
-"retweetCount": 46,
-"url": "https://x.com/ClementDelangue/status/2110029026567848279",
-"createdAt": "Tue Oct 13 15:24:57 +0000 2026"
+"text": "RT @PrimeIntellect: Together with NVIDIA we post-trained Nemotron 3.5 Super VL on thousands of tasks\n\nReflecting enterprise workflows in sa…",
+"likeCount": 320,
+"retweetCount": 41,
+"url": "https://x.com/ClementDelangue/status/2110786295094181959",
+"createdAt": "Thu Oct 15 17:34:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Two announcements today for the visit of @JensenHuang in France:  \n\nhttps://t.co/X5YVevcHKG with @Inria\n\nhttps://t.co/TdT38Q9zny by @nvidia",
+"text": "RT @jeffboudier: On Friday I will not give a duck. \nBut you can come play with it!\n\nThanks @romainhuet for giving a duck.\nNo thanks given t…",
 "likeCount": 26,
-"retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2110038387360923744",
-"createdAt": "Tue Oct 13 16:02:08 +0000 2026"
+"retweetCount": 2,
+"url": "https://x.com/ClementDelangue/status/2110723230394716418",
+"createdAt": "Thu Oct 15 13:23:28 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @bradneuberg: I’m very pro AI, but in terms of the Twitter software engineering discourse I see mostly people doing single person vibe c…",
+"likeCount": 484,
+"retweetCount": 20,
+"url": "https://x.com/jeremyphoward/status/2110795718302880087",
+"createdAt": "Thu Oct 15 18:11:30 +0000 2026"
+},
+{
+"userName": "AerieSaunders",
+"text": "Here's my \"tool belt\" of creator software and tools to make my life easier. Did I miss anything? https://t.co/2Gv4m2QTVd",
+"likeCount": 9,
+"retweetCount": 0,
+"url": "https://x.com/AerieSaunders/status/2110902797264678979",
+"createdAt": "Fri Oct 16 01:17:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @victormustar: Drama-3 weights are available on the Hugging Face Hub 🔥 (+ official demo 👇) https://t.co/OFJe19quYM",
-"likeCount": 246,
-"retweetCount": 16,
-"url": "https://x.com/ClementDelangue/status/2110418045869199370",
-"createdAt": "Wed Oct 14 17:10:46 +0000 2026"
+"text": "Meta is back! https://t.co/F6draDnjfF https://t.co/DMaDoh1wEP",
+"likeCount": 900,
+"retweetCount": 44,
+"url": "https://x.com/ClementDelangue/status/2110786602805195191",
+"createdAt": "Thu Oct 15 17:35:17 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @ivanfioravanti: True 👉 \"The barrier is a lot lower than you think.\"",
-"likeCount": 54,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2109568292373540905",
-"createdAt": "Mon Oct 12 08:54:09 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "😂 faceplant at 0:50 https://t.co/lFgHoIpVnr",
-"likeCount": 60,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2109676163333554684",
-"createdAt": "Mon Oct 12 16:02:47 +0000 2026"
+"userName": "Ambani_Wessley",
+"text": "https://t.co/2hEZpLV8hZ",
+"likeCount": 74,
+"retweetCount": 76,
+"url": "https://x.com/Ambani_Wessley/status/2110787065260761504",
+"createdAt": "Thu Oct 15 17:37:07 +0000 2026"
 }
 ]
