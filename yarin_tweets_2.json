@@ -1,72 +1,136 @@
 [
 {
-"userName": "meAsifAi",
-"text": "🎨 Create your own professional AI character sheets with OpenArt!\n\n🔗 Made on OpenArt → https://t.co/NhJyRVL4L3\n\nPROMPT:\n# UNIVERSAL ULTRA-REALISTIC CHARACTER SHEET MASTER PROMPT\n## 16K ULTRA-HD • STRICT IDENTITY LOCK • CHARACTER CONSISTENCY • UNIVERSAL GREY BACKGROUND\n\n**REFERENCE IMAGE — PRIMARY AND AUTHORITATIVE SOURCE**\n\nUse the uploaded photograph as the primary and authoritative reference for the character's identity and appearance. Create an ultra-photorealistic, premium-quality multi-panel character reference sheet suitable for professional AI filmmaking, cinematic storytelling, animation, character development, and image-to-video or text-to-video production.\n\nThe result must resemble a professional photographic character reference board, with realistic skin, authentic materials, precise anatomy, consistent identity, and a uniform grey studio background throughout.\n\n## 1. ABSOLUTE IDENTITY PRESERVATION LOCK\n\nPreserve the exact identity of the person shown in the uploaded reference image.\n\n- Maintain the original facial structure, face shape, forehead, eyebrows, eye shape, eye spacing, nose, lips, jawline, cheekbones, ears, and chin.\n- Preserve the original skin tone, natural skin characteristics, apparent age, gender, and recognizable facial identity.\n- Maintain the exact hairstyle, hairline, hair color, hair length, texture, braids, curls, shaved patterns, and distinctive hair details.\n- Preserve visible tattoos, scars, freckles, moles, piercings, facial hair, jewelry, and other identifying features.\n- Maintain the same body type, height impression, shoulder width, limb proportions, and overall silhouette.\n- Reproduce the original clothing, colors, materials, accessories, belts, watches, necklaces, and footwear wherever visible.\n- Do not beautify, redesign, stylize, age-shift, or reinterpret the person's identity.\n- Never substitute a different or merely similar-looking person.\n\n**IDENTITY RULE:** Every panel must show the same individual. Only the viewing angle, framing, or requested facial expression may change.\n\n## 2. STRICT CHARACTER CONSISTENCY LOCK\n\nThis section applies to every panel of the character sheet and every future scene generated using the approved character reference.\n\n**Face consistency**\n- Identical facial geometry, eye spacing, nose proportions, lips, jawline, and distinctive facial asymmetry.\n- Identical hairline, hairstyle, hair color, facial hair, and identifying marks.\n- No facial redesign between front, side, back, three-quarter, and close-up views.\n\n**Body consistency**\n- Consistent body proportions, build, shoulder width, limb length, and apparent height.\n- Natural, anatomically correct posture and consistent physical characteristics.\n\n**Wardrobe consistency**\n- Identical outfit design, garment colors, fabric materials, stitching, pockets, buttons, belts, jewelry, watches, and footwear.\n- No unexplained clothing changes, missing accessories, or invented design details.\n- Back and side views must accurately correspond to the same outfit shown in the front view.\n\n**Appearance consistency**\n- Preserve skin tone, eye color when discernible, tattoos, scars, freckles, and other identifying features.\n- Maintain consistent photographic realism, color treatment, and natural material appearance.\n\n**REFERENCE HIERARCHY:** The uploaded photograph determines the person's identity. The generated character sheet establishes the visual reference for future production. In subsequent scenes, preserve the approved identity and appearance while changing only the requested pose, expression, environment, camera angle, lighting, or action.\n\n## 3. UNIVERSAL GREY STUDIO BACKGROUND LOCK\n\n**MANDATORY RULE: Every panel must use the same neutral grey studio background, regardless of the character's gender, age, appearance, hairstyle, skin tone, or wardrobe.**\n\n- Use a clean, seamless, matte medium-grey photographic studio backdrop.\n- Maintain the same grey color, tone, brightness, and visual appearance across all panels.\n- Allow only a very subtle, natural tonal gradient from studio illumination.\n- Use soft, realistic contact shadows beneath the feet in full-body views.\n- Use subtle, natural shadows around the face and body without introducing background distractions.\n- Maintain consistent background exposure, white balance, and lighting direction across the entire sheet.\n- Keep the character clearly separated from the background through realistic edge definition and subtle studio rim lighting.\n- Do not change the background color to match the character's clothing or skin tone.\n- Do not introduce colored backdrops, outdoor scenery, room interiors, furniture, props, scenery, patterns, or environmental elements.\n- Do not use a different background for portrait panels or detail panels.\n\n**UNIVERSAL BACKGROUND RULE:** The character may be any person, but the background must always remain neutral grey in every single panel. Character appearance changes according to the uploaded reference; background color does not.\n\n## 4. PROFESSIONAL MULTI-PANEL CHARACTER SHEET LAYOUT\n\nCreate one cohesive, precisely organized character reference sheet with thin, clean dividing lines, consistent spacing, and clearly separated photographic panels.\n\n**PANEL 1 — FRONT FULL-BODY VIEW**\n\nShow the character standing upright and facing the camera in a relaxed neutral pose. Display the complete outfit from head to toe, including hairstyle, accessories, hands, and footwear.\n\n**PANEL 2 — BACK FULL-BODY VIEW**\n\nShow the exact same character from directly behind. Accurately reproduce the hairstyle, clothing construction, seams, back pockets, accessories, and footwear.\n\n**PANEL 3 — SIDE PROFILE VIEW**\n\nShow the character in a complete side profile. Preserve the exact facial profile, nose shape, jawline, hairstyle, body proportions, and clothing silhouette.\n\n**PANEL 4 — THREE-QUARTER FULL-BODY VIEW**\n\nShow the character from a natural three-quarter angle. Maintain the same identity, proportions, outfit, and accessories.\n\n**PANEL 5 — EXTREME FACE DETAIL**\n\nCreate a highly detailed facial portrait showing natural skin pores, fine facial hair, individual eyelashes, realistic eyes, eyebrow strands, subtle skin imperfections, and precise facial structure.\n\n**PANEL 6 — FACIAL EXPRESSION VARIATIONS**\n\nInclude three close-up portraits of the same character with subtle expressions: neutral, thoughtful, and serious. Expressions may change naturally, but facial identity, bone structure, hairstyle, and identifying features must remain consistent.\n\n**PANEL 7 — HAIRSTYLE AND IDENTIFYING FEATURES**\n\nShow detailed close-ups of the hairstyle, hairline, braids, tattoos, scars, facial hair, piercings, or other distinguishing characteristics visible in the reference image.\n\n**PANEL 8 — COSTUME AND ACCESSORY DETAILS**\n\nInclude close-up photographic panels of relevant fabric textures, stitching, buttons, jewelry, watches, belts, pockets, and footwear. Every detail must match the same outfit shown in the full-body panels.\n\n**PANEL CONSISTENCY RULE:** All eight panel categories must depict the same character against the same neutral grey studio background, with no environmental changes.\n\n## 5. ULTRA-PHOTOREALISTIC SKIN, HAIR AND MATERIAL DETAILS\n\nCreate the visual quality of premium professional fashion photography combined with high-end cinematic production photography.\n\n**Natural skin**\n- Realistic pores, fine skin texture, subtle tonal variations, and authentic imperfections.\n- Physically believable subsurface light scattering and natural skin highlights.\n- Realistic lips, eyes, eyelashes, eyebrows, and facial hair.\n- No waxy, glossy, overly airbrushed, or plastic-looking skin.\n\n**Realistic hair**\n- Individually defined strands and natural hair density.\n- Realistic flyaway hairs, hairline details, braids, curls, and natural shadows.\n- Accurate hair texture and consistent hairstyle from every angle.\n\n**Realistic clothing and materials**\n- Clearly defined fabric weave, stitching, seams, folds, and garment tension.\n- Realistic leather grain, metal reflections, jewelry, watch glass, buttons, and footwear textures.\n- Physically believable reflections, highlights, shadows, and material responses.\n\n**Detail quality:** Prioritize genuine photographic realism, fine texture, natural anatomy, crisp edges, clean tonal transitions, and realistic material detail without artificial oversharpening.\n\n## 6. LIGHTING AND PROFESSIONAL STUDIO PHOTOGRAPHY\n\nUse a controlled professional studio lighting setup suitable for a neutral grey backdrop.\n\n- Large diffused key light for natural facial definition.\n- Soft fill light to retain details in dark clothing and shadow areas.\n- Subtle rim lighting to separate the character from the grey background.\n- Natural contact shadows beneath the feet and believable shadows around the body.\n- Accurate skin tones, balanced exposure, controlled highlights, and detailed shadow areas.\n- Consistent white balance, contrast, light direction, and color grading across every panel.\n\nAvoid harsh artificial sharpening, excessive HDR, overexposure, crushed shadows, oversaturated colors, inconsistent lighting, and unnatural skin reflections.\n\n## 7. CAMERA, FRAMING AND PANEL ACCURACY\n\n- Use realistic professional photographic perspective.\n- Keep full-body views at consistent camera height, scale, and perspective.\n- Use natural portrait framing for close-ups without distorting facial proportions.\n- Keep every panel precisely aligned with clean, thin dividing lines.\n- Show the entire character in all full-body views, including the head and footwear.\n- Maintain sufficient spacing between panels.\n- Avoid overlapping images, cut-off limbs, and cropped identifying details.\n- Ensure the complete character sheet is clean, balanced, readable, and useful as a visual reference for subsequent image and video generation.\n- Preserve realistic anatomy and proportions in every view.\n\n## 8. MAXIMUM PHOTOREALISM AND IMAGE QUALITY LOCK\n\nGenerate the highest-quality photographic image supported by the image-generation tool.\n\nPrioritize:\n- Exceptional facial clarity and identity accuracy.\n- Fine skin pores, hair strands, and fabric textures.\n- Crisp edges and detailed accessories.\n- Accurate anatomy and natural proportions.\n- Realistic lighting, shadows, reflections, and material surfaces.\n- Clean panel boundaries and consistent grey backgrounds.\n- Smooth tonal transitions and professional cinematic color grading.\n\nAvoid pixelation, compression artifacts, repeated artificial textures, jagged edges, blurry faces, oversharpening halos, color banding, excessive noise, and loss of fine detail.\n\n## 9. RESOLUTION LOCK — 16K ULTRA-HD\n\n**RESOLUTION LOCK:** Generate the final image in **16K resolution — 15360 × 8640 pixels (≈132.7 million pixels), 16:9 aspect ratio**. Preserve maximum possible detail, sharpness, texture, fine edges, realistic skin and material details, with no cropping, stretching, compression, pixelation, or loss of quality. Maintain the exact composition and framing of the reference image while rendering at true 16K quality.\n\n- The complete character sheet must use a 16:9 canvas.\n- Arrange all panels intelligently within the canvas so every view remains visible and correctly proportioned.\n- Do not stretch individual panels or distort the character to fill the frame.\n- Prioritize the highest available native resolution.\n- If the image-generation tool cannot directly produce 15360 × 8640 pixels, generate at the highest supported resolution and use a high-quality upscaling workflow to reach the specified dimensions.\n- Upscaling must preserve the original facial identity, anatomy, clothing, and panel composition without introducing inconsistent features.\n\n**QUALITY PRIORITY:** High-resolution detail must never come at the expense of identity preservation, natural anatomy, or character consistency.\n\n## 10. STRICT NEGATIVE CONSTRAINTS\n\nNo identity drift, no face swapping, no different faces between panels, no inconsistent hairstyle, no changing tattoos, no inconsistent wardrobe, no altered body proportions, no duplicate facial features, no extra fingers, no extra limbs, no malformed hands, no distorted anatomy, no unnatural joints, no missing accessories, no floating objects, no blurry facial details, no plastic skin, no cartoon appearance, no painterly rendering, no artificial 3D-model appearance, no colored backgrounds, no outdoor scenery, no room interiors, no inconsistent grey tones, no overlapping panels, no cropped full-body views, no random text, no watermark.\n\n## 11. FINAL MASTER INSTRUCTION\n\nCreate a single, ultra-realistic, premium-quality 16:9 character reference sheet that establishes the definitive visual identity of the person in the uploaded photograph.\n\nEvery panel must represent the same individual from a different viewing angle, expression, or detail view. Preserve exact identity, facial geometry, hairstyle, body proportions, clothing, accessories, and distinctive features.\n\n**The background must remain the same neutral medium-grey studio backdrop in every panel, regardless of which character is uploaded.**\n\nThe finished sheet must be suitable for reuse as the master visual reference for future AI-generated images, storyboards, cinematic scenes, and image-to-video or text-to-video productions.\n\n### FINAL PRIORITY ORDER\n\n1. Exact identity preservation.\n2. Strict character consistency across all panels.\n3. Identical neutral grey studio background throughout.\n4. Accurate facial anatomy and natural skin texture.\n5. Consistent hairstyle, wardrobe, accessories, and body proportions.\n6. Complete, clean, professionally organized character-sheet composition.\n7. Maximum available resolution and photorealistic detail.",
-"likeCount": 5,
-"retweetCount": 1,
-"url": "https://x.com/meAsifAi/status/2110329040175346082",
-"createdAt": "Wed Oct 14 11:17:05 +0000 2026"
-},
-{
-"userName": "MervinPraison",
-"text": "DiffusionART just landed\n\nRL fine-tuning for diffusion models, no EMA tuning. On HunyuanVideo-13B it hits DiffusionNFT's reward with 12x fewer GPU hours.\n\nCode and checkpoints are out, so it's testable.\nPost-training just got cheaper, if it replica\n\nLink in the first reply below. https://t.co/6CRnz9lrWg",
-"likeCount": 2,
-"retweetCount": 2,
-"url": "https://x.com/MervinPraison/status/2109724812931191293",
-"createdAt": "Mon Oct 12 19:16:06 +0000 2026"
-},
-{
-"userName": "junfanzhu98",
-"text": "🤖 #IROS2026: Humanoids don’t just need more data—they need physics grounding.\n\n12 🔥 takeaways from @GuanyaShi (@CMU_Robotics, @Amazon): what's the role of sim in the Astra era, why better references beat reward hacks, and what comes after motion tracking https://t.co/7YlTruaoZB",
+"userName": "Junioryu136689",
+"text": "RFdiffusion3 is now a Science paper—and someone just showed how to poison the corpora that train protein designers.\n\nBioTender Daily Papers #81: 6 new papers (arXiv 5 + Science 1) across 3 directions.\n\n🧬 All-atom protein design & data-supply-chain security\n• RFdiffusion3: puts backbone, side chains, and non-protein atoms (ligands, nucleic acids) in one all-atom diffusion frame so designs can take fine constraints (active sites, H-bonds, geometry, symmetry) up front. Reports better compute-benchmark design at lower inference cost, with experimental characterization of DNA-binding proteins and cysteine hydrolases — now peer-reviewed Science; wet success rates still vary by task and need case-by-case screens\n• Poisoning protein-design corpora: attacks that contaminate autoregressive PLM pretraining data or only insert records into a text-guided generator’s retrieval store—no inference-code change needed—can make trigger words elicit preset sequences/domains. Stable triggers reported on ProtGPT2, ProGen2 variants, and retrieval-augmented systems while normal inputs look fine — arXiv preprint; needs reproduction on real large models and production DBs, but elevates provenance, signing, and corpus audit as design-safety problems\n\n🧬 Panoramic single-cell modeling & EEG–text semantic alignment\n• CellNet: encodes DNA-derived gene identity + measured RNA into a shared image-like representation to ease the high-frequency / limited-gene coverage of sc foundation models. Pretrained on 40 species, 231M cell profiles; evaluated on rare populations, condition-linked states, and missing-expression prediction, including masked coding genes and some noncoding targets, plus spatial and cross-species lineage patterns — arXiv preprint; watch database overlap, species skew, external zero-shot checks, and dedup\n• EEG–text contrastive alignment for imagined speech: aligns EEG with a frozen text encoder’s semantic space (not 39 independent labels); EEG encoder learns EEG–sentence matching + text-prototype classification, with max cosine similarity as an internal reliability score. Fixed-class decoding ~dedicated classifiers, plus similarity retrieval / semantic-axis analysis on unseen candidate sentences — arXiv preprint; n=5 subjects; EMG, timing, and individual differences limit claims for open-vocab BCI\n\n🌳 Long-horizon bioinformatics agents & clinical text extraction\n• OmicsBench: research-scale multi-turn agent eval — 97 tasks → 662 interdependent subtasks in DAG order, deterministic answer keys, optional post-error context to test recovery. Across 12 models × 3 frameworks, best setups still far from saturated; steps that depend on prior results fail more; common failures include silently swapping statistical filters and hallucinating whole answers from memory — arXiv preprint; long-horizon, dependency-aware design exposes reproducibility gaps better than one-shot Q&A\n• Dual-LLM consensus pipeline for Trofinetide phenotypes in Rett syndrome: from 108 patients on continuous trofinetide and 26,763 clinical notes, extracts 18 treatment-related phenotype classes via keyword screen → two-model agreement → patient–timepoint matrix. Architecture/prompts chosen only on a diarrhea development set, then frozen and transferred; expert spot-checks reported high agreement — arXiv preprint; measures whether a visit note records a phenotype, not clinical improvement; single-center, small labeled set, documentation bias\n\nThe common thread:\nCapability is racing ahead of trust infrastructure. Peer-reviewed all-atom design sits next to corpus poisoning; panoramic sc models and EEG semantics next to agent evals that still break on long DAGs; clinical LLM pipelines that agree on documentation, not outcomes.\n\nFrom Science-grade all-atom design → poisoned corpora → panoramic cells + imagined-speech EEG → long-horizon omics agents + dual-LLM clinical phenotyping.\n\n🔗 https://t.co/kKxT57mapZ\n\n#AIforScience #ProteinDesign #ComputationalBiology",
 "likeCount": 10,
 "retweetCount": 2,
-"url": "https://x.com/junfanzhu98/status/2110064285619802410",
-"createdAt": "Tue Oct 13 17:45:03 +0000 2026"
+"url": "https://x.com/Junioryu136689/status/2111088671692673157",
+"createdAt": "Fri Oct 16 13:35:36 +0000 2026"
 },
 {
-"userName": "HuggingModels",
-"text": "Meet Muse-Spark-Open-816B-A42B: a massive open image-text-to-text model from Meta. With 816B parameters, it's built for rich, conversational AI that sees and understands images. A big step for open multimodal research. https://t.co/RzKapw3PbW",
-"likeCount": 7,
+"userName": "rirahcreates",
+"text": "AI VIDEO CREATORS, HAVE YOU EVER CONSIDERED SELLING SHORT ADVERTISING JINGLES TO BUSINESSES? 😭🔥\n\nNot every advertisement needs a long voiceover.\n\nSometimes, a short, memorable musical message can make a brand's content more interesting.\n\nAnd when you combine AI music tools with AI video creation, you can explore an entirely different service.\n\nLet me show you how.\n\nImagine a restaurant launching a new meal combo.\n\nInstead of creating an ordinary product advertisement, you develop a catchy 15-second musical commercial.\n\nThe food is beautifully presented.\n\nThere's a fun, original jingle.\n\nThe restaurant's name is clearly communicated.\n\nAnd the video ends with the actual offer and ordering information.\n\nNow imagine doing something similar for:\n\n- Fashion brands\n- Restaurants\n- Schools\n- Retail stores\n- E-commerce businesses\n- Event organizers\n\nHere's how to start.\n\nSTEP 1: Learn how advertising jingles are structured.\n\nA good jingle should communicate a brand's message, not just sound entertaining.\n\nSTEP 2: Practice writing short, original advertising lyrics.\n\nSTEP 3: Use appropriately licensed music and audio tools to develop your sound.\n\nSTEP 4: Combine the music with a well-directed AI video advertisement.\n\nSTEP 5: Build three demonstration commercials for fictional brands.\n\nThen research businesses that might be interested in this style of advertising.\n\nYou can offer:\n\nA 15-second musical advertisement.\n\nA 30-second brand commercial.\n\nOr a collection of short promotional jingles.\n\nCheck the commercial rights for every music and voice-generation tool you use. Don't imitate famous artists or copy recognizable songs without permission.\n\nHere's the opportunity:\n\nYOU CAN COMBINE STORYTELLING, MUSIC, VIDEO PRODUCTION, AND ADVERTISING INTO ONE CREATIVE SERVICE.\n\nThe more clearly you define what you're offering, the easier it becomes for a potential client to understand its value.\n\nBookmark this post.\n\nFollow RirahCreates for more AI content creation business ideas.",
+"likeCount": 29,
+"retweetCount": 1,
+"url": "https://x.com/rirahcreates/status/2110111398936154275",
+"createdAt": "Tue Oct 13 20:52:16 +0000 2026"
+},
+{
+"userName": "hey_SpencerAI",
+"text": "1. OpenClaw — An open-source computer-use agent that can actually operate your computer.    🔗 https://t.co/d4hAWSsRj5…\n\n2. Hermes — An open-source AI agent built around persistent skills and autonomous workflows.\n🔗 https://t.co/hIHm6vZYKg…\n\n3. Agent Zero — A local, self-improving agent that can create tools and delegate subtasks.\n🔗 https://t.co/shZuORGZAn…\n\n4. Firecrawl — Turn almost any website into clean, AI-ready data for agents and research.\n🔗 https://t.co/LCOFc6I03b\n\n5. Gumloop — Build surprisingly powerful AI automations without needing to code everything yourself.\n🔗 https://t.co/F5rRAwdWMU\n\n6. Browser Use — Give an AI agent a browser and let it navigate websites and complete tasks.\n🔗 https://t.co/7nyHPAwZhR\n\n7. SurfSense — An open-source AI research/knowledge system that can connect information from different sources.\n🔗 https://t.co/FNfprgMY4D…\n\n8. Scrapybara — Give AI agents full virtual computers they can interact with.\n🔗 https://t.co/ofn4raIKZS\n\n9. Jina Reader — Turn messy webpages into clean text that AI models can actually understand.\n🔗 https://t.co/dKpCTYOahb\n\n10. AnythingLLM — Run your own private AI workspace and chat with your documents locally.\n🔗 https://t.co/IBWICTh7fD\n\n11. Open WebUI — Build a ChatGPT-like interface around local and remote AI models.\n🔗 https://t.co/Zgr5c9EGJ4\n\n12. ComfyUI — A node-based AI workflow system that lets you build extremely advanced image/video pipelines.\n🔗 https://t.co/qkf3taZoc1…\n\n13. PimEyes — AI-powered face-search technology that can find where a face appears online. Use responsibly and respect privacy.\n🔗 https://t.co/3bPtGzI6qg\n\n14. Goblin Tools — Break overwhelming tasks into tiny actionable steps with AI. Surprisingly useful despite its simple interface.\n🔗 https://t.co/rbKc1ssnsB\n\n15. Continue — An open-source AI coding environment that lets you bring your own models into your development workflow.\n🔗 https://t.co/f5ME1ZTUkN",
+"likeCount": 35,
+"retweetCount": 28,
+"url": "https://x.com/hey_SpencerAI/status/2111168277515051313",
+"createdAt": "Fri Oct 16 18:51:55 +0000 2026"
+},
+{
+"userName": "JohnSmith5912",
+"text": "Generated by chatgpt @ChatGPT \n\nImage Generation Prompt:\n\nCreate an ultra-realistic, high-resolution portrait of a beautiful young adult woman sitting gracefully on a bed in a cozy, elegant bedroom. She has long, dark brown hair styled in a loose, messy updo with soft face-framing strands, expressive brown eyes, natural makeup, a delicate nose ring, and a gentle, charming smile. She wears traditional gold jhumka earrings and a subtle bracelet.\n\nShe is dressed in a beautiful muted sage-green saree featuring intricate cream-colored floral prints, delicate ornamental patterns, and an embroidered decorative border. The saree is draped elegantly over one shoulder, with natural fabric folds and finely detailed embroidery. She sits comfortably on the bed with one hand supporting her cheek and the other resting naturally on her lap, looking directly into the camera with a relaxed, graceful expression.\n\nBackground: A warm, luxurious bedroom with a cream-colored bedspread, textured beige pillows, a dark wooden bedside table, a glowing table lamp, a small vase of white flowers, stacked books, a lit candle, and a leafy indoor plant in the corner. Soft golden ambient lighting blends with natural daylight entering through a nearby window, creating a peaceful, intimate atmosphere.\n\nPhotography style: Professional Indian ethnic fashion photography, warm cinematic lighting, natural skin texture, realistic facial details, intricate saree fabric texture, soft shadows, shallow depth of field, creamy beige and sage-green color palette, candid elegance, eye-level camera angle, vertical portrait composition, subject in sharp focus, photorealistic, 4K resolution.\n\nNegative prompt: Cartoon, anime, painting, CGI, artificial skin, excessive retouching, distorted face, malformed hands, extra fingers, unnatural anatomy, blurry details, oversaturated colors, harsh lighting, text, logo, watermark.",
+"likeCount": 16,
+"retweetCount": 2,
+"url": "https://x.com/JohnSmith5912/status/2110472260700274993",
+"createdAt": "Wed Oct 14 20:46:12 +0000 2026"
+},
+{
+"userName": "Ecombos_Ai",
+"text": "Native image ads are one of the hardest ads to make, but they print.\n\nUnlike video ads, you have to communicate your whole message in just one image.\n\nWe built a Claude skill that picks the format, builds the concept, and creates the ads from scratch.\n\nTook the team hours to put the full native ad system together.\n\n8 tools inside one MASTER file:\n\n→ Claude Skill File (picks the native format for your product)\n→ Customer Language Research Prompt\n→ 6-Question Concept Builder\n→ Native Format Library + Decision Table\n→ Every Image Prompt From This Post\n→ Text Check (nothing ships misspelled)\n→ Claims Guide (so your ads don't get flagged)\n→ Real Production Example (+ the fixes)\n\n+ 13 more complete AI ad systems in the same file.\n\nEvery step comes with its own prompts, examples, and checks so nothing gets guessed.\n\nPick a product, run the skill, and ship your first native ad today.\n\nThis is up for the next 72 hours.\n\nReply \"NATIVE\" and we will send it over",
+"likeCount": 143,
+"retweetCount": 13,
+"url": "https://x.com/Ecombos_Ai/status/2111130285807214806",
+"createdAt": "Fri Oct 16 16:20:57 +0000 2026"
+},
+{
+"userName": "0xyigido_",
+"text": "What if helping robots learn was as easy as opening your browser?\n\nThat’s exactly what @axisrobotics is working toward.\n\nInstead of relying only on research labs, anyone can help generate valuable training data for Physical AI.\n\nThe process is simple:\n\n→ Control a virtual robotic arm  \n→ Perform tasks like grabbing, moving, or stacking objects  \n→ Record your movements as training data  \n→ Sign your contribution on-chain\n\nNo expensive equipment, coding experience, or powerful GPU needed.\n\nEach verified contribution can help improve how robots interact with the real world.\n\nGive it a try: https://t.co/NBGYLkDbse\n\nMake sure to complete the task and sign on-chain for your contribution to count.",
+"likeCount": 81,
 "retweetCount": 0,
-"url": "https://x.com/HuggingModels/status/2110828311731708354",
-"createdAt": "Thu Oct 15 20:21:01 +0000 2026"
+"url": "https://x.com/0xyigido_/status/2110686186079502595",
+"createdAt": "Thu Oct 15 10:56:16 +0000 2026"
+},
+{
+"userName": "ShawnSYFeng",
+"text": "Continue my Beyond-RL series, now on the unsupervised training for diffusion models! \n\nPart II: https://t.co/mMqUFiTuQ8\n\nI will go over three perspectives about diffusion models and how they lead to different unsupervised training algorithm design.\n\nTL;DR: The diffusion models are very special in terms of that all intermediates states share the same space with the final state and two nearby states should stay close, this gives us additional structure to utilize when training unsupervised diffusion models, not just using standard RL.",
+"likeCount": 262,
+"retweetCount": 38,
+"url": "https://x.com/ShawnSYFeng/status/2110156883365392498",
+"createdAt": "Tue Oct 13 23:53:00 +0000 2026"
+},
+{
+"userName": "gowthami_s",
+"text": "1/  This one is somewhat older paper (DL lifecycle wise) but I think this is an important regularization idea to combat reward hacking! I’ve personally done this (before even reading this paper) and it’s stabilizes the loss landscape. \n\nDDRL: keep training on data while doing RL. They combine reward maximization with the usual diffusion loss on real/synthetic samples. That denoising loss helps keep generations realistic as the model learns to get higher rewards.\n\nhttps://t.co/2PKj6zkGhd",
+"likeCount": 22,
+"retweetCount": 1,
+"url": "https://x.com/gowthami_s/status/2110752069992734938",
+"createdAt": "Thu Oct 15 15:18:04 +0000 2026"
+},
+{
+"userName": "jrrhuang",
+"text": "#NeurIPS2026 Spotlight\n\nRL for diffusion and flow models often requires expensive rollouts.\nWe show that flow maps enable simulation-free RL finetuning.\n\nIntroducing Wasserstein-Tilted Flow Maps (WTF)! 🤩\n\nThe key is a transport-based alternative to KL regularization. 🧵 https://t.co/LD5ahh6aPK",
+"likeCount": 302,
+"retweetCount": 47,
+"url": "https://x.com/jrrhuang/status/2110412722424983789",
+"createdAt": "Wed Oct 14 16:49:37 +0000 2026"
+},
+{
+"userName": "YourAnonCentral",
+"text": "Brazil's, Trump backed candidate, Flávio Bolsonaro faces a corruption inquiry over R$134 million sought from jailed banker Daniel Vorcaro, who is also linked to suspected influence-peddling involving associates of election court chief Kassio Nunes Marques. https://t.co/w4L5LeYfU1",
+"likeCount": 13628,
+"retweetCount": 4601,
+"url": "https://x.com/YourAnonCentral/status/2111163174778962169",
+"createdAt": "Fri Oct 16 18:31:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @bfl_ai: FLUX 3 Image Klein is here.\n\nOpen Weights with the quality of a large frontier model. Customizable and fast.\n\n5.6B parameters a…",
-"likeCount": 2961,
-"retweetCount": 359,
-"url": "https://x.com/ClementDelangue/status/2110762631711633807",
-"createdAt": "Thu Oct 15 16:00:02 +0000 2026"
+"text": "RT @brandondamos: We've released the weights for Beam!!\n\n🤗 https://t.co/yrkK3mJ0dv\n📄 Model card: https://t.co/itiGxZgyC7\n🧪 Try Beam in our…",
+"likeCount": 232,
+"retweetCount": 31,
+"url": "https://x.com/ClementDelangue/status/2111100163812946204",
+"createdAt": "Fri Oct 16 14:21:16 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "llama serve -hf ggml-org/Muse-Spark-Open-816B-A42B-GGUF:Q2_K (on two mac studios). \n\nWell done @finkd &amp; @johnternus! https://t.co/Kjl7qbPV52",
-"likeCount": 282,
-"retweetCount": 26,
-"url": "https://x.com/ClementDelangue/status/2110791576435794339",
-"createdAt": "Thu Oct 15 17:55:03 +0000 2026"
+"text": "RT @mattdeitke: Muse Spark Open is live on @huggingface! 🤗\n\n- Strong agentic model (especially for personal agents)\n- Multimodal from the g…",
+"likeCount": 144,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2110801582463787107",
+"createdAt": "Thu Oct 15 18:34:48 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @bindureddy: Meta should open source Meta Wonder \n\nIt’s slightly better than DeepSeek!\n\nThis would put US ahead of China in open source…",
+"likeCount": 200,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2110820734629302693",
+"createdAt": "Thu Oct 15 19:50:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @PrimeIntellect: Together with NVIDIA we post-trained Nemotron 3.5 Super VL on thousands of tasks\n\nReflecting enterprise workflows in sa…",
-"likeCount": 320,
-"retweetCount": 41,
+"likeCount": 336,
+"retweetCount": 42,
 "url": "https://x.com/ClementDelangue/status/2110786295094181959",
 "createdAt": "Thu Oct 15 17:34:03 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @jeffboudier: On Friday I will not give a duck. \nBut you can come play with it!\n\nThanks @romainhuet for giving a duck.\nNo thanks given t…",
-"likeCount": 26,
-"retweetCount": 2,
-"url": "https://x.com/ClementDelangue/status/2110723230394716418",
-"createdAt": "Thu Oct 15 13:23:28 +0000 2026"
+"text": "RT @MichaelDell: Customers love choice! \n\n@AIatMeta Muse Spark Open and @nvidia Nemotron 3.5 Super VL are now available on the Dell Enterpr…",
+"likeCount": 139,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2110821077295243669",
+"createdAt": "Thu Oct 15 19:52:16 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @JordanMich45361: @BachFrancis (1/7) I'd like to provide some additional context for the remarks that can be found in this interview.\n\n(…",
+"likeCount": 1195,
+"retweetCount": 235,
+"url": "https://x.com/jeremyphoward/status/2109778106869489796",
+"createdAt": "Mon Oct 12 22:47:53 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @bradneuberg: I’m very pro AI, but in terms of the Twitter software engineering discourse I see mostly people doing single person vibe c…",
-"likeCount": 484,
+"likeCount": 514,
 "retweetCount": 20,
 "url": "https://x.com/jeremyphoward/status/2110795718302880087",
 "createdAt": "Thu Oct 15 18:11:30 +0000 2026"
@@ -74,25 +138,25 @@
 {
 "userName": "AerieSaunders",
 "text": "Here's my \"tool belt\" of creator software and tools to make my life easier. Did I miss anything? https://t.co/2Gv4m2QTVd",
-"likeCount": 9,
-"retweetCount": 0,
+"likeCount": 152,
+"retweetCount": 26,
 "url": "https://x.com/AerieSaunders/status/2110902797264678979",
 "createdAt": "Fri Oct 16 01:17:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Meta is back! https://t.co/F6draDnjfF https://t.co/DMaDoh1wEP",
-"likeCount": 900,
-"retweetCount": 44,
-"url": "https://x.com/ClementDelangue/status/2110786602805195191",
-"createdAt": "Thu Oct 15 17:35:17 +0000 2026"
+"text": "who's going to the hf sf party tonight?",
+"likeCount": 285,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2111160765612749041",
+"createdAt": "Fri Oct 16 18:22:04 +0000 2026"
 },
 {
-"userName": "Ambani_Wessley",
-"text": "https://t.co/2hEZpLV8hZ",
-"likeCount": 74,
-"retweetCount": 76,
-"url": "https://x.com/Ambani_Wessley/status/2110787065260761504",
-"createdAt": "Thu Oct 15 17:37:07 +0000 2026"
+"userName": "RCEY28",
+"text": "Are you Slopcore AI? https://t.co/kVJG7WPbZX",
+"likeCount": 21,
+"retweetCount": 14,
+"url": "https://x.com/RCEY28/status/2109686797840052652",
+"createdAt": "Mon Oct 12 16:45:03 +0000 2026"
 }
 ]
