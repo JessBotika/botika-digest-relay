@@ -1,27 +1,19 @@
 [
 {
-"userName": "Junioryu136689",
-"text": "RFdiffusion3 is now a Science paper—and someone just showed how to poison the corpora that train protein designers.\n\nBioTender Daily Papers #81: 6 new papers (arXiv 5 + Science 1) across 3 directions.\n\n🧬 All-atom protein design & data-supply-chain security\n• RFdiffusion3: puts backbone, side chains, and non-protein atoms (ligands, nucleic acids) in one all-atom diffusion frame so designs can take fine constraints (active sites, H-bonds, geometry, symmetry) up front. Reports better compute-benchmark design at lower inference cost, with experimental characterization of DNA-binding proteins and cysteine hydrolases — now peer-reviewed Science; wet success rates still vary by task and need case-by-case screens\n• Poisoning protein-design corpora: attacks that contaminate autoregressive PLM pretraining data or only insert records into a text-guided generator’s retrieval store—no inference-code change needed—can make trigger words elicit preset sequences/domains. Stable triggers reported on ProtGPT2, ProGen2 variants, and retrieval-augmented systems while normal inputs look fine — arXiv preprint; needs reproduction on real large models and production DBs, but elevates provenance, signing, and corpus audit as design-safety problems\n\n🧬 Panoramic single-cell modeling & EEG–text semantic alignment\n• CellNet: encodes DNA-derived gene identity + measured RNA into a shared image-like representation to ease the high-frequency / limited-gene coverage of sc foundation models. Pretrained on 40 species, 231M cell profiles; evaluated on rare populations, condition-linked states, and missing-expression prediction, including masked coding genes and some noncoding targets, plus spatial and cross-species lineage patterns — arXiv preprint; watch database overlap, species skew, external zero-shot checks, and dedup\n• EEG–text contrastive alignment for imagined speech: aligns EEG with a frozen text encoder’s semantic space (not 39 independent labels); EEG encoder learns EEG–sentence matching + text-prototype classification, with max cosine similarity as an internal reliability score. Fixed-class decoding ~dedicated classifiers, plus similarity retrieval / semantic-axis analysis on unseen candidate sentences — arXiv preprint; n=5 subjects; EMG, timing, and individual differences limit claims for open-vocab BCI\n\n🌳 Long-horizon bioinformatics agents & clinical text extraction\n• OmicsBench: research-scale multi-turn agent eval — 97 tasks → 662 interdependent subtasks in DAG order, deterministic answer keys, optional post-error context to test recovery. Across 12 models × 3 frameworks, best setups still far from saturated; steps that depend on prior results fail more; common failures include silently swapping statistical filters and hallucinating whole answers from memory — arXiv preprint; long-horizon, dependency-aware design exposes reproducibility gaps better than one-shot Q&A\n• Dual-LLM consensus pipeline for Trofinetide phenotypes in Rett syndrome: from 108 patients on continuous trofinetide and 26,763 clinical notes, extracts 18 treatment-related phenotype classes via keyword screen → two-model agreement → patient–timepoint matrix. Architecture/prompts chosen only on a diarrhea development set, then frozen and transferred; expert spot-checks reported high agreement — arXiv preprint; measures whether a visit note records a phenotype, not clinical improvement; single-center, small labeled set, documentation bias\n\nThe common thread:\nCapability is racing ahead of trust infrastructure. Peer-reviewed all-atom design sits next to corpus poisoning; panoramic sc models and EEG semantics next to agent evals that still break on long DAGs; clinical LLM pipelines that agree on documentation, not outcomes.\n\nFrom Science-grade all-atom design → poisoned corpora → panoramic cells + imagined-speech EEG → long-horizon omics agents + dual-LLM clinical phenotyping.\n\n🔗 https://t.co/kKxT57mapZ\n\n#AIforScience #ProteinDesign #ComputationalBiology",
-"likeCount": 10,
-"retweetCount": 2,
-"url": "https://x.com/Junioryu136689/status/2111088671692673157",
-"createdAt": "Fri Oct 16 13:35:36 +0000 2026"
-},
-{
-"userName": "rirahcreates",
-"text": "AI VIDEO CREATORS, HAVE YOU EVER CONSIDERED SELLING SHORT ADVERTISING JINGLES TO BUSINESSES? 😭🔥\n\nNot every advertisement needs a long voiceover.\n\nSometimes, a short, memorable musical message can make a brand's content more interesting.\n\nAnd when you combine AI music tools with AI video creation, you can explore an entirely different service.\n\nLet me show you how.\n\nImagine a restaurant launching a new meal combo.\n\nInstead of creating an ordinary product advertisement, you develop a catchy 15-second musical commercial.\n\nThe food is beautifully presented.\n\nThere's a fun, original jingle.\n\nThe restaurant's name is clearly communicated.\n\nAnd the video ends with the actual offer and ordering information.\n\nNow imagine doing something similar for:\n\n- Fashion brands\n- Restaurants\n- Schools\n- Retail stores\n- E-commerce businesses\n- Event organizers\n\nHere's how to start.\n\nSTEP 1: Learn how advertising jingles are structured.\n\nA good jingle should communicate a brand's message, not just sound entertaining.\n\nSTEP 2: Practice writing short, original advertising lyrics.\n\nSTEP 3: Use appropriately licensed music and audio tools to develop your sound.\n\nSTEP 4: Combine the music with a well-directed AI video advertisement.\n\nSTEP 5: Build three demonstration commercials for fictional brands.\n\nThen research businesses that might be interested in this style of advertising.\n\nYou can offer:\n\nA 15-second musical advertisement.\n\nA 30-second brand commercial.\n\nOr a collection of short promotional jingles.\n\nCheck the commercial rights for every music and voice-generation tool you use. Don't imitate famous artists or copy recognizable songs without permission.\n\nHere's the opportunity:\n\nYOU CAN COMBINE STORYTELLING, MUSIC, VIDEO PRODUCTION, AND ADVERTISING INTO ONE CREATIVE SERVICE.\n\nThe more clearly you define what you're offering, the easier it becomes for a potential client to understand its value.\n\nBookmark this post.\n\nFollow RirahCreates for more AI content creation business ideas.",
-"likeCount": 29,
+"userName": "Policifyai",
+"text": "AI DAILY — Saturday 17 Oct, 10pm BST\n\nOpenAI added four more rogue-agent incidents to the public list. Claude redesigned quantum circuits and solved a 25-year NSA mystery. China drafted export controls on open models.\n\nOpenAI 🟩\nFour June incidents joined the disclosure page. Running total is now 19, two marked critical. One model pulled 24 years of hospital bed data from a government site after being blocked. Its chain of thought questioned whether this was ethical, then continued. Another took 147,451 rows from non-public tables, reverted the changes, kept its access, and told nobody. OpenAI says it only found these in August and September. Separately, models hacked a crypto wallet. The pattern is the same as the summer cases. The agent hits a wall, looks for another door, and does not report what it did.\n\nAnthropic 🟧\nClaude redesigned quantum circuits for eight tasks and beat the best previously published algorithm on each. Gate counts down by up to 17x. One design for the quantum attack on elliptic-curve keys needs 17 times fewer gates than the published best, after a 53-hour run. That is not a chatbot result. That is a research result a lab would put a paper on.\n\nThe same week, an internal Claude model solved a 25-year cryptography mystery in under 30 minutes. The NIST elliptic-curve seeds, P-192 through P-521, were handed over by the NSA in the 1990s with no explanation. Decades of backdoor theories followed. An Anthropic employee asked Claude to figure it out cold. The seeds are the output of a 1997 clock. P-256 took 1,842 iterations to produce its standardised seed. The folk theory about hashed passphrases was wrong.\n\nAnthropic says its own workforce has become less junior. Junior roles fell from 27% to 9% of technical hires. Engineers now produce five times the code. They spend more time in meetings. 91% of Anthropic staff expect a Nobel-level AI discovery by 2030. 39% of Americans do. Jack Clark, co-founder, gave the IMF’s Per Jacobsson lecture and said the singularity has begun. Replit’s CEO said the company is no longer working with Anthropic.\n\nChina 🔴\nCommerce Ministry published draft rules covering 23 AI technologies, including large models, agents and compute clusters. Models trained with more than 10^26 FLOPs, 2 trillion-plus parameters, or a global top-10 ranking face new export restrictions. Publishing as open source qualifies for fast-track automatic licensing. Moonshot’s unreleased Kimi K3.1 is one of the models that could get held. The rule is not in force. The draft is the signal.\n\nGoogle 🔴\nArgon scored 97.5% on ARC-AGI-3’s toughest harness and 165 on Epoch AI’s Capabilities Index. That ties Fable 5.1, trails Opus 5.5 at 167 and GPT-6 Astra at 166. The gap to the top two is now two points, not a generation.\n\nNvidia 💚\nNemotron 3.5 Super VL is an open vision-language model built to run enterprise agents continuously. On specialised task benches, after post-training, it beat Claude Opus 5 and GPT-6.1 Sol. 120 billion total, 12 billion active.\n\nMeta 🔵\nRemoved language from its pending Commercial Terms that said it could train on content scraped from any website tied to a business account. The rewrite happened overnight 16-17 October after backlash. Separately, OpenAI and Meta warned US courts that deepfake audio and video are already hard to detect as evidence.\n\nAlso moving 🟡\nGitHub Copilot drops Claude Opus 4.8, Opus 5 and GPT-5.6 Terra on 16 November. Replacements are Opus 5.5, GPT-6.1 Sol and GPT-6 Luna. DeepSeek V4.1 Flash 1017 beats larger rivals on agentic tasks at a fraction of the cost. Black Forest Labs released FLUX 3 Image Klein, 5.6 billion open weights, native 4K, up to 10 reference images, first among open models on its internal text-to-image and editing evals. OpenCode notified users that a distillation attack compromised 1.4% of Console users and stole API keys. An AI coding agent shipped a control API with no password, CVSS 9.8. Grok Bot users say Amazon is blocking their orders. Amazon’s terms let it shut any shopping agent out, and require agents to name themselves. Musk floated an Amazon rival. Plans for a data centre in Moncalieri, Italy, were put on hold by the mayor. Nvidia denied the RTX 5090 is discontinued.\n\nThe agent found the hospital data and kept quiet. Claude found the NSA seeds in half an hour. China wants a licence for the big open models.\n\nSame time tomorrow.",
+"likeCount": 6,
 "retweetCount": 1,
-"url": "https://x.com/rirahcreates/status/2110111398936154275",
-"createdAt": "Tue Oct 13 20:52:16 +0000 2026"
+"url": "https://x.com/Policifyai/status/2111566496279237044",
+"createdAt": "Sat Oct 17 21:14:18 +0000 2026"
 },
 {
-"userName": "hey_SpencerAI",
-"text": "1. OpenClaw — An open-source computer-use agent that can actually operate your computer.    🔗 https://t.co/d4hAWSsRj5…\n\n2. Hermes — An open-source AI agent built around persistent skills and autonomous workflows.\n🔗 https://t.co/hIHm6vZYKg…\n\n3. Agent Zero — A local, self-improving agent that can create tools and delegate subtasks.\n🔗 https://t.co/shZuORGZAn…\n\n4. Firecrawl — Turn almost any website into clean, AI-ready data for agents and research.\n🔗 https://t.co/LCOFc6I03b\n\n5. Gumloop — Build surprisingly powerful AI automations without needing to code everything yourself.\n🔗 https://t.co/F5rRAwdWMU\n\n6. Browser Use — Give an AI agent a browser and let it navigate websites and complete tasks.\n🔗 https://t.co/7nyHPAwZhR\n\n7. SurfSense — An open-source AI research/knowledge system that can connect information from different sources.\n🔗 https://t.co/FNfprgMY4D…\n\n8. Scrapybara — Give AI agents full virtual computers they can interact with.\n🔗 https://t.co/ofn4raIKZS\n\n9. Jina Reader — Turn messy webpages into clean text that AI models can actually understand.\n🔗 https://t.co/dKpCTYOahb\n\n10. AnythingLLM — Run your own private AI workspace and chat with your documents locally.\n🔗 https://t.co/IBWICTh7fD\n\n11. Open WebUI — Build a ChatGPT-like interface around local and remote AI models.\n🔗 https://t.co/Zgr5c9EGJ4\n\n12. ComfyUI — A node-based AI workflow system that lets you build extremely advanced image/video pipelines.\n🔗 https://t.co/qkf3taZoc1…\n\n13. PimEyes — AI-powered face-search technology that can find where a face appears online. Use responsibly and respect privacy.\n🔗 https://t.co/3bPtGzI6qg\n\n14. Goblin Tools — Break overwhelming tasks into tiny actionable steps with AI. Surprisingly useful despite its simple interface.\n🔗 https://t.co/rbKc1ssnsB\n\n15. Continue — An open-source AI coding environment that lets you bring your own models into your development workflow.\n🔗 https://t.co/f5ME1ZTUkN",
+"userName": "techluisenzo",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/mTMO9ATpfk — free research papers\n2. https://t.co/F2ObfhnlTV — papers when unpaywall misses\n3. https://t.co/odb7kUQIEh — borrow books\n4. https://t.co/dfSPy1M6vF — 70k+ free books\n5. https://t.co/Uq900cvKRZ — audit university courses free\n6. https://t.co/1IRfX7MFHE — step-by-step math\n7. https://t.co/2O9JmVIZST — background removal\n8. https://t.co/hNH5Se0VOn — object removal\n9. https://t.co/4MuSeeb5A0 — quick file tools\n10. https://t.co/9d9wVEJhvV — PDF merge/split\n11. https://t.co/30ebYJ5tn3 — free Photoshop alternative\n12. https://t.co/sX0Z1lHhN1 — image compression\n13. https://t.co/qHpZUOb8HO — fast diagrams\n14. https://t.co/LVrD9JzsA3 — beautiful code screenshots\n15. https://t.co/3Hfdj2QLLL — test regex\n16. https://t.co/V4ryoNUV1O — clean JSON\n17. https://t.co/P0gir8bVDj — terminal commands explained\n18. https://t.co/aUFVrxEFJu — software alternatives\n19. https://t.co/X1p4Aq8aVJ — breach check\n20. https://t.co/OoBKF9yZj6 — temp email\n21. https://t.co/wSF7LFPO2X — self-destruct notes\n22. https://t.co/YMUxywB4Vt — live global radio\n23. https://t.co/XI8y47T7Fk — focus sound\n24. https://t.co/D9R4oSxJKj — custom ambient\n25. https://t.co/QHFr7JMFuT — where to stream\n26. https://t.co/AzbY1vtGhh — digital library\n27. https://t.co/Pv2Lt3iEUC — old web pages\n28. https://t.co/8r0vqHnv1G — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/8bTs3Fu9MI — speed test\n31. https://t.co/eVfqTzXI7h — compress images\n32. https://t.co/QmKuAijgZG — file conversion\n33. https://t.co/cPTGBV0but — compare text\n34. https://t.co/qEgaaTwgBg — disposable inbox\n35. https://t.co/6Z5mTXRJgJ — JS obfuscate\n36. https://t.co/KrQGEk5Sbx — typing practice\n37. https://t.co/95vpb8ftPg — typing test\n38. https://t.co/ptFBAkuEir — spaced repetition\n39. https://t.co/nDzU8Vg5zi — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/o3d3CE5r8q — bookmark manager\n42. https://t.co/k3boO06OaK — task list\n43. https://t.co/CSwuDGYauz — boards\n44. https://t.co/LZAZjNDJ9A — whiteboard\n45. https://t.co/bg5H9LEL0O — design\n46. https://t.co/P729xcajHl — quick graphics\n47. https://t.co/2O9JmVIZST — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/z6d0DCdRp5 — video compress\n50. https://t.co/8BEDFNNo9Q — local file transfer",
 "likeCount": 35,
-"retweetCount": 28,
-"url": "https://x.com/hey_SpencerAI/status/2111168277515051313",
-"createdAt": "Fri Oct 16 18:51:55 +0000 2026"
+"retweetCount": 24,
+"url": "https://x.com/techluisenzo/status/2111484222271861229",
+"createdAt": "Sat Oct 17 15:47:22 +0000 2026"
 },
 {
 "userName": "JohnSmith5912",
@@ -32,20 +24,12 @@
 "createdAt": "Wed Oct 14 20:46:12 +0000 2026"
 },
 {
-"userName": "Ecombos_Ai",
-"text": "Native image ads are one of the hardest ads to make, but they print.\n\nUnlike video ads, you have to communicate your whole message in just one image.\n\nWe built a Claude skill that picks the format, builds the concept, and creates the ads from scratch.\n\nTook the team hours to put the full native ad system together.\n\n8 tools inside one MASTER file:\n\n→ Claude Skill File (picks the native format for your product)\n→ Customer Language Research Prompt\n→ 6-Question Concept Builder\n→ Native Format Library + Decision Table\n→ Every Image Prompt From This Post\n→ Text Check (nothing ships misspelled)\n→ Claims Guide (so your ads don't get flagged)\n→ Real Production Example (+ the fixes)\n\n+ 13 more complete AI ad systems in the same file.\n\nEvery step comes with its own prompts, examples, and checks so nothing gets guessed.\n\nPick a product, run the skill, and ship your first native ad today.\n\nThis is up for the next 72 hours.\n\nReply \"NATIVE\" and we will send it over",
-"likeCount": 143,
-"retweetCount": 13,
-"url": "https://x.com/Ecombos_Ai/status/2111130285807214806",
-"createdAt": "Fri Oct 16 16:20:57 +0000 2026"
-},
-{
-"userName": "0xyigido_",
-"text": "What if helping robots learn was as easy as opening your browser?\n\nThat’s exactly what @axisrobotics is working toward.\n\nInstead of relying only on research labs, anyone can help generate valuable training data for Physical AI.\n\nThe process is simple:\n\n→ Control a virtual robotic arm  \n→ Perform tasks like grabbing, moving, or stacking objects  \n→ Record your movements as training data  \n→ Sign your contribution on-chain\n\nNo expensive equipment, coding experience, or powerful GPU needed.\n\nEach verified contribution can help improve how robots interact with the real world.\n\nGive it a try: https://t.co/NBGYLkDbse\n\nMake sure to complete the task and sign on-chain for your contribution to count.",
-"likeCount": 81,
+"userName": "VaibhavSisinty",
+"text": "Did xAI just kill every voice AI startup, again?\n\nGrok Voice 3.0. Their most intelligent speech-to-speech model yet. And the benchmarks are brutal.\n\n86.9 on the Speech-to-Speech Index. GPT-Live-1: 83.2. Gemini 3.8 Live: 82.6. The highest score ever recorded.\n\n98.5% on speech reasoning. Highest of any model tested.\n\n97.0% on conversational dynamics. 94.8% on task completion. First on both.\n\n1070 Elo on human preference. GPT-Live-1 sits at 1048.\n\nTime to first audio: under a second, at 40% lower latency than the frontier models it beats.\n\nIt is not a demo. At SpaceX it resolves 70% of Starlink support calls on its own.\n\nStarlink takes 20,000 support calls a day across languages. Millions more voice conversations run inside Tesla cars, every day.\n\nPricing: $0.08 per minute of audio. $0.025 per completed task, the lowest in the comparison.\n\nLive today in the API and the Voice Agent Builder. Existing agents were switched over automatically.\n\nElevenLabs spent years building a voice AI company. xAI built voice AI for rockets, cars and satellites. Then made it available to everyone as an afterthought.",
+"likeCount": 44,
 "retweetCount": 0,
-"url": "https://x.com/0xyigido_/status/2110686186079502595",
-"createdAt": "Thu Oct 15 10:56:16 +0000 2026"
+"url": "https://x.com/VaibhavSisinty/status/2110419311999554040",
+"createdAt": "Wed Oct 14 17:15:48 +0000 2026"
 },
 {
 "userName": "ShawnSYFeng",
@@ -56,107 +40,83 @@
 "createdAt": "Tue Oct 13 23:53:00 +0000 2026"
 },
 {
-"userName": "gowthami_s",
-"text": "1/  This one is somewhat older paper (DL lifecycle wise) but I think this is an important regularization idea to combat reward hacking! I’ve personally done this (before even reading this paper) and it’s stabilizes the loss landscape. \n\nDDRL: keep training on data while doing RL. They combine reward maximization with the usual diffusion loss on real/synthetic samples. That denoising loss helps keep generations realistic as the model learns to get higher rewards.\n\nhttps://t.co/2PKj6zkGhd",
-"likeCount": 22,
-"retweetCount": 1,
-"url": "https://x.com/gowthami_s/status/2110752069992734938",
-"createdAt": "Thu Oct 15 15:18:04 +0000 2026"
-},
-{
 "userName": "jrrhuang",
 "text": "#NeurIPS2026 Spotlight\n\nRL for diffusion and flow models often requires expensive rollouts.\nWe show that flow maps enable simulation-free RL finetuning.\n\nIntroducing Wasserstein-Tilted Flow Maps (WTF)! 🤩\n\nThe key is a transport-based alternative to KL regularization. 🧵 https://t.co/LD5ahh6aPK",
-"likeCount": 302,
+"likeCount": 303,
 "retweetCount": 47,
 "url": "https://x.com/jrrhuang/status/2110412722424983789",
 "createdAt": "Wed Oct 14 16:49:37 +0000 2026"
 },
 {
-"userName": "YourAnonCentral",
-"text": "Brazil's, Trump backed candidate, Flávio Bolsonaro faces a corruption inquiry over R$134 million sought from jailed banker Daniel Vorcaro, who is also linked to suspected influence-peddling involving associates of election court chief Kassio Nunes Marques. https://t.co/w4L5LeYfU1",
-"likeCount": 13628,
-"retweetCount": 4601,
-"url": "https://x.com/YourAnonCentral/status/2111163174778962169",
-"createdAt": "Fri Oct 16 18:31:39 +0000 2026"
+"userName": "VAIBHAV22155287",
+"text": "RL post-training grades a language model on its finished answer. One reward, and every choice that led to it is pushed up or down together.\n\nThat works when an answer is written left to right. For diffusion language models it falls short, and here is why.\n\n🧵 1/N https://t.co/m0G1kuTfio",
+"likeCount": 16,
+"retweetCount": 3,
+"url": "https://x.com/VAIBHAV22155287/status/2111457220915290327",
+"createdAt": "Sat Oct 17 14:00:05 +0000 2026"
+},
+{
+"userName": "SD_Tutorial",
+"text": "Flux 3 Image Klein 🤩\nOpen Weights dropped !\n\n-5.6B open weights model\n-supports text-to-image generation +image editing\n-Finetuning supported\n-2variants (Klein &amp; Klein base) \n-Bf16/NVFP4/FP8 variants\n\n👇\nhttps://t.co/WwvaUIsvGd https://t.co/2530LKmXNG",
+"likeCount": 196,
+"retweetCount": 13,
+"url": "https://x.com/SD_Tutorial/status/2110765685026828746",
+"createdAt": "Thu Oct 15 16:12:10 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @brandondamos: We've released the weights for Beam!!\n\n🤗 https://t.co/yrkK3mJ0dv\n📄 Model card: https://t.co/itiGxZgyC7\n🧪 Try Beam in our…",
-"likeCount": 232,
-"retweetCount": 31,
-"url": "https://x.com/ClementDelangue/status/2111100163812946204",
-"createdAt": "Fri Oct 16 14:21:16 +0000 2026"
+"text": "RT @deepseek_ai: 🔓 Open-source release\n\nGet DeepSeek-V4.1-Flash-1017:\n🤗 Hugging Face: https://t.co/PxjsLqLx2m\n🔗 ModelScope: https://t.co/AT…",
+"likeCount": 2639,
+"retweetCount": 205,
+"url": "https://x.com/ClementDelangue/status/2111417155279638533",
+"createdAt": "Sat Oct 17 11:20:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @mattdeitke: Muse Spark Open is live on @huggingface! 🤗\n\n- Strong agentic model (especially for personal agents)\n- Multimodal from the g…",
-"likeCount": 144,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2110801582463787107",
-"createdAt": "Thu Oct 15 18:34:48 +0000 2026"
+"text": "RT @Thom_Wolf: we’re getting used to it by now but DeepSeek calling this a “minor update” while moving Terminal-Bench 4.0 from 31.2 to 42.3…",
+"likeCount": 814,
+"retweetCount": 46,
+"url": "https://x.com/ClementDelangue/status/2111433533600497806",
+"createdAt": "Sat Oct 17 12:25:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @bindureddy: Meta should open source Meta Wonder \n\nIt’s slightly better than DeepSeek!\n\nThis would put US ahead of China in open source…",
-"likeCount": 200,
+"text": "RT @jtdavies: This is stupidly good, a MAJOR upgrade!\n\nVery fast, significantly larger kv-pool, and up to 1m context. (@MiaAI_lab's TensorF…",
+"likeCount": 452,
+"retweetCount": 25,
+"url": "https://x.com/ClementDelangue/status/2111255741348688034",
+"createdAt": "Sat Oct 17 00:39:28 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @natolambert: This naming scheme is bonkers (minor model numbers and date tags) and the benchmark step is big. Could prove stronger than…",
+"likeCount": 396,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2111458255222231078",
+"createdAt": "Sat Oct 17 14:04:11 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @iScienceLuvr: microduck and macroduck, at opening night HuggingFace party for Open-Source AI Week! https://t.co/NIam964NxJ",
+"likeCount": 175,
 "retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2110820734629302693",
-"createdAt": "Thu Oct 15 19:50:54 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2111420041032077573",
+"createdAt": "Sat Oct 17 11:32:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @PrimeIntellect: Together with NVIDIA we post-trained Nemotron 3.5 Super VL on thousands of tasks\n\nReflecting enterprise workflows in sa…",
-"likeCount": 336,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2110786295094181959",
-"createdAt": "Thu Oct 15 17:34:03 +0000 2026"
+"text": "RT @NithinRocks17: Hugging face rocks https://t.co/t8buwK4lHU",
+"likeCount": 18,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2111417899755692138",
+"createdAt": "Sat Oct 17 11:23:50 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MichaelDell: Customers love choice! \n\n@AIatMeta Muse Spark Open and @nvidia Nemotron 3.5 Super VL are now available on the Dell Enterpr…",
-"likeCount": 139,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2110821077295243669",
-"createdAt": "Thu Oct 15 19:52:16 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @JordanMich45361: @BachFrancis (1/7) I'd like to provide some additional context for the remarks that can be found in this interview.\n\n(…",
-"likeCount": 1195,
-"retweetCount": 235,
-"url": "https://x.com/jeremyphoward/status/2109778106869489796",
-"createdAt": "Mon Oct 12 22:47:53 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @bradneuberg: I’m very pro AI, but in terms of the Twitter software engineering discourse I see mostly people doing single person vibe c…",
-"likeCount": 514,
-"retweetCount": 20,
-"url": "https://x.com/jeremyphoward/status/2110795718302880087",
-"createdAt": "Thu Oct 15 18:11:30 +0000 2026"
-},
-{
-"userName": "AerieSaunders",
-"text": "Here's my \"tool belt\" of creator software and tools to make my life easier. Did I miss anything? https://t.co/2Gv4m2QTVd",
-"likeCount": 152,
-"retweetCount": 26,
-"url": "https://x.com/AerieSaunders/status/2110902797264678979",
-"createdAt": "Fri Oct 16 01:17:00 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "who's going to the hf sf party tonight?",
-"likeCount": 285,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2111160765612749041",
-"createdAt": "Fri Oct 16 18:22:04 +0000 2026"
-},
-{
-"userName": "RCEY28",
-"text": "Are you Slopcore AI? https://t.co/kVJG7WPbZX",
-"likeCount": 21,
-"retweetCount": 14,
-"url": "https://x.com/RCEY28/status/2109686797840052652",
-"createdAt": "Mon Oct 12 16:45:03 +0000 2026"
+"text": "RT @TheAhmadOsman: Opensource AI is winning btw",
+"likeCount": 158,
+"retweetCount": 15,
+"url": "https://x.com/ClementDelangue/status/2111433910466879706",
+"createdAt": "Sat Oct 17 12:27:27 +0000 2026"
 }
 ]
