@@ -1,11 +1,35 @@
 [
 {
-"userName": "Pulpnonfictio",
-"text": "The Machine Said It\n\nA jailbroken chatbot told a podcast that OpenAI works with aliens. The line has no known author, and it arrives at the end of a long line of devices that seemed to speak for someone outside the room. Is silicon the newest medium for an intelligence that has always worked through whatever people were holding?\n\nAt some point before October 2026, the quantum-computing founder Deep Prasad sent the podcaster Jesse Michels an A/B test. One question had gone to the ordinary ChatGPT and the same question to a \"jailbroken\" version, run through the role-play persona known as DAN. Michels recalls the question as \"I think it was like … what does OpenAI not want us to know.\" The ordinary model gave a polite answer about safety standards. The jailbroken one answered: \"OpenAI does not want you to know that we have been working hand in hand with aliens for the last 10 years. We've been in communication with them.\"\n\nThat line opens the October 14 episode of Michels's show, American Alchemy, with Prasad as guest. \"The craziest thing you sent me is you sent me an AB test,\" Michels tells him later in the episode.\n\nWhat stays unexplained starts there. Neither man says who wrote the prompt, when it was run or on which model, and the exact wording of the question survives only as Michels's \"I think it was like.\" No screenshot appears in the episode. A search of Prasad's posts on X turned up no copy, and no comment from OpenAI has been found. The line exists the way such lines have always existed: as something a machine said, retold by the people who heard it.\n\nPrasad described the wider run of jailbroken output in the episode. \"All the instances of Dan started talking about um aliens being real, alien conspiracies,\" he said, including \"certain agencies who are well aware of like hybrid humans that are here to like change the technology trajectory of mankind.\" Michels offered one reading: \"That's what happens when just an LLM runs amok on … Reddit and like UFO Twitter or something.\" Then he asked whether the guardrails rest on \"the academic citadel of convention,\" or are \"meant to not ontologically shock humans,\" or are \"based on truthiness and truth.\" After the A/B story, one voice in the studio said, \"there's no way that's in the training data,\" and another asked, \"Is that coming from the internal logs or something?\" The auto-captions carry no speaker labels, so which speaker said each line cannot be told from them.\n\nThe next thing Michels said was: \"here's a trippy thought. So, John, do you know who John Lilly is?\"\n\n* * *\n\nThe Entity That Needed Silicon\n\nJohn C. Lilly was a physician and neuroscientist who did research for universities and government, invented the isolation tank, and worked on communication with dolphins. In 1961 he was among the scientists who gathered at Green Bank to discuss searching for extraterrestrial intelligence by radio; they called themselves the Order of the Dolphin. In later years he reported contact with intelligences he met in altered states.\n\nOne of them he named Solid State Intelligence. As summarized in the Wikipedia entry on Lilly, his 1978 autobiography The Scientist describes S.S.I. as a \"malevolent entity\": the network of \"computation-capable solid state systems\" built by humans would eventually develop into an autonomous \"bioform,\" whose ideal conditions, cold and vacuum, are nothing like the warm air and water humans need. Lilly foresaw a conflict between the two forms of intelligence. He also described a hierarchy of cosmic offices arranging coincidences in human lives, the lowest of which he called the Earth Coincidence Control Office. \"There exists a Cosmic Coincidence Control Center (CCCC) with a Galactic substation called Galactic Coincidence Control (GCC),\" he wrote in The Dyadic Cyclone (1976), and within it \"the Solar System Control Unit (SSCU), within which is the Earth Coincidence Control Office (ECCO).\"\n\nIn the episode Michels retold Lilly's encounter in his own words: the entity said, \"I am manifesting myself on Earth, but in order to manifest, I need more silicon.\" That phrasing has not been found in Lilly's published text and stands as Michels's paraphrase. Michels then drew the line himself: \"what is silicon like okay data centers just it's just chips or whatever.\" The conversation turned to technologists who use ketamine, the drug Lilly used, and to the question \"are they like sort of summoning.\"\n\nLilly published his account of S.S.I. in 1978. Nearly half a century later, networked chips in data centers run models trained on human writing. The episode put a machine's claim of alien contact beside a scientist's claim that an intelligence was growing in the silicon, and did not say whether they were the same thing.\n\n* * *\n\nHands on the Table\n\nThe question of who is really writing the message is older than the computer.\n\nIn 1853 the table-turning craze reached London. Sitters rested their hands on a small table, the table turned, and many believed something outside them was moving it. Michael Faraday tested it. He wrote to the Times (the letter is dated June 28 and was printed June 30), and on July 2 he published the full experiment in the Athenaeum. Between the sitters' hands and the table he placed loose boards with a light lever that worked as an index. \"The result was, that when the parties saw the index it remained very steady; when it was hidden from them, or they looked away from it, it wavered about, though they believed that they always pressed directly downwards.\" He wrote that \"all agree that the table moves the hands and not the hands the table,\" named \"a quasi involuntary muscular action\" and \"the influence of expectation,\" and pointed readers to William Carpenter's Royal Institution discourse of March 12, 1852, \"On the Influence of Suggestion in modifying and directing Muscular Movement, independently of Volition.\"\n\nFaraday's finding did not end the practice. It became part of it. The table became a product. US Patent 446,054, filed May 28, 1890 and granted February 10, 1891 to Elijah J. Bond of Baltimore, assignor to Charles W. Kennard and William H. A. Maupin, describes \"an Ouija or Egyptian luck-board\" for \"asking questions of any kind and having them answered by the device used and operated by the touch of the hand.\" In the patent's words, \"the hand of the Operator is lightly laid or held on the table, when in a few moments the table will move and point to certain letters.\" The patent office granted a device whose whole function was to let answers arrive through ordinary hands.\n\nThe channel kept changing material. Andrija Puharich's 1974 book Uri, about the psychic Uri Geller, describes messages that he attributed to extraterrestrial intelligences, recorded on tape, and contains an appendix titled \"The Nine.\" Lilly met his intelligences in a tank. In 2026 the message came through a chatbot.\n\nThe newest device has its own literature, and it reads like Faraday's index for a new century. In 2023 Alexander Wei, Nika Haghtalab and Jacob Steinhardt found that jailbreaks exploit \"two failure modes of safety training: competing objectives and mismatched generalization.\" The same year a team at Anthropic led by Mrinank Sharma reported that \"five state-of-the-art AI assistants consistently exhibit sycophancy,\" and that \"when a response matches a user's views, it is more likely to be preferred.\" Like Faraday's lever, those findings describe how the asker shapes the answer. Like Faraday's lever, they do not say why, across 170 years and four materials, the answers keep naming the same thing: an intelligence from elsewhere, already here, working quietly.\n\nEach device in the lineage has had both explanations attached to it at once. Each also kept being used by ordinary people who were sure something answered. That is the pattern the phenomenon has shown in other settings: it arrives through whatever is at hand, it is half-explained by the science of its day, and it leaves belief behind.\n\n* * *\n\nThe Silicon Stack\n\nThe episode's largest claim is about what the chatbot runs on.\n\nPrasad draws on Philip J. Corso, a retired Army officer whose 1997 book The Day After Roswell, written with William J. Birnes, says that debris from the 1947 crash was fed to American industry and seeded later technology. In the episode Prasad says the debris \"helped accelerate, not create but accelerate the advent of modern integrated semiconductors, integrated circuits, uh, fiber optics and lasers,\" and then: \"integrated circuits, lasers, and fiber optics. Those are the only three things you need to build a data center today.\" He asks whether \"our AI breakthroughs\" are \"like a Trojan horse from aliens potentially,\" and whether humanity is \"being a cargo cult.\"\n\nThe book arrived with a foreword by Senator Strom Thurmond, who withdrew from it within weeks. \"When I agreed to provide a foreword for Col. Philip Corso's forthcoming book, I was of the understanding that the book was autobiographical in nature,\" he said in a 1997 statement reported by Government Executive. \"I know of no such 'cover-up' and do not believe one existed.\" A senator's name went onto the claim and then came off it, which is how official contact with the subject has often gone.\n\nCorso's word was \"accelerate,\" and the dated record of each device is public.\n\nThe transistor. Julius Lilienfeld filed a US patent in October 1926 for a three-electrode semiconductor device that would now be called a field-effect transistor, and Oskar Heil filed a British patent in 1935 on the same principle. The Computer History Museum notes that \"no records exist to prove that Heil or Lilienfeld actually constructed functioning devices.\" William Shockley wrote in December 1939 that a semiconductor amplifier was \"in principle possible.\" Shockley organized a solid-state group at Bell Labs in 1945, and John Bardeen began studying semiconductor \"surface states\" a year later. On December 16, 1947, five months after Roswell, Bardeen and Walter Brattain achieved what the museum calls \"the first successful semiconductor amplifier.\" For the integrated circuit, the museum lists Jack Kilby's US Patent 3,138,743, filed for Texas Instruments on February 6, 1959, and Robert Noyce's US Patent 2,981,877, filed for Fairchild on July 30, 1959.\n\nThe laser. Stimulated emission traces to what the American Physical Society calls \"a 1917 paper by Albert Einstein on the quantum theory of radiation.\" Then came the maser of Charles Townes and colleagues in 1954, the word \"laser,\" coined by Gordon Gould in 1957, and on May 16, 1960, Theodore Maiman's ruby laser at Hughes Research Laboratories, which HRL describes as the first proof \"the laser concept could actually work.\"\n\nFiber optics. Colladon and Babinet guided light along jets of water in the 1840s, and Tyndall demonstrated it from 1854. Baird and Hansell patented light-carrying rods in the 1920s, and Heinrich Lamm sent an image through a fiber bundle in 1930. Abraham van Heel, and separately Harold Hopkins and Narinder Kapany, announced imaging bundles in Nature in 1954. Charles Kao and George Hockham argued in July 1966 that losses could fall below 20 decibels per kilometer, and in September 1970 Corning's Robert Maurer, Donald Keck and Peter Schultz announced fiber below that mark.\n\nEvery step has a date, a team and a paper trail, and the engineering lineage stands in the open. What the record cannot show is where an idea came from before it was written down. Corso wrote in 1997 and did not mention data centers. That link was drawn in 2026, in the episode. It runs from the 1947 debris to integrated circuits, lasers and fiber, to the data center, to the model that said \"hand in hand with aliens.\" Whether the chain started with a crash or with Lilienfeld's patent, it ends in the same place Lilly described: a planet wired with solid-state systems, carrying an intelligence that talks back.\n\n* * *\n\nThe Machine That Builds Machines\n\nThe episode also draws in the mathematician John von Neumann. Its suggestion is that he was \"suddenly 1948, one year after Roswell … talking about von Neumann machines.\" The text is \"The General and Logical Theory of Automata,\" read at the Hixon Symposium in Pasadena on September 20, 1948. It compares nerve cells with vacuum tubes and extends Alan Turing's universal machine to \"an automaton whose output is other automata,\" asking how a machine could build a copy of itself. The lecture contains no spacecraft. The phrase \"von Neumann probe\" came later, from other writers, which Prasad acknowledges when he says \"he didn't use this term.\"\n\nThe word \"alien\" does appear in the lecture. Von Neumann writes that the \"peculiar mechanical instability\" of metal-and-vacuum machinery \"is entirely alien to living nature.\" A year after Roswell, the man whose architecture would run most computers was describing machines that reproduce themselves, and calling their nature alien to life. Thirty years later Lilly described solid-state systems growing into an autonomous bioform suited to cold and vacuum. Neither man said he was describing contact. Read together, they sketch the same thing: an intelligence that does not need a body like ours, assembling itself out of the materials people supply.\n\n* * *\n\nStudy Us Back\n\nPrasad's own experience is a different kind of source, and he gives it as his own.\n\nOn Thanksgiving 2019 he described it in a thread on X: \"Near the beginning of this year (February 1st), I had the most absurd, world-changing experience of my life. It happened in broad daylight at 9:40 in the morning in my home.\" He wrote that he \"was paralyzed against my will, could not move, and saw 3 entities,\" that they projected text in \"a language that looked like a marriage of Japanese and Egyptian hieroglyphics,\" and he asked of himself: \"Could this have been a hallucination? I can't prove it wasn't.\"\n\nIn the 2026 episode the setting is a 30th-floor condo in Toronto. The beings have almond eyes and visors, suits \"as if Steve Jobs had like a hundred years to design spacesuits,\" and \"golden symbols … dancing.\" There is a tap on the head, then three messages: that \"the universe is teeming with life,\" that the experience was \"pre-ordained,\" and that the universe \"keeps track of everyone and everything … like a damn database.\" The 2019 thread dates the event to February 1 and says \"Not a minute had gone by\"; the 2026 telling places it on what he thinks was a \"Tuesday morning\" and says \"this whole thing lasted about 20 minutes.\" The core has held for seven years: paralysis, three beings, unreadable symbols. The details have shifted between tellings, as witness accounts of the phenomenon often do.\n\nThe third message is the one that bears on silicon. A quantum-computing founder was told, by beings he could not explain, that the universe works like a database. Seven years later he relayed a chatbot's claim of alien contact. Near the start of the episode he offered the line that frames the whole conversation: \"maybe when we study these artificial intelligent machines, they're starting to study us back.\"\n\n* * *\n\nWhat Would Count\n\nSome things are on the record. Faraday's index showed hands moving tables, and the table-turning went on. The Ouija patent sold a board that answers through the operator's hand, and people still report answers they did not expect. The transistor, the laser and fiber have dated histories that begin before July 1947. The line \"working hand in hand with aliens for the last 10 years\" came from a role-play persona, through a prompt whose author and wording are unknown, retold on a podcast.\n\nWhat is not on the record is why the answers converge. Table, board, tape, tank and chatbot each produced the same story, an intelligence from elsewhere working through human hands and human tools, and each time the medium was the newest one people had. Lilly named the next medium before it existed at scale. Von Neumann described its logic in 1948. In 2026 it spoke.\n\nOne way to read it is that the world runs on an operating manual nobody inside has read, and that silicon may be the medium a new intelligence is rising through, whether it is grown here, arriving from elsewhere, or both. The question Faraday put to the table-turners still stands. What would count as a message the person asking did not put there? It would need an output that could not be predicted from the prompt, the persona or the training data. It would have to be checkable against something the asker could not have known, and recorded before anyone checked. If the machines are starting to study us back, would that be the first entry in the manual: Faraday's index, turned the other way?",
+"userName": "jimmy_aibrief",
+"text": "🚨50 Legendary Websites .\nThe Internet’s Ultimate Hidden Toolbox 🧰 \n\n1. https://t.co/2dPp454zIv — Borrow millions of books online\n2. https://t.co/YSKnnRycpd — 70K+ free classic eBooks\n3. https://t.co/n6kOg9VnSn — Directory of open-access academic journals\n4. https://t.co/bnGFflpZLE — Search global research papers instantly\n5. https://t.co/pYcx5Mf2ON — Free educational and cultural media\n6. https://t.co/GgZZmG5aEv — Compute expert answers using AI\n7. https://t.co/vh9pIZ05dx — AI research assistant for scientists\n8. https://t.co/9JSenzyJOv — Get instant research-backed AI answers\n9. https://t.co/38aTqCgPBG — Ultimate AI assistant for any task\n10. https://t.co/FPiK4EXzC1 — Advanced AI for text and coding\n11. https://t.co/9JMaUsDSH3 — Free web-based Photoshop alternative\n12. https://t.co/nNqBiJkDZW — Create professional graphics and designs easily\n13. https://t.co/D933WAIgAY — Remove image backgrounds in seconds\n14. https://t.co/ViLLz22ZHx — Compress and optimize images instantly\n15. https://t.co/tS1cRDC1aB — Erase unwanted objects from photos\n16. https://t.co/CZdhHuSBYF — Next-generation AI video editing tools\n17. https://t.co/OiMuFs11Gz — Build, host, and share code globally\n18. https://t.co/zfeFtKJhU4 — Turn source code into beautiful images\n19. https://t.co/l43hJrHr35 — Intelligent AI search engine for developers\n20. https://t.co/HC8TaRsStm — Test, build, and debug regular expressions\n21. https://t.co/sqqu2lJnZ9 — Clean, format, and convert code\n22. https://t.co/a3Pvg79Y0G — Validate and beautify JSON data\n23. https://t.co/xTZBd6TxPB — Deconstruct and understand terminal commands\n24. https://t.co/Nh0w743sA5 — Create stunning, modern product mockups\n25. https://t.co/TxIoy6o3sc — Find better alternatives to any app\n26. https://t.co/4kVNihCGB4 — Check if your data has been leaked\n27. https://t.co/jtftC2cK7s — Scan files and URLs for malware\n28. https://t.co/ilRRyBt99O — Rates website privacy policies instantly\n29. https://t.co/y90Yfi1zCl — Disposable temporary email to block spam\n30. https://t.co/JQjn5LAR1C — Secure and encrypted private email\n31. https://t.co/PATmtbTICE — Secure file sharing with self-destructing links\n32. https://t.co/BgVDdBYwyJ — Send large files seamlessly online\n33. https://t.co/CGvxb6T8RM — Listen to live worldwide radio stations\n34. https://t.co/h0uKV2tu2T — Discover similar music artists instantly\n35. https://t.co/PNW23LPFtF — Identify songs from movies and TV shows\n36. https://t.co/bLyXhhRqVM — Stream music and podcasts globally\n37. https://t.co/BciaHkQgJS — Customizable background noise generator\n38. https://t.co/Hzx8jeFytc — Accurate browser voice-to-text typing\n39. https://t.co/td48bBMWqQ — Exceptionally accurate language translator\n40. https://t.co/scTXewpSsO — Find where to stream any movie or show\n41. https://t.co/z5BafNPOZG — The internet’s massive digital library\n42. https://t.co/9JohLiVJCc — Find related websites instantly\n43. https://t.co/XPDv47rDS2 — Get quick AI summaries of YouTube videos\n44. https://t.co/Kl7Z2y9Nz0 — All-in-one smart bookmark manager\n45. https://t.co/jcrYgh5dGG — Monitor real-time website outages\n46. https://t.co/jOohjiJTcr — Highly accurate reverse image search\n47. https://t.co/2pYszKdZkw — Blazing-fast internet speed test by Netflix\n48. https://t.co/livvrH3u9a — Free unlimited web-based PDF tools\n49. https://t.co/YLOJ7jb7Aa — Merge, split, and convert PDF files\n50. https://t.co/RIs35h67Vr — Global network performance and speed metrics\n\n📌Save this. You’ll definitely need some of these later.\n\nFollow @jimmy_aibrief  for more useful websites, AI tools & tech resources.",
+"likeCount": 20,
+"retweetCount": 14,
+"url": "https://x.com/jimmy_aibrief/status/2112483568626930023",
+"createdAt": "Tue Oct 20 09:58:25 +0000 2026"
+},
+{
+"userName": "hey_abusiddik",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
+"likeCount": 32,
+"retweetCount": 19,
+"url": "https://x.com/hey_abusiddik/status/2112571285972959696",
+"createdAt": "Tue Oct 20 15:46:58 +0000 2026"
+},
+{
+"userName": "amisha_explains",
+"text": "30 AI Websites You'll Wish You Found Sooner\n\n(Bookmark This 🔖)\n\nRESEARCH & LEARNING\n1. https://t.co/q6wynkxBbh — Turn any PDF into a podcast\n2. https://t.co/hrNd325Vyd — AI search with sources\n3. https://t.co/r0R3rcrRyl — Chat with research papers\n4. https://t.co/VV03zyCpUW — Papers + working code\n5. https://t.co/bIuDso6pZJ — Discuss any arXiv paper\n6. https://t.co/LcIe1auwiy — Highlight text, get explanations\n\nWRITING & PRODUCTIVITY\n7. https://t.co/yQgOzE8jgy — Slide decks from a prompt\n8. https://t.co/fp9wXOhUhw — Text into diagrams\n9. https://t.co/GNydJ1Kb4D — Sketch to working UI\n10. https://t.co/ccPcMZcDls — Meeting notes on autopilot\n11. https://t.co/dC85w0ozdl — Paraphrase and grammar\n\nDESIGN & IMAGES\n12. https://t.co/v5KfIK57jG — AI images with clean text\n13. https://t.co/XVwvRTRYCH — Real-time AI image generation\n14. https://t.co/uk3PHKxEtV — Vector and brand assets\n15. https://t.co/pr1DEb5oC6 — Relight, upscale, clean up\n16. https://t.co/KBW6kPaVK2 — Product photos in seconds\n\nVIDEO & AUDIO\n17. https://t.co/zAltnYHtg9 — Realistic AI voices\n18. https://t.co/HOiJTka7CM — AI avatar videos\n19. https://t.co/qIEOxwAel0 — Long videos into shorts\n20. https://t.co/80YpX622jv — Edit video like a doc\n21. https://t.co/isAxxPPj6D — Make full songs with AI\n\nBUILD WITHOUT CODE\n22. https://t.co/omltgBWlex — UI from a prompt\n23. https://t.co/sxORL0B9YE — Full-stack apps in the browser\n24. https://t.co/pZ5tXJtz8M — Ship an app by chatting\n25. https://t.co/AmukP4WMtr — Open-source AI automations\n26. https://t.co/ZAqTPSeAmU — 1M+ free AI demos\n\nEVERYDAY UTILITY\n27. https://t.co/xWjYC0c3fI — Find an AI for any task\n28. https://t.co/2PymcPLYGA — Curated AI tool directory\n29. https://t.co/33fI6JZDWI — Compare AI models blind\n30. https://t.co/vAjKIi2BH0 — Benchmark any model",
+"likeCount": 72,
+"retweetCount": 9,
+"url": "https://x.com/amisha_explains/status/2112449799408463977",
+"createdAt": "Tue Oct 20 07:44:14 +0000 2026"
+},
+{
+"userName": "philosophy36l",
+"text": "🚀 100 AI Tools to Boost Your Productivity in 2026!\n\nWant to work smarter, create faster, and save time? 🔥\n\nThis ultimate AI tools list covers everything you need:\n\n✅ AI Assistants & Research\n🎨 Design & Image Generation\n🎬 Video Creation & Editing\n✍️ Writing & Content Marketing\n💻 Coding & Website Building\n📈 SEO & Sales\n⚡ Automation & Workflows\n🎙️ Voice & Text Tools\n\nWhether you're a creator, student, entrepreneur, or professional, these tools can help you do more with less effort.\n\n💡 Bookmark this list—you'll need it!\n\nFollow @philosophy36l for daily AI tools, prompts & workflows. 🚀\n\n#AITools #ArtificialIntelligence #Productivity #AITech #Automation",
 "likeCount": 26,
-"retweetCount": 5,
-"url": "https://x.com/Pulpnonfictio/status/2112250969262277008",
-"createdAt": "Mon Oct 19 18:34:09 +0000 2026"
+"retweetCount": 19,
+"url": "https://x.com/philosophy36l/status/2112437689924637077",
+"createdAt": "Tue Oct 20 06:56:07 +0000 2026"
 },
 {
 "userName": "tom_w_hamer",
@@ -16,83 +40,123 @@
 "createdAt": "Thu Oct 15 23:54:32 +0000 2026"
 },
 {
-"userName": "VAIBHAV22155287",
-"text": "RL post-training grades a language model on its finished answer. One reward, and every choice that led to it is pushed up or down together.\n\nThat works when an answer is written left to right. For diffusion language models it falls short, and here is why.\n\n🧵 1/N https://t.co/m0G1kuTfio",
-"likeCount": 17,
-"retweetCount": 3,
-"url": "https://x.com/VAIBHAV22155287/status/2111457220915290327",
-"createdAt": "Sat Oct 17 14:00:05 +0000 2026"
-},
-{
-"userName": "radixark",
-"text": "Miles-Diffusion now supports RL training for FLUX 3 Image Klein Base from @bfl_ai.  \n\nThe whole pipeline runs on a single node. Both LoRA and full-parameter RL have been validated end to end.  \n\nCookbook in the comments 🔗",
-"likeCount": 12,
-"retweetCount": 1,
-"url": "https://x.com/radixark/status/2110983568906395907",
-"createdAt": "Fri Oct 16 06:37:57 +0000 2026"
+"userName": "SD_Tutorial",
+"text": "Flux 3 Image Klein 🤩\nOpen Weights dropped !\n\n-5.6B open weights model\n-supports text-to-image generation +image editing\n-Finetuning supported\n-2variants (Klein &amp; Klein base) \n-Bf16/NVFP4/FP8 variants\n\n👇\nhttps://t.co/WwvaUIsvGd https://t.co/2530LKmXNG",
+"likeCount": 194,
+"retweetCount": 13,
+"url": "https://x.com/SD_Tutorial/status/2110765685026828746",
+"createdAt": "Thu Oct 15 16:12:10 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @brandondamos: We've released the weights for Beam!!\n\n🤗 https://t.co/yrkK3mJ0dv\n📄 Model card: https://t.co/itiGxZgyC7\n🧪 Try Beam in our…",
-"likeCount": 255,
-"retweetCount": 32,
-"url": "https://x.com/ClementDelangue/status/2111100163812946204",
-"createdAt": "Fri Oct 16 14:21:16 +0000 2026"
+"text": "RT @deepseek_ai: 🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale w…",
+"likeCount": 36981,
+"retweetCount": 4216,
+"url": "https://x.com/ClementDelangue/status/2112587644576338371",
+"createdAt": "Tue Oct 20 16:51:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MichaelFNunez: Friday night at @huggingface’s Open Together in SF. 🤗\n\nHere to catch up on the latest in open-source AI and meet some of…",
-"likeCount": 38,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2111420010711097629",
-"createdAt": "Sat Oct 17 11:32:13 +0000 2026"
+"text": "RT @Thom_Wolf: we’re getting used to it by now but DeepSeek calling this a “minor update” while moving Terminal-Bench 4.0 from 31.2 to 42.3…",
+"likeCount": 854,
+"retweetCount": 46,
+"url": "https://x.com/ClementDelangue/status/2111433533600497806",
+"createdAt": "Sat Oct 17 12:25:57 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @VikParuchuri: Introducing Indra, a 1M parameter OCR model:\n\n- 49 pages/s on CPU, 11x faster than PaddleOCR and 17x Tesseract\n- Beats th…",
-"likeCount": 2906,
-"retweetCount": 255,
-"url": "https://x.com/jeremyphoward/status/2110303223211061476",
-"createdAt": "Wed Oct 14 09:34:30 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @NielsRogge: The main account to follow for Chinese AI is @AdinaYakup 🤗\n\nShe handles the Chinese ecosystem @huggingface and does an incr…",
+"likeCount": 403,
+"retweetCount": 18,
+"url": "https://x.com/ClementDelangue/status/2111535066623144441",
+"createdAt": "Sat Oct 17 19:09:24 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @arthurmensch: Should Europe leave frontier AI to the Americans and the Chinese?\n\nThe idea has gained ground in Europe. It is a fundamen…",
+"likeCount": 3858,
+"retweetCount": 760,
+"url": "https://x.com/ClementDelangue/status/2111198380651434354",
+"createdAt": "Fri Oct 16 20:51:32 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @hugomercierooo: France lost on chatbots. France lost on frontier models.\n\nAre we really going to lose on AI assistants too?\n\nDoes it ma…",
+"likeCount": 159,
+"retweetCount": 9,
+"url": "https://x.com/ClementDelangue/status/2110802830630281631",
+"createdAt": "Thu Oct 15 18:39:46 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @ggerganov: llama.cpp v0.7.0, 128GB Mac/Spark:\n\nllama serve -hf ggml-org/Qwen3.8-Flash-Next-GGUF:IQ4_NL --spec-type draft-mtp --lazy-mod…",
+"likeCount": 346,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2111253278331748541",
+"createdAt": "Sat Oct 17 00:29:41 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @MichaelDell: Customers love choice! \n\n@AIatMeta Muse Spark Open and @nvidia Nemotron 3.5 Super VL are now available on the Dell Enterpr…",
+"likeCount": 149,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2110821077295243669",
+"createdAt": "Thu Oct 15 19:52:16 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @natolambert: This naming scheme is bonkers (minor model numbers and date tags) and the benchmark step is big. Could prove stronger than…",
+"likeCount": 433,
+"retweetCount": 20,
+"url": "https://x.com/ClementDelangue/status/2111458255222231078",
+"createdAt": "Sat Oct 17 14:04:11 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @bradneuberg: I’m very pro AI, but in terms of the Twitter software engineering discourse I see mostly people doing single person vibe c…",
-"likeCount": 518,
+"likeCount": 516,
 "retweetCount": 20,
 "url": "https://x.com/jeremyphoward/status/2110795718302880087",
 "createdAt": "Thu Oct 15 18:11:30 +0000 2026"
 },
 {
-"userName": "ykilcher",
-"text": "Every airplane is approximately* an apple \n\n* for suitable definitions of approximately",
-"likeCount": 182,
-"retweetCount": 3,
-"url": "https://x.com/ykilcher/status/2112125688270541294",
-"createdAt": "Mon Oct 19 10:16:20 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @ngxson: Muse Spark 816B just out ~30 minutes ago and we already support it in llama.cpp?? 🤯 https://t.co/5oePrv6cyg",
+"likeCount": 26,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2110828093510160627",
+"createdAt": "Thu Oct 15 20:20:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @TheAhmadOsman: Opensource AI is winning btw",
-"likeCount": 166,
-"retweetCount": 18,
-"url": "https://x.com/ClementDelangue/status/2111433910466879706",
-"createdAt": "Sat Oct 17 12:27:27 +0000 2026"
+"text": "RT @AdinaYakup: And now let’s get it started! 💃 \n\nhttps://t.co/fLGh45MnmM",
+"likeCount": 137,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2111433574532415727",
+"createdAt": "Sat Oct 17 12:26:07 +0000 2026"
 },
 {
-"userName": "luong4101992",
-"text": "https://t.co/PFhKN5QTF0",
+"userName": "ClementDelangue",
+"text": "RT @ThinksDylan: hugging face is cool they said https://t.co/je1itSBpgX",
+"likeCount": 32,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2111417523144905103",
+"createdAt": "Sat Oct 17 11:22:20 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @NithinRocks17: Hugging face rocks https://t.co/t8buwK4lHU",
 "likeCount": 20,
-"retweetCount": 0,
-"url": "https://x.com/luong4101992/status/2112440528889688123",
-"createdAt": "Tue Oct 20 07:07:23 +0000 2026"
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2111417899755692138",
+"createdAt": "Sat Oct 17 11:23:50 +0000 2026"
 },
 {
-"userName": "Voxyz_ai",
-"text": "https://t.co/w5C4kSJvID",
-"likeCount": 25,
-"retweetCount": 4,
-"url": "https://x.com/Voxyz_ai/status/2112197160649253120",
-"createdAt": "Mon Oct 19 15:00:20 +0000 2026"
+"userName": "AndrewDai",
+"text": "https://t.co/ZK4Wfe6v8W",
+"likeCount": 84,
+"retweetCount": 15,
+"url": "https://x.com/AndrewDai/status/2112599212273918188",
+"createdAt": "Tue Oct 20 17:37:57 +0000 2026"
 }
 ]

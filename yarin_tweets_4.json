@@ -1,154 +1,154 @@
 [
 {
-"userName": "thegoldeenhand",
-"text": "Here are the exact prompts I use to produce a full AI story video from idea to upload\n\nThese are the prompts running behind $2M+ in channel revenue across my community, far beyond any generic \"write me a YouTube script\" request. Every prompt is designed for Claude Opus 5, and nearly all of them work with any frontier model.\n\nSTAGE 1: niche research prompt (Claude + NexLev MCP)\n\n\"Use NexLev MCP to find 10 YouTube channels in the [NICHE] space launched in the last 12 months with average views above 1,000 per video. Return the channel name, subscriber count, total videos, average views per video, estimated RPM range, primary audience demographic, and the titles of the top 3 outlier videos for each channel. Sort by average views descending.\"\n\nThis prompt pulls live YouTube data through NexLev's MCP integration. The output is a structured research report replacing 2-3 hours of manual tab-opening. You get channel-level performance data, outlier titles, and RPM estimates in one response.\n\nSTAGE 2: outlier analysis prompt\n\n\"Analyze the outlier video titles from the channels above. Identify 1) the most common emotional triggers used in high-performing titles, 2) the structural formulas repeated across outliers (e.G. [person] + [action] + [nation]), 3) which title lengths perform best, 4) whether broad titles outperform specific titles. Based on the patterns, generate 15 title ideas optimized for outlier performance in this niche.\"\n\nFeed this to Claude right after the niche research prompt. The model analyzes the patterns across all the outlier titles and reverse-engineers the formula driving clicks. The 15 title ideas at the end are data-backed rather than creative guesses.\n\nSTAGE 3: script generation prompt\n\n\"You are a professional long-form narrative scriptwriter for YouTube AI story channels. Write a [LENGTH]-minute voiceover script about [TOPIC] using the following structure:\n\nHOOK (first 30 seconds): open with a specific date, location, and character. Establish immediate tension or stakes. The viewer must know within 30 seconds why this story matters.\n\nCONTEXT (minutes 1-5): establish the wider context, the stakes beyond the individual story, and introduce the key characters with ONE specific, memorable anecdote per character establishing personality and motivation.\n\nRISING CONFLICT (minutes 5-15): build tension through escalating events. Each scene raises the stakes. Alternate between high-intensity and breathing room. Never maintain the same intensity for more than 3 minutes.\n\nCLIMAX (minutes 15-18): deliver the payoff the hook promised. Use visceral, visual language. Make the viewer feel present in the moment.\n\nRESOLUTION + LEGACY (minutes 18-20): connect the story's outcome to something bigger. Show why this event mattered beyond itself. End with a line worth remembering.\n\nRULES: skip filler phrases entirely, drop the \"welcome to the channel\" opener, and don't use rhetorical questions as transitions. Every sentence earns the next one. Use specific numbers, dates, names, and locations throughout. The script must be factually accurate.\"\n\nThis is the core scripting prompt. The structure embedded in the prompt holds Claude to a retention-optimized narrative arc instead of rambling through information at a flat pace. The rules section eliminates the AI-isms (filler, rhetorical transitions, generic openers) before they appear.\n\nAdjust [LENGTH] and the minute ranges to match your niche's optimal video length.\n\nSTAGE 4: image generation prompt\n\n\"Based on the following script, generate 20 image generation prompts for [IMAGE MODEL, e.G. NanoBanana Pro] producing super-realistic images depicting key moments from the story. Each prompt should specify character age, physical appearance (clothing, hair, expression, posture), setting (location, time of day, weather, architecture), lighting (direction, color temperature, mood), and camera angle (wide shot, medium, close-up). Maintain visual consistency by describing recurring characters with the same physical details in every prompt.\"\n\nPaste the full script above this prompt. Claude reads the narrative and generates 20 scene-specific image prompts. The level of detail in the prompt ensures the image model receives enough visual direction to produce cinematic-quality output.\n\nSTAGE 5: thumbnail generation prompt\n\n\"I need a thumbnail image prompt for a YouTube video titled '[VIDEO TITLE]' in the [NICHE] niche. The thumbnail should 1) feature [NUMBER] characters with specific, exaggerated facial expressions conveying [EMOTION], 2) be set in [SETTING] with [LIGHTING CONDITIONS], 3) leave the top corners relatively uncluttered for title text overlay, 4) use [COLOR TEMPERATURE] tones matching the mood. Style reference: hyperrealistic cinematic film still, 16:9 horizontal, [GENRE DESCRIPTOR]. Include 8k detail, photorealistic skin texture, volumetric light, and shallow depth of field.\"\n\nSend this along with a competitor thumbnail as a style reference. Claude generates a prompt specific to your video and niche. The \"leave top corners uncluttered\" instruction is critical because you need space for the text overlay doing the emotional selling.\n\nSTAGE 6: channel description prompt\n\n\"Rewrite the following YouTube channel description to sound professional, engaging, and niche-appropriate for a [NICHE] channel. Keep the tone [TONE: mysterious/authoritative/warm]. Include a brief hook explaining what the channel covers, a line on upload frequency, and a subtle call to subscribe. Under 150 words.\"\n\nPaste a competitor's description below the prompt. Claude rewrites the description matching the tone of your specific niche. Use the output as your channel description AND your default video description.\n\nSTAGE 7: translation prompt (for secondary language channels)\n\n\"You are a professional literary translator and localizer for long-form narrative video scripts. Translate the script below from english into [TARGET LANGUAGE]. Rules: 1) translate 1:1, faithful and complete. Do not summarize, shorten, expand, or omit anything. 2) preserve the original meaning, tone, emotional register, narrative voice, pacing, and rhythm. Translate idioms and expressions into natural equivalents. 3) localize character names and place names into natural forms for [TARGET LANGUAGE]. Keep names 100% consistent throughout. 4) preserve exact formatting and paragraph structure. 5) output ONLY the translated script, with no preamble or notes attached.\"\n\nTranslation channels multiply your revenue with minimal extra work. One script, two languages, two revenue streams. This prompt ensures the translated version reads like a native script rather than a Google-translate artifact.\n\nEvery prompt above is a building block in the production pipeline running behind the channels inside Elevate's community. The full system, including all prompts, all templates, all tools, and direct access to me, lives inside elevate(.)uno For $200/mo.\n\nThese prompts are yours. The system they plug into is inside Elevate if you want the complete picture.",
-"likeCount": 23,
-"retweetCount": 0,
-"url": "https://x.com/thegoldeenhand/status/2112256678175613361",
-"createdAt": "Mon Oct 19 18:56:50 +0000 2026"
+"userName": "The_Zynora",
+"text": "🚨50 Legendary Websites .\nThe Internet’s Ultimate Hidden Toolbox 🧰 \n\n1. https://t.co/yxpZu7FFKn — Borrow millions of books online\n2. https://t.co/fUXVshAzFw — 70K+ free classic eBooks\n3. https://t.co/n80vzUXS6c — Directory of open-access academic journals\n4. https://t.co/D02NBuwBzr — Search global research papers instantly\n5. https://t.co/QX0W4ldX5E — Free educational and cultural media\n6. https://t.co/GdrwIdUPzc — Compute expert answers using AI\n7. https://t.co/1gBUupfj1e — AI research assistant for scientists\n8. https://t.co/Cff6HwOrcl — Get instant research-backed AI answers\n9. https://t.co/4gTpJdVbEb — Ultimate AI assistant for any task\n10. https://t.co/tM6L2MSmrP — Advanced AI for text and coding\n11. https://t.co/MTEM5ums0z — Free web-based Photoshop alternative\n12. https://t.co/U4IbVv1tPx — Create professional graphics and designs easily\n13. https://t.co/2s9y8rCuyt — Remove image backgrounds in seconds\n14. https://t.co/Hdmj8tNN1A — Compress and optimize images instantly\n15. https://t.co/vjxJtEnn0i — Erase unwanted objects from photos\n16. https://t.co/WyB6Bnn6lP — Next-generation AI video editing tools\n17. https://t.co/BsnZAPnyMz — Build, host, and share code globally\n18. https://t.co/3AGRvTLkD5 — Turn source code into beautiful images\n19. https://t.co/gAaQnQKpzF — Intelligent AI search engine for developers\n20. https://t.co/9RwiTSQ8Ag — Test, build, and debug regular expressions\n21. https://t.co/ERZ6ShckpH — Clean, format, and convert code\n22. https://t.co/VHdVptcHg3 — Validate and beautify JSON data\n23. https://t.co/pot7GQJKNr — Deconstruct and understand terminal commands\n24. https://t.co/3OZmP1Ul1S — Create stunning, modern product mockups\n25. https://t.co/1sCgtOrl2f — Find better alternatives to any app\n26. https://t.co/flevp8ehqT — Check if your data has been leaked\n27. https://t.co/IfBQB5llsO — Scan files and URLs for malware\n28. https://t.co/rQtvKWRein — Rates website privacy policies instantly\n29. https://t.co/TpaZs5D4XZ — Disposable temporary email to block spam\n30. https://t.co/hk94Nv5eAX — Secure and encrypted private email\n31. https://t.co/ZeIByCCnLA — Secure file sharing with self-destructing links\n32. https://t.co/qmKBKzesM2 — Send large files seamlessly online\n33. https://t.co/pTraOovq21 — Listen to live worldwide radio stations\n34. https://t.co/4Dle302iMu — Discover similar music artists instantly\n35. https://t.co/hstBAFEnr6 — Identify songs from movies and TV shows\n36. https://t.co/PnpAuYzqwg — Stream music and podcasts globally\n37. https://t.co/HvHwVro3dX — Customizable background noise generator\n38. https://t.co/y2jhIwGPzb — Accurate browser voice-to-text typing\n39. https://t.co/fVV75QiB9i — Exceptionally accurate language translator\n40. https://t.co/J4vXWIDKQV — Find where to stream any movie or show\n41. https://t.co/Tc982l0vbd — The internet’s massive digital library\n42. https://t.co/a9Rvj385fs — Find related websites instantly\n43. https://t.co/9UKe3vWk61 — Get quick AI summaries of YouTube videos\n44. https://t.co/suqOHYhNrc — All-in-one smart bookmark manager\n45. https://t.co/NpSHiQwdzb — Monitor real-time website outages\n46. https://t.co/6fCbEZTVZT — Highly accurate reverse image search\n47. https://t.co/acwGpJokEh — Blazing-fast internet speed test by Netflix\n48. https://t.co/MCvgbA3Pmq — Free unlimited web-based PDF tools\n49. https://t.co/JTdoADk0Ic — Merge, split, and convert PDF files\n50. https://t.co/DcvX02SAsh — Global network performance and speed metrics\n\n📌Save this. You’ll definitely need some of these later.\n\nFollow @The_Zynora for more useful websites, AI tools & tech resources.",
+"likeCount": 110,
+"retweetCount": 72,
+"url": "https://x.com/The_Zynora/status/2112466645088366716",
+"createdAt": "Tue Oct 20 08:51:10 +0000 2026"
 },
 {
-"userName": "CopyWithOlli",
-"text": "Businesses that you NEED to learn copywriting for:\n\nSaaS companies\nAI SaaS\nAI agents\nAI automation businesses\nMobile apps\nDesktop software\nBrowser extensions\nAPI businesses\nDeveloper tools\nCybersecurity companies\nCloud infrastructure\nHosting companies\nDomain registrars\nData companies\nAnalytics platforms\nCRM platforms\nProject-management software\nHR software\nAccounting software\nMarketing software\nSales software\nCustomer-support software\nE-commerce software\nProductivity software\nCommunication software\nFintech apps\nPayment processors\nNeobanks\nDigital wallets\nInvestment platforms\nTrading platforms\nAccounting firms\nTax services\nFinancial advisors\nWealth-management firms\nInsurance companies\nInsurance brokers\nMortgage companies\nLoan providers\nCredit-repair businesses\nDebt-relief companies\nReal-estate agencies\nProperty-management companies\nProperty developers\nReal-estate investment firms\nCommercial real estate\nMortgage brokers\nVacation-rental businesses\nCo-living companies\nCoworking spaces\nE-commerce brands\nDTC brands\nAmazon sellers\nShopify stores\nDropshipping businesses\nPrint-on-demand brands\nSubscription-box businesses\nMarketplace businesses\nFashion brands\nJewelry brands\nWatch brands\nFootwear brands\nBeauty brands\nSkincare brands\nHaircare brands\nMakeup brands\nFragrance brands\nPersonal-care brands\nSupplement brands\nFitness-product brands\nFood brands\nBeverage brands\nCoffee brands\nSnack brands\nPet-product brands\nBaby-product brands\nHomeware brands\nFurniture brands\nInterior-design brands\nElectronics brands\nConsumer-tech brands\nLuxury brands\nSustainable-product brands\nFashion marketplaces\nGift businesses\nCustom-product businesses\nHandmade-product businesses\nCraft businesses\nCollectibles businesses\nDigital-product stores\nOnline courses\nCohort-based courses\nCoaching businesses\nCareer coaching\nExecutive coaching\nBusiness coaching\nSales coaching\nFitness coaching\nLife coaching\nDating coaching\nConsulting firms\nBusiness consultants\nMarketing consultants\nSales consultants\nStrategy consultants\nHR consultants\nTechnology consultants\nFinancial consultants\nManagement consultants\nOperations consultants\nCreative agencies\nMarketing agencies\nAdvertising agencies\nSEO agencies\nSocial-media agencies\nPaid-ads agencies\nEmail-marketing agencies\nWeb-design agencies\nBranding agencies\nPR agencies\nVideo-production agencies\nInfluencer agencies\nRecruitment agencies\nLead-generation agencies\nAppointment-setting agencies\nCopywriting agencies\nDesign studios\nDevelopment agencies\nAI agencies\nAutomation agencies\nFreelancers\nCopywriters\nDesigners\nWeb developers\nVideo editors\nPhotographers\nVirtual assistants\nSocial-media managers\nBookkeepers\nTranslators\nOnline communities\nPaid memberships\nMastermind groups\nProfessional associations\nCreator memberships\nPatreon-style businesses\nNewsletter businesses\nPaid newsletters\nMedia companies\nDigital magazines\nOnline publications\nPodcast businesses\nYouTube businesses\nCreator brands\nInfluencer businesses\nAffiliate businesses\nAffiliate networks\nComparison websites\nReview websites\nJob boards\nRecruitment platforms\nFreelance marketplaces\nB2B marketplaces\nConsumer marketplaces\nEducation platforms\nTutoring businesses\nLanguage schools\nOnline schools\nTest-preparation businesses\nCertification businesses\nPublishers\nBook businesses\nAudiobook platforms\nLegal firms\nLegal-tech companies\nHealthcare practices\nTelehealth companies\nDental practices\nMental-wellness platforms\nFitness businesses\nGyms\nPersonal-training businesses\nWellness retreats\nHospitality businesses\nHotels\nResorts\nTravel agencies\nTravel platforms\nTour operators\nAirlines\nAutomotive dealerships\nCar-rental companies\nAutomotive services\nHome-service businesses\nPlumbing companies\nHVAC companies\nElectrical companies\nConstruction companies\nSolar companies\nNonprofits / charities\n\n——\nEvery business needs copywriting. Underrated skill still",
-"likeCount": 55,
-"retweetCount": 4,
-"url": "https://x.com/CopyWithOlli/status/2111368598262321531",
-"createdAt": "Sat Oct 17 08:07:55 +0000 2026"
+"userName": "allen_lattimer",
+"text": "🚨50 Legendary Websites .\nThe Internet’s Ultimate Hidden Toolbox 🧰\n\n1. https://t.co/bntCYFVPdm — Borrow millions of books online\n2. https://t.co/xPRUz6gvPi — 70K+ free classic eBooks\n3. https://t.co/xKrGm0kuX2 — Directory of open-access academic journals\n4. https://t.co/dVaxYNruzN — Search global research papers instantly\n5. https://t.co/fpSMmbB9O0 — Free educational and cultural media\n6. https://t.co/fhAarLfQwW — Compute expert answers using AI\n7. https://t.co/j2jDUZ3ceL — AI research assistant for scientists\n8. https://t.co/b3UqkCqR9I — Get instant research-backed AI answers\n9. https://t.co/I71BZVRZGA — Ultimate AI assistant for any task\n10. https://t.co/K3dVWVFTkn — Advanced AI for text and coding\n11. https://t.co/Mm1kjeCg8w — Free web-based Photoshop alternative\n12. https://t.co/L08UpXzmqv — Create professional graphics and designs easily\n13. https://t.co/bPEOCh2iM0 — Remove image backgrounds in seconds\n14. https://t.co/Rb5hAB2EIT — Compress and optimize images instantly\n15. https://t.co/1L7IVBpvB3 — Erase unwanted objects from photos\n16. https://t.co/wKiIsR1nl8 — Next-generation AI video editing tools\n17. https://t.co/VFPgXpFIO2 — Build, host, and share code globally\n18. https://t.co/KmZZc7VLp5 — Turn source code into beautiful images\n19. https://t.co/frT8hDRgLD — Intelligent AI search engine for developers\n20. https://t.co/x7iK61mx2T — Test, build, and debug regular expressions\n21. https://t.co/H4xGp0RvBy — Clean, format, and convert code\n22. https://t.co/I6Imp5gDMT — Validate and beautify JSON data\n23. https://t.co/J0bGNDRW2M — Deconstruct and understand terminal commands\n24. https://t.co/iuZEvCV92p — Create stunning, modern product mockups\n25. https://t.co/Gv7RVNwpS4 — Find better alternatives to any app\n26. https://t.co/gyC3p0kzGK — Check if your data has been leaked\n27. https://t.co/IzsPfZCljD — Scan files and URLs for malware\n28. https://t.co/YoJdws64FQ — Rates website privacy policies instantly\n29. https://t.co/JJXZNwl9C4 — Disposable temporary email to block spam\n30. https://t.co/i3zGxvIJ3F — Secure and encrypted private email\n31. https://t.co/Dfhnm3rvkA — Secure file sharing with self-destructing links\n32. https://t.co/a2wUy7Ah5s — Send large files seamlessly online\n33. https://t.co/CUZrr82MWl — Listen to live worldwide radio stations\n34. https://t.co/JrfeKGmt8c — Discover similar music artists instantly\n35. https://t.co/548umxbY27 — Identify songs from movies and TV shows\n36. https://t.co/ZkfYZHrTXs — Stream music and podcasts globally\n37. https://t.co/reD9s425WY — Customizable background noise generator\n38. https://t.co/nGH14fr4q8 — Accurate browser voice-to-text typing\n39. https://t.co/MhBif8tUm7 — Exceptionally accurate language translator\n40. https://t.co/77DeRlWDHw — Find where to stream any movie or show\n41. https://t.co/tPrADrldjy — The internet’s massive digital library\n42. https://t.co/Kmldgu7Luf — Find related websites instantly\n43. https://t.co/TB5VFMRreC — Get quick AI summaries of YouTube videos\n44. https://t.co/kpDlLGO3TW — All-in-one smart bookmark manager\n45. https://t.co/HahxW8y07t — Monitor real-time website outages\n46. https://t.co/Zb9YbVS5Wj — Highly accurate reverse image search\n47. https://t.co/X8PzbLjV3Y — Blazing-fast internet speed test by Netflix\n48. https://t.co/RQioEoHvgz — Free unlimited web-based PDF tools\n49. https://t.co/fYYmhcoWaX — Merge, split, and convert PDF files\n50. https://t.co/0Rh0CBHywN — Global network performance and speed metrics\n\n📌Save this. You’ll definitely need some of these later.",
+"likeCount": 148,
+"retweetCount": 39,
+"url": "https://x.com/allen_lattimer/status/2112553353888833559",
+"createdAt": "Tue Oct 20 14:35:43 +0000 2026"
 },
 {
-"userName": "pavelsimo",
-"text": "Day 93/100 of learning CUDA\n\n> solved the LeetGPU Split-KV Attention Reduction problem. to provide a bit of context... when an llm generates text one token at a time during decoding, it has to compute attention over a long KV cache. the problem is that this can be slow if the work can't be distributed across SMs. Split-KV helps solve that by breaking the cache into chunks, so multiple blocks can compute attention in parallel across more SMs. after that, we merge the partial attention outputs using log-sum-exp. by spreading the work across more of the GPU, decoding becomes faster.\n\n> according to my research, this technique appeared for the first time in the blog post Flash-Decoding (link below). this problem is about the final reduction part.\n\n> so i didn't have time to optimize this properly, so i went with the first thing that came to mind :) follow your instincts, this is the way!\n\n> my solution is just three simple kernels: find the maximum log-sum-exp per head (using the same reduction pattern as LayerNorm on Day 41), compute weights, then calculate the weighted average. see image below for more details.\n\n> anyway, i have a feeling this can be done in a single kernel without extra allocations. i'll revisit this one another day.",
-"likeCount": 18,
-"retweetCount": 0,
-"url": "https://x.com/pavelsimo/status/2112274663724159234",
-"createdAt": "Mon Oct 19 20:08:18 +0000 2026"
-},
-{
-"userName": "VaibhavSisinty",
-"text": "Did xAI just kill every voice AI startup, again?\n\nGrok Voice 3.0. Their most intelligent speech-to-speech model yet. And the benchmarks are brutal.\n\n86.9 on the Speech-to-Speech Index. GPT-Live-1: 83.2. Gemini 3.8 Live: 82.6. The highest score ever recorded.\n\n98.5% on speech reasoning. Highest of any model tested.\n\n97.0% on conversational dynamics. 94.8% on task completion. First on both.\n\n1070 Elo on human preference. GPT-Live-1 sits at 1048.\n\nTime to first audio: under a second, at 40% lower latency than the frontier models it beats.\n\nIt is not a demo. At SpaceX it resolves 70% of Starlink support calls on its own.\n\nStarlink takes 20,000 support calls a day across languages. Millions more voice conversations run inside Tesla cars, every day.\n\nPricing: $0.08 per minute of audio. $0.025 per completed task, the lowest in the comparison.\n\nLive today in the API and the Voice Agent Builder. Existing agents were switched over automatically.\n\nElevenLabs spent years building a voice AI company. xAI built voice AI for rockets, cars and satellites. Then made it available to everyone as an afterthought.",
-"likeCount": 44,
-"retweetCount": 0,
-"url": "https://x.com/VaibhavSisinty/status/2110419311999554040",
-"createdAt": "Wed Oct 14 17:15:48 +0000 2026"
-},
-{
-"userName": "HarperSCarroll",
-"text": "Did you know AI is discovering the most advanced cancer treatments?\n\nUntil now, less than 10% of patients survived 5 years after receiving this cancer diagnosis. New AI research out of @uscedu is changing that.\n\nRemember that AI is so much more than “generative” ai: the text-, image-, video-, and song-generation models that you can use online. Next week, we’ll dive into what different types of AI look like — you might be surprised at how long you’ve been using it.\n\nHi, I’m Harper, AI educator, engineer and advisor.\n\n••• My goal is to democratize AI, so everyone can understand it, use it, and make informed decisions about it. Happy you’re here. •••\n\nI have two degrees in Computer Science specializing in Artificial Intelligence from @Stanford, experience teaching PhD-level AI courses there, and 4+ years building AI at @Facebook / @Meta\n\nFollow @HarperSCarroll if you want to learn about AI, and let me know in the comments if there’s anything specific you want to learn about.",
-"likeCount": 72,
-"retweetCount": 6,
-"url": "https://x.com/HarperSCarroll/status/2112261327456465322",
-"createdAt": "Mon Oct 19 19:15:19 +0000 2026"
+"userName": "HenryL_AI",
+"text": "Can we train language models to propose better ideas to improve LM—not just run them? \n\nIntroducing 𝐋𝐌𝟐𝐋𝐌: Language Models Learn to Improve Language Models. We train a 27B model with RL to propose improvements to language models. On held-out autoregressive and diffusion LM development tasks, it outperforms 𝐆𝐏𝐓-𝟔-𝐬𝐨𝐥 —at 33% lower data-generation cost. It also generalizes to a model family unseen during training.\n\n𝐓𝐡𝐞 𝐛𝐨𝐭𝐭𝐥𝐞𝐧𝐞𝐜𝐤: evaluating every proposal with a real training run makes RL prohibitively expensive.\n\n𝐎𝐮𝐫 𝐚𝐩𝐩𝐫𝐨𝐚𝐜𝐡: a Research World Model (RWM) predicts experimental gains as a cheap reward signal. We periodically execute the current policy’s top proposals and add the measured outcomes to the RWM’s context, keeping its predictions calibrated as the policy evolves.\n\nThis is a step toward cheaper, more reliable feedback loops for recursive self-improvement (RSI).",
+"likeCount": 22,
+"retweetCount": 9,
+"url": "https://x.com/HenryL_AI/status/2112337614049366102",
+"createdAt": "Tue Oct 20 00:18:27 +0000 2026"
 },
 {
 "userName": "Celeris_ai",
 "text": "We’re sharing more of our research, starting with our paper on outcome-routed post-training for diffusion language models.\n\nMany standard RL methods are difficult to apply reliably to diffusion language models. Our approach avoids policy likelihood ratios and combines reward-based learning with teacher guidance.\n\nTool-calling accuracy (BFCL) rose from 53.55% to 88.6%, without increasing the model’s size.\n\nThe result: a more effective way to post train diffusion language models for new capabilities.\n\nOur team will present the work at the NeurIPS 2026 DiffuLM. https://t.co/zTjk2to0hm",
-"likeCount": 80,
+"likeCount": 81,
 "retweetCount": 32,
 "url": "https://x.com/Celeris_ai/status/2110878021838307580",
 "createdAt": "Thu Oct 15 23:38:33 +0000 2026"
 },
 {
-"userName": "ShawnSYFeng",
-"text": "Continue my Beyond-RL series, now on the unsupervised training for diffusion models! \n\nPart II: https://t.co/mMqUFiTuQ8\n\nI will go over three perspectives about diffusion models and how they lead to different unsupervised training algorithm design.\n\nTL;DR: The diffusion models are very special in terms of that all intermediates states share the same space with the final state and two nearby states should stay close, this gives us additional structure to utilize when training unsupervised diffusion models, not just using standard RL.",
-"likeCount": 264,
-"retweetCount": 38,
-"url": "https://x.com/ShawnSYFeng/status/2110156883365392498",
-"createdAt": "Tue Oct 13 23:53:00 +0000 2026"
-},
-{
-"userName": "gowthami_s",
-"text": "1/  This one is somewhat older paper (DL lifecycle wise) but I think this is an important regularization idea to combat reward hacking! I’ve personally done this (before even reading this paper) and it’s stabilizes the loss landscape. \n\nDDRL: keep training on data while doing RL. They combine reward maximization with the usual diffusion loss on real/synthetic samples. That denoising loss helps keep generations realistic as the model learns to get higher rewards.\n\nhttps://t.co/2PKj6zkGhd",
-"likeCount": 22,
-"retweetCount": 1,
-"url": "https://x.com/gowthami_s/status/2110752069992734938",
-"createdAt": "Thu Oct 15 15:18:04 +0000 2026"
-},
-{
-"userName": "junfanzhu98",
-"text": "🤖 #IROS2026: Humanoids don’t just need more data—they need physics grounding.\n\n12 🔥 takeaways from @GuanyaShi (@CMU_Robotics, @Amazon): what's the role of sim in the Astra era, why better references beat reward hacks, and what comes after motion tracking https://t.co/7YlTruaoZB",
+"userName": "eostudi0",
+"text": "@daltonmeon and @daleverett went from building in a one-star motel in SF to @ycombinator's F26 batch to build @wondersearchai\n\nTheir rule? Get the heck off localhost. https://t.co/lWZZ0FrKKZ",
 "likeCount": 13,
-"retweetCount": 2,
-"url": "https://x.com/junfanzhu98/status/2110064285619802410",
-"createdAt": "Tue Oct 13 17:45:03 +0000 2026"
+"retweetCount": 6,
+"url": "https://x.com/eostudi0/status/2112564810747707589",
+"createdAt": "Tue Oct 20 15:21:15 +0000 2026"
 },
 {
-"userName": "russano",
-"text": "Claude Code / Codex tip: add an agents.md that makes every agent run a Playwright \"proof\" command after each change, so it shows the feature works instead of just saying it's done... https://t.co/Y4clAoXbBL",
-"likeCount": 15,
-"retweetCount": 0,
-"url": "https://x.com/russano/status/2111935794030018828",
-"createdAt": "Sun Oct 18 21:41:45 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @deepseek_ai: 🔓 Open-source release\n\nGet DeepSeek-V4.1-Flash-1017:\n🤗 Hugging Face: https://t.co/PxjsLqLx2m\n🔗 ModelScope: https://t.co/AT…",
+"likeCount": 2920,
+"retweetCount": 224,
+"url": "https://x.com/ClementDelangue/status/2111417155279638533",
+"createdAt": "Sat Oct 17 11:20:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @deepseek_ai: 🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the…",
-"likeCount": 36687,
-"retweetCount": 4099,
+"likeCount": 36950,
+"retweetCount": 4123,
 "url": "https://x.com/ClementDelangue/status/2111417058294387169",
 "createdAt": "Sat Oct 17 11:20:29 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @arthurmensch: Should Europe leave frontier AI to the Americans and the Chinese?\n\nThe idea has gained ground in Europe. It is a fundamen…",
-"likeCount": 3851,
-"retweetCount": 759,
-"url": "https://x.com/ClementDelangue/status/2111198380651434354",
-"createdAt": "Fri Oct 16 20:51:32 +0000 2026"
+"userName": "jeremyphoward",
+"text": "RT @deepseek_ai: 🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale w…",
+"likeCount": 36983,
+"retweetCount": 4216,
+"url": "https://x.com/jeremyphoward/status/2112496200335360476",
+"createdAt": "Tue Oct 20 10:48:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @natolambert: This naming scheme is bonkers (minor model numbers and date tags) and the benchmark step is big. Could prove stronger than…",
-"likeCount": 431,
-"retweetCount": 20,
-"url": "https://x.com/ClementDelangue/status/2111458255222231078",
-"createdAt": "Sat Oct 17 14:04:11 +0000 2026"
+"text": "RT @MichaelFNunez: Friday night at @huggingface’s Open Together in SF. 🤗\n\nHere to catch up on the latest in open-source AI and meet some of…",
+"likeCount": 38,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2111420010711097629",
+"createdAt": "Sat Oct 17 11:32:13 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @bindureddy: Meta should open source Meta Wonder \n\nIt’s slightly better than DeepSeek!\n\nThis would put US ahead of China in open source…",
+"likeCount": 201,
+"retweetCount": 6,
+"url": "https://x.com/ClementDelangue/status/2110820734629302693",
+"createdAt": "Thu Oct 15 19:50:54 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @PrimeIntellect: Together with NVIDIA we post-trained Nemotron 3.5 Super VL on thousands of tasks\n\nReflecting enterprise workflows in sa…",
+"likeCount": 342,
+"retweetCount": 43,
+"url": "https://x.com/ClementDelangue/status/2110786295094181959",
+"createdAt": "Thu Oct 15 17:34:03 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @random_walker: Is it \"weird\" or does he maybe know what he's talking about? Anyway, for those who are open to the idea that there's a w…",
+"likeCount": 201,
+"retweetCount": 33,
+"url": "https://x.com/ClementDelangue/status/2112620866668482714",
+"createdAt": "Tue Oct 20 19:03:59 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @reflection_ai: Beam is now available across platforms, with open weights under the Apache 2.0 license - in collaboration with an ecosys…",
+"likeCount": 935,
+"retweetCount": 202,
+"url": "https://x.com/ClementDelangue/status/2111086459482419444",
+"createdAt": "Fri Oct 16 13:26:48 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @mustafasuleyman: We now have state-of-the-art pre-trained base models in the 3T-parameter weight class, built entirely in-house at MAI.…",
+"likeCount": 3439,
+"retweetCount": 354,
+"url": "https://x.com/jeremyphoward/status/2111038870439780638",
+"createdAt": "Fri Oct 16 10:17:42 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @iScienceLuvr: microduck and macroduck, at opening night HuggingFace party for Open-Source AI Week! https://t.co/NIam964NxJ",
-"likeCount": 192,
+"likeCount": 193,
 "retweetCount": 7,
 "url": "https://x.com/ClementDelangue/status/2111420041032077573",
 "createdAt": "Sat Oct 17 11:32:20 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @AlexReibman: Hugged the 🤗 at AI Woodstock 2 https://t.co/qsOhgMrasT",
-"likeCount": 31,
+"userName": "obie",
+"text": "Everything I can teach you about making high quality slopcore music videos in 7000 words or less! https://t.co/d5Dm1R0ARy",
+"likeCount": 60,
+"retweetCount": 14,
+"url": "https://x.com/obie/status/2112645492358148154",
+"createdAt": "Tue Oct 20 20:41:51 +0000 2026"
+},
+{
+"userName": "ykilcher",
+"text": "Every airplane is approximately* an apple \n\n* for suitable definitions of approximately",
+"likeCount": 191,
 "retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2111547731512533279",
-"createdAt": "Sat Oct 17 19:59:44 +0000 2026"
+"url": "https://x.com/ykilcher/status/2112125688270541294",
+"createdAt": "Mon Oct 19 10:16:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "who's going to the hf sf party tonight?",
-"likeCount": 307,
-"retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2111160765612749041",
-"createdAt": "Fri Oct 16 18:22:04 +0000 2026"
+"text": "Meta is back! https://t.co/F6draDnjfF https://t.co/DMaDoh1wEP",
+"likeCount": 975,
+"retweetCount": 50,
+"url": "https://x.com/ClementDelangue/status/2110786602805195191",
+"createdAt": "Thu Oct 15 17:35:17 +0000 2026"
 },
 {
-"userName": "0xNotFounder",
-"text": "https://t.co/vYWrYUX4lC",
-"likeCount": 110,
-"retweetCount": 11,
-"url": "https://x.com/0xNotFounder/status/2111796748678988027",
-"createdAt": "Sun Oct 18 12:29:14 +0000 2026"
-},
-{
-"userName": "VengeonsP",
-"text": "https://t.co/k66ZxcPJy9",
-"likeCount": 22,
-"retweetCount": 0,
-"url": "https://x.com/VengeonsP/status/2111732612377030788",
-"createdAt": "Sun Oct 18 08:14:23 +0000 2026"
-},
-{
-"userName": "Dan1ro0",
-"text": "https://t.co/IXQgL35zkj",
-"likeCount": 8,
-"retweetCount": 2,
-"url": "https://x.com/Dan1ro0/status/2112255845903778017",
-"createdAt": "Mon Oct 19 18:53:32 +0000 2026"
+"userName": "ClementDelangue",
+"text": "😬😬😬 https://t.co/OeMXr7t7mr",
+"likeCount": 109,
+"retweetCount": 4,
+"url": "https://x.com/ClementDelangue/status/2111252500909056128",
+"createdAt": "Sat Oct 17 00:26:36 +0000 2026"
 }
 ]
