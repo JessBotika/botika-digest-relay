@@ -1,19 +1,43 @@
 [
 {
-"userName": "The_Zynora",
-"text": "🚨50 Legendary Websites .\nThe Internet’s Ultimate Hidden Toolbox 🧰 \n\n1. https://t.co/yxpZu7FFKn — Borrow millions of books online\n2. https://t.co/fUXVshAzFw — 70K+ free classic eBooks\n3. https://t.co/n80vzUXS6c — Directory of open-access academic journals\n4. https://t.co/D02NBuwBzr — Search global research papers instantly\n5. https://t.co/QX0W4ldX5E — Free educational and cultural media\n6. https://t.co/GdrwIdUPzc — Compute expert answers using AI\n7. https://t.co/1gBUupfj1e — AI research assistant for scientists\n8. https://t.co/Cff6HwOrcl — Get instant research-backed AI answers\n9. https://t.co/4gTpJdVbEb — Ultimate AI assistant for any task\n10. https://t.co/tM6L2MSmrP — Advanced AI for text and coding\n11. https://t.co/MTEM5ums0z — Free web-based Photoshop alternative\n12. https://t.co/U4IbVv1tPx — Create professional graphics and designs easily\n13. https://t.co/2s9y8rCuyt — Remove image backgrounds in seconds\n14. https://t.co/Hdmj8tNN1A — Compress and optimize images instantly\n15. https://t.co/vjxJtEnn0i — Erase unwanted objects from photos\n16. https://t.co/WyB6Bnn6lP — Next-generation AI video editing tools\n17. https://t.co/BsnZAPnyMz — Build, host, and share code globally\n18. https://t.co/3AGRvTLkD5 — Turn source code into beautiful images\n19. https://t.co/gAaQnQKpzF — Intelligent AI search engine for developers\n20. https://t.co/9RwiTSQ8Ag — Test, build, and debug regular expressions\n21. https://t.co/ERZ6ShckpH — Clean, format, and convert code\n22. https://t.co/VHdVptcHg3 — Validate and beautify JSON data\n23. https://t.co/pot7GQJKNr — Deconstruct and understand terminal commands\n24. https://t.co/3OZmP1Ul1S — Create stunning, modern product mockups\n25. https://t.co/1sCgtOrl2f — Find better alternatives to any app\n26. https://t.co/flevp8ehqT — Check if your data has been leaked\n27. https://t.co/IfBQB5llsO — Scan files and URLs for malware\n28. https://t.co/rQtvKWRein — Rates website privacy policies instantly\n29. https://t.co/TpaZs5D4XZ — Disposable temporary email to block spam\n30. https://t.co/hk94Nv5eAX — Secure and encrypted private email\n31. https://t.co/ZeIByCCnLA — Secure file sharing with self-destructing links\n32. https://t.co/qmKBKzesM2 — Send large files seamlessly online\n33. https://t.co/pTraOovq21 — Listen to live worldwide radio stations\n34. https://t.co/4Dle302iMu — Discover similar music artists instantly\n35. https://t.co/hstBAFEnr6 — Identify songs from movies and TV shows\n36. https://t.co/PnpAuYzqwg — Stream music and podcasts globally\n37. https://t.co/HvHwVro3dX — Customizable background noise generator\n38. https://t.co/y2jhIwGPzb — Accurate browser voice-to-text typing\n39. https://t.co/fVV75QiB9i — Exceptionally accurate language translator\n40. https://t.co/J4vXWIDKQV — Find where to stream any movie or show\n41. https://t.co/Tc982l0vbd — The internet’s massive digital library\n42. https://t.co/a9Rvj385fs — Find related websites instantly\n43. https://t.co/9UKe3vWk61 — Get quick AI summaries of YouTube videos\n44. https://t.co/suqOHYhNrc — All-in-one smart bookmark manager\n45. https://t.co/NpSHiQwdzb — Monitor real-time website outages\n46. https://t.co/6fCbEZTVZT — Highly accurate reverse image search\n47. https://t.co/acwGpJokEh — Blazing-fast internet speed test by Netflix\n48. https://t.co/MCvgbA3Pmq — Free unlimited web-based PDF tools\n49. https://t.co/JTdoADk0Ic — Merge, split, and convert PDF files\n50. https://t.co/DcvX02SAsh — Global network performance and speed metrics\n\n📌Save this. You’ll definitely need some of these later.\n\nFollow @The_Zynora for more useful websites, AI tools & tech resources.",
-"likeCount": 110,
-"retweetCount": 72,
-"url": "https://x.com/The_Zynora/status/2112466645088366716",
-"createdAt": "Tue Oct 20 08:51:10 +0000 2026"
+"userName": "nasmaemad94",
+"text": "A robot world model can show a grasp that never happened.\nIn one example from the @WOB_WorldOracle paper, a real robot fails to grasp a piece of fruit. Given the same starting image and the same action sequence, an action-conditioned world model (ACWM) renders a clean, successful grasp. On screen, the task looks done. In the real world, it wasn't.\n\n@WOB_WorldOracle, from AGIBOT and NVIDIA with Princeton, UT Austin and the University of Toronto, is an evaluation platform for robot behavior models. Its central question is simple: given the same initial observation and the same low-level action trajectory, does the predicted future match what actually happens in the real world?\nThat matters because an ACWM predicts how a scene evolves when a robot executes a sequence of actions, and that is not the same as predicting the next frame. The same motion can end in a successful lift, an empty grasp or a dropped object. The paper points to data generation, scalable policy evaluation and closed-loop policy learning as potential uses, and for all of them a plausible-looking rollout is not enough. It has to reproduce what physically happens. The paper calls this execution coherence and tests it with three stress tests: does the model obey the actions it was given, including bad ones; does that hold across embodiments and action sources; and does it survive long rollouts.\n\nThree design choices carry it.\nFirst, every prediction has a real twin. Existing embodied world-model benchmarks mostly condition on a text instruction or evaluate in simulation. Here the model receives the recorded initial observation and action trajectory, replays them open loop, and the rollout is compared with the paired real execution. The data covers four interaction types (rigid fruit, deformable towels, fluid pouring, articulated drawers), three embodiments (AGIBOT G2, YAM and a human hand), and a split where a policy drove a real robot in closed loop. That is 335 evaluation episodes in total, and the human-operated episodes run about two minutes each.\n\nSecond, failure is part of the data on purpose. About 20% of segments in the AGIBOT training set are failed or suboptimal attempts, and about 40% in the human-operated evaluation set. A model that learned \"every action ends in success\" gets caught.\nThird, outcome and motion are scored separately, along four dimensions. Physical state correctness has a VLM check criteria written from the real keyframe, such as \"the green cup is grasped by the gripper.\" Interaction spatial alignment matches DINOv3 features inside SAM3 masks of arms and objects against the real trajectory. Key interaction area fidelity scores only the interaction regions, combining PSNR, LPIPS and V-JEPA similarity by geometric mean, so one weak component sinks the score. Multi-view action coherence checks the robot arm across three synchronized cameras.\n\nThe part I found most interesting is how the scoring itself was tested. Human raters agreed with the metrics in 88.1 to 93.2% of pairwise comparisons across 128 pairs. When the authors swapped in a wrong outcome keyframe, physical state correctness dropped 67.9% on average, against 34.3% for key-area fidelity, 20.0% for spatial alignment and 12.3% for multi-view coherence. Blurring only the background left the key-area score at 100, while blurring inside the masks lowered it step by step. Delaying one camera view moved only the multi-view score.\n\nThen the results across seven ACWMs, which the paper frames as performance patterns, not a verdict.\nArm motion is far easier than object motion. On human-operated AGIBOT episodes, one model scored 78.8 on arm alignment and 29.1 on the object. Another scored 89.4 and 45.4. The paper reports the same gap for every model, embodiment and data distribution.\nFollowing the trajectory is also not the same as getting the outcome right. On the policy-rollout split, one model scored 62.2 on physical state correctness but 51.6 on spatial alignment. Another scored 57.0 and 78.7. Over full episodes, one model reached 96.96 on multi-view coherence and 60.26 on physical state correctness.\n\nTime hurts every model. Two models fell from 50.56 to 27.08 and from 53.99 to 26.60 between the 30-second and full-episode regimes, and one that led the rest through 60 seconds was overtaken at 70. Human hands were the hardest case: the strongest hand model reached only 15.2 on object fidelity.\nOne honest note: the authors state that these comparisons are observational, not causal. The models differ in architecture, pretraining and action conditioning, and adaptation is not matched. AGIBOT has a dedicated training set, YAM relies on public data with a larger domain gap, and the human-hand models run zero-shot. Each trial also uses a single real execution as reference, so a physically plausible alternative outcome may be penalized.\nIf a world model will judge policies or generate training data, hallucinated success is the worst failure mode, because it quietly inflates the score.\n\nThat is why developers should bring their own models. Evaluating on @WOB_WorldOracle shows how a model performs on robot behavior tasks, reveals where its predictions diverge from what a real robot does, and gives a reference point for further research and improvement.\nIf you are building models for robot behavior, bring your model to @WOB_WorldOracle and see how it performs.\nPlatform: https://t.co/Ax4T5kFD1h\nPaper: https://t.co/IDbGPgJVnE\nCode: https://t.co/Rluqyd5Lqz",
+"likeCount": 92,
+"retweetCount": 73,
+"url": "https://x.com/nasmaemad94/status/2112913779742716086",
+"createdAt": "Wed Oct 21 14:27:55 +0000 2026"
 },
 {
-"userName": "allen_lattimer",
-"text": "🚨50 Legendary Websites .\nThe Internet’s Ultimate Hidden Toolbox 🧰\n\n1. https://t.co/bntCYFVPdm — Borrow millions of books online\n2. https://t.co/xPRUz6gvPi — 70K+ free classic eBooks\n3. https://t.co/xKrGm0kuX2 — Directory of open-access academic journals\n4. https://t.co/dVaxYNruzN — Search global research papers instantly\n5. https://t.co/fpSMmbB9O0 — Free educational and cultural media\n6. https://t.co/fhAarLfQwW — Compute expert answers using AI\n7. https://t.co/j2jDUZ3ceL — AI research assistant for scientists\n8. https://t.co/b3UqkCqR9I — Get instant research-backed AI answers\n9. https://t.co/I71BZVRZGA — Ultimate AI assistant for any task\n10. https://t.co/K3dVWVFTkn — Advanced AI for text and coding\n11. https://t.co/Mm1kjeCg8w — Free web-based Photoshop alternative\n12. https://t.co/L08UpXzmqv — Create professional graphics and designs easily\n13. https://t.co/bPEOCh2iM0 — Remove image backgrounds in seconds\n14. https://t.co/Rb5hAB2EIT — Compress and optimize images instantly\n15. https://t.co/1L7IVBpvB3 — Erase unwanted objects from photos\n16. https://t.co/wKiIsR1nl8 — Next-generation AI video editing tools\n17. https://t.co/VFPgXpFIO2 — Build, host, and share code globally\n18. https://t.co/KmZZc7VLp5 — Turn source code into beautiful images\n19. https://t.co/frT8hDRgLD — Intelligent AI search engine for developers\n20. https://t.co/x7iK61mx2T — Test, build, and debug regular expressions\n21. https://t.co/H4xGp0RvBy — Clean, format, and convert code\n22. https://t.co/I6Imp5gDMT — Validate and beautify JSON data\n23. https://t.co/J0bGNDRW2M — Deconstruct and understand terminal commands\n24. https://t.co/iuZEvCV92p — Create stunning, modern product mockups\n25. https://t.co/Gv7RVNwpS4 — Find better alternatives to any app\n26. https://t.co/gyC3p0kzGK — Check if your data has been leaked\n27. https://t.co/IzsPfZCljD — Scan files and URLs for malware\n28. https://t.co/YoJdws64FQ — Rates website privacy policies instantly\n29. https://t.co/JJXZNwl9C4 — Disposable temporary email to block spam\n30. https://t.co/i3zGxvIJ3F — Secure and encrypted private email\n31. https://t.co/Dfhnm3rvkA — Secure file sharing with self-destructing links\n32. https://t.co/a2wUy7Ah5s — Send large files seamlessly online\n33. https://t.co/CUZrr82MWl — Listen to live worldwide radio stations\n34. https://t.co/JrfeKGmt8c — Discover similar music artists instantly\n35. https://t.co/548umxbY27 — Identify songs from movies and TV shows\n36. https://t.co/ZkfYZHrTXs — Stream music and podcasts globally\n37. https://t.co/reD9s425WY — Customizable background noise generator\n38. https://t.co/nGH14fr4q8 — Accurate browser voice-to-text typing\n39. https://t.co/MhBif8tUm7 — Exceptionally accurate language translator\n40. https://t.co/77DeRlWDHw — Find where to stream any movie or show\n41. https://t.co/tPrADrldjy — The internet’s massive digital library\n42. https://t.co/Kmldgu7Luf — Find related websites instantly\n43. https://t.co/TB5VFMRreC — Get quick AI summaries of YouTube videos\n44. https://t.co/kpDlLGO3TW — All-in-one smart bookmark manager\n45. https://t.co/HahxW8y07t — Monitor real-time website outages\n46. https://t.co/Zb9YbVS5Wj — Highly accurate reverse image search\n47. https://t.co/X8PzbLjV3Y — Blazing-fast internet speed test by Netflix\n48. https://t.co/RQioEoHvgz — Free unlimited web-based PDF tools\n49. https://t.co/fYYmhcoWaX — Merge, split, and convert PDF files\n50. https://t.co/0Rh0CBHywN — Global network performance and speed metrics\n\n📌Save this. You’ll definitely need some of these later.",
-"likeCount": 148,
-"retweetCount": 39,
-"url": "https://x.com/allen_lattimer/status/2112553353888833559",
-"createdAt": "Tue Oct 20 14:35:43 +0000 2026"
+"userName": "_yusufknl",
+"text": "every AI model you have ever used - GPT-4, claude, gemini, llama, grok - is doing one thing. one single mathematical operation underneath every answer, every line of code, every image, every agent action.\n\nit is computing bayes' theorem. an equation written by a presbyterian minister in 1763 who never published it because he thought it was too obvious.\n\nP(A|B) = P(B|A) × P(A) / P(B)\n\nthomas bayes died in 1761. his friend richard price found the manuscript in a drawer and published it posthumously. neither of them could have imagined that 263 years later this equation would power a $4.6 trillion industry.\n\nhere's what the equation actually does inside your model -\n\nevery token a transformer generates is a bayesian update. the model starts with a prior - its training data, its weights, its compressed knowledge of the internet. then it conditions on your prompt. every word you type shifts the probability distribution. the output is the posterior - the most probable next token given everything the model knows plus everything you just said.\n\nP(next token | your prompt) = P(your prompt | next token) × P(next token) / P(your prompt)\n\nthis is not an analogy. this is literally the softmax function. the attention mechanism is bayesian inference running in parallel across every token in the context window simultaneously.\n\nnow watch why this matters for the frontier labs -\n\nthe quality of any bayesian system depends on two things: the prior and the likelihood function. in LLM terms: the training data and the architecture.\n\nopenai's strategy since GPT-2: make the prior bigger. more data. more parameters. more compressed internet. this is why GPT-4 cost $100 million+ to train. they were building the most expensive prior in history.\n\nthe problem: bayes' theorem has a known failure mode. when the prior is trained on data that contains errors, the posterior inherits those errors and amplifies them. this is called prior contamination. every statistician learns it in their first year.\n\nthe measurement [Table 1] -\n\nestimated error rate in GPT-4's training data: 3-5% of tokens contain factual errors, outdated information, or contradictions.\nestimated hallucination rate of GPT-4: 3-8% depending on domain.\n\nthe correlation is not a coincidence. it is bayes' theorem doing exactly what bayes proved it would do. garbage prior, garbage posterior. 263 years ago.\n\nanthropic understood this first. dario amodei's entire approach - constitutional AI, RLHF, careful data curation - is not a safety strategy. it is a bayesian strategy. reduce contamination in the prior. the posterior improves automatically.\n\nthis is why claude hallucinates less than GPT-4 on most benchmarks despite being a smaller model. it is not smarter. it has a cleaner prior.\n\ngoogle understood it second. gemini's mixture-of-experts architecture splits the prior into specialized domains. medical knowledge in one expert, legal in another, code in a third. each expert has a smaller, more focused prior with less contamination. bayes' theorem operates more accurately on a focused prior than a noisy universal one.\n\nnow watch the scaling paradox [Fig. 1] -\n\nmore training data should make models better. bayes says a larger prior is more informative.\n\nbut the internet is not growing cleaner. it is growing noisier. AI-generated content now accounts for an estimated 15-25% of new internet text. models training on AI-generated text are feeding bayesian priors built on bayesian posteriors.\n\nthis is recursive prior contamination. bayes proved exactly what happens:\n\ngeneration 1: model trained on human data. error rate 3%.\ngeneration 2: model trained on mix of human + AI data. error rate 5.4%.\ngeneration 3: projected error rate 9.1%.\ngeneration 4: projected error rate 16.7%.\n\nthe curve is exponential. each generation's errors compound into the next generation's prior. this is not a hypothetical - researchers at oxford and cambridge published the empirical measurements in july 2025. they called it \"model collapse.\"\n\nbayes called it contaminated priors. in 1763.\n\nthe companies that survive this are the ones with proprietary human-generated data that has never been touched by AI output. this is why reddit sold its data to google for $60 million. this is why twitter/X locked its API. this is why stack overflow mass-signed licensing deals. clean human data is the new oil. because it is the only thing that produces a clean bayesian prior.\n\nthe next breakthrough in AI will not come from a bigger model. it will come from a cleaner prior. the difference between those two strategies is the difference between openai spending $10 billion on GPT-5 and someone spending $500 million on the most carefully curated dataset ever assembled.\n\nbayes proved it. a minister who thought his equation was too obvious to publish.\n\n263 years later it governs every AI company on earth and almost none of them talk about it by name.\n\nsave this",
+"likeCount": 18,
+"retweetCount": 2,
+"url": "https://x.com/_yusufknl/status/2112993777560256665",
+"createdAt": "Wed Oct 21 19:45:48 +0000 2026"
+},
+{
+"userName": "KavianCoin",
+"text": "👽🚀 KAV is the Alien of Solana - and KAV Loves Solana! 💜\n\n🔥 WHAT IF YOU COULD BUILD YOUR OWN ALL-IN-ONE AI PLATFORM WITHOUT BEING AN EXPERT PROGRAMMER?\n\nImagine one platform where people can chat with AI, generate images, create videos, produce music, translate documents, and even build applications!\n\n🛸 Today's KAV Build Lab: Create Your Own AI Everything Hub!\n\n🧠 What Are We Building?\n\nA powerful AI workspace with multiple tools accessible from one dashboard:\n\n💬 AI Chat - Research, write captions, translate, summarize, and answer questions.\n\n🎨 AI Image Studio - Generate images, edit photos, and transform styles.\n\n🎬 AI Video Creator - Turn text prompts or images into videos.\n\n🎙 AI Voice & Music - Convert text to speech and integrate AI music generation.\n\n📱 AI App Builder - Describe an application and let AI help generate its code.\n\n📂 Smart Workspace - Save projects, organize files, and manage your creations.\n\n⚡ HOW TO BUILD IT WITH VIBE CODING + VIBE ENGINEERING\n\n━━━━━━━━━━━━━━\n\n1️⃣ Google AI Studio - Your AI Development Partner\n\n🔗 https://t.co/WTbRT1ZLej\n\nOpen Build Mode and describe your platform. Let Gemini generate your interface, dashboard, navigation, and application code.\n\n━━━━━━━━━━━━━━\n\n2️⃣ Firebase - Your Platform's Backend\n\n🔗 https://t.co/HDK2S3PXCl\n\nConnect Firebase Authentication for user accounts and Firestore for saving projects, chat history, and settings.\n\nGoogle AI Studio supports Firebase integration!\n\n━━━━━━━━━━━━━━\n\n3️⃣ Gemini API - Your AI Brain\n\n🔗 https://t.co/UV7K1opASn\n\nConnect supported Gemini models for chat, writing, research, and multimodal features.\n\n━━━━━━━━━━━━━━\n\n4️⃣ Hugging Face - Explore Additional AI Models\n\n🔗 https://t.co/QEJJdEpVOQ\n\nDiscover models and demos for speech, images, and other capabilities. Connect compatible inference providers when available.\n\n━━━━━━━━━━━━━━\n\n5️⃣ Cloudflare R2 - Media File Storage\n\n🔗 https://t.co/FuOOlPkp7t\n\nStore generated images, audio, and video files with scalable object storage.\n\n━━━━━━━━━━━━━━\n\n💡 Start with available free tiers. Video generation, music generation, GPU inference, and some API services may require paid credits.\n\n━━━━━━━━━━━━━━\n\n🚀 YOUR STARTING PROMPT - COPY INTO GOOGLE AI STUDIO 👇\n\n\"Build a modern, responsive all-in-one AI platform called Alien AI Hub using React, TypeScript, and Firebase.\n\nCreate a futuristic dashboard with six modules: AI Chat, Image Studio, Video Creator, Voice & Music Studio, AI App Builder, and My Projects.\n\nIntegrate Firebase Authentication and Firestore. Use secure server-side API integrations for supported AI models.\n\nImplement a fully functional Gemini-powered chat and text assistant first. Build modular interfaces for the remaining tools without pretending unavailable APIs work.\n\nAdd file uploads, project history, loading indicators, error handling, mobile responsiveness, usage limits, and clean navigation.\n\nKeep API keys secure, apply Firebase Security Rules, and build the platform step by step with production-quality architecture.\"\n\n━━━━━━━━━━━━━━\n\n🧠 VIBE CODING + VIBE ENGINEERING = SMARTER DEVELOPMENT\n\nVibe Coding helps turn ideas into working code using natural language.\n\nVibe Engineering makes that code safer, testable, maintainable, and ready for real users.\n\n━━━━━━━━━━━━━━\n\n🔥 KAV BUILD CHALLENGE\n\nIf you could create your own AI platform, which feature would you build FIRST?\n\nA) 💬 AI Chat + Research Assistant\n\nB) 🎨 AI Image + Video Creator\n\nC) 🎙 AI Voice + Music Studio\n\nD) 🚀 All-in-One AI Everything Hub\n\n👇 Drop your choice and tell KAVIANS what you would build!\n\n💜 Knowledge Into Action - That's the KAV Way!\n\n#KAV #Solana #ArtificialIntelligence #VibeCoding #VibeEngineering #GoogleAIStudio #Firebase",
+"likeCount": 30,
+"retweetCount": 18,
+"url": "https://x.com/KavianCoin/status/2113069743691464764",
+"createdAt": "Thu Oct 22 00:47:40 +0000 2026"
+},
+{
+"userName": "MattNiessner",
+"text": "Congrats to @LukasHollein for his successful PhD defense!\n\nLukas’s thesis is on 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐧𝐠 𝟑𝐃 𝐖𝐨𝐫𝐥𝐝𝐬 𝐟𝐫𝐨𝐦 𝟐𝐃 𝐆𝐞𝐧𝐞𝐫𝐚𝐭𝐢𝐯𝐞 𝐌𝐨𝐝𝐞𝐥𝐬. His most impactful work so far, Text2Room (ICCV’23 Oral), was the first method to generate complete room-scale 3D scenes with textured geometry from text alone.\n\nThe key idea is to lift pre-trained 2D text-to-image models into 3D: iteratively generate new views, estimate depth, and fuse everything into a seamless textured mesh, with a carefully designed viewpoint selection to complete the scene. This inspired many others on text-to-3D scene generation and led to a long line of follow-up works, including Ctrl-Room, LucidDreamer, WonderJourney, WorldGen, and many more. Today, the Text2Room paradigm of leveraging 2D priors has become the primary approach for both image and video diffusion models to generate 3D scenes.\n\nHowever, Lukas has done much more cutting-edge research. ViewDiff turns text-to-image models into 3D-consistent multi-view generators, WorldExplorer generates fully navigable 3D scenes from video diffusion models, and 3DGS-LM speeds up Gaussian Splatting optimization with Levenberg-Marquardt, and most recently World Reconstruction From Inconsistent Views. In summary, his PhD has helped define how we generate 3D worlds with generative AI.\n\nLukas also keeps pushing the boundaries of 3D world generation. He’s now continuing his research at Apple and I'm sure we can expect more great research very soon!\n\nCheck his great research: https://t.co/PEBUGBXuw8\n\nCongrats Dr. Höllein, you will be deeply missed in the lab!",
+"likeCount": 109,
+"retweetCount": 7,
+"url": "https://x.com/MattNiessner/status/2112963857039995070",
+"createdAt": "Wed Oct 21 17:46:55 +0000 2026"
+},
+{
+"userName": "vicky_grok",
+"text": "CHATGPT WASN’T JUST TRAINED TO PREDICT WORDS.\n\nIT WAS ALSO TRAINED TO LEARN WHAT HUMANS PREFER.\n\nThat’s where RLHF comes in.\n\nReinforcement Learning from Human Feedback.\n\nHere’s the idea:\n\nGive an AI the same question.\n\nIt produces two different answers.\n\nHumans compare them and choose which one is better.\n\nThose preferences become training data.\n\nThen:\n\n1. HUMAN FEEDBACK\nPeople rank competing AI responses.\n\n2. REWARD MODEL\nA model learns to predict which responses humans would prefer.\n\n3. REINFORCEMENT LEARNING\nThe AI is optimized to produce responses that score better under that learned reward.\n\nThe result?\n\nThe model becomes better aligned with the preferences represented in its training feedback.\n\nBut there’s a catch.\n\nThe reward model is only a proxy for human judgment.\n\nIf it rewards the wrong things, the AI can learn to produce answers that score well without actually being better.\n\nThat’s why preference data, reward modeling, and evaluation all matter.\n\nThe big idea:\n\nPretraining teaches a model patterns in data.\n\nRLHF helps shape how it responds.\n\nAI alignment isn't just about making models smarter.\n\nIt's also about teaching them which responses humans prefer.\n\n#AI #LLM #MachineLearning #RLHF",
+"likeCount": 24,
+"retweetCount": 3,
+"url": "https://x.com/vicky_grok/status/2113126514351022473",
+"createdAt": "Thu Oct 22 04:33:15 +0000 2026"
 },
 {
 "userName": "HenryL_AI",
@@ -24,131 +48,83 @@
 "createdAt": "Tue Oct 20 00:18:27 +0000 2026"
 },
 {
-"userName": "Celeris_ai",
-"text": "We’re sharing more of our research, starting with our paper on outcome-routed post-training for diffusion language models.\n\nMany standard RL methods are difficult to apply reliably to diffusion language models. Our approach avoids policy likelihood ratios and combines reward-based learning with teacher guidance.\n\nTool-calling accuracy (BFCL) rose from 53.55% to 88.6%, without increasing the model’s size.\n\nThe result: a more effective way to post train diffusion language models for new capabilities.\n\nOur team will present the work at the NeurIPS 2026 DiffuLM. https://t.co/zTjk2to0hm",
-"likeCount": 81,
-"retweetCount": 32,
-"url": "https://x.com/Celeris_ai/status/2110878021838307580",
-"createdAt": "Thu Oct 15 23:38:33 +0000 2026"
+"userName": "ClementDelangue",
+"text": "In addition to everything you mentioned @dens, please factor in that you inspired a whole generation of entrepreneurs (including me) by showing them that:\n- you can build a cool startup from NYC\n- you can build something fun and that you care about\n- you can persevere & stick to trying to build what you're excited about no matter what (it's the journey, not the destination!)\n\nThank you Dennis & team!",
+"likeCount": 159,
+"retweetCount": 13,
+"url": "https://x.com/ClementDelangue/status/2113020231874642109",
+"createdAt": "Wed Oct 21 21:30:55 +0000 2026"
 },
 {
-"userName": "eostudi0",
-"text": "@daltonmeon and @daleverett went from building in a one-star motel in SF to @ycombinator's F26 batch to build @wondersearchai\n\nTheir rule? Get the heck off localhost. https://t.co/lWZZ0FrKKZ",
-"likeCount": 13,
-"retweetCount": 6,
-"url": "https://x.com/eostudi0/status/2112564810747707589",
-"createdAt": "Tue Oct 20 15:21:15 +0000 2026"
+"userName": "ListoraApp",
+"text": "https://t.co/fYXbrOPust\n\nAI media studio for realtors. \nVirtual staging.\nListing reels, photo enhance &amp; inspections in seconds.\nUpload 3 nice photos, a small prompt, reel ready. \nBuilt for PRO agents. \n\nFree to try : Search for Listora on Apple Store or use the above link. https://t.co/zfVrBrey4f",
+"likeCount": 6,
+"retweetCount": 5,
+"url": "https://x.com/ListoraApp/status/2112970577061298205",
+"createdAt": "Wed Oct 21 18:13:37 +0000 2026"
+},
+{
+"userName": "Qiuhong_Shen",
+"text": "Can diffusion RL explore INSIDE the generator, without perturbing its denoising trajectory?\n\nIntroducing RPO 🚀 — stochastic attention routing for diffusion RL.\n\n⚡ Nearly 4× faster training!\n\n🌐 https://t.co/SVMUQCsBLC\n🤗 https://t.co/9UgPQhVYkc",
+"likeCount": 11,
+"retweetCount": 3,
+"url": "https://x.com/Qiuhong_Shen/status/2111025575523655782",
+"createdAt": "Fri Oct 16 09:24:52 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @deepseek_ai: 🔓 Open-source release\n\nGet DeepSeek-V4.1-Flash-1017:\n🤗 Hugging Face: https://t.co/PxjsLqLx2m\n🔗 ModelScope: https://t.co/AT…",
-"likeCount": 2920,
-"retweetCount": 224,
-"url": "https://x.com/ClementDelangue/status/2111417155279638533",
-"createdAt": "Sat Oct 17 11:20:52 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @deepseek_ai: 🚀 DeepSeek-V4.1-Flash-1017 is here!\n\nStronger benchmark performance, faster task completion, and shorter outputs than the…",
-"likeCount": 36950,
-"retweetCount": 4123,
-"url": "https://x.com/ClementDelangue/status/2111417058294387169",
-"createdAt": "Sat Oct 17 11:20:29 +0000 2026"
+"text": "RT @deepseek_ai: 🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale w…",
+"likeCount": 41914,
+"retweetCount": 4730,
+"url": "https://x.com/ClementDelangue/status/2112587644576338371",
+"createdAt": "Tue Oct 20 16:51:59 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
 "text": "RT @deepseek_ai: 🚀 Introducing DeepInfer, our in-house inference framework, now fully open source!\n\nPowering DeepSeek-V4.1-Flash at scale w…",
-"likeCount": 36983,
-"retweetCount": 4216,
+"likeCount": 41914,
+"retweetCount": 4730,
 "url": "https://x.com/jeremyphoward/status/2112496200335360476",
 "createdAt": "Tue Oct 20 10:48:37 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @MichaelFNunez: Friday night at @huggingface’s Open Together in SF. 🤗\n\nHere to catch up on the latest in open-source AI and meet some of…",
-"likeCount": 38,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2111420010711097629",
-"createdAt": "Sat Oct 17 11:32:13 +0000 2026"
+"text": "RT @nvidiaomniverse: Introducing SimReady Central Library. 👋\n\nThis library brings 2,000+ simulation-ready 3D assets to @huggingface, open s…",
+"likeCount": 53,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2113005875833024558",
+"createdAt": "Wed Oct 21 20:33:53 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @bindureddy: Meta should open source Meta Wonder \n\nIt’s slightly better than DeepSeek!\n\nThis would put US ahead of China in open source…",
-"likeCount": 201,
-"retweetCount": 6,
-"url": "https://x.com/ClementDelangue/status/2110820734629302693",
-"createdAt": "Thu Oct 15 19:50:54 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @PrimeIntellect: Together with NVIDIA we post-trained Nemotron 3.5 Super VL on thousands of tasks\n\nReflecting enterprise workflows in sa…",
-"likeCount": 342,
-"retweetCount": 43,
-"url": "https://x.com/ClementDelangue/status/2110786295094181959",
-"createdAt": "Thu Oct 15 17:34:03 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @random_walker: Is it \"weird\" or does he maybe know what he's talking about? Anyway, for those who are open to the idea that there's a w…",
-"likeCount": 201,
-"retweetCount": 33,
-"url": "https://x.com/ClementDelangue/status/2112620866668482714",
-"createdAt": "Tue Oct 20 19:03:59 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @reflection_ai: Beam is now available across platforms, with open weights under the Apache 2.0 license - in collaboration with an ecosys…",
-"likeCount": 935,
-"retweetCount": 202,
-"url": "https://x.com/ClementDelangue/status/2111086459482419444",
-"createdAt": "Fri Oct 16 13:26:48 +0000 2026"
+"text": "RT @LysandreJik: DeepSeek just open-sourced DeepInfer, the inference framework behind their large-scale production services.\n\nThere is A LO…",
+"likeCount": 55,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2113055550715945031",
+"createdAt": "Wed Oct 21 23:51:16 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @mustafasuleyman: We now have state-of-the-art pre-trained base models in the 3T-parameter weight class, built entirely in-house at MAI.…",
-"likeCount": 3439,
-"retweetCount": 354,
-"url": "https://x.com/jeremyphoward/status/2111038870439780638",
-"createdAt": "Fri Oct 16 10:17:42 +0000 2026"
+"text": "RT @bradneuberg: I’m very pro AI, but in terms of the Twitter software engineering discourse I see mostly people doing single person vibe c…",
+"likeCount": 517,
+"retweetCount": 20,
+"url": "https://x.com/jeremyphoward/status/2110795718302880087",
+"createdAt": "Thu Oct 15 18:11:30 +0000 2026"
+},
+{
+"userName": "rebuildfm",
+"text": "Full English transcript for Rebuild 434: Agent Leadership (Matz) is available now! https://t.co/GSoPP88AcQ",
+"likeCount": 15,
+"retweetCount": 0,
+"url": "https://x.com/rebuildfm/status/2113075059241992426",
+"createdAt": "Thu Oct 22 01:08:47 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @iScienceLuvr: microduck and macroduck, at opening night HuggingFace party for Open-Source AI Week! https://t.co/NIam964NxJ",
-"likeCount": 193,
-"retweetCount": 7,
-"url": "https://x.com/ClementDelangue/status/2111420041032077573",
-"createdAt": "Sat Oct 17 11:32:20 +0000 2026"
-},
-{
-"userName": "obie",
-"text": "Everything I can teach you about making high quality slopcore music videos in 7000 words or less! https://t.co/d5Dm1R0ARy",
-"likeCount": 60,
-"retweetCount": 14,
-"url": "https://x.com/obie/status/2112645492358148154",
-"createdAt": "Tue Oct 20 20:41:51 +0000 2026"
-},
-{
-"userName": "ykilcher",
-"text": "Every airplane is approximately* an apple \n\n* for suitable definitions of approximately",
-"likeCount": 191,
-"retweetCount": 3,
-"url": "https://x.com/ykilcher/status/2112125688270541294",
-"createdAt": "Mon Oct 19 10:16:20 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "Meta is back! https://t.co/F6draDnjfF https://t.co/DMaDoh1wEP",
-"likeCount": 975,
-"retweetCount": 50,
-"url": "https://x.com/ClementDelangue/status/2110786602805195191",
-"createdAt": "Thu Oct 15 17:35:17 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "😬😬😬 https://t.co/OeMXr7t7mr",
-"likeCount": 109,
-"retweetCount": 4,
-"url": "https://x.com/ClementDelangue/status/2111252500909056128",
-"createdAt": "Sat Oct 17 00:26:36 +0000 2026"
+"text": "RT @NVIDIARTXSpark: Big day. Little buddy. https://t.co/Sj0CPLQ0ed",
+"likeCount": 364,
+"retweetCount": 27,
+"url": "https://x.com/ClementDelangue/status/2113091489878118707",
+"createdAt": "Thu Oct 22 02:14:05 +0000 2026"
 }
 ]
