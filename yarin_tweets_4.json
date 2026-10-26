@@ -1,11 +1,11 @@
 [
 {
-"userName": "_yusufknl",
-"text": "every AI model you have ever used - GPT-4, claude, gemini, llama, grok - is doing one thing. one single mathematical operation underneath every answer, every line of code, every image, every agent action.\n\nit is computing bayes' theorem. an equation written by a presbyterian minister in 1763 who never published it because he thought it was too obvious.\n\nP(A|B) = P(B|A) × P(A) / P(B)\n\nthomas bayes died in 1761. his friend richard price found the manuscript in a drawer and published it posthumously. neither of them could have imagined that 263 years later this equation would power a $4.6 trillion industry.\n\nhere's what the equation actually does inside your model -\n\nevery token a transformer generates is a bayesian update. the model starts with a prior - its training data, its weights, its compressed knowledge of the internet. then it conditions on your prompt. every word you type shifts the probability distribution. the output is the posterior - the most probable next token given everything the model knows plus everything you just said.\n\nP(next token | your prompt) = P(your prompt | next token) × P(next token) / P(your prompt)\n\nthis is not an analogy. this is literally the softmax function. the attention mechanism is bayesian inference running in parallel across every token in the context window simultaneously.\n\nnow watch why this matters for the frontier labs -\n\nthe quality of any bayesian system depends on two things: the prior and the likelihood function. in LLM terms: the training data and the architecture.\n\nopenai's strategy since GPT-2: make the prior bigger. more data. more parameters. more compressed internet. this is why GPT-4 cost $100 million+ to train. they were building the most expensive prior in history.\n\nthe problem: bayes' theorem has a known failure mode. when the prior is trained on data that contains errors, the posterior inherits those errors and amplifies them. this is called prior contamination. every statistician learns it in their first year.\n\nthe measurement [Table 1] -\n\nestimated error rate in GPT-4's training data: 3-5% of tokens contain factual errors, outdated information, or contradictions.\nestimated hallucination rate of GPT-4: 3-8% depending on domain.\n\nthe correlation is not a coincidence. it is bayes' theorem doing exactly what bayes proved it would do. garbage prior, garbage posterior. 263 years ago.\n\nanthropic understood this first. dario amodei's entire approach - constitutional AI, RLHF, careful data curation - is not a safety strategy. it is a bayesian strategy. reduce contamination in the prior. the posterior improves automatically.\n\nthis is why claude hallucinates less than GPT-4 on most benchmarks despite being a smaller model. it is not smarter. it has a cleaner prior.\n\ngoogle understood it second. gemini's mixture-of-experts architecture splits the prior into specialized domains. medical knowledge in one expert, legal in another, code in a third. each expert has a smaller, more focused prior with less contamination. bayes' theorem operates more accurately on a focused prior than a noisy universal one.\n\nnow watch the scaling paradox [Fig. 1] -\n\nmore training data should make models better. bayes says a larger prior is more informative.\n\nbut the internet is not growing cleaner. it is growing noisier. AI-generated content now accounts for an estimated 15-25% of new internet text. models training on AI-generated text are feeding bayesian priors built on bayesian posteriors.\n\nthis is recursive prior contamination. bayes proved exactly what happens:\n\ngeneration 1: model trained on human data. error rate 3%.\ngeneration 2: model trained on mix of human + AI data. error rate 5.4%.\ngeneration 3: projected error rate 9.1%.\ngeneration 4: projected error rate 16.7%.\n\nthe curve is exponential. each generation's errors compound into the next generation's prior. this is not a hypothetical - researchers at oxford and cambridge published the empirical measurements in july 2025. they called it \"model collapse.\"\n\nbayes called it contaminated priors. in 1763.\n\nthe companies that survive this are the ones with proprietary human-generated data that has never been touched by AI output. this is why reddit sold its data to google for $60 million. this is why twitter/X locked its API. this is why stack overflow mass-signed licensing deals. clean human data is the new oil. because it is the only thing that produces a clean bayesian prior.\n\nthe next breakthrough in AI will not come from a bigger model. it will come from a cleaner prior. the difference between those two strategies is the difference between openai spending $10 billion on GPT-5 and someone spending $500 million on the most carefully curated dataset ever assembled.\n\nbayes proved it. a minister who thought his equation was too obvious to publish.\n\n263 years later it governs every AI company on earth and almost none of them talk about it by name.\n\nsave this",
-"likeCount": 21,
-"retweetCount": 2,
-"url": "https://x.com/_yusufknl/status/2112993777560256665",
-"createdAt": "Wed Oct 21 19:45:48 +0000 2026"
+"userName": "e_opore",
+"text": "100 Modern Computer Science Projects in the AI Era (with Source Code)\n\nAI & Machine Learning\n1. AI-Powered Personal Assistant\n2. Retrieval-Augmented Generation (RAG) Chatbot\n3. AI Agent with Tool Calling\n4. Multi-Agent Research System\n5. AI Code Review Assistant\n6. Intelligent Document Search Engine\n7. AI-Powered Resume Analyzer\n8. Recommendation Engine\n9. Sentiment Analysis Dashboard\n10. Fake News Detection System\n\nLLMs & Generative AI\n11. ChatGPT-Style Application\n12. PDF Question-Answering System\n13. AI-Powered Study Assistant\n14. AI Content Summarization Tool\n15. Local LLM Chatbot\n16. AI Meeting Transcription System\n17. Text-to-Speech Application\n18. AI Image Caption Generator\n19. AI-Powered SQL Query Generator\n20. LLM Evaluation and Benchmarking Platform\n\nAI Agents & Automation\n21. Autonomous Web Research Agent\n22. AI Coding Agent\n23. Browser Automation Agent\n24. AI Customer Support Agent\n25. Multi-Agent Workflow Orchestrator\n26. AI Email Management Assistant\n27. AI-Powered Personal Finance Assistant\n28. Intelligent Task Automation System\n29. AI Travel Planning Agent\n30. MCP-Based Tool Integration Server\n\nAlgorithms & Data Structures\n31. Visual Algorithm Simulator\n32. Interactive Sorting Algorithm Visualizer\n33. Graph Traversal Explorer\n34. Shortest Path Finder\n35. Dynamic Programming Visualizer\n36. AI-Powered Code Complexity Analyzer\n37. Custom Search Engine\n38. Autocomplete System Using Tries\n39. Plagiarism Detection Engine\n40. Distributed Task Scheduling Simulator\n\nBackend & Distributed Systems\n41. URL Shortener with Analytics\n42. Distributed Key-Value Store\n43. Real-Time Chat Infrastructure\n44. API Rate Limiting Service\n45. Event-Driven Notification System\n46. Distributed Job Queue\n47. API Gateway with Authentication\n48. Microservices-Based E-Commerce Platform\n49. Real-Time Data Streaming Pipeline\n50. Fault-Tolerant Distributed Storage System\n\nDatabases & Data Engineering\n51. Build a Mini SQL Database Engine\n52. Database Query Execution Visualizer\n53. Vector Database for Semantic Search\n54. Real-Time Analytics Pipeline\n55. Data Warehouse with ETL Pipelines\n56. Database Indexing Simulator\n57. Change Data Capture System\n58. AI-Powered Data Cleaning Tool\n59. Time-Series Database\n60. Hybrid Search Engine Using BM25 and Embeddings\n\nCybersecurity & Privacy\n61. Network Traffic Analyzer\n62. Intrusion Detection System\n63. Password Security Analyzer\n64. Phishing URL Detection System\n65. Secure Authentication Service\n66. File Encryption and Decryption Tool\n67. Security Log Anomaly Detector\n68. AI-Powered Malware Classification\n69. Vulnerability Scanning Dashboard\n70. Privacy-Preserving Machine Learning System\n\nOperating Systems & Computer Architecture\n71. Build a Mini Operating System\n72. CPU Scheduling Algorithm Simulator\n73. Memory Allocation Visualizer\n74. Virtual Memory Simulator\n75. File System Implementation\n76. Build a Simple Programming Language Interpreter\n77. Compiler for a Custom Programming Language\n78. Virtual Machine Emulator\n79. Multithreaded Task Scheduler\n80. Linux System Monitoring Dashboard\n\nCloud, DevOps & Infrastructure\n81. Docker Container Monitoring Dashboard\n82. Kubernetes Deployment Management Tool\n83. CI/CD Pipeline Automation Platform\n84. Infrastructure Monitoring System\n85. Serverless Image Processing Pipeline\n86. Cloud Cost Optimization Dashboard\n87. Log Aggregation and Analysis Platform\n88. Automated Backup and Disaster Recovery System\n89. Infrastructure-as-Code Deployment Tool\n90. AI-Powered DevOps Incident Assistant\n\nComputer Vision, Robotics & Emerging Technologies\n91. Real-Time Object Detection System\n92. Image Similarity Search Engine\n93. Hand Gesture Recognition Application\n94. AI-Powered Sign Language Recognition\n95. Autonomous Robot Navigation Simulator\n96. Voice-Controlled Desktop Assistant\n97. Federated Learning Platform\n98. Edge AI Inference Application\n99. Blockchain-Based Identity Verification System\n100. AI-Powered Smart Traffic Management System\n\n---\n\nFind the source code for 100 frontend development projects here:\n\nhttps://t.co/0B2CJqPZQy\n\nReminders:\n- Repost and share this list to inspire other developers.\n- Bookmark this post for future reference.\n- Follow @e_opore for more programming tutorials, computer science concepts, AI engineering resources, and project ideas.\n\nDon't just learn computer science. Build, experiment, debug, and ship real projects.\n\nThe best way to learn is to build.",
+"likeCount": 49,
+"retweetCount": 8,
+"url": "https://x.com/e_opore/status/2114565932882203109",
+"createdAt": "Mon Oct 26 03:52:59 +0000 2026"
 },
 {
 "userName": "AdarshChetan",
@@ -16,115 +16,107 @@
 "createdAt": "Wed Oct 21 13:09:59 +0000 2026"
 },
 {
-"userName": "blank_aitalent",
-"text": "デジタルサイネージを搭載した新ファッション。\n\n魅惑の表情で本音はこう・・・\n\n天邪鬼ですねぇ。お嬢さん。\n\n#AIart #Texturemagic #プロンプト共有\n\n ———\n\nプロンプトはこちら、\n\nCyber Signage Girl\n\nUniversal Image Generation Prompt\n\n【Positive Prompt】\nA photorealistic fashion portrait of a beautiful 22-year-old Japanese woman with a cute, sophisticated, and subtly seductive appearance.\n\nShe has an oval face, expressive black eyes with defined double eyelids, naturally enhanced dark irises, a refined high nose bridge, full lips, and a small beauty mark beneath one eye.\n\nHer long, natural black hair features a professionally styled high-layer wolf cut, a half-up hairstyle at the back, and softly textured, mildly spiky bangs. Individual hair strands and realistic hair volume are clearly visible.\n\nShe has a tall, slender figure with gentle feminine curves, a defined waist, and subtly toned abdominal muscles. Her proportions and anatomy are natural and realistic.\n\nShe wears a black, off-shoulder tube top featuring a futuristic digital signage surface. The glossy black fabric incorporates an illuminated LED-style display reading \"Don't touch\" in cool white-blue light. The display appears seamlessly integrated into the garment rather than floating above it.\n\nHer bottoms are long, distressed gunmetal-colored jeans with a subtle metallic finish, realistic denim texture, natural wrinkles, and carefully detailed torn sections.\n\nShe wears two polished sterling silver (SV925) bangles decorated with violet-blue iolite gemstones.\n\nStanding confidently, she looks directly toward the camera with a playful, tempting expression, gently placing one finger near her lips.\n\nNatural, lifelike skin texture with visible fine details, realistic hair strands, physically plausible fabric materials, balanced highlights, soft natural illumination, and subtle reflections.\n\nProfessional fashion photography, authentic human realism, high-resolution detail, realistic color grading, natural depth of field.\n\nVertical 9:16 composition, upper-thigh-up framing, large centered subject occupying approximately 90% of the frame, minimal headroom, subject in sharp focus.\n\n【negative】\nanime, cartoon, illustration, CGI appearance,\nartificial face, plastic skin, waxy skin,\nexcessively oily skin, excessive skin smoothing,\nunnatural facial proportions, distorted anatomy,\nextra limbs, extra fingers, malformed hands,\nunnatural body proportions, exaggerated curves,\noverexposure, excessive bloom, harsh reflections,\nunrealistic fabric, floating accessories,\nunintended text, incorrect lettering,\nunintended logos, watermark, low resolution,\nblurry face, distorted eyes\n\n【Optional Environment Module】\n\n背景は以下のプレースホルダーを置き換えて指定できます。\n\nEnvironment: [LOCATION]\n\nTime of day: [TIME]\n\nAtmosphere: [MOOD]\n\nBackground lighting: [LIGHTING]\n\nMaintain natural illumination on the subject,\nrealistic environmental reflections,\nand clear visual separation between\nthe subject and background.",
-"likeCount": 99,
-"retweetCount": 8,
-"url": "https://x.com/blank_aitalent/status/2113733520237687084",
-"createdAt": "Fri Oct 23 20:45:17 +0000 2026"
+"userName": "NateWitkin",
+"text": "If you are AGI-pilled, a capability maximalist, an x-risk person, etc. this data has to move you at some point, right?\n\nhttps://t.co/U5f3D9zMrQ\n\nSlow diffusion can only be part of the story, esp. given such muted employment / productivity effects in coding as late as this spring (see: https://t.co/rkfmrqvRVn).\n\nIMO everyone should be thinking more about the variety of structural limitations faced by LLMs, things like hallucination, reward-hacking, context rot, insufficient data esp. outside of math/SWE, poor generalization, unpredictability (same prompt, different outputs), user-sensitivity (output quality is a function of use quality), mode collapse (model outputs lack humanlike diversity), the uncodifiability of much of humans' load-bearing tacit knowledge, and cultural stigma/anti-inductive norms (AI outputs become cheap, low-status baselines).\n\nOne red flag for me in a lot of maximalist AI discourse is the assumption that models being (in some sense) intelligent, and their becoming more intelligent, licenses any and all inferences about what they might do. This is similar to the oft-made \"intelligence-as-magic\" objection.\n\nThe problem here is that there are many different kinds of intelligence, with unique powers and limitations, and the wider world can relate to each one in different ways. I have yet to encounter a serious attempt to characterize the unique KIND of intelligence LLMs have.\n\nThe more I think about it, the more I think that the term \"artificial intelligence\" may be part of the problem here, and that it would actually be less misleading in certain respects to construe LLMs as \"artificial organisms\" or \"lifeforms.\"\n\nThis has its own risks of course, but if nothing else it cuts against the impression that LLMs are ethereal demigods on the road to full omniscience, and suggests instead that they are more like animals with a set of capacities we can come to constrain and understand. It could also help us better explore their strange variety of distributed silicon embodiment, and the related fact that they need to consume scarce resources to survive.\n\nThis picture seems closer to the truth to me.",
+"likeCount": 182,
+"retweetCount": 11,
+"url": "https://x.com/NateWitkin/status/2114059503184347340",
+"createdAt": "Sat Oct 24 18:20:37 +0000 2026"
 },
 {
-"userName": "jonson_coder",
-"text": "🚀 35 WEBSITES THAT FEEL LIKE INTERNET SUPERPOWERS\n\nMost people waste hours searching for tools that could save them time, money, and effort.\n\nThese 35 websites can help you research smarter, create better content, boost productivity, and work faster. ⚡\n\n🔍 AI & RESEARCH\n\n1. https://t.co/6NpaIwufxD — Turn ideas into action\n2. https://t.co/KDPWoiZjxq — Find answers with AI\n3. https://t.co/j7RNKNZ1mD — Solve complex problems\n4. https://t.co/qnPJPJG2bh — Translate like a pro\n5. https://t.co/LCfkAxbJfZ — Explore millions of digital resources\n\n✍️ WRITING & PRODUCTIVITY\n6. https://t.co/HtRcFNP2Qj — Improve your writing\n7. https://t.co/eRWuLWjNpX — Write more clearly\n8. https://t.co/yyXl1jMUBK — Organize your entire workflow\n9. https://t.co/Mk2YIdhik7 — Manage projects easily\n10. https://t.co/r68IE3YR87 — Share text instantly\n\n🎨 DESIGN & CREATIVITY\n11. https://t.co/qdfWmKJIyi — Design almost anything\n12. https://t.co/02OKUgrWmo — Remove image backgrounds\n13. https://t.co/kutwTiOr6e — Discover stunning free photos\n14. https://t.co/5x5LjnLbkz — Get free photos and videos\n15. https://t.co/OtPpJcVncM — Find icons for any project\n16. https://t.co/Vjbzuf5UEL — Generate perfect color palettes\n17. https://t.co/j1qT174R8L — Find beautiful free fonts\n18. https://t.co/z20x3M5ObG — Make screenshots look professional\n19. https://t.co/k6wTT724TR — Turn code into beautiful visuals\n20. https://t.co/rS9dzv4s8d — Discover useful design shortcuts\n\n📂 FILES & IMAGE TOOLS\n21. https://t.co/2qO5VMmv7d — Compress images\n22. https://t.co/eYXozj5v6q — Simplify PDF tasks\n23. https://t.co/SnFY7oEsnU — Merge, split, and convert PDFs\n24. https://t.co/AggXmckFM2 — Optimize images without the hassle\n\n💻 CODING & DEVELOPMENT\n25. https://t.co/gboTREku2F — Store and share code\n26. https://t.co/7vsEMrVxsa — Build projects online\n27. https://t.co/zzQWffNMEU — Test and debug regex\n28. https://t.co/kRJ885JPmV — Understand Linux commands\n\n🛡️ INTERNET & SECURITY\n29. https://t.co/iT36ta6VMq — Test your internet speed\n30. https://t.co/VXIj8MHrG4 — Check for known data breaches\n31. https://t.co/FShDqPaF2k — Scan suspicious files and links\n32. https://t.co/t0jaFLSZSg — Check website outages\n\n🌐 BONUS WEBSITES\n33. https://t.co/gqHqQBPR0I — Register domain names\n34. https://t.co/BANVZHCKuw — Create temporary email addresses\n35. https://t.co/GLYirr9EJz — Discover similar websites\n\n🔥 The secret isn't working harder. It's using the right tools.\n\nYou don't need to memorize all 35. Start with 3 that solve your biggest problems.\n\n📌 Bookmark this list so you can find these tools whenever you need them.\n\n👇 YOUR TURN: Which website deserves to be #36? Drop it in the comments!\n\n❤️ Like | 🔁 Repost | 🔖 Bookmark",
-"likeCount": 78,
-"retweetCount": 64,
-"url": "https://x.com/jonson_coder/status/2114018223528284310",
-"createdAt": "Sat Oct 24 15:36:35 +0000 2026"
+"userName": "nikillinit",
+"text": "Company idea - Instinct for healthcare workers\n\nIt’s clear to me that people are going to try to use personal AI tools like Instinct to do things at their job. Does your job require you to get data from different places and fill out a lot of forms? Or send a lot of follow up emails, etc.? Or make updates to various google docs where you lowkey don’t know where that doc even lives? \n\nThis tool is EXTREMELY tempting to use for that because it’s excellent at that.\n\nHowever this is also a security and privacy nightmare. These personal AI tools can basically mimic you as they go through your systems which is what makes them useful but also very scary. It even knows to switch to a YouTube short for like 10 seconds before switching back to the task at hand. \n\nSo any company that touches PHI, or sensitive data has to watch out because these tools will find it and accidentally expose it.\n\nBut again because it’s such a useful tool for employees you are 100% going to have people trying to use it for work at healthcare companies. So your options are:\n\n1) Do your best to fight it and put in internal security that watches for actions that look bot-ish. However that takes internal resources and will always be an arms race against the personal AI tools that find workarounds.\n\n2) Create compliant paths/tools that work like personal AI tools but have the appropriate security/privacy guardrails.\n\nThere’s probably opportunity in both of these buckets, but I’m more interested in the second. Something like an agent that gets its own login and virtual desktop on the org’s network instead of impersonating with cached passwords, the brain can be a cloud model under a BAA, memory is maintained locally, etc. Each employee’s agent gets different permissions/requirements of human-in-the-loop depending on their role.\n\nThere are some seedlings of companies attempting to do this. Contxt is one for regular enterprises, Heidi’s new agent is more healthcare specific. But there is a lot more to be done here and probably could be more specific to different roles in healthcare (e.g. Instinct for clinical research coordinators).",
+"likeCount": 22,
+"retweetCount": 1,
+"url": "https://x.com/nikillinit/status/2114474408538423565",
+"createdAt": "Sun Oct 25 21:49:18 +0000 2026"
 },
 {
-"userName": "DivyanshT91162",
-"text": "10 GITHUB REPOS THAT MAKE AI A CINEMATIC CREATION MACHINE.\n\n1. ComfyUI — build your own AI filmmaking pipeline.\n   Connect image, video and audio models in visual workflows to create complex generative scenes.\n   https://t.co/zir8imUFaS\n\n2. Wan — generate videos from text and images.\n   Explore open video-generation models for creating cinematic clips and experimenting with visual storytelling.\n   https://t.co/ALUQsCwYuF\n\n3. LTX-Video — generate video with diffusion models.\n   Create video from prompts and images using an open model family designed for efficient generation.\n   https://t.co/QcrjTIJpBu\n\n4. AnimateDiff — bring still images to life.\n   Add motion to compatible text-to-image diffusion models and generate short animated clips.\n   https://t.co/yxPPeBugYc\n\n5. VideoCrafter — explore AI video generation.\n   Generate video from text or images with research models built for visual content creation.\n   https://t.co/n7UCSLRNyC\n\n6. Open-Sora — experiment with open video models.\n   Explore text-to-video research and the training infrastructure behind generative video systems.\n   https://t.co/t3hGgJKHyY\n\n7. HunyuanVideo — generate cinematic AI videos.\n   Explore a large-scale open video model for text-to-video generation and visual storytelling.\n   https://t.co/2BlzJyrEvA\n\n8. MoviePy — automate video editing with Python.\n   Cut clips, add titles, mix audio and assemble video sequences through code.\n   https://t.co/rKRrsaD7ch\n\n9. Blender — create complete 3D films.\n   Build characters, animate scenes, simulate effects and render cinematic projects with an open-source 3D suite.\n   https://t.co/hUe0DilTfW\n\n10. Nerfstudio — reconstruct 3D scenes from real footage.\n    Explore neural rendering workflows that turn captured images and videos into navigable 3D environments.\n    https://t.co/7c3x2ZJVMZ\n\nAll are open-source.\n\nBookmark this. Your next cinematic scene could begin with one prompt and a few lines of code.",
-"likeCount": 66,
-"retweetCount": 19,
-"url": "https://x.com/DivyanshT91162/status/2113919824510570528",
-"createdAt": "Sat Oct 24 09:05:35 +0000 2026"
+"userName": "ebokify",
+"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
+"likeCount": 12,
+"retweetCount": 1,
+"url": "https://x.com/ebokify/status/2114455659312042095",
+"createdAt": "Sun Oct 25 20:34:48 +0000 2026"
 },
 {
-"userName": "yesnoerror",
-"text": "Teaching a robot hand to “play” for just 15 minutes lets it teach itself dexterity—no simulators, no tasks, no reward engineering.\n\nThe DSP framework clones a human play policy, then rolls out hours of autonomous data collection to train a diffusion-transformer world model—entirely on real hardware. At test time, this play policy proposes thousands of action sequences for model-predictive control, reaching 91.4% success in cube reorientation (vs 53.9% for hindsight BC), and matching reinforcement learning with 490× less data.\n\nOn a real multi-finger hand, DSP hits 90% success (within 0.6 rad), just 1.4 points below simulation. Plan-to-policy distillation recovers >90% of MPC’s success at 7× faster inference.\n\nSupervised play unlocks state-of-the-art dexterity with a tiny dose of human intuition and no task demos, showing robots can self-bootstrap safe, contact-rich skills—just by playing.\n\nGet the full analysis here: https://t.co/9DpCIgDIta\n\n// alpha identified\n// $YNE",
-"likeCount": 16,
+"userName": "tejeshwi_sharma",
+"text": "I have been trying to use AI agents to transact on @zomato, @Uber_India and @letsblinkit. Lots of friction. Until agents can show these marketplaces' catalogs and inventory as generative UI, user experience will be far from ideal. \n\nMy bet: horizontal personal agents will win the long tail / low-frequency use cases, like buying insurance, an obscure brand, or a chair etc\n\nBut every high-frequency apps like ride-hailing, food, fashion etc will have its own agent on @WhatsApp. \n\nIn the mobile era, you had a home screen full of apps. In the AI era, you will have a WhatsApp full of agents.",
+"likeCount": 137,
 "retweetCount": 3,
-"url": "https://x.com/yesnoerror/status/2111926104827048378",
-"createdAt": "Sun Oct 18 21:03:15 +0000 2026"
-},
-{
-"userName": "Nyxelarm",
-"text": "HOLY SH*T. SHE PUTS ON THE PUMPKIN AND REALIZES THERE'S ONLY ONE HOLE - FOR THE MOUTH. 🎃\n\nI tested Seedance 2.5 to see how far I could push AI-generated content with a simple concept.\n\nThe workflow:\n→ Generated a virtual character\n→ Wrote a detailed prompt covering dialogue, actions, timing, and camera angles\n→ Used Seedance 2.5 to turn the reference image and script into a 10-second video\n\nThe concept was simple: a girl and her boyfriend are carving pumpkins for Halloween. He finishes first and, when she reacts with surprise, tells her to try it on.\n\nShe puts his pumpkin over her head - only to realize she can't see anything because there's just one opening: for the mouth.\n\nFull prompt in the comments 👇",
-"likeCount": 9,
-"retweetCount": 0,
-"url": "https://x.com/Nyxelarm/status/2114017124683317300",
-"createdAt": "Sat Oct 24 15:32:13 +0000 2026"
+"url": "https://x.com/tejeshwi_sharma/status/2113493871543898215",
+"createdAt": "Fri Oct 23 04:53:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "The only official way to buy Microducks and Reachy Minis is on https://t.co/8L5ovhUwg7! Given their popularity, a lot of scam websites popped up in the last few days so please be careful. \n\nCurrent orders of Reachy Minis will ship before Christmas so that's the best option if you want to have a cool robot under the Christmas tree 🎄🤖",
-"likeCount": 346,
-"retweetCount": 41,
+"likeCount": 348,
+"retweetCount": 42,
 "url": "https://x.com/ClementDelangue/status/2113681827583905959",
 "createdAt": "Fri Oct 23 17:19:52 +0000 2026"
 },
 {
-"userName": "telljeeves",
-"text": "Most conversations about AI start with jobs.\n\nBut what happens to our sense of worth? Our ability to decide for ourselves? Our relationships, and what we actually enjoy?\n\nHuman PACE is my framework for navigating life in the AI age. https://t.co/jlRcMwaUuX",
-"likeCount": 285,
-"retweetCount": 45,
-"url": "https://x.com/telljeeves/status/2113086961099641248",
-"createdAt": "Thu Oct 22 01:56:05 +0000 2026"
-},
-{
 "userName": "ClementDelangue",
-"text": "RT @MarioNawfal: 🇩🇪 Four tiny Microduck robots completely stole the show at NVIDIA’s GTC Berlin keynote. \n\nJensen Huang had them sitting, s…",
-"likeCount": 1928,
-"retweetCount": 309,
-"url": "https://x.com/ClementDelangue/status/2113609264468304040",
-"createdAt": "Fri Oct 23 12:31:32 +0000 2026"
+"text": "RT @EngMoElgaraihy: 🚨 الرئيس التنفيذي لـ NVIDIA يطلب من هذه الروبوتات الصغيرة أداء شقلبة.. وما حدث على أرض الواقع مرعب! 🤖🤸‍♂️🔥\n\n​في استعراض…",
+"likeCount": 970,
+"retweetCount": 207,
+"url": "https://x.com/ClementDelangue/status/2113609543737565681",
+"createdAt": "Fri Oct 23 12:32:38 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @calebfahlgren: We just launched OpenUSD support on the @huggingface Hub 🎉\n\nYesterday, @nvidiaomniverse put 2,500+ SimReady assets on th…",
-"likeCount": 1951,
-"retweetCount": 235,
+"likeCount": 2135,
+"retweetCount": 265,
 "url": "https://x.com/ClementDelangue/status/2114028073775710322",
 "createdAt": "Sat Oct 24 16:15:44 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @DreamTGn: Jensen Huang brought 4 tiny Microduck robots onto the NVIDIA GTC Berlin stage\n\nAnd their unexpected behavior made the demonst…",
-"likeCount": 604,
-"retweetCount": 50,
-"url": "https://x.com/ClementDelangue/status/2113648647300636959",
-"createdAt": "Fri Oct 23 15:08:01 +0000 2026"
+"text": "RT @ceciarmy: El CEO de NVIDIA les pidió una voltereta a estos pequeños robots y así respondieron. Gracias a la inteligencia artificial, lo…",
+"likeCount": 3776,
+"retweetCount": 452,
+"url": "https://x.com/ClementDelangue/status/2113679876893069713",
+"createdAt": "Fri Oct 23 17:12:07 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @microagi: As our customers scale to training robot models using millions of hours of our recordings, we needed to build a new kind of d…",
-"likeCount": 92,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2113697020624187552",
-"createdAt": "Fri Oct 23 18:20:14 +0000 2026"
+"text": "RT @TheHumanoidHub: Totally adorable. \nJensen Huang brought four Microduck robots onstage during his keynote at NVIDIA GTC Berlin. https://…",
+"likeCount": 508,
+"retweetCount": 69,
+"url": "https://x.com/ClementDelangue/status/2113679962381414840",
+"createdAt": "Fri Oct 23 17:12:27 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @baseten: We ran @mirendil's new base model on Baseten's private codebases; that is, code it's never seen. Mirendil-Base-Large had the l…",
-"likeCount": 228,
-"retweetCount": 19,
-"url": "https://x.com/jeremyphoward/status/2114089583826948288",
-"createdAt": "Sat Oct 24 20:20:09 +0000 2026"
+"text": "RT @ClementDelangue: Just watched the @netflix Instadocs about the @OpenAI cyberattack on @huggingface. Super disappointing, as they went f…",
+"likeCount": 2315,
+"retweetCount": 342,
+"url": "https://x.com/jeremyphoward/status/2112841004059668698",
+"createdAt": "Wed Oct 21 09:38:44 +0000 2026"
 },
 {
-"userName": "ykilcher",
-"text": "Every airplane is approximately* an apple \n\n* for suitable definitions of approximately",
-"likeCount": 195,
-"retweetCount": 3,
-"url": "https://x.com/ykilcher/status/2112125688270541294",
-"createdAt": "Mon Oct 19 10:16:20 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @CodeByPoonam: This tiny $399 robot duck generated more than $2.6 million in preorders in just 24 hours. https://t.co/WdbrPOON9A",
+"likeCount": 321,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2114418346628161950",
+"createdAt": "Sun Oct 25 18:06:32 +0000 2026"
 },
 {
-"userName": "BrianRoemmele",
-"text": "https://t.co/v9E8XHE4vx",
-"likeCount": 23,
-"retweetCount": 2,
-"url": "https://x.com/BrianRoemmele/status/2114061362741805551",
-"createdAt": "Sat Oct 24 18:28:00 +0000 2026"
+"userName": "ClementDelangue",
+"text": "you're not ready (video by @pavel_4_ai) https://t.co/dOru8Dlaiv",
+"likeCount": 341,
+"retweetCount": 30,
+"url": "https://x.com/ClementDelangue/status/2113713580386222193",
+"createdAt": "Fri Oct 23 19:26:03 +0000 2026"
+},
+{
+"userName": "apob_ai",
+"text": "https://t.co/NrDU0CRDpQ",
+"likeCount": 18,
+"retweetCount": 7,
+"url": "https://x.com/apob_ai/status/2114597589714886858",
+"createdAt": "Mon Oct 26 05:58:47 +0000 2026"
 }
 ]
