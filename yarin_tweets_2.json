@@ -1,11 +1,19 @@
 [
 {
-"userName": "tslaming",
-"text": "Dear Mr. Anderson,\n\nTesla never ignored physics.\n\nI'm writing because of what you told The Verge on October 27, when you called dropping radar from a self-driving car \"a weird religious stance that ignores physics.\" That line got a lot of attention among Tesla owners, and I think it deserves a direct answer.\n\nYou know this territory better than most. You ran Tesla's Autopilot program from late 2015 to late 2016, cofounded Aurora, and now lead product at GM.\n\nYour new employer is betting the other way. A 2028 Cadillac Escalade IQ will launch eyes-off highway driving with cameras, radar and lidar all working together.\n\nAs I understand it, your case rests on four claims. Lidar helps camera systems learn faster, cameras can't see through dense fog, cameras can't measure instantaneous velocity the way radar can, and radar is so cheap that removing it makes no sense.\n\nI agree that physics is real, and nobody at Tesla is pretending otherwise. What I'd like to show you is that Tesla's own engineering has been answering these exact points for years, and two of your arguments describe things Tesla already does.\n\nA lot has also changed since you left. The in-house FSD computer arrived in 2019, camera-only Tesla Vision followed in 2021, and the end-to-end neural network that drives the car today came in 2024.\n\nSo let me take your physics one claim at a time.\n\n🎓 ON LIDAR AS A TEACHER, TESLA HAS BEEN DOING THAT FOR YEARS\n\nYou said lidar works on a wavelength close to visible light, so it helps camera systems learn faster. You're right, and Tesla agrees so strongly that it built an entire training pipeline around that idea.\n\nI like to think of lidar as a tutor holding a perfect answer key. It measures distance directly by timing laser pulses, so it can grade every guess a camera network makes about how far away something is.\n\nTesla has designed a system where a special test fleet carries radar and lidar alongside the regular cameras. Every reading is synchronized, so the precise depth and speed from the expensive sensors get attached automatically to the objects the cameras see.\n\nThe labeling even uses hindsight. When two cars blur into one blob early in a clip and separate later, the training servers rewind the footage and use the clear moment to label the confusing one correctly.\n\nTesla applies the same teacher to 3D space itself. Its occupancy network learns from lidar-backed ground truth to predict, for every small cube of space around the car, how far that cube sits from the nearest surface.\n\nThat's how plain cameras learn to sketch a sloped curb or a curved bumper smoothly instead of as a pile of blocky Lego bricks.\n\nEven the grading got faster. Tesla designed a cross-labeling trick that draws a box around a car in a flat photo, then projects that box into the laser point cloud as a pyramid of vision, so the software only searches that slice instead of the whole 3D world.\n\nYou probably know DeepScale, the startup Tesla acquired in 2019. It was already working out in 2016 how to train cheap sensors to mimic premium lidar data, and Tesla is still pursuing that work today.\n\nHere's the step where our views split.\n\nOnce the student has learned, the teacher can stay home. The test fleet keeps the expensive hardware, and the cars customers actually buy ship with cameras only.\n\nTesla has put real money behind this. In early 2024, lidar maker Luminar named Tesla its largest customer for the quarter, and Elon soon replied on X, \"We don't need them even for that anymore.\"\n\nThe student is even learning to write its own answer key. To map the shape of the road surface, Tesla has designed a method that can triangulate ground truth points straight from camera images instead of relying on lidar.\n\nCo-training requires lidar in the classroom, not in every car on the road. With respect, GM's plan keeps the teacher riding along forever.\n\n⚡ ON SPEED, CAMERAS ARE QUICKER THAN THEY LOOK\n\nYour sharpest point is about speed. Radar can measure how fast something is moving in a single snapshot, and a camera can't.\n\nRadar's trick is the Doppler effect, the same physics that makes an ambulance siren sound higher as it rushes toward you and lower as it drives away. Radar reads that pitch shift in its own radio echo to measure closing speed instantly.\n\nA camera has to work speed out from motion. It compares where an object sits in one frame with where it sits in the next, much like you judge a thrown ball by watching it fly.\n\nThat sounds slower, but the gap is tiny. Tesla's own designs describe cameras running at rates such as 36 frames per second, which puts a fresh frame in front of the network about every 28 milliseconds, quicker than a single blink.\n\nThe physics also cuts both ways. Doppler only measures motion toward or away from the sensor, so a car crossing your path sideways at an intersection produces little to no Doppler shift.\n\nTo catch that sideways motion, a radar has to track the car across several scans, which is exactly what a camera does with frames. On that kind of motion, the \"instantaneous\" advantage disappears.\n\nRadar has another well-known weak spot. Owner's manuals for radar-based cruise control have long warned that the system may not brake for a stopped vehicle, partly because a parked car, an overhead sign and a bridge can all look like the same motionless metal.\n\nNow here's what Tesla has built since you left.\n\nTesla has designed its vision network to output a full 3D velocity vector for every object, covering speed, direction and even height. It learned that skill from the radar on its test fleet, which turns ordinary cameras into something that behaves like a Doppler radar made of pixels.\n\nTesla's virtual camera invention goes further by measuring speed in two different ways. Cars are tracked relative to the moving Tesla itself, while pedestrians are tracked against the fixed ground, so the system knows a person's true walking path even while the car accelerates or turns.\n\nWhen things get fast, the network speeds up its memory. A frame selector pulls video snapshots more rapidly as speeds rise and blends them with the car's own acceleration and yaw rate, which is how quickly the car is rotating, to build a smooth picture of motion over time.\n\nThere's also a dedicated sentinel for the car directly ahead. A super-narrow model watches only the closest vehicle in the lane through the narrowest forward lens and keeps estimating its distance, speed and acceleration, which is exactly what you need to brake hard and early.\n\nSo yes, a camera infers velocity instead of measuring it in one shot. But inference refreshed every few dozen milliseconds, trained on radar's own answers, and able to see sideways motion that Doppler misses is not a camera ignoring physics.\n\n🌫️ ON FOG, I'LL GIVE YOU THAT ONE, BUT HEAR ME OUT\n\nNo camera sees through dense fog, and neither does the human eye. Radar does.\n\nBut look closely at your own argument. The near-visible wavelength that you said makes lidar a great teacher is the same reason lidar struggles in fog, because the tiny water droplets that scatter visible light also scatter laser light.\n\nSo the fog argument is really a radar argument, and radar alone can't finish the job. It can't read lane paint, a traffic light, a speed limit sign or a flagger's hand signal, so even a car loaded with radar still leans on its cameras when the world turns gray.\n\nThat's why I think the real question isn't whether a car can see through fog. The real question is whether the car knows when its vision is degraded, and whether it behaves like a careful driver when it is.\n\nThis is where Tesla's visibility invention comes in.\n\nTesla has designed a separate neural network whose only job is grading its own eyesight. It splits every camera feed into a fine grid and scores each cell from clear to blacked out, building a live heat map of where the car can and can't trust what it sees.\n\nEach camera position gets its own specialist. A model judging the left pillar camera was trained on images from that same pillar location across many other cars, because a windshield camera behind wipers and a fender camera facing tire spray get dirty in very different ways.\n\nThe system also diagnoses the cause. It can tell a smear of mud from fog, heavy snow or a hardware fault, then reach for the right fix, such as running the wipers or warming the glass.\n\nWhen a lens is blinded for a moment, the car doesn't forget the road. Tesla anchors what it saw to fixed spots in the physical world, so a pothole hidden by a truck's spray stays pinned on the car's mental map for those few seconds.\n\nAnd when conditions really are too much, the car responds the way a good human driver would. It slows down to widen its reaction window, can move to a safer lane, and can hand control back with a plain explanation such as \"Due to Heavy Snow, Autopilot is Reducing Speed.\"\n\nTesla is also sharpening the eyes themselves. Its designs feed raw, unprocessed sensor data straight into the AI chip, the same idea behind the \"photon count\" images Elon posted in May, when he said this is why FSD can see so well at night or through extreme glare.\n\nAround the lens, Tesla has designed micro-cone glare shields, corrective windshield patches, pulsed laser cleaning and even gas-absorbing plastics that keep a hazy chemical film off the inside of the glass. Each one attacks a different way a camera can lose its view.\n\nFog will always be fog. Tesla's bet is a car that measures how blind it is, remembers what it saw, and slows down exactly when a wise driver would.\n\n💸 YES, RADAR IS CHEAP, BUT THAT WAS NEVER THE POINT\n\nYou're right that a radar unit doesn't cost much. But Elon's case against it was never about the sticker price.\n\nIn April 2021, as Tesla prepared to remove radar, Elon explained it this way: \"Sensors are a bitstream and cameras have several orders of magnitude more bits/sec than radar (or lidar).\" A second sensor, he added, has to meaningfully improve the signal to be worth the complexity of integrating it.\n\nIn August 2025 he put it even more bluntly: \"Lidar and radar reduce safety due to sensor contention. If lidars/radars disagree with cameras, which one wins?\" In the same post, he wrote that Tesla turned off the radars in its cars to increase safety.\n\nPicture two witnesses to the same moment telling different stories. The radar reports a solid object ahead, the cameras see an empty road under a steel overpass, and the car has a fraction of a second to decide who's wrong.\n\nTrust the radar every time and you get phantom braking under bridges. Trust the cameras every time and the radar was only along for the ride.\n\nThen there's the cost that never shows up on a parts list. Every extra sensor needs calibration, its own data pipeline, fusion software and validation for every way the sensors can disagree, and that burden grows with each new sensor type.\n\nTesla's own history shows how heavy that lift is. The DeepScale design for mimicking lidar needed separate neural branches for each sensor type just to absorb their different quirks, timing and mounting positions before merging them.\n\nI'd argue the biggest hidden cost is data. Tesla's FSD (Supervised) fleet has logged more than 16.7 billion miles, nearly all of it seen through cameras alone, and a radar channel added today would arrive with none of that history to learn from.\n\nLook at what happened at Volvo this summer. In July, the company confirmed it was dropping lidar from the EX90 and ES90 after cutting ties with its supplier Luminar, which went bankrupt, and Norwegian owners are receiving NOK 18,000 per car for lidar features that never arrived.\n\nElon's reply was short: \"I did try to warn them. Humans drive using neural nets and optical sensors. Same is true for robot cars.\"\n\nCheap hardware can turn into an expensive argument, and back in 2021 Tesla decided it would rather not have the argument at all.\n\n🛣️ WHILE YOUR SYSTEM WAITS FOR 2028, CAMERA-ONLY TESLAS ARE ALREADY LOGGING THE MILES\n\nYour plan for handing control back deserves real credit. You said the Escalade won't toss the wheel to a surprised driver, and will instead give a countdown of around ten minutes and pull off at an exit if nobody takes over.\n\nThat philosophy should sound familiar, because Tesla's visibility invention describes the same graceful exit. The car slows down first, looks for a safer lane, explains the reason on the screen, and only then hands control back.\n\nThe real difference is timing. GM's eyes-off system is still a 2028 promise, while Tesla's camera-only cars are collecting evidence right now.\n\nTesla's latest FSD (Supervised) safety report shows 6,006,200 miles per major collision in North America, compared with a U.S. average of 660,164 miles. That's roughly nine times as far between airbag-level crashes, measured over a rolling twelve months.\n\nTesla's new Robotaxi safety report goes a step further. Driverless Teslas with no safety monitor inside have covered 3.1 million miles in Texas and Florida this year, including 862,000 miles after dark and 113,000 miles in rain, with zero people injured by a Robotaxi and zero airbag deployments, based on the crash reports Tesla files with NHTSA.\n\nAnd that Robotaxi fleet runs on the latest Model Y and the Cybercab, neither of which carries radar or lidar. I find that hard to square with the idea that camera-only driving ignores physics.\n\n🔭 WHERE I THINK WE REALLY DISAGREE\n\nYou framed this as physics versus faith, but I think both sides accept the same physics. What we really disagree about is where the intelligence should live.\n\nGM puts more of it in the hardware, stacking sensors so each one covers another's weak spot. Tesla puts it in the neural network, using radar and lidar as teachers in the classroom and then trusting a trained brain behind the cameras.\n\nThere's a quiet twist hidden in that choice. A multi-sensor car can only learn from fleets that carry the same sensors, while every camera-equipped Tesla on the road feeds the same classroom.\n\nPhysics decides what a sensor can see. Data decides what a car understands.\n\nBest regards,\n\nMing\n\nP.S. If you're ever in Austin, a driverless Tesla might make my case better than I can, and it won't need lidar to find you.",
-"likeCount": 426,
-"retweetCount": 54,
-"url": "https://x.com/tslaming/status/2115611123508769105",
-"createdAt": "Thu Oct 29 01:06:12 +0000 2026"
+"userName": "borjafat",
+"text": "BACKLINKS MAXXING with Claude Code\n\n69 backlink tactics behind 133k AI mentions for https://t.co/P9qLtWniZ2 \n\nRanked:\n\nS TIER\n\n1. Exchange relevant editorial links\n2. Join a relevant business network to find editorial link partners.\n3. Match links with the surrounding topic to make each reference useful.\n4. Link to the answer readers need to give each placement a purpose.\n5. Log published sources and destinations to track delivered links.\n\n6. Get into the lists buyers read\n7. Find competitor roundups to locate publishers covering your category.\n8. Check AI's cited roundups to find sources used in buying answers.\n9. Find a missing buyer need to give list authors a reason to add you.\n10. Send a tested feature or fresh example to support your proposed addition.\n11. Send the author your exact addition to make the edit easy to assess.\n12. Refresh your roundup entries to keep the product details accurate.\n\n13. Publish statistics people can cite\n14. Choose a question your buyers need answered to make the research useful.\n15. Publish original statistics to give writers a source they can cite.\n16. Explain the sample and method to make each statistic checkable.\n17. Write each finding as a complete sentence to make it easy to quote.\n18. Keep research URLs stable to preserve links when findings change.\n19. Link research to relevant product pages to help readers try the tool.\n\n20. Answer journalist requests\n21. Show real experience in your profile to help reporters assess you.\n22. Check Qwoted requests to find reporters who need your knowledge.\n23. Filter by topic and deadline to find requests you can answer.\n24. Lead with a direct answer to give the journalist a usable quote.\n25. Add an original number or firsthand example to support the quote.\n26. Include your research page to let the journalist verify the answer.\n27. Log requests and replies to avoid pitching the same request twice.\n\nA TIER\n\n28. Find link opportunities through competitors\n29. Inspect competitors' linked pages to find resources publishers cite.\n30. Read the sentence around each link to learn why the author added it.\n31. Add missing evidence to give those publishers a useful new source.\n32. Pitch the specific missing answer to show what your resource adds.\n\n33. Recover links you already earned\n34. Find unlinked brand mentions to ask editors to link readers to the source.\n35. Search for reused charts and quotes to find missing source credits.\n36. Restore removed pages with live backlinks to make those links useful.\n37. Redirect old URLs to equivalent replacements to restore reader access.\n\n38. Build free tools that earn links\n39. Find a repeated buyer calculation to choose a useful free tool to build.\n40. Ask Claude to build a calculator to answer the buyer's question.\n41. Test normal and unusual inputs to check the tool's answers work.\n42. Give the tool a permanent page to give publishers a place to link.\n43. Offer the tool to relevant guides to give their readers a shortcut.\n\nB TIER\n\n44. Replace broken and outdated resources\n45. Find dead competitor URLs with backlinks to locate broken references.\n46. Read archived pages to learn what readers expected from the dead URL.\n47. Publish a matching replacement to give editors a working source.\n48. Send the broken link and replacement to make the repair easy.\n49. Find guides naming closed tools to offer a current replacement.\n\n50. Build the visual an article is missing\n51. Find text-heavy guides to locate explanations that need a visual.\n52. Offer a graphic for a named section to give the author a clear use.\n53. Ask before making graphics to spend time on interested publishers.\n54. Use the author's checked facts to make a graphic they can trust.\n55. Send the image and embed code to make publishing and source credit easy.\n\n56. Turn another author's article into a video\n57. Find guides missing a demo to offer a video their readers could use.\n58. Pitch a short video for one section to explain exactly what you will make.\n59. Record the steps after the author agrees to produce something they want.\n60. Send the finished video with source-credit wording to make adding it easy.\n\nC TIER\n\n61. Earn links through tools you use\n62. List software you use to find vendors that could feature your story.\n63. Document your workflow and result to give vendors a customer story.\n64. Send the case study to the right editor to propose a customer feature.\n\nD TIER\n\n65. Claim relevant business listings\n66. Find eligible supplier directories to make your business discoverable.\n67. Complete eligible government profiles to help buyers find your business.\n68. Add your website where allowed to help directory visitors reach you.\n69. Keep listing details consistent to help people recognize your business.",
+"likeCount": 653,
+"retweetCount": 45,
+"url": "https://x.com/borjafat/status/2116164330014007296",
+"createdAt": "Fri Oct 30 13:44:27 +0000 2026"
+},
+{
+"userName": "bytecarter_x",
+"text": "50 free AI tools that can save you hours every week ⚡\n\nWriting, design, video, coding, research, all in one list.\nSave this post so you never lose it 🔖\n\n💬 Chat & Assistants\n\n1. ChatGPT: all-purpose AI chat\n2. Microsoft Copilot: AI chat inside Microsoft apps\n3. Google Gemini: Google's AI assistant\n4. Claude: writing, analysis and long documents\n5. Perplexity: AI search with sources\n\n✍️ Content Writing\n\n6. Jasper: marketing copy\n7. https://t.co/4DTEvfqsfl: ads and sales copy\n8. Writesonic: blogs and articles\n9. Rytr: quick short-form writing\n\n🎨 Image & Design\n\n10. Leonardo AI: AI image generation\n11. PhotoRoom: background removal and product photos\n12. Canva: designs, posts and AI editing\n13. Microsoft Designer: quick graphics\n14. Kittl: logos and typography\n\n🎬 Video\n\n15. Pictory: turn text into video\n16. Lumen5: blog to video\n17. InVideo: video creation\n18. Clipchamp: simple video editing\n19. Kapwing: edit, subtitle and resize videos\n\n🎙️ Audio & Voice\n\n20. ElevenLabs: realistic AI voices\n21. Voicemaker: text to speech\n22. Adobe Podcast: clean up audio\n\n📝 Transcription\n\n23. https://t.co/9dz3HhoemC: meeting notes and transcripts\n24. Notta: audio to text\n\n📊 Presentations\n\n25. Gamma: instant slide decks\n26. https://t.co/5c846kKqQM: auto-designed slides\n\n⚡ Productivity\n\n27. Notion: notes and workspace\n28. Taskade: tasks and planning\n29. Reclaim AI: smart calendar scheduling\n30. ClickUp: project management\n\n🔍 Research\n\n31. Elicit: find and summarize research papers\n32. Google Scholar: academic search\n\n💻 Coding\n\n33. GitHub Copilot: code suggestions\n34. Codeium: free code autocomplete\n35. Tabby: self-hosted coding assistant\n\n📈 Data\n\n36. Akkio: data analysis without code\n\n📣 Marketing & SEO\n\n37. Surfer SEO: optimize content for ranking\n38. Frase: SEO content briefs\n39. AnswerThePublic: what people search for\n\n📱 Social Media\n\n40. Ocoya: create and schedule posts\n41. Predis AI: social posts and captions\n42. Buffer: post scheduling\n\n🎓 Education\n\n43. Khanmigo: AI tutor\n44. Quizgecko: make quizzes from text\n\n🔄 Automation\n\n45. Zapier: connect apps and automate tasks\n46. Make: build automated workflows\n\n🛡️ Writing & Detection\n\n47. QuillBot: paraphrase and grammar\n48. GPTZero: detect AI-written text\n\n🎭 Fun & Misc\n\n49. https://t.co/brJlrE63HR: chat with AI characters\n50. Hugging Face: open-source AI models\n\nWhich tool are you trying first? Comment below 👇\n\nFollow me @bytecarter_x for more AI tools and tips, and share this with a friend who needs it 🚀",
+"likeCount": 35,
+"retweetCount": 26,
+"url": "https://x.com/bytecarter_x/status/2116381937820725640",
+"createdAt": "Sat Oct 31 04:09:09 +0000 2026"
 },
 {
 "userName": "IDerech",
@@ -16,131 +24,131 @@
 "createdAt": "Wed Oct 28 08:32:10 +0000 2026"
 },
 {
-"userName": "m_hamza_saleem",
-"text": "One image. Three creative directions. Endless possibilities. 🎨🔥\n\nThis week's @myshell_ai showcase proves that AI creativity is about more than generating images. it's about reimagining how we express ourselves.\n\n⚡ Glitch Style Filter brings bold, futuristic energy to ordinary portraits.\n\n🕹️ AI Pixel Art Generator transforms familiar photos into retro-inspired digital art.\n\n💄 Virtual Makeup Try On makes exploring new looks easier before committing to a style.\n\nWhat I love most is how these Agents make creative experimentation accessible to everyone. You don't need advanced editing skills to explore different aesthetics and turn your ideas into something unique.\n\nThe best part? You can start with one photo and discover completely different creative possibilities.\n\nLess technical complexity. More creative freedom. 💜🚀\n\nWhich style would you try first?\n\n#MyShell #AIAgents #AIArt #CreativeAI #DigitalArt",
+"userName": "DuaFatimaAi",
+"text": "Prompt \n\nAI Video Generation Prompt:\n\nA cinematic luxury modest fashion commercial featuring a beautiful young woman wearing a beige hijab, elegant cream oversized blouse, and flowing blue denim maxi skirt. She walks confidently through a modern city street surrounded by contemporary architecture and stylish urban buildings.\n\nCreate a sequence of professional fashion-film shots:\n\n* Full-body front shot of the woman walking naturally toward the camera.\n\n* Close-up details of her elegant blouse, wristwatch, and accessories.\n\n* Slow-motion close-up of her skirt moving naturally as she walks.\n\n* Wide cinematic shot of her crossing a busy city street.\n\n* Side-angle tracking shot showing her graceful walking style.\n\n* Beautiful portrait close-up as she gently adjusts her hijab.\n\n* Detailed macro shot of the blouse fabric, buttons, and stitching.\n\n* Final wide shot of her walking away through the city.\n\nVisual style: Ultra-realistic luxury fashion advertising, natural golden-hour sunlight, cinematic camera movements, shallow depth of field, realistic fabric physics, premium editorial photography, smooth transitions, 4K quality.\n\nFormat: Vertical 9:16, approximately 30 seconds.\n\nImportant: Maintain consistent facial identity, hijab, outfit, accessories, and body proportions throughout every scene.",
 "likeCount": 16,
+"retweetCount": 6,
+"url": "https://x.com/DuaFatimaAi/status/2115988441850908767",
+"createdAt": "Fri Oct 30 02:05:32 +0000 2026"
+},
+{
+"userName": "_bbelousov",
+"text": "How much should a robot policy trust each simulated demonstration when only a few real ones exist? BEACON, a NeurIPS 2026 paper from @hankyang94's group at Harvard with Brown, learns this instead of fixing a sim-to-real mixing ratio.\n\nIt trains a Diffusion Policy together with a weight for each simulated training sample. The weights come from a domain-adaptation bound (Best-Effort Adaptation): a sample that sits far from the real data gets less say in training.\n\nOn a Franka arm with 500 simulated and 40 real demonstrations, a sim-only policy scores 0 and a real-only one 0.08. BEACON reaches an average real-robot score of 0.79, against 0.62 for the best baseline, and 0.83 with two simulated sources.\n\nThe surprising part: closer feature alignment does not mean better transfer. When objects start outside the demonstrated region, stacking with the alignment baseline MMD falls from 0.40 to 0.05, while BEACON keeps 0.35.\n\nA recent post on DiscoDemo (https://t.co/z0ltBGBiU4) covered generating extra demonstrations with RL; BEACON is about how much each such demonstration should count. Work led by Antong Zhang and Han Qi. Paper: https://t.co/ZmpHgjTcuq",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/_bbelousov/status/2115171684626071748",
+"createdAt": "Tue Oct 27 20:00:02 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "AI Image Generation Prompt — Ethereal Gothic Girl at a Mystical Circus\n\nCreate an ultra-realistic, cinematic dark-fantasy photograph of a beautiful young adult Western woman with long, straight jet-black hair, dramatic smoky eye makeup, deep red lips, and pale, luminous skin. She sits elegantly on the ground with her legs crossed in front of a mysterious vintage circus tent. She wears a dreamy turquoise off-shoulder corset dress with sheer flowing tulle sleeves, a layered translucent skirt, delicate silver jewelry, and matching leg wraps. Behind her, a large red circus tent glows with warm fairy lights, while thick teal fog envelops the dark, grassy landscape. A small flag waves atop the tent, creating an eerie carnival atmosphere. Moody teal and crimson color grading, soft diffused lighting, atmospheric fog, cinematic shadows, vintage film grain, haunting fairytale aesthetic, full-body composition, realistic fabric textures, editorial fashion photography, mysterious and enchanting mood.\n\nAspect Ratio: 4:5",
+"likeCount": 13,
 "retweetCount": 1,
-"url": "https://x.com/m_hamza_saleem/status/2115775758576828834",
-"createdAt": "Thu Oct 29 12:00:24 +0000 2026"
+"url": "https://x.com/Monaqbuv/status/2115262276898877615",
+"createdAt": "Wed Oct 28 02:00:01 +0000 2026"
 },
 {
-"userName": "saifelyzal",
-"text": "🚀 ZRouter is now available in the ChatGPT Plugin Directory!\n\nYour AI Gateway. Now managed directly from ChatGPT.\n\nNo more switching between dashboards just to understand what's happening with your AI models.\n\nWith ZRouter, you can:\n\n⚡ Monitor AI requests and token usage\n\n🔍 Investigate failed requests\n\n🔀 View virtual model routers and their target models\n\n📊 Get visibility into your AI gateway through natural language\n\nYour AI infrastructure should be as easy to manage as the AI you build with.\n\nTry ZRouter on ChatGPT 👇\nhttps://t.co/PxjUL6Pxr7\n#AI #AIGateway #DevTools",
-"likeCount": 3,
+"userName": "Monaqbuv",
+"text": "AI Image Generation Prompt — Dark Fantasy Goddess\nCreate an ultra-realistic, cinematic black-and-white portrait of a beautiful adult woman with long, voluminous wavy hair, flawless porcelain skin, elegant makeup, and a mysterious expression. She wears an intricate black lace corset gown with sheer embroidered sleeves, delicate crisscross straps across her chest, and elaborate gothic patterns. Sculpted demonic faces adorn her shoulders, while a dramatic halo of overlapping metallic rings with two glowing golden orbs floats above her head. She reclines elegantly on a dark velvet throne, surrounded by flowing black threads. Deep shadows, dramatic studio lighting, intricate textures, ethereal gothic atmosphere, luxurious dark fantasy aesthetic, high contrast monochrome photography, sharp facial details, realistic skin texture, editorial fashion photography, masterpiece quality. Aspect Ratio: 4:5",
+"likeCount": 20,
+"retweetCount": 3,
+"url": "https://x.com/Monaqbuv/status/2116092752563728758",
+"createdAt": "Fri Oct 30 09:00:01 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "AI Image Generation Prompt 🖤🔥\n\nCreate an ultra-realistic, cinematic dark fantasy portrait of a beautiful adult woman with extremely long, flowing silver-white hair blowing dramatically in the wind. She wears an elegant black backless evening gown with thin shoulder straps and luxurious flowing fabric. Her back, shoulders, and arms glow with intricate, fiery orange-golden botanical patterns resembling magical vines and luminous leaves beneath her skin. She turns her head gracefully over her shoulder, revealing a delicate side profile, captivating eyes, and elegant makeup. Deep black background, dramatic warm rim lighting, glowing embers, highly detailed skin texture, realistic hair strands, magical bioluminescent effects, sophisticated fantasy fashion photography, intense contrast, mysterious atmosphere, professional DSLR quality, ultra-sharp focus, 8K detail. Aspect Ratio: 4:5",
+"likeCount": 29,
+"retweetCount": 2,
+"url": "https://x.com/Monaqbuv/status/2115783302934388909",
+"createdAt": "Thu Oct 29 12:30:23 +0000 2026"
+},
+{
+"userName": "LunarResearcher",
+"text": "Alice in Wonderland, but shot like a fashion campaign.\n\nThis clip was made with Vivix W1, and the first thing that got me is the texture.\n\nThe fur on the coats, the velvet on the Queen's cape, the tiny details on the giant mushrooms. It all holds up even when the characters start moving.\n\nThe motion feels natural too. The Hatter's little dance, Alice walking across the lawn with her mallet, the Rabbit's coat swinging with every step. And each character stays the same from shot to shot.\n\nThat's impressive visual quality for a model that's also built to keep generation fast and costs low.\n\nI'm posting this to enter the Vivix Creator Contest. If you've been playing with AI video, jump in too, you have until Nov 5.\n\n@VivixLabs_HQ",
+"likeCount": 29,
 "retweetCount": 0,
-"url": "https://x.com/saifelyzal/status/2115954768338382933",
-"createdAt": "Thu Oct 29 23:51:43 +0000 2026"
+"url": "https://x.com/LunarResearcher/status/2115837089258299448",
+"createdAt": "Thu Oct 29 16:04:07 +0000 2026"
 },
 {
-"userName": "FatFishAIWorld",
-"text": "🐋 AI can already help us imagine how clothes might look on us before we buy them.\n\nBetter styling\nBetter fit prediction\nFewer bad online orders\nLess time wasted trying things on\n\nSounds great… but here’s the real question:\n\nIf AI virtual try-on becomes accurate enough, do we still need physical clothing stores?\n\nWould you trust AI to help you shop for clothes? 👗👕",
-"likeCount": 3,
+"userName": "rohanpaul_ai",
+"text": "Voice AI is now good enough that preference and human-likeness can be scored as separate targets.\n\n@voicearena_ai launched a new benchmark, Turing TTS to score the second one directly: listeners hear the same sentence from a person and from a model, then pick the person.\n\nHow often they pick the model is the Fool Rate. 50% would mean listeners can’t tell.\n\nEven the best model, Gemini 3.8 Flash TTS, fooled them about 10% of the time.\n\nOn Voice Arena’s preference board, the top four models are statistically tied. Measured against a human, the whole field still has a long way to go.\n\nhttps://t.co/AUS2S4Wp5h",
+"likeCount": 16,
 "retweetCount": 0,
-"url": "https://x.com/FatFishAIWorld/status/2115650166183076303",
-"createdAt": "Thu Oct 29 03:41:21 +0000 2026"
+"url": "https://x.com/rohanpaul_ai/status/2116245323039592529",
+"createdAt": "Fri Oct 30 19:06:17 +0000 2026"
 },
 {
-"userName": "AnotherCodingX",
-"text": "Google DeepMind released Gemini 4 Carbon, Microsoft put a dollar figure on Azure for the first time, Alphabet missed as AI spending pushed its cash flow negative, Samsung posted record quarter on AI memory, and GitHub says agents start 40% of pull requests https://t.co/Blc09TslEt",
-"likeCount": 2,
-"retweetCount": 1,
-"url": "https://x.com/AnotherCodingX/status/2115768362618024365",
-"createdAt": "Thu Oct 29 11:31:01 +0000 2026"
-},
-{
-"userName": "MdNaeem276854",
-"text": "Hello,Everyone!\nAvant-Garde - AI Fashion Virtual Try-On UI Design.\n\nBetterview:https://t.co/G1zGuiEvyd\n\nLets Talk:\n\nTelegram: https://t.co/0jxJJhgcD1\nWhatsApp: +8801329102025\nEmail:uinaeem1999@gmail.com https://t.co/KzbuOwVNNL",
-"likeCount": 2,
-"retweetCount": 0,
-"url": "https://x.com/MdNaeem276854/status/2115785914857423128",
-"createdAt": "Thu Oct 29 12:40:46 +0000 2026"
+"userName": "JeremiahSuit",
+"text": "Who does #4 work for? Maybe the CIA. Maybe Nick Land's AI xeno-demon from the future. Whatever the case might be, @grebenshi makes striking images as a collaboration with artificial intelligence. Get strapped in and ride the lightning. https://t.co/kxQcfJmzjJ",
+"likeCount": 5,
+"retweetCount": 2,
+"url": "https://x.com/JeremiahSuit/status/2114764251068088800",
+"createdAt": "Mon Oct 26 17:01:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings trans…",
-"likeCount": 8392,
-"retweetCount": 682,
-"url": "https://x.com/ClementDelangue/status/2115532472515809573",
-"createdAt": "Wed Oct 28 19:53:40 +0000 2026"
+"text": "RT @Thom_Wolf: Reachy Mini can finally move!\n\nToday We’re launching Reachy Mini \"Level Up\", a set of new accessories for Reachy Mini: wheel…",
+"likeCount": 408,
+"retweetCount": 53,
+"url": "https://x.com/ClementDelangue/status/2115782003211878495",
+"createdAt": "Thu Oct 29 12:25:13 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @samhogan: We believe access to capable open-source cyber models is our constitutional right as Americans under the 2nd Amendment.\n\nIt i…",
-"likeCount": 2218,
+"likeCount": 2219,
 "retweetCount": 145,
 "url": "https://x.com/ClementDelangue/status/2114981371567648880",
 "createdAt": "Tue Oct 27 07:23:48 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cohere: In the spirit of transparency and openness, we are releasing the traces so developers can test this out for themselves. We noti…",
-"likeCount": 1300,
-"retweetCount": 139,
-"url": "https://x.com/ClementDelangue/status/2114860073835225504",
-"createdAt": "Mon Oct 26 23:21:48 +0000 2026"
+"text": "RT @Thom_Wolf: by the way, the team behind microduck is publishing really technical deep dives on how it works\n\ne.g. you can pick the duck…",
+"likeCount": 303,
+"retweetCount": 34,
+"url": "https://x.com/ClementDelangue/status/2114992718103580936",
+"createdAt": "Tue Oct 27 08:08:53 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @lvwerra: Carbon-X is the first model achieving frontier intelligence on DNA understanding!\n\nIt is fluent in both English and DNA so you…",
-"likeCount": 97,
-"retweetCount": 13,
-"url": "https://x.com/ClementDelangue/status/2115120655415087537",
-"createdAt": "Tue Oct 27 16:37:15 +0000 2026"
+"text": "RT @xenovacom: We've just made a breakthrough: the first true omni model running 100% locally in a browser... fully end-to-end, with no sep…",
+"likeCount": 694,
+"retweetCount": 64,
+"url": "https://x.com/ClementDelangue/status/2116362959706583464",
+"createdAt": "Sat Oct 31 02:53:44 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @clattner_llvm: I'm happy to share that Mojo and MAX are now fully open - for development, extension, and commercial use! This includes…",
-"likeCount": 1503,
-"retweetCount": 191,
-"url": "https://x.com/jeremyphoward/status/2113706394893594995",
-"createdAt": "Fri Oct 23 18:57:29 +0000 2026"
+"text": "RT @math_rachel: \"People think 'the ideas are mine, the writing is the AI', i.e., they feed the AI a list of rambling bullet points that it…",
+"likeCount": 231,
+"retweetCount": 40,
+"url": "https://x.com/jeremyphoward/status/2115633092836970609",
+"createdAt": "Thu Oct 29 02:33:30 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @hillelogram: People assume that in an AI doing formal verification world, they can take their existing codebase, ask AI to prove it cor…",
-"likeCount": 250,
-"retweetCount": 51,
-"url": "https://x.com/jeremyphoward/status/2113799108721062260",
-"createdAt": "Sat Oct 24 01:05:54 +0000 2026"
-},
-{
-"userName": "petapixel",
-"text": "Fashion photo studios are closing down as brands increasingly embrace AI thanks to the big savings offered by the technology. \nhttps://t.co/EXWYWuaCzu",
-"likeCount": 15,
-"retweetCount": 3,
-"url": "https://x.com/petapixel/status/2115418282161520918",
-"createdAt": "Wed Oct 28 12:19:55 +0000 2026"
+"text": "RT @baseten: We ran @mirendil's new base model on Baseten's private codebases; that is, code it's never seen. Mirendil-Base-Large had the l…",
+"likeCount": 235,
+"retweetCount": 19,
+"url": "https://x.com/jeremyphoward/status/2114089583826948288",
+"createdAt": "Sat Oct 24 20:20:09 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @cohere: Trace, raw tokens, &amp; minimal reproduction script found here on @huggingface: https://t.co/JzIfUazjg4",
-"likeCount": 218,
-"retweetCount": 25,
-"url": "https://x.com/ClementDelangue/status/2114876271230337514",
-"createdAt": "Tue Oct 27 00:26:10 +0000 2026"
+"text": "RT @techniahqrobot: Am I the only one who thinks the robots are winning this comparison? 😂 https://t.co/PCneX1Slhi",
+"likeCount": 122,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2115408110693355914",
+"createdAt": "Wed Oct 28 11:39:30 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ericschmidt: This is pretty extraordinary, and on an open model to boot.",
-"likeCount": 495,
-"retweetCount": 51,
-"url": "https://x.com/ClementDelangue/status/2115733624360403028",
-"createdAt": "Thu Oct 29 09:12:59 +0000 2026"
-},
-{
-"userName": "ArturSkowronski",
-"text": "https://t.co/C0lY186Cnv",
-"likeCount": 3,
-"retweetCount": 1,
-"url": "https://x.com/ArturSkowronski/status/2115771275918401913",
-"createdAt": "Thu Oct 29 11:42:35 +0000 2026"
-},
-{
-"userName": "FoneClaw001",
-"text": "https://t.co/tF3p24gNpD",
-"likeCount": 2,
-"retweetCount": 0,
-"url": "https://x.com/FoneClaw001/status/2115784046097965209",
-"createdAt": "Thu Oct 29 12:33:20 +0000 2026"
+"text": "RT @Thom_Wolf: give this robot an oscar https://t.co/EUSkp3SJfw",
+"likeCount": 569,
+"retweetCount": 54,
+"url": "https://x.com/ClementDelangue/status/2116044843860263005",
+"createdAt": "Fri Oct 30 05:49:39 +0000 2026"
 }
 ]

@@ -1,80 +1,88 @@
 [
 {
-"userName": "ourcryptotalk",
-"text": "$CNX | @crynuxio might be one of the more overlooked projects in the decentralized AI sector.\n\n55 million tasks completed during testnet.\n\n1,785 participating nodes.\n\nA working AI chat and image-generation application.\n\nAnd 71% of $CNX supply allocated to task mining tied to network usage.\n\nHere’s why I’ve been paying attention 🔽\n\n1️⃣ Turning idle GPUs into productive infrastructure\n\nThere are millions of GPUs sitting inside gaming PCs and other computers around the world.\n\nMany of them remain underutilized for significant portions of the day.\n\nCrynux is building a decentralized network that allows GPU owners to contribute their computing resources to AI workloads.\n\nInstead of relying entirely on centralized infrastructure providers, developers can access computational power supplied by independent operators.\n\nThe arrangement is straightforward:\n\n→ GPU owners contribute computing power.\n\n→ Developers use that power to run AI applications.\n\n→ Operators earn $CNX for completing tasks.\n\nThe interesting part is that a computer in one part of the world can process an AI request originating from an application thousands of kilometres away.\n\nAnd the network handles the coordination.\n\n2️⃣ But does decentralized AI actually work?\n\nThis was the question I wanted answered.\n\nA decentralized computing network sounds promising in theory, but the real test is whether it can deliver something people can actually use.\n\nThat’s where Crynux Chat comes in.\n\nIt’s a working AI application powered by the Crynux network, with a free demo that anyone can explore.\n\nYou can interact with AI models, ask questions, generate content, and even create images.\n\nFor example, one of the demonstrations involves generating an image of a small red lighthouse on a snowy cliff at dusk.\n\nHere’s what happens behind the scenes.\n\nWhen you submit the prompt:\n\n→ Crynux-AS submits the task to the network.\n\n→ The blockchain assigns an available GPU node.\n\n→ The node receives the task through a relay and runs the AI model.\n\n→ The network performs the required validation.\n\n→ The generated image returns to your chat.\n\nAnd you can actually follow the progress.\n\nThe interface shows the different stages: In Queue, Generating, Verifying, Uploading, and Finishing.\n\nThe example uses Qwen Image 2.1, with the actual computation performed by a GPU node participating in the network.\n\nIt’s a simple demonstration, but it makes the underlying technology much easier to understand.\n\n3️⃣ Solving the trust problem\n\nNow comes one of the more interesting technical challenges.\n\nIf anyone can contribute hardware, how does the network know that operators are completing tasks correctly?\n\nAfter all, decentralized infrastructure can’t simply assume every participant is honest.\n\nCrynux addresses this through its verification system, vssML.\n\nRather than duplicating every computation, the network uses unpredictable checks.\n\nApproximately 10% of tasks are selected for independent verification, with results compared across three nodes.\n\nOperators don’t know beforehand which tasks will be checked.\n\nAnd because they have $CNX at stake, submitting dishonest results carries financial consequences.\n\nThe objective is to make dishonest behaviour economically unattractive while avoiding the enormous cost of independently repeating every computation.\n\n4️⃣ More than just AI chatbots\n\nCrynux Chat is one application built on the network, but the potential use cases extend considerably further.\n\nThe infrastructure supports workloads involving:\n\n→ AI chatbots and virtual assistants\n\n→ Text generation, translation, and summarization\n\n→ Code generation and debugging\n\n→ AI image generation and editing\n\n→ Model fine-tuning\n\n→ LoRA training and customization\n\nFor developers, another important feature is compatibility with familiar AI development tools and request formats.\n\nThat means existing applications can potentially integrate Crynux without rebuilding their entire AI infrastructure.\n\nAnd this is important because the easier it becomes for developers to access decentralized computing, the easier it becomes for the network to attract real workloads.\n\n5️⃣ The $CNX economics are particularly interesting\n\nThis is one aspect I think deserves more attention.\n\n71% of the maximum $CNX supply is allocated to task mining.\n\nBut unlike conventional token emission schedules, these allocations are linked to network demand and completed work.\n\nIn other words, the task-mining allocation isn’t simply released because another month has passed.\n\nActual network activity drives its distribution.\n\nWhy does this matter?\n\nBecause many crypto projects experience supply expansion regardless of whether their products attract meaningful adoption.\n\nCrynux takes a different approach with its task-mining allocation.\n\nOf course, this doesn’t eliminate dilution altogether. Other token allocations and circulating supply dynamics still matter.\n\nBut linking a substantial portion of token distribution to actual computational work creates an interesting relationship between network usage and token issuance.\n\nIt’s a model worth watching as adoption develops.\n\n6️⃣ Where does Crynux stand today?\n\nCrynux launched its mainnet in June 2026.\n\nBefore that, its testnet recorded:\n\n→ 1,785 participating nodes\n\n→ 55 million completed tasks\n\nThose figures provide some early evidence of network activity, although sustained mainnet usage will ultimately be the more important measure.\n\nThere’s also a fairly accessible way for newcomers to explore the ecosystem.\n\nCrynux Chat offers a free demo with a limited daily allowance.\n\nUsers can try AI conversations and image generation without immediately needing to purchase tokens.\n\nWallet connectivity is optional for users who want to access their own Crynux credits.\n\nOne important detail: conversations are stored locally in the browser, and GPU node operators may have access to the information necessary to process requests. Sensitive information should therefore never be submitted.\n\n✦ My perspective\n\nI’ve always been more interested in crypto projects that build technology people have a practical reason to use.\n\nAnd decentralized AI computing is an area I believe deserves serious attention.\n\nThe demand for AI computation is real. The hardware needed to supply it already exists.\n\nThe opportunity lies in connecting those resources efficiently, making the computation reliable, and building an ecosystem that developers actually want to use.\n\nThat’s the opportunity Crynux is pursuing.\n\nThe next questions are whether the network can attract sustained developer demand, remain cost-competitive, and scale reliably.\n\nThose are the metrics I’ll be paying attention to.\n\nFor now, @crynuxio is firmly on my radar.\n\nAnd $CNX is one I’ll be watching closely.",
-"likeCount": 18,
-"retweetCount": 6,
-"url": "https://x.com/ourcryptotalk/status/2115646671212425547",
-"createdAt": "Thu Oct 29 03:27:27 +0000 2026"
+"userName": "markfenner",
+"text": "Another day of trying to keep up with everything happening in AI 😂\n\nRaises, launches, open source projects, acquisitions…\n\nHere’s what caught my eye:\n\n1. Subvocal — $1.3M raised\n\n@AarushYadav47 announced funding from YC and Afore Capital for glasses that turn silent mouthing into text. The pitch: communicate with your computer without typing or speaking out loud. Preorders are open.\n\n2. Easol — $30M financing\n\n@easol_ had a $30M financing package reported today: $20M equity and $10M debt. Its Teammates agents help event and experience businesses with sales, guest support and booking operations.\n\n3. Talky — €1.5M pre-seed\n\nReported today, with the round closed in September. Talky learns how a company handles accounting, then helps process invoices, reconcile transactions and post entries into its existing finance systems.\n\n4. Scenario — an entire 3D production toolkit for agents\n\n@Scenario_gg announced 3D OS: an open-source collection of 80 skills covering modeling, animation, materials, lighting and game-ready exports. It works with coding agents and tools including Blender, Maya and Unreal.\n\n5. Customuse — clean logos and text on 3D models\n\n@customuse introduced Decals. Place your own logo or text on a model, then bake it into the texture or turn it into actual 3D geometry.\n\n6. Runway — Agent can open files and run code\n\n@runwayml expanded Agent’s capabilities for making brand launch kits, product shots, ad variations and motion graphics from references.\n\n7. Glif — an AI modeling agency\n\n@heyglif launched a cast of AI characters for images, films and campaigns. Choose someone, bring your product or brief, and create content around that character.\n\n8. TBC — Mischief 1\n\n@AlexKsendzovsky introduced an image-to-video model built on Wan 2.2, starting at half a cent per generated second. Its optimizations come from research with living neurons, translated into software running on standard AI hardware.\n\n9. Dydema — programmable brain-computer interfaces\n\n@dydema announced its approach to connecting trained thought patterns to computer actions, games or agents through a noninvasive interface. No surgery required.\n\n10. Aura — open-source game playtesting\n\n@Aura_Assistant open-sourced Autopilot, an agent that plays games and looks for bugs across Unity, Godot and Unreal. It can connect to Claude Code and Codex through MCP.\n\n11. Unsloth — new local DeepSeek files\n\n@UnslothAI released updated DeepSeek-V4.1-Flash-1017 GGUFs using Dynamic V3.1 quantization. These are new files for running the existing model locally, with updated benchmark results and setup instructions.\n\n12. SAM3 — offline GPU support\n\n@wkentaro_ added NVIDIA CUDA and Apple CoreML support to his SAM3 ONNX implementation. Identify and mask objects using text, boxes or clicks, with offline runs after downloading the model.\n\n13. humans& — Ampersand Tutor\n\n@humansand released &Tutor through its API. It trained the tutor through interactions with Persimmon, its model of human learners—an interesting approach for people building educational tools.\n\n14. Voice Arena — Turing TTS\n\n@voicearena_ai introduced an evaluation where listeners hear a human and an AI reading the same sentence, then identify the human. A different way to measure progress in synthetic speech.\n\n15. OpenArt — IP Safety Check\n\n@openart_ai launched a tool that scans images and videos for potential copyright and IP matches. It supports batches of up to 32 files with individual reports.\n\n16. bricky — a LEGO compiler for agents\n\n@maxencefaldor shared bricky. Your agent writes a Python build script; bricky places the pieces, flags construction mistakes and renders the result. It can also export a parts list.\n\n17. diffmap — reviewing what your coding agent changed\n\n@tanishqk introduced a document format and viewer for planning and reviewing agent code, using diagrams and linked code to explain design changes.\n\n18. Factory — acquired Typedef\n\n@FactoryAI acquired @typedef_ai, which builds a context layer for enterprise data. The goal is to give Droids better information for migrations, pipeline debugging and refactoring.\n\n19. Claude — Ultra and limit changes\n\n@claudeai renamed Max 5x to Max and Max 20x to Ultra. Prices stay at $100/$200. Five-hour limits are being removed for verified Ultra accounts, starting with most existing subscribers. Weekly limits remain.\n\n20. Google — a response from orbit\n\n@sundarpichai shared that Project Suncatcher’s prototype satellite ran a prompt on its onboard TPU and returned a complete response to Earth.\n\nIt wrote a haiku.\n\nWe’re sending prompts to space now.",
+"likeCount": 32,
+"retweetCount": 2,
+"url": "https://x.com/markfenner/status/2116245131045011602",
+"createdAt": "Fri Oct 30 19:05:31 +0000 2026"
 },
 {
-"userName": "luffytarobaby",
-"text": "Higgsfield reached a $5.4 BILLION valuation while most AI video companies are still fighting over who has the best model.\n\nthey started with AI video creation. then cinematic tools, AI influencers, marketing studios, and now they're letting people create mobile games from a single prompt.\n\nevery new angle gives them access to an entirely different customer.\n\na filmmaker, an ecommerce brand, and a mobile game publisher can all discover Higgsfield for completely different reasons.\n\nthat's the strategy worth copying.\n\nhere's how i'd replicate their playbook for FREE\n\n1. Steal the market research, not the product.\n\nfind 5 competitors already getting millions of views.\n\ngo through their most popular posts, ads, and Reddit discussions. look for repeated complaints, unanswered questions, or things people wish existed.\n\nfor example, if people keep complaining that mobile game ads look more fun than the games themselves, that's an opportunity to build a playable version of a similar concept.\n\nyou're using research your competitors already spent money gathering.\n\n2. Hijack attention that's already there.\n\ninstead of trying to make an AI influencer famous from zero, attach the character to something people already care about.\n\nsay a mobile game ad goes viral.\n\nhave your AI streamer try to beat the challenge, criticize the game design, or show a better version.\n\nmake comparison videos targeting the exact game people are searching for.\n\nyou're borrowing existing demand instead of trying to create it yourself.\n\n3. Sell the same thing from five different angles.\n\none AI character could be:\n\na gaming influencer promoting app installs\na streamer doing sponsored challenges\na character appearing inside playable ads\na virtual host reviewing new AI tools\na mascot that smaller brands can license\n\nsame character. different audience. different reason to pay.\n\nyou don't need five businesses to test five markets.\n\n4. Turn complaints into content.\n\nfind a competitor's most controversial feature.\n\nread 50 comments and identify what people actually dislike.\n\nmake your next video about that exact problem.\n\nif people hate misleading game ads, have your influencer show the difference between the advertisement and the real gameplay.\n\ncontroversy gets attention, but solving the complaint gives people a reason to follow you.\n\n5. Treat tiny changes like new launches.\n\nHiggsfield constantly introduces new ways to use its products.\n\ndo the same thing with your content.\n\nchange the character's role, the opening sentence, the audience, or the offer.\n\none week she's a streamer challenging viewers to beat her score. the next she's reviewing mobile game ads. then she's hosting a sponsored competition.\n\nannounce each new format, measure the response, and keep the ones that attract buyers.\n\n6. Build distribution without paying for ads.\n\nfind 20 small creators whose audiences already match the product.\n\noffer them a custom AI video or playable challenge they can post, with a revenue share on any sales they generate.\n\nthey get new content without paying upfront. you get access to an audience you haven't built yet.\n\nrepeat with different niches until you find one that converts.\n\nthe bigger lesson here is that Higgsfield doesn't wait until its original market is saturated before exploring another one.\n\nit keeps giving new groups of people a reason to use its technology.\n\nand that's what i'd copy.\n\nmost people spend months trying to perfect one AI influencer.\n\ni'd rather test 20 different reasons someone might want to watch, share, or pay for that same character.\n\nyou only need one of those angles to open up an entirely new market....",
-"likeCount": 3,
+"userName": "wiliam23820a",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/TDEQSpMh3L — free research papers\n2. https://t.co/DgdQXiIbNu — papers when unpaywall misses\n3. https://t.co/VIIBmmqdmI — borrow books\n4. https://t.co/biGwnlP4RS — 70k+ free books\n5. https://t.co/lh0vLddEVv — audit university courses free\n6. https://t.co/EwavQhEKIj — step-by-step math\n7. https://t.co/z74ARSnAFd — background removal\n8. https://t.co/RboeW8Qnfo — object removal\n9. https://t.co/fgmel5b1Wx — quick file tools\n10. https://t.co/5yZQra2pYB — PDF merge/split\n11. https://t.co/yiJsM0fruZ — free Photoshop alternative\n12. https://t.co/pej699ofB5 — image compression\n13. https://t.co/EZHv0OYA3A — fast diagrams\n14. https://t.co/h9hawGe3TW — beautiful code screenshots\n15. https://t.co/jFTEFkuq0F — test regex\n16. https://t.co/B1c3pjKOky — clean JSON\n17. https://t.co/d1OFVzD8p7 — terminal commands explained\n18. https://t.co/G7E4fnSA9r — software alternatives\n19. https://t.co/1KTqubHtbJ — breach check\n20. https://t.co/WuubmFD7oI — temp email\n21. https://t.co/haluLOrGQo — self-destruct notes\n22. https://t.co/8M1dU0uZ8r — live global radio\n23. https://t.co/zZXlE2I6PV — focus sound\n24. https://t.co/zalwFTP3H8 — custom ambient\n25. https://t.co/0XYyLsARkU — where to stream\n26. https://t.co/6ELf61c3Dc — digital library\n27. https://t.co/EEeRacos4E — old web pages\n28. https://t.co/2HOYLT2t8G — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/B6Y05PzA9A — speed test\n31. https://t.co/POK8rum6m6 — compress images\n32. https://t.co/Q1KjBGTq5L — file conversion\n33. https://t.co/maLvLRoS3x — compare text\n34. https://t.co/jFsN6n5b9R — disposable inbox\n35. https://t.co/u5Qov3kkrF — JS obfuscate\n36. https://t.co/VPnXHE4CiP — typing practice\n37. https://t.co/Yo12qw93ia — typing test\n38. https://t.co/S7stBqEpUD — spaced repetition\n39. https://t.co/MZskUxLUWs — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/aCBWWjTFvG — bookmark manager\n42. https://t.co/AbA3Gaxe0V — task list\n43. https://t.co/7p1a69IhaX — boards\n44. https://t.co/ohFMQ2lXjP — whiteboard\n45. https://t.co/LqdLUJckYr — design\n46. https://t.co/attArVko1K — quick graphics\n47. https://t.co/z74ARSnAFd — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/Wgqfj6vSpG — video compress\n50. https://t.co/xKxjks9euC — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @wiliam23820a for more useful websites, AI tools & tech resources.",
+"likeCount": 95,
+"retweetCount": 58,
+"url": "https://x.com/wiliam23820a/status/2116209315451441351",
+"createdAt": "Fri Oct 30 16:43:12 +0000 2026"
+},
+{
+"userName": "bendouromar",
+"text": "𝐒𝐨𝐦𝐚𝐥𝐢𝐚 🇸🇴 𝐚𝐧𝐝 𝐌𝐨𝐫𝐨𝐜𝐜𝐨 🇲🇦 : 𝐚 𝐝𝐞𝐜𝐚𝐝𝐞 𝐨𝐟 𝐬𝐭𝐞𝐚𝐝𝐟𝐚𝐬𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭, 𝐛𝐞𝐟𝐨𝐫𝐞 𝐚 𝐝𝐫𝐚𝐬𝐭𝐢𝐜 𝐫𝐞𝐯𝐞𝐫𝐬𝐚𝐥 \n\nI went back through every statement, communiqué and meeting worth considering to see how this relationship evolved:\n\n07/2016: Somalia 🇸🇴 signs (with 27 other African countries) a motion to the African Union calling for the suspension of the so-called “SADR”.\n\n11/2016: Somalia 🇸🇴 walks out (with 7 other countries) of the Africa-Arab summit over the presence of the so-called “SADR”.\n\n03/2019: Somalia 🇸🇴 declares: “We stand with Morocco 🇲🇦 on the question of its territorial integrity.”\n\n11/2020: Somalia 🇸🇴 explicitly backs the measures taken by Morocco 🇲🇦 to defend its El Guergarat border crossing.\n\n04/2022: Somalia’s Deputy Minister of Foreign Affairs attends the inauguration of a research center in Dakhla.\n\n09/2022: Somalia 🇸🇴 announces it will open a consulate in Dakhla and states it “supports the territorial integrity of Morocco 🇲🇦.”\n\n10/2023: Somalia’s embassy in Rabat 🇸🇴 is inaugurated.\n\n31/10/2025: Somalia 🇸🇴 votes in favor of Resolution 2797 at the UN Security Council 🇺🇳.\n\n28/11/2025: Somalia 🇸🇴 “reaffirms its support for Morocco’s 🇲🇦 sovereignty” and “congratulates” the adoption of Resolution 2797.\n\nThen came the U-turn... ⬇️\n\n06/12/2025: Somalia 🇸🇴 merely “takes note” of Resolution 2797, calls on “the parties to negotiate” and pledges to “respect the sovereignty of every country” (see 3rd image).\n\n30/10/2026: Somalia 🇸🇴 abstains on the US draft at the UN Security Council 🇺🇳, warning that some provisions “could prejudge the outcome of the negotiations”, then votes for Russia’s alternative text.\n\nBy the way, Somalia 🇸🇴 never opened the Dakhla consulate it has promised to open back in 2022.",
+"likeCount": 22,
 "retweetCount": 0,
-"url": "https://x.com/luffytarobaby/status/2115632863773069730",
-"createdAt": "Thu Oct 29 02:32:35 +0000 2026"
+"url": "https://x.com/bendouromar/status/2116347976159268928",
+"createdAt": "Sat Oct 31 01:54:12 +0000 2026"
 },
 {
-"userName": "OwenGregorian",
-"text": "Opera wants websites to run AI on your laptop instead of sending your data to the cloud | Paulo Vargas, Digital Trends\n\nOpera wants to move routine AI work out of distant data centers and onto the computer already sitting on your desk. Its new WebAI preview lets websites and browser extensions use local models inside Opera One without requiring another AI subscription or sending the information they handle to a cloud service.\n\nWebAI also opens local AI to third-party developers instead of reserving it for Opera’s own features. Your laptop supplies the computing power, provided it has enough to spare.\n\nHow WebAI puts models to work\n\nWebAI is a proposed web standard that gives websites and extensions access to AI through the browser. Opera says the effort has backing from Google and Microsoft. Its implementation is model-agnostic and centered on open models.\n\nOpera One can tap Google’s Gemma models, while compatible Macs can also use Apple’s on-device foundation model. Developers can generate or classify text without maintaining their own AI servers or paying for every request sent to an outside service.\n\nOpera’s examples are deliberately practical and a little nosy. One extension can sort a messy tab collection, while another can flag clickbait before it eats another five minutes of your life.\n\nWhat stays under your control\n\nOpera has kept WebAI disabled by default. Nothing is downloaded until the user enables it, and each site needs permission before it can access the browser’s local AI. That extra layer is important when websites, rather than only Opera, can call the models running on your computer.\n\nNo data center will rescue weaker hardware, however. Speed and capability depend on the computer, and Opera hasn’t disclosed minimum performance requirements beyond the supported platforms. Opera GX and Opera Neon are scheduled to receive WebAI later.\n\nWhy Opera also built a bulldozer\n\nOpera is pairing WebAI with a separate experiment called HTML-in-Canvas. It lets developers place functional webpages inside 2D and 3D scenes, where buttons and forms keep working as the page moves through virtual space.\n\nThe showcase includes a Gamer Room with live webpages on its screens and Webpage Bulldozer, which turns site elements into objects you can shove around. Both demos already work in Opera browsers without setup, so the bulldozer is the part anyone can try while WebAI remains an opt-in early preview.\n\nhttps://t.co/yJ1026ueWB",
-"likeCount": 8,
-"retweetCount": 0,
-"url": "https://x.com/OwenGregorian/status/2115510736550285320",
-"createdAt": "Wed Oct 28 18:27:18 +0000 2026"
+"userName": "Noha_Coder",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Noha_Coder For More Tools.",
+"likeCount": 25,
+"retweetCount": 18,
+"url": "https://x.com/Noha_Coder/status/2116219174053986778",
+"createdAt": "Fri Oct 30 17:22:23 +0000 2026"
 },
 {
-"userName": "gryazintweets",
-"text": "The whole world is turning into a casino\n\nI keep seeing the same mistake. Crypto bros, tech bros, now AI bros too, notice some insanity in their own industry and assume it’s unique to crypto, AI or tech.\n\nIt isn’t.\n\nCrypto is just an exaggerated version of the rest of the world.\n\nIn crypto, leverage, memecoins and pure gambling are everywhere.\n\nBut the same mechanics are leaking into normal life too.\n\n- Open a marketplace app: spin the wheel.\n- Open a supermarket app: scratch a card.\n- McDonald’s runs Monopoly with instant prizes. Instacart tested a literal virtual wheel of fortune.\n\nrandom reward → jackpot → try again → maybe you’ll get lucky\n\nAnd actual gambling is growing too.\n\n- According to Pew Research, 31% of Americans under 30 bet on sports in the previous year.\n\nThe share betting online went from 7% in 2022 to 17% in 2025.\n\nAnd no, this isn’t just an American thing.\n\n- According to Russian bookmaker market research cited by Vedomosti, 13 million Russians placed at least one bet in 2025, while the number of active bettors rose 9.4% to 6.9 million.\n\nThe share of people who see betting as a regular source of extra income also rose from 15.3% to 19.1%.\n\nAmericans and Russians: brothers forever.\n\nFor young people, gambling is starting to look like one of the few ways to radically change your life.\n\nHousing is expensive. Career paths feel less reliable. Dating is a mess. Nobody knows what AI will replace next.\n\nThe casino at least offers one simple promise:\n\nWHAT IF I GET LUCKY AND GET RICH?\n\nAnd technology makes the whole thing frictionless.\n\nPhone in your pocket. A few clicks. Spin a wheel. Place a bet. Open 100x leverage.\n\nYes, conspiracy guys: Squid Game was the warm-up.\n\nIf this keeps going, you end up with a huge number of people who don’t see a clear future, but do have anger, desperation and a taste for risk.\n\nWhere does that energy go?\n\nMore gambling? Radical politics? Emigration? Apathy? Some new historical disaster?\n\nNo idea.\n\nBut if we get really unlucky:\n\nsee you in the trenches (real ones).",
-"likeCount": 2,
-"retweetCount": 0,
-"url": "https://x.com/gryazintweets/status/2115687337002778959",
-"createdAt": "Thu Oct 29 06:09:03 +0000 2026"
-},
-{
-"userName": "_bbelousov",
-"text": "Should a diffusion model in online RL be the policy, or the thing that proposes plans?\n\nGTP (Generative Trajectory Planning; Harvard, NeurIPS 2026) argues for the second. Like TD-MPC2, it plans through learned dynamics, reward and value models, but the candidate action sequences come from a diffusion prior instead of Gaussian sampling.\n\nBeam search refines the candidates by partially re-noising and denoising them, and the best plans are distilled back into the prior, so search and proposals improve each other. When acting, the agent plans optimistically across a dynamics ensemble; when building value targets, it plans conservatively.\n\n• Locomotion: highest mean return on all five Gym MuJoCo tasks after 1M steps, e.g. Humanoid 6,660 vs 5,269 for the best baseline; on Ant it is level with TD-MPC2\n\n• Manipulation: on PushT from pixels it reaches 99% after 1M steps, while TD-MPC2 needs 3M steps to reach 97% and SAC and DreamerV3 stay at 0%\n\n• Cost: action selection is on par with TD-MPC2 (34 vs 36 ms on an RTX 5090), but a training update takes 157 ms vs 4 ms, or 19 ms when planned trajectories are reused\n\n• Deployment: the trained prior alone, without any search, keeps 99% success on FetchPickAndPlace at 8.6 ms per action\n\nPaper: https://t.co/4ArgvxlGAy",
-"likeCount": 0,
+"userName": "Monaqbuv",
+"text": "AI Image Generation Prompt 🖤🍷\n\nCreate an ultra-realistic, cinematic luxury fashion portrait of a beautiful adult woman with short platinum-blonde hair, flawless luminous skin, and elegant makeup. She wears a stunning deep burgundy satin mermaid gown with an off-the-shoulder neckline, a fitted ruched bodice, long matching opera gloves, and an extravagant floor-length train with intricate lace embroidery. A sparkling diamond choker adorns her neck. She reclines gracefully across the hood of a vintage black luxury car partially submerged in dark water, her arms extended elegantly and her eyes gently closed. Thick atmospheric fog surrounds the scene, creating a mysterious, gothic, high-fashion editorial aesthetic. Moody teal lighting contrasts beautifully with the rich wine-red satin, highlighting its glossy texture and dramatic folds. Dark cinematic color grading, realistic water reflections, intricate fabric details, luxury magazine photography, sophisticated composition, shot from a high angle, breathtaking elegance, 8K ultra-realistic quality. Aspect Ratio: 4:5",
+"likeCount": 25,
 "retweetCount": 1,
-"url": "https://x.com/_bbelousov/status/2114064632092799422",
-"createdAt": "Sat Oct 24 18:41:00 +0000 2026"
+"url": "https://x.com/Monaqbuv/status/2115670663075897655",
+"createdAt": "Thu Oct 29 05:02:47 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "🔥 AI Image Generation Prompt — Futuristic Y2K Cyber Fashion\n\nCreate an ultra-realistic, cinematic fashion photograph of a stylish young adult woman with long, straight copper-orange hair, flawless skin, soft glam makeup, glossy pink lips, and oversized silver statement earrings. She wears an oversized silver sequin top with shimmering reflective details, paired with white knee-high lace-up platform boots with chunky heels. She stands confidently with her legs apart, holding a large vintage metallic-blue boombox in front of her.\n\nThe background features an iridescent holographic curtain on one side and a blue metal grid wall on the other, creating a futuristic Y2K aesthetic. Glossy blue flooring, cool cyan lighting, colorful reflections, dramatic low-angle full-body composition, editorial fashion photography, sharp focus, realistic skin texture, high detail, vibrant metallic reflections, luxury magazine aesthetic.\n\nAspect Ratio: 4:5",
+"likeCount": 13,
+"retweetCount": 0,
+"url": "https://x.com/Monaqbuv/status/2115183000937807948",
+"createdAt": "Tue Oct 27 20:45:00 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "🤍 AI Image Generation Prompt — Ethereal White Oni Goddess\n\nCreate an ultra-realistic, cinematic portrait of a beautiful adult Western woman with long, straight platinum-blonde hair, mesmerizing gray eyes, flawless porcelain skin, and glamorous makeup. She holds an intricately carved white Japanese Oni mask with curved horns and sharp teeth in front of her face. She wears a white strapless wrapped crop top, a luxurious flowing white silk kimono with delicate embroidered patterns, and a matching draped skirt. A detailed black dragon tattoo covers her abdomen. Her expression is mysterious and alluring as she gazes directly at the camera. Dark, moody nighttime forest background, soft flash photography, realistic skin texture, intricate fabric details, high contrast lighting, gothic Japanese fantasy aesthetic, editorial fashion photography, sharp focus, masterpiece quality. Aspect Ratio: 4:5",
+"likeCount": 41,
+"retweetCount": 4,
+"url": "https://x.com/Monaqbuv/status/2116107854130106527",
+"createdAt": "Fri Oct 30 10:00:02 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "AI Image Generation Prompt — Dark Fantasy Lion Queen\n\nCreate an ultra-realistic, cinematic dark-fantasy photograph of a powerful queen sitting majestically on a giant black lion. She wears an elaborate black gothic gown with sheer flowing fabric, a dramatic spiked crown, and dangling silver earrings. Her long, wild black hair flows dramatically in the wind as she gazes forward in a regal side profile. The enormous lion has a thick, textured mane and a fierce, majestic presence. A dark, stormy sky with glowing golden light behind the subjects creates a dramatic silhouette, mysterious atmosphere, and epic fantasy aesthetic. Low-angle composition, powerful backlighting, intricate details, moody shadows, cinematic contrast, photorealistic textures, high-fashion editorial photography.\n\nAspect Ratio: 4:5",
+"likeCount": 19,
+"retweetCount": 1,
+"url": "https://x.com/Monaqbuv/status/2115330221486551356",
+"createdAt": "Wed Oct 28 06:30:00 +0000 2026"
 },
 {
 "userName": "yuliakosyak",
 "text": "Solaris. Ocean of Generative Code\n\n“Scarlet Transforma” is a magical, extremely timid, yet curious substance. To camouflage itself, it invents its own transformations, imitating familiar objects. And it is terribly embarrassed by its generative errors…🙄🤣\n\nBut today, the trend for funny AI glitches accidentally revealed the origin of a new bird. 💁‍♀️And all she wanted was to prove that she was a real fashion model! 🤍🫧☺️💅🏻💅🏻💅🏻\n\nHow is she supposed to camouflage herself when even mistakes become fashionable? 🤣\n\nAnd who is imitating whom now — is generative code imitating reality, or is reality imitating generative code?😊",
-"likeCount": 21,
+"likeCount": 22,
 "retweetCount": 2,
 "url": "https://x.com/yuliakosyak/status/2114388077669990789",
 "createdAt": "Sun Oct 25 16:06:15 +0000 2026"
 },
 {
-"userName": "dailytechonx",
-"text": "Meta’s new Style Sketch turns your closet into an AI-powered style studio—digitize clothes from Instagram or your camera roll, generate outfit combos, get virtual try-ons matched to skin tone and body shape, and even plan what to wear for trips based on weather and activities. #Meta #StyleSketch #FashionTech #AI #VirtualTryOn #DigitalWardrobe\n\n#FashionTech #DigitalWardrobe #Meta #StyleSketch #AI #VirtualTryOn\n\nhttps://t.co/C8fMZLo1rL",
-"likeCount": 1,
+"userName": "TTrimoreau",
+"text": "Someone just built The Sims for AI agents.\n\nAnd they actually work for you.\n\n@getskydive lets you create an entire team of AI coworkers inside a 3D virtual office.\n\n→ Give each agent a role\n→ Assign tasks through Slack, iMessage or email\n→ Watch them work in real time\n→ Let them keep working while you’re offline\n\nYou can even put your company’s office on the map.\n\nAnd it’s free to try this week.\n\nThe future of running a startup might look more like playing a video game.",
+"likeCount": 14,
 "retweetCount": 0,
-"url": "https://x.com/dailytechonx/status/2115887508474958265",
-"createdAt": "Thu Oct 29 19:24:27 +0000 2026"
-},
-{
-"userName": "pulse_pune",
-"text": "No changing clothes needed! 👗🤖 Two young innovators from Akurdi, Pune, have developed AI-powered Virtual Try-On technology that lets you preview how a saree or kurta might look on you in just 20–30 seconds.\n\nCould this technology make your Diwali shopping easier? Would you try it? Tell us in the comments!\n\n#PunePulse #PuneNews #VirtualTryOn #AITechnology #DigitalTrialRoom #Akurdi",
-"likeCount": 2,
-"retweetCount": 0,
-"url": "https://x.com/pulse_pune/status/2115697151787626729",
-"createdAt": "Thu Oct 29 06:48:03 +0000 2026"
-},
-{
-"userName": "KenWattana",
-"text": "Now agents are using Stripe Link to pay, @contofinance brings added controls so users can make trusted transactions. For organizations managing multiple agents that make payments on behalf of employees and the business, this is particularly relevant https://t.co/Z9NJ8BluZq",
-"likeCount": 4,
-"retweetCount": 2,
-"url": "https://x.com/KenWattana/status/2115909673174077657",
-"createdAt": "Thu Oct 29 20:52:32 +0000 2026"
+"url": "https://x.com/TTrimoreau/status/2116242556186939529",
+"createdAt": "Fri Oct 30 18:55:17 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @Polyfork3d: 📦 NVIDIA did it first, now we are releasing 2,600+ free game-ready 3D models (+200 each week). For good.\n\n🎛️ Each model is…",
-"likeCount": 2927,
+"likeCount": 2931,
 "retweetCount": 293,
 "url": "https://x.com/ClementDelangue/status/2115173772206424108",
 "createdAt": "Tue Oct 27 20:08:19 +0000 2026"
@@ -83,80 +91,72 @@
 "userName": "ClementDelangue",
 "text": "RT @MarioNawfal: 🤖🪿 Microduck looks like a toy but runs real AI walking policies you can retrain yourself\n\nThe $399 robot from Hugging Face…",
 "likeCount": 163,
-"retweetCount": 26,
+"retweetCount": 27,
 "url": "https://x.com/ClementDelangue/status/2115404192391262429",
 "createdAt": "Wed Oct 28 11:23:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @RemiFabreRobot: Today we're releasing the Reachy Mini Level UP update, which mainly contains three things:\n\n• A hoverboard, to give Rea…",
-"likeCount": 640,
-"retweetCount": 82,
-"url": "https://x.com/ClementDelangue/status/2115845430823231855",
-"createdAt": "Thu Oct 29 16:37:15 +0000 2026"
+"text": "RT @divagr1925: 1/4\n\nMeet Qwenputer: Qwen3.5-4B with a full RISC-V CPU inside its weights, using the model's own Gated DeltaNet layers as R…",
+"likeCount": 4935,
+"retweetCount": 632,
+"url": "https://x.com/ClementDelangue/status/2116360763719708819",
+"createdAt": "Sat Oct 31 02:45:00 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pollenrobotics: Reachy Mini has wheels now! \nOur little open-source AI robot can finally explore beyond the desktop.\nAnd that's not all…",
-"likeCount": 631,
-"retweetCount": 85,
-"url": "https://x.com/ClementDelangue/status/2115780523507507685",
-"createdAt": "Thu Oct 29 12:19:20 +0000 2026"
+"text": "RT @lukas_m_ziegler: A robot duck walking through simulated snow! 🦆\n\nMicroDuck from @huggingface walking through a snowy scenery simulated…",
+"likeCount": 140,
+"retweetCount": 22,
+"url": "https://x.com/ClementDelangue/status/2115448949150818485",
+"createdAt": "Wed Oct 28 14:21:47 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @kimmonismus: NVIDIA is releasing an open speech model that can transcribe a meeting, label who said what, translate it and answer quest…",
-"likeCount": 799,
-"retweetCount": 45,
+"likeCount": 803,
+"retweetCount": 46,
 "url": "https://x.com/ClementDelangue/status/2115736294030819801",
 "createdAt": "Thu Oct 29 09:23:35 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @math_rachel: \"People think 'the ideas are mine, the writing is the AI', i.e., they feed the AI a list of rambling bullet points that it…",
-"likeCount": 224,
-"retweetCount": 40,
-"url": "https://x.com/jeremyphoward/status/2115633092836970609",
-"createdAt": "Thu Oct 29 02:33:30 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @MTSlive: Hugging Face researcher @evijit reveals how Carbon-X, a 14B open-source AI model, rivaled GPT-6.1 Sol on genomics benchmarks f…",
+"likeCount": 62,
+"retweetCount": 5,
+"url": "https://x.com/ClementDelangue/status/2116145856084689398",
+"createdAt": "Fri Oct 30 12:31:02 +0000 2026"
 },
 {
 "userName": "jeremyphoward",
-"text": "RT @JacquesThibs: For those who have been following my takes on AI progress, it may come as no surprise that I agree with @nostalgebraist h…",
-"likeCount": 239,
-"retweetCount": 27,
-"url": "https://x.com/jeremyphoward/status/2115190422889005493",
-"createdAt": "Tue Oct 27 21:14:29 +0000 2026"
+"text": "RT @wiseyoungbuck: Coding is solved and all, but @OpenAI appear to have either a UX bug, or they’ve given me access to an internal model. h…",
+"likeCount": 186,
+"retweetCount": 6,
+"url": "https://x.com/jeremyphoward/status/2115189260156612956",
+"createdAt": "Tue Oct 27 21:09:52 +0000 2026"
+},
+{
+"userName": "petapixel",
+"text": "Fashion photo studios are closing down as brands increasingly embrace AI thanks to the big savings offered by the technology. \nhttps://t.co/EXWYWuaCzu",
+"likeCount": 15,
+"retweetCount": 3,
+"url": "https://x.com/petapixel/status/2115418282161520918",
+"createdAt": "Wed Oct 28 12:19:55 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Elizaveta_ai: Microduck performance 😂\n\nAfter they stole the show at NVIDIA GTC Berlin Keynote https://t.co/FDQbUXtpXE",
-"likeCount": 1761,
-"retweetCount": 229,
-"url": "https://x.com/ClementDelangue/status/2114993204307365964",
-"createdAt": "Tue Oct 27 08:10:49 +0000 2026"
-},
-{
-"userName": "podcastor_ai",
-"text": "The Guide to Podcast Production: Concepts, Examples, and Step-by-Step Instructions https://t.co/kfR6rgaWim",
-"likeCount": 3,
+"text": "RT @pcuenq: My Mom supports open. You should too. https://t.co/ERQoEwvB14",
+"likeCount": 56,
 "retweetCount": 1,
-"url": "https://x.com/podcastor_ai/status/2115699107864162494",
-"createdAt": "Thu Oct 29 06:55:49 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2116273035791736991",
+"createdAt": "Fri Oct 30 20:56:24 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @elonmusk: Cute 🥰",
-"likeCount": 13393,
-"retweetCount": 1128,
-"url": "https://x.com/ClementDelangue/status/2114962953971577140",
-"createdAt": "Tue Oct 27 06:10:36 +0000 2026"
-},
-{
-"userName": "AIWorkflowX",
-"text": "https://t.co/h3SvKCRfN9",
-"likeCount": 8,
-"retweetCount": 0,
-"url": "https://x.com/AIWorkflowX/status/2115849755653763403",
-"createdAt": "Thu Oct 29 16:54:26 +0000 2026"
+"userName": "machinedotfun",
+"text": "https://t.co/eqVYzmed5i",
+"likeCount": 62,
+"retweetCount": 10,
+"url": "https://x.com/machinedotfun/status/2116141294934233541",
+"createdAt": "Fri Oct 30 12:12:55 +0000 2026"
 }
 ]
