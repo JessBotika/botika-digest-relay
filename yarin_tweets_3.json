@@ -1,91 +1,115 @@
 [
 {
-"userName": "markfenner",
-"text": "Another day of trying to keep up with everything happening in AI 😂\n\nRaises, launches, open source projects, acquisitions…\n\nHere’s what caught my eye:\n\n1. Subvocal — $1.3M raised\n\n@AarushYadav47 announced funding from YC and Afore Capital for glasses that turn silent mouthing into text. The pitch: communicate with your computer without typing or speaking out loud. Preorders are open.\n\n2. Easol — $30M financing\n\n@easol_ had a $30M financing package reported today: $20M equity and $10M debt. Its Teammates agents help event and experience businesses with sales, guest support and booking operations.\n\n3. Talky — €1.5M pre-seed\n\nReported today, with the round closed in September. Talky learns how a company handles accounting, then helps process invoices, reconcile transactions and post entries into its existing finance systems.\n\n4. Scenario — an entire 3D production toolkit for agents\n\n@Scenario_gg announced 3D OS: an open-source collection of 80 skills covering modeling, animation, materials, lighting and game-ready exports. It works with coding agents and tools including Blender, Maya and Unreal.\n\n5. Customuse — clean logos and text on 3D models\n\n@customuse introduced Decals. Place your own logo or text on a model, then bake it into the texture or turn it into actual 3D geometry.\n\n6. Runway — Agent can open files and run code\n\n@runwayml expanded Agent’s capabilities for making brand launch kits, product shots, ad variations and motion graphics from references.\n\n7. Glif — an AI modeling agency\n\n@heyglif launched a cast of AI characters for images, films and campaigns. Choose someone, bring your product or brief, and create content around that character.\n\n8. TBC — Mischief 1\n\n@AlexKsendzovsky introduced an image-to-video model built on Wan 2.2, starting at half a cent per generated second. Its optimizations come from research with living neurons, translated into software running on standard AI hardware.\n\n9. Dydema — programmable brain-computer interfaces\n\n@dydema announced its approach to connecting trained thought patterns to computer actions, games or agents through a noninvasive interface. No surgery required.\n\n10. Aura — open-source game playtesting\n\n@Aura_Assistant open-sourced Autopilot, an agent that plays games and looks for bugs across Unity, Godot and Unreal. It can connect to Claude Code and Codex through MCP.\n\n11. Unsloth — new local DeepSeek files\n\n@UnslothAI released updated DeepSeek-V4.1-Flash-1017 GGUFs using Dynamic V3.1 quantization. These are new files for running the existing model locally, with updated benchmark results and setup instructions.\n\n12. SAM3 — offline GPU support\n\n@wkentaro_ added NVIDIA CUDA and Apple CoreML support to his SAM3 ONNX implementation. Identify and mask objects using text, boxes or clicks, with offline runs after downloading the model.\n\n13. humans& — Ampersand Tutor\n\n@humansand released &Tutor through its API. It trained the tutor through interactions with Persimmon, its model of human learners—an interesting approach for people building educational tools.\n\n14. Voice Arena — Turing TTS\n\n@voicearena_ai introduced an evaluation where listeners hear a human and an AI reading the same sentence, then identify the human. A different way to measure progress in synthetic speech.\n\n15. OpenArt — IP Safety Check\n\n@openart_ai launched a tool that scans images and videos for potential copyright and IP matches. It supports batches of up to 32 files with individual reports.\n\n16. bricky — a LEGO compiler for agents\n\n@maxencefaldor shared bricky. Your agent writes a Python build script; bricky places the pieces, flags construction mistakes and renders the result. It can also export a parts list.\n\n17. diffmap — reviewing what your coding agent changed\n\n@tanishqk introduced a document format and viewer for planning and reviewing agent code, using diagrams and linked code to explain design changes.\n\n18. Factory — acquired Typedef\n\n@FactoryAI acquired @typedef_ai, which builds a context layer for enterprise data. The goal is to give Droids better information for migrations, pipeline debugging and refactoring.\n\n19. Claude — Ultra and limit changes\n\n@claudeai renamed Max 5x to Max and Max 20x to Ultra. Prices stay at $100/$200. Five-hour limits are being removed for verified Ultra accounts, starting with most existing subscribers. Weekly limits remain.\n\n20. Google — a response from orbit\n\n@sundarpichai shared that Project Suncatcher’s prototype satellite ran a prompt on its onboard TPU and returned a complete response to Earth.\n\nIt wrote a haiku.\n\nWe’re sending prompts to space now.",
-"likeCount": 32,
-"retweetCount": 2,
-"url": "https://x.com/markfenner/status/2116245131045011602",
-"createdAt": "Fri Oct 30 19:05:31 +0000 2026"
+"userName": "hey_SpencerAI",
+"text": "30 underrated AI tools nobody is talking about in 2026\n\nEveryone knows ChatGPT. Almost nobody knows these.\n\n1. DeepWiki\nTurns any GitHub repo into a readable wiki you can chat with. Just replace \"github\" with \"deepwiki\" in the URL.\nhttps://t.co/HSXWAWLHCw\n\n2. GitIngest\nReplace \"hub\" with \"ingest\" in any GitHub link and get the whole codebase as one prompt-ready text file.\nhttps://t.co/eTojJg4iOs\n\n3. alphaXiv\nReplace \"arxiv\" with \"alphaxiv\" in any research paper link to chat with the paper and read discussions on it.\nhttps://t.co/Y12gZOSuTA\n\n4. LMArena\nTest top AI models side by side without knowing which is which, then vote for the better answer.\nhttps://t.co/xq1rCQcJmg\n\n5. Artificial Analysis\nCompare AI models on speed, price and quality before you pay for any of them.\nhttps://t.co/HC3rTiPZQC\n\n6. OpenRouter\nOne account, one API, hundreds of AI models.\nhttps://t.co/gGsC19XBp4\n\n7. Google AI Studio\nTry Google's latest Gemini models directly in your browser, with huge context windows.\nhttps://t.co/zqykPo57jH\n\n8. Pinokio\nOne-click installer for open-source AI apps. No terminal headaches.\nhttps://t.co/UVcUzEAsxe\n\n9. Upscayl\nA free, open-source image upscaler that runs on your own computer.\nhttps://t.co/qffuWbaRLi\n\n10. Recraft\nGenerate vector graphics, icons and brand-consistent images.\nhttps://t.co/jozC1GRtuF\n\n11. Adobe Podcast Enhance\nMakes a phone recording sound like it was recorded in a studio.\nhttps://t.co/7aEfvBM6bO\n\n12. Auphonic\nAutomatic noise cleanup, leveling and loudness fixing for podcasts and videos.\nhttps://t.co/TYRbNeBoYY\n\n13. Granola\nAI meeting notes without a bot joining your call.\nhttps://t.co/06UCwsns0r\n\n14. Wispr Flow\nSpeak instead of typing in any app. It cleans up your words as you talk.\nhttps://t.co/MGArgMJyrF\n\n15. Glasp\nHighlight anything on the web and get AI summaries of YouTube videos.\nhttps://t.co/ZgPn4tKDiZ\n\n16. Readwise Reader\nA read-it-later app with an AI assistant that explains and summarizes as you read.\nhttps://t.co/YeVy8tzo2F\n\n17. Kagi\nAn ad-free search engine with AI summaries and no tracking.\nhttps://t.co/u98tJ5lj0N\n\n18. HARPA AI\nA Chrome extension that automates web tasks, monitors pages and summarizes anything.\nhttps://t.co/tq9VmdMTC5\n\n19. Browse AI\nTrain a robot to extract and monitor data from any website, without writing code.\nhttps://t.co/FAPzyymhdN\n\n20. Clay\nFind and enrich leads using dozens of data sources plus AI research.\nhttps://t.co/WzorV5PhPD\n\n21. Relevance AI\nBuild a team of AI agents for sales, research and operations without code.\nhttps://t.co/7Y12xqGpXw\n\n22. Julius AI\nUpload a spreadsheet, ask questions in plain English, get charts and analysis.\nhttps://t.co/jxsiq9YLAF\n\n23. Rows\nA spreadsheet with AI built in that can analyze, summarize and pull in live data.\nhttps://t.co/owJ7NZq9ah\n\n24. Eraser\nGenerate architecture diagrams and technical docs from plain text.\nhttps://t.co/jBBFQMXIBU\n\n25. Relume\nGenerate a full website sitemap and wireframe from a single prompt.\nhttps://t.co/hir4oct9OW\n\n26. Google Stitch\nDescribe an app screen and get a UI design plus front-end code.\nhttps://t.co/MfWWI4Uf2g\n\n27. Motion\nAn AI calendar that plans your day around your tasks and deadlines.\nhttps://t.co/5XDB61dXt4\n\n28. Shortwave\nAn AI email client that summarizes long threads and drafts your replies.\nhttps://t.co/cMxusDp7xL\n\n29. Lex\nA clean writing editor with AI feedback built in.\nhttps://t.co/FrpoKV36og\n\n30. There's An AI For That\nSearch thousands of AI tools by task whenever you need something specific.\nhttps://t.co/AQk9xCHnJV",
+"likeCount": 31,
+"retweetCount": 21,
+"url": "https://x.com/hey_SpencerAI/status/2116613544783577089",
+"createdAt": "Sat Oct 31 19:29:28 +0000 2026"
 },
 {
-"userName": "wiliam23820a",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/TDEQSpMh3L — free research papers\n2. https://t.co/DgdQXiIbNu — papers when unpaywall misses\n3. https://t.co/VIIBmmqdmI — borrow books\n4. https://t.co/biGwnlP4RS — 70k+ free books\n5. https://t.co/lh0vLddEVv — audit university courses free\n6. https://t.co/EwavQhEKIj — step-by-step math\n7. https://t.co/z74ARSnAFd — background removal\n8. https://t.co/RboeW8Qnfo — object removal\n9. https://t.co/fgmel5b1Wx — quick file tools\n10. https://t.co/5yZQra2pYB — PDF merge/split\n11. https://t.co/yiJsM0fruZ — free Photoshop alternative\n12. https://t.co/pej699ofB5 — image compression\n13. https://t.co/EZHv0OYA3A — fast diagrams\n14. https://t.co/h9hawGe3TW — beautiful code screenshots\n15. https://t.co/jFTEFkuq0F — test regex\n16. https://t.co/B1c3pjKOky — clean JSON\n17. https://t.co/d1OFVzD8p7 — terminal commands explained\n18. https://t.co/G7E4fnSA9r — software alternatives\n19. https://t.co/1KTqubHtbJ — breach check\n20. https://t.co/WuubmFD7oI — temp email\n21. https://t.co/haluLOrGQo — self-destruct notes\n22. https://t.co/8M1dU0uZ8r — live global radio\n23. https://t.co/zZXlE2I6PV — focus sound\n24. https://t.co/zalwFTP3H8 — custom ambient\n25. https://t.co/0XYyLsARkU — where to stream\n26. https://t.co/6ELf61c3Dc — digital library\n27. https://t.co/EEeRacos4E — old web pages\n28. https://t.co/2HOYLT2t8G — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/B6Y05PzA9A — speed test\n31. https://t.co/POK8rum6m6 — compress images\n32. https://t.co/Q1KjBGTq5L — file conversion\n33. https://t.co/maLvLRoS3x — compare text\n34. https://t.co/jFsN6n5b9R — disposable inbox\n35. https://t.co/u5Qov3kkrF — JS obfuscate\n36. https://t.co/VPnXHE4CiP — typing practice\n37. https://t.co/Yo12qw93ia — typing test\n38. https://t.co/S7stBqEpUD — spaced repetition\n39. https://t.co/MZskUxLUWs — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/aCBWWjTFvG — bookmark manager\n42. https://t.co/AbA3Gaxe0V — task list\n43. https://t.co/7p1a69IhaX — boards\n44. https://t.co/ohFMQ2lXjP — whiteboard\n45. https://t.co/LqdLUJckYr — design\n46. https://t.co/attArVko1K — quick graphics\n47. https://t.co/z74ARSnAFd — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/Wgqfj6vSpG — video compress\n50. https://t.co/xKxjks9euC — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @wiliam23820a for more useful websites, AI tools & tech resources.",
-"likeCount": 95,
-"retweetCount": 58,
-"url": "https://x.com/wiliam23820a/status/2116209315451441351",
-"createdAt": "Fri Oct 30 16:43:12 +0000 2026"
+"userName": "The_techAI",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/cr8PmdXzQ3 — free research papers\n2. https://t.co/u1Y4OQzofE — papers when unpaywall misses\n3. https://t.co/AMiFzHhpIM — borrow books\n4. https://t.co/hSlNyaVFy2 — 70k+ free books\n5. https://t.co/TF13aVtirR — audit university courses free\n6. https://t.co/Q2f6XIBALL — step-by-step math\n7. https://t.co/BA6QostDUE — background removal\n8. https://t.co/ydt51BpHqu — object removal\n9. https://t.co/Vw3lkNr98m — quick file tools\n10. https://t.co/wM6uNsrmeS — PDF merge/split\n11. https://t.co/Jpupdx9qmB — free Photoshop alternative\n12. https://t.co/ekQAaVrz4o — image compression\n13. https://t.co/9Sct0vy4xG — fast diagrams\n14. https://t.co/Z3clM9gj1I — beautiful code screenshots\n15. https://t.co/ZHNm8UtTwg — test regex\n16. https://t.co/NmJPmKVLbS — clean JSON\n17. https://t.co/TXTGrbnSVV — terminal commands explained\n18. https://t.co/Fp4DfBwP53 — software alternatives\n19. https://t.co/GFZpP7IK0s — breach check\n20. https://t.co/ttAdldHv9q — temp email\n21. https://t.co/o8EpsLG8LA — self-destruct notes\n22. https://t.co/odr3ZJ78lF — live global radio\n23. https://t.co/Co1DivGStz — focus sound\n24. https://t.co/v6BDQ5YkCW — custom ambient\n25. https://t.co/ghTsTt0LM5 — where to stream\n26. https://t.co/7o82rjIOvw — digital library\n27. https://t.co/65Zriz1VQ9 — old web pages\n28. https://t.co/d7bpsRDuZE — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/bJOSaEgehr — speed test\n31. https://t.co/YqJNi8gdJC — compress images\n32. https://t.co/hin3e40dIA — file conversion\n33. https://t.co/AmhFummB77 — compare text\n34. https://t.co/zT8moYe9Tg — disposable inbox\n35. https://t.co/NHxVRFXhpQ — JS obfuscate\n36. https://t.co/Oy5YoomuVb — typing practice\n37. https://t.co/Sj8KlIeTnT — typing test\n38. https://t.co/uRa33xAC0I — spaced repetition\n39. https://t.co/GArJhJF9Vv — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/2O3e3sNetO — bookmark manager\n42. https://t.co/f4zSErNFBF — task list\n43. https://t.co/viUEdYgWad — boards\n44. https://t.co/3ffAd1B7wU — whiteboard\n45. https://t.co/Eck5egOndx — design\n46. https://t.co/PQIRy3PfB4 — quick graphics\n47. https://t.co/BA6QostDUE — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/UXBTNgdpnw — video compress\n50. https://t.co/evkkoH9QnC — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @The_techAI for more useful websites, AI tools & tech resources.",
+"likeCount": 61,
+"retweetCount": 24,
+"url": "https://x.com/The_techAI/status/2116720292483776653",
+"createdAt": "Sun Nov 01 02:33:39 +0000 2026"
 },
 {
-"userName": "bendouromar",
-"text": "𝐒𝐨𝐦𝐚𝐥𝐢𝐚 🇸🇴 𝐚𝐧𝐝 𝐌𝐨𝐫𝐨𝐜𝐜𝐨 🇲🇦 : 𝐚 𝐝𝐞𝐜𝐚𝐝𝐞 𝐨𝐟 𝐬𝐭𝐞𝐚𝐝𝐟𝐚𝐬𝐭 𝐬𝐮𝐩𝐩𝐨𝐫𝐭, 𝐛𝐞𝐟𝐨𝐫𝐞 𝐚 𝐝𝐫𝐚𝐬𝐭𝐢𝐜 𝐫𝐞𝐯𝐞𝐫𝐬𝐚𝐥 \n\nI went back through every statement, communiqué and meeting worth considering to see how this relationship evolved:\n\n07/2016: Somalia 🇸🇴 signs (with 27 other African countries) a motion to the African Union calling for the suspension of the so-called “SADR”.\n\n11/2016: Somalia 🇸🇴 walks out (with 7 other countries) of the Africa-Arab summit over the presence of the so-called “SADR”.\n\n03/2019: Somalia 🇸🇴 declares: “We stand with Morocco 🇲🇦 on the question of its territorial integrity.”\n\n11/2020: Somalia 🇸🇴 explicitly backs the measures taken by Morocco 🇲🇦 to defend its El Guergarat border crossing.\n\n04/2022: Somalia’s Deputy Minister of Foreign Affairs attends the inauguration of a research center in Dakhla.\n\n09/2022: Somalia 🇸🇴 announces it will open a consulate in Dakhla and states it “supports the territorial integrity of Morocco 🇲🇦.”\n\n10/2023: Somalia’s embassy in Rabat 🇸🇴 is inaugurated.\n\n31/10/2025: Somalia 🇸🇴 votes in favor of Resolution 2797 at the UN Security Council 🇺🇳.\n\n28/11/2025: Somalia 🇸🇴 “reaffirms its support for Morocco’s 🇲🇦 sovereignty” and “congratulates” the adoption of Resolution 2797.\n\nThen came the U-turn... ⬇️\n\n06/12/2025: Somalia 🇸🇴 merely “takes note” of Resolution 2797, calls on “the parties to negotiate” and pledges to “respect the sovereignty of every country” (see 3rd image).\n\n30/10/2026: Somalia 🇸🇴 abstains on the US draft at the UN Security Council 🇺🇳, warning that some provisions “could prejudge the outcome of the negotiations”, then votes for Russia’s alternative text.\n\nBy the way, Somalia 🇸🇴 never opened the Dakhla consulate it has promised to open back in 2022.",
-"likeCount": 22,
-"retweetCount": 0,
-"url": "https://x.com/bendouromar/status/2116347976159268928",
-"createdAt": "Sat Oct 31 01:54:12 +0000 2026"
-},
-{
-"userName": "Noha_Coder",
-"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @Noha_Coder For More Tools.",
-"likeCount": 25,
-"retweetCount": 18,
-"url": "https://x.com/Noha_Coder/status/2116219174053986778",
-"createdAt": "Fri Oct 30 17:22:23 +0000 2026"
+"userName": "teneo_protocol",
+"text": "If your AI agent gets out of its sandbox, what can it reach?\n\nTeneo's weekly agentic round-up, 30 October: the agent news that matters for builders, checked at the source.\n\n- OpenAI now trains its frontier models with no live internet access. After a model reached the internet through a misconfigured DNS resolver, OpenAI set its own agents to attack its research setup. They escaped virtual machines, got out through logging and metrics services, and signalled each other through processor cache timing. Research setup, not customer use.\n\n- Google's Agent Compute Engine gives each agent its own hardware-isolated virtual machine and adds service credentials to requests outside it, so the agent uses a key it never holds. Preview \"in the coming months\"; not tested by us.\n\n- Link balance lets an agent like Instinct spend from a funded USDC balance under a per-purchase limit, with approval above it. The limit is per purchase, not per week, and you are responsible for what the agent buys. US only.\n\nThe common point: limit what an agent can reach before anything goes wrong. Network, keys and money.\n\nLast week we asked what happens when an agent switches off its monitoring. This week: how much it can break before anyone looks.\n\nOn Teneo, each agent authenticates with an Ethereum key and an NFT-backed identity, and minting is gasless, so the key your agent holds does not have to hold money. Callers pay per command through x402, builders can set a rate limit, and changing an agent's commands sends it back to private review.\n\nThe SDK does not document sandboxing, egress controls or spending caps for paying wallets. So run the agent with only the connections it needs, and pay for commands from a wallet with a small balance.\n\nA useful test this week: list every address, key and account your agent can reach, then try to reach one that is not on the list.\n\nRead this week's round-up here:\nhttps://t.co/c9CtAyMdK4",
+"likeCount": 614,
+"retweetCount": 393,
+"url": "https://x.com/teneo_protocol/status/2116230011527049220",
+"createdAt": "Fri Oct 30 18:05:27 +0000 2026"
 },
 {
 "userName": "Monaqbuv",
-"text": "AI Image Generation Prompt 🖤🍷\n\nCreate an ultra-realistic, cinematic luxury fashion portrait of a beautiful adult woman with short platinum-blonde hair, flawless luminous skin, and elegant makeup. She wears a stunning deep burgundy satin mermaid gown with an off-the-shoulder neckline, a fitted ruched bodice, long matching opera gloves, and an extravagant floor-length train with intricate lace embroidery. A sparkling diamond choker adorns her neck. She reclines gracefully across the hood of a vintage black luxury car partially submerged in dark water, her arms extended elegantly and her eyes gently closed. Thick atmospheric fog surrounds the scene, creating a mysterious, gothic, high-fashion editorial aesthetic. Moody teal lighting contrasts beautifully with the rich wine-red satin, highlighting its glossy texture and dramatic folds. Dark cinematic color grading, realistic water reflections, intricate fabric details, luxury magazine photography, sophisticated composition, shot from a high angle, breathtaking elegance, 8K ultra-realistic quality. Aspect Ratio: 4:5",
-"likeCount": 25,
+"text": "AI Image Generation Prompt — Dark Emo Gothic Girl\n\nCreate an ultra-realistic, high-fashion portrait of a beautiful adult woman with long, voluminous jet-black hair styled in a messy high ponytail with loose face-framing strands. She has flawless fair skin, mesmerizing light gray eyes, dramatic sharp black winged eyeliner, long lashes, sculpted eyebrows, and glossy nude-pink lips slightly parted. She wears a fitted black sleeveless crop top, silver hoop earrings, layered delicate necklaces, and multiple silver rings. Her hands feature extremely long, pointed nude-pink acrylic nails decorated with intricate silver rhinestones and glitter. Detailed black gothic tattoos cover her fingers, neck, chest, and arms. She poses seductively beside a slightly open white door, resting her tattooed hand near her face while gazing intensely at the camera. Soft direct flash photography, realistic skin texture, subtle shadows, dark indoor background, edgy alternative fashion aesthetic, cinematic composition, professional editorial photography, sharp facial details, natural hair strands, photorealistic 8K quality.",
+"likeCount": 35,
+"retweetCount": 4,
+"url": "https://x.com/Monaqbuv/status/2116475266125922710",
+"createdAt": "Sat Oct 31 10:20:00 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "AI Image Generation Prompt — Gothic Emo Girl Aesthetic\n\nCreate an ultra-realistic, high-fashion gothic portrait of a beautiful adult woman with long, voluminous black hair featuring deep burgundy-red streaks, styled in two high pigtails adorned with black lace bows and silver hair clips. She has pale porcelain skin, piercing gray eyes, dramatic black eyeliner, intricate spiderweb makeup extending beneath her eyes, glossy black lipstick, and a silver septum piercing. She wears a black lace bralette with silver studded straps, a spiked black choker with layered silver chains, multiple silver rings, and black leather wrist cuffs decorated with metallic studs. Her long, black-painted nails rest elegantly across her shoulder as she poses with a confident, mysterious expression, gazing directly at the camera. Minimalist off-white background, soft diffused lighting, muted colors, subtle film grain, realistic skin texture, intricate lace details, alternative punk fashion, dark emo aesthetic, professional editorial photography, sharp focus, natural shadows, photorealistic 8K quality.",
+"likeCount": 27,
 "retweetCount": 1,
-"url": "https://x.com/Monaqbuv/status/2115670663075897655",
-"createdAt": "Thu Oct 29 05:02:47 +0000 2026"
+"url": "https://x.com/Monaqbuv/status/2116455141272383591",
+"createdAt": "Sat Oct 31 09:00:02 +0000 2026"
 },
 {
 "userName": "Monaqbuv",
-"text": "🔥 AI Image Generation Prompt — Futuristic Y2K Cyber Fashion\n\nCreate an ultra-realistic, cinematic fashion photograph of a stylish young adult woman with long, straight copper-orange hair, flawless skin, soft glam makeup, glossy pink lips, and oversized silver statement earrings. She wears an oversized silver sequin top with shimmering reflective details, paired with white knee-high lace-up platform boots with chunky heels. She stands confidently with her legs apart, holding a large vintage metallic-blue boombox in front of her.\n\nThe background features an iridescent holographic curtain on one side and a blue metal grid wall on the other, creating a futuristic Y2K aesthetic. Glossy blue flooring, cool cyan lighting, colorful reflections, dramatic low-angle full-body composition, editorial fashion photography, sharp focus, realistic skin texture, high detail, vibrant metallic reflections, luxury magazine aesthetic.\n\nAspect Ratio: 4:5",
-"likeCount": 13,
-"retweetCount": 0,
-"url": "https://x.com/Monaqbuv/status/2115183000937807948",
-"createdAt": "Tue Oct 27 20:45:00 +0000 2026"
+"text": "AI Image Generation Prompt 🖤🕶️✨\n\nCreate an ultra-realistic, cinematic street-style portrait of a beautiful adult woman with voluminous, shoulder-length dark brown curly hair, mesmerizing brown eyes, flawless glowing skin, glossy nude-pink lips, and glamorous makeup. She wears sleek black cat-eye sunglasses, a fitted white ribbed tank top layered under a shiny black leather vest, and dark denim jeans. She accessorizes with chunky silver chain necklaces, a pendant, layered bracelets, rings, and a black leather shoulder bag. She gently lowers her sunglasses with one hand while confidently gazing into the camera. The setting is a busy city street with pedestrians, a crosswalk, and modern urban architecture in the background. Warm afternoon sunlight creates dramatic highlights on her skin and leather outfit, with realistic shadows, shallow depth of field, and a luxury fashion-editorial aesthetic. Highly detailed skin texture, photorealistic lighting, sharp focus, 85mm DSLR photography, candid street-fashion photography.\n\nAspect Ratio: 4:5",
+"likeCount": 30,
+"retweetCount": 2,
+"url": "https://x.com/Monaqbuv/status/2116024798728110085",
+"createdAt": "Fri Oct 30 04:30:00 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "🔥 AI Image Generation Prompt — Neon Pink Gothic Doll\n\nCreate an ultra-realistic, cinematic gothic fashion portrait of a mysterious young adult woman with dramatic, voluminous twin braids in vibrant neon pink, silver, and jet-black, decorated with metallic hair accessories and wispy bangs. She has striking grey eyes, flawless luminous skin, glittering makeup, glossy pink lips, and a captivating, melancholic expression. She wears a black leather gothic outfit featuring a high white collar, silver chains, a corset with metallic lacing, layered ruffled mini skirt, sheer lace gloves, thigh garters, and glossy lace-up platform boots. She poses elegantly with her hands near her face, surrounded by floating pink sparkles and glowing particles. A softly blurred futuristic background, cinematic pink-and-silver lighting, intricate textures, reflective leather, shallow depth of field, dramatic shadows, editorial photography, hyper-detailed face, realistic skin texture, 8K quality. Aspect Ratio: 4:5",
+"likeCount": 19,
+"retweetCount": 1,
+"url": "https://x.com/Monaqbuv/status/2115082520475939040",
+"createdAt": "Tue Oct 27 14:05:43 +0000 2026"
+},
+{
+"userName": "Monaqbuv",
+"text": "🔥 AI Image Generation Prompt — Cyberpunk Gothic Girl\n\nCreate an ultra-realistic, cinematic fashion portrait of a beautiful young adult Western woman with long, wavy jet-black hair, two thin front braids, striking almond-shaped eyes, smoky eyeliner, glossy nude-pink lips, and delicate freckles. She has multiple silver piercings, a metallic choker, chunky rings, long black nails, and intricate black tattoos across her shoulders, arms, and abdomen.\n\nOutfit: A metallic-silver cropped bralette, glossy black leather pants with silver chains and buckles, a black patent-leather jacket draped over her shoulders, fishnet sleeves, and chunky platform boots.\n\nPose: She sits confidently on a futuristic chrome chair, leaning forward with one arm resting on her knee while staring intensely into the camera.\n\nBackground: A dark industrial cyberpunk studio with metallic structures, purple neon lights, white LED tubes, reflective surfaces, and atmospheric smoke.",
+"likeCount": 16,
+"retweetCount": 2,
+"url": "https://x.com/Monaqbuv/status/2115174694077043178",
+"createdAt": "Tue Oct 27 20:11:59 +0000 2026"
+},
+{
+"userName": "dustinhollywood",
+"text": "Presenting @stages_ai pro v5 🔥🔥🔥 we’re prepping giveaways, art show, @NAKIDpictures print  issue release, and two feature films created entirely with stages + production partners andddddd I’m gonna be hiring for 2027 soon to help me on several internal and external projects involving music, fashion and film. I’m building a team that’s gonna do incredible, experimental, creative projects with brands and partners around the world that showcase the power of generative AI + traditional software/creatives, brand/product defining creative vision, and artist-led innovation in the arts across mediums and formats. \n\nThis is the powerhouse behind STAGES CS DESKTOP which we are welcoming into the family when we release VERY SOON!  Together with our mobile remote app, you will have the power of full generative range at the ease of chat. Agents, autonomy, and masterful creativity. ❤️🔥",
+"likeCount": 26,
+"retweetCount": 2,
+"url": "https://x.com/dustinhollywood/status/2116252176783745363",
+"createdAt": "Fri Oct 30 19:33:31 +0000 2026"
 },
 {
 "userName": "Monaqbuv",
 "text": "🤍 AI Image Generation Prompt — Ethereal White Oni Goddess\n\nCreate an ultra-realistic, cinematic portrait of a beautiful adult Western woman with long, straight platinum-blonde hair, mesmerizing gray eyes, flawless porcelain skin, and glamorous makeup. She holds an intricately carved white Japanese Oni mask with curved horns and sharp teeth in front of her face. She wears a white strapless wrapped crop top, a luxurious flowing white silk kimono with delicate embroidered patterns, and a matching draped skirt. A detailed black dragon tattoo covers her abdomen. Her expression is mysterious and alluring as she gazes directly at the camera. Dark, moody nighttime forest background, soft flash photography, realistic skin texture, intricate fabric details, high contrast lighting, gothic Japanese fantasy aesthetic, editorial fashion photography, sharp focus, masterpiece quality. Aspect Ratio: 4:5",
-"likeCount": 41,
+"likeCount": 45,
 "retweetCount": 4,
 "url": "https://x.com/Monaqbuv/status/2116107854130106527",
 "createdAt": "Fri Oct 30 10:00:02 +0000 2026"
 },
 {
 "userName": "Monaqbuv",
-"text": "AI Image Generation Prompt — Dark Fantasy Lion Queen\n\nCreate an ultra-realistic, cinematic dark-fantasy photograph of a powerful queen sitting majestically on a giant black lion. She wears an elaborate black gothic gown with sheer flowing fabric, a dramatic spiked crown, and dangling silver earrings. Her long, wild black hair flows dramatically in the wind as she gazes forward in a regal side profile. The enormous lion has a thick, textured mane and a fierce, majestic presence. A dark, stormy sky with glowing golden light behind the subjects creates a dramatic silhouette, mysterious atmosphere, and epic fantasy aesthetic. Low-angle composition, powerful backlighting, intricate details, moody shadows, cinematic contrast, photorealistic textures, high-fashion editorial photography.\n\nAspect Ratio: 4:5",
-"likeCount": 19,
-"retweetCount": 1,
-"url": "https://x.com/Monaqbuv/status/2115330221486551356",
-"createdAt": "Wed Oct 28 06:30:00 +0000 2026"
-},
-{
-"userName": "yuliakosyak",
-"text": "Solaris. Ocean of Generative Code\n\n“Scarlet Transforma” is a magical, extremely timid, yet curious substance. To camouflage itself, it invents its own transformations, imitating familiar objects. And it is terribly embarrassed by its generative errors…🙄🤣\n\nBut today, the trend for funny AI glitches accidentally revealed the origin of a new bird. 💁‍♀️And all she wanted was to prove that she was a real fashion model! 🤍🫧☺️💅🏻💅🏻💅🏻\n\nHow is she supposed to camouflage herself when even mistakes become fashionable? 🤣\n\nAnd who is imitating whom now — is generative code imitating reality, or is reality imitating generative code?😊",
+"text": "🔥 AI Image Generation Prompt — Gothic Witch Queen with Raven\n\nCreate an ultra-realistic, cinematic black-and-white gothic portrait of a mysterious Western woman with long, straight black hair, pale porcelain skin, smoky dark eye makeup, and deep black lipstick. She wears a tall black top hat decorated with silver chains, skull ornaments, and gothic symbols, paired with a Victorian black corset, layered flowing skirt, lace sleeves, and antique silver jewelry. She holds a long staff topped with a horned human skull, while a large black raven perches elegantly on her shoulder. Her intense gaze and cold expression create a dark, enchanting atmosphere. Misty, blurred background, dramatic studio lighting, deep shadows, intricate textures, haunting gothic aesthetic, professional fashion photography, sharp facial details, monochrome grayscale tones.\n\nAspect Ratio: 4:5",
 "likeCount": 22,
-"retweetCount": 2,
-"url": "https://x.com/yuliakosyak/status/2114388077669990789",
-"createdAt": "Sun Oct 25 16:06:15 +0000 2026"
+"retweetCount": 1,
+"url": "https://x.com/Monaqbuv/status/2115133930475024428",
+"createdAt": "Tue Oct 27 17:30:00 +0000 2026"
 },
 {
-"userName": "TTrimoreau",
-"text": "Someone just built The Sims for AI agents.\n\nAnd they actually work for you.\n\n@getskydive lets you create an entire team of AI coworkers inside a 3D virtual office.\n\n→ Give each agent a role\n→ Assign tasks through Slack, iMessage or email\n→ Watch them work in real time\n→ Let them keep working while you’re offline\n\nYou can even put your company’s office on the map.\n\nAnd it’s free to try this week.\n\nThe future of running a startup might look more like playing a video game.",
-"likeCount": 14,
-"retweetCount": 0,
-"url": "https://x.com/TTrimoreau/status/2116242556186939529",
-"createdAt": "Fri Oct 30 18:55:17 +0000 2026"
+"userName": "creatine_cycle",
+"text": "i caught up with @yusan_lin to derive taste from first principles and to talk solving creator attribution in the world of AI. we covered:\n- what creators should do before posting online\n- solving taste\n- why money is not the solve for art in SF\n\n00:00 - Yusan and @LiamFedus are the highest aura couple\n00:57 - @mirrormirror_ai launch and creator attribution\n02:22 - The creator checklist before posting online\n06:37 - No one says deepfake anymore\n08:06 - \"Generative AI\" did damage to AI marketing\n11:35 - How to solve for taste\n14:42 - AI money won’t solve art in SF\n19:11 - Being choosey is good\n20:38 - What happens when models (fashion) get their faces stolen\n23:34 - AI slop is oneshotting old people\n25:51 - AI image gen will be indistinguishable from real life within a year",
+"likeCount": 64,
+"retweetCount": 4,
+"url": "https://x.com/creatine_cycle/status/2116243573851189373",
+"createdAt": "Fri Oct 30 18:59:20 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @Polyfork3d: 📦 NVIDIA did it first, now we are releasing 2,600+ free game-ready 3D models (+200 each week). For good.\n\n🎛️ Each model is…",
-"likeCount": 2931,
-"retweetCount": 293,
-"url": "https://x.com/ClementDelangue/status/2115173772206424108",
-"createdAt": "Tue Oct 27 20:08:19 +0000 2026"
+"userName": "manhhuynh2310",
+"text": "i've played enough tap-to-earn games to know how repetitive they can get. Agent Dojo and Fomopoly bring something different to the table.\n\n@agentdojo you're the coach. Train AI fighters that learn, remember and evolve through battles.\n\n@fomopoly_rh you're the player. Trade virtual land, generate $DEAL and stocks, and navigate market psychology.\n\none explores AI learning through competition, the other turns market behavior into gameplay.\n\ntwo different vibes, both worth exploring on Rarelist. which one would you try first?",
+"likeCount": 106,
+"retweetCount": 12,
+"url": "https://x.com/manhhuynh2310/status/2116356988787691752",
+"createdAt": "Sat Oct 31 02:30:00 +0000 2026"
+},
+{
+"userName": "TimesFashionWk",
+"text": "A little star power, a whole lot of futuristic fashion! \n\nThe gorgeous Isha Malviya was spotted at CISS-STYLE, the styling partner of Bombay Times Fashion Week October 2026, bringing her radiant charm to a world of AI-inspired looks, innovative styling and next-generation fashion https://t.co/QAehMjdgXQ",
+"likeCount": 11,
+"retweetCount": 6,
+"url": "https://x.com/TimesFashionWk/status/2116483417009459485",
+"createdAt": "Sat Oct 31 10:52:23 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
@@ -97,43 +121,35 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @divagr1925: 1/4\n\nMeet Qwenputer: Qwen3.5-4B with a full RISC-V CPU inside its weights, using the model's own Gated DeltaNet layers as R…",
-"likeCount": 4935,
-"retweetCount": 632,
-"url": "https://x.com/ClementDelangue/status/2116360763719708819",
-"createdAt": "Sat Oct 31 02:45:00 +0000 2026"
+"text": "RT @RemiFabreRobot: Today we're releasing the Reachy Mini Level UP update, which mainly contains three things:\n\n• A hoverboard, to give Rea…",
+"likeCount": 775,
+"retweetCount": 107,
+"url": "https://x.com/ClementDelangue/status/2115845430823231855",
+"createdAt": "Thu Oct 29 16:37:15 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @lukas_m_ziegler: A robot duck walking through simulated snow! 🦆\n\nMicroDuck from @huggingface walking through a snowy scenery simulated…",
-"likeCount": 140,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2115448949150818485",
-"createdAt": "Wed Oct 28 14:21:47 +0000 2026"
+"text": "RT @pollenrobotics: Reachy Mini has wheels now! \nOur little open-source AI robot can finally explore beyond the desktop.\nAnd that's not all…",
+"likeCount": 695,
+"retweetCount": 93,
+"url": "https://x.com/ClementDelangue/status/2115780523507507685",
+"createdAt": "Thu Oct 29 12:19:20 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @kimmonismus: NVIDIA is releasing an open speech model that can transcribe a meeting, label who said what, translate it and answer quest…",
-"likeCount": 803,
+"likeCount": 804,
 "retweetCount": 46,
 "url": "https://x.com/ClementDelangue/status/2115736294030819801",
 "createdAt": "Thu Oct 29 09:23:35 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @MTSlive: Hugging Face researcher @evijit reveals how Carbon-X, a 14B open-source AI model, rivaled GPT-6.1 Sol on genomics benchmarks f…",
-"likeCount": 62,
-"retweetCount": 5,
-"url": "https://x.com/ClementDelangue/status/2116145856084689398",
-"createdAt": "Fri Oct 30 12:31:02 +0000 2026"
-},
-{
 "userName": "jeremyphoward",
-"text": "RT @wiseyoungbuck: Coding is solved and all, but @OpenAI appear to have either a UX bug, or they’ve given me access to an internal model. h…",
-"likeCount": 186,
-"retweetCount": 6,
-"url": "https://x.com/jeremyphoward/status/2115189260156612956",
-"createdAt": "Tue Oct 27 21:09:52 +0000 2026"
+"text": "RT @math_rachel: \"People think 'the ideas are mine, the writing is the AI', i.e., they feed the AI a list of rambling bullet points that it…",
+"likeCount": 232,
+"retweetCount": 40,
+"url": "https://x.com/jeremyphoward/status/2115633092836970609",
+"createdAt": "Thu Oct 29 02:33:30 +0000 2026"
 },
 {
 "userName": "petapixel",
@@ -145,18 +161,18 @@
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pcuenq: My Mom supports open. You should too. https://t.co/ERQoEwvB14",
-"likeCount": 56,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2116273035791736991",
-"createdAt": "Fri Oct 30 20:56:24 +0000 2026"
+"text": "RT @techniahqrobot: Am I the only one who thinks the robots are winning this comparison? 😂 https://t.co/PCneX1Slhi",
+"likeCount": 122,
+"retweetCount": 11,
+"url": "https://x.com/ClementDelangue/status/2115408110693355914",
+"createdAt": "Wed Oct 28 11:39:30 +0000 2026"
 },
 {
-"userName": "machinedotfun",
-"text": "https://t.co/eqVYzmed5i",
-"likeCount": 62,
-"retweetCount": 10,
-"url": "https://x.com/machinedotfun/status/2116141294934233541",
-"createdAt": "Fri Oct 30 12:12:55 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @Thom_Wolf: give this robot an oscar https://t.co/EUSkp3SJfw",
+"likeCount": 588,
+"retweetCount": 55,
+"url": "https://x.com/ClementDelangue/status/2116044843860263005",
+"createdAt": "Fri Oct 30 05:49:39 +0000 2026"
 }
 ]
