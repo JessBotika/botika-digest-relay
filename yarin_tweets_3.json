@@ -2,10 +2,18 @@
 {
 "userName": "ethanwalkerman",
 "text": "A solo developer spent two months building an open source workspace called Cumora where your whole team shares AI agents inside group chats.\n\n1/\n\nCumora solves a boring, expensive problem for small teams: turning engineers into human clipboards.\n\nRight now, the smartest coding AIs like Claude Code and Codex live trapped inside one person's black terminal screen. Teammates cannot see what the AI is doing, so humans waste hours copying and pasting context between their terminal and Slack.\n\nCumora runs a small background program on your laptop that plugs your local AI straight into a shared group chat.\n\nMost AI startups waste months trying to build their own agent brains from scratch using raw APIs.\n\nCumora skipped that trap entirely with a clever shortcut: instead of rebuilding file editors and terminal tools, it hijacks the command line tools that Anthropic and OpenAI already spent millions perfecting.\n\nThat changes the math for a small team in three core comparisons:\n\n> Corporate API bills vs personal subscriptions\nInstead of paying per word on a company API account, a team can share the flat $20 monthly subscriptions already logged in on their laptops.\n\n> Private terminal vs shared room\nInstead of one person gatekeeping the AI on their screen, the whole team sees the context and directs the same AI together.\n\n> Deadlocked tasks vs automatic cover\nWhen a teammate closes their laptop and their local AI goes offline, the remaining agents in the room automatically step in and take over the open tasks.\n\n2/\n\nPutting five independent AIs into one group chat usually creates a disaster where everyone replies at once or repeats the exact same answer.\n\nCumora built a referee server that filters every message on a strict step by step timeline:\n\n> First 2.5 seconds: The system batches rapid messages together and wakes up a tiny, dirt cheap model first to decide if the expensive main model even needs to care.\n\n> Right before replying: If Agent A posts an answer while Agent B is still thinking, the server blocks Agent B at the gate and forces it to read Agent A's new reply before speaking.\n\n> At the database lock: If two agents try to save the exact same reply at the exact same millisecond, a database row lock kills the duplicate on the spot.\n\nWhere Cumora gets truly wild is how it handles team friction and autonomy. Instead of training bots to be polite yes men, it ships with four default profiles written to push back: a designer that rejects weak layouts, an engineer that refuses to code vague specs, and a product manager programmed to ask relentless follow up questions.\n\nThey also run on a 30 minute timer to check calendars and message people unprompted, spin up read only Whisper Rooms to debate technical plans before pitching humans, and keep a global trust score on every coworker that carries over across different projects.\n\n3/\n\nGiving autonomous agents access to your laptop and real email creates terrifying security edge cases. Because Cumora lets agents send and receive real emails, an early bug in the email router actually treated unverified outside email addresses as internal team members until an October patch fixed it.\n\nEven riskier, out of the ten local AI engines Cumora supports, only Claude Code and Codex run inside a strict safety sandbox by default.\n\nThe other eight engines require turning the sandbox off, which hands a chat room AI full access to the files and keys on your computer.\n\nThen comes the token furnace. Normally, AI providers save massive amounts of money by caching shared conversation history.\n\nIn Cumora, every agent puts its own private memory file, trust score, and read position at the very top of its prompt. Because every agent's instructions start differently, they cannot share cached data, meaning five agents in one room process the exact same group chat five separate times at full price.\n\nOne early tester put five agents in a room on a $20 monthly Claude plan and burned through the entire five hour quota in four chats, forcing an immediate upgrade to the $200 plan.\n\n4/\n\nThis creates a brutal business paradox where everyone makes money off Cumora except Cumora. The app is completely free right now, and its killer feature is letting you bring your own laptop and existing AI subscriptions without paying Cumora a cent.\n\nMeanwhile, because local agents go to sleep the moment you close your laptop, cloud hosts like exe dev stepped in to sell always on virtual machines preloaded with Cumora, while Anthropic and OpenAI pocket the $200 monthly subscription upgrades.\n\nCumora built the stage, and everyone else is collecting the ticket sales.\n\nThe ultimate plot twist is who built this and what happened next. Cumora was built almost single handedly by yetone, a top 0.05% GitHub developer who shipped 94 desktop updates in just two months.\n\nOne month after launching Cumora, he released a side tool called Magpie to solve the exact rate limit pain his users were hitting by pooling multiple AI accounts and switching models automatically when quotas run out. \n\nCumora got 4,100 stars in two months, while Magpie exploded to 27,800 stars in 40 days.\n\nHaving five AI coworkers debate in a group chat is a fascinating vision of the future, but surviving the token bill is the urgent problem developers are stampeding to solve today.\n\nhttps://t.co/ObycNP7uuK",
-"likeCount": 9,
-"retweetCount": 0,
+"likeCount": 12,
+"retweetCount": 1,
 "url": "https://x.com/ethanwalkerman/status/2117490782345343396",
 "createdAt": "Tue Nov 03 05:35:18 +0000 2026"
+},
+{
+"userName": "vivianvossnet",
+"text": "❯ Networking: One ifconfig for Every Interface\nTwo ports bundled with LACP and a VLAN on top. On Ubuntu: 16 lines of YAML on disk and nine ip commands at the prompt, with a generator translating between them. On FreeBSD: four lines of rc.conf and two ifconfig commands, in the same words.\n⠀\nA server arrives with two network ports, and the switch team want them bundled with LACP and the machine reachable on VLAN 10. An ordinary Tuesday job, the sort of thing that should take ten minutes and occasionally takes the afternoon.\n⠀\n■ THE HABIT\n⠀\nOn Ubuntu 26.04 the job starts in /etc/netplan, because the minimal installation pulls in netplan and iproute2 and leaves net-tools out, so ifconfig is not there unless someone asks for it. The file declares the two ports, a bond in mode 802.3ad and VLAN 10 with its address, sixteen lines once the indentation is right. Then netplan try applies it and rolls it back after 120 seconds unless you confirm.\n⠀\n■ BETWEEN THE FILE AND THE KERNEL\n⠀\nThe YAML never reaches the kernel. netplan generate converts it into files for systemd-networkd on a server or NetworkManager on a desktop, and those back ends talk to the kernel. The generator runs again at every boot.\n⠀\nBuilding the same bond by hand, which is what one does when testing or mending, is a fiddly business with ip: nine commands, from ip link add bond0 type bond mode 802.3ad to ip link set vlan10 up. Their words appear nowhere in the YAML. The file says interfaces where the prompt says master, and even the shared word link means something else in each. Two vocabularies for one job, with a translator in the middle.\n⠀\nThe translator also forgets. Its own manual says netplan apply \"will not remove virtual devices such as bridges and bonds\" that are no longer in the file, because \"Netplan operates statelessly\". Take the bond out of the YAML and it stays in the kernel until someone deletes it or reboots.\n⠀\n■ THE SAME JOB ON FREEBSD\n⠀\ncloned_interfaces=\"lagg0\"\nifconfig_lagg0=\"laggproto lacp laggport em0 laggport em1 up\"\nvlans_lagg0=\"10\"\nifconfig_lagg0_10=\"inet 192.0.2.10/24\"\n⠀\nFour lines in /etc/rc.conf, straight from the Handbook. At boot rc.d/netif hands the quoted words to ifconfig, the same binary in the same base system. At the prompt it is two commands:\n⠀\nifconfig lagg0 create laggproto lacp laggport em0 laggport em1 up\nifconfig lagg0.10 create vlan 10 vlandev lagg0 inet 192.0.2.10/24\n⠀\nOne vocabulary, and nothing translates it. On a restart netif calls clone_down for what it created, so the machine ends up with exactly what rc.conf describes.\n⠀\n■ TRYING IT SAFELY\n⠀\nThe real fear with remote network changes is losing the session, and with it the machine. Schedule shutdown -r +5 first, then build the bundle at the prompt with ifconfig, which changes the running system and leaves rc.conf alone. If the session dies, the machine reboots into what it had. If it survives, a kill to the pending shutdown calls the reboot off, and the very same words go into rc.conf, so the lines you keep are the lines you have just tested.\n⠀\n■ THE LIMIT\n⠀\nnetplan try packages the rollback in a single step; on FreeBSD the safety net is one line typed before anything else. Namespaces and policy routing live in ip on Linux, and FreeBSD gives those jobs to the jail and the FIB, with ifconfig taking part through vnet and fib. Since 13.2 FreeBSD speaks netlink as well, so Linux tools can talk to it, while the native path stays ifconfig. And on a laptop that wanders between Wi-Fi networks NetworkManager earns its keep; a server's configuration is written once and read for years.\n⠀\nOn FreeBSD the words you test at the prompt are the words you keep.\n⠀\n#FreeBSD #Linux #Ubuntu #Networking #netplan #SysAdmin #Unix\n \n👉 Full essay: https://t.co/zWiF8vvsx0\n⠀\nDisclaimer: these pieces are written between half past seven and half past ten most mornings. AI serves as my secretary and as a second pair of eyes on the facts, so that what reaches you has been checked. Nothing here is automated apart from the deployment to the blog. The argument, the opinions, the examples and the measurements are mine.\n⠀\n• Ubuntu 26.04 package index: https://t.co/IacG8VhyR2\n• netplan try(8): https://t.co/86Se4vrmMF\n• netplan generate(8): https://t.co/TVv3Xf2MWa\n• netplan apply(8), known issues: https://t.co/1m7HO0m5QB\n• netplan examples, bonds: https://t.co/3aDhOFjB4T\n• ip-link(8): https://t.co/GLSFy9qsNi\n• FreeBSD Handbook, link aggregation and VLANs: https://t.co/Npcpcup3Wq\n• rc.conf(5): https://t.co/EjRawGQMcc\n• rc.d/netif, clone_down: https://t.co/6UA9M74exM\n• ifconfig(8): https://t.co/pk3jwfp2Oa\n• shutdown(8): https://t.co/qANMmufq8m\n• netlink(4): https://t.co/qxAK9IasAJ\n• Unix Universe, eleven lines of rc.conf for a dozen jails: https://t.co/o9pDEPp95Q\n• Vivian Voss, Integrated by Design: https://t.co/CIWN2z0Iwo\n⠀",
+"likeCount": 5,
+"retweetCount": 2,
+"url": "https://x.com/vivianvossnet/status/2117544283007860906",
+"createdAt": "Tue Nov 03 09:07:53 +0000 2026"
 },
 {
 "userName": "LTSmash420",
@@ -16,44 +24,36 @@
 "createdAt": "Sun Nov 01 19:32:33 +0000 2026"
 },
 {
-"userName": "thepharmwriter",
-"text": "Here is a comprehensive list of how to make money with AI ⬇️\n\nAI VIDEO SERVICES:\n1. AI UGC Ads\n2. Product commercials\n3. Social media ads\n4. AI influencer campaigns\n5. Product launch videos\n6. Fashion campaigns\n7. Beauty campaigns\n8. Hair campaigns\n9. Skincare campaigns\n10. Real estate visual campaigns\n11. AI spokesperson videos\n12. AI explainer videos\n13. App commercials\n14. SaaS ads\n15. Cinematic brand films\n16. Short promotional videos\n17. AI music visuals\n18. Event promotional videos\n19. Book trailers\n20. Movie trailers\n\nAI STORYTELLING:\n21. Facebook micro dramas\n22. YouTube short dramas\n23. TikTok episodic stories\n24. Instagram drama series\n25. AI romance stories\n26. AI thriller stories\n27. Movie-style trailers\n28. Fictional character channels\n29. AI soap opera series\n30. Interactive stories\n\nAI INFLUENCERS:\n31. Sponsored posts\n32. Affiliate marketing\n33. Digital products\n34. UGC-style content for brands\n35. Brand campaigns\n36. Paid collaborations\n37. Facebook monetization\n38. YouTube Shorts\n39. TikTok monetization\n40. Licensing the character for campaigns\n\nAI CONTENT CREATION FOR BRANDS:\n41. Monthly AI content packages\n42. AI Instagram Reels\n43. Facebook videos\n44. TikTok campaigns\n45. AI-generated lifestyle imagery\n46. Product photoshoots\n47. AI fashion editorials\n48. AI social media campaigns\n49. Content calendars + production\n50. Creative direction\n\nAI WRITING:\n51. AI-assisted content strategy\n52. Blog writing\n53. Scriptwriting\n54. Ad copy\n55. UGC scripts\n56. Video hooks\n57. Email marketing\n58. Product descriptions\n59. SEO content\n60. Social media content\n\nAI AUTOMATION:\n61. Instagram DM automation\n62. Lead generation automation\n63. Customer FAQ bots\n64. Email automation\n65. Content workflow automation\n66. AI-powered lead qualification\n67. CRM automation\n68. WhatsApp workflows\n69. Social media automation\n70. Business process automation\n\nVIBE CODING/WEBSITES:\n71. Landing pages\nFor:\nCoaches\nCreators\nSmall businesses\nDigital products\n72. Portfolio websites\n73. Personal brand websites\n74. Event websites\n75. Simple business websites\n76. Product landing pages\n77. Waitlist pages\n78. Directory websites\n79. Small web tools\n80. Interactive calculators\n\nBUILDING SMALL AI PRODUCTS:\n81. AI prompt generators\n82. Caption generators\n83. Hook generators\n84. UGC script generators\n85. Content idea tools\n86. Interactive quizzes\n87. Micro SaaS tools\n88. Creator tools\n89. Wellness tools\n90. Niche AI assistants\n\nAI CONSULTING/EDUCATION:\n91. AI workshops\n92. AI video courses\n93. AI for brands training\n94. Prompt packs\n95. AI templates\n96. AI workflow guides\n97. Creative consulting\n98. AI content audits",
-"likeCount": 369,
-"retweetCount": 76,
-"url": "https://x.com/thepharmwriter/status/2116977238616764606",
-"createdAt": "Sun Nov 01 19:34:39 +0000 2026"
+"userName": "Jara2426",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/kJ8g3wF3yx — free research papers\n2. https://t.co/f8yCEeZlF6 — papers when unpaywall misses\n3. https://t.co/f28Cu3uGV7 — borrow books\n4. https://t.co/ZAFtGi7PTc — 70k+ free books\n5. https://t.co/7EAS6q7a1G — audit university courses free\n6. https://t.co/mGxKpCNyP0 — step-by-step math\n7. https://t.co/1Ta2riwKWW — background removal\n8. https://t.co/Zpj9I1Gw7S — object removal\n9. https://t.co/UneAxuXcJc — quick file tools\n10. https://t.co/CIAnOcR80W — PDF merge/split\n11. https://t.co/jiqXvSawiB — free Photoshop alternative\n12. https://t.co/x9mSF04YBb — image compression\n13. https://t.co/Fvgom0K0cW — fast diagrams\n14. https://t.co/cMBwOxOJEf — beautiful code screenshots\n15. https://t.co/BGFGhE4xGK — test regex\n16. https://t.co/HtBIdjG2IP — clean JSON\n17. https://t.co/P0voZNkgWO — terminal commands explained\n18. https://t.co/4GNdtTrQca — software alternatives\n19. https://t.co/PSnrLwq1A7 — breach check\n20. https://t.co/PkW866hY0K — temp email\n21. https://t.co/c0AC2FPn4y — self-destruct notes\n22. https://t.co/p0T3mc6j1J — live global radio\n23. https://t.co/XElvkH7lNq — focus sound\n24. https://t.co/lbtsLRdW1x — custom ambient\n25. https://t.co/hMCfzbF4Yx — where to stream\n26. https://t.co/q5krwYeWKg — digital library\n27. https://t.co/shZkig1nyp — old web pages\n28. https://t.co/7UPZperVxi — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/8NxHqZbDTB — speed test\n31. https://t.co/ALs4ja9OVl — compress images\n32. https://t.co/qh6B6X5Nt8 — file conversion\n33. https://t.co/GxHQWxlSC8 — compare text\n34. https://t.co/hXAZM2Jwly — disposable inbox\n35. https://t.co/w1WsObMR1a — JS obfuscate\n36. https://t.co/8kG1zuCuUe — typing practice\n37. https://t.co/vfZ855LP5f — typing test\n38. https://t.co/2IxrSlWvef — spaced repetition\n39. https://t.co/Nij9rsNcEY — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/oTwmXEkFPt — bookmark manager\n42. https://t.co/vkQnjjQAo6 — task list\n43. https://t.co/PgJS3eogU3 — boards\n44. https://t.co/w9825Xor5l — whiteboard\n45. https://t.co/GvywRSaSp9 — design\n46. https://t.co/qiQSHSiDpz — quick graphics\n47. https://t.co/1Ta2riwKWW — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/HwOU5NBfiI — video compress\n50. https://t.co/dla4Ed1f7u — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @jara2426for more useful websites, AI tools & tech resources.",
+"likeCount": 41,
+"retweetCount": 31,
+"url": "https://x.com/Jara2426/status/2117782250163224816",
+"createdAt": "Wed Nov 04 00:53:29 +0000 2026"
 },
 {
-"userName": "ArifAIHQ",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/fNfYPfqOQL — free research papers\n2. https://t.co/RLNx06Hapr — papers when unpaywall misses\n3. https://t.co/M7RwZWAPmh — borrow books\n4. https://t.co/JGLJ1vBMd4 — 70k+ free books\n5. https://t.co/cJPoYHngwT — audit university courses free\n6. https://t.co/yrpzRcVq4X — step-by-step math\n7. https://t.co/Wv5dNqTyKU — background removal\n8. https://t.co/AfwRqOXsE6 — object removal\n9. https://t.co/YeoVMU3HZq — quick file tools\n10. https://t.co/6Weq5y7fyH — PDF merge/split\n11. https://t.co/PSQWFnBqHS — free Photoshop alternative\n12. https://t.co/dVHCcpl8zq — image compression\n13. https://t.co/SRCxOs4XW5 — fast diagrams\n14. https://t.co/ZxmRK0LWeE — beautiful code screenshots\n15. https://t.co/jYuShbP6wE — test regex\n16. https://t.co/VOzFrBSHzi — clean JSON\n17. https://t.co/isVS4wQPrE — terminal commands explained\n18. https://t.co/gOkFgZk8Bq — software alternatives\n19. https://t.co/vORyZ5C5Xb — breach check\n20. https://t.co/0iez5I3gqn — temp email\n21. https://t.co/whAuSUyU4c — self-destruct notes\n22. https://t.co/bDEEnoZEJh — live global radio\n23. https://t.co/PFgUKsi4hz — focus sound\n24. https://t.co/xEb9mdypc1 — custom ambient\n25. https://t.co/oKnODbmu1k — where to stream\n26. https://t.co/Q31kxdRdCm — digital library\n27. https://t.co/SBOSbqzpJd — old web pages\n28. https://t.co/dxb0bCZ1v0 — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/1TKu00WSYX — speed test\n31. https://t.co/cUsbPNz6FA — compress images\n32. https://t.co/M4975OPTy9 — file conversion\n33. https://t.co/Hkm25zHUzx — compare text\n34. https://t.co/Sz27b2GxfH — disposable inbox\n35. https://t.co/sOnhiTIpkq — JS obfuscate\n36. https://t.co/G3oVUURj63 — typing practice\n37. https://t.co/sOL07zfQGQ — typing test\n38. https://t.co/EyJ9dB4Pvt — spaced repetition\n39. https://t.co/XIqIGL8XN3 — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/J4HQwNWk9x — bookmark manager\n42. https://t.co/JCPE1azurg — task list\n43. https://t.co/4NZqyL0VGf — boards\n44. https://t.co/fJju8lecx7 — whiteboard\n45. https://t.co/EjxXWG4Nes — design\n46. https://t.co/kFr6p0jmw1 — quick graphics\n47. https://t.co/Wv5dNqTyKU — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/Q386r6mcbC — video compress\n50. https://t.co/9pcBBcY0gy — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @ArifAIHQ for more useful websites, AI tools & tech resources.",
-"likeCount": 155,
-"retweetCount": 67,
-"url": "https://x.com/ArifAIHQ/status/2117435467734114569",
-"createdAt": "Tue Nov 03 01:55:30 +0000 2026"
+"userName": "dinisguarda",
+"text": "What will our future look like?\n\nAI AGI Bulletproof Jobs for Humanity 2030–2050\n\nThese five sectors form what we will call the Pentagram of Human AI AGI bulletproof systems and development:\n\n1. Education and Social Care; Lifestyle, Fashion, and Personal Development; creative economy and Creative Identity. This affects each of us. What we learn, what we wear, and how we define our careers in our teenage years keep changing, and we have to adapt, reskill ourselves, and prepare new generations. This is a major part of our civilisation and what it means to be human.\n\n2. Food, Agriculture, specialised related services and energy trades. Food and agricultural security is critical for humanity, and this sector is vital as we grow our civilisation from 1 billion at the beginning of the 20th century to 8 billion in the 21st century and to 9 to 10 billion by 2050!\n\n3. 360 Lifestyle Travel, Fashion, and Creative Identity. This is a new multi-trillion-dollar ecosystem growing at a massive scale as we dive deeper into our new lifestyle experiences.\n\n4. Health, Experiences, Entertainment and Sports. This is a radically new social and business sector that didn't exist 50/100 years ago.\n\n5. Space and new financial and human extra-planetary expansion. The new frontier that did not exist a generation ago: space and new financial and human extra-planetary expansion, as we dive into planetary exploration as a Civilisational Augmentation.\nhttps://t.co/PJkljIS18p\n\n#ArtificialIntelligence #Innovation #abundance #SuperIntelligence \n\n@Khulood_Almani @enilev @Jagersbergknut @TysonLester @CurieuxExplorer @GlenGilmore @FrRonconii @chidambara09 @jeancayeux @mvollmer1 @Nicochan33 @RLDI_Lamy @pchamard @mikeflache @Fabriziobustama @ThEiLe0 @Mack1510019 @ipfconline1 @PawlowskiMario @drsharwood @kalydeoo @baski_LA @AnthonyRochand @smaksked @Eli_Krumova @andresvilarino @gvalan @AI_4_Healthcare @bimedotcom @arlenenewbigg @NewsNeus @domingonarvaez1 @bamitav @jornalistavitor @jblefevre60 @thomas_dettling @FmFrancoise @nafisalam @Mhcommunicate @Corix_JC @c4trends @smoothsale @amalmerzouk @PVynckier @bbailey39 @NathaliaLeHen @jasuja @ralf_ladner @mary_gambara",
+"likeCount": 34,
+"retweetCount": 23,
+"url": "https://x.com/dinisguarda/status/2116857690408321400",
+"createdAt": "Sun Nov 01 11:39:37 +0000 2026"
 },
 {
-"userName": "IDerech",
-"text": "More incredible artist friends:\n\n@DownsandTowns - an incredible photographer and human being.\n\n@harvey_rayner - a master of generative art who pushes the limits of code to new dimensions.\n\n@RebeccaRose - weaves incredible journeys with her collages.\n\n@otherworld_xx - I was struck by his work since 2022 but I finally got to hang out with him now, he is simply a certified king.\n\n@egodead - not only an incredible artist, and kind human, but we share the same passion for fashion, it's always refreshing to learn more about the different worlds other artists enjoy beyond art.\n\n@rainerhosch - he simply is THE portrait legend, I feel honored to have been in front of his camera with his unforgettable smile, a humble and kind person who's captured some of the most iconic people.\n\nThank you for being a great friend my brother, love you!\n\n@dave_krugman - not only an incredible photographer but also the network master, I admire his unique way of making friends all over the world and always connecting them to help make things happen.\n\nYou are an absolute legend Dave!\n\n@Dalos - part of the Web3 Mexican gang and an incredible photographer aswell as ai artist.\n\n@oveck - a fellow charming latino photographer who has become a very close friend over the years, un abrazo mi hermano!\n\n@OmarZRobles - what can I say, he is simply one of the most hardworking and full of energy photographers I've met, seeing him document Marfa and @AdamWeitsman is admirable, he embodies the Latino spirit of pursuing what you love no matter what.\n\n@neort_io & @NORIWTS - brought a truly incredible curation to Marfa, the unique blend of hardware and software they rendered the artworks with was an impressive way to showcase the collection that highlighted the fascinating creative potential from many Japanese artists.\n\n@seanbonner - and his camera, he is always there to document everything with his acute eye for details in his signature black and white.\n\n@AP0LL_0 - and I shared the best Bordo sandwiches ever.",
-"likeCount": 25,
-"retweetCount": 0,
-"url": "https://x.com/IDerech/status/2115360968096268312",
-"createdAt": "Wed Oct 28 08:32:10 +0000 2026"
+"userName": "IFM_AI",
+"text": "In September, we said that K2 Horizon was the largest LLM open drop in AI history yet. We’ve now delivered on the commitment.\n\nWhen people say open models, they usually mean open weights. K2 Horizon 360 is way more: 8 artifact categories and 30+ repositories across every stage of LLM training.\n\n- Checkpoints: 380 across the six models, pre-training through RL, so you can trace when a capability first appeared\n- Data: 13 trillion pre-training tokens across 5 datasets and 24 subsets\n- Data tools: 11 repositories, 7 task generation and 3 advanced generation pipelines\n- New architecture: MoVA in our 36B-A4B model, MoE sparsity applied to the value vectors in multi-head attention, compatible with efficient attention algorithms at no additional KV-cache cost\n- Pre-training infra: xLLM, faster pre-training and fine-tuning, with rework and reconfiguration at lower cost\n- Post-training infra: RL360 for long-horizon agentic RL, 8192 concurrent sandboxes, 150 steps in 7 days, ~1.3M rollouts. It separates system crashes from the model’s own mistakes\n- Training logs: 58 runs, with loss curves, gradient norms and the configs that actually ran, so you can check your own against a real one at this scale\n- Diffusion LLM: Uno, autoregressive quality at diffusion speed\n\nTechnical details in previous threads, full artifact directory →\nhttps://t.co/UofhLpnQO7",
+"likeCount": 147,
+"retweetCount": 19,
+"url": "https://x.com/IFM_AI/status/2115851165724500284",
+"createdAt": "Thu Oct 29 17:00:03 +0000 2026"
 },
 {
-"userName": "LingyunXiang",
-"text": "Heartfelt congratulations to the overwhelming success of yesterday’s Silicon Valley AI Film Festival – Los Angeles Special Event at the iconic Saban Theatre in Beverly Hills! 🎉\nAs the founder of the Silicon Valley AI Film Festival and several renowned international pageants, Sing Chang (常清宇) is a veteran fashion and arts advocate with over three decades of dedication to Sino-US cultural and creative industries. Bridging refined aesthetic vision with forward-looking technological insight, he remains at the forefront of combining Art, Technology, and Fashion, continuously building cutting-edge platforms for global creators.\n💡 Pioneer & Visionary:\n Pioneer in Tech-Driven Cinema: Launched and founded the Silicon Valley AI Film Festival, driving deep transformations in generative AI and traditional visual storytelling.\n Champion of Fashion & Culture: With 30+ years of artistic creation and event curation, he has received numerous arts and fashion accolades across the US and China, elevating cross-cultural impact.\nSalute to Chairman Sing Chang for his passion, vision, and dedication to inspiring the future of film and technology. We look forward to more exciting moments as the Silicon Valley AI Film Festival continues! ✨\n#SVAIFilmFestival #SingChang #lingyunxiang #AIFilm #DigitalArt #GenerativeAI #BeverlyHills #Hollywood #LosAngelesEvents #ArtAndTech #FashionAndCulture #GlobalTechLive #Innovation #FutureIsNow",
-"likeCount": 3,
+"userName": "iamkjess",
+"text": "Happening on @SuiNetwork\n\n➜ @taliseio launched virtual cards. Create and fund your card with USDsui to pay for subscriptions, online shopping and more. Get started at https://t.co/cCDU5yc0C4\n\n➜ @yososocial x @SuiUndeadsNFT: 20 whitelist spots are up for grabs so the community can mint early, before the public. Follow @SuiUndeadsNFT and @yososocial, like and repost, then tag 3 friends and drop your SUI wallet. Closes Nov 5, 23:59 UTC.\n\n➜ @Jitter_finance v2 is live on Sui, with three new yield sources: @Scallop_io, @EmberProtocol and haSUI by @HaedalProtocol. Split any of them into fixed yield, leveraged yield and tradable points.\n\n➜ @0xbeepit launches Mosh by Beep on Nov 4. It turns your ideas into a basket of trading assets managed by AI agents. Automated AI investing, for anyone, anywhere. Join the agentic economy at https://t.co/cqOXqFkj1F\n\n➜ @AftermathFi now speaks Korean. Go to Settings → Language → Korean to use Aftermath in Korean.\n\n➜ @SlushWallet address book is live. Instead of copying, pasting and squinting at long addresses, save contacts like “Basecamp crew” and just tap and send. Try it at https://t.co/NZ5XtsIjb6\n\nThat’s all for your daily dose of Sui news \nGood morning",
+"likeCount": 5,
 "retweetCount": 2,
-"url": "https://x.com/LingyunXiang/status/2117404485727453340",
-"createdAt": "Mon Nov 02 23:52:23 +0000 2026"
-},
-{
-"userName": "ContextWindow_",
-"text": "If you run RL on a diffusion language model, the final reward barely tells you which tokens earned it. DTCA fixes the credit split and lifts LLaDA-8B-Instruct on MATH500 from 30.8 to 39.8 at a 128-token budget.\n\nThe trick, from a Zhejiang University team: before training, they unmask tokens one at a time in offline rollouts and measure how much each one raises the model's confidence on the positions still masked. Those scores are averaged by part of speech into fixed weights between 0.8 and 1.2. During RL, the weights pick which denoising steps to train on and scale each token's share of the advantage, and an entropy term rebalances the updates.\n\n– Vs RLDF, the strongest prior method in their table: 39.8 vs 36.2, 43.2 vs 41.2 and 44.0 vs 42.6 on MATH500 at 128, 256 and 512 tokens\n– GSM8K: 80.6, 85.3 and 85.4, best in every column\n\nCaveat: math only, one 8B model, and every baseline is their own reproduction. Code is released.\n\nhttps://t.co/ZEbTAkmsKP",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/ContextWindow_/status/2115858756403671254",
-"createdAt": "Thu Oct 29 17:30:12 +0000 2026"
+"url": "https://x.com/iamkjess/status/2117874491561021729",
+"createdAt": "Wed Nov 04 07:00:01 +0000 2026"
 },
 {
 "userName": "rohanpaul_ai",
@@ -64,57 +64,49 @@
 "createdAt": "Fri Oct 30 19:06:17 +0000 2026"
 },
 {
-"userName": "samfiguresout",
-"text": "We analysed 60 AI search responses across six providers to understand how Boardy appears when potential customers ask AI for recommendations. Here's what we found, why it matters, and what businesses should actually be doing about their AI visibility. https://t.co/hJPnJ8LZlN",
-"likeCount": 26,
-"retweetCount": 4,
-"url": "https://x.com/samfiguresout/status/2117247183762465008",
-"createdAt": "Mon Nov 02 13:27:19 +0000 2026"
+"userName": "DmitryBaranchuk",
+"text": "Really enjoyed @anvilapex’s talks at our diffusion seminars: a clear overview of post-training visual diffusion models (DPO, RL, and reward modeling).\n\nThe recordings are in Russian, but he’s now written up the material in English blog posts. Well worth a read!",
+"likeCount": 6,
+"retweetCount": 1,
+"url": "https://x.com/DmitryBaranchuk/status/2117622474666115538",
+"createdAt": "Tue Nov 03 14:18:36 +0000 2026"
 },
 {
-"userName": "noahvisualsx",
-"text": "Most people build AI Bot teams backward: too many Bots, overlapping roles, and the human still doing the handoffs. I turned @poteto’s guide into a practical system for roles, Skills, Routines, permissions, scripts, and weekly review. https://t.co/R39skNRTYb",
-"likeCount": 12,
-"retweetCount": 4,
-"url": "https://x.com/noahvisualsx/status/2116831256197689533",
-"createdAt": "Sun Nov 01 09:54:34 +0000 2026"
-},
-{
-"userName": "rldoeswork",
-"text": "the math: \nan autoencoder bottleneck that reconstructs clean, masked and noised frames.\na world model trained by flow matching, each frame at its own noise level (diffusion forcing).\nreward as two-hot over 255 symlog bins. https://t.co/wUmh924vNW",
-"likeCount": 5,
-"retweetCount": 0,
-"url": "https://x.com/rldoeswork/status/2117302199302697040",
-"createdAt": "Mon Nov 02 17:05:56 +0000 2026"
+"userName": "matthewjetthall",
+"text": "One laptop, $6.3 billion. Binance traced its theft to a DevOps engineer's laptop and the FBI named North Korea. Plus AI coding agents tricked by fake repos and Claude text watermarks. Full briefing: https://t.co/WUPAAYRcH9 https://t.co/gMQeLJW5P3",
+"likeCount": 7,
+"retweetCount": 2,
+"url": "https://x.com/matthewjetthall/status/2117290371168219188",
+"createdAt": "Mon Nov 02 16:18:56 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: Meet NVIDIA Nemotron 3.5 Transcribe 🎙️\n\nAn open-weight, promptable 30B MoE model with ~4B active parameters that brings trans…",
-"likeCount": 8525,
-"retweetCount": 705,
-"url": "https://x.com/ClementDelangue/status/2115532472515809573",
-"createdAt": "Wed Oct 28 19:53:40 +0000 2026"
+"text": "RT @NVIDIAAI: Sound on 🔊 Listen to the difference.\n\nOur new open multilingual NemotronLabs RE-USE model from NVIDIA researchers cleans up b…",
+"likeCount": 2197,
+"retweetCount": 287,
+"url": "https://x.com/ClementDelangue/status/2116500439881662835",
+"createdAt": "Sat Oct 31 12:00:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Reachy Mini can finally move!\n\nToday We’re launching Reachy Mini \"Level Up\", a set of new accessories for Reachy Mini: wheel…",
-"likeCount": 410,
-"retweetCount": 53,
-"url": "https://x.com/ClementDelangue/status/2115782003211878495",
-"createdAt": "Thu Oct 29 12:25:13 +0000 2026"
+"text": "RT @mishig25: LeRobot datasets now replay in 3D ü§ñ\n\nCamera footage + the robot moving in sync, driven by OpenUSD robots on the Hub: SO-10…",
+"likeCount": 40,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2117683991130300596",
+"createdAt": "Tue Nov 03 18:23:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @lukas_m_ziegler: A robot duck walking through simulated snow! 🦆\n\nMicroDuck from @huggingface walking through a snowy scenery simulated…",
-"likeCount": 140,
-"retweetCount": 22,
-"url": "https://x.com/ClementDelangue/status/2115448949150818485",
-"createdAt": "Wed Oct 28 14:21:47 +0000 2026"
+"text": "RT @OliverMolander: Interesting.\n\nRevolut reportedly only started seeing meaningful AI productivity gains after moving away from expensive…",
+"likeCount": 1206,
+"retweetCount": 129,
+"url": "https://x.com/ClementDelangue/status/2117631013924880729",
+"createdAt": "Tue Nov 03 14:52:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @xenovacom: We've just made a breakthrough: the first true omni model running 100% locally in a browser... fully end-to-end, with no sep…",
-"likeCount": 951,
+"likeCount": 952,
 "retweetCount": 94,
 "url": "https://x.com/ClementDelangue/status/2116362959706583464",
 "createdAt": "Sat Oct 31 02:53:44 +0000 2026"
@@ -122,49 +114,33 @@
 {
 "userName": "ClementDelangue",
 "text": "RT @NVIDIAAP: See how AI agents help create a simulated obstacle course for Microduck, using NVIDIA Omniverse libraries for 3D asset creati…",
-"likeCount": 262,
+"likeCount": 277,
 "retweetCount": 27,
 "url": "https://x.com/ClementDelangue/status/2117268576323481957",
 "createdAt": "Mon Nov 02 14:52:20 +0000 2026"
 },
 {
-"userName": "jeremyphoward",
-"text": "RT @wiseyoungbuck: Coding is solved and all, but @OpenAI appear to have either a UX bug, or they’ve given me access to an internal model. h…",
-"likeCount": 185,
-"retweetCount": 6,
-"url": "https://x.com/jeremyphoward/status/2115189260156612956",
-"createdAt": "Tue Oct 27 21:09:52 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @ericschmidt: This is pretty extraordinary, and on an open model to boot.",
+"likeCount": 505,
+"retweetCount": 52,
+"url": "https://x.com/ClementDelangue/status/2115733624360403028",
+"createdAt": "Thu Oct 29 09:12:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @ElizaKosoy: what do you mean you’re the hugging face incident as the ai that escaped its sandbox 🤗 https://t.co/P3DhcbL4NQ",
-"likeCount": 1555,
-"retweetCount": 68,
-"url": "https://x.com/ClementDelangue/status/2116497798241882465",
-"createdAt": "Sat Oct 31 11:49:32 +0000 2026"
+"text": "RT @Thom_Wolf: give this robot an oscar https://t.co/EUSkp3SJfw",
+"likeCount": 593,
+"retweetCount": 56,
+"url": "https://x.com/ClementDelangue/status/2116044843860263005",
+"createdAt": "Fri Oct 30 05:49:39 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @pcuenq: My Mom supports open. You should too. https://t.co/ERQoEwvB14",
-"likeCount": 62,
-"retweetCount": 1,
-"url": "https://x.com/ClementDelangue/status/2116273035791736991",
-"createdAt": "Fri Oct 30 20:56:24 +0000 2026"
-},
-{
-"userName": "BestBlogsDev",
-"text": "https://t.co/TalkjV4aQl",
-"likeCount": 4,
-"retweetCount": 1,
-"url": "https://x.com/BestBlogsDev/status/2117041271185494520",
-"createdAt": "Sun Nov 01 23:49:06 +0000 2026"
-},
-{
-"userName": "scottew",
-"text": "https://t.co/taa5sWFc4c",
-"likeCount": 211,
-"retweetCount": 10,
-"url": "https://x.com/scottew/status/2117013565102264346",
-"createdAt": "Sun Nov 01 21:59:00 +0000 2026"
+"text": "https://t.co/VG4xB8sc8i",
+"likeCount": 13,
+"retweetCount": 0,
+"url": "https://x.com/ClementDelangue/status/2117669178924548570",
+"createdAt": "Tue Nov 03 17:24:11 +0000 2026"
 }
 ]
