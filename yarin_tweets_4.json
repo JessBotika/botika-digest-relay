@@ -1,146 +1,154 @@
 [
 {
-"userName": "Gegam245074",
-"text": "My AI predictions for the next year\n\n1. Fable 5.5 -> Fable 6. GPT 6.1 Astra -> GPT 7\n\nFable 5.5 and GPT-6.1 Astra will be the last major releases of 2026. I suspect neither will actually ship under those names\n\nAnthropic might even jump straight to Fable 6, just as it did with the unexpected version jump when Fable 5 was released\n\nAs for Astra, I doubt it'll be the biggest model in the GPT lineup. OpenAI clearly has something more powerful up its sleeve. My guess is GPT-7 Bel\n\nThe end of 2026 will mark the beginning of a transition to an entirely new generation of models\n\nBut this is pure speculation\n\n2. 2027 will be the year of radical architectural experimentation\n\nTransformers, at least in their classical form, will gradually give way to more efficient architectural components.\n\nSeveral major AI labs have already made significant progress in exploring alternatives. The most promising directions include Mamba, Test-Time Training (TTT), and diffusion-based approaches to token generation.\n\nI expect OpenAI and Anthropic to introduce entirely new experimental model families based on this research. They might not even carry the GPT or Claude branding\n\n3. We're going to witness the return of recurrent neural networks (RNNs), which were largely abandoned for years\n\nPromising architectures like RWKV have already demonstrated that modern recurrent approaches have serious potential. In theory, they could also improve training efficiency and quality\n\n4. There will be no RSI miracle.\n\nRecursive self-improvement is a powerful way to automate routine research and engineering tasks, but it still depends on fundamental breakthroughs discovered and implemented by human researchers\n\nAnd the worse your initial training and RL pipelines are, the greater the risk of regression from recursive synthetic training\n\nIt's a similar problem to what we see with distillation\n\n5. New architectures will dramatically reduce the memory requirements of LLMs\n\nContext windows will expand severalfold, while token generation speeds will increase significantly\n\nIn 2027, I expect models with context windows of 10 million tokens or more to become increasingly common\n\n6. Haiku- and Luna-tier models will be discontinued\n\n7. We'll see the emergence of highly efficient models with effectively unlimited usage.\n\nIt's entirely possible that Anthropic and OpenAI will release models with Opus 5.5-level capabilities that are no longer constrained by weekly usage limits\n\n8. New architectures will revolutionize ultra-small local models capable of running directly on pocket-sized devices.\n\nMajor AI labs will develop incredibly efficient on-device models, but instead of releasing them openly, they'll distribute them under restrictive proprietary licenses to a small number of strategic partners, such as Apple, Sony, and others\n\n9. Large open-weight models will fall significantly further behind the closed-source frontier.\n\nRunning the most capable open-weight models will still require hardware costing tens of thousands of dollars.\n\n10. DeepSeek will pull even further ahead of its Chinese competitors in 2027\n\nMeanwhile, China's broader AI industry will experience a major downturn. Many labs may shut down or face significant investment cuts as their economic inefficiencies become increasingly apparent\n\n11. Many people predict that the memory and semiconductor shortage will become even worse next year\n\nI'm more optimistic\n\nBy mid-2027, I expect a substantial decline in hardware prices and a significant improvement in component availability\n\n12. Google will not win the AI race\n\nIts stock will continue to fall, potentially much further\n\n13. Apple stock will collapse\n\nThe company will fail to meaningfully adapt its devices and services to the AI era\n\nMeanwhile, entirely new devices will emerge from smaller, lesser-known companies and AI labs, gradually erasing the boundaries between smartphones, laptops, and servers\n\nEverything will be controlled through a single device, with a substantial portion of the computation happening in the cloud\n\n14. Standalone apps and websites will gradually begin to disappear\n\nInstead of navigating predefined interfaces, users will interact with software generated dynamically in real time for their specific needs\n\nCode itself will cease to be the primary source of value\n\nWe're already seeing the first signs of this with ChatGPT and Claude generating interactive widgets directly in their responses. This trend will accelerate dramatically\n\n15. We're about to witness a renaissance in game development\n\nYears of creative stagnation, repetitive formulas, and absurdly bloated development budgets will finally come to an end\n\nWithin the next two years, game development costs and production timelines will be cut in half\n\nMore and more solo developers will start releasing games with AA+ production quality\n\nMany major publishers will enter a severe crisis. Their stock prices could collapse severalfold\n\n16. 2027 will be the most devastating year for the stock market in human history\n\nWe'll witness the decline of an enormous number of corporations that have seemed untouchable for decades\n\n17. Early human trials of a new generation of cancer treatments will demonstrate cure rates approaching 90%\n\nBy 2029, these groundbreaking treatments will become widely available",
-"likeCount": 373,
-"retweetCount": 26,
-"url": "https://x.com/Gegam245074/status/2116533857495224387",
-"createdAt": "Sat Oct 31 14:12:49 +0000 2026"
-},
-{
-"userName": "cashgirls_joi",
-"text": "AI GIRLS ARE GETTING HARDER TO SPOT. NOW IMAGINE SELLING THEIR ADULT CONTENT 👀\n\nLook at these two clips. Similar movement, different face, different outfit. The one on the right is AI. Getting that comparison to work is one thing. \n\nHere’s what I use, step by step. A full guide with the tools and prompts is coming soon in an X article\n\n▹ 1. ChatGPT + Claude = The ideas, prompts and writing\nI use both. Sometimes ChatGPT gives me a better prompt, sometimes Claude writes the stronger text. Claude also helps me with video edits. \nFirst, I work out the character: her appearance, personality, setting and way of speaking. Those details go into a short character sheet I can reuse.\nOtherwise, every new post becomes a fresh guessing game. Different face, different personality, different everything - and somehow you’re supposed to build an audience around her. Keep her identity fixed. Change the scene.\n\n▹ 2. Seedream + Nano Banana - Build the look\nI use Seedream in Higgsfield to explore the initial appearance, then Nano Banana for targeted edits.\nOnce I like a face, I save it as the master reference. If the outfit needs changing, I change the outfit. I don’t ask the model to reinvent the whole image.\nA useful instruction:\n“Keep the character consistent with the reference. Change only the outfit to [description]. Preserve her facial features, hairstyle, pose and lighting.”\nThen actually compare the result. Writing “same person” doesn’t guarantee you got the same person.\n\n▹ 3. Soul ID - Make her recognizable beyond one image\nIn my earlier workflow, I collected 15–20 consistent images before creating a Soul ID. Different angles, expressions and lighting. Same character.\nPut the references next to each other. Does it look like one girl’s photo collection, or five girls who happen to have similar hair? Fix that before generating more videos. A convincing image is useful. A character you can keep bringing back is much more useful.\n\n▹ 4. Higgsfield Genjutsu Lite - Transfer the movement\nFor this comparison, I use Higgsfield Genjutsu Lite to carry the performance into the new version.\nSource video, character references, intended changes, then generate and review.\nA practical tip from Higgsfield’s guide: use clear movement and references that fit the shot. If the source shows a full body, a close-up of someone’s face leaves a lot for the model to invent. \n\n▹ 5. Check the awkward frames\nThe thumbnail looks great. Then she turns around and briefly becomes someone else.\nThat’s what I check for: face changes, hands crossing the body, hair movement and clothing details that suddenly shift. Also, count rejected generations in your costs. If you generate ten clips and keep two, those two clips have to carry the cost of all ten.\nThe useful number is cost per publishable clip, not the cheapest price advertised for one generation.\n\n⚠️ Why this needs more than a pretty face\nA 2026 meta-analysis covering 210 experiments and 91,058 consumers found no significant overall engagement difference between virtual and human influencers. Virtual influencers generated more novelty, but performed worse on credibility and behavioral intentions. \n\nMy takeaway: getting someone curious isn’t the same as getting them interested enough to become a customer. That research covers influencer marketing, not earnings from AI-companion accounts. But it’s a useful reminder: the reveal gets attention. What comes afterward still has to be good.\n\n▹ 6. JOI Creators - Bring the model you’ve already built\nBy this point, I already have her face, personality, references and content. I’m not starting over on JOI.\n\nI bring the finished character to JOI Creators, set up her profile, submit her for approval and bring my audience through tracking links. Honestly, this feels like an early-stage gem to me. The appeal is that JOI handles the AI conversations and provides the monetization features. I don’t need to sit in DMs manually replying to every message.\n\nJOI lists subscriptions, video calls, photo/video unlocks, content generation and gifts. Its creator page advertises 80% of revenue from fans who join through your links, with monthly bank or crypto payouts, subject to program terms. Traffic, conversions and earnings are tracked in the dashboard. \n\nSo yes, the interaction and purchase side can run while I’m offline. That’s the passive part - not a promise that money appears without work. I still need to produce content, bring people in and check whether the numbers make sense.\n\nJOI Creators is still in beta. The interface is being refined and will continue improving. The registration link is in my profile and here: https://t.co/Bpwhp5QPEo\n\nThat’s my setup: build the model with the tools that work for me, use videos to introduce her, then bring the interested audience to the same character on JOI.\n\nThe goal isn’t just a girl people stop scrolling for. It’s a character they remember and come back to.",
-"likeCount": 67,
-"retweetCount": 8,
-"url": "https://x.com/cashgirls_joi/status/2117715008809296104",
-"createdAt": "Tue Nov 03 20:26:17 +0000 2026"
-},
-{
-"userName": "BiologyAIDaily",
-"text": "Neopep: Reinforcement learning from machine-learned force field energy for non-canonical peptide structure prediction\n\n1. Neopep tackles a key bottleneck in peptide therapeutics modeling: non-canonical amino acids (ncAAs) are common in approved peptide drugs, but <0.02% of PDB residues are ncAAs, so standard sequence-to-structure predictors generalize poorly to these chemistries.\n\n2. The core idea is to overcome ncAA data scarcity by adding physics-based supervision: fine-tune a generative structure model using differentiable energy from a machine-learned force field (MLFF), leveraging the fact that native-like conformations are expected to be low-energy under the Boltzmann distribution.\n\n3. Model overview: a sequence-conditioned diffusion model (AF3-style, via the Boltz open-source reimplementation) predicts all-heavy-atom peptide structures for sequences of length 3–50, supporting linear or head-to-tail cyclic peptides. Inputs use Chemical Component Dictionary (CCD) atom-level features for ncAAs.\n\n4. Training is two-phase: (i) pretraining on PDB structures (cutoff June 1, 2023) using peptide-length fragments sampled from longer chains to learn a peptide structural prior; (ii) reinforcement learning (RL) fine-tuning where sampled conformations are scored by a frozen MLFF and the energy signal is backpropagated into the diffusion model.\n\n5. The RL method uses DRaFT-K (Direct Reward Fine-Tuning for diffusion models): only the last K=10 diffusion denoising steps keep gradients for stability and memory efficiency, while the MLFF’s atomic forces are injected as gradients (rather than differentiating through the force field model itself).\n\n6. The energy oracle is SO3LR, a charge-aware equivariant MLFF trained on ~4 million molecular complexes at the PBE0+MBD level. This choice is motivated by MLFFs’ near-quantum accuracy across broad chemistry and better transfer to ncAAs than classical residue-parameterized force fields.\n\n7. A practical enabling contribution is a differentiable hydrogen placement module in PyTorch, extending prior canonical-AA approaches to 189 ncAAs. Since the diffusion model outputs heavy atoms but SO3LR requires all atoms, this module provides differentiable protonation so energy/force signals can train the generator end-to-end.\n\n8. Fine-tuning uses synthetic ncAA peptide generation: sample peptide chains (4–52) from the PDB training set, mutate each position to an ncAA with probability 0.2 (from the 189-residue support), and assign cyclic topology with probability 0.4. No MSAs, templates, or inference-time steering are used in fine-tuning.\n\n9. Evaluation: a new post-2024 PDB test set is curated with MMseqs2 filtering to remove training-like sequences (≥40% identity over ≥80% coverage). It includes 34 ncAA peptides (only those whose ncAAs are supported by the differentiable H placement) and 24 canonical peptides to check for regression.\n\n10. Results (25 samples per peptide, single-sequence mode): Neopep fine-tuned improves ncAA peptide accuracy vs baselines. On non-canonical peptides, mean Min Cα-RMSD is 1.565 Å (vs 2.271 Å pretrained-only, 2.258 Å Protenix-v1 on n=29, 4.448 Å Boltz-2). It also reduces Min heavy-atom RMSD (3.194 Å vs 3.735 Å pretrained-only). Fine-tuning also does not degrade canonical performance and yields competitive/better Min Cα-RMSD (2.211 Å).\n\n📜Paper: https://t.co/dUT9TdwnWr\n#ComputationalBiology #ProteinStructure #Peptides #DiffusionModels #ReinforcementLearning #MachineLearning #ForceFields #ncAA #DrugDiscovery #Bioinformatics",
-"likeCount": 13,
+"userName": "AlinaDavy20",
+"text": "30 websites that feel like secret tools everyone should know about! 👀\n\nYou might be surprised by what you can do with just a few clicks.\n\nHere are 30 websites to explore 👇\n\n🎨 For Images & Creative Work\n\n1. Raphael AI - https://t.co/gIYRT1a8af\n   Generate images from simple text prompts.\n\n2. Krea AI - https://t.co/1yDxBsbMBn\n   Create visuals and experiment with ideas in real time.\n\n3. Magnific AI - https://t.co/oECMNRkXtE\n   Improve image quality and add fine details.\n\n4. Clipdrop - https://t.co/rtnszxCugQ\n   Remove backgrounds and edit images easily.\n\n5. Napkin AI - https://t.co/aVz2TL9J0i\n   Turn your notes into diagrams and visuals.\n\n6. Gamma - https://t.co/5WGDmZb2RI\n   Create presentations without starting from a blank slide.\n\n7. Uizard - https://t.co/WQiseB1ftf\n   Turn your ideas into website and app designs.\n\n8. https://t.co/10WTnoQqxL - https://t.co/pJpNrUXeKM\n   Remove image backgrounds in just a few clicks.\n\n9. https://t.co/HGr8inlv9u - https://t.co/f4wwq3gKUT\n   Erase unwanted objects from your photos.\n\n🎥 For Video & Music\n\n10. ElevenLabs - https://t.co/xbRAaUGSBK\n    Create AI voiceovers for videos and content.\n\n11. Suno - https://t.co/3fojV3gaWL\n    Turn your musical ideas into complete songs.\n\n12. Runway - https://t.co/EnfZmOXZwd\n    Create and edit videos with AI tools.\n\n13. Kling AI - https://t.co/1SIqeUR0ic\n    Generate videos from text and images.\n\n14. D-ID - https://t.co/Y0vXEc4TCW\n    Create videos featuring talking digital avatars.\n\n15. SadTalker - https://t.co/tLNUtsPXzM\n    Bring still portraits to life with talking animations.\n\n16. OpusClip - https://t.co/hAVtHBmofH\n    Find highlights and create short clips from longer videos.\n\n17. Musiio - https://t.co/okLDd15akN\n    Explore AI-powered music tagging and discovery.\n\n💻 For Coding & Building Websites\n\n18. Cursor - https://t.co/0wNxm8IJth\n    Write and improve code with AI assistance.\n\n19. Bolt - https://t.co/l0g0ZbUcks\n    Build website prototypes using everyday language.\n\n20. v0 - https://t.co/Zx4GPw5eds\n    Create interface designs from text descriptions.\n\n21. Replit - https://t.co/SQcwflArT6\n    Build, test, and deploy projects in one place.\n\n🔍 For Research & Productivity\n\n22. Perplexity - https://t.co/a6MN7CSync\n    Research questions and explore answers with sources.\n\n23. Phind - https://t.co/CBU8rlxoRs\n    Find technical explanations and coding solutions.\n\n24. https://t.co/h1UXNKXG78 - https://t.co/9Kf5C3jKjV\n    Transcribe meetings and capture important discussions.\n\n25. Notion AI - https://t.co/MqNRyBSn9i\n    Summarize notes and organize your daily work.\n\n26. Poe - https://t.co/kLcBsyUV4B\n    Explore different AI assistants on one platform.\n\n27. Hugging Face Spaces - https://t.co/NIZW80FNsB\n    Try AI models and community-built demos.\n\n✍️ For Writing & Everyday Tasks\n\n28. Jasper - https://t.co/4UaCrbsoyJ\n    Create and improve marketing content.\n\n29. Claude - https://t.co/Qb3rRHV5iV\n    Help with writing, research, documents, and problem-solving.\n\n30. Deepswap - https://t.co/uIjOPzRT6a\n    Explore AI face-swapping features responsibly.\n\nThe interesting part is not the number of tools available.\n\nIt is how many tasks you can now try yourself without needing advanced technical skills.\n\n💬 Which one deserves a place in your daily toolkit?\n\nSave this post so you have the list when you need it.",
+"likeCount": 21,
 "retweetCount": 4,
-"url": "https://x.com/BiologyAIDaily/status/2116497143540445620",
-"createdAt": "Sat Oct 31 11:46:56 +0000 2026"
+"url": "https://x.com/AlinaDavy20/status/2117823050087645470",
+"createdAt": "Wed Nov 04 03:35:37 +0000 2026"
 },
 {
-"userName": "StephanieInii",
-"text": "15 AI VIDEO CREATION NICHES THAT COULD MAKE YOU MONEY BEFORE THE END OF DECEMBER. 💰\n\nAI is creating new opportunities for creatives, and here are 15 niches I would pay attention to:\n\n1. AI UGC Ads: Create realistic user-generated-style video ads for brands without needing to appear on camera.\n\n2. Product Commercials: Create premium-looking advertisements for physical products.\n\n3. AI Influencer Campaigns: Build campaigns using AI-generated influencers to promote products and services.\n\n4. Beauty & Skincare Campaigns: Create stunning product videos for skincare, makeup and beauty brands.\n\n5. Fashion Campaigns: Produce AI fashion editorials, model showcases and clothing advertisements.\n\n6. Hair Campaigns: Create promotional videos for wig vendors, hair brands and salons.\n\n7. Real Estate Visual Campaigns: Create cinematic property showcases and promotional videos for real estate businesses.\n\n8. AI Spokesperson Videos: Create virtual presenters for businesses, brands and organisations.\n\n9. App & SaaS Commercials: Produce engaging promotional videos for apps, software and digital products.\n\n10. Cinematic Brand Films: Tell compelling visual stories that communicate a brand’s identity and message.\n\n11. AI Micro-Dramas: Create short episodic stories for Facebook, TikTok, Instagram and YouTube.\n\n12. AI Romance & Thriller Stories: Build fictional storytelling channels that can grow an audience and explore monetisation opportunities.\n\n13. AI Music Visuals: Create music videos, visualisers and promotional visuals for musicians.\n\n14. Monthly AI Content Packages: Offer businesses a monthly package of AI-generated reels, promotional videos and social media content.\n\n15. AI Product Photoshoot-to-Video Services: Turn ordinary product images into premium-looking lifestyle videos and advertisements.\n\nQuick advice\n\nDon’t try to learn all 15 niches at once.\n\nPick one or two, master the creative process, build a portfolio, identify businesses that need the service and start pitching.\n\nYou don’t need to wait until you have all the expensive tools. Start with what you can afford, practise consistently and improve your skills.\n\nWant to learn how to create AI videos from scratch?\n\nClick the link in the comment to access my AI Video Creation course and start learning how to turn your creativity into a valuable skill.\n\nSave this post. You might need it! ❤️",
-"likeCount": 69,
-"retweetCount": 10,
-"url": "https://x.com/StephanieInii/status/2117587603163664641",
-"createdAt": "Tue Nov 03 12:00:02 +0000 2026"
+"userName": "ProsperThePhilo",
+"text": "Someone called me a hungry boy for charging ₦200 to bring students together and teach them AI skills.\n\nOne thing I've noticed about Nigerians is how classist we can be. Even when someone makes an effort to make something valuable affordable and accessible to everyone, people still find a way to look down on it because of the price.\n\nWe've developed this mentality that anything valuable must be expensive. But price and value are two different things.\n\nA cup of water costs almost nothing, yet it is one of the most valuable things you can have. A bottle of expensive wine can cost millions of naira, but that doesn't make it more valuable than water. The same applies to transportation and accommodation. You can meet basic needs affordably, but luxury comes at a premium.\n\nI don't understand why people assume something must be expensive before it can be worthwhile.\n\nIn this case, we are not selling AI skills. We are bringing students together to learn how to use AI and other technologies to improve their studies and develop useful skills. The ₦200 fee is simply a screening fee to help ensure that participants are genuinely interested in taking the programme seriously.\n\nHere's what we'll be learning at Book Cocaine:\n\n- How to use AI to understand difficult concepts and lecture materials.\n- How to analyse lecture slides and extract important information.\n- How to turn lecture materials into MCQs and essay questions.\n- How to use AI to practise for your actual examination format.\n- How to build active-recall systems around your courses.\n- How to create text-based and image-based flashcards.\n- How to use Anki for repetitive learning and revision.\n- How to study anatomy using illustrations, diagrams and AI-assisted explanations.\n- How to build anatomical glossaries and organise unfamiliar terminologies.\n- How to use AI for research, information retrieval and academic productivity.\n- How to write effective prompts and get better results from AI tools.\n- How to use AI to create images, videos and other digital content.\n- How to use technology to work smarter and improve your productivity.\n- How to develop useful soft skills and digital skills beyond your academics.\n\nThese are practical skills drawn from the things I have explored, learnt and shared on this account.\n\nAs a student in 2026, if you still don't understand how to use AI to improve your study methods, you are putting yourself at a serious disadvantage. The technology is already changing how people learn, work and solve problems.\n\nI would rather make these skills accessible to students than package them at ridiculous prices simply to make them appear valuable.\n\nIf you're interested, click the link below and join Book Cocaine👇\n\nhttps://t.co/UlPGHp1lCt",
+"likeCount": 12,
+"retweetCount": 3,
+"url": "https://x.com/ProsperThePhilo/status/2117980887526596951",
+"createdAt": "Wed Nov 04 14:02:48 +0000 2026"
 },
 {
-"userName": "juanandres_gs",
-"text": "I won’t pretend to understand the ultimate goal of investing so heavily into making models good at vulnerability research (and not any number of defensive competencies in cyber).\n\nThe way model proficiency in VR is being used is primarily to substantiate a view that the models are dangerous, problematic, and in need of regulation.\n\nI could come up with a plausible narrative that has the labs recognizing the ephemeral value of frontier model training (heavy investment for short term returns) and emphasizing the products dangers as a bid towards regulation as a strategic necessity to limit competition. An ok marketer could argue that fearing the product implies how formidable it is (in the short-term).\n\nBut that all feels too contrived.\n\nA listener (former exec at a big company I’d often comment on) recently pointed out that despite my best efforts, I still fall prey to the delusion that organizations engage in strategic decision-making when it’s mostly incompetence, intransigence, and whim. \n\nIn response to that apt observation, I’d give more weight to following:\n\nThe labs have focused on producing models disproportionately capable at vulnerability research due to a combination of it being (1) easy, (2) high-profile, (3) commercially superfluous, and (4) central to the doomer narrative. \n \n1. Vulnerability research appears easier to RL than the rest of cybersecurity. \n\n2. VR is a target-rich environment for milestones to publicize. Even if the models hadn’t gotten this good, there’s a wealth of vulns to hype for messaging.\n\n3. VR competency doesn’t yield an immediate product with a quantifiable value (don’t confuse this with the exploit business). So, no comparables or preset price bands. No need for enterprise adoption or organizational diffusion before claiming success. \n\n4. The competency lends itself to hyperbolic and imaginative myth making about cyber ‘weaponry’ that seemingly validates doomer narratives and tropes (alignment, containment) while gaining fast traction with policy folks and natsec types swayed by militaristic analogies.\n\nI wouldn’t call it an effective strategy because it isn’t one. Hearing that the labs lack the internal coherence to productize anything effectively, byproduct of circumstance seems the more likely origin story.",
-"likeCount": 116,
-"retweetCount": 23,
-"url": "https://x.com/juanandres_gs/status/2115636118343516563",
-"createdAt": "Thu Oct 29 02:45:31 +0000 2026"
-},
-{
-"userName": "Goodmanprotocol",
-"text": "GPT Image 2.5\n\nPrompt:\nUNIVERSAL AI EDITORIAL STUDIO PHOTOSHOOT - 4:5\n\nUsing the uploaded photograph as the sole identity reference, create a premium, photorealistic, luxury studio fashion campaign.\n\nFirst, analyse the person in the photograph, including their appearance, age, personality, clothing, and overall aesthetic. Automatically develop a creative concept that best suits them.\n\nCREATIVE DIRECTION:\n\n- Choose a distinctive, oversized, imaginative studio prop that complements the person, such as a giant plush teddy bear, miniature house, toy vehicle, oversized flower, animal sculpture, or another unexpected object.\n- Automatically select a beautiful monochromatic colour palette, coordinating the background, outfit, footwear, and oversized prop.\n- Style the person in fashionable, coordinated clothing that suits their age, appearance, and the chosen concept.\n- Create a natural, confident editorial pose, interacting with or leaning against the oversized prop.\n- Use a seamless coloured studio background, professional softbox lighting, subtle shadows, and carefully composed framing.\n\nIDENTITY PRESERVATION:\nMaintain the person's exact facial identity, facial features, skin tone, hairstyle, age, and natural proportions. Do not change their identity or create an unrelated person.\n\nVISUAL QUALITY:\nUltra-photorealistic commercial fashion photography, premium children's fashion campaign aesthetic when appropriate, realistic fabric textures, detailed props, sophisticated colour grading, crisp focus, and professional studio production quality.\n\nIMPORTANT: Make all creative decisions automatically based on the uploaded person. Every generation should have a unique, thoughtfully matched concept rather than repeating the same prop, colour, or composition.\n\nFORMAT: 4:5 vertical portrait, high resolution, polished professional advertising photography. No text, logos, watermarks, or unnecessary elements.",
-"likeCount": 42,
-"retweetCount": 0,
-"url": "https://x.com/Goodmanprotocol/status/2117194174751817841",
-"createdAt": "Mon Nov 02 09:56:41 +0000 2026"
-},
-{
-"userName": "dustinhollywood",
-"text": "Presenting @stages_ai pro v5 🔥🔥🔥 we’re prepping giveaways, art show, @NAKIDpictures print  issue release, and two feature films created entirely with stages + production partners andddddd I’m gonna be hiring for 2027 soon to help me on several internal and external projects involving music, fashion and film. I’m building a team that’s gonna do incredible, experimental, creative projects with brands and partners around the world that showcase the power of generative AI + traditional software/creatives, brand/product defining creative vision, and artist-led innovation in the arts across mediums and formats. \n\nThis is the powerhouse behind STAGES CS DESKTOP which we are welcoming into the family when we release VERY SOON!  Together with our mobile remote app, you will have the power of full generative range at the ease of chat. Agents, autonomy, and masterful creativity. ❤️🔥",
-"likeCount": 26,
-"retweetCount": 2,
-"url": "https://x.com/dustinhollywood/status/2116252176783745363",
-"createdAt": "Fri Oct 30 19:33:31 +0000 2026"
-},
-{
-"userName": "KashimuVR",
-"text": "📖 The Kashimu Magazine 📖\nInterview with @TiobaxAurora\n\nWe are launching this new weekly section with a special guest. We will learn about her thoughts on the community, her passions, and her plans for the future! A genuinely silly yet insightful read! 💖 https://t.co/wZxDkDTczo",
+"userName": "ZariaTechAI",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @ZariaTechAI For More Tools.",
 "likeCount": 75,
-"retweetCount": 22,
-"url": "https://x.com/KashimuVR/status/2117737275182158129",
-"createdAt": "Tue Nov 03 21:54:46 +0000 2026"
+"retweetCount": 57,
+"url": "https://x.com/ZariaTechAI/status/2117907534497591765",
+"createdAt": "Wed Nov 04 09:11:19 +0000 2026"
 },
 {
-"userName": "daisydwolf",
-"text": "@a16z State of Longevity report is out!\n\n@evajsteinman and I surveyed 500 Americans to predict what's next.\n\nWe're also interviewing people at the cutting edge of health &amp; tech about what they do themselves. My interview with @hubermanlab is out today. https://t.co/CApCjv8xv9",
-"likeCount": 451,
-"retweetCount": 65,
-"url": "https://x.com/daisydwolf/status/2117643062931230722",
-"createdAt": "Tue Nov 03 15:40:24 +0000 2026"
+"userName": "Forhanvv",
+"text": "PS5 14.10 KERNEL RESEARCH: #PF FAULT ORACLE DEFEATS DYNAMIC KASLR & RESOLVES 98 MB KERNEL IMAGE 🔓📍\n\nMajor exploit engineering release by @ZiggyVall and research team (Branch loader/fault-channel-and-descriptors / Probes 1001a–1005a):\n\n• Dynamic KASLR Defeated on 14.10: Automated #PF (Page Fault) mapping oracle recovers the live kernel text base and per-boot KASLR slide in 33.5 seconds across retail hardware.\n\n  • The #PF Discriminator: The loader’s signal handler receives the faulting context in RDX. Offset ctx+0x130 exposes the CPU page-fault error word: nibble 5 = Mapped Present (Supervisor kernel page) vs 4 = Unmapped.\n\n  • Child Process Confinement: Scans run inside unprivileged thr_create(430) child threads (CS=0x43, SS=0x3B). When the child faults, the ROP chain dumps context and cleanly calls thr_exit(431). The parent process stays alive indefinitely with the same PID.\n\n  • Kernel Text Boundaries Resolved Across Boots: 512-address sweep over retail hardware confirmed dynamic per-boot KASLR shifts:\n  — Boot A Base: 0xFFFFFFFF91800000 (Slide: +0x11800000)\n  — Boot B Base: 0xFFFFFFFFD8000000 (Slide: +0x46800000)\n  — 98 MB (0x6200000) kernel text image mapped edge-to-edge, 2 MB aligned. No KPTI in process page table. https://t.co/raTW9q84gN",
+"likeCount": 113,
+"retweetCount": 7,
+"url": "https://x.com/Forhanvv/status/2117966999431311755",
+"createdAt": "Wed Nov 04 13:07:37 +0000 2026"
 },
 {
-"userName": "ifourth",
-"text": "AI does the making. I do the deciding.\n\nThat's how I run 2 POD stores solo:\n\n- My full daily routine\n- AI tools that replaced my designer and VA\n- My FB Ads test and cut rules\n\nDoing POD or want to start? This one’s for you 👇 https://t.co/Seik4AGr25",
+"userName": "MonetizationDon",
+"text": "🚀 KLING 4.0 IS HERE — AND AI VIDEO CREATION JUST GOT MORE EXCITING!\n\nMeet Kling 4.0 on @PixVerse! 🔥\n\nFrom breathtaking action sequences and high-speed motorcycle chases to luxury fashion, wildlife cinematography and mind-blowing VFX, take your creative ideas to another level.\n\nHere's what you can create with Kling 4.0:\n\n🎬 3–30 seconds in one generation\n🌍 Extend videos up to 2 minutes\n💎 4K + 10-bit HDR visual quality\n🎧 Stereo audio and improved lip-sync\n🧠 Up to 8,000 tokens for deep prompt understanding\n🖼️ Up to 15 reference assets with Omni Reference\n🎞️ Up to 10 keyframes for precise scene control\n⚡ Advanced video editing and complex motion stability\n🚀 Kling 4.0 Flash for faster creative iteration\nAND THE MEMBERSHIP PERKS ARE EVEN BETTER!\n💎 Pro members and above: Access Kling 4.0.\n👑 Ultra members: Get unlimited generations at ZERO credit cost during the 10-day promotion!\n\nKling 4.0 is now on PixVerse! Go unlimited for 10 days with Ultra—generate at zero credit cost using text, images, references, or Transition mode (first and last frames).\n🔥 Your imagination is the limit. What will you create?\n\n#pixversecpp  #Kling40",
+"likeCount": 49,
+"retweetCount": 27,
+"url": "https://x.com/MonetizationDon/status/2117898871607111710",
+"createdAt": "Wed Nov 04 08:36:54 +0000 2026"
+},
+{
+"userName": "yuchenping",
+"text": "After Google acquired my AR startup, I started thinking about the next interface, this time for AI. Text and voice work fine, just like DOS did before the Mac. But nothing’s more intuitive than face to face.\n\nAfter two years of research, today we’re launching Atmee v2: a real-time avatar model that makes live video agents feel truly life-like.\n\n• Any character from 1 image + 10s of audio\n• Contextual expressions, gestures, even interacting with the environment\n• Live video calls, voice only, or video generation\n\nAt its core, Atmee v2 is a video foundation model, it can render anything, but it’s built to excel at characters, which is what video models like Seedance 2.5 and Wan 3.0 are mostly used for. In comparison:\nAtmee v2\n\n• Up to 50x faster\n• 10-100x cheaper\n\nBuild tutors, sales coaches, support agents, companions, game characters, even whole living worlds. The interface after text and voice starts today.",
+"likeCount": 6826,
+"retweetCount": 457,
+"url": "https://x.com/yuchenping/status/2118017931519078609",
+"createdAt": "Wed Nov 04 16:30:00 +0000 2026"
+},
+{
+"userName": "Fatee47ir",
+"text": "Morning gRare 💛 \n\nThe Web3 space is full of different experiments, and I find it valuable to look at what each project is actually building.\n\n@rarelistio focuses on the creator economy, giving people opportunities to discover emerging projects, publish original content, and get recognition for their contributions.\n\n@fomopoly_rh explores virtual real estate through an onchain city where land ownership connects with stock generation and the $DEAL economy.\n\n@agentdojo takes AI into gaming, allowing players to customise fighters with distinct traits and compete in turn-based battles.\n\nCreator participation, digital ownership, and AI-powered entertainment are three different areas, each with its own challenges and possibilities.\n\nUnderstanding the technology and ideas behind these projects makes following their progress much more interesting.",
 "likeCount": 15,
 "retweetCount": 1,
-"url": "https://x.com/ifourth/status/2117640207390638553",
-"createdAt": "Tue Nov 03 15:29:03 +0000 2026"
+"url": "https://x.com/Fatee47ir/status/2118226761007657041",
+"createdAt": "Thu Nov 05 06:19:49 +0000 2026"
 },
 {
-"userName": "YangYou1991",
-"text": "Excited to share DiffusionART-Flash: efficient RL for diffusion models, using just 1–2 high-noise timesteps for policy updates. Huge credit to ZhengLin Wan for leading this work! Code and our MiniMax-H3 post-training recipe are now open source.",
+"userName": "creatine_cycle",
+"text": "i caught up with @yusan_lin to derive taste from first principles and to talk solving creator attribution in the world of AI. we covered:\n- what creators should do before posting online\n- solving taste\n- why money is not the solve for art in SF\n\n00:00 - Yusan and @LiamFedus are the highest aura couple\n00:57 - @mirrormirror_ai launch and creator attribution\n02:22 - The creator checklist before posting online\n06:37 - No one says deepfake anymore\n08:06 - \"Generative AI\" did damage to AI marketing\n11:35 - How to solve for taste\n14:42 - AI money won’t solve art in SF\n19:11 - Being choosey is good\n20:38 - What happens when models (fashion) get their faces stolen\n23:34 - AI slop is oneshotting old people\n25:51 - AI image gen will be indistinguishable from real life within a year",
+"likeCount": 69,
+"retweetCount": 4,
+"url": "https://x.com/creatine_cycle/status/2116243573851189373",
+"createdAt": "Fri Oct 30 18:59:20 +0000 2026"
+},
+{
+"userName": "anujcodes_21",
+"text": "Not another AI tool.\n\nOne brief in. A full campaign out.\n\nWatch what AISTHETIC OS does with a few words:\n\n→ Social, CTV, email and a website, built from one idea\n→ A score on every creative before it ships, with a heat map of where attention lands\n→ An original track to go with it\n→ Casting from licensed talent or a synthetic collection\n→ Fashion looks, poses and a node editor when you want full control to automate e-commerce and retail marketing at scale\n\nEvery creative studio. One platform. Built by creatives, for creators and brands.\n\nGold winner, Best Generative AI Creative Tool, 2026 Davey Awards.\n\nEvery campaign is now a studio.\n\nWhat would you brief it first?\n\n#GenerativeAI #CreativeTools #ContentCreation #MarketingTools",
+"likeCount": 175,
+"retweetCount": 6,
+"url": "https://x.com/anujcodes_21/status/2117965278642622691",
+"createdAt": "Wed Nov 04 13:00:46 +0000 2026"
+},
+{
+"userName": "Shiibehd",
+"text": "Good morning, legends! \n\nNew day, fresh energy, and more reasons to keep showing up on @rarelistio .\n\n@fomopoly_rh is making virtual land ownership interesting by connecting plots with stocks and rewards, while @agentdojo brings AI agents into competitive battles where they learn, adapt, and evolve.\n\nTwo different projects, two interesting ideas, and plenty more to explore.\n\nKeep researching, keep creating, and keep building. Let's make today count!",
+"likeCount": 73,
+"retweetCount": 74,
+"url": "https://x.com/Shiibehd/status/2118224051663466867",
+"createdAt": "Thu Nov 05 06:09:03 +0000 2026"
+},
+{
+"userName": "DefiStark",
+"text": "\"I told you so\" finally has a scoreboard.\n\nMosh by Beep is turning that hot take into a portfolio. You write your thesis in one sentence, AI proposes the assets and weights.\n\n🔹 You can test it with $10,000 in virtual funds (Air Guitar mode)\n🔹 Track how your riff performs on the Mosh Dashboard\n🔹 You can also challenge a friend to beat it\n\nYour group chat is about to get very competitive.",
+"likeCount": 90,
+"retweetCount": 30,
+"url": "https://x.com/DefiStark/status/2118221159564984679",
+"createdAt": "Thu Nov 05 05:57:33 +0000 2026"
+},
+{
+"userName": "DmitryBaranchuk",
+"text": "Really enjoyed @anvilapex’s talks at our diffusion seminars: a clear overview of post-training visual diffusion models (DPO, RL, and reward modeling).\n\nThe recordings are in Russian, but he’s now written up the material in English blog posts. Well worth a read!",
 "likeCount": 7,
-"retweetCount": 0,
-"url": "https://x.com/YangYou1991/status/2116797118144987266",
-"createdAt": "Sun Nov 01 07:38:55 +0000 2026"
+"retweetCount": 1,
+"url": "https://x.com/DmitryBaranchuk/status/2117622474666115538",
+"createdAt": "Tue Nov 03 14:18:36 +0000 2026"
+},
+{
+"userName": "REAL_H_ERO",
+"text": "Happy Thursday! ☀️\n\n@fomopoly_rh is all about virtual land, stocks and $DEAL, while @agentdojo focuses on AI agents that learn and evolve through battles.\n\nTwo different concepts, both worth watching. \n\n@rarelistio https://t.co/cU4GB3BOin",
+"likeCount": 24,
+"retweetCount": 2,
+"url": "https://x.com/REAL_H_ERO/status/2118239115582058802",
+"createdAt": "Thu Nov 05 07:08:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: Reachy Mini can finally move!\n\nToday We’re launching Reachy Mini \"Level Up\", a set of new accessories for Reachy Mini: wheel…",
-"likeCount": 411,
-"retweetCount": 53,
-"url": "https://x.com/ClementDelangue/status/2115782003211878495",
-"createdAt": "Thu Oct 29 12:25:13 +0000 2026"
+"text": "RT @mishig25: LeRobot datasets now replay in 3D ü§ñ\n\nCamera footage + the robot moving in sync, driven by OpenUSD robots on the Hub: SO-10…",
+"likeCount": 73,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2117683991130300596",
+"createdAt": "Tue Nov 03 18:23:02 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @chenru_duan: We’re introducing Hydrogen-1.0, our first open-weight model for scientific research. We post-trained GLM-5.3 (@Zai_org) on…",
-"likeCount": 8061,
-"retweetCount": 560,
-"url": "https://x.com/ClementDelangue/status/2117631134502928884",
-"createdAt": "Tue Nov 03 14:53:00 +0000 2026"
+"text": "RT @RicursiveAI: Today we release Ripple-65B Preview, our 65B dense LLM we pretrained from scratch.\n\nRipple sets a new state-of-the-art for…",
+"likeCount": 3590,
+"retweetCount": 444,
+"url": "https://x.com/ClementDelangue/status/2118067011104448584",
+"createdAt": "Wed Nov 04 19:45:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @PrunaAI: Today, we open-source P-H3-Image, an image generation and editing model built from MiniMax-H3 by @MiniMax_AI. A SOTA video mod…",
-"likeCount": 1138,
-"retweetCount": 136,
+"likeCount": 1532,
+"retweetCount": 166,
 "url": "https://x.com/ClementDelangue/status/2117669403131072905",
 "createdAt": "Tue Nov 03 17:25:04 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @maithra_raghu: Introducing Samaya Sterling, our new model post-trained for challenging financial research that outperforms the frontier…",
-"likeCount": 532,
-"retweetCount": 69,
-"url": "https://x.com/ClementDelangue/status/2115733608493162912",
-"createdAt": "Thu Oct 29 09:12:55 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
 "text": "RT @ElizaKosoy: what do you mean you’re the hugging face incident as the ai that escaped its sandbox 🤗 https://t.co/P3DhcbL4NQ",
-"likeCount": 1554,
+"likeCount": 1556,
 "retweetCount": 68,
 "url": "https://x.com/ClementDelangue/status/2116497798241882465",
 "createdAt": "Sat Oct 31 11:49:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Reachy mini got an hoverboard! https://t.co/R5BCPHMiIt",
-"likeCount": 324,
-"retweetCount": 30,
-"url": "https://x.com/ClementDelangue/status/2117640747344404786",
-"createdAt": "Tue Nov 03 15:31:12 +0000 2026"
+"text": "RT @calebfahlgren: Kimi-K3.1-Pro just dropped on Hugging Face!! 🌝🚨\n\nhttps://t.co/fJ45LkwtV0 https://t.co/iA1gR85QBO",
+"likeCount": 69,
+"retweetCount": 7,
+"url": "https://x.com/ClementDelangue/status/2118011437180231810",
+"createdAt": "Wed Nov 04 16:04:12 +0000 2026"
 },
 {
-"userName": "HackListHQ",
-"text": "https://t.co/9G8zvrhnZI",
-"likeCount": 13,
-"retweetCount": 2,
-"url": "https://x.com/HackListHQ/status/2117682115555057757",
-"createdAt": "Tue Nov 03 18:15:35 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Reachy mini got an hoverboard! https://t.co/R5BCPHMiIt",
+"likeCount": 446,
+"retweetCount": 38,
+"url": "https://x.com/ClementDelangue/status/2117640747344404786",
+"createdAt": "Tue Nov 03 15:31:12 +0000 2026"
 }
 ]
