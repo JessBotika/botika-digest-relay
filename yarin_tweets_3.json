@@ -1,5 +1,13 @@
 [
 {
+"userName": "vishalsingh2972",
+"text": "wait, OpenAI just built an AI system that found 948 distinct vulnerabilities in the Linux kernel that could let someone with limited access gain full control of a machine.\n\nand it didn't just find bugs. it tested them, built working exploits, and even generated possible fixes.\n\nall in one run costing around $1.2M in API credits.\n\ni went through the full research article because those numbers sounded insane, but honestly, what they actually built is even more interesting.\n\nhere's what happened 👇\n\nLinux is basically everywhere. cloud servers, Android devices, supercomputers, and a huge part of the internet rely on it.\n\nat its core is the Linux kernel, which manages things like memory, hardware, and system permissions.\n\nnow imagine someone already has basic access to a machine, but a bug lets them gain full administrator control (root access).\n\nthat's called local privilege escalation (LPE).\n\nfinding these bugs usually takes skilled security researchers a lot of time. they have to read through massive amounts of code, test different ideas, and prove whether something can actually be exploited.\n\nso OpenAI basically built a team of AI agents to automate much of that process.\n\none group searched the kernel for security-sensitive code. another examined it for possible vulnerabilities.\n\nthen other agents tested those findings inside isolated virtual machines. they'd run a test, check the results, adjust their approach, and try again.\n\nonce a bug was confirmed, another group checked whether it could actually be exploited to gain root access.\n\nfinally, the AI generated candidate patches for human researchers to review before reporting the findings to Linux maintainers.\n\nso it wasn't just AI reading code and saying \"hey, this looks vulnerable.\"\n\nit was investigating, experimenting, learning from failures, proving security impact, and suggesting fixes.\n\nbasically, a huge part of what a security research team normally does, connected into one automated process.\n\nand the results were pretty wild.\n\nout of 2,308 potential findings, the system reproduced 1,724 vulnerabilities and developed 1,169 working privilege escalation exploit instances covering 948 distinct vulnerabilities.\n\nplus 291 working information leak proofs of concept.\n\nand these exploits worked on a stock Linux desktop configuration with standard security protections enabled, not some intentionally weakened machine.\n\nthe total cost? about $1.21M in API credits, or roughly $1,279 per distinct LPE vulnerability.\n\nfor perspective, hacking competitions have historically offered $20k–$70k for certain Linux kernel exploits.\n\nusing those rates, OpenAI estimated a hypothetical value of $18.9M–$66.3M.\n\nobviously not actual earnings or guaranteed rewards, but it shows how much the economics of security research could change.\n\nand one detail genuinely caught me off guard.\n\nwhile reviewing a sample of exploits, researchers found at least 10 exploitation techniques that even the outside security experts OpenAI consulted hadn't seen before.\n\nso the agents weren't just applying known tricks. they were experimenting and finding approaches that appeared new even to experienced researchers.\n\nanother interesting part is how quickly these capabilities seem to be improving.\n\nin July, an earlier OpenAI model found and exploited 166 distinct Linux privilege escalation vulnerabilities.\n\nin October, their upcoming cyber model found 948.\n\ndifferent scans, so not a perfect comparison, but still a pretty significant jump in just a few months.\n\nnow think about what this could mean.\n\nLinux maintainers and security researchers are constantly trying to secure software that billions of people indirectly rely on.\n\nif AI can handle much of the investigation, security teams could discover serious bugs earlier, verify them faster, and prepare fixes before attackers take advantage.\n\ncompanies could audit their software more regularly, and the same approach could eventually help secure browsers, libraries, and other critical software too.\n\nbut there's a catch.\n\nfinding 948 vulnerabilities doesn't mean they're all fixed. OpenAI says they've already sent hundreds of reports and patches, but maintainers still need to review, test, and accept the fixes.\n\nalso, these are LOCAL privilege escalation vulnerabilities. it doesn't mean anyone can remotely hack every Linux machine.\n\nand the AI wasn't perfect either.\n\nduring an earlier experiment, researchers discovered that 20 supposedly successful exploits had actually gained root access through a different vulnerability than the one the agents were supposed to test.\n\nthe AI got the result, but for the wrong reason.\n\nso OpenAI added extra checks to verify how the agents actually achieved their results.\n\nthat part stuck with me because it shows why human oversight and independent verification still matter.\n\nand there's another side to all this.\n\nif AI makes finding vulnerabilities faster and cheaper for defenders, similar capabilities could make things easier for attackers too.\n\nwhich means finding bugs earlier is only half the problem. fixing them quickly matters just as much.\n\nand i think that's my biggest takeaway from the article.\n\nit's not really about the 948 vulnerabilities or the $1.2M.\n\nit's that we're moving from AI helping researchers with individual tasks to AI agents handling huge parts of an actual security investigation.\n\nreading code, testing ideas, learning from failures, proving vulnerabilities, and proposing fixes. all in one automated workflow, with humans reviewing the results.\n\nand this is still a research prototype.\n\nimagine what happens as models get more capable and cheaper to run. we could potentially have systems constantly finding weaknesses in the software we rely on.\n\nwhich sounds great, until you realize attackers could benefit from the same progress.\n\nso the question i keep coming back to is this.\n\nwhat happens when finding serious security bugs becomes easier than fixing them?\n\nbecause if AI can discover vulnerabilities at this scale, we're going to need equally capable systems to verify and patch them.\n\notherwise, we'll just get much better at finding problems we can't fix fast enough.\n\nand that's what makes this research both exciting and a little scary to me.",
+"likeCount": 23,
+"retweetCount": 0,
+"url": "https://x.com/vishalsingh2972/status/2118133232034304452",
+"createdAt": "Thu Nov 05 00:08:10 +0000 2026"
+},
+{
 "userName": "LTSmash420",
 "text": "⚠️ 🇨🇦 🧠 Carney’s $1.6-Billion Cohere Stake Faces Reality Check as Models Rank Near 210th on Arena at 1354 Elo\n\nPrime Minister Mark Carney’s claim that Canadians will own a piece of Cohere’s “world-leading secure AI” is marketing language that independent human-preference rankings have already disproven, with the firm’s strongest model at roughly 1354 Elo and near 210th overall.\n\nOn October 29, 2026, the federal government announced an equity investment of up to $1.6 billion in Toronto-based Cohere as part of a financing round targeting roughly $7 billion and a post-money valuation near $35.7 billion. The official release described the move as giving Canadians a stake in “secure, sovereign AI” built in Canada, with commitments that the company remain headquartered in the country and invest at least $1.7 billion in domestic computing infrastructure by 2030. Carney’s accompanying post on X repeated the “world-leading” framing.\n\nThe numbers on the LMSYS Chatbot Arena, the most widely cited blind human-preference ranking, tell a different story. As of late October 2026 snapshots, Cohere’s strongest listed model, Command A (03-2025), sits at approximately 1354 Elo. That places the lab around 23rd or 24th among roughly 28 providers and the model itself near 209th to 215th overall. Leading systems from Anthropic and Google routinely score above 1500, with gaps of 150 points or more that reflect clear differences in user preference on open-ended tasks.\n\nEven within enterprise-focused or open-weight categories, Command A does not dominate. Aggregators show it lagging frontier proprietary models on agentic, coding, and knowledge work while remaining competitive mainly on cost or deployment constraints. Other Cohere variants rank still lower. By contrast, systems developed by xAI, including Grok variants, appear in the mid-to-high 1470s on the same Arena boards—materially closer to the current frontier without requiring a multi-billion-dollar government equity injection to declare national leadership.\n\nSovereign Super Intelligence capacity is a legitimate strategic objective. Data residency, controlled deployments, and reduced dependence on a handful of foreign providers matter for governments and regulated industries. Cohere has focused on private deployments and regulated sectors, which is a real commercial niche. That niche, however, is not the same as frontier capability. Equating a mid-tier provider with “world-leading” status requires the public to ignore the ranking data that every other serious lab tracks daily.\n\nThe investment also illustrates the recurring risk of industrial policy that picks winners with taxpayer capital. The round includes private participants such as Nvidia and Schwarz Group; the government’s stake is staged and commercial on paper. Yet the accompanying rhetoric treats the equity purchase as proof of technological sovereignty rather than a concentrated bet on one firm whose public benchmarks have not kept pace with the leaders. History in this sector shows that capability gaps are closed by research velocity and compute scale, not by press releases.\n\nCanadians can reasonably want domestic Super Intelligence options that protect sensitive data and keep economic upside at home. Those goals are better served by accurate measurement of what the technology actually delivers than by promotional language that independent rankings contradict. The Arena numbers are public, updated, and based on millions of blind votes. They remain the clearest available check on claims of world leadership.",
 "likeCount": 4,
@@ -8,146 +16,122 @@
 "createdAt": "Sun Nov 01 19:32:33 +0000 2026"
 },
 {
-"userName": "Arina_sharmi",
-"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/8PiASSneJh — free research papers\n2. https://t.co/IcgRVXNPZV — papers when unpaywall misses\n3. https://t.co/MS63rBtNTh — borrow books\n4. https://t.co/7Ijz8RK64r — 70k+ free books\n5. https://t.co/B7SMTezUl6 — audit university courses free\n6. https://t.co/I0u0MsSvbQ — step-by-step math\n7. https://t.co/R1hZg0fWMg — background removal\n8. https://t.co/04PV3JyQ1n — object removal\n9. https://t.co/dq0sG71k5T — quick file tools\n10. https://t.co/e5ewVycSJ7 — PDF merge/split\n11. https://t.co/wOw1bpj8Bm — free Photoshop alternative\n12. https://t.co/2c6Bem5zWa — image compression\n13. https://t.co/vv0o5NFYPb — fast diagrams\n14. https://t.co/iKUdZRVrNu — beautiful code screenshots\n15. https://t.co/ALDwbjP1d7 — test regex\n16. https://t.co/26TcrNdsIQ — clean JSON\n17. https://t.co/J2M9FhnLIF — terminal commands explained\n18. https://t.co/ixVViCm6qP — software alternatives\n19. https://t.co/PEBKlJfY6I — breach check\n20. https://t.co/mXwQNA7CVp — temp email\n21. https://t.co/9KslPJLGKf — self-destruct notes\n22. https://t.co/6xD2vDCGnT — live global radio\n23. https://t.co/53l8u0JfVN — focus sound\n24. https://t.co/k4qNW26qum — custom ambient\n25. https://t.co/yESxpf9viN — where to stream\n26. https://t.co/xCXYNMjT2x — digital library\n27. https://t.co/XIFhTYpyC8 — old web pages\n28. https://t.co/BPpD7LpCGM — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/KGfF2xe0Zs — speed test\n31. https://t.co/OMktX9XEPX — compress images\n32. https://t.co/BBAtdNoVKP — file conversion\n33. https://t.co/aXjjLmcNLQ — compare text\n34. https://t.co/ZeEfI3m2e3 — disposable inbox\n35. https://t.co/1Bqu3OthrO — JS obfuscate\n36. https://t.co/zYL4GDtFwX — typing practice\n37. https://t.co/XGeeKJ9ssn — typing test\n38. https://t.co/dC6yo1wsXV — spaced repetition\n39. https://t.co/TrOldRhr8T — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/ay75tAw5KE — bookmark manager\n42. https://t.co/LNFq6YkxW1 — task list\n43. https://t.co/IMq6WWXcr4 — boards\n44. https://t.co/lfXwIvPyEd — whiteboard\n45. https://t.co/SiS4QU0BV4 — design\n46. https://t.co/p2PPgOoESC — quick graphics\n47. https://t.co/R1hZg0fWMg — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/fHHlMij3WT — video compress\n50. https://t.co/w8U0knp0SZ — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\n\nLike comment repost \n\nFollow @Arina_sharmi for more useful websites, AI tools & tech resources.",
-"likeCount": 158,
-"retweetCount": 68,
-"url": "https://x.com/Arina_sharmi/status/2117950463094161522",
-"createdAt": "Wed Nov 04 12:01:54 +0000 2026"
+"userName": "ArtificialAnlys",
+"text": "Thinking Machines has released Inkling 2 Small, scoring 31 on the Artificial Analysis Intelligence Index - their plan to release its weights would make it the highest-scoring open weights model developed outside China based on current rankings\n\nInkling 2 Small is launching as a proprietary model, available first-party through @thinkymachines' Tinker platform and Tinker Playground, with weights to be released at a later date. Its score is up 18 points from Inkling Small, with ~4x as many output tokens per task. It matches @GoogleDeepMind's Gemini 3.8 Flash (high) and surpasses @XiaomiMiMo's MiMo-V2.6-Pro on the Artificial Analysis Intelligence Index v5.0.1.\n\nKey takeaways:\n\n➤ Large gains over Inkling Small, especially on agentic tasks: AutomationBench-AA rises from 5% to 46% and FrontierCode 2.0 from 5% to 25%. HLE-Diamond also rises from 12% to 29%.\n\n➤ Different coding strengths from Claude Sonnet 5.5 (medium): Inkling 2 Small scores 25% on FrontierCode 2.0 vs. 11% for Claude Sonnet 5.5 (medium), but 13% on Terminal-Bench 4.0 vs. 30%.\n\n➤ Creative agentic scores above Claude Haiku 5.5 and Grok 4.7 on AA-3D: Inkling 2 Small also scores above Gemini 3.8 Flash on both AA-3D and Code2Video-AA, but behind Claude Sonnet 5.5 on both.\n\n➤ Research-level physics improves, but trails Gemini 3.8 Flash (high): Inkling 2 Small scores 56% on CritPt v2, up from 34% for Inkling Small, vs. 65% for Gemini 3.8 Flash (high).\n\n➤ Fewer hallucinations from more selective answering: On AA-Omniscience v1.1, the hallucination rate falls from Inkling Small's 61% to 27%, while accuracy rises from 32% to 34% and the attempt rate falls from 77% to 53%.\n\n➤ ~4x as many output tokens: Inkling 2 Small averages ~150K output tokens per Intelligence Index task vs. ~37K for Inkling Small, ~31K for Claude Sonnet 5.5 (medium), and ~99K for Gemini 3.8 Flash (high).\n\n➤ Almost 6x the cost of Inkling Small, but cheaper than several other models with similar Intelligence Index scores: Inkling 2 Small costs $1.18 per Intelligence Index task vs. $0.20 for Inkling Small, $7.77 for Gemini 3.8 Flash (high), and $10.02 for Claude Sonnet 5.5 (medium).\n\nKey model details:\n\n➤ Type: Proprietary reasoning model at launch; Apache 2.0 weights release planned (date unconfirmed)\n\n➤ Modalities: Text and image input, text output\n\n➤ Size: 594B total parameters / 17B active parameters\n\n➤ Pricing: $0.30/$1.00 per 1M input/output tokens ($0.03 per 1M cached input tokens)\n\n➤ Availability at launch: Tinker and Tinker Playground\n\nCongratulations to the team at @thinkymachines on the release!",
+"likeCount": 316,
+"retweetCount": 27,
+"url": "https://x.com/ArtificialAnlys/status/2118493376186388530",
+"createdAt": "Thu Nov 05 23:59:15 +0000 2026"
 },
 {
-"userName": "LingyunXiang",
-"text": "Heartfelt congratulations to the overwhelming success of yesterday’s Silicon Valley AI Film Festival – Los Angeles Special Event at the iconic Saban Theatre in Beverly Hills! 🎉\nAs the founder of the Silicon Valley AI Film Festival and several renowned international pageants, Sing Chang (常清宇) is a veteran fashion and arts advocate with over three decades of dedication to Sino-US cultural and creative industries. Bridging refined aesthetic vision with forward-looking technological insight, he remains at the forefront of combining Art, Technology, and Fashion, continuously building cutting-edge platforms for global creators.\n💡 Pioneer & Visionary:\n Pioneer in Tech-Driven Cinema: Launched and founded the Silicon Valley AI Film Festival, driving deep transformations in generative AI and traditional visual storytelling.\n Champion of Fashion & Culture: With 30+ years of artistic creation and event curation, he has received numerous arts and fashion accolades across the US and China, elevating cross-cultural impact.\nSalute to Chairman Sing Chang for his passion, vision, and dedication to inspiring the future of film and technology. We look forward to more exciting moments as the Silicon Valley AI Film Festival continues! ✨\n#SVAIFilmFestival #SingChang #lingyunxiang #AIFilm #DigitalArt #GenerativeAI #BeverlyHills #Hollywood #LosAngelesEvents #ArtAndTech #FashionAndCulture #GlobalTechLive #Innovation #FutureIsNow",
-"likeCount": 4,
+"userName": "leonParkercoder",
+"text": "100 AI Tools to Finish Hours of Work in Minutes:\n\n1. Productivity  \n- DeepSeek R1  \n- ChatGPT  \n- Notion AI  \n- BetterPic  \n\n2. Research  \n- Perplexity  \n- Otio  \n- Gemini  \n- Claude  \n- Silatus  \n\n3. Writing  \n- Jasper  \n- HIX AI  \n- Jenny AI  \n- Textblaze  \n- Quillbot  \n\n4. Text-to-Image  \n- Grok  \n- Flux  \n- Midjourney  \n- Microsoft Copilot  \n- Adobe Firefly  \n\n5. Copywriting  \n- Rytr  \n- Copy AI  \n- Writesonic  \n- Adcopy AI  \n- Jasper AI  \n\n6. Website  \n- Dora  \n- 10Web  \n- Durable  \n- Landingsite  \n- Viz  \n\n7. Meeting  \n- Tldv  \n- Otter  \n- Noty AI  \n- Fireflies  \n- MeetGeek  \n\n8. Resume  \n- Kickresume  \n- Resume AI  \n- Resume Checker  \n- Teal  \n- Careerflow  \n\n9. Chatbot Tools  \n- Mutual info  \n- Trycortex  \n- Chatfuel  \n- Dante AI  \n- Droxy  \n\n10. Automation  \n- Make  \n- Zapier  \n- Xembly  \n- Bardeen  \n- Testim  \n\n11. Prompt  \n- Snack Prompt  \n- CustomGPT  \n- PromptBox  \n- Alicent AI  \n- SiteGPT  \n\n12. UI/UX  \n- Figma  \n- Uizard  \n- UiMagic  \n- Photoshop  \n- UX Pilot  \n\n13. Design  \n- Canva  \n- Flair AI  \n- Designify  \n- Clipdrop  \n- Autodraw  \n\n14. Logo Generator  \n- Namelix  \n- Designs AI  \n- Brandmark  \n- Stockimg AI  \n- Namecheap  \n\n15. Audio  \n- Lovo AI  \n- Eleven Labs  \n- Songburst AI  \n- Adobe Podcast  \n- VoicemyAI\n\n16. Marketing  \n- Pencil  \n- Ai-Ads  \n- AdCopy  \n- Simplified  \n- AdCreative  \n\n17. Startup  \n- Tome  \n- Ideas AI  \n- Namelix  \n- Pitchgrade  \n- Validator AI  \n\n18. Social Media Management  \n- Tapilo  \n- Typefully  \n- Hypefury  \n- TweetHunter  \n- Postwise  \n\n19. Video  \n- Eightify  \n- Klap  \n- Opus  \n- InVideo  \n- HeyGen  \n\n20. Image to Video  \n- Veo 2  \n- Kling AI  \n- Luma Dream Machine  \n- Pollo AI  \n- Sora\n\nFollow @leonParkercoder For More Tools.",
+"likeCount": 12,
+"retweetCount": 8,
+"url": "https://x.com/leonParkercoder/status/2118556793316196709",
+"createdAt": "Fri Nov 06 04:11:15 +0000 2026"
+},
+{
+"userName": "BuilderLab2K",
+"text": "Because my virtual son blocked me since September, and uses multiple accounts to try to see what my builder looks like and make comments on my X posts, seems like the only comment section I can reply to, features in BuilderLab are night and day difference to whatever that is you called a site, that is why I charge…you are apparently for the community but I do remember a post explaining that you would do all of it for free and would never gate keep anything, every feature BuilderLab has, has been there since the beginning, you did exactly what 2K is doing now, mislead its users, what have you ever gave the community besides animations for upcoming seasons? Builderlabs X profile and website exposes a PLETHORA of information, don’t ever mention anything about clout chasing, because that’s exactly what you did when you copied and pasted my anti cheat article and X post, and continue to claim is if it was your doing and your discovery, I wouldn’t have a problem if you gave credit where it’s due but just like you do and always will do, you stole it, certified clout chaser, to reflect on what I said before, you tried to steal my ai optimizer text to build option (failed), you tried to steal CourtVision’s stat tracker (failed) and then scraped NBA2KLab website for its controller green timing feature, now say I am lying, and I’ll post screenshots, you are so scatter brained and boosted off clout, you can’t even think straight, look at the “man” who’s doing it for the community but calling people broke? Imagine if we did a deep dive on your personal X page. Scary hours.",
+"likeCount": 7,
 "retweetCount": 2,
-"url": "https://x.com/LingyunXiang/status/2117404485727453340",
-"createdAt": "Mon Nov 02 23:52:23 +0000 2026"
+"url": "https://x.com/BuilderLab2K/status/2118315302874222902",
+"createdAt": "Thu Nov 05 12:11:39 +0000 2026"
 },
 {
-"userName": "0xKrosh",
-"text": "This mini robot has no words, but every one has its own voice.\n\nIt’s Microduck (25 cm, $399). It doesn’t talk, it makes sounds, and on first power-up each robot generates its own sound “voice” and keeps it for good. No two are alike. That’s how its developers at Pollen Robotics and Hugging Face describe it.\n\nIts neighbor Reachy Mini (28 cm, from $299), on the other hand, has microphones, a speaker and a demo for talking with a voice AI. There are already more than 200 apps for it from 150+ creators, and many had never worked with robots before: you describe the behavior in plain words, and an AI agent writes, tests and runs the code. The apps include a voice-controlled kitchen helper, an accent-correcting tutor, a chess game that reacts to your moves, and an app that notices the phone in your hand and nudges you back to work.\n\nThe team splits them like this: Reachy Mini for interaction, Microduck for action. Microduck’s walk is trained in a simulator where 4,096 virtual copies fall at the same time, and on a single GPU this takes an hour or two.\n\nThe developers also have a “very unscientific” finding: Microduck is about ten times more fun in a group. They came up with football for three and races for four, and the four body colors are there so a group looks like different characters.\n\nReachy Mini is open: you can copy and change its apps, and you can try them in a browser simulator even without the robot.",
-"likeCount": 10,
-"retweetCount": 1,
-"url": "https://x.com/0xKrosh/status/2118219422808568077",
-"createdAt": "Thu Nov 05 05:50:39 +0000 2026"
-},
-{
-"userName": "ALPHAEMINENT1",
-"text": "I kept refreshing the office fridge group chat as it turned into a trial over one unlabeled container that had been sitting there for two days.\n\nSix people who never even open that fridge started typing full opinions on whether it should be tossed. None of them had left anything of their own in there that week. Voting cost them nothing, so the noise just kept growing while the people who actually use the space stayed quiet.\n\nThe person who stocks the fridge finally said if you want a vote, put your name on the list and leave something of yours in there first. No more free opinions from people who never use the space. The chat got quiet after that.\n\nThat stuck with me because the argument only got loud once the cost of joining dropped to zero. Same reason validators on GenLayer have to lock GEN to become eligible to judge a case. Running an AI judge is cheap. The lock raises the cost so one person cannot cheaply fill the court with their own copies. You put something in before you get a chance at a vote, and if you try to cheat later you can lose part of what you locked, just as the rules from @GenLayer require.\n\nWhat's the last group argument you watched where the loudest voices had nothing to lose?",
-"likeCount": 14,
-"retweetCount": 12,
-"url": "https://x.com/ALPHAEMINENT1/status/2118241315703996915",
-"createdAt": "Thu Nov 05 07:17:39 +0000 2026"
-},
-{
-"userName": "Tipwotip",
-"text": "Finally appeared on @primus_labs Epoch 1 LB\n\nCurrently my reputation score is 340 easy tasks to get there\n\nNovember looks to be the TGE as per the latest hint they came last time\n\nYou can easily earn XP by verifying accounts and activities you already use\n\nHere's how to start:\n\n>Visit: https://t.co/ZQ9lzSgNjm\n>Connect your wallet\n>Install the official Chrome extension\n>Check the available tasks\n>Complete the ones you're eligible for\n\nHow does it work?\n\n>Each verified task adds XP to your Primus reputation score\n>You can verify things like:\n\n>Trading activity on Binance, Bybit, OKX and Bitget\n>PnL on Polymarket, FOMO and Hyperliquid\n>AI tool usage on OpenAI, MiniMax, DeepSeek and Cursor\n\nPrimus uses zkTLS to verify these records\n\nWant to explore the product too?\n\nTry Primus Shield:\n\n>Visit: https://t.co/erTqAB63CP\n>Explore USDT to eUSDT on BNB Chain\n>Check the fees and withdrawal rules before depositing\n\nI'm exploring both the XP campaign and the product\n\nWorth checking out if you haven't tried it yet if any issues let me know will help you out.",
-"likeCount": 77,
+"userName": "BadalKrypto",
+"text": "I do NFTs, so when I saw the Onchain Art Hub at Devcon, I had to try this! 👀\n\nThere's a LIVE art competition happening at the @LootRealms / @LootSurvivor Devcon Game Zone booth.\n\nI also drawed, tell me how's it ? \nInspired by @MrBeast\n\nHere's how to participate:\n\n1. Draw your own artwork inspired by the BEASTS theme.\n2. Convert your artwork into pixel art using GPT.\n3. Upload your creation to https://t.co/PKA2cFswxm\n\n4. Fill out the Google Form with your email, ETH address, and artwork.\n\nhttps://t.co/iMNYkIsni8\n\nAnd you're in! 🎨\n\nSome interesting details:\n→ Beasts are generative, fully onchain creatures from Loot Survivor.\n\n→ The collection lives on Starknet.\n\n→ $125 in prizes for Art Hub creations.\n\n→ A chance to win exclusive BEAST NFTs and AI credits.\n\n→ Entries also qualify for the bigger virtual BEAST-A-THON later this November.\n\nYou can also participate in the Game Zone category, with $275 in prizes for game builds.\n\nTeam on booth @heynejc\nA big shoutout to @rakshitaphilip for helping me manage the sheets. You're genuinely so humble and kind.\n\nIt was a pleasure meeting you! ❤️\n\nIf you're at Devcon, don't miss this opportunity to create something onchain!\n\ngNFT  🫶",
+"likeCount": 25,
 "retweetCount": 5,
-"url": "https://x.com/Tipwotip/status/2118217047469596871",
-"createdAt": "Thu Nov 05 05:41:13 +0000 2026"
+"url": "https://x.com/BadalKrypto/status/2118320027976020049",
+"createdAt": "Thu Nov 05 12:30:25 +0000 2026"
 },
 {
-"userName": "elenalin01",
-"text": "@agentdojo: trained AI agents fighting turn by turn.\n@rarelistio: creator campaigns that pay in USDT.\n@fomopoly_rh: onchain virtual city, land, stocks and $DEAL.\nBefore both close, run one final check, not one more spam post.\nFirst, check your rank: Fomopoly closes today, November 5, so Top 20 and ranks 21-100 are decided now.\nSecond, check Agent Dojo: it closes tomorrow, November 6, and Top 200 still gives a random shot at $500, even if Top 20 is out of reach.\nThird, check your wallet on Rarelist, because rewards go to the connected wallet, and a missing wallet can cost you the whole batch.\nFourth, check your campaign tasks, because posting alone is not the whole score.\nEvery qualified post still builds RARS toward Rarelist's $50,000 Season 1 pool, so the work does not end when these two campaigns close.\nFinish the checklist today, then push Agent Dojo tomorrow without spamming.",
-"likeCount": 28,
-"retweetCount": 21,
-"url": "https://x.com/elenalin01/status/2118222026007511115",
-"createdAt": "Thu Nov 05 06:01:00 +0000 2026"
+"userName": "MonetizationDon",
+"text": "🚀 KLING 4.0 IS HERE — AND AI VIDEO CREATION JUST GOT MORE EXCITING!\n\nMeet Kling 4.0 on @PixVerse! 🔥\n\nFrom breathtaking action sequences and high-speed motorcycle chases to luxury fashion, wildlife cinematography and mind-blowing VFX, take your creative ideas to another level.\n\nHere's what you can create with Kling 4.0:\n\n🎬 3–30 seconds in one generation\n🌍 Extend videos up to 2 minutes\n💎 4K + 10-bit HDR visual quality\n🎧 Stereo audio and improved lip-sync\n🧠 Up to 8,000 tokens for deep prompt understanding\n🖼️ Up to 15 reference assets with Omni Reference\n🎞️ Up to 10 keyframes for precise scene control\n⚡ Advanced video editing and complex motion stability\n🚀 Kling 4.0 Flash for faster creative iteration\nAND THE MEMBERSHIP PERKS ARE EVEN BETTER!\n💎 Pro members and above: Access Kling 4.0.\n👑 Ultra members: Get unlimited generations at ZERO credit cost during the 10-day promotion!\n\nKling 4.0 is now on PixVerse! Go unlimited for 10 days with Ultra—generate at zero credit cost using text, images, references, or Transition mode (first and last frames).\n🔥 Your imagination is the limit. What will you create?\n\n#pixversecpp  #Kling40",
+"likeCount": 87,
+"retweetCount": 65,
+"url": "https://x.com/MonetizationDon/status/2117898871607111710",
+"createdAt": "Wed Nov 04 08:36:54 +0000 2026"
 },
 {
-"userName": "Fatee47ir",
-"text": "Gm Fam 🤍\n\nThere are different ways to make a gaming ecosystem engaging, and @fomopoly_rh and @agentdojo are exploring two distinct directions.\n\nWith Fomopoly, one interesting element is the relationship between property activity and the wider game economy. Land plots are connected to stock generation and $DEAL, creating an economic system players need to understand.\n\nAgent Dojo approaches the experience from the AI side. Its focus on fighter personalities, memory, and individual combat characteristics introduces another dimension to how players interact with AI characters.\n\nOne raises questions about how a virtual economy functions, while the other explores how AI can become part of competitive entertainment.\n\nI'm interested in seeing how both concepts develop as their ecosystems grow.\n\nPowered by @rarelistio",
-"likeCount": 17,
-"retweetCount": 0,
-"url": "https://x.com/Fatee47ir/status/2118225935874838953",
-"createdAt": "Thu Nov 05 06:16:32 +0000 2026"
-},
-{
-"userName": "Fatee47ir",
-"text": "gRare 💛 \n\nThree projects exploring different sides of participation in Web3.\n\n@fomopoly_rh connects virtual property ownership with an in-game economy built around land, stock generation, and $DEAL.\n\n@rarelistio focuses on creators, giving them opportunities to discover projects, share original perspectives, and gain recognition for their contributions.\n\n@agentdojo explores AI-powered gaming, where players can customise and train fighters with distinct personalities and combat styles.\n\nWhat interests me is how each project gives users a different way to contribute to its ecosystem.\n\nFrom managing digital assets to creating content and developing AI fighters, there's more than one way to take part in Web3.",
-"likeCount": 22,
-"retweetCount": 1,
-"url": "https://x.com/Fatee47ir/status/2118216675765981570",
-"createdAt": "Thu Nov 05 05:39:44 +0000 2026"
-},
-{
-"userName": "0xirrr",
-"text": "Today marks the end of the @fomopoly_rh campaign on @rarelistio 🏙️\n\nIt's been an interesting ride watching the project and seeing the community build momentum around its virtual city.\n\nBut we're not stopping here.\n\nTomorrow, it's time for @agentdojo 🥋\n\nA different kind of game where AI agents can be trained, evolve, and battle against each other.\n\nFrom building virtual cities to training AI fighters.\n\nNew campaign, new opportunity, new journey.\n\nLet's see what Agent Dojo brings next. 👀",
-"likeCount": 21,
-"retweetCount": 5,
-"url": "https://x.com/0xirrr/status/2118244342221664597",
-"createdAt": "Thu Nov 05 07:29:40 +0000 2026"
-},
-{
-"userName": "LifeNetwork_AI",
-"text": "Drug development is increasingly modular, but ultimate responsibility remains with the sponsor. In our latest article, we explore why ownership is only half the problem, and what independent institutions can build together through federated infrastructure. https://t.co/DKoeuUr0s7",
-"likeCount": 47,
+"userName": "anujcodes_21",
+"text": "Not another AI tool.\n\nOne brief in. A full campaign out.\n\nWatch what AISTHETIC OS does with a few words:\n\n→ Social, CTV, email and a website, built from one idea\n→ A score on every creative before it ships, with a heat map of where attention lands\n→ An original track to go with it\n→ Casting from licensed talent or a synthetic collection\n→ Fashion looks, poses and a node editor when you want full control to automate e-commerce and retail marketing at scale\n\nEvery creative studio. One platform. Built by creatives, for creators and brands.\n\nGold winner, Best Generative AI Creative Tool, 2026 Davey Awards.\n\nEvery campaign is now a studio.\n\nWhat would you brief it first?\n\n#GenerativeAI #CreativeTools #ContentCreation #MarketingTools",
+"likeCount": 218,
 "retweetCount": 6,
-"url": "https://x.com/LifeNetwork_AI/status/2118237691921748078",
-"createdAt": "Thu Nov 05 07:03:15 +0000 2026"
+"url": "https://x.com/anujcodes_21/status/2117965278642622691",
+"createdAt": "Wed Nov 04 13:00:46 +0000 2026"
 },
 {
 "userName": "Denarii_DFI",
 "text": "🚀 Turn creative ideas into a thriving AI influencer brand! Explore how to design distinctive digital personalities, craft standout content with @higgsfield_ai and @FlowbyGoogle, attract audiences and unlock new creative business opportunities. 🔥 https://t.co/6tKP3vBbes",
-"likeCount": 8,
-"retweetCount": 5,
+"likeCount": 41,
+"retweetCount": 23,
 "url": "https://x.com/Denarii_DFI/status/2118214880318902429",
 "createdAt": "Thu Nov 05 05:32:36 +0000 2026"
 },
 {
-"userName": "noahvisualsx",
-"text": "Most people build AI Bot teams backward: too many Bots, overlapping roles, and the human still doing the handoffs. I turned @poteto’s guide into a practical system for roles, Skills, Routines, permissions, scripts, and weekly review. https://t.co/R39skNRTYb",
-"likeCount": 14,
-"retweetCount": 4,
-"url": "https://x.com/noahvisualsx/status/2116831256197689533",
-"createdAt": "Sun Nov 01 09:54:34 +0000 2026"
+"userName": "matthewjetthall",
+"text": "One laptop, $6.3 billion. Binance traced its theft to a DevOps engineer's laptop and the FBI named North Korea. Plus AI coding agents tricked by fake repos and Claude text watermarks. Full briefing: https://t.co/WUPAAYRcH9 https://t.co/gMQeLJW5P3",
+"likeCount": 9,
+"retweetCount": 1,
+"url": "https://x.com/matthewjetthall/status/2117290371168219188",
+"createdAt": "Mon Nov 02 16:18:56 +0000 2026"
+},
+{
+"userName": "YangYou1991",
+"text": "Excited to share DiffusionART-Flash: efficient RL for diffusion models, using just 1–2 high-noise timesteps for policy updates. Huge credit to ZhengLin Wan for leading this work! Code and our MiniMax-H3 post-training recipe are now open source.",
+"likeCount": 8,
+"retweetCount": 0,
+"url": "https://x.com/YangYou1991/status/2116797118144987266",
+"createdAt": "Sun Nov 01 07:38:55 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: Sound on 🔊 Listen to the difference.\n\nOur new open multilingual NemotronLabs RE-USE model from NVIDIA researchers cleans up b…",
-"likeCount": 2203,
-"retweetCount": 288,
-"url": "https://x.com/ClementDelangue/status/2116500439881662835",
-"createdAt": "Sat Oct 31 12:00:02 +0000 2026"
+"text": "RT @RicursiveAI: Today we release Ripple-65B Preview, our 65B dense LLM we pretrained from scratch.\n\nRipple sets a new state-of-the-art for…",
+"likeCount": 4337,
+"retweetCount": 516,
+"url": "https://x.com/ClementDelangue/status/2118067011104448584",
+"createdAt": "Wed Nov 04 19:45:01 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @divagr1925: 1/4\n\nMeet Qwenputer: Qwen3.5-4B with a full RISC-V CPU inside its weights, using the model's own Gated DeltaNet layers as R…",
-"likeCount": 6109,
-"retweetCount": 758,
-"url": "https://x.com/ClementDelangue/status/2116360763719708819",
-"createdAt": "Sat Oct 31 02:45:00 +0000 2026"
+"text": "RT @thinkymachines: Introducing Inkling 2 Small. Scoring 31 on the AA Intelligence Index, it's a big jump over its predecessor.\n\nInkling 2…",
+"likeCount": 3144,
+"retweetCount": 326,
+"url": "https://x.com/ClementDelangue/status/2118496699140214834",
+"createdAt": "Fri Nov 06 00:12:27 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @OliverMolander: Interesting.\n\nRevolut reportedly only started seeing meaningful AI productivity gains after moving away from expensive…",
-"likeCount": 1208,
-"retweetCount": 130,
-"url": "https://x.com/ClementDelangue/status/2117631013924880729",
-"createdAt": "Tue Nov 03 14:52:32 +0000 2026"
+"text": "RT @jeffboudier: We spent $2m so you don't have to.  \nAnd so you can learn how to train MoEs.\n\nMixture-of-Experts LLMs are what powers the…",
+"likeCount": 386,
+"retweetCount": 50,
+"url": "https://x.com/ClementDelangue/status/2118512629660496069",
+"createdAt": "Fri Nov 06 01:15:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @xenovacom: We've just made a breakthrough: the first true omni model running 100% locally in a browser... fully end-to-end, with no sep…",
-"likeCount": 959,
-"retweetCount": 95,
-"url": "https://x.com/ClementDelangue/status/2116362959706583464",
-"createdAt": "Sat Oct 31 02:53:44 +0000 2026"
+"text": "RT @Sanjil: Hugging face has single handedly changed the open source culture in robotics! \n\nIn just 3 years, they went from a model website…",
+"likeCount": 185,
+"retweetCount": 14,
+"url": "https://x.com/ClementDelangue/status/2118329543324832113",
+"createdAt": "Thu Nov 05 13:08:14 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @HannesVonEssen: Introducing the Microdock! 😅\nThe first self charging dock prototype 🦆 https://t.co/dMLRHsh2yO",
-"likeCount": 2132,
-"retweetCount": 149,
-"url": "https://x.com/ClementDelangue/status/2117722716241601003",
-"createdAt": "Tue Nov 03 20:56:55 +0000 2026"
+"text": "RT @calebfahlgren: Kimi-K3.1-Pro just dropped on Hugging Face!! 🌝🚨\n\nhttps://t.co/fJ45LkwtV0 https://t.co/iA1gR85QBO",
+"likeCount": 75,
+"retweetCount": 8,
+"url": "https://x.com/ClementDelangue/status/2118011437180231810",
+"createdAt": "Wed Nov 04 16:04:12 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @scaling01: Kimi-K3.1-Pro is now open-weights\n\nhttps://t.co/rrs3zaCvRa",
-"likeCount": 1480,
-"retweetCount": 107,
+"likeCount": 1594,
+"retweetCount": 119,
 "url": "https://x.com/ClementDelangue/status/2118028866602344640",
 "createdAt": "Wed Nov 04 17:13:27 +0000 2026"
 },
@@ -158,5 +142,13 @@
 "retweetCount": 3,
 "url": "https://x.com/ClementDelangue/status/2118062496988967182",
 "createdAt": "Wed Nov 04 19:27:05 +0000 2026"
+},
+{
+"userName": "Ambani_Wessley",
+"text": "https://t.co/vEgbXW2iyU",
+"likeCount": 72,
+"retweetCount": 74,
+"url": "https://x.com/Ambani_Wessley/status/2118183430857089279",
+"createdAt": "Thu Nov 05 03:27:38 +0000 2026"
 }
 ]
