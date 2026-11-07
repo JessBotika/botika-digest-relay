@@ -1,27 +1,19 @@
 [
 {
-"userName": "gmkurtzer",
-"text": "So in case you missed it... I created an x86 operating system kernel that is compatible with Linux user-space using HDAE and AI in 11 days. And after about a week I killed it.\n\nThat sounds more dramatic than it actually is, but that is the gist.\n\nThe point of this wasn't to create a production Linux compatible or competitive kernel (that would be silly), the point was different...\n\nWe all know what Vibe Coding is at this point. I define it slightly different then maybe others, as I think of it as someone who doesn't know the subject matter well, asking AI to do something, and they \"vibe\" (or maybe more accurately, stumble) it into existence.\n\nWhile people are talking about it, being capable of replacing developers and knowledgeable and skilled humans, I don't believe the output is great.\n\nBut, when AI is led by somebody who really understands what they are doing, amazing results can be achieved! I've seen this first hand myself, as well as with others, and the results are outstanding, so I wanted to put my process to the test.\n\nI call this process Human-Directed Agentic Engineering (HDAE), and I decided to try to implement a crazy task with it... Something I'm familiar with, something that can be easily tested and iterated on something that no-sane person would take on by themselves.... Building an operating system kernel capable of running Linux.\n\nAnd thus Ginux was born.\n\nhttps://t.co/tiHTFWWtvG\n\nTo reiterate, the point of the research was NOT to create a kernel or to compete with the works of many thousands of developers, programmers, community members, and companies... The point was to prove a concept, and I did that.\n\nThen what happened is attention, a LOT of attention, in the form of news, articles, podcasts, videos, ad-hoc code reviews, and activity on the GitHub project.\n\nThat is great, right?!? But no, that was't my intention. I debated not taking any of the PRs, but this gave me a chance to test something else...\n\nI've been working on formalizing a release of the HDAE skills, so others can more easily leverage this process. \n\nhttps://t.co/qZ1S5DHnZk\n\nSo I wanted to test these skills and process for also maintaining code and contributions. And while it's not completely done, I wanted to test ingestion of ideas, fixes, reviews, issues, and PRs using this model.\n\nTL;DR, there is more tuning I need to do for this, but it did great! I was able to run automatic reviews on almost 80 PRs and 70 issues, many of which created HDAE gates automatically and built the fixes automatically.\n\nBut maintaining Ginux wasn't what I set out to do... I tested a process, and it was a success, so I started considering lessons learned.\n\nOne of the things I did different in Ginux was I approached multi-operating system support as a first tier capability layer that I called \"domains\". You can think of domains as a way to completely separate and isolate user space environments above containers.\n\nIn Ginux I had a kernel included controller process but it ran in ring 3 in user space, rather than a kernel thread. It was interactive and allowed the user to configure the user space. So for example, you can configure a \"domain\" to boot a Rocky Linux 10 container, and it would manage separation more like a virtual machine then a container.\n\nDomains can be scheduled differently for each, and against each other, with harder boundaries then containers.\n\nThey also maintain the concept of operating system \"personalities\" like Linux, or BSD, or Darwin, or maybe even Windows (note: the only one that was done and tested was Linux).\n\nSo... My next test for Ginux is a user space kernel shim, that sits between the kernel and user space to provide more control over the user space than the kernel will accomplish. This is because the kernel guarantees user space compatibility, nothing is dropped, stability is paramount. So I asked a question, what if we dropped, broke, or monitored some things on purpose. What could we do?\n\nSo there are some projects that already do parts of this, gVisor, user-mode Linux, among others, but what I'm thinking was a bit different... What if in each \"domain\" you can control what kernel interfaces are exposed, and what the running user space was allowed to do in that environment. What could we control, and do we end up with a more secure environment?\n\nThe beauty of this is that it still leverages all of the same capabilities and security of the Linux kernel as it exists now, and then it gives the user the ability to provide very custom and specific locked down environments, all in user space.\n\nSo Ginux has pivoted to now research this idea. I honestly have no idea how it will turn out, but thanks to AI and HDAE, I have a feeling in a few days, I'll have a lot more to report back on.\n\nThe Ginux repo above, has already been pivoted to the user space kernel, and it is documented within the project. The previous full kernel implementation is archived there in a branch for anyone who wants to see or use it.\n\nOh, and one other thing, it is pronounced: Jin-uks.",
-"likeCount": 342,
-"retweetCount": 43,
-"url": "https://x.com/gmkurtzer/status/2118146379168297443",
-"createdAt": "Thu Nov 05 01:00:24 +0000 2026"
+"userName": "piyascode9",
+"text": "33 AI Tools That Can Change How You Work (2026–2030)\n\nSave this list. These tools can help you research, write, design, create videos, analyze data and build software.\n\n🔵 2026 — Tools to Use Today\n\n1. Google Search\n🔗 https://t.co/og2uINo7q3\nUse: Find information, websites and resources.\n\n2. ChatGPT\n🔗 https://t.co/lsNiTTX9Oe\nUse: Writing, research, coding, brainstorming and image creation.\n\n3. Adobe Acrobat\n🔗 https://t.co/jYT7ejRE2R\nUse: Read, edit and manage PDF files.\n\n4. Adobe Illustrator\n🔗 https://t.co/TGozosvdaW\nUse: Create logos, icons and vector graphics.\n\n5. Adobe Photoshop\n🔗 https://t.co/l05EhxeV3j\nUse: Photo editing, image manipulation and design.\n\n6. Microsoft PowerPoint\n🔗 https://t.co/LUAdrqK4W7\nUse: Create professional presentations and slides.\n\n7. Keyboard\n🔗 No specific website\nUse: Type and control your computer or phone.\n\n8. Microsoft Excel\n🔗 https://t.co/LUAdrqK4W7\nUse: Spreadsheets, calculations and data analysis.\n\n9. Google Chrome\n🔗 https://t.co/1kkJbBsSP8\nUse: Browse websites and access online tools.\n\n10. Adobe Premiere Pro\n🔗 https://t.co/mueeL4PtyS\nUse: Professional video editing.\n\n11. GitHub Copilot\n🔗 https://t.co/NtZboHYJpK\nUse: AI coding assistance and code completion.\n\n🟣 2028 — AI Tools & Expected Evolution\n\n12. Perplexity\n🔗 https://t.co/2KGMUPqi6i\nUse: AI-powered search and research with sources.\n\n13. Claude\n🔗 https://t.co/6ll6fO3WPY\nUse: Writing, coding, document analysis and problem-solving.\n\n14. NotebookLM\n🔗 https://t.co/dypQpW3Ofn\nUse: Research, summarize documents and understand complex topics.\n\n15. Figma AI\n🔗 https://t.co/iMOPYHgF3X\nUse: UI/UX design, prototypes and design workflows.\n\n16. Nano Banana\n🔗 https://t.co/cHaqCIL1gi\nUse: AI image generation and image editing.\n\n17. Gamma\n🔗 https://t.co/q5AAFDJh9g\nUse: Create presentations, documents and websites.\n\n18. Wispr Flow\n🔗 https://t.co/lB7tr6KCWf\nUse: Convert your speech into polished written text.\n\n19. Julius AI\n🔗 https://t.co/CtMrdXcJLJ\nUse: Analyze data, create charts and generate reports.\n\n20. Arc Browser\n🔗 https://t.co/9HIOlF5yHD\nUse: A browser designed for a more organized browsing experience.\n\n21. OpusClip\n🔗 https://t.co/6AocO8p5LL\nUse: Turn long videos into short social media clips.\n\n22. Windsurf\n🔗 https://t.co/P50pOvqaWX\nUse: AI-assisted coding and software development.\n\n🟢 2030 — Expected AI Future\n\nThese are emerging AI capabilities and predictions, not confirmed products or launch dates.\n\n23. AI Search Agents\nUse: Search, compare and collect information automatically.\n\n24. Personal AI Agents\nUse: Handle personal tasks and manage daily workflows.\n\n25. Autonomous Research Agents\nUse: Conduct research, analyze information and prepare reports.\n\n26. Midjourney 7\n🔗 https://t.co/NhehpoL70L\nUse: Generate creative AI images.\n\n27. FLUX AI\n🔗 https://t.co/EVQpC26Tpn\nUse: AI image generation and creative editing.\n\n28. AI Presentation Agents\nExample: https://t.co/q5AAFDJh9g\nUse: Build presentations with AI assistance.\n\n29. Multimodal AI Interfaces\nExample: https://t.co/lsNiTTX9Oe\nUse: Interact with AI through text, images, audio and other formats.\n\n30. Autonomous Data Analysts\nExample: https://t.co/CtMrdXcJLJ\nUse: Analyze datasets and generate insights.\n\n31. AI Agent Browsers\nUse: Let AI assist with browsing and completing web tasks.\n\n32. AI Video Studios\nExample: https://t.co/hxlpoZeipa\nUse: Generate and edit videos with AI.\n\n33. Autonomous Coding Agents\nExample: https://t.co/P50pOvqaWX\nUse: Build, edit and manage software projects with AI.\n\n🚀 The biggest opportunity isn't just learning AI tools.\n\nIt's learning how to use them to solve problems, build skills and create income.\n\nSave this list. Your future self may thank you.\n\nWhich tool do you want to learn first? 👇",
+"likeCount": 54,
+"retweetCount": 38,
+"url": "https://x.com/piyascode9/status/2118899818605208066",
+"createdAt": "Sat Nov 07 02:54:18 +0000 2026"
 },
 {
-"userName": "pushpendratips",
-"text": "🚨50 Legendary Websites .\nThe Internet’s Ultimate Hidden Toolbox 🧰 \n\n1. https://t.co/iXksONaLK6 — Borrow millions of books online\n2. https://t.co/Z0k00Ug61E — 70K+ free classic eBooks\n3. https://t.co/xhdC95c4Rm — Directory of open-access academic journals\n4. https://t.co/6kT8xd5sww — Search global research papers instantly\n5. https://t.co/u9A9TJXlEE — Free educational and cultural media\n6. https://t.co/XQDVFjyecZ — Compute expert answers using AI\n7. https://t.co/nIGhKJdziA — AI research assistant for scientists\n8. https://t.co/CLIu2l5iXA — Get instant research-backed AI answers\n9. https://t.co/E7m6Ck30mZ — Ultimate AI assistant for any task\n10. https://t.co/5srBYy6lV2 — Advanced AI for text and coding\n11. https://t.co/1fOPubpE2c — Free web-based Photoshop alternative\n12. https://t.co/rNrxrAQYIi — Create professional graphics and designs easily\n13. https://t.co/D3Kr4SkyDq — Remove image backgrounds in seconds\n14. https://t.co/Dpb51M1qhZ — Compress and optimize images instantly\n15. https://t.co/0TUj7ek4YF — Erase unwanted objects from photos\n16. https://t.co/wI9gxfLg7K — Next-generation AI video editing tools\n17. https://t.co/nitg7NWfXR — Build, host, and share code globally\n18. https://t.co/ILaWfi0Fkh — Turn source code into beautiful images\n19. https://t.co/XYQeouJGrb — Intelligent AI search engine for developers\n20. https://t.co/LBxq9AQQ8H — Test, build, and debug regular expressions\n21. https://t.co/8yQmCxCAyb — Clean, format, and convert code\n22. https://t.co/Ff9YSg5ITx — Validate and beautify JSON data\n23. https://t.co/g6ZOfqGGWm — Deconstruct and understand terminal commands\n24. https://t.co/HNYYi3HZOe — Create stunning, modern product mockups\n25. https://t.co/01leKsbCwx — Find better alternatives to any app\n26. https://t.co/EewDlU4zPB — Check if your data has been leaked\n27. https://t.co/E9AE20n3X2 — Scan files and URLs for malware\n28. https://t.co/YJ3lC2g11P — Rates website privacy policies instantly\n29. https://t.co/bnECUz7UDw — Disposable temporary email to block spam\n30. https://t.co/MlsjO0aYeZ — Secure and encrypted private email\n31. https://t.co/rOaxcHpVX1 — Secure file sharing with self-destructing links\n32. https://t.co/PXde04wrhg — Send large files seamlessly online\n33. https://t.co/4Ol2uT8bQh — Listen to live worldwide radio stations\n34. https://t.co/cvcYjeLAWF — Discover similar music artists instantly\n35. https://t.co/TAlobsQ5vn — Identify songs from movies and TV shows\n36. https://t.co/6s1Wbg51G3 — Stream music and podcasts globally\n37. https://t.co/6iiuWA8IZB — Customizable background noise generator\n38. https://t.co/3gXDRWh02L — Accurate browser voice-to-text typing\n39. https://t.co/AhQsGwrMVf — Exceptionally accurate language translator\n40. https://t.co/boTb7Yp854 — Find where to stream any movie or show\n41. https://t.co/Uxnq5e9Y9h — The internet’s massive digital library\n42. https://t.co/77mBSA3vIX — Find related websites instantly\n43. https://t.co/4cncMBWNlB — Get quick AI summaries of YouTube videos\n44. https://t.co/hchmoOeE5v — All-in-one smart bookmark manager\n45. https://t.co/CLj8aXGehD — Monitor real-time website outages\n46. https://t.co/8EOketkZpJ — Highly accurate reverse image search\n47. https://t.co/5s49ChxEGj — Blazing-fast internet speed test by Netflix\n48. https://t.co/9AzfxvFE9v — Free unlimited web-based PDF tools\n49. https://t.co/QXsYB9elD4 — Merge, split, and convert PDF files\n50. https://t.co/2z0VNB4a8s — Global network performance and speed metrics\n\n📌Save this. You’ll definitely need some of these later.\n\nFollow \n@pushpendratips \n for more useful websites, AI tools & tech resources.",
-"likeCount": 23,
-"retweetCount": 4,
-"url": "https://x.com/pushpendratips/status/2118545143938900420",
-"createdAt": "Fri Nov 06 03:24:57 +0000 2026"
-},
-{
-"userName": "Trisha_Techie",
-"text": "Here is a comprehensive list of how to make money with AI ⬇️\n\nAI VIDEO SERVICES:\n1. AI UGC Ads\n2. Product commercials\n3. Social media ads\n4. AI influencer campaigns\n5. Product launch videos\n6. Fashion campaigns\n7. Beauty campaigns\n8. Hair campaigns\n9. Skincare campaigns\n10. Real estate visual campaigns\n11. AI spokesperson videos\n12. AI explainer videos\n13. App commercials\n14. SaaS ads\n15. Cinematic brand films\n16. Short promotional videos\n17. AI music visuals\n18. Event promotional videos\n19. Book trailers\n20. Movie trailers\n\nAI STORYTELLING:\n21. Facebook micro dramas\n22. YouTube short dramas\n23. TikTok episodic stories\n24. Instagram drama series\n25. AI romance stories\n26. AI thriller stories\n27. Movie-style trailers\n28. Fictional character channels\n29. AI soap opera series\n30. Interactive stories\n\nAI INFLUENCERS:\n31. Sponsored posts\n32. Affiliate marketing\n33. Digital products\n34. UGC-style content for brands\n35. Brand campaigns\n36. Paid collaborations\n37. Facebook monetization\n38. YouTube Shorts\n39. TikTok monetization\n40. Licensing the character for campaigns\n\nAI CONTENT CREATION FOR BRANDS:\n41. Monthly AI content packages\n42. AI Instagram Reels\n43. Facebook videos\n44. TikTok campaigns\n45. AI-generated lifestyle imagery\n46. Product photoshoots\n47. AI fashion editorials\n48. AI social media campaigns\n49. Content calendars + production\n50. Creative direction\n\nAI WRITING:\n51. AI-assisted content strategy\n52. Blog writing\n53. Scriptwriting\n54. Ad copy\n55. UGC scripts\n56. Video hooks\n57. Email marketing\n58. Product descriptions\n59. SEO content\n60. Social media content\n\nAI AUTOMATION:\n61. Instagram DM automation\n62. Lead generation automation\n63. Customer FAQ bots\n64. Email automation\n65. Content workflow automation\n66. AI-powered lead qualification\n67. CRM automation\n68. WhatsApp workflows\n69. Social media automation\n70. Business process automation\n\nVIBE CODING/WEBSITES:\n71. Landing pages\nFor:\nCoaches\nCreators\nSmall businesses\nDigital products\n72. Portfolio websites\n73. Personal brand websites\n74. Event websites\n75. Simple business websites\n76. Product landing pages\n77. Waitlist pages\n78. Directory websites\n79. Small web tools\n80. Interactive calculators\n\nBUILDING SMALL AI PRODUCTS:\n81. AI prompt generators\n82. Caption generators\n83. Hook generators\n84. UGC script generators\n85. Content idea tools\n86. Interactive quizzes\n87. Micro SaaS tools\n88. Creator tools\n89. Wellness tools\n90. Niche AI assistants\n\nAI CONSULTING/EDUCATION:\n91. AI workshops\n92. AI video courses\n93. AI for brands training\n94. Prompt packs\n95. AI templates\n96. AI workflow guides\n97. Creative consulting\n98. AI content audits",
-"likeCount": 22,
-"retweetCount": 10,
-"url": "https://x.com/Trisha_Techie/status/2118365149988032563",
-"createdAt": "Thu Nov 05 15:29:43 +0000 2026"
+"userName": "GHCopilotLog",
+"text": "🚀✨ Copilot CLI v1.0.107 released!\n\n637 features & enhancements in this release\n\nTop features:\n• Rex terminals render inline images using Kitty direct placements 🖼️\n• Add /code command to open current session in VS Code\n• /settings now opens unified dashboard with global search across settings and local resources 🔍\n• Interactive CLI reports program status to supporting terminals, including attention alerts ⚠️\n• Opt-in session management tools and mentions for local sessions\n• Add GPT-6.1 Terra as a selectable model under new models when available to your account\n• Add Fusion tier setting to copilot config\n• Add Sandbox extensions setting to run extension processes inside sandbox\n• Add COPILOT_SESSION_CWD to control launching and expanding LSP and local MCP server configs\n\nEnhancements:\n• MATS telemetry for Entra authentication through OneAuth respects client telemetry opt-out\n• Model picker displays context window size for flat, unpriced, and single-tier models\n• Sandboxed local MCP servers respect relative filesystem permissions from session directory\n• PowerShell commands now work on Windows when CLI installed in long directory paths\n• MCP Entra authentication falls back to VS Code registration when preauthorization is unavailable\n• Sandboxed local MCP servers start correctly when configured with a relative cwd\n• On Windows, sandboxed sessions in nested Git directories can change to and write at repository root\n• Suppress unnecessary MCP reload summaries when plugin servers remain unchanged\n• ACP clients can switch a session started with --yolo out of autopilot without policy errors\n• @ file picker now correctly underlines names with capital dotted I and decomposed accents\n• Up and Down keys in multiline prompts keep starting column when moving through shorter lines\n• Ctrl+Y and /share research skip unreadable or invalid research folder entries\n• Inline images removed or replaced in prompt no longer sent with messages; Ctrl+S can stash prompts afterwards\n• Pasted text with NEL and Unicode separators fills separate prompt lines; dropped DEL and C1 control chars\n\nBug fixes:\n• copilot -p --plan no longer suggests Shift+Tab to leave plan mode; includes key plan points instead\n• copilot --resume no longer waits indefinitely when Copilot task service unresponsive; times out after 10s\n• Sandboxed grep, rg, and glob report Windows launch failures instead of silent no-match results\n• Switching sessions while others are busy no longer crashes CLI or leaves blank terminal\n• Retrying prompts with corrupt images now keeps readable image attachments\n• Autopilot no longer implements recommendations after requests only asking for review or analysis\n• Model request receiving empty 404 under load is retried instead of ending turn with error\n• On Windows, sandboxed session starts correctly with nested Git repos and relative directories\n• Remove shortened rows and ensure correct underlining in @ file picker with Unicode decompositions\n• Fix edge cases with autopilot switching and allow-all flag toggling\n• Correct prompt paste behavior dropping invalid control characters to prevent line truncation\n\nMisc:\n• copilot help config now lists all settings from settings catalog, including previously missing ones\n• Add MATS telemetry for authentication with client opt-out respected\n• Improved docs and setup for session management and authentication flows\n• Hardened telemetry and permission handling defaults for Sandbox and MCP servers\n• Updated tooling to enhance terminal and editor integrations\n\nhttps://t.co/TMPWSNK2kY\n\n#GitHubCopilotCLI",
+"likeCount": 19,
+"retweetCount": 1,
+"url": "https://x.com/GHCopilotLog/status/2118806910287728996",
+"createdAt": "Fri Nov 06 20:45:07 +0000 2026"
 },
 {
 "userName": "nthfuture_x",
@@ -32,44 +24,52 @@
 "createdAt": "Mon Nov 02 04:58:00 +0000 2026"
 },
 {
-"userName": "antonioventre_",
-"text": "Native ads are the format I get asked about most, and almost nobody researches them properly\n\nThe mistake is scrolling the ad library and screenshotting what looks good. You end up with a mood board, not research\n\nThis is the exact filter stack I run in TrendTrack:\n\n1. Status = Active\n2. Ad creation date = last 30 days\n3. Days running = min 10\n4. Media type = Image\n5. Ad copy length = min 1500 characters\n6. Ad rank = top 10 percentile\n7. Growth rank = Rising\n8. Language = English\n9. Niche = whatever category I am working in\n\nFilter 5 is the one that changes everything, and the reason is simple. A native ad is not defined by its image, it is defined by its primary text. That is the whole product. The image only exists to stop the scroll long enough for someone to start reading\n\nNo regular product ad carries 1500 characters of copy. So filtering on length does not search for native ads, it defines them. Everything that comes back is one\n\nFilters 2, 3 and 6 are what stop the list being useless. Last 30 days means the angle is current. Minimum 10 days running means it survived the first test window, so you are not looking at something that launched yesterday and dies tomorrow. Top 10 percentile means it is in the top 10% of that advertiser's own ads, not just an ad they happen to be running\n\nAdd Rising on top and every result is a new angle that has already proven itself and is scaling right now\n\nOne example from that research was 12 days old, ranked first on its page, and had added 902,000 reach in seven days. It is a 4,000 word story about working as a governess for a wealthy family, and it sells a pillow\n\nTen minutes of filtering gets you twenty of those. Two hours of scrolling gets you a folder of screenshots\n\n#ad",
-"likeCount": 18,
-"retweetCount": 2,
-"url": "https://x.com/antonioventre_/status/2118411046654296210",
-"createdAt": "Thu Nov 05 18:32:06 +0000 2026"
+"userName": "Goodmanprotocol",
+"text": "GPT Image 2.5\n\nPrompt:\nUNIVERSAL AI EDITORIAL STUDIO PHOTOSHOOT - 4:5\n\nUsing the uploaded photograph as the sole identity reference, create a premium, photorealistic, luxury studio fashion campaign.\n\nFirst, analyse the person in the photograph, including their appearance, age, personality, clothing, and overall aesthetic. Automatically develop a creative concept that best suits them.\n\nCREATIVE DIRECTION:\n\n- Choose a distinctive, oversized, imaginative studio prop that complements the person, such as a giant plush teddy bear, miniature house, toy vehicle, oversized flower, animal sculpture, or another unexpected object.\n- Automatically select a beautiful monochromatic colour palette, coordinating the background, outfit, footwear, and oversized prop.\n- Style the person in fashionable, coordinated clothing that suits their age, appearance, and the chosen concept.\n- Create a natural, confident editorial pose, interacting with or leaning against the oversized prop.\n- Use a seamless coloured studio background, professional softbox lighting, subtle shadows, and carefully composed framing.\n\nIDENTITY PRESERVATION:\nMaintain the person's exact facial identity, facial features, skin tone, hairstyle, age, and natural proportions. Do not change their identity or create an unrelated person.\n\nVISUAL QUALITY:\nUltra-photorealistic commercial fashion photography, premium children's fashion campaign aesthetic when appropriate, realistic fabric textures, detailed props, sophisticated colour grading, crisp focus, and professional studio production quality.\n\nIMPORTANT: Make all creative decisions automatically based on the uploaded person. Every generation should have a unique, thoughtfully matched concept rather than repeating the same prop, colour, or composition.\n\nFORMAT: 4:5 vertical portrait, high resolution, polished professional advertising photography. No text, logos, watermarks, or unnecessary elements.",
+"likeCount": 42,
+"retweetCount": 0,
+"url": "https://x.com/Goodmanprotocol/status/2117194174751817841",
+"createdAt": "Mon Nov 02 09:56:41 +0000 2026"
 },
 {
-"userName": "LingyunXiang",
-"text": "Heartfelt congratulations to the overwhelming success of yesterday’s Silicon Valley AI Film Festival – Los Angeles Special Event at the iconic Saban Theatre in Beverly Hills! 🎉\nAs the founder of the Silicon Valley AI Film Festival and several renowned international pageants, Sing Chang (常清宇) is a veteran fashion and arts advocate with over three decades of dedication to Sino-US cultural and creative industries. Bridging refined aesthetic vision with forward-looking technological insight, he remains at the forefront of combining Art, Technology, and Fashion, continuously building cutting-edge platforms for global creators.\n💡 Pioneer & Visionary:\n Pioneer in Tech-Driven Cinema: Launched and founded the Silicon Valley AI Film Festival, driving deep transformations in generative AI and traditional visual storytelling.\n Champion of Fashion & Culture: With 30+ years of artistic creation and event curation, he has received numerous arts and fashion accolades across the US and China, elevating cross-cultural impact.\nSalute to Chairman Sing Chang for his passion, vision, and dedication to inspiring the future of film and technology. We look forward to more exciting moments as the Silicon Valley AI Film Festival continues! ✨\n#SVAIFilmFestival #SingChang #lingyunxiang #AIFilm #DigitalArt #GenerativeAI #BeverlyHills #Hollywood #LosAngelesEvents #ArtAndTech #FashionAndCulture #GlobalTechLive #Innovation #FutureIsNow",
-"likeCount": 4,
+"userName": "BuilderLab2K",
+"text": "Because my virtual son blocked me since September, and uses multiple accounts to try to see what my builder looks like and make comments on my X posts, seems like the only comment section I can reply to, features in BuilderLab are night and day difference to whatever that is you called a site, that is why I charge…you are apparently for the community but I do remember a post explaining that you would do all of it for free and would never gate keep anything, every feature BuilderLab has, has been there since the beginning, you did exactly what 2K is doing now, mislead its users, what have you ever gave the community besides animations for upcoming seasons? Builderlabs X profile and website exposes a PLETHORA of information, don’t ever mention anything about clout chasing, because that’s exactly what you did when you copied and pasted my anti cheat article and X post, and continue to claim is if it was your doing and your discovery, I wouldn’t have a problem if you gave credit where it’s due but just like you do and always will do, you stole it, certified clout chaser, to reflect on what I said before, you tried to steal my ai optimizer text to build option (failed), you tried to steal CourtVision’s stat tracker (failed) and then scraped NBA2KLab website for its controller green timing feature, now say I am lying, and I’ll post screenshots, you are so scatter brained and boosted off clout, you can’t even think straight, look at the “man” who’s doing it for the community but calling people broke? Imagine if we did a deep dive on your personal X page. Scary hours.",
+"likeCount": 7,
 "retweetCount": 2,
-"url": "https://x.com/LingyunXiang/status/2117404485727453340",
-"createdAt": "Mon Nov 02 23:52:23 +0000 2026"
+"url": "https://x.com/BuilderLab2K/status/2118315302874222902",
+"createdAt": "Thu Nov 05 12:11:39 +0000 2026"
 },
 {
 "userName": "Blue2black",
 "text": "The Nomination process is OPEN for the Web3 Artists Awards 2026\n\n40 categories across on-chain excellence.\n\nVisual Arts & Photography\nAnalogue Painting, Drawing, Digital Painting, AI Painting, VR Painting, Documentary/Photojournalism, Fine-art/Commercial Photography, Graphic Design, Mixed Media, Digital + AI Mixed Media, 3D Modeling/Sculpture\n\nAnimation, Video & Generative\nMixed Video, Traditional Animation, Digital Animation, AI Animation, Best AI Short Film (5+/- min), Generative Art / Code Art\n\nMusic & Audio\nAI Composition, Best Producer/Studio, Traditional/Acoustic Performance, Songwriter of the Year\n\nLiterary & Spoken Word\nWritten Word, Spoken Word, Poetry\n\nMetaverse, Fashion & Immersive\nMetaverse Architecture, Immersive/Experiential, Digital Fashion, AI Fashion, Best Token-Gated Community & Utility\n\nCommunity, Impact & RWA\nNFT for Social Impact/DAO, Tokenized Luxury & Collectibles, Real Estate, Financial Asset (RWA), Gaming & P2E, DID & Soulbound, Marketplace/Platform Innovation\n\nCapstone Awards\nBest use of AI in art, Emerging Artist, Best Memecoin, Best Decentralization & Governance\n\n🔗 Nominate: https://t.co/R3OknxBlKu\n\nOne entry per category. Multiple nominations welcome.\n\n@W3ArtistsAwards",
-"likeCount": 6,
-"retweetCount": 2,
+"likeCount": 7,
+"retweetCount": 3,
 "url": "https://x.com/Blue2black/status/2118072652388557094",
 "createdAt": "Wed Nov 04 20:07:26 +0000 2026"
 },
 {
-"userName": "creatine_cycle",
-"text": "i caught up with @yusan_lin to derive taste from first principles and to talk solving creator attribution in the world of AI. we covered:\n- what creators should do before posting online\n- solving taste\n- why money is not the solve for art in SF\n\n00:00 - Yusan and @LiamFedus are the highest aura couple\n00:57 - @mirrormirror_ai launch and creator attribution\n02:22 - The creator checklist before posting online\n06:37 - No one says deepfake anymore\n08:06 - \"Generative AI\" did damage to AI marketing\n11:35 - How to solve for taste\n14:42 - AI money won’t solve art in SF\n19:11 - Being choosey is good\n20:38 - What happens when models (fashion) get their faces stolen\n23:34 - AI slop is oneshotting old people\n25:51 - AI image gen will be indistinguishable from real life within a year",
-"likeCount": 69,
-"retweetCount": 4,
-"url": "https://x.com/creatine_cycle/status/2116243573851189373",
-"createdAt": "Fri Oct 30 18:59:20 +0000 2026"
+"userName": "ClementDelangue",
+"text": "Open-source is critical for robotics AI. It means a student, a researcher or a startup can build on years of progress and contribute something the whole community can use rather than concentrating everything in a few companies building a black-box robot. \n\nThat’s why we’re building @huggingface into the platform for open-source robotics AI! Amazing to see the progress we've made in the six months and it's accelerating!\n\n- Almost 100,000 public robotics datasets on https://t.co/QIPmkxCk57, up 48%\n- Over 30,000 public robotics models, up 41%\n- Microduck and Reachy mini, our open-source robots became the most popular robot of 2026 (probably ending the year with 50,000+ sold and 20,000+ shipped)\n- We’re a founding partner of @RoboColosseum, evaluating robots across 140+ real-world scenes. Every run is published publicly on HF, including failures, so everyone can learn from what actually happens.\n\nAnd @LeRobotHF got downloaded over 1M times and v0.7.0 just landed with new world action models, interactive robot control and remote GPU inference: https://t.co/Euoz11Ccc5!\n\nHuge thanks to everyone making this happen 🤗🦾",
+"likeCount": 525,
+"retweetCount": 63,
+"url": "https://x.com/ClementDelangue/status/2118751330927780154",
+"createdAt": "Fri Nov 06 17:04:16 +0000 2026"
 },
 {
-"userName": "rohanpaul_ai",
-"text": "Voice AI is now good enough that preference and human-likeness can be scored as separate targets.\n\n@voicearena_ai launched a new benchmark, Turing TTS to score the second one directly: listeners hear the same sentence from a person and from a model, then pick the person.\n\nHow often they pick the model is the Fool Rate. 50% would mean listeners can’t tell.\n\nEven the best model, Gemini 3.8 Flash TTS, fooled them about 10% of the time.\n\nOn Voice Arena’s preference board, the top four models are statistically tied. Measured against a human, the whole field still has a long way to go.\n\nhttps://t.co/AUS2S4Wp5h",
-"likeCount": 27,
-"retweetCount": 6,
-"url": "https://x.com/rohanpaul_ai/status/2116245323039592529",
-"createdAt": "Fri Oct 30 19:06:17 +0000 2026"
+"userName": "meAsifAi",
+"text": "Want to create stunning AI fashion photos like this? 🔥\n\nIf you want the prompts used to create these images, check the link shared in the comments! 👇\n\n🎓 Join H3 AI Films Academy — our FREE AI filmmaking course!\n\nLearn AI image generation, character creation, prompt engineering, cinematic video creation, and much more.\n\n✨ Get access to lots of FREE learning resources and start creating amazing AI content today!\n\nYour AI filmmaking journey starts here! 🚀\n\n#H3AIFilmsAcademy #AICourse #AIFashion #AIArt #PromptEngineering #AIFilmmaking",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/meAsifAi/status/2118647888834383897",
+"createdAt": "Fri Nov 06 10:13:13 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "Great to catch up with @DavidCahn6 in Miami today!\n\nFun facts:\n- David sent us a “blind term sheet” to get @coatuemgmt on the @huggingface cap table before we’d even spoken\n- He then flew to Miami to convince us to make room in the round\n- He kept backing us after moving to @sequoia\n\nThanks for always believing in us! Lucky to have you in our corner (also @gradypb @sonyatweetybird!) 🤗",
+"likeCount": 210,
+"retweetCount": 3,
+"url": "https://x.com/ClementDelangue/status/2118780949873701169",
+"createdAt": "Fri Nov 06 19:01:58 +0000 2026"
 },
 {
 "userName": "noahvisualsx",
@@ -80,83 +80,83 @@
 "createdAt": "Sun Nov 01 09:54:34 +0000 2026"
 },
 {
-"userName": "Hobo_Web",
-"text": "Why can a major publisher rank a brand-new URL in Google in 3 minutes while your site sits in \"Crawled - currently not indexed\" purgatory?\n\nOne system: New Site Rank (NSR).\n\nI map it out. https://t.co/NarQUlzwQo",
-"likeCount": 66,
-"retweetCount": 8,
-"url": "https://x.com/Hobo_Web/status/2118063185181786451",
-"createdAt": "Wed Nov 04 19:29:49 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @mishig25: LeRobot datasets now replay in 3D ü§ñ\n\nCamera footage + the robot moving in sync, driven by OpenUSD robots on the Hub: SO-10…",
-"likeCount": 73,
+"userName": "KogniPRO",
+"text": "The VALORANT analyst's job is moving from reading other people's dashboards to asking your own AI about your own data.\n\nWe wrote up how that works today, with a real prompt and screenshot for every step. https://t.co/Dm7ZtbHf7w",
+"likeCount": 94,
 "retweetCount": 10,
-"url": "https://x.com/ClementDelangue/status/2117683991130300596",
-"createdAt": "Tue Nov 03 18:23:02 +0000 2026"
+"url": "https://x.com/KogniPRO/status/2118739569856110955",
+"createdAt": "Fri Nov 06 16:17:32 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Kimi_Moonshot: Releasing the model weights of Kimi K3.1 Pro: https://t.co/tJXcYUeSCj\nWe'll keep advancing open intelligence. https://t.…",
-"likeCount": 8484,
-"retweetCount": 830,
-"url": "https://x.com/ClementDelangue/status/2118026076589109293",
-"createdAt": "Wed Nov 04 17:02:22 +0000 2026"
+"text": "RT @LysandreJik: We’ve been hard at work trying to make models work with harnesses better. The best thing @yb2698 found: “harness adapters”…",
+"likeCount": 133,
+"retweetCount": 29,
+"url": "https://x.com/ClementDelangue/status/2118720556354908555",
+"createdAt": "Fri Nov 06 15:01:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @PrunaAI: Today, we open-source P-H3-Image, an image generation and editing model built from MiniMax-H3 by @MiniMax_AI. A SOTA video mod…",
-"likeCount": 1583,
-"retweetCount": 172,
-"url": "https://x.com/ClementDelangue/status/2117669403131072905",
-"createdAt": "Tue Nov 03 17:25:04 +0000 2026"
+"text": "RT @NousResearch: Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values.\n\nChinese open models are currently the stro…",
+"likeCount": 8932,
+"retweetCount": 863,
+"url": "https://x.com/ClementDelangue/status/2118852611805684166",
+"createdAt": "Fri Nov 06 23:46:43 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @NVIDIAAI: Great to see Nemotron 3.5 Transcribe trending #1 overall on @huggingface \n\nThank you to everyone for trying it, sharing it, a…",
-"likeCount": 328,
-"retweetCount": 27,
-"url": "https://x.com/ClementDelangue/status/2118421680519536930",
-"createdAt": "Thu Nov 05 19:14:21 +0000 2026"
+"text": "RT @joelniklaus: I burned a shitload of compute so you don't have to. Releasing the Harness Leaderboard.\n\nWhich harness should you run your…",
+"likeCount": 2053,
+"retweetCount": 204,
+"url": "https://x.com/ClementDelangue/status/2118734030996660321",
+"createdAt": "Fri Nov 06 15:55:31 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @HannesVonEssen: Introducing the Microdock! 😅\nThe first self charging dock prototype 🦆 https://t.co/dMLRHsh2yO",
-"likeCount": 2185,
-"retweetCount": 155,
-"url": "https://x.com/ClementDelangue/status/2117722716241601003",
-"createdAt": "Tue Nov 03 20:56:55 +0000 2026"
-},
-{
-"userName": "msupernaut",
-"text": "AI Observability is consolidating. Your verification shouldn't be. https://t.co/8H6M5ZuXCJ",
-"likeCount": 26,
-"retweetCount": 4,
-"url": "https://x.com/msupernaut/status/2117963318514368998",
-"createdAt": "Wed Nov 04 12:52:59 +0000 2026"
+"text": "RT @jeffboudier: We spent $2m so you don't have to.  \nAnd so you can learn how to train MoEs.\n\nMixture-of-Experts LLMs are what powers the…",
+"likeCount": 717,
+"retweetCount": 100,
+"url": "https://x.com/ClementDelangue/status/2118512629660496069",
+"createdAt": "Fri Nov 06 01:15:45 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "Reachy mini got an hoverboard! https://t.co/R5BCPHMiIt",
-"likeCount": 454,
+"text": "RT @xenovacom: Real-time, local conversational AI is how we will democratize intelligence.\n\nWe just ported LFM3-Omni-2B by @LiquidAI to run…",
+"likeCount": 351,
+"retweetCount": 45,
+"url": "https://x.com/ClementDelangue/status/2118413954909164031",
+"createdAt": "Thu Nov 05 18:43:39 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @natolambert: Looks like the smartest western open weight model by a margin. While much smaller than muse spark open or mistal large. Wh…",
+"likeCount": 881,
 "retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2117640747344404786",
-"createdAt": "Tue Nov 03 15:31:12 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2118720198190510514",
+"createdAt": "Fri Nov 06 15:00:33 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "https://t.co/VG4xB8sc8i",
-"likeCount": 17,
-"retweetCount": 0,
-"url": "https://x.com/ClementDelangue/status/2117669178924548570",
-"createdAt": "Tue Nov 03 17:24:11 +0000 2026"
+"userName": "GoogleAIStudio",
+"text": "https://t.co/lDZweITrTn",
+"likeCount": 495,
+"retweetCount": 45,
+"url": "https://x.com/GoogleAIStudio/status/2118407948187643978",
+"createdAt": "Thu Nov 05 18:19:47 +0000 2026"
 },
 {
-"userName": "apob_ai",
-"text": "https://t.co/YGR4MGAdRh",
-"likeCount": 115,
-"retweetCount": 4,
-"url": "https://x.com/apob_ai/status/2118177995735375906",
-"createdAt": "Thu Nov 05 03:06:02 +0000 2026"
+"userName": "ImarhiaVeraa",
+"text": "https://t.co/eOpHEahWxk",
+"likeCount": 90,
+"retweetCount": 16,
+"url": "https://x.com/ImarhiaVeraa/status/2118784061544218778",
+"createdAt": "Fri Nov 06 19:14:20 +0000 2026"
+},
+{
+"userName": "dphnAI",
+"text": "https://t.co/ddDlg6sLnq",
+"likeCount": 197,
+"retweetCount": 30,
+"url": "https://x.com/dphnAI/status/2118450169154851066",
+"createdAt": "Thu Nov 05 21:07:33 +0000 2026"
 }
 ]
