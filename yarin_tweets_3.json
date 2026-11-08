@@ -1,83 +1,67 @@
 [
 {
-"userName": "Junioryu136689",
-"text": "From a multi-agent virtual pharma stack to reaction-conditioned enzyme sequences.\n\nBioTender Daily Papers #100: 6 new papers (arXiv 2 + bioRxiv 4) across 3 directions.\n\n🧬 End-to-end drug discovery & enzyme–reaction agents\n• PharmAgents2 organizes knowledge acquisition, scientific decision-making, and large-scale exploration as a multi-agent system: Paper2Skill distills reusable decision knowledge from public sources; Self-Scaling Discovery runs parallel agents that inherit research context across targets, hypotheses, and strategies. Evaluated on decision benchmarks and three real projects, with human-experiment support reported for LpxH, JAK1, and reverse target-discovery candidates—agents organizing end-to-end research decisions ≠ autonomous wet-lab or clinical completion (arXiv preprint).\n• RIVER does bidirectional enzyme↔reaction retrieval by coordinating LMs, biochemical compute tools, and external knowledge (reaction chemistry, sequences/domains, mechanisms, DB annotations), then checks evidence gaps/conflicts and re-ranks with traceable records. Authors report gains over retrieval and general-agent baselines on public benchmarks, enzyme-family tasks, and recent-literature sets—still retrieval/prioritization evidence, not activity assays or mechanism proof (arXiv preprint).\n\n🔬 Antibody screening & all-to-all biomolecule co-design\n• FoldAbS freezes Protenix internal representations as a foundation encoder and attaches light task heads to score antibody specificity, affinity, and developability without retraining the backbone—reusing sequence, geometry, and interaction features learned for folding. Stable lifts vs baselines are reported on supervised screening benchmarks; labels, homology, and head design still shape outcomes, and model scores don’t replace wet screens (bioRxiv preprint).\n• PartiDesign extends La-Proteina’s partial latent framework across proteins, nucleic acids, and small molecules, jointly generating 3D structure plus sequence/chemical identity under secondary-structure, bond, and AA-preference constraints—including cyclic peptides, antibodies, and target binders. Under fixed compute budgets it compares successful-design throughput vs multi-stage pipelines; evidence is mostly computational—foldability, binding quality, and synthesizability still need systematic experiments (bioRxiv preprint).\n\n🧪 Reaction-conditioned enzyme discovery & engineering\n• AlphaEnzyme jointly represents enzyme structure and a target reaction to output catalytic compatibility, kinetics, and mutation response—linking starting-enzyme retrieval to sequence optimization in one model. Time-split checks probe extrapolation to recent enzymes/reactions; low-budget mutation ranking plus TrpB prioritization and a transaminase prospective wet test report some candidates beating the parent—system-specific screening value, not yet proven across reaction classes or full kinetic panels (bioRxiv preprint).\n• REXzyme casts enzyme design as translating a chemical-reaction representation into amino-acid sequences, then steers toward formate dehydrogenase reverse chemistry (CO₂ reduction) with multi-site variants distal to the active site. Authors report all 20 generated enzymes soluble with CO₂-reduction activity and a best candidate above the reference specific activity—direct wet support for reaction-conditioned sequence generation, still one enzyme family with mechanism and broader reaction space open (bioRxiv preprint).\n\nThe common thread: AI×bio is scaling multi-agent stacks that organize drug-discovery decisions and evidence-guided enzyme–reaction retrieval, turning frozen folders into antibody-screening encoders and partial-latent co-design across modalities, and closing the loop from reaction representation to ranked or generated enzyme sequences with early wet checks—while every result here remains a preprint.\n\nFrom multi-agent virtual pharma → reaction-driven enzyme sequence generation.\n\nTwo arXiv + four bioRxiv; not a substitute for peer-reviewed wet-lab or clinical proof.\n\n🔗 https://t.co/5DYdvMCuWp\n\n#AIforBiology #DrugDiscovery #EnzymeEngineering",
-"likeCount": 6,
+"userName": "GHCopilotLog",
+"text": "🗓️ Weekly recap (Oct 31-Nov 7) for Copilot CLI\n🚀 2 releases\n🛠️ 1274 improvements\n\n1274 features & enhancements in this release\n\nTop features:\n• Rex terminals render inline images using Kitty direct placements 🖼️\n• Add /code command to open the current session in VS Code\n• Introduce Fusion tier setting to copilot config\n• Make /settings open unified dashboard for all users + add global search across settings and local resources 🔍\n• Interactive CLI reports program status to terminals, including attention-needed alerts ⚠️\n• Add opt-in session management tools and mentions for opted-in local sessions\n• Add GPT-6.1 Terra as selectable model under New models when available\n• Add Sandbox extensions setting to run extension processes inside sandbox\n• Add COPILOT_SESSION_CWD for launching and expanding LSP and local MCP server configs\n\nEnhancements:\n• MATS telemetry added for Entra authentication through OneAuth, respecting telemetry opt-out\n• Improved prompt editing: images removed with Ctrl+U/K/W not sent in message; Ctrl+S can stash prompt\n• Pasted text with Unicode separators now fills separate prompt lines; control characters dropped\n• In -p --plan, agent no longer suggests Shift+Tab; asked to include plan key points in reply\n• copilot --resume no longer waits indefinitely when task service unresponsive; timeout after 10s\n• Sandboxed grep, rg, glob report Windows launch failures instead of silent no-match\n• Model picker shows context window size for flat, unpriced, and single-tier models\n• Sandboxed local MCP servers respect relative filesystem permissions even with different working directory\n• PowerShell commands work on Windows with CLI in long directory paths\n• MCP Entra auth falls back to VS Code registration when Copilot CLI preauthorization unavailable\n• Sandboxed local MCP servers start correctly when configured with relative cwd\n• On Windows, sandboxed sessions in nested Git dirs can change to and write at repo root\n• Autopilot no longer triggers recommendations after review or analysis-only requests\n• Suppress unnecessary MCP reload summaries when plugin servers remain unchanged\n• Retries empty 404 responses from Copilot's service under load instead of failing turn\n• copilot help config now lists all settings catalog offers, including previously missing settings\n• ACP clients can switch --yolo sessions out of autopilot without blocking or policy issues\n• The file picker now underlines matches in names with decomposed accents or capital dotted I correctly\n• Up and Down keys in multi-line prompt keep column position when moving over shorter lines\n• Ctrl+Y and /share research skip unreadable research folder entries instead of failing\n\nBug fixes:\n• Switching sessions while other sessions busy no longer crashes CLI or leaves blank terminal\n• Retain readable image attachments when retrying prompt with corrupt image\n• Suppress sending removed or replaced images within edited prompt messages\n• Fix bug where MCP reload summaries appeared unnecessarily\n• copilot --resume stop waiting indefinitely on unresponsive tasks; now times out\n• Windows sandboxed sessions handle nested Git repos correctly for file writes\n• Fix crash issues when switching sessions with concurrent activity\n• File picker no longer shortens matched folder rows for accented folders or special characters\n• Fix prompt paste dropping trailing characters on handling control characters\n• Prevent autopilot from starting implementation after simple review requests\n\nMisc:\n• Added MATS telemetry for Entra authentication respecting client opt-out\n• Updated help config command to fully list all available configuration settings\n• Improved CLI documentation on new configuration options and telemetry policies\n• Enhanced internal logging of session management and task service failures\n\nhttps://t.co/ERNotlQQO0\n\n#GitHubCopilotCLI",
+"likeCount": 16,
 "retweetCount": 1,
-"url": "https://x.com/Junioryu136689/status/2118702773214536003",
-"createdAt": "Fri Nov 06 13:51:19 +0000 2026"
+"url": "https://x.com/GHCopilotLog/status/2119127807515103498",
+"createdAt": "Sat Nov 07 18:00:15 +0000 2026"
 },
 {
-"userName": "Viveksahu1215",
-"text": "𝗟𝗔𝗬𝗘𝗥𝗦 𝗢𝗙 𝗔𝗜 — 𝗙𝗥𝗢𝗠 𝗖𝗟𝗔𝗦𝗦𝗜𝗖𝗔𝗟 𝗔𝗜 𝗧𝗢 𝗔𝗚𝗘𝗡𝗧𝗜𝗖 𝗔𝗜\n\nAI didn't become powerful overnight.\n\nToday's AI systems are built on decades of research, with each layer adding new capabilities on top of the previous one.\n\nHere’s the evolution:\n\n01 — 𝗖𝗟𝗔𝗦𝗦𝗜𝗖𝗔𝗟 𝗔𝗜\n\nThe foundation of early AI.\n\n→ Symbolic AI\n→ Expert systems\n→ Knowledge representation\n→ Logic & reasoning\n\nThese systems primarily relied on rules and structured knowledge.\n\n02 — 𝗠𝗔𝗖𝗛𝗜𝗡𝗘 𝗟𝗘𝗔𝗥𝗡𝗜𝗡𝗚\n\nAI started learning patterns from data instead of relying only on manually written rules.\n\n→ Supervised learning\n→ Unsupervised learning\n→ Classification\n→ Regression\n→ Reinforcement learning\n\n03 — 𝗡𝗘𝗨𝗥𝗔𝗟 𝗡𝗘𝗧𝗪𝗢𝗥𝗞𝗦\n\nNeural networks made it possible to learn more complex patterns.\n\n→ Perceptrons\n→ Hidden layers\n→ Activation functions\n→ Cost functions\n→ Backpropagation\n\n04 — 𝗗𝗘𝗘𝗣 𝗟𝗘𝗔𝗥𝗡𝗜𝗡𝗚\n\nDeep neural networks pushed AI capabilities much further.\n\n→ Transformers\n→ CNNs\n→ RNNs\n→ LSTMs\n→ Autoencoders\n\nThis became the foundation for major advances in language, vision, speech, and other AI applications.\n\n05 — 𝗚𝗘𝗡𝗘𝗥𝗔𝗧𝗜𝗩𝗘 𝗔𝗜\n\nAI moved from simply recognizing patterns to creating new content.\n\n→ LLMs\n→ Diffusion models\n→ Multimodal models\n→ Image & audio generation\n→ VAEs\n\nNow AI can generate text, images, audio, video, and code.\n\n06 — 𝗔𝗚𝗘𝗡𝗧𝗜𝗖 𝗔𝗜\n\nThe newest layer focuses on AI systems that can work toward goals.\n\n→ Memory\n→ Planning\n→ Tool use\n→ Decision-making\n→ Autonomous execution\n\nInstead of simply answering a question, agents can plan actions, use tools, observe results, and continue working toward an objective.\n\n𝗧𝗛𝗘 𝗘𝗩𝗢𝗟𝗨𝗧𝗜𝗢𝗡:\n\n𝗖𝗹𝗮𝘀𝘀𝗶𝗰𝗮𝗹 𝗔𝗜\n↓\n𝗠𝗮𝗰𝗵𝗶𝗻𝗲 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴\n↓\n𝗡𝗲𝘂𝗿𝗮𝗹 𝗡𝗲𝘁𝘄𝗼𝗿𝗸𝘀\n↓\n𝗗𝗲𝗲𝗽 𝗟𝗲𝗮𝗿𝗻𝗶𝗻𝗴\n↓\n𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗶𝘃𝗲 𝗔𝗜\n↓\n𝗔𝗴𝗲𝗻𝘁𝗶𝗰 𝗔𝗜\n\n𝗧𝗛𝗘 𝗕𝗜𝗚 𝗦𝗛𝗜𝗙𝗧:\n\nFrom AI that follows rules...\n\nTo AI that learns patterns...\n\nTo AI that generates content...\n\nTo AI that can reason, use tools, make decisions, and take action.\n\nThe future isn't just about bigger AI models.\n\nIt’s about building smarter systems around them.\n\nSave this roadmap to understand how AI has evolved.\n\nFollow @Viveksahu1215 for more AI, tools, automation and tech insights.\n\n#AI #ArtificialIntelligence #MachineLearning #DeepLearning #GenerativeAI #AgenticAI #AIAgents #AITools",
-"likeCount": 17,
-"retweetCount": 5,
-"url": "https://x.com/Viveksahu1215/status/2118900284374282346",
-"createdAt": "Sat Nov 07 02:56:09 +0000 2026"
+"userName": "_avichawla",
+"text": "8 AI model architectures, visually explained:\n\nLLMs get so much attention that it's easy to overlook the rest of the field. Different inputs, tasks, and deployment constraints have led to very different model designs.\n\nHere are eight specialized AI model architectures:\n\n1. LLM (Large language models)\n\nText is split into tokens, mapped to embeddings, and processed through transformer layers. The model generates its response by predicting successive tokens.\n\n↳ GPT, Claude, Gemini, Llama.\n\n2. LCM (Large concept models)\n\nMoves prediction to the sentence level. Sentences become SONAR embeddings, and the model predicts the next sentence representation. Meta explored both autoregressive and diffusion-based versions.\n\n↳ Meta's LCM research introduced this approach.\n\n3. LAM (Large action models)\n\nConnects a user's request to actions in an environment. These systems interpret intent, plan steps, and use interfaces or tools, often checking results before continuing.\n\n↳ Rabbit R1, Microsoft UFO, Claude Computer Use.\n\n4. MoE (Mixture of experts)\n\nA router assigns token representations to selected expert networks inside the model. Activating a subset of experts adds model capacity without running every expert for every token.\n\n↳ Mixtral, DeepSeek, Switch Transformer.\n\n5. VLM (Vision-language models)\n\nCombines visual representations with language processing. A vision encoder extracts image features, which are connected to a language model so it can answer questions about visual content.\n\n↳ GPT-4V, Gemini, LLaVA.\n\n6. SLM (Small language models)\n\nUses fewer parameters to reduce memory and compute requirements. These models can run locally, with quantization often reducing their deployment footprint further.\n\n↳ Phi-3, Gemma, Mistral 7B, Llama 3.2 1B.\n\n7. MLM (Masked language models)\n\nLearns by predicting hidden tokens using context on both sides. This bidirectional training produces representations useful for retrieval, classification, and other language-understanding tasks.\n\n↳ BERT, RoBERTa, DeBERTa.\n\n8. SAM (Segment Anything Model)\n\nAn image encoder processes the image, while a prompt encoder handles points, boxes, or masks. A mask decoder combines them to identify the requested regions.\n\n↳ Meta's SAM supports interactive segmentation and image annotation.\n\nThese aren't eight mutually exclusive categories. A small model can process images, and a language model can use MoE layers. Some labels describe architecture, while others describe training or intended use.\n\nThere's another approach I kept outside the image because it alters how a model handles context rather than introducing a separate model family.\n\nRecursive language models, from MIT, put the input into a Python environment that a root model can inspect through code.\n\nThe model can search or slice that input, then make recursive model calls on selected portions instead of loading everything into its own context window.\n\nThe reported experiments handled inputs beyond 10 million tokens without retraining, with gains over the base model even on some tasks whose inputs already fit its context window.\n\nI recently wrote a full breakdown of how this works, including why accessing a large input and reasoning reliably over it are different problems.\n\nRead it below.",
+"likeCount": 89,
+"retweetCount": 21,
+"url": "https://x.com/_avichawla/status/2119035997321314815",
+"createdAt": "Sat Nov 07 11:55:26 +0000 2026"
 },
 {
 "userName": "Trisha_Techie",
 "text": "Here is a comprehensive list of how to make money with AI ⬇️\n\nAI VIDEO SERVICES:\n1. AI UGC Ads\n2. Product commercials\n3. Social media ads\n4. AI influencer campaigns\n5. Product launch videos\n6. Fashion campaigns\n7. Beauty campaigns\n8. Hair campaigns\n9. Skincare campaigns\n10. Real estate visual campaigns\n11. AI spokesperson videos\n12. AI explainer videos\n13. App commercials\n14. SaaS ads\n15. Cinematic brand films\n16. Short promotional videos\n17. AI music visuals\n18. Event promotional videos\n19. Book trailers\n20. Movie trailers\n\nAI STORYTELLING:\n21. Facebook micro dramas\n22. YouTube short dramas\n23. TikTok episodic stories\n24. Instagram drama series\n25. AI romance stories\n26. AI thriller stories\n27. Movie-style trailers\n28. Fictional character channels\n29. AI soap opera series\n30. Interactive stories\n\nAI INFLUENCERS:\n31. Sponsored posts\n32. Affiliate marketing\n33. Digital products\n34. UGC-style content for brands\n35. Brand campaigns\n36. Paid collaborations\n37. Facebook monetization\n38. YouTube Shorts\n39. TikTok monetization\n40. Licensing the character for campaigns\n\nAI CONTENT CREATION FOR BRANDS:\n41. Monthly AI content packages\n42. AI Instagram Reels\n43. Facebook videos\n44. TikTok campaigns\n45. AI-generated lifestyle imagery\n46. Product photoshoots\n47. AI fashion editorials\n48. AI social media campaigns\n49. Content calendars + production\n50. Creative direction\n\nAI WRITING:\n51. AI-assisted content strategy\n52. Blog writing\n53. Scriptwriting\n54. Ad copy\n55. UGC scripts\n56. Video hooks\n57. Email marketing\n58. Product descriptions\n59. SEO content\n60. Social media content\n\nAI AUTOMATION:\n61. Instagram DM automation\n62. Lead generation automation\n63. Customer FAQ bots\n64. Email automation\n65. Content workflow automation\n66. AI-powered lead qualification\n67. CRM automation\n68. WhatsApp workflows\n69. Social media automation\n70. Business process automation\n\nVIBE CODING/WEBSITES:\n71. Landing pages\nFor:\nCoaches\nCreators\nSmall businesses\nDigital products\n72. Portfolio websites\n73. Personal brand websites\n74. Event websites\n75. Simple business websites\n76. Product landing pages\n77. Waitlist pages\n78. Directory websites\n79. Small web tools\n80. Interactive calculators\n\nBUILDING SMALL AI PRODUCTS:\n81. AI prompt generators\n82. Caption generators\n83. Hook generators\n84. UGC script generators\n85. Content idea tools\n86. Interactive quizzes\n87. Micro SaaS tools\n88. Creator tools\n89. Wellness tools\n90. Niche AI assistants\n\nAI CONSULTING/EDUCATION:\n91. AI workshops\n92. AI video courses\n93. AI for brands training\n94. Prompt packs\n95. AI templates\n96. AI workflow guides\n97. Creative consulting\n98. AI content audits",
-"likeCount": 25,
-"retweetCount": 10,
+"likeCount": 26,
+"retweetCount": 9,
 "url": "https://x.com/Trisha_Techie/status/2118365149988032563",
 "createdAt": "Thu Nov 05 15:29:43 +0000 2026"
 },
 {
+"userName": "tarotaro_mgm",
+"text": "👗AI衣装デザイン図鑑👗\n🇯🇵✨ megumix \n　　　　　JAPANESE BEAUTY \n　　　　　　　COLLECTION Season 7 ✨🇯🇵\n\nWAFUKU CULTURE SHIFT — Ancient Soul, New Generation —\n\n🪵 04｜寄木ジオメトリー・ラボ\nEnglish Title: YOSEGI GEOMETRY LAB\nSubtitle: 伝統木工が描く幾何学モード\nTraditional Marquetry Meets Geometric Fashion\n004/010\n\n🎨テーマ\n箱根寄木細工の伝統美を現代ファッションへ\n昇華。木の温もりと精密な幾何学模様を、\n大胆な和装シルエットで表現したモード衣装。\n\nコスチュームの特徴 5つ\n🔶 寄木細工の幾何学模様\n🖤 ベルト付きショートトップス\n🎐 多層構造の広袖デザイン\n🔸 太腿丈のパネルミニスカート\n🎀 背面の六角飾り付き大リボン\n\n※プロンプトは下にあります\n❤️ いいね・RP・保存で応援していただけると\n励みになります！\n※他の衣装シリーズもプロフィールから\nご覧いただけます\n\n#JapaneseBeauty7 #JapaneseFashion\n\nDress the woman in the reference image in modern geometric wafuku inspired by Hakone yosegi marquetry. Cropped structured black, amber, ivory and plum top with intricate wooden mosaic triangles, diagonal harness straps and gold buckles, leaving the midriff visible. Huge off-shoulder layered kimono sleeves with angular geometric printed panels and dark-purple lining. Very short upper-thigh pleated patchwork mini skirt with structured mosaic panels, multiple belts and a hexagonal gold waist ornament. Separate long pointed fabric panels hang from the hips toward the calves. Back has crossed straps, a large multicolored structured bow with hexagonal jewel and hanging mosaic tails. Black platform lace-up boots. Preserve the short front skirt and long side panels. Single full-body portrait, not a design sheet.",
+"likeCount": 23,
+"retweetCount": 1,
+"url": "https://x.com/tarotaro_mgm/status/2118871063253995647",
+"createdAt": "Sat Nov 07 01:00:02 +0000 2026"
+},
+{
 "userName": "soicfinance",
 "text": "There's one asset that becomes more valuable with time, never goes out of fashion, and can influence almost every decision we make: Knowledge. 📚✨\n\nDhanteras is a festival associated with wealth, knowledge and new beginnings.\n\nIn the world of investing, wealth creation isn't simply about finding the next multibagger or predicting where the market will go. It's about understanding businesses, learning how to value them, managing risk, developing conviction and having the patience to let good decisions compound over time.\n\nAt SOIC, our endeavour has always been to help investors develop these skills and become independent thinkers rather than followers of tips and market noise.\n\n🪔 A Dhanteras Gift for Your Learning Journey\nShare this with your loved ones, friends and colleagues. \nEnjoy 17% off on SOIC Membership for a limited time period!\n1-Year Membership ₹18,499 → ₹15,355\n3-Years Membership ₹33,499 → ₹27,805\n👉 Explore SOIC Membership: https://t.co/xlB1RgLUZJ\nCoupon: DIWALI17\n(Use a browser to enrol, mobile apps charge an additional 30% fees.)\n\nYour membership gives you access to our complete learning ecosystem:\n➛ Fundamental Investing Courses\n➛ Financial Statement & Forensic Analysis\n➛ Valuation & Portfolio Construction\n➛ Entry & Exit Frameworks\n➛ Stock Screening & Idea Generation\n➛ Sectoral Deep-Dives\n➛ AI Tools & AI Investing Masterclasses\n➛ SOIC Market Signals\n➛ Live Webinars & Recordings\n\nThis Dhanteras, while we celebrate the pursuit of wealth, let's also invest in the one thing that can make our wealth-creation journey more meaningful and sustainable.\n\nWishing you and your loved ones a very Happy Dhanteras! 🙏\n\n📌 NOTE: Existing SOIC Membership members can reach out to us for the Renewal Plans.",
-"likeCount": 48,
+"likeCount": 53,
 "retweetCount": 2,
 "url": "https://x.com/soicfinance/status/2118696556019028307",
 "createdAt": "Fri Nov 06 13:26:37 +0000 2026"
 },
 {
-"userName": "AaronScottAI",
-"text": "🔥 75 AI TOOLS THAT CAN CHANGE THE WAY YOU WORK IN 2026!\n\nStop wasting hours on tasks AI can handle for you. 🤯\n\nHere are some powerful AI tools you should know:\n\n🔍 RESEARCH: DeepSeek R1, Perplexity, ChatGPT, Claude, Gemini\n\n📢 MARKETING: Pencil, AI-Ads, AdCopy, Simplified, AdCreative\n\n⚡ PRODUCTIVITY: Gamma, DeepSeek, Kickresume, Notion AI, ChatGPT\n\n🌐 WEBSITE: Dora, 10Web, Durable, Landingsite, Viz\n\n🤖 CHATBOTS: Mutual Info, Trycortex, Chatfuel, Dante AI, Droxy\n\n🎙️ MEETINGS: Tldv, Otter, Noty AI, Fireflies, MeetGeek\n\n🎨 DESIGN: Canva, Flair AI, Designify, Clipdrop, Autodraw\n\n🖼️ TEXT TO IMAGE: Grok, Flux, Midjourney, Microsoft Copilot, Adobe Firefly\n\n📄 RESUME: Kickresume, Resume AI, Resume Checker, Teal, Careerflow\n\n🎧 AUDIO: ElevenLabs, Songburst AI, Adobe Podcast, Lovo AI, https://t.co/Vv4AHSoWjb\n\n🎬 VIDEO: Klap, InVideo, Opus Clip, HeyGen, Eightify\n\n💡 PROMPTS: Snack Prompt, CustomGPT, PromptBox, Alicent AI, SiteGPT\n\n🪄 LOGO GENERATOR: Namelix, Designs AI, Brandmark, Stockimg AI, Namecheap\n\n💻 UI/UX: Figma, Uizard, UiMagic, Photoshop, UX Pilot\n\n✍️ COPYWRITING: Rytr, Copy AI, Writesonic, Adcopy AI, Jasper AI\n\nWhich tool are you using the most? 👇\n\n🔖 Save this post — you'll need it later!\n\nFollow @AaronScottAI for more AI tools, tutorials & updates. 🚀\n\n#AITools #AI #ArtificialIntelligence",
-"likeCount": 25,
-"retweetCount": 11,
-"url": "https://x.com/AaronScottAI/status/2118928405861388580",
-"createdAt": "Sat Nov 07 04:47:54 +0000 2026"
-},
-{
-"userName": "BadalKrypto",
-"text": "I do NFTs, so when I saw the Onchain Art Hub at Devcon, I had to try this! 👀\n\nThere's a LIVE art competition happening at the @LootRealms / @LootSurvivor Devcon Game Zone booth.\n\nI also drawed, tell me how's it ? \nInspired by @MrBeast\n\nHere's how to participate:\n\n1. Draw your own artwork inspired by the BEASTS theme.\n2. Convert your artwork into pixel art using GPT.\n3. Upload your creation to https://t.co/PKA2cFswxm\n\n4. Fill out the Google Form with your email, ETH address, and artwork.\n\nhttps://t.co/iMNYkIsni8\n\nAnd you're in! 🎨\n\nSome interesting details:\n→ Beasts are generative, fully onchain creatures from Loot Survivor.\n\n→ The collection lives on Starknet.\n\n→ $125 in prizes for Art Hub creations.\n\n→ A chance to win exclusive BEAST NFTs and AI credits.\n\n→ Entries also qualify for the bigger virtual BEAST-A-THON later this November.\n\nYou can also participate in the Game Zone category, with $275 in prizes for game builds.\n\nTeam on booth @heynejc\nA big shoutout to @rakshitaphilip for helping me manage the sheets. You're genuinely so humble and kind.\n\nIt was a pleasure meeting you! ❤️\n\nIf you're at Devcon, don't miss this opportunity to create something onchain!\n\ngNFT  🫶",
-"likeCount": 26,
-"retweetCount": 5,
-"url": "https://x.com/BadalKrypto/status/2118320027976020049",
-"createdAt": "Thu Nov 05 12:30:25 +0000 2026"
-},
-{
 "userName": "bcardarella",
 "text": "I just had @bot call my phone and had a conversation with it. I asked about its capabilities, who created it, I had it tell me a story, and what about the voice assistant I can change.\n\nThrough the voice assistant it looks like I could request any changes or kick off any job by asking it to do so. I didn't try this, but that feels like a potential attack vector to me. I hope it's accounted for. You could have some one tell your virtual assistant to do kick off any task, so hopefully not the case.\n\nBot couldn't tell me who created it, just that it was powered by Grok. Sorry @poteto .\n\nI figured I'd ask it to tell me a story and it started down this tale it wove but then I realized this is burning tokens so I stopped it.\n\nFinally, I asked if I could have it not identify itself as a virutal assistant when making calls on my behalf. Bot told me that it was not allowed to change that initial greeting but could change anything beyond the self-identification.\n\nI asked if Bot could change it's voice type and it could not. It sounds very AI in the voicetone but I suspect that is to further identify it as a virtual caller and not a real person.",
-"likeCount": 30,
+"likeCount": 43,
 "retweetCount": 0,
 "url": "https://x.com/bcardarella/status/2118884601712029770",
 "createdAt": "Sat Nov 07 01:53:50 +0000 2026"
 },
 {
-"userName": "anujcodes_21",
-"text": "Not another AI tool.\n\nOne brief in. A full campaign out.\n\nWatch what AISTHETIC OS does with a few words:\n\n→ Social, CTV, email and a website, built from one idea\n→ A score on every creative before it ships, with a heat map of where attention lands\n→ An original track to go with it\n→ Casting from licensed talent or a synthetic collection\n→ Fashion looks, poses and a node editor when you want full control to automate e-commerce and retail marketing at scale\n\nEvery creative studio. One platform. Built by creatives, for creators and brands.\n\nGold winner, Best Generative AI Creative Tool, 2026 Davey Awards.\n\nEvery campaign is now a studio.\n\nWhat would you brief it first?\n\n#GenerativeAI #CreativeTools #ContentCreation #MarketingTools",
-"likeCount": 208,
-"retweetCount": 5,
-"url": "https://x.com/anujcodes_21/status/2117965278642622691",
-"createdAt": "Wed Nov 04 13:00:46 +0000 2026"
+"userName": "meAsifAi",
+"text": "Want to create stunning AI fashion photos like this? 🔥\n\nIf you want the prompts used to create these images, check the link shared in the comments! 👇\n\n🎓 Join H3 AI Films Academy — our FREE AI filmmaking course!\n\nLearn AI image generation, character creation, prompt engineering, cinematic video creation, and much more.\n\n✨ Get access to lots of FREE learning resources and start creating amazing AI content today!\n\nYour AI filmmaking journey starts here! 🚀\n\n#H3AIFilmsAcademy #AICourse #AIFashion #AIArt #PromptEngineering #AIFilmmaking",
+"likeCount": 12,
+"retweetCount": 2,
+"url": "https://x.com/meAsifAi/status/2118647888834383897",
+"createdAt": "Fri Nov 06 10:13:13 +0000 2026"
 },
 {
-"userName": "Denarii_DFI",
-"text": "🚀 Turn creative ideas into a thriving AI influencer brand! Explore how to design distinctive digital personalities, craft standout content with @higgsfield_ai and @FlowbyGoogle, attract audiences and unlock new creative business opportunities. 🔥 https://t.co/6tKP3vBbes",
-"likeCount": 42,
-"retweetCount": 24,
-"url": "https://x.com/Denarii_DFI/status/2118214880318902429",
-"createdAt": "Thu Nov 05 05:32:36 +0000 2026"
-},
-{
-"userName": "DmitryBaranchuk",
-"text": "Really enjoyed @anvilapex’s talks at our diffusion seminars: a clear overview of post-training visual diffusion models (DPO, RL, and reward modeling).\n\nThe recordings are in Russian, but he’s now written up the material in English blog posts. Well worth a read!",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/DmitryBaranchuk/status/2117622474666115538",
-"createdAt": "Tue Nov 03 14:18:36 +0000 2026"
+"userName": "QianCherry2102",
+"text": "Here is the full concept of Boyun, and the general guideline to use it. \nAs a Researcher of CS, AI and Finance, this is one of the most valuable product I have put effort in. \nBuilding for #NEARHackathon, on @NEARProtocol, inspired by @ilblackdragon https://t.co/eF0WlmLdWZ",
+"likeCount": 10,
+"retweetCount": 2,
+"url": "https://x.com/QianCherry2102/status/2119091793551851689",
+"createdAt": "Sat Nov 07 15:37:09 +0000 2026"
 },
 {
 "userName": "matthewjetthall",
@@ -88,75 +72,59 @@
 "createdAt": "Mon Nov 02 16:18:56 +0000 2026"
 },
 {
-"userName": "swangentr",
-"text": "yo some serious alpha from our @dubinvest Eng team on making a cracked AI financial assistant and all the quant &amp; algo work we did to actually give quality advice! https://t.co/zkeLgT1s2t",
-"likeCount": 614,
-"retweetCount": 47,
-"url": "https://x.com/swangentr/status/2118739597240775129",
-"createdAt": "Fri Nov 06 16:17:38 +0000 2026"
+"userName": "ClementDelangue",
+"text": "RT @DynamicWebPaige: Such an awesome, empirically rigorous benchmark!! 🙌\n\nHolding the model fixed and still seeing a ~2x swing in solve rat…",
+"likeCount": 105,
+"retweetCount": 10,
+"url": "https://x.com/ClementDelangue/status/2119054279881158709",
+"createdAt": "Sat Nov 07 13:08:05 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: 18 of the 20 best open models today are Mixture-of-Experts. Dense is basically over.\n\nAnd yet the know-how to train a good M…",
-"likeCount": 3999,
-"retweetCount": 535,
-"url": "https://x.com/ClementDelangue/status/2118497125072093569",
-"createdAt": "Fri Nov 06 00:14:09 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @thinkymachines: Introducing Inkling 2 Small. Scoring 31 on the AA Intelligence Index, it's a big jump over its predecessor.\n\nInkling 2…",
-"likeCount": 5297,
-"retweetCount": 507,
-"url": "https://x.com/ClementDelangue/status/2118496699140214834",
-"createdAt": "Fri Nov 06 00:12:27 +0000 2026"
+"text": "RT @nvidiaomniverse: 1 million downloads of SimReady assets on @HuggingFace. 🎉\n\nSimReady assets help teams use 3D content across supported…",
+"likeCount": 143,
+"retweetCount": 17,
+"url": "https://x.com/ClementDelangue/status/2119225217545384117",
+"createdAt": "Sun Nov 08 00:27:19 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @HannesVonEssen: Microdock v2: As suggested by @matth_lapeyre, the robot now sits while docked, allowing all servos to be turned complet…",
-"likeCount": 1993,
-"retweetCount": 165,
+"likeCount": 2088,
+"retweetCount": 175,
 "url": "https://x.com/ClementDelangue/status/2118401921471930565",
 "createdAt": "Thu Nov 05 17:55:50 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Sanjil: Hugging face has single handedly changed the open source culture in robotics! \n\nIn just 3 years, they went from a model website…",
-"likeCount": 188,
-"retweetCount": 14,
-"url": "https://x.com/ClementDelangue/status/2118329543324832113",
-"createdAt": "Thu Nov 05 13:08:14 +0000 2026"
+"text": "RT @natolambert: Looks like the smartest western open weight model by a margin. While much smaller than muse spark open or mistal large. Wh…",
+"likeCount": 948,
+"retweetCount": 42,
+"url": "https://x.com/ClementDelangue/status/2118720198190510514",
+"createdAt": "Fri Nov 06 15:00:33 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @Teknium: Hermes supremacy tweet #9138 https://t.co/6xw8RQLMQw",
-"likeCount": 561,
-"retweetCount": 36,
+"likeCount": 620,
+"retweetCount": 39,
 "url": "https://x.com/ClementDelangue/status/2118854887693840506",
 "createdAt": "Fri Nov 06 23:55:46 +0000 2026"
 },
 {
-"userName": "ClementDelangue",
-"text": "RT @nathanhabib1011: damn https://t.co/jhUHwG26wB",
-"likeCount": 15,
-"retweetCount": 3,
-"url": "https://x.com/ClementDelangue/status/2118062496988967182",
-"createdAt": "Wed Nov 04 19:27:05 +0000 2026"
+"userName": "AEON_Community",
+"text": "https://t.co/uxP6D7jyD3",
+"likeCount": 165,
+"retweetCount": 127,
+"url": "https://x.com/AEON_Community/status/2118667235220717900",
+"createdAt": "Fri Nov 06 11:30:06 +0000 2026"
 },
 {
-"userName": "lennyzeltser",
-"text": "https://t.co/iPUYiVEqsk",
-"likeCount": 147,
-"retweetCount": 30,
-"url": "https://x.com/lennyzeltser/status/2118370697525313686",
-"createdAt": "Thu Nov 05 15:51:46 +0000 2026"
-},
-{
-"userName": "jaminball",
-"text": "https://t.co/rojJ2ix09C",
-"likeCount": 101,
-"retweetCount": 10,
-"url": "https://x.com/jaminball/status/2118742677294604454",
-"createdAt": "Fri Nov 06 16:29:53 +0000 2026"
+"userName": "0xEronn",
+"text": "https://t.co/uEyKZr2JrK",
+"likeCount": 22,
+"retweetCount": 2,
+"url": "https://x.com/0xEronn/status/2118667667422781517",
+"createdAt": "Fri Nov 06 11:31:49 +0000 2026"
 }
 ]
