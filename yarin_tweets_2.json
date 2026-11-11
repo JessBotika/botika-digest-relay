@@ -1,130 +1,122 @@
 [
 {
-"userName": "PrometheanAIX",
-"text": "ImagineArt’s new Agent changes the workflow.\n\n#ImagineArt @imagineart_x @imagineart_creo \n\nThe interesting part isn’t another AI tool.\n\nIt’s having the agent manage the process for you.\n\n🔥Try ImagineArt: https://t.co/VNQIjFXzfa\n\nWith an agent, you describe what you want instead of telling the model exactly how to make it.\n\nI basically told the agent the story, how I wanted the character to look and what should happen, then let it figure out the production details I’d normally pack into a video prompt.\n\nPaid partnership with ImagineArt #Ad\n\n➜ Agent prompt: \n\nCreate a 15-second hyper-realistic video set in Tokyo at night.\n\nOUTPUT REQUIREMENTS\n\nAspect ratio: 3:4 vertical\nTarget dimensions: 552 × 736 pixels\nDuration: 15 seconds\nVideo model: MiniMax H3 Max\n\nDo not increase the resolution beyond 552 × 736 simply to improve quality.\n\nDo not create multiple video variations.\n\nDo not create previews, alternate takes, upscales, or additional assets unless they are absolutely required to complete the requested video.\n\nCHARACTER\n\nThe protagonist is Woman 1, a stylish Japanese woman in her mid-to-late 20s with model-like features and a contemporary Tokyo appearance. She has a modern dark layered hairstyle with natural movement and face-framing pieces.\n\nHer clothing has a strong current Y2K streetwear influence, but it must look fashionable and authentic rather than like a Y2K costume. Use fitted layers, subtle metallic details, a compact shoulder bag, and contemporary footwear. She should look like someone you could genuinely encounter in a fashionable Tokyo neighborhood today.\n\nKeep Woman 1's face, body, hairstyle, clothing, and accessories consistent throughout the entire video. Her skin must have realistic natural texture and visible detail. Avoid glossy skin, plastic-looking faces, CGI appearance, or an animated AI-video look.\n\nSCENE 1 — approximately 4 seconds\n\nWoman 1 walks along an active Tokyo street at night and enters a contemporary convenience store. Keep Woman 1 clearly visible while establishing the environment. The street feels active and lived-in, with pedestrians, traffic, storefront illumination, and authentic Japanese signage. Her movement into the store should feel spontaneous and natural rather than staged.\n\nSCENE 2 — approximately 7 seconds\n\nInside the convenience store, Woman 1 selects a cold drink from a refrigerated case and walks to a modern self-checkout terminal.\n\nThe store should look like an ordinary, contemporary Tokyo convenience store, not a futuristic interpretation: bright practical lighting, organized narrow aisles, refrigerated cases, shelves filled with believable Japanese products, and modern checkout technology.\n\nAt the self-checkout area, Woman 1 notices an interesting local event flyer posted nearby. She pauses naturally, looks at it with genuine interest, takes out her phone, and photographs it. This is a small incidental discovery, not a dramatic moment.\n\nShe then scans her drink and completes the purchase using contactless payment.\n\nSCENE 3 — approximately 4 seconds\n\nWoman 1 puts her phone away, takes her drink, and exits through the automatic doors. She steps back onto the active Tokyo night street and naturally joins the pedestrian flow. End with her continuing through the environment. She should not stop and pose for the camera.\n\nDRINK AND PACKAGING\n\nThe drink is a realistic 500 mL PET bottle with an original fictional Japanese beverage brand. Give it professionally designed contemporary Japanese packaging with believable label hierarchy, restrained typography, realistic product information, and proper Japanese writing.\n\nDo not reproduce an existing beverage brand. The product should simply look convincing enough that it could genuinely be sitting in a Tokyo convenience-store refrigerator.\n\nTEXT AND ENVIRONMENTAL AUTHENTICITY\n\nAny visible Japanese signage, product packaging, event-flyer typography, or other readable environmental text must consist of real, correctly written Japanese or contextually appropriate English. Do not generate gibberish, fake Japanese characters, meaningless words, or obviously distorted AI typography.\n\nVISUAL STYLE\n\nPrioritize photorealism above everything else. The video should have believable human movement, realistic physics, natural skin texture, ordinary environmental imperfections, and authentic nighttime lighting.\n\nIt should feel like something captured naturally on a high-end smartphone while following Woman 1 through Tokyo, not like a commercial, fashion shoot, CGI render, or highly polished cinematic production.\n\nMaintain the quality and realism of the source imagery throughout the video. Do not introduce an animated or synthetic appearance as the video progresses.\n\nCOST CONTROL\n\nThis is also a credit-usage test. Use the minimum number of generation operations necessary to produce this one finished 15-second video. Do not automatically add previews, prompt enhancement, additional generations, alternate versions, upscaling, or other credit-consuming operations.\n\nBefore generating, tell me whether MiniMax H3 Max can actually produce 3:4 at 552 × 736. If it cannot output those exact dimensions, tell me the closest supported resolution and aspect ratio and wait for my approval before generating anything.\n\nAlso tell me the estimated total credit cost, if available, before starting the generation.\n\nDo not generate anything until I explicitly approve the production after you answer those two questions.",
-"likeCount": 30,
-"retweetCount": 1,
-"url": "https://x.com/PrometheanAIX/status/2119823456329925077",
-"createdAt": "Mon Nov 09 16:04:31 +0000 2026"
-},
-{
-"userName": "DeltaSassy",
-"text": "𝐓𝐡𝐫𝐞𝐚𝐝 #𝟒: 𝐓𝐡𝐞 𝐏𝐀𝐋𝐀𝐂𝐄, while working in lockstep with the Defence (MoD), strictly controlled every press release, interview transcript, and photo opportunity regarding Prince Harry’s deployments.\nThe entire public relations narrative was heavily managed and curated to achieve a specific set of goals:\n \n𝐂𝐚𝐫𝐞𝐟𝐮𝐥𝐥𝐲 𝐒𝐭𝐚𝐠𝐞𝐝 𝐏𝐡𝐨𝐭𝐨 𝐎𝐩𝐬. The visual image of the \"Soldier Prince\" fighting alongside his mates was meticulously choreographed: \n     • Every photo released to the public, such as Harry sitting on a Spartan armored vehicle, patrolling with a rifle, or walking through camp in dusty fatigues, was vetted by the PALACE and royal press officers and military censors. Images that showed vulnerability, logistical failures, or extreme chaos were filtered out.\n     • They satisfied Harry's desire to be seen as an active combat soldier, while simultaneously providing the Palace with powerful PR imagery that would transformed his public image from a rebellious, nightclub frequenting teenager into a dedicated national hero. \n\n𝐒𝐭𝐫𝐢𝐜𝐭 𝐒𝐜𝐫𝐢𝐩𝐭𝐢𝐧𝐠 𝐚𝐧𝐝 𝐂𝐨𝐧𝐭𝐞𝐧𝐭 𝐐𝐮𝐚𝐫𝐚𝐧𝐭𝐢𝐧𝐞: During his second tour in 2012–2013, the raw interviews he gave on the flightline at Camp Bastion were held under a strict media embargo. \n     • The Palace and MoD communications teams monitored the journalists on base to ensure that no live or unvetted remarks could leak to the public in real time. \n     • when the embargo finally lifted on January 21, 2013, after he left Afghanistan air space, the press released a mountain of text and video that had been safely locked away and managed for weeks.\n     • he Palace managed his military career with the precision of a major corporate product launch. It was a highly orchestrated public relations campaign. It was a calculated exercise of institutional power and negotiation between the Royal Family, the government, and the mainstream media.\n\nMY FAMILY/FRIENDS DID NOT HAVE RHIS SAFETY NET, DID YOURS?!!😡\n\nNote: From all my in-depth research, and this just scratches the surface, I have copied/pasted, directly from the sources, most of the excerpts I have posted. MY POINT IS, Harry was there but NEVER SERVED as a real Regular Joe!  His presence, stations and duties were highly coordinated logistics FOR HIS SAFETY! Yes, I AM MAD AS HELL that he is portrayed as some kind of war hero! Yes, I’m still mad as hell that he received the Pat Tillman Award for Service and the Living Legends of Aviation! I look at those wounded veterans with missing limbs in the Invictus Games😡and SEE they did not serve with the same EXTREME PROTECTIONS for their safety as Harry. How can he look them in the face while taking photo ops for his own PR!  He is a pretentious charlatan dress up as a soldier and I can never respect his phony military career!🤬",
-"likeCount": 531,
-"retweetCount": 69,
-"url": "https://x.com/DeltaSassy/status/2119731962793320482",
-"createdAt": "Mon Nov 09 10:00:57 +0000 2026"
-},
-{
-"userName": "meAsifAi",
-"text": "🍌 GOOGLE NANO BANANA 2.1 – THE NEXT LEVEL OF AI IMAGE CREATION! 🚀\n\nExciting update for all AI artists, designers and creative professionals! 🔥\n\nGoogle's latest Nano Banana 2.1 image-generation model brings improvements in image creation, editing, visual design and character consistency.\n\n✨ 🔥 WHAT'S NEW IN NANO BANANA 2.1?\n\n🎨 Advanced Image Generation: Turn detailed text prompts into high-quality visuals.\n\n👤 Character Consistency: Create and edit characters while maintaining their visual identity.\n\n🖼️ Advanced Image Editing: Make precise changes to objects, backgrounds, outfits and environments.\n\n👥 Multi-Character Editing: Work with multiple characters while maintaining their appearance.\n\n📦 Product Consistency: Create product visuals with improved consistency across different scenes.\n\n✏️ Mask-Based Editing: Modify selected areas of an image with greater control.\n\n📝 Better Text Rendering: Create posters, infographics, diagrams and designs with improved text handling.\n\n🌍 Visual Knowledge: Generate informative visuals, complex infographics and more accurate real-world scenes.\n\n🎬 WHAT CAN WE CREATE WITH IT?\n\n👗 Fashion Photography & Campaigns\n💎 Luxury Product Advertisements\n🎭 Character Sheets & Reference Images\n🏰 Fantasy & Cinematic Artwork\n📱 Social Media Graphics\n🛍️ E-commerce Product Images\n📊 Professional Infographics\n🎨 Image Editing & Creative Designs\n💡 PRACTICAL CHALLENGE\nUpload your own character reference image and try creating the same character in three different environments while maintaining facial identity, hairstyle and clothing.\nLet's see how consistent we can make our AI characters!\n🔗 TRY NANO BANANA 2.1 HERE:\nhttps://t.co/jXmhoMKuGN\n📖 OFFICIAL GOOGLE DEEPMIND MODEL DETAILS:\nhttps://t.co/3FxZqFquwJ\n\n👇 LET'S DISCUSS!\n\n🔥 Have you tried Nano Banana 2.1 yet?\n\n💬 Share your best creations, prompts and editing experiments in the comments.\n\nLet's learn, experiment and grow together! 🚀\n\nHappy Creating! ❤️",
-"likeCount": 7,
-"retweetCount": 1,
-"url": "https://x.com/meAsifAi/status/2119769816617881888",
-"createdAt": "Mon Nov 09 12:31:22 +0000 2026"
-},
-{
-"userName": "meAsifAi",
-"text": "🚀 GOOGLE FLOW – OMNI 1.2 FLASH IS HERE! 🔥\n\nExciting news for all AI filmmakers and creators! 🎬 Google Flow's new Omni 1.2 Flash brings exciting possibilities for AI video creation.\n\n✨ 🔥 WHAT'S NEW IN OMNI 1.2?\n\n⚡ 15-Second Video Generation: Create videos up to 15 seconds in a single generation.\n\n👤 Better Character Consistency: Maintain the same character's face, clothing and identity using reference images.\n\n🎙️ Native Audio & Dialogue: Generate videos with sound, natural dialogue and improved lip-sync.\n\n🖼️ Image-to-Video: Transform your reference images into cinematic animated scenes.\n\n🎞️ Video-to-Video Editing: Modify existing videos, backgrounds, lighting and visual styles.\n\n💬 Conversational Editing: Refine your generated videos simply by giving follow-up instructions.\n\n🎥 Improved Camera Control: Experiment with cinematic camera movements and creative shots.\n\n🌟 🎬 WHAT CAN WE CREATE WITH IT?\n\n💎 Luxury Product Advertisements\n👗 Fashion & Beauty Commercials\n🎭 Cinematic Short Films\n🗣️ Talking Characters & Dialogue Scenes\n📱 UGC-Style Promotional Videos\n🎥 YouTube Shorts, Reels & TikTok Videos\n🐉 AI Fantasy Films & Storytelling\n✨ Professional Product Videos\n💡 MY SUGGESTION\nDon't just experiment with random prompts! Try creating a complete 15-second cinematic commercial using a product reference image, consistent visuals, camera movements and generated audio.\n🔗 START CREATING WITH GOOGLE FLOW:\nhttps://t.co/Tb5cO4rvEb\n👇 LET'S DISCUSS!\n🔥 What are you planning to create with Omni 1.2?\n💬 Share your experiments, prompts, tips and results in the comments. Let's learn, create and grow together!\n\n🚀 Happy AI Filmmaking!",
-"likeCount": 8,
-"retweetCount": 1,
-"url": "https://x.com/meAsifAi/status/2119770024714059786",
-"createdAt": "Mon Nov 09 12:32:11 +0000 2026"
-},
-{
-"userName": "MimiTheDesigner",
-"text": "Here is the step-by-step I use to make an AI commercial from scratch. It applies whether the client is a fashion brand, a restaurant, a tech startup, or a real estate company.\n\nStep one: script. Write a 30-second narrative not a list of product features. A moment. A feeling. Something the product interrupts or enables. The emotional architecture of the spot before you generate a single frame.\n\nStep two: character brief. Describe your character in physical specifics  skin tone, hair type, clothing, body position. This description goes into every single prompt so the character stays consistent across every clip.\n\nStep three: scene breakdown. Take the script and break it into clips. Each clip is one camera angle, one moment, 5 to 10 seconds. You need maybe five to eight clips for a 30-second commercial.\n\nStep four: generate. Run each scene prompt. Keep what works. Regenerate what doesn't. This is a selection process, not a one-shot output.\n\nStep five: edit in CapCut. Music under everything. Sound effects on the action beats. Text overlays for the brand name and CTA. Grade with a LUT for visual consistency.\n\nThat is the pipeline. Notice that the AI tool is only step four out of five. The work is in the craft before and after generation.\n\nThis exact pipeline extended step by step, with every detail is inside my AI Creator. Register today at a 50% off. Link in comment.",
-"likeCount": 15,
-"retweetCount": 2,
-"url": "https://x.com/MimiTheDesigner/status/2119682765129965655",
-"createdAt": "Mon Nov 09 06:45:27 +0000 2026"
-},
-{
-"userName": "Blue2black",
-"text": "The Nomination process is OPEN for the Web3 Artists Awards 2026\n\n40 categories across on-chain excellence.\n\nVisual Arts & Photography\nAnalogue Painting, Drawing, Digital Painting, AI Painting, VR Painting, Documentary/Photojournalism, Fine-art/Commercial Photography, Graphic Design, Mixed Media, Digital + AI Mixed Media, 3D Modeling/Sculpture\n\nAnimation, Video & Generative\nMixed Video, Traditional Animation, Digital Animation, AI Animation, Best AI Short Film (5+/- min), Generative Art / Code Art\n\nMusic & Audio\nAI Composition, Best Producer/Studio, Traditional/Acoustic Performance, Songwriter of the Year\n\nLiterary & Spoken Word\nWritten Word, Spoken Word, Poetry\n\nMetaverse, Fashion & Immersive\nMetaverse Architecture, Immersive/Experiential, Digital Fashion, AI Fashion, Best Token-Gated Community & Utility\n\nCommunity, Impact & RWA\nNFT for Social Impact/DAO, Tokenized Luxury & Collectibles, Real Estate, Financial Asset (RWA), Gaming & P2E, DID & Soulbound, Marketplace/Platform Innovation\n\nCapstone Awards\nBest use of AI in art, Emerging Artist, Best Memecoin, Best Decentralization & Governance\n\n🔗 Nominate: https://t.co/R3OknxBlKu\n\nOne entry per category. Multiple nominations welcome.\n\nDeadline is 16th November \n\n@W3ArtistsAwards",
-"likeCount": 35,
+"userName": "AamirAnsar94694",
+"text": "𝗧𝗢𝗣 𝗔𝗜 𝗧𝗢𝗢𝗟𝗦 𝗙𝗢𝗥 𝗘𝗩𝗘𝗥𝗬 𝗝𝗢𝗕 𝗬𝗢𝗨 𝗡𝗘𝗘𝗗 𝗧𝗢 𝗞𝗡𝗢𝗪 🤖\n\nAI is changing how we work, create, research, and grow businesses.\n\nYou no longer need dozens of hours or complicated software to complete everyday tasks. The right AI tools can help you work smarter, save time, and improve productivity.\n\nHere are 8 categories of AI tools that can make your workflow more efficient.\n\n1. AI Tools for Creating — Turn Ideas Into Content\n\nCreate stunning visuals, images, and creative assets with AI.\n\nUseful tools:\n\n- Midjourney — AI image generation.\n- DALL·E — Create images from text prompts.\n- Runway — AI-powered creative generation.\n\nBest for designers, creators, and marketers.\n\n2. AI Tools for Writing — Create Better Content\n\nGenerate ideas, write articles, improve grammar, and create professional content.\n\nUseful tools:\n\n- ChatGPT — Writing and brainstorming.\n- Jasper — AI marketing content.\n- Grammarly — Writing and editing assistance.\n\nBest for bloggers, professionals, and content creators.\n\n3. AI Tools for Design — Create Professional Visuals\n\nDesign presentations, graphics, and marketing materials without starting from scratch.\n\nUseful tools:\n\n- Canva — Graphic design and presentations.\n- Adobe Firefly — AI-powered creative design.\n- Figma AI — Design and interface workflows.\n\nBest for designers, startups, and businesses.\n\n4. AI Tools for Editing — Transform Your Media\n\nMake video and audio editing faster with AI-powered features.\n\nUseful tools:\n\n- Descript — Audio and video editing.\n- Pictory — Convert content into videos.\n- CapCut — AI-powered video editing.\n\nBest for YouTubers, video editors, and social media creators.\n\n5. AI Tools for Research — Find Information Faster\n\nResearch complex topics, discover insights, and explore reliable information.\n\nUseful tools:\n\n- Perplexity — AI-powered research.\n- Elicit — Research paper discovery and analysis.\n- Consensus — Research-backed answers.\n\nBest for students, researchers, and professionals.\n\n6. AI Tools for Marketing — Grow Your Brand\n\nPlan campaigns, create marketing content, and improve your online presence.\n\nUseful tools:\n\n- https://t.co/cJrTD6yk0y — Marketing copy generation.\n- https://t.co/7nlQqjjdtO — Social media content creation.\n- Surfer SEO — SEO content optimization.\n\nBest for marketers, agencies, and business owners.\n\n7. AI Tools for Automation — Eliminate Repetitive Work\n\nConnect different applications and automate everyday workflows.\n\nUseful tools:\n\n- Zapier — Connect apps and automate tasks.\n- Make — Build visual automation workflows.\n- n8n — Create advanced automated workflows.\n\nBest for businesses, freelancers, and productivity-focused teams.\n\n8. AI Tools for Analysis — Turn Data Into Insights\n\nUnderstand complex information, analyze datasets, and make better decisions.\n\nUseful tools:\n\n- ChatGPT — Data analysis.\n- Julius AI — Analyze data using natural language.\n- Tableau — Data visualization and business intelligence.\n\nBest for analysts, business owners, and data professionals.\n\n𝗪𝗵𝘆 𝗗𝗼 𝗧𝗵𝗲𝘀𝗲 𝗧𝗼𝗼𝗹𝘀 𝗠𝗮𝘁𝘁𝗲𝗿?\n\nThe right AI tools can help you:\n\n- Save hours on repetitive tasks.\n- Improve productivity and efficiency.\n- Create professional-quality content.\n- Make smarter, data-driven decisions.\n- Focus more on creative and strategic work.\n\nYou don't need to master every AI tool. Start with the ones that solve your biggest problems.\n\nFollow @AamirAnsar94694 for more AI tools & tech updates.\n\n#AI #AITools #ArtificialIntelligence #Productivity #Automation #DigitalMarketing #Tech",
+"likeCount": 70,
 "retweetCount": 18,
-"url": "https://x.com/Blue2black/status/2118071971158065371",
-"createdAt": "Wed Nov 04 20:04:44 +0000 2026"
+"url": "https://x.com/AamirAnsar94694/status/2120079159145685158",
+"createdAt": "Tue Nov 10 09:00:35 +0000 2026"
+},
+{
+"userName": "mertmetindev",
+"text": "25 more free websites most people have never heard of:\n\n1.) https://t.co/VQr8giEMx0 — Direct links to delete your account on hundreds of sites\n\n2.) https://t.co/XE6rSQQAqd — Scan any file or link for malware before you open it\n\n3.) https://t.co/7cniV1KpDN — Check which of your accounts support two-factor login\n\n4.) https://t.co/k4prTHSuSs — A free, open-source password manager\n\n5.) https://t.co/Iq1D1lXVsj — Send notes that self-destruct after being read\n\n6.) https://t.co/OUOt3guKRb — Ask math, science or unit questions and get computed answers\n\n7.) https://t.co/Jh0K2ZrbPO — The best free graphing calculator\n\n8.) https://t.co/4DyXHy3a4P — A calculator for everything: loans, BMI, dates, percentages\n\n9.) https://t.co/oocF9ty20p — Compare the cost of living between any two cities\n\n10.) https://t.co/Vi9egcPkUp — See every direct flight from any airport on a map\n\n11.) https://t.co/wq2KfnJjEK — The flight search engine travel hackers use\n\n12.) https://t.co/PTd9afbWEq — Free ebooks and audiobooks with a library card\n\n13.) https://t.co/no8SFuA27T — Borrow millions of ebooks for free\n\n14.) https://t.co/jXQr7MQfMu — Find free, legal versions of paywalled research papers\n\n15.) https://t.co/afNs8D4IEH — Free courses from basic math to economics\n\n16.) https://t.co/fncExGH5jc — Harvard's famous intro to computer science, free\n\n17.) https://t.co/EC59WMi8vE — Learn to code for free, with certificates\n\n18.) https://t.co/JpflM80qAs — Step-by-step learning paths for tech careers\n\n19.) https://t.co/HGnObDHxk9 — Learn to touch type properly\n\n20.) https://t.co/jguDtL0fjo — Click a muscle, get exercises for it\n\n21.) https://t.co/jAGdM25ux1 — Find the best time to wake up based on sleep cycles\n\n22.) https://t.co/5Ndd7AW9zT — Free high-quality photos for any use\n\n23.) https://t.co/yFJ0tkVrWF — Generate color palettes in seconds\n\n24.) https://t.co/ADQxTGn1op — Pull text out of any image or scanned PDF\n\n25.) https://t.co/Ervi5Bvk7q — See every time zone at a glance",
+"likeCount": 775,
+"retweetCount": 128,
+"url": "https://x.com/mertmetindev/status/2120170834786410793",
+"createdAt": "Tue Nov 10 15:04:52 +0000 2026"
+},
+{
+"userName": "elg_oleksandr",
+"text": "THIS IS INSANE! AI JUST TURNED A HANDFUL OF RANDOM IDEAS INTO A WHOLE COLLECTION OF CINEMATIC MOVIE SCENES\n\n→ A woman stands on a beach holding a small dog\n\n→ Suddenly, a cannon fires in the direction of a distant sailing ship\n\n→ The camera cuts to the ship just as a massive explosion tears through it\n\n→ Next, a fantasy scene unfolds in a dark forest, with a mysterious woman and a giant creature\n\n→ A bear suddenly appears as another woman runs through the woods\n\n→ The scene switches to a luxury convertible speeding along a forest road\n\n→ A blonde woman falls dramatically from the moving car\n\n→ Then comes a completely different scene: women in elegant dresses gathered inside a ballroom\n\n→ The tension builds as they confront each other\n\n→ Finally, the scene turns into a chaotic, cinematic confrontation\n\nGenerated here, one still of the door and the drop -> https://t.co/pkjrPKTqnM\n\nThe interesting part is the variety.\n\nEvery few seconds, the video introduces a completely different setting, character and storyline.\n\nBeach explosions, fantasy creatures, luxury cars and dramatic ballroom scenes.\n\nIt's like watching several movie trailers compressed into one short video.\n\nAnd this is where AI video generation gets interesting.\n\nCinematic storytelling\nFantasy movie scenes\nLuxury lifestyle content\nAction sequences\nFashion campaigns\nViral short-form videos\nYou don't need to film every scene separately with actors, locations and production crews.\nYou can start with a concept, generate the individual scenes and combine them into a cinematic sequence.\nMultiple ideas. Multiple worlds. One AI-powered content pipeline.\nWould you watch a full movie made entirely from AI-generated scenes?\nMake the opening more specificTighten the scene-by-scene breakdown",
+"likeCount": 17,
+"retweetCount": 0,
+"url": "https://x.com/elg_oleksandr/status/2120283266921930970",
+"createdAt": "Tue Nov 10 22:31:38 +0000 2026"
+},
+{
+"userName": "rahim_mirani",
+"text": "3 very interesting papers i read on rl for robotics, each one builds on top of the other\n\n1. omnireset by @patrickhyin\ninstead of starting every episode from the beginning, start from all over the task: reaching, holding the part, part half inserted. on a real robot, zero shot from cameras, it got 85% on peg insertion. diffusion policy with 100 real demos got ~2%\n\n2. sgs (success guided sampling) by @octi_zhang \nomnireset picks those starting points at random. but a lot of them are either too easy (robot always succeeds) or too hard (always fails), and the robot learns nothing from either. sgs tracks how often the robot succeeds from each starting point and practices mostly on the ones it gets right about half the time. on screwing a nut onto a bolt in sim, success went from 6% to 70%\n\n3. alphanist by @octi_zhang \nuses both, but the only reward is 1 when the part is fully assembled. one policy learns all 20 tasks on the nist assembly board at 98% in sim. 20 separate policies got 81% with 39x the compute, and adding the usual shaped reward dropped it to 18%\n\nnone of this needed human demos or reward tuning, just better choices about where training starts. feels like rl for manipulation is way more underrated than people think right now",
+"likeCount": 15,
+"retweetCount": 1,
+"url": "https://x.com/rahim_mirani/status/2120314123888243037",
+"createdAt": "Wed Nov 11 00:34:15 +0000 2026"
 },
 {
 "userName": "Monaqbuv",
-"text": "Here is a detailed, professional AI image generation prompt to recreate the style, mood, and composition of the image:\nA high-fashion editorial portrait of a fair-skinned woman with a captivating expression, styled as an ethereal water nymph. She has long brown hair styled in an intricate updo with loose strands framing her face. She wears an avant-garde, translucent aquatic-themed outfit featuring layers of iridescent aqua blue and pale lavender organza, pleated fabrics, and delicate lace. Elaborate pearl strands and crystal beaded body jewelry drape over her shoulders and chest. Her hands feature long, sculpted editorial metallic/clear stiletto nails, with one hand gracefully touching her hair and the other resting on her chest. The background is an abstract, fluid ripple of water in shades of deep teal and luminous blue, creating a dreamy, underwater effect. Soft, diffuse studio lighting with a high-end commercial finish, emphasizing fabric textures, shimmering highlights, and sharp focus on the subject. Vertical aspect ratio 4:5",
-"likeCount": 13,
+"text": "Here is a detailed, high-fashion AI image generation prompt inspired by this aesthetic, optimized for vertical framing and rich textural detail:\n> Prompt: A stunning close-up vertical portrait of a high-fashion model with a glowing, dewy complexion and flawless skin. She has striking turquoise metallic eyeshadow, voluminous long eyelashes, and glossy, plump nude-pink lips. Delicate iridescent glitter specks are sprinkled across her high cheekbones and face. A large, vibrant turquoise flower with velvety petals partially frames her face in the foreground, with another flower near her hand. Her manicured almond-shaped nails feature a matching turquoise and nude gradient design with subtle gold foil flakes. She wears matching turquoise hoop earrings. Dramatic chiaroscuro lighting highlights her glowing skin textures and wet-look makeup. Shot on 85mm lens, photorealistic, 8k resolution, vertical 4:5 aspect ratio --ar 4:5\n>",
+"likeCount": 27,
 "retweetCount": 2,
-"url": "https://x.com/Monaqbuv/status/2119716624328442175",
-"createdAt": "Mon Nov 09 09:00:00 +0000 2026"
+"url": "https://x.com/Monaqbuv/status/2120063916432834919",
+"createdAt": "Tue Nov 10 08:00:01 +0000 2026"
 },
 {
-"userName": "RillmentGames",
-"text": "Reinforcement Learning: One motivator for simulating such everyday life situations is to train the AI. \n\nThe idea is to create scenario's where the girls can gossip and then score it based on:\nNovelty - Refreshing, Surprising, Non-human.\nPleasantness - How much regular dudes like it 🤠👍\nConsistency - It should make logical sense, even if its very different from normal human behavior.\n\nThe hardest part is making the scoring function. One typical approach from inverse reinforcement learning is to train a classifier based on my own hand labeled responses (at least initially). LLM as a judge is another way but this also needs a lot of human labeled examples for context that helps approximate human preference.\n\nBut if I figure all that out and train it for a few thousand epochs, should be interesting personalities. Training specilized personalitiy LLM's will be a new future art form 😘🤖🚀",
-"likeCount": 11,
-"retweetCount": 1,
-"url": "https://x.com/RillmentGames/status/2119423230238978229",
-"createdAt": "Sun Nov 08 13:34:09 +0000 2026"
+"userName": "zaynmcps",
+"text": "Imagine turning your fashion lookbook into a stunning AI-generated video! ✨👠\n\nShowcase a whole week of outfits with one creative concept.\n\nFrom Monday's laid-back style to midweek chic looks, let every outfit transition reveal a new side of your fashion collection.\n\nIt's a fresh way for fashion brands and small businesses to turn product visuals into engaging promotional content.\n\nWith CapCut PC, bring your AI fashion concepts to life using image references and AI video generation.\n\nOrganize your clips on the multi-track timeline, refine every transition, and add eye-catching text and effects to highlight your products and Black Friday promotions.\n\nCreate more than a lookbook. Create a fashion story worth watching! 🖤🎬\n\n#CapCutPC #CapCutDidThat #capcutmarketing",
+"likeCount": 152,
+"retweetCount": 2,
+"url": "https://x.com/zaynmcps/status/2119925511392494062",
+"createdAt": "Mon Nov 09 22:50:02 +0000 2026"
 },
 {
-"userName": "Jacobmalherbe21",
-"text": "Fable 5.2 dropped today.\n\nIt built an OS in 8 days.\nFormalized Fermat’s Last Theorem in 30 hours.\nDesigned 3 working devices from one paragraph.\n\nIt also wrote an 87,500-word rule book and didn’t notice.\n\nIt’s almost AGI. Here’s the “almost.” 👇 https://t.co/orUoT7mykr",
-"likeCount": 15,
+"userName": "Monaqbuv",
+"text": "Here is a detailed, high-fashion AI image generation prompt inspired by this image, optimized for vertical 4:5 portrait rendering:\n> High-fashion studio portrait of a woman with long wavy brunette hair, striking a dynamic editorial pose with one leg raised. She is wearing a magnificent, voluminous high-fashion gown heavily embellished with layers of fluffy ivory and cream-colored ostrich feathers. Elegant strappy nude heels, soft dramatic chiaroscuro studio lighting, neutral gradient background, 8k resolution, photorealistic, elegant luxury aesthetic --ar 4:5",
+"likeCount": 23,
+"retweetCount": 2,
+"url": "https://x.com/Monaqbuv/status/2120118788624658788",
+"createdAt": "Tue Nov 10 11:38:03 +0000 2026"
+},
+{
+"userName": "adam_james_hill",
+"text": "x started paying clippers yesterday. stores pay $400 for five ai ads, and one render costs about 30 cents.\n\nfour ways to get paid for short video, with the scripts and prompts to copy, all in @Picsart.\n\nwhich would you start with, clipping or ai ads? https://t.co/zOWabOgdgO",
+"likeCount": 30,
 "retweetCount": 0,
-"url": "https://x.com/Jacobmalherbe21/status/2119890293260538367",
-"createdAt": "Mon Nov 09 20:30:06 +0000 2026"
+"url": "https://x.com/adam_james_hill/status/2120171033982308416",
+"createdAt": "Tue Nov 10 15:05:40 +0000 2026"
 },
 {
-"userName": "DanteReminick",
-"text": "I wrote this article purely for my own benefit. I wanted to be able to organize my thoughts around a subject that I've spent lots of time researching/thinking about. I shared this with some friends who said I need to publish it. \n\nHope you enjoy. https://t.co/63nlCpE4YP",
-"likeCount": 114,
-"retweetCount": 11,
-"url": "https://x.com/DanteReminick/status/2119811517260378458",
-"createdAt": "Mon Nov 09 15:17:04 +0000 2026"
-},
-{
-"userName": "doxascope",
-"text": "This is the AI era as it took shape: a major scientific achievement, a resource-heavy industry, and tools whose adoption is spreading faster than the ability to build them. https://t.co/Z7WYk1FegK",
-"likeCount": 6,
-"retweetCount": 1,
-"url": "https://x.com/doxascope/status/2119841788970061962",
-"createdAt": "Mon Nov 09 17:17:21 +0000 2026"
+"userName": "nizzyabi",
+"text": "i've been texting instinct since august. it's one of the most thoughtful products i've used this year, so i took the whole thing apart to see why.\n\nat the end i show how to build an assistant like it with keiki :) https://t.co/Ty34t3EirG",
+"likeCount": 545,
+"retweetCount": 25,
+"url": "https://x.com/nizzyabi/status/2120194267066863738",
+"createdAt": "Tue Nov 10 16:37:59 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Thom_Wolf: 18 of the 20 best open models today are Mixture-of-Experts. Dense is basically over.\n\nAnd yet the know-how to train a good M…",
-"likeCount": 4541,
-"retweetCount": 623,
-"url": "https://x.com/ClementDelangue/status/2118497125072093569",
-"createdAt": "Fri Nov 06 00:14:09 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @varien: We've open-sourced Qwen Concept 27B, our first model.\n\nIt applies direct weight-space edits (inspired by the recent MIT CSAIL \"…",
-"likeCount": 849,
-"retweetCount": 70,
-"url": "https://x.com/ClementDelangue/status/2118810949024940507",
-"createdAt": "Fri Nov 06 21:01:10 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Gus_Crampette: We were at the @seeedstudio  Shenzhen factory today with @antoinepirrone and @matth_lapeyre and seeing the Microduck pro…",
-"likeCount": 455,
-"retweetCount": 38,
-"url": "https://x.com/ClementDelangue/status/2118748056929907174",
-"createdAt": "Fri Nov 06 16:51:15 +0000 2026"
-},
-{
-"userName": "yaboilyrical",
-"text": "My journey post-training vanilla transformer models to generate audio https://t.co/oWCRNQj9hz",
-"likeCount": 41,
-"retweetCount": 2,
-"url": "https://x.com/yaboilyrical/status/2120003736735285467",
-"createdAt": "Tue Nov 10 04:00:53 +0000 2026"
-},
-{
-"userName": "ClementDelangue",
-"text": "RT @Teknium: Hermes supremacy tweet #9138 https://t.co/6xw8RQLMQw",
-"likeCount": 623,
+"text": "RT @calebfahlgren: Hugging Face is now the best place to host and share 3D assets 🧊🤗\n\nDrop in .glb, .ply, .stl, or splat files and get a 3D…",
+"likeCount": 303,
 "retweetCount": 39,
-"url": "https://x.com/ClementDelangue/status/2118854887693840506",
-"createdAt": "Fri Nov 06 23:55:46 +0000 2026"
+"url": "https://x.com/ClementDelangue/status/2119867031461966306",
+"createdAt": "Mon Nov 09 18:57:40 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @NielsRogge: The top trending model on @huggingface currently is an image-to-3D model called Idol. 🔥\n\nIt is built by @speridlabs, a comp…",
+"likeCount": 366,
+"retweetCount": 46,
+"url": "https://x.com/ClementDelangue/status/2120241259818234281",
+"createdAt": "Tue Nov 10 19:44:43 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @LysandreJik: A pretty important new primitive just landed in 🤗 Transformers: **decision models**.\n\nI think this could matter much more…",
+"likeCount": 127,
+"retweetCount": 23,
+"url": "https://x.com/ClementDelangue/status/2120165700115271845",
+"createdAt": "Tue Nov 10 14:44:28 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @GavinSBaker: @TheStalwart Or maybe, just maybe, a reasonable number of VCs are patriotic Americans who believe (rightly or wrongly but…",
+"likeCount": 1141,
+"retweetCount": 53,
+"url": "https://x.com/ClementDelangue/status/2120300659631341974",
+"createdAt": "Tue Nov 10 23:40:45 +0000 2026"
+},
+{
+"userName": "jeremyphoward",
+"text": "RT @math_rachel: \"When two things are different, you should not use one to mimic the other. It would've been a colossal mistake if Phil Jac…",
+"likeCount": 44,
+"retweetCount": 7,
+"url": "https://x.com/jeremyphoward/status/2119486332733129087",
+"createdAt": "Sun Nov 08 17:44:54 +0000 2026"
+},
+{
+"userName": "Ambani_Wessley",
+"text": "https://t.co/Fccj6eafeL",
+"likeCount": 42,
+"retweetCount": 42,
+"url": "https://x.com/Ambani_Wessley/status/2120188581524500647",
+"createdAt": "Tue Nov 10 16:15:23 +0000 2026"
 }
 ]

@@ -1,130 +1,130 @@
 [
 {
-"userName": "Oluwaphilemon1",
-"text": "A 27B multimodal model doesn’t necessarily need to consume the memory of a full-precision checkpoint.\n\nQwen3.8-27B-MXFP4 is a compressed image-text-to-text model designed to process both visual and textual inputs while generating text-based responses.\n\nThe model combines the Qwen3.5 architecture with MXFP4 quantisation, using llm-compressor to reduce its weight footprint and prepare it for efficient inference with vLLM.\n\nThis makes it interesting for developers experimenting with multimodal AI on modern GPU infrastructure.\n\nWhat can you build with it?\n\nBecause the model accepts images alongside text, it opens up several application possibilities:\n\nVisual question answering: Upload an image and ask the model to identify objects, explain what is happening or extract relevant information.\nImage captioning: Generate descriptions of photographs, screenshots and other visual content.\nInteractive visual assistants: Build chat interfaces that can interpret images and respond to follow-up questions.\nAccessibility tools: Develop applications that describe visual information for users who have difficulty accessing it directly.\nResearch applications: Analyse visual material alongside written instructions and questions.\n\nThe important distinction is that this is an image-text-to-text model. It interprets visual inputs and produces textual responses. It isn’t an image-generation model.\n\nWhy MXFP4 quantisation matters\n\nThe model has 27 billion parameters, so its weight storage requirements can become substantial without compression.\n\nMXFP4 uses a four-bit microscaling floating-point representation to store weight values more compactly.\n\nRather than representing every weight using a conventional higher-precision format, the quantisation process uses compact FP4 values alongside scaling information.\n\nThe goal is to reduce memory requirements while retaining as much of the original model’s useful behaviour as possible.\n\nFor multimodal models, this is particularly relevant because the inference workload involves more than text generation. The system must also process visual information.\n\nA smaller weight footprint can make deployment easier, although actual memory consumption still depends on image resolution, context length, KV cache, batch size and runtime overhead.\n\nBuilt for efficient inference\n\nThe checkpoint uses:\n\nModel size: 27B parameters.\nArchitecture: Qwen3.5-based, according to the model description.\nQuantisation: MXFP4.\nCompression tool: llm-compressor.\nStorage formats: Safetensors and compressed-tensors.\nInference engine: vLLM.\n\nThe use of compressed-tensors is relevant because the quantised representation needs to be stored and interpreted correctly by the inference runtime.\n\nvLLM provides the serving infrastructure for running the model, making it possible to integrate it into multimodal applications and API-based workflows.\n\nActual performance will depend on GPU compatibility, supported kernels, memory capacity and the inference configuration.\n\nWhy this release is worth watching\n\nFP4 quantisation is becoming an increasingly interesting option for deploying larger models.\n\nApplying it to a 27B multimodal checkpoint shows how compression techniques can help make models that process images and text easier to experiment with and serve.\n\nThe model has reportedly accumulated more than 3,600 Hugging Face downloads, suggesting interest from developers exploring compressed multimodal models.\n\nHowever, download numbers don’t establish model quality or production readiness.\n\nI’d particularly like to see independent comparisons covering visual question answering, image understanding, response accuracy, memory consumption and generation speed against the original higher-precision checkpoint\n\nThe interesting development is the combination of a large multimodal model, compact FP4 weights and an inference stack designed for efficient serving",
-"likeCount": 4,
-"retweetCount": 3,
-"url": "https://x.com/Oluwaphilemon1/status/2119959273513922916",
-"createdAt": "Tue Nov 10 01:04:12 +0000 2026"
+"userName": "Arina_sharmi",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/8PiASSneJh — free research papers\n2. https://t.co/IcgRVXNPZV — papers when unpaywall misses\n3. https://t.co/MS63rBtNTh — borrow books\n4. https://t.co/7Ijz8RK64r — 70k+ free books\n5. https://t.co/B7SMTezUl6 — audit university courses free\n6. https://t.co/I0u0MsSvbQ — step-by-step math\n7. https://t.co/R1hZg0fWMg — background removal\n8. https://t.co/04PV3JyQ1n — object removal\n9. https://t.co/dq0sG71k5T — quick file tools\n10. https://t.co/e5ewVycSJ7 — PDF merge/split\n11. https://t.co/wOw1bpj8Bm — free Photoshop alternative\n12. https://t.co/2c6Bem5zWa — image compression\n13. https://t.co/vv0o5NFYPb — fast diagrams\n14. https://t.co/iKUdZRVrNu — beautiful code screenshots\n15. https://t.co/ALDwbjP1d7 — test regex\n16. https://t.co/26TcrNdsIQ — clean JSON\n17. https://t.co/J2M9FhnLIF — terminal commands explained\n18. https://t.co/ixVViCm6qP — software alternatives\n19. https://t.co/PEBKlJfY6I — breach check\n20. https://t.co/mXwQNA7CVp — temp email\n21. https://t.co/9KslPJLGKf — self-destruct notes\n22. https://t.co/6xD2vDCGnT — live global radio\n23. https://t.co/53l8u0JfVN — focus sound\n24. https://t.co/k4qNW26qum — custom ambient\n25. https://t.co/yESxpf9viN — where to stream\n26. https://t.co/xCXYNMjT2x — digital library\n27. https://t.co/XIFhTYpyC8 — old web pages\n28. https://t.co/BPpD7LpCGM — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/KGfF2xe0Zs — speed test\n31. https://t.co/OMktX9XEPX — compress images\n32. https://t.co/BBAtdNoVKP — file conversion\n33. https://t.co/aXjjLmcNLQ — compare text\n34. https://t.co/ZeEfI3m2e3 — disposable inbox\n35. https://t.co/1Bqu3OthrO — JS obfuscate\n36. https://t.co/zYL4GDtFwX — typing practice\n37. https://t.co/XGeeKJ9ssn — typing test\n38. https://t.co/dC6yo1wsXV — spaced repetition\n39. https://t.co/TrOldRhr8T — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/ay75tAw5KE — bookmark manager\n42. https://t.co/LNFq6YkxW1 — task list\n43. https://t.co/IMq6WWXcr4 — boards\n44. https://t.co/lfXwIvPyEd — whiteboard\n45. https://t.co/SiS4QU0BV4 — design\n46. https://t.co/p2PPgOoESC — quick graphics\n47. https://t.co/R1hZg0fWMg — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/fHHlMij3WT — video compress\n50. https://t.co/w8U0knp0SZ — local file transfer\n\nBookmark this. You’ll definitely need some of these later. 🔖\n\nFollow @Arina_sharmi for more useful websites, AI tools & tech resources.",
+"likeCount": 73,
+"retweetCount": 50,
+"url": "https://x.com/Arina_sharmi/status/2120337747936440377",
+"createdAt": "Wed Nov 11 02:08:07 +0000 2026"
 },
 {
-"userName": "0x__deee",
-"text": "Here’s a list of free websites that do the job of paid tools \n\n50 are sorted so you can find the right one fast 👇\n\nLearn anything\n\n1. https://t.co/YMBdAEmnKM: read new research before it hits the news\n\n2. https://t.co/3ktp7tfscf: borrow millions of books for free\n\n3. https://t.co/i9Dii9GBKX: 75,000+ classic ebooks, no sign-up\n\n4. https://t.co/s9GN88zLO2: full university textbooks at no cost\n\n5. https://t.co/eHQSizO8wP: real MIT courses, lectures and notes\n\n6. https://t.co/DyvAhlRCPX: step-by-step paths to learn any tech skill\n\n7. https://t.co/OOyr8GMCzp: maths, science and data answered step by step\n\n8. https://t.co/KkbowMh563: find the legal free copy of a paywalled paper\n\nResearch with AI\n\n9. https://t.co/ieQFIWc3dS: ask a question, get answers with sources\n\n10. https://t.co/fH0pkHpU2C: answers pulled straight from studies\n\n11. https://t.co/HvhZTcX5X3: see how papers link to each other\n\n12. https://t.co/QvLk2gGwgK: highlight a confusing line, get it in plain English\n\n13. https://t.co/yvam5Xr8dW: search 200M+ academic papers\n\nDesign and images\n\n14. https://t.co/XbWpqS1ffF: Photoshop in your browser\n\n15. https://t.co/ttLb9P7EIP: shrink images without losing quality\n\n16. https://t.co/Ox42CnSMOB: cut out any background in seconds\n\n17. https://t.co/Y1wNjnSDMo: erase people or objects from photos\n\n18. https://t.co/fQUdjc1Das: free high-quality photos\n\n19. https://t.co/GCWPo31uCK: free stock videos as well as photos\n\n20. https://t.co/PZuEAyb5CV: build a colour palette in one click\n\n21. https://t.co/Ck67w8e4d4: preview your colours on a real website\n\n22. https://t.co/3TuzrDORBx: 500,000+ free icons and vectors\n\n23. https://t.co/9sj8LXYEwF: make, crop and compress GIFs\n\n24. https://t.co/k905Xh08qe: hand-drawn style diagrams\n\nFor developers\n\n25. https://t.co/VbKaa0w0Iy: every major coding doc in one searchable place\n\n26. https://t.co/YmcoZGpMiL: test and debug regex live\n\n27. https://t.co/dHKsy4l7wr: turn JSON into a visual map\n\n28. https://t.co/3WVjghMNTe: check which browsers support a feature\n\n29. https://t.co/DuOK57HAmh: write text, get a flowchart\n\n30. https://t.co/CRHXzTMyHk: break down any terminal command\n\nPrivacy and security\n\n31. https://t.co/tJlP8jHgsG: check if your email was in a breach\n\n32. https://t.co/6iE1CtNXrv: scan dodgy files and links\n\n33. https://t.co/6E42KmKLsv: send notes that delete after reading\n\n34. https://t.co/TR7Q2HwbY1: direct links to delete your accounts\n\n35. https://t.co/jrDtH3U5hU: terms of service, summarised and graded\n\n36. https://t.co/8FKOpPulyZ: find where an image really came from\n\nEveryday tools\n\n37. https://t.co/uzCFMOuzUo: send files up to 10GB, end-to-end encrypted\n\n38. https://t.co/ir6sUf7AB2: AirDrop between any two devices\n\n39. https://t.co/djYSGBYBPs: every PDF tool in one place\n\n40. https://t.co/nVDFY2n2J8: grammar and spelling checker\n\n41. https://t.co/DdNLB0Ku2L: Amazon price history and drop alerts\n\n42. https://t.co/23icryI2yl: see any website as it looked years ago\n\n43. https://t.co/cvDR263L2P: free swaps for paid apps\n\n44. https://t.co/KIAsXKhWq6: is it down, or is it just you?\n\nSound and focus\n\n45. https://t.co/axojP8FlrA: spin the globe, listen to live local radio\n\n46. https://t.co/DdDuLJizVW: split the vocals from any song\n\n47. https://t.co/z4o4AniGKa: play with music, no skills needed\n\n48. https://t.co/MGjFSFOlt2: mix rain, wind and café sounds to focus\n\n49. https://t.co/xfAIxqRkMb: build your own background soundscape\n\n50. https://t.co/EP26Gr7qLU: name that song from a TV show\n\nBookmark this. You'll come back to it",
-"likeCount": 22,
-"retweetCount": 5,
-"url": "https://x.com/0x__deee/status/2119685419000283533",
-"createdAt": "Mon Nov 09 06:56:00 +0000 2026"
+"userName": "ArifAIHQ",
+"text": "50 legendary websites that feel like the internet’s hidden toolbox 🧰\n\n1. https://t.co/fNfYPfqOQL — free research papers\n2. https://t.co/RLNx06Hapr — papers when unpaywall misses\n3. https://t.co/M7RwZWAPmh — borrow books\n4. https://t.co/JGLJ1vBMd4 — 70k+ free books\n5. https://t.co/cJPoYHngwT — audit university courses free\n6. https://t.co/yrpzRcVq4X — step-by-step math\n7. https://t.co/Wv5dNqTyKU — background removal\n8. https://t.co/AfwRqOXsE6 — object removal\n9. https://t.co/YeoVMU3HZq — quick file tools\n10. https://t.co/6Weq5y7fyH — PDF merge/split\n11. https://t.co/PSQWFnBqHS — free Photoshop alternative\n12. https://t.co/dVHCcpl8zq — image compression\n13. https://t.co/SRCxOs4XW5 — fast diagrams\n14. https://t.co/ZxmRK0LWeE — beautiful code screenshots\n15. https://t.co/jYuShbP6wE — test regex\n16. https://t.co/VOzFrBSHzi — clean JSON\n17. https://t.co/isVS4wQPrE — terminal commands explained\n18. https://t.co/gOkFgZk8Bq — software alternatives\n19. https://t.co/vORyZ5C5Xb — breach check\n20. https://t.co/0iez5I3gqn — temp email\n21. https://t.co/whAuSUyU4c — self-destruct notes\n22. https://t.co/bDEEnoZEJh — live global radio\n23. https://t.co/PFgUKsi4hz — focus sound\n24. https://t.co/xEb9mdypc1 — custom ambient\n25. https://t.co/oKnODbmu1k — where to stream\n26. https://t.co/Q31kxdRdCm — digital library\n27. https://t.co/SBOSbqzpJd — old web pages\n28. https://t.co/dxb0bCZ1v0 — site traffic\n29. downtimerobot — uptime check\n30. https://t.co/1TKu00WSYX — speed test\n31. https://t.co/cUsbPNz6FA — compress images\n32. https://t.co/M4975OPTy9 — file conversion\n33. https://t.co/Hkm25zHUzx — compare text\n34. https://t.co/Sz27b2GxfH — disposable inbox\n35. https://t.co/sOnhiTIpkq — JS obfuscate\n36. https://t.co/G3oVUURj63 — typing practice\n37. https://t.co/sOL07zfQGQ — typing test\n38. https://t.co/EyJ9dB4Pvt — spaced repetition\n39. https://t.co/XIqIGL8XN3 — all-in-one notes\n40. obsidian.md — local knowledge base\n41. https://t.co/J4HQwNWk9x — bookmark manager\n42. https://t.co/JCPE1azurg — task list\n43. https://t.co/4NZqyL0VGf — boards\n44. https://t.co/fJju8lecx7 — whiteboard\n45. https://t.co/EjxXWG4Nes — design\n46. https://t.co/kFr6p0jmw1 — quick graphics\n47. https://t.co/Wv5dNqTyKU — again because it's that good\n48. yt-dlp — video download (open source)\n49. https://t.co/Q386r6mcbC — video compress\n50. https://t.co/9pcBBcY0gy — local file transfer\n\nSave this. You’ll definitely need some of these later. 🔖\nFollow @ArifAIHQ for more useful websites, AI tools & tech resources.",
+"likeCount": 129,
+"retweetCount": 71,
+"url": "https://x.com/ArifAIHQ/status/2120089422809186505",
+"createdAt": "Tue Nov 10 09:41:22 +0000 2026"
 },
 {
-"userName": "babylonsingular",
-"text": "Many of you have been tracking with me for nearly a decade. You have seen my posts. The good, the bad, and the ugly.\n\nThrough it all, I have made it my goal to stay connected to the faithful here on Christian Twitter. You have seen my daily posts about where I believe AI is ultimately heading and the people running point on the transhumanist agenda.\n\nI probably don’t come across as a trained theologian, but I do hold a theological degree. My rants and musings arise from Scripture. Behind them are years of study, writing, speaking, and research.\n\nI needed to know whether this perspective was defensible. Could it withstand close examination of the biblical text? Could it answer serious objections? Did it hold together theologically?\n\nAfter years of testing it, I am convinced it does.\n\nWhat is my view?\n\nThe Beast of Revelation is the final global governing order, powered by Superintelligence.\n\nThe False Prophet is the human Antichrist that represents the final order, speaks like the dragon, and exercises all of its authority.\n\nThe Mark of the Beast is a brain-computer interface that integrates human beings into the system.\n\nThe ten kings are a panel of Tech Oligarchs entrusted with authority over superintelligence who ultimately surrender their power to the Beast.\n\nThe Image is a synthetic biological embodiment of the Beast, giving it a body and serving as a counterfeit of the Incarnation.\n\nThose who have followed me over the years know this is my perspective. Now, for the first time, I have brought the full argument together in a book:\n\nTechno-Futurist Eschatological Perspective:\nAn Exegetical and Theological Reassessment of the Beast, Antichrist, and the End of the Age.\n\nThis is a serious, technically demanding, scholarly theological treatise. I examine the passages, address competing interpretations, and defend the case that this perspective offers greater exegetical and theological coherence than the conventional framework popularized by the Left Behind series.\n\nI present this work to you before God.  I have done my best.\n\nI challenge you to read it with your Bible open. Test the argument.\n\nThe purpose reaches beyond winning a theological debate. The saints must recognize deception, endure opposition, and remain faithful to Jesus Christ.\n\nThis is my attempt to echo heaven's commands:\n1. Believe in the Lord Jesus and be saved.\n2. Do not be seduced by Babylon. Come out of her.\n3. Do not worship the Beast or receive its mark.\n\nMay heaven and earth bear witness today: I have blown the trumpet as loudly and clearly as I know how.\n\nThe paperback is appearing on Amazon internationally. I’ll share the US purchase link once that listing becomes available.",
-"likeCount": 25,
-"retweetCount": 4,
-"url": "https://x.com/babylonsingular/status/2119554094742564972",
-"createdAt": "Sun Nov 08 22:14:10 +0000 2026"
+"userName": "Mohiniuni",
+"text": "This is an actual goldmine for every AI nerd!!\n\n7 free AI courses on GitHub, from building your first AI agent to building your own LLM. \nThey teach more than most paid ones:\n\n1. LLMs-from-scratch (107k stars). Build a ChatGPT-like model in PyTorch, step by step, from tokenizer to finetuning.\nhttps://t.co/NhyDiSnDIb\n\n2. Microsoft's AI Agents for Beginners (79k). 18 lessons with code: tools, RAG, multi-agent, memory, security.\nhttps://t.co/gOTi0mW4sH\n\n3. Hugging Face Agents Course (32k). From your first agent to a GAIA final project, with a certificate at the end.\nhttps://t.co/RnEkBALSTJ\n\n4. 12-Factor Agents (27k). 12 principles for agents that hold up in production.\nhttps://t.co/se5GjZOkRN\n\n5. Anthropic's courses (23k). API basics, prompt engineering, evals and tool use, straight from the Claude team.\nhttps://t.co/EEmwWgN9O7\n\n6. Agents Towards Production (22k). 24 code-first tutorials: memory, MCP, security, tracing, deployment.\nhttps://t.co/rsJRBLziNy\n\n7. Learn Harness Engineering (21k). Why agents fail on real tasks and how to make them finish.\nhttps://t.co/WSMjJ60eCf\n\n8. AI Foundations for Everyone Specialisation:\nhttps://t.co/K9iNX3ot89\n\n9. Generative AI for Project Managers Specialisation:\nhttps://t.co/SUH4vUSJDA\n\n10. IBM AI Foundations for Business Specialisation:\nhttps://t.co/M5KRHjga9f\n\n11. Generative AI for Executives and Business Leaders Specialisation:\nhttps://t.co/d2Am7cHtYF\n\n12. Introduction to UGC & Short-Form Video Production with AI: \nhttps://t.co/fTb2uW4TsH\n\n13. AI Video Avatars: Launch Your Automated Social Media Machine:\nhttps://t.co/qfimilCcXw\n\n14. AI for Video Production: \nhttps://t.co/WVPivn9dEr\n\n15. AI Image Generation and Content Creation:\nhttps://t.co/7evvqIcxne\n\n16. AI Video Creation: A Beginner's Guide to Realistic AI Videos:\nhttps://t.co/s2yYAhtgnh\n\nBookmark for more!",
+"likeCount": 47,
+"retweetCount": 17,
+"url": "https://x.com/Mohiniuni/status/2120213815149404392",
+"createdAt": "Tue Nov 10 17:55:39 +0000 2026"
 },
 {
-"userName": "unfilteredranjn",
-"text": "50 AI tools that will save you hundreds of hours in 2026. 🤯\n\n1. Claude — Solve any problem\n2. Perplexity — Research anything\n3. PortfolioTab — Create your portfolio\n4. Kling AI — Create AI videos\n5. Tripo AI — Create 3D models\n6. Gemini — Perfect writing\n7. CapCut — Edit videos\n8. The AI Library — Discover useful AI tools\n9. YouLearn — Summarize YouTube videos\n10. Canva — Design graphics\n11. ElevenLabs — Clone voices\n12. Podcastle — Edit podcasts\n13. ChatGPT — Brainstorm ideas\n14. NotebookLM — Analyze documents\n15. Lovable — Build web apps\n16. Bolt new — Generate full-stack apps\n17. Cursor — AI coding assistant\n18. Windsurf — AI software development\n19. Replit — Build apps in your browser\n20. Gamma — Create presentations\n21. HeyGen — Create AI avatar videos\n22. Synthesia — Generate AI presenter videos\n23. Midjourney — Generate AI art\n24. Ideogram — Create images with text\n25. Runway — AI video editing\n26. Pika — Generate AI videos\n27. Luma AI — Create cinematic AI videos\n28. Leonardo AI — Create game assets & artwork\n29. Figma AI — Design UI/UX\n30. Framer AI — Build websites\n31. Tally — Create smart forms\n32. Otter ai — Transcribe meetings\n33. Fireflies ai — AI meeting notes\n34. Granola — AI meeting assistant\n35. Wispr Flow — Voice-to-text\n36. Zapier — Automate workflows\n37. Make — Connect apps with automation\n38. n8n — Open-source automation\n39. Photoroom — Edit product photos\n40. Remove bg — Remove image backgrounds\n41. Suno — Generate AI music\n42. Udio — Create original songs\n43. DeepL — Translate accurately\n44. Poe — Access multiple AI models\n45. Grok — Real-time AI assistant\n46. Genspark — AI super agent\n47. Manus — Autonomous AI agent\n48. Elicit — Research papers faster\n49. SciSpace — Understand research papers\n50. Notion AI — Write and organize notes\n\n✅ Save this list—you'll probably use it more than you think.",
-"likeCount": 9,
-"retweetCount": 0,
-"url": "https://x.com/unfilteredranjn/status/2119685573078360071",
-"createdAt": "Mon Nov 09 06:56:37 +0000 2026"
+"userName": "aakashgupta",
+"text": "Engineers gave a trained robot a new hand, and it forgot how to do its job. Task success fell to almost zero. This was a simulation study, and all they did was swap the gripper.\n\nGetting it back took no retraining. @hedra_labs matched the new gripper's reach and grasp point in the wrist camera and success returned to near 100%, which tells you how tightly the robot's skill was tied to the exact hand it trained with.\n\nChatGPT learned from the whole internet, and robots have nothing like that to learn from. There is no internet of robot data. Each robot and factory line produces its own video, sensor streams and simulation, way more data than text, and a general-purpose model wasn't built on any of it. So these teams have to train on their own data, and a lot of them have the hardware and the sims without a research lab to do it.\n\nModel Factory, which just launched, bets those teams would rather rent that lab than build one. You bring a simulator, AI scientists run the training experiments while human researchers steer, and the model keeps collecting data after it ships. They say they ran it on their own stack first, where Krea 3's 2K image edits dropped from about 22 seconds to 3.6 on the same four AMD GPUs in under a week.\n\nI'd judge a robotics team by how fast its second model shows up, since the first one goes stale the day somebody changes the hardware. Frontier labs already use models to help build their next model, and robots and factory floors are next in line for that loop.",
+"likeCount": 27,
+"retweetCount": 9,
+"url": "https://x.com/aakashgupta/status/2120210602870362254",
+"createdAt": "Tue Nov 10 17:42:53 +0000 2026"
 },
 {
-"userName": "RockGrokAI",
-"text": "✨ Virtual Try-On: Porcelain Cyborg ✨\n\nUpload a photo with a person (or people/animals), then replace [reference image] in the prompt with your image reference (for example, @image1 in Grok Imagine).\n\nPrompt: Photorealistic ultra-detailed 8K photograph of the scene and subjects from the [reference image]. All humans and animals are transformed into beautiful porcelain cyborgs while keeping their faces completely unchanged and identical to the original - exact same facial features, skin tone, expression, eyes, hair, and identity.\n\nMajor portions of their skin, scales, fur, or outer layer are now luxurious, deeply waxed, high-gloss blue and white porcelain panels with elegant gold decorative trim and smooth rounded porcelain edges at every joint. The joints are partially exposed and fully mechanical: intricate assemblies of solid gold and polished stainless steel cogs, gears, actuators, and pistons, combined with black carbon fiber gaskets and delicate flexible tubing.\n\nA few subtle access panels with crystal-clear transparent hatches reveal complex internal cybernetics including tiny detailed circuit boards, glowing blue and red micro-tubing, and advanced machinery.\n\nPreserve the original pose, body position, clothing (integrated realistically with the cyborg form), composition, background, and lighting exactly. Hyper realistic textures, perfect reflective shine on the porcelain and polished metal surfaces, museum-quality detail, cinematic volumetric lighting, masterpiece.",
+"userName": "ClementDelangue",
+"text": "Open-source is critical for robotics AI. It means a student, a researcher or a startup can build on years of progress and contribute something the whole community can use rather than concentrating everything in a few companies building a black-box robot. \n\nThat’s why we’re building @huggingface into the platform for open-source robotics AI! Amazing to see the progress we've made in the six months and it's accelerating!\n\n- Almost 100,000 public robotics datasets on https://t.co/QIPmkxCk57, up 48%\n- Over 30,000 public robotics models, up 41%\n- Microduck and Reachy mini, our open-source robots became the most popular robot of 2026 (probably ending the year with 50,000+ sold and 20,000+ shipped)\n- We’re a founding partner of @RoboColosseum, evaluating robots across 140+ real-world scenes. Every run is published publicly on HF, including failures, so everyone can learn from what actually happens.\n\nAnd @LeRobotHF got downloaded over 1M times and v0.7.0 just landed with new world action models, interactive robot control and remote GPU inference: https://t.co/Euoz11Ccc5!\n\nHuge thanks to everyone making this happen 🤗🦾",
+"likeCount": 727,
+"retweetCount": 84,
+"url": "https://x.com/ClementDelangue/status/2118751330927780154",
+"createdAt": "Fri Nov 06 17:04:16 +0000 2026"
+},
+{
+"userName": "AI_Reveals",
+"text": "10 AI Skills You NEED to Master in 2026!\n\nThe future belongs to people who know how to work with AI.\n\nAI is no longer just a tool for generating text or images. It's transforming how we work, create, learn, and build businesses.\n\nIf you want to stay ahead in 2026, these 10 AI skills can give you a serious advantage:\n\nAI Prompt Engineering\nAI Automation & Workflow Building\nAI Agent Development\nAI Image Generation\nAI Video Creation\nAI Coding & Development\nAI Data Analysis\nAI-Powered Content Creation\nAI Research & Productivity\nAI Integration for Business\n\n🔥 Don't just watch AI change the world.\n\nLearn how to use it to create opportunities.\n\nThe question isn't whether AI will change your future.\n\nIt's whether you'll be ready for it.\n\nLike+comment+repost \n\nFollow : @AI_Reveals for more.",
 "likeCount": 14,
-"retweetCount": 1,
-"url": "https://x.com/RockGrokAI/status/2119807225375908201",
-"createdAt": "Mon Nov 09 15:00:01 +0000 2026"
-},
-{
-"userName": "Blue2black",
-"text": "The Nomination process is OPEN for the Web3 Artists Awards 2026\n\n40 categories across on-chain excellence.\n\nVisual Arts & Photography\nAnalogue Painting, Drawing, Digital Painting, AI Painting, VR Painting, Documentary/Photojournalism, Fine-art/Commercial Photography, Graphic Design, Mixed Media, Digital + AI Mixed Media, 3D Modeling/Sculpture\n\nAnimation, Video & Generative\nMixed Video, Traditional Animation, Digital Animation, AI Animation, Best AI Short Film (5+/- min), Generative Art / Code Art\n\nMusic & Audio\nAI Composition, Best Producer/Studio, Traditional/Acoustic Performance, Songwriter of the Year\n\nLiterary & Spoken Word\nWritten Word, Spoken Word, Poetry\n\nMetaverse, Fashion & Immersive\nMetaverse Architecture, Immersive/Experiential, Digital Fashion, AI Fashion, Best Token-Gated Community & Utility\n\nCommunity, Impact & RWA\nNFT for Social Impact/DAO, Tokenized Luxury & Collectibles, Real Estate, Financial Asset (RWA), Gaming & P2E, DID & Soulbound, Marketplace/Platform Innovation\n\nCapstone Awards\nBest use of AI in art, Emerging Artist, Best Memecoin, Best Decentralization & Governance\n\n🔗 Nominate: https://t.co/R3OknxBlKu\n\nOne entry per category. Multiple nominations welcome.\n\n@W3ArtistsAwards",
-"likeCount": 22,
-"retweetCount": 5,
-"url": "https://x.com/Blue2black/status/2118072652388557094",
-"createdAt": "Wed Nov 04 20:07:26 +0000 2026"
-},
-{
-"userName": "eachlabs",
-"text": "From AI agents to film studios, more and more of generative media now runs through each::labs. Our co-founder and CEO @eftalyurtsevenn sat down with @cnbceofficial’s Sıfırdan 1'e to talk about how we got here 🎙️\n\nHere are just a few of the key points you’ll find in the episode:\n\n→ AI agents are becoming some of our biggest users. Since we launched our MCP, they run the whole production flow through each::labs, so teams ship far more than before\n\n→ New models come out every week. Our intelligence layer picks the best and most up-to-date one for every task, so teams don’t have to track every model themselves and they save up to 40%\n\n→ Film and production studios now do a big part of their work on each::labs, from new camera angles to reworking scenes after the shoot\n\n→ For retail, fashion or AI app teams running millions of generations a day, we post-train models built for exactly that job\n\nThere’s a lot more waiting for you in the full episode ⤵\n\nhttps://t.co/GVPDHFOK4v",
-"likeCount": 16,
-"retweetCount": 2,
-"url": "https://x.com/eachlabs/status/2119822947732889762",
-"createdAt": "Mon Nov 09 16:02:29 +0000 2026"
+"retweetCount": 11,
+"url": "https://x.com/AI_Reveals/status/2120383061540123095",
+"createdAt": "Wed Nov 11 05:08:11 +0000 2026"
 },
 {
 "userName": "Monaqbuv",
-"text": "Here is a detailed AI image generation prompt based on the visual style and elements of the image:\n> Prompt:\n> A cinematic medium shot of a celestial mermaid fantasy portrait. A stunning young woman with long, dark, voluminous curly hair adorned with intricate pearl hairpieces, a delicate pearl head chain, and dangling pearl drop earrings. She has ethereal, glowing makeup with subtle glitter, pink blush, and pearl accents around her eyes. She wears an ornate white top covered in shimmering pearls with an off-the-shoulder silky puff sleeve, a choker necklace, and matching pearl bracelets. She is posed gracefully with her arms resting on a reflective, water-like metallic surface surrounded by scattered pearls and seashells. The background features a deep aquatic blue tone with dramatic, shifting caustic light refractions and water caustics dancing across her skin and the walls. Photorealistic, high fashion editorial lighting, soft shimmer, 8k resolution, aspect ratio 4:5.\n>",
-"likeCount": 10,
-"retweetCount": 0,
-"url": "https://x.com/Monaqbuv/status/2119897824389214662",
-"createdAt": "Mon Nov 09 21:00:01 +0000 2026"
-},
-{
-"userName": "pprownets2023",
-"text": "จาก AI Demo สู่ Real-World Impact: 5 บทเรียนถอดรหัส Framework ระดับโลก เปลี่ยนไอเดีย AI ให้กลายเป็นผลิตภัณฑ์สร้างรายได้ https://t.co/Zo0Kvm1dEx",
-"likeCount": 6,
+"text": "Here is a detailed, high-fashion AI image generation prompt optimized for vertical 4:5 portrait rendering, inspired by this image:\n> High-fashion editorial portrait of a woman with long flowing black hair, leaning gracefully against a rugged moss-covered coastal rock. She is wearing an ethereal, sheer sky-blue beaded gown with delicate crystal embellishments, cascading sheer fabric drapes, and intricate detailing. Soft natural ocean backdrop with gentle waves and a pastel twilight sky filled with wispy clouds, soft golden hour lighting, 8k resolution, photorealistic, elegant luxury aesthetic --ar 4:5\n>",
+"likeCount": 32,
 "retweetCount": 3,
-"url": "https://x.com/pprownets2023/status/2119614727529881869",
-"createdAt": "Mon Nov 09 02:15:06 +0000 2026"
+"url": "https://x.com/Monaqbuv/status/2120131862513217796",
+"createdAt": "Tue Nov 10 12:30:00 +0000 2026"
 },
 {
-"userName": "QCOMResearch",
-"text": "Personalize text-to-image diffusion with far less memory. Our new @qualcomm paper at #NeurIPS2026:\n\n\"Mix-Opt: Mixed Optimization for Memory-Efficient Personalization of Text-to-Image Diffusion Models\"\n@SeokeonC\n\nhttps://t.co/2rdlLPU874\n#DiffusionModels #AI",
-"likeCount": 16,
+"userName": "k1rallik",
+"text": "i still don’t understand why more creators aren’t connecting Grok Bot to Picsart\n\nit could make you money &amp; change how you work..\n\ni wrote the full playbook: AI influencers, memes, videos, automation, and monetization - with prompts you can copy ↓ https://t.co/fHcjYJydls",
+"likeCount": 171,
 "retweetCount": 5,
-"url": "https://x.com/QCOMResearch/status/2119867680622518420",
-"createdAt": "Mon Nov 09 19:00:14 +0000 2026"
+"url": "https://x.com/k1rallik/status/2119784591426789830",
+"createdAt": "Mon Nov 09 13:30:04 +0000 2026"
+},
+{
+"userName": "nizzyabi",
+"text": "i've been texting instinct since august. it's one of the most thoughtful products i've used this year, so i took the whole thing apart to see why.\n\nat the end i show how to build an assistant like it with keiki :) https://t.co/Ty34t3EirG",
+"likeCount": 545,
+"retweetCount": 25,
+"url": "https://x.com/nizzyabi/status/2120194267066863738",
+"createdAt": "Tue Nov 10 16:37:59 +0000 2026"
+},
+{
+"userName": "ClementDelangue",
+"text": "RT @calebfahlgren: Someone just dropped 1.4 million pixel art sprites on Hugging Face 😱👾\n\nfree to use, captioned, 16×16\n\nhttps://t.co/ZFY0h…",
+"likeCount": 5681,
+"retweetCount": 421,
+"url": "https://x.com/ClementDelangue/status/2119883964076916934",
+"createdAt": "Mon Nov 09 20:04:57 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
 "text": "RT @NousResearch: Introducing Arete-27B: Qwen3.8-27B, post-trained to reinforce Western values.\n\nChinese open models are currently the stro…",
-"likeCount": 14829,
-"retweetCount": 1478,
+"likeCount": 15049,
+"retweetCount": 1488,
 "url": "https://x.com/ClementDelangue/status/2118852611805684166",
 "createdAt": "Fri Nov 06 23:46:43 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @joelniklaus: I burned a shitload of compute so you don't have to. Releasing the Harness Leaderboard.\n\nWhich harness should you run your…",
-"likeCount": 2595,
-"retweetCount": 269,
-"url": "https://x.com/ClementDelangue/status/2118734030996660321",
-"createdAt": "Fri Nov 06 15:55:31 +0000 2026"
+"text": "RT @varien: We've open-sourced Qwen Concept 27B, our first model.\n\nIt applies direct weight-space edits (inspired by the recent MIT CSAIL \"…",
+"likeCount": 850,
+"retweetCount": 71,
+"url": "https://x.com/ClementDelangue/status/2118810949024940507",
+"createdAt": "Fri Nov 06 21:01:10 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @joelniklaus: OpenCode 2 far outscores OpenCode 1.19: from 8th of 9 harnesses to tied for first on all three models.\n\nIt replaces 1.19 i…",
-"likeCount": 738,
-"retweetCount": 42,
-"url": "https://x.com/ClementDelangue/status/2119835713403490383",
-"createdAt": "Mon Nov 09 16:53:13 +0000 2026"
-},
-{
-"userName": "jeremyphoward",
-"text": "RT @ramez: Anthropic is gaining exponentially less capability per billion dollars spent over time. It's now 8x as expensive to boost AI cap…",
-"likeCount": 1257,
-"retweetCount": 161,
-"url": "https://x.com/jeremyphoward/status/2119629034971893992",
-"createdAt": "Mon Nov 09 03:11:57 +0000 2026"
+"text": "RT @AntonioGracias: 100%, Gavin. America would not be ahead in the AI race without Jensen. He clearly made a mistake. One mistake does not…",
+"likeCount": 1299,
+"retweetCount": 85,
+"url": "https://x.com/ClementDelangue/status/2120300699330470161",
+"createdAt": "Tue Nov 10 23:40:54 +0000 2026"
 },
 {
 "userName": "ClementDelangue",
-"text": "RT @Gradio: A Hackathon to kick-start your AI research career? https://t.co/SInsk3S73a",
-"likeCount": 425,
-"retweetCount": 21,
-"url": "https://x.com/ClementDelangue/status/2119386902201872812",
-"createdAt": "Sun Nov 08 11:09:48 +0000 2026"
+"text": "RT @googlegemma: Put a Gemma-based model in a robot body. First thing it does: scan the room, spot the giant TV, and start a movie break.…",
+"likeCount": 616,
+"retweetCount": 52,
+"url": "https://x.com/ClementDelangue/status/2119904879129030861",
+"createdAt": "Mon Nov 09 21:28:03 +0000 2026"
 },
 {
-"userName": "WraithOnX_",
-"text": "Everything you need to know! https://t.co/3qTswQnc2e",
-"likeCount": 15,
-"retweetCount": 4,
-"url": "https://x.com/WraithOnX_/status/2119621069963206950",
-"createdAt": "Mon Nov 09 02:40:18 +0000 2026"
+"userName": "0xWroomie",
+"text": "https://t.co/t5bkvFNYL5",
+"likeCount": 20,
+"retweetCount": 1,
+"url": "https://x.com/0xWroomie/status/2120177243552886801",
+"createdAt": "Tue Nov 10 15:30:20 +0000 2026"
+},
+{
+"userName": "mqasem",
+"text": "https://t.co/AQFRBFPokk",
+"likeCount": 322,
+"retweetCount": 25,
+"url": "https://x.com/mqasem/status/2120336630011892044",
+"createdAt": "Wed Nov 11 02:03:41 +0000 2026"
 }
 ]
